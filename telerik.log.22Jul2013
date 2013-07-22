@@ -251,3 +251,218 @@
 [15:08:22] Iavoreo (~Iavoreo@85.14.24.30) left irc: Client Quit
 [15:08:47] Iavoreo (~Iavoreo@85.14.24.30) joined #telerikacademy.
 [15:28:50] edrenchev (4e5a2453@gateway/web/freenode/ip.78.90.36.83) joined #telerikacademy.
+[15:39:17] <vhristev> стига сте учили
+[15:39:19] <vhristev> http://www.y8.com/games/whack_your_ex
+[15:39:21] <vhristev> малко релакс
+[15:39:22] <vhristev> (;
+[15:42:17] <edrenchev> :)
+[15:42:52] <edrenchev> вече има роот права в гризли
+[15:42:57] <edrenchev> :Д
+[15:43:44] <KpeTeHoug> аха
+[15:43:46] <vhristev> аз бих си пуснал една виртуалка
+[15:43:54] <vhristev> вече машините са доста мощни
+[15:44:02] <vhristev> все един линукс с 1 процесор и 256 рам ще издържи
+[15:44:40] <edrenchev> :)
+[15:44:58] <edrenchev> е да, но за вкъщи вече
+[15:45:08] <vhristev> еми това е трейнинг машина
+[15:45:15] <vhristev> аз щях да дам бая виртуалки
+[15:45:21] <vhristev> ама тока почна да спира в седмицата по 3-5 пъти
+[15:45:25] <vhristev> и УПС не издържа
+[15:45:36] <vhristev> тъйче се отказах да предоставям нещо което няма да работи и само ще изнервя хората
+[15:45:51] <edrenchev> аз да попитам гледам, че нямам място за нов партишън мога ли да намаля тоя където е 50 ГБ и да си направя 2 с по 500 МБ ?
+[15:46:52] <vhristev> аз никога не съм се логвал
+[15:46:57] <vhristev> ама все пак виж дали има информация на тоя партипън
+[15:47:02] <vhristev> може и някой друг да го ползва за нещо
+[15:47:19] <edrenchev> еми то не е ли само мой
+[15:47:20] <edrenchev> ?
+[15:47:23] <edrenchev> :)
+[15:47:37] <vhristev> 50ГБ за теб ..... ммм нз ще те излъжа
+[15:48:17] <edrenchev> добре, няма да бърникам по гризлито за такива неща
+[15:49:22] <yulimoto> да, общото мнение е че партишъни НЕ се правят на гризлито
+[15:49:51] <yulimoto> препоръчва се всеки да си направи виртуалка за целта
+[15:49:56] <yulimoto> и да си цепи
+[15:49:57] <yulimoto> на воля
+[15:50:33] <edrenchev> разбирам. благодаря за информацията
+[15:51:12] <yulimoto> това съм чул, това казвам :)
+[15:51:40] <yulimoto> бахти викам да направя един hub ; fatal: The remote end hung up unexpectedly ; баси грешката
+[15:51:44] <yulimoto> някакви идеи
+[15:52:06] <yulimoto> това като искам да pushvam
+[15:53:20] <KpeTeHoug> аз почнах и аз за гит хъбвам
+[15:53:25] <KpeTeHoug> ама утре ще е :) няма време
+[15:58:06] <yulimoto> KpeTeHoug: https://github.com/lac-repository/telerikacademy-channel-log
+[15:58:09] <yulimoto> :)
+[15:58:31] <yulimoto> lac == linux admistration course
+[15:58:53] <KpeTeHoug> бравус
+[15:59:02] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[15:59:05] <KpeTeHoug> начи утре ще си рпавя моя локална версия
+[15:59:12] Action: KpeTeHoug  Sticks this@}>--'--,--'---  up  dencho-at-work 's butt and I hope the Thorn sticks you in the  (_(_)
+[15:59:13] <yulimoto> уууу аре ве dencho-at-work
+[15:59:13] <dencho-at-work> drasti we
+[15:59:24] <dencho-at-work> are de, ama nema vreme
+[15:59:35] <yulimoto> така така
+[15:59:39] <KpeTeHoug> git ти ли го сетваш кога да се синква
+[15:59:42] <KpeTeHoug> или може ауто ?
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:00] <yulimoto> ще стане ауто
+[16:00:19] <yulimoto> само трябва да ти дам ssh - key da ne se pishat paroli
+[16:00:19] <dencho-at-work> za kakvo si prikazvate
+[16:00:29] <KpeTeHoug> недей
+[16:00:33] <yulimoto> що
+[16:00:49] <dencho-at-work> ZA KAKVO SI PRIKAZVATE
+[16:00:50] <dencho-at-work> :D
+[16:01:00] <KpeTeHoug> за бекъп на нашите си важни логове
+[16:01:01] <KpeTeHoug> :)
+[16:01:10] <KpeTeHoug> искам да кажа, кое е сприоритет при синк
+[16:01:20] <KpeTeHoug> оригинала, гит хъба
+[16:01:23] <KpeTeHoug> или равносилно
+[16:01:28] <dencho-at-work> mi ta beckup-vaite u nas :D
+[16:01:37] <KpeTeHoug> да не стане като зачезне оригинала
+[16:01:42] <KpeTeHoug> да махне и миръра
+[16:01:48] <yulimoto> ако искаш пиши парола, ако искаш ще ти сложа един файл в .ssh и ще се логваш автоматично, аз така правя на grizlito не пиша пароли, ами с ssh директно
+[16:02:08] <yulimoto> ами гит-a си е сложно
+[16:02:19] <dencho-at-work> da ne e imalo troshene ?
+[16:02:20] <yulimoto> когато правиш гит пуш
+[16:02:22] <yulimoto> пращаш
+[16:03:03] <KpeTeHoug> ясно
+[16:03:06] <yulimoto> ще направим едно малко скриптче да праща към хъба, хубавото е че могат да се връщат предните версии (commits)
+[16:03:12] <dencho-at-work> tva Въпрос за хардлинк. vinagi go cheta kato Въпрос за хладилник.
+[16:03:13] <dencho-at-work> :D
+[16:03:15] <KpeTeHoug> не е имало трошене, ма то бекъп се прави преди това
+[16:03:31] <KpeTeHoug> аа, това имах предвид yulimoto
+[16:03:34] <yulimoto> KpeTeHoug: да
+[16:03:38] <KpeTeHoug> тогава го прави да е ауто
+[16:03:44] <KpeTeHoug> щом може да се ролбеква
+[16:03:45] <KpeTeHoug> :)
+[16:03:51] <yulimoto> и утре е ден или довечера ще го правя
+[16:03:56] <KpeTeHoug> dencho-at-work щото ти се пие бира
+[16:04:02] <dencho-at-work> da vi kaja li kak nqma da ima problemi... kato si pusnete backup bot :P
+[16:04:03] <dencho-at-work> t.e
+[16:04:06] <dencho-at-work> o6te edin bot da logva
+[16:04:07] <dencho-at-work> :D
+[16:04:09] <dencho-at-work> ot drugo pc
+[16:04:09] <dencho-at-work> :d
+[16:04:11] <dencho-at-work> ya!
+[16:04:14] <KpeTeHoug> :)
+[16:04:35] <dencho-at-work> pc, back up pc :D
+[16:04:53] <dencho-at-work> ediniq bot buta logovete na drugia a drugia buta logovete na ediniq
+[16:04:57] <yulimoto> ха ами то ако става въпрос просто ще си пусна irssi на shevа–та и тя ще си дреме в канала и ще записва
+[16:04:58] <dencho-at-work> i dvata botove si butat logovete
+[16:05:13] <dencho-at-work> sheva-ta ?!
+[16:05:19] <yulimoto> sheeva plug
+[16:05:29] <dencho-at-work> ot kade?
+[16:05:38] <yulimoto> http://en.wikipedia.org/wiki/SheevaPlug
+[16:05:45] <dencho-at-work> ot kade 6te go pusne6 :D
+[16:06:08] <yulimoto> имам едно малко линуксче колкото телефон
+[16:06:14] <yulimoto> там си пускам разни работи
+[16:06:26] <yulimoto> и общо взето експериментирам
+[16:06:27] <dencho-at-work> :D
+[16:06:33] <dencho-at-work> kolkoto telefon ?
+[16:06:42] <yulimoto> вж. линка
+[16:06:44] <dencho-at-work> tova ne go razbrah :D
+[16:06:56] <yulimoto> т.е. компютърчето на което има линукс е колкото телефон
+[16:07:04] <dencho-at-work> ahaaaaaa
+[16:07:05] <dencho-at-work> :D
+[16:07:08] <yulimoto> еййй
+[16:07:08] Action: dencho-at-work slaps dencho-at-work 
+[16:07:20] <yulimoto> ще кажеш, че не ме разбра
+[16:07:20] <dencho-at-work> away :D pusni back up eggdrop :D
+[16:08:00] <yulimoto> нали ще пуснем repository
+[16:08:00] <KpeTeHoug> е сега
+[16:08:01] <dencho-at-work> tva sheeva za kakvo sluji ?
+[16:08:06] <KpeTeHoug> нали трябва да работим елегантно
+[16:08:17] <dencho-at-work> KpeTeHoug: tova e elegantno :D
+[16:08:18] <KpeTeHoug> не секирата д мажем масло на филия
+[16:08:33] <KpeTeHoug> ами с нож за маслко
+[16:08:36] <KpeTeHoug> *масло
+[16:08:41] <KpeTeHoug> с гравюри по него
+[16:09:19] <yulimoto> ако се наложи няма проблем, но нали го мъча и ще стане уж да пусна бот и после трбява постоянно да го мисля, щото примерно правя партишъни туй-онуй мъча буутлоудъра и т.н.
+[16:09:28] <vhristev> ще правите Инсепшън в Бота друг бот
+[16:09:29] <vhristev> хахаха
+[16:09:29] <vhristev> (;
+[16:09:49] <KpeTeHoug> :)
+[16:09:56] <KpeTeHoug> и в тях едно bnc
+[16:10:02] <yulimoto> цц
+[16:10:06] <KpeTeHoug> закавено на VPS
+[16:10:12] <yulimoto> цц
+[16:10:23] <KpeTeHoug> през VPN  в Камбоджа
+[16:10:30] <yulimoto> първо да оправим githuba
+[16:10:42] <yulimoto> после ще се мисли за още простотии
+[16:10:45] <KpeTeHoug> ^_^
+[16:10:49] <KpeTeHoug> ето
+[16:11:02] <KpeTeHoug> дойде dencho и развали работният дух :)
+[16:11:06] <yulimoto> ахахах
+[16:11:17] <yulimoto> той поне да беше хапнал нещо
+[16:11:33] <yulimoto> днес
+[16:12:26] <yulimoto> вчера сърър днс-а на grizzly спря да работи
+[16:12:39] <yulimoto> това го казвам за протокола
+[16:13:03] <KpeTeHoug> да, гелдах нещо по логовете
+[16:14:07] <yulimoto> пуснах гугълски
+[16:14:35] <yulimoto> сутринта пак го смених на оригиналния, но пак не бачкаше и оставих гугълския
+[16:15:06] <KpeTeHoug> 8,8,8,8 е дъ бест
+[16:15:16] <KpeTeHoug> и аз го ползвам като алтернтивен
+[16:15:21] <KpeTeHoug> по всичките машни дето правя
+[16:15:22] <dencho-at-work> hora
+[16:15:29] <dencho-at-work> nqkoi virtualiziral li e s kvm ?
+[16:15:41] <KpeTeHoug> nнайн
+[16:15:41] <dencho-at-work> HORA
+[16:15:42] <dencho-at-work> :D
+[16:16:28] <vhristev> вече има zNC
+[16:16:35] <vhristev> малко по яко е направено аз него си ползвам
+[16:16:48] <dencho-at-work> vhristev: private
+[16:17:24] <vhristev> Аз съм виртулизирал ама беше бая отдавна
+[16:18:02] <vhristev> и с KVM & OpenVZ
+[16:18:13] <phalaaxx> bind/powerdns/djbdns/maradns... това за recursive dns :)
+[16:18:16] <vhristev> разликата е ,че KVM-a ти е Guest OS правиш си виртуалка и си слагаш ОС-а вътре
+[16:18:44] <vhristev> а OPenVZ-то ти е темплейт готов свален който стартираш за 5мин. Така начерените контейнери
+[16:18:59] <phalaaxx> иначе на гугъл са 8.8.8.8 и 8.8.4.4 (ако някой знае и други техни - да споделя)
+[16:19:14] <phalaaxx> ама предпочитам локалния cache
+[16:19:43] <phalaaxx> не че някой ме пита де но аз да си кажа
+[16:22:08] <yulimoto> phalaaxx: какво за рекурсив днс
+[16:22:09] <yulimoto> ?
+[16:22:39] <yulimoto> това не са ли направо dns servers
+[16:22:53] <phalaaxx> онова дето се слага в /etc/relolv.conf - то се нарича recursive dns
+[16:22:53] <yulimoto> което си дал
+[16:22:55] <phalaaxx> или dns cache
+[16:23:03] <phalaaxx> не е задължително
+[16:23:26] <phalaaxx> можеш да си сложиш pdns-recursor и да си имаш локален cache без authoritative dns
+[16:23:55] <yulimoto> аха
+[16:24:14] <vhristev> винаги може да си ползваш който ДНС искаш директно от командния
+[16:24:27] <yulimoto> нали се сещаш, че гугъл не са дали тези днс servers просто ей така ?
+[16:24:28] <vhristev> dig @DNS_SERVER_NAME google.com
+[16:24:35] <vhristev> това са публични
+[16:25:07] <phalaaxx> да, има и други публични
+[16:25:16] <vhristev> да ти кажа 2ва да знаеш ти стигат
+[16:25:27] <phalaaxx> то и 1 стига :D
+[16:25:27] <yulimoto> ами тия на гугъл
+[16:25:30] <yulimoto> 8888 8844
+[16:25:49] <phalaaxx> аз го ползвам само колкото да си изтегля някой dns cache и спирам да го ползвам след това :D
+[16:25:57] <vhristev> phalaaxx, да и едно е достатъчно и аз +N за редъндънси сложих
+[16:26:24] <yulimoto> аз не съм мн. на ясно с днс-ите
+[16:31:05] <vhristev> в linux-bg
+[16:31:11] <vhristev> има мн яка тема на 3 части за това как работи ДНС-а
+[16:31:15] <vhristev> мн добре обяснена
+[16:31:25] <yulimoto> добре довечера май
+[16:31:29] <yulimoto> ще е тая тема
+[16:32:48] <yulimoto> dencho-at-work: ко ша шраиш ще мигрираш от ина виртуалка на друга ? ; да и аз го чета хладилник
+[16:32:51] edrenchev (4e5a2453@gateway/web/freenode/ip.78.90.36.83) left irc: Quit: Page closed
+[16:33:26] <vhristev> аз отивам да поиграя тенис на маса с един колега
+[16:33:28] <vhristev> да го напукам
+[16:33:28] <vhristev> хахаха
+[16:33:29] <vhristev> (;
+[16:33:35] <yulimoto> напукай го
+[16:33:51] <yulimoto> да падне разглобен и да се моли
+[16:37:40] <phalaaxx> довечера ще слушаме ли по новините как човек бил напукан от колегата си при игра на тенис на маса? :D
+[16:40:06] Iavoreo (~Iavoreo@85.14.24.30) left irc: 
+[16:40:07] <phalaaxx> yulimoto: http://cr.yp.to/djbdns/intro-dns.html
+[16:45:00] <yulimoto> благодаря момчета
+[16:56:35] <dencho-at-work> yulimoto: 4akai purvo da instaliram 2 virtualki po otdelno puk posle 6te migrirame :D
+[16:57:04] <dencho-at-work> virtualbox vs kvm
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:02:49] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:12:08] <vhristev> хаахах
+[17:12:13] <vhristev> 3:1 гейма РУЛЕС
+[17:12:13] <vhristev> (;
+[17:13:01] <vhristev> ама  е хубаво да играеш с по-добри да вдигаш ниво
+[17:14:15] samy (~samy@77-85-14-50.btc-net.bg) left irc: Ping timeout: 268 seconds
