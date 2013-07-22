@@ -1,0 +1,1409 @@
+--- Day changed пт юли 05 2013
+00:06 -!- user99 [~McNamee@213.226.63.150] has quit [Ping timeout: 245 seconds]
+00:11 -!- sore|loser [4e5a59ab@gateway/web/freenode/ip.78.90.89.171] has quit [Quit: nervous brakedown]
+00:12 -!- user99 [~McNamee@213.226.63.150] has joined #telerikacademy
+00:14 -!- LupoTo_ [~root@cable-84-43-188-231.mnet.bg] has quit [Quit: leaving]
+00:15 -!- LupoTo [~root@cable-84-43-188-231.mnet.bg] has joined #telerikacademy
+00:17 -!- skatatika [bcfea2ea@gateway/web/freenode/ip.188.254.162.234] has joined #telerikacademy
+00:20 -!- skatatika [bcfea2ea@gateway/web/freenode/ip.188.254.162.234] has quit [Client Quit]
+00:27 -!- LupoTo [~root@cable-84-43-188-231.mnet.bg] has quit [Quit: leaving]
+00:30 -!- LupoTo [~root@cable-84-43-188-231.mnet.bg] has joined #telerikacademy
+00:30 < LupoTo>  /CHANNEL ADD -auto #telerikacademy
+00:32 < LupoTo> exit
+00:32 -!- LupoTo [~root@cable-84-43-188-231.mnet.bg] has quit [Client Quit]
+00:38 -!- Deyan_ [~Deyan@46.249.92.240] has joined #telerikacademy
+01:00 -!- Deyan_ [~Deyan@46.249.92.240] has quit [Quit: Leaving]
+01:05 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has quit [Quit: Page closed]
+01:05 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Remote host closed the connection]
+01:07 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+01:42 -!- botlike [~botlike@185.7.217.1] has joined #telerikacademy
+01:43 -!- botlike_ [~botlike@185.7.217.1] has joined #telerikacademy
+01:43 -!- botlike_ [~botlike@185.7.217.1] has quit [Client Quit]
+02:05 -!- user99 [~McNamee@213.226.63.150] has quit [Ping timeout: 245 seconds]
+02:14 -!- botlike [~botlike@185.7.217.1] has quit [Quit: Ex-Chat]
+02:53 -!- botlike [~botlike@185.7.217.1] has joined #telerikacademy
+02:53 < botlike> zdraveite
+02:53 < botlike> :D
+02:53 < botlike> koito me hakna shte mu se rasurdq  :)
+02:54 < phalaaxx> някой те е хакнал?
+02:54 < botlike> damm
+02:54 < botlike> vchera
+02:54 < botlike> vecher
+02:54 < botlike> ostavi me po grub :D
+02:55 < phalaaxx> иии как е станало?
+02:55 < botlike> nqmam ideq
+02:55 < botlike> pravih security testove
+02:55 < botlike> za ssl
+02:55 < botlike> predi tva
+02:55 < botlike> i ako skapaniq ruter e iztarval neshto navunka
+02:55 < botlike> moje da sam jegnal nqkoi
+02:55 < botlike> :d
+02:56 < botlike> testovete bqha nasocheni kum google :D
+02:56 < botlike> clear
+02:56 < botlike> ops
+02:56 < phalaaxx> ctrl-l
+02:56 < botlike> a
+02:57 < phalaaxx> по-лесно се ползва от clear :)
+02:57 < botlike> xax
+02:57 < phalaaxx> въпрос на навик ама...
+02:57 < phalaaxx> на мен ми е по-лесно
+02:57 < botlike> az po varzo shte go napisha
+02:57 < botlike> otkolkoto da go natisna
+02:57 < botlike> :D
+02:57 < phalaaxx> навици :)
+02:57 < botlike> nqma golemi navici
+02:58 < botlike> chaturski samo :D
+02:58 < botlike> bqh kvestor na olimpiqda v shumen po programirane
+02:58 < botlike> do 4 klas mai beshe
+02:58 < botlike> tam imashe edno lape
+02:58 < botlike> napravo me otrepa
+02:58 < botlike> ot pisane
+02:59 < botlike> pishe kavichki zapetai skovi vse edno si chati :D
+02:59 < botlike> na tova vikam trening :D
+02:59 < phalaaxx> аз съм пред дилема - да се мъча ли да си инсталирам centos или да не се занимавам с такива неща :D
+02:59 < botlike> krakata mu ot stola ne stigat do zemqta
+02:59 < botlike> az se probvah na laptopa
+02:59 < botlike> ama ne mi pozna toucha
+02:59 < botlike> i me domarzq da si igraq
+02:59 < botlike> da go opravam
+03:00 < phalaaxx> аа аз не на десктопа или на лаптоп, на тестова машина
+03:00 < botlike> nai loshoto e che mi ispisa che harda si zaminava :(
+03:00 < botlike> az ima na nastolniq
+03:00 < botlike> imam
+03:01 < phalaaxx> въпроса е че се чудя дали да си играя с това или да си седя на добрия стар дебиан да не вземе нещо да ми хареса
+03:01 < botlike> ама .. май и тои е хакнат трябва да проверя
+03:01 < botlike> цялата мрежа ми сасипа тоз бетер :Д
+03:01 < botlike> пиша с правописни грешки леле ...
+03:02 < phalaaxx> то принципно ми харесва де, много добре е пипнато като цяло
+03:02 < phalaaxx> ама не ме кефи рпм
+03:02 < phalaaxx> свикнал съм си на деб :)
+03:02 < botlike> аз на убунту ама то същото
+03:03 < botlike> ииииии Мандраке :)
+03:03 < botlike> има ли го това още
+03:04 < phalaaxx> е и аз съм с убунту за десктоп/лаптоп напоследък
+03:04 < phalaaxx> ама май ще си сложа добрия стар дебиан :)
+03:04 < botlike> слак :)
+03:04 < phalaaxx> мандрейк вече се казва мандрива
+03:04 < phalaaxx> от няколко години
+03:05 < botlike> гледах скоро някаде банерче линукс за деца :)
+03:05 < botlike> трябва да го пробвам
+03:06 < botlike> гаден чатърски навик имам да пиша ъ-тата с а ...
+03:06 < botlike> не мога да се понасям ...
+03:07 < phalaaxx> :D
+03:07 < botlike> :)
+03:07 < phalaaxx> всеки с проблемите си :P
+03:08 < botlike> удължили са срока за домашната
+03:08 < botlike> кажете кой ме хакна ..... :)
+03:08 < botlike> признайте си ...
+03:09 < botlike> :)
+03:10 < phalaaxx> няма :D
+03:12 < botlike> ах вий мръсници... :D
+03:12 < botlike> само hackman ще е :)
+03:13 < botlike> тества си утрешната лекция в/ху мен :)
+03:14 < phalaaxx> Bootable partitions cannot be on a logical volime
+03:14 < phalaaxx> страшно направо
+03:14 < phalaaxx> тоя цент
+03:14 < botlike> хах
+03:14 < botlike> вярвам в теб ще успееш
+03:15 < phalaaxx> мен от повече от година вече са ми все на logical volume а последния цент ще ме учи сега какво как да правя :)
+03:15 < botlike> хах
+03:16 < botlike> :)
+03:16 < botlike> аммм .. да те питам
+03:16 < botlike> те като са на ЛВ ...
+03:16 < botlike> как си избира каде да записва системните файлове по харда ?
+03:17 < botlike> примерно ако ти се прецака харда с част от информацията за системата
+03:17 < botlike> какво правим
+03:17 < phalaaxx> какво разбираш под системни файлове?
+03:17 < botlike> коре
+03:17 < botlike> ядрото
+03:17 < botlike> примерно
+03:18 < phalaaxx> амии записва си го като всеки друг файл
+03:18 < phalaaxx> работа на bootloader-а е да го намери къде е
+03:18 < botlike> така ...
+03:18 < botlike> ама примерно се скапе един хард
+03:19 < botlike> какво става
+03:19 < botlike> много отвеяни въпроси ти задавам
+03:19 < botlike> :)
+03:19 < phalaaxx> слагаш нов и инсталираш наново ако нямаш RAID1 :)
+03:21 < botlike> трябва да ги изгледам тези клипове за ОС ...
+03:21 < botlike> че RAID като кажете ...
+03:21 < botlike> и аз го свързвам с LVM
+03:21 < botlike> че са подобни
+03:21 < phalaaxx> ми не съвсем
+03:22 < phalaaxx> освен ако не ползваш RAID функционалноста в LVM...
+03:22 < phalaaxx> не съм го правил и май нямам особено желание за това
+03:22 < botlike> не беше ли обратното
+03:22 < botlike> LVM в RaiD
+03:23 < phalaaxx> нормално така се прави
+03:23 < phalaaxx> RAID и отгоре LVM
+03:23 < phalaaxx> въпроса е че в LVM има функционалност заради която можеш да не използваш md RAID-а
+03:24 < botlike> да
+03:24 < phalaaxx> но това не съм го пробвал и предпочитам да си ползвам md :)
+03:24 < botlike> ти сега си на райд .. така ли ?
+03:25 < phalaaxx> за workstation - не
+03:25 < phalaaxx> по разни сървъри ползвам
+03:26 < botlike> вие поне сте правили сървъри или работите това ..
+03:26 < botlike> аз един път правих уеб сървър в нас
+03:26 < botlike> и той издъхна на 2-рия месец
+03:26 < botlike> :)
+03:26 < phalaaxx> амии то и да си нямаш сървър - пак можеш да си поиграеш
+03:27 < botlike> е да де :)
+03:27 < phalaaxx> да видим значи...
+03:27 < botlike> ии тоя сървър беше голямо шоуууу :)
+03:27 < botlike> с хард 8 ГБ от 97-98 година
+03:27 < botlike> тракачка
+03:27 < botlike> като почнат да пишат по него
+03:28 < botlike> като комбайна оре диска
+03:28 < botlike> хахаха
+03:28 < botlike> не ме оставяше да спя
+03:28 < botlike> :)
+03:30 < botlike> phalaaxx, занимавам те с глупости маи не можеш да си свършиш работата :)
+03:31 -!- marian1 [~hackman@wolf.yuhu.biz] has joined #telerikacademy
+03:31 -!- marian1 is now known as hackman
+03:31 < phalaaxx> аа не, споко :)
+03:31 < phalaaxx> то това е забавно
+03:31 < botlike> аз съм спал 4 часа за последните 36 часа
+03:32 < hackman> качих клипчетата тъкмо
+03:32 < botlike> сега съм на 2 кафета
+03:32 < hackman> :)
+03:32 < botlike> опааааа
+03:32 < botlike> ето го хакера
+03:32 < botlike> :)
+03:32 < hackman> преди 10мин си влязох вкъщи :)
+03:32 < botlike> снощи ти ле прилопа :)
+03:32 < botlike> снощи ти ли ме прилопа :)
+03:32 < hackman> и веднага да ги кача :)
+03:32 < hackman> botlike: прилопа ?
+03:32 < phalaaxx> http://pastebin.com/QGWguQYy
+03:33 < botlike> хакна
+03:33 < hackman> phalaaxx: абсолютно
+03:33 < hackman> botlike: нямам си друга работа та с твоите проблеми да се занимавм :)
+03:33 < phalaaxx> абсолютно какво?
+03:34 < hackman> имам презентация да правя за конференцията в пловдив в събота ;)
+03:34 < phalaaxx> това беше за бота, идея как да си играе с райд :)
+03:34 < hackman> phalaaxx: така се прави :) и на практика има смисъл понякога, точно такъв setup
+03:34 < hackman> правил съм го real life
+03:34 < hackman> бегам да си взема душ и се връщам
+03:35 < phalaaxx> това в production нещо ли?
+03:36 < phalaaxx> иначе знам че така се прави, по подобен начин ми е домашното :D
+03:37 < botlike> ааа нали те мързеше :)
+03:37 < phalaaxx> превъзмогнах го :D
+03:37 < botlike> хах
+03:37 < botlike> :)
+03:38 < botlike> phalaaxx, трябва да чета за сигурност щом някой осра чисто ново убунту за нула време ....
+03:38 < botlike> кажи някой линк
+03:39 < botlike> да почета как да си защитя кашона
+03:39 < phalaaxx> сигурен ли си че са го нахакали?
+03:39 < botlike> дам
+03:39 < botlike> даже наглеца
+03:39 < phalaaxx> а защо?
+03:39 < botlike> написал Hacked un.. neshto si
+03:39 < botlike> преди да зареди Х-а
+03:40 < phalaaxx> таковатаааа... от къде го свали?
+03:40 < botlike> нямам идея :)
+03:41 < botlike> кое
+03:41 < botlike> убунтуто ли
+03:41 < phalaaxx> да
+03:41 < botlike> имах едно дискче
+03:41 < botlike> с убунту 10.нещо си
+03:41 < botlike> и го ъпдейт
+03:41 < botlike> до 12.04.2
+03:42 < botlike> 2 часа си играх с него
+03:42 < botlike> :)
+03:42 < botlike> за да му види сметката някои
+03:42 < botlike> иначе си ги свалям директно от сайта им
+03:43 < botlike> phalaaxx, дай ми Who is
+03:43 < botlike> ще ми видиш ИП
+03:44 < botlike> ако искаш се пробвай :)
+03:45 < phalaaxx> ти със същото убунту ли си?
+03:45 < phalaaxx> това нахаканото?
+03:45 < botlike> не
+03:45 < botlike> неможах да го подкарам
+03:45 < botlike> по лесно ми беше да го преинсталирам
+03:46 < botlike> отколкото да си играя
+03:46 < botlike> а и на настолния
+03:46 < botlike> тоз постоянно ми спира нета :)
+03:46 < botlike> беше чудо ...
+03:47 < botlike> настолния с Wifi само connect ..drop ..connect drop
+03:47 < botlike> викам някой се опитва с aircrak
+03:47 < phalaaxx> ъъъ Аполо Телеком дрън дрън гр. Ямбол дрън дрън... не е това, нали?
+03:47 < botlike> пускам и аз да разгледам обсега ..
+03:47 < botlike> тц
+03:48 < botlike> това е
+03:48 < botlike> Apolo telekom :D
+03:48 < botlike> боза
+03:49 < botlike> не знам кой им е еадминистратора
+03:49 < botlike> ама преди месец
+03:49 < botlike> някой беше ги саборил
+03:49 < botlike> ама стабилно
+03:49 -!- DamnTheLuck [5d98be26@gateway/web/freenode/ip.93.152.190.38] has quit [Ping timeout: 250 seconds]
+03:49 < botlike> 4- дни не могат да се оправят
+03:49 < phalaaxx> а това е рутер доколкото разбирам?
+03:49 < botlike> да
+03:50 < botlike> Тъп линк
+03:50 < phalaaxx> вероятно техен и нямаш много права върху него?
+03:50 < botlike> имам
+03:50 < botlike> админ права
+03:50 < botlike> аааа чакай
+03:50 < botlike> като ме хакна тоз
+03:50 < botlike> нямах достъп до рутера
+03:50 < botlike> :Д
+03:50 < botlike> шоу
+03:50 < botlike> :)
+03:50 < botlike> беше сменил паролата
+03:51 < botlike> :)
+03:51 < botlike> Поне да ми се представи там да каже виж приятел .... имаш дупки тука там
+03:51 < botlike> ама не
+03:52 < botlike> нашия ми намаза ските
+03:52 < botlike> :)
+03:52 < phalaaxx> амиии.... ок друг въпрос тогава, паролата за акаунтите на убунту-то ползваш ли я някъде онлайн?
+03:52 < botlike> цхакаи да помисля
+03:52 < botlike> ....
+03:53 < botlike> тази за акаунта беше паролата за телерик
+03:53 < botlike> бях сетнал и роот пас
+03:53 < botlike> ама него не го ползвах
+03:55 < phalaaxx> в общи линии изглежда като да са преслушали някакъв трафик през рутера и да са натрошили машината през  главния вход, но това звучи като нещо което отдавна го е имало като проблем
+03:55 < phalaaxx> ако е станало така - вероятно който се е забавлявал е имал парола за убунту-то ти от поне няколко дена насам
+03:56 < botlike> аз преди 2 дни сложих убунтуто
+03:57 < botlike> имал е точно 24-часа макс
+03:57 < botlike> освен ако е ......
+03:57 < phalaaxx> впрочем има много елементарен начин да разбереш какво правят обикновено хората които се разхождат по чуждите линукси
+03:57 < botlike> праснал първо настолния
+03:57 < botlike> дай малко инфо
+03:57 < botlike> :)
+03:58 < phalaaxx> правиш си виртуална машина с парола test за root, пускаш и ssh на 22-ри порт към света и започваш да се ослушваш :D
+03:58 < phalaaxx> правил съм го и се сдобих с разни тулчета и password dictionary по този начин :D
+03:59 < phalaaxx> беше забавно
+03:59 < botlike> влизат и те ползват за зомби
+03:59 < phalaaxx> първо пробваха да нахакат други машини по същия начин от моята
+03:59 < botlike> хубаво ти как разбра че се опитват
+03:59 < botlike> ?
+04:00 < botlike> MITM attack до колко е лесно уловима
+04:00 < phalaaxx> и после да пречат на някакъв IRC сървър с неучтиво количество пингове :D
+04:01 < phalaaxx> root с парола test беше на 25-тия ред от password dictionary-то :)
+04:01 < botlike> последно чух за passwod декодировка ползваща видео картата
+04:01 < botlike> защото е по бърза
+04:01 < phalaaxx> това е за генериране на hash суми
+04:02 < botlike> те с какво ти помагат :)
+04:02 < phalaaxx> идеята е като намериш hash сума - да разбереш каква е паролата така че евентуално да можеш да я ползваш със същия потребител в други сайтове
+04:02 < phalaaxx> малко тъпо го обясних
+04:02 < botlike> като цяло искам да спра атаките към моята машина
+04:03 < botlike> като цяло те разбрах
+04:03 < botlike> :)
+04:03 < botlike> само нямам идея
+04:03 < botlike> как да накрам видеото да смята
+04:03 < phalaaxx> OpenCL
+04:03 < phalaaxx> или CUDA за NVidia карти
+04:03 < botlike> ахам
+04:04 < phalaaxx> доколкото знам тия двете малко напомнят на езици за програмиране
+04:04 < botlike> не съм ги виждал даже :)
+04:04 < phalaaxx> и си пишеш какво искаш да се случва, пишеш малко код и за CPU-то да зареди и изпълни съответното OpenCL/CUDA нещо и... чакаш :)
+04:05 < botlike> но ще ги тествам
+04:05 < phalaaxx> ако ще пробваш само за идеята - няма значение с кое от двете
+04:05 < botlike> после да не прецакам картата :Д
+04:06 < phalaaxx> ако искаш реално да чупиш пароли - вземи си ATI (и със OpenCL)
+04:06 < botlike> нямам намерение
+04:06 < phalaaxx> това се ползва за разкодиране на GSM-и
+04:06 < botlike> :)
+04:06 < botlike> реално
+04:07 < botlike> трябва да се защитя
+04:07 < phalaaxx> не знам каква ти е била инсталацията
+04:07 < phalaaxx> никога не съм виждал подобно нещо, затова подозирам че може самото убунту което си инсталирал да е било пипнато нещо
+04:08 < phalaaxx> от къде е теглено?
+04:08 < botlike> е хубаво как този е слухал в моята мрежа ... без да се разбере
+04:08 < botlike> примерно преди рутера ако е слухтял
+04:08 < phalaaxx> 24 часа ми се струва твърде кратко време някой да се намърда и да се почувства като у дома си за да прави бели
+04:09 < botlike> и аз си мисля така ...
+04:09 < botlike> поне по себе си съдя
+04:09 < phalaaxx> не че не може де :)
+04:09 < botlike> ако трябва да направя някоя поразия ми трябва много време
+04:09 < botlike> последното което беше ... 3 дни
+04:09 < phalaaxx> нее имам предвид друго
+04:09 < botlike> да зема паролите на саседката
+04:09 < botlike> :Д
+04:10 < phalaaxx> това са си доста усилия да се постигне, ако някой се намърда - едва ли ще направи веднага беля за да се разбере че нещо не е наред
+04:10 < phalaaxx> по-скоро ще ползва машината за нещо
+04:10 < botlike> дам
+04:10 < phalaaxx> и евентуално ако нещо му доскучае...
+04:10 < botlike> явно е ползвал настолния
+04:11 < phalaaxx> и все пак, от къде е изтеглено?
+04:11 < botlike> и като се вклиючих и аз ме е осетил
+04:11 < botlike> :Д
+04:11 < botlike> ubuntu.com
+04:11 < phalaaxx> започвам да се чувствам все по-тъпо :D
+04:12 < botlike> на мен ми се прирева :)
+04:12 < botlike> като видях чисто нов линукс
+04:12 < botlike> да пише хакед на него
+04:12 < botlike> преди Х-а
+04:12 < botlike> :Д
+04:12 < phalaaxx> а какво си правил с него за тия 24 часа?
+04:13 < botlike> подслушване на настолния
+04:13 < botlike> сслстрип
+04:13 < botlike> еттерцап
+04:13 < phalaaxx> а от къде и как са теглени те?
+04:13 < botlike> пат-гет
+04:13 < botlike> апт-гет
+04:14 < phalaaxx> и няма нищо теглено по друг начин?
+04:14 < botlike> опа ... пробвах се да упдейтна новата версия на еттер-а
+04:14 < botlike> ама от сайта им
+04:14 < botlike> го издърпах
+04:15 < botlike> и сслстрипа от ония рошавия :)
+04:15 < phalaaxx> амиии не ползвай повече тази парола :)
+04:15 < phalaaxx> кой рошав?
+04:15 < botlike> http://www.thoughtcrime.org/software/sslstrip/
+04:16 < botlike> moxie :)
+04:17 < botlike> оф на работа сам ....
+04:17 < botlike> хубаво си приказваме
+04:17 < botlike> :)
+04:17 < botlike> днес ден на майстора
+04:17 < botlike> представям си какви програми ще правя ...
+04:18 < botlike> монитора не мога да видя вече :Д
+04:18 < botlike> phalaaxx, какво работиш?
+04:19 < phalaaxx> официално в момента съм програмист, ма не пиша много много засега
+04:19 < phalaaxx> иначе админствам колкото мога :)
+04:20 < phalaaxx> то нали всеки администратор има сърце на програмист :D
+04:20 < phalaaxx> в буркан, на бюрото си :D
+04:20 < botlike> така е :)
+04:20 < botlike> хаха
+04:20 < botlike> обичам да пиша кодове .. :)
+04:21 < phalaaxx> да, краста си е ама не и за full time :)
+04:21 < botlike> като бях студент имасхе едно лапе ... седна на единс тол му дадаха елемнтарна задача да се изрисува лице с очи и усмивка
+04:22 < botlike> и момчето седна отвори един тхт файл
+04:22 < botlike> и почна
+04:22 < botlike> 10001010010101010
+04:22 < botlike> и аз веднага викам на доцента
+04:22 < botlike> идвайте
+04:22 < botlike> ако тази програма тругне
+04:22 < botlike> направо си хвърляйте дипломите
+04:22 < botlike> :Д
+04:23 < botlike> лапето беше мисля че 2-3 клас
+04:23 < botlike> :Д
+04:23 < botlike> написа я на машинен
+04:23 < botlike> и тругна
+04:23 < phalaaxx> :)
+04:23 < botlike> аз се обърнах
+04:23 < botlike> и си тругнах
+04:23 < botlike> посрамен
+04:24 < botlike> че 19 годишен съм и не мога да пиша така като 10-годишно лапе
+04:24 < botlike> :Д
+04:24 < botlike> phalaaxx, каде си завършил ?
+04:25 < phalaaxx> ТУ София
+04:25 < phalaaxx> машинен инженер съм :)
+04:25 < phalaaxx> имам диплома и мога да докажа че съм го учил това дето не го знам :D
+04:25 < botlike> CNC ситеми можеш ли да програмираш
+04:25 < botlike> Fagor Fanuc
+04:25 < botlike> TSF
+04:26 < botlike> TSD
+04:26 < botlike> Siemens
+04:26 < phalaaxx> не, но както казах имам диплома и мога да докажа че съм го учил това :D
+04:26 < phalaaxx> като се знам какъв съм инженер и ме е страх да отида на лекар :D
+04:26 < phalaaxx> то там никой не ни е учил такива неща впрочем
+04:27 < botlike> 6 години го работя това и забравям същинското програмиране
+04:27 < phalaaxx> най-голямото постижение беше да ми дадат да програмирам един робот на Bosch
+04:27 < botlike> абе диплома да имаш ... имам един познат аз му зимах изпитите ..
+04:27 < phalaaxx> и то беше едно сухо такова
+04:27 < botlike> после го взеха в HP
+04:27 < phalaaxx> на хартия :D
+04:28 < botlike> то и на практика е суха
+04:28 < botlike> аз на наще им викам
+04:28 < botlike> които и да хвана на улицата
+04:28 < botlike> ще му напиша на 1 лист голям формат
+04:28 < botlike> всичко нужно за да пише програмиза тези машини
+04:28 < botlike> даже и място ше ми остане :)
+04:29 < phalaaxx> :)
+04:29 < botlike> че сега нещо криза ... поне за моя град
+04:29 < phalaaxx> аз ще се отправям към света на плувките, че ден на майстора ама пак се работи :D
+04:29 < botlike> не плащат :Д
+04:30 < botlike> че викам да развия това което забравих
+04:30 < botlike> :)
+04:30 < botlike> дам
+04:30 < botlike> хайте и аз
+04:30 < botlike> :)
+04:30 < botlike> оставям си компа утре дали ще го намеря пак с надпис :Д
+04:31 < phalaaxx> не знам, но рутера ти май заслужава да му се обърне внимание
+04:31 < botlike> phalaaxx, лека
+04:31 < botlike> лека на всички
+04:31 < phalaaxx> лека
+04:32 < botlike> :)
+04:32 < phalaaxx> (уейв) :)
+04:32 < botlike> ьаь
+04:32 < botlike> хах
+04:33 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: към плувката...]
+04:33 < hackman> много рано си лягате :)
+04:39 -!- Netsplit *.net <-> *.split quits: samy, @ChanServ
+04:46 -!- Netsplit over, joins: samy
+04:48 -!- Deyan_ [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+04:50 -!- fuzly [fuzly@95-42-54-47.btc-net.bg] has quit [Ping timeout: 264 seconds]
+04:50 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has quit [Ping timeout: 264 seconds]
+04:50 -!- Deyan_ is now known as Deyan
+04:50 -!- fuzly [fuzly@95-42-54-47.btc-net.bg] has joined #telerikacademy
+04:52 -!- Bliok [~GT@212.36.13.10] has joined #telerikacademy
+05:00 -!- Netsplit *.net <-> *.split quits: KpeTeHoug, rox`away
+05:02 -!- Netsplit over, joins: rox`away
+05:29 -!- ChanServ [ChanServ@services.] has joined #telerikacademy
+05:29 -!- ServerMode/#telerikacademy [+o ChanServ] by kornbluth.freenode.net
+05:46 -!- Netsplit *.net <-> *.split quits: @ChanServ
+06:11 -!- MarianaB [~Mariana@87-126-114-241.btc-net.bg] has quit [Read error: Connection reset by peer]
+06:50 -!- ChanServ [ChanServ@services.] has joined #telerikacademy
+06:50 -!- ServerMode/#telerikacademy [+o ChanServ] by kornbluth.freenode.net
+07:01 -!- Netsplit *.net <-> *.split quits: @ChanServ
+07:23 -!- Netsplit over, joins: @ChanServ
+07:50 -!- samy [~samy@84.238.184.98] has quit [Read error: Operation timed out]
+08:01 -!- krasiga [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+08:33 -!- nveselinov_ [nveselinov@151.237.4.4] has joined #telerikacademy
+08:33 -!- nveselinov_ is now known as nveselinov
+08:39 -!- fuzly [fuzly@95-42-54-47.btc-net.bg] has quit []
+08:44 -!- samy [~samy@87-126-73-214.btc-net.bg] has joined #telerikacademy
+08:50 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+08:51 -!- Informer [~Informer@83.228.55.109] has quit [Client Quit]
+08:52 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+08:54 -!- Informer [~Informer@83.228.55.109] has quit [Client Quit]
+08:54 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+08:57 -!- Informer [~Informer@83.228.55.109] has quit [Client Quit]
+08:57 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+09:40 < KacanuH> освен че с си лягат рано и спят до късно
+09:42 -!- Guest301 [~root@94.26.21.83] has joined #telerikacademy
+09:43 < Guest301> exit
+09:43 -!- Guest301 [~root@94.26.21.83] has quit [Client Quit]
+09:44 -!- Bliok [~GT@212.36.13.10] has quit [Ping timeout: 264 seconds]
+09:45 -!- wiseman [~wiseman@94.26.21.83] has joined #telerikacademy
+09:45 -!- wiseman is now known as Guest39669
+09:46 -!- Guest39669 [~wiseman@94.26.21.83] has quit [Client Quit]
+09:48 -!- wiseman_ [~wiseman@94.26.21.83] has joined #telerikacademy
+09:48 -!- KpeTeHoug [~GT@212.36.13.10] has joined #telerikacademy
+09:48 < wiseman_> +i
+09:54 -!- zxcv [4d463cda@gateway/web/freenode/ip.77.70.60.218] has joined #telerikacademy
+09:54 -!- zxcv is now known as fffft
+10:05 < KpeTeHoug> добър ден
+10:05 < wiseman_> здр
+10:05 < KpeTeHoug> некой счупи Ircd-то :)
+10:06 < KpeTeHoug> зема си подкарам едно bnc
+10:06 < KpeTeHoug> за добрите стари времена :)
+10:11 -!- wiseman_ [~wiseman@94.26.21.83] has left #telerikacademy []
+10:20 -!- Slavov [~slavov@78-83-68-163.spectrumnet.bg] has joined #telerikacademy
+10:21 -!- hackman [~hackman@wolf.yuhu.biz] has quit [Ping timeout: 245 seconds]
+10:22 < krasiga>  ф
+10:24 < KpeTeHoug> ь
+10:30 < samy> a tfa bnc-to
+10:30 < samy> mi e poznato
+10:30 < samy> ama ne se seshtam kakwo beshe
+10:30 < KpeTeHoug> ми
+10:30 < KpeTeHoug> като впн само че за IRC
+10:30 < KpeTeHoug> :)
+10:30 < KpeTeHoug> т.е логваш се на друга машина с някаквъ vhost
+10:31 < KpeTeHoug> и си чатиш през нея
+10:31 < KpeTeHoug> криеш си IP и тн
+10:31 < samy> ne mi dopada
+10:31 < KpeTeHoug> предимството е че докато си офлайн, то остава онлайн, без да е нужно да си пуснал IRC
+10:31 < KpeTeHoug> един вид висиш като bot :)
+10:32 < KpeTeHoug> а то беше заради хостовете които може да слагаш
+10:32 < KpeTeHoug> имаше секви глупости
+10:32 < KpeTeHoug> Ivan@kvo.zqpash.be
+10:32 < KpeTeHoug> примерно :)
+10:37 < krasiga> Да Ви попитам, срока за домашното е удължен, нали?
+10:37 < krasiga> не е някаква грешка?
+10:37 < KpeTeHoug> мхм
+10:37 < krasiga> екстра
+10:37 < KpeTeHoug> до 11
+10:37 < KpeTeHoug> ей тука  има и ФАК
+10:37 < KpeTeHoug> http://forums.academy.telerik.com/105363/faq-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8
+10:37 < samy> tochno po porychka
+10:37 < krasiga> видях го
+10:37 < samy> ot ponedelnik izlizam otpuska
+10:38 < krasiga> ама знаете ли защо се удължи?
+10:39 < KpeTeHoug> защото не беше пълна информацията
+10:39 < KpeTeHoug> от първата лекция
+10:39 < krasiga> 10х
+10:39 < krasiga> така и предположих, но си е друго да питаш
+10:39 < KpeTeHoug> ^_^
+10:40 -!- Informer [~Informer@83.228.55.109] has quit [Ping timeout: 256 seconds]
+10:42 -!- marian1 [~hackman@management.1h.com] has joined #telerikacademy
+10:43 -!- marian1 is now known as HackMan
+10:43 < KpeTeHoug> морнинг
+10:43 -!- HackMan is now known as Guest80409
+10:43 -!- Guest80409 [~hackman@management.1h.com] has quit [Client Quit]
+10:44 -!- Azilian [~HackMan@management.1h.com] has joined #telerikacademy
+10:45 -!- Azilian is now known as HackMan
+10:45 < KpeTeHoug> няма да казвам пак добро утро
+10:45 < KpeTeHoug> да не паднеш пак :)
+10:45 < HackMan> малка промяна в настройките
+10:45 < HackMan> иначе, добро утрооо софияаааааааааа :)
+10:46 < KpeTeHoug> аз реших че е като ефекта на пеперудата
+10:46 < KpeTeHoug> казвам морнинг
+10:46 < KpeTeHoug> и сървара чак в сф умира ;)
+10:46 < KpeTeHoug> как е, заваля ли ви дъждец тая сутрин ?>
+10:47 < Slavov> е какво не е била пълна информацията катоо всичките въпроси са теоретични и само като свалиш книгата по дадения въпрос и вътре може да намериш информацията...
+10:47 < Slavov> удължи се срока защото имаше тъпаци и 5 пъти трябваше им се обясни домашното
+10:48 < KpeTeHoug> това за тъпаците съгласен
+10:48 < KpeTeHoug> :) но все пак, някой наистина не са помирисвали конзола
+10:48 < KpeTeHoug> аз не че съм много
+10:48 < KpeTeHoug> но все пак съм се  борил малко
+10:48 < KpeTeHoug> и се оправям
+10:48 < Slavov> е и аз не бях, избрах по теоретичен въпрос и готово, зан якой не можах да открия признавам
+10:49 < Slavov> ама много ме изнервиха пумярите, мързеливи потни акнета
+10:49 < fffft> хахахах
+10:49 < fffft> :Д
+10:49 -!- fffft is now known as dencho
+10:49 < KpeTeHoug> xaxaXaxaxAxxaxAXXAxaxaxaxaxaxaxaxAxaAxaxAxaxa
+10:49 < KpeTeHoug> :)
+10:49 -!- dencho is now known as dencho-at-work
+10:49 < KpeTeHoug> малко са ми Хахахахаха -ттата
+10:49 < dencho-at-work> :Д
+10:50 < dencho-at-work> така... за да не се чудите по кой въпрос да пишете аз винги си избирам или първия или последния :Д
+10:50 < dencho-at-work> понеже се предполага, че първия ще е най-лесен а последния най-труден :Д
+10:50 < KpeTeHoug> да бе :)
+10:50 < Slavov> dencho-at-work,  всичките ги минаваш, и дори и по тях да се заинтересоваш, пак си напред с материала, няма празно
+10:51 < dencho-at-work> Slavov: м да :Д и това е вярно :Д
+10:51 < Slavov> а онзи
+10:51 < Slavov> администраторчето на първия ред, дето задаваше въпроси
+10:51 < Slavov> тука в чата ли е ?
+10:51 < dencho-at-work> хахахахах
+10:51 < dencho-at-work> не знам...
+10:52 < dencho-at-work> искаш нещо да му кажеш ли?
+10:52 < dencho-at-work> :Д
+10:52 < KpeTeHoug> хахах
+10:52 < Slavov> а не
+10:52 < KpeTeHoug> аз още не съм гледал лекцията
+10:52 < KpeTeHoug> нямах време
+10:52 < Slavov> другия път ако случаино ида, ще ги строяваме
+10:53 < dencho-at-work> кой ?
+10:53 < dencho-at-work> кои?
+10:54 < KpeTeHoug> тея с пъпките
+10:54 < KpeTeHoug> май :)
+10:54 < Slavov> има мърляци дето работят тази работа, ииии все едно
+10:54 < Slavov> аз да ида на курс по java advance при аматиорите
+10:54 < krasiga> ами гледам, че само София е поздравена. Да кажа добър ден на провинцията!!!
+10:54 < Slavov> и да почна да задавам някви въпроси ненужни и забутващи
+10:54 < krasiga> и Вие стига сте обиждали хората, не е хубаво
+10:54 < Slavov> да кажеш истината не е обида, обида е да си бял и да ти кажа негър
+10:55 < samy> o.O
+10:55 < dencho-at-work> един приятел предложи следващия път да идем по рано и да седнем най-отпред, че да няма място за него (отпред)
+10:56 < Slavov> хахахаа
+10:56 < KpeTeHoug> да му направите firewall
+10:56 < samy> xD
+10:56 < KpeTeHoug> да не му минават пакетите
+10:56 < KpeTeHoug> :)
+10:56 < samy> kolko hora ste prisystweno?
+10:56 < Slavov> идея е да
+10:56 < Slavov> доста, пак имаше правостоящи
+10:57 < Slavov> но сега бяхме май в по-малката зала ако не се лъжа
+10:57 < Slavov> но пак 300 чавета бяхме
+11:01 < HackMan> Slavov: мисля, че тази е или по-голямата или е същата големина като другата
+11:01 < HackMan> от пред имаше 12-13 стола които никой не пожела да ги използва
+11:01 < HackMan> така, че правостоящите просто са срамежливи :(
+11:02 < Slavov> абсолютно,  интересен е курса,  ще намеря време да изгледам и клиповете , че не можах да схвана всичко перфектно
+11:06 < HackMan> еми питай :)
+11:06 < HackMan> и ще ти бъде обяснено пак :)
+11:06 < KpeTeHoug> е нали трябва да знае какво пита ;)
+11:06 < KpeTeHoug> а като не съм гледал още снощната лекция
+11:06 < KpeTeHoug> как да питам :)
+11:06 < HackMan> ти за врачка не си ли чувал ? :)
+11:06 < HackMan> боб да ти дам :)
+11:07 < KpeTeHoug> леща :)
+11:07 < KpeTeHoug> да не сме mainstream
+11:07 < Slavov> логиката се подразбира, ама командите за пръв път ги виждам и малко куцо хах ;)
+11:08 < HackMan> аз и на фъстъци съм виждал :)
+11:08 < HackMan> особено в комбинация с виски :)
+11:08 < KpeTeHoug> да, там и аз имам проблясъци
+11:08 < KpeTeHoug> на виски и фастъци
+11:09 < Slavov> и леки жени
+11:12 < Slavov> а е HackMan  какви бяха тези колежки 2-те в твое ляво е, брао брао ,ще се промени тая моногамия дето е захапала нашата професия
+11:12 < HackMan> абе вчера да ви кажа... чах страх ме хвана от танцьорките в RockIT... така стискаха тоя кол, че чак се притесних... :)
+11:12 < HackMan> Slavov: заспали бяха... :)
+11:12 < HackMan> едната само дето не заспа :)
+11:13 < dencho-at-work> hahahahahaha
+11:13 < Slavov> :)
+11:13 < Slavov> усетих че имаше някакво объркване
+11:13 < Slavov> иначе сме заложили че след 3-тата лекция няма да ги има, аз казвам че до края ще оседят
+11:15 -!- lamqta [5d989fed@gateway/web/freenode/ip.93.152.159.237] has joined #telerikacademy
+11:15 < KpeTeHoug> ама арни ли са поне
+11:15 < KpeTeHoug> иначе и да седят
+11:15 < KpeTeHoug> полза няма :)
+11:16 < lamqta> добрутро
+11:16 < HackMan> не бяха лоши... но и според мен са просто с някого
+11:18 < Slavov> екстра бяха, все едно да ида у сахара и да видя 2 минерални бутилки девин
+11:19 < HackMan> Slavov: добре казано :)
+11:19 < Slavov> hah
+11:20 < KpeTeHoug> krasiga ти да не си някоя от тях
+11:20 < krasiga> хахахаха
+11:20 < KpeTeHoug> :)
+11:20 < krasiga> имайте в предвид, че може да са в чата
+11:20 < KpeTeHoug> може може
+11:20 < krasiga> не казвам
+11:20 < KpeTeHoug> :)
+11:20 -!- lamqta [5d989fed@gateway/web/freenode/ip.93.152.159.237] has quit [Quit: Page closed]
+11:20 < HackMan> е ако са в канала, си взимам думите обратно :)
+11:21 < HackMan> според мен който е тук има желание да завърши и курса :)
+11:21 -!- lamqta [5d989fed@gateway/web/freenode/ip.93.152.159.237] has joined #telerikacademy
+11:22 < KpeTeHoug> хмз
+11:22 < KpeTeHoug> и в нои работи ?
+11:22 < KpeTeHoug> *НОИ
+11:22 < krasiga> споко не съм от тях, за съжаление не съм в сф и не мога да присъствам
+11:22 -!- DamnTheLuck [4d46720b@gateway/web/freenode/ip.77.70.114.11] has joined #telerikacademy
+11:22 < dencho-at-work> nedeite we... ednoto mome imashe virtualna mashina na laptopcheto...
+11:22 < krasiga> еееее веднага ме разконспирирахте
+11:23 < KpeTeHoug> :)
+11:23 < KpeTeHoug> ем
+11:23 < KpeTeHoug> интернет
+11:23 < KpeTeHoug> няма нищо скрито покрито
+11:23 < Slavov> dencho-at-work,  как седнал явно зад тях хиената той
+11:23 < Slavov> и гледа у екрана да види фейсбук име
+11:23 < Slavov> датс маи бои
+11:23 < dencho-at-work> hahaha
+11:23 < dencho-at-work> ne be edin priqtel mi kaza
+11:24 < krasiga> hackman айде да пишеш командите с една идея по-бавно на лекциите? поне задръж една секунда преди enter
+11:26 < KpeTeHoug> yum install slowmotion
+11:26 < KpeTeHoug> :)
+11:26 < HackMan> krasiga: някой на лекция ме помоли същото
+11:26 < HackMan> но имай предвид, че аз пиша тези команди от 96-а
+11:27 < HackMan> малко е машинално :(
+11:27 < krasiga> знам знам
+11:27 < HackMan> особено с кутрето на enter-а
+11:27 < krasiga> ама за нас начинаещите ...
+11:27 < krasiga> Да не ти казвам, че като си отворих man man и половин час се чудих как да изляза
+11:27 < KpeTeHoug> слушая, че да не ти отреже парите за пенсия HackMan
+11:27 < Slavov> демек през 2031 няма ни прави впечатление като гледаме повторение на семинара
+11:27 < krasiga> кой да ти каже, че трябва q
+11:27 < KpeTeHoug> знаеш ли, не се ли знае :)
+11:28 < krasiga> hahahaa ami ot kade da znam
+11:28 < krasiga> nali triabva da si rabotil s konzolata
+11:28 < KpeTeHoug> аз имах подобно преживяване с vi
+11:28 < krasiga> добре, че съм си свалила една книжка IntroToLinux
+11:28 < KpeTeHoug> докато разбера как се записват файловете :)
+11:28 -!- lamqta [5d989fed@gateway/web/freenode/ip.93.152.159.237] has quit [Quit: Page closed]
+11:29 < HackMan> krasiga: на лекциите във ФМИ, на третата лекция обяснявам как се работи със less и нещата се успокояват :)
+11:29 < HackMan> т.е. следващата седмица
+11:29 < dencho-at-work> btw... kajete mi nujno li e da si nosq nqkakyv laptop... poneje ne mi se nosi... a na pyrvata lektsia HackMan kaza, che za vtorata shte ni triabva... az si go nosih, ama ne vidqh da mi trqbva... ta pitam sega za tretata lektsia :D
+11:29 < dencho-at-work> less is more :D
+11:30 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+11:30 < Slavov> dencho-at-work,  повечето ис носят топите и настолните компютри който са там са излишни, ама трябва да дойдеш поне 30 мин по рано ,за да седнеш на тях
+11:30 < HackMan> dencho-at-work: има нужда САМО ако смяташ да експериментираш с командите които показвам
+11:30 < krasiga> abe 6te se uspokoiat kato pipnem malko ama do togava
+11:31 < dencho-at-work> chdesno... shte si eksperimentiram na pc-to (ako ima takova v nalichnost v zalata) Slavov to mai zavisi v koq zala shte byde lektsiata
+11:31 < dencho-at-work> :D
+11:31 < Slavov> а е те и 2-те зали са огледално еднакви...
+11:32 < dencho-at-work> e da ama v tazi pyrvata nqmashe pc-ta :D (mnogo)
+11:33 < dencho-at-work> въпреки, че да ви кажа... няма фаида да си носиш лаптопя ако си с виндовс, понеже телерик филтрират портовете и няма как да се закачиш на гризлито :Д
+11:33 < dencho-at-work> но ако си с лаптопс с линукс - ок :Д
+11:33 < KpeTeHoug> :)
+11:34 < Slavov> мхм, вчера и с убунтуто не можах нещо
+11:34 < Informer> Това обяснява защо вчера не успях дасе закача :)
+11:34 < dencho-at-work> НО аз пък успях да се закача с виндовс-а на телерик пц-то на гризлито :Д
+11:34 < dencho-at-work> бтв 22 порт не е филтрирал от телерик
+11:34 < DamnTheLuck> HackMan: я дай линк-а za SWRaid vs LVM ако го имаш под ръка де
+11:35 < HackMan> https://github.com/hackman/linux-sysadmin-course/blob/master/additional/lecture-01/important-links.txt
+11:35 < HackMan> точи :0
+11:35 < dencho-at-work> затова може да използвате някъква машина която е достъпна на 22 порт за хопинг станция към гризлито :Д
+11:36 < HackMan> не желая порт 22
+11:36 < dencho-at-work> :Д
+11:36 < Informer> HackMan, нещо от вчера - md = multiple devices
+11:36 < Slavov> какво му е на 22 порт, dangerous ли е много
+11:37 < dencho-at-work> примера за read mail read fast за първи път го чух :Д
+11:37 < dencho-at-work> mi default e :)
+11:37 < HackMan> rm -rf *
+11:37 < dencho-at-work> ya ya :D
+11:37 < HackMan> ReadMail -ReadFast all :)
+11:37 < HackMan> taka se chete :)
+11:37 < dencho-at-work> haha
+11:38 < KpeTeHoug> хахахаха
+11:38 < dencho-at-work> dneska dosta oblachno v dyrvenitsa...
+11:39 < krasiga> тук при мен е слънце :)
+11:39 < KpeTeHoug> сполай ви от мен, трябва да изляза, а после дълъг селски Уйкенд
+11:39 < dencho-at-work> super KpeTeHoug :D
+11:40 < dencho-at-work> krasiga: kyde ?
+11:40 < krasiga> Благоевград
+11:40 < dencho-at-work> :D
+11:40 < KpeTeHoug> в Нои :Р
+11:40 < KpeTeHoug> мерси, само се надявам да не е дъждовно :)
+11:40 < dencho-at-work> kakyv noi
+11:40 < KpeTeHoug> тя да ти каже :)
+11:41 < krasiga> хахаха
+11:41 < dencho-at-work> v noi blagoevgrad li ?
+11:41 < krasiga> в целия пирински район
+11:42 -!- KpeTeHoug is now known as KpeTeHoug|villag
+11:42 -!- KpeTeHoug|villag is now known as KpeTeHoug|afk
+11:42 < Slavov> krasiga,  ще ходи да протестира срещу чичо Палев, малко провокатор ще бъде той
+11:43 < dencho-at-work> q puk ti... http://forums.academy.telerik.com/105407/%D0%BD%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D1%81%D1%82-%D0%B2-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-1-%D0%B8%D0%BC%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D1%82%D0%B2%D1%8A%D1%80%D0%B4%D0%B8-%D0%B4%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B5
+11:43 < krasiga> ооо да не влизаме в темата за политика
+11:44 -!- Deyan_ [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+11:44 < Slavov> Това е пенсионера на първия ред явно
+11:44 < HackMan> dencho-at-work: да, тъкмо отговорих
+11:45 < KacanuH> http://forums.academy.telerik.com/105407/%D0%BD%D0%B5%D1%82%D0%BE%D1%87%D0%BD%D0%BE%D1%81%D1%82-%D0%B2-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-1-%D0%B8%D0%BC%D0%B5%D0%BD%D1%83%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D1%82%D0%B2%D1%8A%D1%80%D0%B4%D0%B8-%D0%B4%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D0%B5
+11:45 < Deyan_> сорръ
+11:45 < Deyan_> без да искам ви направих едно пасте
+11:45 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has quit [Ping timeout: 240 seconds]
+11:46 -!- Deyan_ is now known as Deyan
+11:46 < krasiga> Slavov: пак с епитетите
+11:47 < Slavov> аз обърках чата, грешка, спирам
+11:47 < Deyan> да и аз не съм съгласен много с епитетите, защото "админчето на първият ред" Боби, е много свестен
+11:47 < Deyan> да и аз не съм съгласен много с епитетите, защото "админчето на първият ред" - Боби, е много свестен
+11:47 -!- DamnTheLuck [4d46720b@gateway/web/freenode/ip.77.70.114.11] has quit [Ping timeout: 250 seconds]
+11:47 < HackMan> той е свестен човека... ама иска да чуе неща които не е чувал
+11:47 < HackMan> а курса е за начинаещи
+11:48 < Deyan> е има си и той свойте недостатъци, на няколко пъти ми е идвало да го утрепя и аз, ама пък като му свикнеш е ОК
+11:48 < Slavov> за никои сега не съм говорил, грешка малко стана...
+11:48 < Deyan> е има си и той свойте недостатъци, на няколко пъти ми е идвало да го отрепя и аз, ама пък като му свикнеш е ОК
+11:48 < krasiga> като съдя как вдигна нивото от 1та до последната лекция на ОС - “ да дойде към края
+11:49 < Slavov> затова питах дали е тука да го питам дали е нормлано въпросите му, щом го няма , няма дам у говора зад гърба
+11:49 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+11:49 < Deyan> сега ще му врътна един телефон да го питам в чата ли е
+11:50 < Deyan> ще трябва да си пращам домашното само на теория, пак забравих да си пусна компютъра в къщи. Много съм прост
+11:52 < HackMan> Deyan: от къде ще го пускаш компютъра?
+11:52 < Deyan> от копчето, ама сутринта закъснях за работа и забравих да го цъкна
+11:53 < Deyan> а ми е най-големият консуматор на ток в къщи, и най-шумният такъв
+11:53 < Deyan> и за това вечер го спирам
+11:55 < krasiga> hackman: беше писал във форума как да си инстална cfdsik
+11:55 < krasiga> kak da upia proces-a, koito nqmam ideq ot kade se e startiral
+11:55 < dencho-at-work> upia?
+11:56 < dencho-at-work> ubia?
+11:56 < HackMan> krasiga: за yum-а ли имаш предвид
+11:56 < krasiga> убия
+11:56 < HackMan> значи, изпълняваш следната команда:
+11:56 < HackMan> ps axf|grep yum
+11:56 < krasiga> да
+11:56 < HackMan> от там взимаш първата колонка
+11:56 < HackMan> и пишеш числата след командата: kill -9
+11:57 < HackMan> т.е. трябва да имаш нещо от типа на: kill -9 11231 5212 3211
+11:57 < HackMan> и готово
+11:57 < dencho-at-work> m ima li v programata signals zastypeni ?
+11:57 < HackMan> най-вероятно ще убиеш и твоята конзола, но пак ще се log-неш
+11:57 -!- ncuxoto [54eee159@gateway/web/freenode/ip.84.238.225.89] has joined #telerikacademy
+11:57 < HackMan> dencho-at-work: естествено :) иначе как ще ви разказвам вица за убииствата
+11:58 < dencho-at-work> nice :)
+11:58 < dencho-at-work> sega mi se rodi edna darwin ideq... kill -9 1 ?!
+11:58 < krasiga> супер, убих ги. Сега ще видя дали ще успея да си инсталирам прогрмата
+12:00 < yulimoto> dencho-at-work: init процеса надали 
+12:01 < krasiga> ама трябва ли му да има интернет?
+12:01 < yulimoto> ей обаче има дебели очи, чета форума и има въпрос - щом е удължен срока за домашната значи ли че автоматично се удължава срока и за следващата. Един вид щото 2 домашни в една седмица не може !!!
+12:01 < samy> :D
+12:01 < dencho-at-work> hahahahaha
+12:01 < dencho-at-work> qku :P
+12:01 < yulimoto> Да не се изгърбят
+12:01 < samy> mnogo dobra logika
+12:02 < krasiga> в момента на инсталацията ли си дърпа програмата
+12:02 < dencho-at-work> аз мисля, събота да напиша всичките домашни, защото иначе пак ще ме домързи :Д
+12:02 < dencho-at-work> :Д
+12:02 < yulimoto> Да щото един вид забавянето е административно и ние нямаме време да пишем по 2 домашни, пък лекцията не беше цялата и сега дай всички домашни да вървят със закъснение щото първата се забави
+12:03 < dencho-at-work> някакъв страшен мързел ме е налегнал... и това не ми харесва, ама какво да се прави :Д
+12:03 < HackMan> krasiga: да, трябва ти интернет
+12:03 < krasiga> дава : Could not retriev mirrorlist ...
+12:03 < Slavov> е преди малко качих и 3-тото, и после ак осе сетя нещо да донапиша ще го преправа...
+12:03 < krasiga> ehhhh, ОК 10х
+12:03 < dencho-at-work> може ли да се overwrite-ва?
+12:04 < krasiga> Time for lunch!
+12:04 < krasiga> айде приятен обяд
+12:04 < dencho-at-work> и на теб :Д
+12:04 < Slavov> денчо да
+12:04 < dencho-at-work> Slavov: nice :)
+12:04 < Slavov> чиста работа ;)
+12:05 < dencho-at-work> утре ще ги настрелям, зашото днес две други курсови работи ме очакват след 19:00
+12:05 < dencho-at-work> :Д
+12:11 < yulimoto> гледам че са качени 2 нови видеота, обаче са към темата на първата лекция "Partitioning and Filesystems" ? Значи другия път ще е лекция 2. Linux Security Model and booting
+12:11 < yulimoto> или аз нещо се бъркам
+12:15 < HackMan> правилно разбираш нещата
+12:15 < HackMan> вчера продължихме първата с partitioning-а
+12:16 < yulimoto> ок :) 
+12:20 < phalaaxx> upstart във centos за какво се ползва? имам предвид има ли достатъчно services които го ползват вече или процеса е в преходна фаза все още?
+12:23 < HackMan> phalaaxx: upstart е default Init системата в CentOS 6
+12:23 < HackMan> следващият път точно за това ще ви говоря
+12:23 < HackMan> SystemV, UpStart, SystemD
+12:23 < HackMan> :)
+12:23 < phalaaxx> ясно но въпроса е дали се ползва вече от services или продължават да си ползват init.d скриптове?
+12:26 < phalaaxx> например в Debian е опция да се ползва upstart (имат си причина хората) и в резултат няма много полза да се слага, защото повечето services не го използват
+12:27 < phalaaxx> единствената основателна причина за която се сещам е някой да си пише сам разни неща и специално да иска да ползва upstart
+12:27 < HackMan> това не е systemd :) на практика upstart e backward compatible със SysV
+12:27 < phalaaxx> или ако се пуска нещо което има навика често да спира
+12:27 < HackMan> на практика всички services се run-ват от upstart-а
+12:27 < phalaaxx> както аз напримр си търкалям един UT2004 сървър
+12:27 < phalaaxx> но напоследък го пускам през daemontools
+12:28 < phalaaxx> за тези които не са запознати: daemontools в Linux не е същото като daemontools в Windows, да не стават грешки...
+12:31 < dencho-at-work> а тва беше полезно
+12:31 < dencho-at-work> phalaaxx: 10x :D
+12:31 < phalaaxx> кое?
+12:32 < dencho-at-work> za deamontools-a :D
+12:32 < dencho-at-work> pone na mene mi beshe... ne go znaeh :D
+12:33 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has quit [Ping timeout: 240 seconds]
+12:33 -!- Deyan_ [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+12:34 -!- Deyan_ is now known as Deyan
+12:35 -!- Kuncavia [5eecd0de@gateway/web/freenode/ip.94.236.208.222] has joined #telerikacademy
+12:35 < Kuncavia> Здравейти :)
+12:35 < Deyan> Довждане :)
+12:35 < Deyan> Довиждане :)
+12:40 < botlike> Добро утро :)
+12:40 < Informer> Има ли вариант да не мога да направя буутващо USB от виртуалната машина?
+12:40 < botlike> phalaaxx, HackMan
+12:40 < botlike> Informer, da
+12:41 < botlike> май
+12:41 < HackMan> Informer: дам... по-сложно е :)
+12:41 < botlike> Informer, на windows ли ти е виртуалката ?
+12:43 < Informer> аха, VMWare даже
+12:44 < Informer> то аз правя всичко, което е описано тук http://wiki.centos.org/HowTos/InstallFromUSBkey , но машината не иска да буутне от вече готовата флашка
+12:44 < samy> http://www.linuxliveusb.com/
+12:44 < Informer> всичко си е та - партишъни, флагове... но нищо не се случва
+12:44 < samy> xD
+12:45 < Informer> samy, мерси, сега опитвам от една физическа с убунто и ако не стане, ще тествам ;)
+12:46 < samy> wqrwam che shte se sprawish
+12:46 < botlike> http://www.pendrivelinux.com/universal-usb-installer-easy-as-1-2-3/
+12:46 < botlike> за windows
+12:46 < phalaaxx> някои машини биха boot-нали от флашка само ако се ползва 4-ти partiton (primary) на флашката
+12:46 < Informer> botlike, анатема, вчера ми крашна syslinux.exe на 2 различни машини и се отказах
+12:46 < phalaaxx> това май е останало от ZIP устройствата навремето
+12:46 < botlike> http://www.ubuntu.com/download/desktop/create-a-usb-stick-on-ubuntu
+12:47 < samy> mislq da slagam xubuntu na telefona..
+12:48 < Informer> а и тоя universal installer, незнайно защо, не показва iso-то на CentOS в браузъра
+12:48 < botlike> трябва да го показва
+12:48 < Kuncavia> Понеже вчера лекцията се застъпи с ЛЕ и не усях да присъствам. Сега второто домашно трябва да е друга точка от тзи 20 които са опоменати ли ?
+12:48 < Kuncavia> Ако съм правил 13
+12:49 < Kuncavia> да напрвя 14 примерно
+12:49 < Kuncavia> или ще има други
+12:49 < phalaaxx> Informer: startup disk creator-а мисля че е само за убунту
+12:49 < phalaaxx> Informer: пробвай с unetbootin
+12:49 < samy> http://forums.academy.telerik.com/105363/faq-%D0%B4%D0%BE%D0%BC%D0%B0%D1%88%D0%BD%D0%B8
+12:49 < samy> eto ti za domashnoto
+12:49 < yulimoto> samy: ако имаш възможност ubuntu Phone 
+12:50 < yulimoto> samy: ама трябва да видиш на сайта им дали има за твоя телефон 
+12:50 < yulimoto> http://www.ubuntu.com/phone
+12:51 < Kuncavia> това го прочетох преди малко
+12:51 < Kuncavia> но понеже лекцията се раздели на две
+12:51 < Kuncavia> аз съм пратил домашно по част 1
+12:51 < Kuncavia> а за част 2?
+12:52 < Kuncavia> оп
+12:52 < Kuncavia> моя грешк
+12:52 < Kuncavia> са прочетох
+12:52 < Kuncavia> коментарите от долу, мерси
+12:52 < yulimoto> samy: иначе това xubuntu и да подкара едва ли функционално ще може нещо да прави много неща а за UX-a да не говорим
+12:53 < samy> nishto ne mi prechi da opitam
+12:53 < yulimoto> ок :) 
+12:53 < Kuncavia> някой с CentOS успя ли да си настрой графичните драйвъри?
+12:53 < yulimoto> с какъв телефон ще пробваш ?
+12:53 < samy> htc one
+12:54 < yulimoto> мисля имаш шансове :) 
+12:55 < yulimoto> аз обаче ще продължавам да те зарибявам (или по-скоро зарибявам себе си) - http://www.youtube.com/watch?v=oB8t4fHmeVM
+12:57 < Slavov> Я да ви питам, има ли tool с който да видя ip adress-а на всички който са се закачили за мои сървър ?
+12:57 < phalaaxx> netstat
+12:57 < Slavov> да им правя скрииншоти какво отваарят някакви ткаива
+12:58 < samy> samo
+12:58 < samy> chakam da swyrsha rabota
+12:59 < yulimoto> Slavov: netstat e класика, ама нещо я броят че ще се замества от ss . Поне така бях чел някъде из манюалите
+12:59 < botlike> Вие чаката аз сега отивам :Д
+12:59 < Slavov> ахъммм сега ще я видя благодаря yulimoto  phalaaxx
+13:03 < Deyan> Още днес отивам да разгледам офертите за htc one X, след като изгледах клипчето
+13:03 < Deyan> уникално е
+13:03 < Slavov> колко пари е, изчакаи samsung note 3
+13:05 < dencho-at-work> не мога да ви разбера... за какво са ви телефони тип комютър :)
+13:06 < samy> 885
+13:06 < samy> wyw wiwacom
+13:06 < samy> ako si tehen klient
+13:08 -!- botlike [~botlike@185.7.217.1] has quit [Quit: Ex-Chat]
+13:09 < samy> Deyan
+13:09 < samy> http://www.youtube.com/watch?feature=player_embedded&v=cpWHJDLsqTU
+13:12 < Slavov> dencho-at-work,  защото дори и да съм на някоя тъпа сбирка, ще мога да си  изкарам прекрасно аххаха
+13:12 < dencho-at-work> HAHAHAHHAHAHA
+13:12 < dencho-at-work> :D
+13:13 < dencho-at-work> taka e... az kato sym s nokia s fenerche... se napivam kat nevijdal :D
+13:14 < Deyan> dencho-at-work: аз това се опитвам да го направя и сега в офиса
+13:14 < Deyan> ама ми свърши джина
+13:15 < dencho-at-work> edinstveniq mi problem s tezi telefoni - pc-ta e che sa mnogo golemi, a djobovete mi sa tolkova malki che me e strah da ne go schupa tva...
+13:16 < dencho-at-work> иначе... ОК, имат функционалности, можеш да си се закачаш на гризли-то през телефона - ОК! но много крехки ми се струват... не е като да си изпуснеш нокията с фенерче в кофа с латекс или теракол и после всичко да е ок :Д
+13:16 < samy> aaaaa
+13:16 < dencho-at-work> Deyan: петък ден на майстора :Д
+13:16 < samy> dencho
+13:16 < samy> ne sym syglasen s teb
+13:17 < KacanuH> В петук майсторите не работим
+13:17 < dencho-at-work> bash maistora shte se prolichi v 3-toto domashno mai beshe :D
+13:17 < dencho-at-work> samy: i zashto taka ne si syglasen :D
+13:18 < KacanuH> а аз към гризлито се закачвам и през прастарото ми Hero, и е по-здрав от нокиа с фенерче
+13:18 < KacanuH> щом за 4 години дори аз не успях да го счупя това е постижение
+13:20 < phalaaxx> какво му е на третото домашно?
+13:20 < dencho-at-work> nqkyde iz domashnite imashe bash scripting :D
+13:21 < dencho-at-work> ako sym gledal pravilniq kurs
+13:21 < dencho-at-work> :d
+13:21 < dencho-at-work> haha
+13:21 < dencho-at-work> v 04 e
+13:21 < dencho-at-work> :)
+13:21 < HackMan> dencho-at-work: да, има :)
+13:21 < HackMan> защо ?
+13:21 < HackMan> аз още ще добавям там :)
+13:21 < HackMan> за всичките от 02 до 04 ще добавям още въпроси
+13:21 < phalaaxx> ок, тогава да префразирам въпроса: какво му е на 4-тото домашно? :)
+13:22 < HackMan> че те се предвидени за курс от макс 200 човека
+13:22 < HackMan> трябва да направя разнообразие ;)
+13:22 < dencho-at-work> nishto mu nqma... haresva mi :) daje mi haresva poveche ot pyrvoto
+13:22 < dencho-at-work> :D
+13:23 < dencho-at-work> daje sqkash to mi nai haresva :D
+13:23 < phalaaxx> примерен въпрос за 3 - да напишем policy за SELinux? :D
+13:24 < HackMan> не, да опишете какво е SELinux
+13:24 < dencho-at-work> are nema nujda :P
+13:24 < phalaaxx> това го има вече
+13:24  * dencho-at-work away... glad mori dobityka :D
+13:24 < phalaaxx> аз давам предложение за въпрос, който никой няма да си избере :D
+13:25 < HackMan> phalaaxx: аз искам теорията... който го интересува практиката за SELinux ще седне и ще се позанимава
+13:25 < HackMan> + това много хора просто ще откраднат някой selinux policy от CentOS/Fedora
+13:25 < HackMan> няма сми
+13:27 < phalaaxx> шегувам се
+13:28 < phalaaxx> лично аз намирам това за доста непосилна задача
+13:28 < phalaaxx> едва ли са много хората по света които могат да направаят нещо подобно, и за да са стигнали дотам - по всяка вероятност правят само това :)
+13:32 < HackMan> не си прав
+13:32 < HackMan> на практика са доста логични нещата
+13:32 < HackMan> просто са трудоемки
+13:32 < HackMan> т.е. отнема доста време да си направиш policy-то да го изтестваш и да го "тунинговаш"
+13:36 < phalaaxx> оо аз не се притеснявам че е невъзможно да се направи
+13:36 < phalaaxx> всъщност съм убеден че всяко нещо, което е направено вече от някой мога и аз да го направя :)
+13:36 < phalaaxx> стига да имам желанието и времето за това разбира се
+13:36 < phalaaxx> въпроса е че това с policy-то е ужасно много работа наистина
+13:37 < phalaaxx> и ако човек не се занимава само с това (или няма желанието да го прави) - по-добре да не се захваща изобщо с такава задача
+13:37 < phalaaxx> това си е мое мнение де
+13:38 < phalaaxx> аз си блъсках известно време главата със SELinux и все още не съм решил дали си заслужава според мен :))
+13:38 < phalaaxx> и малко с GRSecurity си играх, там нещата са значително по-лесни
+13:39 < HackMan> аз използвам GRSecurity на повече от 2000 машини
+13:39 < HackMan> и съм много доволен
+13:42 < Slavov> да и аз така
+13:42 < Slavov> стабилна програма, до 45 000 машини няма бутане
+13:44 < phalaaxx> до 45 000 машини няма бутане?
+13:44 < phalaaxx> това не го разбрах
+13:44 < phalaaxx> след 45 000 има ли бутане? :)
+13:45 -!- miroslavTsakov [~miroslavT@78.90.183.66] has joined #telerikacademy
+13:51 < Slavov> а шегувам се просто...
+13:51 < Slavov> кво нещо са знанията, гледам като пиле у конюшна, пък човека си поддържа маса машини
+13:56 < dencho-at-work> :)
+13:58 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has quit [Remote host closed the connection]
+13:58 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has quit [Quit: leaving]
+14:01 -!- DamnTheLuck [4d46720b@gateway/web/freenode/ip.77.70.114.11] has joined #telerikacademy
+14:03 -!- ZakkWylde [~zakk@79.124.62.180] has joined #telerikacademy
+14:07 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has quit [Ping timeout: 245 seconds]
+14:09 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+14:33 < Slavov> а е за 6-та задача от 4-тото домашно, тия acces.log , error.log, system.log, трябва да станат access.LOG.1.gz , error.LOG.1.gz , system.LOG.1.gz , access.LOG.2.gz i t.n. ?
+14:34 < HackMan> da
+14:34 < Slavov> мерси
+14:35 -!- Deyan_ [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+14:35 -!- miroslavTsakovv [~miroslavT@78.90.183.66] has joined #telerikacademy
+14:43 -!- Netsplit *.net <-> *.split quits: phalaaxx, @ChanServ, miroslavTsakov, Deyan
+14:44 < Kuncavia> къде го гледате това 4-то домашно?
+14:44 < Kuncavia> аз виждам само 1
+14:44 < dencho-at-work> kade go vijdash samo 1
+14:44 < dencho-at-work> https://github.com/hackman/linux-sysadmin-course/tree/master/homeworks
+14:44 < Slavov> взе ми пейста от клавиетурата :)
+14:45 < HackMan> github-а му е майката
+14:45 < HackMan> :)
+14:49 < Kuncavia> тия не ги бях видял
+14:49 < Kuncavia> тия 4 са за 4-те раздела
+14:49 < Kuncavia> или за 1-ви радел
+14:49 < Kuncavia> че нещо съм изпуснал явно
+14:49 < Kuncavia> :D
+14:50 < HackMan> всеки файл е за отделен раздел
+14:50 < Kuncavia> охо супер :)_
+14:50 < krasiga> Добре де, не са ли малко сложни тия неща за начинаещи?
+14:51 -!- Netsplit over, joins: phalaaxx
+14:51 < Kuncavia> Интересното, е че предадох
+14:51 < Kuncavia> съвсем различно домашно
+14:51 < Kuncavia> от тези 4
+14:51 < Kuncavia> преди имаше само едно с 20 точки
+14:53 < samy> [14:48:19] Samy: [14:46:40] Samy: direktora cherpi po sladoled
+14:53 < samy> [14:46:41] Samy: :)
+14:53 < samy> [14:47:16] Bogomila Slaveikova: ти да видиш
+14:53 < samy> [14:47:33] Bogomila Slaveikova: а мойта шефка по салата (y)
+14:53 < samy> [14:47:52] Bogomila Slaveikova: в момента ям моркови с цвекло и семки
+14:53 < samy> [14:48:11] Samy: e nazdrawe
+14:53 < HackMan> krasiga: домашните са избрани по-такъв начин, че да ви увеличат знаният при самостоятелна работа, ако не ги правите, просто не научавате допълнително :(
+14:53 < HackMan> samy: че ние всеки ден имаме сладолед в офиса
+14:53 < HackMan> стига да не забравя да мина през магазина като свърши :)
+14:53 < dencho-at-work> mi da idvame v tvoq ofis
+14:53 < samy> za syjalenie
+14:54 < samy> ne qm sladko
+14:54 < samy> :|
+14:54 < krasiga> HackMan: аз имам желание да ги правя, ама май това в главата не ми стига :(
+14:54 < krasiga> или опита в линукс ми е нищожен
+14:54 < krasiga> дано да е 2-то
+14:54 < samy> az se radwam che hackman pusna predwaritelno domashnite
+14:55 < HackMan> krasiga: те не са за в главата ти... идеята е да потърсиш в google и да прочетеш
+14:55 < HackMan> основната причина да ги има тези домашни не е да упражните нещо което сме правили на лекции
+14:55 < krasiga> е търся ама като ми куцат основни неща
+14:55 < krasiga> това ми се струва доста сложно
+14:55 < HackMan> а да си увеличите знанията извън лекциите
+14:55 < HackMan> krasiga: затова има и домашни които са доста прости
+14:56 < HackMan> като например намерете HW Device който поддържа минимум 6 HDD и може да се върже към контролер :)
+14:56 < HackMan> samy: аз и другите ще ги кача предварително, спокойно :)
+14:56 < samy> 2 sedmici sym si pusnal
+14:56 < samy> otpuska
+14:57 < krasiga> ехеее и ще я отделиш за нас ли?
+14:57 < samy> i wmesto da lentqystwam
+14:57 < krasiga> колко мило
+14:57 < samy> shte naprawa golqma chast ot tqh
+14:57 < krasiga> аааа пише samy: обърках се
+14:57 < HackMan> samy: тогава прегледай http://training.iseca.org
+14:58 < Kuncavia> аз правих това домашно https://github.com/hackman/linux-sysadmin-course/blob/master/homeworks/homeworks-01.txt което в момента не присъства към другите 4 :?
+14:58 < HackMan> Kuncavia: ??? каквооо ?
+14:58 < samy> gotino saitche
+14:59 < samy> Би трябвало да е изпратено електронно писмо до вашия адрес (support@klatikurci.com)
+14:59 < samy> То съдържа указания как да завършите регистрацията си.
+14:59 < samy> Ако имате затруднения, свържете се с администратора на сайта.
+14:59 < phalaaxx> яя Пепи и той е там :)
+15:03 < dencho-at-work> hubav domein klatikurci.com :D
+15:03  * Deyan_ Поздравява всички с http://www.youtube.com/watch?v=wvIW2dVv8GU
+15:04 < Informer> Някви идеи за интелски видео драйвъри за CentOS (xf86-video-intel не го намира като пакет) ?
+15:04 < samy> znam :p
+15:07 < Deyan_> а като казахте за хелп, някой сблъсквал ли се е неработещ коректно тъч пад на CentOS
+15:08 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has joined #telerikacademy
+15:08 < asdasd> zdraveite
+15:08 < asdasd> = )
+15:11 < dencho-at-work> zdr to you
+15:30 < Kuncavia> HackMan: ами направих точка 13 от по-горния линк
+15:30 < Kuncavia> а сега гледам, че при домашните има други 4, в които го нямаше това от горния линк
+15:30 < Kuncavia> :)
+15:30 < Kuncavia> малко трудно го обясних
+15:30 < samy> losho :}
+15:33 -!- HackMan [~HackMan@management.1h.com] has quit [Ping timeout: 268 seconds]
+15:33 < phalaaxx> изгонихте човека, не ви ли е срам :D
+15:34 < Kuncavia> haha
+15:34 < Kuncavia> :)
+15:34 < Kuncavia> в крайна сметка тва което съм направил 13. Find a tool that can be used to monitor and configure DELL(PERC) RAID controller. Give one example command for monitoring and one for configuration."
+15:35 < Kuncavia> актуално ли е
+15:35 < Kuncavia> :D
+15:35 < samy> dawai sledwashtoto
+15:35 < Kuncavia> ?
+15:36 < Kuncavia> това съм го предал като домашно
+15:36 < Kuncavia> по лекция 1
+15:36 < samy> naprawi gi wsichkite :}
+15:36 < Kuncavia> аааааа нещем 0 точки
+15:36 < Kuncavia> :D
+15:36 < samy> koi e kazal da gi uploadwash
+15:36 < Kuncavia> аз това едвам го направих
+15:36 < Kuncavia> тъй като тези команди не важат
+15:36 < Kuncavia> при мен и shell-a
+15:37 < Kuncavia> счупих се от търсене
+15:37 < Kuncavia> и дори не мога да ги пробвам практически
+15:37 < Kuncavia> :D
+15:54 -!- Netsplit *.net <-> *.split quits: samy, KpeTeHoug|afk, phalaaxx, Slavov, nveselinov, asdasd, ZakkWylde
+15:54 -!- Netsplit *.net <-> *.split quits: rootstar
+15:54 -!- Netsplit *.net <-> *.split quits: krasiga, dencho-at-work, Deyan_, miroslavTsakovv, rox`away, Kuncavia, Informer, ncuxoto, alabala, DamnTheLuck
+15:57 -!- Netsplit over, joins: nveselinov
+15:57 -!- Netsplit over, joins: Deyan_, Informer, rox`away, alabala
+15:57 -!- Netsplit over, joins: asdasd, phalaaxx, miroslavTsakovv, ZakkWylde, DamnTheLuck, Kuncavia, ncuxoto, Slavov, dencho-at-work, KpeTeHoug|afk (+3 more)
+16:00 < Deyan_> какво става, защо се дропнахте така масово
+16:00 < Informer> някъв сплит имаше
+16:01 -!- Informer [~Informer@83.228.55.109] has quit [Quit: C ya!]
+16:01 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+16:12 -!- ChanServ [ChanServ@services.] has joined #telerikacademy
+16:12 -!- ServerMode/#telerikacademy [+o ChanServ] by kornbluth.freenode.net
+16:12 -!- Informer is now known as Guest55203
+16:15 -!- Netsplit *.net <-> *.split quits: Slavov
+16:15 -!- Guest55203 [~Informer@83.228.55.109] has quit [Quit: C ya!]
+16:16 -!- Netsplit over, joins: Slavov
+16:19 -!- Netsplit *.net <-> *.split quits: KpeTeHoug|afk, asdasd, samy
+16:19 -!- Netsplit *.net <-> *.split quits: Kuncavia, krasiga, dencho-at-work, DamnTheLuck, miroslavTsakovv, ncuxoto
+16:19 -!- Netsplit over, joins: asdasd
+16:19 -!- Netsplit over, joins: miroslavTsakovv
+16:21 -!- KpeTeHoug|afk [~GT@212.36.13.10] has joined #telerikacademy
+16:21 -!- DamnTheLuck [4d46720b@gateway/web/freenode/ip.77.70.114.11] has joined #telerikacademy
+16:21 -!- Kuncavia [5eecd0de@gateway/web/freenode/ip.94.236.208.222] has joined #telerikacademy
+16:21 -!- ncuxoto [54eee159@gateway/web/freenode/ip.84.238.225.89] has joined #telerikacademy
+16:21 -!- dencho-at-work [4d463cda@gateway/web/freenode/ip.77.70.60.218] has joined #telerikacademy
+16:21 -!- krasiga [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+16:22 < dencho-at-work> yea toz freenode mnogo sa splitna dneska
+16:22 < dencho-at-work> :D
+16:28 < krasiga> Приятен уикенд -have fun
+16:28 -!- krasiga [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Quit: Page closed]
+16:29 -!- Agripina [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+16:30 -!- Agripina [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Client Quit]
+16:34 -!- wiseman [~wiseman@mariay.pppoe.fiber-lan.eu] has joined #telerikacademy
+16:34 < wiseman> hi all
+16:35 < wiseman> как сте
+16:35 -!- wiseman is now known as Guest4691
+16:35 < dencho-at-work> ok sme
+16:37 -!- yulimoto_ [~yulimoto@78.108.248.204] has joined #telerikacademy
+16:37 -!- yulimoto_ [~yulimoto@78.108.248.204] has left #telerikacademy []
+16:41 < dencho-at-work> koi izpolzvashe chatzilla?!
+16:41 -!- Guest4691 [~wiseman@mariay.pppoe.fiber-lan.eu] has quit [Quit: Leaving]
+16:46 -!- root [~root@mariay.pppoe.fiber-lan.eu] has joined #telerikacademy
+16:46 -!- root [~root@mariay.pppoe.fiber-lan.eu] has left #telerikacademy []
+16:48 -!- wiseman_ [~wiseman@mariay.pppoe.fiber-lan.eu] has joined #telerikacademy
+16:50 -!- wiseman__ [~wiseman@wolf.yuhu.biz] has joined #telerikacademy
+16:51 < wiseman__> test from grizzly.yuhu.biz:8080 SSH
+16:52 < wiseman_> бачка ирс клиента на гризлито :)
+16:52 < dencho-at-work> ya
+16:52 < wiseman_> ама не се чете на БГ :)
+16:52 < Slavov>  за да се научиш нещо да построиш, първо трябва да разрушиш, давайте да събаряме сървара викам аз, време е вече
+16:53 < Slavov> ахахха
+16:53 < Slavov> ще кажем че е денчо-ат-лърк
+16:53 < wiseman_> без мацката Рут няма май да стане
+16:53 < dencho-at-work> to e qsno che taka shte kajete, ama posle mi kajete kak ste go butnali :D
+16:54 < Slavov> я да видим таз рут
+16:54 < Slavov> е в такива моменти да живеее фейсбука
+16:54 < dencho-at-work> :D
+16:55 -!- wiseman__ [~wiseman@wolf.yuhu.biz] has left #telerikacademy []
+16:55 < Slavov> пиши  cd / && rm -rf *
+16:55 < Slavov> и да се преключва
+16:56 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+16:56 < Slavov> ама sudo bash преди тва, иии мда, др вариант ще търсим
+16:57 < dencho-at-work> sudo bash ?
+16:57 < wiseman_> най-много да си изтриеш всичко в директорията :)
+16:58 < Slavov> мда, а е ще попрочета довечера как става, че са имам малко расбота
+16:58 < dencho-at-work> read mail read fast :D
+16:58 < Slavov> man ls ahhaahah
+17:00 < Slavov> те нали викат че когато ученика стане по добър от учителя, тогава учителя си е свършил работата
+17:00 < Slavov> демек треа затрием сървъра, и да спрем тока 2км периметър
+17:03 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+17:04 < dencho-at-work> navreme go kaza :P
+17:05 < Slavov> hahaahahha
+17:06 < Slavov> hackman,  че тука водим дискусия, та да те питаме нали когато ученика стане по добър от учителя, тогава учителя си е свършил перфектно работата
+17:06 < samy> 0:)
+17:07 < hackman> ДА
+17:07 < hackman> проблемът е, че в БГ такива неща много рядко се случват :(
+17:07 < Slavov> мхм добре ;)
+17:07 < phalaaxx> Slavov, какво разбираш под "да стане по-добър", защото това, което пишеш по-нагоре е доста спорно :D
+17:07 < hackman> то не е проблем... жалко е :(
+17:07 < Slavov> аз в кръга на шегата го свързвам с нещата по горе който ще хитрим...
+17:08 < Slavov> а иначеее всичките домашни да ги изтипосаш наведнъж има ли шанс
+17:08 < Slavov> или не си ги доизмислил всичките
+17:08 < Slavov> че сега нямам работа (което е рядкост) и имам време да си разглеждам и рова
+17:09 < Slavov> phalaaxx,  ние ще се ограничим върху (как да го цензурирам) дадената точка, а допълнението с периметъра в километри който ще бъдат засегнати , може физически да го направим , и пак ще е ефектно
+17:09 < dencho-at-work> Slavov: to taka vseki moje... kogato ima vreme :D
+17:10 < Slavov> ееее , всяко чудо за 3 дни, др седмица и аз ще стана славов'ат'лърк ;)
+17:10 < dencho-at-work> az izlizam otpuska :P
+17:10 < dencho-at-work> hahaha
+17:12 < phalaaxx> аз пък имам несвързан с домашните въпрос към hackman: за какво в production може да се използва RAID върху loopback? (или нещо не съм разбрал както трябва)?
+17:13 < phalaaxx> дискове на машината без RAID и върху тях се прави RAID със loop devices?
+17:13 < wiseman_> вчера ме изкефи втората част на лекцията :) в момента в който почнаха да оклюмват хората, хакман превключи на врота и гааааааз, по едно време нищо не му се разбираше :):):)
+17:13 < phalaaxx> някаква гъвкавост ли се гони по този начин?
+17:13 < wiseman_> @втора скорост :)
+17:14 < dencho-at-work> mda.. imashe takyv moment
+17:14 < dencho-at-work> ot tipa sluchvat se nqkakvi raboti na ekrana :D
+17:15 < wiseman_> мисля, че за LVM и прочие говореше и като зацикли на logical, LVM, partitions.... малйй
+17:27 -!- rootstar [0@78.90.53.106] has quit [Ping timeout: 276 seconds]
+17:37 -!- rootstar [0@78.90.53.106] has joined #telerikacademy
+17:38 -!- Kuncavia [5eecd0de@gateway/web/freenode/ip.94.236.208.222] has quit [Quit: Page closed]
+17:39 -!- ChanServ [ChanServ@services.] has quit [shutting down]
+17:39 < hackman> phalaaxx: представи си, че имаш два partition-а всеки със по 10GB свобод. Вече ти работи машината така близо година. Нямаш възможност да я partition-ваш на ново. Нямаш възможност да добавиш още дискове(лимит на кутията). И искаш да използваш 15GB място.
+17:39 < hackman> можеш да го направиш с SW RAID0 :)
+17:40 -!- ChanServ [ChanServ@services.] has joined #telerikacademy
+17:40 -!- ServerMode/#telerikacademy [+o ChanServ] by kornbluth.freenode.net
+17:40 < phalaaxx> аха, т.е. за някаква гъвкавост все пак :)
+17:40 < hackman> ООО да :)
+17:41 < phalaaxx> а ако свършат loopback devices?
+17:41 < phalaaxx> sysctl -> reboot?
+17:41 < yulimoto> wiseman_: putty ли ползваш ? 
+17:42 < phalaaxx> оф бе що им викам loopback
+17:42 < phalaaxx> навици
+17:42 -!- Slavov [~slavov@78-83-68-163.spectrumnet.bg] has quit [Ping timeout: 264 seconds]
+17:45 < hackman> кои devices да ти свършат ?
+17:46 < phalaaxx> loopX :)
+17:46 < hackman> много преди това ще имаш други проблеми :)
+17:50 < phalaaxx> ами случвало ми се е примерно като си пускам разни виртуалки през Xen да ми свършат след първите 4 стартирани машини
+17:50 < phalaaxx> щото не съм измислил предварително че ми трябват loop devices за тия виртуалки
+17:51 < hackman> не съм запознат, възможно е и да си прав
+17:51 < hackman> аз съм правил до 12 loop mount-a
+17:51 < hackman> но аз съм само с vanilla kernels
+17:52 < phalaaxx> а security updetes за тях? или се върнахме на темата с grsecurity? :)
+17:52 < hackman> аз моите kernels си ги patch-вам сам:0
+17:53 < hackman> все още мога да си backport-вам каквото ми трябва сам :)
+17:53 < phalaaxx> заслужава ли си времето и усилието?
+17:54 -!- miroslavTsakovv [~miroslavT@78.90.183.66] has quit []
+17:54 < hackman> в моя случай да
+17:58 < phalaaxx> аз ако се опитам да backport-на нещо вероятно резултата ще е зрелищен провал :D
+17:59 < phalaaxx> не съм пробвал де, но със сегашните пакетни системи и security updates май съм станал доста мързелив
+17:59 < hackman> ти за kernel-а писал ли си ?
+18:00 < phalaaxx> не, разглеждал съм разни неща и съм правил някакви опити колкото да установя че не ми е особено интересно :)
+18:00 < phalaaxx> поне преди не ми беше де... ей сега и това ли трябва пак да пробвам
+18:01 -!- martotko1 [~martotko1@88.80.107.33] has joined #telerikacademy
+18:01 < phalaaxx> много неща станаха, btrfs, kernels, какво още? :D
+18:01 < dencho-at-work> chao hora :D
+18:01 -!- dencho-at-work [4d463cda@gateway/web/freenode/ip.77.70.60.218] has quit [Quit: Page closed]
+18:02 < martotko1> Кога ще има нова лекция :Д
+18:02 < hackman> phalaaxx: C-то ти колко е добро ?
+18:03 < hackman> martotko1: next week :)
+18:03 < hackman> обаче обмислям да почнем по две на седмица
+18:03 < martotko1> ами от вчерашната лекция няма ли да има видео ?
+18:03 < phalaaxx> не особено, стига ми като за колкото да си начеша крастата :D
+18:03 -!- miroslavTsakov [~miroslavT@78.90.183.66] has joined #telerikacademy
+18:04 < phalaaxx> sf.net/projects/mypysql
+18:04 < martotko1> моя грешка извинете не съм видял ;)
+18:04 -!- ZakkWylde [~zakk@79.124.62.180] has quit [Quit: Leaving]
+18:07 < phalaaxx> това не го знам колко добре работи в момента, толкова отдавна не ми се е налагало да си играя с MySQL че не знам с последните версии на Python 3 дали изобщо ще работи :D
+18:07 < miroslavTsakov> Nqkoi moje li da mi pomogne. Sled kato edit-na sudoers file-a za da si dobavq username-a kato sudo, kak da go save-na posle? QQ
+18:08 < miroslavTsakov> op
+18:08 < phalaaxx> ZZ
+18:08 < miroslavTsakov> izvinqvam se
+18:09 < miroslavTsakov> namerih go v google
+18:09 < miroslavTsakov> xD
+18:09 < hackman> :x!
+18:09 < miroslavTsakov> http://www.libre-software.net/sudo-on-centos-scientific-linux-and-rhel
+18:09 < phalaaxx> редактирай го с visudo
+18:09 < hackman> esc
+18:09 < hackman> и после :x!
+18:09 < miroslavTsakov> dam dam
+18:09 < miroslavTsakov> qvno trqbva6e da popitam za da osuznaq kakvo iskam da razbera
+18:09 < miroslavTsakov> :D
+18:11 -!- miroslavTsakov [~miroslavT@78.90.183.66] has quit []
+18:16 -!- martotko1 [~martotko1@88.80.107.33] has quit [Ping timeout: 248 seconds]
+18:18 < phalaaxx> време е за събота и неделя :) приятна почивка на всички и до нови срещи :)
+18:18 < hackman> аз след малко слизам на протестите
+18:20 < phalaaxx> мен днес ми се налага да пропусна
+18:20 < phalaaxx> така че може да се видим там в неделя или от понеделник, ако няма някакво развитие дотогава
+18:21 < phalaaxx> хаха това дето го казах прозвуча като виц
+18:22 < phalaaxx> няма ме... чао и до скоро
+18:22 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: byebyez]
+18:41 -!- Informer [Informer@78.90.229.234] has joined #telerikacademy
+18:57 -!- dencho [~dencho@95.111.14.183] has joined #telerikacademy
+18:58 -!- DamnTheLuck [4d46720b@gateway/web/freenode/ip.77.70.114.11] has quit [Ping timeout: 250 seconds]
+19:00 -!- Informer [Informer@78.90.229.234] has quit [Quit: C ya!]
+19:00 -!- Informer [Informer@78.90.229.234] has joined #telerikacademy
+19:00 -!- Informer [Informer@78.90.229.234] has quit [Client Quit]
+19:00 -!- Informer [Informer@78.90.229.234] has joined #telerikacademy
+19:05 < dencho> super qko :P
+19:05 < dencho> http://world.actualno.com/Papa-Joan-Pavel-II-shte-byde-objaven-za-svetec-news_430453.html
+19:05 < dencho> :D
+19:42 < wiseman_> ей и тука пълно с интернет лумпени :D
+19:45 -!- Fairytale [Fairytale@police.executie.org] has joined #telerikacademy
+19:57 < samy> xDDD
+19:58 < samy> bolene
+19:59 < samy> moje li da spodelite s nqkolko dumi, zashto zapisahte linux kursa?
+20:03 < Informer> Е как да не се запишем на курс по Линукс?! Че даже и безплатен! Все едно да откажеш безплатен секс. :D
+20:04 < samy> Informer
+20:04 < samy> znaesh li koe me ambicira ujasno mnogo
+20:04 < Informer> Кое?
+20:04 < samy> predi okolo
+20:04 < samy> godina 1 fr me zaribi
+20:04 < samy> iiiiiiiiiiiii :D
+20:05 < Informer> Щото мен ме амбицира предимно любопитството.
+20:05 < samy> bqh si addnal
+20:05 < samy> 3-4 work space-a
+20:05 < samy> i imash opciqta
+20:05 < samy> kato dragwash s mishoka
+20:05 < samy> da wlizash w sledwashtite :D
+20:05 < Informer> хаха
+20:05 < samy> i az si kazwam bah maa mu scrollwam w taq stranica
+20:05 < samy> na dolu
+20:05 < samy> to kfo se sluchwa...
+20:05 < samy> blyskah s mishoka..
+20:05 < samy> blyskah
+20:05 < samy> i go schupih :D
+20:06 < Informer> Абе, съмнява ме това да е главната цел на Линукс, ама..
+20:06 < Informer> :D
+20:06 < samy> mnogo mi beshe udobna mishkata
+20:06 < samy> za starcraft :}
+20:06 < samy> posle w interes na istinata si kupih syshtata
+20:07 < samy> i sym s 300lw nazad
+20:07 < Informer> ахаха
+20:07 < Informer> ако намеря 300 лв., ще си купя 2 харда бе, момче!
+20:07 < samy> towa kato go spodelih w rabotata
+20:07 < samy> se umazaha ot smqh
+20:07 < samy> wsichki :D
+20:07 < wiseman_> да ти кажа честно линукс почвам сигурно за 3-ти път, първия беше доста отдавна и като си инсталирах един слак и....това беше, както знаеш самата ОС не прави нищо, после си качих едно убунту за да си пусна един ЦС, после още едно, ама мног нестабилн
+20:08 < Informer> wiseman_, и аз започнах с един Слак между другото :)
+20:09 < Informer> Един приятел ми диктуваше какв ода правя по телефона и в момента, когато спря да ми работи мрежата и нямах идея какво съм правил, за да я подкарам, спрях да го пускам.
+20:09 < samy> :D
+20:09 < wiseman_> сега ми се отвори един проект който е много интересен и е свързан с администрация на два редхата и си викам "трябва да валяза в час"
+20:10 < samy> znam samo che izbih ribata..
+20:10 < Informer> абе Линукс си е задължително нещо, ако ползваш компютър
+20:10 < wiseman_> обаче се оказа, че е много интересно
+20:10 < wiseman_> ми как да ти кажа, нови хоризонти - когато учих за вин-а ми беше много интересно със всичките АД ИИС и тем подобни
+20:11 < Informer> имаш си едни команди, които вършат работа навсякъде
+20:11 < Informer> имаш си вградени и пълни упътвания в повчето случаи
+20:11 < Informer> винаги знаеш къде да ги откриеш
+20:11 < wiseman_> сега обаче е по-интересно, защото знам предимствата и недостатъците на едното, и ще науча и другото (дай боже де)
+20:11 < Informer> само трябва научиш кое къде е
+20:11 < Informer> е, да
+20:12 < Informer> още не му знаем кирливите ризи :)
+20:12 < samy> ;D
+20:12 < wiseman_> обаче като се замисля, не съм изтървал влака все още де :)
+20:13 < wiseman_> когато аз ходих да подскачам по митингите 97-ма, нашите лектори са учили, сега аз уча а те ходят да подскачат :)
+20:14 < wiseman_> а и за вин имаше повече работа - всички по офисите бачкат с офис пакета на м$, както всички хостери и мрежовици ползват апачи и микротици :)
+20:15 < samy> toq win
+20:15 < samy> she go polzwash w dyrjawnata adminsitraciq
+20:15 < samy> :>>>
+20:15 < wiseman_> милиони се изсипаха за вин
+20:15 < wiseman_> щото не искат да се научат на open(libre)
+20:16 < wiseman_> и в моята работа ги гледам как си жъкан на екселчето и туй то, само дето мрънкат, че 2010 им е трудна и не е като 97-ма , смятай
+20:17 < samy> oh chowek
+20:17 < samy> az bqh poludql
+20:17 < wiseman_> ама общи прикаски
+20:17 < Informer> Абе, уиндоусът учи на мързел...
+20:17 < samy> do kato gi naucha w kakyw format trqbwa da si seifkat slowoizleqniqta..
+20:17 < Informer> За обикновен потребител всичко се прави с next, next,next и накрая не знаеш какв ос иинсталирал
+20:18 < Informer> нещо ми се бъзика клавиатурата обаче
+20:18 < samy> to taka si e
+20:18 < samy> pripomnqsh mi
+20:18 < samy> kak instalirah pyrwiq windows :D
+20:18 < samy> zwynq da pitam koe kakwo shto kfo
+20:18 < samy> mi.... cykash 15pyti next
+20:18 < samy> i si gotow
+20:18 < wiseman_> никъф шанс :) тъщата бачка в окръжна прокуратура и и дали един комп и тя гледа...mobile.bg на него щото това съм и бил показал, и като и дошъл шефа и той се зарибил, смятай
+20:18 < samy> zora beshe samo do kato bootne cd-to
+20:19 < wiseman_> ми на мен най ми беше весело като трябваше да бутна 98 от дискета и после от диска...
+20:19 < Informer> Аз даже не помня как съм успял да инсталирам първия си Уин. Май бях гледал откъде и бях запомнил какво се прави.
+20:19 < Informer> ахаха
+20:20 < Informer> даа, трагедия беше
+20:20 < wiseman_> и се чудех защо не ще пустинята
+20:20 < Informer> и забиваше на ден по няколко пъти, задължително
+20:20 < wiseman_> или с ХП когато излезе предсрочно и нямаше драйвери за нищо
+20:21 < Informer> аха
+20:21 < Informer> абе, аз някакси прескочих ерата на 2000
+20:21 < wiseman_> тогава го давах модерен, щото си бях взел една аудио карта 4+1 и едно ДВД (към 600 лева всичко беше) и исках да се правя на 100 кила с двд на омпа хахаххаах
+20:21 < Informer> никога не съм го виждал на живп
+20:22 < samy> ooo
+20:22 < samy> 2000-ta bqh na 10
+20:22 < samy> i sigurno noseh jelqzo
+20:22 < samy> za da wzema nqkoi lew
+20:22 < Informer> еее, гъзар, за мен едно време хубав компютър = такъв, който подкарва Star Craft
+20:22 < samy> da ida da igraq starcraft
+20:22 < Informer> мечтаех си за такова нещо вкъюи
+20:22 < samy> btw
+20:23 < samy> kashiral sum si edno windowsche
+20:23 < samy> samo za starcrafta:}}
+20:23 < Informer> ти смао на Линукс ли си?
+20:23 < samy> imam i windows
+20:23 < samy> ama go podkarwam kolkoto da si nachesham krastata
+20:24 < Informer> аз само да заимам по-голям хард и ще напусна уина
+20:25 < Informer> Star Craft не върви ли под Wine?
+20:25 < samy> az shte tyrbusha cd-to
+20:25 < samy> da
+20:25 < samy> ama e super gnusno
+20:25 < Informer> е, значи е необходимо зло
+20:26 < Informer> макар че, откакто съм с легален уин (не, не съм си го купувал :Д ), имам все по-добри впечатления
+20:27 < samy> http://www.youtube.com/watch?v=eJVhVg9Hozc
+20:27 < Informer> доста по-добре се държи от пиратските версии
+20:28 < samy> ne sym polzwal
+20:28 < samy> a i nqmam takowa namerenie
+20:28 < Informer> а и това, дето го измислиха в осмицата за hybrib sleep е доста яко
+20:28 < samy> oooo
+20:28 < samy> i 8ca ne sym podkarwal
+20:31 < Informer> ахахаха, при първия ми досег не знаех къде да си търся контрл панела. Сигурно един месец съм се учил като малко дете, докато разбера кое къде са го сложили. Никва интуитивност... Добре че има search, щото вече една година, откак съм с него още не знам кое
+20:31 < Informer> откъде се достъпва, ако трябва да го отварям стъпка по стъпка.
+20:32 < samy> huh
+20:32 < samy> she mi padne nekoi za preinstalaciq i she hwyrlq edno ocho na 8cata
+20:37 -!- Fairytale [Fairytale@police.executie.org] has quit []
+20:38 < Informer> Само да знаеш - когато бачкаш на 8, най-важният бутон от клавиатурата е флагчето!
+20:38 < Informer> Ако ти попадне клавиатура с неработещо флагче, направо се откажи.
+20:57 < samy> ooooooooooo
+20:57 < samy> ot kolko wreme go tyrsih tozi track
+20:57 < samy> http://www.youtube.com/watch?v=ZYnygOAGff8
+21:05 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has joined #telerikacademy
+21:06 < ViLKaTa> dencho ...
+21:06 < ViLKaTa> ............................
+21:06 < ViLKaTa> Tochki
+21:29 < dencho> kvi to4ki we :D
+21:30  * dencho slaps ViLKaTa around a bit with a large trout
+21:32 < samy> HAHAHA
+21:34 < dencho> :)
+21:44 < ViLKaTa> Razbrahme se
+21:44 < ViLKaTa> ;)
+22:06 -!- user99 [~McNamee@213.226.63.140] has joined #telerikacademy
+22:12 -!- user99 [~McNamee@213.226.63.140] has quit [Quit: Bye]
+22:12 -!- user99 [~McNamee@213.226.63.140] has joined #telerikacademy
+22:29 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+22:38 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has quit [Quit: Page closed]
+22:42 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Remote host closed the connection]
+22:53 -!- SeKtA [~chatzilla@defect-h.cybcom.net] has joined #telerikacademy
+22:53 < SeKtA> aloha
+23:24 < samy> Военен се прибира вкъщи и крещи от вратата:
+23:24 < samy> - Жена, след 3 минути ракията, салатата и вечерята да са на масата!
+23:24 < samy> - А вълшебната думичка?
+23:24 < samy> - Бегом!
+23:25 -!- Plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+23:29 < dencho> ora, spite li?
+23:30 < Plamer> нъц
+23:31 < dencho> doobre :D
+23:32 < SeKtA> ich daje
+23:34 -!- Informer [Informer@78.90.229.234] has quit [Quit: C ya!]
+23:54 -!- SeKtA [~chatzilla@defect-h.cybcom.net] has quit [Quit: hf]
+23:59 -!- Slavov [~slavov@84.54.185.190] has joined #telerikacademy

@@ -1,0 +1,687 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:05] dencho (~dencho@95.111.14.183) left irc: Read error: Operation timed out
+[00:06:34] <yulimoto_away> кой спи кой не :)
+[00:10:16] <KacanuH> Ти нали си ашау
+[00:10:24] <KacanuH> какво си се разписал такъв :)
+[00:11:42] <yulimoto_away> ами случайно видях, че питаш и викам да не си сменям ника само да ти кажа, че не спя :)
+[00:13:38] <KacanuH> ;)
+[00:13:59] <KacanuH> явно само ние сме нощните птици
+[00:14:26] <episparh> дриим он
+[00:15:28] Fairytale (1000@police.executie.org) left irc: Remote host closed the connection
+[00:16:33] <vhristev> ахахах Not so fast
+[00:16:34] <vhristev> (;
+[00:16:40] <yulimoto_away> хм ами нормално събота вечер, аз нещо съм на режим лягане в 2 и .. затова реших да погледам домашните за др. седмица, че нз през седмицата какво може да изникне
+[00:17:19] <KacanuH> аз пък чакам мача с Бразилците
+[00:17:32] <vhristev> аз чакам жената се размрънка
+[00:17:33] <KacanuH> ама нещо ....
+[00:17:36] <vhristev> тъйче всеки чака нещо
+[00:18:01] <vhristev> ама лека ,че мойто чакане се дочака
+[00:18:13] <KacanuH> хахаха
+[00:18:15] <KacanuH> айде лека
+[00:18:30] <yulimoto_away> ххаха
+[00:21:03] <yulimoto_away> кой за каквото чака
+[00:23:38] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Quit: Leaving
+[00:24:05] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[00:24:18] <KacanuH> я до като чакате, дайте идея как се сменя енкодинга на файл в терминал
+[00:25:09] <KacanuH> solved
+[00:25:26] <yulimoto_away> мн си бърз - минута е много
+[00:25:43] <yulimoto_away> и как го реши ?
+[00:25:48] <yulimoto_away> :)
+[00:26:05] <KacanuH> а аз се боря от преди 10 мин
+[00:26:24] <KacanuH> [root@localhost Oblivion.2013.HDRip.XviD-THGF]# file -bi Oblivion.2013.HDRip.XviD-THGF.srt
+[00:26:24] <KacanuH> text/plain; charset=iso-8859-1
+[00:27:21] <episparh> баровец , на руут го кара ;)
+[00:27:41] <KacanuH> http://mindspill.net/computing/linux-notes/determine-and-change-file-character-encoding/
+[00:27:49] <episparh> да не си в някой бактрак/кали
+[00:28:26] <KacanuH> не бе, на цента съм, явно съм инсталирал нещо и си е останало
+[00:28:48] <KacanuH> а от горният линк видях как се прави
+[00:30:10] <episparh> аз намерих това
+[00:30:14] <episparh> :write ++enc=utf-8 russian.txt
+[00:30:54] <episparh> със вим при сеив
+[00:31:38] <KacanuH> да това по-лесният вариант, но пък моето е по-вечно :)
+[00:36:44] <episparh> някой имал ли е проблем със свръх чувствителен скрол  на мишка ?
+[00:38:11] <KacanuH> не съм забелязвал
+[00:38:29] <KacanuH> с каква ос си
+[00:38:38] <episparh> моята беше хипер активна
+[00:38:53] <episparh> със умряла/жива котка ;)
+[00:39:19] <KacanuH> Е ми така е като бараш много скрола, ще е хиерактивна каква да е
+[00:39:42] <KacanuH> барай я само за опашката и няма да имаш такива проблеми
+[00:39:55] <episparh> ами не е нормално с едно леко докосване на ми прелиства 2-е страници
+[00:40:08] <episparh> аз я излекувах
+[00:40:15] <KacanuH> а това означава нова мишка
+[00:40:39] <episparh> с един .ш в гноме-сешън-преф
+[00:40:57] <episparh> ами не само под линукс е тоя проблем
+[00:41:27] <KacanuH> е ми аз за това ти казвам че си за нов плъх
+[00:41:28] <episparh> и като изкарам безжичния предавател от усб и го тикна пак се оправя
+[00:41:39] <KacanuH> и аз имах подобем проблем преди
+[00:41:52] <KacanuH> а моите бяха с жична
+[00:42:23] <KacanuH> е ми не мога да ти кажа, някой китаец се е из базикал с теб
+[00:42:58] <episparh> xinput --set-prop "PS/2 Mouse" "Device Accel Constant Deceleration" 5
+[00:42:58] <episparh> xinput --set-prop "PS/2 Mouse" "Device Accel Velocity Scaling" 1
+[00:43:05] <episparh> еи така я излекувах
+[00:43:20] <episparh> китайска M$ мишка + клавиатура
+[00:43:26] <episparh> в win e 6
+[00:43:36] <episparh> с  линз само се ебава
+[00:43:55] <KacanuH> и аз имам един такъв компект, само събира прах
+[00:44:03] <KacanuH> не мога да му насмогна с батерии
+[00:44:16] <episparh> много ми е удобна и клавиатурата и мишката
+[00:44:40] <episparh> бих искал и да има подсветка но греда
+[00:45:46] <episparh> маи безжични клавиатури с подсветка няма
+[00:46:07] <KacanuH> има логика,
+[00:46:17] <KacanuH> трябват батерии за подсветка
+[00:46:27] <episparh> да батериите заминават
+[00:46:57] <episparh> ами нищо не пречи да слагат по две вериги - една за подсветка и една за клавиатурата
+[00:47:19] <episparh> ако искаш да свети - слагаш 2-ри комплект :Д
+[00:47:28] <KacanuH> да а и лед подсветката не хаби много
+[00:47:52] <KacanuH> което ме амбицира да се опитам да си модна клавиатурата
+[00:48:35] <KacanuH> имам лед лента излишна, така че утре може с това да се занимавам :–)
+[00:48:40] <episparh> за съжаление доста се ровя вечер - а не обичам да ми свети дисплея в бяло  ...
+[00:48:52] <episparh> лед лентата не е ли на 12v
+[00:49:24] <episparh> и ако ти нямат клавишите прозрачни елементи не става
+[00:49:40] <KacanuH> аз мислех да го направя с големи батерии
+[00:50:04] <KacanuH> 4 бр 3V lipo
+[00:50:57] <KacanuH> за какво са ми прозрачни, аз до толкова знам буквите, то идеята е да мога да си я намирам по-лесно :)
+[00:52:02] <episparh> ами на мен ми трябва някакъв ориентир
+[00:52:12] <episparh> но както и да е
+[00:56:08] <episparh> хайде лека от мен
+[00:59:20] botlike (~botlike@185.7.217.1) joined #telerikacademy.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:00:03] <botlike> добър вечер има ли някой буден ?
+[01:00:24] <KacanuH> има разбира се
+[01:00:27] <yulimoto_away> KacanuH:
+[01:00:34] <KacanuH> yulimoto_away,
+[01:04:48] <botlike> имам няколко въпроси
+[01:05:09] <botlike> мога ли на някои от вас да ги задавам :) на лично
+[01:05:22] <KacanuH> давай тук
+[01:06:07] <KacanuH> нали това е идеята, да се решават дружно, като откриваме начини по които стават
+[01:06:29] <botlike> те въпросите не са по лекциите
+[01:06:31] <botlike> :)
+[01:06:50] <botlike> тук се занимавам с един гаден хакер ме тормози :)
+[01:06:58] <botlike> и искам да разбера повече за него
+[01:07:22] <episparh> моар инфо
+[01:07:31] <botlike> а?
+[01:07:38] <episparh> повече инфо
+[01:07:49] <episparh> как точно те тормози
+[01:07:50] <yulimoto_away> явно не е хакер, по-скоро ще е хахор, ако това което си мисля е верно :)
+[01:08:00] <botlike> promenq mi nastroikite na rutera
+[01:08:03] <botlike> i mi spira neta
+[01:08:09] <botlike> smenqmi parolata za dostyp
+[01:08:11] <botlike> do nego
+[01:08:15] <botlike> i ne moga da vlqza :D
+[01:08:18] <botlike> trqbva reset
+[01:08:33] <KacanuH> е ми правиш ресет и сменяш паролата
+[01:08:36] <botlike> prashta mi nqkvi paketi za security updates
+[01:08:38] <botlike> na linuksa
+[01:08:46] <episparh> смени си сигурноста на рутера на wpa2  и си сложи парола от 10+ символа
+[01:08:56] <KacanuH> след това си сетваш само твоите мак-адреси и си готов
+[01:09:07] <botlike> tova ne stava
+[01:09:14] <KacanuH> кое не става
+[01:09:37] <botlike> ami s tezi nastroiki
+[01:09:54] <botlike> choveka pravi MITM
+[01:09:55] <botlike> ataki
+[01:10:09] <botlike> ne go znam s kakyb komp e
+[01:10:22] <botlike> ama za otricatelno wreme mi hvashta parolite
+[01:10:25] <episparh> чакай малко
+[01:10:46] <botlike> hakvaneto idva ot WAN ne ot wireless
+[01:11:02] <KacanuH> ахааа
+[01:11:14] <episparh> 1-во откачи си кабела на рутера за нет и  му змени настроийките да не приема админ конекции по wan интерфейса
+[01:11:34] <episparh> смени си паролата и узъра на админ акаунта
+[01:11:54] <KacanuH> да това за юзъра е дора идея
+[01:11:55] <episparh> потърси си по нов фирм уеър за рутера
+[01:11:58] <botlike> tova napravih predi 2 sedmici
+[01:12:10] <KacanuH> какъв ти е рутера
+[01:12:13] <botlike> nqma polza
+[01:12:15] <episparh> че може да има и някакъв секщрити бъг по принцип
+[01:12:15] <botlike> tplink
+[01:12:27] <episparh> как няма полза
+[01:12:55] <botlike> nqmam ideq zatowa pitam
+[01:12:58] <botlike> az za koeto se seshtam
+[01:13:04] <botlike> e da podslushva trafika
+[01:13:08] <botlike> za hasove
+[01:13:16] <botlike> hashove
+[01:13:19] <botlike> ama ...
+[01:13:24] <botlike> tova ot nema vreme
+[01:13:28] <episparh> и ако те тормози само 1 ip  удари му пълен игнор от firewall-а на рутера
+[01:13:58] <botlike> v momenta sam go reset i chakam da go vidq
+[01:14:55] <yulimoto_away> най-вероятно скрипт-киди някое, ти изключи ли wi-fy на рутера ?
+[01:15:09] <botlike> ne
+[01:15:25] <yulimoto_away> а ти трябва ?
+[01:15:42] <yulimoto_away> т.е. по кабел или wi-fi го ползваш  ?
+[01:15:47] <botlike> mislish che slusha trafika prez wifi
+[01:15:55] <botlike> wifi
+[01:16:37] <episparh>  wifi  не е проблем - слагаш wpa2/psk с 10+ символа парола поне с два специални символа и големи малки букви + цифри
+[01:16:50] <episparh> и успех да те пробият през wifi
+[01:16:58] <botlike> mogat :)
+[01:17:24] <episparh> повярвай ми - wpa2 - не могат
+[01:17:50] <botlike> i zashto si mislish taka ?
+[01:17:59] <episparh> не се е родил още хакер дето да го разбие това - освен ако не сложиш някоя тъпа парола
+[01:18:04] <botlike> dai mi stabilen argument zashto
+[01:19:50] <botlike> mislq che ima dsota tutoriali v youtube koito pokzvat kak se razbiva wpa2
+[01:19:58] <KacanuH> защото тия които могат да ти разбият wpa2-то няма да си тровят нервите с твоето порно
+[01:19:58] <episparh> успех
+[01:20:39] <episparh> пробваи да ги приложиш на някой с парола от вида !gR@15e%r1234
+[01:21:22] <KacanuH> episparh, става, ако я добавиш в речника с думи за брутфорс
+[01:21:33] <episparh> wpa2  експлойтите са успешни само с/у слаби ключове
+[01:21:33] <KacanuH> :) както са направени и клипчетата в интернет
+[01:22:00] <episparh> виж KacanuH  как знае
+[01:22:36] <KacanuH> един път 3 дни не си гасих компа да пробвам да си разбия паролата
+[01:22:41] <episparh> няма ли я паролката в речника на h4x0r4 ... може само да пие студена вода
+[01:22:53] botlike_ (~botlike@185.7.217.1) joined #telerikacademy.
+[01:22:54] <KacanuH> а тя беше само от малки букви на кирилица
+[01:22:55] botlike (~botlike@185.7.217.1) left irc: Quit: Ex-Chat
+[01:22:59] <episparh> ахаха
+[01:23:00] <KacanuH> а тя беше само от малки букви на латиница
+[01:23:05] <episparh> кирилица :)
+[01:23:08] <botlike_> :)
+[01:23:14] <botlike_> skapana rabota
+[01:23:17] <botlike_> padna bateriqta
+[01:23:17] <botlike_> :d
+[01:23:24] <KacanuH> тоест беше ¨krastavica¨
+[01:23:47] <episparh> аз понякога си отварям 2-рия хотспот
+[01:23:50] <KacanuH> да ти имам проблема, на мен ми се изпържиха макарите
+[01:24:10] <episparh> събирам си опитни мишки за wireshark трайнинг :)
+[01:24:14] <botlike_> che otnosno moq problem :)
+[01:24:28] <yulimoto_away> ха писах едно дълго изречение, а той botlike си отишъл
+[01:24:32] <yulimoto_away> хаха
+[01:24:33] <botlike_> da zadavam li konkretni vuprosi
+[01:24:46] <botlike_> padna bateriqta
+[01:24:47] <botlike_> :d
+[01:25:05] <KacanuH> yulimoto_away, тук е просто има един специален символ в повече
+[01:25:11] <botlike_> prenasochih portovete kum laptopa
+[01:25:14] <botlike_> ot rutera
+[01:25:17] <yulimoto_away> значи почни едно по-едно, раздели проблема на части, почни от wi-fi и направи това което episparh ти казва или ако не ти трябва го изкл., после огледай настройките на рутера една-по-една колкото досадно да е това, виж дали не си дал възможност за конекция
+[01:25:24] <yulimoto_away> аха
+[01:25:46] <botlike_> nqma remote control
+[01:26:07] <episparh> задавай , но както казах , смени си ючъра и пас за администрация на рутера , спри си администрацията през WAN, сложи си сложна парола на wpa2/psk или tkip , и си ъпдейтни фърмуеара
+[01:26:44] <botlike_> samo s updeita ne sum go prawil
+[01:26:45] <botlike_> :)
+[01:27:12] <episparh> ами то ако е в това проблема нищо от предходните няма ти помогне
+[01:28:27] <yulimoto_away> просто си направи някаква стратегия, той вече достатъчно се издал за да разбереш колко е прост.
+[01:30:50] <episparh> тоя рутер от къде си го взел ?
+[01:31:40] <yulimoto_away> бай дъ уей какъв е точно модела на рутера ? потърси ли слабости в секюрити сайтове ?
+[01:31:54] <botlike_> WR740N v1/v2 00000000
+[01:31:59] <botlike_> ot magazina :D
+[01:32:13] <botlike_> ne sym tyrsil
+[01:32:34] <yulimoto_away> от магазина !! харесва ми как мислиш :)
+[01:32:52] Nick change: KacanuH -> KacanuH_movie
+[01:33:15] <botlike_> :)
+[01:33:42] <botlike_> sega da vidim kakvo shte stane s updejta
+[01:33:47] <botlike_> v1 i v2
+[01:33:50] <episparh> ами аз се сештам и за други неща
+[01:33:56] <botlike_> kakvo trqbva da me nasochki
+[01:34:04] <yulimoto_away> освен че ти спира нета ? друго ?
+[01:34:05] <botlike_> v1 v2
+[01:34:28] <botlike_> ami imam chustvoto che dokato go osetq beshe izgurmql ednata mashina
+[01:34:28] <episparh> обикновенно такива простотии правят "приятелчета" който са имали достъп до мрежата/ компютъра
+[01:34:31] <botlike_> na windows
+[01:34:45] <botlike_> no tq e down predi minaliq reset
+[01:35:04] <botlike_> samo laptopa si ostawih
+[01:35:16] <botlike_> sega mi izlizat nqkvi updejti
+[01:35:34] <botlike_> koito sa ot trusted zona koqto linuksa ne moje da razpznae
+[01:35:39] <yulimoto_away> т.е. сигурен си само за това, че ти спира нета. как ти праща съобщения за "ъпдейт" -> който всъщност е  истинската неприятност
+[01:35:41] <botlike_> 2 updejta
+[01:35:47] <botlike_> za GNOME XML
+[01:36:03] <botlike_> nqmam ideq
+[01:36:08] <botlike_> tova iskam da razbera
+[01:36:10] <botlike_> ot kade idvat
+[01:36:15] <botlike_> tezi 2 updeita
+[01:36:23] <botlike_> za GNOME
+[01:37:25] <episparh> :о
+[01:38:06] <botlike_> :)
+[01:38:13] <yulimoto_away> възможностите на този, който стои зад тази "атака" едва ли стигат да пренапише пакетите - да такава атака има, но тя включва много добри познания за мрежата.
+[01:38:16] <botlike_> nqkva interesna rabota
+[01:38:50] <botlike_> ...
+[01:38:53] <yulimoto_away> и то да ги пренапише така, че всичко да е съвместимо
+[01:39:41] <botlike_> instalnah gi vupreki atenshanite koito mi iskara ubuntuto
+[01:39:42] <botlike_> :)
+[01:39:59] <botlike_> zabelqzah che neshto sprq da me pita za pass :)
+[01:40:04] <botlike_> ot nqkolko dni
+[01:40:12] <botlike_> osven v treminal :)
+[01:40:12] <yulimoto_away> най-вероятно си се панирал и става въпрос само за DooS атака
+[01:40:32] <yulimoto_away> добре виж в лога какви са тия пакети
+[01:40:32] <botlike_> uj naprawih nastroikite na rutera
+[01:40:39] <yulimoto_away> от къде си ги инсталирал
+[01:40:41] <botlike_> za dos ataki
+[01:40:54] <botlike_> opa
+[01:40:55] <botlike_> ..
+[01:40:56] <botlike_> xax
+[01:40:57] <botlike_> :)
+[01:41:13] <botlike_> sega momcheta da updeitna firmwera
+[01:41:32] <botlike_> WR740N v1/v2 00000000
+[01:41:40] <botlike_> v1 v2 znachi che e suvmestim s versiqta
+[01:41:41] <botlike_> ?
+[01:42:41] <botlike_> aa nqma da e sega da go updeitvam che trqbva da spiram neta
+[01:42:43] <botlike_> ..
+[01:42:52] <yulimoto_away> :)
+[01:43:46] <yulimoto_away> а то как разбра за този "хакер" (м/у другото хакер означава човек, който пречупва нещата, а не такъв който ги троши)
+[01:44:13] <botlike_> ami pochnah da pravq testove
+[01:44:19] <botlike_> s ettercap
+[01:44:24] <botlike_> i sslstrip
+[01:44:50] <botlike_> davidq dali shte mi havanat pasovete
+[01:44:59] <episparh> и мен ме съмнява че на някой ботнета те е налазил , или просто в мрежата ти има някой "компетентен"
+[01:45:10] <yulimoto_away> к'во е това някакви снифъри ?
+[01:45:15] <yulimoto_away> на трафика
+[01:45:30] <botlike_> da
+[01:45:34] <episparh> sslstrip , уахаха
+[01:45:41] <yulimoto_away> и какво видя там ?
+[01:46:05] <botlike_> ami nishto :)
+[01:46:17] <episparh> ако някой ти каже че може да ти подслушва ssl трафика значи е голям фантазьор
+[01:46:38] <botlike_> hah
+[01:46:48] <botlike_> ami ne znam predi godina i polovina
+[01:46:50] <botlike_> mislq
+[01:46:56] <botlike_> pak pravih testove
+[01:47:08] <botlike_> i nqmashe parola koqto da ne hvana
+[01:47:12] <botlike_> prez ssl
+[01:47:29] <botlike_> neshtata sa se promenili :)
+[01:47:29] <yulimoto_away> аууу
+[01:47:53] <yulimoto_away> момчета нуждаем се от сън
+[01:48:00] <yulimoto_away> botlike_: мисля ти също
+[01:48:03] <botlike_> :)
+[01:48:03] <yulimoto_away> хайде лека от мен
+[01:48:04] <botlike_> xaxa
+[01:48:11] <botlike_> nedei bqga
+[01:48:13] <botlike_> stoi
+[01:48:13] <episparh> най вече botlike_
+[01:48:16] <botlike_> xaxa
+[01:48:49] <botlike_> rabotata stavashe ne da podsulvash ssl
+[01:49:12] <botlike_> of kakda go obqsnq sega ...
+[01:49:14] <botlike_> :)
+[01:50:02] <botlike_> hato vlizash v sait http
+[01:50:17] <botlike_> servera ti prashta paketi za da te prenasochki
+[01:50:20] <botlike_> kum https
+[01:50:31] <botlike_> obashe ti izprashtash paketi
+[01:50:32] <botlike_> da ostane
+[01:50:35] <botlike_> na http
+[01:50:42] <botlike_> i po tozi nachin zimash pasa
+[01:50:44] <botlike_> :D
+[01:50:54] <botlike_> daje huch ne moga da go obqsnq :D
+[01:50:55] <botlike_> xaxaxa
+[01:51:55] <botlike_> episparh,
+[01:52:25] <botlike_> obshto vzeto tova koeto iskah da pitam ne mojah da go pitam :D
+[01:53:37] <botlike_> clear
+[01:53:56] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 264 seconds
+[01:55:17] botlike_ (~botlike@185.7.217.1) left irc: Quit: Ex-Chat
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:12:30] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[02:13:56] <episparh> мда
+[02:14:05] <episparh> някой в мтел ме псува :)
+[02:25:01] <KacanuH_movie> защо
+[02:26:04] <episparh> защото ги събудих :)
+[02:27:13] <episparh> като си забрави човек юзърнейма лошо :)
+[02:27:22] <episparh> а и бакуп нямах
+[02:27:45] <episparh> както и да е
+[02:27:47] <episparh> лека
+[02:27:51] <KacanuH_movie> лека
+[02:32:42] KacanuH_movie (~Deyan@46.249.92.240) left irc: Ping timeout: 276 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:39:25] milev (~martin@client-33-170.speedy-net.bg) left irc: Ping timeout: 240 seconds
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:07:55] buddi (2eee2929@gateway/web/freenode/ip.46.238.41.41) left irc: Quit: Page closed
+[08:31:12] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[08:56:48] Nick change: Brahman -> Brahman`
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:07:10] user99 (~McNamee@213.226.63.155) joined #telerikacademy.
+[09:08:42] user99 (~McNamee@213.226.63.155) left irc: Client Quit
+[09:16:57] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[09:27:05] KacanuH_movie (~Deyan@46.249.92.240) joined #telerikacademy.
+[09:27:14] Nick change: KacanuH_movie -> KacanuH
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:10:01] <KacanuH> ей мутри спите ли бе
+[10:22:33] kulenski (~kulenski@46.40.126.222) joined #telerikacademy.
+[10:36:28] <episparh> дубрутру
+[10:40:14] <yulimoto_away> пак ли вие двамата ;P
+[10:41:39] <vhristev> 3мата
+[10:42:33] <yulimoto_away> ей голема сте работа ? вместо да се наспите в неделя
+[10:53:10] <episparh> ани напече ме
+[10:53:14] <episparh> няма как :)
+[10:54:30] <episparh> да си пия кафето и да се хващам да чета
+[10:54:35] <episparh> лека ви
+[10:59:44] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:49] angeloff (5b6158b7@gateway/web/freenode/ip.91.97.88.183) joined #telerikacademy.
+[11:01:19] <angeloff> zdrawejte
+[11:01:28] <angeloff> budni imali tuk
+[11:02:27] <KacanuH> само обичайните заподозрени
+[11:02:52] kulenski (~kulenski@46.40.126.222) left irc: Quit: Leaving
+[11:03:51] Action: Brahman` natiska powet button-a na angeloff  i go pravi angelon
+[11:04:01] kulenski (~kulenski@46.40.126.222) joined #telerikacademy.
+[11:04:02] dench0 (~dencho@95.111.14.183) joined #telerikacademy.
+[11:04:15] <Brahman`> dench0
+[11:04:19] <Brahman`> da ti izpapkam nulichkata
+[11:04:52] bubata (~bubata@host-091-097-088-183.ewe-ip-backbone.de) joined #telerikacademy.
+[11:05:03] <dench0> 4akai 4e padna bateriata i nema kabel :D
+[11:05:19] <angeloff> хахахах
+[11:05:30] <angeloff> ае това нещо не сам го ползвал от години.......
+[11:05:32] <Brahman`> vdigni q ot zemqta i q duhni
+[11:05:34] <Brahman`> :D
+[11:05:41] <dench0> :]
+[11:05:44] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 256 seconds
+[11:05:47] <dench0> angeloff mi welcome back
+[11:05:49] Nick change: dench0 -> dencho
+[11:05:56] <Brahman`> mr. angeloff :)
+[11:06:10] <angeloff> а м/у другото колко тенекета има тук
+[11:06:18] <Brahman`> pochni da udrqsh po glavite nared
+[11:06:24] <Brahman`> koeto izdrunchi she si pokaje samo
+[11:06:37] CTCP VERSION:  from Brahman` (Brahman`!~Brahman@109.121.248.105) to #telerikacademy
+[11:06:39] <dencho> teneketa ?
+[11:06:53] <Brahman`> Telerik sus sigurnost :D
+[11:06:56] <angeloff> ботове ....
+[11:06:58] <Brahman`> drugite reportvat che sa clients
+[11:07:03] <dencho> Telerik logva
+[11:07:25] <dencho> are away, 4e si 4eta knijka :d
+[11:07:35] <angeloff> 4ети 4ети
+[11:07:42] <Brahman`> to slqpoto okato pravi :D
+[11:07:56] <dencho> a?
+[11:08:22] <Brahman`> http://slovo.bg/old/vazov/skitnik/chetigov.htm
+[11:08:39] <angeloff> Brahman`:
+[11:08:45] <Brahman`> Чети! То прави сляпото окато -
+[11:08:45] <Brahman`> из тоя извор целий свят гребе -
+[11:08:45] <Brahman`> за малко труд дарява то богато,
+[11:08:45] <Brahman`> по-скъпо то е от елмаз и злато:
+[11:08:45] <Brahman`> 		чети: а, б.
+[11:08:58] <Brahman`> lulz
+[11:09:03] <angeloff> towa sas ctcp
+[11:09:12] <angeloff> moje da se yaigrae 4owek..
+[11:09:21] <dencho> i did it for the lulz
+[11:09:34] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[11:09:48] <Brahman`> angeloff, vsichko moje da napravish da dava podveshdasht/neveren VERSION reply
+[11:10:21] <Brahman`> taka che ne vqrvai na 100%
+[11:11:05] <angeloff> edno wreme imashe bitcx
+[11:11:12] <angeloff> ny moji i sega da go ima
+[11:11:25] <KacanuH> сменили са му името вече
+[11:11:29] <episparh> гаранция го има
+[11:12:05] <angeloff> nz ne sam  tarsil
+[11:12:34] <episparh> BitchX.x86_64 : IrcII chat client
+[11:12:40] <episparh> ако си фен
+[11:12:55] <episparh> щом в репото на федора го има ...
+[11:13:41] <angeloff> http://www.bitchx.com/
+[11:13:43] <angeloff> ima si go
+[11:13:45] <episparh> само не разбрах за какво ви е това
+[11:14:03] <angeloff> zaigraise s nego i 6te razbere6 za kakwo e
+[11:14:04] <angeloff> .....
+[11:15:08] <episparh> няма нужда да се заигравам с него - на 36 години съм , отлично познавам всияки irc клиенти ... дори по едно време ги бях сменил с eggdrop-и
+[11:15:30] <episparh> само дето не ми стана ясно за какво ти е
+[11:18:18] bubata (~bubata@host-091-097-088-183.ewe-ip-backbone.de) left irc: Quit: Leaving
+[11:22:45] <angeloff> prosto nostalgiq...
+[11:25:34] <episparh> ами щом ти харесва
+[11:26:04] <episparh> пиши там  sudo yum install bitchx  и енджой
+[11:29:48] <Brahman`> irssi e po-poddurjan
+[11:29:53] <Brahman`> ot bitchx
+[11:30:38] <angeloff> prosto be6e leka zabejka w dobroto staro wreme towa e...
+[11:30:47] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[11:34:06] <episparh> то Убаво, ама освен ако не сте GUI less  - не виждам смисъл от това
+[11:34:21] <Brahman`> mda
+[11:34:47] <episparh> все едно да ми ползвате lynx  щото ви навява спомени
+[11:34:58] <Brahman`> nepraktichno e
+[11:35:25] <episparh> много е практично - ако нямаш GUI
+[11:35:46] <episparh> lynx-a ме е спасявал доста пъти :)
+[11:35:47] <Brahman`> da de, togava i samo togava :D
+[11:36:24] <Brahman`> ponqkoga go izpolzvash vmesto download manager, ako nqma instaliran wget
+[11:36:50] <episparh> няма wget  а има lynx ... нот куул
+[11:36:57] <Brahman`> ima i takiva sluchai :D
+[11:37:30] <episparh> явно тоя дето е администрирал машината е пушил някакви съмнителни субстанции
+[11:37:45] <Brahman`> :) vupros na gledna tochka
+[11:37:50] <Brahman`> za nego moje ti da si napusheniq che iskash wget :D
+[11:39:11] <episparh> хайде аз да се връщам към питона
+[11:39:22] <Brahman`> leko da ne te udushi :P
+[11:39:31] <episparh> лек ви ден , диър сърс
+[11:39:33] <Brahman`> che chupi kosti
+[11:39:44] <episparh> е чак пък
+[11:39:47] <Brahman`> :D
+[11:40:08] <episparh> той тоя питон не е влечуго
+[11:40:35] <episparh> по принцип името му е взето от шоуто монтли питон
+[11:46:14] kulenski (~kulenski@46.40.126.222) left irc: Quit: Konversation terminated!
+[11:46:48] dencho (~dencho@95.111.14.183) left irc: 
+[11:58:00] rozanna (~Rosi@92-247-239-186.spectrumnet.bg) joined #telerikacademy.
+[11:58:02] rozanna (~Rosi@92-247-239-186.spectrumnet.bg) left #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:28:52] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 246 seconds
+[13:51:33] Brahman` (~Brahman@109.121.248.105) left irc: Ping timeout: 264 seconds
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:02:16] milev (~martin@client-33-170.speedy-net.bg) joined #telerikacademy.
+[14:22:34] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[14:35:47] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:50:44] <yulimoto_away> episparh: каква книжка четеш за питон ?
+[14:52:01] <episparh>  в момента съм на видео туториали - тея на cbtn ot 2010
+[14:53:27] <yulimoto_away> аха
+[14:53:41] <episparh> имам и разни книжки , но май http://docs.python.org/3.3/tutorial/ за четене
+[14:54:20] <episparh> особено ако имаш някакво понятие от програмиране
+[14:54:33] <yulimoto_away> на друго пишеш ли ?
+[14:54:43] <episparh> налага ми се на java
+[14:54:53] <yulimoto_away> да, то ако примерно си писал ооп ще минеш бързичко
+[14:55:56] <episparh> ами доста време се чудих какъв програмен език да подхвана
+[14:56:31] <episparh> и питон ми се стори най добре като съотношение learn curve / purpose
+[14:56:47] <yulimoto_away> що майка java си е добре
+[14:56:56] <episparh> да ве да
+[14:57:01] <yulimoto_away> хаха
+[14:57:38] <episparh> http://www.python.org/doc/humor/#shooting-yourself-in-the-foot
+[14:58:08] <episparh> хубавото на питон е че ако нещо ги няма можеш да си го напишеш на Це или Жава :)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:43] <yulimoto_away> :)
+[15:01:10] <yulimoto_away> скоро слушах един виц за джава, ама ти сигурно го знаеш щом пишеш на джава
+[15:01:49] <yulimoto_away> на програмистите им плащали на линии код, а знаеш ли как плащали на джава програмистите ?
+[15:04:07] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 276 seconds
+[15:04:33] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[15:14:57] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:12:19] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 246 seconds
+[16:22:25] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 245 seconds
+[16:25:05] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[16:25:30] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[16:40:20] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 245 seconds
+[16:45:24] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[16:51:19] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 260 seconds
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:02:33] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[17:07:51] samy__ (~samy@91.196.227.180) joined #telerikacademy.
+[17:10:27] samy (~samy@84.238.184.98) left irc: Read error: No route to host
+[17:11:30] samy (~samy@84.238.184.98) joined #telerikacademy.
+[17:12:03] gyankov (4e5abff5@gateway/web/freenode/ip.78.90.191.245) joined #telerikacademy.
+[17:14:28] samy__ (~samy@91.196.227.180) left irc: Ping timeout: 252 seconds
+[17:15:48] <gyankov> Здравейте, доколкото помня, linux курса го записахме 1035 човека, но ми е любопитно колко души продължават в него :). Интересно ми е тъй като винаги има статистика 1/3 от записаните да се откажат още в началото.
+[17:17:16] <gyankov> Може би само Мариян има поглед на това, тъй като само той знае колко души си пишат въобще домашните :).
+[17:17:52] <yulimoto_away> Колко от тях са били он §§ оф -> лайн
+[17:19:10] <gyankov> Присъствено трябва да са около 250-300 души.
+[17:20:32] <yulimoto_away> до колкото разбрах той е оценил около 160 домашни, останалите са оставени на оценяване "един-оценява-друг" , но колко са ?
+[17:20:56] <yulimoto_away> хрумна ми че може да погледна лога на канала там може да излезе нещо :)
+[17:21:07] <episparh> аз лично само участвам без да вземам участие в домашните и свързаните с тях проверки и т.н.
+[17:21:27] <episparh> също нямам намерение да ходя и на изпит
+[17:21:57] <episparh> късно ми е да ставам линукс админ :)
+[17:23:27] <gyankov> В лога на канала сигурно ще има много малко хора :).
+[17:24:12] <gyankov> Обикновено по домашните си личи най-много :).
+[17:24:38] <episparh> домашните не са критерии
+[17:25:44] <episparh> както и да е .. отлитам
+[17:25:47] <gyankov> episparh: То и аз не знам дали ще се явявам на изпит, но повярвай ми, че по домапните много лесно се разбира кой се е отказал. Не мисля, че хората в твоя случай са много :).
+[17:26:24] <episparh> както казах мойте подбуди да посещавам курса са други
+[17:26:34] <episparh> а се записах по незнание
+[17:27:09] <episparh> т.е. ако знаех че мога да присъствам онлайн без да се записвам нямаше да бъгвам статистиката
+[17:27:43] <gyankov> Аха, ясно.
+[17:28:00] <yulimoto_away> gyankov: сори не съм най-бързия с грепа
+[17:28:14] <yulimoto_away> gyankov: на 12 юли петък - 01:18 < hackman> ехееее има 463 домашни
+[17:28:58] <yulimoto_away> можеш да видиш дали петък 12 юли може да е било краен срок за домашни, или е имало още време
+[17:29:10] <yulimoto_away> и да си направиш някаква приблизителна проверка.
+[17:29:25] <episparh> ами да , май е било краен срок
+[17:29:30] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 245 seconds
+[17:29:37] <episparh> петък е
+[17:30:21] <yulimoto_away> имах напредив да видя лога на канала за определени думи канала и така да вържем някаква теориика, а не да гледам колко хора са в канала и от там да правя заключение ;)
+[17:31:29] <yulimoto_away> ами вероятно са останали около укропено около 500 души :)
+[17:31:41] <gyankov> yulimoto_away: Сега те разбрах :).
+[17:32:31] <gyankov> А как тук се изпращат лс?
+[17:32:59] <yulimoto_away> ./msg nick message
+[17:33:08] <yulimoto_away> без точката отпред разбира се
+[17:36:11] <gyankov> Тази команда за лс от старото IRC ли идва?
+[17:36:53] <yulimoto_away> кое е новото irc ?
+[17:37:19] <gyankov> Имах предвид "старото" в кавички :).
+[17:38:14] <gyankov> За мен е старото, щото съм го ползвал преди много години :).
+[17:38:54] <yulimoto_away> ami да
+[17:39:32] <yulimoto_away> но имаше доста alias-и
+[17:39:55] <yulimoto_away> примерно /j беше alias на /join
+[17:40:13] <gyankov> Аха, ясно.
+[17:40:46] <yulimoto_away> и не съм се запознал кое е команда и кое е просто alias за по-бързо писане
+[17:43:56] gyankov (4e5abff5@gateway/web/freenode/ip.78.90.191.245) left irc: Quit: Page closed
+[17:51:33] <yulimoto_away>  аве сега се замислих ако имам 3 юзер сетнати setfacl към някой файл и искам да махна един, как да мина lazy, иначе трябва да изтрия ги изтрия всички и да адна двамата, които желая - това е мн работа
+[17:55:46] <yulimoto_away> solved (-x option)
+[17:55:48] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[18:00:01] Writing user file...
+[18:00:01] Writing channel file...
+[18:40:22] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[18:40:42] <dencho> някой на линия?!
+[18:41:10] <KacanuH> да
+[18:41:10] <dencho> има ли :Д
+[18:41:14] <dencho> Супер
+[18:41:21] <dencho> виртуализирал ли си с VirtualBox?
+[18:41:39] <KacanuH> опитах, постоянно ми забиваше и го заебах
+[18:41:47] <dencho> под каква ос?
+[18:41:57] <KacanuH> linux иначе под windows работи перфектно
+[18:42:05] <dencho> под какъв линукс
+[18:42:10] <KacanuH> centos
+[18:42:55] <dencho> чудесно, но това не ми помага. Въпроса ми е... след като съм виртуализирал с VirtualBox, как да мигрирам или стартирам същата машина с kvm/qemu
+[18:43:11] <dencho> хард диска е qcow2 нали :)
+[18:43:34] <dencho> понеже аз никога не съм виртуализирал с kvm и не зная какви са стъпките
+[18:43:44] <KacanuH> ask google, никога не съм се опитвал
+[18:44:09] <dencho> :)
+[18:44:28] <dencho> доооообрем :Д
+[18:44:48] <KacanuH> http://cheznick.net/main/content/converting-a-virtual-machine-from-virtualbox-to-kvm
+[18:45:03] <KacanuH> това намерих, изглежда ми доста описателно
+[18:51:58] <dencho> мерсаж..
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:13:39] <KacanuH> dencho, получи ли се?
+[19:16:41] <dencho> ол, не съм пробвал, до сега си суших косата... после вечеря... после ако остане време ще тествам, ако не утре :)
+[19:25:56] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[19:27:35] rootstar (0@78.90.53.106) joined #telerikacademy.
+[19:59:21] angie_bg (~angie@77.236.189.210) left #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:02:58] Nick change: KacanuH -> Deyan_cooking
+[20:14:33] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[20:14:44] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[20:15:00] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[20:32:03] <vhristev> оп някой жив
+[20:32:43] <Deyan_cooking> Jamie Oliver
+[20:32:55] <Deyan_cooking> както обикновенно
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:21:00] bentoslack (~Adium@87.97.214.90) joined #telerikacademy.
+[21:32:58] Deyan_cooking (~Deyan@46.249.92.240) left irc: Ping timeout: 264 seconds
+[21:40:03] samy (~samy@84.238.184.98) got netsplit.
+[21:49:31] samy (~samy@84.238.184.98) returned to #telerikacademy.
+[21:55:17] net: connect! sock 3
+[21:55:17] DNS resolved 127.0.0.1 to localhost.localdomain
+[21:55:17] Telnet connection: localhost.localdomain/44564
+[21:55:17] net: connect! sock 9
+[21:55:17] net: eof!(read) socket 9
+[21:55:17] Timeout/EOF ident connection
+[21:55:25] Logged in: yulimoto (telnet@localhost.localdomain/44564)
+[21:55:38] tcl: builtin dcc call: *dcc:help yulimoto 6 
+[21:55:50] tcl: builtin dcc call: *dcc:who yulimoto 6 
+[21:56:17] tcl: builtin dcc call: *dcc:help yulimoto 6 lstat
+[21:56:30] tcl: builtin dcc call: *dcc:help yulimoto 6 loadmod
+[21:56:47] tcl: builtin dcc call: *dcc:help yulimoto 6 all
+[21:57:05] angeloff (5b6158b7@gateway/web/freenode/ip.91.97.88.183) left irc: Ping timeout: 250 seconds
+[21:58:29] tcl: builtin dcc call: *dcc:help yulimoto 6 msg
+[21:58:34] tcl: builtin dcc call: *dcc:help yulimoto 6 
+[21:58:38] DCC connection closed (yulimoto!telnet@localhost.localdomain)
+[21:58:41] net: connect! sock 3
+[21:58:41] DNS resolved 127.0.0.1 to localhost.localdomain
+[21:58:41] Telnet connection: localhost.localdomain/44566
+[21:58:41] net: connect! sock 9
+[21:58:41] net: eof!(read) socket 9
+[21:58:41] Timeout/EOF ident connection
+[21:58:47] Logged in: yulimoto (telnet@localhost.localdomain/44566)
+[21:58:54] tcl: builtin dcc call: *dcc:who yulimoto 6 
+[21:59:13] tcl: builtin dcc call: *dcc:help yulimoto 6 all
+[21:59:28] tcl: builtin dcc call: *dcc:help yulimoto 6 addlog
+[21:59:55] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[21:59:59] tcl: builtin dcc call: *dcc:help yulimoto 6 info
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:25] tcl: builtin dcc call: *dcc:help yulimoto 6 chinfo
+[22:00:55] tcl: builtin dcc call: *dcc:help yulimoto 6 
+[22:01:09] tcl: builtin dcc call: *dcc:help yulimoto 6 chaddr
+[22:01:19] DCC connection closed (yulimoto!telnet@localhost.localdomain)
+[22:04:06] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[22:11:03] <vhristev> гууд поинт
+[22:21:45] Ivaka (~opera@85.196.188.53) got netsplit.
+[22:21:46] rootstar (0@78.90.53.106) got netsplit.
+[22:21:46] _NEKTAR_ (~nektar@176.12.19.179) got netsplit.
+[22:21:47] yulimoto_away (~yulimoto@wolf.yuhu.biz) got netsplit.
+[22:23:29] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[22:23:45] Nick change: yulimoto -> yulimoto_away
+[22:23:45] Possible future nick collision: yulimoto_away
+[22:27:51] rootstar (0@78.90.53.106) returned to #telerikacademy.
+[22:32:00] _NEKTAR_ (~nektar@176.12.19.179) got lost in the net-split.
+[22:32:00] Ivaka (~opera@85.196.188.53) got lost in the net-split.
+[22:33:02] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[22:33:05] yulimoto_away (~yulimoto@78.108.248.204) left irc: Quit: leaving
+[22:33:26] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[22:33:57] <yulimoto> hm гризлито спря да резолва адреси и не мога да разбера защо ?
+[22:34:05] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 245 seconds
+[22:35:15] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[22:39:16] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[22:41:27] nveselinov_ (nveselinov@151.237.4.4) joined #telerikacademy.
+[22:46:07] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[22:49:25] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[22:49:25] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[22:50:24] bentoslack (~Adium@87.97.214.90) left irc: Quit: Leaving.
+[22:50:31] <vhristev> кои адреси ?
+[22:50:31] <vhristev> нали вече имате руут погледнете в /etc/resolv.conf
+[22:51:18] <vhristev> или просто ползвай друг ДНС
+[22:51:37] <vhristev> dig @8.8.8.8 google.com
+[22:51:48] <vhristev> 8.8.8.8 e na google public DNS
+[22:51:53] <vhristev> Чек и драсни какво е положението Чийрс
+[22:53:47] rootstar (0@78.90.53.106) got netsplit.
+[22:54:26] Ivaka (~opera@85.196.188.53) left irc: Ping timeout: 264 seconds
+[22:54:33] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 264 seconds
+[22:54:49] milev (~martin@client-33-170.speedy-net.bg) got netsplit.
+[22:57:00] <yulimoto> ами аз първото за което се сетих е 8.8.8.8
+[22:57:13] <yulimoto> и го сетнах
+[22:57:31] <yulimoto> най-вероятно днс-а не таботи
+[22:57:57] <yulimoto> сървъра имам предвид
+[22:58:39] <yulimoto> то май аз съм единствения засегнат, щот нали ползвам irc от гризли и не ми ресолва сървърите
+[22:59:00] milev (~martin@212.117.33.170) joined #telerikacademy.
+[22:59:11] widwool (~chatzilla@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:06] widwool (~chatzilla@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left irc: Client Quit
+[23:00:15] <yulimoto> а как съм се набухал с лук... едвам се трая
+[23:00:55] Deyan_cooking (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:04:00] rootstar (0@78.90.53.106) got lost in the net-split.
+[23:12:15] Nick change: Deyan_cooking -> Deyan
+[23:12:57] rootstar (0@78.90.53.106) joined #telerikacademy.
+[23:13:36] Nick change: nveselinov_ -> nveselinov
+[23:24:53] widwool (~chatzilla@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[23:25:55] widwool (~chatzilla@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left irc: Quit: ChatZilla 0.9.90.1 [Firefox 22.0/20130618035212]
+[23:46:13] widwool (~chatzilla@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[23:46:36] Nick change: widwool -> Guest66164
+[23:47:17] Guest66164 (~chatzilla@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left irc: Client Quit
+[23:50:51] <vhristev> аххахха
+[23:51:10] <vhristev> както викаше жената добре ,че ядеш чесън ,че иначе щяхме да имаме проблеми
+[23:53:52] <Deyan> :)
+[23:55:55] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[00:00:00] --- Mon Jul 22 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

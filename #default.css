@@ -1,0 +1,306 @@
+@charset "utf-8";
+/* CSS Document */
+
+<!--
+body  {
+font-family:"Times New Roman", Times, serif;
+background: #666666;
+margin: 0;
+padding: 0;
+text-align: center;
+color: #000000;
+}
+
+/* mainpage styles */
+.l2hMainPage #container {
+width: 99%;
+background:#FFFF99;
+margin: 0 auto;
+border: 1px solid #000000;
+text-align: left;
+}
+.l2hMainPage #container #monthtable tr {
+background: Orange;
+}
+.l2hMainPage #container .monthblock .monthname {
+font-family:"Comic Sans MS", "Brush Script Std", Verdana, Arial, Helvetica, sans-serif;
+font-size: 1.3em;
+height: 1.8em;
+background:#FF6600;
+text-align: center;
+color: white;
+}
+.l2hMainPage #container #monthtable .monthblock .dayname {
+font-weight:bold;
+height: 1.8em;
+background: Silver;
+text-align: left;
+padding: 0 5px;
+color:#333333;
+}
+.l2hMainPage #container #monthtable .monthblock .weekend {
+font-weight:bold;
+height: 1.8em;
+background: #FF6633;
+text-align: left;
+padding: 0 5px;
+color:#333333;
+}
+.l2hMainPage #container #monthtable .monthblock .emptycell {
+height: 1.8em;
+background:#DDDDDD;
+text-align: center;
+}
+.l2hMainPage #container #monthtable .monthblock .day {
+font-family:"Courier New", Courier, monospace;
+font-weight:bold;
+height: 1.8em;
+background:#FFCC00;
+text-align: center;
+color:#FF0000;
+}
+.l2hMainPage #header {
+background: #DDDDDD;
+padding: 0 10px;
+}
+.l2hMainPage #header h2 {
+font-style:italic;
+margin: 0;
+padding: 10px 0;
+}
+.l2hMainPage #mp_top {
+background: #DDDDDD;
+padding: 0 10px;
+text-align: center;
+}
+.l2hMainPage #mp_bottom {
+background: #DDDDDD;
+padding: 0 10px;
+text-align: center;
+}
+
+/* leftsidebar styles */
+.l2hMainPage #leftsidebar {
+float: left;
+width: 7em;
+background: #EBEBEB;
+padding: 10px 0;
+}
+.l2hMainPage #leftsidebar div.indexlink {
+background-color: #EBEBEB;
+margin-left: 5px;
+margin-right: 5px;
+text-align:center;
+border-bottom-width: thin;
+border-bottom-style: dotted;
+border-bottom-color: #CCCCCC;
+}
+.l2hMainPage #leftsidebar div.indexlink a {
+display:block;
+letter-spacing:.1em;
+line-height:1.5em;
+text-decoration: none;
+vertical-align:baseline;
+color:#333333;
+}
+.l2hMainPage #leftsidebar div.indexlink a:hover {
+background:#FF6600;
+letter-spacing:.3em;
+line-height:1.5em;
+color:#FFFFFF;
+font-weight:bold;
+}
+.l2hMainPage #mainblock {
+margin: 0 20px 0 8em;
+}
+.l2hMainPage #footer {
+padding: 0 10px;
+background:#DDDDDD;
+}
+.l2hMainPage #footer p {
+margin: 0;
+padding: 10px 0;
+font-size: 0.9em;
+font-weight:bold;
+color: #333333;
+}
+.l2hLogPage #lp_top {
+background: #DDDDDD;
+padding: 0 10px;
+text-align: center;
+}
+.l2hLogPage #lp_bottom {
+background: #DDDDDD;
+padding: 0 10px;
+text-align: center;
+}
+
+/* Log Page styles */
+.l2hLogPage #header {
+background: #DDDDDD;
+padding: 0 10px;
+}
+.l2hLogPage #container {
+width: 99%;
+background: #FFFF99;
+margin: 0 auto;
+border: 1px solid #000000;
+text-align: left;
+}
+.l2hLogPage #container #navtop {
+text-align: center;
+border-bottom: 1px solid Orange;
+margin-bottom: 10px;
+padding: 10px 0;
+}
+.l2hLogPage #container #navtop a {
+color:#FF0000;
+font-weight:bold;
+}
+.l2hLogPage #container #totoplink {
+color:#FF0000;
+text-align: center;
+border-top: 1px solid Orange;
+margin-top: 10px;
+padding: 10px 0;
+}
+.l2hLogPage #container #totoplink a {
+color:#FF0000;
+font-weight:bold;
+}
+.l2hLogPage #container #navbottom {
+color:#FF0000;
+text-align: center;
+padding: 10px;
+}
+.l2hLogPage #container #navbottom span {
+padding-left:5px;
+padding-right:5px;
+}
+.l2hLogPage #container #navbottom #navbottom_currentpg {
+font-size:1.1em;
+}
+.l2hLogPage #footer {
+padding: 0 10px;
+background:#DDDDDD;
+}
+.l2hLogPage #footer p {
+margin: 0;
+padding: 10px 0;
+font-size: 0.9em;
+font-weight:bold;
+color: #333333;
+}
+.l2hLogPage #mainblock div {
+white-space: pre-wrap; /* css-3 */
+white-space: pre-line; /* css-3, css-2.1 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+white-space: -hp-pre-wrap; /* HP printers */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+overflow:hidden;
+}
+.l2hLogPage #mainblock span.time {
+color: #D0D0D0;
+}
+.l2hLogPage #mainblock span.nick {
+color: #0040C0;
+}
+.l2hLogPage #mainblock span.text {
+color: #111111;
+}
+.l2hLogPage #mainblock span.else_j {
+color: #99CC00;
+font-size: 0.8em;
+}
+.l2hLogPage #mainblock span.else_li {
+color: #99CC00;
+font-size: 0.8em;
+}
+.l2hLogPage #mainblock span.else_l {
+color: #99CC00;
+font-size: 0.8em;
+}
+.l2hLogPage #mainblock span.else_n {
+color: #FF6666;
+font-size: 0.8em;
+}
+.l2hLogPage #mainblock span.else_m {
+color: #00CCFF;
+font-size: 0.8em;
+}
+.l2hLogPage #mainblock span.else_k {
+color: #FF0066;
+font-size: 0.8em;
+}
+.l2hLogPage #mainblock span.else {
+color: #40C000;
+font-size: 0.8em;
+}
+.l2hLogPage #mainblock span.action {
+color: #FF99FF;
+}
+
+/* mirc colors */
+.l2hLogPage span.c0000, .l2hLogPage span.c0100, .l2hLogPage span.c0200, .l2hLogPage span.c0300, .l2hLogPage span.c0400, .l2hLogPage span.c0500, .l2hLogPage span.c0600, .l2hLogPage span.c0700, .l2hLogPage span.c0800, .l2hLogPage span.c0900, .l2hLogPage span.c1000, .l2hLogPage span.c1100, .l2hLogPage span.c1200, .l2hLogPage span.c1300, .l2hLogPage span.c1400, .l2hLogPage span.c1500 {background-color: white;}
+.l2hLogPage span.c0001, .l2hLogPage span.c0101, .l2hLogPage span.c0201, .l2hLogPage span.c0301, .l2hLogPage span.c0401, .l2hLogPage span.c0501, .l2hLogPage span.c0601, .l2hLogPage span.c0701, .l2hLogPage span.c0801, .l2hLogPage span.c0901, .l2hLogPage span.c1001, .l2hLogPage span.c1101, .l2hLogPage span.c1201, .l2hLogPage span.c1301, .l2hLogPage span.c1401, .l2hLogPage span.c1501 {background-color: black;}
+.l2hLogPage span.c0002, .l2hLogPage span.c0102, .l2hLogPage span.c0202, .l2hLogPage span.c0302, .l2hLogPage span.c0402, .l2hLogPage span.c0502, .l2hLogPage span.c0602, .l2hLogPage span.c0702, .l2hLogPage span.c0802, .l2hLogPage span.c0902, .l2hLogPage span.c1002, .l2hLogPage span.c1102, .l2hLogPage span.c1202, .l2hLogPage span.c1302, .l2hLogPage span.c1402, .l2hLogPage span.c1502 {background-color: navy;}
+.l2hLogPage span.c0003, .l2hLogPage span.c0103, .l2hLogPage span.c0203, .l2hLogPage span.c0303, .l2hLogPage span.c0403, .l2hLogPage span.c0503, .l2hLogPage span.c0603, .l2hLogPage span.c0703, .l2hLogPage span.c0803, .l2hLogPage span.c0903, .l2hLogPage span.c1003, .l2hLogPage span.c1103, .l2hLogPage span.c1203, .l2hLogPage span.c1303, .l2hLogPage span.c1403, .l2hLogPage span.c1503 {background-color: green;}
+.l2hLogPage span.c0004, .l2hLogPage span.c0104, .l2hLogPage span.c0204, .l2hLogPage span.c0304, .l2hLogPage span.c0404, .l2hLogPage span.c0504, .l2hLogPage span.c0604, .l2hLogPage span.c0704, .l2hLogPage span.c0804, .l2hLogPage span.c0904, .l2hLogPage span.c1004, .l2hLogPage span.c1104, .l2hLogPage span.c1204, .l2hLogPage span.c1304, .l2hLogPage span.c1404, .l2hLogPage span.c1504 {background-color: red;}
+.l2hLogPage span.c0005, .l2hLogPage span.c0105, .l2hLogPage span.c0205, .l2hLogPage span.c0305, .l2hLogPage span.c0405, .l2hLogPage span.c0505, .l2hLogPage span.c0605, .l2hLogPage span.c0705, .l2hLogPage span.c0805, .l2hLogPage span.c0905, .l2hLogPage span.c1005, .l2hLogPage span.c1105, .l2hLogPage span.c1205, .l2hLogPage span.c1305, .l2hLogPage span.c1405, .l2hLogPage span.c1505 {background-color: maroon;}
+.l2hLogPage span.c0006, .l2hLogPage span.c0106, .l2hLogPage span.c0206, .l2hLogPage span.c0306, .l2hLogPage span.c0406, .l2hLogPage span.c0506, .l2hLogPage span.c0606, .l2hLogPage span.c0706, .l2hLogPage span.c0806, .l2hLogPage span.c0906, .l2hLogPage span.c1006, .l2hLogPage span.c1106, .l2hLogPage span.c1206, .l2hLogPage span.c1306, .l2hLogPage span.c1406, .l2hLogPage span.c1506 {background-color: purple;}
+.l2hLogPage span.c0007, .l2hLogPage span.c0107, .l2hLogPage span.c0207, .l2hLogPage span.c0307, .l2hLogPage span.c0407, .l2hLogPage span.c0507, .l2hLogPage span.c0607, .l2hLogPage span.c0707, .l2hLogPage span.c0807, .l2hLogPage span.c0907, .l2hLogPage span.c1007, .l2hLogPage span.c1107, .l2hLogPage span.c1207, .l2hLogPage span.c1307, .l2hLogPage span.c1407, .l2hLogPage span.c1507 {background-color: orange;}
+.l2hLogPage span.c0008, .l2hLogPage span.c0108, .l2hLogPage span.c0208, .l2hLogPage span.c0308, .l2hLogPage span.c0408, .l2hLogPage span.c0508, .l2hLogPage span.c0608, .l2hLogPage span.c0708, .l2hLogPage span.c0808, .l2hLogPage span.c0908, .l2hLogPage span.c1008, .l2hLogPage span.c1108, .l2hLogPage span.c1208, .l2hLogPage span.c1308, .l2hLogPage span.c1408, .l2hLogPage span.c1508 {background-color: yellow;}
+.l2hLogPage span.c0009, .l2hLogPage span.c0109, .l2hLogPage span.c0209, .l2hLogPage span.c0309, .l2hLogPage span.c0409, .l2hLogPage span.c0509, .l2hLogPage span.c0609, .l2hLogPage span.c0709, .l2hLogPage span.c0809, .l2hLogPage span.c0909, .l2hLogPage span.c1009, .l2hLogPage span.c1109, .l2hLogPage span.c1209, .l2hLogPage span.c1309, .l2hLogPage span.c1409, .l2hLogPage span.c1509 {background-color: lime;}
+.l2hLogPage span.c0010, .l2hLogPage span.c0110, .l2hLogPage span.c0210, .l2hLogPage span.c0310, .l2hLogPage span.c0410, .l2hLogPage span.c0510, .l2hLogPage span.c0610, .l2hLogPage span.c0710, .l2hLogPage span.c0810, .l2hLogPage span.c0910, .l2hLogPage span.c1010, .l2hLogPage span.c1110, .l2hLogPage span.c1210, .l2hLogPage span.c1310, .l2hLogPage span.c1410, .l2hLogPage span.c1510 {background-color: teal;}
+.l2hLogPage span.c0011, .l2hLogPage span.c0111, .l2hLogPage span.c0211, .l2hLogPage span.c0311, .l2hLogPage span.c0411, .l2hLogPage span.c0511, .l2hLogPage span.c0611, .l2hLogPage span.c0711, .l2hLogPage span.c0811, .l2hLogPage span.c0911, .l2hLogPage span.c1011, .l2hLogPage span.c1111, .l2hLogPage span.c1211, .l2hLogPage span.c1311, .l2hLogPage span.c1411, .l2hLogPage span.c1511 {background-color: aqua;}
+.l2hLogPage span.c0012, .l2hLogPage span.c0112, .l2hLogPage span.c0212, .l2hLogPage span.c0312, .l2hLogPage span.c0412, .l2hLogPage span.c0512, .l2hLogPage span.c0612, .l2hLogPage span.c0712, .l2hLogPage span.c0812, .l2hLogPage span.c0912, .l2hLogPage span.c1012, .l2hLogPage span.c1112, .l2hLogPage span.c1212, .l2hLogPage span.c1312, .l2hLogPage span.c1412, .l2hLogPage span.c1512 {background-color: blue;}
+.l2hLogPage span.c0013, .l2hLogPage span.c0113, .l2hLogPage span.c0213, .l2hLogPage span.c0313, .l2hLogPage span.c0413, .l2hLogPage span.c0513, .l2hLogPage span.c0613, .l2hLogPage span.c0713, .l2hLogPage span.c0813, .l2hLogPage span.c0913, .l2hLogPage span.c1013, .l2hLogPage span.c1113, .l2hLogPage span.c1213, .l2hLogPage span.c1313, .l2hLogPage span.c1413, .l2hLogPage span.c1513 {background-color: fuchsia;}
+.l2hLogPage span.c0014, .l2hLogPage span.c0114, .l2hLogPage span.c0214, .l2hLogPage span.c0314, .l2hLogPage span.c0414, .l2hLogPage span.c0514, .l2hLogPage span.c0614, .l2hLogPage span.c0714, .l2hLogPage span.c0814, .l2hLogPage span.c0914, .l2hLogPage span.c1014, .l2hLogPage span.c1114, .l2hLogPage span.c1214, .l2hLogPage span.c1314, .l2hLogPage span.c1414, .l2hLogPage span.c1514 {background-color: silver;}
+.l2hLogPage span.c0015, .l2hLogPage span.c0115, .l2hLogPage span.c0215, .l2hLogPage span.c0315, .l2hLogPage span.c0415, .l2hLogPage span.c0515, .l2hLogPage span.c0615, .l2hLogPage span.c0715, .l2hLogPage span.c0815, .l2hLogPage span.c0915, .l2hLogPage span.c1015, .l2hLogPage span.c1114, .l2hLogPage span.c1215, .l2hLogPage span.c1315, .l2hLogPage span.c1415, .l2hLogPage span.c1515 {background-color: gray;}
+.l2hLogPage span.c0000, .l2hLogPage span.c0001, .l2hLogPage span.c0002, .l2hLogPage span.c0003, .l2hLogPage span.c0004, .l2hLogPage span.c0005, .l2hLogPage span.c0006, .l2hLogPage span.c0007, .l2hLogPage span.c0008, .l2hLogPage span.c0009, .l2hLogPage span.c0010, .l2hLogPage span.c0011, .l2hLogPage span.c0012, .l2hLogPage span.c0013, .l2hLogPage span.c0014, .l2hLogPage span.c0015 {color: white;}
+.l2hLogPage span.c0100, .l2hLogPage span.c0101, .l2hLogPage span.c0102, .l2hLogPage span.c0103, .l2hLogPage span.c0104, .l2hLogPage span.c0105, .l2hLogPage span.c0106, .l2hLogPage span.c0107, .l2hLogPage span.c0108, .l2hLogPage span.c0109, .l2hLogPage span.c0110, .l2hLogPage span.c0111, .l2hLogPage span.c0112, .l2hLogPage span.c0113, .l2hLogPage span.c0114, .l2hLogPage span.c0115 {color: black;}
+.l2hLogPage span.c0200, .l2hLogPage span.c0201, .l2hLogPage span.c0202, .l2hLogPage span.c0203, .l2hLogPage span.c0204, .l2hLogPage span.c0205, .l2hLogPage span.c0206, .l2hLogPage span.c0207, .l2hLogPage span.c0208, .l2hLogPage span.c0209, .l2hLogPage span.c0210, .l2hLogPage span.c0211, .l2hLogPage span.c0212, .l2hLogPage span.c0213, .l2hLogPage span.c0214, .l2hLogPage span.c0215 {color: navy;}
+.l2hLogPage span.c0300, .l2hLogPage span.c0301, .l2hLogPage span.c0302, .l2hLogPage span.c0303, .l2hLogPage span.c0304, .l2hLogPage span.c0305, .l2hLogPage span.c0306, .l2hLogPage span.c0307, .l2hLogPage span.c0308, .l2hLogPage span.c0309, .l2hLogPage span.c0310, .l2hLogPage span.c0311, .l2hLogPage span.c0312, .l2hLogPage span.c0313, .l2hLogPage span.c0314, .l2hLogPage span.c0315 {color: green;}
+.l2hLogPage span.c0400, .l2hLogPage span.c0401, .l2hLogPage span.c0402, .l2hLogPage span.c0403, .l2hLogPage span.c0404, .l2hLogPage span.c0405, .l2hLogPage span.c0406, .l2hLogPage span.c0407, .l2hLogPage span.c0408, .l2hLogPage span.c0409, .l2hLogPage span.c0410, .l2hLogPage span.c0411, .l2hLogPage span.c0412, .l2hLogPage span.c0413, .l2hLogPage span.c0414, .l2hLogPage span.c0415 {color: red;}
+.l2hLogPage span.c0500, .l2hLogPage span.c0501, .l2hLogPage span.c0502, .l2hLogPage span.c0503, .l2hLogPage span.c0504, .l2hLogPage span.c0505, .l2hLogPage span.c0506, .l2hLogPage span.c0507, .l2hLogPage span.c0508, .l2hLogPage span.c0509, .l2hLogPage span.c0510, .l2hLogPage span.c0511, .l2hLogPage span.c0512, .l2hLogPage span.c0513, .l2hLogPage span.c0514, .l2hLogPage span.c0515 {color: maroon;}
+.l2hLogPage span.c0600, .l2hLogPage span.c0601, .l2hLogPage span.c0602, .l2hLogPage span.c0603, .l2hLogPage span.c0604, .l2hLogPage span.c0605, .l2hLogPage span.c0606, .l2hLogPage span.c0607, .l2hLogPage span.c0608, .l2hLogPage span.c0609, .l2hLogPage span.c0610, .l2hLogPage span.c0611, .l2hLogPage span.c0612, .l2hLogPage span.c0613, .l2hLogPage span.c0614, .l2hLogPage span.c0615 {color: purple;}
+.l2hLogPage span.c0700, .l2hLogPage span.c0701, .l2hLogPage span.c0702, .l2hLogPage span.c0703, .l2hLogPage span.c0704, .l2hLogPage span.c0705, .l2hLogPage span.c0706, .l2hLogPage span.c0707, .l2hLogPage span.c0708, .l2hLogPage span.c0709, .l2hLogPage span.c0710, .l2hLogPage span.c0711, .l2hLogPage span.c0712, .l2hLogPage span.c0713, .l2hLogPage span.c0714, .l2hLogPage span.c0715 {color: orange;}
+.l2hLogPage span.c0800, .l2hLogPage span.c0801, .l2hLogPage span.c0802, .l2hLogPage span.c0803, .l2hLogPage span.c0804, .l2hLogPage span.c0805, .l2hLogPage span.c0806, .l2hLogPage span.c0807, .l2hLogPage span.c0808, .l2hLogPage span.c0809, .l2hLogPage span.c0810, .l2hLogPage span.c0811, .l2hLogPage span.c0812, .l2hLogPage span.c0813, .l2hLogPage span.c0814, .l2hLogPage span.c0815 {color: yellow;}
+.l2hLogPage span.c0900, .l2hLogPage span.c0901, .l2hLogPage span.c0902, .l2hLogPage span.c0903, .l2hLogPage span.c0904, .l2hLogPage span.c0905, .l2hLogPage span.c0906, .l2hLogPage span.c0907, .l2hLogPage span.c0908, .l2hLogPage span.c0909, .l2hLogPage span.c0910, .l2hLogPage span.c0911, .l2hLogPage span.c0912, .l2hLogPage span.c0913, .l2hLogPage span.c0914, .l2hLogPage span.c0915 {color: lime;}
+.l2hLogPage span.c1000, .l2hLogPage span.c1001, .l2hLogPage span.c1002, .l2hLogPage span.c1003, .l2hLogPage span.c1004, .l2hLogPage span.c1005, .l2hLogPage span.c1006, .l2hLogPage span.c1007, .l2hLogPage span.c1008, .l2hLogPage span.c1009, .l2hLogPage span.c1010, .l2hLogPage span.c1011, .l2hLogPage span.c1012, .l2hLogPage span.c1013, .l2hLogPage span.c1014, .l2hLogPage span.c1015 {color: teal;}
+.l2hLogPage span.c1100, .l2hLogPage span.c1101, .l2hLogPage span.c1102, .l2hLogPage span.c1103, .l2hLogPage span.c1104, .l2hLogPage span.c1105, .l2hLogPage span.c1106, .l2hLogPage span.c1107, .l2hLogPage span.c1108, .l2hLogPage span.c1109, .l2hLogPage span.c1110, .l2hLogPage span.c1111, .l2hLogPage span.c1112, .l2hLogPage span.c1113, .l2hLogPage span.c1114, .l2hLogPage span.c1115 {color: aqua;}
+.l2hLogPage span.c1200, .l2hLogPage span.c1201, .l2hLogPage span.c1202, .l2hLogPage span.c1203, .l2hLogPage span.c1204, .l2hLogPage span.c1205, .l2hLogPage span.c1206, .l2hLogPage span.c1207, .l2hLogPage span.c1208, .l2hLogPage span.c1209, .l2hLogPage span.c1210, .l2hLogPage span.c1211, .l2hLogPage span.c1212, .l2hLogPage span.c1213, .l2hLogPage span.c1214, .l2hLogPage span.c1215 {color: blue;}
+.l2hLogPage span.c1300, .l2hLogPage span.c1301, .l2hLogPage span.c1302, .l2hLogPage span.c1303, .l2hLogPage span.c1304, .l2hLogPage span.c1305, .l2hLogPage span.c1306, .l2hLogPage span.c1307, .l2hLogPage span.c1308, .l2hLogPage span.c1309, .l2hLogPage span.c1310, .l2hLogPage span.c1311, .l2hLogPage span.c1312, .l2hLogPage span.c1313, .l2hLogPage span.c1314, .l2hLogPage span.c1315 {color: fuchsia;}
+.l2hLogPage span.c1400, .l2hLogPage span.c1401, .l2hLogPage span.c1402, .l2hLogPage span.c1403, .l2hLogPage span.c1404, .l2hLogPage span.c1405, .l2hLogPage span.c1406, .l2hLogPage span.c1407, .l2hLogPage span.c1408, .l2hLogPage span.c1409, .l2hLogPage span.c1410, .l2hLogPage span.c1411, .l2hLogPage span.c1412, .l2hLogPage span.c1413, .l2hLogPage span.c1414, .l2hLogPage span.c1415 {color: silver;}
+.l2hLogPage span.c1500, .l2hLogPage span.c1501, .l2hLogPage span.c1502, .l2hLogPage span.c1503, .l2hLogPage span.c1504, .l2hLogPage span.c1505, .l2hLogPage span.c1506, .l2hLogPage span.c1507, .l2hLogPage span.c1508, .l2hLogPage span.c1509, .l2hLogPage span.c1510, .l2hLogPage span.c1511, .l2hLogPage span.c1512, .l2hLogPage span.c1513, .l2hLogPage span.c1514, .l2hLogPage span.c1515 {color: gray;}
+.l2hLogPage span.f00 {color: white;}
+.l2hLogPage span.f01 {color: black;}
+.l2hLogPage span.f02 {color: navy;}
+.l2hLogPage span.f03 {color: green;}
+.l2hLogPage span.f04 {color: red;}
+.l2hLogPage span.f05 {color: maroon;}
+.l2hLogPage span.f06 {color: purple;}
+.l2hLogPage span.f07 {color: orange;}
+.l2hLogPage span.f08 {color: yellow;}
+.l2hLogPage span.f09 {color: lime;}
+.l2hLogPage span.f10 {color: teal;}
+.l2hLogPage span.f11 {color: aqua;}
+.l2hLogPage span.f12 {color: blue;}
+.l2hLogPage span.f13 {color: fuchsia;}
+.l2hLogPage span.f14 {color: silver;}
+.l2hLogPage span.f15 {color: gray;}
+
+/* Miscellaneous classes for reuse */
+.clearfloat {
+/* this class should be placed on a div or break element and should be the final element before
+the close of a container that should fully contain a float */
+clear:both;
+height:0;
+font-size: 1px;
+line-height: 0px;
+}
+
+--> 
+

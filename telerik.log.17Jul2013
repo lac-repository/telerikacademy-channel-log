@@ -1,0 +1,1249 @@
+[00:04:07] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[00:29:32] Informer (Informer@78.90.229.234) left irc: Quit: C ya!
+[00:59:41] hackman (~HackMan@wolf.yuhu.biz) joined #telerikacademy.
+[01:26:28] Jedy (~opera@85.196.188.53) left irc: Quit: Jedy
+[01:45:35] plamen (~plamen@84.40.92.7) got netsplit.
+[01:45:46] ChanServ (ChanServ@services.) got netsplit.
+[01:45:46] KpeTeHoug (~GT@212.36.13.10) got netsplit.
+[01:46:49] Fairytale (1000@police.executie.org) got netsplit.
+[01:47:12] nveselinov (nveselinov@151.237.4.4) got netsplit.
+[01:48:43] dencho (~dencho@95.111.14.183) got netsplit.
+[01:48:43] alabala (~alabala@unaffiliated/alabala) got netsplit.
+[01:48:43] hackman (~HackMan@wolf.yuhu.biz) got netsplit.
+[01:48:43] lucho_ (~lucho@89.25.39.170) got netsplit.
+[01:48:43] phalaaxx (~bozhin@94.26.20.166) got netsplit.
+[01:48:43] looser99 (John@78.130.186.99) got netsplit.
+[01:49:28] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[01:49:28] hackman (~HackMan@wolf.yuhu.biz) returned to #telerikacademy.dcc
+[01:49:28] Fairytale (1000@police.executie.org) returned to #telerikacademy.
+[01:49:28] plamen (~plamen@84.40.92.7) returned to #telerikacademy.
+[01:49:28] lucho_ (~lucho@89.25.39.170) returned to #telerikacademy.
+[01:49:28] KpeTeHoug (~GT@212.36.13.10) returned to #telerikacademy.
+[01:49:28] nveselinov (nveselinov@151.237.4.4) returned to #telerikacademy.
+[01:49:28] looser99 (John@78.130.186.99) returned to #telerikacademy.
+[01:49:28] dencho (~dencho@95.111.14.183) returned to #telerikacademy.
+[01:49:28] ChanServ (ChanServ@services.) returned to #telerikacademy.
+[01:49:28] alabala (~alabala@unaffiliated/alabala) returned to #telerikacademy.
+[01:49:28] #telerikacademy: mode change '+o ChanServ  ' by hubbard.freenode.net
+[01:50:17] plamen (~plamen@84.40.92.7) left irc: Quit: Leaving
+[01:59:00] phalaaxx (~bozhin@94.26.20.166) got lost in the net-split.
+[02:01:32] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[02:11:32] <phalaaxx> опитвам се да сътворя една глупост и мисля че засега добре се получава :D
+[02:11:51] <phalaaxx> root btrfs със boot partition върху btrfs subvolume
+[02:12:33] <phalaaxx> и има някакъв неочакван ефект от това - update-grub генерира grub.cfg със грешен път към vmlinuz... и initrd.img
+[02:13:04] <hackman> report-ни им bug-a
+[02:13:14] <hackman> не е нещо не очаквано
+[02:13:27] <hackman> update-grub е ебати келевия tool :)
+[02:14:14] <Deyan_> сега гледам логовете от чата, или на мен ми е кофти енкодинга или кирилицата не се чете
+[02:17:14] <phalaaxx> ако /boot си е директория върху btrfs root partition-а всичко си работи както се очаква но като го направя на subvolume и ми маха /boot от пътя към ядрото и initrd
+[02:17:54] <phalaaxx> не знам кое е по-правилно - пътя да си остане /boot или самия grub по някакъв начин да му се каже в кой subvolume са му файловете
+[02:18:32] <phalaaxx> иначе ако си оправя пътищата от конзолата на grub няма проблем да boot-не
+[02:18:32] <phalaaxx> или ако си направя symlinks във /
+[02:21:53] <phalaaxx> не мога да разбера защо се занимавам с такива неща по това време на денонощието, всяка сутрин се заричам че ще си легна навреме и пак откарвам до 3 сутринта в борба с какво ли не :D
+[02:22:52] <yulimoto> :)
+[02:23:39] <yulimoto> а ако си го опишеш в /etc/grub.d  и там някой подходящ файл от който билдва после груба ?
+[02:23:57] <Deyan_> терминала е краста, която се проявява най-силно в ранните часове на денонощието
+[02:24:11] <yulimoto> щото то до колкото разбирам update-grub просто билдва от това което му е в /etc/grub.d
+[02:24:13] <phalaaxx> трябва да се пипне /etc/grub.d/10_linux за да го генерира правилно
+[02:24:19] <phalaaxx> ама ще е малко workaround
+[02:24:22] <yulimoto> aha
+[02:24:27] <yulimoto> точно
+[02:25:13] <phalaaxx> предпочитам да не го правя, по-добър вариант ми се струва със symlinks във /
+[02:25:16] <yulimoto> ама после пък дали няма за другите да не е добре
+[02:25:33] <yulimoto> аха
+[02:25:46] <yulimoto> ами то там имаше и за къстъм да си добавиш
+[02:26:14] <phalaaxx> пак е по-трудно от symlinks :)
+[02:26:23] <yulimoto> custom_os или нещо подобно направо там можеш да си добавиш конфига после ако те мързи
+[02:26:28] <yulimoto> а да
+[02:26:29] <phalaaxx> или да пипна директно в /boot/grub/grub.cfg
+[02:26:42] <yulimoto> update-gruba ще го замаже
+[02:27:05] <yulimoto> да symlinks е най-дбре
+[02:27:11] <yulimoto> май
+[02:27:14] <phalaaxx> така е но при update на ядрото така или иначе това в 40_custom вероятно няма да е повече актуално
+[02:27:24] <yulimoto> ще ще
+[02:27:24] <phalaaxx> същото важи и за symlinks
+[02:27:51] <phalaaxx> да де, докато не се махне съответния release
+[02:28:16] <yulimoto> ааа да
+[02:30:27] <yulimoto> щях да правя tftpboot с груб, ама май ще остане за утре :)
+[02:30:50] <phalaaxx> и са да ме пита човек за какво ми е притрябвало да правя такива неща - btrfs root с 1 partition и няколко subvolume-а и да се  мъча да го накарам да се разбира с grub... на този въпрос вече не мога да отговоря :D
+[02:32:11] <Deyan_> лека ви нощ, phalaaxx ако го сънувам довечера ще ти отговоря утре
+[02:32:32] <phalaaxx> :D лека Deyan_
+[02:34:29] <yulimoto> хм, едва ли ще можем да отговорим на такива въпроси
+[02:34:32] <phalaaxx> сериозно, разбутах няколко машини за да си играя с btrfs и като се знам - накрая ще ме издразни нещо и ще ги натроша всичките и ще ги преинсталирам за да си сложа нещо по-познато (ext4)...
+[02:35:23] <phalaaxx> ама ще си остане факта че няколко дена подред съм си доспивал на работа щото съм седял до 3 сутринта да се боря с глупости (и вятърни мелници) :D
+[02:36:33] <yulimoto> хммм да, но все пак е някакво търсене по-скоро
+[02:38:00] <phalaaxx> да, търся си универсален чук - да забивам всички проблеми с него :D
+[02:38:02] <yulimoto> ако човек забрави да играе ? всъщност това което правим до някъде може да се каже е че се опитваме  да не забравим да играем
+[02:38:23] <yulimoto> като чупим разни неща
+[02:40:17] <yulimoto> hm imam един конфигуриран tftpboot който го ползвам с да бутвам u-boot понякога ще го позлвам за груба
+[02:40:20] <phalaaxx> ама не съм сигурен че в това с което се опитвам да си играя има смисъл
+[02:40:42] <phalaaxx> хората си играят с по-смислени неща обикновено
+[02:40:51] <yulimoto> не е важно с какво си играеш, ако наистина играеш
+[02:41:23] <yulimoto> това не трябва да те притеснява, ако ти харесва и смисъла ще дойде
+[02:41:34] <yulimoto> поне така аз мисля
+[02:42:21] <yulimoto> отивам да мия зъбките
+[02:43:33] <phalaaxx> аз вече я свърших тази работа - с надеждата да си легна навреме ама пуст ентусиазъм... :D
+[02:48:16] Deyan_ (~Deyan@46.249.92.240) left irc: Ping timeout: 246 seconds
+[02:49:43] <yulimoto> phalaaxx: лягам
+[02:49:50] <yulimoto> лека лягай и ти
+[02:50:04] <phalaaxx> да, айдееее
+[02:50:05] <phalaaxx> към плувката :))
+[02:50:08] <phalaaxx> лека
+[02:50:20] <yulimoto> :)
+[02:50:35] Nick change: yulimoto -> yulimoto_away
+[02:51:43] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:35:39] Fairytale (1000@police.executie.org) left irc: Read error: Connection reset by peer
+[04:49:45] looser99 (John@78.130.186.99) left irc: Quit: Leaving
+[05:02:31] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[05:10:13] Deyan_ (~Deyan@46.249.92.240) left irc: Read error: Operation timed out
+[05:35:46] KacanuH_ (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[05:36:53] KacanuH (~Deyan@92.247.12.150) left irc: Ping timeout: 240 seconds
+[05:36:55] Nick change: KacanuH_ -> KacanuH
+[05:37:24] Nick change: KacanuH -> Guest14162
+[08:14:58] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[08:15:05] Nick change: KacanuH -> Guest63068
+[08:17:43] Guest63068 (~Deyan@46.249.92.240) left irc: Client Quit
+[08:17:59] Guest63068 (~Deyan@46.249.92.240) joined #telerikacademy.
+[08:18:11] Nick change: Guest63068 -> Deyan
+[08:30:18] Deyan (~Deyan@46.249.92.240) left irc: Ping timeout: 268 seconds
+[08:51:58] lucho_ (~lucho@89.25.39.170) left irc: Remote host closed the connection
+[08:55:47] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:02:46] hackman (~HackMan@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[09:19:35] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[09:19:58] <dencho-at-work> dobro utro piqnici
+[09:23:26] Guest14162 (~Deyan@supersonic.comelsoft.com) left #telerikacademy.
+[09:28:06] <KrasiGa> добро и на теб
+[09:30:47] edrenchev (4e5a2453@gateway/web/freenode/ip.78.90.36.83) joined #telerikacademy.
+[09:31:57] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:32:09] <edrenchev> Здравейте. Искам да попитам в gryzzly мога ли да си създавам партишъни и да инсталирам mdadm за райд ? Опитох се, но не можах.
+[09:32:40] <KacanuH> edrenchev: не можеш, за да го направиш ти трябва su
+[09:33:20] <KacanuH> най-добре е да си пуснеш една виртуалка в къщи и нея да опитваш да "счупиш"
+[09:33:28] <edrenchev> да :) изкарваше ми, че нямам админ права :)
+[09:34:04] <edrenchev> тогава на тая машина мога да правя всички неща, за който не са нужни su права
+[09:35:37] <KacanuH> за момента да, по-късно Мариан каза че ще ни даде и права, което ме кара доста да се притеснявам за здравето на гризлито
+[09:36:12] <dencho-at-work> potursi freevps
+[09:36:19] <dencho-at-work> ne znam kakvo se slu4va s host1free
+[09:36:25] <dencho-at-work> no za celta sa idealni
+[09:40:07] <edrenchev> Разбирам. Сега съм на работата и затова се опитвах на гризлито. За правата Мариан трябва да си направи добра сметка дали е по-добре да ги дава или не.
+[09:41:09] <dencho-at-work> mislq 4e vseki 6te si nameri alternativni re6eniq, poneje samo 1 6te uspee d anapravi tova koeto iska
+[09:41:10] <dencho-at-work> :D
+[09:41:16] <dencho-at-work> koi prevari toi zavari
+[09:41:41] <dencho-at-work> nali se se6tate, 4e ako nqkoi ima root prava to 6te omaje grizlito na momenta
+[09:41:41] <dencho-at-work> :D
+[09:44:05] <edrenchev> Така е да, но Мариан иска да направи всичко възможно да е наготово и да се упражняват всички. Ама когато гледаш всички в повечето случай нищо не се получава. :) (лично мнение)
+[09:55:56] <KpeTeHoug> gutten morgen
+[09:55:58] <KpeTeHoug> дет са вика
+[09:57:24] hackman (~HackMan@management.1h.com) joined #telerikacademy.
+[09:57:48] Nick change: hackman -> Guest77023
+[09:57:56] Action: KpeTeHoug rolls a wagon wheel over to Guest77023 here ya go eat up & enjoy :)
+[09:58:05] Nick change: Guest77023 -> azilian
+[09:58:20] Nick change: azilian -> hackman
+[09:58:31] <hackman> :)
+[09:59:14] <KpeTeHoug> добро утро викам
+[09:59:38] <KrasiGa> добро да е
+[09:59:40] <edrenchev> добро да е : )
+[10:03:03] main: entering loop
+[10:03:04] DNS resolved irc.freenode.net to 89.105.197.133
+[10:03:04] net: connect! sock 7
+[10:03:19] Telerik joined #telerikacademy.
+[10:03:22] <dencho-at-work> doide i vednaga ze da tro6i6
+[10:03:39] Introduced to KpeTeHoug (*!*GT@212.36.13.*)
+[10:03:39] Bot installation complete, first master is KpeTeHoug
+[10:03:39] Writing user file...
+[10:03:39] Writing channel file...
+[10:03:48] <KpeTeHoug> аз само малко бре ;)
+[10:04:24] <KpeTeHoug> оф, то тоз контейнер бил за страницата с календара
+[10:04:25] <KpeTeHoug> :)
+[10:04:31] <KpeTeHoug> как да е, после ще го троша
+[10:04:42] <KpeTeHoug> че имам да гледам още един час от последната лекция :)
+[10:05:06] edrenchev (4e5a2453@gateway/web/freenode/ip.78.90.36.83) left irc: Quit: Page closed
+[10:06:38] <KpeTeHoug> но, първо кафе
+[10:06:40] <KpeTeHoug> че стана обяд
+[10:12:44] DNS resolve failed for 192.168.56.1
+[10:13:56] hackman (~HackMan@management.1h.com) left #telerikacademy.
+[10:14:04] hackman (~HackMan@management.1h.com) joined #telerikacademy.
+[10:14:09] <KpeTeHoug> hackman
+[10:14:15] <KpeTeHoug> новите линкове от тубата
+[10:14:19] <KpeTeHoug> са с разменени места
+[10:14:36] <KpeTeHoug>  11.07.2013 - Linux Security Model and booting - Part II - води към първата
+[10:14:38] <KpeTeHoug> и обратното :)
+[10:17:34] <hackman> упси :)
+[10:17:40] <hackman> сега ще ги оправя :)
+[10:18:01] <KpeTeHoug> :)
+[10:20:53] <KrasiGa> виждам в логовете, че dencho-at-work е писал вчера а при мен нищо не се виждаше /за usb-tata/
+[10:21:09] <KrasiGa> i moia encoding iavno ne e kakto triabva
+[10:23:32] <KpeTeHoug> KrasiGa ти нали си с обикновенна Мirc ?
+[10:24:04] <KrasiGa> ne
+[10:24:13] <KrasiGa> prez browser-a
+[10:24:16] <KpeTeHoug> a da
+[10:24:26] <KpeTeHoug> е някой беше казал че се чете през него
+[10:24:29] <KpeTeHoug> но не съм го ползвал
+[10:24:50] <KrasiGa> abe tuk se 4ete ama v loga gledam, 4e ne se
+[10:25:06] <KpeTeHoug> само в началото
+[10:25:12] <KpeTeHoug> страница и половина, 2
+[10:25:20] <KpeTeHoug> докато го оправя и прекомпилирам
+[10:25:21] <KrasiGa> i v4era poslednite 20min predi da si tragna ni6to ne vijdah /sega go razbiram ot loga/
+[10:25:24] <KrasiGa> a az si pra6tah
+[10:26:03] <dencho-at-work> eto zatova e polezen web log-a
+[10:26:03] <dencho-at-work> :D
+[10:26:26] <KpeTeHoug> мхмз
+[10:26:38] <KpeTeHoug> и за шпионстване ко е ставало 2-3 през ноща :)
+[10:26:58] <dencho-at-work> ;)
+[10:35:49] <KrasiGa> dencho-at-work: справи ли се с Usb-to?
+[10:35:58] <KrasiGa> sega go testvah pri men i tragna
+[10:39:41] <KrasiGa> pak li se s4upi pri men ili vsicki sa zaeti i nikoi ne pi6e?
+[10:40:32] <KpeTeHoug> Вашето обаждане е важно за нас, моля изчакайте
+[10:42:04] <KrasiGa> hahahha eeee zna4i ne e tuk problema
+[10:42:27] <KpeTeHoug> гледам последната част от лекцията
+[10:42:32] <KpeTeHoug> че домашно трябва да се прави
+[10:42:36] <dencho-at-work> KrasiGa: ne sam testval prosto pitah ot liubopitstvo
+[10:43:26] <dencho-at-work> q malko da floodna foruma 4e ot odavna ne sam go pravil
+[10:44:48] <dencho-at-work> mnogo pisano mnogo ne6to
+[10:47:08] <KrasiGa> predi da mi otvori flashkata win-a mi install-na driver za vbox usb sled koeto go otvori
+[10:47:21] <KrasiGa> bez da go dobaviam v froups
+[10:47:25] <KrasiGa> groups
+[10:48:21] <KrasiGa> no predi tova v settings na mashinata dobavih usb filter, kadeto izbrah flashkata
+[10:48:47] <dencho-at-work> aham
+[10:53:58] <KpeTeHoug> честно казано
+[10:54:12] <KpeTeHoug> се чуствам супер объркан от синтаксиса на буут лоъдърите
+[10:54:17] <KpeTeHoug> направо :)
+[10:55:51] <hackman> KpeTeHoug: ако гледаш Grub2, това е нормално :)
+[10:56:07] <hackman> но за lilo & grub синтаксиса е много много простичък :)
+[10:56:29] <KpeTeHoug> бтв, първият ми линукс беше слак
+[10:56:34] <KpeTeHoug> и лило съм го мъчил
+[10:56:42] <KpeTeHoug> ма тва груб 2, направо ми разказа играта :)
+[10:58:34] <hackman> KpeTeHoug: оправих линковете :)
+[10:58:48] <hackman> да, и мен ме изнервя тоя grub2
+[10:59:10] <hackman> но той поддържа и legacy конфигурация с legacy_kernel & legacy_initrd
+[10:59:23] <hackman> или нещо legacy беше :) може да се бъркам :)
+[10:59:44] <KpeTeHoug> важното е да има наследство
+[10:59:47] <KpeTeHoug> 2-3 милиона
+[10:59:48] <KpeTeHoug> :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:01:45] buddi (2eee2929@gateway/web/freenode/ip.46.238.41.41) joined #telerikacademy.
+[11:05:16] main: entering loop
+[11:05:17] DNS resolved irc.freenode.net to 89.105.197.133
+[11:05:17] net: connect! sock 7
+[11:05:33] Telerik joined #telerikacademy.
+[11:05:42] <KpeTeHoug> !top10
+[11:05:55] <KpeTeHoug> !top10 #telerikacademy
+[11:06:09] <KpeTeHoug> то няма запис още :)
+[11:06:12] <KpeTeHoug> след 5 мин
+[11:06:49] <hackman> a seen ?
+[11:07:20] <KpeTeHoug> и това след малко :)
+[11:14:36] Tcl error [::seend::loaded]: couldn't read file "scripts/SeendData.tcl": no such file or directory
+[11:14:36] main: entering loop
+[11:14:38] DNS resolved irc.freenode.net to 195.148.124.79
+[11:14:38] net: connect! sock 8
+[11:14:52] Writing channel file...
+[11:14:52] Telerik joined #telerikacademy.
+[11:15:03] <KpeTeHoug> .seen
+[11:16:02] <KpeTeHoug> Почти
+[11:16:02] <KpeTeHoug> :)
+[11:16:42] <KpeTeHoug> .seen help
+[11:53:51] Nick change: yulimoto_away -> yulimoto
+[11:54:51] <KacanuH> ^Z^X[KacanuH@grizzly ~]$ man mount
+[11:54:53] <KacanuH> sh: fork: retry: Resource temporarily unavailable
+[11:55:19] Last message repeated 7 time(s).
+[11:55:19] <KacanuH> гризлито сдаде багажа
+[11:55:24] <KacanuH> пак много изкара
+[11:56:19] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[11:57:20] <yulimoto> възможно е да си пуснал too many processes
+[11:57:51] <phalaaxx> https://pbs.twimg.com/media/BPXC_KHCUAAXRQd.jpg:large
+[11:58:06] <phalaaxx> вероятно същото може да се каже за администратор и конфигурационен файл :D
+[11:59:05] <yulimoto> ха да, за щастие кафе не пия от години
+[11:59:06] <yulimoto> :)
+[11:59:26] <yulimoto> KacanuH: спри си всички процеси и се логни пак :)
+[11:59:46] <yulimoto> мисля, че ще се оправи, ако си ограничиш процесите
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:51] <yulimoto> sh: fork: retry: Временно недостъпен ресурс
+[12:01:24] <yulimoto> ето това е резултат от три man команди без да се спрат
+[12:03:03] <yulimoto> освен това на screen имаш 5-6 баша
+[12:09:13] Slavov (~slavov@78-83-68-163.spectrumnet.bg) left irc: Ping timeout: 240 seconds
+[12:10:41] <phalaaxx> трябва си ограничение на процесите, че иначе... fork бомбата за bash е 13 символа
+[12:17:04] <yulimoto> phalaaxx: какво ще рече 13 символа ?
+[12:17:35] <phalaaxx> yulimoto, знаеш ли какво е bash fork bomb?
+[12:17:45] <yulimoto> не
+[12:17:51] <yulimoto> но се досещам
+[12:18:12] <yulimoto> сега ще видя
+[12:18:35] <phalaaxx> :)
+[12:24:15] <yulimoto> phalaaxx: сега разбрах просто - кода е толкова кратък, аз взех да мисля какви ли са тия символи
+[12:26:27] <yulimoto> бахти с U-boot бутвам през tftp за 10мин с четене на документация и конфигване. С grub2 за един час съм още по-объркан отколкото в началото
+[12:30:54] <yulimoto> KpeTeHoug: Ако имаш възможност, да не забравиш robots - noindex, nofollow че после нечии шеф може да чете какво всъщност правят неговите служители по време на работа
+[12:31:25] <yulimoto> да не стигаме до там ;)
+[12:34:20] <dencho-at-work> mislq 4e e slojeno
+[12:35:09] <dencho-at-work> aa ne
+[12:35:14] <dencho-at-work> a v4era uj go vidqh
+[12:35:27] <dencho-at-work> moje kato go e prekompiliral ili ne6to ot sorta da se e mahnalo
+[12:35:31] Action: dencho-at-work slaps KpeTeHoug 
+[12:43:55] <KpeTeHoug> ni ma biite sled malko
+[12:43:59] <KpeTeHoug> rabota dnes mnogo
+[12:44:10] <KpeTeHoug> yulimoto shte go setna i shti dam css da opravish malko
+[12:44:21] <KpeTeHoug> a ti mi dai logove, da gi sloja da se vijdat
+[12:48:10] tuxar (bc85013f@gateway/web/freenode/ip.188.133.1.63) joined #telerikacademy.
+[12:49:35] <dencho-at-work> az ni6to nqma da dam
+[12:49:42] <yulimoto> cat /tmp/#telerikacademy.log
+[12:50:02] Slavov (~slavov@78-83-68-163.spectrumnet.bg) joined #telerikacademy.
+[12:50:20] Action: dencho-at-work slaps Slavov 
+[12:50:41] <Slavov> обядвах малко ас
+[12:50:54] <dencho-at-work> az sega tova pravq
+[12:51:05] <Slavov> dencho-at-work, намерих ебати вируса вчера така че ме не шляпаи
+[12:51:29] <dencho-at-work> kakvo da razbiram pod ebati virusa
+[12:53:19] <Slavov> емии още не знам, един вчера го инсталира пробно и вика нищо не става, и му казах рестартираи компа и от тогава го няма
+[12:53:29] <Slavov> смисъл ще ти го пратя и ще ти кажа че са субтитри за филм
+[12:53:38] <Slavov> ти ще ги инсталираш и ще те накажа заради виртуалните шамари
+[12:53:41] <Slavov> който ми пращаш
+[12:53:57] <Slavov> шегата на страна, 2-ртоо полувреме започва, на работа..
+[12:54:28] <dencho-at-work> taka, zna4i ti 6te mi go dade6 kato .srt ?! i az 6te go instaliram kato .exe ?!
+[12:54:32] <dencho-at-work> malko ne mi se vqrva :D
+[12:54:48] <yulimoto> не трябваше да правим канала да се записва
+[12:54:54] <dencho-at-work> hahahaha
+[12:55:09] <dencho-at-work> posle 6te kajat 4e sme se nau4ili na virusi v telerik :D
+[12:55:50] <dencho-at-work> no Slavov moje da zarazi po tozi na4in edinstveno maika mi :P no tq puk e na linux :D
+[12:55:56] <dencho-at-work> taka 4e i neq ne moje
+[12:56:37] <Slavov> как майкати е на линукс е, защо и отнемаш графичния комфорт от уиндолс
+[12:56:46] <Slavov> аиде после ще дойда
+[12:56:47] <Slavov> ;)
+[12:56:49] Slavov (~slavov@78-83-68-163.spectrumnet.bg) left irc: Quit: Leaving
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:00:22] <dencho-at-work> e 4e tq pak go ima grafi4niq konfort we :D
+[13:03:10] <hackman> dencho-at-work: майка ти с какво се занимава ?
+[13:07:57] <KpeTeHoug> програмира на бейсик
+[13:07:58] <KpeTeHoug> :)
+[13:08:54] <hackman> хмм... какво използва за basic под linux ?
+[13:09:04] <KpeTeHoug> :) незнам
+[13:10:38] <dencho-at-work> hackman: gotva4ka e
+[13:11:10] <hackman> dencho-at-work: и тогава какво използва за рецептурник под Linux?
+[13:11:15] <hackman> OpenOffice ?
+[13:11:28] <dencho-at-work> tq samo si brauzva
+[13:11:38] <dencho-at-work> ina4e da... openoffice :D
+[13:11:51] <dencho-at-work> tq izpolzva pc samo za da 4ete v internet
+[13:12:19] <dencho-at-work> sus su6tiq uspeh moje da izpolzva i mac i windows
+[13:12:20] <dencho-at-work> :D
+[13:12:30] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[13:12:39] <dencho-at-work> no pri windows-a nqma da znae kak da se pazi ot virusite na slavov :D
+[13:13:55] <dencho-at-work> drugoto koeto e, 4e tq ne e vijdala nikakva operacionna sistema predi tova... :)
+[13:19:22] <yulimoto> dencho-at-work: това че не е виждала е голям + ; по-бързо се учи така
+[13:19:44] <dencho-at-work> da, znam :)
+[13:20:07] <phalaaxx> не винаги е необходимо да няма опит с друга ОС
+[13:20:22] <dencho-at-work> no dori i da mine na windows sigurno burzo 6te svikne da cuka na firefox-a
+[13:20:23] <dencho-at-work> :D
+[13:20:33] <dencho-at-work> s word-a moje da e i po trudno samo
+[13:20:33] <KpeTeHoug> тей
+[13:20:39] <KpeTeHoug> имаме вече сичкото логс
+[13:20:42] <KpeTeHoug> от yulimoto
+[13:20:48] <KpeTeHoug> качени и работят
+[13:20:54] <KpeTeHoug> сега да дооправим бота :)
+[13:21:05] <phalaaxx> слагал съм убунту на човек, който до този момент беше използвал уиндоус и резултата беше че почти спряха телефонните обаждания с въпроси и заявки да ходя да оправям проблеми :)
+[13:21:14] <KpeTeHoug> dencho-at-work  бара ли по конфа
+[13:21:19] <dencho-at-work> KpeTeHoug: malko si gi omazal :P
+[13:21:32] <dencho-at-work> ti gi repleisna nali ?
+[13:21:51] <dencho-at-work> KpeTeHoug: ne sam pipal ni6to,
+[13:22:07] <KpeTeHoug> защото бяха тхт
+[13:22:13] <KpeTeHoug> и малко се разминават с по 1 буква
+[13:22:19] <KpeTeHoug> ма мисля че ще го преживея :)
+[13:22:30] <dencho-at-work> :)
+[13:22:37] <dencho-at-work> az ne :P~ hahaha
+[13:27:45] Seend data restored.
+[13:27:45] main: entering loop
+[13:27:47] DNS resolved irc.freenode.net to 89.105.197.133
+[13:27:47] net: connect! sock 9
+[13:27:59] Telerik joined #telerikacademy.
+[13:27:59] -:#telerikacademy- [freenode-info] channel flooding and no channel staff around to help? Please check with freenode support: http://freenode.net/faq.shtml#gettinghelp
+[13:27:59] <KpeTeHoug> кат ти дам права ще си бараш
+[13:28:06] <KpeTeHoug> кат не ти аресва
+[13:28:11] net: connect! sock 3
+[13:28:11] DNS resolved 127.0.0.1 to localhost
+[13:28:11] Telnet connection: localhost/44360
+[13:28:11] net: connect! sock 11
+[13:28:11] net: eof!(read) socket 11
+[13:28:11] Timeout/EOF ident connection
+[13:28:18] net: connect! sock 3
+[13:28:18] DNS resolved 127.0.0.1 to localhost
+[13:28:18] Telnet connection: localhost/44362
+[13:28:18] net: connect! sock 11
+[13:28:18] net: eof!(read) socket 11
+[13:28:18] Timeout/EOF ident connection
+[13:28:25] Logged in: KpeTeHoug (telnet@localhost/44362)
+[13:28:35] tcl: builtin dcc call: *dcc:notes KpeTeHoug 10 read 1
+[13:28:50] tcl: builtin dcc call: *dcc:notes KpeTeHoug 10 read 2
+[13:29:07] DCC connection closed (KpeTeHoug!telnet@localhost)
+[13:29:11] net: connect! sock 3
+[13:29:11] DNS resolved 127.0.0.1 to localhost
+[13:29:11] Telnet connection: localhost/44364
+[13:29:11] net: connect! sock 11
+[13:29:11] net: eof!(read) socket 11
+[13:29:11] Timeout/EOF ident connection
+[13:29:16] Logged in: KpeTeHoug (telnet@localhost/44364)
+[13:29:22] tcl: builtin dcc call: *dcc:notes KpeTeHoug 10 del 1
+[13:29:24] <hackman> споко, от утре всички ще имате root на grizzly
+[13:29:32] tcl: builtin dcc call: *dcc:notes KpeTeHoug 10 erase 1
+[13:29:35] <hackman> довечера ще я спра за малко да и направя snapshot :)
+[13:29:43] tcl: builtin dcc call: *dcc:notes KpeTeHoug 10 erase 2
+[13:29:51] <KpeTeHoug> мнооого добра идея :)
+[13:30:15] tuxar (bc85013f@gateway/web/freenode/ip.188.133.1.63) left irc: Quit: Page closed
+[13:32:06] tcl: builtin dcc call: *dcc:chanset KpeTeHoug 10 #telerikacademy +chanstats
+[13:32:20] <KpeTeHoug> !top
+[13:32:22] <dencho-at-work> 4ak pa mnogo dobra ideq
+[13:32:23] <dencho-at-work> :D
+[13:32:36] <KpeTeHoug> dobre, naperyk
+[13:33:07] <KpeTeHoug> mument
+[13:33:24] tcl: builtin dcc call: *dcc:chanset KpeTeHoug 10 #telerikacademy +seend
+[13:33:29] <KpeTeHoug> try now
+[13:33:44] <hackman> oleee
+[13:33:45] <KpeTeHoug> :) kirilica sox
+[13:33:53] <hackman> sloji go na Eng molq te
+[13:33:59] <KpeTeHoug> da, sega shte go opravq
+[13:35:08] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[13:36:31] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 10 
+[13:36:31] Writing user file...
+[13:36:31] Writing channel file...
+[13:36:31] Rehashing ...
+[13:36:31] Writing channel file...
+[13:36:31] Listening at telnet port 3333 (all).
+[13:36:31]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:36:31] UDEF: chanstats defined
+[13:36:31] 14<chanstats> version 1.3.0 by arfer loaded
+[13:36:31] UDEF: seend defined
+[13:36:31] Seend 1.8.3 loaded!
+[13:36:31] Loading dccwhois.tcl...
+[13:36:31] Loaded dccwhois.tcl
+[13:36:31] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[13:36:31] use '.help userinfo' for commands.
+[13:36:31] Writing channel file...
+[13:36:31] Userfile loaded, unpacking...
+[13:36:42] <KpeTeHoug> sega pone imam .rehash
+[13:36:49] <KpeTeHoug> blagodarenie na dencho :)
+[13:37:09] <KpeTeHoug> :)
+[13:37:16] <dencho-at-work> ako samo 6te mi blafgodarite barem zemete da me po4erpite s edin sok :D
+[13:37:27] <dencho-at-work> toz seen mai mnogo ne seen-va
+[13:37:38] <dencho-at-work> aa vijda go
+[13:37:39] <dencho-at-work> :D
+[13:37:40] <dencho-at-work> hahahaha
+[13:37:58] <dencho-at-work> dobre e dobre e
+[13:37:58] <dencho-at-work> :d
+[13:38:14] <dencho-at-work> i kato quitne gubi informacia
+[13:38:14] <dencho-at-work> :D
+[13:38:30] <dencho-at-work> naprimer dove4era predi snapshota
+[13:38:30] <dencho-at-work> :P
+[13:38:40] <KpeTeHoug> aa ne be
+[13:38:45] <KpeTeHoug> тоя май пази
+[13:38:49] <KpeTeHoug> па и да пази :)
+[13:38:53] <KpeTeHoug> и да не пази
+[13:38:54] <KpeTeHoug> се тая
+[13:39:00] <KpeTeHoug> чак да видя сега статистиките
+[13:39:05] <KpeTeHoug> !top 10 words
+[13:39:20] <dencho-at-work> ne ne
+[13:39:35] <dencho-at-work> tezi sa lame :P
+[13:39:53] <KpeTeHoug> се тая, то е за фън
+[13:40:04] <KpeTeHoug> kak beshe za public comands
+[13:40:08] <KpeTeHoug> !стоппублиц
+[13:40:12] <KpeTeHoug> !stoppublic
+[13:40:38] <hackman> KpeTeHoug:  я пробвай sudo-то ;) вече трябва да ти бачка
+[13:40:42] <hackman> с твоята си парола :)
+[13:40:47] <KpeTeHoug> :)
+[13:40:53] DCC connection closed (KpeTeHoug!telnet@localhost)
+[13:40:53] <dencho-at-work> po4naaame
+[13:40:53] <dencho-at-work> :D
+[13:41:07] <KpeTeHoug> yep\
+[13:41:18] <KpeTeHoug> sudo su нали може директно да си карам :)
+[13:41:33] <dencho-at-work> sudo read mail read fast moje
+[13:41:40] <KpeTeHoug> хахаха
+[13:41:43] <hackman> моля да не барате НИЩО до утре
+[13:41:46] <KpeTeHoug> nqma
+[13:41:55] <KpeTeHoug> сменям си даже нанормалният юзър
+[13:41:56] <hackman> преди да направя snapshot-а ще е тъпо
+[13:42:22] <KpeTeHoug> никакъв проблем, мен правата си ми стигат
+[13:42:27] <KpeTeHoug> имам си машини за трошене
+[13:42:35] <KpeTeHoug> некфи други тцл-и ?
+[13:43:19] net: connect! sock 3
+[13:43:19] DNS resolved 127.0.0.1 to localhost
+[13:43:19] Telnet connection: localhost/44368
+[13:43:19] net: connect! sock 11
+[13:43:19] net: eof!(read) socket 11
+[13:43:19] Timeout/EOF ident connection
+[13:43:26] Logged in: KpeTeHoug (telnet@localhost/44368)
+[13:43:29] tcl: builtin dcc call: *dcc:help KpeTeHoug 10 
+[13:43:37] <dencho-at-work> trivia
+[13:43:39] <dencho-at-work> byahahhaah
+[13:43:40] <dencho-at-work> !
+[13:43:43] <dencho-at-work> 6eguvam se
+[13:45:04] Writing user file...
+[13:45:04] Writing channel file...
+[13:45:10] <dencho-at-work> mi 6te vi napi6a we
+[13:45:20] <dencho-at-work> na kakuv ezik q iskate
+[13:45:24] <dencho-at-work> ama tva moje da e sled kursa
+[13:45:26] <dencho-at-work> t.e
+[13:45:36] <dencho-at-work> da pi6a po tema sled tema
+[13:45:37] <dencho-at-work> :D
+[13:45:43] <dencho-at-work> za da ima vuprosi ot vsqka tema
+[13:45:50] <dencho-at-work> posledovatelno
+[13:46:30] <dencho-at-work> no vse nqkoi me izprevarva :D hahaha ti me izprevari za bota i za logovete predpolagam i za tva 6te me izprevari6
+[13:46:31] <KpeTeHoug> мхм
+[13:46:33] <dencho-at-work> baven sam:P~
+[13:46:38] <KpeTeHoug> а не
+[13:46:41] <KpeTeHoug> нямам толкова време
+[13:46:51] <KpeTeHoug> и не съм те напреварил, просто бях свободен
+[13:46:54] tcl: builtin dcc call: *dcc:help dencho 10 
+[13:47:09] tcl: builtin dcc call: *dcc:su dencho 10 KpeTeHoug
+[13:47:14] net: connect! sock 3
+[13:47:14] DNS resolved 127.0.0.1 to localhost
+[13:47:14] Telnet connection: localhost/44372
+[13:47:14] net: connect! sock 12
+[13:47:14] net: eof!(read) socket 12
+[13:47:14] Timeout/EOF ident connection
+[13:47:18] DCC connection closed (dencho!telnet@localhost)
+[13:47:37] <dencho-at-work> :)
+[13:47:42] <dencho-at-work> az prosto 6a davam idei
+[13:47:46] <dencho-at-work> v akula nai me biva
+[13:47:46] <dencho-at-work> :D
+[13:48:51] <dencho-at-work> btw otnosno temata za vi i za vuprosa na ibalistix v koq moderna distribucia nqma nano... ami v centos 6.4 minimal install nqma nano :P
+[13:52:18] net: connect! sock 3
+[13:52:18] DNS resolved 127.0.0.1 to localhost
+[13:52:18] Telnet connection: localhost/44374
+[13:52:18] net: connect! sock 12
+[13:52:18] net: eof!(read) socket 12
+[13:52:18] Timeout/EOF ident connection
+[13:57:30] net: connect! sock 3
+[13:57:30] DNS resolved 127.0.0.1 to localhost
+[13:57:30] Telnet connection: localhost/44376
+[13:57:30] net: connect! sock 12
+[13:57:30] net: eof!(read) socket 12
+[13:57:30] Timeout/EOF ident connection
+[13:57:33] Logged in: dencho (telnet@localhost/44376)
+[13:57:52] tcl: builtin dcc call: *dcc:whom dencho 11 
+[13:58:24] Writing user file...
+[13:58:24] Writing channel file...
+[13:58:24] Rehashing ...
+[13:58:24] Writing channel file...
+[13:58:24] Listening at telnet port 3333 (all).
+[13:58:24]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:58:24] UDEF: chanstats defined
+[13:58:24] 14<chanstats> version 1.3.0 by arfer loaded
+[13:58:24] UDEF: seend defined
+[13:58:24] Seend 1.8.3 loaded!
+[13:58:24] Loading dccwhois.tcl...
+[13:58:24] Loaded dccwhois.tcl
+[13:58:24] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[13:58:24] use '.help userinfo' for commands.
+[13:58:24] Writing channel file...
+[13:58:24] Userfile loaded, unpacking...
+[13:59:32] <yulimoto> майтапа на страна vim може да ползвам тук-таме, обаче някой vim манияк е написал много як plugin за хром браузерите (аз съм iron) казва се vimium и почти не ползвам мишока при броузване. както се подразбира, ако можеш поне малко да позлваш vim почваш да ползваш и �
+[14:00:01] Writing user file...
+[14:00:01] Writing channel file...
+[14:00:25] <KpeTeHoug> ^_^
+[14:00:56] DCC connection closed (KpeTeHoug!telnet@localhost)
+[14:01:26] <s0ny123> то и за firefox има vim plugin
+[14:01:53] <dencho-at-work> vima i trqq
+[14:01:54] <dencho-at-work> :D
+[14:01:58] <dencho-at-work> i az misleh 4e ne trqq
+[14:02:02] <dencho-at-work> ama sq razbrah 4e trqq
+[14:02:03] <dencho-at-work> :D
+[14:02:32] <dencho-at-work> kato ti dadat server na koito nqma nano, pico, i pro4ie, hoi se opravai kato nqma i net :D
+[14:02:39] <yulimoto> s0ny123: има един vimium ама нещо функционалността му доста по-слаба от тази за хром
+[14:02:39] <dencho-at-work> 100% ima vi :D
+[14:03:00] <s0ny123> да за там май по-добър беше vimperator или нещо такова се казваше
+[14:03:25] <yulimoto> s0ny123: ще го потърся мерси
+[14:03:33] DCC connection closed (dencho!telnet@localhost)
+[14:07:18] vhristev (~vhristev@77.70.112.88) joined #telerikacademy.
+[14:08:02] <vhristev> Morning
+[14:08:22] <KpeTeHoug> по скоро е следобед
+[14:08:25] <KpeTeHoug> но здр:)
+[14:09:42] <vhristev> който както го чуства
+[14:09:42] <vhristev> (;
+[14:09:50] <vhristev> станал съм в 7 ама от учтивост
+[14:09:51] <vhristev> (;
+[14:10:12] <vhristev> Узпуснах датата да се запиша на курса и сега се опитвам да дебна за физическо освободено място
+[14:10:24] <KpeTeHoug> ми
+[14:10:28] <KpeTeHoug> hackman е дъ мен
+[14:10:32] <dencho-at-work> to moje da idva6 dori i da ne si se zapisal
+[14:10:46] <vhristev> Еми аз писах на телерик и казаха ,че няма места
+[14:11:06] <vhristev> видях залата е голяма все някой няма да дойде за 1 стол ( не ,че няма още 100 такива като мен дето мислят ) ама все пак
+[14:11:08] <dencho-at-work> vzema6 si edno zgyvaemo ribarsko stol4e i idva6
+[14:11:27] <dencho-at-work> ako ne... gleda6 online
+[14:11:29] <vhristev> еее все ще намеря накой познат там да подаде някой бедър
+[14:11:40] <dencho-at-work> koeto mai e oferta, 6toto moje da pita6 tuk v irc-to i da ti se otgovori online
+[14:11:51] <vhristev> Оналайна е ОК супер е ,но на мен ми е повече за физическото контактите хората и т.н.
+[14:11:51] <dencho-at-work> nali ima live stream
+[14:12:01] <KrasiGa> a na men pak mi stoi predlojenie da premina kam prisastevan forma
+[14:12:03] <dencho-at-work> et ti kontakti :P
+[14:12:07] <KrasiGa> no ne moga
+[14:12:15] <KrasiGa> ako moga da go predostapq
+[14:12:31] <vhristev> Еми аз смятам сега четвъртък да дойда на място да проверя всичко как е
+[14:12:31] <KrasiGa> podarqvam go
+[14:12:52] <vhristev> Благодаря имам две приятелчета и те ми предлагат ,но искам да е физическо
+[14:12:56] <dencho-at-work> btw da... mislq 4e edin kolega mai nqma da moje da pose6tava... taka 4e toi otpada no ne sam 100%
+[14:13:09] <KrasiGa> за физическо говоря
+[14:13:10] <dencho-at-work> vhristev: fizi4esko govorq :)
+[14:13:11] <dencho-at-work> haha
+[14:13:19] <vhristev> Ако разбереш име и човече а 100% с радост бих му заел мястото
+[14:13:24] <vhristev> и без това четв. ми е перфекният ден
+[14:13:26] <KrasiGa> аз съм онлайн, но мога да мина в присъствена форма
+[14:13:41] <vhristev> аз мислех ,че има местя и неможе да се надвишават
+[14:14:22] <KrasiGa> понеже не съм в Сф няма как да съм физически там
+[14:14:46] <vhristev> Аз вече писах на Телерик и ми отг. ,че вече е затворено да следя сайта и фейсбука
+[14:14:58] <vhristev> но мисля ,че тук ще дойде новината по бързо
+[14:15:03] <dencho-at-work> vhristev: kato go vidq 6te govorq no ne mislq, 4e nqma problem da idva6 i da slu6a6 6tom iska6 kontakti :D
+[14:15:05] <KrasiGa> ама нали там ще ходиш за знание, за какво ти е да се водиш някъде
+[14:15:10] <KrasiGa> просто си ходи и слушай
+[14:15:22] <yulimoto> vhristev: според хакман остават някакви места стига да не си от срамежливите т.е. били някъде на мегданя :), та опитай може би ще има места
+[14:15:26] <dencho-at-work> az moite kontakti vinagi gi namiram nqkade po takiva 4atove
+[14:15:27] <dencho-at-work> :D
+[14:15:30] <vhristev> Еми да ама ако залата е пълна и няма места как да те пуснат
+[14:15:43] <dencho-at-work> puskat :P
+[14:15:50] <vhristev> аааа не съм срамежлив
+[14:16:04] <vhristev> дет имам един лаф " по добре тъп за 5 мин отколкото цял живот"
+[14:16:18] <dencho-at-work> plus tova, kum 18:30 zalata e prazna
+[14:16:19] <dencho-at-work> :D
+[14:16:27] <dencho-at-work> otiva6 i sqda6 :D
+[14:16:50] <dencho-at-work> ako misli6 4e nqkoi 6te te pita kuv si i ot kade si se luje6 :P
+[14:16:59] <vhristev> просто Марян е мн добър и съм му ходил на друго лекции по опен фестовете
+[14:17:03] <vhristev> и винаги има какво да се научи
+[14:17:14] <dencho-at-work> welcome :)
+[14:17:20] <vhristev> хахахах Хюман инжинииринг
+[14:17:20] <vhristev> (;
+[14:17:44] <vhristev> Еее аз искам всичко да е точно
+[14:17:47] <KpeTeHoug> давай, говори само хубави работи
+[14:18:01] <KpeTeHoug> да се вижда всичко по логовете
+[14:18:02] <KpeTeHoug> :)
+[14:18:03] <yulimoto> vhristev: да знаеш, канала се записва и той ще го чете после, така че си взет със сигурност ;)
+[14:18:09] <dencho-at-work> KpeTeHoug: az li  :D
+[14:18:14] <KrasiGa> хахаха
+[14:18:23] <vhristev> Ти тоя чат тука ако мислиш ,че някой има времето да го чете
+[14:18:27] <dencho-at-work> spoko we, logovete mogat da se manipulirat we
+[14:18:35] <dencho-at-work> vhristev: 4ete se
+[14:18:35] <dencho-at-work> :D
+[14:18:39] <vhristev> човек аз нямам време вечерта на жената 20 мин да обърна
+[14:18:40] <dencho-at-work> az go 4eta :P
+[14:18:40] <vhristev> (;
+[14:18:49] <vhristev> Ееееее ти си човек с мн свободно време
+[14:18:50] <vhristev> (;
+[14:18:50] <dencho-at-work> az go 4eta sled kato zaspi jenata
+[14:18:56] <vhristev> рахат си
+[14:19:03] <dencho-at-work> tvoqta ne spi li?
+[14:19:06] <KrasiGa> или в работно време
+[14:19:07] <yulimoto> vhristev: човек ние ще дойдем, ако нямаш време
+[14:19:13] <vhristev> Спи бе дейба ама мрънка да си лягам с нея
+[14:19:18] <dencho-at-work> hahaha
+[14:19:21] <dencho-at-work> HAHAHAHHAHA
+[14:19:27] <vhristev> така е ако сахиб не иде при планината ... Планината ще иде при сахиб
+[14:19:37] <yulimoto> шегувам се
+[14:20:07] <vhristev> важното е тълпа да има
+[14:20:19] <vhristev> аз ще дойда ще говоря с хората и така
+[14:20:44] <vhristev> Навремето моя учител ( год как звучи ) като му виках айде да ме учиш колко пари ще искваш каза " Аз няма да спя да науча още някой на линукс"
+[14:20:51] <vhristev> еее да е жив и здрав ,че човек станах
+[14:20:52] <vhristev> хаха
+[14:21:03] <vhristev> защото мн хора имат желание ама малцина стават
+[14:25:33] <yulimoto> :)
+[14:29:23] <vhristev> Еми общо взето остава да скръстим ръце и молитвки към всевишният кърнъл
+[14:41:53] <phalaaxx> т.е. към root?
+[14:44:16] <vhristev> ааа руут аз съм руут-а
+[14:44:23] <vhristev> ама руут-а се кланя на кърнала
+[14:44:58] <vhristev> или на "bash Майстора" зависи как го погледнеш
+[14:45:15] <KpeTeHoug> bash Майстора на море
+[14:45:17] <KpeTeHoug> класика :)
+[14:46:53] <vhristev> Еххх години славни
+[14:47:49] <vhristev> Като гледам курса е мн як евала на Марян и дано да има осърдни админи/ки който да им е от полза
+[14:48:09] <vhristev> че тука в тая куха страна условията така ни притискат ,че е мн трудно то и да искаш да учиш супер ама гладен ли да седиш
+[14:48:26] <vhristev> аз като помня 1вата ми работа беше за 200лв. на месец
+[14:48:27] <vhristev> то живее ли се
+[14:49:36] net: connect! sock 3
+[14:49:36] DNS resolved 127.0.0.1 to localhost
+[14:49:36] Telnet connection: localhost/44378
+[14:49:36] net: connect! sock 11
+[14:49:36] net: eof!(read) socket 11
+[14:49:36] Timeout/EOF ident connection
+[14:49:43] Logged in: KpeTeHoug (telnet@localhost/44378)
+[14:49:50] tcl: builtin dcc call: *dcc:die KpeTeHoug 10 Ida sled malko, da se prekompiliram
+[14:49:53] Writing user file...
+[14:49:53] Writing channel file...
+[14:49:53] * DIE BY KpeTeHoug!telnet@localhost (Ida sled malko, da se prekompiliram)
+[14:56:42] Seend data restored.
+[14:56:42] main: entering loop
+[14:56:43] DNS resolved irc.freenode.net to 218.100.43.174
+[14:56:47] net: connect! sock 8
+[14:57:00] Telerik joined #telerikacademy.
+[14:57:01] <KpeTeHoug> :)
+[14:57:30] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[14:59:32] <vhristev> "Христееев ни си съ логнал и вече смут врака тука в тва предприятие
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:08:17] <dencho-at-work> grep rulz
+[15:08:17] <dencho-at-work> :d
+[15:09:23] <vhristev> като каза греш
+[15:09:37] <vhristev> "греп"
+[15:09:52] <vhristev> в HP-UX-a нямаш рекурсия като опиця в грепа
+[15:10:08] <vhristev> неможе да направиш grep -r WORD /full/path
+[15:10:22] <vhristev> е колко болно ми беше
+[15:11:20] <dencho-at-work> da ne si bil v HP
+[15:11:31] s0ny123 (~agit0@95.111.18.140) left irc: Remote host closed the connection
+[15:14:23] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[15:14:53] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[15:16:42] <yulimoto> така, някой да е бутвал кернел по мрежата с груб2?
+[15:17:25] <vhristev> Бях
+[15:17:30] <vhristev> виж как правилно се изрази
+[15:17:31] <vhristev> (;
+[15:18:15] <vhristev> yulimoto, сори никога не съм праивл такова нещо ,но може да кажеш къде запираш
+[15:18:35] <phalaaxx> :-)
+[15:21:34] <dencho-at-work> :)
+[15:21:46] <yulimoto> има 2 вида токова бутване: 1. бутваш целия груб по мрежата ( на мен това не ми требе) 2. бутваш само кернела и инитрд ; проблема е че трябва модула за мрежа и да се билдне груба от там да си взема модула; никъде не намирам сорс с нетбут и съответно команди
+[15:21:47] <dencho-at-work> 4ul sam 4e ne e cvete za mirisane v hp
+[15:22:11] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[15:22:18] <vhristev> зависи как го погледнеш
+[15:22:37] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[15:22:42] <vhristev> ентърпрайс в БГ няма тъйче ако искаш да видиш това е мястото има и друго ,но в HP е ОК
+[15:23:03] <vhristev> ще видиш как работи една голяма машина с всичката им документация процеси и т.н. БОЛКА ама няма начин да работи без това
+[15:23:10] <vhristev> тъйче не е като да съм си пропилял времето
+[15:23:53] <vhristev> просто ми писна от бумащина конзолите ги бях позабравил и реших ,че не искам това да правя в живота си и така
+[15:24:08] <vhristev> Пусни още 2лв. ,за да продължите хахахаха
+[15:24:23] Nick change: yulimoto -> yulimoto_away
+[15:27:29] <phalaaxx> CentOS има ли си нещо подобно на debootstrap в Debian?
+[15:28:09] <phalaaxx> ако искам да го инсталирам от друг работещ линукс ми трябва някакъв bootstrap за да започна
+[15:28:58] <vhristev> имаш ли epel REPOT-to
+[15:29:56] <vhristev> https://www.virtualmaster.com/how-to-create-image-from-scratch/
+[15:32:57] <phalaaxx> това изглежда добре но предполага наличието на rpm :)
+[15:33:12] <phalaaxx> значиии продължавам натам, трябва да разбера как се отваря rpm без rpm :)
+[15:33:28] <vhristev> какво точно искаш да направиш
+[15:33:40] <vhristev> да си направиш исо
+[15:33:47] <vhristev> кикстарт автоматична инсталация
+[15:34:00] <phalaaxx> не, но и това звучи интересно :)
+[15:34:08] <vhristev> та ... какво точно искаш да направиш
+[15:34:31] <phalaaxx> chroot в който да си играя и който мога после да го набутам на някой partition и да си boot-на машината от него
+[15:35:01] <vhristev> тоест искаш да си направиш работеща инсталация в /mnt
+[15:35:03] <vhristev> така да го кажем
+[15:35:09] <phalaaxx> да
+[15:35:14] <vhristev> Ок разбрах те
+[15:35:20] <vhristev> аз преди с генту така инсталвах
+[15:35:27] <phalaaxx> в Debian е лесно, там си има debootstrap
+[15:35:39] <vhristev> в Хостинга ми слагат едино live CD буутват дават ми мрежа и креденшъни и изцяло почвам инсталация
+[15:36:01] <vhristev> сваляш си стейджовете в мнт разархивираш цялата дистрибуция
+[15:36:15] <vhristev> компилираш си кърнал сетваш си райда след това grub-a
+[15:36:20] <phalaaxx> да, за gentoo знам как да започна
+[15:36:22] <vhristev> ребуут и паля от диска който вече е с ОС
+[15:37:02] <vhristev> ако ще си играеш с нещо най добре с виртуалка
+[15:37:10] <vhristev> и там вътре да си правиш тези схеми
+[15:37:14] <vhristev> за да може да си е чупиш на воля
+[15:37:32] <vhristev> дори снапшот може да и направиш преди действаш с нещо което може да е счупи
+[15:37:42] <phalaaxx> аа не ме мисли, много съм добър в трошенето - не ми трябва виртуалка :D
+[15:37:47] net: connect! sock 3
+[15:37:47] DNS resolved 127.0.0.1 to localhost
+[15:37:47] Telnet connection: localhost/44380
+[15:37:47] net: connect! sock 10
+[15:37:47] net: eof!(read) socket 10
+[15:37:47] Timeout/EOF ident connection
+[15:37:51] Logged in: KpeTeHoug (telnet@localhost/44380)
+[15:39:22] <vhristev> а бейс ОС-а ти е дебиан
+[15:39:25] <phalaaxx> за btrfs имам предвид, не конкретно за btrfs и centos
+[15:39:31] tcl: builtin dcc call: *dcc:die KpeTeHoug 9 fast reboot
+[15:39:34] Writing user file...
+[15:39:34] Writing channel file...
+[15:39:34] * DIE BY KpeTeHoug!telnet@localhost (fast reboot)
+[15:39:48] Seend data restored.
+[15:39:48] main: entering loop
+[15:39:49] DNS resolved irc.freenode.net to 218.100.43.174
+[15:39:51] net: connect! sock 7
+[15:45:54] tcl: builtin dcc call: *dcc:convertlogs KpeTeHoug 8 
+[15:45:58] <phalaaxx> http://www.debian.org/releases/stable/i386/apds03.html.en - това ако искаш да направиш обратното - debian bootstrap от нещо !debian
+[15:46:54] tcl: builtin dcc call: *dcc:makeindexpage KpeTeHoug 8 
+[15:46:57] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 8 
+[15:47:37] tcl: builtin dcc call: *dcc:convertlogs KpeTeHoug 8 [2013[07[17]]]
+[15:47:45] tcl: builtin dcc call: *dcc:convertlogs KpeTeHoug 8 
+[15:48:45] DCC connection closed (KpeTeHoug!telnet@localhost)
+[15:48:46] <phalaaxx> надявах се да има някакъв подобен вариант и за CentOS
+[15:48:59] <vhristev> нали ти е за тест кво те грее
+[15:49:34] <vhristev> от опита си съм разбрал ,че ще си загибиш мн повече време само и само защото не искаш да инсталнеш РПМ и накрая дори и да го направиш по друг начин
+[15:49:59] <vhristev> ще си си загубил толкова мн време в нещо не толкова съществено вместо да го използваш ,за реалната задача която гониш
+[15:57:54] <phalaaxx> би трябвало да е доста тривиално решението на тази задача, не вярвам да отнема чак толкова много време :)
+[15:58:54] <hackman> а можете и просто да правите като мен
+[15:59:07] <hackman> инсталирате си OS-а, и го копирате в една директория
+[15:59:10] <hackman> инсталирате втория
+[15:59:12] <hackman> и него в друга
+[15:59:19] <hackman> аз сега ще си слагам така Debian :)
+[15:59:29] <hackman> но основно си работя на slackware-a :)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:12] <phalaaxx> да, и това е вариант - да си направиш bootstrap от инсталатора както си му е реда
+[16:01:25] <phalaaxx> но в онзи линк е показано как да разгънеш debootstrap върху !deb линукс, така че можеш лесно да инсталираш и по този начин от CentOS/Slackware/каквото ти харесва :)
+[16:05:53] <vhristev> Маряне може ли да дойда физически в залата без да съм се запизал
+[16:06:01] <vhristev> защото изпуснах момента да се запиша
+[16:06:51] <vhristev> и там на място ако има начин ще се включа разбира се с условията които ще поставят колегите там за домашини наваксвания ако са нужни и т.н.
+[16:13:53] <hackman> vhristev: ти можеш да дойдеш, но присъствено вече неможеш да се записваш
+[16:15:17] <hackman> т.е. по никакъв начин не можеш да се възползваш от бонуса за присъствие
+[16:15:29] <hackman> но поне ще си присъствал
+[16:25:34] <vhristev> Еми аз не гоня точки ,но ако мога да участвам в проектите и домашните ще съм супер доволен
+[16:27:13] <vhristev> но за това трябва да се запиша и исках да съм наясно
+[16:29:49] <hackman> домашни можеш да предаваш и online :)
+[16:40:12] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[16:41:20] <dencho-at-work> taka... tup vupros: kakvo 6te stane ako edno vremenno sum conneced za rutrera i po wifi i s kabel ? kato rutera dava dhcp auvtomati4no :)
+[16:41:37] <dencho-at-work> ozna4ava li 4e lan kartata 6te polu4i adres kakto i wifi kartata 6te polu4i adres?
+[16:41:52] <dencho-at-work> i togava browsera kakuv internet 6te izpolzva adjeba ?!
+[16:43:30] <KrasiGa> и 2те карти получават ип /различни/, но браузъра кой позлва не знам
+[16:44:05] <dencho-at-work> a de :P
+[16:44:48] <hackman> можеш да получиш и един и същ IP адрес
+[16:44:56] <hackman> използва се едно нещо което се нарича metric
+[16:45:09] <hackman> и съответно се използва адреса с по-нисък metric
+[16:45:46] <dencho-at-work> aham
+[16:49:04] <KrasiGa> ей тук http://forums.macrumors.com/showthread.php?t=1366479 попаднах на такъв въпрос
+[16:49:10] <vhristev> В уиндолса имаш adapters binding което пак си играе с метриката
+[16:49:25] <vhristev> по ниска метрика ти е дефалтният
+[16:49:27] <KrasiGa> ама не съм го изчела още дали има обяснение кое прихваща за нета
+[16:49:47] <vhristev> аз примерно lan + wifi съм си направил в рутинг таблицата коя мрежа накъде да излиза
+[16:56:26] <KrasiGa> лека вечер!
+[16:56:32] <KrasiGa> до утре
+[16:56:34] <hackman> много рано:)
+[16:56:54] <KrasiGa> ами свършвам работа в 5
+[16:57:13] <KrasiGa> :)
+[16:57:30] <hackman> ехх
+[16:57:35] <hackman> кога ли ще го кажа и аз това :)
+[16:58:19] <vhristev> хакман
+[16:58:31] <vhristev> ако wifi & lan -a са му в една мрежа в едно dhcp
+[16:58:50] <vhristev> мисля ,че ще си получи два адреса примерно 192.168.0.100 за ВИ ФИ и 192.168.0.101 за LAN
+[16:58:57] <vhristev> и вече метриката играе роля откъде ще излиза
+[16:59:01] <dencho-at-work> i az taka mislq
+[16:59:02] <vhristev> той и за двете мрежи ще си има един гейт
+[16:59:09] <hackman> vhristev: зависи от настройките
+[16:59:11] <vhristev> защото ти си имаш 2ва МАС-а
+[16:59:12] <dencho-at-work> NO
+[16:59:19] <dencho-at-work> browsera koi ip adres 6te polzva
+[16:59:20] <vhristev> и за тях ще си получиш два адреса
+[16:59:22] <hackman> аз и въкщи и в офиса съм си настроил да ми дава един и същ IP адрес
+[16:59:28] <vhristev> с по-малката метрика
+[16:59:42] <vhristev> това говорим през dhcp server-a
+[16:59:55] <hackman> vhristev: да, през DHCP
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:10] <vhristev> еми аз пак не виждам проблем
+[17:00:28] <vhristev> денчо ... ще ти работи само ако искаш да си ползваш ЛАН-а като преференция си намали метриката
+[17:00:44] <vhristev> попринцип ОС-ите се осещаш и wifi-a ти го слагат с по висока метрика
+[17:00:49] <vhristev> но все пак си го провери
+[17:00:53] <vhristev> за какво ОС говорим
+[17:02:00] <dencho-at-work> fedora 18 v tozi moment
+[17:02:02] <dencho-at-work> :D
+[17:02:11] <vhristev> ок чекни има една команда fmetric
+[17:02:19] <vhristev> също и с ifconfig може да го направиш
+[17:02:20] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:02:37] <vhristev> "ifmetric"
+[17:03:29] <dencho-at-work> i
+[17:03:32] <vhristev> и тук също можеш
+[17:03:43] <vhristev> /etc/sysconfig/network-scripts/ifcfg-eth0    слагаш METRIC=10 , 20 ,309
+[17:03:46] <vhristev>  така за всеки интерфейс
+[17:04:45] <dencho-at-work> aham
+[17:04:58] <dencho-at-work> i tozi metric kakvo mi pokazva ?
+[17:05:01] <dencho-at-work> kakvo meri
+[17:05:15] <vhristev> еми като път няколко параметара са
+[17:06:16] <vhristev> примерно 10, 100 ,1000Mpbs
+[17:06:30] <vhristev> приоритета на IP trafika ti
+[17:06:59] <vhristev> вече в рутинг протоколите говорим и за път до определена дестинация
+[17:07:10] <vhristev> колко хоп-а има до там
+[17:08:58] <dencho-at-work> nekvo slojno mi zvu4i :D
+[17:09:04] <dencho-at-work> ok, 10x
+[17:09:09] <vhristev> ти да видиш в BGP-то кво е
+[17:09:58] <vhristev> ти си действай по твоето
+[17:10:14] <vhristev> не забравяй да реснеш мрежата след като сложиш метрика в конфиг файла ина всичките интерфейси
+[17:10:23] <vhristev> /etc/init.d/network restart
+[17:14:47] Fairytale (1000@police.executie.org) left irc: Remote host closed the connection
+[17:22:00] MarianaC (~marianab@93.183.186.2) joined #telerikacademy.
+[17:22:20] <MarianaC> privet
+[17:22:43] <MarianaC> za utre dali shte ima stream?
+[17:22:46] <vhristev> Здраствайте
+[17:23:31] <MarianaC> Сега трябва да мога да чета килирица.
+[17:23:46] <MarianaC> vhristev: може ли пак?
+[17:24:05] <vhristev> Аз съм кирилци
+[17:24:05] <vhristev> (;
+[17:24:26] <MarianaC> Еха, благодаря :)
+[17:24:35] <vhristev> Кирилицата е важна
+[17:24:40] <MarianaC> Много :)
+[17:24:51] <vhristev> да благодаря на учителката ми по информатика дето ме биеше през ръцете на времето
+[17:25:04] <vhristev> да ползвам кирилица вместо IRC шльоковицата
+[17:25:06] <MarianaC> А учителката ти по граматика къде е била?
+[17:25:30] <vhristev> с нея имах проблеми
+[17:25:36] <vhristev> до ден днешен не ме харесва
+[17:25:56] <phalaaxx> vhristev, явно днес ти е ден да си благодарен на разни преподаватели задето навремето нещо са направили :)
+[17:26:42] <vhristev> така е човек се учи си опича акъла вече въпроса е дали ще си го признае или ще се прави пас
+[17:27:14] <vhristev> виж сега ме караш тука да пиша такива неща и Mariqna пак ще ме пореже
+[17:27:56] <MarianaC> Добре добре, прибирам голямата показалка :)
+[17:28:09] <vhristev> NO hard feelings
+[17:28:33] <vhristev> аз да пълня на бота логовете
+[17:28:49] <MarianaC> Кой бот, какви логове?
+[17:28:59] <vhristev> Има бот който логва чата
+[17:29:12] <MarianaC> Aaa не може!
+[17:29:21] <MarianaC> ;)
+[17:29:29] <vhristev> Too late > http://grizzly.yuhu.biz/
+[17:29:47] <vhristev> ето сега вече нищо няма да изпуснеш само да имаш време да четеш
+[17:30:31] <MarianaC> Аха, сега вече трябва да внимавам какво пиша...
+[17:30:41] <MarianaC> Добре, че не ползвам ника ми от едно време :)
+[17:31:02] <phalaaxx> какъв ти беше ника едно време?
+[17:31:03] <vhristev> не са искали не са го намерили тъйче си свирукай
+[17:31:48] <vhristev> еее ти пък питат ли се такива неща жените
+[17:31:57] <MarianaC> Хахахах
+[17:31:58] <vhristev> сега и ще е питаш колко тежи и на колко е год.
+[17:32:02] <MarianaC> аа не си казвам стария ник :)
+[17:32:12] <phalaaxx> не, няма да питам такова нещо
+[17:32:16] <MarianaC> Аз май трябва да ходя. :)
+[17:32:23] <vhristev> еее все пак трябва да почнеш от някъде
+[17:32:23] <phalaaxx> ама знам ли, по ника... може и да не се налага :D
+[17:32:32] <MarianaC> Хахахахаа
+[17:32:43] <vhristev> да може да е Пепи_1987_55
+[17:32:46] <vhristev> какво повече искаш
+[17:32:50] <vhristev> всичко нужно ти е тука
+[17:33:06] <phalaaxx> да пробвам ли да позная?
+[17:33:21] <phalaaxx> ника имам предвид?
+[17:33:24] <MarianaC> Аз мога да генерирам рандъм отговори :П
+[17:33:33] <MarianaC> Не можеш да познаеш.
+[17:33:43] <vhristev> знаеш ли как се генерира рандом пароли ?
+[17:33:45] <phalaaxx> аз да пробвам
+[17:33:48] <yulimoto_away> То дето има логове ами и се индексва в google и после - кой е бил на работа а си е чатил ? заплата - йок !!!
+[17:33:51] <MarianaC> Аз спрях да влизам в irc преди ти да се родиш.
+[17:34:02] <phalaaxx> от къде знаеш кога съм се родил?
+[17:34:14] <vhristev> Жените знаят всичко ти пък
+[17:34:16] <MarianaC> Ми някъде там си се родил. :)
+[17:34:20] <dencho-at-work> togava imalo li e irc?
+[17:34:20] <dencho-at-work> :D
+[17:34:26] <phalaaxx> да кажем нещо като smurf?
+[17:34:30] <vhristev> имаше Лафчето на dir.bg
+[17:34:32] <phalaaxx> или smurff?
+[17:35:09] <dencho-at-work> yulimoto_away: sega sa nofollow koeto e pak dobre :P
+[17:35:19] <dencho-at-work> utre 6te sa i noindex
+[17:35:19] <dencho-at-work> :D
+[17:35:20] <vhristev> Сега си предсатвям една жена с едни ококорени учи и отгоре "ГОСПОДИ ОТКЪДЕ ЗНАЕ...."
+[17:35:35] <yulimoto_away> да
+[17:35:37] <phalaaxx> аз налучквам, random :D
+[17:35:49] <vhristev> аз пак да питам знаете ли как се генерира рандом парола
+[17:35:57] <yulimoto_away> dencho-at-work: pak е напредък
+[17:35:59] <vhristev> това не е технически въпрос
+[17:35:59] <phalaaxx> vhristev, да :)
+[17:36:06] <vhristev> аз знаеш ли как го правя
+[17:36:11] <yulimoto_away> phalaaxx: е цар
+[17:36:14] <dencho-at-work> yulimoto_away: :D koncepciata e vqrna :P
+[17:36:20] <phalaaxx> амии кажи :)
+[17:36:27] <vhristev> отварям "vi" едитора на програмиста и му викам "Гоше излез от програмата"
+[17:36:29] <yulimoto_away> на tr i /дев/урандом
+[17:37:16] <dencho-at-work> ghahahahaha
+[17:37:16] <dencho-at-work> !
+[17:37:23] <dencho-at-work> trqbva da go probvam tva s programista
+[17:37:38] <vhristev> аххаха
+[17:37:42] <phalaaxx> :D
+[17:37:56] <vhristev> ето това си го сложи в .bashrc ili bash_profile
+[17:37:57] <vhristev> genpasswd() {
+[17:37:57] <vhristev>         local l=$1
+[17:37:57] <vhristev>         [ "$l" == "" ] && l=14
+[17:37:57] <vhristev>         tr -dc A-Za-z0-9-!@%^*_ < /dev/urandom | head -c ${l} | xargs
+[17:37:57] <vhristev> }
+[17:38:01] <MarianaC> http://www.howtogeek.com/howto/30184/10-ways-to-generate-a-random-password-from-the-command-line/
+[17:38:06] <vhristev> даваш source /etc/profile
+[17:38:08] <vhristev> и си в джаза
+[17:38:09] <vhristev> (;
+[17:38:30] <vhristev> абе аз исках да кажа смежшка
+[17:38:33] <vhristev> смешка
+[17:38:37] <dencho-at-work> :)
+[17:39:09] <yulimoto_away> dencho-at-work: с малки стъпки щот да не е готово всичко и като направи се снапшота довечера и в събота се омаже сърврва като се върне снапшота, аре пак ще е index ..  :D
+[17:39:12] <vhristev> ама ето сега вече знаете как да си го направите ,защото се поинтересувахте намерихте решение и ще си го ползвате
+[17:39:38] <hackman> vhristev: ние си имаме един колега... ако го слушаш ще изкараш перфектен random :)
+[17:39:41] <dencho-at-work> yulimoto_away: za tva ne sam se setil :D
+[17:39:59] <vhristev> аххахахаха
+[17:40:18] <yulimoto_away> dencho-at-work: :) нищо де
+[17:40:32] <vhristev> ейййй IT CROWD  Джейн когато каза ... аз мога да се уча обясни ми МОС какво правиш ....
+[17:40:37] <vhristev> МОС: това е мн елементарен код
+[17:40:40] <dencho-at-work> KpeTeHoug: nqma vreme, ina4e vsi4ko opira do 1 edit i edno prekompilirane :D
+[17:40:47] <vhristev> ДЖЕЙН чува: ШШШШШШШШШШШШШШШШШШШШ....
+[17:41:25] <yulimoto_away> то пък с тоя рандом, като вземат да спорят дали наистина бил рандом, пък рандом.орг вземали от вятъра някакви числа щото от процесора били небаш(рандом) и тт.н.
+[17:41:39] <vhristev> yulimoto_away, ами ... снапшота не се ползва за бекъп
+[17:41:39] <dencho-at-work> haha
+[17:42:08] <vhristev> просто е мн лесно и хората за това го ползват ама това не му е идеята
+[17:42:17] <yulimoto_away> всеки случай е за себе си
+[17:42:21] <dencho-at-work> to vpro4em kakvo 6te se snap6otva dove4era?
+[17:42:30] <dencho-at-work> samo system nastroiki ?!
+[17:42:40] <yulimoto_away> all
+[17:43:07] <yulimoto_away> не вярвам някой да си играе, най-накрая това е една учебна машиа
+[17:43:07] <dencho-at-work> aha
+[17:43:14] <yulimoto_away> машина
+[17:43:22] <vhristev> може би и аз говоря така науки ,защото аз говоря за virtual machine снапшот
+[17:43:30] <vhristev> а ти си имал нещо дргуо в предвид
+[17:43:35] <vhristev> друго в предвид
+[17:43:48] <phalaaxx> аз превърнах всички машини около мен в учебни :D
+[17:44:05] <hackman> цялата машина snapshot-вам :)
+[17:44:24] <phalaaxx> само една машина дето и плащам colocation още не съм я пипал
+[17:44:36] <phalaaxx> ама като се почувствам малко по-сигурен... натам отиват нещата :D
+[17:44:48] <dencho-at-work> 4upete 4upete
+[17:44:56] <vhristev> hackman, пазиш ли старите снапшоти
+[17:45:07] <vhristev> ако ги пазиш и почне да гляка откъм IO може да ги разкараш
+[17:45:13] <hackman> vhristev: стари snapshot-и ?
+[17:45:18] <vhristev> да старите
+[17:45:20] <phalaaxx> имам предвид по-сигурен с нещата с които си играя в момента
+[17:45:25] <vhristev> тоест да не стават много чейнове
+[17:45:29] <yulimoto_away> phalaaxx: той хакман от това печели, поне така казва, че продава това, което нямаш
+[17:45:39] <yulimoto_away> phalaaxx: той хакман от това печели, поне така казва, че продава това, което няма
+[17:45:51] <hackman> vhristev: не знам какво си представяш... но аз прсото ще направя едно копие на един файл :)
+[17:46:01] <hackman> това е snapshot-a :)
+[17:46:20] <vhristev> представям виртуална машина и как и правиш снапшот
+[17:46:23] <vhristev> ясно разбрах те
+[17:47:36] <dencho-at-work> http://www.jobs.bg/f1886560 CMS UPLOADER
+[17:47:37] <dencho-at-work> hahaha
+[17:47:42] <dencho-at-work> ne bqh vijdal takova ne6to do sega
+[17:48:05] <phalaaxx> :D
+[17:48:06] <vhristev> това е човек във вид на скрипт
+[17:48:14] <yulimoto_away> hackman: ако ще ходиш извън софия naprawo пусни един cron да зарежда snapshota на 3-часа
+[17:48:24] <hackman> virsh suspend grizzly
+[17:48:25] <hackman> cp grizzly.img grizzly.old
+[17:48:25] <hackman> virsh resume grizzly
+[17:48:31] <hackman> това е което правя :)
+[17:48:32] <phalaaxx> звучи ми като програмист на MS Word :)
+[17:48:48] <dencho-at-work> be are stiga we... taka kato se zamislq toz bot nqma mnogo mnogo da e online sled kato vsi4ki 6te polu4at dostup :D
+[17:49:12] <hackman> yulimoto_away: ако нещо се счупе
+[17:49:17] <hackman> вие сте виновни
+[17:49:21] <hackman> ще чакате да се върна :)
+[17:49:24] <vhristev> разбрахте правиш си просто clone machine
+[17:49:40] <hackman> vhristev: clone е съвсем друго нещо :)
+[17:49:58] <vhristev> ти може да запалиш и IMG i OLD и ще са една машина
+[17:50:00] <hackman> за clone имам един друг скрипт, който прави бая други магии преди да го пусни
+[17:50:11] <hackman> vhristev: НЕ МОЖЕШ
+[17:50:21] <hackman> защото на практика са идентични UUID-та
+[17:50:26] <vhristev> ИДтата се генерират
+[17:50:29] <vhristev> да да .... съгласен съм
+[17:50:58] <yulimoto_away> vhristev: на работа ли си ?
+[17:51:13] <vhristev> да
+[17:51:17] <yulimoto_away> ок
+[17:51:22] <vhristev> ама не ме питай какво правят тук
+[17:51:25] <hackman> vhristev: а къде работиш ?
+[17:51:44] <vhristev> има ли значение
+[17:51:49] <vhristev> ще ви кажа като се видим
+[17:51:52] <vhristev> ако ме допуснете до курса
+[17:51:52] <vhristev> (;
+[17:52:13] <hackman> хахаха :) в Megalan бачкаш... въпроса е какво по-точно :)
+[17:52:43] <phalaaxx> теоретично, ако ползваме grsecurity със chroot hardening stuff и един тон bind mounts - не може ли да създадем среда в която всеки е в собствен chroot със парола за root и достатъчно добра изолация от останалите така, че да не счупи цялата машина?
+[17:52:52] <vhristev> ИП-то ми в нас е Мегалан
+[17:52:54] <phalaaxx> макар да не е това целта на chroot де
+[17:53:09] <dencho-at-work> phalaaxx: teoreti4no moje :D
+[17:53:26] <dencho-at-work> phalaaxx: prakti4eski dali na nqkoi mu se zanimava - samnqvam se :D
+[17:53:34] <vhristev> БТВ... мога да помогна със стрийминга или с виртуалки за обучение
+[17:53:35] <phalaaxx> ами аз съм правил нещо подобно
+[17:53:49] <phalaaxx> https://github.com/phalaaxx/jail
+[17:54:19] <phalaaxx> целта беше различна де но принципа е същия
+[17:54:35] <dencho-at-work> sqka6 az nai malko 4atkam ne6tata ot vsi4ki vas :P
+[17:54:44] <phalaaxx> въпроса беше по-скоро дали има идея това да се прави, защото може да има причина всички маймунки да сме на същия клон
+[17:54:45] <dencho-at-work> no pak e dobre, ima s koi da si govora :P
+[17:55:11] <yulimoto_away> phalaaxx: между другото следя ти домашните в github голям фен съм
+[17:55:29] <phalaaxx> аа моля моля, след първото домашно там повече няма да качвам :D
+[17:55:34] <vhristev> не е важно колко чаткаш а какво желание имаш
+[17:55:38] <yulimoto_away> особено като сравни с md5 файла
+[17:55:42] <phalaaxx> не знаех бях отчел това с проверките
+[17:55:53] <phalaaxx> иначе нямаше да дам линк натам :D
+[17:56:29] <phalaaxx> оф нещо ми лагва клиента и пиша несвързано :D
+[17:56:32] <yulimoto_away> що бе качай интересно е
+[17:56:33] <dencho-at-work> 4ao hora :D i az si otivam :D
+[17:56:42] <vhristev> Лека
+[17:56:45] <phalaaxx> не знаех за проверяването на домашните
+[17:56:56] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:57:04] <phalaaxx> и че след като мине срока някой може да види къде и как съм го качил
+[17:57:27] <yulimoto_away> аз днес оцених една за добрутро и мисля до тук съм с проверките, колкото да се разпиша
+[17:59:47] <phalaaxx> и аз горе долу така направих ама не беше днес :)
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:02:02] <phalaaxx> MarianaC, не каза дали съм познал стария ник от едно време :)
+[18:11:51] <hackman> phalaaxx: това е което търсиш
+[18:11:51] <hackman> http://www.ibm.com/developerworks/linux/library/l-mount-namespaces/index.html
+[18:11:59] <hackman> http://lwn.net/Articles/159077/
+[18:12:06] <hackman> http://lwn.net/Articles/159092/
+[18:12:33] <hackman> по този начин е възможно да се реализира per-process /proc/mounts
+[18:16:13] <phalaaxx> охооо имам си още занимание занапред значи, ще се чете и пише на python (или нещо друго ако не ме домързи да го пренапиша) :)
+[18:16:18] <phalaaxx> hackman, 10x :)
+[18:17:03] <hackman> phalaaxx: bash или C това са езиците на админите :)
+[18:17:12] <hackman> Python - too slow
+[18:17:47] <phalaaxx> аа аз си викам syscalls от там
+[18:17:54] <phalaaxx> mount, umount...
+[18:18:00] <phalaaxx> другото май си го правя на ръка
+[18:18:13] <hackman> не е правилно :)
+[18:18:23] <phalaaxx> ~ 10 000 bind mounts ми минават за има/няма 0.3 секунди
+[18:19:02] <phalaaxx> така де, не на ръка а в python
+[18:19:03] <phalaaxx> :D
+[18:19:18] <phalaaxx> грешка на пръстите :))
+[18:20:32] <phalaaxx> имах желание да го напиша на Go ама пък се оказа че не се разбира някои от основните ограничения на grsecurity
+[18:20:44] <phalaaxx> и му трябват разни paxctl неща
+[18:27:20] <phalaaxx> всъщност голяма част от кода си го имам вече написан и на C и на C++ но е доста по-обемен в сравнение с кода на python, а разликата в скороста не е чак толкова голяма - вместо за 300ms тия 10 000 bind mounts минават за ~ 100ms
+[18:28:29] <phalaaxx> в случая bash ще е ужасяващо бавен вариант заради mount и всичките му спомагателни работи, които прави
+[18:29:22] <phalaaxx> сещам се за един пример за нещо писано на perl от roam :) където се викаше /bin/mount и при boot-ване на машината и трябваха около 5 до 10 минути за да се пребори със ~2700 bind mounts
+[18:29:47] <phalaaxx> (издадох го какви работи е писал) :)
+[18:31:12] <phalaaxx> май вече си пиша сам :D
+[18:31:58] <phalaaxx> значи е време за reboot, да видим как съм се справил с debootstrap + upstart + btrfs + subvolume безобразията, които творих до преди малко :D
+[18:32:29] Deyan (~Deyan@46.249.92.240) joined #telerikacademy.
+[18:44:57] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[18:48:45] lucho_ (~lucho@89.25.39.170) joined #telerikacademy.
+[18:51:21] hackman (~HackMan@management.1h.com) left irc: Read error: Operation timed out
+[18:52:55] MarianaC (~marianab@93.183.186.2) left irc: Quit: Connection reset by beer
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:03:55] istefanov (4e534022@gateway/web/freenode/ip.78.83.64.34) joined #telerikacademy.
+[19:05:34] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[19:07:50] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[19:10:39] s0ny123 (~agit0@95.111.18.140) left irc: Remote host closed the connection
+[19:12:32] Deyan (~Deyan@46.249.92.240) left irc: Ping timeout: 260 seconds
+[19:15:18] lucho_ (~lucho@89.25.39.170) left irc: Read error: Connection reset by peer
+[19:18:12] rozanna (~Rosi@92-247-239-186.spectrumnet.bg) joined #telerikacademy.
+[19:22:41] rozanna (~Rosi@92-247-239-186.spectrumnet.bg) left #telerikacademy.
+[19:38:35] <dencho> rozan4ei
+[19:50:42] lucho_ (~lucho@89.25.39.170) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:17:23] GreenGo (~Xristo@95-42-0-199.btc-net.bg) joined #telerikacademy.
+[20:26:45] GreenGo (~Xristo@95-42-0-199.btc-net.bg) left #telerikacademy.
+[20:29:13] GreenGo (~Xristo@95-42-0-199.btc-net.bg) joined #telerikacademy.
+[20:33:57] GreenGo (~Xristo@95-42-0-199.btc-net.bg) left irc: Quit: Leaving.
+[20:35:02] Deyan (~Deyan@46.249.92.240) joined #telerikacademy.
+[20:36:13] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:12:31] <dencho> ora
+[21:12:34] <dencho> jivi li ste
+[21:12:48] <s0ny123> надявам се
+[21:12:59] <Deyan> че как
+[21:13:26] <dencho> nice to hear you
+[21:14:03] <dencho> 31?
+[21:14:10] <vhristev> 24/7 = 31
+[21:14:11] <vhristev> аххаха
+[21:14:17] <vhristev> двама мъже и половина
+[21:14:24] <dencho> na polovina
+[21:14:37] <vhristev> мн family guy
+[21:14:38] <dencho> vhristev tva ot hp li ti ostana first letter first name
+[21:14:46] <vhristev> Не
+[21:14:51] <vhristev> доста преди това бях така
+[21:15:00] <dencho> :]
+[21:15:08] <dencho> v koi team si bil ?
+[21:15:17] <vhristev> Unix deep technical
+[21:15:20] <dencho> da pitam moq 6ef dali te poznava :D
+[21:15:23] <dencho> ool extra
+[21:15:23] <vhristev> после създадохме VMware
+[21:15:31] <vhristev> кой е твоя шеф
+[21:15:33] <dencho> extra extra
+[21:15:45] <dencho> nqma da kaja :P
+[21:15:51] <vhristev> АХахах ми аз ги знам
+[21:16:06] <vhristev> Той е един БИГ мада фака
+[21:16:08] <vhristev> Панков
+[21:16:14] <vhristev> и после или си при зафирката или при васко
+[21:16:29] <dencho> predi kolko vreme si rabotil tam?
+[21:16:34] <vhristev> 6 месеца
+[21:16:58] <dencho> nice
+[21:17:32] <dencho> a koga si zapo4nal ?
+[21:18:01] <vhristev> ееее ти сега не искаш да ми кажеш кой ти е шеф
+[21:18:03] <vhristev> а ме разпитваш
+[21:18:27] <vhristev> почнах още когато Юникса беше 1 тийнм
+[21:18:30] <vhristev> тийм нямаше шефове
+[21:18:33] <vhristev> шерове
+[21:19:52] <vhristev> ЕТо моя шеф се прибра и ще ви оставям
+[21:20:37] <dencho> nice
+[21:20:41] <dencho> zna4i se poznavate :D
+[21:22:03] <vhristev> Еми да познавам ги близо 3г. бях там
+[21:22:15] <vhristev> то нещата не са се мн променили
+[21:26:58] <yulimoto_away> що ми връща кейчето гризлито - ssh_exchange_identification: Connection closed by remote host
+[21:27:39] <istefanov> i men ne me puska
+[21:27:47] <yulimoto_away> хм до днес нямаше проблем, а сега връща, друг път ме приема
+[21:27:48] <istefanov> v forum-a pisaha che shte byde dolu
+[21:28:00] <istefanov> tazi vecher
+[21:28:04] <yulimoto_away> то за долу ок ама ?
+[21:28:21] <istefanov> i na men mi vryshta sega - ssh_exchange_identification: Connection closed by remote host
+[21:28:26] <istefanov> do predi 10 min bqh lognat
+[21:28:36] <yulimoto_away> за долу няма проблем, ама те какво общо имат ?
+[21:29:32] <yulimoto_away> то аз съм упорито магаре и irc клиента ми е пуснат на гризлито та си влязох и сега от там чатя
+[21:29:52] <yulimoto_away> обаче и днес нещо ме рефюзна тъй
+[21:31:18] <dencho> az sam closed connection
+[21:31:19] <dencho> :)
+[21:32:34] <yulimoto_away> няма да се правя на следовател ;)
+[21:33:11] <yulimoto_away> то най-много да я омажа ; преди снапшота ! :P~
+[21:33:21] <yulimoto_away> ще стане сеир
+[21:33:42] <dencho> botq raboti :D
+[21:34:45] <yulimoto_away> ха ма и аз съм гризли аз от другаде не чатя
+[21:35:31] <dencho> qvno tezi koito sa connected si ostavat connected :P
+[21:35:36] <dencho> no az sam conn refused :P
+[21:35:40] <yulimoto_away> ц
+[21:35:51] <yulimoto_away> просто трябва да си по упорит
+[21:36:00] <yulimoto_away> което ме навява на разни мисли
+[21:36:15] <dencho> q verno we
+[21:36:16] <dencho> :D
+[21:36:24] <dencho> 4udna rabota
+[21:36:25] <dencho> :D
+[21:37:20] Jedy (~opera@85.196.188.53) joined #telerikacademy.
+[21:38:58] istefanov (4e534022@gateway/web/freenode/ip.78.83.64.34) left irc: Quit: Page closed
+[21:41:36] <yulimoto_away> greenGo li si ?
+[21:42:51] <yulimoto_away> като гледам netstat има една картинка чудна
+[21:43:14] <yulimoto_away> както и да е да си гледам аз upstart
+[21:51:07] <dencho> a?
+[22:00:01] Writing user file...
+[22:00:01] Writing channel file...
+[22:09:56] plamen (~plamen@84.40.92.7) joined #telerikacademy.
+[22:10:35] Nick change: plamen -> plamer
+[22:27:10] vhristev (~vhristev@77.70.112.88) left irc: Quit: Leaving
+[22:31:07] tuxar (5e45fb53@gateway/web/freenode/ip.94.69.251.83) joined #telerikacademy.
+[22:51:40] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[22:52:03] vhristev (~vhristev@77.70.112.88) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:52] Deyan (~Deyan@46.249.92.240) left irc: Quit: restart for updates
+[23:03:57] agit0 (~agit0@95.111.18.140) joined #telerikacademy.
+[23:03:57] s0ny123 (~agit0@95.111.18.140) left irc: Read error: Connection reset by peer
+[23:04:54] buddi (2eee2929@gateway/web/freenode/ip.46.238.41.41) left irc: Quit: Page closed
+[23:11:00] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:11:19] <Deyan_> Error: Protected multilib versions: python-libs-2.6.6-37.el6_4.x86_64 != python-libs-2.6.6-36.el6.i686
+[23:11:33] <Deyan_> мамка му и прасе, как се оправя това
+[23:14:41] <Deyan_> http://pastebin.com/SARvyQ5H
+[23:16:31] vhristev (~vhristev@77.70.112.88) left #telerikacademy ("Leaving").
+[23:16:34] vhristev_ (~vhristev@77.70.112.88) joined #telerikacademy.
+[23:16:47] vhristev_ (~vhristev@77.70.112.88) left #telerikacademy.
+[23:17:44] vhristev (~vhristev@77.70.112.88) joined #telerikacademy.
+[23:33:40] lucho_ (~lucho@89.25.39.170) left irc: Remote host closed the connection
+[23:36:38] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[23:37:16] <anton_sh> Здравейте, има ли някой буден
+[23:37:28] <Deyan_> има
+[23:37:42] <Deyan_> ти се базикаш, кой спи по това време
+[23:37:43] <tuxar> Привет
+[23:38:00] <anton_sh> хахах, знам ли
+[23:38:13] <anton_sh> имам нужда от малко помощ
+[23:38:33] <anton_sh> от 2 часа се бутам с едни работи и не ми се получава
+[23:38:37] <tuxar> разказвай
+[23:38:58] <Deyan_> хайде че вече ми стана любопитно
+[23:38:59] <anton_sh> ubuntu server 12.04
+[23:39:05] <tuxar> докъде я докара с Upstarta
+[23:39:19] <anton_sh> имам sftp на него
+[23:39:42] <anton_sh> създал съм си потребител
+[23:40:05] <anton_sh> но се опитвам да го огранича да има достъп само до неговата хоме папка
+[23:40:27] <anton_sh> да не може да вижда нищо друго освен неговата папка
+[23:41:37] <tuxar> става, сега ще поровя по bookmarkite
+[23:43:33] <tuxar> http://www.cyberciti.biz/tips/vsftp-chroot-users-limit-to-only-their-home-directory.html
+[23:44:03] <tuxar> тук става въпрос за vsftp
+[23:44:11] <vhristev> аз бих ти предложиш да погледнеш  "mysecureshell"
+[23:44:33] <vhristev> инсталираш си го и след това сменяш шела на юзера /bin/mysecureshell
+[23:45:01] <vhristev> мн гъвкав софт може по групи да ограничаваш по узери общо взето доста опции има
+[23:45:45] <vhristev> шеловете може да си видиш тук cat /etc/shells
+[23:46:35] <anton_sh> не е лоша идеята но се опитвам с минимално приложения да работя
+[23:47:25] <anton_sh> имайки предвид че имам mail,web,proxy И vpn  server  с един гига рам
+[23:47:31] <anton_sh> :d
+[23:47:36] <vhristev> трябва да го chroot-nesh
+[23:47:48] <vhristev> това е просто шел
+[23:48:11] <vhristev> не е нещо което върви като приложение
+[23:49:33] <tuxar> vhristev, за това ли пишеш http://sourceforge.net/projects/mysecureshell/ ?
+[23:50:58] <vhristev> ммм да
+[23:50:59] <vhristev> ето тука
+[23:50:59] <vhristev> http://mysecureshell.sourceforge.net/en/index.html
+[23:51:32] <vhristev> същото е което даде
+[23:51:47] <vhristev> под дебиан колегата ще му нужно само apt-get install mysecureshell
+[23:52:53] <tuxar> изглежда интригуващо ...
+[23:53:37] <vhristev> след това само правиш
+[23:53:51] <vhristev> usermode -s /bin/MySecureshell USER
+[23:53:55] <vhristev> и вече си в бизнеса
+[23:54:04] <vhristev> виж точното име от cat /etc/shells
+[23:54:16] <tuxar> в каква среда го ползваш и колко си доволен?
+[23:54:28] <anton_sh> аз се опитвах по някакъв такъв начин : http://stackoverflow.com/questions/1526919/linux-shell-to-restrict-sftp-users-to-their-home-directories  но не стана
+[23:55:09] <vhristev> супер доволен съм защото е мн гъвкаво
+[23:55:20] <vhristev> зависи какво искаш
+[23:55:32] <vhristev> преди време реално копирах 10-15 команди в един chroot
+[23:55:40] <vhristev> и юзера нямаше подщи нищо
+[23:56:04] <vhristev> заиви какво точно ти трябва но това работи доста добре и има мн подреден конф файл който лесно се едитва и работи доста стабилно
+[23:56:45] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[23:57:16] <vhristev> пусни си SSH-a в дебъг режим ,за да видиш какво точно не сработва
+[23:57:21] <vhristev> ако вече не си го направил де
+[23:58:10] <tuxar> ще се пробва изглежда привлекателно с тези shell-ове
+[23:59:27] <anton_sh> ами май не съм наяско как
+[00:00:00] --- Thu Jul 18 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

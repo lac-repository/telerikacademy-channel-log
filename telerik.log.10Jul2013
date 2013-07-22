@@ -1,0 +1,543 @@
+
+--- Day changed чт юли 11 2013
+00:00 -!- samy_ [~samy@84.238.184.98] has joined #telerikacademy
+00:01 < phalaaxx> sammy was low just watching the show... :)
+00:01 < samy_> abe
+00:01 < samy_> neshto me shamarat botowete na heroesa
+00:01 < samy_> i neta ne spira da se ebawa
+00:02 -!- samy__ [~samy@91.196.227.180] has quit [Ping timeout: 240 seconds]
+00:02 < hackman> няма да е ustream
+00:02 < hackman> явно ще бъде justin :)
+00:03 < samy_> twitch...
+00:03 < hackman> на twitch май повечко лагеше
+00:03 < samy_> hhahahahahahha!
+00:03 < samy_> e tfa e wurha
+00:03 < samy_> izcheznaha mi parcalkite ot geroq :D
+00:06 < hackman> samy_: обраха те в играта ли
+00:06 < hackman> nice :)
+00:06 < samy_> dam
+00:06 < samy_> igraq vs botowe :D
+00:07 < samy_> trollwat :D
+00:08 < samy_> samo shte pomolq
+00:08 < samy_> da swirkash kato streemwash
+00:13 -!- Deyan [~Deyan@46.249.92.240] has quit [Ping timeout: 240 seconds]
+00:18 < hackman> до по-късно guys :)
+00:22 -!- user99 [~McNamee@213.226.63.139] has quit [Quit: Bye]
+00:22 -!- hackman [~HackMan@management.1h.com] has quit [Ping timeout: 264 seconds]
+00:37 -!- plamer [~Plamer@84.40.92.7] has quit [Quit: Leaving]
+00:40 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+00:40 -!- ViLKaTa [~villy@87.97.192.85] has quit [Quit: Konversation terminated!]
+00:40 -!- mode/#telerikacademy [+o hackman] by ChanServ
+00:51 < phalaaxx> http://94.26.20.166:8080/stream.ogg  - и аз продължавам да се пробвам :D
+00:52 <@hackman> chuva se :)
+00:52 <@hackman> no videoto e s ujasno kachestvo
+00:52 <@hackman> trqbva da si namalish resolution-a
+00:53 < phalaaxx> 1280x720 е в момента
+00:55 <@hackman> еми замръзва на един кадър
+00:55 <@hackman> много ти е зле net-а :)
+00:55 <@hackman> да не stream-ваш през wifi ?
+00:55 < phalaaxx> не
+00:56 < phalaaxx> не би трябвало да го прави
+00:56 < phalaaxx> ще го разцъкам още :)
+01:06 < yulimoto> преди малко пробвах ffmpeg изкара добро качество ама ми натовари процесора а и видеото с циците ме изкара от строя ;P
+01:10 <@hackman> :)
+01:11 < phalaaxx> един такъв интересен въпрос ми хрумна
+01:11 <@hackman> ето ви два вариянта за stream с ffmpeg:
+01:11 <@hackman> ffmpeg -f x11grab -s 1920x1080+0+0 -i :0.0 -f alsa -i pulse -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -vsync 2 -acodec libmp3lame -ar 44100 -ab 128k -f flv - | ffmpeg -f flv -i -  -acodec copy -vcodec copy -vbsf h264_mp4toannexb -f mpegts udp://stream4.initlab.org:1235'
+01:11 <@hackman> ffmpeg -f x11grab -s 1920x1080+0+0 -i :0.0 -f pulse -i pulse -vcodec libx264 -pix_fmt yuv420p -preset ultrafast -vsync 2 -acodec libmp3lame -ar 44100 -ab 128k -f flv udp://stream4.initlab.org:1235
+01:11 < phalaaxx> едно време добрия стар флаш триеше файловете за да не могат да се копират .flv-та
+01:12 < phalaaxx> сега ползва pipes и не знам как да си вадя файловете от там :D
+01:12 < phalaaxx> някакви идеи?
+01:12 <@hackman> cat pipe.file > video.flv :)
+01:13 < phalaaxx> така работеше със изтритите файлове :)
+01:13 < phalaaxx> ама нещо не успях да го преборя с pipes
+01:13 < phalaaxx> сега ще пробвам
+01:13 <@hackman> ако говориш за youtube :) директно използвай едно tool-че clive
+01:13 < phalaaxx> е аз си ползвам youtube-dl
+01:13 < phalaaxx> ама не е интересно така
+01:13 < phalaaxx> :D
+01:14 < phalaaxx> искам да си го издърпам от браузера
+01:14 <@hackman> при мен все не сработваше тоя youtube-dl :)
+01:14 < phalaaxx> по-забавно е
+01:14 < phalaaxx> имаше опция за update
+01:14 < phalaaxx> -u или нещо такова
+01:16 < phalaaxx> от никой pipe не иска да извади нищо
+01:16 <@hackman> запознай се с командата lsof :)
+01:18 < phalaaxx> всъщност дали е pipe или anon_inode...?
+01:18 <@hackman> не знам
+01:18 <@hackman> но сега съм зает
+01:18 <@hackman> и нямам възможност да ти обърна внимание
+01:18 <@hackman> качвам нещата за следващите две лекции
+01:19 < phalaaxx> ок не е важно така или иначе :)
+01:19 < phalaaxx> 10x
+02:05 -!- botlike [~botlike@185.7.217.1] has joined #telerikacademy
+02:06 < botlike> phalaaxx, zdr :)
+02:06 < botlike> spite li
+02:08 <@hackman> botlike: mnogo rano be :)
+02:08 <@hackman> pili kafe ?
+02:08 < botlike> ne sam si lqgal :)
+02:08 < botlike> predi 2 chasa se pribrah ot rabota
+02:08 < botlike> :)
+02:08 <@hackman> хахаха а аз просто се преместих от офиса вкъщи
+02:08 <@hackman> трудно е да се каже, че съм се прибрал :)
+02:08 < botlike> :)
+02:08 <@hackman> хляб няма... бирата свършила
+02:09 <@hackman> без хляб, за мен и храна няма :)
+02:09 <@hackman> да си бях останал в офиса
+02:09 < botlike> az se chudq za cigara :)
+02:09 <@hackman> поне бира и сладоледи имаше :)
+02:09 < botlike> xaxaxa
+02:09 < botlike> bira sys sladoled
+02:09 < botlike> :)
+02:09 < botlike> hich ne si za zavijdane :D
+02:10 < botlike> s domashnite kakwo stana :)
+02:10 < botlike> shte ima li recenzii
+02:10 < botlike> :)
+02:10 < botlike> hackman,
+02:11 < botlike> tova neshto
+02:11 < botlike> 3689/tcp open  rendezvous
+02:11 < botlike> kak da razbera kakvo go polzwa
+02:12 <@hackman> vlizah kato root
+02:13 <@hackman> izpulnqvash tazi komanda:
+02:13 <@hackman> netstat -lnpt|grep 3689
+02:13 <@hackman> най-дясната колона ще ти каже номер на процес/име на програма
+02:13 <@hackman> :)
+02:13 <@hackman> и ще ти се изясни  :)
+02:14 < botlike> 6221/rhythmbox
+02:14 < botlike> xax
+02:14 < botlike> :D
+02:15 < phalaaxx> лека на всички :)
+02:15 < botlike> opa poqvi se :D
+02:15 < botlike> leka
+02:15 < botlike> :)
+02:15 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+02:28 < botlike> hackman,  leka :)
+02:29 <@hackman> leka
+02:30 -!- botlike [~botlike@185.7.217.1] has quit [Quit: Ex-Chat]
+02:35 -!- botlike [~botlike@185.7.217.1] has joined #telerikacademy
+02:50 -!- botlike [~botlike@185.7.217.1] has quit [Quit: Ex-Chat]
+03:28 -!- nveselinov [~nveselino@151.237.4.4] has quit [Read error: Connection reset by peer]
+03:59 -!- ChanServ changed the topic of #telerikacademy to: LSA forums: http://goo.gl/XQWlW LSA course: http://goo.gl/erPp3 Streaming: http://www.twitch.tv/aziliann/ SSH grizzly.yuhu.biz port 14567
+04:01 -!- ChanServ changed the topic of #telerikacademy to: LSA forums: http://goo.gl/XQWlW course: http://goo.gl/erPp3 materials: http://goo.gl/lTGaU Streaming: http://www.twitch.tv/aziliann/ SSH grizzly.yuhu.biz port 14567
+04:40 -!- Fairytale [Fairytale@police.executie.org] has joined #telerikacademy
+05:12 -!- Fairytale [Fairytale@police.executie.org] has quit []
+05:35 -!- gloom [John@2002:4e82:ba63::4e82:ba63] has joined #telerikacademy
+05:45 -!- Netsplit *.net <-> *.split quits: looser99
+09:00 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+09:31 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+09:31 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+09:31 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Client Quit]
+09:37 -!- KpeTeHoug|afk is now known as KpeTeHoug
+09:37 < KpeTeHoug> morning
+09:38 -!- hackman [~HackMan@wolf.yuhu.biz] has quit [Ping timeout: 240 seconds]
+09:41 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+09:48 -!- nveselinov [nveselinov@151.237.4.4] has joined #telerikacademy
+09:49 < yulimoto> добро да е и от мен
+09:51 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+09:52 -!- hackman is now known as Guest39182
+09:58 -!- Guest39182 [~HackMan@wolf.yuhu.biz] has quit [Ping timeout: 256 seconds]
+10:32 < dencho> drastii
+10:37 -!- hackman [~HackMan@management.1h.com] has joined #telerikacademy
+10:37 -!- hackman is now known as Guest52934
+10:37 -!- Guest52934 is now known as azilian
+10:38 -!- azilian is now known as HackMan
+10:38 -!- mode/#telerikacademy [+o HackMan] by ChanServ
+10:49 < dencho> taka :D
+10:49 <@HackMan> не е така :)
+10:49 <@HackMan> нали сме опозиция :)
+10:49 < dencho> sledva6tiq put t.e dneska
+10:49 < dencho> specialno za ibalistix go pozdravi po mikrofona
+10:49 < dencho> pitai go dali dobre 4uva?
+10:49 < dencho> :D
+10:50 <@HackMan> само троли тоя човек
+10:50 < dencho> :)
+10:50 <@HackMan> но има една поговорка - Don't feed the trolls!
+10:50 < dencho> az misleh 4e trola 6te sam az, no qvno ima i po dobri ot men :D
+10:51 < dencho> 4oveka obesni i za parolite obesni ti i za mikrofona 50-60 leva :D
+10:51 < dencho> napravo vsi4ko ni razkaza :D
+10:51 <@HackMan> не, че аз съм някакъв многознайко, но той определено е КАПАЦИТЕТ във всички области на IT
+10:52 < KpeTeHoug> защо го ограничаваш само до ИТ
+10:52 < KpeTeHoug> може да е енциклопедист човека
+10:52 < KpeTeHoug> :)
+10:53 < dencho> taka se prai... to kato pogledne6 obqvite za rabota iskat to4no takiva... da moje6 da programira6 na vis4ko, da moje6 da instalira6 na vsi4ko, da si vijdal HP-UX (KADE OSVEN AKO NE V HP) !!!!
+10:53 < dencho> :D
+10:53 < dencho> VAX...
+10:53 < dencho> :D
+10:53 < dencho> jahaaajja
+10:53 < dencho> qvno 4oveka se e orientiral dobre :P ot vsi4ko po malko :D
+10:54 < dencho> kato kaza enciklopedist...
+10:54 < dencho> http://youtu.be/Vqaq_yFYu98
+10:54 < dencho> D:
+10:54 < dencho> old one video
+10:54 < dencho> :D
+10:55 < dencho> izberete si koi 6te go igrae êúöè :Ï
+10:55 < dencho> :D
+11:14 < dencho> Â ìîìåíòà ñàéòúò å â òåõíè÷åñêà ïðîôèëàêòèêà.
+11:14 < dencho> Ìîëÿ, îïèòàéòå ïî-êúñíî.
+11:14 < dencho> s4upi sa jobs.bg
+11:14 < dencho> :D
+11:14 < dencho> 4udna rabota kak v raboten den horata pravat profilaktika
+11:14 < dencho> :D
+11:14 < dencho> i saotvetno turpqt zagubi ot reklama
+11:14 < dencho> :D
+11:17 <@HackMan> dencho: те не правят профилактика
+11:17 <@HackMan> просто не са си направили системата добре
+11:20 < dencho> :)
+11:20 < dencho> m dammm, poneje ako pravqt profilaktika v raboten den po dobre da zapo4nat da si pi6at avtobiografiite :D
+11:21 <@HackMan> те отдавна са ги написали:) нали се сещаш...
+11:22 <@HackMan> все пак са jobs.bg:)
+11:22 < dencho> hahaha :]
+11:25 <@HackMan> http://whenyouliveinsofia.tumblr.com/post/55112495273/when-you-see-stanishev-on-tv
+11:27 < KpeTeHoug> :) а кой пък гледа ТВ като дават станишев
+11:28 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+11:32 -!- KacanuH [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+11:33 < yulimoto> кой гледа изобщо тв ? то само фейсове има там 
+11:34 < KpeTeHoug> аз гледам
+11:34 < KpeTeHoug> редовно даже
+11:34 < KpeTeHoug> Диего и Дора изследователката
+11:34 < KpeTeHoug> като пускам на децата сутрин :)
+11:35 < yulimoto> ааа за детски да 
+11:35 < yulimoto> и аз бих ги  гледал 
+11:35 < yulimoto> мечето ръкспин !
+11:35 < yulimoto> туй-онуй
+11:36 < KpeTeHoug> имаше 7-8 епизода в торентите някъде
+11:36 < KpeTeHoug> на БГ даже
+11:36 < yulimoto> да
+11:36 < yulimoto> или в vbox7
+11:36 < yulimoto> май съм гледал нещо
+11:36 < yulimoto> а имаше едно за хлорофил 
+11:36 < yulimoto> обаче не мога да се сетя как се казваш 
+11:37 < KpeTeHoug> злобил ?
+11:37 < yulimoto> хлорофил, елегантния и антрацит 
+11:37 < yulimoto> ще трябва да проверя
+11:37 < KpeTeHoug> :) проверявай
+11:37 < KpeTeHoug> брб обяд тайм
+11:37 < KrasiGa> след Диего и Дора дават рибки балони , също е готино
+11:38 < KrasiGa> какъв е тоя обяд в 11.30
+11:38 < KrasiGa> поне 12
+11:42 < yulimoto> може да е закуско-обяд, а обяда е в 14:30
+11:42 <@HackMan> ако ставаш в 6-7 сега си е обяд
+11:43 <@HackMan> аз като си лягам в 5-6 сега също ми е обедно
+11:43 <@HackMan> корема ми от преди 2h къркори :)
+11:45 < phalaaxx> баси Debian пак са сътворили някаква шега с dependencies :D
+11:47 < KrasiGa> Hackman не пропускай закуската
+11:47 < KrasiGa> важна
+11:47 < KrasiGa> е
+11:48 <@HackMan> KrasiGa: аз много рядко закусвам...
+11:48 <@HackMan> phalaaxx: че те гока не са имали "шеги" с dependencies ?
+11:49 < phalaaxx> аз откак започнах да закусвам редовно съм свалил близо 10kg
+11:49 < phalaaxx> ама закусвам доста странно :)
+11:49 <@HackMan> просто Fedora/RedHat са много по-стриктни в тестовете и не допускат толкова много простотии като Debian/Ubuntu :)
+11:49 < KrasiGa> и аз това исках да кажа. От както закусвам изглеждам екстра
+11:50 < phalaaxx> HackMan, ами чак такава изненада не очаквах
+11:51 < phalaaxx> HackMan: http://pastebin.com/YuEUcf5T
+11:51 < phalaaxx> искам си thunderbird-а, не съм толко просветлен още че да ползвам mutt :D
+11:55 < dencho> q!
+11:55 < dencho> ima edna lekcia premestena
+11:55 < dencho> :D
+11:55 < dencho> na 29-ti
+11:59 < Informer> Хора (и животни), нормално ли е да нямам systemd в /etc ?
+12:02 <@HackMan> dencho: коя бе ?
+12:02 <@HackMan> Informer: да, ако използваш upstart или systmV
+12:03 <@HackMan> днес точно за това ще говоря :)
+12:03 < phalaaxx> ура, дойдохме си на upstart-a :)
+12:03 -!- samy_ [~samy@84.238.184.98] has quit [Remote host closed the connection]
+12:03 <@HackMan> phalaaxx: няма да обяснявам как се пишат target files, това е за домашно :)
+12:03 < phalaaxx> няма значение, другото е по-интересно
+12:04 < phalaaxx> ровил съм му в sources на това чудо и бях впечатлен :)
+12:04 < phalaaxx> не много ама достатъчно за да се впечатля
+12:04 < phalaaxx> то не ми трябва кой знае какво де :D
+12:05 < Informer> Значи ще изчакам с второто домашно :)
+12:11 < dencho> HackMan pi6e linux systemna administracia, i e premestena na 29-ti Iuli
+12:12 <@HackMan> dencho: да, защото на 30-и заминавам за холандия
+12:12 < dencho> ahaaa :D
+12:12 <@HackMan> на конференция съм там :)
+12:12 < dencho> qko
+12:13 <@HackMan> http://ohm2013.org
+12:13 < dencho> hambara ne e lo6
+12:13 < dencho> :D
+12:14 <@HackMan> какъв хамбар... ние сме на палатки :)
+12:15 < dencho> https://ohm2013.org/site/wp-content/uploads/2012/11/3822574312_3c8b683e33_o-1024x665.jpg
+12:16 < Informer> Marian HackMan Marinov 	Hacking your car with open source hardware and software
+12:16 < Informer> инстересна тема
+12:16 < dencho> :]
+12:18 < dencho> zna4i... zabelqzal sam edno te4enie, kudeto vsi4kite opitni linuxari nosqt ednakvi bukvi v sobstvenoto i familnoto si ime... tova slu4aino li e? :D poznavam Yovko Yovkov, Todor Todorov, Marian Marinov, ako nabluidenieto mi e varno to togava Vilkata (Velislav Vasilev) bi trqbvalo da stane super user v linux-a :D
+12:24 < phalaaxx> хм, това трябва ли останалите да го приемем като лична обида? :D
+12:25 < lyubenblagoev> HackMan: един въпрос: когато се инсталира GRUB неговия бутстрап код се записва в MBR на диска (stage 1). Тъй като той "разбира" файловите системи може да си прочете конфигурацията от съответния партишън директно и да продължи. И
+12:25 < lyubenblagoev> нтересно ми е изобщо слага ли се нещо на VBR на партишъните (или поне бут партишъна)? Има ли разлика при dual-boot система (с Win примерно)? Пробвай да копирам първите 512 байта от партишъните но след като им изкарам съдържание
+12:25 < lyubenblagoev> то с cat на конзолата не излиза нищо, което ми подсказва че може би във VBR на тези партишъни няма нищо. Ако във VBR не се записва нищо, то кога може да имаме случай когато да се записва VBR-а на даден партъшън?
+12:28 < dencho> phalaaxx haha e ne :P samo konstatacia :D
+12:28 < dencho> za6toto po taq logika i az nqma da stana super user :D
+12:29 < phalaaxx> амии примерно Никола Антонов? (или това е изключението което доказва правилото?)
+12:32 < dencho> hahaha
+12:32 < dencho> :)
+12:53 -!- KacanuH [~chatzilla@supersonic.comelsoft.com] has quit [Ping timeout: 246 seconds]
+13:00 < dencho> aide hora
+13:00 < dencho> 4ao
+13:00 < dencho> :D
+13:00 -!- dencho [~dencho@95.111.14.183] has quit []
+13:08 < yulimoto> lyubenblagoev: виж тук има подробно обяснение. В блога има и още статии за boot processa в линукс - http://duartes.org/gustavo/blog/post/how-computers-boot-up . скоро имаше и дискусия във форума на телерик 
+13:17 < lyubenblagoev> yulimoto: четох статиите и в wikipedia, гледал съм лекциите + тези от ОС курса, но това някак си ми остана недоизяснено. Прегледах статията която ми прати, не е по-различна от това което четох в WP. Но както писах по-горе, след кат
+13:17 < lyubenblagoev> о копирах VBR-ите на двата партишъна cat не показа нищо от тях (все едно те са празни), за разлика от същата операция върху mbr. В случая веротно mbr прескача на друг сектор но не и на vbr на партишъна.
+13:19 < KpeTeHoug> KrasiGa аз ставам 6:30 - 7:00 и 11:30 си е баш обяд
+13:19 < KpeTeHoug> и риби балони бива да :)
+13:20 < yulimoto> lyubenblagoev: вероятно говориш за кода изпълняван в stage 2
+13:21 < lyubenblagoev> yulimoto: да, но въпроса ми е насочен повече към използването на vbr на партишъните, не за бут процеса, не знам дали си ме разбрал правилно
+13:21 < lyubenblagoev> и как конкретно се случват нещата в GRUB
+13:22 < lyubenblagoev> и ако има някакви специфични ситуации в които се използва vbr
+13:27 < lyubenblagoev> пробвах да разгледам съдържанието на файла, създаден с dd като копие на vbr на първия партишън и всичко е 0-ли
+13:30 < yulimoto> lyubenblagoev: с условието, че не съм някакъв капацитет и че може да съм пропуснал и забравил нещо :)  Когато bootvash от MBR според мен VBR не участва. Просто в MBR e записан малка част от кода на  GRUB (изпълнява се в stage1) после с помощта на този код се намира къде е GRUB-а и кода който трябва да се изпълни при bootvaneto на stage2. 
+13:30 < yulimoto> The MBR code plus code loaded in step 2 then read a file containing the second stage of the boot loader. In GRUB this is GRUB Stage 2, and in Windows Server this is c:\NTLDR. If step 2 fails in Windows you’d get a message like “NTLDR is missing”. The stage 2 code then reads a boot configuration file (e.g., grub.conf in GRUB, boot.ini in Windows). It then presents boot choices to the user or simply goes ahead in a single-boot system.
+13:30 < lyubenblagoev> s hexdump, забравих да напиша това горе
+13:30 < yulimoto> hd ли ? 
+13:31 < yulimoto> окс
+13:31 -!- samy_ [~samy@84.238.184.98] has joined #telerikacademy
+13:34 < lyubenblagoev> yulimoto: благодаря за помоща, но това горе го разбрах и ми е ясно :)
+13:35 < lyubenblagoev> може би не мога да обясня по-ясно това което ме интересува, съжалявам за което
+13:35 < yulimoto> да може аз нещо да не съм в кондиция :)
+13:35 < lyubenblagoev> по принцип последователноста е bios > mbr на диска посочен за бут > vbr на активния партишън
+13:36 < lyubenblagoev> дали обаче това важи за определени бут лоудъри, или вече не е точно така
+13:36 < lyubenblagoev> докато четох за груб някъде беше обяснено че може да се инсталира и на vbr вместо на мбр, в случай че има друг бутстрап код в мбр вече
+13:38 < lyubenblagoev> който да chainload-ne grub от съответния vbr
+13:38 < lyubenblagoev> като изключим такива случаи груб се инсталира в мбр
+13:38 < lyubenblagoev> и до колкото разбирам нищо не се инсталира във вбр и тази стъпка се прескача
+13:39 < lyubenblagoev> (зареждането на код от вбр)
+13:39 < lyubenblagoev> Надявам се и hackman да даде малко разяснение по темата
+13:52 <@HackMan> lyubenblagoev: grub се дели на 3
+13:52 <@HackMan> 1. stage 1 image, който се слага в MBR. Това е само basic module
+13:52 <@HackMan> 2. stage 2 image, който се слага на /boot и се използва за да зареди допълнителни функционалности като допълнителни файлови системи LVM & SW RAID support и тн.
+13:52 <@HackMan> 3. конфигурация, която стои в /boot - menu.lst или grub.cfg
+13:54 < lyubenblagoev> hackman: следователно само от stage 1 вече груб има достъп до файловата система и може да чете от /boot и не се налага да зарежда допълнителен код от VBR?
+13:55 < lyubenblagoev> и точно както предполагах не се записва нищо във VBR на партишъна
+13:55 < lyubenblagoev> и бутстрап кода в мбр не предава управлението на вбр
+13:55 < lyubenblagoev> прав ли съм?
+13:57 <@HackMan> VBR e измислица на MS
+13:58 <@HackMan> на практика VBR не е нищо повече от един файл който се намира в началото на диска
+13:58 <@HackMan> началото на partition-а, обикновено първите 1024bytes
+13:58 <@HackMan> в Linux НЯМА secondary loader, освен ако изрично не кажеш на първия, че искаш да заредиш втори
+13:59 <@HackMan> пример:
+13:59 <@HackMan> Имаш два диска, и на двата имаш boot loader
+13:59 <@HackMan> от първият искаш да заредиш вторият
+13:59 <@HackMan> и от него да boot-неш
+13:59 <@HackMan> въпреки, че е глупаво, на практика съм го виждал
+14:00 < lyubenblagoev> ясно, благодаря ти.
+14:33 -!- samy_ [~samy@84.238.184.98] has quit [Remote host closed the connection]
+17:01 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Quit: Page closed]
+17:11 -!- Informer [~Informer@83.228.55.109] has quit [Quit: C ya!]
+17:12 -!- user99 [~McNamee@213.226.63.62] has joined #telerikacademy
+18:04 <@HackMan> затварям кепенците... ще се видим в телерик :)
+18:06 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: захлоп]
+18:09 <@HackMan> моля само някой да отвори това http://www.twitch.tv/aziliann/
+18:09 <@HackMan> и да каже дали вижда/чува
+18:16 -!- HackMan [~HackMan@management.1h.com] has quit [Ping timeout: 240 seconds]
+18:25 -!- TPB_ [4e5a59ab@gateway/web/freenode/ip.78.90.89.171] has joined #telerikacademy
+18:43 -!- pgachev [~androirc@213.226.63.139] has joined #telerikacademy
+18:45 -!- hackman [~HackMan@89.190.207.11] has joined #telerikacademy
+18:46 < hackman> opsss
+18:46 < hackman> ima li hora ? :)
+18:47 < hackman> да направим един тест на stream-a ? :0
+18:48 < hackman> ехооо :)
+18:48 < hackman> някой live ?
+18:49 < hackman> трябва ми някой за тест :)
+18:51 < TPB_> tuk sym ;p
+18:51 < hackman> http://www.twitch.tv/aziliann/
+18:51 < hackman> моля те отвори stream-а и кажи дали виждаш и чуваш
+18:51 < hackman> като го отвориш кажи, за да кажа 1-2 думи
+18:51 < TPB_> работи
+18:52 < TPB_> ок кажи сега за проба
+18:52 < TPB_> дам
+18:52 < TPB_> сичко ок
+18:52 < TPB_> сравинително добре :)
+18:52 < hackman> ще го спра за секунда
+18:53 < hackman> пуснах отново
+18:53 < hackman> вижда ли се ?
+18:53 < TPB_> вече да
+18:54 < TPB_> да
+18:54 < TPB_> чува се
+18:54 < TPB_> дам :)
+18:55 < TPB_> хаха, дам
+18:55 < TPB_> ок се чува
+18:55 < TPB_> преди малко нещо с бооста пак се скапваше
+18:56 < TPB_> добре е аудито
+18:56 < TPB_> аудиото*
+18:58 < pgachev> всичко е ок
+18:59 < hackman> моля ако на някой му прекъсне, да си пусне един пинг до twitch.tv и ако има ping да пише веднага в канала :)
+18:59 < hackman> нямаме друго видео освен sream-а :)
+19:02 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+19:08 -!- tuxar_ [554b1a64@gateway/web/freenode/ip.85.75.26.100] has joined #telerikacademy
+19:08 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+19:14 < tuxar_> Разглежда се GRUB2, нали ?
+19:15 < hackman> da
+19:15 -!- buddi [~buddi@46.238.41.41] has joined #telerikacademy
+19:16 -!- pgachev [~androirc@213.226.63.139] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+19:17 -!- pgachev [~androirc@213.226.63.139] has joined #telerikacademy
+19:32 -!- boiko_ [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+19:32 < boiko_> zdr
+19:32 < boiko_> хайде някой да спре чатовете на гризли
+19:36 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < boiko_> хайде някой да спре чатовете на гризли
+19:38 < hackman> spri da pishesh molq te
+19:38 < hackman> !!!!
+19:39 < boiko_> някой постоянно broadcastva в гризли
+19:39 < boiko_> как да го спрем
+19:39 -!- DamnTheLuck [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+19:39 < boiko_> някой постоянно broadcastva в гризли
+19:39 < boiko_> някой постоянно broadcastva в гризли
+19:39 < boiko_> някой постоянно broadcastva в гризли
+19:39 < boiko_> някой постоянно broadcastva в гризли
+19:39 < boiko_> как да го спрем
+19:39 < boiko_> как да го спрем
+19:39 < DamnTheLuck> като питаш google?
+19:41 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has joined #telerikacademy
+19:42 < tuxar_> Възможно ли е да boot-нем grub с usb/rs232 adaptor?
+19:44 -!- boiko_ [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Quit: Page closed]
+--- Log closed чт юли 11 19:56:04 2013
+--- Log opened чт юли 11 19:56:34 2013
+19:56 -!- yulimoto [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+19:56 -!- Irssi: #telerikacademy: Total of 16 nicks [1 ops, 0 halfops, 0 voices, 15 normal]
+19:56 -!- Irssi: Join to #telerikacademy was synced in 6 secs
+19:58 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+20:00 < yulimoto> Ограничени ли сме от към терминали ? 
+20:00 < yulimoto> като брой
+20:01 < lyubenblagoev> Изпуснах началото и нямам възможност да гледам лайв стрийма, няма ли да има записи?
+20:06 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+20:10 -!- nveselinov [nveselinov@151.237.4.4] has quit [Ping timeout: 245 seconds]
+20:12 -!- komadrin_ [~komadrin@wolf.yuhu.biz] has joined #telerikacademy
+20:20 -!- iordan_93 [82cc6e33@gateway/web/freenode/ip.130.204.110.51] has joined #telerikacademy
+20:21 -!- iordan_93 [82cc6e33@gateway/web/freenode/ip.130.204.110.51] has quit [Client Quit]
+20:23 < komadrin_> klimatik dali ima li w zalata :)
+20:25 -!- angel [~angel@213.226.63.150] has joined #telerikacademy
+20:25 -!- angel [~angel@213.226.63.150] has quit [Client Quit]
+20:27 -!- angel [~angel@213.226.63.150] has joined #telerikacademy
+20:32 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has quit [Quit: leaving]
+20:36 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+20:37 -!- nveselinov [nveselinov@151.237.4.4] has joined #telerikacademy
+20:39 -!- komadrin_ [~komadrin@wolf.yuhu.biz] has quit [Quit: Lost terminal]
+20:40 < hackman> kak e stream-a ?
+20:40 < yulimoto> добре е 
+20:40 < buddi> идеален е
+20:40 -!- angel [~angel@213.226.63.150] has quit [Ping timeout: 264 seconds]
+20:41 -!- mode/#telerikacademy [+o hackman] by ChanServ
+20:41 -!- angel [~angel@213.226.63.150] has joined #telerikacademy
+20:41 < tuxar_> Много готин
+20:41 < yulimoto> това tftpboot само за вътрешни мрежи ли е ; сигурно ли е ? 
+20:41 -!- markoni_ [~markoni@defect-h.cybcom.net] has joined #telerikacademy
+20:41 < markoni_> aloha
+20:41 < tuxar_> малко сякаш е силен звука ...
+20:42 < markoni_> и никой не внимава с мебелите :)
+20:42 < buddi> да малко е силен, но с намаляне и на слушалки е добре
+20:43 < yulimoto> мерси 
+20:43 <@hackman> да намаля ли звука ?
+20:43 < tuxar_> пробвай
+20:43 < yulimoto> пробвай да 
+20:43 < yulimoto> ние ще ти кажем 
+20:45 -!- gyankov [2e2f7223@gateway/web/freenode/ip.46.47.114.35] has joined #telerikacademy
+20:47 < yulimoto> да 
+20:47 < yulimoto> не бръжди 
+20:47 < tuxar_> намаля шума
+20:47 < buddi> по добре
+20:47 < tuxar_> говори малко
+20:47 < yulimoto> не така е ок 
+20:47 < markoni_> за мен да, няма го шума от микрофон бооста :)
+20:47 < tuxar_> и за мен е ок
+20:47 < yulimoto> да
+20:47 < markoni_> стига толкова
+20:47 < yulimoto> ок е 
+20:48 < tuxar_> +1
+20:48 <@hackman> пускам пак :)
+20:48 < buddi> да добре е и вече не се чува шума от залата
+20:48 <@hackman> дойде ли ?
+20:48 < yulimoto> значи ако някой му е ниско нивото на звука да си каже 
+20:49 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+20:51 -!- komadrin [~komadrin@wolf.yuhu.biz] has joined #telerikacademy
+20:54 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+20:58 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has joined #telerikacademy
+21:07 -!- nesk_ [~nesk@93.152.156.240] has joined #telerikacademy
+21:07 < nesk_> hello
+21:07 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+21:07 < markoni_> hi
+21:08 < ViLKaTa> Draste
+21:11 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+21:12 < gyankov> Колеги, не пишете излишни неща. Към момента в канала могат да се задават само въпроси към лектора и то по темата.
+21:19 -!- nveselinov [nveselinov@151.237.4.4] has quit [Quit: Leaving]
+21:22 < yulimoto> Може ли да сменя името на shadow файла или да го скрия. Има ли смисъл ? 
+21:24 < nesk_> useradd -g -s -d
+21:27 -!- pgachev [~androirc@213.226.63.139] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+21:32 < nesk_> dobre a kakyf e smisyla da ima otdelna komanda za editvane na shell poleto v passwd file-a kato moje da go napraime s usermod -s <username>
+21:32 -!- pitanka [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+21:33 < pitanka> какв ае идята да си член на групи флопи,сд и т.н.
+21:33 < tuxar_> може би исторически
+21:34 < tuxar_> @pitanka - дава право на юзвера да ползва даденото у-во
+21:34 < pitanka> ок
+21:39 -!- komadrin [~komadrin@wolf.yuhu.biz] has quit [Quit: Lost terminal]
+21:39 < tuxar_> ;-)
+21:43 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+21:52 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+21:53 < phalaaxx> chmod ugo+rwx somefile
+21:53 < nesk_> ili chmod a+rwx
+21:54 < phalaaxx> 777 = ugo+rwx
+21:57 < nesk_> ok
+21:58 -!- phalaaxx [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+22:01 -!- angel [~angel@213.226.63.150] has quit [Ping timeout: 264 seconds]
+22:11 -!- DamnTheLuck [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+22:11 < gyankov> Понякога когато се набутаме някъде и имаме само една ъглова скоба в shell-a, как да излезем от там?
+22:11 -!- pitanka [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Quit: Page closed]
+22:12 <@hackman> kak taka uglova skoba
+22:12 <@hackman> dai primer
+22:12 < tuxar_> Мерси много!
+22:12 < gyankov> Вижда се само >
+22:12 < yulimoto> gyankov: виж ctrl-c обикновено става
+22:12 -!- ViLKaTa [~villy@87.97.192.85] has quit [Quit: Konversation terminated!]
+22:13 < buddi> quit , exit , Ctr+C , Shift+: posle q!
+22:14 <@hackman> gyankov: natiskash Ctrl+C :)
+22:14 < gyankov> yulimoto - това не съм го пробвал. Като ми се получи ще опитам, мерси :).
+22:14 < gyankov> Мерси!
+22:16 < TPB_> евала на hackman за търпението ... хората се счупиха от спам и тук и на grizzly
+22:19 -!- nesk_ [~nesk@93.152.156.240] has quit [Quit: i <3 pork (http://dev.ojnk.net)]
+22:20 <@hackman> TPB_ просто изпълняваш mesg n
+22:20 <@hackman> и не ти пречат вече
+22:20 <@hackman> bye guys
+22:20 <@hackman> отиваме на бира
+22:20 < markoni_> хф
+22:20 < TPB_> видях го това още ти като го узпълни :)
+22:20 < TPB_> из*
+22:20 < TPB_> ама ...
+22:20 < TPB_> много деца явно
+22:20 < TPB_> не се наиграха
+22:21 < buddi> лека
+22:21 < buddi> и приатно запиване
+22:21 < yulimoto> хайде ча0 и от мен. беше интересно
+22:21 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has quit [Quit: Lost terminal]
+22:21 -!- buddi [~buddi@46.238.41.41] has quit [Quit: Leaving]
+22:22 -!- tuxar_ [554b1a64@gateway/web/freenode/ip.85.75.26.100] has quit [Quit: Page closed]
+22:25 -!- hackman [~HackMan@89.190.207.11] has quit [Ping timeout: 260 seconds]
+22:26 -!- AndChat|2004 [~McNamee@213.226.63.62] has joined #telerikacademy
+22:30 -!- TPB_ [4e5a59ab@gateway/web/freenode/ip.78.90.89.171] has quit [Quit: owned by the internet]
+22:31 -!- gyankov [2e2f7223@gateway/web/freenode/ip.46.47.114.35] has quit [Ping timeout: 250 seconds]
+22:31 -!- markoni_ [~markoni@defect-h.cybcom.net] has quit [Quit: ChatZilla 0.9.90 [Firefox 22.0/20130618035212]]
+22:32 -!- Netsplit *.net <-> *.split quits: user99
+22:32 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+22:43 -!- looser99 [John@78.130.186.99] has joined #telerikacademy
+22:46 -!- gloom [John@2002:4e82:ba63::4e82:ba63] has quit [Ping timeout: 264 seconds]
+23:02 -!- angel [~angel@84.238.192.103] has joined #telerikacademy
+23:18 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+23:27 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+23:37 -!- plamer [~Plamer@84.40.92.7] has quit [Read error: Connection reset by peer]
+23:39 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+23:59 -!- plamer [~Plamer@84.40.92.7] has quit [Quit: Leaving]
+--- Day changed пт юли 12 2013

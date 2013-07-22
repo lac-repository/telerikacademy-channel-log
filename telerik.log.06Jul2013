@@ -1,0 +1,376 @@
+
+--- Day changed сб юли 06 2013
+00:01  * dencho slaps Slavov around a bit with a large trout
+00:02 -!- botlike [~botlike@185.7.217.1] has joined #telerikacademy
+00:12 -!- Slavov [~slavov@84.54.185.190] has quit [Remote host closed the connection]
+00:32 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+00:58 -!- Plamer is now known as plamer
+00:58 -!- wiseman_ [~wiseman@mariay.pppoe.fiber-lan.eu] has left #telerikacademy []
+01:04 < dencho> ora, spite li?
+01:04 < botlike> Ни спим ора :)
+01:06 < plamer> ама някои смятам да се хоризонтираме ;)
+01:06 -!- user99 [~McNamee@213.226.63.140] has quit [Ping timeout: 256 seconds]
+01:06 < plamer> ама някои смятаме да се хоризонтираме ;)
+01:07 < botlike> много рано
+01:08 < plamer> вече е късно, рано ще е към 4-5 ;)
+01:09 < botlike> голяма логика :)
+01:11 < plamer> :)
+01:11 < plamer> лека
+01:12 -!- plamer [~Plamer@84.40.92.7] has quit [Quit: sleepz]
+01:12 < botlike> лека
+01:17 -!- user99 [~McNamee@213.226.63.140] has joined #telerikacademy
+01:24 < milev> Errors were encountered while processing: linux-headers-3.10.0-031000-generic
+01:24 < milev> баси якото
+01:29 < dencho> ora, spite li?
+01:29 < dencho> :]
+01:32 < hackman> ne
+01:34 < dencho> a taka
+01:34 < dencho> :D
+01:35 < dencho> ravnosmetkata sled 3 4asa pisane e... 2 kursovi raboti, ednata koqto e izpratena, a drugata lektora ne si e ostavil email-a :D sudba... samo si izgubih vremeto s neq :D
+01:36 < dencho> btw.. samo na men li mi zarejda bavno foruma na telerik ?
+01:37 < dencho> nekvi stranni ne6ta se slu4vat :D
+01:37 < milev> нема форум
+01:38 < milev> ... а зе че тръгна
+01:39 < dencho> trafik :P
+01:39 < dencho> petuk vecher orata reloadvat kato nevijdali :P
+01:40 < dencho> za 2 sedmici 3 stranici s temi... za 3 meseca 20 stranici s temi...
+01:40 < dencho> :D
+01:40 < milev> къде бе?
+01:41 < dencho> e pa u telerik, na linux systemna admin..
+01:42 < milev> след 2 седмици 1 тема ще е добре ако пускат на ден
+01:42 < dencho> 6a vidim
+01:43 < dencho> wow 213 userq sa se regnali na grizlito
+01:43 < dencho> :D
+01:43 < dencho> kato samo az sam na liniq :D eeee :D
+01:44 < dencho> na pruv pogled... Neti, Nevenka, Natali...
+01:44 < dencho> :D
+01:45 < dencho> evalata za izbora... naprau me sasipa toq
+01:45 < dencho> drwx------    3 kyp                 kyp                 4.0K Jul  3 17:39 kyp
+01:45 < dencho> koito i da e
+01:47 < dencho> 6 mometa na 207 ora :D
+01:48 < dencho> a moje da sa 8 mometata
+01:48 < dencho> :D
+01:48 < hackman> верно има доста регистрирани на grizzly :)
+01:48 < hackman> супер :)
+01:48 < dencho> e ima tuk tam nqkoi se povtarat
+01:48 < dencho> :P
+01:48 < dencho> drwx------    3 dandreev            dandreev            4.0K Jul  5 08:04 dandreev
+01:48 < dencho> drwx------    3 dandreev1           dandreev1           4.0K Jul  5 08:13 dandreev1
+01:49 < dencho> drwx------    3 asya                asya                4.0K Jul  2 21:43 asya
+01:49 < dencho> asya
+01:49 < dencho> :D
+01:49 < dencho> wow
+01:49 < dencho> drwx------    3 svetlanka           svetlanka           4.0K Jul  4 22:22 svetlanka
+01:50 < dencho> ne znaeh 4e priqtelkata se e regnala!
+01:50 < dencho> hahahaha
+01:50 < dencho> fake :D
+01:50 < dencho> dobre e...
+01:51 < dencho> dobre, 4e ViLKaTa ne si e naprail akaunt, 6toto 6te6e da se regne kato Villy i posle idi go razberi 4e e mom4e :D
+01:55 < dencho> are hora, leka :)
+02:14 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Remote host closed the connection]
+02:16 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+03:12 -!- rossi [~rossi@2a00:4800:0:ffff:62eb:69ff:feef:4d8a] has joined #telerikacademy
+03:12 -!- rossi is now known as Guest85349
+03:13 -!- Guest85349 [~rossi@2a00:4800:0:ffff:62eb:69ff:feef:4d8a] has quit [Client Quit]
+04:37 -!- botlike [~botlike@185.7.217.1] has quit [Ping timeout: 248 seconds]
+04:38 -!- edrenchev [edrenchev@95.111.112.62] has joined #telerikacademy
+04:57 -!- edrenchev [edrenchev@95.111.112.62] has quit []
+05:00 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Ping timeout: 264 seconds]
+06:59 -!- Deyan__ [~Deyan@46.249.92.240] has joined #telerikacademy
+07:00 -!- Deyan__ [~Deyan@46.249.92.240] has quit [Client Quit]
+07:01 -!- KacanuH [~Deyan@46.249.92.240] has joined #telerikacademy
+07:29 -!- nveselinov [nveselinov@151.237.4.4] has quit [Read error: Connection reset by peer]
+07:39 -!- KacanuH [~Deyan@46.249.92.240] has quit [Ping timeout: 264 seconds]
+07:53 -!- hackman [~HackMan@wolf.yuhu.biz] has quit [Ping timeout: 248 seconds]
+07:58 -!- user99 [~McNamee@213.226.63.140] has quit [Quit: Bye]
+07:58 -!- user99 [~McNamee@213.226.63.140] has joined #telerikacademy
+08:01 -!- AndChat|2004 [~McNamee@78.130.186.99] has joined #telerikacademy
+08:04 -!- user99 [~McNamee@213.226.63.140] has quit [Ping timeout: 264 seconds]
+09:24 < dencho> dobro utro hora
+09:24 < dencho> :D
+09:29 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+09:31 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+09:34 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+09:36 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+09:44 -!- samy_ [~samy@91.196.227.180] has joined #telerikacademy
+09:46 -!- samy [~samy@84.238.184.98] has quit [Ping timeout: 276 seconds]
+10:00 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+10:00 < samy> asdfg
+10:02 < dencho> ya
+10:03 -!- samy_ [~samy@91.196.227.180] has quit [Ping timeout: 268 seconds]
+10:16 < samy> oi
+10:23 -!- hackman [~HackMan@46.10.74.211] has joined #telerikacademy
+10:24 -!- hackman is now known as Guest57478
+10:32 -!- Guest57478 is now known as Azilian
+10:33 -!- Azilian is now known as HackMan
+10:43 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+10:43 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Client Quit]
+10:44 -!- Slavov [~slavov@84.54.185.190] has joined #telerikacademy
+10:50 -!- Slavov [~slavov@84.54.185.190] has quit [Quit: Leaving]
+10:53 -!- HackMan [~HackMan@46.10.74.211] has quit [Ping timeout: 276 seconds]
+11:15 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has joined #telerikacademy
+11:17 < ncuxoto> добро да е
+11:26 < ViLKaTa> dencho:
+11:28 < dencho> da
+11:29  * dencho slaps ViLKaTa around a bit with a large trout
+11:29 < ViLKaTa> Na rabota li si?
+11:29 < ViLKaTa> Men me pusnaha, che e losho vremeto.
+11:30 < ViLKaTa> Dojdoh si i to se opravi
+11:30 < ViLKaTa> Ama sa kat mi se obadiat da se vrashtam i shte kaja, che ne sam v Plovdiv
+11:30 < dencho> mne, u nas sam si
+11:31 < dencho> donesoha nqkva toshiba... poznai kakva OS iskat da se instalira na neq?
+11:32 < ViLKaTa> Win
+11:32 < ViLKaTa> 8
+11:33 < dencho> mne
+11:33 < dencho> 7
+11:33 < ViLKaTa> Tva 8 kachval li si go?
+11:33 < ViLKaTa> Kak e s updates, ala-bala?
+11:34 < ViLKaTa> V smisal kat se krakne, moe li bezproblemno da se update i t.n.?
+11:34 < dencho> mi ne, ne sam go kachval, za kratko se dokosnah do nego v telerik, i neshto ne mi dopadna kak se upravlqva :D
+11:35 < dencho> osven ako nqmam tych skreen monitor
+11:35 < ViLKaTa> Az ne sam v obshtejitieto veche i ne mi nosiat kompove veche
+11:35 < dencho> daje ne znaeh ot kade da ida v start menuto, to daje ne znam dali tva beshe start menuto
+11:35 < ViLKaTa> Da go kacha parvo na 10-tina drugi mashini i togava da go test eventualno na moia
+11:36 < dencho> obshto vzeto... kat izteche windows 7 shte migriram kym neshto s koeto mogat da se spravqt u nas
+11:36 < dencho> i taka
+11:36 < dencho> :D
+11:36 < ViLKaTa> Ba.. Az samo zaradi niakolko programi go polzvam.. Ne mi prechi i XP
+11:36 < dencho> xp-to izliza ot support :P
+11:37 < ViLKaTa> CAM/CAD i Polyglota
+11:37 < dencho> sega dosta firmi shte preskochat iskat/ne iskat na win 7
+11:37 < ViLKaTa> Boli me fara
+11:37 < ViLKaTa> Men mi trea za tezi programi
+11:37 < dencho> :]
+11:38 < ViLKaTa> Oshte malko i maj MS shte gi podkarvam samo na virtualki
+11:38 < ViLKaTa> Xp, 7...
+11:39 < ViLKaTa> Okaza se, che sam s edna platka ot 2 GB
+11:39 < ViLKaTa> Imam megdan za oshte edna
+11:39 < ViLKaTa> Misleh, che sam s dve po 1
+11:39 < ViLKaTa> Onzi den si igrah da si chistia laptopa i dosta se zaradvah
+11:41 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+11:43 -!- botlike [~botlike@185.7.217.1] has joined #telerikacademy
+11:44 -!- hackman [~HackMan@46.10.74.211] has joined #telerikacademy
+11:44 < dencho> away-vam :D
+11:44 -!- hackman is now known as Guest69867
+11:44 < dencho> tushtichkata shte idva :P
+12:05 < ViLKaTa> :)))))))))))
+12:05 < dencho> ViLKaTa vij private edin lame vupros :P
+12:30 -!- Guest69867 [~HackMan@46.10.74.211] has quit [Ping timeout: 264 seconds]
+12:58 -!- AndChat|2004 [~McNamee@78.130.186.99] has quit [Ping timeout: 264 seconds]
+13:02 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+13:11 -!- Informer [Informer@78.90.229.234] has joined #telerikacademy
+13:33 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+13:39 -!- miroslavTsakov [~miroslavT@78.90.183.66] has joined #telerikacademy
+14:02 -!- samy [~samy@91.196.227.180] has joined #telerikacademy
+14:04 -!- samy_ [~samy@84.238.184.98] has joined #telerikacademy
+14:09 -!- samy [~samy@91.196.227.180] has quit [Ping timeout: 268 seconds]
+14:17 -!- user99 [~McNamee@78.130.186.99] has quit [Ping timeout: 264 seconds]
+14:24 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+14:25 -!- user99 [~McNamee@78.130.186.99] has quit [Remote host closed the connection]
+14:43 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has quit [Ping timeout: 250 seconds]
+15:05 -!- miroslavTsakov [~miroslavT@78.90.183.66] has quit []
+16:24 -!- edrenchev [edrenchev@95.111.112.62] has joined #telerikacademy
+16:50 -!- martotko1 [~martotko1@88.80.107.33] has joined #telerikacademy
+16:57 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+16:58 -!- martotko1 [~martotko1@88.80.107.33] has quit [Ping timeout: 268 seconds]
+17:10 -!- DamnTheLuck [5d98be26@gateway/web/freenode/ip.93.152.190.38] has joined #telerikacademy
+17:11 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+17:35 -!- user99 [~McNamee@78.130.186.99] has quit [Ping timeout: 264 seconds]
+17:52 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+18:03 < botlike> много сте тихи :)
+18:08 -!- edrenchev [edrenchev@95.111.112.62] has quit []
+18:14 -!- edrenchev [~edrenchev@95.111.112.62] has joined #telerikacademy
+18:30 < dencho> mnogo ni boli glava...
+18:36 -!- user99 [~McNamee@78.130.186.99] has quit [Ping timeout: 264 seconds]
+18:42 -!- user99 [~McNamee@213.226.63.144] has joined #telerikacademy
+18:50 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has joined #telerikacademy
+18:51 -!- AndChat|2004 [~McNamee@78.130.186.99] has joined #telerikacademy
+18:52 -!- lyubenblagoev_ [~lyubenbla@ip-163-36.powernet.bg] has joined #telerikacademy
+18:53 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has quit [Client Quit]
+18:55 -!- user99 [~McNamee@213.226.63.144] has quit [Ping timeout: 264 seconds]
+18:56 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Ping timeout: 276 seconds]
+18:57 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has joined #telerikacademy
+19:05 -!- miroslavTsakov [~miroslavT@78.90.183.66] has joined #telerikacademy
+19:11 -!- AndChat|2004 [~McNamee@78.130.186.99] has quit [Ping timeout: 264 seconds]
+19:12 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+19:19 -!- lyubenblagoev__ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+19:23 -!- lyubenblagoev_ [~lyubenbla@ip-163-36.powernet.bg] has quit [Ping timeout: 264 seconds]
+19:23 -!- lyubenblagoev [~lyubenbla@ip-163-36.powernet.bg] has joined #telerikacademy
+19:26 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+19:26 -!- lyubenblagoev__ [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Ping timeout: 276 seconds]
+19:28 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has left #telerikacademy []
+19:29 -!- lyubenblagoev [~lyubenbla@ip-163-36.powernet.bg] has quit [Ping timeout: 264 seconds]
+19:33 -!- miroslavTsakov [~miroslavT@78.90.183.66] has quit []
+19:38 -!- user99 [~McNamee@78.130.186.99] has quit [Ping timeout: 264 seconds]
+19:39 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has quit [Quit: Page closed]
+19:42 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+19:46 -!- user99 [~McNamee@78.130.186.99] has quit [Ping timeout: 264 seconds]
+19:56 -!- user99 [~McNamee@213.226.63.61] has joined #telerikacademy
+20:00 -!- nveselinov [nveselinov@151.237.4.4] has joined #telerikacademy
+20:01 -!- samy_ [~samy@84.238.184.98] has quit [Remote host closed the connection]
+20:03 -!- user99 [~McNamee@213.226.63.61] has quit [Quit: Bye]
+20:04 -!- user99 [~McNamee@213.226.63.61] has joined #telerikacademy
+20:05 -!- user99 [~McNamee@213.226.63.61] has quit [Client Quit]
+20:44 -!- DamnTheLuck [5d98be26@gateway/web/freenode/ip.93.152.190.38] has quit [Ping timeout: 250 seconds]
+20:55 -!- miroslavTsakov [~miroslavT@78.90.183.66] has joined #telerikacademy
+21:07 -!- user99 [~McNamee@213.226.63.61] has joined #telerikacademy
+21:48 -!- user99 [~McNamee@213.226.63.61] has quit [Quit: Bye]
+21:49 -!- user99 [~McNamee@213.226.63.61] has joined #telerikacademy
+22:19 -!- DamnTheLuck [5d98be26@gateway/web/freenode/ip.93.152.190.38] has joined #telerikacademy
+22:20 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has joined #telerikacademy
+22:21 < ViLKaTa> Това четете ли го? Денчо?
+22:21 < miroslavTsakov> az da
+22:22 < ViLKaTa> Значи и Денчо :)
+22:22 < miroslavTsakov> xD
+22:22 < miroslavTsakov> who knows
+22:22 < miroslavTsakov> moje da nqma cyrilica
+22:22 < miroslavTsakov> :D
+22:22 < ViLKaTa> Има, има
+22:22 < miroslavTsakov> асд
+22:22 < ViLKaTa> Даже повече от нас
+22:22 < miroslavTsakov> cool story xD
+22:22 < ViLKaTa> Има негова си irc network
+22:23 < ViLKaTa> Даже ботовете му са на кирилица.
+22:23 < miroslavTsakov> bravo ;]
+22:34 < ViLKaTa> Offfffffff
+22:34 < ViLKaTa> Vse neshto niama da e kat horata..
+22:42 < miroslavTsakov> kato bulgarin bi trqbvalo otdavna da si stignal do tozi izvod xD
+22:44 < ViLKaTa> hahaha
+22:44 < ViLKaTa> pravilno
+22:47 -!- user99 [~McNamee@213.226.63.61] has quit [Quit: Bye]
+23:19 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has quit [Ping timeout: 250 seconds]
+23:20 -!- botlike [~botlike@185.7.217.1] has quit [Ping timeout: 248 seconds]
+23:35 < dencho> toz pa kak lyje :D
+23:39 < miroslavTsakov> xD
+23:57 -!- edrenchev [~edrenchev@95.111.112.62] has quit [Ping timeout: 276 seconds]
+23:57 -!- botlike [~botlike@185.7.217.1] has joined #telerikacademy
+--- Log closed нд юли 07 00:12:41 2013
+--- Log opened нд юли 07 00:33:39 2013
+00:33 -!- yulimoto [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+00:33 -!- Irssi: #telerikacademy: Total of 15 nicks [1 ops, 0 halfops, 0 voices, 14 normal]
+00:33 -!- Irssi: Join to #telerikacademy was synced in 7 secs
+01:20 < botlike> спите ли :)
+01:33 -!- user99 [~McNamee@213.226.63.61] has joined #telerikacademy
+01:52 -!- edrenchev [~edrenchev@95.111.112.62] has joined #telerikacademy
+01:56 < botlike> как може събота вечер да няма никой буден
+01:56 < botlike> :Д
+01:57 -!- edrenchev [~edrenchev@95.111.112.62] has quit [Ping timeout: 256 seconds]
+02:03 < botlike> help -l
+02:03 < botlike> опа.. грешка
+02:06 -!- Informer [Informer@78.90.229.234] has quit [Quit: C ya!]
+02:50 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Remote host closed the connection]
+07:53 -!- edrenchev [~edrenchev@95.111.112.62] has joined #telerikacademy
+07:58 -!- edrenchev [~edrenchev@95.111.112.62] has quit [Ping timeout: 256 seconds]
+08:36 -!- AndChat|2004 [~McNamee@78.130.186.99] has joined #telerikacademy
+08:40 -!- user99 [~McNamee@213.226.63.61] has quit [Ping timeout: 264 seconds]
+09:36 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+09:37 -!- DamnTheLuck [5d98be26@gateway/web/freenode/ip.93.152.190.38] has quit [Ping timeout: 250 seconds]
+09:42 -!- roxrite [~n_a@130-204-86-120.2073150800.ddns.cablebg.net] has joined #telerikacademy
+09:44 -!- Netsplit *.net <-> *.split quits: AndChat|2004
+09:45 -!- Netsplit *.net <-> *.split quits: rox`away, Deyan_, dencho, alabala
+09:48 -!- Netsplit over, joins: dencho
+10:13 -!- alabala [~alabala@irc.webconnect.bg] has joined #telerikacademy
+10:14 -!- user99 [~McNamee@213.226.63.137] has joined #telerikacademy
+10:39 -!- edrenchev [~edrenchev@95.111.112.62] has joined #telerikacademy
+10:47 -!- rootstar [0@78.90.53.106] has quit [Ping timeout: 276 seconds]
+11:19 -!- edrenchev [~edrenchev@95.111.112.62] has quit [Ping timeout: 252 seconds]
+11:43 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+11:51 -!- DamnTheLuck [5d98be26@gateway/web/freenode/ip.93.152.190.38] has joined #telerikacademy
+11:54 -!- user99 [~McNamee@213.226.63.137] has quit [Quit: Bye]
+11:55 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+12:00 -!- lyubenblagoev_ [~lyubenbla@ip-163-36.powernet.bg] has joined #telerikacademy
+12:01 -!- lyubenblagoev__ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+12:03 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Ping timeout: 276 seconds]
+12:05 -!- lyubenblagoev_ [~lyubenbla@ip-163-36.powernet.bg] has quit [Ping timeout: 256 seconds]
+12:09 -!- lyubenblagoev_ [~lyubenbla@ip-163-36.powernet.bg] has joined #telerikacademy
+12:12 -!- lyubenblagoev__ [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Ping timeout: 276 seconds]
+12:19 -!- lyubenblagoev_ [~lyubenbla@ip-163-36.powernet.bg] has quit [Quit: Leaving]
+12:31 -!- user99 [~McNamee@78.130.186.99] has quit [Ping timeout: 256 seconds]
+12:41 -!- user99 [~McNamee@213.226.63.155] has joined #telerikacademy
+12:43 -!- AndChat|2004 [~McNamee@213.226.63.62] has joined #telerikacademy
+12:43 -!- AndChat-2004 [~McNamee@78.130.186.99] has joined #telerikacademy
+12:45 -!- user99 [~McNamee@213.226.63.155] has quit [Ping timeout: 248 seconds]
+12:47 -!- AndChat|2004 [~McNamee@213.226.63.62] has quit [Ping timeout: 248 seconds]
+13:08 -!- sto|away [~chatzilla@94.26.85.140] has joined #telerikacademy
+13:08 -!- sto|away is now known as sto|fringe
+13:21 -!- AndChat-2004 [~McNamee@78.130.186.99] has quit [Ping timeout: 248 seconds]
+13:24 -!- Informer [Informer@78.90.229.234] has joined #telerikacademy
+13:32 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+13:44 -!- user99 [~McNamee@78.130.186.99] has quit [Ping timeout: 248 seconds]
+14:09 -!- user99 [~McNamee@213.226.63.140] has joined #telerikacademy
+14:28 -!- user99 [~McNamee@213.226.63.140] has quit [Ping timeout: 264 seconds]
+14:56 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has joined #telerikacademy
+15:05 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has quit [Quit: Page closed]
+15:09 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+15:09 -!- georgidimov [3edd9aba@gateway/web/freenode/ip.62.221.154.186] has joined #telerikacademy
+15:10 -!- georgidimov_ [3edd9aba@gateway/web/freenode/ip.62.221.154.186] has joined #telerikacademy
+15:20 -!- georgidimov [3edd9aba@gateway/web/freenode/ip.62.221.154.186] has quit [Quit: Page closed]
+15:24 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has quit [Ping timeout: 256 seconds]
+15:31 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has joined #telerikacademy
+15:37 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Read error: Connection reset by peer]
+15:47 -!- hackman [~HackMan@78.130.173.196] has joined #telerikacademy
+15:48 -!- hackman is now known as Guest5594
+15:48 -!- user99 [~IceChat77@78.130.186.99] has joined #telerikacademy
+15:49 -!- Informer [Informer@78.90.229.234] has quit [Quit: C ya!]
+16:01 -!- KacanuH [~Deyan@46.249.92.240] has joined #telerikacademy
+16:12 -!- ncuxoto [54eee159@gateway/web/freenode/ip.84.238.225.89] has quit [Quit: Page closed]
+16:16 -!- Deyan__ [~Deyan@46.249.92.240] has joined #telerikacademy
+16:19 -!- georgidimov_ [3edd9aba@gateway/web/freenode/ip.62.221.154.186] has quit [Ping timeout: 250 seconds]
+16:19 -!- Deyan__ [~Deyan@46.249.92.240] has quit [Client Quit]
+16:27 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has quit [Ping timeout: 276 seconds]
+16:28 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has joined #telerikacademy
+16:29 -!- KacanuH [~Deyan@46.249.92.240] has quit [Ping timeout: 264 seconds]
+16:37 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has quit [Ping timeout: 248 seconds]
+16:49 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has joined #telerikacademy
+17:14 -!- edrenchev [~edrenchev@95.111.112.62] has joined #telerikacademy
+17:17 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has quit [Read error: Operation timed out]
+17:20 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has joined #telerikacademy
+17:35 -!- edrenchev [~edrenchev@95.111.112.62] has quit [Quit: Leaving]
+17:43 -!- villy [~villy@87.97.192.85] has joined #telerikacademy
+17:43 < villy> dencho , tuk li si?
+17:43 -!- villy is now known as ViLKaTa
+17:44 < dencho> da
+17:44 < dencho> gledam edni videa ot coursearea
+17:44 < dencho> coursera de
+17:44 < dencho> :D
+17:55 -!- Zoryan [~quassel@46.10.105.136] has joined #telerikacademy
+17:56 < Zoryan> test one...
+17:56 < Zoryan> тест кирилица
+17:57 -!- Zoryan [~quassel@46.10.105.136] has left #telerikacademy []
+17:57 -!- Zoryan [~quassel@46.10.105.136] has joined #telerikacademy
+17:58 < ViLKaTa> Колко IRC клиента има... OMG .. Не е кат едно време mIRC и BitchX
+18:10 < Zoryan> клинети много.... кой каквито си иска :)
+18:10 < Zoryan> и преди имаше много (1997-99 година), ама се ползваха само 2-3 и техни деривати
+18:23 -!- KacanuH [~Deyan@46.249.92.240] has joined #telerikacademy
+18:27 -!- KacanuH [~Deyan@46.249.92.240] has quit [Read error: Operation timed out]
+18:29 -!- Guest5594 [~HackMan@78.130.173.196] has quit [Ping timeout: 256 seconds]
+18:30 -!- botlike [~botlike@185.7.217.1] has quit [Quit: Ex-Chat]
+18:51 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+19:04 -!- angie_bg [~angie@77.236.189.210] has joined #telerikacademy
+19:04 -!- ViLKaTa [~villy@87.97.192.85] has quit [Remote host closed the connection]
+19:28 -!- angie_bg [~angie@77.236.189.210] has left #telerikacademy []
+19:47 -!- Zoryan [~quassel@46.10.105.136] has quit [Remote host closed the connection]
+20:42 -!- ivzb [~ivzb@92.62.251.121] has joined #telerikacademy
+20:42 < ivzb> whats up guys :D
+20:43 -!- ivzb [~ivzb@92.62.251.121] has quit [Client Quit]
+21:03 -!- sto|fringe [~chatzilla@94.26.85.140] has quit [Remote host closed the connection]
+22:04 -!- Plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+22:04 -!- Plamer [~Plamer@84.40.92.7] has quit [Client Quit]
+22:05 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+22:25 -!- edrenchev [~chatzilla@95.111.112.62] has joined #telerikacademy
+22:31 < samy> http://www.twitch.tv/teamliquidnet
+22:31 < samy> spam spam spam!!!!
+22:37 -!- edrenchev [~chatzilla@95.111.112.62] has quit [Quit: ChatZilla 0.9.90 [Firefox 17.0.7/20130625212929]]
+22:52 -!- AndChat|2004 [~McNamee@213.226.63.159] has joined #telerikacademy
+22:56 -!- DamnTheLuck [5d98be26@gateway/web/freenode/ip.93.152.190.38] has quit [Ping timeout: 250 seconds]
+23:07  * dencho slaps samy around a bit with a large trout
+23:07 < dencho> kvi sa tiq igri brq :D
+23:08 < samy> :D
+23:08 < samy> brood war
+23:08 < dencho> super qko, mai az sam edinstveniq invalid koito ne moje da igrae nito edna igra :D
+23:23 -!- plamer [~Plamer@84.40.92.7] has quit [Ping timeout: 246 seconds]
+23:25 -!- AndChat|2004 [~McNamee@213.226.63.159] has quit [Ping timeout: 276 seconds]
+23:25 -!- AndChat|2004 [~McNamee@213.226.63.159] has joined #telerikacademy
+23:31 -!- AndChat|2004 [~McNamee@213.226.63.159] has quit [Quit: Bye]
+23:35 -!- Deyan_at_home [~Deyan@46.249.92.240] has joined #telerikacademy
+23:54 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy

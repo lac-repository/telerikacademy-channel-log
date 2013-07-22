@@ -1,0 +1,653 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:08] <vhristev> за да го пуснеш ти трябват 2 команди
+[00:00:14] <vhristev> apt-get install mysecureshell
+[00:00:21] <vhristev> usermode -s /bin/MySecureshell USER
+[00:00:33] <vhristev> ssh user@host
+[00:01:44] <anton_sh> не, имах предвид че не знам как да писка ssh в дебъг моде
+[00:01:57] <anton_sh> за да видя къде гърми
+[00:03:19] <vhristev> едитваш /etc/ssh/sshd_config
+[00:03:26] <vhristev> LogLevel DEBUG
+[00:03:34] <vhristev> слагаш тоя ред там
+[00:03:37] <vhristev> и после релоадваш
+[00:03:53] <vhristev> /etc/init.d/sshd reload
+[00:04:19] <vhristev> след това виж логовете /var/log/ secure , auth , messages , syslog
+[00:04:37] <vhristev> нз в кой точно логваш
+[00:05:44] <anton_sh> еми добре но ще е утре за съжаление
+[00:05:53] <anton_sh> прецаках си ssh-a
+[00:06:02] <anton_sh> и сега нямам достъп
+[00:06:28] <vhristev> драсни би трябвало да съм тук
+[00:06:34] <vhristev> ако не пиша значи имам работа
+[00:06:34] <vhristev> хаахах
+[00:07:43] <anton_sh> ее как ме е яд
+[00:07:54] <anton_sh> край с мъките за днес
+[00:07:56] <anton_sh> утре пак
+[00:07:57] <anton_sh> :П
+[00:09:07] <vhristev> късно е утре рано на бистър акъл
+[00:09:17] <anton_sh> мдам
+[00:09:18] <vhristev> ще видиш как за 15 мин ще го пуснеш
+[00:09:33] <anton_sh> хайде лека от мен и благодаря все пак
+[00:09:38] <vhristev> просто вечер си изтощен и 2 часа се въртиш в кръг
+[00:09:42] <vhristev> Лека
+[00:09:44] <anton_sh> имах и още един въпрос но отпада за сега
+[00:09:45] <anton_sh> :Д
+[00:09:50] <vhristev> пусни
+[00:10:21] <anton_sh> какво да пусна?
+[00:10:40] <vhristev> въпроса
+[00:10:43] <anton_sh> ааа
+[00:11:02] <anton_sh> ами има нещо като тимеоут явно не не можах да го открия къде е
+[00:11:17] <vhristev> за кое говорим за сесията на SSH
+[00:11:27] <anton_sh> защото се връзвам с filezilla-та към сървъра
+[00:11:39] <anton_sh> и ако не го пипам 2 мин
+[00:12:26] <anton_sh> и после
+[00:12:33] <vhristev> имаш един keepaliveinterval
+[00:12:39] <vhristev> само ,че и клиента може да го сетва също
+[00:12:49] <vhristev> с цел примено да седнеш някъде и да не си забравиш конзолата
+[00:13:00] <vhristev> тъйче може да си е настройка на файлзилата
+[00:13:10] <anton_sh> не е
+[00:13:15] <anton_sh> защото се връзвам
+[00:13:28] <anton_sh> към дриги фтп-та и това го няма като проблем
+[00:14:02] <anton_sh> някак си все едно забва...мачи се да се сварже още 2 мин и ми изписва че не може
+[00:14:10] <anton_sh> след това пак опитвам
+[00:14:14] <anton_sh> и става
+[00:14:27] <anton_sh> винаги се повтаря този цикъл
+[00:14:35] <vhristev> сега като пуснеш  ССХ в дебъг ще може и това да видиш
+[00:14:52] <vhristev> това ми е правило нещо случва ли се с ССХ-а го пускам в дебъг и гледам
+[00:15:05] <anton_sh> ок ще пробвам утре
+[00:15:07] <vhristev> погледни и ССХ сървъра за Киийп алайва
+[00:15:15] <vhristev> може да е сетнат на съмият сървър
+[00:15:26] <anton_sh> разбрах
+[00:15:45] <anton_sh> мерси за инфото
+[00:15:59] <vhristev> за нищо
+[00:16:08] <anton_sh> хайде вече да лягам, че утре дълъг ден
+[00:16:16] <anton_sh> лека :)
+[00:16:17] <tuxar> И аз да питам нещо.
+[00:16:36] <tuxar> Пиша по  9. Create a job definition file for serial console with UpStart.
+[00:17:26] <tuxar> Създавам си /etc/init/serial-ttyS1.conf
+[00:18:11] <tuxar> който изпълнява exec /sbin/agetty /dev/ttyS1 115200 vt100-nav
+[00:19:14] <tuxar> в /etc/init има и друг tty1 файл
+[00:20:13] <tuxar> Въпросът ми е дали ще се карат за достъп на серийния порт и кой кого ще припокрие?
+[00:21:06] <tuxar> Средата е Ubuntu 12.04
+[00:21:45] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 240 seconds
+[00:22:21] <vhristev> ммм трябва да го погледна
+[00:22:31] <vhristev> което ще стане утре ,че жената е бясна
+[00:24:25] <tuxar> доволна жена = щастлива къща ;-)
+[00:24:42] <tuxar> трябват ни приоритети
+[00:25:02] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[00:28:43] martin__ (~martin@client-33-170.speedy-net.bg) joined #telerikacademy.
+[00:29:10] martin__ (~martin@client-33-170.speedy-net.bg) left irc: Client Quit
+[00:30:18] Deyan_ (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[00:30:36] milev (~martin@client-33-170.speedy-net.bg) joined #telerikacademy.
+[00:32:26] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[00:38:55] milev (~martin@client-33-170.speedy-net.bg) left irc: Remote host closed the connection
+[00:43:15] milev (~martin@client-33-170.speedy-net.bg) joined #telerikacademy.
+[00:59:05] plamer (~plamen@84.40.92.7) left irc: Quit: Leaving
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:19:05] <yulimoto_away> phalaaxx: ?
+[01:26:49] <phalaaxx> yulimoto_away
+[01:30:02] <yulimoto_away> гледам гризлито ssh_exchange_identification: Connection closed by remote host
+[01:30:10] <yulimoto_away> е доста затруднено
+[01:30:31] <yulimoto_away> и реших, че може да ти е интересно
+[01:31:28] Jedy (~opera@85.196.188.53) left #telerikacademy.
+[01:32:02] tuxar (5e45fb53@gateway/web/freenode/ip.94.69.251.83) left irc: Ping timeout: 250 seconds
+[01:33:50] <phalaaxx> амии не знам, не съм го гледал скоро
+[01:33:58] <phalaaxx> опитвам се да си напиша домашното :))
+[01:34:13] <yulimoto_away> :) ок
+[01:34:32] <yulimoto_away> аз май утре сутринта ще го пиша
+[01:52:54] Deyan_ (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[01:58:36] <phalaaxx> добреее, май го направих :)
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:22:22] vhristev (~vhristev@77.70.112.88) left irc: Ping timeout: 240 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:05:10] milev (~martin@client-33-170.speedy-net.bg) left irc: Quit: Leaving
+[03:25:07] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:41:54] agit0 (~agit0@95.111.18.140) left irc: Quit: Leaving
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:12:46] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[08:13:04] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[08:21:48] vhristev (~vhristev@77.70.112.88) joined #telerikacademy.
+[08:22:39] <vhristev> morning
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:03:13] nlkl (~nlkl@nat110.cnsys.bg) joined #telerikacademy.
+[09:04:32] istefanov (4e534022@gateway/web/freenode/ip.78.83.64.34) joined #telerikacademy.
+[09:05:46] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[09:17:08] nlkl (~nlkl@nat110.cnsys.bg) left irc: Ping timeout: 268 seconds
+[09:20:32] <KpeTeHoug> дубриутру
+[09:26:55] nlkl (~nlkl@nat110.cnsys.bg) joined #telerikacademy.
+[09:26:58] net: connect! sock 3
+[09:26:58] DNS resolved 127.0.0.1 to localhost
+[09:26:58] Telnet connection: localhost/44406
+[09:26:58] net: connect! sock 9
+[09:26:58] net: eof!(read) socket 9
+[09:26:58] Timeout/EOF ident connection
+[09:27:27] DNS resolve failed for 192.168.56.1
+[09:27:27] DCC connection: CHAT (KpeTeHoug!~GT@212.36.13.10)
+[09:27:36] Logged in: KpeTeHoug (telnet@localhost/44406)
+[09:27:38] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[09:27:38] Writing user file...
+[09:27:38] Writing channel file...
+[09:27:38] Rehashing ...
+[09:27:38] Writing channel file...
+[09:27:38] Listening at telnet port 3333 (all).
+[09:27:38]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[09:27:38] UDEF: chanstats defined
+[09:27:38] 14<chanstats> version 1.3.0 by arfer loaded
+[09:27:38] UDEF: seend defined
+[09:27:38] Seend 1.8.3 loaded!
+[09:27:38] Loading dccwhois.tcl...
+[09:27:38] Loaded dccwhois.tcl
+[09:27:38] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[09:27:38] use '.help userinfo' for commands.
+[09:27:38] Writing channel file...
+[09:27:38] Userfile loaded, unpacking...
+[09:28:00] tcl: builtin dcc call: *dcc:convertlogs KpeTeHoug 6 
+[09:28:12] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 6 
+[09:28:19] tcl: builtin dcc call: *dcc:makeindexpage KpeTeHoug 6 
+[09:28:30] net: connect! sock 9
+[09:28:30] net: eof!(read) socket 9
+[09:28:30] Lost dcc connection to KpeTeHoug (~GT@212.36.13.10/1024)
+[09:30:19] DCC connection closed (KpeTeHoug!telnet@localhost)
+[09:35:48] Informer (~Informer@83.228.55.109) joined #telerikacademy.
+[09:46:28] net: connect! sock 3
+[09:46:28] DNS resolved 127.0.0.1 to localhost
+[09:46:28] Telnet connection: localhost/44408
+[09:46:28] net: connect! sock 9
+[09:46:28] net: eof!(read) socket 9
+[09:46:28] Timeout/EOF ident connection
+[09:46:33] Logged in: KpeTeHoug (telnet@localhost/44408)
+[09:46:36] tcl: builtin dcc call: *dcc:die KpeTeHoug 6 brb reset logs
+[09:46:39] Writing user file...
+[09:46:39] Writing channel file...
+[09:46:39] * DIE BY KpeTeHoug!telnet@localhost (brb reset logs)
+[09:46:57] Seend data restored.
+[09:46:57] main: entering loop
+[09:46:58] DNS resolved irc.freenode.net to 193.219.128.49
+[09:46:58] net: connect! sock 7
+[09:47:14] Telerik joined #telerikacademy.
+[09:50:08] <KacanuH> добро утро,
+[09:50:14] <KpeTeHoug> добро
+[09:50:52] <KacanuH> гледам от снощи нищо не се е случвало
+[09:52:18] <KpeTeHoug> не съм гледал тая нощ логовете, не мога да доложа
+[09:52:18] <KpeTeHoug> :)
+[09:55:03] vhristev_alt (~vhristev@216.144.241.24) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:48] Nick change: vhristev_alt -> vhristev_work
+[10:02:01] <Informer> Добро да бъде ;)
+[10:02:11] <vhristev_work> (;
+[10:04:41] <vhristev_work> добро да е
+[10:17:04] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[10:17:37] <Informer> Колеги, има ли някой без никакви коментари на първото домашно?
+[10:18:31] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) left irc: Client Quit
+[10:22:26] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Ping timeout: 250 seconds
+[10:29:53] <KpeTeHoug> dencho май нямаше
+[10:29:59] <KpeTeHoug> аз имам само 1 :(
+[10:33:07] Rosenn (5e9b7c22@gateway/web/freenode/ip.94.155.124.34) joined #telerikacademy.
+[10:33:43] Rosenn (5e9b7c22@gateway/web/freenode/ip.94.155.124.34) left irc: Client Quit
+[10:37:12] hackman (~HackMan@management.1h.com) joined #telerikacademy.
+[10:40:14] Action: KpeTeHoug  Sticks this@}>--'--,--'---  up  hackman 's butt and I hope the Thorn sticks you in the  (_(_)
+[10:40:26] <KpeTeHoug> lol
+[10:40:34] <KpeTeHoug> как се спира тая напаст wall chat
+[10:41:00] <hackman> KpeTeHoug: mesg n
+[10:41:02] <hackman> :)
+[10:41:07] <hackman> споко
+[10:41:22] <hackman> аз сега ще спра машинката, че забравих да направя snapshot-а вчера :)
+[10:41:30] <KpeTeHoug> а
+[10:41:35] <KpeTeHoug> ние решихме че си напраил
+[10:41:39] <KpeTeHoug> *направил
+[10:41:46] <KpeTeHoug> че имаше някакви драми с достъпа
+[10:42:50] <hackman> не е било от мен
+[11:14:54] timer: drift (lastmin=44, now=14)
+[11:14:54] timer: drift (lastmin=45, now=14)
+[11:14:54] timer: drift (lastmin=46, now=14)
+[11:14:54] timer: drift (lastmin=47, now=14)
+[11:14:54] timer: drift (lastmin=48, now=14)
+[11:14:54] timer: drift (lastmin=49, now=14)
+[11:14:54] timer: drift (lastmin=50, now=14)
+[11:14:54] timer: drift (lastmin=51, now=14)
+[11:14:54] timer: drift (lastmin=52, now=14)
+[11:14:54] timer: drift (lastmin=53, now=14)
+[11:14:54] timer: drift (lastmin=54, now=14)
+[11:14:54] timer: drift (lastmin=55, now=14)
+[11:14:54] timer: drift (lastmin=56, now=14)
+[11:14:54] timer: drift (lastmin=57, now=14)
+[11:14:54] timer: drift (lastmin=58, now=14)
+[11:14:54] timer: drift (lastmin=59, now=14)
+[11:14:54] timer: drift (lastmin=0, now=14)
+[11:14:54] timer: drift (lastmin=1, now=14)
+[11:14:54] timer: drift (lastmin=2, now=14)
+[11:14:54] timer: drift (lastmin=3, now=14)
+[11:14:54] timer: drift (lastmin=4, now=14)
+[11:14:54] timer: drift (lastmin=5, now=14)
+[11:14:54] timer: drift (lastmin=6, now=14)
+[11:14:54] timer: drift (lastmin=7, now=14)
+[11:14:54] timer: drift (lastmin=8, now=14)
+[11:14:54] timer: drift (lastmin=9, now=14)
+[11:14:54] timer: drift (lastmin=10, now=14)
+[11:14:54] timer: drift (lastmin=11, now=14)
+[11:14:54] timer: drift (lastmin=12, now=14)
+[11:14:54] timer: drift (lastmin=13, now=14)
+[11:14:54] (!) timer drift -- spun 30 minutes
+[11:14:54] <KpeTeHoug> не, аз гелдам че са писали по форумите
+[11:14:54] <hackman> 10min
+[11:17:34] Seend data restored.
+[11:17:34] main: entering loop
+[11:17:35] DNS resolved irc.freenode.net to 213.232.93.3
+[11:17:35] net: connect! sock 7
+[11:17:51] Telerik joined #telerikacademy.
+[11:17:55] <KpeTeHoug> опс :)
+[11:18:46] <KpeTeHoug> hackman колко домашни бяха предадени за предната лекция
+[11:18:50] <KpeTeHoug> чисто информативно
+[11:19:54] <hackman> KpeTeHoug: съжалявам, но системата не ми дава възможност да ти кажа
+[11:19:58] <hackman> трябва да ходя на ръка да ги броя
+[11:20:02] <hackman> което няма да стане :)
+[11:20:07] <KpeTeHoug> а не мерси
+[11:20:11] <hackman> около 300 бяха
+[11:20:14] Teler1k (~Telerik@wolf.yuhu.biz) joined #telerikacademy.
+[11:20:18] <KpeTeHoug> мислех че има възможност, затова питам
+[11:20:32] <KpeTeHoug> чек че crontaba ми сцепи по късно
+[11:20:33] <KpeTeHoug> :)
+[11:20:36] <KpeTeHoug> и имаме 2 бота
+[11:20:41] <KpeTeHoug> раздвоение на личността
+[11:21:25] Teler1k (~Telerik@wolf.yuhu.biz) left irc: Remote host closed the connection
+[11:22:04] <hackman> KpeTeHoug: довечера ще разбереш как да си направиш locking :)
+[11:22:10] <hackman> за да не се получава това
+[11:22:19] <KpeTeHoug> :) по скоро през уикенда
+[11:22:23] <KpeTeHoug> като седна да гледам :)
+[11:22:34] <KpeTeHoug> че вечер ми е малко зор с времето :)
+[11:26:38] Nick change: KpeTeHoug -> KpeTeHoug|afk
+[11:31:24] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[11:31:32] <dencho-at-work> yo mada faka
+[11:31:45] <vhristev_work> Йо
+[11:31:56] <s0ny123> добрутру
+[11:32:04] <vhristev_work> ми чи то обяд бе братко
+[11:32:12] <vhristev_work> ама както казах вчера който както го чуства
+[11:32:13] <dencho-at-work> imam ve4e...
+[11:32:21] <s0ny123> е като ставаш преди малко... :D
+[11:32:23] <dencho-at-work> komentati na doma6noto, no edin priqtel nqma6e
+[11:32:38] <dencho-at-work> Informer ako 4ete loga da go pro4ete :P~
+[11:32:55] <dencho-at-work> dneska osobeno dobre mi se polu4avat ne6tata - dovolen sam ot sebe si
+[11:33:10] <dencho-at-work> KpeTeHoug|afk: i az imam samo 1 :D
+[11:34:35] <yulimoto_away> вчера имаше лек наплив, че машинката взе да отказва ssh
+[11:35:04] <hackman> yulimoto_away: какъв наплив бе ?
+[11:35:11] <dencho-at-work> ot kuv zor?
+[11:35:43] <s0ny123> въпрос... ако направя нещо от сорта на 'cat bla.txt | more', как да взема само bla.txt в следващата команда?
+[11:35:55] <s0ny123> мога да направя vi !$ ама това взима само последното т.е. more
+[11:36:07] <s0ny123> има ли да кажа само първия аргумент или нещо такова?
+[11:36:24] <yulimoto_away> hackman: ами взе да отказва ssh отказваше ot remote host и като погледах нетстат 4 екрана порт 22 connection
+[11:37:24] <hackman> хахахахахаха :) flooders :)
+[11:37:30] <yulimoto_away> мдааа
+[11:37:49] <yulimoto_away> до бас държа, че са чайна
+[11:39:25] <hackman> yulimoto_away: няма да разберем :)
+[11:42:26] <yulimoto_away> hackman: ами аз и не държа. не е лошо да има такива неща на учебен сървър, да се види как е що е, от страна на защитаващия сървъра
+[11:43:12] <hackman> yulimoto_away: тъй като сме през NAT IP-то което се вижда е на машината където е NAT-a :)
+[11:53:46] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:54:52] <vhristev_work> s0ny123, я дай малко повече инфо какво точно искаш да направиш
+[11:55:40] <s0ny123> да взема само 2рото(тоест първия аргумент) от предната команда
+[11:55:55] <s0ny123> нали као напиша cat bla.txt | more
+[11:55:57] <vhristev_work> аргумент или ред
+[11:56:00] <vhristev_work> head -1
+[11:56:03] <s0ny123> и после искам да отворя само бла в vi
+[11:56:29] <vhristev_work> cat bla.txt | more | head -1
+[11:56:59] <vhristev_work> само не разбрах в bla.txt РЕДА ли ти трябва или "Арг1 арг2 арг3"
+[11:57:00] <s0ny123> ц не се разбираме, хич не ме бива да си обяснявам проблемите :D
+[11:57:11] <vhristev_work> и да вземеш само арг1
+[11:57:31] <vhristev_work> cat bla.txt | more | awk '{print $1}'
+[11:57:45] <s0ny123> не не примерно като напиша cat bla.txt, след това мога да напиша vi !$ и ще ми отвори файла във vim
+[11:57:45] <vhristev_work> това ще ти принтне 1вият аргумент
+[11:58:10] Jedy (~opera@46.238.49.41) joined #telerikacademy.
+[11:58:23] <s0ny123> са обаче ако има накрая едно | more , т.е. cat bla.txt | more
+[11:58:40] <s0ny123> мога ли по подобен начин да си отворя bla.txt във едитора
+[11:59:23] <vhristev_work> :read !cat myfile1.txt | awk 'print $1'
+[11:59:28] <vhristev_work> това от вима устройва ли те
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:03:50] <s0ny123> а кул мерси
+[12:04:08] <vhristev_work> а защо го катваш и после море
+[12:04:17] <vhristev_work> може диретно  more file.txt ...
+[12:04:21] <vhristev_work> има ли идея от кат-а ?
+[12:07:24] <s0ny123> мне просто примерно казвам
+[12:08:08] <hackman> s0ny123: аз те разбрах
+[12:08:11] <hackman> НО
+[12:08:24] <hackman>  | се използва за разделяне на един процес от друг
+[12:08:39] <hackman> на практика всичко преди | е един процес а всичко след | е друг процес
+[12:08:51] <hackman> т.е. имаш един bash от ляво и напълно различен от дясно
+[12:09:00] <hackman> в дясно получаваш само STDIN
+[12:09:24] <hackman> на практика така не можеш да вземеш информация от първият процес
+[12:09:38] <hackman> единственият начин е предварително да export-неш environment variable
+[12:10:04] <hackman> примерно:
+[12:10:04] <hackman> export a=bla.txt; cat $a|vi $a
+[12:11:46] <s0ny123> а мерси
+[12:18:25] <dencho-at-work> mnoo qki bani4ki si kupih pa ne znam za vas
+[12:18:26] <dencho-at-work> :D
+[12:18:36] <s0ny123> хаха от къде?
+[12:18:54] <dencho-at-work> дървеница :)
+[12:19:37] <s0ny123> пф далече ми е за 1ната баница
+[12:19:59] <vhristev_work> ние сме на трици
+[12:20:38] <dencho-at-work> mi... dove4era da ti vzema edna ?
+[12:20:41] <dencho-at-work> ako ima :D
+[12:23:35] <s0ny123> хаха мазни банички около компютри...blasphemy
+[12:24:34] <dencho-at-work> qko a
+[12:24:38] <dencho-at-work> :)
+[12:25:06] <dencho-at-work> 6a sednem pred hackman i 6a qdem banici
+[12:25:06] <dencho-at-work> :D
+[12:26:34] <hackman> а аз ще ви плюя с лигите си :)
+[12:27:51] <dencho-at-work> nqma lo6o :]
+[12:27:54] <dencho-at-work> http://www.linux-bg.org/forum/index.php?topic=45075
+[12:29:43] <dencho-at-work> Аз май не познавам програмист (особено от мъжки пол, за няколко колежки от университета имам съмнения), който да не умее да псува като каруцар.
+[12:29:45] <dencho-at-work> ahahhahahahaha
+[12:29:49] <dencho-at-work> true true
+[12:31:23] <s0ny123> линус е мн луд, мега забавно беше като на някакво Q&A показа среден пръст за  NVIDIA
+[12:33:04] <dencho-at-work> ghaha
+[12:43:16] <vhristev_work> колегиии айде обяд е
+[12:43:32] <dencho-at-work> az qdoh
+[12:43:51] <vhristev_work> две кебабчета картофки и 2 бири след това идва момента
+[12:44:00] <vhristev_work> Сънувам кодя събуждам се аз наистина кодя
+[12:44:00] <vhristev_work> хахаха
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:31:09] istefanov (4e534022@gateway/web/freenode/ip.78.83.64.34) left irc: Quit: Page closed
+[14:39:46] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:40:37] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[14:40:47] Nick change: phalaaxx1 -> phalaaxx
+[14:45:14] <phalaaxx> имало е въпрос по-рано дали има някой без коментар на първото домашно - аз си нямам коментар :)
+[14:46:07] <s0ny123> мда и аз
+[14:48:14] <dencho-at-work> i brahman :)
+[14:48:49] <phalaaxx> а второто ще го оплескам от мързел, направих си го на Debian и ще има някои малки разлики спрямо CentOS
+[14:48:49] <phalaaxx> ако не си намеря root акаунт за инсталиран  CentOS - няма да мога да си тунинговам отговора :D
+[14:49:57] <vhristev_work> това за днес ли ти трябва
+[14:50:08] <vhristev_work> защото планирам тия дни да седна и да предоставя виртуалки за хората
+[14:50:26] <vhristev_work> цяла виртуалка за 1 човек с руут и всичко
+[14:51:58] s0ny123 (~agit0@95.111.18.140) left irc: Remote host closed the connection
+[14:52:39] <hackman> phalaaxx: то вече има root за grizzly :) само не го троши
+[14:53:22] <dencho-at-work> da o4akvame li sled malko da spre servera
+[14:53:22] <dencho-at-work> ;d
+[14:53:37] <dencho-at-work> neka predstartnoto broene zapo4ne sega... :D
+[14:55:14] <phalaaxx> ахаа не знаех, ами може там да взема да го настроя но ще трябва да бутна апача за малко :)
+[14:55:21] <phalaaxx> че писах upstart job за apache
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:01:59] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[15:07:10] <phalaaxx> еее не е честно, в CentOS не ми трябват variables за да го запаля а най-много време изгубих именно за това :D
+[15:07:31] <phalaaxx> в Debian някои неща от конфигурацията са в environment
+[15:07:46] <phalaaxx> чувствам се прецакан :D
+[15:08:18] <hackman> phalaaxx: имай предивд, че apache-a беше инсталиран от пакет ;)
+[15:08:25] <phalaaxx> ще си оставя там променливите, нищо че не се ползват - все пак да се вижда и как се подават променливи през upstart
+[15:08:50] <phalaaxx> и моя на Debian си е от пакет
+[15:09:35] <phalaaxx> въпроса е че в Debian има някои неща, примерно "User ${APACHE_RUN_USER}" в конфигурационния файл
+[15:09:48] <phalaaxx> а в CentOS-а си е заковано на "User apache"
+[15:16:27] <phalaaxx> няма как да му кажа да запали след network devices и local filesystems например, явно има още какво да се желае от upstart в CentOS
+[15:16:53] <phalaaxx> очевидно са го сложили колкото да работи и го ползват замо да им стартира init.d скриптовете :)
+[15:20:25] <phalaaxx> ооо то върви с upstart 0.6.5 :-(
+[15:31:08] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) joined #telerikacademy.
+[15:53:59] vhristev (~vhristev@77.70.112.88) left #telerikacademy ("Leaving").
+[15:56:31] Nick change: vhristev_work -> vhristev
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:09:01] <yulimoto_away> няма такива идиотщинa като unity
+[17:09:10] user99 (~McNamee@78.130.186.99) joined #telerikacademy.
+[17:10:38] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) left irc: Ping timeout: 250 seconds
+[17:13:16] <dencho-at-work> да
+[17:18:15] user99 (~McNamee@78.130.186.99) left irc: Ping timeout: 240 seconds
+[17:22:46] lyubenblagoev (~lyubenbla@ip-163-36.powernet.bg) joined #telerikacademy.
+[17:31:40] lyubenblagoev (~lyubenbla@ip-163-36.powernet.bg) left irc: Ping timeout: 276 seconds
+[17:31:52] <phalaaxx> unity - въпрос на навик е прадимно
+[17:31:52] <phalaaxx> хубава шаренийка и при определени условия даже е удобно
+[17:31:52] <phalaaxx> но досега не е имало случай в който да го ползвам и да няма нещо, което да ме издразни фатално :D да не си помисли някой че го защитавам
+[17:34:51] <yulimoto_away> сега му убирам шукариите, поне да прилича на gnome-shell
+[17:35:48] <yulimoto_away> малко
+[17:37:01] <yulimoto_away> но подкапака му гледам какви простотии пуска при старт и ми става гузно, че през шината ми минават такива глупости
+[17:37:21] <yulimoto_away> ;P
+[17:38:05] <dencho-at-work> budi nad tiq ne6ta
+[17:38:05] <dencho-at-work> :D
+[17:41:58] <yulimoto_away> да :)
+[17:42:34] <dencho-at-work> pak 6te hodq gladen na lekciata...
+[17:42:42] <dencho-at-work> nqma da e lo6o da razdavat mekici
+[17:42:43] <dencho-at-work> :D
+[17:46:16] <phalaaxx> къде из района може да се върже велосипед, някой има ли идея?
+[17:47:59] hackman (~HackMan@management.1h.com) left irc: Ping timeout: 248 seconds
+[17:49:31] <dencho-at-work> na metro stanciata trqbva da proverq i 6te ti kaja dove4era
+[17:49:42] <dencho-at-work> no sqka6 na pove4eto metrostancii sa naslagali
+[17:49:53] <dencho-at-work> pone na opalchenska ima :D
+[17:49:54] <dencho-at-work> haha
+[17:49:57] <phalaaxx> нее някъде около телерик имах предвид
+[17:49:59] <dencho-at-work> i na vardar mai
+[17:50:07] <dencho-at-work> e to metrostanciata e na 10 minuti pe6a
+[17:50:10] <phalaaxx> за какво ми е да идвам с колело и да ходя до метростанцията за да го вържа :D
+[17:50:22] <dencho-at-work> za da ti e po secure
+[17:50:23] <dencho-at-work> :P
+[17:50:45] <dencho-at-work> ka4i go v zalata we
+[17:50:48] <dencho-at-work> ili pred neq
+[17:50:48] <dencho-at-work> :D
+[17:50:50] <phalaaxx> ee da be siakash niakoi na metroto she go gleda
+[17:50:59] <dencho-at-work> ima kameri tam
+[17:51:03] <dencho-at-work> milicionera gleda
+[17:51:12] <vhristev> ама само гледа да знаеш
+[17:51:21] <phalaaxx> опа, нещо омешах клавиатурите :D
+[17:51:25] <dencho-at-work> :D
+[17:51:49] <s0ny123> днес ще си има livestream нали?
+[17:51:53] <dencho-at-work> da
+[17:51:57] <dencho-at-work> 6te ima
+[17:51:58] <s0ny123> че няма да мога да дойа и ми е гузно Л/
+[17:52:01] <dencho-at-work> ama mekici nqma da ima
+[17:52:12] <s0ny123> е мекици ще купим от софийска баница
+[17:52:13] <phalaaxx> nlkl: go go go (и да не си забравиш ключовете) :P
+[17:52:15] <s0ny123> на 5 мин от там е :D
+[17:52:33] user99 (~McNamee@213.226.63.143) joined #telerikacademy.
+[17:52:39] <dencho-at-work> :D
+[17:53:11] <vhristev> аз дефакто не съм се записал и днес ще ходя на място да видя може ли немож ели
+[17:53:18] <vhristev> я някой се е отказал съм му налазил мястото
+[17:54:06] <s0ny123> ти можеш да си стоиш и без това, просто няма да имаш бонус-а за присъствия
+[17:54:14] <s0ny123> май
+[17:54:51] <dencho-at-work> i otsustvia
+[17:56:00] <dencho-at-work> are az sabiram sergiata... do skoro
+[17:56:11] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:56:26] <phalaaxx> аз продължавам да имам проблем с място за паркиране на колело :D
+[17:56:45] user99 (~McNamee@213.226.63.143) left irc: Ping timeout: 240 seconds
+[17:58:45] Rewind_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:08:34] <KacanuH> Да бе и аз, за това идвам с колата
+[18:11:44] Rewind_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[18:13:00] hackman (~HackMan@89.190.207.11) joined #telerikacademy.
+[18:13:13] Nick change: hackman -> HackMan
+[18:32:23] svetlanla (259dabb4@gateway/web/freenode/ip.37.157.171.180) joined #telerikacademy.
+[18:33:05] svetlanla (259dabb4@gateway/web/freenode/ip.37.157.171.180) left #telerikacademy.
+[18:35:25] <HackMan> някой ще отвори ли stream-а да каже как е ?
+[18:35:45] <HackMan> http://www.twitch.tv/aziliann/
+[18:35:48] <s0ny123> линка как беше?
+[18:36:17] <s0ny123> супер е
+[18:36:26] <s0ny123> да
+[18:36:28] <s0ny123> перфектно
+[18:38:31] <HackMan> аз ще го спра преди началото на лекцията
+[18:48:06] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[18:49:57] tuxar (554b085e@gateway/web/freenode/ip.85.75.8.94) joined #telerikacademy.
+[18:52:05] DamnTheLuck (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:52:52] rewind_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:54:24] <tuxar> Привет!
+[18:54:26] phalaaxx1 (~bozhin@212.5.158.102) joined #telerikacademy.
+[18:54:54] poly (2eed5544@gateway/web/freenode/ip.46.237.85.68) joined #telerikacademy.
+[18:56:18] <s0ny123> привет :)
+[18:57:00] istefanov (4d4679a8@gateway/web/freenode/ip.77.70.121.168) joined #telerikacademy.
+[18:57:03] user99 (~McNamee@78.130.186.99) joined #telerikacademy.
+[18:57:06] <tuxar> Ще пробваме ли звук за лекцията?
+[18:57:46] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[18:58:29] <s0ny123> ми туко що беше он
+[18:58:31] <s0ny123> и беше перфе
+[18:59:04] <anton_sh> 3min more
+[18:59:05] <tuxar> http://www.twitch.tv/aziliann/ ми дава че е оффлине
+[18:59:05] <anton_sh> ;)
+[18:59:05] buddi (2eee2929@gateway/web/freenode/ip.46.238.41.41) joined #telerikacademy.
+[18:59:27] <tuxar> грешката в моя телевизор ли е?
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:03] <s0ny123> каза че ще го спре за малко преди лекцията
+[19:00:08] <tuxar> ок
+[19:00:23] silverboy (542875ae@gateway/web/freenode/ip.84.40.117.174) joined #telerikacademy.
+[19:00:25] <tuxar> дишам търпеливо 12 пъти ;-)
+[19:00:33] <silverboy> hi
+[19:00:50] <tuxar> хай
+[19:00:53] <s0ny123> айде он е
+[19:00:59] <tuxar> а,звук!
+[19:01:29] Nick change: phalaaxx1 -> phalaaxx|telerik
+[19:01:47] <istefanov> pri men zvuka e super
+[19:01:52] <silverboy> zvuk si ima
+[19:02:23] <buddi> май е малко пак силен звука, при вас как е?
+[19:02:41] <tuxar> да, малко по-тихо бих казал
+[19:03:25] phalaaxx1 (~bozhin@212.5.158.102) joined #telerikacademy.
+[19:03:26] <tuxar> hackman: кажи няколко изречения, моля
+[19:03:31] user99 (~McNamee@78.130.186.99) left irc: Quit: Bye
+[19:03:35] looser99 (John@78.130.186.99) joined #telerikacademy.
+[19:03:50] <tuxar> hackman: нещо мотивиращо ;-)
+[19:05:03] <tuxar> hackman:малко по-тихо сякаш
+[19:05:11] <looser99> силно е
+[19:06:04] phalaaxx|telerik (~bozhin@212.5.158.102) left irc: Ping timeout: 268 seconds
+[19:06:24] Nick change: phalaaxx1 -> phalaaxx|telerik
+[19:07:09] <tuxar> hackman: за мен  добре
+[19:07:10] <looser99> май е ок
+[19:07:11] <buddi> по добре
+[19:07:11] <TPB_> мен ми е ок
+[19:07:12] <silverboy> pri men e ok
+[19:07:12] <istefanov> chuden e pri men
+[19:07:27] <anton_sh> При мен се чува добре
+[19:07:51] Nick change: Jedy -> Ivaka
+[19:08:10] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:09:36] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:10:56] <istefanov> kak e imato na faila koito gledame ?
+[19:13:12] ivanoff (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:14:01] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[19:14:35] rewind_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:15:10] Nick change: yulimoto_away -> yulimoto
+[19:15:22] pitanka (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:15:47] <pitanka> здравейте, това кой файл е в момента
+[19:16:04] <buddi>   /etc/login.defs
+[19:16:35] <pitanka> имах предвид лекцията, тъй като в lection 2 не е същата инфо
+[19:21:46] MarianaB (~mariana@93.183.136.95) joined #telerikacademy.
+[19:25:29] [SG]Ivan (~ivan@78.130.173.196) joined #telerikacademy.
+[19:28:04] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[19:30:37] ivanoff (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:31:55] pitanka (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:51:56] <istefanov> kak set-vame s kolko da ni svalq mask-ata ?
+[19:52:14] <istefanov> tui kato ne vidqh
+[19:52:37] Ivaka (~opera@46.238.49.41) left #telerikacademy.
+[19:52:40] <istefanov> qsno e veche :)
+[19:53:43] FireSword (2eee2ec2@gateway/web/freenode/ip.46.238.46.194) joined #telerikacademy.
+[19:57:49] komadrin (~komadrin@wolf.yuhu.biz) joined #telerikacademy.
+[19:59:29] <yulimoto> HackMan: какво става  два хардлинкове на различни файлови с-ми ? Работят ли ? :)
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:05] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[20:01:15] <fityla> Все едно сме копирали файла ли?
+[20:05:53] [SG]Ivan (~ivan@78.130.173.196) left irc: Ping timeout: 268 seconds
+[20:28:15] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Ping timeout: 250 seconds
+[20:32:02] Jedy (~opera@85.196.188.53) joined #telerikacademy.
+[20:32:17] Nick change: Jedy -> Ivaka
+[20:43:57] gyankov (4e5abff5@gateway/web/freenode/ip.78.90.191.245) joined #telerikacademy.
+[20:49:05] <HackMan> аз ще спра stream-а за малко между лекциите
+[20:49:10] <HackMan> вие някакви въпроси ?
+[20:49:37] <tuxar> тишина засега ...
+[20:49:49] <MarianaB> Ще те сме тук след 10 мин : )
+[20:52:31] gyankov (4e5abff5@gateway/web/freenode/ip.78.90.191.245) left irc: Ping timeout: 250 seconds
+[20:53:49] buddi (2eee2929@gateway/web/freenode/ip.46.238.41.41) left irc: Ping timeout: 250 seconds
+[20:59:32] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:00:02] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[21:03:38] <tuxar> Yupii!!!
+[21:03:43] <komadrin> :)
+[21:03:46] <MarianaB> Тук смее :)
+[21:06:09] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[21:13:25] billy_ (~billy@213.226.63.180) joined #telerikacademy.
+[21:15:46] <komadrin> EXIT
+[21:15:51] komadrin (~komadrin@wolf.yuhu.biz) left irc: Quit: leaving
+[21:20:26] noreaga (4d463729@gateway/web/freenode/ip.77.70.55.41) joined #telerikacademy.
+[21:22:30] <TPB_> Как го викаме обратно на foreground?
+[21:24:41] noreaga (4d463729@gateway/web/freenode/ip.77.70.55.41) left irc: Client Quit
+[21:26:42] FireSword (2eee2ec2@gateway/web/freenode/ip.46.238.46.194) left irc: Quit: Page closed
+[21:27:19] Nick change: billy_ -> localhostbg
+[21:29:52] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[21:33:12] kamen779 (9e3ae2a3@gateway/web/freenode/ip.158.58.226.163) joined #telerikacademy.
+[21:33:50] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) joined #telerikacademy.
+[21:46:15] kamen779 (9e3ae2a3@gateway/web/freenode/ip.158.58.226.163) left irc: Ping timeout: 250 seconds
+[21:48:16] kamen779 (~kamen779@158-58-226-163.sf.ddns.bulsat.com) joined #telerikacademy.
+[21:48:16] kamen779 (~kamen779@158-58-226-163.sf.ddns.bulsat.com) left #telerikacademy.
+[21:48:33] istefanov (4d4679a8@gateway/web/freenode/ip.77.70.121.168) left irc: Quit: Page closed
+[21:51:35] Kamen (9e3ae2a3@gateway/web/freenode/ip.158.58.226.163) joined #telerikacademy.
+[21:56:13] plamer (~Plamer@84.40.92.7) joined #telerikacademy.
+[21:57:20] buddi (2eee2929@gateway/web/freenode/ip.46.238.41.41) joined #telerikacademy.
+[21:57:45] kamen779 (~kamen779@158-58-226-163.sf.ddns.bulsat.com) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:05:34] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:08:18] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:08:29] phalaaxx|telerik (~bozhin@212.5.158.102) left irc: Quit: Leaving.
+[22:08:42] <tuxar> Мерси много!
+[22:08:51] <silverboy> leka
+[22:09:12] silverboy (542875ae@gateway/web/freenode/ip.84.40.117.174) left irc: Quit: Page closed
+[22:09:18] <tuxar> Лека!
+[22:09:36] localhostbg (~billy@213.226.63.180) left irc: Read error: Connection reset by peer
+[22:11:14] <Kamen> Мерси!
+[22:11:23] DamnTheLuck (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[22:12:09] <kamen779> чао
+[22:12:13] kamen779 (~kamen779@158-58-226-163.sf.ddns.bulsat.com) left #telerikacademy.
+[22:12:50] <MarianaB> Има ли срок за проверка на домашните?
+[22:13:36] <HackMan> незнам :)
+[22:14:03] <yulimoto> хайде лека и полека :)
+[22:14:07] <HackMan> лека
+[22:14:09] <HackMan> отиваме на бири :)
+[22:14:22] <Ivaka> наздраве
+[22:14:26] <yulimoto> :P~
+[22:14:34] <MarianaB> аАА
+[22:14:41] <Deyan_> Хайде и от мен наздраве, днес ще пропусна
+[22:14:44] <MarianaB> И ние искаме бири :)
+[22:14:48] <MarianaB> Наздраве :)
+[22:14:51] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) left irc: Ping timeout: 250 seconds
+[22:14:53] <s0ny123> ех приятно :)
+[22:15:13] HackMan (~HackMan@89.190.207.11) left irc: Quit: Leaving.
+[22:15:43] Kamen (9e3ae2a3@gateway/web/freenode/ip.158.58.226.163) left irc: Ping timeout: 250 seconds
+[22:17:53] tuxar (554b085e@gateway/web/freenode/ip.85.75.8.94) left irc: Ping timeout: 250 seconds
+[22:18:02] <TPB_> Лека и от мен
+[22:18:09] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: trolololo
+[22:23:57] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Ping timeout: 250 seconds
+[22:26:18] samy_ (~samy@84.238.184.98) joined #telerikacademy.
+[22:26:23] <samy_> ohooo
+[22:26:25] <samy_> dobur wecher
+[22:26:38] <samy_> mnogo hora, mnogo neshto :}
+[22:30:56] <s0ny123> добра да е
+[22:31:38] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[22:37:21] Deyan_ (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[22:53:20] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[22:58:36] Nick change: phalaaxx1 -> phalaaxx_h
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:06:11] vhristev_ (~vhristev@77.70.112.88) joined #telerikacademy.
+[23:08:11] vhristev_ (~vhristev@77.70.112.88) left irc: Client Quit
+[23:10:29] poly (2eed5544@gateway/web/freenode/ip.46.237.85.68) left irc: Quit: Page closed
+[23:18:56] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[23:20:06] plamer (~Plamer@84.40.92.7) left irc: Quit: Leaving
+[23:21:36] s0ny123 (~agit0@95.111.18.140) left irc: Quit: Leaving
+[23:21:45] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[23:28:16] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:35:48] localhostbg (~billy@151.237.62.193) joined #telerikacademy.
+[23:41:35] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 248 seconds
+[23:54:46] localhostbg (~billy@151.237.62.193) left irc: Ping timeout: 240 seconds
+[00:00:00] --- Fri Jul 19 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...
