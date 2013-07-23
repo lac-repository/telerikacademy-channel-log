@@ -357,3 +357,50 @@
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
 [11:01:30] <yulimoto> KpeTeHoug: има, има последния комит е от gt 10:05:01 :)
+[11:05:47] <KpeTeHoug> найс
+[11:05:53] <KpeTeHoug> то сега трябва да направи нов
+[11:05:57] <KpeTeHoug> начи всичко е 6
+[11:06:02] <KpeTeHoug> аз направих и нов тар гз
+[11:06:08] <KpeTeHoug> след последните настройки
+[11:06:09] <KpeTeHoug> да има
+[11:26:40] <vhristev> Някой цъкал ли е Клауд
+[11:26:42] <vhristev> там има
+[11:26:54] <vhristev> IaaS - Infrastructure As A Service
+[11:27:01] <vhristev> PaaS - Platform As A Sercice
+[11:27:02] <vhristev> i t.n.
+[11:27:04] <vhristev> https://foaas.herokuapp.com/
+[11:27:12] <vhristev> foaas е най-новото
+[11:33:16] <yulimoto> сървиса на какво е писан ?
+[11:33:57] <vhristev> виж го там си има рийди ми
+[11:35:51] <KrasiGa> e dobre be, natisnah si na virtualkata ctrl+alt+f1, минах в конзола
+[11:36:16] <KrasiGa> и понеже не знаех как да изляза /исках да се върна на графична среда/ рестартирах  машината
+[11:36:36] <KrasiGa> и сега ми дава attemting to kill init
+[11:37:27] <yulimoto> Що не пробва ctrl+alt+f7
+[11:37:35] <yulimoto> mi restart
+[11:38:09] <yulimoto> vhristev: видях - кофи скрипт
+[11:38:18] <vhristev> https://foaas.herokuapp.com/pink/:Val
+[11:38:39] <KrasiGa> ami 4 pati restartiram
+[11:38:57] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[11:39:10] <KrasiGa> tragva da zarejda i spira do tozi msg
+[11:40:20] <KrasiGa> Kernel panic - not syncing : Attempting to kill init!
+[11:41:02] <yulimoto> според мен лошо,http://askubuntu.com/questions/92946/cannot-boot-because-kernel-panic-not-syncing-attempted-to-kill-init
+[11:41:20] <yulimoto> не съм се сблъсквал с това преди
+[11:42:33] <yulimoto> дано имаш снапшот
+[11:46:39] <KrasiGa> :( ami ne
+[11:47:27] <phalaaxx> какво пише преди attempting to kill init?
+[11:49:13] <KrasiGa> Memory for crash kernel (0x0 to 0x0) notwithin permissible range
+[11:49:43] <KrasiGa> warning: calibrate_APIC_clock: the APIC timer calibration may be wrong
+[11:50:22] <KrasiGa> na edno miasto pi6e No volume groups found
+[11:51:04] <KrasiGa> Unable to access  resume device (/dev/VolGroup///LogVol01)
+[11:51:04] plamer (~plamen@84.40.92.7) left irc: Quit: Leaving
+[11:57:47] <phalaaxx> амии заради групите е значи
+[11:57:53] <phalaaxx> LV-тата
+[11:58:10] <phalaaxx> не си вижда root device вероятно
+[11:58:26] <phalaaxx> предполагам де
+[11:58:26] <phalaaxx> ако можеш направи някой screenshot :)
+[11:59:49] <KrasiGa> kade da go pratia
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:01:13] <KrasiGa> napravih ama ne znam kade da ia ka4a
+[12:01:38] <phalaaxx> примерно тук: http://picpaste.com/
+[12:02:23] <KrasiGa> http://picpaste.com/CentOS-bYW8dYo5.png
