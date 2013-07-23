@@ -1043,3 +1043,146 @@
 [16:00:00] Writing channel file...
 [16:02:46] <KrasiGa> така. Направих си нова машина, сложих в браузъра проксито но сега ми търси юзер и пас за проксито
 [16:02:49] <KrasiGa> а такова вече нямам
+[16:05:01] <vhristev> Smart
+[16:05:23] <vhristev> аз бях правил нещо подобно набивам системно прокси през DHCP-to и задавам кое как да се auth пред него
+[16:05:33] <vhristev>  тоест имаш без пасс имаш и със пасс и така получаваш различни права
+[16:05:37] <vhristev> вече тук немога да ти помогна
+[16:05:49] <vhristev> защото нз нямам допир до системите ви
+[16:07:55] <vhristev> това вече се управлява от Group Policy-то и нямаш мн избор там
+[16:08:22] <KrasiGa> а на уиндоуса с firefox, IE i chrome portable не ми търси. но на chrome i opera ми иска authenticaion
+[16:08:27] _KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[16:08:30] <KrasiGa> na proxito
+[16:08:51] KpeTeHoug (~GT@212.36.13.10) left irc: Quit: The difference between friendship and love is how much you can hurt each other
+[16:08:52] <vhristev> защоо явно е селскнато да ползва системното което е набито през Домейн КОнтролера
+[16:09:04] Nick change: _KpeTeHoug -> KpeTeHoug
+[16:09:09] <vhristev> защото е Сетнато да ползва ...
+[16:09:13] <vhristev> бати изречението написах
+[16:09:23] <KrasiGa> razbrah te
+[16:09:55] <vhristev> съжалявам
+[16:09:55] <vhristev> );
+[16:10:13] Action: KpeTeHoug is away (laterz)
+[16:10:25] <vhristev> линукса може да го добавиш към домейн контролера
+[16:10:34] <vhristev> ама ще ти трябват креденшъли
+[16:12:13] <KrasiGa> kak?
+[16:12:17] Action: KpeTeHoug is away (laterz)
+[16:12:40] <KrasiGa> az sam domain admin taka, 4e
+[16:14:00] KpeTeHoug (~GT@13498.telnet.bg) left irc: Quit: changing servers
+[16:14:21] KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[16:14:37] <KpeTeHoug> сори за спама, опитвам тука едни рабти :
+[16:16:38] KpeTeHoug (~GT@13498.telnet.bg) left #telerikacademy.
+[16:16:38] KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[16:16:38] <vhristev> http://www.youtube.com/watch?v=Y3TFPDT9uic
+[16:17:46] <vhristev> Еми ако си АД админ виж дали набивате прокси през домейна
+[16:18:06] KpeTeHoug (~GT@13498.telnet.bg) left irc: Client Quit
+[16:18:17] <KrasiGa> proxito e configure ot sf
+[16:18:37] <KrasiGa> ina4e 10x za videoto
+[16:19:26] KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[16:19:45] Action: KpeTeHoug is away (laterz)
+[16:21:13] <vhristev> аз съм в софия къде да намина
+[16:21:14] <vhristev> хахаха
+[16:21:20] <vhristev> да им направя забеляжка
+[16:21:25] <vhristev> "Ама може ли такива неща бе колеги"
+[16:21:41] <vhristev> "GOd WHO THE F*CK ARE U"
+[16:21:41] <vhristev> gid
+[16:22:11] <KrasiGa>  бул. "Александър Стамболийски" № 62-64
+[16:22:33] <KrasiGa> намини до 17ч
+[16:22:35] <KrasiGa> :)
+[16:23:48] <vhristev> И после в мола за по кафе
+[16:23:49] <vhristev> хахаха
+[16:28:28] <KrasiGa> не е ли късно за кафе?
+[16:30:58] <vhristev> така е думата аз пия 1 кафе на ден
+[16:31:05] <vhristev> че ставам нервен и юзерите страдат
+[16:31:36] <KrasiGa> къде работиш? разбрахме, че си бил в HP
+[16:31:58] <vhristev> да напуснах ,че мн бюрокрация
+[16:31:59] <vhristev> не е важно
+[16:32:03] <vhristev> тайнствена фирма
+[16:32:04] <vhristev> (;
+[16:32:04] <KrasiGa> ok
+[16:32:07] <KrasiGa> :)
+[16:32:26] <vhristev> МОже да си е кръстиш фирма "Живко" и да си е отглеждаш
+[16:32:26] <vhristev> (
+[16:32:27] <vhristev> ;хаха
+[16:32:32] <vhristev> понякога имам странен хумор
+[16:35:28] <vhristev> дето се вика "Или ще свикнете или няма" хахаха
+[16:36:39] <Deyan> умчо Вълчо причакал Червената Шапчица и я завлякъл в храстите....
+[16:36:41] <Deyan> - Давай!
+[16:36:43] <Deyan> - Ама Кумчо Вълчо, ти си дърт и грозен....!
+[16:36:45] <Deyan> - Айде давай, ма...!
+[16:36:47] <Deyan> - Ама Кумчо Вълчо, много си голем бе, а я такава мъненка!
+[16:36:48] <Deyan> ... - Давай, ще се ядосам, ма...!
+[16:36:50] <Deyan> Червената Шапчица запретнала поличка, смъкнала
+[16:36:52] <Deyan> гащетата и се надупила.....
+[16:36:54] <Deyan> - Ама оооу..... я да не съм те довел тука да сереш ма, давай питката, че умрех от глад...
+[16:37:45] <vhristev> чай и знам един такъв
+[16:38:08] <vhristev> Вълка изкача от храста пред Червената поличка и вика .... Знаеш ли какво ще ти се случи
+[16:38:08] <Deyan> давай го
+[16:38:20] <vhristev> -Шапчицата се усмихнала до уши и казала аааааа какво какво
+[16:38:28] <vhristev> - Въкла: ИСкаш ли да видиш какв ще ти се случи
+[16:38:37] <vhristev> - И тя още по ухилена ми айде де докога ще те чакам
+[16:38:49] <vhristev> - Вълка ама ще е грубо
+[16:38:54] <vhristev> - червената Още по добре давай
+[16:39:15] <vhristev>  И вълка и счупил крака и двете ръце да не може да си носи патериците
+[16:39:28] <Deyan> хахаха
+[16:44:12] <vhristev> егати развързката
+[16:48:38] samy (~samy@79.100.236.213) left irc: Ping timeout: 264 seconds
+[16:49:31] <vhristev> кафето ми привършва скоро трябва да си ходя
+[16:49:31] <vhristev> (;
+[16:50:04] <KrasiGa> do 5 li si?
+[16:50:42] firstman (5e9b7c22@gateway/web/cgi-irc/kiwiirc.com/ip.94.155.124.34) joined #telerikacademy.
+[16:52:40] <KrasiGa> phalaaxx какво ми requestvash?
+[16:52:43] <phalaaxx> bind ftw
+[16:52:50] anton_dutsov (~prof@89.106.112.81) left irc: Ping timeout: 264 seconds
+[16:52:54] <phalaaxx> KrasiGa, хм?
+[16:53:01] <phalaaxx> какво правя?
+[16:53:36] <KrasiGa> eto tova vijdam: [16:49] phalaaxx [~phalaaxx@eris.htu.tuwien.ac.at] requested CTCP VERSION from KrasiGa: [16:49] phalaaxx [~phalaaxx@eris.htu.tuwien.ac.at] requested CTCP TIME from KrasiGa:
+[16:53:49] <vhristev> KrasiGa, попринцип до 6 ама не спазваме супер точно време
+[16:54:00] esrdt (57feb524@gateway/web/freenode/ip.87.254.181.36) joined #telerikacademy.
+[16:54:04] <vhristev> мож еи по рано да си тръгваме никой нищо няма да ти кажа важното е работата да е свършена
+[16:54:04] <vhristev> (;
+[16:54:11] <phalaaxx> бали му мамата, ползвам някакъв jabber-irc транспорт дето прави някакви странни неща
+[16:54:21] <vhristev> Ай сия джабера виновен
+[16:54:24] <vhristev> стига сръчква жената
+[16:54:29] <phalaaxx> понякога седя в чата (според логовете) а не виждам никой вътре :D
+[16:54:33] <vhristev> Бъди мъж признай си
+[16:54:34] <vhristev> хахаха
+[16:55:00] <KrasiGa> :)
+[16:55:04] <phalaaxx> това прилича на request за версията на клиента доколкото мога да предположа
+[16:55:05] <KrasiGa> айде лека вечер от мен
+[16:55:10] <phalaaxx> и локално време
+[16:55:21] <vhristev> Пийз
+[16:55:31] <vhristev> и мойто време се чупи
+[16:55:36] <KrasiGa> мойто  време приключи
+[16:55:37] <vhristev> че БНЦ-то е на майка си в дивия
+[16:55:44] <vhristev> Не е приключило ами сега започва
+[16:55:51] <vhristev> ама зависи как гледаш на нещата
+[16:55:52] <vhristev> (;
+[16:56:01] <KrasiGa> ммм да, точно казано
+[16:56:07] <phalaaxx> БНЦ?
+[16:57:04] firstman (5e9b7c22@gateway/web/cgi-irc/kiwiirc.com/ip.94.155.124.34) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[16:57:07] <vhristev> psyBNC
+[16:57:16] <vhristev> ама ползвам ZNC
+[16:57:22] <phalaaxx> аааа
+[16:57:26] <phalaaxx> стоплих за какво говориш
+[16:57:35] <vhristev> да си седи вътре
+[16:57:38] <vhristev> да си ларжи
+[16:57:38] <vhristev> (;
+[16:58:01] <phalaaxx> е аз не го карам да седи вътре
+[16:58:15] <phalaaxx> ама като се опитам да се логна и ми седи празен прозореца
+[16:58:28] rosenn (~it@94.155.124.34) joined #telerikacademy.
+[16:58:33] <phalaaxx> а в локовете на гризлито гледам че съм влязъл в irc-то :D
+[16:58:39] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:58:48] <phalaaxx> лоГовете
+[16:58:51] <vhristev> настроил ли си го да реджойнва
+[16:58:57] <vhristev> и да има auto chan
+[16:59:14] <phalaaxx> да ама това е настройка за gajim
+[16:59:25] <phalaaxx> а какво прави irc транспорта нямам представа
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:01] <phalaaxx> преди години един човек искаше да ме бие щото правех същото с ICQ, и аз си се разкарвам навън а транспорта си седял логнат и той ми пише и се сърди що не му отговарям :D
+[17:00:48] <rosenn> it is a probe, no need to answer
+[17:01:09] <phalaaxx> в смисъл... аз си излязох най-прилежно от jabber-а обаче транспорта това не го разбрал и си седял логнат с моя ICQ номер
+[17:01:22] <phalaaxx> малко недъгава история е това с транспортите за jabber ама пък е удобно понякога
+[17:02:42] rosenn (~it@94.155.124.34) left #telerikacademy.
+[17:04:33] <vhristev> код все нещо може да се случи
+[17:04:33] <vhristev> (;
+[17:05:00] samy (~samy@91.196.227.180) joined #telerikacademy.
