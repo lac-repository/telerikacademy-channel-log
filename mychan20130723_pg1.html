@@ -1328,6 +1328,146 @@
 			<div>&nbsp;<span class="time">[21:59:18]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; отговори ми ако всички судоери могат да изпълнят sudo yum ,  кой е инсталирал пакет iptraf-ng \</span></div>
 			<div>&nbsp;<span class="time">[21:59:23]</span>&nbsp;<span class="else_li">&nbsp;_NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds</span></div>
 			<div>&nbsp;<span class="time">[21:59:32]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако не знаех какво имам предвид щеше да ми е трудно :D</span></div>
+			<div>&nbsp;<span class="time">[22:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[22:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[22:00:21]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; отговорих ти на въпроса:</span></div>
+			<div>&nbsp;<span class="time">[22:00:22]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; sudo grep &quot;rpm.*iptraf&quot; /home/*/.bash_history</span></div>
+			<div>&nbsp;<span class="time">[22:00:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това при няколко условия</span></div>
+			<div>&nbsp;<span class="time">[22:00:52]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; *facepalm*</span></div>
+			<div>&nbsp;<span class="time">[22:01:14]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; инсталирано е със sudo, командата е започнала от първия символ на командния ред и .bash_history не е редактиран/изтрит след това</span></div>
+			<div>&nbsp;<span class="time">[22:01:42]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това второто условие не съм сигурен дали е от значение за CentOS</span></div>
+			<div>&nbsp;<span class="time">[22:02:12]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; изпълнявам всички изброени условия - твоя инпут не ми връща нищо</span></div>
+			<div>&nbsp;<span class="time">[22:02:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; значи който го е инсталирал първо е станал root</span></div>
+			<div>&nbsp;<span class="time">[22:02:38]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; в този случай няма как да разбереш кой го е инсталирал</span></div>
+			<div>&nbsp;<span class="time">[22:02:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; както казах - нормално ако нямаш доверие на даден потребител, той няма права да стане root :)</span></div>
+			<div>&nbsp;<span class="time">[22:03:11]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; а yum history казва чисто че сесиите за update, remove и  install са изпълнени само от episparh</span></div>
+			<div>&nbsp;<span class="time">[22:04:00]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp;  е ти като дадеш права на N потребители и някой ти наака машината , всички ли ще ги демоутнеш ?</span></div>
+			<div>&nbsp;<span class="time">[22:04:22]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; първо аз не бих дал права на N потребителя</span></div>
+			<div>&nbsp;<span class="time">[22:04:35]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; освен ако не са администратори на машината, демек мои колеги</span></div>
+			<div>&nbsp;<span class="time">[22:04:55]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това се опитвам да ти кажа :)</span></div>
+			<div>&nbsp;<span class="time">[22:05:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не само че не бих дал права но и така бих не орязал че да не можеш да разбереш колко други потребители има на същия сървър и какви са им имената</span></div>
+			<div>&nbsp;<span class="time">[22:05:20]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; и ако някой от колегите ти е &quot;вълк в овча кожа&quot; ?</span></div>
+			<div>&nbsp;<span class="time">[22:05:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аа чакай сега, колегите ми не са 10 годишни хлапета дето си нямат друга работа</span></div>
+			<div>&nbsp;<span class="time">[22:06:02]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; прекалено много вярваш на хората ;)</span></div>
+			<div>&nbsp;<span class="time">[22:06:03]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: това с баш-хисторито не е много убедително.</span></div>
+			<div>&nbsp;<span class="time">[22:06:24]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; 1-во нарушава правата на много хора за да намериш един козел.</span></div>
+			<div>&nbsp;<span class="time">[22:06:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; 2-ро всеки може да си редактира хисторито</span></div>
+			<div>&nbsp;<span class="time">[22:06:36]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; yulimoto, пробвай моя солщшън на гризли</span></div>
+			<div>&nbsp;<span class="time">[22:07:06]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; yulimoto: разследване на проблеми често няма как да мине без нарушаване на privacy на някого</span></div>
+			<div>&nbsp;<span class="time">[22:07:36]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; +1 на последния ред на phalaaxx</span></div>
+			<div>&nbsp;<span class="time">[22:08:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; примерно, като ти нахакат cpanel сървър с 300 акаунта на него и ти горят телефоните заради проблеми - ще се разходиш из данните на хората за да разбереш от кой е дошъл проблема</span></div>
+			<div>&nbsp;<span class="time">[22:08:14]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това е нещо което реално ми се е случвало</span></div>
+			<div>&nbsp;<span class="time">[22:09:13]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; убу, само дето вярваш на всички sudoers :)</span></div>
+			<div>&nbsp;<span class="time">[22:09:39]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако не им вярваш - не са sudoers</span></div>
+			<div>&nbsp;<span class="time">[22:09:55]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; всички са хора</span></div>
+			<div>&nbsp;<span class="time">[22:10:00]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; там е проблема</span></div>
+			<div>&nbsp;<span class="time">[22:10:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; така е, затова достъп имат само хората, които не могат да си вършат работата ако нямат достъп :P</span></div>
+			<div>&nbsp;<span class="time">[22:11:28]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; имам чувството че говорим на два различни езика</span></div>
+			<div>&nbsp;<span class="time">[22:11:56]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; добре де, дай конкретен пример</span></div>
+			<div>&nbsp;<span class="time">[22:11:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; какво те притеснява?</span></div>
+			<div>&nbsp;<span class="time">[22:12:34]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: разбирам те, но все пак искам да защитя и хората, които теоретично са клиенти</span></div>
+			<div>&nbsp;<span class="time">[22:12:36]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; притеснява ме , че някой sudoer може да омаже нещата по грешка , или да си компроментира акаунта</span></div>
+			<div>&nbsp;<span class="time">[22:13:32]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; yulimoto: ако клиентите ти нямат доверие - намират си друг администратор или друг доставчик, това обикновено става ако не знаят какво се налага да прави админа им понякога :)</span></div>
+			<div>&nbsp;<span class="time">[22:13:34]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; episparh: те така хакнаха апаche, които са митични. просто атаката скалира от бъгрепорта</span></div>
+			<div>&nbsp;<span class="time">[22:13:35]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; ако нямаш ефективен начин да разбереш кой ... е лошо и води до рекавъри полиси тип &quot;Хирошима&quot;</span></div>
+			<div>&nbsp;<span class="time">[22:14:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; episparh:  имаш предвид не проблем с доверие в хората с които работиш а в допускане на грешка за нещо?</span></div>
+			<div>&nbsp;<span class="time">[22:14:57]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; phalaaxx, аз не претендирам да съм голем админ , просто ти казвам че имаш грешка в разсъжденията , ако не ме разбираш , проблема не е мой</span></div>
+			<div>&nbsp;<span class="time">[22:15:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; по въпроса с доверието... ако нямаш доверие на някого за нещо... то е като да отидеш на зъболекар, ако нямаш доверие на зъболекаря си - ще му дадеш ли да ти бърка в устата?</span></div>
+			<div>&nbsp;<span class="time">[22:15:36]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; казвам , че доверието се гради с проверки при нужда</span></div>
+			<div>&nbsp;<span class="time">[22:16:07]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; да на зъболекаря си ще дам , но при първи фейл ще отида при друг</span></div>
+			<div>&nbsp;<span class="time">[22:16:11]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; добре phalaaxx кои файлове на една машина би преглеждал редовно, за имаш бегла представа дали не е компрометирана ? ;P</span></div>
+			<div>&nbsp;<span class="time">[22:16:46]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; а ти по скоро ще отидеш с пълна упойка в реномирана зъболекарска клиника , без да знаеш като колабираш кой ще ти рови в устата</span></div>
+			<div>&nbsp;<span class="time">[22:17:19]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да при 300 судоера е безмислено някак и много трудно</span></div>
+			<div>&nbsp;<span class="time">[22:17:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амиии... не е така</span></div>
+			<div>&nbsp;<span class="time">[22:17:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; дай ми конкретен пример в който нямаш доверие на колегите си?</span></div>
+			<div>&nbsp;<span class="time">[22:17:20]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; усшех</span></div>
+			<div>&nbsp;<span class="time">[22:17:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; знаеш ли как работят в HP например?</span></div>
+			<div>&nbsp;<span class="time">[22:17:34]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и колко хора работят там?</span></div>
+			<div>&nbsp;<span class="time">[22:17:43]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; yulimoto , даде пример с гризли</span></div>
+			<div>&nbsp;<span class="time">[22:17:44]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ми ти нали там работиш ?</span></div>
+			<div>&nbsp;<span class="time">[22:17:55]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; или бъркам</span></div>
+			<div>&nbsp;<span class="time">[22:17:56]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; мислиш ли че там няма злонамерени хора  които да работят?</span></div>
+			<div>&nbsp;<span class="time">[22:18:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; как е решен въпроса?</span></div>
+			<div>&nbsp;<span class="time">[22:18:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не, не работя там</span></div>
+			<div>&nbsp;<span class="time">[22:18:16]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ок бъркам</span></div>
+			<div>&nbsp;<span class="time">[22:18:21]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; но знам каква им е организацията</span></div>
+			<div>&nbsp;<span class="time">[22:18:27]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; как е решен въпроса ?</span></div>
+			<div>&nbsp;<span class="time">[22:18:38]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; като те вземат 1st level - нямаш пароли за машините</span></div>
+			<div>&nbsp;<span class="time">[22:18:48]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; phalaaxx,  ako HP  разсъждават като теб - жална им майчица</span></div>
+			<div>&nbsp;<span class="time">[22:19:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; имаш си някакви процедури по които кликаш на различни неща когато някой клиент се обади с проблем</span></div>
+			<div>&nbsp;<span class="time">[22:19:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; за всеки проблем си има процедура</span></div>
+			<div>&nbsp;<span class="time">[22:19:27]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; някаква  темплейт история</span></div>
+			<div>&nbsp;<span class="time">[22:19:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако това което ти е казано да направиш не помага - проблема се дава на 2nd level</span></div>
+			<div>&nbsp;<span class="time">[22:19:45]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ясно; все едно гледам БРазилия</span></div>
+			<div>&nbsp;<span class="time">[22:19:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а аз съм болче в машина</span></div>
+			<div>&nbsp;<span class="time">[22:19:54]</span>&nbsp;<span class="action">&nbsp;*** episparh is out of here </span></div>
+			<div>&nbsp;<span class="time">[22:20:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; episparh: работиш ли някъде?</span></div>
+			<div>&nbsp;<span class="time">[22:20:25]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; не като администратор</span></div>
+			<div>&nbsp;<span class="time">[22:20:46]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амиии сори че ще ти го кажа ама - личи си :D</span></div>
+			<div>&nbsp;<span class="time">[22:20:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; отиди на някое интервю в HP да ти разкажат каква е организацията там</span></div>
+			<div>&nbsp;<span class="time">[22:21:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пък после се заяждай</span></div>
+			<div>&nbsp;<span class="time">[22:21:15]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; не ме интересува организация</span></div>
+			<div>&nbsp;<span class="time">[22:21:39]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; ако при 300 sudoera не знаят кой точно е направил нещо</span></div>
+			<div>&nbsp;<span class="time">[22:21:39]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; както казах - личи си</span></div>
+			<div>&nbsp;<span class="time">[22:21:54]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; Е HP не е върха на цивилизацията все пак</span></div>
+			<div>&nbsp;<span class="time">[22:22:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако имаш 300 sudoer-а значи не ставаш за админ :D</span></div>
+			<div>&nbsp;<span class="time">[22:22:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; yulimoto: не е разбира се</span></div>
+			<div>&nbsp;<span class="time">[22:22:27]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; ок , кажи го на Hackman като се появи</span></div>
+			<div>&nbsp;<span class="time">[22:22:29]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; но при толкова персонал това е начина да се знае кой какво прави</span></div>
+			<div>&nbsp;<span class="time">[22:22:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; 300 судоерс наистина са много много много, това е учебна машина не я давайте за пример за сървър</span></div>
+			<div>&nbsp;<span class="time">[22:23:01]</span>&nbsp;<span class="action">&nbsp;*** episparh is out of here yet again. Don't summon me!</span></div>
+			<div>&nbsp;<span class="time">[22:23:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; episparh: кога hackman е казвал че е давал root права на 300 човека, че не помня?</span></div>
+			<div>&nbsp;<span class="time">[22:23:30]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; когато почна курса</span></div>
+			<div>&nbsp;<span class="time">[22:23:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и да, нека не говорим за гризли</span></div>
+			<div>&nbsp;<span class="time">[22:24:25]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; ами и 10 да са ,  the problem still persist ...</span></div>
+			<div>&nbsp;<span class="time">[22:24:50]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; 10 да са - ако им нямаш доверие - не са sudoers - problem still solved</span></div>
+			<div>&nbsp;<span class="time">[22:25:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако си купиш хостинг - дават ли ти sudo?</span></div>
+			<div>&nbsp;<span class="time">[22:25:02]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: аз започнах тази дискусия не толкова заради този спор, а за да разбера има ли някаква практика при разследването на проблеми на сървър</span></div>
+			<div>&nbsp;<span class="time">[22:25:34]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; yulimoto: има си разни истории като intrusion detection системи</span></div>
+			<div>&nbsp;<span class="time">[22:25:37]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; свързани с такива неща  когато някой е правил някакви нещо си</span></div>
+			<div>&nbsp;<span class="time">[22:25:43]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аха</span></div>
+			<div>&nbsp;<span class="time">[22:26:40]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; ами аз нямам доверие на себе си , та какво остана на още 10 човека :)</span></div>
+			<div>&nbsp;<span class="time">[22:26:57]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; v HP съпорта е на 3  линии</span></div>
+			<div>&nbsp;<span class="time">[22:27:06]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; всяка линия има различни права за достъп до машините</span></div>
+			<div>&nbsp;<span class="time">[22:27:08]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; episparh: това е тема за съвсем различен курс :D</span></div>
+			<div>&nbsp;<span class="time">[22:27:12]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; като влизат в различни групи</span></div>
+			<div>&nbsp;<span class="time">[22:27:25]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; това нещо цялто се управлява от така нареченият ERM</span></div>
+			<div>&nbsp;<span class="time">[22:27:41]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; който последно бяха над 25 000 юзера</span></div>
+			<div>&nbsp;<span class="time">[22:27:42]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; примерно преди време имах приятел, който усилено се занимваше с компрометиране на машини, та той пишеше там разни бекдори които подменят файлове, големини, таймстампове и т.н. от там си мисля, че е възможно пък админите да проверяват някакви файлов</span></div>
+			<div>&nbsp;<span class="time">[22:28:03]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; тъйче 300 юзера е мижава работа</span></div>
+			<div>&nbsp;<span class="time">[22:28:08]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; yulimoto: yum search aide</span></div>
+			<div>&nbsp;<span class="time">[22:28:26]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; и та там хисторито беше на всеки юзер с юзернамейма + дата и час</span></div>
+			<div>&nbsp;<span class="time">[22:28:47]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; vhristev: това все за root ли говорим?</span></div>
+			<div>&nbsp;<span class="time">[22:28:58]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; ако нещо се случи на някоя машина и те хванат ,че си си изтрил хисторито може да се стигне до уволнение и до търсене на права</span></div>
+			<div>&nbsp;<span class="time">[22:29:00]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; да за руут</span></div>
+			<div>&nbsp;<span class="time">[22:29:08]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; там е &quot;nsu&quot; kato SUDO</span></div>
+			<div>&nbsp;<span class="time">[22:29:13]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; и пак имаш руут права</span></div>
+			<div>&nbsp;<span class="time">[22:29:29]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; говорим за продукшън</span></div>
+			<div>&nbsp;<span class="time">[22:29:51]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; говорим за sudo su или sudo -i ?</span></div>
+			<div>&nbsp;<span class="time">[22:29:53]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; човека тук е прав това е машина за обучение не я сравнявайте</span></div>
+			<div>&nbsp;<span class="time">[22:30:00]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; за РУУТ пълен РУУТ ДОСТЪП</span></div>
+			<div>&nbsp;<span class="time">[22:30:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; случая в който някой с нещо в sudoers става root?</span></div>
+			<div>&nbsp;<span class="time">[22:30:22]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; да кажем ,че така работеше</span></div>
+			<div>&nbsp;<span class="time">[22:30:41]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; могат да те проследят ако искат</span></div>
+			<div>&nbsp;<span class="time">[22:30:46]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; vhristev: nsu Пълен рут ли е ?</span></div>
+			<div>&nbsp;<span class="time">[22:31:27]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; vhristev: т.е. някаква орязана версия или си си рут</span></div>
+			<div>&nbsp;<span class="time">[22:33:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да де прочетох го ама ...</span></div>
+			<div>&nbsp;<span class="time">[22:34:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; добре те си имат някаква с-ма за проследяване ?</span></div>
+			<div>&nbsp;<span class="time">[22:35:47]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; сериозно, разкажи ни какво са направили за да сме по-наясно</span></div>
+			<div>&nbsp;<span class="time">[22:35:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и по-конкретно аз, щото явно съм говорил глупости досега :)</span></div>
+			<div>&nbsp;<span class="time">[22:37:32]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; vhristev: аре ве мен ?</span></div>
+			<div>&nbsp;<span class="time">[22:38:42]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; vhristev: да не си подписал договор, да не издаваш структурата им 10години след като си напуснал ?</span></div>
+			<div>&nbsp;<span class="time">[22:40:39]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; аз само знам че се ползват различни видове host/network  базирани IDS/IPS  no do tam , kakto kazah ne sym admin ;)</span></div>
+			<div>&nbsp;<span class="time">[22:43:24]</span>&nbsp;<span class="nick">&lt;episparh&gt;</span><span class="text">&nbsp; даже днес попаднах на тоя майтап  <a href="http://securityreactions.tumblr.com/post/56155416494/trying">http://securityreactions.tumblr.com/post/56155416494/trying</a>-to-scan-the-network-with-nmap-when-ids-is</span></div>
+			<div>&nbsp;<span class="time">[22:49:48]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: в C функцията  open(path, mode) file descriptor ли връща ?</span></div>
+			<div>&nbsp;<span class="time">[22:50:20]</span>&nbsp;<span class="nick">&lt;samy__&gt;</span><span class="text">&nbsp; sususuususussusu</span></div>
+			<div>&nbsp;<span class="time">[22:50:39]</span>&nbsp;<span class="nick">&lt;samy__&gt;</span><span class="text">&nbsp; wijdam 3-no</span></div>
+			<div>&nbsp;<span class="time">[22:50:40]</span>&nbsp;<span class="nick">&lt;samy__&gt;</span><span class="text">&nbsp; :x</span></div>
+			<div>&nbsp;<span class="time">[22:51:11]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; yulimoto: да, или -1 при грешка</span></div>
+			<div>&nbsp;<span class="time">[22:53:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; 10кс</span></div>
+			<div>&nbsp;<span class="time">[22:56:28]</span>&nbsp;<span class="else_j">&nbsp;KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[22:56:49]</span>&nbsp;<span class="nick">&lt;KacanuH&gt;</span><span class="text">&nbsp; Добра вечер</span></div>
+			<div>&nbsp;<span class="time">[22:59:16]</span>&nbsp;<span class="else_j">&nbsp;_NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
