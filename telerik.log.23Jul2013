@@ -404,3 +404,20 @@
 [12:01:13] <KrasiGa> napravih ama ne znam kade da ia ka4a
 [12:01:38] <phalaaxx> примерно тук: http://picpaste.com/
 [12:02:23] <KrasiGa> http://picpaste.com/CentOS-bYW8dYo5.png
+[12:06:52] <vhristev> Ммм да LVM-a ти с е потрошил нещо
+[12:08:08] <phalaaxx> или има нещо грешно в grub-а и се опитва да отвори root filesystem от неправилното място
+[12:10:51] <vhristev> bootni
+[12:10:59] <vhristev> на груба дай "e" за едит
+[12:11:10] <vhristev> find /grub/stage1
+[12:11:17] <vhristev> виж дали ти е в /boot/grub или само /grub
+[12:11:25] <vhristev> ще ти покаже примерно (hd0,0)
+[12:11:30] <vhristev> после даваш
+[12:11:36] <vhristev> root (hd0,0)
+[12:11:47] <vhristev> kernel /vmlinuz
+[12:11:51] <vhristev> initrd /initrd
+[12:12:00] <vhristev> и виж дали ще буутнеш
+[12:12:12] <vhristev> руут файловата можеш да е специфираш след kernel параметъра
+[12:29:43] <yulimoto> lvm-а излезе значи
+[12:30:16] <yulimoto> гледам скрииншота
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
