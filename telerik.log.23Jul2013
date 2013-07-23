@@ -1,0 +1,230 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:02:20] <tuxar> ето http://pastebin.com/H5XeCm7F отговора на lspci -v
+[00:03:54] <episparh> 00:1f.2 RAID bus controller: Intel Corporation 82801ER (ICH5R) SATA Controller (rev 02) (prog-if 8f)
+[00:04:01] <episparh> това на какво ти прилича
+[00:07:19] <tuxar> разкажи къде е индикацията за типа RAID
+[00:13:28] <tuxar> за софтуерните намерих това https://help.ubuntu.com/community/Installation/SoftwareRAID#Checking_the_status_of_your_RAID
+[00:14:40] <tuxar> и отговор като md5 : active raid1 sda7[0] sdb7[1]
+[00:15:02] <tuxar> би ми харесал
+[00:17:09] <vhristev> що пък да не искаш да ставаш админ
+[00:17:59] <vhristev> Райда може да го видиш най лесно от dmesg
+[00:19:21] <vhristev> lspci | grep -i raid
+[00:19:30] <tuxar> dmesg|grep -i raid
+[00:19:36] <tuxar> [    1.072455] device-mapper: dm-raid45: initialized v0.2594b
+[00:19:46] <vhristev> software RAID
+[00:20:03] <vhristev> q daj eto tova
+[00:20:04] <vhristev>  cat /proc/mdstat
+[00:20:26] <vhristev> df -h
+[00:20:32] <tuxar> Personalities :
+[00:20:33] <tuxar> unused devices: <none>
+[00:20:37] <vhristev> ще ти върне /dev/mdXX
+[00:21:02] <tuxar> това го пишеше за софтуерните ...
+[00:21:10] <vhristev> аз май нещо изпускам
+[00:21:24] <vhristev> ти какво искаш да разбереш дали имаш СОФТ или ХАРД райд ?
+[00:21:28] <vhristev> или да го конфигнеш
+[00:21:42] <tuxar> типа райд
+[00:21:55] <episparh> "<tuxar> какъв е RAID-a"
+[00:22:32] <tuxar> vhristev: това с dmesg
+[00:22:36] <vhristev> ок де ама ти знаеш ли Софтуерн или хардуерен е
+[00:22:52] <vhristev> ако е хардуерен ще имаш ТУУЛЧЕ което е специално от производелите
+[00:23:08] <vhristev> примерно 3ware si imat CLI ili WEB
+[00:23:22] <tuxar> а ти как разбираш само от конзолата
+[00:23:47] <vhristev> чакай сега дай да се върнем отначало
+[00:23:52] <vhristev> какъв ти е РАЙД-а хардуерен или софтуерен
+[00:24:24] <tuxar> значи представи си, че не знаеш какъв е
+[00:24:31] <vhristev> ОК ако незнаем какъв е
+[00:24:48] <vhristev> 1во ще напиша df -h
+[00:24:56] <vhristev> ako imash tam /dev/md znachi e Soft
+[00:25:10] <vhristev> hardware райда се вижда като /dev/sdX
+[00:25:34] <vhristev> така ти от кой тип си сега
+[00:26:58] <tuxar> Filesystem                  Size  Used Avail Use% Mounted on
+[00:26:58] <tuxar> /dev/mapper/pdc_dhbcgdcfa6  228G  2.1G  214G   1% /
+[00:26:58] <tuxar> udev                        494M  4.0K  494M   1% /dev
+[00:26:58] <tuxar> tmpfs                       201M  360K  200M   1% /run
+[00:26:58] <tuxar> none                        5.0M     0  5.0M   0% /run/lock
+[00:27:01] <tuxar> none                        501M  4.0K  501M   1% /run/shm
+[00:27:03] <tuxar> /dev/sda1                    74G  812M   69G   2% /backups
+[00:27:06] <tuxar> /dev/mapper/pdc_dhbcgdcfa1  184M   50M  125M  29% /boot
+[00:27:33] <vhristev> интересува те / и /буут-а
+[00:28:12] <vhristev> pvdisplay
+[00:28:16] <vhristev> я да видим ЛВМ имаш
+[00:28:39] <tuxar> bash: pvdisplay: command not found
+[00:28:51] <vhristev> я дай
+[00:28:59] <vhristev> cat /proc/partitions
+[00:29:23] <tuxar> major minor  #blocks  name
+[00:29:24] <tuxar>   11        0    1048575 sr0
+[00:29:24] <tuxar>    8        0   78149687 sda
+[00:29:24] <tuxar>    8        1   78147584 sda1
+[00:29:24] <tuxar>    8       16  244198584 sdb
+[00:29:26] <tuxar>    8       32  244198584 sdc
+[00:29:28] <tuxar>  252        0  244140625 dm-0
+[00:29:31] <tuxar>  252        1     194560 dm-1
+[00:29:33] <tuxar>  252        2  243943425 dm-2
+[00:29:36] <tuxar>  252        3    1951744 dm-3
+[00:29:38] <tuxar>  252        4  241990656 dm-4
+[00:29:59] <vhristev> супер имаш sdb * sdc
+[00:30:34] <vhristev> lvdisplay
+[00:30:36] <tuxar> по какво разбираш?
+[00:30:49] <vhristev> <tuxar>    8       16  244198584 sdb
+[00:30:49] <vhristev> <tuxar>    8       32  244198584 sdc
+[00:30:53] <vhristev> имаш 3 риска
+[00:31:00] <vhristev> sda , sdb , sdc
+[00:31:35] <vhristev> dm-X са  LVM devices
+[00:31:45] <vhristev> сега я инсталирай един ЛМВ apt-get install lvm2
+[00:31:54] <vhristev> или само ЛВМ виж кое е
+[00:32:28] <vhristev> машината ти има LVM
+[00:32:47] <vhristev> сега трябва да видим дали имаш конфигнат МИРОР в ЛВМ-а
+[00:33:06] <tuxar> не, не би трябвало
+[00:33:33] <vhristev> еми имаш
+[00:33:36] <vhristev> инстлаирай го
+[00:34:05] <vhristev> apt-get install lvm2
+[00:34:29] <vhristev> веднага може да ти кажа дали е ВЛМ
+[00:34:35] <vhristev> fdisk -l /dev/sdb
+[00:35:12] <vhristev> виж партишъна файловата дали е  "Linux LVM"
+[00:35:34] <tuxar> връщам го в pastebin
+[00:35:47] <vhristev> к
+[00:35:49] <vhristev> прати линк
+[00:35:56] <vhristev> само пусни ФДИСКА
+[00:36:01] <vhristev> и ще знаеш
+[00:36:04] <tuxar> http://pastebin.com/5tCiJpd9
+[00:37:17] <vhristev> я дай cat /etc/fstab
+[00:38:21] <vhristev> тия дискове като ги гледам са Буутабъл дискове има и swap и всичко
+[00:38:24] <vhristev> все едно са ти линукси
+[00:38:35] <tuxar> http://pastebin.com/2bfA8C96
+[00:40:51] <vhristev> dmraid -l
+[00:42:03] <tuxar> http://pastebin.com/JywcECMP
+[00:43:18] <tuxar> какво гледаш в  последната команда?
+[00:43:41] <vhristev> dmraid -s
+[00:43:48] <vhristev> Imash FAKERAID
+[00:43:58] <vhristev> това са тия РАЙД-ове на декстоп машините
+[00:44:12] <vhristev> просто те зареждат софутерен РАЙД на БИОС ниво
+[00:45:22] <tuxar> и ако искаш да разбереш кой тип е райда?
+[00:45:47] <tuxar> можеш ли да го запиташ тоя FAKERAID?
+[00:46:10] <vhristev> lscpi < за да си видиш чипсета
+[00:46:13] <vhristev> той го управлява
+[00:46:33] <vhristev> Примерно ICH6,7,8R
+[00:46:36] <vhristev> na Intel
+[00:46:48] <vhristev> както ти върна dmraid -s
+[00:47:40] <vhristev> аз ще лягам ,че утре рано трябва да ставам
+[00:48:11] <tuxar> 00:1f.2 RAID bus controller: Intel Corporation 82801ER (ICH5R) SATA Controller (rev 02) (prog-if 8f)
+[00:48:11] <vhristev> Пусни го тва с "-s" да видим конфигурацията
+[00:48:14] <tuxar> 03:04.0 RAID bus controller: Promise Technology, Inc. PDC20378 (FastTrak 378/SATA 378) (rev 02)
+[00:48:30] <vhristev> Еми имаш райд от ICH5R
+[00:48:30] <tuxar> ок, мерси много!
+[00:48:45] <vhristev> това е интелски РАЙД на дъното ама е ФЕЙК демек просто софтуер не е истински хардуер
+[00:48:58] <vhristev> напиши в гугле linux fakeraid
+[00:49:00] <vhristev> и ще го видиш
+[00:49:10] <vhristev> Intel Matrix storage също е фейк
+[00:49:41] <tuxar> е, много фалшива история се получи ;-)
+[00:50:15] <vhristev> ахахах
+[00:50:38] <vhristev> какво ти върна dmraid -s
+[00:50:44] <vhristev> видя ли си райд конфигурацията
+[00:52:13] <tuxar> ето това ми върна
+[00:52:16] <tuxar> http://pastebin.com/JywcECMP
+[00:52:57] <tuxar> почнах да се образовам с https://help.ubuntu.com/community/FakeRaidHowto
+[00:53:57] <vhristev> isw     : Intel Software RAID (0,1,5,01)
+[00:53:59] <vhristev> ти си ей тука
+[00:54:14] <vhristev> ОК
+[00:54:22] <vhristev> виж не съм на системата и малко по сложно
+[00:54:31] <vhristev> но все пак може и да се окаже ,че нямаш РАЙД
+[00:54:47] <vhristev> имаш контролера ( софтуерен ) ама трябва да е пуснат от БИОСА
+[00:55:00] <tuxar> да, пуснат е
+[00:55:01] <vhristev> от БИОСА диковете трябва да са ти в RAID mode
+[00:55:09] <tuxar> но настройката
+[00:55:12] <vhristev> imash RAID , IDE , ..
+[00:55:15] <vhristev> Eeeeeeeeeeeee
+[00:55:21] <vhristev> що не каза по рано да ти кажа
+[00:55:22] <vhristev> хахаха
+[00:55:25] <tuxar> изглеждаше малко детски
+[00:55:30] <vhristev> да детски е
+[00:55:32] <vhristev> ама това е
+[00:55:42] <vhristev> ти го правиш от биоса и после вече в линукса не се занимаваш
+[00:55:50] <tuxar> ами аз исках да се науча
+[00:55:52] <vhristev> виждаш си го като 1 диск
+[00:56:00] <vhristev> да правиш софтуерен РАЙД
+[00:56:01] <vhristev> ?
+[00:56:06] <tuxar> как да разбера само през конзолата
+[00:56:16] <vhristev> Еми ето това дето го четеш е супер
+[00:56:19] <vhristev> айде ман
+[00:56:21] <vhristev> аз ще лягам лека
+[00:56:22] <tuxar> ако нямам до мен желязото
+[00:56:30] <vhristev> да да ония линк ще ти свърши работа
+[00:56:37] <vhristev> поне за твоя случай
+[00:56:45] <tuxar> много ти благодаря за анализа
+[00:56:46] <vhristev> иначе разбра как е да разбереш дали е софт или хард
+[00:56:55] <tuxar> ще си прегледам и командите
+[00:56:58] <vhristev> за нищо важното е нещо да се търкаля
+[00:57:04] <vhristev> Супер
+[00:57:05] <tuxar> да
+[00:57:08] <vhristev> Кееп ит гойнг
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:04:50] <episparh> оправихте ли го рейда  ?
+[01:08:24] <tuxar> ами разузнах ме го ;-)
+[01:09:26] <tuxar> оказа се, че бил фалшив
+[01:09:49] <tuxar> та сега чета какво е това животно
+[01:42:11] <tuxar> Аз заривам огнището ...
+[01:42:22] <tuxar> Лека на всички.
+[01:43:26] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:52:08] tuxar (~tuxar@athedsl-115559.home.otenet.gr) left #telerikacademy.
+[01:52:13] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 246 seconds
+[01:52:58] nveselinov_ (nveselinov@151.237.4.4) joined #telerikacademy.
+[01:59:34] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 240 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:02:18] nveselinov (nveselinov@151.237.4.4) got netsplit.
+[02:13:00] nveselinov (nveselinov@151.237.4.4) got lost in the net-split.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:15:42] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[03:16:03] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:19:49] <dencho> :)
+[07:59:21] samy (~samy@84.238.184.98) left irc: Ping timeout: 264 seconds
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:07:39] lyubenblagoev (~lyubenbla@92.247.170.208) joined #telerikacademy.
+[08:08:12] lyubenblagoev (~lyubenbla@92.247.170.208) left irc: Client Quit
+[08:14:32] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:18:03] <KrasiGa> Добро утро! :) слънчев ден
+[08:18:47] <episparh> няма такова нещо - добро утро
+[08:19:54] <episparh> http://img.pandawhale.com/post-8793-Good-morning-No-such-thing-amkC.jpeg
+[08:19:54] <KrasiGa> напротив, всяко утро е прекрасно
+[08:20:43] <episparh> whatever , I must go
+[08:28:16] samy (~samy@79.100.236.213) joined #telerikacademy.
+[08:46:47] lyubenblagoev (~lyubenbla@92.247.170.208) joined #telerikacademy.
+[08:51:20] lyubenblagoev (~lyubenbla@92.247.170.208) left irc: Client Quit
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:05:37] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:06:00] Nick change: KacanuH -> Guest72695
+[09:06:01] <Guest72695> Добро утро
+[09:06:24] Nick change: Guest72695 -> Deyan
+[09:09:23] <KpeTeHoug> Добро да е
+[09:13:04] <yulimoto> чета нощните разследвания на vhristev
+[09:13:16] <yulimoto> добрутро
+[09:14:11] <yulimoto> KpeTeHoug: пунса ли крона ?
+[09:14:20] <yulimoto> пусна ли ?
+[09:14:24] <yulimoto> т.е
+[09:15:35] <KpeTeHoug> нищо незнам и съм за малко
+[09:15:43] <KpeTeHoug> не съм гледал още нищо
+[09:15:52] <KpeTeHoug> крон за гит тъба ли ?
+[09:17:06] <yulimoto> да
+[09:17:27] <yulimoto> той е в папката на бота
+[09:17:56] <yulimoto> само трябва да го опишеш в crontaba
+[09:18:02] <KpeTeHoug> git-chron ?
+[09:18:06] <yulimoto> да
+[09:18:35] <KpeTeHoug> на какъв интервал да го сложа ?
+[09:18:48] <yulimoto> пиши нещо в crontab -e от рода 5 * * * * /path/to/cron-tab
+[09:18:53] <yulimoto> mmm
+[09:18:57] <yulimoto> и аз това се чудех
+[09:19:29] <KpeTeHoug> 12часа ?
+[09:19:37] <yulimoto> добре
