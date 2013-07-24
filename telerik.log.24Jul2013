@@ -447,3 +447,31 @@
 [15:04:09] samy_ (~samy@91.196.227.180) joined #telerikacademy.
 [15:04:47] <dencho-at-work> nice a!
 [15:04:53] <dencho-at-work> голяма жега днеска
+[15:06:10] <KpeTeHoug> мани беги
+[15:06:10] <yulimoto> dencho-at-work: какво реши за младежа
+[15:06:32] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[15:09:57] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 246 seconds
+[15:11:29] <dencho-at-work> mi znam li... nemrih tuka nqkakvi puppy linux, nqkakvo LXLE koeto bilo lubuntu s LXDE, nqkvo bodhi linux (debian based) i nqkakvo ZorinOS ne znam na kakvo based :D
+[15:11:41] <dencho-at-work> no trqbva da pusna da gi vidq
+[15:11:41] <dencho-at-work> :D
+[15:14:19] <dencho-at-work> slax kaza hackman shte go vidq i tova
+[15:14:25] <phalaaxx> Linux rigel 3.2.48-grsec #2 SMP Wed Jul 24 14:27:39 EEST 2013 x86_64 GNU/Linux
+[15:14:25] <phalaaxx> това за надъхване на желаещите да си играят с ядрото :)
+[15:14:26] <yulimoto> да най-добре да се види :) ама гледай и requirements че 700Mhz трябва да му остане нещо на чиляка
+[15:14:50] <dencho-at-work> da da :)
+[15:15:01] <dencho-at-work> az ram moga da mu sloja i 1 gb :P no procesora e kut
+[15:15:02] <dencho-at-work> :D
+[15:15:03] pavkata (5cf7db47@gateway/web/cgi-irc/kiwiirc.com/ip.92.247.219.71) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[15:15:23] <dencho-at-work> slax-a vika 4e mu trqbvat 300 mhz za KDE :D
+[15:15:41] <yulimoto> slux до колкото помня искаше 30мб да бутне и около 140 да подкара всичко, ама виж го преди това
+[15:16:24] <dencho-at-work> gluposti prikazvam az :D
+[15:16:33] <dencho-at-work> 256 mb za kde
+[15:16:40] <dencho-at-work> i procesor kuvto mu sloji6
+[15:16:40] <dencho-at-work> :D
+[15:16:53] <dencho-at-work> i486 or newer CPU, all Intel processors and AMD processors will work
+[15:17:35] <dencho-at-work> az nikoga ne sam pipal slackware taka 4e 6te mi e interesno :D
+[15:20:14] <yulimoto> phalaaxx: kakwo е този кърнъл ?
+[15:21:28] <phalaaxx> 3.2.48 със grsecurity
+[15:23:39] <phalaaxx> grsecurity си има RBAC (освен ако не се компилира без RBAC)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
