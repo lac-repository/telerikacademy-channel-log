@@ -106,6 +106,93 @@
 			<div>&nbsp;<span class="time">[00:57:51]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; dyrgel: на кое име е паролата ?</span></div>
 			<div>&nbsp;<span class="time">[00:58:43]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; гледам че има dyrgel като потребител :)</span></div>
 			<div>&nbsp;<span class="time">[00:59:43]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: не е ли сложно така с sh -c</span></div>
+			<div>&nbsp;<span class="time">[01:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[01:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[01:00:23]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; иначе ще ти е трудно на един ред да го стартираш в bg</span></div>
+			<div>&nbsp;<span class="time">[01:00:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това е някаква обидна история, започва да ме дразни  :D</span></div>
+			<div>&nbsp;<span class="time">[01:03:47]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хахах</span></div>
+			<div>&nbsp;<span class="time">[01:07:11]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да</span></div>
+			<div>&nbsp;<span class="time">[01:07:55]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ама то пишеше тоо many open files</span></div>
+			<div>&nbsp;<span class="time">[01:07:57]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; както ид а е</span></div>
+			<div>&nbsp;<span class="time">[01:08:15]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; все пак при yum има някаква история</span></div>
+			<div>&nbsp;<span class="time">[01:09:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; вероятно е точно от тези ограничения</span></div>
+			<div>&nbsp;<span class="time">[01:10:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; вероятно;</span></div>
+			<div>&nbsp;<span class="time">[01:11:13]</span>&nbsp;<span class="else_li">&nbsp;dyrgel (~kolio@95.111.103.228) left irc: Quit: Leaving</span></div>
+			<div>&nbsp;<span class="time">[01:11:14]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; hard nofile 20 - от това е ама как го носи в root...</span></div>
+			<div>&nbsp;<span class="time">[01:11:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ние root ли сме или какво? :D</span></div>
+			<div>&nbsp;<span class="time">[01:14:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; добреее, това е странно</span></div>
+			<div>&nbsp;<span class="time">[01:14:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не бих очаквал да се държи така но явно това си му е нормално поведение</span></div>
+			<div>&nbsp;<span class="time">[01:15:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да</span></div>
+			<div>&nbsp;<span class="time">[01:15:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; за процесите отпуска за файловете - ц</span></div>
+			<div>&nbsp;<span class="time">[01:20:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; добрееее</span></div>
+			<div>&nbsp;<span class="time">[01:20:09]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; разбрах го какво прави</span></div>
+			<div>&nbsp;<span class="time">[01:20:34]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; какво ?</span></div>
+			<div>&nbsp;<span class="time">[01:21:32]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аз се наак*х и не мисля да продължам на гризлито малко се изплашх</span></div>
+			<div>&nbsp;<span class="time">[01:21:45]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; лимита дето е даден за потребителите - 20</span></div>
+			<div>&nbsp;<span class="time">[01:21:55]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; от hard става на soft след sudo</span></div>
+			<div>&nbsp;<span class="time">[01:22:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; защото няма soft за root</span></div>
+			<div>&nbsp;<span class="time">[01:22:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; споко аз ги правя зулумите на гризлито, ще го върна в предишния вид :)</span></div>
+			<div>&nbsp;<span class="time">[01:22:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ти го добави ли ?</span></div>
+			<div>&nbsp;<span class="time">[01:22:44]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и видя ?</span></div>
+			<div>&nbsp;<span class="time">[01:23:59]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ти ли добави Luke Skywalker в мотд</span></div>
+			<div>&nbsp;<span class="time">[01:24:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; значи като сложиш soft limit във limits.conf - като изпълниш sudo su или sudo -i - този soft лимит става актуален</span></div>
+			<div>&nbsp;<span class="time">[01:24:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не :)</span></div>
+			<div>&nbsp;<span class="time">[01:24:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; някои по-рано го е добавил</span></div>
+			<div>&nbsp;<span class="time">[01:24:22]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз добавих soft limit за root</span></div>
+			<div>&nbsp;<span class="time">[01:24:34]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и сега можеш да си инсталираш разни неща без да се оплаква</span></div>
+			<div>&nbsp;<span class="time">[01:24:34]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да видях 500</span></div>
+			<div>&nbsp;<span class="time">[01:24:47]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и как се сети ?</span></div>
+			<div>&nbsp;<span class="time">[01:24:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; странно, hard лимита му е доста голям - защо спира yum заради soft limit...</span></div>
+			<div>&nbsp;<span class="time">[01:25:14]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; рових из /proc :)</span></div>
+			<div>&nbsp;<span class="time">[01:25:29]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аха</span></div>
+			<div>&nbsp;<span class="time">[01:26:21]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и все пак съм обиден от тази история :D</span></div>
+			<div>&nbsp;<span class="time">[01:26:26]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; hahah</span></div>
+			<div>&nbsp;<span class="time">[01:26:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не ми изглежда много интуитивно по този начин</span></div>
+			<div>&nbsp;<span class="time">[01:27:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да аз още не мога да си обясня</span></div>
+			<div>&nbsp;<span class="time">[01:27:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; вероятно обяснението го пише в няколко man page-а за syscalls и/или c библиотеки</span></div>
+			<div>&nbsp;<span class="time">[01:28:31]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ооо аз днес едвам я докарах до wait4() wait command</span></div>
+			<div>&nbsp;<span class="time">[01:28:42]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; далече далече далече</span></div>
+			<div>&nbsp;<span class="time">[01:29:41]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; това момче му смених паса; за протокола да кажа</span></div>
+			<div>&nbsp;<span class="time">[01:30:05]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ако стане нещо аз съм виновен дет се вика; има го в логовете</span></div>
+			<div>&nbsp;<span class="time">[01:31:18]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; в кои логове?</span></div>
+			<div>&nbsp;<span class="time">[01:32:01]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; hahah :D</span></div>
+			<div>&nbsp;<span class="time">[01:32:04]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; на чата !!!</span></div>
+			<div>&nbsp;<span class="time">[01:32:08]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хаха</span></div>
+			<div>&nbsp;<span class="time">[01:32:52]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хайде лягам оставам те с манa на setuid</span></div>
+			<div>&nbsp;<span class="time">[01:33:00]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; че стана 2</span></div>
+			<div>&nbsp;<span class="time">[01:33:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; яснооо</span></div>
+			<div>&nbsp;<span class="time">[01:33:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; значи е нормално да е така</span></div>
+			<div>&nbsp;<span class="time">[01:33:15]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; така ли ?</span></div>
+			<div>&nbsp;<span class="time">[01:33:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; заради setuid</span></div>
+			<div>&nbsp;<span class="time">[01:33:18]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; що ?</span></div>
+			<div>&nbsp;<span class="time">[01:33:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; щото иначе</span></div>
+			<div>&nbsp;<span class="time">[01:33:38]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може да ползваш sudo за да си превишаваш лимитите :)</span></div>
+			<div>&nbsp;<span class="time">[01:33:48]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аааааа</span></div>
+			<div>&nbsp;<span class="time">[01:34:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; нещо са пачвали преди години setuid точно за да не е възможно това нещо</span></div>
+			<div>&nbsp;<span class="time">[01:34:42]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; вместо да ставаш рут; може да си ползваш sudo command ; обаче те са го предвидили и ... са го направили тако</span></div>
+			<div>&nbsp;<span class="time">[01:35:09]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; това ли е ?</span></div>
+			<div>&nbsp;<span class="time">[01:35:22]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; преди 10 години точно са го пачвали :)</span></div>
+			<div>&nbsp;<span class="time">[01:35:42]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амиии предполагам че можеш да си ползваш твоя си потребител</span></div>
+			<div>&nbsp;<span class="time">[01:35:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и да си надхвърлиш лимита за твоя потребител</span></div>
+			<div>&nbsp;<span class="time">[01:36:01]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аха</span></div>
+			<div>&nbsp;<span class="time">[01:36:08]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; т.е. можело е</span></div>
+			<div>&nbsp;<span class="time">[01:36:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; вече не може</span></div>
+			<div>&nbsp;<span class="time">[01:36:13]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да</span></div>
+			<div>&nbsp;<span class="time">[01:36:17]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; затова и root-а е такъв странен</span></div>
+			<div>&nbsp;<span class="time">[01:36:21]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ясно</span></div>
+			<div>&nbsp;<span class="time">[01:36:49]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; коментарих softlimit-а в limits.conf</span></div>
+			<div>&nbsp;<span class="time">[01:36:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хубаво си беше да не може да се инсталира; сега белята заради на ще стане</span></div>
+			<div>&nbsp;<span class="time">[01:36:56]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да да</span></div>
+			<div>&nbsp;<span class="time">[01:36:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; по-добре</span></div>
+			<div>&nbsp;<span class="time">[01:37:26]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; сякаш не може да прочете някой какво сме писали тук и да си го разкоментари :D</span></div>
+			<div>&nbsp;<span class="time">[01:37:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; или да си го напише :)</span></div>
+			<div>&nbsp;<span class="time">[01:38:07]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; еее едно да отключиш вратата; друго да влезеш на отворена къща</span></div>
+			<div>&nbsp;<span class="time">[01:38:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[01:38:24]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; пък и тия дето четат тия логове няма да тръгнат да зулумят</span></div>
+			<div>&nbsp;<span class="time">[01:38:46]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; те и другите няма да тръгнат насила де</span></div>
+			<div>&nbsp;<span class="time">[01:39:47]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хайде лягам лека (и добро утро на тия дето ще четат логовете сутринта ;) )</span></div>
+			<div>&nbsp;<span class="time">[01:39:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[01:40:00]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; лека</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
