@@ -664,3 +664,34 @@
 [20:57:48] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
 [21:00:00] Writing user file...
 [21:00:00] Writing channel file...
+[21:05:55] <tuxar> ами /proc/НомерНаПроцеса/fd май е разковничето
+[21:10:18] georgidimov_ (3edd9aba@gateway/web/freenode/ip.62.221.154.186) left irc: Ping timeout: 250 seconds
+[21:22:57] <phalaaxx> може би нещо като ls -l /proc/*/fd 2>/dev/null :D
+[21:23:02] <phalaaxx> едва ли е толкова просто де
+[21:25:40] <yulimoto> phalaaxx: ами аз се замислих,че то всичко е файл. аз като видя само на lsof какво става
+[21:26:42] <yulimoto> хааа днес имаше едно момче дето питаше за  upstart  conf file за serial connection и си е пуснал  файлчето на гризлито --- манияк
+[21:26:46] <yulimoto> :)
+[21:26:57] <yulimoto> браво
+[21:28:45] <phalaaxx> кое файлче?
+[21:29:34] <phalaaxx> и аз си го оставих там btw :D
+[21:30:21] <yulimoto> кога го остави
+[21:30:24] <yulimoto> ?
+[21:30:52] <phalaaxx> отдавна беше
+[21:30:57] <tuxar> а пробвахте ли дали работи този upstart?
+[21:30:59] <phalaaxx> ама аз за индианеца
+[21:31:33] <phalaaxx> аз си го пробвах и работи
+[21:31:40] <phalaaxx> който иска - да пробва :)
+[21:31:50] <phalaaxx> /etc/init.d/httpd stop && start apache2
+[21:31:53] <tuxar> я разкажи, че аз нямах
+[21:32:15] <yulimoto> mm не за апачи ами за сериал конзоле
+[21:32:16] <tuxar> адаптор на лаптопа и писах теоретично
+[21:32:23] <yulimoto> днес от 17:54
+[21:32:50] <tuxar> и аз за rs232 питам
+[21:33:18] <yulimoto> phalaaxx: твойто видях и двата варианта в гит
+[21:35:51] <phalaaxx> добре, не гледай повече там - ще ме е срам и ще се излагам :D
+[21:53:55] tuxar (~tuxar@ppp-94-69-251-193.home.otenet.gr) left #telerikacademy.
+[21:54:22] tuxar (~tuxar@ppp-94-69-251-193.home.otenet.gr) joined #telerikacademy.
+[21:57:55] <yulimoto> haha няма спокойно
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:04:13] <yulimoto> т.е. няма да се излагаш;
