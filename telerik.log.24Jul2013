@@ -475,3 +475,122 @@
 [15:23:39] <phalaaxx> grsecurity си има RBAC (освен ако не се компилира без RBAC)
 [16:00:00] Writing user file...
 [16:00:00] Writing channel file...
+[16:09:01] <dencho-at-work> a be windows userite, q kajete kak da shutdown-na windows ot command line :D
+[16:09:13] <KpeTeHoug> shutdown
+[16:09:33] <s0ny123> shutdown -s -t <seconds> ако добре помня
+[16:09:46] <KpeTeHoug> да, ако искаш някакви опции
+[16:09:54] <KpeTeHoug> какво искаш да направиш
+[16:10:26] <KpeTeHoug> shutdown -s
+[16:10:36] <KpeTeHoug> е само шътдаун
+[16:10:40] <dencho-at-work> da go ugasq vednaga iskam
+[16:10:41] <dencho-at-work> :D
+[16:10:45] <dencho-at-work> shutdown -h now iskam
+[16:10:45] <dencho-at-work> :d
+[16:10:57] <KpeTeHoug> ми
+[16:10:58] <KpeTeHoug> shutdown -s
+[16:11:03] <KpeTeHoug> е твоят човек
+[16:11:09] <KpeTeHoug> даже
+[16:11:10] <yulimoto> и за какво ти е пък от козолата ? там конзолата е ГУИ
+[16:11:11] <KpeTeHoug> с форсе
+[16:11:17] <KpeTeHoug> -sf
+[16:11:23] <KpeTeHoug> -s -f de
+[16:11:33] <KpeTeHoug> тоя линукс ме разглезва тука с комбиниране
+[16:11:45] <dencho-at-work> yulimoto: s drp sam se connectnal kat admin i v start butona nqma shutdown :D
+[16:11:58] <yulimoto> ей луда ралта
+[16:12:49] <dencho-at-work> rdp
+[16:12:50] <dencho-at-work> pf
+[16:13:10] <KpeTeHoug> да, и аз затуй го ползвам :Р
+[16:13:14] <KpeTeHoug> ма не искаш ли рестарт
+[16:14:08] <KrasiGa> сега слушам последната лекцията /за soft & hard links/ на ОС курса също слушах и в крайна сметка за мен soft linka си е чист shortcut, нали?
+[16:14:15] <KrasiGa> или изпускам нещо?
+[16:14:51] <KpeTeHoug> общо взето
+[16:15:09] <KpeTeHoug> но има предимство че ходи и по други дивайси и тн
+[16:15:30] <KrasiGa> ами то и шорткъта ходи в уиндоус
+[16:15:51] <KpeTeHoug> е сега нали за лимнукс говорим :)
+[16:16:26] <KrasiGa> да де ама аз правя съпоставка с уиндоуса
+[16:16:35] <KrasiGa> иначе за хард линк разбрах
+[16:17:57] <KpeTeHoug> важното е да facl-неш на yulimoto пермишъните
+[16:18:02] <KpeTeHoug> да не бара по мойте логове :)
+[16:18:12] <KpeTeHoug> и да се чуди той на другия ден ко става
+[16:20:07] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[16:20:19] <KpeTeHoug> http://sphotos-a.ak.fbcdn.net/hphotos-ak-ash3/16571_559914154063840_307785039_n.jpg
+[16:20:50] <KpeTeHoug> хай левъл мулти таскинг
+[16:20:55] <KpeTeHoug> с фадър процес
+[16:21:04] <yulimoto> KrasiGa: много много подобно ама все пак е линукс среда ; шорткъта в уиндоус зависи се отваря с експлорер, докато софт линка си го разбира кърнела, има и др разлики но като функция са еднакви
+[16:21:07] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[16:21:11] <yulimoto> това е мое мнение
+[16:22:21] <dencho-at-work> mne, iskam shutdown, i iskam da zaka4a na kvm virtualnata ma6ina winxp virtualen disk no ne6to ne mi se polu4ava :D
+[16:24:16] <KpeTeHoug> ем
+[16:24:21] <yulimoto> KrasiGa: ama ако ти е по-лесно да го мислиш като шорткът, нищо не ти пречи да го мислиш като шорткът
+[16:25:08] <KpeTeHoug> така е
+[16:25:09] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 250 seconds
+[16:25:13] <KpeTeHoug> това не е лъжица
+[16:25:18] <KpeTeHoug> там няма лъжица въобще
+[16:25:39] <yulimoto> Въпроса е в един момент да мислиш шорткъта нещо като софтлинк, ама не съвсем ;)
+[16:25:47] <KpeTeHoug> :)
+[16:25:52] <KpeTeHoug> някой ден
+[16:25:57] <yulimoto> :)
+[16:26:02] <KpeTeHoug> айде, скатавам аз, утре пак
+[16:26:11] <yulimoto> сгъваш обстановката ли ?
+[16:26:13] <yulimoto> аре
+[16:26:16] <yulimoto> тогава
+[16:27:20] <KpeTeHoug> не, аз таковато малко работа извън  офиса
+[16:27:21] <KpeTeHoug> за 2 мин
+[16:27:26] <KpeTeHoug> и охоо, е то кое време станало :)
+[16:27:27] <KpeTeHoug> и тей
+[16:29:20] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[16:32:16] <KrasiGa> еййй трябваше да чета лога за да видя, че сте ми писали. Пак ми заби freenode
+[16:32:38] <KrasiGa> shortcut v windows ne e samo browser
+[16:32:42] <KrasiGa> може на всичко
+[16:32:59] <KrasiGa> просто питах от любопитсво понеже не виждам разликата между двете
+[16:33:09] <KrasiGa> и се чудех дали не бъркам някъде
+[16:33:16] <KrasiGa> Благодаря Ви за разясненията
+[16:36:27] <yulimoto> ами не е само на броузер IE , ама мисля че е само на експлорер т.е. онова вътре дето търсиш файловете в C:-то и D:-to не се ли казва пак експлорер ? Нещо като Nautilus в Gnome ? Може и да бъркам може шорткъта да е за цялта с-ма, ще го проверя.
+[16:37:37] <KrasiGa> да да, explorer имах предвид
+[16:37:48] <KrasiGa> аз се обърках
+[16:38:20] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[16:38:21] <yulimoto> :)
+[16:38:44] <yulimoto> то и аз май се бъркам тъй че ... може да си приказваме ей така
+[16:38:54] <KrasiGa> :)
+[16:39:03] <KrasiGa> ne]o takova se poluchi
+[16:41:46] <KrasiGa> а каква е тази mc програма?
+[16:41:57] <KrasiGa> и защо я няма на моята дистро :(
+[16:45:23] <yulimoto> midnight commander
+[16:45:43] <yulimoto> може да си я сложиш
+[16:46:07] <KrasiGa> мога ама не мога
+[16:46:16] <KrasiGa> нали нямам интерент на виртуалката
+[16:46:25] <yulimoto> аааа да
+[16:46:53] <dencho-at-work> KrasiGa: s cel da se povtorq, kak idva interneta do host ma6inata ti ?
+[16:47:03] <dencho-at-work> s proxy li be6e
+[16:47:18] <KrasiGa> да, но също съм член на squid group v домаина
+[16:47:22] <yulimoto> да с прокси; не те слуша ; ти пак ѝ кажи ?
+[16:47:24] <KrasiGa> *domaina
+[16:47:46] <KrasiGa> По скоро ключово е групата а не проксито
+[16:48:03] <yulimoto> не знам, но не вярвам
+[16:48:10] <KrasiGa> кое не вярваш?
+[16:48:11] <dencho-at-work> squid mi svu4i kato squirt :D
+[16:49:19] <yulimoto> ами ако подкараш НАТ и сложиш проксито в линукса, не вярвам изобщо да има значение тази група
+[16:49:31] <yulimoto> слушай денчо
+[16:49:38] <yulimoto> то ще ти каже как да го експортнеш
+[16:49:51] <yulimoto> то* = той
+[16:49:57] <KrasiGa> ami kato направя това, браузъра ми търси user и pass на проксито а тук вече нямам материал
+[16:50:38] <yulimoto> ами то така ти е сложено и ти не знаеш паса ли ?
+[16:51:10] <KrasiGa> абе странно е понеже съм  domain admin в нашия домейн
+[16:51:19] <KrasiGa> но връзката минава през сф
+[16:51:42] <yulimoto> ми ква жена си ако не ги разбереш ? Я да се подкъсиш утре, така, да се намаааш едно хубаво, да видиш ще валят усер и пасове
+[16:51:46] <KrasiGa> уж имам всички права ама не
+[16:52:16] <KrasiGa> е то тва няма да помогне по телефона :)
+[16:52:26] <KrasiGa> ще трябва да оъскоча до сф
+[16:52:30] <yulimoto> ааа
+[16:52:37] <yulimoto> ти във ВТ ли беше
+[16:52:43] <KrasiGa> в Благоевград
+[16:52:51] <yulimoto> ООО
+[16:52:53] <KrasiGa> тъкмо пуснаха магистралата
+[16:52:53] <yulimoto> йе
+[16:53:56] <yulimoto> Ще се обадиш и ще каже. Аз съм македонско девойче, за наденица тепам, па си представете за юзера и пасса на проксито.
+[16:54:09] <KrasiGa> хахахаха
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:46] <KrasiGa> лека вечер от мен
+[17:01:52] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:02:53] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 246 seconds
