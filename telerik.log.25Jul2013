@@ -285,3 +285,157 @@
 [10:04:29] <hackman> :)
 [10:04:53] <KpeTeHoug> hackman топика да не е като топинга
 [10:04:57] <KpeTeHoug> :Р
+[10:05:12] <hackman> (10:02:54 AM) current topic is: LSA forums: http://goo.gl/XQWlW course: http://goo.gl/erPp3 materials: http://goo.gl/lTGaU Streaming: http://www.twitch.tv/aziliann/ SSH grizzly.yuhu.biz port 14567
+[10:11:25] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[10:16:48] <yulimoto> Deyan: ей бравос, че ползвате owncloud
+[10:17:36] <hackman> Deyan: ще направиш ли команди !stream и !info на бота :)
+[10:17:56] <hackman> може и !forums !course
+[10:18:08] <hackman> и да дават съответната информация от Topic-a :)
+[10:20:24] <KpeTeHoug> да, и в топика
+[10:20:28] <KacanuH> !forums
+[10:20:29] <KpeTeHoug> да сложим че това са командите
+[10:20:30] <KpeTeHoug> :)
+[10:21:20] <KpeTeHoug> ей сега ще видя какво мога да направя по въпроса
+[10:22:01] <KpeTeHoug> имаше едно
+[10:22:03] <KpeTeHoug> on join
+[10:22:12] <KpeTeHoug> да праща прайвът мсг
+[10:22:35] <KrasiGa> сложете в топика и линк към архива на чата
+[10:23:07] <KpeTeHoug> да
+[10:29:48] <KpeTeHoug> yulimoto дай линк за репо-то ни с логовете моля
+[10:29:50] <KpeTeHoug> :)
+[10:30:38] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Ping timeout: 264 seconds
+[10:30:39] reffrey (3eb0736a@gateway/web/cgi-irc/kiwiirc.com/ip.62.176.115.106) joined #telerikacademy.
+[10:30:41] <hackman> KpeTeHoug: http://grizzly.yuhu.biz
+[10:31:39] <KpeTeHoug> не не :)
+[10:31:58] <KpeTeHoug> той направи репо в гит хъб, където всеки час се бекъпват логовете
+[10:31:58] <KpeTeHoug> :)
+[10:35:02] <hackman> уууу
+[10:35:04] <hackman> якооо
+[10:35:31] <yulimoto> https://github.com/lac-repository/telerikacademy-channel-log
+[10:35:47] <yulimoto> lac = linux administration course
+[10:36:03] <yulimoto> ама то това е послезно за бекъп повече отколкото за хората
+[10:36:09] <hackman> хмм
+[10:36:16] <hackman> така погледнато е малко куцо
+[10:36:22] <hackman> обезмисля се идеята на git-a :)
+[10:36:34] <yulimoto> кой гит ?
+[10:36:42] <yulimoto> hackman li ?
+[10:36:47] net: connect! sock 3
+[10:36:47] DNS resolved 127.0.0.1 to localhost
+[10:36:47] Telnet connection: localhost/45015
+[10:36:47] net: connect! sock 9
+[10:36:47] net: eof!(read) socket 9
+[10:36:47] Timeout/EOF ident connection
+[10:36:52] Logged in: KpeTeHoug (telnet@localhost/45015)
+[10:36:54] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[10:36:54] Writing user file...
+[10:36:54] Writing channel file...
+[10:36:54] Rehashing ...
+[10:36:54] Writing channel file...
+[10:36:54] Listening at telnet port 3333 (all).
+[10:36:54]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[10:36:54] UDEF: chanstats defined
+[10:36:54] 14<chanstats> version 1.3.0 by arfer loaded
+[10:36:54] UDEF: seend defined
+[10:36:54] Seend 1.8.3 loaded!
+[10:36:54] Creating greetings (type 1)
+[10:36:54] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[10:36:54] Loading dccwhois.tcl...
+[10:36:54] Loaded dccwhois.tcl
+[10:36:54] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[10:36:54] use '.help userinfo' for commands.
+[10:36:54] Writing channel file...
+[10:36:54] Userfile loaded, unpacking...
+[10:36:59] <hackman> yulimoto: не, на git repository-то.
+[10:37:10] <hackman> просто не се използва като Revision Control
+[10:37:15] <hackman> а точно като backup
+[10:37:32] <yulimoto> да така е
+[10:37:44] tcl: builtin dcc call: *dcc:chanset KpeTeHoug 6 #telerikacademy +greetings
+[10:37:45] <yulimoto> в това отношение си е куцо
+[10:38:55] <KpeTeHoug> така
+[10:38:58] <yulimoto> трябваше да измислим бърз начин, за въстановяване на логовете и това ми дойде
+[10:39:03] <KpeTeHoug> я някой кандидат да rejoin
+[10:39:04] <KpeTeHoug> канала
+[10:39:18] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[10:39:26] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[10:39:37] <KpeTeHoug> имаш ли съобшение от бот
+[10:39:38] <KpeTeHoug> ?
+[10:39:40] <KpeTeHoug> *бота
+[10:39:43] <yulimoto> 10:39 <Telerik> yulimoto: Linux System Administration forums: http://goo.gl/XQWlW
+[10:39:44] tcl: builtin dcc call: *dcc:save KpeTeHoug 6 
+[10:39:44] Writing user file...
+[10:39:44] Writing channel file...
+[10:40:00] <KpeTeHoug> само 1 ред ли е ?
+[10:40:01] <yulimoto> това е събощението
+[10:40:02] <yulimoto> да
+[10:40:05] <KpeTeHoug> хмз
+[10:41:46] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[10:41:46] Writing user file...
+[10:41:46] Writing channel file...
+[10:41:46] Rehashing ...
+[10:41:46] Writing channel file...
+[10:41:46] Listening at telnet port 3333 (all).
+[10:41:46]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[10:41:46] UDEF: chanstats defined
+[10:41:46] 14<chanstats> version 1.3.0 by arfer loaded
+[10:41:46] UDEF: seend defined
+[10:41:46] Seend 1.8.3 loaded!
+[10:41:46] UDEF: greetings defined
+[10:41:46] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[10:41:46] Loading dccwhois.tcl...
+[10:41:46] Loaded dccwhois.tcl
+[10:41:46] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[10:41:46] use '.help userinfo' for commands.
+[10:41:46] Writing channel file...
+[10:41:46] Userfile loaded, unpacking...
+[10:41:50] <KpeTeHoug> може ли пак :)
+[10:42:46] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[10:42:46] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[10:43:05] <KpeTeHoug> сега са всичките, ма не са форматирани
+[10:43:08] t_nenkov (~t_nenkov@193.68.19.213) left irc: Ping timeout: 268 seconds
+[10:43:10] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[10:43:11] <KpeTeHoug> добре, ще поработим по това :)
+[10:43:18] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[10:44:23] reffrey (3eb0736a@gateway/web/cgi-irc/kiwiirc.com/ip.62.176.115.106) left #telerikacademy.
+[10:44:25] reffrey (3eb0736a@gateway/web/cgi-irc/kiwiirc.com/ip.62.176.115.106) joined #telerikacademy.
+[10:45:23] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[10:45:36] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[10:45:36] Writing user file...
+[10:45:36] Writing channel file...
+[10:45:36] Rehashing ...
+[10:45:36] Writing channel file...
+[10:45:36] Listening at telnet port 3333 (all).
+[10:45:36]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[10:45:36] UDEF: chanstats defined
+[10:45:36] 14<chanstats> version 1.3.0 by arfer loaded
+[10:45:36] UDEF: seend defined
+[10:45:36] Seend 1.8.3 loaded!
+[10:45:36] UDEF: greetings defined
+[10:45:36] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[10:45:36] Loading dccwhois.tcl...
+[10:45:36] Loaded dccwhois.tcl
+[10:45:36] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[10:45:36] use '.help userinfo' for commands.
+[10:45:36] Writing channel file...
+[10:45:36] Userfile loaded, unpacking...
+[10:45:48] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[10:45:48] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[10:46:07] <Deyan> [root@localhost proc]# stat --help ми изкарва хелпа на български
+[10:46:10] <Deyan> баси якото
+[10:46:12] <Deyan> :)
+[10:46:56] <Deyan> Telerik: !stream
+[10:49:03] <hackman> Deyan довечера ще ти покажа как да ти го изкара на китайски :)
+[10:49:34] <Deyan> hackman: довечера ще бързам и няма да имам време да пием по бира да ми го покажеш
+[10:49:45] <hackman> аз на лекцията ще го показвам :)
+[10:49:51] <hackman> и аз нямам време за бири довечера
+[10:49:55] <Deyan> дори не съм сигурен дали не трябва да запаля преди края на лекцията
+[10:49:56] <hackman> на рожден ден съм на кумата :)
+[10:50:45] t_nenkov (~t_nenkov@193.68.19.213) joined #telerikacademy.
+[10:51:01] <Deyan> хммм, ако продължавам да си чатя с вас, май няма да си напиша домашното
+[10:51:10] Action: Deyan away
+[10:54:01] <Deyan> hackman: като ми го изкара на китайски ще се чудя 2 часа какъв енкодинг да му дам за да ми стане четимо
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:01:19] <KpeTeHoug> я малко помощ
+[11:01:25] <KpeTeHoug> set greetz [lindex $gmsg [rand [llength $gmsg]]]
+[11:01:34] <KpeTeHoug> как трябва да го едитна, да не е рандъм ?
+[11:02:00] reffrey (3eb0736a@gateway/web/cgi-irc/kiwiirc.com/ip.62.176.115.106) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
