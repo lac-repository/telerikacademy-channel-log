@@ -68,6 +68,55 @@
 			<div>&nbsp;<span class="time">[00:57:35]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; всъщност си бяха издънка от всяка една гледна точка</span></div>
 			<div>&nbsp;<span class="time">[00:57:56]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; освен от финансова за доставчика :D</span></div>
 			<div>&nbsp;<span class="time">[00:58:57]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; и каква е драмата? ако вие имате ping до device-а, защо клиента да неможе да си заради ваша страница с applet-а ?</span></div>
+			<div>&nbsp;<span class="time">[01:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[01:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[01:00:08]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ами както казах изобщо не бяха надеждни и трябваше някакъв лесен начин да се гледа къде по трасетата има проблем</span></div>
+			<div>&nbsp;<span class="time">[01:01:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и за целта понякога се пращаше някой кабелджия на гости на даден клиент и за да не им е много сложно и на тях - това беше начин да видят дали да търсят проблем в HPNA/кабели между клиента и първия bridge</span></div>
+			<div>&nbsp;<span class="time">[01:01:42]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; то за търсене на L2 проблеми предимно</span></div>
+			<div>&nbsp;<span class="time">[01:03:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; а там мрежата изглеждаше горе долу така: BGP - Access Concentrator (AC) - Distribution Point (DP, bridge) - DP - ... - клиент</span></div>
+			<div>&nbsp;<span class="time">[01:04:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; DP-тата бяха стари бракувани компютри с LEAF и по няколко HPNA карти на PCI и висящи във въздуха кабели</span></div>
+			<div>&nbsp;<span class="time">[01:04:48]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и тъй като HPNA е правен да работи при по-кофти условия от Ethernet - често се случваше да се прецака нещо ама не както си трябва - да изпука и да спре да работи</span></div>
+			<div>&nbsp;<span class="time">[01:05:08]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и всякакви странни проблеми се срещаха в L2 :)</span></div>
+			<div>&nbsp;<span class="time">[01:06:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; както и да е, започнах от там че реално имаше смисъл от много елементарен web сървър написан на bash и по смътни спомени ползваше inetd (или xinetd... не помня вече)</span></div>
+			<div>&nbsp;<span class="time">[01:07:17]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; echo Content-Type... dd if=/dev/urandom ... горе долу толкова :)</span></div>
+			<div>&nbsp;<span class="time">[01:11:27]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; е аз говоря за писане към tcp socket директно от bash</span></div>
+			<div>&nbsp;<span class="time">[01:12:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; socket - bind - accept?</span></div>
+			<div>&nbsp;<span class="time">[01:24:34]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; da</span></div>
+			<div>&nbsp;<span class="time">[01:29:07]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; качих видеата :)</span></div>
+			<div>&nbsp;<span class="time">[01:35:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; въпрос относно управлението на многото сървъри... това с въртенето на ssh в цикъл не е ли по-лесно да се направи с parallel-ssh?</span></div>
+			<div>&nbsp;<span class="time">[01:36:48]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; не се получава същият резултат</span></div>
+			<div>&nbsp;<span class="time">[01:37:13]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; <a href="https://github.com/hackman/multy">https://github.com/hackman/multy</a>-command</span></div>
+			<div>&nbsp;<span class="time">[01:37:25]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; когато имаш доста различни групи</span></div>
+			<div>&nbsp;<span class="time">[01:37:26]</span>&nbsp;<span class="else_li">&nbsp;s0ny123 (~agit0@95.111.18.140) left irc: Quit: Leaving</span></div>
+			<div>&nbsp;<span class="time">[01:37:38]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; parallel ssh e super досаден</span></div>
+			<div>&nbsp;<span class="time">[01:48:37]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; мен ме дразни че изпълнява само една команда, аз искам да си наредя командите във файл примерно и да си ги изпълнявам така (без да правя shell scripts по сървърите)</span></div>
+			<div>&nbsp;<span class="time">[01:48:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; поради липсата на това сега служебно се трудя по нещо на golang</span></div>
+			<div>&nbsp;<span class="time">[01:49:17]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не в момента ами в последно време имам предвид</span></div>
+			<div>&nbsp;<span class="time">[01:50:13]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; отвори multy-command-а</span></div>
+			<div>&nbsp;<span class="time">[01:50:28]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; имаме и една друга версия която има lsexec i lmexec</span></div>
+			<div>&nbsp;<span class="time">[01:50:40]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; които правят ssh host &lt; script</span></div>
+			<div>&nbsp;<span class="time">[01:50:48]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; parallel ili sequential :)</span></div>
+			<div>&nbsp;<span class="time">[01:51:03]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; koeto e tochno tova koeto iskash</span></div>
+			<div>&nbsp;<span class="time">[01:53:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ами не знам дали ще свърши работа, те изискванията са много странни</span></div>
+			<div>&nbsp;<span class="time">[01:53:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не трябва да се ползват keys, с пароли...</span></div>
+			<div>&nbsp;<span class="time">[01:53:29]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и машините може да са с различни пароли</span></div>
+			<div>&nbsp;<span class="time">[01:54:23]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; и това не е драма</span></div>
+			<div>&nbsp;<span class="time">[01:54:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и не е оферта да се слагат keys защото това е за някакви еднократни случаи (одит на един чувал сървъри и суичове)</span></div>
+			<div>&nbsp;<span class="time">[01:54:28]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; expext ти трябва :0</span></div>
+			<div>&nbsp;<span class="time">[01:54:43]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; знам, правил съм го с expect</span></div>
+			<div>&nbsp;<span class="time">[01:54:53]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; пак при един чувал сървъри е по-лесно с keys</span></div>
+			<div>&nbsp;<span class="time">[01:55:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ама ми е мерак да разцъкам golang :)</span></div>
+			<div>&nbsp;<span class="time">[01:55:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; то е по-лесно ама е добре да не се пипат keys там, че може да започнат да се сърдят разни клиенти :)</span></div>
+			<div>&nbsp;<span class="time">[01:55:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пък тя е една дебела историята там... колкото по-незабележим съм - толкова по-добре :)</span></div>
+			<div>&nbsp;<span class="time">[01:55:57]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; leka</span></div>
+			<div>&nbsp;<span class="time">[01:56:00]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; az lqgam da spq</span></div>
+			<div>&nbsp;<span class="time">[01:56:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; лека</span></div>
+			<div>&nbsp;<span class="time">[01:56:04]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; che neshto sum baq umoren</span></div>
+			<div>&nbsp;<span class="time">[01:56:23]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; razgledai novite neshta v github-a</span></div>
+			<div>&nbsp;<span class="time">[01:56:29]</span>&nbsp;<span class="nick">&lt;Guest4581&gt;</span><span class="text">&nbsp; sega kachih oshte malko materiali :)</span></div>
+			<div>&nbsp;<span class="time">[01:56:31]</span>&nbsp;<span class="else_l">&nbsp;Guest4581 (~HackMan@wolf.yuhu.biz) left #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[01:58:58]</span>&nbsp;<span class="else_j">&nbsp;looser99 (John@78.130.186.99) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[01:59:16]</span>&nbsp;<span class="else_j">&nbsp;nveselinov_ (nveselinov@151.237.4.4) joined #telerikacademy.</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />

@@ -48,3 +48,48 @@
 [01:03:03] <phalaaxx> а там мрежата изглеждаше горе долу така: BGP - Access Concentrator (AC) - Distribution Point (DP, bridge) - DP - ... - клиент
 [01:04:13] <phalaaxx> DP-тата бяха стари бракувани компютри с LEAF и по няколко HPNA карти на PCI и висящи във въздуха кабели
 [01:04:48] <phalaaxx> и тъй като HPNA е правен да работи при по-кофти условия от Ethernet - често се случваше да се прецака нещо ама не както си трябва - да изпука и да спре да работи
+[01:05:08] <phalaaxx> и всякакви странни проблеми се срещаха в L2 :)
+[01:06:30] <phalaaxx> както и да е, започнах от там че реално имаше смисъл от много елементарен web сървър написан на bash и по смътни спомени ползваше inetd (или xinetd... не помня вече)
+[01:07:17] <phalaaxx> echo Content-Type... dd if=/dev/urandom ... горе долу толкова :)
+[01:11:27] <Guest4581> е аз говоря за писане към tcp socket директно от bash
+[01:12:33] <phalaaxx> socket - bind - accept?
+[01:24:34] <Guest4581> da
+[01:29:07] <Guest4581> качих видеата :)
+[01:35:16] <phalaaxx> въпрос относно управлението на многото сървъри... това с въртенето на ssh в цикъл не е ли по-лесно да се направи с parallel-ssh?
+[01:36:48] <Guest4581> не се получава същият резултат
+[01:37:13] <Guest4581> https://github.com/hackman/multy-command
+[01:37:25] <Guest4581> когато имаш доста различни групи
+[01:37:26] s0ny123 (~agit0@95.111.18.140) left irc: Quit: Leaving
+[01:37:38] <Guest4581> parallel ssh e super досаден
+[01:48:37] <phalaaxx> мен ме дразни че изпълнява само една команда, аз искам да си наредя командите във файл примерно и да си ги изпълнявам така (без да правя shell scripts по сървърите)
+[01:48:58] <phalaaxx> поради липсата на това сега служебно се трудя по нещо на golang
+[01:49:17] <phalaaxx> не в момента ами в последно време имам предвид
+[01:50:13] <Guest4581> отвори multy-command-а
+[01:50:28] <Guest4581> имаме и една друга версия която има lsexec i lmexec
+[01:50:40] <Guest4581> които правят ssh host < script
+[01:50:48] <Guest4581> parallel ili sequential :)
+[01:51:03] <Guest4581> koeto e tochno tova koeto iskash
+[01:53:03] <phalaaxx> ами не знам дали ще свърши работа, те изискванията са много странни
+[01:53:20] <phalaaxx> не трябва да се ползват keys, с пароли...
+[01:53:29] <phalaaxx> и машините може да са с различни пароли
+[01:54:23] <Guest4581> и това не е драма
+[01:54:24] <phalaaxx> и не е оферта да се слагат keys защото това е за някакви еднократни случаи (одит на един чувал сървъри и суичове)
+[01:54:28] <Guest4581> expext ти трябва :0
+[01:54:43] <phalaaxx> знам, правил съм го с expect
+[01:54:53] <Guest4581> пак при един чувал сървъри е по-лесно с keys
+[01:55:03] <phalaaxx> ама ми е мерак да разцъкам golang :)
+[01:55:31] <phalaaxx> то е по-лесно ама е добре да не се пипат keys там, че може да започнат да се сърдят разни клиенти :)
+[01:55:57] <phalaaxx> пък тя е една дебела историята там... колкото по-незабележим съм - толкова по-добре :)
+[01:55:57] <Guest4581> leka
+[01:56:00] <Guest4581> az lqgam da spq
+[01:56:03] <phalaaxx> лека
+[01:56:04] <Guest4581> che neshto sum baq umoren
+[01:56:23] <Guest4581> razgledai novite neshta v github-a
+[01:56:29] <Guest4581> sega kachih oshte malko materiali :)
+[01:56:31] Guest4581 (~HackMan@wolf.yuhu.biz) left #telerikacademy.
+[01:58:58] looser99 (John@78.130.186.99) joined #telerikacademy.
+[01:59:16] nveselinov_ (nveselinov@151.237.4.4) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:03:03] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 264 seconds
+[02:03:04] user99 (John@78.130.186.99) left irc: Ping timeout: 264 seconds
