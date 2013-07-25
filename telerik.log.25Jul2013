@@ -439,3 +439,760 @@
 [11:01:25] <KpeTeHoug> set greetz [lindex $gmsg [rand [llength $gmsg]]]
 [11:01:34] <KpeTeHoug> как трябва да го едитна, да не е рандъм ?
 [11:02:00] reffrey (3eb0736a@gateway/web/cgi-irc/kiwiirc.com/ip.62.176.115.106) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[11:05:56] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:05:56] Writing user file...
+[11:05:56] Writing channel file...
+[11:05:56] Rehashing ...
+[11:05:56] Writing channel file...
+[11:05:56] Listening at telnet port 3333 (all).
+[11:05:56]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:05:56] UDEF: chanstats defined
+[11:05:56] 14<chanstats> version 1.3.0 by arfer loaded
+[11:05:56] UDEF: seend defined
+[11:05:56] Seend 1.8.3 loaded!
+[11:05:56] UDEF: greetings defined
+[11:05:56] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:05:56] Loading dccwhois.tcl...
+[11:05:56] Loaded dccwhois.tcl
+[11:05:56] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:05:56] use '.help userinfo' for commands.
+[11:05:56] Writing channel file...
+[11:05:56] Userfile loaded, unpacking...
+[11:06:02] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:06:02] Tcl error [fyre_greet]: invalid command name "0"
+[11:06:02] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:06:11] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:06:11] Tcl error [fyre_greet]: invalid command name "0"
+[11:06:11] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:06:55] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:06:55] Writing user file...
+[11:06:55] Writing channel file...
+[11:06:55] Rehashing ...
+[11:06:55] Writing channel file...
+[11:06:55] Listening at telnet port 3333 (all).
+[11:06:55]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:06:55] UDEF: chanstats defined
+[11:06:55] 14<chanstats> version 1.3.0 by arfer loaded
+[11:06:55] UDEF: seend defined
+[11:06:55] Seend 1.8.3 loaded!
+[11:06:55] UDEF: greetings defined
+[11:06:55] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:06:55] Loading dccwhois.tcl...
+[11:06:55] Loaded dccwhois.tcl
+[11:06:55] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:06:55] use '.help userinfo' for commands.
+[11:06:55] Writing channel file...
+[11:06:55] Userfile loaded, unpacking...
+[11:07:06] tcl: builtin dcc call: *dcc:help KpeTeHoug 6 userinfo
+[11:07:16] tcl: builtin dcc call: *dcc:clearqueue KpeTeHoug 6 
+[11:07:23] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:07:23] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:08:21] <hackman> ами махаш rand-a :)
+[11:08:29] <hackman> set greetz [lindex $gmsg [0]
+[11:08:32] <hackman> ups
+[11:08:41] <hackman> set greetz [lindex $gmsg [0]]
+[11:08:49] <hackman> или без [] за индекса
+[11:08:55] <hackman> мисля, че е без [] за индекса
+[11:09:25] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:09:25] Writing user file...
+[11:09:25] Writing channel file...
+[11:09:25] Rehashing ...
+[11:09:25] Writing channel file...
+[11:09:25] Listening at telnet port 3333 (all).
+[11:09:25]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:09:25] UDEF: chanstats defined
+[11:09:25] 14<chanstats> version 1.3.0 by arfer loaded
+[11:09:25] UDEF: seend defined
+[11:09:25] Seend 1.8.3 loaded!
+[11:09:25] UDEF: greetings defined
+[11:09:25] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:09:25] Loading dccwhois.tcl...
+[11:09:25] Loaded dccwhois.tcl
+[11:09:25] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:09:25] use '.help userinfo' for commands.
+[11:09:25] Writing channel file...
+[11:09:25] Userfile loaded, unpacking...
+[11:09:43] <KpeTeHoug> аха
+[11:09:45] <hackman> да, без [] за индекса, т.е.: set greetz [lindex $gmsg 0]
+[11:09:47] <KpeTeHoug> добре, сега ше го тест
+[11:10:07] <hackman> ей тоя TCL bбе :)
+[11:10:27] <KpeTeHoug> ех бе :)
+[11:10:40] <KpeTeHoug> аз ти казвам че ме няма в писането :)
+[11:12:15] <hackman> довечера ще видите моята "магия" за администрация на хиляди машинки :)
+[11:12:23] <hackman> в 5 реда :)
+[11:12:24] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:12:24] Writing user file...
+[11:12:24] Writing channel file...
+[11:12:24] Rehashing ...
+[11:12:24] Writing channel file...
+[11:12:24] Listening at telnet port 3333 (all).
+[11:12:24]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:12:24] UDEF: chanstats defined
+[11:12:24] 14<chanstats> version 1.3.0 by arfer loaded
+[11:12:24] UDEF: seend defined
+[11:12:24] Seend 1.8.3 loaded!
+[11:12:24] UDEF: greetings defined
+[11:12:24] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:12:24] Loading dccwhois.tcl...
+[11:12:24] Loaded dccwhois.tcl
+[11:12:24] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:12:24] use '.help userinfo' for commands.
+[11:12:24] Writing channel file...
+[11:12:24] Userfile loaded, unpacking...
+[11:12:28] tcl: builtin dcc call: *dcc:save KpeTeHoug 6 
+[11:12:28] Writing user file...
+[11:12:28] Writing channel file...
+[11:12:46] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:12:46] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:13:57] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[11:14:29] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:14:29] Writing user file...
+[11:14:29] Writing channel file...
+[11:14:29] Rehashing ...
+[11:14:29] Writing channel file...
+[11:14:29] Listening at telnet port 3333 (all).
+[11:14:29]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:14:29] UDEF: chanstats defined
+[11:14:29] 14<chanstats> version 1.3.0 by arfer loaded
+[11:14:29] UDEF: seend defined
+[11:14:29] Seend 1.8.3 loaded!
+[11:14:29] UDEF: greetings defined
+[11:14:29] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:14:29] Loading dccwhois.tcl...
+[11:14:29] Loaded dccwhois.tcl
+[11:14:29] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:14:29] use '.help userinfo' for commands.
+[11:14:29] Writing channel file...
+[11:14:29] Userfile loaded, unpacking...
+[11:14:33] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:14:33] Tcl error [fyre_greet]: invalid command name "0"
+[11:14:33] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:15:04] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:15:04] Writing user file...
+[11:15:04] Writing channel file...
+[11:15:04] Rehashing ...
+[11:15:04] Writing channel file...
+[11:15:04] Listening at telnet port 3333 (all).
+[11:15:04]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:15:04] UDEF: chanstats defined
+[11:15:04] 14<chanstats> version 1.3.0 by arfer loaded
+[11:15:04] UDEF: seend defined
+[11:15:04] Seend 1.8.3 loaded!
+[11:15:04] UDEF: greetings defined
+[11:15:04] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:15:04] Loading dccwhois.tcl...
+[11:15:04] Loaded dccwhois.tcl
+[11:15:04] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:15:04] use '.help userinfo' for commands.
+[11:15:04] Writing channel file...
+[11:15:04] Userfile loaded, unpacking...
+[11:15:18] <KpeTeHoug> ebasi join/part flooda дето го направих :)
+[11:15:21] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:15:21] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:16:02] <yulimoto> hackman: чакаме да видим
+[11:16:14] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:16:14] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:16:23] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:16:23] Writing user file...
+[11:16:23] Writing channel file...
+[11:16:23] Rehashing ...
+[11:16:23] Writing channel file...
+[11:16:23] Listening at telnet port 3333 (all).
+[11:16:23]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:16:23] UDEF: chanstats defined
+[11:16:23] 14<chanstats> version 1.3.0 by arfer loaded
+[11:16:23] UDEF: seend defined
+[11:16:23] Seend 1.8.3 loaded!
+[11:16:23] UDEF: greetings defined
+[11:16:23] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:16:23] Loading dccwhois.tcl...
+[11:16:23] Loaded dccwhois.tcl
+[11:16:23] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:16:23] use '.help userinfo' for commands.
+[11:16:23] Writing channel file...
+[11:16:23] Userfile loaded, unpacking...
+[11:16:26] tcl: builtin dcc call: *dcc:save KpeTeHoug 6 
+[11:16:26] Writing user file...
+[11:16:26] Writing channel file...
+[11:16:30] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:16:30] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:17:08] Deyan (~Deyan@supersonic.comelsoft.com) left #telerikacademy.
+[11:17:18] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[11:18:03] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:18:08] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:18:19] <KpeTeHoug> неще. да го :)
+[11:18:22] <KpeTeHoug> само 1 ред
+[11:18:42] <yulimoto> ми дай да го мислим
+[11:19:35] <yulimoto> аз тва тсл не ми понятно ама изглежда логично
+[11:19:52] <KpeTeHoug> то е логично
+[11:20:01] <KpeTeHoug> само сек да видя с външен файл
+[11:20:04] <KpeTeHoug> дали ще стане
+[11:22:53] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:22:55] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:23:34] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:23:34] Writing user file...
+[11:23:34] Writing channel file...
+[11:23:34] Rehashing ...
+[11:23:34] Writing channel file...
+[11:23:34] Listening at telnet port 3333 (all).
+[11:23:34]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:23:34] UDEF: chanstats defined
+[11:23:34] 14<chanstats> version 1.3.0 by arfer loaded
+[11:23:34] UDEF: seend defined
+[11:23:34] Seend 1.8.3 loaded!
+[11:23:34] UDEF: greetings defined
+[11:23:34] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:23:34] Loading dccwhois.tcl...
+[11:23:34] Loaded dccwhois.tcl
+[11:23:34] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:23:34] use '.help userinfo' for commands.
+[11:23:34] Writing channel file...
+[11:23:34] Userfile loaded, unpacking...
+[11:23:48] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:23:48] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:25:16] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:25:16] Writing user file...
+[11:25:16] Writing channel file...
+[11:25:16] Rehashing ...
+[11:25:16] Writing channel file...
+[11:25:16] Listening at telnet port 3333 (all).
+[11:25:16]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:25:16] UDEF: chanstats defined
+[11:25:16] 14<chanstats> version 1.3.0 by arfer loaded
+[11:25:16] UDEF: seend defined
+[11:25:16] Seend 1.8.3 loaded!
+[11:25:16] UDEF: greetings defined
+[11:25:16] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:25:16] Loading dccwhois.tcl...
+[11:25:16] Loaded dccwhois.tcl
+[11:25:16] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:25:16] use '.help userinfo' for commands.
+[11:25:16] Writing channel file...
+[11:25:16] Userfile loaded, unpacking...
+[11:25:18] tcl: builtin dcc call: *dcc:save KpeTeHoug 6 
+[11:25:18] Writing user file...
+[11:25:18] Writing channel file...
+[11:25:30] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:25:30] Tcl error [fyre_greet]: missing close-bracket
+[11:25:30] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:26:04] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:26:06] Tcl error [fyre_greet]: missing close-bracket
+[11:26:06] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:26:08] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:26:08] Writing user file...
+[11:26:08] Writing channel file...
+[11:26:08] Rehashing ...
+[11:26:08] Writing channel file...
+[11:26:08] Listening at telnet port 3333 (all).
+[11:26:08]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:26:08] UDEF: chanstats defined
+[11:26:08] 14<chanstats> version 1.3.0 by arfer loaded
+[11:26:08] UDEF: seend defined
+[11:26:08] Seend 1.8.3 loaded!
+[11:26:08] UDEF: greetings defined
+[11:26:08] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:26:08] Loading dccwhois.tcl...
+[11:26:08] Loaded dccwhois.tcl
+[11:26:08] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:26:08] use '.help userinfo' for commands.
+[11:26:08] Writing channel file...
+[11:26:08] Userfile loaded, unpacking...
+[11:26:14] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:26:14] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:26:19] <yulimoto> ц
+[11:26:26] <KpeTeHoug> нъцки
+[11:26:35] <KpeTeHoug> ей сега ще го кача да си поиграеш
+[11:26:36] <KpeTeHoug> :)
+[11:28:03] <yulimoto> къде ще го качиш
+[11:28:22] <yulimoto> аз гледам scripts/greetings.tcl
+[11:29:00] <KpeTeHoug> ами този е малко омазан :)
+[11:29:37] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:29:37] Writing user file...
+[11:29:37] Writing channel file...
+[11:29:37] Rehashing ...
+[11:29:37] Writing channel file...
+[11:29:37] Listening at telnet port 3333 (all).
+[11:29:37]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:29:37] UDEF: chanstats defined
+[11:29:37] 14<chanstats> version 1.3.0 by arfer loaded
+[11:29:37] UDEF: seend defined
+[11:29:37] Seend 1.8.3 loaded!
+[11:29:37] UDEF: greetings defined
+[11:29:37] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:29:37] Loading dccwhois.tcl...
+[11:29:37] Loaded dccwhois.tcl
+[11:29:37] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:29:37] use '.help userinfo' for commands.
+[11:29:37] Writing channel file...
+[11:29:37] Userfile loaded, unpacking...
+[11:29:42] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:29:42] Tcl error [fyre_greet]: invalid command name "0"
+[11:29:42] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:30:17] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[11:30:17] Writing user file...
+[11:30:17] Writing channel file...
+[11:30:17] Rehashing ...
+[11:30:17] Writing channel file...
+[11:30:17] Listening at telnet port 3333 (all).
+[11:30:17]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:30:17] UDEF: chanstats defined
+[11:30:17] 14<chanstats> version 1.3.0 by arfer loaded
+[11:30:17] UDEF: seend defined
+[11:30:17] Seend 1.8.3 loaded!
+[11:30:17] UDEF: greetings defined
+[11:30:17] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:30:17] Loading dccwhois.tcl...
+[11:30:17] Loaded dccwhois.tcl
+[11:30:17] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:30:17] use '.help userinfo' for commands.
+[11:30:17] Writing channel file...
+[11:30:17] Userfile loaded, unpacking...
+[11:30:19] <yulimoto> реда с txt-то махна ли го
+[11:30:23] <KpeTeHoug> da
+[11:30:25] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:30:25] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:30:30] <KpeTeHoug> eto
+[11:30:34] <KpeTeHoug> така е работещ
+[11:30:40] <KpeTeHoug> само не изкарва всички редове
+[11:30:43] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:30:50] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:34:17] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:34:21] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:34:52] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:34:57] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:36:21] net: connect! sock 3
+[11:36:21] DNS resolved 127.0.0.1 to localhost
+[11:36:21] Telnet connection: localhost/45018
+[11:36:21] net: connect! sock 10
+[11:36:21] net: eof!(read) socket 10
+[11:36:21] Timeout/EOF ident connection
+[11:36:35] Logged in: yulimoto (telnet@localhost/45018)
+[11:37:11] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[11:37:11] Writing user file...
+[11:37:11] Writing channel file...
+[11:37:11] Rehashing ...
+[11:37:11] Writing channel file...
+[11:37:11] Listening at telnet port 3333 (all).
+[11:37:11]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:37:11] UDEF: chanstats defined
+[11:37:11] 14<chanstats> version 1.3.0 by arfer loaded
+[11:37:11] UDEF: seend defined
+[11:37:11] Seend 1.8.3 loaded!
+[11:37:11] UDEF: greetings defined
+[11:37:11] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:37:11] Loading dccwhois.tcl...
+[11:37:11] Loaded dccwhois.tcl
+[11:37:11] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:37:11] use '.help userinfo' for commands.
+[11:37:11] Writing channel file...
+[11:37:11] Userfile loaded, unpacking...
+[11:37:31] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:37:35] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:38:23] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[11:38:23] Writing user file...
+[11:38:23] Writing channel file...
+[11:38:23] Rehashing ...
+[11:38:23] Writing channel file...
+[11:38:23] Listening at telnet port 3333 (all).
+[11:38:23]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:38:23] UDEF: chanstats defined
+[11:38:23] 14<chanstats> version 1.3.0 by arfer loaded
+[11:38:23] UDEF: seend defined
+[11:38:23] Seend 1.8.3 loaded!
+[11:38:23] UDEF: greetings defined
+[11:38:23] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:38:23] Loading dccwhois.tcl...
+[11:38:23] Loaded dccwhois.tcl
+[11:38:23] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:38:23] use '.help userinfo' for commands.
+[11:38:23] Writing channel file...
+[11:38:23] Userfile loaded, unpacking...
+[11:38:51] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:38:56] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:39:20] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:39:20] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:40:03] <t_nenkov> My girlfriend left a note on the fridge, "It's not working, I can't take it anymore... I'm going to my Mom's place!" ...
+[11:40:03] <t_nenkov> ...
+[11:40:03] <t_nenkov> I opened the fridge...
+[11:40:03] <t_nenkov> The light came on....
+[11:40:03] <t_nenkov> The beer was cold...
+[11:40:03] <t_nenkov> What the hell is she talking about?!
+[11:40:37] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[11:40:37] Writing user file...
+[11:40:37] Writing channel file...
+[11:40:37] Rehashing ...
+[11:40:37] Writing channel file...
+[11:40:37] Listening at telnet port 3333 (all).
+[11:40:37]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:40:37] UDEF: chanstats defined
+[11:40:37] 14<chanstats> version 1.3.0 by arfer loaded
+[11:40:37] UDEF: seend defined
+[11:40:37] Seend 1.8.3 loaded!
+[11:40:37] Tcl error in file 'Telerik.conf':
+[11:40:37] can't read "dmsg{": no such variable
+    while executing
+"set dmsg{"
+    (file "scripts/greetings.tcl" line 98)
+    invoked from within
+"source scripts/greetings.tcl"
+    (file "Telerik.conf" line 1387)
+[11:40:37] * CONFIG FILE NOT LOADED (NOT FOUND, OR ERROR)
+[11:43:44] Seend data restored.
+[11:43:44] main: entering loop
+[11:43:45] DNS resolved irc.freenode.net to 128.237.157.136
+[11:43:45] net: connect! sock 7
+[11:44:00] Telerik joined #telerikacademy.
+[11:44:20] <yulimoto> да
+[11:44:33] net: connect! sock 3
+[11:44:33] DNS resolve failed for 127.0.0.1
+[11:44:33] Telnet connection: 127.0.0.1/45024
+[11:44:33] net: connect! sock 9
+[11:44:33] net: eof!(read) socket 9
+[11:44:33] Timeout/EOF ident connection
+[11:44:37] Logged in: KpeTeHoug (telnet@127.0.0.1/45024)
+[11:44:39] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[11:44:39] Writing user file...
+[11:44:39] Writing channel file...
+[11:44:39] Rehashing ...
+[11:44:39] Writing channel file...
+[11:44:39] Listening at telnet port 3333 (all).
+[11:44:39]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:44:39] UDEF: chanstats defined
+[11:44:39] 14<chanstats> version 1.3.0 by arfer loaded
+[11:44:39] UDEF: seend defined
+[11:44:39] Seend 1.8.3 loaded!
+[11:44:39] UDEF: greetings defined
+[11:44:39] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:44:39] Loading dccwhois.tcl...
+[11:44:39] Loaded dccwhois.tcl
+[11:44:39] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:44:39] use '.help userinfo' for commands.
+[11:44:39] Writing channel file...
+[11:44:39] Userfile loaded, unpacking...
+[11:44:43] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:44:43] Tcl error [fyre_greet]: can't read "gmsg1": no such variable
+[11:44:43] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:45:08] <yulimoto> значи аз искам да опитам да сложа няколко dmsg месиджа
+[11:45:37] <yulimoto> просто set dmgs { some message 1 }  set dmsg{ some message 2 } i t.n
+[11:45:54] <KpeTeHoug> tuj sym naprail :)
+[11:45:57] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[11:45:57] Writing user file...
+[11:45:57] Writing channel file...
+[11:45:57] Rehashing ...
+[11:45:57] Writing channel file...
+[11:45:57] Listening at telnet port 3333 (all).
+[11:45:57]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:45:57] UDEF: chanstats defined
+[11:45:57] 14<chanstats> version 1.3.0 by arfer loaded
+[11:45:57] UDEF: seend defined
+[11:45:57] Seend 1.8.3 loaded!
+[11:45:57] UDEF: greetings defined
+[11:45:57] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:45:57] Loading dccwhois.tcl...
+[11:45:57] Loaded dccwhois.tcl
+[11:45:57] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:45:57] use '.help userinfo' for commands.
+[11:45:57] Writing channel file...
+[11:45:57] Userfile loaded, unpacking...
+[11:46:00] <yulimoto> ама това е прима виста
+[11:46:04] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:46:04] Tcl error [fyre_greet]: invalid command name "0"
+[11:46:04] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:46:05] <yulimoto> и става ли ?
+[11:46:10] <KpeTeHoug> mi ne tochno
+[11:46:11] <KpeTeHoug> :)
+[11:46:15] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:46:21] Tcl error [fyre_greet]: invalid command name "0"
+[11:46:21] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:46:36] <KpeTeHoug> propusnal suym 1 skoba
+[11:46:49] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[11:46:49] Writing user file...
+[11:46:49] Writing channel file...
+[11:46:49] Rehashing ...
+[11:46:49] Writing channel file...
+[11:46:49] Listening at telnet port 3333 (all).
+[11:46:49]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:46:49] UDEF: chanstats defined
+[11:46:49] 14<chanstats> version 1.3.0 by arfer loaded
+[11:46:49] UDEF: seend defined
+[11:46:49] Seend 1.8.3 loaded!
+[11:46:49] UDEF: greetings defined
+[11:46:49] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:46:49] Loading dccwhois.tcl...
+[11:46:49] Loaded dccwhois.tcl
+[11:46:49] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:46:49] use '.help userinfo' for commands.
+[11:46:49] Writing channel file...
+[11:46:49] Userfile loaded, unpacking...
+[11:46:52] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:46:53] Tcl error [fyre_greet]: bad index "
+        "Linux System Administration course: http://goo.gl/erPp3 "
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:46:53] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:47:04] <yulimoto> да и аз нещо май обърках и бота се разсърди
+[11:47:16] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:47:19] Tcl error [fyre_greet]: bad index "
+        "Linux System Administration course: http://goo.gl/erPp3 "
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:47:19] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:47:24] Tcl error [fyre_greet]: bad index "
+        "Linux System Administration course: http://goo.gl/erPp3 "
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:47:24] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[11:47:37] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:47:39] Tcl error [fyre_greet]: bad index "
+        "Linux System Administration course: http://goo.gl/erPp3 "
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:47:39] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:47:56] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[11:47:56] Writing user file...
+[11:47:56] Writing channel file...
+[11:47:56] Rehashing ...
+[11:47:56] Writing channel file...
+[11:47:56] Listening at telnet port 3333 (all).
+[11:47:56]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:47:56] UDEF: chanstats defined
+[11:47:56] 14<chanstats> version 1.3.0 by arfer loaded
+[11:47:56] UDEF: seend defined
+[11:47:56] Seend 1.8.3 loaded!
+[11:47:56] UDEF: greetings defined
+[11:47:56] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:47:56] Loading dccwhois.tcl...
+[11:47:56] Loaded dccwhois.tcl
+[11:47:56] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:47:56] use '.help userinfo' for commands.
+[11:47:56] Writing channel file...
+[11:47:56] Userfile loaded, unpacking...
+[11:48:00] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:48:00] Tcl error [fyre_greet]: bad index "
+        " Linux System Administration course: http://goo.gl/erPp3 "
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:48:00] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:49:18] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[11:49:18] Writing user file...
+[11:49:18] Writing channel file...
+[11:49:18] Rehashing ...
+[11:49:18] Writing channel file...
+[11:49:18] Listening at telnet port 3333 (all).
+[11:49:18]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:49:18] UDEF: chanstats defined
+[11:49:18] 14<chanstats> version 1.3.0 by arfer loaded
+[11:49:18] UDEF: seend defined
+[11:49:18] Seend 1.8.3 loaded!
+[11:49:18] UDEF: greetings defined
+[11:49:18] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:49:18] Loading dccwhois.tcl...
+[11:49:18] Loaded dccwhois.tcl
+[11:49:18] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:49:18] use '.help userinfo' for commands.
+[11:49:18] Writing channel file...
+[11:49:18] Userfile loaded, unpacking...
+[11:49:26] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:49:26] Tcl error [fyre_greet]: bad index "
+        "Linux System Administration course: http://goo.gl/erPp3"
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:49:26] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:50:24] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[11:50:24] Writing user file...
+[11:50:24] Writing channel file...
+[11:50:24] Rehashing ...
+[11:50:24] Writing channel file...
+[11:50:24] Listening at telnet port 3333 (all).
+[11:50:24]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:50:24] UDEF: chanstats defined
+[11:50:24] 14<chanstats> version 1.3.0 by arfer loaded
+[11:50:24] UDEF: seend defined
+[11:50:24] Seend 1.8.3 loaded!
+[11:50:24] UDEF: greetings defined
+[11:50:24] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:50:24] Loading dccwhois.tcl...
+[11:50:24] Loaded dccwhois.tcl
+[11:50:24] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:50:24] use '.help userinfo' for commands.
+[11:50:24] Writing channel file...
+[11:50:24] Userfile loaded, unpacking...
+[11:50:29] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[11:50:29] Tcl error [fyre_greet]: bad index "
+        "Linux System Administration course: http://goo.gl/erPp3"
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:50:29] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[11:52:09] net: connect! sock 3
+[11:52:09] DNS resolve failed for 127.0.0.1
+[11:52:09] Telnet connection: 127.0.0.1/45026
+[11:52:09] net: connect! sock 10
+[11:52:09] net: eof!(read) socket 10
+[11:52:09] Timeout/EOF ident connection
+[11:52:21] Bad Password: [yulimoto]telnet@127.0.0.1/45026
+[11:52:23] net: connect! sock 3
+[11:52:23] DNS resolve failed for 127.0.0.1
+[11:52:23] Telnet connection: 127.0.0.1/45028
+[11:52:23] net: connect! sock 10
+[11:52:23] net: eof!(read) socket 10
+[11:52:23] Timeout/EOF ident connection
+[11:52:27] Logged in: yulimoto (telnet@127.0.0.1/45028)
+[11:52:31] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[11:52:31] Writing user file...
+[11:52:31] Writing channel file...
+[11:52:31] Rehashing ...
+[11:52:31] Writing channel file...
+[11:52:31] Listening at telnet port 3333 (all).
+[11:52:31]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:52:31] UDEF: chanstats defined
+[11:52:31] 14<chanstats> version 1.3.0 by arfer loaded
+[11:52:31] UDEF: seend defined
+[11:52:31] Seend 1.8.3 loaded!
+[11:52:31] UDEF: greetings defined
+[11:52:31] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:52:31] Loading dccwhois.tcl...
+[11:52:31] Loaded dccwhois.tcl
+[11:52:31] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:52:31] use '.help userinfo' for commands.
+[11:52:31] Writing channel file...
+[11:52:31] Userfile loaded, unpacking...
+[11:52:51] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:52:57] Tcl error [fyre_greet]: bad index "
+        "Linux System Administration course: http://goo.gl/erPp3"
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:52:57] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:54:22] Deyan (~Deyan@supersonic.comelsoft.com) left #telerikacademy.
+[11:54:24] Tcl error [fyre_greet]: bad index "
+        "Linux System Administration course: http://goo.gl/erPp3"
+		": must be integer?[+-]integer? or end?[+-]integer?
+[11:54:24] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[11:55:00] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[11:55:00] Writing user file...
+[11:55:00] Writing channel file...
+[11:55:00] Rehashing ...
+[11:55:00] Writing channel file...
+[11:55:00] Listening at telnet port 3333 (all).
+[11:55:00]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:55:00] UDEF: chanstats defined
+[11:55:00] 14<chanstats> version 1.3.0 by arfer loaded
+[11:55:00] UDEF: seend defined
+[11:55:00] Seend 1.8.3 loaded!
+[11:55:00] UDEF: greetings defined
+[11:55:00] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:55:00] Loading dccwhois.tcl...
+[11:55:00] Loaded dccwhois.tcl
+[11:55:00] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:55:00] use '.help userinfo' for commands.
+[11:55:00] Writing channel file...
+[11:55:00] Userfile loaded, unpacking...
+[11:55:17] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:55:22] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:56:25] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:56:33] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[11:56:33] Writing user file...
+[11:56:33] Writing channel file...
+[11:56:33] Rehashing ...
+[11:56:33] Writing channel file...
+[11:56:33] Listening at telnet port 3333 (all).
+[11:56:33]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:56:33] UDEF: chanstats defined
+[11:56:33] 14<chanstats> version 1.3.0 by arfer loaded
+[11:56:33] UDEF: seend defined
+[11:56:33] Seend 1.8.3 loaded!
+[11:56:33] UDEF: greetings defined
+[11:56:33] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:56:33] Loading dccwhois.tcl...
+[11:56:33] Loaded dccwhois.tcl
+[11:56:33] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:56:33] use '.help userinfo' for commands.
+[11:56:33] Writing channel file...
+[11:56:33] Userfile loaded, unpacking...
+[11:56:46] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:58:40] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[11:58:40] Writing user file...
+[11:58:40] Writing channel file...
+[11:58:40] Rehashing ...
+[11:58:40] Writing channel file...
+[11:58:40] Listening at telnet port 3333 (all).
+[11:58:40]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[11:58:40] UDEF: chanstats defined
+[11:58:40] 14<chanstats> version 1.3.0 by arfer loaded
+[11:58:40] UDEF: seend defined
+[11:58:40] Seend 1.8.3 loaded!
+[11:58:40] UDEF: greetings defined
+[11:58:40] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[11:58:40] Loading dccwhois.tcl...
+[11:58:40] Loaded dccwhois.tcl
+[11:58:40] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[11:58:40] use '.help userinfo' for commands.
+[11:58:40] Writing channel file...
+[11:58:40] Userfile loaded, unpacking...
+[11:58:51] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:58:52] Tcl error [fyre_greet]: can't read "dmsg1": no such variable
+[11:58:52] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:59:04] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[11:59:05] Tcl error [fyre_greet]: can't read "dmsg1": no such variable
+[11:59:05] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[11:59:22] <KrasiGa> ??? какво правите бе хора?
+[11:59:32] <KrasiGa> само спамите
+[11:59:47] <Deyan> Spamim
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:38] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[12:00:38] Writing user file...
+[12:00:38] Writing channel file...
+[12:00:38] Rehashing ...
+[12:00:38] Writing channel file...
+[12:00:38] Listening at telnet port 3333 (all).
+[12:00:38]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[12:00:38] UDEF: chanstats defined
+[12:00:38] 14<chanstats> version 1.3.0 by arfer loaded
+[12:00:38] UDEF: seend defined
+[12:00:38] Seend 1.8.3 loaded!
+[12:00:38] UDEF: greetings defined
+[12:00:38] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[12:00:38] Loading dccwhois.tcl...
+[12:00:38] Loaded dccwhois.tcl
+[12:00:38] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[12:00:38] use '.help userinfo' for commands.
+[12:00:38] Writing channel file...
+[12:00:38] Userfile loaded, unpacking...
+[12:00:50] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[12:00:51] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:00:53] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[12:01:33] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[12:01:33] Writing user file...
+[12:01:33] Writing channel file...
+[12:01:33] Rehashing ...
+[12:01:33] Writing channel file...
+[12:01:33] Listening at telnet port 3333 (all).
+[12:01:33]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[12:01:33] UDEF: chanstats defined
+[12:01:33] 14<chanstats> version 1.3.0 by arfer loaded
+[12:01:33] UDEF: seend defined
+[12:01:33] Seend 1.8.3 loaded!
+[12:01:33] UDEF: greetings defined
+[12:01:33] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[12:01:33] Loading dccwhois.tcl...
+[12:01:33] Loaded dccwhois.tcl
+[12:01:33] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[12:01:33] use '.help userinfo' for commands.
+[12:01:33] Writing channel file...
+[12:01:33] Userfile loaded, unpacking...
+[12:01:49] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[12:01:51] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[12:02:05] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 240 seconds
+[12:03:18] tcl: builtin dcc call: *dcc:rehash yulimoto 9 
+[12:03:18] Writing user file...
+[12:03:18] Writing channel file...
+[12:03:18] Rehashing ...
+[12:03:18] Writing channel file...
+[12:03:18] Listening at telnet port 3333 (all).
+[12:03:18]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[12:03:18] UDEF: chanstats defined
+[12:03:18] 14<chanstats> version 1.3.0 by arfer loaded
+[12:03:18] UDEF: seend defined
+[12:03:18] Seend 1.8.3 loaded!
+[12:03:18] UDEF: greetings defined
+[12:03:18] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[12:03:18] Loading dccwhois.tcl...
+[12:03:18] Loaded dccwhois.tcl
+[12:03:18] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[12:03:18] use '.help userinfo' for commands.
+[12:03:18] Writing channel file...
+[12:03:18] Userfile loaded, unpacking...
+[12:03:27] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[12:03:29] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
