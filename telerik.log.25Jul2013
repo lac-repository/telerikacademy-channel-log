@@ -2354,3 +2354,66 @@ bind ..."
 [17:04:14] <yulimoto> даже овъртайм 17:04
 [17:04:26] <yulimoto> 4 минути кой ще ги плаща
 [17:04:27] <dencho-at-work> moje da si sverim 4asovnika s KrasiGa  :P
+[17:05:04] <KrasiGa> да бееее, забавихте ме
+[17:05:08] <KrasiGa> и още ме бавите даже
+[17:05:51] <yulimoto> аре бегай да палуваш и да не забравиш лекцията
+[17:06:29] <KrasiGa> май пак на запис ще я гледам
+[17:06:46] <yulimoto> да си ги запишеш и да си пускаш в Италия
+[17:07:24] <dencho-at-work> 4e tam internet nqma li we
+[17:07:25] <dencho-at-work> :D
+[17:07:39] <yulimoto> може да има ама не като българския !!!!
+[17:08:12] <dencho-at-work> e ne e
+[17:09:22] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:10:06] anton_dutsov (~prof@89.106.122.18) joined #telerikacademy.
+[17:10:38] fusmu (~alex@77.70.80.16) joined #telerikacademy.
+[17:10:57] <phalaaxx> hackman: по темата с файловите системи (че съм се развълнувал нещо напоследък), едно от най-привлекателните неща на btrfs е checksums на data & metadata...
+[17:11:06] <phalaaxx> и зачетох че готвят нещо подобно и за ext4
+[17:11:14] <dencho-at-work> hackman: koq e tvoqta palatka vika6 http://85.14.28.164/d/images/slideshows/0000045468-middle.jpg
+[17:11:36] <hackman> phalaaxx: хвани се с ZFS :) не се мъчи с btrfs :)
+[17:11:58] <hackman> dencho-at-work: зелената в ъгъла в дясно
+[17:12:18] <phalaaxx> ее ZFS на Linux не е ли малко неестествено?
+[17:12:23] <dencho-at-work> :D
+[17:12:32] <phalaaxx> мен в случая ме вълнува повече въпроса с ext4
+[17:12:47] <fusmu> тамън дойде, кво му е неестественото :)
+[17:12:48] <dencho-at-work> sence hotel v dale4inata... :D
+[17:13:00] <phalaaxx> доколкото разбрах има нещо по въпроса от kernel 3.5 нагоре
+[17:13:20] <hackman> dencho сутрин закусвах в Радисън :)
+[17:13:27] <hackman> как да не е перфектно :)
+[17:13:33] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[17:14:42] <phalaaxx> пък и на ZFS май му трябва повечко памет
+[17:14:55] <fusmu> i cpu
+[17:15:17] <fusmu> ama zavisi kakuv raidz si napravish
+[17:15:20] <hackman> phalaaxx: ти на btrfs и ext4 какво мислиш че им трябва? Ракия ?
+[17:15:43] <phalaaxx> а по отношение на btrfs - мисля че има защо да ни е интересно да я следим: http://www.anchor.com.au/blog/2013/04/the-btrfs-backup-experiment/ (споменах ли че съм голям фен на Anchor?)
+[17:16:09] <phalaaxx> hackman: да го кажа така: на ZFS му трябва МНОГО повече памет
+[17:16:31] angie_bg1 (~angie@77.236.189.210) left irc: Ping timeout: 276 seconds
+[17:16:33] <phalaaxx> особено ако се осмелиш да пипнеш нещо по-интересно, snapshots...
+[17:18:26] <hackman> аз performance-а на ZFS, към момента не съм видял нещо да го бие :)
+[17:18:38] <hackman> сравнен със SW RAID & LVM
+[17:18:43] <hackman> но ZFS на BSD
+[17:19:24] <phalaaxx> т.е. ZFS на BSD върви по-бързо от mdadm+LVM+random FS на Linux?
+[17:20:25] <hackman> MD или LVM с random FS :)
+[17:24:24] <phalaaxx> да де, то е почти същото :)
+[17:26:29] <hackman> аз като използвам LVM, не го виждам нито да е много много бърз... нито пък да харчи малко ресурси :)
+[17:26:40] <hackman> btrfs обещава, че нещата ще са различни
+[17:26:43] <hackman> но да видим :)
+[17:26:49] <hackman> има още 1-2 години стабилизиране :)
+[17:26:57] <fusmu> при софтуерен райд5 с LVM пада ли производителността с увеличаването на дисковете?
+[17:27:19] <hackman> не много
+[17:27:36] <hackman> мисля, че след 4-тия имаш константно забавяне
+[17:27:49] <hackman> заради parity сметката
+[17:27:59] <fusmu> аха, защото raidz2 обича повече дискове да има :)
+[17:33:46] fusmu (~alex@77.70.80.16) left irc: Quit: Lost terminal
+[17:35:53] icevv (icevv@client-35-251.speedy-net.bg) joined #telerikacademy.
+[17:45:00] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[17:50:10] <dencho-at-work> are hora... leka vecher i priqtno slushane dovechera, koi online koi offline :D
+[17:54:06] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:54:06] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds
+[17:57:36] <Deyan> хайдеее и аз паля към курса
+[17:58:08] Ivaka (~opera@46.238.49.41) joined #telerikacademy.
+[17:58:08] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Quit: ChatZilla 0.9.90.1 [Firefox 22.0/20130618035212]
+[17:59:24] Ivaka (~opera@46.238.49.41) left #telerikacademy.
+[17:59:43] Ivaka (~opera@46.238.49.41) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:02:02] <phalaaxx> http://s3-ec.buzzfed.com/static/enhanced/webdr06/2013/7/25/6/enhanced-buzz-20839-1374746582-10.jpg
