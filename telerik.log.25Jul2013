@@ -1765,3 +1765,352 @@ bind ..."
 [15:03:58] <KpeTeHoug> обачи
 [15:04:07] <KpeTeHoug> да го направим на прив мсг ?
 [15:04:31] <KpeTeHoug> да не оспамваме канала с тея работи
+[15:05:09] <yulimoto> ами там вероятно може вместо PRIVMSG $chan da se slovi $nick
+[15:05:16] <KpeTeHoug> да
+[15:05:18] <KpeTeHoug> само това е
+[15:05:25] <KpeTeHoug> то аз го смених за канала :)
+[15:05:40] <KpeTeHoug> да сложим и на другия тцл
+[15:05:55] <dencho-at-work> nqkoi zapisval li si cd-ta s command line !?
+[15:06:27] <phalaaxx> че то друг начин има ли? :D
+[15:06:56] <KpeTeHoug> write to cd - now
+[15:06:57] angie_bg1 (~angie@77.236.189.210) joined #telerikacademy.
+[15:07:00] <KpeTeHoug> и готово
+[15:07:33] <dencho-at-work> ebavate li se :D
+[15:07:50] angie_bg (~angie@77.236.189.210) left irc: Ping timeout: 264 seconds
+[15:08:20] <yulimoto> аз вярвам, че phalaaxx пуска графична среда само на коледа, така че му вярвам да не знае друг начин
+[15:08:54] <phalaaxx> ей а ако някой по време на лекцията вземе да напише !help - няма ли да дойде много спамърско?
+[15:09:11] <phalaaxx> dencho-at-work: ни най-малко, какво искаш да направиш?
+[15:09:30] <KpeTeHoug> phalaaxx , да , затова го обръщаме ей сега на лично
+[15:09:48] <hackman> yulimoto: моля те сложи целите линкове към course & additional materials
+[15:09:53] <hackman> аз променям topic-а
+[15:10:34] Topic changed on #telerikacademy by ChanServ!ChanServ@services.: LSA forums: http://goo.gl/XQWlW course: http://goo.gl/erPp3 materials: http://goo.gl/lTGaU for more info type !help in the channel
+[15:11:11] <yulimoto> това обаче ще излиза на private  да не флудиме в канала
+[15:11:12] <hackman> btw за !help-а защо не го сложиш да ги пуска на private
+[15:11:22] <KpeTeHoug> :p
+[15:12:27] tcl: builtin dcc call: *dcc:whom KpeTeHoug 8 
+[15:12:28] <yulimoto> KpeTeHoug e мастора
+[15:13:01] <KpeTeHoug> a, с твоя помощ
+[15:13:04] <KpeTeHoug> недей се измъква
+[15:13:36] fusmu (~alex@77.70.80.16) left irc: Quit: Lost terminal
+[15:13:56] <hackman> мъдрете го там :) то е весело :)
+[15:14:03] <hackman> аз много ви се радвам на ентусиазма :)
+[15:15:58] <KrasiGa> ще ме светнете ли за това, което правите? !forum - какво ще рече?
+[15:16:12] <KpeTeHoug> ми напиши да видиш :)
+[15:16:16] <KrasiGa> на grizzly ако напишеш командата и ти отваря форума
+[15:16:19] <KrasiGa> ааа тук ли?
+[15:16:39] <KrasiGa> aaaa
+[15:16:41] <KrasiGa> aha
+[15:16:44] <KrasiGa> :)
+[15:17:05] <yulimoto> hackman: a bе то и аз взех да се учудвам на моя
+[15:17:41] <KrasiGa> bravo na vas
+[15:18:43] <hackman> yulimoto: може ли да сложите реалните (дългите) линкове а не тези с google :)
+[15:18:54] <hackman> идеята е, че като са дълги се запомнят малко повече
+[15:18:55] <yulimoto> да
+[15:19:03] <yulimoto> ще стане
+[15:19:10] <hackman> а goo.gl го използвах за да се съберат в topic-a :)
+[15:19:40] <yulimoto> е как в to-do листа е :)
+[15:20:27] net: connect! sock 3
+[15:20:27] DNS resolve failed for 127.0.0.1
+[15:20:27] Telnet connection: 127.0.0.1/45039
+[15:20:27] net: connect! sock 12
+[15:20:27] net: eof!(read) socket 12
+[15:20:27] Timeout/EOF ident connection
+[15:20:31] Logged in: yulimoto (telnet@127.0.0.1/45039)
+[15:20:34] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[15:20:34] Writing user file...
+[15:20:34] Writing channel file...
+[15:20:34] Rehashing ...
+[15:20:34] Writing channel file...
+[15:20:34] Listening at telnet port 3333 (all).
+[15:20:34]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:20:34] UDEF: chanstats defined
+[15:20:34] 14<chanstats> version 1.3.0 by arfer loaded
+[15:20:34] UDEF: seend defined
+[15:20:34] Seend 1.8.3 loaded!
+[15:20:34] UDEF: greetings defined
+[15:20:34] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:20:34] MsG (1.0) By GT and yulimoto LOADED.....
+[15:20:34] Loading dccwhois.tcl...
+[15:20:34] Loaded dccwhois.tcl
+[15:20:34] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:20:34] use '.help userinfo' for commands.
+[15:20:34] Writing channel file...
+[15:20:34] Userfile loaded, unpacking...
+[15:20:43] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[15:20:56] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[15:21:11] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[15:21:11] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[15:21:27] <KpeTeHoug> найс а
+[15:21:27] <KpeTeHoug> :)
+[15:22:20] tcl: builtin dcc call: *dcc:whom KpeTeHoug 8 
+[15:25:42] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[15:25:42] Writing user file...
+[15:25:42] Writing channel file...
+[15:25:42] Rehashing ...
+[15:25:42] Writing channel file...
+[15:25:42] Listening at telnet port 3333 (all).
+[15:25:42]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:25:42] UDEF: chanstats defined
+[15:25:42] 14<chanstats> version 1.3.0 by arfer loaded
+[15:25:42] UDEF: seend defined
+[15:25:42] Seend 1.8.3 loaded!
+[15:25:42] UDEF: greetings defined
+[15:25:42] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:25:42] MsG (1.0) By GT and yulimoto LOADED.....
+[15:25:42] Loading dccwhois.tcl...
+[15:25:42] Loaded dccwhois.tcl
+[15:25:42] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:25:42] use '.help userinfo' for commands.
+[15:25:42] Writing channel file...
+[15:25:42] Userfile loaded, unpacking...
+[15:28:01] <yulimoto> KpeTeHoug: само хелпа ли да е private , а !форум !курс и другите да останат в канала или всичко да private ? идеи
+[15:28:11] <yulimoto> за сега правя само хелп-а
+[15:28:19] <KpeTeHoug> да, нека да е само хелпа
+[15:28:23] <KpeTeHoug> пък да видим
+[15:29:05] <yulimoto> трябва да си затворя устата
+[15:29:11] <phalaaxx> оо добре добре, изоставам в класацията :)
+[15:29:23] <phalaaxx> yulimoto: покрий си клавиатурата
+[15:29:30] <yulimoto> :)
+[15:30:16] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[15:30:16] Writing user file...
+[15:30:16] Writing channel file...
+[15:30:16] Rehashing ...
+[15:30:16] Writing channel file...
+[15:30:16] Listening at telnet port 3333 (all).
+[15:30:16]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:30:16] UDEF: chanstats defined
+[15:30:16] 14<chanstats> version 1.3.0 by arfer loaded
+[15:30:16] UDEF: seend defined
+[15:30:16] Seend 1.8.3 loaded!
+[15:30:16] UDEF: greetings defined
+[15:30:16] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:30:16] MsG (1.0) By GT and yulimoto LOADED.....
+[15:30:16] Loading dccwhois.tcl...
+[15:30:16] Loaded dccwhois.tcl
+[15:30:16] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:30:16] use '.help userinfo' for commands.
+[15:30:16] Writing channel file...
+[15:30:16] Userfile loaded, unpacking...
+[15:30:17] <hackman> хахахахаха :)
+[15:30:19] tcl: builtin dcc call: *dcc:whom yulimoto 11 
+[15:30:21] <hackman> и аз бия в нещо :)
+[15:30:31] <KpeTeHoug> не само че биеш
+[15:30:37] <KpeTeHoug> ами имаш и 2те места
+[15:30:37] <KpeTeHoug> :_)
+[15:31:02] <phalaaxx> трябва ти и нова тениска, баш биещия :P
+[15:31:32] <dencho-at-work> obedinee mi nick-ovete dencho + dencho-at-work
+[15:31:35] <dencho-at-work> ORA
+[15:31:36] <dencho-at-work> :D
+[15:31:40] <hackman> bash майстора си е перфектна :0
+[15:32:26] <dencho-at-work> mi da si napraim teniski - nick @ #telerikacademy
+[15:32:27] <dencho-at-work> :d
+[15:32:41] <hackman> айде де :)
+[15:33:29] <dencho-at-work> az ne iskam 6toto 6te me razberete kuv sam grozen
+[15:33:29] <dencho-at-work> :D
+[15:33:46] <dencho-at-work> a moje i da me biete ako va drazna :P
+[15:33:47] <dencho-at-work> hahaha
+[15:33:50] <KpeTeHoug> хаха
+[15:33:55] <KpeTeHoug> това може за изпита така
+[15:33:56] <KpeTeHoug> :)
+[15:33:59] <dencho-at-work> HAHAHAH
+[15:34:00] <dencho-at-work> :D
+[15:34:01] <KpeTeHoug> да се рзпознаваме отдалеко
+[15:34:14] <dencho-at-work> 6a ima KpeTeHougeeeeee kak be6e tva mama mu dea
+[15:34:15] <dencho-at-work> :D
+[15:34:25] <dencho-at-work> ili yulimotoooool... :D
+[15:34:58] <dencho-at-work> btw da, ideq e :)
+[15:36:03] <hackman> аз пак update-нах bash scripting презентацията ;)
+[15:36:03] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[15:36:03] Writing user file...
+[15:36:03] Writing channel file...
+[15:36:03] Rehashing ...
+[15:36:03] Writing channel file...
+[15:36:03] Listening at telnet port 3333 (all).
+[15:36:03]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:36:03] UDEF: chanstats defined
+[15:36:03] 14<chanstats> version 1.3.0 by arfer loaded
+[15:36:03] UDEF: seend defined
+[15:36:03] Seend 1.8.3 loaded!
+[15:36:03] UDEF: greetings defined
+[15:36:03] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:36:03] MsG (1.0) By GT and yulimoto LOADED.....
+[15:36:03] Loading dccwhois.tcl...
+[15:36:03] Loaded dccwhois.tcl
+[15:36:03] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:36:03] use '.help userinfo' for commands.
+[15:36:03] Writing channel file...
+[15:36:03] Userfile loaded, unpacking...
+[15:36:06] <hackman> да знаете ;)
+[15:36:24] <dencho-at-work> dove4era 6te e bash scripting nali?
+[15:36:34] <hackman> малко security продължаваме ;)
+[15:36:40] <dencho-at-work> ahaa
+[15:36:41] <hackman> и след това bash scripting мамоооо :)
+[15:36:48] <KrasiGa> кога ъпдейтна hackman? това от сутринта същото ли е?
+[15:36:56] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[15:36:56] Writing user file...
+[15:36:56] Writing channel file...
+[15:36:56] Rehashing ...
+[15:36:56] Writing channel file...
+[15:36:56] Listening at telnet port 3333 (all).
+[15:36:56]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:36:56] UDEF: chanstats defined
+[15:36:56] 14<chanstats> version 1.3.0 by arfer loaded
+[15:36:56] UDEF: seend defined
+[15:36:56] Seend 1.8.3 loaded!
+[15:36:56] UDEF: greetings defined
+[15:36:56] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:36:56] MsG (1.0) By GT and yulimoto LOADED.....
+[15:36:56] Loading dccwhois.tcl...
+[15:36:56] Loaded dccwhois.tcl
+[15:36:56] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:36:56] use '.help userinfo' for commands.
+[15:36:56] Writing channel file...
+[15:36:56] Userfile loaded, unpacking...
+[15:37:05] <dencho-at-work> jalko... pak 6te sedq gladen do 22:00
+[15:37:13] <yulimoto> asd
+[15:37:17] <hackman> KrasiGa: преди 1-2h update-нах
+[15:37:43] <KrasiGa> значи наново да дърпаме
+[15:38:20] <dencho-at-work> v toz forum sqka6 nikoi ne pi6e
+[15:38:21] <dencho-at-work> :D
+[15:38:24] <dencho-at-work> t.e
+[15:38:37] <dencho-at-work> mai mnogo 10-14 4oveka ot grupata
+[15:39:31] <KrasiGa> явно хората работят ... не като нас
+[15:40:07] <dencho-at-work> e pa subota, nedelq
+[15:40:29] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[15:40:29] Writing user file...
+[15:40:29] Writing channel file...
+[15:40:29] Rehashing ...
+[15:40:29] Writing channel file...
+[15:40:29] Listening at telnet port 3333 (all).
+[15:40:29]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:40:29] UDEF: chanstats defined
+[15:40:29] 14<chanstats> version 1.3.0 by arfer loaded
+[15:40:29] UDEF: seend defined
+[15:40:29] Seend 1.8.3 loaded!
+[15:40:29] UDEF: greetings defined
+[15:40:29] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:40:29] MsG (1.0) By GT and yulimoto LOADED.....
+[15:40:29] Loading dccwhois.tcl...
+[15:40:29] Loaded dccwhois.tcl
+[15:40:29] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:40:29] use '.help userinfo' for commands.
+[15:40:29] Writing channel file...
+[15:40:29] Userfile loaded, unpacking...
+[15:40:31] <KpeTeHoug> мне, някой са тук в Ирц
+[15:40:31] <KrasiGa> тогава се забавляват и разпускат
+[15:40:38] <KpeTeHoug> и още няколко в форума
+[15:40:39] <KpeTeHoug> тва е
+[15:41:03] <Deyan> Аз примерно тук ми е по-интересно, да обсъждаме проблеми и глупости от колкото да дебна кой ще пише във форума
+[15:41:06] <KpeTeHoug> другите го дават лжервно
+[15:41:41] bentoslack (~Adium@ibekyarov.mw-medianetworks.eu) left irc: Quit: Leaving.
+[15:42:51] <dencho-at-work> :]
+[15:43:08] <dencho-at-work> ob6to vzeto se vijda koi kolko raboti sqka6 :P
+[15:43:17] <dencho-at-work> KrasiGa: e non stop online :D
+[15:43:19] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[15:43:19] Writing user file...
+[15:43:19] Writing channel file...
+[15:43:19] Rehashing ...
+[15:43:19] Writing channel file...
+[15:43:19] Listening at telnet port 3333 (all).
+[15:43:19]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:43:19] UDEF: chanstats defined
+[15:43:19] 14<chanstats> version 1.3.0 by arfer loaded
+[15:43:19] UDEF: seend defined
+[15:43:19] Seend 1.8.3 loaded!
+[15:43:19] UDEF: greetings defined
+[15:43:19] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:43:19] MsG (1.0) By GT and yulimoto LOADED.....
+[15:43:19] Loading dccwhois.tcl...
+[15:43:19] Loaded dccwhois.tcl
+[15:43:19] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:43:19] use '.help userinfo' for commands.
+[15:43:19] Writing channel file...
+[15:43:19] Userfile loaded, unpacking...
+[15:43:21] <dencho-at-work> *kogato e na rabota*
+[15:43:25] <dencho-at-work> :D
+[15:44:18] <hackman> аз вече вторин cluster дигам бе момци :)
+[15:44:21] <hackman> незнам за вас :)
+[15:45:30] <dencho-at-work> az vdigam xp
+[15:45:31] <dencho-at-work> :d
+[15:45:42] <yulimoto> аз тая седмица съм офф
+[15:48:18] <KrasiGa> dencho-at-work Може да съм онлайн ама това не означава, че постоянно следя
+[15:48:25] <KrasiGa> и поработвам все пак
+[15:48:51] <yulimoto> + това жените могат да правят 2-3 неща едновременно
+[15:49:16] <KrasiGa> еее да, също и слушам последната лекция ама зациклих нещо
+[15:49:20] <KrasiGa> :)
+[15:50:19] <KpeTeHoug> ай аз да не казвам
+[15:50:28] <KpeTeHoug> всички се оправдават че работят
+[15:50:35] <dencho-at-work> hahahaha
+[15:50:36] <KpeTeHoug> а аз четох и писах домашно
+[15:50:51] <dencho-at-work> i utre e den (za domashni)
+[15:50:52] <dencho-at-work> :D
+[15:50:53] <KpeTeHoug> и прайхме бота с yulimoto
+[15:51:04] <KpeTeHoug> и утре, ма нема съм тук, командировка малко
+[15:51:08] <yulimoto> KrasiGa: ами имате доста добър мемори менджъмнт, ние сме зле в това отношение пък и  процесорите ни са стари uniprocessesors
+[15:51:38] <KrasiGa> жените ли имаш предвид?
+[15:51:46] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[15:51:46] Writing user file...
+[15:51:46] Writing channel file...
+[15:51:46] Rehashing ...
+[15:51:46] Writing channel file...
+[15:51:46] Listening at telnet port 3333 (all).
+[15:51:46]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:51:46] UDEF: chanstats defined
+[15:51:46] 14<chanstats> version 1.3.0 by arfer loaded
+[15:51:46] UDEF: seend defined
+[15:51:46] Seend 1.8.3 loaded!
+[15:51:46] UDEF: greetings defined
+[15:51:46] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:51:46] MsG (1.0) By GT and yulimoto LOADED.....
+[15:51:46] Loading dccwhois.tcl...
+[15:51:46] Loaded dccwhois.tcl
+[15:51:46] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:51:46] use '.help userinfo' for commands.
+[15:51:46] Writing channel file...
+[15:51:46] Userfile loaded, unpacking...
+[15:53:39] <dencho-at-work> setup is copyng files :D
+[15:54:20] <dencho-at-work> a be koi e nai dobria soft za virtualizacia spored vas?
+[15:54:56] tcl: builtin dcc call: *dcc:save KpeTeHoug 8 
+[15:54:56] Writing user file...
+[15:54:56] Writing channel file...
+[15:54:58] tcl: builtin dcc call: *dcc:whom KpeTeHoug 8 
+[15:55:01] DCC connection closed (KpeTeHoug!telnet@127.0.0.1)
+[15:55:38] <KpeTeHoug> layer1 ili 2 :)
+[15:55:44] <KpeTeHoug> на каква host mashina
+[15:55:44] <KpeTeHoug> :)
+[15:56:08] <dencho-at-work> dobre de, kaji i za windows i za linux
+[15:56:08] <dencho-at-work> :D
+[15:56:24] <KpeTeHoug> за Линукс не мога да кажа :) нямам много опит
+[15:56:31] <yulimoto> KrasiGa: аха аха
+[15:56:39] <dencho-at-work> KpeTeHoug: kaji za windows togava :P
+[15:56:41] <KpeTeHoug> но за Вин-а Virtual box po mi e arna
+[15:56:43] <KpeTeHoug> :)
+[15:56:48] <KpeTeHoug> от Vmware
+[15:56:54] <dencho-at-work> aha
+[15:57:15] <KpeTeHoug> а и е фрий
+[15:57:18] <dencho-at-work> vmware nikoga ne sam puskal az
+[15:57:33] <KpeTeHoug> ами, по тежко, със спорно повече функции
+[15:58:06] <KpeTeHoug> ама Enterprise левъл доколкото знам, това е истината
+[15:58:06] <dencho-at-work> sq ostava nqkoi da kaje i za linux
+[15:58:19] <dencho-at-work> v kakuv smisul e istinata?
+[15:58:24] <KpeTeHoug> Vmware
+[15:58:28] <hackman> dencho под linux KVM :)
+[15:58:46] <KpeTeHoug> имат online migrate, с няколко секунди максимум прекъсване :)
+[15:58:51] <KpeTeHoug> и затва
+[15:58:54] <dencho-at-work> zna4i pravilno sam se orientiral i za windows i za linux :D
+[15:59:11] <dencho-at-work> spored va6to vijdane :D
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:30] <KpeTeHoug> е аз не съм вездесъщ :) така че
+[16:00:38] <KpeTeHoug> но съм ползвал повече Vmware
+[16:00:49] <KrasiGa> аз ползвам и Virtual PC na Microsoft и също съм доволна
+[16:00:53] <KpeTeHoug> и сега се чудя що не съм минал по рано на Vbox
+[16:01:07] <KrasiGa> но само XP съм си пуснала там
+[16:01:30] <dencho-at-work> virtual pc v kakuv format pravi diskovete ? qcow ?!
+[16:01:50] <dencho-at-work> ili tehen si blq blq, kakto virtualbox-a vdi ?
+[16:02:40] <KrasiGa> vhd
+[16:03:10] <KrasiGa> то и на Вбож са ми vhd
+[16:03:20] <KrasiGa> *Vbox
+[16:04:03] <dencho-at-work> raz6irenieto na diska
+[16:04:59] <KrasiGa> ami da de, аз си мисля, че е това
+[16:04:59] <dencho-at-work> tipa, formata, a ne naimenovanieto :D
