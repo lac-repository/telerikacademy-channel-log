@@ -2639,3 +2639,45 @@ bind ..."
 [21:00:56] <t_nenkov> da
 [21:01:01] <anton_dutsov> да има видео
 [21:01:03] <gyankov> СПИРАМЕ С ЧАТЕНЕТО :).
+[21:06:28] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) joined #telerikacademy.
+[21:09:09] <yulimoto> Дали може да сменя пермишъните на хисторито, за да не може потребителя да си го редактира ?
+[21:09:27] <gyankov> .bash_history файла се обновява когато се рестартира shell-a за разлика от командата "history".
+[21:15:56] Deyan (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[21:16:02] <tuxar> a history -a ?
+[21:16:50] <tuxar> добава ли в моментната сесия?
+[21:17:26] <tuxar> ок
+[21:22:27] deyan (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:25:55] <TPB_> hackman:  в alias може ли да правим препратка към друг alias?
+[21:26:04] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[21:27:50] pavkata (5cf7db47@gateway/web/cgi-irc/kiwiirc.com/ip.92.247.219.71) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[21:34:49] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[21:36:01] pavkata (5cf7db47@gateway/web/cgi-irc/kiwiirc.com/ip.92.247.219.71) joined #telerikacademy.
+[21:36:08] plamer (~Plamer@84.40.92.7) joined #telerikacademy.
+[21:48:26] <gyankov> цат
+[21:48:28] <gyankov> cat
+[21:53:12] deyan (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[21:59:30] <komadrin> exit
+[21:59:33] <komadrin> \/exit
+[21:59:36] komadrin (~komadrin@wolf.yuhu.biz) left irc: Quit: leaving
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:01:06] _NEKTAR_ (~nektar@176.12.19.179) left irc: Read error: Connection reset by peer
+[22:02:41] phalaaxx (~bozhin@212.5.158.116) left irc: Quit: Leaving.
+[22:02:44] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[22:03:56] <hackman> guys до понеделник :)
+[22:04:01] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[22:04:03] <silverboy> bb
+[22:04:07] <silverboy> do ponedelnik
+[22:04:12] <anton_dutsov> Благодаря за лекцията!
+[22:04:18] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:04:22] <tuxar> мерси и до понеделник!
+[22:04:22] silverboy (542875ae@gateway/web/freenode/ip.84.40.117.174) left irc: Quit: Page closed
+[22:04:25] <BM_boyan> hubava lekciq
+[22:04:29] <BM_boyan> do ponedelnik
+[22:04:29] <Xristo> Лека на всички :)
+[22:04:30] <anton_dutsov> Лека вечер и до понеделник!
+[22:04:38] <MarianaB> До понеделник.
+[22:04:41] artur (5f57c680@gateway/web/freenode/ip.95.87.198.128) left irc: Quit: Page closed
+[22:04:42] <yulimoto> хайде лека на всички :)
+[22:04:51] <KrasiGa> лека и от мен
+[22:04:52] <BM_boyan> leka i ot men
