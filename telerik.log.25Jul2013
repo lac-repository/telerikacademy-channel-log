@@ -2681,3 +2681,68 @@ bind ..."
 [22:04:42] <yulimoto> хайде лека на всички :)
 [22:04:51] <KrasiGa> лека и от мен
 [22:04:52] <BM_boyan> leka i ot men
+[22:05:09] tuxar (~tuxar@athedsl-111479.home.otenet.gr) left irc: Quit: leaving
+[22:05:12] Xristo (5bd25a95@gateway/web/cgi-irc/kiwiirc.com/ip.91.210.90.149) left #telerikacademy.
+[22:05:13] MarianaB (~mariana@93.183.136.95) left #telerikacademy.
+[22:05:25] KrasiGa (9e3ade87@gateway/web/freenode/ip.158.58.222.135) left irc: Quit: Page closed
+[22:05:34] <anton_sh> Аз имам въпрос. Защо каза, че е лошо да се пишат скриптове на php
+[22:05:41] <gyankov> hackman: Презентацията кога ще бъде качена? :)
+[22:06:01] <anton_dutsov> за баш скрипта вече е качена
+[22:06:07] <anton_dutsov> в 4-та лекция
+[22:06:52] <gyankov> Хм, аз нямам нищо за "4. Shell scripting"
+[22:07:19] <anton_dutsov> https://github.com/hackman/linux-sysadmin-course/tree/master/presentations
+[22:07:33] <anton_sh> Разбрах
+[22:07:44] <anton_dutsov> извинявай не бях обърнал внимание
+[22:07:45] <gyankov> Ясно, мерси.
+[22:08:45] <gyankov> Кой понеделник ще бъде следващата лекция?
+[22:09:01] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 276 seconds
+[22:10:47] <anton_sh> Как мога да изпълня команда на един ред която реално  изисква и отговор yes например
+[22:11:04] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[22:11:17] <anton_sh> искам  sudo svn update /path
+[22:11:37] <anton_sh> и след това трябва да въведа парила
+[22:11:45] <anton_sh> може ли да стане с един ред това?
+[22:12:57] <BM_boyan> gyankov: mislq 4e se pada 29.07.2013
+[22:13:43] <anton_sh> разбрах ще опитам
+[22:13:44] <anton_sh> мерси
+[22:13:47] <anton_sh> приятна вечер
+[22:13:58] <gyankov> BM_boyan: Аха, значи по-рано от нормалния четвъртък :).
+[22:14:40] <BM_boyan> xaxaxxx da
+[22:15:07] t_nenkov (c14413d5@gateway/web/freenode/ip.193.68.19.213) left irc: Quit: Page closed
+[22:15:35] <gyankov> Лека вечер от мен!
+[22:15:37] <hackman> спирам
+[22:15:43] <hackman> лека
+[22:15:44] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) left irc: Quit: Page closed
+[22:15:45] hackman (~HackMan@89.190.207.11) left #telerikacademy.
+[22:15:46] <BM_boyan> leka
+[22:15:51] <anton_dutsov> лека вечер
+[22:16:00] gyankov (4e5abff5@gateway/web/freenode/ip.78.90.191.245) left irc: Quit: Page closed
+[22:16:11] anton_dutsov (~prof@89.106.122.18) left irc: Quit: Leaving
+[22:16:29] BM_boyan (~BM_boyan@85.187.248.24) left #telerikacademy.
+[22:16:46] kamen779 (~kamen779@158-58-226-163.sf.ddns.bulsat.com) left #telerikacademy.
+[22:19:49] dmihailov (~kvirc@77.70.7.125) left irc: Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/
+[22:22:10] nveselinov (nveselinov@151.237.4.4) got netsplit.
+[22:22:10] user99 (John@78.130.186.99) got netsplit.
+[22:22:19] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left #telerikacademy.
+[22:22:58] nveselinov (nveselinov@151.237.4.4) returned to #telerikacademy.
+[22:22:58] user99 (John@78.130.186.99) returned to #telerikacademy.
+[22:23:52] FireSword (2eee2ec2@gateway/web/freenode/ip.46.238.46.194) got netsplit.
+[22:23:52] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) got netsplit.
+[22:23:52] poly (2eed5544@gateway/web/freenode/ip.46.237.85.68) got netsplit.
+[22:23:52] wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) got netsplit.
+[22:24:20] FireSword (2eee2ec2@gateway/web/freenode/ip.46.238.46.194) returned to #telerikacademy.
+[22:24:20] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) returned to #telerikacademy.
+[22:24:20] poly (2eed5544@gateway/web/freenode/ip.46.237.85.68) returned to #telerikacademy.
+[22:24:20] wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) returned to #telerikacademy.
+[22:25:42] vhristev (~vhristev@216.144.241.24) got netsplit.
+[22:26:24] FireSword (2eee2ec2@gateway/web/freenode/ip.46.238.46.194) left irc: 
+[22:27:41] sshh (~Svetlozar@89-215-55-40.2073686880.ddns-lan.pl.ekk.bg) left irc: Ping timeout: 256 seconds
+[22:34:53] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[22:36:00] vhristev (~vhristev@216.144.241.24) got lost in the net-split.
+[22:36:16] sshh (~Svetlozar@89-215-55-40.2073686880.ddns-lan.pl.ekk.bg) joined #telerikacademy.
+[22:36:54] vhristev (~vhristev@216.144.241.24) joined #telerikacademy.
+[22:37:50] plamer (~Plamer@84.40.92.7) left irc: Quit: Leaving
+[22:54:56] sshh (~Svetlozar@89-215-55-40.2073686880.ddns-lan.pl.ekk.bg) left irc: Quit: Leaving
+[22:59:45] pavkata (5cf7db47@gateway/web/cgi-irc/kiwiirc.com/ip.92.247.219.71) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:34] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
