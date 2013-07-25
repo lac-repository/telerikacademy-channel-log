@@ -2417,3 +2417,105 @@ bind ..."
 [18:00:00] Writing user file...
 [18:00:00] Writing channel file...
 [18:02:02] <phalaaxx> http://s3-ec.buzzfed.com/static/enhanced/webdr06/2013/7/25/6/enhanced-buzz-20839-1374746582-10.jpg
+[18:06:49] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Read error: Operation timed out
+[18:08:49] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:09:37] hackman (~HackMan@management.1h.com) left irc: Quit: Leaving.
+[18:14:01] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[18:15:05] fusmu (~alex@77.70.80.16) joined #telerikacademy.
+[18:15:36] net: eof!(read) socket 11
+[18:15:36] Lost dcc connection to yulimoto (telnet@127.0.0.1/45039)
+[18:32:55] Deyan (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:33:41] <Deyan> wellcome again
+[18:34:15] KrasiGa (9e3ade87@gateway/web/freenode/ip.158.58.222.135) joined #telerikacademy.
+[18:37:00] tuxar (~tuxar@ppp-94-69-247-175.home.otenet.gr) joined #telerikacademy.
+[18:37:18] <tuxar> Привет!
+[18:37:37] t_nenkov (~t_nenkov@193.68.19.213) joined #telerikacademy.
+[18:42:32] Deyan (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[18:42:54] gyankov (4e5abff5@gateway/web/freenode/ip.78.90.191.245) joined #telerikacademy.
+[18:44:31] t_nenkov (~t_nenkov@193.68.19.213) left irc: 
+[18:44:42] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[18:46:34] <KrasiGa> #ssh
+[18:46:53] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[18:47:44] <gyankov> Колеги, нали всичко върви по план тази вечер? :)
+[18:48:59] <tuxar> ами доколкото знам ...
+[18:49:18] <gyankov> ОК ;)
+[18:49:37] <tuxar> не съм видял предупреждаващи съобщения в системата
+[18:50:51] hackman (~HackMan@87.118.135.253) joined #telerikacademy.
+[18:50:58] Nick change: hackman -> HackMan
+[18:51:27] t_nenkov (~t_nenkov@193.68.19.213) joined #telerikacademy.
+[18:51:59] <HackMan> има ли хора ? :)
+[18:52:03] <tuxar> да
+[18:52:05] <HackMan> кой ще тества stream-а ? :)
+[18:52:14] <tuxar> давай ...
+[18:52:18] <tuxar> ;-)
+[18:52:19] phalaaxx (~bozhin@212.5.158.116) joined #telerikacademy.
+[18:52:21] silverboy (542875ae@gateway/web/freenode/ip.84.40.117.174) joined #telerikacademy.
+[18:52:21] <gyankov> давай давай :)
+[18:52:36] <silverboy> zdraveite
+[18:53:03] <anton_dutsov> Здравейте колеги!
+[18:53:09] Brahman (~Brahman@109.121.248.105) left irc: 
+[18:53:11] <HackMan> пускайте
+[18:53:19] <tuxar> ок
+[18:53:25] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[18:53:52] <silverboy> az nqmam zvuk
+[18:53:53] <sig_> тръгна стрийма
+[18:53:54] <silverboy> :)
+[18:54:01] <sig_> звука е ок
+[18:54:04] <t_nenkov> moje li link za strema, 4e go nqma v topic-a
+[18:54:18] <silverboy> a da ok e ve4e
+[18:54:20] <gyankov> http://www.twitch.tv/aziliann/
+[18:54:26] <sig_> http://www.twitch.tv/aziliann/
+[18:54:29] <t_nenkov> mersi
+[18:54:31] <HackMan> чува ли се ?
+[18:54:34] <HackMan> как се чува ?
+[18:54:38] <Brahman> добре се чува
+[18:54:40] <silverboy> da
+[18:54:44] <gyankov> Май добре се чува засега.
+[18:54:44] <anton_dutsov> много добре
+[18:54:45] <sig_> идеално
+[18:54:47] <Brahman> до тук :)
+[18:55:29] <TPB_> HackMan: много готин theme
+[18:56:05] t_nenkov1 (~t_nenkov@193.68.19.213) joined #telerikacademy.
+[18:56:39] <HackMan> spiram stream-a
+[18:57:23] <KrasiGa> прекъсва ли ви или е от нета ми? не сега де, преди да спре стрима
+[18:57:27] BM_boyan (~BM_boyan@85.187.248.24) joined #telerikacademy.
+[18:57:34] tuxar (~tuxar@ppp-94-69-247-175.home.otenet.gr) left irc: Ping timeout: 248 seconds
+[18:57:38] <Brahman> чат-пат прекъсва за съвсем малко
+[18:57:41] <Brahman> по-малко от секунда
+[18:57:55] <anton_dutsov> на мене ми накъсва също за по-малко то секунда
+[18:58:04] <Brahman> не, това не е проблем
+[18:58:05] <episparh> къде избяга срийма ?
+[18:58:08] <Brahman> стига да не се влоши
+[18:58:15] <Brahman> ще го пусне пак
+[18:58:54] t_nenkov (~t_nenkov@193.68.19.213) left irc: Ping timeout: 264 seconds
+[18:59:13] tuxar (~tuxar@athedsl-111479.home.otenet.gr) joined #telerikacademy.
+[18:59:16] <anton_dutsov> мисля, че няма да има накъсвания на видеото в youtube
+[18:59:33] <anton_dutsov> след като се качат там имам предвид
+[18:59:41] <Brahman> hahahaha
+[18:59:44] <anton_dutsov> много ми харесва Live Stream-a
+[18:59:46] poly (2eed5544@gateway/web/freenode/ip.46.237.85.68) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:09] <BM_boyan> а, добър вечер и от мен
+[19:00:25] sshh (~Svetlozar@89-215-55-40.2073686880.ddns-lan.pl.ekk.bg) joined #telerikacademy.
+[19:00:42] <BM_boyan> дори и да има леко прекъсване то е за сек. 2 и няма да се усешта
+[19:00:43] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:00:56] <sshh> hi
+[19:01:11] <poly> ima li stream v momenta?
+[19:01:21] <Brahman> malko go sprqha
+[19:01:26] <poly> ok
+[19:01:30] <Brahman> stoi tam na liniq
+[19:01:33] <yulimoto> някой ползва ли rtmpdump да ми спести мъките с настройките
+[19:01:34] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[19:01:36] <yulimoto> ?
+[19:01:49] HackMan (~HackMan@87.118.135.253) left irc: Ping timeout: 276 seconds
+[19:02:28] <BM_boyan> pak 6te go pusnat ima nqkakva drama s filtriraneto na mrejata v telerik
+[19:03:12] <t_nenkov1> Nqkoj moje li da me naso4i kyde v mIRC sa Option-ite za Kirilizaciqta, 4e vijdam samo maimunqci
+[19:03:46] <BM_boyan> az sam s Pidgin sorry
+[19:04:03] <t_nenkov1> nqkoj da drasne na kirilica ne6to?
+[19:04:08] <episparh> аз с xchat - ползвай уеб клиента
+[19:04:15] <silverboy> https://webchat.freenode.net/
+[19:04:20] <silverboy> moje i ot tuka
+[19:04:31] <silverboy> da vlezne6
+[19:04:36] <anton_dutsov> http://kiwiirc.com/
+[19:04:44] <episparh> аз с xchat - ползвай уеб клиента  (polzwaj web client-a . P.S. I am genius)
