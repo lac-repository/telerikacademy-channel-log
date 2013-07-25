@@ -1482,3 +1482,286 @@
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
 [14:00:09] bentoslack (~Adium@ibekyarov.mw-medianetworks.eu) joined #telerikacademy.
+[14:09:40] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[14:09:40] Writing user file...
+[14:09:40] Writing channel file...
+[14:09:40] Rehashing ...
+[14:09:40] Writing channel file...
+[14:09:40] Listening at telnet port 3333 (all).
+[14:09:40]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[14:09:40] UDEF: chanstats defined
+[14:09:40] 14<chanstats> version 1.3.0 by arfer loaded
+[14:09:40] UDEF: seend defined
+[14:09:40] Seend 1.8.3 loaded!
+[14:09:40] UDEF: greetings defined
+[14:09:40] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[14:09:40] Tcl error in file 'Telerik.conf':
+[14:09:40] missing close-brace
+    while executing
+"proc pub_!forum {nick uhost hand channel rest} {
+global botnick
+putmsg #telerikacademy "Linux System Administration forums: http://goo.gl/XQWlW"
+bind ..."
+    (file "scripts/sites.tcl" line 2)
+    invoked from within
+"source scripts/sites.tcl"
+    (file "Telerik.conf" line 1388)
+[14:09:40] * CONFIG FILE NOT LOADED (NOT FOUND, OR ERROR)
+[14:13:41] Seend data restored.
+[14:13:41] main: entering loop
+[14:13:42] DNS resolved irc.freenode.net to 78.40.125.4
+[14:13:42] net: connect! sock 7
+[14:13:57] Telerik joined #telerikacademy.
+[14:15:23] <KrasiGa> eee ми, че то лесно да рутнем линукса. Успях да сменя паролата на red hata дето го мъчех оня ден
+[14:15:31] <KrasiGa> мъчехме
+[14:15:39] <KrasiGa> абе знаех си, че не ми беше ден тогава
+[14:18:36] <KpeTeHoug> ::)
+[14:18:41] <KpeTeHoug> браво, вече си хакерка
+[14:20:56] alex_ (~alex@gate.dpc.bg) joined #telerikacademy.
+[14:21:04] <alex_> sup
+[14:21:06] <KrasiGa> абе ... внимавайте, че в скоро време като стана много добра
+[14:21:11] <KrasiGa> :)
+[14:21:26] <alex_> не ма хакайте нуб съм
+[14:22:11] Nick change: alex_ -> fusmu
+[14:23:09] fusmu (~alex@gate.dpc.bg) left irc: Client Quit
+[14:24:50] <KpeTeHoug> видя ли сега
+[14:24:53] <KpeTeHoug> изплаши се момчето
+[14:24:55] <KpeTeHoug> и излезе даже
+[14:25:47] <KrasiGa> ами нормално, страшни сме си
+[14:26:55] <yulimoto> KrasiGa: е малко ще трябва да си физически до машината, но това са подробности
+[14:26:58] fusmu (~alex@77.70.80.16) joined #telerikacademy.
+[14:27:26] <KrasiGa> хахаха малки подробности
+[14:27:29] <KrasiGa> знам знам
+[14:27:45] <yulimoto> направо с чука
+[14:27:47] <KrasiGa> аз си се кефя понеже до преди един месец не бях пипала линукс
+[14:28:00] <KrasiGa> пък сега вече .... лелее  :)))))))))
+[14:28:19] <yulimoto> да кеф си е инит=/бин/баш
+[14:28:29] <yulimoto> а сега ела че ми трябваш passwd
+[14:28:41] toniev (d5e78b10@gateway/web/freenode/ip.213.231.139.16) joined #telerikacademy.
+[14:28:42] <yulimoto> и си решаваш проблемите
+[14:29:23] <KrasiGa> вече имам много виртуалки, които да чупя
+[14:29:44] <yulimoto> не се съмнявам - ти ги теглеше на килограм до колкото помня
+[14:30:03] <yulimoto> чак запука freebsd и solaris
+[14:30:34] <yulimoto> 20 гб към 40-50 оса ;)
+[14:31:15] <yulimoto> тъй че ще има да ги рутваш една по една по цяли вечери
+[14:31:54] <KpeTeHoug> ако сега падне бота
+[14:31:58] <KpeTeHoug> пу аз не съм виновен :)
+[14:32:06] <KrasiGa> е те си ми бяха преди курса
+[14:32:15] <yulimoto> а добре
+[14:32:16] <KrasiGa> ама не ги отварях
+[14:32:18] net: connect! sock 3
+[14:32:18] DNS resolve failed for 127.0.0.1
+[14:32:18] Telnet connection: 127.0.0.1/45033
+[14:32:18] net: connect! sock 9
+[14:32:18] net: eof!(read) socket 9
+[14:32:18] Timeout/EOF ident connection
+[14:32:22] Logged in: KpeTeHoug (telnet@127.0.0.1/45033)
+[14:32:24] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[14:32:24] Writing user file...
+[14:32:24] Writing channel file...
+[14:32:24] Rehashing ...
+[14:32:24] Writing channel file...
+[14:32:24] Listening at telnet port 3333 (all).
+[14:32:24]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[14:32:24] UDEF: chanstats defined
+[14:32:24] 14<chanstats> version 1.3.0 by arfer loaded
+[14:32:24] UDEF: seend defined
+[14:32:24] Seend 1.8.3 loaded!
+[14:32:24] UDEF: greetings defined
+[14:32:24] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[14:32:24] MsG (1.0) By DEi LOADED.....
+[14:32:24] Loading dccwhois.tcl...
+[14:32:24] Loaded dccwhois.tcl
+[14:32:24] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[14:32:24] use '.help userinfo' for commands.
+[14:32:24] Writing channel file...
+[14:32:24] Userfile loaded, unpacking...
+[14:32:32] <KrasiGa> то кат не му рзбираш и няма какво да правиш с тях
+[14:32:36] Tcl error [testfile]: can't read "channel": no such variable
+[14:32:42] <yulimoto> аз преди курса ме виртуалка съм имал 1
+[14:32:58] <KpeTeHoug> dobre, imame napredyk :)
+[14:33:41] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[14:33:41] Writing user file...
+[14:33:41] Writing channel file...
+[14:33:41] Rehashing ...
+[14:33:41] Writing channel file...
+[14:33:41] Listening at telnet port 3333 (all).
+[14:33:41]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[14:33:41] UDEF: chanstats defined
+[14:33:41] 14<chanstats> version 1.3.0 by arfer loaded
+[14:33:41] UDEF: seend defined
+[14:33:41] Seend 1.8.3 loaded!
+[14:33:41] UDEF: greetings defined
+[14:33:41] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[14:33:41] MsG (1.0) By DEi LOADED.....
+[14:33:41] Loading dccwhois.tcl...
+[14:33:41] Loaded dccwhois.tcl
+[14:33:41] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[14:33:41] use '.help userinfo' for commands.
+[14:33:41] Writing channel file...
+[14:33:41] Userfile loaded, unpacking...
+[14:33:52] <KpeTeHoug> yeah
+[14:34:16] toniev (d5e78b10@gateway/web/freenode/ip.213.231.139.16) left irc: Quit: Page closed
+[14:34:25] <yulimoto> ей браво
+[14:34:35] <KpeTeHoug> след 20тина тцл-а
+[14:34:50] <KpeTeHoug> реших да си го открадно/напиша аз :)
+[14:35:00] <KpeTeHoug> сега само да го напудря
+[14:35:57] <KpeTeHoug> !хелп
+[14:35:58] <yulimoto> да то така е най-добре
+[14:36:01] <KpeTeHoug> !help
+[14:36:28] <yulimoto> използвай някакъв речник и пушни вътре нашите неща
+[14:36:51] <KpeTeHoug> ami i taka go misleh
+[14:37:00] <KpeTeHoug> ама
+[14:37:04] <KpeTeHoug> чек да видя сега
+[14:37:25] <yulimoto> как се казва tcl
+[14:37:50] <KpeTeHoug> sites.tcl
+[14:38:52] <yulimoto> между другото скоро четох във форума, че Наков препоръчва за порно да се ползва отделен броузър, но това е мислене на програмист. Администраторите би следвало да имат отделна виртуалка за тази цел.
+[14:39:13] <KpeTeHoug> da, i da polzvat inkognito revim
+[14:39:19] <KpeTeHoug> режим
+[14:39:20] <KpeTeHoug> най малкото
+[14:40:02] <yulimoto> тя виртуалката ще е на снапшот и винаги ще връща старото чисто и неопетнено състояние !!
+[14:40:16] <KpeTeHoug> аха
+[14:40:19] <KpeTeHoug> хитро
+[14:41:15] <phalaaxx> е то ако тръгнеш така трябва за всеки голям сайт да си имаш виртуални машини :)
+[14:43:09] <phalaaxx> освен това нали знаете че всеки администратор има сърце на програмист...
+[14:43:19] <phalaaxx> (в буркан на бюрото си)
+[14:44:09] <yulimoto> да, втория ред е повратния момент в разказа
+[14:45:43] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[14:45:59] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[14:47:04] <KpeTeHoug> тъй
+[14:47:08] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[14:47:08] Writing user file...
+[14:47:08] Writing channel file...
+[14:47:08] Rehashing ...
+[14:47:08] Writing channel file...
+[14:47:08] Listening at telnet port 3333 (all).
+[14:47:08]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[14:47:08] UDEF: chanstats defined
+[14:47:08] 14<chanstats> version 1.3.0 by arfer loaded
+[14:47:08] UDEF: seend defined
+[14:47:08] Seend 1.8.3 loaded!
+[14:47:08] UDEF: greetings defined
+[14:47:08] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[14:47:08] MsG (1.0) By GT LOADED.....
+[14:47:08] Loading dccwhois.tcl...
+[14:47:08] Loaded dccwhois.tcl
+[14:47:08] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[14:47:08] use '.help userinfo' for commands.
+[14:47:08] Writing channel file...
+[14:47:08] Userfile loaded, unpacking...
+[14:47:15] Tcl error [help]: can't read "channel": no such variable
+[14:47:24] <KpeTeHoug> of
+[14:48:12] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[14:48:12] Writing user file...
+[14:48:12] Writing channel file...
+[14:48:12] Rehashing ...
+[14:48:12] Writing channel file...
+[14:48:12] Listening at telnet port 3333 (all).
+[14:48:12]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[14:48:12] UDEF: chanstats defined
+[14:48:12] 14<chanstats> version 1.3.0 by arfer loaded
+[14:48:12] UDEF: seend defined
+[14:48:12] Seend 1.8.3 loaded!
+[14:48:12] UDEF: greetings defined
+[14:48:12] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[14:48:12] MsG (1.0) By GT LOADED.....
+[14:48:12] Loading dccwhois.tcl...
+[14:48:12] Loaded dccwhois.tcl
+[14:48:12] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[14:48:12] use '.help userinfo' for commands.
+[14:48:12] Writing channel file...
+[14:48:12] Userfile loaded, unpacking...
+[14:48:25] <KpeTeHoug> hm
+[14:48:39] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[14:48:39] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[14:48:51] <KpeTeHoug> ne, chete samo ediniqt fajl
+[14:48:52] <yulimoto> аха ще има малко поправка
+[14:48:57] <KpeTeHoug> :)
+[14:49:20] <yulimoto> значи защо не сложиш set file1
+[14:49:23] <yulimoto> значи защо не сложиш set file2
+[14:49:24] <yulimoto> значи защо не сложиш set file3
+[14:49:34] <yulimoto> после по функциите по същия начин
+[14:50:11] <yulimoto> защото явно file1 file2 file3 ще са променливи които съдържат името на файла който ще се отваря
+[14:50:24] tcl: builtin dcc call: *dcc:save KpeTeHoug 8 
+[14:50:24] Writing user file...
+[14:50:24] Writing channel file...
+[14:50:30] <yulimoto> т.е. на прима виста
+[14:50:37] <KpeTeHoug> тамън туй правя :)
+[14:50:41] <KpeTeHoug> !хелп
+[14:50:54] <KpeTeHoug> blqh
+[14:52:16] <yulimoto> ц
+[14:52:19] <yulimoto> греда
+[14:53:39] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[14:53:39] Writing user file...
+[14:53:39] Writing channel file...
+[14:53:39] Rehashing ...
+[14:53:39] Writing channel file...
+[14:53:39] Listening at telnet port 3333 (all).
+[14:53:39]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[14:53:39] UDEF: chanstats defined
+[14:53:39] 14<chanstats> version 1.3.0 by arfer loaded
+[14:53:39] UDEF: seend defined
+[14:53:39] Seend 1.8.3 loaded!
+[14:53:39] UDEF: greetings defined
+[14:53:39] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[14:53:39] MsG (1.0) By GT and yulimoto LOADED.....
+[14:53:39] Loading dccwhois.tcl...
+[14:53:39] Loaded dccwhois.tcl
+[14:53:39] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[14:53:39] use '.help userinfo' for commands.
+[14:53:39] Writing channel file...
+[14:53:39] Userfile loaded, unpacking...
+[14:54:05] <KpeTeHoug> ye mada faka
+[14:54:34] <yulimoto> !shh ко напраий ти ве ;)
+[14:54:51] <KpeTeHoug> a a a
+[14:54:52] <KpeTeHoug> :)
+[14:55:04] <yulimoto> браво
+[14:55:12] <KpeTeHoug> !stream
+[14:55:26] <KpeTeHoug> hm
+[14:55:28] <KpeTeHoug> tuka neshto
+[14:55:30] <yulimoto> !stream
+[14:55:35] <yulimoto> !stream бе
+[14:55:41] <KpeTeHoug> :)
+[14:55:43] <KpeTeHoug> sega shte vidim
+[14:56:02] <yulimoto> ами то го няма
+[14:56:12] <KpeTeHoug> da
+[14:56:13] <KpeTeHoug> :)
+[14:56:21] <KpeTeHoug> ej sega shte go setna
+[14:56:24] <dencho-at-work> igraete li si :)
+[14:56:35] <KpeTeHoug> ahy
+[14:56:51] <dencho-at-work> igraite si :)
+[14:56:55] <yulimoto> стрийма требе се сложи щото аз идвам и къде да го търся
+[14:58:11] <dencho-at-work> ne pi4ove, napravo slojete linkovete v help, a ne da pi6e6 help i posle logs :D
+[14:58:53] <KpeTeHoug> то това ясно
+[14:59:11] <KpeTeHoug> може даже и малко гъди гъди
+[14:59:48] <fusmu> да стане бардак
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:21] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[15:00:21] Writing user file...
+[15:00:21] Writing channel file...
+[15:00:21] Rehashing ...
+[15:00:21] Writing channel file...
+[15:00:21] Listening at telnet port 3333 (all).
+[15:00:21]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[15:00:21] UDEF: chanstats defined
+[15:00:21] 14<chanstats> version 1.3.0 by arfer loaded
+[15:00:21] UDEF: seend defined
+[15:00:21] Seend 1.8.3 loaded!
+[15:00:21] UDEF: greetings defined
+[15:00:21] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[15:00:21] MsG (1.0) By GT and yulimoto LOADED.....
+[15:00:21] Loading dccwhois.tcl...
+[15:00:21] Loaded dccwhois.tcl
+[15:00:21] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[15:00:21] use '.help userinfo' for commands.
+[15:00:21] Writing channel file...
+[15:00:21] Userfile loaded, unpacking...
+[15:00:35] <KpeTeHoug> :)
+[15:01:14] <KpeTeHoug> сега, да оправим другия тцл
+[15:01:19] <KpeTeHoug> da listva teq 2 komandi
+[15:01:21] <KpeTeHoug> i sme 6
+[15:03:56] <KpeTeHoug> сега
+[15:03:58] <KpeTeHoug> обачи
+[15:04:07] <KpeTeHoug> да го направим на прив мсг ?
+[15:04:31] <KpeTeHoug> да не оспамваме канала с тея работи
