@@ -2578,3 +2578,64 @@ bind ..."
 [20:00:00] Writing user file...
 [20:00:00] Writing channel file...
 [20:04:31] <bldrchd> ima li nqkade list na vsichkite signali ?
+[20:05:23] <Brahman> tova specialno e ctrl+z i fg v posledstvie ako e foreground procesa
+[20:06:02] <anton_dutsov> За командата "kill -l" ли питаш?
+[20:06:06] <Brahman> na kill -l
+[20:08:51] <Brahman> t.e te sa "custom "  ?
+[20:09:14] Ivaka (~opera@46.238.49.41) left #telerikacademy.
+[20:09:17] t_nenkov1 (~t_nenkov@193.68.19.213) left irc: 
+[20:09:52] <hackman> Brahman: chakai
+[20:10:00] <hackman> anton_dutsov: malchi si
+[20:14:50] angie_bg (~angie@77.236.189.210) left #telerikacademy.
+[20:14:51] <sig_> kill -2 убива ли child процесите, или остават зомби?
+[20:17:05] phalaaxx (~bozhin@212.5.158.116) left irc: Ping timeout: 246 seconds
+[20:17:47] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[20:27:56] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 246 seconds
+[20:28:35] phalaaxx (~bozhin@212.5.158.116) joined #telerikacademy.
+[20:30:26] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:34:02] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:36:23] pavkata (5cf7db47@gateway/web/cgi-irc/kiwiirc.com/ip.92.247.219.71) joined #telerikacademy.
+[20:36:29] Xristo (5bd25a95@gateway/web/cgi-irc/kiwiirc.com/ip.91.210.90.149) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[20:39:21] <MarianaB> Освен ако не изпълняваме sudo su
+[20:40:42] kamen779 (~kamen779@158-58-226-163.sf.ddns.bulsat.com) left irc: Ping timeout: 268 seconds
+[20:41:02] Xristo (5bd25a95@gateway/web/cgi-irc/kiwiirc.com/ip.91.210.90.149) joined #telerikacademy.
+[20:41:40] <MarianaB> Понеже каза, че судо те връща с твоя потребител, но не и в случая на судо су. Тогава си оставаш руут. Аз се чудех дали е удачно да се иползва командата по този начин.
+[20:46:03] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[20:47:16] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:48:25] alex____ (~alex@77.70.80.16) joined #telerikacademy.
+[20:49:44] <hackman> да, права си, но то е логично
+[20:54:05] Deyan (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:55:24] FireSword (2eee2ec2@gateway/web/freenode/ip.46.238.46.194) joined #telerikacademy.
+[20:55:31] <hackman> spiram stream-a za malko
+[20:56:28] <gyankov> 28-30 човека гледат stream-a :).
+[20:56:45] <poly> uvelichavat se
+[20:56:52] <FireSword> готино е :)
+[20:56:53] <poly> prednata sedmica bqha po-malko
+[20:57:30] <gyankov> Аз днес забелязах, че се вижда колко хора има на линия :).
+[20:58:21] <anton_dutsov> къде се вижда колко души гледат видеото?
+[20:58:46] <anton_dutsov> миналата седмица разбрах късно за live stream-a и го изпуснах
+[20:59:00] <gyankov> Долу вдясно има едно червено човече с номер.
+[20:59:01] <Xristo> в десния ъгъл под плеъра
+[20:59:12] <sig_> watching now: 30
+[20:59:22] <sig_> долу в дясно
+[20:59:23] kamen779 (~kamen779@158-58-226-163.sf.ddns.bulsat.com) joined #telerikacademy.
+[20:59:24] <komador> kak se vliza v streama
+[20:59:30] <Xristo> http://www.twitch.tv/aziliann/
+[20:59:32] <anton_dutsov> сега ми е много приятно да гледам лекцията на живо
+[20:59:38] <komador> mersi
+[20:59:57] <anton_dutsov> в момента има ли видео?
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:00:02] <MarianaB> не
+[21:00:05] <gyankov> След малко ще има.
+[21:00:07] <t_nenkov> hackman go sprq
+[21:00:34] <hackman> puskam pak
+[21:00:36] <hackman> ima li ?
+[21:00:38] <anton_dutsov> да ясно, понеже не виждам човечето за което sig_ ми писа
+[21:00:48] <yulimoto> лоудва
+[21:00:52] <pavkata> da trugna
+[21:00:52] <episparh> loading .... done
+[21:00:52] <gyankov> Да, вече има.
+[21:00:56] <t_nenkov> da
+[21:01:01] <anton_dutsov> да има видео
+[21:01:03] <gyankov> СПИРАМЕ С ЧАТЕНЕТО :).
