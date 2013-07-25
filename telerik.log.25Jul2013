@@ -2114,3 +2114,243 @@ bind ..."
 [16:04:03] <dencho-at-work> raz6irenieto na diska
 [16:04:59] <KrasiGa> ami da de, аз си мисля, че е това
 [16:04:59] <dencho-at-work> tipa, formata, a ne naimenovanieto :D
+[16:05:21] <KpeTeHoug> dencho-at-work то vbox-a може 5-6 варианта
+[16:05:22] <KpeTeHoug> :)
+[16:05:41] <dencho-at-work> KpeTeHoug:  знам :Д но питам за тва virtual pc-
+[16:05:41] <dencho-at-work> :d
+[16:05:46] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[16:05:46] Writing user file...
+[16:05:46] Writing channel file...
+[16:05:46] Rehashing ...
+[16:05:46] Writing channel file...
+[16:05:46] Listening at telnet port 3333 (all).
+[16:05:46]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[16:05:46] UDEF: chanstats defined
+[16:05:46] 14<chanstats> version 1.3.0 by arfer loaded
+[16:05:46] UDEF: seend defined
+[16:05:46] Seend 1.8.3 loaded!
+[16:05:46] UDEF: greetings defined
+[16:05:46] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[16:05:46] MsG (1.0) By GT and yulimoto LOADED.....
+[16:05:46] Loading dccwhois.tcl...
+[16:05:46] Loaded dccwhois.tcl
+[16:05:46] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[16:05:46] use '.help userinfo' for commands.
+[16:05:46] Writing channel file...
+[16:05:46] Userfile loaded, unpacking...
+[16:06:32] <KrasiGa> ами да, сега гледам, че CentOS e vdi, ама всички останали са vhd
+[16:06:57] <KpeTeHoug> май на 5 мин се актуализира
+[16:07:01] <KpeTeHoug> ама това подробности
+[16:07:15] <KpeTeHoug> домашно ъплоуд - done
+[16:07:27] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[16:07:27] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[16:07:28] <yulimoto> нали го сложи 0,10,20,30,40,50
+[16:07:36] <yulimoto> в кронтаба
+[16:07:38] <KpeTeHoug> то това само за крона
+[16:07:42] <KpeTeHoug> ако падне бота
+[16:07:47] <KpeTeHoug> иначе е на 5 мин лога
+[16:07:49] <KrasiGa> на virtiual PC също е vhd ама не съм се интересувала какви други поддържа
+[16:07:50] <phalaaxx> https://secure.avaaz.org/en/petition/Bulgaria_Citizens_against_Mafia
+[16:07:50] <yulimoto> ааха
+[16:08:28] <yulimoto> сега ще сложим едно Програма на курса
+[16:08:46] <KpeTeHoug> да, не е лошо
+[16:08:49] <KpeTeHoug> че все ме питат :)
+[16:09:00] <dencho-at-work> q slojete i deadlines za doma6nite
+[16:09:00] <dencho-at-work> :D
+[16:09:02] <dencho-at-work> hahahaha
+[16:09:17] <yulimoto> ще сложим !напиши домашна боте
+[16:09:28] <KpeTeHoug> и !получи 2ка фрий
+[16:09:33] <dencho-at-work> daje dapomnq4ka slojete
+[16:10:05] <KpeTeHoug> да, има такива с deadline
+[16:10:07] <KpeTeHoug> ма няма сми
+[16:10:08] <yulimoto> до края на срока остават 1 ден 2 часа 30 мин. и 13 секунди
+[16:10:18] <dencho-at-work> ya ya
+[16:10:19] <dencho-at-work> :D
+[16:10:28] <yulimoto> само играчка
+[16:10:32] <KpeTeHoug> трябва да видим другата седмица
+[16:10:40] <KpeTeHoug> да оптимизираме малко tcl-ите
+[16:10:48] <KpeTeHoug> има някой работи които не ни трябват
+[16:11:23] <yulimoto> ще го мислим
+[16:11:38] <yulimoto> аз css можеше да оправя ама все не се сещам
+[16:11:44] <yulimoto> хем си ги изгеглих
+[16:12:01] <yulimoto> си ги линкнах към домейна na grizlito
+[16:13:01] <KpeTeHoug> :)
+[16:13:28] <dencho-at-work> az puk sam vi sardit :D
+[16:13:33] <KpeTeHoug> степ-бай-сеп
+[16:13:36] <KpeTeHoug> уу бейбе
+[16:13:41] <KpeTeHoug> що ?
+[16:14:16] <dencho-at-work> 6toto me izkliuchihte ot eggdrop development team-a :D
+[16:15:23] <KpeTeHoug> ни сме бие
+[16:15:36] <KpeTeHoug> имаш права, ръцай
+[16:15:53] <dencho-at-work> a be sardit sam vi be :D
+[16:15:53] <dencho-at-work> haha
+[16:15:58] <KpeTeHoug> хахах
+[16:16:00] <KpeTeHoug> оправдания
+[16:16:11] <dencho-at-work> posle da kajete onq dencho lapeto go s4upi :P
+[16:17:08] <KpeTeHoug> оправдания !
+[16:17:10] <KpeTeHoug> :)
+[16:22:43] <yulimoto> къде е програмата на курса
+[16:22:44] <yulimoto> ?
+[16:23:31] <KpeTeHoug> :)
+[16:23:57] <KpeTeHoug> http://academy.telerik.com/student-courses/software-technologies/linux-system-administration/schedule
+[16:23:57] <yulimoto> намерих
+[16:24:37] <yulimoto> великата навигация; един път е външни друг път софтуерни технологии
+[16:28:22] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[16:28:22] Writing user file...
+[16:28:22] Writing channel file...
+[16:28:22] Rehashing ...
+[16:28:22] Writing channel file...
+[16:28:22] Listening at telnet port 3333 (all).
+[16:28:22]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[16:28:22] UDEF: chanstats defined
+[16:28:22] 14<chanstats> version 1.3.0 by arfer loaded
+[16:28:22] UDEF: seend defined
+[16:28:22] Seend 1.8.3 loaded!
+[16:28:22] UDEF: greetings defined
+[16:28:22] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[16:28:22] MsG (1.0) By GT and yulimoto LOADED.....
+[16:28:22] Loading dccwhois.tcl...
+[16:28:22] Loaded dccwhois.tcl
+[16:28:22] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[16:28:22] use '.help userinfo' for commands.
+[16:28:22] Writing channel file...
+[16:28:22] Userfile loaded, unpacking...
+[16:29:12] <KpeTeHoug> найс
+[16:29:28] <KpeTeHoug> сега сложи и !порно
+[16:29:44] <yulimoto> значи мисля може да ги издържим 2-3 дена да са в канала, ако вземе да става обременяващо ги слагаме private
+[16:29:52] <yulimoto> хаха
+[16:30:03] <KpeTeHoug> да, то слагането е за 2 мин
+[16:30:07] <yulimoto> да
+[16:30:10] <KpeTeHoug> само find replace all
+[16:30:35] <KpeTeHoug> .save бота
+[16:30:36] <hackman> s/re/string/g
+[16:30:37] <hackman> :)
+[16:30:43] <hackman> те така става :)
+[16:30:47] <hackman> но в понеделник ще видите :)
+[16:31:06] <KpeTeHoug> hackman ти след понеделника ли ще ходиш на хакерското сборище
+[16:31:09] <KpeTeHoug> :)
+[16:31:22] <hackman> вторник сутринта в 7:10 излитам :)
+[16:31:25] <dencho-at-work> mnogo mrazq ponedelnicite
+[16:31:29] <yulimoto> KpeTeHoug: и докато си чатим и някой пита "Здравейте, къде мога да намеря туй-онуй" няма смисъл да му казваме какво да пише ами направо пишеш !program  и тотоу
+[16:31:49] <KpeTeHoug> да, или линк за стрийминга :)
+[16:31:55] <dencho-at-work> yulimoto: spoko, vse nqkoi shte te pita kade da go napishe :P
+[16:31:58] <hackman> за порното... те тоя сайт е на един приятел: http://www.vporn.com/
+[16:32:09] <dencho-at-work> hackman: kade hostva
+[16:32:09] <dencho-at-work> :D
+[16:32:26] <KpeTeHoug> http://www.youtube.com/watch?v=-Kobdb37Cwc
+[16:32:29] <KpeTeHoug> специално за dencho-at-work
+[16:32:36] <hackman> dencho-at-work: той сам си го хоства мисля, че имаха към 20Gbit/s трафик вече :0
+[16:32:37] <dencho-at-work> e ne moga sega da gledam :P
+[16:32:52] <dencho-at-work> hackman: e nali e nelegano da hostvash porno v hola
+[16:33:05] <dencho-at-work> btw toi kade jivee ?
+[16:34:01] <hackman> dencho в щатите хоства бе :)
+[16:34:28] <hackman> много ми е любопитно колко TB порно ще има в палатковият лагер следващата седмица :0
+[16:35:09] <dencho-at-work> e znam li... moje i v liulin da hostva :P
+[16:35:17] <KpeTeHoug> :)
+[16:35:31] Nick change: KpeTeHoug -> KpeTeH|weekend
+[16:35:31] Nick change: KpuBaHuBa -> KpeTeHoug
+[16:35:51] <KpeTeH|weekend> оф, забравил съм сиznc.to
+[16:36:30] KpeTeHoug (~GT@13498.telnet.bg) left irc: Remote host closed the connection
+[16:36:47] <KpeTeH|weekend> айде, отивам да поработя малко, и ще се четем пак в понеделник
+[16:37:08] <hackman> KpeTeH|weekend: ако искаш да си пусна tool-а за kill на background процеси ?
+[16:37:38] <KpeTeH|weekend> то е на мойта машина това :) уморих го вече
+[16:37:58] <KpeTeH|weekend> ма щом е тул, нема да откажа да го видя
+[16:41:36] <hackman> script-че е :)
+[16:41:39] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[16:41:39] Writing user file...
+[16:41:39] Writing channel file...
+[16:41:39] Rehashing ...
+[16:41:39] Writing channel file...
+[16:41:39] Listening at telnet port 3333 (all).
+[16:41:39]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[16:41:39] UDEF: chanstats defined
+[16:41:39] 14<chanstats> version 1.3.0 by arfer loaded
+[16:41:39] UDEF: seend defined
+[16:41:39] Seend 1.8.3 loaded!
+[16:41:39] UDEF: greetings defined
+[16:41:39] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[16:41:39] MsG (1.0) By GT and yulimoto LOADED.....
+[16:41:39] Loading dccwhois.tcl...
+[16:41:39] Loaded dccwhois.tcl
+[16:41:39] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[16:41:39] use '.help userinfo' for commands.
+[16:41:39] Writing channel file...
+[16:41:39] Userfile loaded, unpacking...
+[16:42:46] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[16:42:54] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[16:45:41] tcl: builtin dcc call: *dcc:rehash yulimoto 11 
+[16:45:41] Writing user file...
+[16:45:41] Writing channel file...
+[16:45:41] Rehashing ...
+[16:45:41] Writing channel file...
+[16:45:41] Listening at telnet port 3333 (all).
+[16:45:41]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[16:45:41] UDEF: chanstats defined
+[16:45:41] 14<chanstats> version 1.3.0 by arfer loaded
+[16:45:41] UDEF: seend defined
+[16:45:41] Seend 1.8.3 loaded!
+[16:45:41] UDEF: greetings defined
+[16:45:41] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[16:45:41] MsG (1.0) By GT and yulimoto LOADED.....
+[16:45:41] Loading dccwhois.tcl...
+[16:45:41] Loaded dccwhois.tcl
+[16:45:41] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[16:45:41] use '.help userinfo' for commands.
+[16:45:41] Writing channel file...
+[16:45:41] Userfile loaded, unpacking...
+[16:48:48] <Deyan> yulimoto: защо като му кажеш на робота !море, той ти говори за някакъв линукс кур-с
+[16:49:20] <dencho-at-work> :]
+[16:49:34] <dencho-at-work> dovechera shte ima li projekcia ?
+[16:50:02] <hackman> и порно даже ще има :)
+[16:50:08] <yulimoto> haha
+[16:51:04] <yulimoto> Deyan: ами трябва да направим едно !скара !бира !плаж !море . сигурно за това си мислиш
+[16:51:39] <Deyan> от утре съм в отпуска, познай дали не мисля само за това
+[16:52:09] <hackman> на вторя ден(след като се наспа) вече ми е писнало от горните :)
+[16:52:37] <Deyan> hackman: АМАТЬОР :)
+[16:53:10] <hackman> Deyan: за всяко нещо трябва да си има специалисти :)
+[16:53:14] <dencho-at-work> ako hackman ne spomene dumata porno dovechera shte mu se razsurdq i na nego :P
+[16:53:32] <hackman> ще ми търсиш лична отговорност
+[16:53:59] <dencho-at-work> hahaha
+[16:54:50] <yulimoto> то между другото сега на морето не е почивка, чак септември иначе на тая жега да седя на плаж или да се редя за бира; аз не съм от тоя отбор
+[16:55:21] <KrasiGa> на морето жегата не се усеща така както в града
+[16:55:33] <dencho-at-work> taka, biznes plan... hladilna chanta... daje dve... i prodavash :D
+[16:55:37] <dencho-at-work> bira... :D
+[16:55:59] <KrasiGa> :) еиии много бързо го измисли
+[16:56:07] <hackman> yulimoto: моята бира е в хладилната чанта до мен
+[16:56:13] <hackman> на шезлонга под чадъра
+[16:56:28] <hackman> на плажа ако има повече от 3 чадъра на около, сменям плажа :)
+[16:56:36] <Deyan> ПИЯНИЦИИИ
+[16:56:47] <hackman> това да ти викат и да ти крещат ти докато блажено поспиваш, не е почивка
+[16:56:47] <phalaaxx> абе админ без бира не е админ
+[16:56:50] <phalaaxx> как пияници
+[16:56:52] <hackman> мога и в софия да го правя :)
+[16:56:53] <KrasiGa> ееее къде има плаж с толкова малко чадъри?
+[16:57:06] <hackman> KrasiGa: Гръцко... къде :)
+[16:57:16] <hackman> да ти дам ли линкове :)
+[16:57:21] <yulimoto> hackman: Острова - Гьокчеада
+[16:57:21] <KrasiGa> дай
+[16:57:24] <yulimoto> там е местото
+[16:57:34] <KrasiGa> я го напиши на латиница
+[16:57:50] <yulimoto> пиши гьокчето в гугъл
+[16:58:07] <yulimoto> ama ще ви е малко далек
+[16:58:09] <hackman> KrasiGa: https://maps.google.com/maps?q=40.233658,23.745593&ll=40.229529,23.748128&spn=0.012942,0.033023&num=1&t=h&z=16
+[16:58:15] <hackman> от тук надолу по крайбрежието
+[16:58:18] <hackman> колкото искаш
+[16:58:21] <yulimoto> на мен ми излиза 300км колкото до Сф :)
+[16:58:48] <KrasiGa> на мен Гръцко ми е близо и за един ден ходим на плаж
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:13] <hackman> KrasiGa: следващият път като ходим на там може да се обадя да пием по бира :)
+[17:00:43] <yulimoto> KrasiGa: https://maps.google.com/maps?q=40.126178,25.953922&num=1&t=h&z=17
+[17:00:43] <KrasiGa> ще е супер
+[17:00:48] <yulimoto> това е
+[17:00:52] <KrasiGa> обади се
+[17:01:19] <KrasiGa> аз сега отивам на Тиренско море
+[17:01:30] <hackman> къде е това ?
+[17:02:15] <yulimoto> някъде къде италия май
+[17:02:32] <KrasiGa> да
+[17:04:00] <KrasiGa> айде чиновниците приключихме работа
+[17:04:06] <KrasiGa> лека вечер от мен!
+[17:04:14] <yulimoto> даже овъртайм 17:04
+[17:04:26] <yulimoto> 4 минути кой ще ги плаща
+[17:04:27] <dencho-at-work> moje da si sverim 4asovnika s KrasiGa  :P
