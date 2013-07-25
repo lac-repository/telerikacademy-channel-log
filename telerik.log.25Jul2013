@@ -200,3 +200,88 @@
 [08:53:30] samy (~samy@46.10.56.3) left irc: Client Quit
 [09:00:00] Writing user file...
 [09:00:00] Writing channel file...
+[09:09:22] <hackman> guys... дърпайте новите неща от GitHub :) добавил съм доста :)
+[09:10:03] <hackman> ето я и последната версия на Bash scripting презентацията :)
+[09:10:07] <hackman> малко съм я обновил :)
+[09:10:08] <hackman> http://www.slideshare.net/azilian/bash-scripting-3969239
+[09:10:11] <Deyan> hackman:  ти не спиш
+[09:10:53] <hackman> аз = машина ;)
+[09:10:58] <hackman> хайде тръгвам към офиса :)
+[09:11:05] hackman (~HackMan@wolf.yuhu.biz) left irc: Quit: Leaving.
+[09:18:24] <KpeTeHoug> добро утро и от мен
+[09:19:36] <KrasiGa> Добро да е
+[09:19:58] <KpeTeHoug> гледам презентацията дето я е качил хакман
+[09:20:04] <KpeTeHoug> и все едно египетски чета :)
+[09:20:32] <KrasiGa> а тази в гита различна ли е от тази в slideshare?
+[09:21:08] <KrasiGa> казва, че е подновена ама тази в GitHub e от преди 1 час
+[09:21:53] <KpeTeHoug> мисля са еднакви
+[09:22:02] <KpeTeHoug> просто е по удобно да си ги слайдваш
+[09:22:06] <KpeTeHoug> другото е на пдф
+[09:27:42] t_nenkov (~t_nenkov@193.68.19.213) joined #telerikacademy.
+[09:30:54] <yulimoto> а ве що няма стрийм от протеста ? вчера търсих нещо ма няма.
+[09:34:43] hackman (~HackMan@management.1h.com) joined #telerikacademy.
+[09:34:51] <KpeTeHoug> е нали трябва някой да го стриймва :)
+[09:35:03] <KpeTeHoug> hackman сигурно съм 15тият който те пит
+[09:35:06] <KpeTeHoug> *пита
+[09:35:07] Nick change: hackman -> Guest8523
+[09:35:16] <KpeTeHoug> ма ко значи този грийт от бота
+[09:35:53] <Guest8523> e-mail RegExp валидатор
+[09:36:02] <Guest8523> котйто не е перфектен :)
+[09:36:11] <KpeTeHoug> :)
+[09:36:12] Nick change: Guest8523 -> azilian
+[09:36:27] Nick change: azilian -> hackman
+[09:37:06] <KpeTeHoug> аха
+[09:37:16] <KpeTeHoug> защото изглежда внишително плашещ :)
+[09:39:18] <Deyan> Много ви здраве от мен, сядам да си пиша домашното, преди да са ме налазили идиотите
+[09:40:00] <KpeTeHoug> :) пиши
+[09:40:02] <KpeTeHoug> аз съм гонаписал
+[09:40:20] <KpeTeHoug> само не е качено, но пък ми зареди 4 урл-та за четене по късно
+[09:40:21] <KpeTeHoug> :)
+[09:40:38] <yulimoto> а аз съм го преписал :)
+[09:40:55] <yulimoto> ма ше видим може да го сменя
+[09:41:09] <KpeTeHoug> е то и аз го преписах, така да се каже :)
+[09:41:23] <KpeTeHoug> ма сега гледам да прочета малко за скриптирането :)
+[09:41:34] <KpeTeHoug> че тея всичките символи са ми ... притеснителни :)
+[09:42:00] <yulimoto> да, голям проблем е да обясняваш на бг, пък ако седна да го пиша на англ. то си го има написано.
+[09:42:23] <yulimoto> някакви миксчета от различни текстове
+[09:44:25] <hackman> KpeTeHoug: спокойно, следващата лекция(в понеделник) ще ти изясни Regular Expressions :)
+[09:45:14] <KpeTeHoug> :) аз съм спокоен, ама все пак :0
+[09:45:23] <KpeTeHoug> http://tldp.org/HOWTO/Bash-Prog-Intro-HOWTO-5.html
+[09:45:33] <KpeTeHoug> последният абзац ме кефи
+[09:45:52] <KpeTeHoug> това трябва да ви е разяснило как се задават локални променливи
+[09:45:56] <KpeTeHoug> yeah, right
+[09:47:32] <yulimoto> ами то обхвата на променливите си е важно нещо
+[09:48:03] <KpeTeHoug> да, само дето аз не съм просто босю
+[09:48:09] <KpeTeHoug> аз съм бос по пясъка в 3 следобед
+[09:48:10] <KpeTeHoug> :)
+[09:48:21] <hackman> в bash основното е дали променливата е в твоя shell или тоя на съседа :)
+[09:48:34] <hackman> но, довечера ще чуете повече :)
+[09:48:42] <KpeTeHoug> :) тей тей
+[09:48:49] <KpeTeHoug> няма да мрънкам повече
+[09:56:25] <Deyan> http://cloud.comelsoft.com/public.php?service=files&t=18a7dc9be10ae337fa721cd3189edf8e
+[09:56:45] <Deyan> хайде и от мен малко материалчера за шелскриптинга
+[09:57:34] <KpeTeHoug> ей сега засмуках всичко :)
+[09:59:38] <t_nenkov> Добро утро и от мен. Един мега малоумен въпрос - къде мога да намеря линк за live streaming-a?
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:58] <Deyan> за кой лайж
+[10:00:58] t_nenkov (~t_nenkov@193.68.19.213) left irc: Read error: Connection reset by peer
+[10:01:00] <Deyan> за кой лайв
+[10:01:08] t_nenkov (~t_nenkov@193.68.19.213) joined #telerikacademy.
+[10:01:19] <KpeTeHoug> t_nenkov за кой лайф искаш ? за довечера
+[10:01:24] <t_nenkov> да
+[10:01:25] <Deyan> Streaming: http://www.twitch.tv/aziliann/
+[10:01:35] <t_nenkov> супер, благодаря!
+[10:01:39] <KpeTeHoug> http://www.twitch.tv/aziliann/
+[10:01:42] <KpeTeHoug> мда
+[10:01:46] <KpeTeHoug> :) напревари ме
+[10:02:07] <Deyan> ако погледнеш топика ще разбереш веднага, но аз като един добър човек ти го дадох наготово, KpeTeHoug също
+[10:03:22] <t_nenkov> Deyan, забравил съм вече това mIrc-ata, а едно време беше само asl pls
+[10:04:02] <KpeTeHoug> а имаше и
+[10:04:05] <KpeTeHoug> imash li pic
+[10:04:10] <t_nenkov> op pls
+[10:04:26] <hackman> абе хора
+[10:04:28] <hackman> topic-а
+[10:04:29] <hackman> :)
+[10:04:53] <KpeTeHoug> hackman топика да не е като топинга
+[10:04:57] <KpeTeHoug> :Р
