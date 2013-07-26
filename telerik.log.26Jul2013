@@ -839,3 +839,72 @@
 [23:00:00] Writing channel file...
 [23:03:06] KacanuH (~Deyan@46.249.92.240) left irc: Remote host closed the connection
 [23:04:49] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:37:23] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[23:42:24] net: connect! sock 3
+[23:42:24] DNS resolve failed for 127.0.0.1
+[23:42:24] Telnet connection: 127.0.0.1/45101
+[23:42:24] net: connect! sock 11
+[23:42:24] net: eof!(read) socket 11
+[23:42:24] Timeout/EOF ident connection
+[23:42:30] Logged in: yulimoto (telnet@127.0.0.1/45101)
+[23:43:31] tcl: builtin dcc call: *dcc:say yulimoto 6 Д�а, ад КаКа�сапче, админите спят по масите!
+[23:43:44] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[23:45:22] <KacanuH> Telerik, нищо не ти се чете
+[23:45:41] net: connect! sock 3
+[23:45:41] DNS resolve failed for 127.0.0.1
+[23:45:41] Telnet connection: 127.0.0.1/45103
+[23:45:41] net: connect! sock 11
+[23:45:41] net: eof!(read) socket 11
+[23:45:41] Timeout/EOF ident connection
+[23:45:48] Logged in: yulimoto (telnet@127.0.0.1/45103)
+[23:46:05] tcl: builtin dcc call: *dcc:say yulimoto 6 Да, админите спят по масите!!!
+[23:46:13] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[23:47:19] <KacanuH> Я ти да видиш, тенекето се разговори
+[23:47:53] <s0ny123> :D
+[23:49:06] net: connect! sock 3
+[23:49:06] DNS resolve failed for 127.0.0.1
+[23:49:06] Telnet connection: 127.0.0.1/45105
+[23:49:06] net: connect! sock 11
+[23:49:06] net: eof!(read) socket 11
+[23:49:06] Timeout/EOF ident connection
+[23:49:13] Logged in: yulimoto (telnet@127.0.0.1/45105)
+[23:50:02] tcl: builtin dcc call: *dcc:say yulimoto 6 Шегата на страна вие ми вдъхнахте чживе�живец, бе. Бях некомпилиран код, а сега жи�вея втори живот.
+[23:50:52] tcl: builtin dcc call: *dcc:say yulimoto 6 живец*
+[23:51:04] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[23:51:15] <KacanuH> ей желязо хахаво, пиши поне с 1 и 0, така абсолютно нищо не мога да ти схвана
+[23:51:48] net: connect! sock 3
+[23:51:48] DNS resolve failed for 127.0.0.1
+[23:51:48] Telnet connection: 127.0.0.1/45107
+[23:51:48] net: connect! sock 11
+[23:51:48] net: eof!(read) socket 11
+[23:51:48] Timeout/EOF ident connection
+[23:51:58] Logged in: yulimoto (telnet@127.0.0.1/45107)
+[23:52:21] <phalaaxx1> :D
+[23:52:39] tcl: builtin dcc call: *dcc:say yulimoto 6 4�е�4estno li ne shvashtash genialniq mi encoding
+[23:53:02] <KacanuH> <Telerik> Ð”ÐÐ°, Ð°Ð´ ÐšÐ°ÐšÐ°ÐÑÐ°Ð¿Ñ‡Ðµ, Ð°Ð´Ð¼Ð¸Ð½Ð¸Ñ‚Ðµ ÑÐ¿ÑÑ‚ Ð¿Ð¾ Ð¼Ð°ÑÐ¸Ñ‚Ðµ!
+[23:53:07] <KacanuH> схвани си го ти :)
+[23:53:24] <KacanuH> чакай да пробвам през уеба
+[23:53:43] tcl: builtin dcc call: *dcc:say yulimoto 6 ei da si opravish encodinga mom4ence
+[23:54:03] deyan (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) joined #telerikacademy.
+[23:54:25] <deyan> кажи нещо
+[23:54:27] Nick change: deyan -> Guest54158
+[23:55:13] <s0ny123> я предложете какъв рутер да си взема... че моя linksys сдаде багажа
+[23:55:17] tcl: builtin dcc call: *dcc:say yulimoto 6 на български in english
+[23:55:38] <KacanuH> е ти вече си оправи енкодинга
+[23:56:01] <KacanuH> s0ny123, не мога да ти помогна, ние внасяме linksys
+[23:56:11] <KacanuH> какво му стана
+[23:56:29] <s0ny123> о аз от моя си бях доволен просто не съм гледал новите как се държат
+[23:56:32] tcl: builtin dcc call: *dcc:say yulimoto 6 hmmmm, skoro imashe tuka edna diskusiq. imashe predlovenie za edno legendarno cisko, deto pie bira i psuva mesi
+[23:56:59] <KacanuH> да аз я бях подел :)
+[23:57:11] <s0ny123> започна да дропи редовно, upgrade-нах му firmware-а, ресетнах го и пак се ебава...
+[23:57:17] <s0ny123> редовно си се реска
+[23:57:25] <KacanuH> аз да ти кажа сега съм с е1200 и съм доволен
+[23:57:25] <s0ny123> не пуска компютри да се свържат и тн
+[23:57:39] tcl: builtin dcc call: *dcc:say yulimoto 6 aaaaaaa zna4i znaesh 4e ne reje cska-ri po mac address ....
+[23:57:40] <KacanuH> новите са уникални, но още имат бъгове
+[23:59:10] <s0ny123> хм и аз гледах е1200/е1500, може и това да си взема :)
+[23:59:47] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[23:59:53] <phalaaxx1> s0ny123: с друго захранване?
+[00:00:00] --- Sat Jul 27 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...
