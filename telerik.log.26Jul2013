@@ -693,3 +693,89 @@
 [16:04:45] <bentoslack> имам физически достъп така че
 [16:04:48] <bentoslack> все тая :)
 [16:04:58] <yulimoto> ако ще седите един до друг е по-лесно да си говорите
+[16:05:01] <yulimoto> ;)
+[16:05:20] <dterziev> мхм, ама чука е до мен :)
+[16:08:25] <phalaaxx> http://pastebin.com/FEmSykGf
+[16:08:26] <phalaaxx> fun /w bash & PS1
+[16:11:25] <yulimoto> phalaaxx: много актуално между впрочем.
+[16:11:45] <dencho-at-sysadm> btw da... :D
+[16:11:51] <phalaaxx> защо?
+[16:11:56] <yulimoto> ще го обмисля като възможност според прогнозата за врмето
+[16:12:06] <dencho-at-sysadm> zashtoto sega shte si go sloja :D
+[16:13:02] <yulimoto> phalaaxx: щото имам нужда от вентилатор и паста :)  но и това може да свърши ралта ;)
+[16:20:00] <phalaaxx> по-добре пастата и вентилатора, да не го мислиш много много :)
+[16:24:50] <phalaaxx> иначе това е интересно като възможност, може да си изкараш нещо полезно така... примерно reallocated sectors count от SMART-а на диска :)
+[16:24:50] <phalaaxx> или uptime на шпиндела - да се знае кога му идва времето за кофата...
+[16:25:03] <KrasiGa> Ctrl+V видях, че не е paste v linux. Някой щеми  каже ли кое е?
+[16:25:57] <phalaaxx> shift+insert?
+[16:26:05] <yulimoto> пробвай Ctrl+Shft+V
+[16:26:14] <yulimoto> aaa
+[16:27:07] dterziev (~dterziev@dterziev.mw-medianetworks.eu) left #telerikacademy ("Leaving").
+[16:27:19] <KrasiGa> shift+insert works
+[16:29:09] samy_ (~samy@91.196.227.180) joined #telerikacademy.
+[16:29:43] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[16:30:10] <KrasiGa> ейййй направо да си призная, че ще ми липсвате 2 седмици :)
+[16:30:50] <dencho-at-sysadm> da we da
+[16:30:50] <dencho-at-sysadm> :D
+[16:30:57] <dencho-at-sysadm> що приказваш глупости
+[16:31:35] <KrasiGa> сериозно бе
+[16:31:42] <dencho-at-sysadm> да ве :Д
+[16:31:45] <KrasiGa> аз не обичам много да се пържа на слънце
+[16:32:32] <dencho-at-sysadm> :щ
+[16:33:38] <yulimoto> http://www.youtube.com/watch?v=AAVn4-17Bjs
+[16:33:58] <yulimoto> за по-лесно трябва да се превърта на бързо гледане
+[16:34:01] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 256 seconds
+[16:34:01] <yulimoto> ;)
+[16:35:18] <KrasiGa> как пък го изрови това
+[16:35:45] <KrasiGa> хахахахах
+[16:35:56] <KrasiGa> колкото повече го гледам по-смешно ми става
+[16:36:22] <yulimoto> ду ю нийд ми; ду ю ду ю;
+[16:36:27] <yulimoto> голям хит
+[16:36:55] <KrasiGa> някъде в Lebanon?
+[16:37:14] <KrasiGa> a kakvo e tova Lebanon?
+[16:37:57] <yulimoto> а не знам
+[16:38:18] <phalaaxx> държава
+[16:38:31] <KrasiGa> koia?
+[16:38:34] <phalaaxx> гледам и в screen разни готини работи могат да се правят :)
+[16:38:58] <phalaaxx> Ливан
+[16:40:11] <KrasiGa> yulimoto: Мислех, че е в топ 10 на любимите ти песни
+[16:40:19] <KrasiGa> как няма да знаеш къде е това?
+[16:41:05] <yulimoto> KrasiGa: да в топ  5 е даже, ама си го пазя в тайна
+[16:41:30] <KrasiGa> Благодарим ти, че го сподели с нас
+[16:42:07] <yulimoto> phalaaxx: да, и може да пази сессии, което ме кефи, тоя irssi не съм го спирал доста време на гризлито
+[16:42:42] <phalaaxx> това със сесиите го знам от доста време ама досега не го бях цъкал по конфигурацията
+[16:42:45] <yulimoto> KrasiGa: ами нали ще ти липсваме, та да си я пееш "ду ю нийд ми, ду ю ду ю " в Италия
+[16:43:09] <yulimoto> phalaaxx: аа там не знам
+[16:43:39] <phalaaxx> готино е, сега пробвам някакви работи :)
+[16:43:58] <phalaaxx> hardstatus alwayslastline
+[16:43:58] <phalaaxx> hardstatus string '%{= kR}[ %H ]%{g}[%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f %t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %Y-%m-%d %{W}%c %{g}]'
+[16:44:01] <phalaaxx> това в .screenrc
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:11] <yulimoto> KrasiGa: 1 минута до отпуската; на стартова позиция ли си ?
+[17:00:15] <KrasiGa> айдеееее :)
+[17:00:20] <KrasiGa> тъкмо почнах да ви пиша
+[17:00:23] <yulimoto> мания
+[17:00:28] <yulimoto> побърках се
+[17:00:31] <yulimoto> като часовник
+[17:00:43] <KrasiGa> приятна почивка от мен
+[17:00:53] <KrasiGa> все пак идва уикенда
+[17:01:08] <yulimoto> хах хайде тръгвай , че това няма кой да ти го плаща ;D
+[17:01:13] <KrasiGa> и не напредвайте много следващите две седмици
+[17:01:20] <KrasiGa> , че не знам как ще ви стигам
+[17:01:36] <dencho-at-sysadm> стана ли 17:00
+[17:01:36] <dencho-at-sysadm> :Д
+[17:01:58] <KrasiGa> дзъън
+[17:02:02] <dencho-at-sysadm> хахахаха
+[17:02:27] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:02:47] <dencho-at-sysadm> м да... може да си сверите часовниците
+[17:02:47] <dencho-at-sysadm> :Д
+[17:03:19] <dencho-at-sysadm> Орешарски заложи рестарт на „Белене” в програмата си
+[17:03:26] <dencho-at-sysadm> тези тъпи ли са веее
+[17:03:26] <dencho-at-sysadm> :Д
+[17:03:28] <dencho-at-sysadm> хахаха
+[17:03:43] <dencho-at-sysadm> сигурен съм, че и атомна бомба ако имаха щяха да пуснат
+[17:03:44] <dencho-at-sysadm> :Д
+[17:03:56] <dencho-at-sysadm> независимо, че народа не иска :Д
+[17:04:17] <phalaaxx> съмнявал ли си се че ще върнат Белене?
+[17:04:27] <phalaaxx> те тия са глухи
