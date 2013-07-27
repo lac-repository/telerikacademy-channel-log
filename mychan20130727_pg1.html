@@ -228,6 +228,91 @@
 			<div>&nbsp;<span class="time">[12:20:56]</span>&nbsp;<span class="else_li">&nbsp;samy_ (~samy@91.196.227.180) left irc: Ping timeout: 246 seconds</span></div>
 			<div>&nbsp;<span class="time">[12:22:54]</span>&nbsp;<span class="else_j">&nbsp;phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.</span></div>
 			<div>&nbsp;<span class="time">[12:58:49]</span>&nbsp;<span class="else_li">&nbsp;phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.</span></div>
+			<div>&nbsp;<span class="time">[13:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[13:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[13:01:53]</span>&nbsp;<span class="else_j">&nbsp;phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[13:08:20]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; ах този джаз</span></div>
+			<div>&nbsp;<span class="time">[13:08:28]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; (;</span></div>
+			<div>&nbsp;<span class="time">[13:26:41]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: ?</span></div>
+			<div>&nbsp;<span class="time">[13:26:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз :)</span></div>
+			<div>&nbsp;<span class="time">[13:27:25]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега</span></div>
+			<div>&nbsp;<span class="time">[13:27:33]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; играя си с промта</span></div>
+			<div>&nbsp;<span class="time">[13:27:44]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и баш не съм учил</span></div>
+			<div>&nbsp;<span class="time">[13:27:51]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; как аджеба ?</span></div>
+			<div>&nbsp;<span class="time">[13:28:22]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да вкарам променлива която да се ъпдейтва</span></div>
+			<div>&nbsp;<span class="time">[13:28:29]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; примерно като часа</span></div>
+			<div>&nbsp;<span class="time">[13:29:02]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; или както си дал вчера sensors той няма да се ъпдейтва; ще вземе стойността в началото и от там само ще я копира в промта</span></div>
+			<div>&nbsp;<span class="time">[13:29:23]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; въпроса дали го задавам правилно не знам ?</span></div>
+			<div>&nbsp;<span class="time">[13:30:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амии вариант 1 - да ползваш това, което ти дава bash като възможности (например \t за час) или вариант 2 - да ползваш някакви команди които принтят нещо - тях ги слагаш във `` (над TAB)</span></div>
+			<div>&nbsp;<span class="time">[13:30:22]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аааааа</span></div>
+			<div>&nbsp;<span class="time">[13:30:37]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; това с `` не го знаех</span></div>
+			<div>&nbsp;<span class="time">[13:30:44]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако искаш да пробваш как работи това с командите - пробвай с date вместо с \t</span></div>
+			<div>&nbsp;<span class="time">[13:30:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; това mysql кавички ли са ?</span></div>
+			<div>&nbsp;<span class="time">[13:31:21]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да то ясно с тия готовите \w \t и т.н. ама мен ме интересуваше как да вкарвам директно команди от баша</span></div>
+			<div>&nbsp;<span class="time">[13:31:50]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега ще пробвам</span></div>
+			<div>&nbsp;<span class="time">[13:32:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; хм всъщност не съм сигурен дали работи така</span></div>
+			<div>&nbsp;<span class="time">[13:32:41]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; в shell скриптове работи ама... ще пробвам :)</span></div>
+			<div>&nbsp;<span class="time">[13:33:06]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; работи :)</span></div>
+			<div>&nbsp;<span class="time">[13:33:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; export PS1=&quot;\u@\h: \`date +%H:%M:%S\` \w\$ &quot;</span></div>
+			<div>&nbsp;<span class="time">[13:33:27]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; (виж как се сменят секундите)</span></div>
+			<div>&nbsp;<span class="time">[13:33:39]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; (и не само те)</span></div>
+			<div>&nbsp;<span class="time">[13:36:13]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; пууу</span></div>
+			<div>&nbsp;<span class="time">[13:36:15]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; най после</span></div>
+			<div>&nbsp;<span class="time">[13:36:26]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако искаш пробвай го и със секунди от 1970-та :)</span></div>
+			<div>&nbsp;<span class="time">[13:36:26]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; export PS1=&quot;\u@\h: \`date +%s\` \w\$ &quot;</span></div>
+			<div>&nbsp;<span class="time">[13:36:33]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; \` &lt;--- това било</span></div>
+			<div>&nbsp;<span class="time">[13:36:57]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да аз пробвах със сенсорс</span></div>
+			<div>&nbsp;<span class="time">[13:37:01]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега</span></div>
+			<div>&nbsp;<span class="time">[13:37:11]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; обаче трябвало да сложа \`</span></div>
+			<div>&nbsp;<span class="time">[13:37:35]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да, че иначе вкарваш стойност в променливата а не самата команда</span></div>
+			<div>&nbsp;<span class="time">[13:37:51]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; щото иначе взема шибаната стойността  на шибаната променлива и я принти, а не взема команда</span></div>
+			<div>&nbsp;<span class="time">[13:37:54]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ааа именно</span></div>
+			<div>&nbsp;<span class="time">[13:38:09]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ама аз знам какво прави, ама не знам че трябвало \`</span></div>
+			<div>&nbsp;<span class="time">[13:38:48]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ейй</span></div>
+			<div>&nbsp;<span class="time">[13:38:52]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; жив и здрав да си</span></div>
+			<div>&nbsp;<span class="time">[13:39:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; предполагам би било интересно да си напише човек скрипт да вади заглавия на новини от RSS и да ти ги дава prompt :D</span></div>
+			<div>&nbsp;<span class="time">[13:39:31]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега ще мога да си направя промта чан-шукария; кат цигански москвич</span></div>
+			<div>&nbsp;<span class="time">[13:40:00]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да ги дава на prompt имам предвид</span></div>
+			<div>&nbsp;<span class="time">[13:40:21]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; илиии... последното написано нещо в IRC :D</span></div>
+			<div>&nbsp;<span class="time">[13:40:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хаха то ще бъде вече gipsy linux дисто някакво</span></div>
+			<div>&nbsp;<span class="time">[13:40:43]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; примерно на гризлито да чете последния ред на лог файла за IRC</span></div>
+			<div>&nbsp;<span class="time">[13:40:56]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; `tail -1 /path/to/log` :D</span></div>
+			<div>&nbsp;<span class="time">[13:41:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; не може да си направиш скрипт който grep-ва последния път когато са ти споменали името в канала и ако са го споменали да ти излиза на промта</span></div>
+			<div>&nbsp;<span class="time">[13:42:06]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може и без скрипт</span></div>
+			<div>&nbsp;<span class="time">[13:42:26]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; нещо много се &quot;заbashихте&quot;</span></div>
+			<div>&nbsp;<span class="time">[13:42:46]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; grep yulimoto /path/to/log | tail -1</span></div>
+			<div>&nbsp;<span class="time">[13:42:59]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да обаче ако ще го правиш добре ще трябва скрипт ; трябват 1 променлива, която да сверява дали този запис вече е бил показван, и ако не е да го покаже</span></div>
+			<div>&nbsp;<span class="time">[13:43:27]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аа не ти разбирам идеята</span></div>
+			<div>&nbsp;<span class="time">[13:43:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ще трябва вероятно и запис във файл</span></div>
+			<div>&nbsp;<span class="time">[13:43:51]</span>&nbsp;<span class="else_j">&nbsp;angie_bg1 (~angie@77.236.189.210) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[13:43:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; какво точно искаш да извадиш?</span></div>
+			<div>&nbsp;<span class="time">[13:44:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; последното съобщение с твоето име?</span></div>
+			<div>&nbsp;<span class="time">[13:44:24]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ами представи си че имаш 1 път споменато името в лога ;</span></div>
+			<div>&nbsp;<span class="time">[13:44:31]</span>&nbsp;<span class="else_li">&nbsp;angie_bg (~angie@77.236.189.210) left irc: Ping timeout: 264 seconds</span></div>
+			<div>&nbsp;<span class="time">[13:44:33]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; името ти излиза в промта</span></div>
+			<div>&nbsp;<span class="time">[13:44:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; дам?</span></div>
+			<div>&nbsp;<span class="time">[13:45:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; после излизаш разкарваш се, ходиш на пазар</span></div>
+			<div>&nbsp;<span class="time">[13:45:27]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; но в канала ти споменават името втори и трети път</span></div>
+			<div>&nbsp;<span class="time">[13:45:31]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; теб те няма</span></div>
+			<div>&nbsp;<span class="time">[13:46:10]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; когато се прибереш обаче и скрипта започва проверката от първия запис нататък без да го показва</span></div>
+			<div>&nbsp;<span class="time">[13:46:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и ти показва второто и третото споменаване</span></div>
+			<div>&nbsp;<span class="time">[13:46:31]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; на името</span></div>
+			<div>&nbsp;<span class="time">[13:46:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; без първото</span></div>
+			<div>&nbsp;<span class="time">[13:46:41]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; след като ги покаже</span></div>
+			<div>&nbsp;<span class="time">[13:47:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; отмята третото и следващия път проверката започва от него</span></div>
+			<div>&nbsp;<span class="time">[13:47:07]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; е поне ще знаеш че някой ти е казал името :)</span></div>
+			<div>&nbsp;<span class="time">[13:47:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; т.е показва само новите споменавания :)</span></div>
+			<div>&nbsp;<span class="time">[13:47:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да може би е ненужно дълго</span></div>
+			<div>&nbsp;<span class="time">[13:48:20]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; иначе верно става за един ред работата</span></div>
+			<div>&nbsp;<span class="time">[13:50:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; сега ще го пробвам :)</span></div>
+			<div>&nbsp;<span class="time">[13:52:07]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: на промпта ли съм ?</span></div>
+			<div>&nbsp;<span class="time">[13:52:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: ало !!!! Хюстън</span></div>
+			<div>&nbsp;<span class="time">[13:52:37]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: ду ю рич ми ?</span></div>
+			<div>&nbsp;<span class="time">[13:53:26]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; м?</span></div>
+			<div>&nbsp;<span class="time">[13:54:05]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; т.е. става ли ?</span></div>
+			<div>&nbsp;<span class="time">[13:54:38]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; чакай още си пиша PS-а :)</span></div>
+			<div>&nbsp;<span class="time">[13:56:59]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аз написах тука едно обаче има проблем ще трябва да оправя грепа щото хваща и моите реплики</span></div>
+			<div>&nbsp;<span class="time">[13:58:40]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пфу трудна работа, ама не е невъзможно де :)</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
