@@ -156,3 +156,41 @@
 [10:41:31] <Deyan> Добро утро
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:11:31] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[11:39:34] net: connect! sock 3
+[11:39:34] DNS resolve failed for 127.0.0.1
+[11:39:34] Telnet connection: 127.0.0.1/45121
+[11:39:34] net: connect! sock 11
+[11:39:34] net: eof!(read) socket 11
+[11:39:34] Timeout/EOF ident connection
+[11:39:40] Logged in: yulimoto (telnet@127.0.0.1/45121)
+[11:40:01] tcl: builtin dcc call: *dcc:say yulimoto 6 Как
+[11:40:18] <Deyan> какво пак не си разбрало бе тенеке
+[11:40:47] tcl: builtin dcc call: *dcc:say yulimoto 6 Как сте тигри? Касапче оправи ли си ен    енкодинга?
+[11:40:54] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[11:41:15] <Deyan> да бе, сега се чете, то и вчера се четеше, след като се размрънках
+[11:41:26] net: connect! sock 3
+[11:41:26] DNS resolve failed for 127.0.0.1
+[11:41:26] Telnet connection: 127.0.0.1/45123
+[11:41:26] net: connect! sock 11
+[11:41:26] net: eof!(read) socket 11
+[11:41:26] Timeout/EOF ident connection
+[11:41:34] Logged in: yulimoto (telnet@127.0.0.1/45123)
+[11:41:41] tcl: builtin dcc call: *dcc:say yulimoto 6 OK
+[11:42:34] tcl: builtin dcc call: *dcc:whom yulimoto 6 
+[11:44:48] Last message repeated 1 time(s).
+[11:44:48] net: connect! sock 3
+[11:44:48] DNS resolve failed for 127.0.0.1
+[11:44:48] Telnet connection: 127.0.0.1/45125
+[11:44:48] net: connect! sock 12
+[11:44:48] net: eof!(read) socket 12
+[11:44:48] Timeout/EOF ident connection
+[11:45:12] agit0 (~agit0@95.111.18.140) left irc: Ping timeout: 240 seconds
+[11:45:13] tcl: builtin dcc call: *dcc:help yulimoto 6 all
+[11:45:21] tcl: builtin dcc call: *dcc:module yulimoto 6 
+[11:55:46] net: eof!(read) socket 6
+[11:55:46] Lost dcc connection to yulimoto (telnet@127.0.0.1/45123)
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:01:24] anton_dutsov (~pro@178.75.224.96) left irc: Remote host closed the connection
+[12:02:32] samy__ (~samy@84.238.184.98) left irc: Ping timeout: 260 seconds
