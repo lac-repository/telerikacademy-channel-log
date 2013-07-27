@@ -290,3 +290,41 @@
 [14:03:13] <yulimoto> бах прецаках лога
 [14:03:28] <yulimoto> пхууу
 [14:04:21] <yulimoto> и мн тъпо не направих бакъп ; т.е. това е лога на irssi то не оригиналния лог на канала
+[14:08:27] <phalaaxx> добре, май проработи
+[14:08:53] <phalaaxx> частично :D
+[14:11:54] <yulimoto> чакай да се псомена че предния път реда е мн дълъг и ми заема мн
+[14:11:58] <yulimoto> yulimoto
+[14:18:35] <yulimoto>  
+[14:19:32] <yulimoto> hm значи изключвам редовете с -v "yulimoto>" и търся само с yulimoto
+[14:20:10] <yulimoto> обаче когато си спомена името сам тези редове са вече изключени защото започват с yulimoto>
+[14:21:04] <yulimoto> друг вариант е да cut-на от реда часа и ника и от там вече да си търся каквото ми трябва
+[14:22:36] <Deyan> yulimoto, ако ти сам си се споменал то би следвало да си бил на линия, тоест -v "yulimoto>" според мен е достатъчно добър вариант
+[14:23:57] <phalaaxx> export PS1="\u@\h: \`grep -h phalaaxx /home/gt/eggdrop/logs/telerik.log.* | tail -1\` \w\$ "
+[14:24:14] <phalaaxx> обаче има проблем по този начин, * разгъва имената на логовете
+[14:24:38] <Deyan> разгъва?
+[14:25:49] <phalaaxx> echo $PS1
+[14:29:11] net: connect! sock 3
+[14:29:11] DNS resolve failed for 127.0.0.1
+[14:29:11] Telnet connection: 127.0.0.1/45130
+[14:29:11] net: connect! sock 11
+[14:29:11] net: eof!(read) socket 11
+[14:29:11] Timeout/EOF ident connection
+[14:29:17] Logged in: yulimoto (telnet@127.0.0.1/45130)
+[14:29:32] tcl: builtin dcc call: *dcc:say yulimoto 6 yulimoto test message
+[14:30:05] <episparh> на това му се казва - хора без работа :)
+[14:30:19] <Deyan> хаххахахха
+[14:31:19] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: leaving
+[14:31:32] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[14:32:05] tcl: builtin dcc call: *dcc:say yulimoto 6 yulimoto test 2
+[14:33:03] tcl: builtin dcc call: *dcc:say yulimoto 6 test 3 brbrr yulimoto
+[14:33:36] <yulimoto> долу горе работи
+[14:33:42] <yulimoto> друг е въпроса, че не знам какво искам
+[14:34:22] <yulimoto> yulimoto@grizzly: ~/irclogs/IRCnet test 3 brbrr yulimoto$
+[14:38:42] tcl: builtin dcc call: *dcc:say yulimoto 6 last test for yulimoto
+[14:38:44] <phalaaxx> episparh: ти много работа ли имаш в момента? :)
+[14:39:10] <yulimoto> така отделих го поне да е на нов ред
+[14:39:31] <yulimoto> за сега няма да се лигавя да го слагам в bashrc
+[14:53:14] tcl: builtin dcc call: *dcc:whom yulimoto 6 
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:02:48] <yulimoto> episparh: не че сме без работа, просто си правим домашната малко по-интересна
