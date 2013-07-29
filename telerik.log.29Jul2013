@@ -1033,3 +1033,51 @@
 [21:04:04] <yulimoto> яко
 [21:04:04] <hackman> някой дург въпроси :)
 [21:04:24] <MarianaB> !help\
+[21:05:32] <episparh> колко време е почивката ?
+[21:06:10] <tuxar> около 10 мин
+[21:06:51] <Xristo> Онлайн сте, не говорете лошо за университетите :D
+[21:10:39] <Nako> къде може да се намери запис на минали събития?
+[21:11:12] <MarianaB> https://telerikacademy.com/Courses/Courses/Details/94
+[21:11:42] <yulimoto> а има някакви истории с nologin bash  като пусна sleep той си остава !
+[21:11:43] <MarianaB> Nako, това е страницата на курса и там ги има и видеата на всички минали лекции и каквито материали са добавени
+[21:11:55] <MarianaB> Ох разбрах грешно.
+[21:17:30] <yulimoto> когато е nologin bash  има в shopt една опция - huponexit, която няма да подаде -2 на exit, тогава ако сме подали sleep и сме излезли ще остане
+[21:17:52] <samy__> ahahahhaahha
+[21:17:55] <samy__> trollwaite qko :D
+[21:18:31] <Nako> чува се перфектно
+[21:19:06] <hackman> чува ли се
+[21:19:06] <tuxar> da
+[21:19:08] <TPB_> дам
+[21:19:10] <yulimoto> в чата да
+[21:19:10] <episparh> двойно
+[21:19:21] <episparh> аз чувам двойно
+[21:19:51] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[21:20:55] <anton_dutsov> тройно
+[21:21:07] <hackman> как е звука ?
+[21:21:19] <yulimoto> добре е за мен
+[21:21:20] <anton_dutsov> добре се чува
+[21:21:21] <episparh> има ли микрофон в залата ?
+[21:21:22] <anton_dutsov> благодаря
+[21:21:28] <Xristo> и при мен е добре
+[21:21:32] <anton_sh> аз чувам добре
+[21:21:33] <TPB_> от алкохола е
+[21:22:16] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[21:22:25] alabala_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:24:45] <anton_dutsov> cat << EOT > file.txt
+[21:26:53] user99 (~McNamee@213.226.63.145) left irc: Quit: Bye
+[21:27:12] user99 (~McNamee@213.226.63.145) joined #telerikacademy.
+[21:30:04] dench0 (~dencho@95.111.14.183) joined #telerikacademy.
+[21:31:36] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 256 seconds
+[21:33:54] plexi (~dyrgel@wolf.yuhu.biz) joined #telerikacademy.
+[21:42:05] plexi (~dyrgel@wolf.yuhu.biz) left irc: Quit: leaving
+[21:45:27] <alabala_>  -t :
+[21:46:52] gyankov (4e5abff5@gateway/web/freenode/ip.78.90.191.245) left irc: Quit: Page closed
+[21:47:36] <alabala_> sort -uk1 /etc/services?
+[21:51:09] <MarianaB> compiz
+[21:51:10] <MarianaB> :P
+[21:51:10] <episparh> мтр
+[21:55:23] Kally (d47521aa@gateway/web/freenode/ip.212.117.33.170) left irc: Ping timeout: 250 seconds
+[21:55:30] Nick change: user99 -> looser99
+[21:56:30] alabala_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
