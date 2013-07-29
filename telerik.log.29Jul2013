@@ -699,3 +699,72 @@
 [14:43:15] <yulimoto> бахти кретена съм; направил съм на инсталацията поща admin@admin.com и съм криптирал паролата като съм ги качил на базата данни; сега инсталирам и не мога се сетя паролата и аре пак търси в кода функцията па salt слагай и цялата галимция.
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
+[15:14:37] <yulimoto> пичове все ще ви питам и все забравям. нямам опит с сториджи и т.н. това freenas подходящо ли е започна да бъзикам, като софт читаво ли е ?
+[15:18:51] <dterziev> принципно става freenas-a
+[15:18:53] <dterziev> не е зле
+[15:19:03] <dterziev> ама за сериозни неща честно казано не бих му разчитал
+[15:19:08] <dterziev> ама за тестове е перфектен
+[15:20:24] <dterziev> при нас сме с DS3524
+[15:20:27] <dterziev> http://itsave.ru/wp-content/uploads/2012/07/ds3524-2-controller.jpg
+[15:20:44] <dterziev> с iSCSI модули
+[15:20:57] <dterziev> ама има един бъг, дето ония от IBM го бориха няколко часа :Д
+[15:21:17] <dterziev> слагаш iSCSI контроелра - и не си вижда LAN интерфейсите на iSCSI-то
+[15:21:31] <dterziev> та, хватката била - флашваш с последния firmware, рестартира се контролера
+[15:21:42] <dterziev> и флашваш още веднъж пак със същия firmware
+[15:21:44] <dterziev> и се оправя
+[15:22:23] <yulimoto> аха
+[15:22:37] <yulimoto> ме ми трябва да имам представа за кво иде реч
+[15:22:47] <dterziev> е фрийнаса е идеалеб
+[15:22:49] <dterziev> идеален
+[15:23:12] <yulimoto> окс
+[15:28:38] <phalaaxx> dterziev: красиво желязо :)
+[15:29:00] <dterziev> да, и наистина ЖЕЛЯЗО :)
+[15:29:59] <dterziev> исках да го правя по оптика вместо iSCSI
+[15:30:14] <dterziev> ама от ибм ми искаха 12.000$ само за оптичния суич :)
+[15:31:01] <dterziev> пък по SAS не можело да го вържа към двата нода на клъстера
+[15:31:15] <dterziev> т.е. можело, ама нямало да виждат едни и същи дялове
+[15:31:20] <dterziev> пък това не ми е оферта
+[15:37:20] Xristo (~Xristo@eduroam-int.uni-ruse.bg) joined #telerikacademy.
+[15:53:43] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[15:53:52] <dencho-at-work> op
+[15:54:07] <dencho-at-work> shte hodim li na lektsia dovechera
+[15:55:43] Action: KpeTeHoug slaps dencho-at-work around with a cream filled donut...... smack ... smack ... smack .. :)
+[15:55:47] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: Lost terminal
+[15:56:14] <dencho-at-work> yaa
+[15:56:26] <KpeTeHoug> де одиш като те няма
+[15:56:45] <dencho-at-work> tuka sam, ama nqmam svobodno vreme
+[15:56:57] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[15:57:17] <dencho-at-work> mi ti
+[15:57:21] <dencho-at-work> kak mina komandirovkata
+[15:58:21] <dencho-at-work> ora, nqkoi zapoznal li se e s iptables ?
+[15:58:33] <dencho-at-work> ako - da, da znam koi da tormoza :D
+[15:59:04] <KpeTeHoug> е как да мине, командировачно
+[15:59:11] <KpeTeHoug> кафе и сокче, и сладки приказки :)
+[15:59:25] <hackman> dencho-at-work: каква е драмата ?
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:31] <dencho-at-work> hackman: drami vse oshte nqma... tepurva zapochvam da cheta meteriata
+[16:00:59] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[16:01:04] <dencho-at-work> no shte ima!
+[16:01:05] <dencho-at-work> :D
+[16:01:08] <yulimoto> dencho-at-work: от линукс-бг ли четеш ?
+[16:01:37] <dterziev> тва линукс-бг е ебаси западналия сайт/форум вече
+[16:01:52] <_wiseman_> а сега дайте яснота как да си добавя пътя до файла с алиасите в bashrc
+[16:01:56] <dencho-at-work> yulimoto: i da i ne
+[16:01:58] <_wiseman_> pls :)
+[16:02:01] <dencho-at-work> t.e da
+[16:02:02] <dencho-at-work> :P
+[16:02:10] <dencho-at-work> http://www.linux-bg.org/cgi-bin/y/index.pl?page=article&id=programs&key=360886781#ss3.1
+[16:02:16] <dencho-at-work> http://www.linux-bg.org/cgi-bin/y/index.pl?page=article&key=430581795&list=all&id=advices#other_comments
+[16:02:21] <dencho-at-work> e tva cheta
+[16:02:21] <yulimoto> dencho-at-work: там има добра статия защото
+[16:02:45] <dencho-at-work> m da
+[16:02:49] <dencho-at-work> no mi e qdski oburkano
+[16:02:49] <dencho-at-work> :D
+[16:03:40] <hackman> dencho-at-work:
+[16:03:42] <hackman> http://www.netfilter.org/documentation/HOWTO//networking-concepts-HOWTO.html
+[16:03:49] <hackman> http://www.netfilter.org/documentation/HOWTO//packet-filtering-HOWTO.html
+[16:04:14] <hackman> https://help.ubuntu.com/community/IptablesHowTo
+[16:04:28] <hackman> http://wiki.debian.org/iptables
+[16:04:33] <dencho-at-work> aa da i tezi sam si gi zapisal, no te sa za sled kato procheta BG literaturata :)
+[16:04:37] <dencho-at-work> 10x hackman
