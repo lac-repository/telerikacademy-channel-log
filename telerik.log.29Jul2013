@@ -1002,3 +1002,18 @@
 [19:03:35] <Deyan> streaminga e dobyr
 [19:04:05] <gyankov> Аз мисля, че се чува ехо сега.
 [19:04:40] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 240 seconds
+[19:05:47] poly (2eed5544@gateway/web/freenode/ip.46.237.85.68) joined #telerikacademy.
+[19:06:31] Deyan_ (~Deyan@212.5.158.232) joined #telerikacademy.
+[19:09:32] Deyan (~Deyan@212.5.158.130) left irc: Ping timeout: 245 seconds
+[19:14:44] user99 (~McNamee@213.226.63.145) joined #telerikacademy.
+[19:28:24] valioabc (5e1a1783@gateway/web/freenode/ip.94.26.23.131) joined #telerikacademy.
+[19:28:38] <yulimoto> Ако скобите () изпълняват скрипт в друг bash, а {} в текущия, то можем ли примерно файл към който нямаме executable permissions  (+x) да си ги изпълним автоматично в нашия си bash ?
+[19:34:00] <yulimoto> при условие, че имаме (+r)
+[19:35:30] angie_bg (~angie@77.236.189.210) left #telerikacademy.
+[19:37:39] dterziev (~dimitar@46.47.83.79) joined #telerikacademy.
+[19:40:17] Kally (d47521aa@gateway/web/freenode/ip.212.117.33.170) joined #telerikacademy.
+[19:44:06] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[19:59:11] Xristo (~Xristo@pppoe-90-149.uni-ruse.bg) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:04:53] blank_jack (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
