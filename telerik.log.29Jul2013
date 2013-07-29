@@ -30,3 +30,120 @@
 [08:53:22] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 256 seconds
 [09:00:00] Writing user file...
 [09:00:00] Writing channel file...
+[09:05:02] Nick change: KpeTeH|weekend -> KpeTeHoug
+[09:05:15] <KpeTeHoug> гутен морген
+[09:08:57] <yulimoto> нали си отпуска ве мен
+[09:10:09] <KpeTeHoug> командриовка бях, не отпуска :)
+[09:10:16] <KpeTeHoug> отпуска септември :)
+[09:11:33] <KpeTeHoug> нещо много е ударила жегата, хората ги няма :)
+[09:14:06] <yulimoto> ами тука са, ами бачкат сутринта по ладно, че после да им е по-леко
+[09:14:57] <KpeTeHoug> аха :)
+[09:15:24] <KpeTeHoug> то и аз тей, трябва да поработя малко, да излгедам малко видео, че съвсем малко гледах на стрийма
+[09:15:26] <KpeTeHoug> не ми остана време
+[09:24:33] <KpeTeHoug> направих нов архив на ботя :) ако остане време днес, да чупя тцл-ите
+[09:24:56] net: connect! sock 3
+[09:24:56] DNS resolve failed for 127.0.0.1
+[09:24:56] Telnet connection: 127.0.0.1/45178
+[09:24:56] net: connect! sock 11
+[09:24:56] net: eof!(read) socket 11
+[09:24:56] Timeout/EOF ident connection
+[09:25:00] Logged in: KpeTeHoug (telnet@127.0.0.1/45178)
+[09:25:03] tcl: builtin dcc call: *dcc:whom KpeTeHoug 6 
+[09:25:06] tcl: builtin dcc call: *dcc:echo KpeTeHoug 6 off
+[09:25:17] tcl: builtin dcc call: *dcc:help KpeTeHoug 6 all
+[09:25:47] tcl: builtin dcc call: *dcc:modules KpeTeHoug 6 
+[09:25:51] <vhristev> алоха
+[09:25:53] tcl: builtin dcc call: *dcc:tcl KpeTeHoug 6 
+[09:25:53] tcl: evaluate (.tcl): 
+[09:26:07] tcl: builtin dcc call: *dcc:tcl KpeTeHoug 6 
+[09:26:07] tcl: evaluate (.tcl): 
+[09:26:27] <KpeTeHoug> алоха
+[09:27:32] net: eof!(read) socket 6
+[09:27:32] Lost dcc connection to KpeTeHoug (telnet@127.0.0.1/45178)
+[09:27:51] <vhristev> рано пиле компир
+[09:27:52] <vhristev> (;
+[09:28:06] net: connect! sock 3
+[09:28:06] DNS resolve failed for 127.0.0.1
+[09:28:06] Telnet connection: 127.0.0.1/45180
+[09:28:06] net: connect! sock 11
+[09:28:06] net: eof!(read) socket 11
+[09:28:06] Timeout/EOF ident connection
+[09:28:10] Logged in: KpeTeHoug (telnet@127.0.0.1/45180)
+[09:28:13] tcl: builtin dcc call: *dcc:whom KpeTeHoug 6 
+[09:28:18] tcl: builtin dcc call: *dcc:help KpeTeHoug 6 modules
+[09:28:44] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[09:28:44] Writing user file...
+[09:28:44] Writing channel file...
+[09:28:44] Rehashing ...
+[09:28:44] Writing channel file...
+[09:28:44] Listening at telnet port 3333 (all).
+[09:28:44]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[09:28:44] UDEF: chanstats defined
+[09:28:44] 14<chanstats> version 1.3.0 by arfer loaded
+[09:28:44] UDEF: seend defined
+[09:28:44] Seend 1.8.3 loaded!
+[09:28:44] UDEF: greetings defined
+[09:28:44] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[09:28:44] MsG (1.0) By GT and yulimoto LOADED.....
+[09:28:44] Loading dccwhois.tcl...
+[09:28:44] Loaded dccwhois.tcl
+[09:28:44] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[09:28:44] use '.help userinfo' for commands.
+[09:28:44] Writing channel file...
+[09:28:44] Userfile loaded, unpacking...
+[09:31:04] <KpeTeHoug> пиле с картофи ?:)
+[09:33:50] <vhristev> няма логика в това което казвам да знаеш
+[09:36:46] dterziev (~dterziev@dterziev.mw-medianetworks.eu) joined #telerikacademy.
+[09:37:38] <vhristev> dterziev,
+[09:37:41] <vhristev> закъсняваш
+[09:37:42] <vhristev> аххахаха
+[09:38:08] <dterziev> haha da be
+[09:38:09] <dterziev> :)
+[09:38:11] <dterziev> сигурно
+[09:38:12] <KpeTeHoug> много ме кефите така с буквичка и фамилия
+[09:38:13] <KpeTeHoug> :)
+[09:38:13] <dterziev> аз съм шеф
+[09:38:24] <dterziev> идвам когато си искам
+[09:38:25] <dterziev> :)
+[09:38:42] <dterziev> нали знаеш, че ако администратора е на работа - значи нещо не работи :)
+[09:41:31] <vhristev> той може да е на работа ама да си почива
+[09:41:31] <vhristev> хаахха
+[09:41:31] <vhristev> (;
+[09:41:33] <dterziev> KpeTeHoug, то на мен и хоста ми съдържа буквата и фамилията :)
+[09:41:35] <dterziev> хахахаха
+[09:41:36] <dterziev> да
+[09:41:40] <dterziev> долу в графита :)
+[09:41:57] <vhristev> с един малък джеймс
+[09:41:57] <vhristev> (;
+[09:42:10] <dterziev> то във фотото долу имаме wifi, нищо не ми пречи да си преместя офиса в графита :Д
+[09:42:20] <dterziev> лаптопа кара 5-6 часа на батерия
+[09:42:24] <dterziev> кво ми пука :)
+[09:42:37] <dterziev> ся си мисля - трябваше да вземa Air
+[09:42:45] <dterziev> не че ретината е зле
+[09:42:51] <dterziev> ама аира кара 12 часа да го иба
+[09:44:03] <KpeTeHoug> е пък кой стои 12 часа на работа :)
+[09:44:23] <dterziev> хаха аз не го ползвам само за работа :)
+[09:44:35] <dterziev> къде мислиш си гледам порното
+[09:45:00] <KpeTeHoug> ами
+[09:45:13] <KpeTeHoug> както каза yulimoto - на виртуалка, и после ресторваш снапшота
+[09:45:14] <KpeTeHoug> :)
+[09:45:23] <dterziev> хахахаха
+[09:45:38] <dterziev> така съм се гаврил - правя снапшот, после rm -rf /*
+[09:45:46] <vhristev> като казахте виртуалка митак с мойта кво става ще е има ли
+[09:46:09] <dterziev> направо ще ти дам достъп до esxi-a да си я пуснеш
+[09:48:32] <vhristev> ТАм в моя ПУул
+[09:48:46] <vhristev> само ми дай права да правя виртуалка
+[09:48:50] <vhristev> аз ще си е направя същата
+[09:48:50] <vhristev> (;
+[09:49:38] <dterziev> аз ти пуснах моите усер/пас
+[09:50:17] <KpeTeHoug> аа, за това ли бяха тея юзър и пас
+[09:50:22] <KpeTeHoug> тъкмо се чудех
+[09:50:30] <KpeTeHoug> закво ми ги пращаш
+[09:50:38] DCC connection closed (KpeTeHoug!telnet@127.0.0.1)
+[09:50:58] <dterziev> aha :)
+[09:51:25] <KpeTeHoug> ^_^
+[09:55:59] <vhristev> аххахаха
+[09:56:00] <vhristev> (;
+[09:56:04] <vhristev> да имаш да си търкаляш бе ман
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
