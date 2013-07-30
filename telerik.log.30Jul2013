@@ -134,3 +134,156 @@
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
 [15:04:34] tuxar (~tuxar@wolf.yuhu.biz) left irc: Quit: leaving
+[15:09:26] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) joined #telerikacademy.
+[15:14:24] <dencho-at-work> az se 4uda kak taka nqkoi ne go e ugasil
+[15:14:24] <dencho-at-work> :D
+[15:14:28] <dencho-at-work> ili iaztril ve4e
+[15:14:28] <dencho-at-work> :D
+[15:14:32] <dencho-at-work> iztril*
+[15:14:57] <KpeTeHoug> e ti pa
+[15:14:59] nlkl (~nlkl@nat125.cnsys.bg) left irc: Ping timeout: 245 seconds
+[15:15:03] <dencho-at-work> e az pa... :D
+[15:15:21] nlkl (~nlkl@78-83-251-233.spectrumnet.bg) joined #telerikacademy.
+[15:15:25] <dencho-at-work> vseki put sqkash orata namalqvat v zalata
+[15:15:32] <dencho-at-work> ne znam ot kum predadeni domashni kak e
+[15:18:32] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[15:20:16] hackman (~HackMan@2001:67c:1b68:3064:a849:f331:7ee6:9986) joined #telerikacademy.
+[15:21:28] <yulimoto> dencho-at-work: в какъв смисъл за yum-a
+[15:24:14] <KpeTeHoug> gledam go tuka, reinstalnah yum i yum-utils s rpm
+[15:24:16] <KpeTeHoug> ma pak laina :)
+[15:24:17] <yulimoto> a това за по-малкото хора е напълно нормално и няма как до септември поне ще е така; после според мен ще
+[15:24:42] <KpeTeHoug> Warning: RPMDB altered outside of yum.
+[15:24:49] <KpeTeHoug> и след това още лайна :)
+[15:25:19] <yulimoto> да е жив и здрав онзи снапшот
+[15:25:35] <KpeTeHoug> май май
+[15:25:46] <phalaaxx> 2050 г.: - Къде си тръгнал с тази врата?
+[15:25:46] <phalaaxx> - Това не е врата, това е новият Самсунг С37
+[15:25:55] <KpeTeHoug> някой явно е решил да прави наистина упгрейд/упдейт
+[15:27:21] <yulimoto> haha
+[15:28:03] <yulimoto> phalaaxx: тогава ще се бръснем със самобърсначки със 20-25 ножчета
+[15:28:17] <yulimoto> KpeTeHoug: може да не е било от това
+[15:28:28] Nako (~Nako@75.151.167.113) left irc: Quit: Leaving
+[15:28:35] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[15:29:15] Nako_ (~Nako@75.151.167.113) joined #telerikacademy.
+[15:29:23] Nako_ (~Nako@75.151.167.113) left irc: Client Quit
+[15:29:26] Nako (~Nako@75.151.167.113) left irc: Client Quit
+[15:29:39] <yulimoto> гледам yum.log
+[15:29:50] <KpeTeHoug> ем гледай
+[15:29:51] <yulimoto> няма кой знае какво
+[15:29:56] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[15:29:57] <KpeTeHoug> има някакви 20 пендинг инсталациии
+[15:30:03] <KpeTeHoug> аз се опитах ад анправя наколко ръчно
+[15:30:07] <KpeTeHoug> и има леко подобрение
+[15:30:08] <KpeTeHoug> :)
+[15:30:10] <KpeTeHoug> ама пак
+[15:30:10] Nako (~Nako@75.151.167.113) left irc: Client Quit
+[15:30:40] hackman (~HackMan@2001:67c:1b68:3064:a849:f331:7ee6:9986) left irc: Ping timeout: 245 seconds
+[15:31:41] <yulimoto> ааа да
+[15:32:12] <yulimoto> тая загадка аз я открих а phalaaxx я разгада
+[15:32:31] <yulimoto> мисля на 25.07 в среднощните логове  логовете
+[15:32:36] <yulimoto> може да се види
+[15:33:03] <KpeTeHoug> имаме ли практическо решение на проблема
+[15:33:06] <phalaaxx> каква загадка? :^)
+[15:33:33] <yulimoto> значи phalaaxx сложи един ред който разрешава проблема, но го коментира за да си бъде системата както си беше
+[15:33:33] <KpeTeHoug> за yum
+[15:33:37] <yulimoto> отиди в
+[15:33:55] <yulimoto> /etc/секюрити/лимитс.конф
+[15:34:10] <yulimoto> tam ima edin коментиран ред за софт лимите на рута
+[15:34:16] <yulimoto> от коментирай го
+[15:34:29] <yulimoto> и си инсталирай квото си инсталираш
+[15:34:39] <yulimoto> после пак го коментирай за да си е както си беше
+[15:34:44] <KpeTeHoug> хм
+[15:34:53] <KpeTeHoug> аз ви гелдах ко сте правили тогава
+[15:35:05] <KpeTeHoug> искаш да кажеш че понеже не може да завърши всички ъпдейти
+[15:35:07] <KpeTeHoug> и забива ?
+[15:35:11] <yulimoto> не
+[15:35:31] <yulimoto> щото като юзер си лимитран на процеси и файлове
+[15:35:45] <yulimoto> и някой от лимитите остават даже като ползваш судо
+[15:36:05] <KpeTeHoug> #root            soft    nofile          500
+[15:36:07] <yulimoto> направи софт лимите
+[15:36:09] <KpeTeHoug> това ли е
+[15:36:17] <yulimoto> да откоментирай го
+[15:36:22] <KpeTeHoug> к
+[15:36:22] <yulimoto> и после пробвай
+[15:36:24] <yulimoto> да видим
+[15:37:51] <KpeTeHoug> ми
+[15:37:52] <dencho-at-work> pi4ove iskate li da vi sloja v /etc/passwd za shell /bin/true :P
+[15:37:58] <KpeTeHoug> най много съесем да го омажем :)
+[15:38:14] <yulimoto> ми поне докато хакман е в бг
+[15:38:18] <yulimoto> споко ве
+[15:38:52] <KpeTeHoug> а аз съм спокоен :)
+[15:38:58] <KpeTeHoug> пуснал съм да се източи
+[15:39:11] <KpeTeHoug> има висящ update пуснат
+[15:39:16] <KpeTeHoug> само 61 пакета :)
+[15:39:36] <yulimoto> ама какво ще правиш ?
+[15:39:54] <KpeTeHoug> аз нищо
+[15:40:02] <KpeTeHoug> дадаох му да си оправи пендинг нещата
+[15:40:14] <KpeTeHoug> всичко е комплийт
+[15:40:15] <yulimoto> после върни коментара ;)
+[15:40:20] <KpeTeHoug> чек да закоментирам
+[15:40:23] <yulimoto> като свършиш с товите неща
+[15:40:46] <KpeTeHoug> ми свърши уж
+[15:41:51] hackman (~HackMan@terion.visitor.camp.ohm2013.org) joined #telerikacademy.
+[15:41:52] <yulimoto> аз мислех че ще си слагаш нещо и за тва
+[15:41:58] <KpeTeHoug> и да и не
+[15:41:59] <KpeTeHoug> :)
+[15:42:07] <yulimoto> мм тоя не е в българия веке
+[15:42:14] <yulimoto> .ohm2013.org
+[15:42:23] <KpeTeHoug> единият колега се опитва тука да слага ImageMagick
+[15:42:25] <yulimoto> ползва там wi-fiто
+[15:42:31] <KpeTeHoug> и понеже иска 47 пакета
+[15:42:36] <KpeTeHoug> и затва го реже
+[15:42:52] <KpeTeHoug> ама го порайхме вече :)
+[15:43:12] <yulimoto> imagemagic не беше ли нещо win
+[15:43:23] <KpeTeHoug> hackman как е, има ли лотс от п0рн
+[15:43:27] <KpeTeHoug> magicK
+[15:43:28] <KpeTeHoug> :)
+[15:43:33] <KpeTeHoug> юникс
+[15:43:46] <yulimoto> aha
+[15:43:54] <hackman> https://www.facebook.com/hackman.cx/posts/10151619392237946?notif_t=like
+[15:44:44] <dencho-at-work> nqmam faceshit :D
+[15:44:51] <dencho-at-work> sorry
+[15:45:17] <yulimoto> да ве и аз
+[15:45:24] <yulimoto> тъкмо щях да питам какво има
+[15:45:29] <KpeTeHoug> ми
+[15:45:36] <KpeTeHoug> то и без, трябва да ви се отваря
+[15:45:37] <KpeTeHoug> :)
+[15:45:56] <yulimoto> като му гледам ип-то sigurno e седнал на маса с бира и им ползва wi-fi на кемпа
+[15:46:06] <KpeTeHoug> 100 %
+[15:46:14] <yulimoto> бахти аз съм гении
+[15:46:22] <vhristev> гепи тоя спам
+[15:46:24] <yulimoto> по ип-то разбирам човека ей
+[15:46:37] <KpeTeHoug> се едно на бобо му гледаш
+[15:46:41] <yulimoto> да
+[15:46:47] <yulimoto> само че още по
+[15:47:12] <hackman> https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/981461_10151619391597946_174461578_o.jpg
+[15:47:19] <hackman> https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/798174_10151619381607946_1966536942_o.jpg
+[15:47:26] <hackman> https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn2/980354_10151619381802946_310276375_o.jpg
+[15:47:45] <yulimoto> тва в началото го помилих за кайт и изтръпнах
+[15:48:12] <yulimoto> и там ли има комари ?
+[15:48:19] samy__ (~samy@77-85-19-155.btc-net.bg) left irc: Ping timeout: 245 seconds
+[15:48:20] <vhristev> Това ми прилича на National guard командния център
+[15:48:42] <hackman> yulimoto: точно на 30м от нас са каналите
+[15:48:43] <vhristev> Като има зомбита опъват такива палатки край някой град
+[15:48:47] <hackman> познай колко комари има :)
+[15:49:12] <KpeTeHoug> ами 3
+[15:49:17] <KpeTeHoug> те сичките комари пияни :)
+[15:49:33] <vhristev> само да не са от тия дето като кацнат на оградата и кучето ги лае
+[15:49:48] <dencho-at-work> 3k
+[15:49:48] <dencho-at-work> :D
+[15:49:52] <vhristev> щото на баба Снежка ония ден 4 комара и взеха най млекодайната козичка
+[15:50:23] <yulimoto> hackman: пий повече бира за децинфекция :)
+[15:51:08] <yulimoto> vhristev: глей брато като каза National Guard za тва се сетих http://cyberbunker.com/web/index.php
+[15:54:03] <vhristev> найс
+[15:54:15] <vhristev> забравих кой беше ама имаше един дейта център направен в пещера
+[15:54:56] <yulimoto> военните имат супер помещения; сега както са тръгнали да разпродават някой може да се обзаведе
+[15:56:03] <s0ny123> я кажете някой готин terminal irc client?
+[15:56:15] <vhristev> bitchX
+[15:56:23] <yulimoto> ама вече не го подържат
+[15:56:27] <yulimoto> казвал се порк
+[15:56:34] <yulimoto> или нещо подобно
+[15:56:57] <yulimoto> аз ползвам irssi ако вчера си гледал лекцията си го видял за 3-4 секунди как изглежда
+[15:57:02] <vhristev> http://www.datacenterknowledge.com/iron-mountains-energy-efficient-bunker/
+[15:58:22] <yulimoto> hackman: прави си снимки пред палатката, и после ще си направиш специален албум само с нея; пред Парламента, в холандия и т.н. и все на интересни места
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
