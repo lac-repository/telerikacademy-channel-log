@@ -517,3 +517,107 @@
 [22:01:47] <dencho> hackman, to i bez tva nqma za kakvo drugo da go izpolzvate tozi Durex tam... jeni ima li v lagera?!
 [22:02:12] <episparh> не чу ли че е в Лосовете :)
 [22:02:35] <episparh> *чу - май не е подходящо за irc xD
+[22:05:43] <yulimoto> episparh: http://www.uniqlo.jp/uniqlock/season3/ ето ти пък един мюзик сайт
+[22:05:51] <yulimoto> с жени
+[22:06:10] <yulimoto> тоя сезон и втори са ми любими
+[22:07:25] <episparh> yulimoto, това е почти като nyan cat :o
+[22:08:10] <episparh>  и е с любимите ми цветове  бяло + светло зелено ,,,
+[22:09:16] <yulimoto> тогава гледай и другите сезони
+[22:09:17] <yulimoto> :)
+[22:09:31] <episparh> но , тенк ю
+[22:09:39] <yulimoto> но се успокояват нещата в следващите сезони
+[22:10:04] <episparh> по скоро ще си пусна www.nyan.cat
+[22:18:09] <yulimoto> така вече имаме и часовник indicator-datetime му е името на пакета
+[22:18:36] <yulimoto> остана само да си оправя keyshortcuts и съм готов
+[22:18:39] <yulimoto> :)
+[22:18:52] <phalaaxx> root@sirius:~# ls -lh /bin/true
+[22:18:52] <phalaaxx> -rwxr-xr-x 1 root root 23K Jan 26  2013 /bin/true
+[22:19:02] <phalaaxx> някой друг намира ли това за несправедливо?
+[22:19:36] <phalaaxx> man true:   true - do nothing, successfully
+[22:19:42] <phalaaxx> do nothing, 23K?
+[22:20:26] <yulimoto> $ /bin/true
+[22:20:31] <yulimoto> $ echo  $?
+[22:20:33] <yulimoto> 0
+[22:20:45] <yulimoto> а това е най-голямата лъжа !!!
+[22:20:49] <yulimoto> ;P~~~
+[22:22:13] <phalaaxx> в 23K могат да се направят ужасно много неща, различни от nothing
+[22:22:54] <yulimoto> хаха ами не знам, в джава не може !!!
+[22:23:31] <phalaaxx> coreutils не са писани на java :D
+[22:23:38] hackman (~HackMan@terion.visitor.camp.ohm2013.org) left irc: Ping timeout: 248 seconds
+[22:24:03] <yulimoto> да, верно е
+[22:29:02] <phalaaxx> root@fbsd:/root # ls -lh /usr/bin/true
+[22:29:02] <phalaaxx> -r-xr-xr-x  1 root  wheel   4.3k Dec  4  2012 /usr/bin/true
+[22:29:09] <phalaaxx> това във FreeBSD 9.1
+[22:29:46] <phalaaxx> значи разликата между успешното правене на нищо в Linux и FreeBSD е 18.7KB? :)
+[22:30:16] <nveselinov> Пичове, може ли да ударите едно рамо за инсталирането на компилирано PHP(имам проблем)?
+[22:30:44] <phalaaxx> т.е. "нищото" във Linux е със 18.7KB по-голямо отколкото във FreeBSD
+[22:32:20] <nveselinov> Ползвам Debian 7, свалям PHP-то, разархивирам го, влизам в папката му(cd php-5.5.1) и компилирам с следните опции(модули) - http://pastebin.com/v0YxcYpz
+[22:32:43] <phalaaxx> nveselinov: защо не ползваш пакетната система на Debian?
+[22:33:01] <episparh> phalaaxx,  FYI
+[22:33:02] <episparh> -rwxr-xr-x. 1 root root 31K May  8 10:45 /bin/true
+[22:33:21] <phalaaxx> episparh: моето успешно нищо не може да се сравнява с твоето :D
+[22:33:23] <episparh> това е от моята машина
+[22:33:25] <nveselinov> Защото последната версия на PHP-то е 5.4.14, а на мен ми трябва 5.5.1.
+[22:33:38] <phalaaxx> episparh: Ubuntu, нали?
+[22:33:43] <phalaaxx> те винаги са вървяли по-напред
+[22:33:43] <episparh> федора
+[22:34:03] <episparh> от федора по-напред няма
+[22:34:14] <yulimoto> hm, пхп 5.5 май вече подържаше namespace което си е съществено или май по-рано беше
+[22:34:49] <nveselinov> След успешно компилиране макар и че накрая виждам - configure: error: Cannot find OpenSSL's <evp.h>, пускам make командата и получавам - make: *** No targets specified and no makefile found.  Stop.
+[22:34:55] <nveselinov> Това ми е проблема.
+[22:35:18] <nveselinov> Едва ли от PHP къмюнитито са изпуснали Make файла....
+[22:35:34] <yulimoto> phalaaxx: ubuntu 12.04 24K/bin/true
+[22:35:38] <nveselinov> По-рано са неймспейсовете
+[22:35:42] <nveselinov> от 5.3
+[22:36:28] <yulimoto> nveselinov: да, сега проверих по-рано са
+[22:36:36] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[22:36:46] <phalaaxx> nveselinov: http://www.dotdeb.org/2013/06/20/php-5-5-0-is-out-and-available-for-debian-7-0-wheezy/
+[22:37:46] <nveselinov> Dotdeb ги знам, но искам 5.5.1, а не 5.5.0.
+[22:37:55] <phalaaxx> аха
+[22:38:06] <phalaaxx> амиии... ок, да се върнем на грешката тогава
+[22:38:26] <phalaaxx> защо мислиш че се компилира успешно ако ти дава configure error?
+[22:38:35] <phalaaxx> като още не си стигнал даже до началото на компилирането :)
+[22:39:03] <nveselinov> УУпсс :(
+[22:39:20] <nveselinov> Сега ще го видя и ще пиша какво е станало.
+[22:39:24] <yulimoto> аре пичове; графичната среда ми е готова; лека от мен
+[22:39:31] <phalaaxx> apt-get install libssl-dev
+[22:40:39] <phalaaxx> вероятно ще ти трябват и още една кофа -dev пакети според съответните ти опции в configure
+[22:42:01] <nveselinov> Другите неща съм ги инсталирал. Инсталирах libssl-dev и след повторно компилиране - configure: error: Cannot find OpenSSL's libraries. Явно не е тоя пакет.
+[22:42:11] <episparh> мда, с това което видях от гугъл съм склонен да се съглася с phalaaxx
+[22:43:14] <episparh> nveselinov, сложи и libcurl4-openssl-dev
+[22:45:04] <phalaaxx> nveselinov: дай последните няколко реда
+[22:45:08] <phalaaxx> tail -40 :D
+[22:45:27] <samy_> олеле
+[22:45:31] <samy_> този куфар ме измъчи
+[22:45:36] <samy_> 4 часа си затрих
+[22:46:11] <phalaaxx> добре, а защо е тази тенденция binaries в coreutils да им расте така безумно размера? при положение че функционалноста на true може да се побере в по-малко от 0.5KB, това не го разбирам
+[22:47:35] <nveselinov> С libcurl4-openssl-deb стана. Само да вида, че иска да реинстална един пакет.
+[22:50:48] <nveselinov> configure: error: Please reinstall the BZip2 distribution - решението е че трябват и libbz2-dev libxml2-dev. phalaaxx, прав си, наистина още един куп неща иска... :D
+[22:52:27] <phalaaxx> за по-лесно пробвай така: apt-get build-dep php5
+[22:52:35] <phalaaxx> може би ще ти спести малко време :P
+[22:53:52] <phalaaxx> root@sirius:~# ls -lh true ; cat true
+[22:53:52] <phalaaxx> -rwxr-xr-x 1 root root 17 Jul 30 22:51 true
+[22:53:52] <phalaaxx> #!/bin/sh
+[22:53:52] <phalaaxx> exit 0
+[22:54:04] <phalaaxx> voila! за какво са ми 23K за същото? :D
+[22:58:11] <phalaaxx> /bin/true --help
+[22:58:16] <phalaaxx> truly helpful lol
+[22:58:56] <phalaaxx> Report true bugs to bug-coreutils@gnu.org... не не не :D :D
+[22:59:16] <episparh>  я дай --version
+[22:59:27] <phalaaxx> 8.13 :)
+[22:59:43] <episparh> 8.21 e 31k ;P
+[22:59:43] <phalaaxx> представям си - бъг в true...
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:14] <phalaaxx> ахаа дам, сигурно има security patch-ове и други благинки
+[23:00:17] <phalaaxx> спрямо 8.13
+[23:01:14] <episparh> cat изглежда грозно :)
+[23:01:20] <phalaaxx> тия програмисти няма ли кой да им дърпа ушите
+[23:01:54] <phalaaxx> някъде четох че в някой юникс даже направили графични версии на true и false
+[23:02:03] <phalaaxx> ако искаш да ти отвори прозорец и да кликнеш на бутонче
+[23:02:20] <phalaaxx> пълно безумие
+[23:02:36] dencho (~dencho@95.111.14.183) left irc: 
+[23:02:44] <phalaaxx> какво има в тия 31K? проверки за грешки? :D
+[23:02:56] <phalaaxx> не ми го побира главата това
+[23:03:19] <episparh> не знам , raw output не е четим
+[23:03:56] <phalaaxx> то бива POSIX стандарти, преносимост и други хубави мечти ама това нещо не ми се връзва хич
