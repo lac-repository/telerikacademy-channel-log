@@ -350,6 +350,94 @@
 			<div>&nbsp;<span class="time">[15:58:46]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; това не вярвам да оправи проблема</span></div>
 			<div>&nbsp;<span class="time">[15:59:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; момчета нямаме успех</span></div>
 			<div>&nbsp;<span class="time">[15:59:55]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; с нито една опция</span></div>
+			<div>&nbsp;<span class="time">[16:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[16:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[16:00:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега ще мина на дебиана и ще го pastebin-a</span></div>
+			<div>&nbsp;<span class="time">[16:01:57]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; ми то като цяло</span></div>
+			<div>&nbsp;<span class="time">[16:02:06]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; ти е noatime мисля и никога ням да ти упдейтва</span></div>
+			<div>&nbsp;<span class="time">[16:02:45]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; трябва ти да е на strictatime</span></div>
+			<div>&nbsp;<span class="time">[16:04:32]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; ама не ми е ясно каква ти е логиката?</span></div>
+			<div>&nbsp;<span class="time">[16:05:07]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; смисъл това ти е допълнителна write операция върху диска при всеки достъп на файл ...</span></div>
+			<div>&nbsp;<span class="time">[16:05:23]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; потока от I/O е смазващ</span></div>
+			<div>&nbsp;<span class="time">[16:07:26]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; мдааа</span></div>
+			<div>&nbsp;<span class="time">[16:08:33]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; идеята е да виждам достъпа и до определени оперативно интересни файлове в с-мата</span></div>
+			<div>&nbsp;<span class="time">[16:08:52]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; нищо не ти разбрах от изречението</span></div>
+			<div>&nbsp;<span class="time">[16:09:21]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да и аз не си разбирам като си ги чета</span></div>
+			<div>&nbsp;<span class="time">[16:10:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ами идеята е да наблюдавам определени файлове в системата, които може да са ключови за сигурността; когато че видя че има интерес към тях, заедно с други индикации, това може да помогне за определени заключения</span></div>
+			<div>&nbsp;<span class="time">[16:11:26]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; поне аз така си мисля;</span></div>
+			<div>&nbsp;<span class="time">[16:11:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; както и да е упражнявам си regExp и си мисля разни неща</span></div>
+			<div>&nbsp;<span class="time">[16:12:20]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; <a href="https://github.com/rvoicilas/inotify">https://github.com/rvoicilas/inotify</a>-tools/wiki</span></div>
+			<div>&nbsp;<span class="time">[16:13:15]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; <a href="http://linux.die.net/man/1/inotifywatch">http://linux.die.net/man/1/inotifywatch</a></span></div>
+			<div>&nbsp;<span class="time">[16:15:37]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; ест това можеш да си го бухнеш в един скрипт и да си го ръннеш :)</span></div>
+			<div>&nbsp;<span class="time">[16:16:20]</span>&nbsp;<span class="else_li">&nbsp;_wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) left irc: Quit: Page closed</span></div>
+			<div>&nbsp;<span class="time">[16:16:21]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да сега тъкмо го гледам,</span></div>
+			<div>&nbsp;<span class="time">[16:18:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да, значи прави one row за всеки файл т.е. ще ъпдейтва и записва само при събитие за този файл</span></div>
+			<div>&nbsp;<span class="time">[16:18:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; което облекчава системата :)</span></div>
+			<div>&nbsp;<span class="time">[16:21:29]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; а кой толкова опасен файл те притеснява?</span></div>
+			<div>&nbsp;<span class="time">[16:23:01]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; phalaaxx:  е може човека да иска да се занимава със сигурност :)</span></div>
+			<div>&nbsp;<span class="time">[16:24:52]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: никой :) опитвам се да мисля за ситуации в които това ще ми е от полза :)</span></div>
+			<div>&nbsp;<span class="time">[16:24:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; питам от любопитство, мен не ми е хрумвало да гледам кой кои файлове кога отваря</span></div>
+			<div>&nbsp;<span class="time">[16:25:01]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; иначе е ясно че е за сигурност</span></div>
+			<div>&nbsp;<span class="time">[16:25:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; поставен така въпроса</span></div>
+			<div>&nbsp;<span class="time">[16:25:42]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз бих си видял сметката с едно strict policy за selinux (ако успея да разбера как да го подкарам)</span></div>
+			<div>&nbsp;<span class="time">[16:26:08]</span>&nbsp;<span class="else_li">&nbsp;samy_ (~samy@87-126-212-209.btc-net.bg) left irc: Ping timeout: 245 seconds</span></div>
+			<div>&nbsp;<span class="time">[16:27:14]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а за такива файлове мисля, че могат да се намерят; просто ще трябва да се намерят няколко сорса на бекдора и от там да се види, кои файлове подправят, как им сменят таймстампа и ит.н.</span></div>
+			<div>&nbsp;<span class="time">[16:28:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; т.е. как им копират таймстампа и големината..</span></div>
+			<div>&nbsp;<span class="time">[16:28:39]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; големи хахори тука ;)</span></div>
+			<div>&nbsp;<span class="time">[16:28:51]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; пиша лошо; не мога да правя две неща едновремено, а точно това се опитвам да правя :)</span></div>
+			<div>&nbsp;<span class="time">[16:33:15]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хаха да</span></div>
+			<div>&nbsp;<span class="time">[16:36:03]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; чак хахор едва ли, но все пак сигурността е интересно нещо + това такива неща се случват, ама да взема да компилирам готови експлоити и  да се вживея едва ли :)</span></div>
+			<div>&nbsp;<span class="time">[16:36:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; чакай сега теб те притеснява четене на файлове или подмяна на файлове?</span></div>
+			<div>&nbsp;<span class="time">[16:38:38]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; yulimoto:  няма лошо , щом имаш желанието да научаваш нови неща ;)</span></div>
+			<div>&nbsp;<span class="time">[16:39:36]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аз не се притеснявам в момента за нищо :) но упражнявам bash регExp и ми е по-интересно да си представям ситуации, та ми беше интересно ако трябва да наблюдавам определени файлове на с-мата, как ще бъде добре да се направи.  Направихме от мухата слон, но о</span></div>
+			<div>&nbsp;<span class="time">[16:39:44]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако искаш да гледаш разни файлове без да ползваш нещо по-готово... имам една грозна идея</span></div>
+			<div>&nbsp;<span class="time">[16:39:52]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; я ?</span></div>
+			<div>&nbsp;<span class="time">[16:39:54]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сподели</span></div>
+			<div>&nbsp;<span class="time">[16:40:07]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; find /etc -type f -exec md5sum {} \;</span></div>
+			<div>&nbsp;<span class="time">[16:40:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това го записваш във файл</span></div>
+			<div>&nbsp;<span class="time">[16:40:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; после в крон правиш същото в temp файл и правиш diff между двата</span></div>
+			<div>&nbsp;<span class="time">[16:40:45]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; между другото find си има аtime i t.n. da kaja</span></div>
+			<div>&nbsp;<span class="time">[16:40:55]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; mdaaaa</span></div>
+			<div>&nbsp;<span class="time">[16:41:02]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; phalaaxx:  not bad :)</span></div>
+			<div>&nbsp;<span class="time">[16:42:13]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; md5sum !!!</span></div>
+			<div>&nbsp;<span class="time">[16:42:17]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; йее</span></div>
+			<div>&nbsp;<span class="time">[16:43:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; bin: виждаш ли, че все пак от хахорската тема все пак могат да излязат интересни неща, не е чак толкова инфантилна история</span></div>
+			<div>&nbsp;<span class="time">[16:43:56]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; yulimoto: ама аз нищо не съм казал бре :)</span></div>
+			<div>&nbsp;<span class="time">[16:44:59]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; phalaaxx, идеята с find да върви на крон е пълен ад</span></div>
+			<div>&nbsp;<span class="time">[16:45:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; защо?</span></div>
+			<div>&nbsp;<span class="time">[16:46:04]</span>&nbsp;<span class="else_li">&nbsp;xaocbg (550e1752@gateway/web/freenode/ip.85.14.23.82) left irc: Quit: Page closed</span></div>
+			<div>&nbsp;<span class="time">[16:46:08]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; ФАйнда винаги пребива процесора</span></div>
+			<div>&nbsp;<span class="time">[16:46:22]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; аз примерно винаги пускам find  с приоритет 19</span></div>
+			<div>&nbsp;<span class="time">[16:47:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако го пускаш на всеки 5 минути може би ще е проблем, да</span></div>
+			<div>&nbsp;<span class="time">[16:47:36]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; tripwire</span></div>
+			<div>&nbsp;<span class="time">[16:47:41]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; snort = network</span></div>
+			<div>&nbsp;<span class="time">[16:47:45]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; tripwire = filesystem</span></div>
+			<div>&nbsp;<span class="time">[16:48:01]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пък и в този случай говорим за пускане на определени директории където знаеш броя файлове и съответно можеш да предвидиш колко ще си натовариш машината</span></div>
+			<div>&nbsp;<span class="time">[16:48:22]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; просто не бих ползвал find</span></div>
+			<div>&nbsp;<span class="time">[16:48:29]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; прекалено тегава програма</span></div>
+			<div>&nbsp;<span class="time">[16:48:34]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; харчи CPU + IO</span></div>
+			<div>&nbsp;<span class="time">[16:48:46]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; и както споменах винаги е пускам с нисък приоритет</span></div>
+			<div>&nbsp;<span class="time">[16:48:55]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; добре, какво би ползвал?</span></div>
+			<div>&nbsp;<span class="time">[16:49:07]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; пусни един find някъде и пусни един TOP да видиш какво се случва</span></div>
+			<div>&nbsp;<span class="time">[16:49:22]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; за не натоварена машина грижи нямаш ама за Production си е смърт</span></div>
+			<div>&nbsp;<span class="time">[16:49:28]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; ползвам tripwire</span></div>
+			<div>&nbsp;<span class="time">[16:49:28]</span>&nbsp;<span class="else_li">&nbsp;bentoslack (~Adium@194.50.76.105) left irc: Ping timeout: 245 seconds</span></div>
+			<div>&nbsp;<span class="time">[16:49:32]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; разгледай го</span></div>
+			<div>&nbsp;<span class="time">[16:49:46]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; и един Снорт в бридж</span></div>
+			<div>&nbsp;<span class="time">[16:49:55]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; 12.5% CPU за горепосочения find</span></div>
+			<div>&nbsp;<span class="time">[16:51:00]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; минава ми за 1.5 секунди заедно с принтенето в конзолата</span></div>
+			<div>&nbsp;<span class="time">[16:51:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако това натоварване веднъж дневно или на няколко часа те притеснява - мисля че имаш много по-сериозен проблем за решаване :D</span></div>
+			<div>&nbsp;<span class="time">[16:51:35]</span>&nbsp;<span class="else_j">&nbsp;Nako (~Nako@75.151.167.113) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[16:52:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; иначе да, съгласен съм че е по-добра идея да се ползва нещо правено конкретно за целта</span></div>
+			<div>&nbsp;<span class="time">[16:52:23]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; както каза един колега преди време - големите шел скриптове ги пишат хората, които не си познават дистрибуцията</span></div>
+			<div>&nbsp;<span class="time">[16:53:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако знаеш какви тулове имаш на разположение има голям шанс да не ти се наложи изобщо да пишеш скриптове които да ти вършат някаква работа, защото почти всичко вече е написано по някакъв начин</span></div>
+			<div>&nbsp;<span class="time">[16:53:47]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; е, зависи и от това какво искаш да направиш де</span></div>
+			<div>&nbsp;<span class="time">[16:56:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; примерно аз още си пиша скриптчета да ми викат mysqldump за да си правя daily/hourly backups на разни бази, защото не знам какво има написано за целта</span></div>
+			<div>&nbsp;<span class="time">[16:56:50]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; твърде много ме мързи да търся пакети за Debian с такава функционалност, пък и шел скриптовете ми за това са по 3 реда така че... :D</span></div>
+			<div>&nbsp;<span class="time">[16:57:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аа да, и си ползвам find вътре и съм си много доволен :)</span></div>
+			<div>&nbsp;<span class="time">[16:57:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; BACKUPDIR=&quot;/var/storage/mysqlbackup&quot;</span></div>
+			<div>&nbsp;<span class="time">[16:57:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; mysqldump bacula | gzip &gt; $BACKUPDIR/bacula-`date +%d%m%Y%H%M`.sql.gz</span></div>
+			<div>&nbsp;<span class="time">[16:57:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; find $BACKUPDIR -mtime +7 -exec rm '{}' \;</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
