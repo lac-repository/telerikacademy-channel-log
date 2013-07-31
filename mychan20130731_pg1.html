@@ -438,6 +438,121 @@
 			<div>&nbsp;<span class="time">[16:57:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; BACKUPDIR=&quot;/var/storage/mysqlbackup&quot;</span></div>
 			<div>&nbsp;<span class="time">[16:57:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; mysqldump bacula | gzip &gt; $BACKUPDIR/bacula-`date +%d%m%Y%H%M`.sql.gz</span></div>
 			<div>&nbsp;<span class="time">[16:57:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; find $BACKUPDIR -mtime +7 -exec rm '{}' \;</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[17:02:24]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; добре пичове имам друг въпрос; искам да сравнявам дати с баш ; както примерно е при find -atime и т.н. ; вие как бихте направили такова нещо ?</span></div>
+			<div>&nbsp;<span class="time">[17:04:04]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; примерно искам да листна всички файлове, които са преди 7 дена, но искам да го направя на баш, а не да ползвам find и неините опции</span></div>
+			<div>&nbsp;<span class="time">[17:06:17]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; примера не е подходящ</span></div>
+			<div>&nbsp;<span class="time">[17:06:18]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз бих си ползвал find, а ако толкова не искам - бих си го написал на някакъв език</span></div>
+			<div>&nbsp;<span class="time">[17:06:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; нооо да видим...</span></div>
+			<div>&nbsp;<span class="time">[17:07:04]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да съгласен, проблема е че аз не искам да решавам конкретен проблем, а да се чекна</span></div>
+			<div>&nbsp;<span class="time">[17:07:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; говориш за сравнение на дати в скрипт?</span></div>
+			<div>&nbsp;<span class="time">[17:07:12]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; д</span></div>
+			<div>&nbsp;<span class="time">[17:07:13]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а</span></div>
+			<div>&nbsp;<span class="time">[17:07:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ще дам следния пример, който е по-скоро програмен</span></div>
+			<div>&nbsp;<span class="time">[17:09:09]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; export DATE1=&quot;2013-07-31&quot;; export DATE2=&quot;2012-07-31&quot;; if (( DATE1 &gt; DATE2 )); then echo &quot;Yupee :)&quot;; fi</span></div>
+			<div>&nbsp;<span class="time">[17:09:11]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ако мога да вкарам определена стойнност като date и после да си го конвенрирам since 1970 seconds ще мога да сравня тази стойно със стойността настоящия</span></div>
+			<div>&nbsp;<span class="time">[17:09:33]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хммммм</span></div>
+			<div>&nbsp;<span class="time">[17:09:42]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ми то мн просто излезе</span></div>
+			<div>&nbsp;<span class="time">[17:09:45]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; хааухауха</span></div>
+			<div>&nbsp;<span class="time">[17:10:01]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не</span></div>
+			<div>&nbsp;<span class="time">[17:10:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не става така</span></div>
+			<div>&nbsp;<span class="time">[17:10:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; може ли така ДАТЕ1 &gt;  ДАТЕ2</span></div>
+			<div>&nbsp;<span class="time">[17:10:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; излъгах :)</span></div>
+			<div>&nbsp;<span class="time">[17:10:47]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; може ли да конвентираме примерно &quot;2012-07-31&quot; до секунди от 1970</span></div>
+			<div>&nbsp;<span class="time">[17:10:50]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и тогава е лесно</span></div>
+			<div>&nbsp;<span class="time">[17:11:11]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; можеш ама би трябвало да има и по-лесен начин</span></div>
+			<div>&nbsp;<span class="time">[17:11:39]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; iskate da podadete string</span></div>
+			<div>&nbsp;<span class="time">[17:11:42]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; 1. как мога 2. след като разбера се подготви и да те питам за лесния начин</span></div>
+			<div>&nbsp;<span class="time">[17:11:43]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; koito e uj data taka li</span></div>
+			<div>&nbsp;<span class="time">[17:11:46]</span>&nbsp;<span class="else_j">&nbsp;samy_ (~samy@91.196.227.180) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[17:11:49]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; i da go sravnite s drug string koito e uj data ?</span></div>
+			<div>&nbsp;<span class="time">[17:11:57]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; долу горе</span></div>
+			<div>&nbsp;<span class="time">[17:11:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да</span></div>
+			<div>&nbsp;<span class="time">[17:12:10]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; искам да сравнявам дати</span></div>
+			<div>&nbsp;<span class="time">[17:12:26]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; насочихме се към това което описвам горе</span></div>
+			<div>&nbsp;<span class="time">[17:13:07]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; splitvash gi  po - w 2 masiva :)</span></div>
+			<div>&nbsp;<span class="time">[17:13:26]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; i posle ako 1 element ot masiv 1 e po golqm ot 1 element masiv 2   - hell yeah</span></div>
+			<div>&nbsp;<span class="time">[17:13:53]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; ako sa ravni prodyljavash natatyk :0</span></div>
+			<div>&nbsp;<span class="time">[17:14:00]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; гледал ли си ми решението на 4-тото домашно? там го има това с timestamps от 1970-та</span></div>
+			<div>&nbsp;<span class="time">[17:14:07]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ааааа аз сега видях -d opciqta на date</span></div>
+			<div>&nbsp;<span class="time">[17:14:21]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; това някакви домашни ли са ?</span></div>
+			<div>&nbsp;<span class="time">[17:14:22]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; :ПО</span></div>
+			<div>&nbsp;<span class="time">[17:14:24]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; ;d</span></div>
+			<div>&nbsp;<span class="time">[17:14:29]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не</span></div>
+			<div>&nbsp;<span class="time">[17:14:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; не</span></div>
+			<div>&nbsp;<span class="time">[17:14:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; доколкото разбрах не е по домашно</span></div>
+			<div>&nbsp;<span class="time">[17:14:52]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; играя си ве, какво да правя до 18</span></div>
+			<div>&nbsp;<span class="time">[17:15:07]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; zashto do 18</span></div>
+			<div>&nbsp;<span class="time">[17:15:09]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; bin: ако искаш домашно ще ти дадем</span></div>
+			<div>&nbsp;<span class="time">[17:15:15]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; какво има до 18 ?</span></div>
+			<div>&nbsp;<span class="time">[17:15:22]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; така де след 18</span></div>
+			<div>&nbsp;<span class="time">[17:15:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; края на работния ден</span></div>
+			<div>&nbsp;<span class="time">[17:15:27]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[17:15:43]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; след 18 има риболов за 2 часа</span></div>
+			<div>&nbsp;<span class="time">[17:16:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега упражнявам -d а ве аз съм много прост; тука ви занимавам два часа с елементарни неща</span></div>
+			<div>&nbsp;<span class="time">[17:17:04]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; phalaaxx:  то това ясно :) и аз го чакам :)</span></div>
+			<div>&nbsp;<span class="time">[17:17:11]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; yulimoto: не ми каза откъде си</span></div>
+			<div>&nbsp;<span class="time">[17:17:23]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ямбол е градъъъ</span></div>
+			<div>&nbsp;<span class="time">[17:17:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и стилъъъ</span></div>
+			<div>&nbsp;<span class="time">[17:19:10]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; въх</span></div>
+			<div>&nbsp;<span class="time">[17:19:21]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; phalaaxx:  ти?</span></div>
+			<div>&nbsp;<span class="time">[17:20:57]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; bin: ти ти ?</span></div>
+			<div>&nbsp;<span class="time">[17:21:16]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; търново</span></div>
+			<div>&nbsp;<span class="time">[17:21:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а ти каза нещо сутринта по повод времето, но не ми стана ясно :)</span></div>
+			<div>&nbsp;<span class="time">[17:22:10]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; haha че KpeTeHoug спомена че рано е валяло :) и предположих че и той е от търново защото аз ставах рано и валеше :)</span></div>
+			<div>&nbsp;<span class="time">[17:23:06]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ок значи няма по-лесен вариант в bash, ще се конвертира до timestamps</span></div>
+			<div>&nbsp;<span class="time">[17:23:12]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; export DATE1=&quot;2013-07-31&quot;; export DATE2=&quot;2012-07-31&quot;; if [ $(date -d &quot;$DATE1&quot; +%s) -gt $(date -d &quot;$DATE2&quot; +%s) ]; then echo &quot;Yupee :)&quot;; fi</span></div>
+			<div>&nbsp;<span class="time">[17:23:24]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; mdaaa</span></div>
+			<div>&nbsp;<span class="time">[17:23:32]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и аз това пробвах</span></div>
+			<div>&nbsp;<span class="time">[17:23:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; bin: от София съм</span></div>
+			<div>&nbsp;<span class="time">[17:24:19]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; bin: phalaaxx e най-добрия в курса; винаги е примерен на приказки и преценява ситуацията;</span></div>
+			<div>&nbsp;<span class="time">[17:24:34]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; реклама !!!!</span></div>
+			<div>&nbsp;<span class="time">[17:24:38]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; браво :)</span></div>
+			<div>&nbsp;<span class="time">[17:24:41]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; phalaaxx: какво бачкаш</span></div>
+			<div>&nbsp;<span class="time">[17:24:48]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да бе, такива тъпотии говоря понякога че ако не бях аз щях да се цапардосам с нещо :D</span></div>
+			<div>&nbsp;<span class="time">[17:30:32]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; no answer :D</span></div>
+			<div>&nbsp;<span class="time">[17:31:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; bin: малко програмист го давам понастоящем</span></div>
+			<div>&nbsp;<span class="time">[17:31:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ама и админствам странично от това</span></div>
+			<div>&nbsp;<span class="time">[17:32:00]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; език ?</span></div>
+			<div>&nbsp;<span class="time">[17:32:07]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; каквото се иска :D</span></div>
+			<div>&nbsp;<span class="time">[17:32:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; без някои де</span></div>
+			<div>&nbsp;<span class="time">[17:32:22]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; като Java например :D</span></div>
+			<div>&nbsp;<span class="time">[17:33:17]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; защо бе какво не и харесваш на java-та :)</span></div>
+			<div>&nbsp;<span class="time">[17:33:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не е за мен :D</span></div>
+			<div>&nbsp;<span class="time">[17:34:08]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз съм фен на python, напоследък и на golang</span></div>
+			<div>&nbsp;<span class="time">[17:34:24]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; golang стабилен в concurrency  :0</span></div>
+			<div>&nbsp;<span class="time">[17:34:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; иначе поназнайвам това-онова и за някои други езици</span></div>
+			<div>&nbsp;<span class="time">[17:34:33]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; за сървър сайд ще е стабилен доста</span></div>
+			<div>&nbsp;<span class="time">[17:34:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да, сега се забавлявам с писане на една тъпотия дето стартира паралелно команди през ssh на един чувал сървъри</span></div>
+			<div>&nbsp;<span class="time">[17:36:46]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; само само аз съм си ентусиаст за C</span></div>
+			<div>&nbsp;<span class="time">[17:37:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; що бе то си е много хубав език</span></div>
+			<div>&nbsp;<span class="time">[17:38:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и мен ме кефи ама нямам какво да пиша на C :)</span></div>
+			<div>&nbsp;<span class="time">[17:38:37]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; аз съм малко на принцип знаеш ли C знаеш всичко :)</span></div>
+			<div>&nbsp;<span class="time">[17:39:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; <a href="http://sourceforge.net/projects/mypysql/">http://sourceforge.net/projects/mypysql/</a> - ето ти една тъпотия която съм писал на C и python :)</span></div>
+			<div>&nbsp;<span class="time">[17:41:42]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; така като гледам wrap през питон ,  имплементацията за C</span></div>
+			<div>&nbsp;<span class="time">[17:41:42]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[17:42:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ъъъъ? много сложно прозвуча</span></div>
+			<div>&nbsp;<span class="time">[17:42:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз бих го нарекъл модул за питон написан на Ц :)</span></div>
+			<div>&nbsp;<span class="time">[17:42:54]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; по скоро адаптор на питон за С</span></div>
+			<div>&nbsp;<span class="time">[17:42:54]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[17:43:37]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; предполагам зависи от гледната точка</span></div>
+			<div>&nbsp;<span class="time">[17:43:46]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; да ама браво за което де :)</span></div>
+			<div>&nbsp;<span class="time">[17:43:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; впрочем OpenBSD е изцяло на C</span></div>
+			<div>&nbsp;<span class="time">[17:44:07]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; всичко вътре</span></div>
+			<div>&nbsp;<span class="time">[17:44:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; хората много се гордеят с този факт</span></div>
+			<div>&nbsp;<span class="time">[17:44:18]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; охо някой е женен :)</span></div>
+			<div>&nbsp;<span class="time">[17:45:58]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; разгледахме ти и гита</span></div>
+			<div>&nbsp;<span class="time">[17:47:46]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; къш!</span></div>
+			<div>&nbsp;<span class="time">[17:47:49]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[17:49:33]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; нищо е то лошо нема ;)</span></div>
+			<div>&nbsp;<span class="time">[17:50:43]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; phalaaxx:  бачлал си в CNSys а</span></div>
+			<div>&nbsp;<span class="time">[17:50:47]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; едновреме и аз много исках :)</span></div>
+			<div>&nbsp;<span class="time">[17:54:21]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; пичове 2-3 часа съм офф; приятна раздумка :)</span></div>
+			<div>&nbsp;<span class="time">[17:54:38]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; и аз се изнасмя отивам за краставици и домати и на масата :)</span></div>
+			<div>&nbsp;<span class="time">[17:58:54]</span>&nbsp;<span class="nick">&lt;bin&gt;</span><span class="text">&nbsp; айде пичове до по-късно</span></div>
+			<div>&nbsp;<span class="time">[17:58:57]</span>&nbsp;<span class="else_li">&nbsp;bin (~bin@unaffiliated/phreaky) left irc: Quit: to the infinity and beyond</span></div>
+			<div>&nbsp;<span class="time">[17:58:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да, работих там има/няма година и половина... трябва да забранят гугъл :)</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
