@@ -279,3 +279,53 @@
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
 [15:02:25] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) left irc: Quit: Page closed
+[15:16:16] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) joined #telerikacademy.
+[15:37:46] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[15:46:39] <yulimoto> кога stat  един показва един файл като access-нат
+[15:46:43] <yulimoto> ?
+[15:47:23] <yulimoto> офф
+[15:47:44] <phalaaxx> когато не си си mount-нал файловата система с noatime?
+[15:48:11] <yulimoto> :) хитро
+[15:48:25] <yulimoto> така ?
+[15:48:52] <yulimoto> ама коя операция се брои акцесс
+[15:49:01] <phalaaxx> познах ли? какво печеля? :)
+[15:49:19] <yulimoto> както винаги благодарности :)
+[15:49:35] <yulimoto> ако не те устройва; още благодарности :)
+[15:49:49] <yulimoto> добре ако рийдна един файл access ли е ?
+[15:50:36] <phalaaxx> да
+[15:51:07] <bin> read.write.modify  =  това са ти видовете  достъп
+[15:51:10] <phalaaxx> ако го промениш се ъпдейтва modify
+[15:51:45] <yulimoto> логично е да сте прави, обаче при мен се случва нещо, което не мога да си обясня
+[15:51:58] <yulimoto> и аз мисля като вас, но явно има нещо което не разбирам
+[15:52:22] <bin> какво ти се случва
+[15:52:24] <yulimoto> правя файл file
+[15:52:38] <yulimoto> stat file
+[15:53:04] <yulimoto> тогава access modify changed са еднакви с криетването на файла - логично
+[15:53:13] <yulimoto> cat file
+[15:53:29] <yulimoto> променя се access-а
+[15:53:36] <yulimoto> също логично
+[15:54:19] <yulimoto> след което колкото и да прочитам файла, през cat, vim , i t.n.  не се променя access fileto ? Това ми е интересно защо се получва
+[15:54:48] <phalaaxx> filesystem cache
+[15:55:04] <yulimoto> ахааа
+[15:55:27] <yulimoto> това със sync дали ще го оправя ?
+[15:55:57] <bin> sync file ?
+[15:55:58] <bin> не
+[15:56:34] <bin> yulimoto:   а ти какво се опитваш да направиш ?
+[15:56:35] <phalaaxx> пробвай с това:
+[15:56:35] <phalaaxx> echo 1 > /proc/sys/vm/drop_caches
+[15:56:50] <yulimoto> мдааа тъкмо това щях да питам
+[15:56:56] <phalaaxx> така де, 2
+[15:56:57] <phalaaxx> не 1
+[15:56:57] <phalaaxx> или 3
+[15:56:58] <yulimoto> те бяха 1 2 3
+[15:57:16] <yulimoto> да ясно ще ги преговоря
+[15:58:46] <bin> това не вярвам да оправи проблема
+[15:59:49] <yulimoto> момчета нямаме успех
+[15:59:55] <yulimoto> с нито една опция
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:28] <yulimoto> сега ще мина на дебиана и ще го pastebin-a
+[16:01:57] <bin> ми то като цяло
+[16:02:06] <bin> ти е noatime мисля и никога ням да ти упдейтва
+[16:02:45] <bin> трябва ти да е на strictatime
+[16:04:32] <bin> ама не ми е ясно каква ти е логиката?
