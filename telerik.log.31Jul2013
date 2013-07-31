@@ -263,3 +263,19 @@
 [13:57:58] xaocbg (550e1752@gateway/web/freenode/ip.85.14.23.82) joined #telerikacademy.
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
+[14:18:59] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 246 seconds
+[14:20:29] <yulimoto> при башовските RegExp какво значи [[:graph:]] ?
+[14:21:05] nlkl (~nlkl@nat125.cnsys.bg) left irc: Quit: Leaving
+[14:22:03] <yulimoto> предполагам не е това което си мисля ?
+[14:24:38] <yulimoto> soved .... Visible characters (i.e. anything except spaces, control characters, etc.)
+[14:26:34] <bin> http://www.cheatography.com/davechild/cheat-sheets/regular-expressions/
+[14:28:30] <bin> http://overapi.com/regex/
+[14:28:35] <bin> ето ти още малко  cheatsheets
+[14:29:54] <bin> http://www.regexplanet.com/  -  това е да си тестваш regex-ите :)
+[14:34:03] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[14:39:47] <yulimoto> episparh: как се казваше оная котка
+[14:43:23] <yulimoto> а да nyan cat
+[14:49:37] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:02:25] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) left irc: Quit: Page closed
