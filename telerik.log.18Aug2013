@@ -1,0 +1,60 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:56] DNS resolved irc.freenode.net to 94.125.182.252
+[00:00:59] net: connect! sock 6
+[00:00:59] net: eof!(read) socket 6
+[00:01:56] DNS resolved irc.freenode.net to 94.125.182.252
+[00:01:59] net: connect! sock 6
+[00:01:59] net: eof!(read) socket 6
+[00:02:56] DNS resolved irc.freenode.net to 64.32.24.176
+[00:02:59] net: connect! sock 6
+[00:02:59] net: eof!(read) socket 6
+[00:03:57] DNS resolved irc.freenode.net to 86.65.39.15
+[00:04:00] net: connect! sock 6
+[00:04:00] net: eof!(read) socket 6
+[00:04:57] DNS resolved irc.freenode.net to 86.65.39.15
+[00:05:00] net: eof!(write) socket 6 (No route to host,113)
+[00:05:57] DNS resolved irc.freenode.net to 213.92.8.4
+[00:06:00] net: connect! sock 6
+[00:06:00] net: eof!(read) socket 6
+[00:06:57] DNS resolved irc.freenode.net to 213.92.8.4
+[00:07:00] net: connect! sock 6
+[00:07:00] net: eof!(read) socket 6
+[00:07:57] DNS resolved irc.freenode.net to 78.40.125.4
+[00:08:00] net: connect! sock 6
+[00:08:00] net: eof!(read) socket 6
+[00:08:58] DNS resolved irc.freenode.net to 94.125.182.252
+[00:09:01] net: connect! sock 6
+[00:09:01] net: eof!(read) socket 6
+[00:09:58] DNS resolved irc.freenode.net to 94.125.182.252
+[00:10:01] net: connect! sock 6
+[00:10:01] net: eof!(read) socket 6
+[00:10:59] DNS resolved irc.freenode.net to 93.152.160.101
+[00:12:02] net: connect! sock 6
+[00:12:02] net: eof!(read) socket 6
+[00:12:03] DNS resolved irc.freenode.net to 62.231.75.133
+[00:12:18] net: connect! sock 6
+[00:12:18] net: eof!(read) socket 6
+[00:13:03] DNS resolved irc.freenode.net to 62.231.75.133
+[00:13:34] net: connect! sock 6
+[00:13:34] net: eof!(read) socket 6
+[00:14:04] DNS resolved irc.freenode.net to 174.143.119.91
+[00:14:04] net: connect! sock 6
+[00:14:04] net: eof!(read) socket 6
+[00:15:03] DNS resolved irc.freenode.net to 174.143.119.91
+[00:15:03] net: connect! sock 6
+[00:15:03] net: eof!(read) socket 6
+[00:16:03] DNS resolved irc.freenode.net to 128.237.157.136
+[00:17:04] DNS resolved irc.freenode.net to 86.65.39.15
+[00:18:07] net: connect! sock 6
+[00:18:07] net: eof!(read) socket 6
+[00:18:08] DNS resolved irc.freenode.net to 94.125.182.252
+[00:19:11] net: connect! sock 6
+[00:19:11] net: eof!(read) socket 6
+[00:19:12] DNS resolved irc.freenode.net to 62.231.75.133
+[00:20:14] DNS resolved irc.freenode.net to 213.92.8.4
+[00:20:15] net: connect! sock 6
+[00:20:27] Telerik joined #telerikacademy.
+[00:20:27] -:#telerikacademy- [freenode-info] why register and identify? your IRC nick is how people know you. http://freenode.net/faq.shtml#nicksetup
+[00:22:49] yulimoto_ (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[00:29:04] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal

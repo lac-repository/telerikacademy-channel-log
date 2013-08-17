@@ -1,0 +1,489 @@
+[00:00:01] Writing user file...
+[00:00:01] Writing channel file...
+[00:07:11] <Deyan> Има ли някой на линия?
+[00:08:57] <phalaaxx> горе долу :)
+[00:09:59] <Deyan> как мога да си върна програма която върви, само че не се вижда
+[00:10:31] <Deyan> ако е в терминала ясно, ама в графичната среда не можах да я върна
+[00:11:58] <phalaaxx> как да я върнеш?
+[00:12:49] <Deyan> става дума за Xchat-a но не се виждаше иконата в таскбара
+[00:14:24] <bin> сигурен ли си че е он :)
+[00:14:39] <Deyan> да беше
+[00:14:50] <Deyan> киллнах я, ама
+[00:21:52] <bin> ама ..?
+[00:22:27] <Deyan> ама това не е решение, защото исках да видч какво сте писали за мен до като ме няма
+[00:27:28] <bin> сега стартирана ли е или не
+[00:27:44] <Deyan> сега вече след като я килнах си работи нормално
+[00:28:15] <Deyan> сега ще се питам да симулирам изчезването пак
+[00:28:56] <Deyan> не ми се получи
+[00:46:27] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:22:11] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[01:49:38] phalaaxx (~bozhin@94.26.20.166) left irc: Read error: Operation timed out
+[01:49:53] bin (~bin@unaffiliated/phreaky) left irc: Ping timeout: 264 seconds
+[01:54:01] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:16:55] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:34:04] urban_filth (~urban_fil@95.111.6.98) left irc: Quit: Leaving
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:15:37] bin (~bin@94.155.229.38) joined #telerikacademy.
+[07:15:37] bin (~bin@94.155.229.38) left irc: Client Quit
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:23:22] bin (~bin@unaffiliated/phreaky) joined #telerikacademy.
+[08:23:39] <bin> morning :)
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:19:10] hackman (~hackman@wolf.yuhu.biz) left irc: Quit: Leaving
+[09:30:47] <vhristev> добрютрю
+[09:45:26] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[09:49:23] <bin> добро добро ;)
+[09:50:06] <vhristev> кепаса
+[09:50:11] <vhristev> малко почивчица
+[09:53:22] <bin> пишем user stories :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:02:48] Deyan_ (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[10:03:20] <Deyan_> Добрутро
+[10:12:34] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[10:19:30] <bin> некой запознат със скрум да го питам нещо :)
+[10:49:48] bentoslack1 (~Adium@194.50.76.105) joined #telerikacademy.
+[10:49:49] bentoslack (~Adium@194.50.76.105) left irc: Read error: Connection reset by peer
+[10:50:04] bentoslack1 (~Adium@194.50.76.105) left irc: Client Quit
+[11:00:01] Writing user file...
+[11:00:01] Writing channel file...
+[11:03:59] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 246 seconds
+[11:39:55] <vhristev> нещо май съм пропуснал ,но кога точно нямаше да има курс
+[11:40:01] <vhristev> нали отпуски ала бала имаше
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:03:44] <Deyan_> Я кажете марки SIP Телефони
+[12:03:54] <Deyan_> моля
+[12:07:01] <vhristev> small mid enter...
+[12:07:04] <vhristev> какъв диапазон
+[12:07:10] <vhristev>  аз в старата фирма бях направих с Linksys SPA942
+[12:07:21] <vhristev> тоест ще видя точният модел ,че сега не е пред мен
+[12:07:37] <vhristev> и с Астериск
+[12:08:16] <Deyan_> high
+[12:08:35] <vhristev> ако имаш POE и пускаш тела закачаш си VLAN-a слагаш си QoS и гази
+[12:08:37] <Deyan_> Трябват ми с 8 линии
+[12:08:42] <vhristev> тия май са с 4
+[12:09:01] <Deyan_> да с 4 са, нали все пак ние внасяме Linksys, :)
+[12:09:24] <vhristev> ами аз незнам кои сте вие ):
+[12:09:31] <Deyan_> Comelsoft
+[12:09:32] <vhristev> при нас имаше към 15 телефона
+[12:09:39] <vhristev> ехее... аз съм купувал от вас да
+[12:09:40] <vhristev> хахах
+[12:09:40] <vhristev> 9;
+[12:10:06] <vhristev> Ами да ти кажа тия телефончета за тия пари нямат равни
+[12:10:17] <vhristev> аз имах и един смал клас сиско само ,че конфига им беше пълна мъка
+[12:10:46] <Deyan_> да, те нали за това ги купиха Cisco взеха им телефоните и ги продадоха на БЕлкин
+[12:10:49] <vhristev> тъпият телефон си искаше Сиско КОлл менидръжра
+[12:10:59] <vhristev> и с едно ТФТП му наливахвсичко
+[12:11:26] <vhristev> Аз в Плд работих за фирма която имаше 3 офиса в германия и 1 в БГ
+[12:11:49] <vhristev> и исках да правя вътрешна ВОИП ,защото в БГ като го пуснах намалихме с близо 1000лв. месечните разходи за телефон
+[12:12:14] <vhristev> ама немците са прости ако не го е предложил немец Нестава ,защото ни смятам за по низши и не ми дадаха да направя аналинз на сметките за телефон
+[12:12:18] <Deyan_> мдааа, далаверка си е voioa
+[12:12:20] <vhristev> за да преценя дали е рентабилно да се прави
+[12:12:21] <Deyan_> мдааа, далаверка си е voipa
+[12:12:35] <vhristev> и взехме си един ГСМ гейт 3 модулен с автоматично избиране на оператор и сметките рухнаха
+[12:12:45] <vhristev> и го предлагаме на немците и те отказваха да дадат сметките за анализ
+[12:13:03] <vhristev> иначе бях почнал да мисля нещо със Сиско Колл мениджър
+[12:13:22] <vhristev> а в по предната фирма се занимавах с тел . централи Сиеменс и знаех какво може да направим
+[12:35:27] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[12:57:48] <yulimoto> някой гледал ли е уеб сървъра на гризлито; интересно
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:05:14] dencho (59191c6b@gateway/web/freenode/ip.89.25.28.107) joined #telerikacademy.
+[13:05:21] <dencho> MEGALAN SUX
+[13:11:31] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[13:15:32] <dencho> kvo staa ora
+[13:15:32] <dencho> :D
+[13:16:36] bin-mail (~Thunderbi@85.217.129.122) joined #telerikacademy.
+[13:17:45] <bin> и сее
+[13:26:38] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[13:34:24] <yulimoto> QoS какво е, ще ми даде приоритет на определени пакети ли ?
+[13:34:38] <yulimoto> Може ли да се нарправи от iptables
+[13:40:09] <dencho> da
+[13:40:54] <dencho> yulimoto: dove4era 6te ima6 informacia za lekciite na LP1
+[13:40:58] <dencho> LPI 1
+[13:41:08] <yulimoto> ааааа добре
+[13:41:26] <dencho> poneje priqtelkata mi izkubna sutrinta laptopa pod nosa
+[13:42:12] <dencho> no 6te vidim kak da ti gi furlq, poneje web servera u nas nqma connection poneje megalan sa super pi4ove :D
+[13:42:25] <dencho> ili az sam super lamer, edno ot dvete e :D
+[13:42:59] <yulimoto> qos значи пак е  маркетинг, обличат определена фукнционалност на iptable-s в интерфейс, сложат му едно етикетче  QoS и аре дай парите
+[13:43:11] <yulimoto> ;P
+[13:43:17] <yulimoto> dencho: няма проблем
+[13:43:34] <dencho> http://youtu.be/HiWd9_6GItA
+[13:44:25] <yulimoto> ами пробвай да го пуснеш на някой висок порт, ако са ти набили рестрикшъни, ама не вярвам да не си забравяш файрлола вкл. и да ти блокира 80 порт. енабле го
+[13:45:24] <dencho> ne be ne,
+[13:45:27] <yulimoto> ако не ще ти пусна email да ми ги пратиш
+[13:45:28] <yulimoto> ок
+[13:46:09] <yulimoto> или ще scp на grizzlito аз ще ги разтоваря от там
+[13:46:15] <dencho> nekvi za6titi im se aktivirat tam... i mi spirat netq pitam gi kvi za6titi we idioti... nqkoi s drug mac adres iska da izpolzva moeto IP vikam im e OK, ama za6to trqbva da mi spirate netq :D
+[13:46:26] <dencho> i onaq mi vika, ami svalena e za6titata, proverete si nastroikite
+[13:46:33] <dencho> i resetnete ustroistvata
+[13:46:53] <dencho> vikam i kaka... az ne sam do pc-to postoqnno we sq sam na 60 km ot sofia kvo da ida da go resna a?
+[13:46:53] <dencho> :D
+[13:46:56] <dencho> a be shit
+[13:46:57] <dencho> :D
+[13:47:00] <dencho> posle...
+[13:47:13] <dencho> ama vie imate 2 ip-ta konfigurirani s 1 mac adres...
+[13:47:22] <yulimoto> ама вие там вътре нямате пароли ами сте описани по мак адресс само така ли ?
+[13:47:29] <dencho> vikam i... e? i kakvo ot tova? prosto na  edna lanka imam 2 ip-ta NE MOJE LI WE :D
+[13:47:42] <dencho> nqma paroli
+[13:47:56] <dencho> IP, Gateway, DNS i razpoznavaneto stava po mac
+[13:48:06] <yulimoto> ръгаш Ip-to и ако е описано на тая ланка ти тръгва интернета ?
+[13:48:17] <yulimoto> ясно
+[13:48:32] <dencho> i ako lankata otgovarq na zase4enie mac :) ako iska6 da si smeni6 mac-a dava6 v web-a im zase4i mac i to zasi4a
+[13:48:36] <dencho> ama sux...
+[13:48:49] <dencho> za6titi...
+[13:48:58] <dencho> i kato po4nat da me razpitvat s ruter li sam s kakvo sam
+[13:49:03] <dencho> vse edno ima zna4enie
+[13:49:03] <dencho> :D
+[13:49:28] <dencho> to linux-a go igrae ruter taka ili ina4e, ama te kakvo razbirat pod ruter ne znam
+[13:49:28] <dencho> :D
+[13:49:49] <yulimoto> ми сканирай мрежата вземи си мак адресси и ип-та и като закъсняваш да плащаш възоснова на супер-анализа който си направил си избери един който няма вероятност да се засечете и си ползвай малко нетец
+[13:50:13] <yulimoto> да не седиш на сухо
+[13:50:23] <dencho> ne be to az netq sam si go platil
+[13:50:37] <dencho> si4ko e OK, ot mene, no ot tqh ne6to sux :D
+[13:50:42] <yulimoto> да ясно
+[13:50:56] <dencho> kakto i da e, sq v 4etvurtak kato hodq na lekcia 6te se otbia da go resna
+[13:51:02] <dencho> DA IM EBA MAIKQTA
+[13:51:02] <dencho> :D
+[13:51:09] <yulimoto> ейй баси случая
+[13:51:22] <dencho> i postoqnno me pitat dali pravilno sam vuvel nastroikite
+[13:52:01] <yulimoto> ама те са една лелка на 25г. и една кола кабелджии ; те друго няма да те попитат щото това знаят
+[13:52:23] <yulimoto> нормално; шефа трябва да се хване и да се изнасили
+[13:52:31] <dencho> :)
+[13:53:49] <dencho> i te taka
+[13:54:00] <dencho> dencho system administator lame edition
+[13:54:01] <dencho> :D
+[13:54:05] Action: dencho :D
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:21:18] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 240 seconds
+[14:24:54] <KpuCko> "лелка на 25".... :-))
+[14:26:59] <yulimoto> KpuCko: то има лелки на 19 ; и момичета на 36
+[14:27:30] <yulimoto> KpuCko: то е до какво си избираш да бъдеш
+[14:29:43] <KpuCko> Абе и ти си прав :-)
+[14:32:28] <vhristev> та тоя четв. ще има ли Курс
+[14:38:37] <dencho> 6to da nqma we?
+[14:40:21] bin-mail (~Thunderbi@85.217.129.122) left irc: Quit: bin-mail
+[14:41:11] <bin> ко правите спамери :)
+[14:43:02] <dencho> spamim
+[14:45:01] <bin> това да се чува :) трябва да практикувате занаята ;)
+[14:46:25] <bin> irc
+[14:46:32] <bin> flower
+[14:46:40] <bin> ninja
+[14:52:10] <yulimoto> bin: мажеш ли мажеш ли
+[14:52:46] <bin> инжектирам дипиндънцитъ
+[14:55:05] <vhristev> Ами чух нещо ,че ще има някакви дупки
+[14:55:10] <vhristev> а и в сайта няма нищо за следващата лекция
+[14:55:43] <yulimoto> bin: не вервам ти изобщо да знаеш какво е IoC па камо ли да правиш DI
+[14:55:52] <yulimoto> vhristev: http://academy.telerik.com/student-courses/software-technologies/linux-system-administration/schedule
+[14:56:12] <yulimoto> има лекция по график на 15
+[14:56:18] <bin> yulimoto:   що така
+[14:56:35] <yulimoto> bin: базикам те ве
+[14:56:49] <bin> недей така че съм на 2 кутии с боб
+[14:56:55] <bin> да не стане омазано верно
+[14:57:32] <vhristev> смао ,че се водим с една седмица напред
+[14:57:43] <vhristev> тоест назад
+[14:57:48] <yulimoto> е и
+[14:58:05] <yulimoto> то съдържанието не знам дали е важно толкова дали отговаря
+[14:58:08] <yulimoto> не знам
+[14:58:26] <vhristev> Така чух някаъде ама неразбрах дали е беше това което се измести от четв. за понеделник
+[14:58:31] <vhristev> и е нещо което предстои
+[14:58:35] <yulimoto> до колкото знам от 16 - някъде септември hackman си бие камшика
+[14:58:50] <vhristev> аааа след 16 е
+[14:59:09] <vhristev> защото от 15 Авг. чак на 5 Септ ще има
+[14:59:13] <yulimoto> нещо от сорта беше вж. логовете ако те интересува
+[14:59:25] <yulimoto> да и в страницата така е посочено
+[14:59:41] <yulimoto> така че ще имаш време да си преговориш мрежите
+[14:59:43] dencho (59191c6b@gateway/web/freenode/ip.89.25.28.107) left irc: Quit: Page closed
+[14:59:44] <yulimoto> не се притеснявай
+[14:59:51] <yulimoto> ;)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:17] <yulimoto> а до тогава и bin ще се научи кой контейнер да използва за DI
+[15:00:27] <bin> WC :)
+[15:00:39] <yulimoto> джавешките не ги знам
+[15:00:48] <vhristev> Нали знаеш мрежовият админ винаги е виновен
+[15:00:48] <vhristev> (;
+[15:00:56] <vhristev> дори и да ти се счупи файловата система
+[15:01:03] <yulimoto> абс
+[15:01:32] Last message repeated 1 time(s).
+[15:01:32] <yulimoto> ходи ти в гърция накисна дупето сега си свеж
+[15:01:44] <vhristev> Оооо с киндела на плажа си е друго
+[15:01:44] <vhristev> (;
+[15:01:57] <yulimoto> хаха а така
+[15:02:25] <bin> yulimoto:  amateur :)
+[15:02:33] <bin> кви джавешки :)
+[15:02:38] <bin> ве це не знаеш ли кво е ;)
+[15:02:58] <yulimoto> уеб комп. ?
+[15:03:00] <yulimoto> кво ?
+[15:03:01] <bin> когато ти се сери си зависим от нужника така че ;) .. е :)
+[15:03:17] <bin> web comp ... (rofl)
+[15:03:21] <yulimoto> хаха
+[15:03:27] <yulimoto> web container
+[15:03:29] <yulimoto> WC
+[15:03:35] <yulimoto> Виж кво яко
+[15:03:48] <bin> Waste Container :)
+[15:03:55] <yulimoto> и така става
+[15:04:10] <yulimoto> вътре си слагаш конфигурацията от боба;
+[15:04:29] <yulimoto> така че всеки компонент ти е независим
+[15:04:31] <bin> xoxoxox )
+[15:04:57] <yulimoto> в XML разбира се; щото няма да си джавар ако не я направиш xml
+[15:05:22] <vhristev> изброталяхте
+[15:05:38] <yulimoto> haha базикам го
+[15:06:51] <bin> браточка кви XML всичко е JSON
+[15:07:08] <bin> сериализирано :)
+[15:07:13] <yulimoto> добр имаме сделка
+[15:07:21] <bin> и се предвижва стабилно по каналите ;)
+[15:07:35] <bin> гарантирам ти че каквото е на входа такова е и на изхода ;)
+[15:08:16] <yulimoto> { type: bob, quality: 1, weight: "2kg" } това го еxportni към контайнера [5~
+[15:08:31] <yulimoto> аре че ме напече
+[15:08:54] <bin> :D
+[15:14:01] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[15:15:43] <yulimoto> a ве пичове мислех да релоадна конфига на  апа4ито на гризлито, обаче греда
+[15:16:02] <yulimoto> http://pastebin.com/etasd1yP#
+[15:16:25] <yulimoto> сега трябва май да килна процеса
+[15:18:55] <yulimoto> ls -a
+[15:36:22] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[15:42:38] <hackman> yulimoto, в събота потеглям
+[15:42:44] <hackman> и се прибирам на 1-ви сеп
+[15:42:45] <hackman> http://www.vim.org/images/0xbabaf000l.png
+[15:46:34] dencho (59191c6b@gateway/web/freenode/ip.89.25.28.107) joined #telerikacademy.
+[15:51:00] <dencho> fuck ;d
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:01:33] <yulimoto> hackman: ами vhristev напира и не иска да те пуска :P ; освен да му дадеш литература за през лятната ваканция, както беше в училище
+[16:01:51] <yulimoto> vhristev: :P~~
+[16:03:23] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[16:03:25] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[16:03:35] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[16:03:52] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[16:05:07] <yulimoto> беше ли наистина платен notepad+ ? ужас
+[16:07:26] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 246 seconds
+[16:10:19] <Deyan_> Баси К*ра скъсаха ми задника днес :)
+[16:13:22] <dencho> q sam vakancia... sedq si na teraskata... 4akam da stane vreme i da hodq da igraq voleibol :D
+[16:14:12] <hackman> http://www.independent.ie/world-news/europe/men-in-sweden-warned-to-beware-of-testicleeating-fish-29489930.html
+[16:15:12] <dencho> wtf ?
+[16:27:46] dencho (59191c6b@gateway/web/freenode/ip.89.25.28.107) left irc: Quit: Page closed
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:07:51] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
+[17:25:28] topalov (~topalov@gw.prosyst.bg) joined #telerikacademy.
+[17:37:37] <yulimoto> как се забавляват някои - http://www.gat3way.eu/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=198&cntnt01returnid=15
+[17:44:14] <bin> отървах спама дееба..
+[17:47:40] <bin> awesome :0
+[17:47:48] <bin> тоя домейн ми е мого познат обаче
+[17:48:31] <yulimoto> гетъуей е известен да, ако си влизал в линукс-бг и т.н. сайтове
+[17:48:42] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[17:49:07] <bin> канала ли linux-bg
+[17:49:08] <bin> да
+[17:49:29] <yulimoto> рови из сигурността и няма начин да не си срещал името из форума
+[17:49:36] <bin> там имаше един такъв пич с ник :0
+[17:49:53] <bin> [17:45:33] :^7heo!~7heo@2a01:e0b:222b::dead:bee PRIVMSG #debian :sed is your real friend. [17:45:37] PRIVMSG #telerikacademy :там имаше един такъв пич с ник :0 [17:45:40] :^7heo!~7heo@2a01:e0b:222b::dead:bee PRIVMSG #debian :akw is ward. [17:45:44] :^7heo!~7heo@2a01:e0b:222b::dead:bee PRIVMSG #debian :awk even
+[17:49:54] <yulimoto> вероятно е същия
+[17:50:10] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[17:50:25] <bin> очевидно пича не се кефи на AWK :)
+[17:50:28] <yulimoto> кво е твъ
+[17:50:44] <bin> Соцкет Спъ
+[17:50:49] <bin> Socket Spy
+[17:51:10] <yulimoto> я го разясни като на лемер
+[17:51:18] <bin> де да го знам :)
+[17:51:21] <bin> случайно го пуснах хахаха :)
+[17:51:40] <bin> реално следи на 7000 какво се случва май :)
+[17:52:07] <yulimoto> аха
+[17:52:15] <bin> [17:48:08] :yulimoto!~yulimoto@wolf.yuhu.biz PRIVMSG #telerikacademy :аха
+[17:52:30] <bin> така като гледам следя потока на инфо на всичките табове които са ми отворени на 1 място обаче :)
+[17:53:08] <bin> целия input трафик се показва на 1 място това е ; )
+[17:53:13] <bin> lame ;)
+[17:53:43] <yulimoto> и с кво го слухтиш
+[17:54:00] <bin> Аз си ползвам KVIRC клиента :)
+[17:54:07] <bin> от едно време си ми е арен :)
+[17:54:10] <bin> и го има акто тулче
+[17:54:53] <yulimoto> целия инпут трафик примерно eth0 го слухтиш с kwirk ?!?
+[17:55:17] <yulimoto> или irc трафика ?
+[17:55:25] <yulimoto> от всички табове
+[17:55:28] <yulimoto> и т.н.
+[17:55:43] <bin> е Socket Spy на irc client  според теб :) кое ще е ;)
+[17:57:16] <bin> айде Мото през Юли :)  ке си ода после ке ти пиша ;)
+[17:57:57] <yulimoto> окс айде па си проветри главата, че не ти се разбира
+[17:58:02] <yulimoto> ;P
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:01:09] bin-mobile (~bin@212.5.158.146) joined #telerikacademy.
+[18:01:24] <bin-mobile> Haha da ne sym lud da izpusna spama
+[18:02:17] bin (~bin@unaffiliated/phreaky) left irc: Quit: to the infinity and beyond
+[18:02:53] <yulimoto> bin-mobile: idiot гледай да не се спънеш докато вървиш и пишеш, че във ВТ има само нагоре, надолу и по стълбите, бая ще се търкаляш
+[18:04:33] <yulimoto> ;)
+[18:04:58] <yulimoto> аре и аз ще ставам
+[18:08:03] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 264 seconds
+[18:08:52] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[18:25:41] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[18:26:16] <bin-mobile> De.ke odish
+[18:26:21] <bin-mobile> Az oglejdah devoikite
+[18:33:44] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 246 seconds
+[18:48:21] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 256 seconds
+[18:48:59] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[18:58:38] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[18:58:43] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:04:38] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 248 seconds
+[19:19:10] bin (~bin@94.155.229.38) joined #telerikacademy.
+[19:19:10] bin (~bin@94.155.229.38) left irc: Changing host
+[19:19:10] bin (~bin@unaffiliated/phreaky) joined #telerikacademy.
+[19:30:26] hackman (~hackman@management.1h.com) left irc: Ping timeout: 246 seconds
+[19:31:17] <bin> бах как ми се приспа
+[19:31:42] Nick change: bin -> Kacnepcku
+[19:43:10] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[19:47:59] <yulimoto> whois Kacnepcku
+[19:48:05] <yulimoto> ти ли си бре
+[19:49:29] <yulimoto> Kacnepcku: ей железен обаче викам да те провокирам на края на работния ден с по-остър тон, викам сега ще е по-лабилен ако не му върви работата, обаче от желязо си
+[19:50:05] <yulimoto> аз ходих да бегам, не бяг бягал 10 дена и ходя тук в един парк
+[19:50:10] <yulimoto> боровец !!!
+[19:51:21] <yulimoto> така като прегрея ми помага бягането сега ще се разходя и вечерта ще гледам да почета малко Memory Management; много е объркано това ММ и сложно ми се види още от самото начало
+[19:51:55] <Kacnepcku> да и аз по принцип ходя бягам
+[19:52:06] <Kacnepcku> бягам по едни стъпала  нагоре
+[19:52:12] <Kacnepcku> ама днес реших пия 1 ,2 ракии : )
+[19:52:18] <Kacnepcku> и да се опна ;) малко
+[19:52:53] <Kacnepcku> не мо'им ма бутна yulimoto :) вечер ми е толкова неебателно  :)
+[19:53:53] <Kacnepcku> кажи некой готин филм е
+[19:53:57] <yulimoto> аз до сега бягах на равно щото бях 87кг през април и ставите ми се претоварват на ръст 174 ; но взех да свиквам и така си бягам на първа скорост 10км и си пея песнички, обаче сега почнах баирчета днес едва минах 4км
+[19:54:39] <yulimoto> аммм хубав филм е примерно "малки бели лъжи"
+[19:55:08] <yulimoto> мда това като каза "неебателен" за този филм се сетих
+[19:55:13] <yulimoto> потърси го
+[19:55:17] <Kacnepcku> english title ми тай
+[19:55:32] <Kacnepcku> little white lies
+[19:55:36] <Kacnepcku> ясно
+[19:55:38] <yulimoto> френски е
+[19:55:41] <yulimoto> не съм сигурен
+[19:56:08] <Kacnepcku> ооо Marion Cottilard :)
+[19:56:12] <Kacnepcku> голяма мръсница :)
+[19:56:40] <Kacnepcku> ама у сещам че филма трябва да се мисли върху него :)
+[19:56:59] <yulimoto> не
+[19:57:06] <yulimoto> аааа
+[19:57:21] <yulimoto> сега ще ти намеря този за който ти казвам
+[19:57:24] <yulimoto> аз
+[19:57:32] <Kacnepcku> давай :)
+[19:57:44] <Kacnepcku> некви мастии :) на конференция в хотела срешу нас ;)
+[19:57:49] <Kacnepcku> отивам покажа шкембе малко :)
+[19:58:14] <yulimoto> да отиди на терасата и се барай малко по оная работа
+[19:59:02] <Kacnepcku> това го правих като се прибрах
+[19:59:05] <Kacnepcku> кажи ми филма сега
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:00:01] <yulimoto> http://zamunda.net/details.php?id=258153&hit=1
+[20:00:12] <yulimoto> little white lies
+[20:00:20] <yulimoto> беше прав за английското заглавие
+[20:00:25] <Kacnepcku> am da be sy]iq
+[20:00:28] <Kacnepcku> ам да бе
+[20:01:03] <yulimoto> да тя играе много добре
+[20:01:15] <yulimoto> вземи си бира или по-добре бяло вино
+[20:01:19] <Kacnepcku> взех си бира
+[20:01:27] <Kacnepcku> само заради
+[20:01:34] <yulimoto> прегърни жена си туй онуй и гледайте
+[20:01:49] <Kacnepcku> Cluzet бих го гледал, ролята му в Les I... абе Неразделните
+[20:01:49] <Kacnepcku> :)
+[20:01:56] <Kacnepcku> това е уникален филм :) гледал съм го 3 пъти 0
+[20:02:09] <yulimoto> да и аз го гледах
+[20:02:19] <Kacnepcku> и все пак ме кара да си мисля че е натоварващ , а и жената на курс ;)
+[20:02:21] <Kacnepcku> дай нещо по релакс ;)
+[20:02:44] <Kacnepcku> бтв аз ного харесвам френско кино
+[20:02:55] <Kacnepcku> пичовете могат да правят филми
+[20:02:57] <yulimoto> а този ме кефи щото лек няма тежест голяма
+[20:03:04] <yulimoto> а ако искаш още по лек
+[20:03:12] <yulimoto> трябва да е американски
+[20:03:24] <yulimoto> американска комендия някоя
+[20:03:41] <Kacnepcku> не
+[20:03:46] <Kacnepcku> ще гледам филм с Жан Рено :)
+[20:03:53] <Kacnepcku> неговите филма са уникални :)
+[20:04:03] <Kacnepcku> Първо ми дойде като идея Wasabi
+[20:04:12] <Kacnepcku> после се сетих за Жерард Депардю
+[20:04:15] <yulimoto> а да или таксита някое
+[20:04:48] <yulimoto> ей бях гледал един филм скандинавски за двама луди
+[20:04:51] <yulimoto> трябва да го намеря
+[20:05:05] <yulimoto> ако искаш някое руско филмче да се побъркаш
+[20:05:12] <Kacnepcku> например ?
+[20:05:13] <yulimoto> Город Зеро
+[20:05:17] <yulimoto> е добър
+[20:05:28] <yulimoto> не е мн тежък
+[20:05:38] <yulimoto> и има психопатски картини
+[20:05:39] <Kacnepcku> това е някаква психария
+[20:05:39] <Kacnepcku> :Д
+[20:05:53] <Kacnepcku> кефя се на мистери ии  психотрилъри ама това ще е някоя тъпа психария
+[20:05:54] <yulimoto> разбира се; на тях това им е комедията
+[20:06:45] <yulimoto> или вземи френските любовни истории там "Париж обичам те" и т.н.
+[20:06:59] <yulimoto> или на Уди Алън от последните филми
+[20:07:13] <yulimoto> или "Вики Кристина Барселона"
+[20:07:19] <yulimoto> пак на Уди Алън
+[20:07:30] <Kacnepcku> Vicky Kristina Barcelona
+[20:07:34] <Kacnepcku> това е мега мега тъпия филм
+[20:07:37] <yulimoto> да
+[20:07:40] <Kacnepcku> гледах го 10 мин и го спрях
+[20:07:45] <Kacnepcku> голяма тъпня
+[20:07:52] <yulimoto> разбира се, но на путтата им харесва
+[20:08:14] <Kacnepcku> тъпи путата :0
+[20:08:14] <yulimoto> щото путтата във филма не знаят ко искат пък Удито ги разбира
+[20:08:56] <yulimoto> добре но моето предложение остава Little White Lies  и все пак ти си решаваш
+[20:08:59] <yulimoto> хайде
+[20:09:05] <yulimoto> отивам малко да видя ора
+[20:09:08] <Kacnepcku> де драсна е
+[20:09:09] <Kacnepcku> кви ора е
+[20:09:14] <Kacnepcku> тука ора няма ли
+[20:09:27] Nick change: Kacnepcku -> ncurses
+[20:10:11] <yulimoto> е искам да барам :P~~~
+[20:10:14] <yulimoto> are are
+[20:13:54] <ncurses> мръсник
+[20:26:18] <ncurses> искам филма... дайте филм
+[20:35:11] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[20:38:33] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[20:40:28] <ncurses> yulimoto:  карАте кид :)
+[20:45:38] <episparh> добра вечер
+[20:46:24] <episparh> някакъв спа, сте заформили тук  ...
+[20:47:21] <episparh> *спам
+[20:58:33] <ncurses> ест
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:41:42] <yulimoto> ncurses: не, kung fu hustle . българския превод е "Кунг-фу  тупалки "
+[21:42:53] <yulimoto> episparh: типичен август, отваряш пощата и само спам :)
+[21:43:18] <episparh> мхм
+[21:49:15] <ncurses> yulimoto:  гледал съм ги и 2=те части
+[21:49:16] <ncurses> :)
+[21:57:23] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[22:00:01] Writing user file...
+[22:00:01] Writing channel file...
+[22:11:51] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[22:14:24] dencho (dencho@78.130.135.134) joined #telerikacademy.
+[22:25:28] urban_filth (~urban_fil@95.111.6.98) left irc: Quit: Leaving
+[22:28:08] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[22:46:41] Deyan (~Deyan@46.249.92.240) left irc: Read error: Connection reset by peer
+[22:51:38] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[22:58:38] <dencho> leka no6t deca :D
+[22:59:22] <KacanuH> dencho, kakvi deca kakva noщ
+[22:59:24] <KacanuH> нощ
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:03:36] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 246 seconds
+[23:10:17] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Quit: Page closed
+[23:47:04] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 264 seconds
+[23:55:45] ncurses (~bin@unaffiliated/phreaky) left irc: Ping timeout: 246 seconds
+[23:56:15] urban_filth (~urban_fil@95.111.6.98) left irc: Remote host closed the connection
+[23:58:20] bin-mobile (~bin@212.5.158.146) left irc: Ping timeout: 256 seconds
+[23:58:45] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[00:00:00] --- Tue Aug 13 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...
