@@ -166,3 +166,63 @@
 [11:04:57] net: connect! sock 9
 [11:04:57] net: eof!(read) socket 9
 [11:04:57] Timeout/EOF ident connection
+[11:05:01] Logged in: KpeTeHoug (telnet@localhost/34152)
+[11:05:03] tcl: builtin dcc call: *dcc:whom KpeTeHoug 7 
+[11:05:09] tcl: builtin dcc call: *dcc:match KpeTeHoug 7 *
+[11:05:49] DCC connection closed (KpeTeHoug!telnet@localhost)
+[11:05:54] <KpeTeHoug> ами не точно
+[11:06:00] <KpeTeHoug> dencho тука му е скука
+[11:06:15] fityla (~AndChat20@85.118.193.190) left irc: Ping timeout: 246 seconds
+[11:07:25] net: connect! sock 3
+[11:07:25] DNS resolved 127.0.0.1 to localhost
+[11:07:25] Telnet connection: localhost/34155
+[11:07:25] net: connect! sock 9
+[11:07:25] net: eof!(read) socket 9
+[11:07:25] Timeout/EOF ident connection
+[11:08:38] net: connect! sock 3
+[11:08:38] DNS resolved 127.0.0.1 to localhost
+[11:08:38] Telnet connection: localhost/34157
+[11:08:38] net: connect! sock 9
+[11:08:38] net: eof!(read) socket 9
+[11:08:38] Timeout/EOF ident connection
+[11:08:48] Logged in: taenfen (telnet@localhost/34157)
+[11:10:26] tcl: builtin dcc call: *dcc:say taenfen 7 KrasiGa: ti vinagi si naj-krasiva na sveta !!!
+[11:10:30] DCC connection closed (taenfen!telnet@localhost)
+[11:12:47] <KrasiGa> :) какво пиеш?
+[11:13:33] <KpeTeHoug> машинно масло
+[11:13:36] <KpeTeHoug> мен ако питаш :)
+[11:13:51] net: connect! sock 3
+[11:13:51] DNS resolved 127.0.0.1 to localhost
+[11:13:51] Telnet connection: localhost/34159
+[11:13:51] net: connect! sock 9
+[11:13:51] net: eof!(read) socket 9
+[11:13:51] Timeout/EOF ident connection
+[11:13:56] Logged in: KpeTeHoug (telnet@localhost/34159)
+[11:13:59] tcl: builtin dcc call: *dcc:whom KpeTeHoug 7 
+[11:14:57] net: connect! sock 3
+[11:14:57] DNS resolved 127.0.0.1 to localhost
+[11:14:57] Telnet connection: localhost/34163
+[11:14:57] net: connect! sock 10
+[11:14:57] net: eof!(read) socket 10
+[11:14:57] Timeout/EOF ident connection
+[11:15:01] Logged in: taenfen (telnet@localhost/34163)
+[11:15:46] <KrasiGa> дали?
+[11:15:56] fityla (~AndChat20@85.118.193.167) joined #telerikacademy.
+[11:16:31] <KpeTeHoug> :) ам или нещо което е ферментирало от слънцето
+[11:16:52] <KpeTeHoug> dencho да не си ходил и ти селскостопанско аграрен уикенда да правиш :)
+[11:16:55] <KpeTeHoug> да те е напекло слънцет
+[11:18:52] fityla_ (~AndChat20@95.87.200.227) left irc: Ping timeout: 245 seconds
+[11:45:05] <dencho> ПОЗИЦИЯТА Е ПОЧАСОВА РАБОТА НА ПОЛОВИН РАБОТЕН ДЕН.
+[11:45:05] <dencho> РАБОТАТА Е ПОДХОДЯЩА ЗА СТУДЕНТИ
+[11:45:05] <dencho> ЖЕЛАТЕЛНО ШОФЬОРСКА КНИЖКА И ЛИЧЕН АВТОМОБИЛ С ГАЗОВА УРЕДБА.
+[11:45:08] <dencho> HAHAHAHAHHA
+[11:45:10] <dencho> s gazova uredba
+[11:45:13] <dencho> e NE
+[11:45:13] <dencho> !
+[11:45:46] <dencho> KpeTeHoug az postoqnno sam na agraren weekend
+[11:47:06] <dencho> ne poznavam mnogo studenti s li4en avtomobil
+[11:47:06] <dencho> :D
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:02:22] dterziev (~dterziev@dterziev.mw-medianetworks.eu) joined #telerikacademy.
+[12:02:38] Jerkoff (~bin@85.217.129.123) joined #telerikacademy.
