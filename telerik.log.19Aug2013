@@ -414,3 +414,185 @@
 [15:02:37] <Jerkoff> yulimoto:  true
 [15:03:01] <KrasiGa> 10х
 [15:03:44] <Jerkoff> yulimoto:  просто на цицко са някакви имплементации
+[15:06:19] <hackman> на мен пътуването ми отпадна
+[15:06:24] <hackman> разбиха ми колата в петък
+[15:06:32] <hackman> та, в четвъртък ако искате
+[15:06:41] <hackman> мога да съм на ваше разположение за известно време :)
+[15:08:44] <Jerkoff> hackman: хайде на бас ,че някой луд ученик ти я е разбил само и само да си тука и да преподаваш :) (няма случайни неща)
+[15:09:17] <hackman> Jerkoff, абе бая професионално я бяха разбили :)
+[15:09:31] <hackman> добре, че имам допълнителна система за сигурност в колата
+[15:09:58] <yulimoto> hackman: ама това, че не сме професионалисти в линукса не значи не сме професионалисти другъде
+[15:10:16] <Jerkoff> абе те хората, които се обучават тука по-принцип са специалисти в други области така че знаеш е ли човек :). И аз на колата имам заключващ ел. механизъм.Дори и да я запалиш пак гасне :)
+[15:10:18] <yulimoto> другаде*
+[15:11:55] <KrasiGa> е това, че са я разбили какво и пречи да се движи?
+[15:12:01] <KrasiGa> нали само са я отворили
+[15:13:00] <hackman> KrasiGa, счупи ли са единият компютър(този за keyless отключване и запалване) и са откраднали този който контролира запалването :)
+[15:13:10] <hackman> на практика, дори не можах да и отключа волана
+[15:13:27] <hackman> натоварих я на един репатрак и направо в Toyota
+[15:13:41] <hackman> бая драма стана със застрахователите
+[15:13:48] <KrasiGa> еее ако не се беше толкова автоматизирал сега нямаше да имаш такива ядове :)
+[15:14:04] <yulimoto> да нямаше да имаш ядове просто нямаше да имаш кола ;)
+[15:14:20] informer (~informer@83.228.55.109) joined #telerikacademy.
+[15:14:36] <Jerkoff> :D
+[15:15:12] <Jerkoff> вариант 2 : hackman е скъсал някой :)
+[15:15:26] <dencho> are pi4ove http://www.jobs.bg/f1921932
+[15:17:13] <KpeTeHoug> незнам
+[15:17:16] <informer> не е за изпускане :D
+[15:17:16] <KpeTeHoug> с толкова подробна обява
+[15:17:18] <KpeTeHoug> кой знае
+[15:17:18] <KpeTeHoug> :)
+[15:18:22] <yulimoto> тъкмо за една от чат приятелките на денчо, дето като я питал с какво се занимаваш тя отговорила "с компютри"
+[15:18:32] <KpeTeHoug> хахахах
+[15:18:32] <KrasiGa> dencho: цял ден ли в обявите се ровиш
+[15:18:45] <dencho> KrasiGa sled obed samo :D
+[15:18:47] <KrasiGa> явно работа търсиш а?
+[15:19:00] <Jerkoff> http://it.jobs.bg/f1899784
+[15:19:00] <Jerkoff> :D
+[15:19:04] <dencho> KrasiGa, orientiram se prosto :D
+[15:19:19] <KrasiGa> е сутринта не пуска ли пак ти обяви
+[15:19:19] <dencho> Jerkoff ne razbiram java q
+[15:19:19] <dencho> :d
+[15:19:36] <Jerkoff> your problem not mine )
+[15:19:48] Action: Jerkoff away
+[15:20:11] <KrasiGa> тази е добра ама и аз не знам java
+[15:20:34] <yulimoto> ха по какво разбирате че е добра ?
+[15:20:43] <KrasiGa> zaplatata
+[15:20:44] Writing user file...
+[15:20:44] Writing channel file...
+[15:20:44] * TERMINATE SIGNAL -- SIGNING OFF
+[15:33:23] Seend data restored.
+[15:33:23] main: entering loop
+[15:33:24] DNS resolved irc.freenode.net to 86.65.39.15
+[15:33:24] net: connect! sock 7
+[15:33:37] Telerik joined #telerikacademy.
+[15:33:40] net: connect! sock 3
+[15:33:40] DNS resolved 127.0.0.1 to localhost
+[15:33:40] Telnet connection: localhost/39932
+[15:33:40] net: connect! sock 9
+[15:33:40] net: eof!(read) socket 9
+[15:33:40] Timeout/EOF ident connection
+[15:33:45] Logged in: KpeTeHoug (telnet@localhost/39932)
+[15:33:47] tcl: builtin dcc call: *dcc:whom KpeTeHoug 8 
+[15:35:07] informer (~informer@83.228.55.109) left irc: Ping timeout: 256 seconds
+[15:35:26] <fityla> Пускам тема
+[15:35:31] <fityla> В форума
+[15:35:39] <fityla> Хакман
+[15:35:56] <fityla> Час или ще се включиш там
+[15:36:26] <yulimoto> fityla: не е лошо да се замислиш за някакво профилиране, примерно мрежи, баш скритп и т.н. --- просто като идея го казвам
+[15:36:37] <yulimoto> един вид задание
+[15:37:19] <fityla> Има 3 дни да се доразвият нещата
+[15:38:18] <dencho> za koe we
+[15:40:16] <hackman> dencho, za rqpa
+[15:40:24] <dencho> kva rqpa we?
+[15:40:25] Jerkoff (~bin@85.217.129.123) left irc: Quit: to the infinity and beyond
+[15:40:51] <dencho> ряпа ?!
+[15:43:26] <hackman> да, ряпа :)
+[15:43:30] <hackman> или моркови :)
+[15:44:01] <dencho> az sam za morkovite
+[15:44:30] <KpeTeHoug> може ли и зеленце
+[15:44:34] <KpeTeHoug> една салатка да ударим
+[15:44:35] <dencho> yulimoto, onazi deto s kompiutrite kato i kazah 4e si imam priqtelka, ve4e ne iska da si ob6tuvame, diri si umen muj - ima li jelae6ti ?!
+[15:44:52] <dencho> i mnoooo luk!
+[15:44:54] <yulimoto> haha ами аз съм глупав
+[15:44:58] <dencho> haha
+[15:45:03] <yulimoto> лук ?
+[15:45:07] <dencho> onaz znae c#
+[15:45:21] <dencho> 4-ti kurS v SU we :D
+[15:45:22] <yulimoto> супер
+[15:45:25] <dencho> moje hackman da q poznaa
+[15:45:26] <dencho> :D
+[15:45:50] <yulimoto> бреее те него го знаят през 10 планини в десета
+[15:46:22] <yulimoto> влизам аз през гризлито в тоя чат.инфо дето ми каза и в един канал шайкит като ме запосрещаха
+[15:46:37] <dencho> ako pak mi pi6e (koeto me samnqva) 6te q pitam dali poznava Azilian as known as hackman as known as Marian as known as Marinov
+[15:46:38] <yulimoto> викат ми хакман как си що си ?
+[15:46:49] <dencho> hahahahhaha
+[15:46:51] <dencho> q pa ti
+[15:46:52] <yulimoto> викам "не съм аз"
+[15:47:07] <dencho> toi e staro ku4e medalist we
+[15:47:08] <dencho> :D
+[15:47:20] <yulimoto> легенда
+[15:47:27] <hackman> yulimoto, къде са те объркали за мен бе?
+[15:47:37] <dencho> hackman u shakeit we
+[15:48:01] <yulimoto> те са виде ли grizzly.yuhu.biz и айде той е
+[15:48:04] <yulimoto> викам не съм
+[15:48:18] <yulimoto> или wolf yuhu biz
+[15:48:22] <yulimoto> нещо от сорта
+[15:48:43] <hackman> я дайте сървър да ги видя кои са тези индивиди :)
+[15:48:49] <dencho> 4at.info
+[15:48:50] <dencho> del.bg
+[15:48:52] <dencho> irc.
+[15:49:01] <yulimoto> ще погледна лога :)
+[15:50:01] <yulimoto> <+immortal> hackman?
+[15:50:01] <yulimoto> 00:08 <+immortal> :):
+[15:50:01] <yulimoto> 00:09 <+yulimoto> бззз не
+[15:50:01] <yulimoto> 00:09 <+immortal> mhm =)
+[15:50:14] <dencho> immortalee
+[15:50:14] <yulimoto> immortal
+[15:50:38] <dencho> moje da e kursist
+[15:50:39] <dencho> :D
+[15:50:41] <dencho> KURsist
+[15:51:30] <fityla> Айде темя
+[15:51:41] <fityla> темата е готова...
+[15:51:51] <yulimoto> immortal [~immortal@devilcode.pw] ммм този да
+[15:52:01] <fityla> Може да се отбележите във форума
+[15:53:39] <dencho> fityla kade we
+[15:54:05] <fityla> Телерик
+[15:54:32] <fityla> Все нещо не си разбрал
+[15:54:44] <dencho> fityla KADE WE
+[15:55:17] <KrasiGa> f5 na browser i moje da se poqvi
+[15:55:41] <fityla> Момент
+[15:55:43] <dencho> ebaa go :D
+[15:55:47] <dencho> q mi daite link
+[15:55:47] <dencho> :D
+[15:55:58] <KrasiGa> ama i az ne go namiram
+[15:56:01] <yulimoto> dencho: а ве нема я не разбра ли
+[15:56:23] <yulimoto> аз не съм там и знам че я нема
+[15:56:28] <dencho> NE RAZBRAH
+[15:56:29] <dencho> :D
+[15:56:44] <yulimoto> :)
+[15:56:45] <hackman> yulimoto, в кой канал това ? :0
+[15:56:52] <yulimoto> #shakeit
+[15:56:55] <yulimoto> беше май
+[15:56:59] <dencho> shake shit
+[15:57:00] <yulimoto> денчо така ли се казва канала
+[15:57:07] <dencho> yulimoto ot kade da znam we
+[15:57:07] <dencho> !
+[15:57:08] <dencho> haha
+[15:57:12] <dencho> ti si hodil iz mrejite
+[15:57:19] <dencho> brodi ne mil ne drag yulimoto
+[15:57:29] fityla_ (5f57c8e3@gateway/web/freenode/ip.95.87.200.227) joined #telerikacademy.
+[15:57:40] <yulimoto> hackman: #shakeit така е
+[15:57:46] <fityla_> http://forums.academy.telerik.com/114079/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%BD%D0%B0-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-%D0%B7%D0%B0-linux-22-08-2013
+[15:57:55] <fityla_> специално за dencho !
+[15:57:56] <fityla_> ;)
+[15:58:04] <KrasiGa> nali si imate jeni i priqtelki. Da ne vi gepqt logovete
+[15:58:34] <yulimoto> fityla_: не знам ама в раздел Важни Съобщения едва ли влизат линукс курсистите
+[15:58:47] <yulimoto> аз поне не влизам
+[15:58:49] <dencho> aaa
+[15:58:51] <dencho> rabzhrame
+[15:58:51] <yulimoto> директно одя в ликса
+[15:59:04] <fityla_> нямаше така тема
+[15:59:08] <fityla_> аз гледам всичките
+[15:59:31] <dencho> ama za6to vuv vajni saob6teniq we
+[15:59:37] <dencho> az gledah samo vuv foruma na kursa we
+[15:59:52] <KrasiGa> i az там търсех
+[15:59:57] <KrasiGa> премести го
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:02] <dencho> si4ki tam tursat
+[16:00:10] <yulimoto> да и според мен е най-добре да се премести
+[16:00:22] <dencho> qz KpeTeHoug KrasiGa yulimoto nveselinov paparazzo Telerik vhristev dencho bentoslack alabala
+[16:00:25] <dencho> ChanServ
+[16:00:27] <dencho> SeenServ
+[16:00:29] <fityla_> добре
+[16:00:30] <dencho> OperServ
+[16:00:32] <fityla_> слагам го и там
+[16:00:37] Action: dencho qko se ligavi dneska
+[16:01:06] <yulimoto> опитай така след като се логнеш цъкни тоя http://forums.academy.telerik.com/ask?cat=52
+[16:01:35] <KpeTeHoug> ама ти си го изпраскал в Важни съобщения fityla
+[16:01:41] <KpeTeHoug> а не в LSA
+[16:02:02] <fityla_> sega praskam
+[16:02:04] <fityla_> i na drugoto
+[16:03:17] <fityla_> така по добре ли е
+[16:03:17] <fityla_> http://forums.academy.telerik.com/114080/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%BD%D0%B0-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-%D0%B7%D0%B0-linux-22-08-2013
+[16:03:35] <KpeTeHoug> така да
