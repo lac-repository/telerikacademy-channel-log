@@ -596,3 +596,65 @@
 [16:03:17] <fityla_> така по добре ли е
 [16:03:17] <fityla_> http://forums.academy.telerik.com/114080/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%BD%D0%B0-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-%D0%B7%D0%B0-linux-22-08-2013
 [16:03:35] <KpeTeHoug> така да
+[16:06:18] <fityla_> баси странното нещо ми се случи..
+[16:06:45] <fityla_> диск който работеше ... след добавянето на още един .. и инсталиране на windows...
+[16:06:45] informer (~informer@83.228.55.109) joined #telerikacademy.
+[16:07:06] <fityla_> този първият Hitachi_то .. не иска да пали компютъра...
+[16:07:54] <fityla_> махм от SATA проблемното hitachi и windows-a си стартира включвам от sata проблемният диск и windows-a умира..
+[16:08:22] <dencho> => NO WINDOWS
+[16:11:03] <fityla_> windows-a e на новият
+[16:11:11] <fityla_> 100%
+[16:11:13] <dencho> 7. Мрежово Програмиране на Java
+[16:11:17] <dencho> grrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+[16:11:20] <fityla_> live CD-то и то...
+[16:11:23] informer (~informer@83.228.55.109) left irc: Ping timeout: 256 seconds
+[16:11:25] <fityla_> и той зарежда 3 часа
+[16:17:08] AndChat-205625 (~AndChat20@95.87.200.227) joined #telerikacademy.
+[16:19:26] <KrasiGa> Боби от ОС също ли присъства на тези лекции?
+[16:20:01] <KrasiGa> By the way след този курс ли ще почен Windows?
+[16:20:14] <yulimoto> dencho: колкото и да ми е мъчно то само JAva i c# са
+[16:21:16] fityla (~AndChat20@85.118.193.161) left irc: Ping timeout: 266 seconds
+[16:22:25] <KrasiGa> как ходят на изпити в Тайланд http://kotaku.com/these-anti-cheating-hats-make-me-sad-1165692137?utm_campaign=Socialflow_Kotaku_Twitter&utm_source=Kotaku_Twitter&utm_medium=Socialflow
+[16:27:05] <yulimoto> зубрачи
+[16:27:14] <yulimoto> коне с капаци
+[16:27:25] <yulimoto> още да ги нареждам ли
+[16:27:27] <yulimoto> хайде няма
+[16:27:44] <yulimoto> иии KrasiGa 16:27
+[16:28:02] <yulimoto> шефката прибра ли се от отпуска или вече си на стартова позиция ?
+[16:29:28] <KrasiGa> тази седмица съм до 17часа
+[16:29:33] <KrasiGa> абе тук си
+[16:29:37] <KrasiGa> е
+[16:29:44] <KrasiGa> шефката ми не е проблем
+[16:29:59] <KrasiGa> а как разбра, че е жена?
+[16:30:42] <yulimoto> eeee чадо чадо изобщо не съм помислял, че е мъж :P
+[16:31:23] <KrasiGa> все пак е ИС сектор
+[16:31:25] <yulimoto> то по едно време при вас ли беше много Ви хвалеха, че имате плаващо работно време, ама май бъркам, в общината май беше
+[16:31:34] <KrasiGa> не сме ние
+[16:31:41] <yulimoto> браввооооооо
+[16:31:45] <KrasiGa> за ИС сектори са по-често мъже
+[16:32:01] <yulimoto> да ама твойта е жена
+[16:32:20] <yulimoto> :)
+[16:33:43] <yulimoto> добре обувай шпайковете, че за 17:00 да си направо готова, аз ако съм на теб ще си нашиша скрипт за shutdown точно в 17:00
+[16:34:00] <yulimoto> загрявай
+[16:34:29] <yulimoto> само ще ти видят петата на завоя в 17:00:00001
+[16:39:06] <Deyan> Виртуална лекция за Linux 22.08.2013 Предлагам да я организираме в някоя кръчма без WIFI
+[16:40:29] <Deyan> То доста намаляхме така мисля че ще е по-полезно да се видим да се чукнем с по бира и да си говорим глупости от колкото да висим пред компютрите и да гледаме чата!!!
+[16:41:51] fityla_ (5f57c8e3@gateway/web/freenode/ip.95.87.200.227) left irc: Quit: Page closed
+[16:43:08] <KrasiGa> и без туй по цял ден това правим :)
+[16:43:43] <yulimoto> а ве сега се замислих за някакво устройство което да предава физическия слой със светлина и не мога да се сетя !!!
+[16:43:47] <yulimoto> Идеи ?
+[16:43:51] <Deyan> абсолютно да, че и по цяла вечер
+[16:46:05] <KrasiGa> ама срещата за кръчмата ще трябва да е в събота
+[16:51:27] <Deyan> yulimoto: ЛАМПАТА НА АЛАДИН
+[16:52:59] fityla (~AndChat20@85.118.193.180) joined #telerikacademy.
+[16:54:15] fityla_ (~AndChat20@85.118.193.167) joined #telerikacademy.
+[16:56:12] <KrasiGa> айде, отивам да подкрепям БГ софтбола в Дупница. Играем с французойките. Стискайте палци да ги бием
+[16:56:16] <KrasiGa> лека вечер от мен
+[16:56:50] <yulimoto> успех и лека
+[16:56:51] AndChat-205625 (~AndChat20@95.87.200.227) left irc: Ping timeout: 268 seconds
+[16:57:18] <yulimoto> Deyan: или партизански фенерчета
+[16:57:54] fityla (~AndChat20@85.118.193.180) left irc: Ping timeout: 264 seconds
+[16:58:25] fityla_ (~AndChat20@85.118.193.167) left irc: Ping timeout: 256 seconds
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:22] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
