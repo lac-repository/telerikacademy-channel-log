@@ -700,3 +700,24 @@
 [22:58:06] <KacanuH> ей yulimoto ти с кокошките ли ще лягаш бе
 [23:00:00] Writing user file...
 [23:00:00] Writing channel file...
+[23:14:35] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[23:16:19] <KacanuH> deyan@deyan-desktop:~$ sudo apt-get install chromium
+[23:16:19] <KacanuH> Reading package lists... Done
+[23:16:19] <KacanuH> Building dependency tree
+[23:16:19] <KacanuH> Reading state information... Done
+[23:16:19] <KacanuH> The following extra packages will be installed:
+[23:16:20] <KacanuH>   chromium-inspector
+[23:16:24] <KacanuH> Suggested packages:
+[23:16:26] <KacanuH>   chromium-l10n
+[23:16:28] <KacanuH> The following NEW packages will be installed:
+[23:16:30] <KacanuH>   chromium chromium-inspector
+[23:16:32] <KacanuH> 0 upgraded, 2 newly installed, 0 to remove and 2 not upgraded.
+[23:16:34] <KacanuH> Need to get 41.2 MB of archives.
+[23:16:36] <KacanuH> After this operation, 111 MB of additional disk space will be used.
+[23:16:38] <KacanuH> ба го у хрома :)
+[23:24:09] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 276 seconds
+[23:29:02] ibekyarov (~Adium@87.97.214.90) left #telerikacademy.
+[23:45:57] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Quit: Page closed
+[00:00:00] --- Wed Aug 21 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...
