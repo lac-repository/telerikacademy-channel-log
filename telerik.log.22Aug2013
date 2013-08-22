@@ -227,3 +227,108 @@
 [11:03:54] <KpeTeHoug> KrasiGa я виж сега можеш ли да влезеш на моята машина
 [11:03:56] <yulimoto> едва я намерих във софтуерни технологии
 [11:04:09] <KrasiGa> nali ti dadoh link
+[11:05:45] <KrasiGa> KreTeHoug не става
+[11:07:13] <KpeTeHoug> бата мата
+[11:07:14] <KpeTeHoug> :)
+[11:07:53] <KpeTeHoug> чек да видя малко портове да си погирая :)
+[11:08:04] <KpeTeHoug> макар че то баси ужаст-а
+[11:08:07] <yulimoto> KrasiGa: ти даде ама кой да види
+[11:08:30] <KpeTeHoug> KrasiGa вие 100 % ползвате Outlook  за майли нали ?:)
+[11:09:22] <KpeTeHoug> и ако е така, сега ще видим само кой протокол ползвате и ще ти отворя тея портове :0
+[11:12:56] <yulimoto> KpeTeHoug: анджък .... даже може да си отвориш 443 ако не го ползваш
+[11:14:17] <KrasiGa> не е 100%
+[11:14:30] <KrasiGa> тези дето са на Win 7 са с live mail
+[11:14:37] <KrasiGa> защо?
+[11:15:10] <KrasiGa> аааа за портовете
+[11:15:12] <KrasiGa> разбрах те
+[11:15:19] <KpeTeHoug> yulimoto probwahme 443
+[11:15:23] <yulimoto> защото джанъм KpeTeHoug иска да лъже твоите администратори че си ползваш пощата докато ти си на неговия сървър :)
+[11:15:30] <KpeTeHoug> неще там
+[11:15:34] <KrasiGa> да да
+[11:15:37] <KrasiGa> сетих се
+[11:15:38] <yulimoto> ммм жалко
+[11:15:44] <KpeTeHoug> live mail, na Pop3 ili IMAP протокол
+[11:15:50] <KrasiGa> и двата
+[11:15:51] <KpeTeHoug> и дали са SSL ?:)
+[11:16:13] <KpeTeHoug> дай ще пробваме с 25 тогава
+[11:17:11] <yulimoto> хммм не виждам ако едното не е станало защо другото да става, ама пробвайте. трябва да се разбере как мислят ония администратори и от там е по-лесно
+[11:17:40] <KrasiGa> da probvam li?
+[11:18:06] <KpeTeHoug> сек
+[11:19:39] <yulimoto> някой има ли TCP/IP illustrated 1,2,3
+[11:20:04] <KpeTeHoug> да та таковам :)
+[11:20:12] <KpeTeHoug> вчера не пуснах ли тука линк
+[11:20:13] <KpeTeHoug> yulimoto
+[11:20:42] <KrasiGa> nali dadoha link v4era
+[11:20:50] <KrasiGa> pusna pusna
+[11:21:07] <yulimoto> ejjj значи сттана
+[11:21:09] <yulimoto> браво
+[11:21:14] <KrasiGa> ne be
+[11:21:16] <KpeTeHoug> http://evilzone.org/downloads/TCP-IP%201-3.rar
+[11:21:19] <KrasiGa> za linka govoria
+[11:21:34] <KpeTeHoug> няма да стане, моят гениалиен доставчик реже 25ти :)
+[11:21:53] <KrasiGa> ne se tormozi
+[11:21:54] <yulimoto> това съм го пропуснал с линка
+[11:21:55] <yulimoto> кой ги даде
+[11:22:20] <KrasiGa> KreTenHoug i sega go pusna
+[11:22:23] <KrasiGa> linka
+[11:22:31] <KpeTeHoug> язе кой :)
+[11:23:07] <yulimoto> добре
+[11:23:11] <yulimoto> поздрави
+[11:23:20] <KrasiGa> ama e skanirano
+[11:23:28] <KrasiGa> ne e mnogo dobre napraveno
+[11:24:03] Action: yulimoto slaps KpeTeHoug with 3 volumes of tcp/ip illustrated and all printed rfc's 
+[11:24:14] <KpeTeHoug> KrasiGa я виж на 465 порт
+[11:24:44] <KpeTeHoug> да видим дали са отрявали SSL
+[11:25:59] <KrasiGa> не ми се зарежда http://webssh.uni.me/
+[11:26:06] <KrasiGa> може проблема да е в сайта
+[11:26:09] <KrasiGa> а не в порта
+[11:26:22] <KpeTeHoug> а директно при теб
+[11:26:26] <KpeTeHoug> през пути
+[11:26:54] <KrasiGa> ами ще пробвам ама от там не ставаше въобще
+[11:27:07] <KpeTeHoug> не ставаШе :)
+[11:27:49] <KrasiGa> ами предния път когато пртобвахме
+[11:27:52] <KrasiGa> не помниш ли?
+[11:28:03] <KrasiGa> но през този сайт стана
+[11:28:07] <KrasiGa> ти ми го прати
+[11:28:19] <KpeTeHoug> да, само че не сме пробвали портове които са отворени
+[11:28:22] <KpeTeHoug> или поне трябва да са :)
+[11:28:26] <KrasiGa> през Putty дава Network error
+[11:28:37] <KrasiGa> пробвахме ги
+[11:28:44] <KpeTeHoug> не, 465 не сме :)
+[11:28:49] <KpeTeHoug> други пробеахме
+[11:28:54] <KrasiGa> е така де
+[11:29:12] <yulimoto> KpeTeHoug: ами направо ще се мисли web console
+[11:29:28] <yulimoto> трябва да се намери някоя по-читава
+[11:29:53] <KpeTeHoug> ем
+[11:30:58] <KpeTeHoug> ако и на 465 не става, пробваме 110
+[11:31:08] <KpeTeHoug> тействай само при теб, не през сайта
+[11:31:29] informer (~informer@83.228.55.109) left irc: Quit: Leaving
+[11:32:58] <KpeTeHoug> първо 465 де
+[11:32:59] <KpeTeHoug> :)
+[11:33:03] <KpeTeHoug> после кажи да сменя порта
+[11:33:17] <KrasiGa> 465 нали го пробвах
+[11:33:19] <KrasiGa> не стана
+[11:33:35] <KrasiGa> със 110 същото
+[11:33:55] <KpeTeHoug> сек
+[11:34:49] <KpeTeHoug> последно на 110
+[11:34:50] <KpeTeHoug> :)
+[11:35:04] <KrasiGa> pak da probvam li?
+[11:35:07] <KpeTeHoug> да
+[11:36:05] <KrasiGa> ne
+[11:36:10] <KrasiGa> abe ne se zanimavai
+[11:36:19] <KrasiGa> prez telefona 6te vlqza
+[11:36:22] <KpeTeHoug> странно
+[11:36:32] <KpeTeHoug> а през сайта ан 110 ? :)
+[11:36:47] <KrasiGa> сайта е аут в момента
+[11:37:18] <KpeTeHoug> :)
+[11:37:55] fityla (~AndChat20@84.40.116.146) joined #telerikacademy.
+[11:38:29] <KpeTeHoug> https://www.sshd.org/server/quick-connect.html
+[11:38:32] <KpeTeHoug> я виж това :)
+[11:38:59] <KpeTeHoug> последно, и тряба и да излизам :0
+[11:43:01] <KrasiGa> :) stana
+[11:43:25] <KrasiGa> 6te probvam direktno na grizzly dali 6te stane
+[11:45:34] <KrasiGa> na grizzly ne stana
+[11:49:04] <yulimoto> port-a opravi li 14567
+[11:49:23] <KrasiGa> :) разбира се
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
