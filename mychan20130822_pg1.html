@@ -1151,6 +1151,57 @@
 			<div>&nbsp;<span class="time">[21:59:00]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; именно</span></div>
 			<div>&nbsp;<span class="time">[21:59:35]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; IPv4 адресите са 32битови</span></div>
 			<div>&nbsp;<span class="time">[21:59:53]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; практически означава 255.255.255.0 или мрежа от 256 адреса</span></div>
+			<div>&nbsp;<span class="time">[22:00:01]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[22:00:01]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[22:00:10]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; т.е. имат 32 бита  11111111.11111111.11111111.11111111</span></div>
+			<div>&nbsp;<span class="time">[22:00:26]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; това /24 оказва каква част от тези битове се използват за маска</span></div>
+			<div>&nbsp;<span class="time">[22:00:37]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; т.е. остатъка от битовете се използват за адресиране</span></div>
+			<div>&nbsp;<span class="time">[22:00:55]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; 255 е десетичната репрезентация на 11111111</span></div>
+			<div>&nbsp;<span class="time">[22:01:00]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; 256 :)</span></div>
+			<div>&nbsp;<span class="time">[22:01:17]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; но тъй като числата са от 0 до 255 255 e най-голямото</span></div>
+			<div>&nbsp;<span class="time">[22:01:24]</span>&nbsp;<span class="else_j">&nbsp;Nako (~Nako@75.151.167.113) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[22:01:41]</span>&nbsp;<span class="nick">&lt;iren_y&gt;</span><span class="text">&nbsp; това винаги ли е било така или се ползва в последните 2,3 години</span></div>
+			<div>&nbsp;<span class="time">[22:01:59]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; винаги е било така :)</span></div>
+			<div>&nbsp;<span class="time">[22:02:09]</span>&nbsp;<span class="nick">&lt;iren_y&gt;</span><span class="text">&nbsp; като се е появил IPv6</span></div>
+			<div>&nbsp;<span class="time">[22:02:13]</span>&nbsp;<span class="nick">&lt;iren_y&gt;</span><span class="text">&nbsp; аха мерси</span></div>
+			<div>&nbsp;<span class="time">[22:02:24]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; просто предишни години се използваше най-вече десетичното представяне на маските</span></div>
+			<div>&nbsp;<span class="time">[22:02:29]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; вместо краткият му вариянт</span></div>
+			<div>&nbsp;<span class="time">[22:02:54]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; но тъй като хората които пишат tools израстнаха... се усетиха, че е крайно време да възприемат краткият вариянт :)</span></div>
+			<div>&nbsp;<span class="time">[22:03:14]</span>&nbsp;<span class="nick">&lt;iren_y&gt;</span><span class="text">&nbsp; да да всичко се променя</span></div>
+			<div>&nbsp;<span class="time">[22:04:00]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; аз мога ли да полюбопитствам за какъв replication ставаше дума по-горе ? :)</span></div>
+			<div>&nbsp;<span class="time">[22:08:50]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; rewind_, mysql sliding replication правех</span></div>
+			<div>&nbsp;<span class="time">[22:09:05]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; с heartbeat и едни мои магии :)</span></div>
+			<div>&nbsp;<span class="time">[22:10:22]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; съвсем наскоро се зарадвах, че ще ми се наложи да се позанимавам с mysql, тъй като нямам и бъкел опит с него и компанията, която произвежда апликейшъна взела, че го сменила в следващата версия на софтуера...</span></div>
+			<div>&nbsp;<span class="time">[22:11:24]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; А иначе се заинтригувах, тъй като ми напомни да пусна ZFS репликейшъна, който трябва да пускам от време на време на един бекъп диск</span></div>
+			<div>&nbsp;<span class="time">[22:11:39]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; веднъж те бях питал по тази тема, ако си спомняш случайно</span></div>
+			<div>&nbsp;<span class="time">[22:11:47]</span>&nbsp;<span class="else_li">&nbsp;Nako (~Nako@75.151.167.113) left irc: Ping timeout: 246 seconds</span></div>
+			<div>&nbsp;<span class="time">[22:12:06]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; rewind_, ако искаш да се занимаваш с читава база данни виж PostgreSQL</span></div>
+			<div>&nbsp;<span class="time">[22:12:06]</span>&nbsp;<span class="else_j">&nbsp;Nako (~Nako@75.151.167.113) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[22:12:16]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; MySQL-а е голямо бреме</span></div>
+			<div>&nbsp;<span class="time">[22:12:39]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; чух, че ще става все по-голямо в ръцете на една голяма компания</span></div>
+			<div>&nbsp;<span class="time">[22:14:25]</span>&nbsp;<span class="nick">&lt;s0ny123&gt;</span><span class="text">&nbsp; exit</span></div>
+			<div>&nbsp;<span class="time">[22:14:36]</span>&nbsp;<span class="nick">&lt;s0ny123&gt;</span><span class="text">&nbsp; e тва не беше предвидено... :D</span></div>
+			<div>&nbsp;<span class="time">[22:17:42]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; rewind_, MySQL-а на където е тръгнал в момента, ще става само ПО-ЗЛЕ :(</span></div>
+			<div>&nbsp;<span class="time">[22:17:56]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; отдавна отминаха годините му на просперитет</span></div>
+			<div>&nbsp;<span class="time">[22:18:06]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; и в момента седи на стари лаври</span></div>
+			<div>&nbsp;<span class="time">[22:18:17]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; последните години само проблеми съм имал с тази база</span></div>
+			<div>&nbsp;<span class="time">[22:18:22]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; с много малко решения :(</span></div>
+			<div>&nbsp;<span class="time">[22:19:18]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; интересно, че в OSS света по принцип нещата винаги са взаимозаменяеми, доста е странно, че с mysql не стоят така</span></div>
+			<div>&nbsp;<span class="time">[22:19:26]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; нещата</span></div>
+			<div>&nbsp;<span class="time">[22:19:53]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; малко кофти дума за случая, но предполагам ме схвана</span></div>
+			<div>&nbsp;<span class="time">[22:26:04]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; dhclient има ли функционалност като dhcpcd -T (или --test)</span></div>
+			<div>&nbsp;<span class="time">[22:31:33]</span>&nbsp;<span class="else_li">&nbsp;Nako (~Nako@75.151.167.113) left irc: Ping timeout: 248 seconds</span></div>
+			<div>&nbsp;<span class="time">[22:32:23]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; По темата с mysql, последното което ми направи впечатление в последния месец беше това - <a href="http://goo.gl/rEkKJ">http://goo.gl/rEkKJ</a> (въпреки, че се оказа бъг)</span></div>
+			<div>&nbsp;<span class="time">[22:42:30]</span>&nbsp;<span class="else_li">&nbsp;pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) left irc: Read error: Connection reset by peer</span></div>
+			<div>&nbsp;<span class="time">[22:42:38]</span>&nbsp;<span class="else_j">&nbsp;pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[22:47:30]</span>&nbsp;<span class="else_li">&nbsp;iren_y (~chatzilla@smtpout.ccbank.bg) left irc: Quit: ChatZilla 0.9.90.1 [Firefox 22.0/20130618035212]</span></div>
+			<div>&nbsp;<span class="time">[22:47:57]</span>&nbsp;<span class="nick">&lt;pinkiePie&gt;</span><span class="text">&nbsp; на лекциите беше казвано за копиране на дискове с dd, че не трябва да се прави, но съм го правил и след това си е работило всичко, ако да речем двата диска са пълни на 50% или се копират само имейджи, предполагам че не е</span></div>
+			<div>&nbsp;<span class="time">[22:47:57]</span>&nbsp;<span class="nick">&lt;pinkiePie&gt;</span><span class="text">&nbsp; проблем или греша</span></div>
+			<div>&nbsp;<span class="time">[22:49:23]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; Аз лично не съм имал проблеми с копиране на диск с dd, но винаги съм копирал по-малък към по-голям диск</span></div>
+			<div>&nbsp;<span class="time">[22:49:52]</span>&nbsp;<span class="nick">&lt;rewind_&gt;</span><span class="text">&nbsp; ако ще спасяваш данни ползвай директно dd_rescue, доста по-добре се справя с лоши сектори</span></div>
+			<div>&nbsp;<span class="time">[22:54:24]</span>&nbsp;<span class="nick">&lt;pinkiePie&gt;</span><span class="text">&nbsp; ясно, мариян го беше казвал на лекция и сега се сетих :D</span></div>
+			<div>&nbsp;<span class="time">[22:57:30]</span>&nbsp;<span class="else_li">&nbsp;bldrchd (4d460a38@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.10.56) left irc: Quit: <a href="http://www.kiwiirc.com/">http://www.kiwiirc.com/</a> - A hand crafted IRC client</span></div>
+			<div>&nbsp;<span class="time">[22:58:11]</span>&nbsp;<span class="else_li">&nbsp;deyan (~deyan@46.249.92.240) left irc: Remote host closed the connection</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
