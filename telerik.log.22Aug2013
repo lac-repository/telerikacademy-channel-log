@@ -113,3 +113,117 @@
 [09:58:15] informer (~informer@83.228.55.109) joined #telerikacademy.
 [10:00:00] Writing user file...
 [10:00:00] Writing channel file...
+[10:10:41] dyrgel (~kolio@77-85-12-246.btc-net.bg) left irc: Ping timeout: 264 seconds
+[10:10:56] <yulimoto> KpeTeHoug: какво стана с bin да не е в отпуска ?
+[10:11:39] <KpeTeHoug> немам идея, сега ще видя някой от мойте хора там дали е на работа :)
+[10:11:42] <KpeTeHoug> да разпитам :)
+[10:14:07] <yulimoto> а така
+[10:14:15] <yulimoto> може да е отишъл у Полша
+[10:16:49] <KpeTeHoug> може, да види тъщата
+[10:17:04] <KpeTeHoug> ма мойте източници не отговарят
+[10:17:46] <yulimoto> ее все някога ще отговорят :) все ще се видиш с твоите хора
+[10:19:14] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[10:19:26] <yulimoto> аз нещо обаче съм забравил мрежовите слоеве доста, кои на кои отговаря от OSI , питай ме за презентационен слой ще гледам кат теле
+[10:21:04] <KpeTeHoug> ми
+[10:21:10] <KpeTeHoug> аз едно време ги бях понаучил
+[10:21:13] <KpeTeHoug> ма като ен го ползваш
+[10:21:15] <KpeTeHoug> и се забравя
+[10:21:22] <yulimoto> да и аз така
+[10:21:57] <yulimoto> за това редовно човек трябва да слухти в мрежата поне своята
+[10:22:09] <yulimoto> така дето се вика да не го забравя
+[10:22:15] <KpeTeHoug> хм
+[10:22:28] <KpeTeHoug> отваря ли ти гит хъба с материалите и домашните
+[10:22:31] <KpeTeHoug> ма Мариян ?
+[10:24:50] <yulimoto> то изобщо гит хъба е аут
+[10:24:51] <yulimoto> Looks like something went wrong!
+[10:24:52] <yulimoto> We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing.
+[10:25:12] <KpeTeHoug> aaa
+[10:25:17] <KpeTeHoug> Може
+[10:25:38] <KpeTeHoug> щото аз исках да си видя едната тема за домашното точно кви интерфейси трябваше да бриджна
+[10:25:50] <KpeTeHoug> честно, като прочетох малко и като гледах тоя примерния bridge
+[10:25:57] <KpeTeHoug> изглежда ми вече елементарно :)
+[10:26:55] <KpeTeHoug> т.е достатъчно лесно, айде да не се изфърляме
+[10:27:25] <yulimoto> ам аз му имам гита на мариян на компа
+[10:27:30] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[10:28:03] <KpeTeHoug> ем, ако не ти е проблем да ми пуснеш домашните за RHEL цонф файл за бридж
+[10:28:09] <KpeTeHoug> 5-6-7 ли бяха
+[10:28:22] <s0ny123> github пак е паднал...а тъкмо мислех да седна да пиша домашните...
+[10:29:27] <KpeTeHoug> тъкмо това си говорим s0ny123
+[10:29:38] <KpeTeHoug> yulimoto каза че имал мирър при себе си
+[10:29:48] <KpeTeHoug> може да ни качи homeworks някъде
+[10:29:51] <yulimoto> ок
+[10:30:07] <s0ny123> а супер
+[10:30:11] <yulimoto> слагам направо файла с homework-06.txt на гризлито
+[10:30:15] <KpeTeHoug> к
+[10:31:34] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[10:34:52] <KpeTeHoug> ти пък баш в моята папка ли :)
+[10:35:00] <KpeTeHoug> s0ny123 я си виж в хоме дира :)
+[10:35:12] <s0ny123> еее супер :)
+[10:35:57] <KpeTeHoug> yulimoto готян той :) яко търкаля
+[10:35:58] <KpeTeHoug> :)
+[10:36:27] <s0ny123> хаха, добре че поне той се е сетил да ги mirror-не... тоя github много пада напоследък
+[10:36:29] <yulimoto> хаха a vhristev къде отиде иначе ника му е тука или е супер зает или е супер отпуска
+[10:36:47] <KpeTeHoug> супер айляк е някъде
+[10:36:48] <KpeTeHoug> според мен
+[10:36:52] <yulimoto> аха
+[10:37:12] <KpeTeHoug> те иначе го оправиха гитхъба :)
+[10:37:15] <KpeTeHoug> тръгна даже
+[10:37:28] <KpeTeHoug> ма нищо, ако има нещо, ще тормозим пак yulimoto
+[10:37:35] <yulimoto> хаха
+[10:37:42] <yulimoto> елате повече
+[10:37:46] <yulimoto> ;P
+[10:40:26] <KpeTeHoug> сега идва тъп въпрос
+[10:40:46] <KpeTeHoug> правя bridge с IP-то на eth0
+[10:41:03] <KpeTeHoug> posle linkvam eth1 kym bridge interfeisa
+[10:41:22] <KpeTeHoug> това автоматично значи че съм линкнал eth0 i eth1 nali ?
+[10:42:21] <yulimoto> чувствам, че това домашно като цяло ще е мазало :)
+[10:42:41] <yulimoto> KpeTeHoug: не знам никога не съм правил бридж
+[10:42:45] <KpeTeHoug> ofcorPse
+[10:42:48] <KpeTeHoug> :)
+[10:42:55] <KpeTeHoug> The bridge interface configuration file now has the IP address and the physical interface has only a MAC address
+[10:43:10] <KpeTeHoug> мисля това отговори доста ясно на въпроса ми
+[10:43:15] <KpeTeHoug> добре че хората са го написали
+[10:43:33] <yulimoto> :)
+[10:43:53] <KpeTeHoug> ем така е, с напипване в тъмното ще е :)
+[10:43:59] <KpeTeHoug> само да не фанем каквото не трябва :)
+[10:45:10] <yulimoto> ммм филтрирай с ключовите думи в google за да провериш
+[10:48:38] <nlkl> привет : )
+[10:48:45] <KrasiGa> screen програмка ли е или команда?
+[10:48:47] <nlkl> днес ще има ли лекции ? : ))
+[10:48:55] <KrasiGa> аз на моя CentOS го нямам
+[10:49:06] <KrasiGa> явно трябва да си го инсталирам допълнително, нали?
+[10:49:46] <KpeTeHoug> нямаш скрийн ?
+[10:50:06] <KrasiGa> нямама
+[10:50:24] <KrasiGa> screen --help bash: screen: command not found
+[10:51:05] <KpeTeHoug> sudo yum install screen
+[10:51:22] <yulimoto> KrasiGa: ammmm тебе са те филтрирали как ще го сложиш душа
+[10:51:25] <yulimoto> ?
+[10:51:30] <yulimoto> ейй язък
+[10:51:34] <KrasiGa> е няма как
+[10:51:38] <KrasiGa> от вкъщи
+[10:51:41] <KrasiGa> :(
+[10:52:19] <yulimoto> ami KpeTeHoug да ти прати на пощата rpm пакета и ти да си го изтеглиш
+[10:52:27] <yulimoto> от уеб можеш ли да теглиш
+[10:52:42] <KrasiGa> мога ама през домакина комп
+[10:52:46] <KrasiGa> а не виртуалката
+[10:53:01] <KpeTeHoug> аз пак забравих
+[10:53:10] <yulimoto> сложно става
+[10:53:10] <KpeTeHoug> че си резната
+[10:53:12] <KpeTeHoug> баси :)
+[10:53:42] <yulimoto> нищо на гризлито ако можеш се върза или на KpeTeHoug
+[10:57:01] <KrasiGa> зарежете, не е важно
+[10:57:05] <KrasiGa> мога ама през телефона
+[10:57:09] <KrasiGa> от тук не мога
+[10:57:45] <KrasiGa> исках да повторя хакването на десктопа на yulimoto
+[10:57:48] <KpeTeHoug> ще можеш споко :)
+[10:57:49] <KrasiGa> :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:01:04] <KrasiGa> i bez da izvikva6 man, ima6 linka na course gore v diasno
+[11:01:09] <yulimoto> къде е шибаната програма на курса ?
+[11:01:41] <yulimoto> все се  лутам в тая навигация имат 50 сайта за едно и също нещо
+[11:01:55] <s0ny123> hm имаше я някъде във форума...
+[11:01:56] <KrasiGa> http://academy.telerik.com/student-courses/software-technologies/linux-system-administration/schedule
+[11:03:54] <KpeTeHoug> KrasiGa я виж сега можеш ли да влезеш на моята машина
+[11:03:56] <yulimoto> едва я намерих във софтуерни технологии
+[11:04:09] <KrasiGa> nali ti dadoh link
