@@ -267,3 +267,32 @@
 [18:32:57] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 276 seconds
 [19:00:00] Writing user file...
 [19:00:00] Writing channel file...
+[19:16:47] deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[19:36:02] <dencho> deyaneeeei
+[19:38:33] <yulimoto> няма гуууууу
+[19:39:02] <yulimoto> да знаеш от де да си изтегля готови имиджи за виртуал бокс
+[19:40:19] <dencho> ne
+[19:40:21] <yulimoto> гледам тука http://virtualboxes.org/images/ ама....
+[19:40:29] <dencho> te mai ve4e nqmat :D
+[19:40:39] <dencho> are...
+[19:40:47] <dencho> ve4erq,
+[19:44:26] fityla_ (~AndChat20@84.40.116.146) joined #telerikacademy.
+[19:44:45] <fityla_> Вчера питах..
+[19:44:51] <fityla_> За тоолове
+[19:45:36] <fityla_> в последният брой.. халер са пуснали 100  инсримента
+[19:47:23] <fityla_> Да напълним мечката с толове
+[19:48:43] <fityla_> Ужас аз домашното не съм пратил..
+[19:52:08] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[19:53:37] <fityla> @hackman за вторият въпрос ..
+[19:53:41] <fityla> 2. Write a RedHat based configuration file(s) that will add the following two networks as static routes on eth1: 	10.18.1.0/24 	192.168.0.0/23
+[19:54:00] <fityla> трябва да напишем eth1: 10.18.1.0
+[19:54:16] <fityla> и още един конфиг друг за другата мрежа нали?
+[19:57:30] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:00:41] <anton_sh> Здравейте, имам малко помощ ми трябва относно домашните
+[20:03:59] <fityla> добре
+[20:04:01] <fityla> дошъл
+[20:04:07] <fityla> и аз се интетесувам
+[20:04:13] <fityla> питай ако може някой да помогне
+[20:04:39] <anton_sh> ами всъщност въпросите са няколко
