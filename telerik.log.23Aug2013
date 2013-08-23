@@ -184,3 +184,72 @@
 [16:00:00] Writing channel file...
 [16:00:43] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Client Quit
 [16:02:09] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[16:39:42] <dencho> u darvenica spre netq na megalag
+[16:39:45] <dencho> nqkoi ot tam?
+[16:39:50] <yulimoto> хахах
+[16:39:52] <yulimoto> а ве денчо
+[16:39:58] <yulimoto> къде ги мислиш
+[16:40:09] <dencho> 6to we
+[16:40:36] Action: dencho slaps yulimoto around a bit with a large trout
+[16:40:45] <dencho> yulimoto fulimoto
+[16:40:47] <yulimoto> не просто отварям ирс-то и гледам твоите приключенията
+[16:40:56] <dencho> hahaha
+[16:41:34] <dencho> lesno li mi e
+[16:41:34] <dencho> :D
+[16:41:44] <yulimoto> хич
+[16:42:13] <yulimoto> тва мрежите е голям баница обаче, аз имам мн пропуски
+[16:42:43] <dencho> az 4akam da svur6i rabotniq den i po4vam da maja po doma6noto
+[16:42:46] <yulimoto> днес цял ден ги ровя и главата ми е кашон
+[16:43:14] <yulimoto> аз направих няколко ама си пратих най-лесното
+[16:43:57] <dencho> az 6e praq 3
+[16:43:59] <dencho> to su6toto
+[16:44:00] <dencho> :D
+[16:44:01] <yulimoto> повече от 2 реда не пиша ей, то ако се задълбае човек сценарии и т.н. ама какъвто въпроса такъв и отговора
+[16:44:50] <yulimoto> а така 3 направи
+[16:45:40] <dencho> ti si instaliral bridge utils nali?
+[16:45:42] <yulimoto> аз общо взето дебианските ги направих май, но ще трябва да видя редхат, че ...
+[16:45:45] <yulimoto> да
+[16:46:02] <yulimoto> етх0 етх1 да ги бриджнеш
+[16:46:04] <dencho> da
+[16:46:15] <dencho> a predi tva si napral fail s ime bridge
+[16:46:16] <dencho> :D
+[16:46:30] <dencho> i na eth0 i 1 si im kazal da sa bridge=bridge
+[16:46:31] <dencho> :D
+[16:46:36] <dencho> ya?!
+[16:46:36] <yulimoto> мммм ние от дебиан сме още по-мързеливи
+[16:47:05] <dencho> ne kazva6 li v configuraciata na eth0 i 1 ?
+[16:47:08] <yulimoto> там направо в /etc/network/interfaces описваш без да ти пука файлове да правиш
+[16:47:38] <yulimoto> на редхат може
+[16:47:50] <dencho> DEVICE=br0
+[16:47:50] <dencho> TYPE=Bridge
+[16:47:53] <dencho> e tuj ?
+[16:47:55] <dencho> :D
+[16:48:13] <dencho> aa ne tva e za bridge-a
+[16:48:14] <dencho> samiq
+[16:48:26] <dencho> posle samo da slaga6 BRIDGE=br0 v eth0
+[16:48:29] <dencho> i BRIDGE=br0 v eth1
+[16:48:32] <dencho> ?!
+[16:48:45] <dencho> a kato napi6e6 brctl show kvo vijda6 ?
+[16:50:16] <yulimoto> кое кое
+[16:50:26] <dencho> na debiana
+[16:50:26] <dencho> :D
+[16:50:57] <yulimoto> ама за какво да ползвм bridge-utils
+[16:51:11] <yulimoto> то си е направо от интерфейсис
+[16:51:37] <dencho> em nali za bridge ?
+[16:52:20] <yulimoto> Write a Debian based configuration file that will create a bridge device from eth0 and eth1.
+[16:52:32] <yulimoto> debian based configuration file
+[16:52:56] <dencho> a, ami zna4i az da sam v gre6ka :D
+[16:53:55] <Brahman> dencho e boga na debiana
+[16:54:49] <dencho> be gluposti
+[16:55:10] <Brahman> :D
+[16:55:16] <Brahman> dencho e skromniqt bog na debiana
+[16:55:19] <Brahman> :P~
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:34] <dencho> sal debian nqmam pred mene
+[17:00:34] <dencho> :D
+[17:02:12] <yulimoto> аре пичове излизам да играя ;P
+[17:03:00] <dencho> hodi si grai
+[17:03:01] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:03:03] <dencho> i ne presu4ai 6oseto
+[17:03:04] <dencho> :D
