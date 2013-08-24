@@ -24,3 +24,35 @@
 [08:00:00] Writing channel file...
 [09:00:00] Writing user file...
 [09:00:00] Writing channel file...
+[09:18:10] kolio_ (~kolio@92.247.8.98) joined #telerikacademy.
+[09:25:20] deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[09:25:36] <deyan> Добро утро
+[09:34:19] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[09:45:45] <kolio_> Добро утро
+[09:46:12] <kolio_> Имам един въпрос за policy based routing-a
+[09:46:35] <kolio_> какво се случва с таблиците, които сме създали след ребуут
+[09:46:35] <KpeTeHoug> то малко рано ма питай
+[09:46:42] <KpeTeHoug> те хората гледат :)
+[09:46:47] <kolio_> нали
+[09:47:25] <deyan> Гледам и не вярвам на очите си :) абе ходете да пиете по една бира не се занимавайте се с политика :)
+[09:47:49] <KpeTeHoug> е в 10 бира ли ве баси  :)
+[09:47:50] <KpeTeHoug> кафе
+[09:47:56] <KpeTeHoug> иначе след като си създал таблица
+[09:47:58] <KpeTeHoug> дрои и да е празна
+[09:48:01] <KpeTeHoug> трябва да си я пази
+[09:48:16] <KpeTeHoug> като entry
+[09:48:44] <deyan> KpeTeHoug, какво кафе бе, аз цяла седмица си мечтая от 9 да започна да пия бира, той ще ме кара и в събота да пия кафе
+[09:48:52] <deyan> луд човек
+[09:49:18] <KpeTeHoug> :)
+[09:50:12] <kolio_> да, пази си я, но след като ребуутна машината си ме връща на основните 3 таблици
+[09:51:03] <KpeTeHoug> ами виж им ifcfg файловете
+[09:51:18] <KpeTeHoug> има си флагове за onboot, priority и тн
+[09:51:22] <KpeTeHoug> и четеш
+[09:51:34] <kolio_> ок, 10х
+[09:51:54] <KpeTeHoug> за нищо
+[09:52:00] <KpeTeHoug> deyan аз отивам си прая кафе :)
+[09:52:08] <KpeTeHoug> ти си джарай там с течната баничка
+[09:56:06] kolio_ (~kolio@92.247.8.98) left irc: Remote host closed the connection
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:12] <yulimoto> как е маймуни
