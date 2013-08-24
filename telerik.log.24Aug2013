@@ -88,3 +88,58 @@
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
 [11:02:00] <yulimoto> ем само алсата не може ли ?
+[11:29:21] <dencho> http://youtu.be/5O6wr_Gr0zM
+[11:32:40] <yulimoto> хммм инсталирам вируталка, готова федора, пускам ѝ openssh, има си там dhcp ; виртуалката е на 192.168.1.107 и като ssh 192.168.1.107 от виртуалката бачка, обаче от други места в мрежата йок
+[11:32:45] <yulimoto> пинг има
+[11:33:20] <yulimoto> сега ако са инсталирали един файрлол или Ip tables са барали, ще го изям
+[11:34:19] <yulimoto> не си ли го инсталирам аз сега мисля за 1000 вероятности....
+[11:44:12] <dencho> fedora ima mnogo strog iptables
+[11:44:23] <dencho> no mislq, 4e sshd tam e default install
+[11:44:43] <dencho> i 100% sum siguren, 4e trqbva da go barne6 iptables-a
+[11:45:38] <dencho> ima6 li ping ot drugi mesta do 192.168.1.107
+[11:45:47] <dencho> ako ima6, zna4i si opravi firewall-a
+[11:45:48] <dencho> :)
+[11:46:38] <yulimoto> пинг има от всекъде
+[11:46:47] <yulimoto> sshd samo localno
+[11:46:55] <dencho> iptables
+[11:47:08] <dencho> sudo vim /etc/sysconfig/iptables
+[11:47:12] <yulimoto> а иначе си нетстата върви ви си 0:0:0:0 22 порт
+[11:47:17] <yulimoto> ясно
+[11:47:35] <dencho> :)
+[11:48:16] <dencho> ob6to vzeto, ako iska6 moje da go spre6 celiq firewall, i da sloji6 tozi koito e na centos defalt firewall
+[11:48:22] <dencho> toi e 12 reda
+[11:48:36] <dencho> ob6to vzeto toi pozvolqva samo 22 port za ssh i vsi4ko drugo dropi
+[11:48:52] <dencho> no na fedorata e dulag firewall-a sus vsqkakvi rulove
+[11:49:02] <yulimoto> а аз най-накрая трябва да науча ip tables maj
+[11:49:06] <dencho> da :P
+[11:49:38] <dencho> idi iztrii celiq firewall na fedorata i sloji defalt firewall-a na centos :D
+[11:49:42] <dencho> i nqma da ima6 problemi
+[11:50:33] deyan (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) joined #telerikacademy.
+[11:50:44] <dencho> deyaneeeeeei
+[11:50:58] <deyan> къде си бе Денчоууу
+[11:51:25] <dencho> deyaneeeeeei ma4ka patkata da ti qde ! :D
+[11:51:49] <yulimoto> dencho: slagam tova man -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
+[11:52:27] <dencho> yulimoto ama na pravilnoto mqsto li go slaga6 :D
+[11:52:51] <dencho> sled posleniq accept rule i predi posledniq drop/reject rule na verigata INPUT
+[11:53:24] <dencho> v tablicata filter
+[11:53:28] <yulimoto> mdaa
+[11:53:35] <yulimoto> сега ще го видя
+[11:53:35] <dencho> ook :D resetka6 i si gotov
+[11:55:36] <yulimoto> кое ресеткам
+[11:55:38] <yulimoto> :)
+[11:55:53] <yulimoto> нетуорка ли
+[11:56:14] <yulimoto> как се умотах
+[11:57:40] <yulimoto> разбрах иптаблес-а
+[11:57:59] <yulimoto> имам успех !!!!
+[11:58:07] <yulimoto> мерси dencho !!!!
+[11:58:25] <yulimoto> слава на теб и редхат боговете, които сте измисли всичко това
+[11:59:05] <yulimoto> слава и на deyan който седи като върховен бог отстрани и гледа цялата тая исторя
+[11:59:08] <yulimoto> аре
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:29] <dencho> haha
+[12:00:30] <dencho> :D
+[12:00:52] <dencho> yulimoto linux-a go resetka6 samo kogato zabie :P
+[12:01:00] <dencho> vsi4ko ostanalo po vsqko vreme :D
+[12:01:01] <dencho> :D
+[12:01:58] <dencho> are... obiad, :D 4e posle debian-a me 4aka, a be koq e last stable versia na debian ?

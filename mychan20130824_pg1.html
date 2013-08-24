@@ -113,6 +113,56 @@
 			<div>&nbsp;<span class="time">[10:55:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; всяка сутрин ще пренасям в жертва една виртуалка, дано сте по милостиви</span></div>
 			<div>&nbsp;<span class="time">[10:59:23]</span>&nbsp;<span class="nick">&lt;deyan&gt;</span><span class="text">&nbsp; заради скапаната алса ще трябва да рестартирам</span></div>
 			<div>&nbsp;<span class="time">[10:59:36]</span>&nbsp;<span class="else_li">&nbsp;deyan (~deyan@46.249.92.240) left irc: Quit: Leaving</span></div>
+			<div>&nbsp;<span class="time">[11:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[11:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[11:02:00]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ем само алсата не може ли ?</span></div>
+			<div>&nbsp;<span class="time">[11:29:21]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; <a href="http://youtu.be/5O6wr_Gr0zM">http://youtu.be/5O6wr_Gr0zM</a></span></div>
+			<div>&nbsp;<span class="time">[11:32:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хммм инсталирам вируталка, готова федора, пускам ѝ openssh, има си там dhcp ; виртуалката е на 192.168.1.107 и като ssh 192.168.1.107 от виртуалката бачка, обаче от други места в мрежата йок</span></div>
+			<div>&nbsp;<span class="time">[11:32:45]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; пинг има</span></div>
+			<div>&nbsp;<span class="time">[11:33:20]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега ако са инсталирали един файрлол или Ip tables са барали, ще го изям</span></div>
+			<div>&nbsp;<span class="time">[11:34:19]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; не си ли го инсталирам аз сега мисля за 1000 вероятности....</span></div>
+			<div>&nbsp;<span class="time">[11:44:12]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; fedora ima mnogo strog iptables</span></div>
+			<div>&nbsp;<span class="time">[11:44:23]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; no mislq, 4e sshd tam e default install</span></div>
+			<div>&nbsp;<span class="time">[11:44:43]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; i 100% sum siguren, 4e trqbva da go barne6 iptables-a</span></div>
+			<div>&nbsp;<span class="time">[11:45:38]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; ima6 li ping ot drugi mesta do 192.168.1.107</span></div>
+			<div>&nbsp;<span class="time">[11:45:47]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; ako ima6, zna4i si opravi firewall-a</span></div>
+			<div>&nbsp;<span class="time">[11:45:48]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[11:46:38]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; пинг има от всекъде</span></div>
+			<div>&nbsp;<span class="time">[11:46:47]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; sshd samo localno</span></div>
+			<div>&nbsp;<span class="time">[11:46:55]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; iptables</span></div>
+			<div>&nbsp;<span class="time">[11:47:08]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; sudo vim /etc/sysconfig/iptables</span></div>
+			<div>&nbsp;<span class="time">[11:47:12]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а иначе си нетстата върви ви си 0:0:0:0 22 порт</span></div>
+			<div>&nbsp;<span class="time">[11:47:17]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ясно</span></div>
+			<div>&nbsp;<span class="time">[11:47:35]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[11:48:16]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; ob6to vzeto, ako iska6 moje da go spre6 celiq firewall, i da sloji6 tozi koito e na centos defalt firewall</span></div>
+			<div>&nbsp;<span class="time">[11:48:22]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; toi e 12 reda</span></div>
+			<div>&nbsp;<span class="time">[11:48:36]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; ob6to vzeto toi pozvolqva samo 22 port za ssh i vsi4ko drugo dropi</span></div>
+			<div>&nbsp;<span class="time">[11:48:52]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; no na fedorata e dulag firewall-a sus vsqkakvi rulove</span></div>
+			<div>&nbsp;<span class="time">[11:49:02]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а аз най-накрая трябва да науча ip tables maj</span></div>
+			<div>&nbsp;<span class="time">[11:49:06]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; da :P</span></div>
+			<div>&nbsp;<span class="time">[11:49:38]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; idi iztrii celiq firewall na fedorata i sloji defalt firewall-a na centos :D</span></div>
+			<div>&nbsp;<span class="time">[11:49:42]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; i nqma da ima6 problemi</span></div>
+			<div>&nbsp;<span class="time">[11:50:33]</span>&nbsp;<span class="else_j">&nbsp;deyan (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[11:50:44]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; deyaneeeeeei</span></div>
+			<div>&nbsp;<span class="time">[11:50:58]</span>&nbsp;<span class="nick">&lt;deyan&gt;</span><span class="text">&nbsp; къде си бе Денчоууу</span></div>
+			<div>&nbsp;<span class="time">[11:51:25]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; deyaneeeeeei ma4ka patkata da ti qde ! :D</span></div>
+			<div>&nbsp;<span class="time">[11:51:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; dencho: slagam tova man -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT</span></div>
+			<div>&nbsp;<span class="time">[11:52:27]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; yulimoto ama na pravilnoto mqsto li go slaga6 :D</span></div>
+			<div>&nbsp;<span class="time">[11:52:51]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; sled posleniq accept rule i predi posledniq drop/reject rule na verigata INPUT</span></div>
+			<div>&nbsp;<span class="time">[11:53:24]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; v tablicata filter</span></div>
+			<div>&nbsp;<span class="time">[11:53:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; mdaa</span></div>
+			<div>&nbsp;<span class="time">[11:53:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега ще го видя</span></div>
+			<div>&nbsp;<span class="time">[11:53:35]</span>&nbsp;<span class="nick">&lt;dencho&gt;</span><span class="text">&nbsp; ook :D resetka6 i si gotov</span></div>
+			<div>&nbsp;<span class="time">[11:55:36]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; кое ресеткам</span></div>
+			<div>&nbsp;<span class="time">[11:55:38]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[11:55:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; нетуорка ли</span></div>
+			<div>&nbsp;<span class="time">[11:56:14]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; как се умотах</span></div>
+			<div>&nbsp;<span class="time">[11:57:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; разбрах иптаблес-а</span></div>
+			<div>&nbsp;<span class="time">[11:57:59]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; имам успех !!!!</span></div>
+			<div>&nbsp;<span class="time">[11:58:07]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; мерси dencho !!!!</span></div>
+			<div>&nbsp;<span class="time">[11:58:25]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; слава на теб и редхат боговете, които сте измисли всичко това</span></div>
+			<div>&nbsp;<span class="time">[11:59:05]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; слава и на deyan който седи като върховен бог отстрани и гледа цялата тая исторя</span></div>
+			<div>&nbsp;<span class="time">[11:59:08]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аре</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
