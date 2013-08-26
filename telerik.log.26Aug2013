@@ -205,3 +205,84 @@
 [11:04:47] <KrasiGa> разреждай я по-често
 [11:04:51] <Fairytale> zavisi
 [11:04:56] <KrasiGa> аз така си съсипах моята
+[11:05:01] <anton_dutsov> KrasiGa: ще го имам в предвид
+[11:05:06] <rewind__> или я остави на 70% преди да я извадиш и всяка седмица я включвай
+[11:05:22] <Fairytale> bateriq umira ako ne se izpolzva
+[11:05:43] <rewind__> според мен бързо ще се откажеш от тази практика, доста е досадно да се грижиш с такава честота за техника
+[11:05:58] <anton_dutsov> а аз си мислех, че от честото дозареждане в началото й намалих капацитета.
+[11:06:07] <Fairytale> az moqta q durja v shafa,samo edin put v meseca q razrejdam do kraq i posle q ostavqm na 70% v skafa
+[11:06:20] <rewind__> съвременните батерии имат достатъчно електроника, която се опитва да се справи с този тип проблеми
+[11:06:21] <Fairytale> veche 4 godini si mi darji 3-4 chasa
+[11:07:33] <rewind__> явно не ти е досадило да го правиш :)
+[11:07:46] <Fairytale> emi kolko mu e
+[11:08:34] <Fairytale> edin put v meseca slagash bateriq,za smetka na tova mojesh da rachitash na neq dalgi godini
+[11:09:13] <Fairytale> parvata mi bateriq se sasipa za 1 godina i ot togava si gi pazq
+[11:09:21] <KrasiGa> аз не бих го правила
+[11:09:32] <KrasiGa> в крайна сметка няма нищо вечно
+[11:09:41] <KrasiGa> пък след толкова години ще си смениш машината
+[11:10:19] <Fairytale> da obache za da q prodadesh cenata mnogo zavisi ot sastoqnieto na bateriqta
+[11:10:31] <anton_dutsov> Fairytale: много вярно
+[11:12:26] <Fairytale> vse pak ne govorime za baterii AAA ot 1lv
+[11:17:36] <anton_dutsov> Fairytale: след време не можеш и да ги намериш въпреки цената им.
+[11:23:57] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[11:28:33] <anton_dutsov> rewind__: win 8 отделно от новия лаптоп мога ли да купя и от къде?
+[11:32:17] lari_ (5f2a1e9c@gateway/web/freenode/ip.95.42.30.156) joined #telerikacademy.
+[11:32:38] <rewind__> никога не е изгодно да пазаруваш каквато и да е ОС на Майкрософт без тя да е предварително инсталирана на машината, която купуваш
+[11:32:53] <rewind__> anton_dutsov: или поне аз съм останал с такова впечатление
+[11:34:19] <rewind__> anton_dutsov: ако ще ти трябва уиндоус, по-добре купи машината с такъв, цената му ще бъде оптимизирана спрямо това, колко производителя на bloat софтуер са си платили да техния продук т да бъде предварително инсталиран на машината ти
+[11:35:33] <rewind__> anton_dutsov: съвсем скоро доста хора повдигнаха въпроса относно голямата разлика в цената на един модел xps на Dell, чиято цена с Убунту бе доста по-висока отколкото с Уиндоус
+[11:36:02] <anton_dutsov> това е добър въпрос
+[11:36:06] <rewind__> моя съвет е да потърсиш машина директно с i5-4ххх или i7-4xxx процесор
+[11:36:19] <anton_dutsov> вероятно са оптимизирали Убунту за тях ;)
+[11:36:58] <anton_dutsov> за сега срещнах само i7-4700
+[11:37:28] <anton_dutsov> но пък цената беше дори над 2000лв
+[11:38:01] <rewind__> производителя е получил доста $ за "реклама" инсталирайки "безплатни" (адуер) или trial софтуер, който ти трябва сам да си загубиш времето да махнеш след което, в Убунту няма как да направят такъв филм
+[11:38:25] <rewind__> i7 e доста скъп още, но ще се появят и свестни модели
+[11:39:03] <rewind__> подобренията са значителни и са основно в плюс при използване в мобилни устройства, така че си заслужава да се насочиш към такъв
+[11:39:18] <anton_dutsov> като че ли ще е по-добре да отложа покупката за по-късно :/
+[11:39:41] <anton_dutsov> да излязат и i5 от 4th gen
+[11:40:50] <rewind__> да, за Асус можеш да следиш тук - http://mostbg1.com/most/PriceList.aspx (на notebook)
+[11:41:52] <rewind__> за Lenovo можеш тук - http://goo.gl/I8kfuY
+[11:43:26] <Fairytale> Lenovo ot Solytron li se vnasqt?
+[11:43:39] <rewind__> и от тях, но мисля, че не са единствения дистрибутор
+[11:44:26] <rewind__> имайте предвид, че и двата дистрибутора по-горе не продават на крайни клиенти, но са отправна точка за модели, описания и информация, тъй като голяма част от фирмите "зареждат" именно от тях
+[11:45:53] <anton_dutsov> http://solytron.bg/kompyutri/prenosimi/lenovo-lenovo-g510-15-6-i7-4700mq-2-4ghz-to-3-4ghz-8750-2gb-8gb-1tb-8gb-sshd-dvd-hdmi-wifi-bt-hd-cam-6cell-metal-black-59392346;details
+[11:46:46] <anton_dutsov> http://solytron.bg/kompyutri/prenosimi/lenovo-lenovo-y510-15-6-fullhd-i5-4200m-2-5ghz-to-3-1ghz-gt755-2gb-8gb-1tb-8gb-sshd-ultrabay-slot-backlit-kbd-antiglare-usb-3-0-720p-webcam-6in1-hdmi-gigabitlan-wifi-bt-6-cell-metal-black-59390551;details
+[11:46:56] <anton_dutsov> от тях не може така ли?
+[11:47:39] <rewind__> да, супер беше този модел, докато не стигнах до 1366х768 и не започна да ми се преглъща по-често :)
+[11:48:07] <rewind__> всъщност ако ще го ползваш на външен монитор и рядко на неговия си екран изглежда огън, дори има SSHD
+[11:48:44] <rewind__> но ще трябва да му качиш и ОС
+[11:49:01] <rewind__> ако ти трябва Windows, по-добре си намери с такъв
+[11:49:17] <rewind__> от тях само ако си фирма
+[11:49:32] <rewind__> или поне мен така са ме отрязвали често
+[11:49:58] <Fairytale> Az predi pazaruvah ot Most za firma ,no vlizaha hora i si pazaruvaha i bez firma.
+[11:50:33] <rewind__> Fairytale: един колега ми спомена и поликомп току що
+[11:50:42] <Fairytale> tnx
+[11:50:48] <rewind__> Fairytale: за леново става въпрос
+[11:50:55] <rewind__> Fairytale: нп
+[11:51:09] <anton_dutsov> започнаха много да ми харесват Lenovo :)
+[11:51:32] <anton_dutsov> струваха ми се скъпички
+[11:51:39] <rewind__> anton_dutsov: не ми харесва единствено, че са китайци :) Иначе съм си фен на thinkpad от край време
+[11:52:02] <Fairytale> To mejdi kitaici i kitaici ima razlika :-)
+[11:52:06] <rewind__> anton_dutsov: в смисъл от времето, в което не бяха леново за да съм по-конкретен
+[11:52:39] <anton_dutsov> Fairytale: съгласен съм
+[11:52:50] <rewind__> Така е, но тези конкретно започнаха да ги изваждат от списъците на доста държави като възможни производители на техника за държавна администрация по ред причини :)
+[11:52:53] <anton_dutsov> rewind__: както се казва
+[11:53:08] <anton_dutsov> "Ако не е китайско значи е менте" :D
+[11:53:30] <rewind__> anton_dutsov: хаха, има нещо такова в наши дни :)
+[11:53:50] <anton_dutsov> кое не се произвежда в китай
+[11:54:03] <rewind__> anton_dutsov: няма да изброявам колко холандски и немски производители държат фабрики в Китай и Индия
+[11:54:20] <anton_dutsov> Германия също
+[11:54:38] <anton_dutsov> извинявай
+[11:54:44] <anton_dutsov> видях само холандия
+[11:55:18] <Fairytale> Az si kupih originalni rizi Tom Tailor ot Germany,ot oficialniq magazin i na tqh pishe Made in China.
+[11:55:19] <rewind__> да, точно - gmbh с трима души и годишни продажби от по няколко стотин хиляди единици лед стени или контролери...
+[11:55:44] <rewind__> като пример само
+[11:57:28] <anton_dutsov> DSP лицензът на Win8 е прехвърлим между машини до колкото разбирам?!
+[11:58:55] <Fairytale> A te Telerik nali davaha DreamSpark account ?
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:03:12] <yulimoto> Fairytale: май трябва да вземеш поне 1 изпит.
+[12:04:13] <Fairytale> Znachi koito se interesuvashe za Most computers.predi bqha 3 kolonki s ceni kato poslednata beshe za kraini klienti
+[12:04:23] <Fairytale> sega gledam sa 4ri
+[12:04:50] <Fairytale> predpolagam nqma da otkajat na nikoi cena ot poslednata kolonka
