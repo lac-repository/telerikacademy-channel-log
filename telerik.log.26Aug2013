@@ -449,3 +449,33 @@
 [19:00:00] Writing user file...
 [19:00:00] Writing channel file...
 [19:04:41] KacanuH (~deyan@46.249.92.240) joined #telerikacademy.
+[19:27:53] dyrgel (~dyrgel@92.247.8.98) joined #telerikacademy.
+[19:37:00] KacanuH (~deyan@46.249.92.240) left irc: Remote host closed the connection
+[19:37:58] net: connect! sock 3
+[19:37:58] DNS resolved 127.0.0.1 to localhost
+[19:37:58] Telnet connection: localhost/55407
+[19:37:58] net: eof!(read) socket 7
+[19:37:58] Lost connection while identing [localhost/55407]
+[19:38:39] net: connect! sock 3
+[19:38:39] DNS resolved 127.0.0.1 to localhost
+[19:38:39] Telnet connection: localhost/56679
+[19:38:39] net: connect! sock 9
+[19:38:39] net: eof!(read) socket 9
+[19:38:39] Timeout/EOF ident connection
+[19:38:39] net: eof!(read) socket 7
+[19:38:39] Lost telnet connection to telnet@localhost/56679
+[19:39:16] hackman_ (~hackman@87-126-5-206.btc-net.bg) left irc: Ping timeout: 276 seconds
+[19:39:18] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[19:51:20] hackman_ (~hackman@87-126-35-115.btc-net.bg) joined #telerikacademy.
+[19:57:20] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[19:57:37] <yulimoto> rewind_mobile: мдааа и при мен е тако.
+[19:59:34] Action: dencho slaps yulimoto around a bit with a large trout
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:38] <yulimoto> dencho: същото става и с една дълга пръчка, като я закрепиш да натиска бутона със скоч, колкото е по-дълъг кола толкова по-голям ти е обхвата на мрежата
+[20:02:36] <yulimoto> dencho: ако искаш може да жертваш и някой рибарски прът 10-12 метра, репийтър не ти требе
+[20:03:11] <dencho> :]
+[20:03:47] <dencho> [20:02:05] * slivardo_26sf (5a9a8036@del.html.chat) has joined #gyuvetch
+[20:03:54] <dencho> yulimoto mnogo originalen nick si si izbral
+[20:03:54] <dencho> :P
+[20:04:40] <yulimoto> хахаха аз съм дундалдиньо
