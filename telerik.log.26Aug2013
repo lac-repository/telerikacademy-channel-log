@@ -32,3 +32,24 @@
 [09:00:00] Writing user file...
 [09:00:00] Writing channel file...
 [09:01:16] test_user (~Thunderbi@89.106.117.33) left irc: Client Quit
+[09:07:25] anton_dutsov (~Thunderbi@89.106.117.33) joined #telerikacademy.
+[09:19:00] anton_dutsov (~Thunderbi@89.106.117.33) left irc: Quit: anton_dutsov
+[09:19:20] anton_dutsov (~Thunderbi@89.106.117.33) joined #telerikacademy.
+[09:28:10] <anton_dutsov> Добро утро!
+[09:32:25] <KrasiGa> Добро и на теб! :)
+[09:40:06] <anton_dutsov> Някой ще сподели ли съветче за нов лаптоп под Линукс със виртуалки?
+[09:54:23] <bentoslack> какво ти трябва
+[09:57:35] <anton_dutsov> bentoslack: Нужно ли ми е процесорът да има Vt-d освен Vt-x маркировка? И ако е 15.6" има ли смисъл да е FullHD екранът?
+[09:59:16] <KpeTeHoug> да, на конзола, Full HD-to те пренася в нов свят на образи
+[09:59:16] <KpeTeHoug> :)
+[09:59:54] <anton_dutsov> KpeTeHoug: :D
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:06] <KpeTeHoug> и добро утро и от мен :)
+[10:00:19] <anton_dutsov> Добро утро.
+[10:02:26] <bentoslack> anton_dutsov: добре е да си вземеш машината с процесор който поддържа хардуерна виртуализация
+[10:02:49] <bentoslack> а и какво толкова ще пускаш?
+[10:03:02] <bentoslack> 1-2 виртуалки с виртуалбокс или квм?
+[10:04:00] <anton_dutsov> bentoslack: KVM
+[10:04:33] <anton_dutsov> bentoslack: Сега ме подсети да попитам и относно ядрата за виртуалните машини
+[10:04:36] elnahir (c258e457@gateway/web/freenode/ip.194.88.228.87) joined #telerikacademy.
