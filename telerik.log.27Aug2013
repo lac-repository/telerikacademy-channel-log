@@ -474,3 +474,34 @@
 [15:04:32] <dencho-at-work> KrasiGa: pi6i kp i natisni tab :P
 [15:04:40] <dencho-at-work> dva puti
 [15:04:42] <dencho-at-work> :D
+[15:05:03] <KrasiGa> даааа, благодаря за съвета - вече ми казаха
+[15:05:41] anton_dutsov (~Thunderbi@89.106.117.33) joined #telerikacademy.
+[15:05:42] <anton_dutsov> KpuCko: да от Видин съм
+[15:06:18] <anton_dutsov> yulimoto_: Е хубаво и какво ще обяснява като въпроси
+[15:06:32] <anton_dutsov> ще продължи програмата от кураса ли?
+[15:06:49] <anton_dutsov> или ще разяснява предаденото до тук
+[15:07:18] <anton_dutsov> KpuCko: ти кой си?
+[15:08:53] <anton_dutsov> Кой е записан на курса за PHP?
+[15:09:24] <yulimoto> anton_dutsov: content-а зависи може да е по домашните или кой каквото го интересува по линукс. Но тук аз съм малко скептичен,както и да е
+[15:09:42] <yulimoto> anton_dutsov: При gattakka ли ? Аз не съм :)
+[15:09:45] <KrasiGa> ти не беше ли на тръстиката yulimoto
+[15:10:06] <yulimoto> съм съм споко
+[15:11:28] <KrasiGa> щом си на линия съм спокойна
+[15:11:28] <anton_dutsov> yulimoto: при gatakka да.
+[15:13:16] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[15:13:42] <anton_dutsov> относно домашните никак не бих отказал да видя как другите колеги са направили определена задача
+[15:15:16] <anton_dutsov> за някои неща не стига време, а има задачи
+[15:15:44] <anton_dutsov> коите се решават на база как е разбрана
+[15:24:49] <lari__> регистриране еднократно и логване многократно на http://lms.xkbit.info:5080/openmeetings/
+[15:25:24] <anton_dutsov> KpuCko: тук ли си?
+[15:26:14] <KrasiGa> lari__: при мен стои празен бял екран на този линк
+[15:26:37] <lari__> Има си какткто вътрешна поща, така и file storage и вътрешен собствен чат
+[15:27:17] <lari__> Имаш ли Flash и jre инсталирани?
+[15:27:36] <KrasiGa> да
+[15:29:36] <lari__> Разреши на браузера да стартира аплети и чакаи. Зарежда се и тръгва толям аплет, зависиш от Инит канала и процесора си...
+[15:35:24] <lari__> А има си ифункция календар за разпращане на покани за планираното събитие ...
+[15:37:41] <lari__> @KrasiGa Ако се съмняваш за блокирани портове, то сканирай ги с http://nmap.org/zenmap/
+[15:48:42] anton_dutsov (~Thunderbi@89.106.117.33) left irc: Quit: anton_dutsov
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:03:06] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
