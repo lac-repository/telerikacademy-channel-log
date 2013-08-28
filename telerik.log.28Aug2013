@@ -47,3 +47,22 @@
 [09:00:00] Writing channel file...
 [09:02:57] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
 [09:04:09] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[09:12:10] rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[09:13:53] paparazzo (~drako@xtsystems.net) joined #telerikacademy.
+[09:16:18] rewind_mobile (~yaaic@85.118.193.167) left irc: Ping timeout: 264 seconds
+[09:21:48] <KpeTeHoug> guten morgen
+[09:21:54] <KpeTeHoug> gutten даже
+[09:22:38] informer_ (~informer@83.228.55.109) joined #telerikacademy.
+[09:22:38] informer (~informer@83.228.55.109) joined #telerikacademy.
+[09:22:51] informer_ (~informer@83.228.55.109) left irc: Client Quit
+[09:30:25] KpeTeHoug (~GT@212.36.13.10) left irc: Quit: The difference between friendship and love is how much you can hurt each other
+[09:37:51] <rewind> Добро утро :)
+[09:44:55] <rewind> yulimoto: и аз се занимавах с WOL тази сутрин и осъзнах, че за да накарам машината да стартира от спряло положение се наложи първо да открия къде са скрили Асус в UEFI опциите за power on after power fail и се докопах до някаква опция ErP ready. При ErP ready enabled вси�
+[09:49:56] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[09:56:56] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[09:57:20] <dencho-at-work> are we, nqkoi s CentOS i BIND opit ?!
+[09:57:29] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[09:58:46] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds
+[09:59:10] <Deyan> Добро ви утро и от мен
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
