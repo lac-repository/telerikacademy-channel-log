@@ -110,3 +110,44 @@
 [12:54:41] galaris (~galaris@91.120.23.150) left #telerikacademy ("Leaving").
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:30:54] rewind_mobile (~yaaic@85.118.193.185) left irc: Ping timeout: 256 seconds
+[13:35:36] <rewind_> като цяло инспирон е по-нисък клас серия, в сравнение с востро
+[13:36:32] <rewind_> а това с алуминия го усетих откъм негативната му страна миналата седмица с лаптопа на моята приятелка, който е изцяло алуминий и така се нагря докато играх, че в един момент си беше откровенно неприятно да си държа ръцете на него..
+[13:37:30] <rewind_> не съм вярвал, че 25 вата tdp могат да докарат такава температура на корпуса на лаптоп
+[13:38:33] <dencho-at-work> drugo si e plasmasata :D
+[13:38:43] <dencho-at-work> zeme se stopi:D
+[13:39:34] <rewind_> anton_dutsov: аз лично бих се насочил към востро, вероятно е с по-читаво охлаждане и по-читави компоненти, съдейки по това с което съм се сблъсквал преди ако са си запазили политиката от преди няколко години в тези две серии
+[13:39:54] <rewind_> dencho-at-work: няма да се стопи, но така ще вие охлаждането, че по-скоро ще ти стопи ушите :D
+[13:40:28] anton_dutsov (~Thunderbi@89.106.117.33) left irc: Quit: anton_dutsov
+[13:41:48] anton_dutsov (~Thunderbi@89.106.117.33) joined #telerikacademy.
+[13:42:26] <anton_dutsov> Vostro все повече ми харесва! :)
+[13:44:42] <dencho-at-work> q kajete moga li da sloja DNS-a v ifcfg-eth0 conf-a :D
+[13:46:58] <KrasiGa> dencho-at-work: я кажи защо са ни необходими две ip-ta на един dev. Мариан казва на лекциите теб да питаме
+[13:50:53] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 245 seconds
+[13:54:36] <KpeTeHoug> :)
+[13:54:46] <KpeTeHoug> айде dencho-at-work обаждай
+[13:55:42] <dencho-at-work> haha
+[13:56:13] <dencho-at-work> emi za da moje ediniq bot na KpeTeHoug da e s ip 1.2.3.4 a drugia bot na KrasiGa da e s ip 4.3.2.1 :D
+[13:56:40] <KpeTeHoug> т.е на една физическа машина да пуснеш няколко демона, сървиси, и тн
+[13:56:48] <KpeTeHoug> сайтовете може няколко на едно ип
+[13:56:49] <KpeTeHoug> :)
+[13:57:10] <dencho-at-work> moje kolkoto iska6 saitove, no ako iska6 ediniq sait da e na drugo ip :P
+[13:58:43] <dencho-at-work> drugoto koeto e... moje da ima6 edna lan karta na 1 server(ruter) i na taq lanka da setne6 bezbroi mnogo IP adresi, i tezi adresi da gi rutira6 posle taka, 4e pc-to na KpeTeHoug  da izliza s 1.2.3.4 v netq, a pc-to na KrasiGa da izliza s 4.3.2.1 :)
+[13:58:57] <dencho-at-work> a ne vsi4ki da izlizat s 1.1.1.1 :D
+[13:59:40] <KrasiGa> :) благодаря
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:10] <KrasiGa> горе долу разбрах  но за какво ще го искаме да излизат от различни ип-та
+[14:00:23] <KrasiGa> не виждам смисъл
+[14:01:18] <dencho-at-work> mi... kogato KpeTeHoug spami iz celiq svqt, za znaem IP-to mu... a ne kogato toi spammne sveta policiata da idva i pri KrasiGa i pri KpeTeHoug i pri edin kup hora sus su6toto IP :D t.e pri rutera :P~
+[14:01:53] <dencho-at-work> drug variant, kogato KpeTeHoug polu4i ban v kanala na #telerikacademy , KrasiGa da moje da vliza :)
+[14:02:07] <KrasiGa> ахаааа
+[14:02:19] <KrasiGa> ама това е за рутери
+[14:02:41] <KrasiGa> в смисъл, че ако си кнфигурираш машината да рутира
+[14:02:49] <dencho-at-work> emi, drug variant, moje da iska6 edna usluga da vurvi na edno IP, a druga usluga na drugo IP
+[14:03:08] <KrasiGa> че защо да го искам?
+[14:03:12] <KrasiGa> да забранявам едната от време на време?
+[14:03:15] <KpeTeHoug> :)
+[14:03:22] <KpeTeHoug> да контролираш едното ИП
+[14:03:32] <KpeTeHoug> а как точно :) ти си решаваш
+[14:03:41] <KrasiGa> благодаря за хелпа
