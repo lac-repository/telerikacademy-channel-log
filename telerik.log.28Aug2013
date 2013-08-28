@@ -274,3 +274,135 @@
 [15:02:50] <KpeTeHoug> Има ли за тебе пречка, да постъпваш като емчка
 [15:02:54] <KpeTeHoug> *мечка ?
 [15:02:57] <KpeTeHoug> a a a a ?
+[15:09:00] <KpeTeHoug> нещо млъкнахте
+[15:09:08] <KpeTeHoug> сигурно отидохте да търсите потоци >
+[15:09:09] <KpeTeHoug> ?
+[15:09:11] <KrasiGa> аз имам питане
+[15:09:58] <KrasiGa> на компа домакин гледам, че VBoxa e инсталирал eth adapter virtual box с някакво си ip i mac
+[15:10:53] <dencho-at-work> da
+[15:11:00] <dencho-at-work> kompa domakin ?
+[15:11:00] <KrasiGa> но в самата машина CentOS като си пускам ifconfig, ip r и т.н команди на eth0 /той  е единствен/ е съвсем друг ip и не разпознава мац адрес
+[15:11:05] <KrasiGa> дава, празно
+[15:11:22] <dencho-at-work> virtualbox-a si slaga adapter za da moje da pravi NAT i drugite network gluposti
+[15:11:24] <KrasiGa> PC-to ,на което е инсталирано ВБ
+[15:11:39] <dencho-at-work> slovosu4etanieto kompa domakin go zabravi :P
+[15:11:59] <rewind_> KpeTeHoug: има iptables :) с други думи мога да го направя в зависимост от това, за кой домейн е запитването към външния IP адрес на рутера
+[15:12:00] <KrasiGa> е как да го нарека
+[15:12:06] <dencho-at-work> host ma6ina :)
+[15:12:11] <KrasiGa> аааа да бе
+[15:12:13] <dencho-at-work> host pc
+[15:12:15] <KrasiGa> за хоста
+[15:12:50] <dencho-at-work> zna4i v zavisimot virtualbox-a ti kakuv networking pravi za virtualnata ma6ina 6te ti se pokazvat razli4ni ne6ta v ifconfig za eht0
+[15:13:05] <dencho-at-work> poprincip v centos eth0 ne se vdiga auto pri boot
+[15:13:21] <dencho-at-work> trqbva da otide6 i da mu kaje6 v ifcfg-eth0 :)
+[15:13:26] <dencho-at-work> da se vdiga auto :D
+[15:14:00] <dencho-at-work> i ve4e, ako ima6 NAT ili bridge device moje6 da si configurira6 kakvoto iska6 tam :)
+[15:14:25] <KpeTeHoug> rewind_  би трябвало да можеш да
+[15:14:48] <dencho-at-work> KpeTeHoug: kak se match-va domein s IPtables ?!
+[15:15:05] <KpeTeHoug> KrasiGa този интерфейс в уиндоуса, е за да може уиндоуса да знае накъде да ти пусне интернета
+[15:15:06] <yulimoto> dencho-at-work: браво хубав въпрос сега и ако ти отговори
+[15:15:09] <KpeTeHoug> най грубо казано
+[15:15:28] <KpeTeHoug> аз ще отговоря -  еба ли му маата
+[15:15:33] <dencho-at-work> :)
+[15:15:38] <yulimoto> :)
+[15:15:42] <dencho-at-work> da vi kaja li kak?
+[15:16:05] <yulimoto> хахаах предчуствам някоя глупост
+[15:16:15] <yulimoto> да dencho-at-work кажи
+[15:16:22] <KpeTeHoug> http://serverfault.com/questions/123265/how-to-create-an-iptables-rule-using-domain-name
+[15:16:50] <dencho-at-work> iptables -t nat -A PREROUTING -d domain.com -p tcp --dport 8888 -j REDIRECT --to-ports 7777
+[15:16:56] <dencho-at-work> tva go pro4etoh tuko 6to :D
+[15:16:59] <dencho-at-work> qvno moglo :D
+[15:17:18] <KpeTeHoug> явно тука нещо против mighty KpeTeHoug имате а
+[15:17:18] <KpeTeHoug> :)
+[15:17:25] <dencho-at-work> ghahaha
+[15:17:25] <dencho-at-work> :D
+[15:17:38] <dencho-at-work> aaaaaaaa da weeee :P zna4i...
+[15:18:05] <dencho-at-work> iptables -t nat -A PREROUTING -d facebook.com -p tcp --dport 80 -j REDIRECT to localhost:80 :D
+[15:18:13] <dencho-at-work> kudeto ima fake facebook
+[15:18:14] <dencho-at-work> :P
+[15:18:26] <rewind_> Благодаря KpeTeHoug :)
+[15:18:42] <dencho-at-work> ili redirekt to KpeTeHoug's fake page
+[15:18:47] <KpeTeHoug> моля
+[15:18:55] <KpeTeHoug> това е щото обичам мечките
+[15:18:56] <KpeTeHoug> :)
+[15:23:40] <yulimoto> elee листнах си iptables-а доста брутално съм постъпил със сума ти ип-та
+[15:23:47] <KpeTeHoug> хахаха
+[15:24:03] <KpeTeHoug> правил си миш маш
+[15:24:07] <KpeTeHoug> или друркани яйца
+[15:24:47] <KpeTeHoug> *джуркани
+[15:24:50] <yulimoto> ам просто кат ми писнат сканери манери и направо аре чао на ип-тата и тва е
+[15:25:10] <yulimoto> ам това беше докато следях кой ме сканира
+[15:25:36] <KpeTeHoug> сега никой не те сканира
+[15:25:43] <KpeTeHoug> няма свободни служители на ДАНС
+[15:25:47] <KpeTeHoug> отпуска са
+[15:26:10] <yulimoto> просто разбрах, че китайските ип-та няма да свършат
+[15:26:49] <KpeTeHoug> :)
+[15:26:56] <KpeTeHoug> ааа, свърват свършват
+[15:27:17] <KpeTeHoug> дай направо по B или C клас мрежа
+[15:27:19] <yulimoto> въпреки че ако забраня направо шанхай телеком ?!! кой знае :)
+[15:27:20] <KpeTeHoug> и тва е
+[15:27:29] <KpeTeHoug> :)
+[15:28:31] <yulimoto> аз по едно време си направих там скрипт в logrotate дето да вижда по-наглите ип-та и da mi праща мейл
+[15:29:18] <KpeTeHoug> че да се ядосваш само
+[15:29:42] <yulimoto> да
+[15:30:01] <yulimoto> друго си е да почнеш деня с нещо позитивно, а то с тез келеши
+[15:30:22] <yulimoto> един от украйна големи приключения имах с него
+[15:32:31] <yulimoto> най-накрая си преместих ssh на 22 порт да може да ми е по удобен, даже го намерих в твиттер и го помолих да се насочи примерно към фризьорство или нещо друго но не и компютри
+[15:34:15] <KpeTeHoug> чакай сега
+[15:34:22] <KpeTeHoug> ти си си върнал ssh на 22ри ?
+[15:34:26] <KpeTeHoug> заради него
+[15:34:39] <KpeTeHoug> аз моя го изместих заради KrasiGa и ме мързи да го оправям :)
+[15:38:17] <dencho-at-work> i kak pa go nameri v tviter
+[15:55:49] <dencho-at-work> KAK GO NAMERI WE yulimoto WE, TYRSACHKA TAKAVA WE
+[15:56:30] <yulimoto> dencho-at-work: имаше мейл сървър от там почнах аз да го тормозя и така го намерих и в твиттер
+[15:57:19] <dencho-at-work> ahaaaaa
+[15:57:59] <yulimoto> KpeTeHoug: върнах 22 порт щото да има смисъл той беше такъв бот че не може да си едитне скрипта който прави dictionary attack и за тва аз върнах 22 порт
+[15:58:22] <dencho-at-work> super qko :D
+[15:58:22] <yulimoto> та да може да опитва с кирливата си атака
+[15:58:52] <yulimoto> въпреки че логването на сървъра ставаше само с ssh-key не с пароли
+[15:59:19] <KpeTeHoug> е това не му пречи
+[15:59:24] <KpeTeHoug> има ли за него пречка
+[15:59:29] <KpeTeHoug> да постъпва като мечка /
+[15:59:30] <KpeTeHoug> ?
+[15:59:34] <yulimoto> не
+[15:59:41] <yulimoto> аз им намерих и сайта
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:07] <yulimoto> деца от някакъв провинциален град, какво да правят :)
+[16:00:09] <dencho-at-work> dai na KrasiGa ip adresa i da go floodne s upd ;P
+[16:00:21] <dencho-at-work> udp
+[16:00:57] <yulimoto> тя вече се сресва; 30 мин. до излитането
+[16:01:29] <KrasiGa> dryg problem imam
+[16:02:05] <dencho-at-work> tq da ne raboti vuv usloviq na silen vqtyr 4e da se re6e we
+[16:02:06] <dencho-at-work> hahaha
+[16:02:13] <KpeTeHoug> хахах
+[16:02:13] <dencho-at-work> v*
+[16:02:14] <dencho-at-work> :D
+[16:02:24] <dencho-at-work> ili v ofisa stava te4enie
+[16:02:25] <dencho-at-work> :D
+[16:02:27] <KpeTeHoug> тука един комшия си купил диск
+[16:02:36] <KpeTeHoug> за разкодирване на WiFi пароли
+[16:02:44] <dencho-at-work> offf tiq diskove...
+[16:02:47] <dencho-at-work> i s tiq anteni
+[16:02:48] <KpeTeHoug> и понеже аз съм  "програмист"
+[16:02:52] <KpeTeHoug> да съм го видел :)
+[16:02:55] <KrasiGa> хахаха
+[16:02:59] <yulimoto> dencho-at-work: ама от старта и прическата и се разваля, та за това ползва лак за коса
+[16:03:02] <KpeTeHoug> голям смях
+[16:03:04] <dencho-at-work> te tiq diskove se davat s razni pi6ki
+[16:03:11] <KrasiGa> и моите колеги ни наричат - програмисти
+[16:03:29] <KpeTeHoug> е така де, аз съм програмиста и аз
+[16:03:37] <KpeTeHoug> нищо че не отбирам бъкел
+[16:03:37] <dencho-at-work> teroristi
+[16:03:44] <KrasiGa> :)
+[16:03:58] <KpeTeHoug> как да е, та то това голяма боза, некво дистро орязано, с 4 тулки и хваща само WPA
+[16:04:11] <KpeTeHoug> и пак нищо не разби де :) ма са го обули 100тина лв сигурно
+[16:04:12] <dencho-at-work> e ti kvo iska6 da hvane we
+[16:04:13] <dencho-at-work> :D
+[16:04:24] <KpeTeHoug> еба ли го, аз не съм виждал такива акита
+[16:04:25] <KpeTeHoug> :)
+[16:04:33] <KrasiGa> а аз се чудя да се радвам или да плача: спечелих Stand up paddle surf и се чудя какво да го правя
+[16:04:33] <yulimoto> wpa2
+[16:04:36] <dencho-at-work> ima... mnogo sa moderni pri lapetata
+[16:04:41] <KrasiGa> някой от вас да иска да го купи?
+[16:04:45] <dencho-at-work> kakvo e stand up paddle ?!
