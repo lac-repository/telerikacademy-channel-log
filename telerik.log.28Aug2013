@@ -151,3 +151,126 @@
 [14:03:22] <KpeTeHoug> да контролираш едното ИП
 [14:03:32] <KpeTeHoug> а как точно :) ти си решаваш
 [14:03:41] <KrasiGa> благодаря за хелпа
+[14:05:13] <dencho-at-work> :)
+[14:13:35] <dencho-at-work> KrasiGa: eto 6te edin primer, za6to ti trqbvat 2 ip-ta, ako KpeTeHoug iska da si pusne irc server koito obiknovenno slu6a na 6667 port i v su6toto vreme i ti iska6 da si pusne6 irc server koito i toi da slu6a na 6667 port, edinstveniq na4in tova da stane na edna ma6ina e ako tazi ma6ina ima 2 ip-ta :) taka i dvamata 6te si napravite irc mreja sus razli4ni serveri ot razli4ni IP-ta no samo vie 6te si znaete, 4e te se run
+[14:13:37] <dencho-at-work> :D
+[14:15:02] <KrasiGa> :)
+[14:15:10] <KrasiGa> mnogo si iz4erpatelen
+[14:18:09] <yulimoto> денчо денчо денчо
+[14:18:27] <rewind_> ок, в същата връзка - ако имам рутер с 1 външен IP адрес и два домейна сочещи към него, а зад него имам две машини с различни сайтове (два отделни апач сървъра) каква ще бъде ситуацията ?
+[14:22:45] <KpeTeHoug> защо са ти 2 апача ?
+[14:22:52] <KpeTeHoug> един с virtual hosts
+[14:23:55] <dencho-at-work> vun6niq ti IP na port 80 6te otvarq tozi apa4 koito mu kaje6 na rutera :P
+[14:24:54] <dencho-at-work> abf! 4akai 4e se zamislih :D
+[14:25:12] <yulimoto> rewind_: апачито хоства мултипъл сайтове, просто му казваш когато дойде заявка за domain1.com да прави едно, когато дойде заявка за domain2.com да прави друго;
+[14:25:21] <KpeTeHoug> икзактли
+[14:25:31] <KpeTeHoug> менаджира си ги  без проблем
+[14:25:40] <rewind_> yulimoto: a ако са две апачи-та на два различни хоста
+[14:26:07] <rewind_> няма ли да стане малко конфликт, към кое ще пренасоча порт 80 или 443 или който трябва
+[14:26:56] <yulimoto> ами ако рутера препраща на 192.168.1.10  ще отговори това апачи, а ако рутера препраща към 192.168.1.12 ще отговори другото апачи
+[14:27:10] <dencho-at-work> ya :D
+[14:27:14] <yulimoto> няма конфликт
+[14:27:18] <dencho-at-work> [14:23] <dencho-at-work> vun6niq ti IP na port 80 6te otvarq tozi apa4 koito mu kaje6 na rutera :P [14:24] <dencho-at-work> abf! 4akai 4e se zamislih :D
+[14:27:26] <dencho-at-work> hahaha
+[14:27:27] <dencho-at-work> :D
+[14:27:58] <KpeTeHoug> освен ако не разделиш пакетите по някакъв друг начин ;)
+[14:27:59] <yulimoto> аз така имам 2 апачита едното ползвам само за https (443) другото си ползвам на друга машина на 80 порт
+[14:28:44] <rewind_> yulimoto: добре де, сетъпнат е порт 80 към 192.168.1.10, няма как да сетъпнеш порт 80 да сочи и към другия адрес, когато ти е необходимо да отвориш сайт на другия апач
+[14:29:25] <yulimoto> мне
+[14:29:33] <yulimoto> т.е.
+[14:30:07] <yulimoto> рутера си е рутер не е устройство което да решава такива проблеми
+[14:30:27] <rewind_> yulimoto: t.e. единствения начин е както в твоя случай, единия сайт да бъде на 80, другия на 443 (хттпс) и съответно двата порта да сочат към различни локални адреси
+[14:30:50] <dencho-at-work> slaga6 na rutera o6te edin vun6en IP adres koito da sloji kum 192.168.1.15 :D
+[14:31:00] <dencho-at-work> na port 80
+[14:31:01] <dencho-at-work> :D
+[14:31:10] <rewind_> yulimoto: видя ли ми разсъжденията сутринта на тема WOL и UEFI и т.н. :)
+[14:31:27] <yulimoto> ами ако търсиш решение не го търси в рутера, така ще направиш логиката мишмаш . предлагам ти друго :
+[14:31:34] <rewind_> dencho-at-work: да, и от мегалан ти носят един суич за да ти докарат втори кабел :D
+[14:31:42] <yulimoto> rewind_: да видях го
+[14:31:50] <dencho-at-work> rewind_: ne mislq.. :)
+[14:31:59] <dencho-at-work> rewind_: az sam na megalan :)
+[14:32:06] <dencho-at-work> nqma nujda ot vtori kabel
+[14:32:36] <dencho-at-work> osven ako ne iska6 vtori accaunt s druga tarifa
+[14:32:39] <rewind_> yulimoto: беше ми се развързал irc и не видях дали си писал нещо - какво ти е дъното, на което се мъчиш да го оправиш това
+[14:33:12] <rewind_> dencho-at-work: реална случка - в брат ми, донесоха му един суич и от неговия кабел за интернет в суича и в два домашни рутера :)
+[14:33:35] <rewind_> dencho-at-work: иначе и аз съм на тях от доста време, като уви сега се наложи да преподпиша с мтел
+[14:34:05] <dencho-at-work> moje bi za tqh e po lesno... az li4no imam 1 kabel i 1 pc za ruter i na nego sam conf-nal 2 ip-ta i ve4e na tataka se slu4vat ne6tata
+[14:34:12] <yulimoto> ако искаш да отваряш domain1.com който е на адресс 192.168.1.2 и съответно domain2.com който ти е на 192.168.1.3 , a рутера ще е 192.168.1.1 просто може да настроиш рутера да пренасочва към 80 и 443 портове 192.168.1.2, а съответно 192.168.1.2 когато има заявка domain2.com da prenaсова към 192.168.1.3
+[14:34:39] <yulimoto> rewind_: преровил съм дъното, няма как да стане много е старо и кьопаво
+[14:34:54] <KpeTeHoug> dencho-at-work така е, но имаш PC за рутер
+[14:34:56] <yulimoto> да не ми изряза пак съобщението от горе
+[14:35:00] <KpeTeHoug> а на малка кутийка
+[14:35:01] <dencho-at-work> rewind_: a brat ti na kakva tarifa e? 4e da hodq i az da iskam switch, a ne da prosq na KpeTeHoug
+[14:35:15] <KpeTeHoug> е аз ти дадох вече, няма какво да просиш ;)
+[14:35:47] <rewind_> yulimoto: така съм направил в момента, лошото е, че сега се налага и двата да отидат на порт 443 и стана малко кофти :)
+[14:35:51] <dencho-at-work> KpeTeHoug: lesno moga da im kaja 4e nqmam :D az ne znaeh, 4e gi razdavat tiq switchove ei taka
+[14:36:03] anton_dutsov (~Thunderbi@89.106.117.33) left irc: Ping timeout: 259 seconds
+[14:36:18] <dencho-at-work> rewind_: a dvata doma6ni rutera edniq e s edno IP a drugia s drugo ?!
+[14:36:27] <yulimoto> rewind_: не ме разбра няма проблем и двата да са на 443
+[14:36:30] <dencho-at-work> a ruterite pak li sa na megalag?
+[14:36:36] <yulimoto> rewind_: и двете машини
+[14:37:23] <rewind_> dencho-at-work: не, рутерите са си негови, всъщност съм много смотан - един рутер и една машина
+[14:37:32] <rewind_> dencho-at-work: е с томато
+[14:37:39] <dencho-at-work> qsno
+[14:37:40] <yulimoto> rewind_: просто тази към която се пренасочват заявките към рутера ще пренасочва ако домаин2.цом иска да се зареди, ако e domain1.com ще си зарежда
+[14:38:02] <dencho-at-work> dobre... q kajete sq kak da razbera dali cashing DNS servera mi raboti korektno i ka6ira lainata ?
+[14:38:30] <dencho-at-work> rewind_: a megalag li mu dadoha switcha ?! pfff :P a na mene ni6to ne mi davat :(
+[14:38:34] <yulimoto> rewind_: аз така си ползвам един мейл web клиент  sqiurrelmail със същата техни
+[14:38:53] <dencho-at-work> daje kaki4kata pri koqto si pla6tam vse ne mojem da se razberem, daje tva mi napomnq da se obada da pitam koga trqq da si plata
+[14:38:53] <dencho-at-work> :D
+[14:39:03] <rewind_> dencho-at-work: мисля, че плаща 5 лв. на месец повече за второто IP, но реално скоростта му е еднаква и на двете
+[14:39:13] <dencho-at-work> WOOOOOOOOOOOOOOOO
+[14:39:15] <dencho-at-work> kak we!
+[14:39:15] <rewind_> dencho-at-work: примерно 50 мб/с бг пиъринг
+[14:39:22] <dencho-at-work> ima oferti koito sa s 2 ip-ta ?!
+[14:39:33] lari__ (5f2a1e9c@gateway/web/freenode/ip.95.42.30.156) joined #telerikacademy.
+[14:39:42] <dencho-at-work> predi godina ima6e oferta s 5 ip-ta hahahah i az se 4udeh kakvo da gi praa tiq ip-ta
+[14:39:50] <dencho-at-work> ama sq otkakto mtel gi kupi osraha rabotite
+[14:40:00] <rewind_> yulimoto: това е доста интересно, но явно ще трябва да мина първо всички лекции по мрежи от ОС курса :)
+[14:41:06] <rewind_> dencho-at-work: мисля, че в неговия случай май си плати за суича, не помня вече
+[14:41:51] <dencho-at-work> moje
+[14:42:01] <dencho-at-work> [14:37] <dencho-at-work> dobre... q kajete sq kak da razbera dali cashing DNS servera mi raboti korektno i ka6ira lainata ?
+[14:42:31] <rewind_> yulimoto: всъщност ако променя рутинг таблиците на томато (то е линукс отдолу) ще мога да пренасоча заявките за domain1.com към IP1 и заявките за domain2.com за IP2 ?
+[14:42:50] <rewind_> yulimoto: на който и да е порт това
+[14:42:55] <dencho-at-work> da
+[14:43:02] <dencho-at-work> iptables :D
+[14:43:21] <dencho-at-work> a ne :D
+[14:43:26] <dencho-at-work> ne znamdali 6te stane s iptables :D
+[14:44:35] <dencho-at-work> btw ako ne mi kajete kak da 4ekna DNS servera, 6te se naloji sam da si namera re6enieto
+[14:44:35] <dencho-at-work> :D
+[14:47:02] <lari__> http://mirknig.com/knigi/seti/1181433948-guide-to-networking-essentials.html
+[14:49:01] <KpeTeHoug> ако рутера ти е с linux, а не с някаъв си негов firmware
+[14:49:09] <KpeTeHoug> можеш си правиш всичко с iptables
+[14:49:24] <KpeTeHoug> моят доставчик тука ги "оправя" рутерите като ги купи :)
+[14:49:34] <KpeTeHoug> и всички са с линукс
+[14:49:49] <KpeTeHoug> обаче кабелджиите им са много смешни, не смеят да бутата много вътре :)
+[14:49:57] <dencho-at-work> :D
+[14:50:20] <dencho-at-work> da, i megalag kato ti izte4e netq te redirektvat s iptables :D
+[14:50:30] <dencho-at-work> kum stranicata = PLATI SI WE ! :D
+[14:51:44] <KpeTeHoug> :)
+[14:51:53] <KpeTeHoug> моите дават 3 дена фрий
+[14:51:59] <KpeTeHoug> ако си забравил да платиш навреме :)
+[14:54:36] <dencho-at-work> da
+[14:54:41] <dencho-at-work> ama zabravqm i za tqh
+[14:54:42] <dencho-at-work> :D
+[14:57:35] <KpeTeHoug> ееее
+[14:57:43] <KpeTeHoug> то твоето за гинкобилоба :)
+[14:57:48] <KpeTeHoug> да не забравяш за виаграта
+[14:57:56] <KpeTeHoug> баси, сам съм на grizzly
+[14:57:59] <KpeTeHoug> горкото мече
+[14:58:04] <KpeTeHoug> всички го изоставиха
+[14:59:19] <paparazzo> аз така и не го обикнах
+[14:59:21] <paparazzo> :-D
+[14:59:34] <dencho-at-work> qvno sa namerili kabel za iphone
+[14:59:35] <dencho-at-work> :D
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:56] <KpeTeHoug> щото ен си гледал Borther bear май беше
+[15:00:58] <KpeTeHoug> детското
+[15:01:02] <KpeTeHoug> затова
+[15:01:11] <KpeTeHoug> иначе и ти щеше да знаеш за тайният живот на къртиците
+[15:01:14] <KpeTeHoug> и мечките
+[15:02:40] <KpeTeHoug>  и любимият ми соц лозунг - Мечката се мие, чисти, във потоците сребристи
+[15:02:50] <KpeTeHoug> Има ли за тебе пречка, да постъпваш като емчка
+[15:02:54] <KpeTeHoug> *мечка ?
+[15:02:57] <KpeTeHoug> a a a a ?
