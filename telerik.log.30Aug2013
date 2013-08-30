@@ -87,3 +87,17 @@
 [13:58:23] <dencho-at-TGIF> dobar den uvajaemi zriteli, spite li?!
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
+[14:09:54] <paparazzo> :-D
+[14:11:36] <KrasiGa> за да имам brctl командата bridge-utils ли трябва да си инсталирам?
+[14:14:11] <dencho-at-TGIF> da
+[14:14:28] <dencho-at-TGIF> brctl show :D
+[14:14:57] <KrasiGa> какъв show? аз въобще нямам brctl
+[14:15:06] <dencho-at-TGIF> mi sloji si :D
+[14:15:14] <dencho-at-TGIF> KpeTeHoug: li da ti sloji
+[14:15:23] <KrasiGa> :) eeee ajde sega
+[14:18:46] <KrasiGa> пак питам, като си инсталирам bridge-utils вече ще имам brctl, нали така?
+[14:21:13] <paparazzo> току-що пробвах ... ДА
+[14:21:54] <KrasiGa> ок, 10х - аз за съжаление няма как да пробвам от тук
+[14:22:02] <paparazzo> https://wiki.debian.org/BridgeNetworkConnections
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
