@@ -58,3 +58,42 @@
 [14:55:00] <KpeTeHoug> ем там ти е проблема
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
+[15:06:54] <KpeTeHoug> може да пробваш и кифтетЪ с винце
+[15:06:56] <KpeTeHoug> отма лекуват
+[15:07:04] <Deyan> Да абсолютно съм съгласен с KpeTeHoug, без ракия и мезе dencho няма да го бъде
+[15:07:18] <KpeTeHoug> айде, стига глупости, пак аминавам Пантелей Пътник, утре пак
+[15:11:43] <dencho> normalno li e da mi pi6tat u6ite? :D
+[15:13:39] <dencho> http://showbusiness.actualno.com/Andrea-protiv-seksa-za-edna-vecher-news_437010.html
+[15:31:49] <yulimoto> dencho !!!!
+[15:34:52] <dencho> kaji yulimoto :D
+[15:35:26] Action: dencho slaps yulimoto around a bit with a large trout
+[15:37:09] <yulimoto> дай каквото четеше за iptables
+[15:37:47] Action: yulimoto slaps dencho 
+[15:37:47] Action: dencho slaps yulimoto around a bit with a large lame trout !!!
+[15:40:46] <dencho> eeeeee na rabotniq mi laptop e da go eba, a dnes si ostanah u nas
+[15:41:18] <dencho> v 4etvurtak se nadqvam da sam na liniq at-work, i 6te ti pusna vsi4ko
+[15:43:22] <dencho> no! pomnq 4e 4etioh statiite ot linux-bg, te sa okolo 2 :D i pod ednata ima6e prepratki kum nqkolko drugi saita
+[15:43:38] <dencho> su6toto taka 4etoh ot netfilter nqkakvi ne6ta, no ne si gi spomnqm koi :D
+[15:44:12] <yulimoto> да аз от линукс бг ги знам, но hackman беше ти казал да не си губиш времето с преводи и те беше ориентирал към някакви други
+[15:44:22] <yulimoto> сега не мога да ги намеря в логовете
+[15:44:26] <yulimoto> както и е да
+[15:44:34] <yulimoto> в netfilter има някакви
+[15:44:56] <dencho> e nali za tva sa tiq logove :P
+[15:45:36] <dencho> nai mnogo moga da te orientiram po dati v 4etvurtak, poneje imame project managment system i tam si vodq koga kakvo sam pravil :D
+[15:46:25] <yulimoto> ахъ
+[15:47:21] <dencho> n da, ta6ak rabota
+[15:50:00] <yulimoto> кво става коя от 3 деня която и страница да отворя ми рекламира leap motion
+[15:50:10] <dencho> google brat :D
+[15:50:22] <dencho> targetirali sa te
+[15:50:23] <dencho> :D
+[15:50:31] s0ny123 (~s0ny123@84.40.112.16) joined #telerikacademy.
+[15:52:33] <yulimoto> явно
+[15:53:06] <dencho> nqkoi polzva li duckduckgo ?
+[15:54:03] <yulimoto> ot време на време
+[15:54:09] <yulimoto> по едно време се бях заребил
+[15:57:18] <yulimoto> ша взема да потърся по-обстойно в логовете
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:02:06] <yulimoto> ей тва оправи нещата
+[16:02:06] <yulimoto> for i in telerik.log.*Jul*; do echo $i; cat $i |  grep -E '*.iptables.*'; echo ----------------------------- ; done;
+[16:02:40] <yulimoto> t.e. това  for i in telerik.log.*; do echo $i; cat $i |  grep -E '*.(dencho.*|hackman|hackman_).*iptables.*'; echo ----------------------------- ; done;
