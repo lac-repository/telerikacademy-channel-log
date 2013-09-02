@@ -97,3 +97,40 @@
 [16:02:06] <yulimoto> ей тва оправи нещата
 [16:02:06] <yulimoto> for i in telerik.log.*Jul*; do echo $i; cat $i |  grep -E '*.iptables.*'; echo ----------------------------- ; done;
 [16:02:40] <yulimoto> t.e. това  for i in telerik.log.*; do echo $i; cat $i |  grep -E '*.(dencho.*|hackman|hackman_).*iptables.*'; echo ----------------------------- ; done;
+[16:08:49] <KrasiGa> браво на теб yulimoto , веднага приложи знанията си
+[16:13:06] <yulimoto> О, KrasiGa стига,
+[16:13:13] <yulimoto> Ке се изчервя от срам,
+[16:13:26] <yulimoto> а знанията скромни за жени кат тебе,
+[16:13:35] <yulimoto> съм готов без бой да дам !
+[16:14:04] <KrasiGa> :)
+[16:20:18] <dencho> grep -R iptables /logs nqma li da svur6i rabota :D
+[16:20:41] <dencho> dencho.* !?
+[16:20:45] <dencho> po skoro dencho*
+[16:21:43] <yulimoto> исках да видя къде е диалога ви с hackman за iptables
+[16:21:56] <yulimoto> както и да е намерих го
+[16:21:59] <yulimoto> :)
+[16:22:11] Action: dencho slaps yulimoto around a bit with a large trout
+[16:22:16] <dencho> BOLEN SAM WE ORA WE !
+[16:22:33] <yulimoto> ми не си мори очите на компютъра
+[16:23:32] <dencho> mi te o4ite ne me bolqt :D
+[16:35:51] <Deyan> Вместо да се жалваш отивай да пиеш ракия
+[16:36:29] <Deyan> ако си много зле, мога да те уредя с една бутилка мое лично производство.
+[16:40:00] <dencho> samo ne znam za6to mi pi6tat u6ite :D
+[16:40:23] <dencho> Deyaneeeeeeeeeeeeeeeeeeeeeeei
+[16:40:46] <KrasiGa> dencho: нормално е да ти пищят. Не се притеснявай
+[16:41:01] <KrasiGa> наливай се с много топла вода за да мине по-бързо
+[16:41:18] <dencho> nalivam sa... oda da prepikvam prez 15 minuti
+[16:41:48] <dencho> doktorkata kaza, 4e e vuzmojno i silna diaria da imam :D
+[16:42:05] <dencho> ama za sq e v tvurdo sustoqnie
+[16:42:30] <dencho> da mu sa ne vidi zna4i!
+[16:43:00] <KrasiGa> ееее такива подробности можеш да ни ги спестиш
+[16:43:08] <dencho> hahaha
+[16:43:18] <dencho> a vuzmojno li e, sled kato nabivam na med, da ne sam gladen ?
+[16:44:28] <KrasiGa> ами щом си болен - нямаш апетит
+[16:44:39] <KrasiGa> това е защитна реакция на организма
+[16:44:58] <KrasiGa> така се пречистваш от токсини а с храната само затормозяваш тялото си
+[16:45:44] <dencho> 4udna rabota, do sq vinagi sam ql kat razpran kogato sam bolen :D
+[16:45:54] <dencho> qvno sq sam se razbolql ot ne6to neobi4aino :D
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:04:22] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 250 seconds
