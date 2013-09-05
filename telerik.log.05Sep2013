@@ -864,3 +864,45 @@
 [20:00:51] <d_georgiev_91> http://www.twitch.tv/aziliann/
 [20:01:15] <tuxar> d_georgiev_91:да
 [20:02:31] d_georgiev_91 (~d.georgie@93-152-129-253.ddns.onlinedirect.bg) left irc: Remote host closed the connection
+[20:06:57] d_georgiev_91 (5d9881fd@gateway/web/freenode/ip.93.152.129.253) joined #telerikacademy.
+[20:13:19] d_georgiev_91 (5d9881fd@gateway/web/freenode/ip.93.152.129.253) left irc: Ping timeout: 250 seconds
+[20:14:37] <anton_dutsov> да чува се
+[20:14:53] <GreenGo> чува се
+[20:14:59] <tuxar> da, ok
+[20:17:07] valchoivanov (5d9be661@gateway/web/cgi-irc/kiwiirc.com/ip.93.155.230.97) joined #telerikacademy.
+[20:20:08] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[20:21:32] <fityla> другите
+[20:21:34] <fityla> се срамуват да си кажат
+[20:21:36] <fityla> :D
+[20:24:24] telerikacademy (~tt@77.70.125.246) joined #telerikacademy.
+[20:29:14] <yulimoto_> hackman: добре, ако пачна някакви файлове и реша по-късно, че това не ми върши работа, мога ли да ън-пачна като имам пача ?
+[20:31:24] <komador> кога се налага да ползваме пач
+[20:37:08] pe6o (~ps7v@95.87.207.245) left irc: 
+[20:41:15] <komador> да
+[20:46:31] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[20:46:59] <hackman> кафенце :)
+[20:47:42] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[20:48:19] <tuxar> hackman: Беше споменал, че Ubuntu не си оптимизират пакетите за скорост.
+[20:48:55] <tuxar> hackman:Ако не е голяма сага ожеш ли да дадеш пример как да оптимизираме deb пакет за скорост, например php-то?
+[20:49:54] <Brahman> ако не е голяма драма * :P
+[20:50:39] <tuxar> Brahman: ;-)
+[20:52:24] <yulimoto_> hackman: има ли някаква литература за тези неща, примерно в tldp.org както беше за bash ?
+[20:53:04] <yulimoto_> литература която да препоръчаш :)
+[20:53:09] <tuxar> yulimoto_: виж линковете в гита
+[20:54:16] <tuxar> там става ? и за скороста, така ли?
+[20:54:16] anton_dutsov (~Thunderbi@212.5.158.197) left irc: Ping timeout: 264 seconds
+[20:54:34] <tuxar> ок, мерси
+[20:55:15] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) joined #telerikacademy.
+[20:55:47] anton_dutsov (~anton_dut@212.5.158.188) joined #telerikacademy.
+[20:57:33] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:58:38] <yulimoto_> това черното скрийн сейвъра на мариян ли е ; (щото ме нямаше)
+[20:58:46] <phalaaxx> май да
+[20:58:51] <hackman> da
+[20:59:21] <yulimoto_> аз да
+[20:59:24] <GreenGo> да
+[20:59:30] <anton_dutsov> да чува се
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:00:11] <tuxar> малко прекъсва пак ...
+[21:01:20] <valchoivanov> stream-a накъсва малко
+[21:01:21] <GreenGo> и при мене накъсва
