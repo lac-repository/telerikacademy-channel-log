@@ -402,3 +402,45 @@
 [11:00:46] <dencho> hahaha
 [11:00:50] <yulimoto_> are pichove i pichki
 [11:01:49] <dencho> :]
+[11:07:23] <yulimoto_> баххх обажда ми се един и вика решими задачата на C++ ще ти платя, аз съм кенефите вика
+[11:07:26] <yulimoto_> хахах
+[11:07:29] <yulimoto_> сега ще решавам задача
+[11:07:30] <yulimoto_> :)
+[11:12:33] <dencho> e pa
+[11:12:34] <dencho> :P
+[11:12:45] <dencho> davai po burzo, 4e 4oveka vreme goni
+[11:19:07] <KpeTeHoug> да, нужда има човека
+[11:19:46] <dencho> :]
+[11:20:42] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[11:21:09] <Deyan> Добро утро
+[11:22:56] <KpeTeHoug> добър ден :)
+[11:27:19] <dencho> Deyaneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeei
+[11:28:03] net: connect! sock 3
+[11:28:03] DNS resolved 127.0.0.1 to localhost
+[11:28:03] Telnet connection: localhost/33432
+[11:28:03] net: connect! sock 9
+[11:28:03] net: eof!(read) socket 9
+[11:28:03] Timeout/EOF ident connection
+[11:28:11] Logged in: KpeTeHoug (telnet@localhost/33432)
+[11:30:39] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[11:32:05] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[11:34:27] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[11:34:28] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 260 seconds
+[11:35:27] s0ny123 (~s0ny123@95.111.18.140) left irc: Client Quit
+[11:35:45] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[11:36:03] <yulimoto_> gotou уж ама оня не може сега да я подкра на уин
+[11:36:37] <dencho> 4e to ima li zna4enie ?
+[11:36:44] <yulimoto_> има
+[11:37:00] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[11:37:28] <yulimoto_> редактора е различен и би трябвало да тръгне толкова проста задачка, ама какво да ти кажа, той не може да компилира
+[11:37:33] <yulimoto_> горкия
+[11:38:04] <yulimoto_> аз дори се съмнявам, че може да ми говори за c# което си все едно джава но ми казва c++
+[11:38:20] <yulimoto_> 6 грешки му изписало при мен нито една
+[11:39:19] Nick change: hackman_ -> hackman
+[11:39:39] Action: hackman update-нете си git repo-то за курса
+[11:39:50] <hackman> тази седмица съм качал доста нови неща :)
+[11:42:05] <dencho> updeitvame
+[11:56:46] <yulimoto_> бах маааму докато подкарам на VS библиотеките голем зооооор, am doбре че е stackoverflow че нямям win
+[11:57:26] <yulimoto_> гледам чак на C ще компилираме и ще си правим RPM i dpkg -а ; добре добре
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
