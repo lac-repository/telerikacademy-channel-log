@@ -1,0 +1,16 @@
+[21:53:33] Seend data restored.
+[21:53:33] main: entering loop
+[21:54:16] DNS resolve failed for irc.freenode.net
+[22:00:10] Seend data restored.
+[22:00:10] main: entering loop
+[22:00:11] net: connect! sock 7
+[22:00:25] tcl: builtin dcc call: *dcc:su HQ 1 kpetehoug
+[22:00:27] Telerik joined #telerikacademy.
+[22:00:29] Logged in: KpeTeHoug (llama@console/0)
+[22:00:31] tcl: builtin dcc call: *dcc:whom KpeTeHoug 1 
+[22:01:15] tcl: builtin dcc call: *dcc:me KpeTeHoug 1 #telerikebasi zora da trygna, hackman, neshto nqma dns kato horata na grizzly
+[22:02:07] tcl: builtin dcc call: *dcc:me KpeTeHoug 1 /say #telerikacademy haneshto ne mu e nard dns na grizzly, edvam se podkarah :)
+[22:02:34] tcl: builtin dcc call: *dcc:say KpeTeHoug 1 #telerikacademy hackman neshto ne mu e nard dns na grizzly, edvam se podkarah :)
+[22:02:54] tcl: builtin dcc call: *dcc:say KpeTeHoug 1 #teleneshto ne mu e nared
+[22:03:18] tcl: builtin dcc call: *dcc:say KpeTeHoug 1 #telerikacademy * neshto ne mu e nared
+[22:03:26] <KpeTeHoug> basi pravopisa imam
