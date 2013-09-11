@@ -127,3 +127,71 @@
 [15:45:12] <yulimoto_> аре пичове вдигам гълъбите
 [16:00:00] Writing user file...
 [16:00:00] Writing channel file...
+[16:17:52] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[16:18:01] <dencho-at-work> ora! nqkoi s fedora i wifi !?
+[16:18:54] <rewind_> Хм... phalaaxx какъв ти е ускорителя,  не се ли оправяше този tearing от настройките на proprietary driver-a или си с OSS
+[16:20:40] <phalaaxx> nvidia, не успях да го наглася по никакъв начин иначе бая си играх и с драйверите и с някакви променливи в /etc/environment да слагам :)
+[16:21:50] <hackman> dencho, какъв ти е проблема ? :)
+[16:23:12] <rewind_> Иначе ползвам gnome-shell под формата на cinnamon на един лаптоп и Gnome 2 (Rocks! :) ) на SL-a
+[16:23:35] <rewind_> Cinnamon го намразих с proprietary драйвърите на AMD, но като че ли го оправиха последните няколко месеца
+[16:24:05] <dencho-at-work> hackman: wlan0     No scan results
+[16:24:35] <hackman> ifconfig wlan0 down
+[16:24:49] <hackman> ifconfig wlan0 up
+[16:24:52] <hackman> iwlist wlan0 scan
+[16:24:55] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) joined #telerikacademy.
+[16:25:00] <dencho-at-work> hackman: wlan0     No scan results
+[16:25:04] <hackman> KrasiGa, здрасти :)
+[16:25:14] <dencho-at-work> testvah go tova
+[16:25:26] <hackman> dencho-at-work, имаш ли бутонче за wifi-а ?
+[16:25:45] <rewind_> phalaaxx: с nouveau или с proprietary ?
+[16:25:49] <KrasiGa> hackman:  zdravei :)
+[16:26:21] <dencho-at-work> na laptopq li? Ne,
+[16:27:12] <phalaaxx> rewind_: proprietary
+[16:28:09] <dencho-at-work> tova se slu4i sled kato startirah headless virtualna ma6ina OpenBSD na virtualbox, laptopa zabi... i se naloji studen restart :D
+[16:28:15] <dencho-at-work> sled tova yok wlan0
+[16:28:31] <dencho-at-work> No wifi networks :D
+[16:30:02] <rewind_> phalaaxx: за съжаление нямам голям опит с nvidia по принцип, но си спомням, че беше всемирен проблем с compiz конкретно, поне когато аз си имах вземане-даване с nvidia адаптери
+[16:30:35] <hackman> dencho, reboot и след това си извади батерията
+[16:30:45] <hackman> остави го така за 10-15 сек
+[16:30:48] <hackman> и го пусни пак
+[16:33:00] <dencho-at-work> da go izkliu4a da mu izvada bateriata
+[16:33:04] <dencho-at-work> i sled 15 minuti da mu q sloja?
+[16:33:33] <rewind_> dencho-at-work: rfkill list all
+[16:33:38] <rewind_> dencho-at-work: какво връща ?
+[16:33:58] <rewind_> по-скоро имаше предвид 15 секунди hackman
+[16:34:35] <dencho-at-work> aghh ne sam pro4el
+[16:35:01] <hackman> rewind_, openbsd-то му е сипало друг firmware във WiFi-а
+[16:35:07] <rewind_> предполагам е визирал един бъг на федора - https://bugzilla.redhat.com/show_bug.cgi?id=713006
+[16:35:07] <wilindex> AttributeError: 'Config' object has no attribute 'bugzilla' (file "/usr/local/lib/python2.7/dist-packages/willie/config.py", line 177, in __getattr__)
+[16:35:12] <dencho-at-work> zna4i shutdown -h now, vadq bateriata, burkam si v nosa... i pak puskam
+[16:35:16] <wilindex> [ Bug 713006 – Airplane mode doesn't goes off ] - bugzilla.redhat.com
+[16:35:42] <rewind_> hackman: значи греша
+[16:36:07] <dencho-at-work> e kak 6a mi sipva we !
+[16:36:09] <dencho-at-work> ebahhh go
+[16:36:48] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) left irc: Ping timeout: 250 seconds
+[16:37:17] <dencho-at-work> btw... az go resetnah 2 puti i bez da mu vadq bateriata
+[16:37:28] <dencho-at-work> sq ako se okaje, 4e tva e re6enieto....
+[16:38:33] <phalaaxx> rewind_: засега си решавам проблема с gnome shell :)
+[16:39:08] <phalaaxx> wilindex: lol @ AttributeError :D
+[16:39:10] <dencho-at-work> btw v4era si rabote6e normalno :D
+[16:39:46] <rewind_> phalaaxx: да, с Nvidia работи нормално gnome-shell :D за разлика от Ати
+[16:39:51] <KpeTeHoug> dencho-at-work
+[16:39:53] <rewind_> изключая последните 2-3 месеца
+[16:40:04] <KpeTeHoug> dsa ne ti trqbva kombinaciq da enable wuobshte wlana
+[16:40:09] <KpeTeHoug> na laptopa : :)
+[16:40:17] <KpeTeHoug> kato Fn klawish
+[16:40:19] <KpeTeHoug> i neshto is
+[16:40:21] <KpeTeHoug> *si
+[16:40:43] <dencho-at-work> ne, sveti si lampata za wifi, az moga da go enable i disable i s mi6kata i s cmd
+[16:40:59] <dencho-at-work> fn + *kop4e s wifi = ne raboti na taq klaviatura :D
+[16:41:27] <dencho-at-work> za momenta ostava da testvam vadeneto na bateriata
+[16:44:19] <rewind_> със rfkill list all какво връща ?
+[16:46:58] <dencho-at-work> nqmam takava komanda az
+[16:46:59] <dencho-at-work> :D
+[16:50:15] <rewind_> :)
+[16:50:50] <rewind_> е ако имаше, можеше да пробваш и rfkill unblock all :D
+[16:55:12] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[16:58:04] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:03:34] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
