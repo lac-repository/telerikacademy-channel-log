@@ -459,3 +459,71 @@
 [20:56:28] Nick change: stratoss -> Guest96505
 [21:00:00] Writing user file...
 [21:00:00] Writing channel file...
+[21:05:45] <TPB_> ако имаме 2 rules който си противоречат взаимно, ще е валиден този който първи е прочетен  ( по-висок приоритет) :?
+[21:06:12] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:06:47] <Brahman> те са различни само
+[21:06:55] <amimind> освен Д И А има ли команда за пренареждане?
+[21:06:57] <tuxar> hackman: колко правила може да има в iptables?
+[21:08:17] <tuxar> ок
+[21:08:28] <t_nenkov> hackman: специално за тебе http://vbox7.com/play:961eba25 (не успях да намеря клипчето на Tom как реже клона на който стой ;) )
+[21:10:30] morena (~chatzilla@37-143-251-253.plvd.ddns.bulsat.com) joined #telerikacademy.
+[21:12:06] anton_dutsov_ (~anton_dut@89.106.112.155) joined #telerikacademy.
+[21:13:12] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[21:14:36] anton_dutsov (~anton_dut@178.75.224.136) left irc: Ping timeout: 260 seconds
+[21:14:38] <phalaaxx> icmp не е само ping (echo), много хора всъщност забравят точно това и дропят всичко което е icmp
+[21:17:38] <hackman> stream ?
+[21:17:39] <Brahman> да
+[21:17:48] <tuxar> hackman:има
+[21:17:53] <morena> има
+[21:17:57] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:19:07] pe6o (~ps7v@95.87.207.245) left irc: 
+[21:24:39] Guest96505 (~stratoss@members.datacentrix.org) left irc: Ping timeout: 264 seconds
+[21:27:32] tuxar (~tuxar@athedsl-109997.home.otenet.gr) left irc: Ping timeout: 245 seconds
+[21:29:27] tuxar (~tuxar@ppp-2-85-85-202.home.otenet.gr) joined #telerikacademy.
+[21:30:32] stratoss|away (~stratoss@members.datacentrix.org) joined #telerikacademy.
+[21:30:33] Nick change: stratoss|away -> Guest3518
+[21:37:20] <phalaaxx> каква е разликата между --to и --to-destination?
+[21:41:57] <phalaaxx> даа стана ясно вече
+[21:44:02] Nick change: Guest3518 -> stratoss
+[21:44:33] Nick change: stratoss -> Guest32969
+[21:48:48] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:49:58] <phalaaxx> в  apt-get има build-dep, има ли алтернатива за това в yum?
+[21:54:33] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:58:11] <yulimoto_> мерси за лекцията
+[21:58:12] <anton_dutsov_> Благодаря, лека вечер!
+[21:58:13] <BM_boyan> za ni6to leka
+[21:58:14] <pinkiePie> :)
+[21:58:18] <Brahman> лека вечер
+[21:58:20] <BM_boyan> :)
+[21:58:21] <hackman> leka
+[21:58:21] <yulimoto_> лека
+[21:58:24] <_NEKTAR_> np leka na vse
+[21:58:25] <amimind> :)
+[21:58:26] <tuxar> hackman:мерси
+[21:58:31] <mihail_m> leka
+[21:58:38] GreenGo (~Xristo@77-85-17-162.btc-net.bg) left irc: Quit: Leaving.
+[21:58:39] <morena> Лека вечер!
+[21:58:41] pinkiePie (~pinkiePie@217.174.55.149) left irc: 
+[21:58:43] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[21:58:48] Brahman (~Brahman@109.121.248.105) left irc: 
+[21:58:50] anton_dutsov_ (~anton_dut@89.106.112.155) left irc: Quit: Leaving
+[21:58:50] amimind (~amimind@87-126-35-160.btc-net.bg) left irc: Quit: Leaving
+[21:58:51] <pacho10> лека
+[21:58:53] <BM_boyan> vreme za bira
+[21:58:56] dewily (c1684f33@gateway/web/freenode/ip.193.104.79.51) left irc: Quit: Page closed
+[21:59:03] <tuxar> лека
+[21:59:04] <TPB_> лека
+[21:59:06] <KacanuH> айде лека на тия които излизат
+[21:59:17] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) left irc: Quit: Page closed
+[21:59:21] tuxar (~tuxar@ppp-2-85-85-202.home.otenet.gr) left irc: Quit: leaving
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:37] wilindex (~willie@91.230.230.224) joined #telerikacademy.
+[22:01:01] <telerikacademy> bye
+[22:01:39] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[22:02:57] <SOLARWIND> quit
+[22:03:03] SOLARWIND (82ccd80d@gateway/web/cgi-irc/kiwiirc.com/ip.130.204.216.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[22:03:04] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[22:03:16] KacanuH (~Deyan@46.249.92.240) left irc: Read error: Connection reset by peer
+[22:03:33] Nick change: Deyan_ -> KacanuH
+[22:04:24] telerikacademy (~tt@77.70.125.246) left #telerikacademy.
