@@ -190,3 +190,83 @@
 [10:59:48] <KpeTeHoug> все пак
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:09:11] <dencho-at-work> are
+[11:09:19] <dencho-at-work> neka silata bude s mene neska :D
+[11:09:24] <dencho-at-work> do skoro :D
+[11:10:43] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[11:17:44] <phalaaxx> KpeTeHoug: sorry, ако пречи да го разкарам?
+[11:19:20] <KpeTeHoug> ами не, чудехме се на кого е
+[11:19:22] <KpeTeHoug> :)
+[11:19:25] <KpeTeHoug> и кво по точно прави
+[11:24:52] <phalaaxx> миии...
+[11:25:00] <phalaaxx> https://github.com/embolalia/willie/wiki/Commands
+[11:25:02] <wilindex> [ Commands · embolalia/willie Wiki · GitHub ] - github.com
+[11:25:16] <phalaaxx> .seen phalaaxx
+[11:25:16] <wilindex> phalaaxx: I last saw phalaaxx at 2013-09-12 11:28:44 EEST on #telerikacademy, saying https://github.com/embolalia/willie/wiki/Commands
+[11:25:17] <phalaaxx> :)
+[11:25:40] <phalaaxx> .xkcd
+[11:25:41] <wilindex> http://xkcd.com/536/ [Space Elevators]
+[11:26:32] <KpeTeHoug> .google
+[11:26:32] <wilindex> KpeTeHoug: .g what?
+[11:26:39] <KpeTeHoug> :)
+[11:26:51] <phalaaxx> да това е за търсене в гугъл
+[11:27:06] <phalaaxx> можеше и в тубата
+[11:27:18] <phalaaxx> .yt amazing planet earth playground
+[11:27:18] <wilindex> [YT Search] Title: Amazing Planet Earth (The Playground) | Uploader: Trance Nation | Duration: 14mins | Uploaded: 27/11/2012, 05:59 | Views: 875 | Link: http://youtu.be/DkIlEM68Mfk
+[11:28:00] <KpeTeHoug> .roll
+[11:28:00] <wilindex> KpeTeHoug: You have to specify the dice you wanna roll.
+[11:28:04] <KpeTeHoug> .roll d20
+[11:28:05] <wilindex> KpeTeHoug: You roll d20: (4) = 4
+[11:28:12] <KpeTeHoug> беаси куция рол
+[11:28:13] <KpeTeHoug> :)
+[11:28:18] <phalaaxx> това не го знам какво е :D
+[11:28:31] <KpeTeHoug> хвърля зарче
+[11:28:37] <KpeTeHoug> с колко страни му кажеш
+[11:28:42] <KpeTeHoug> можем да играем d&d
+[11:28:43] <KpeTeHoug> :)
+[11:28:49] <KpeTeHoug> .roll d20
+[11:28:49] <wilindex> KpeTeHoug: You roll d20: (18) = 18
+[11:28:51] <KpeTeHoug> aa
+[11:28:58] <KpeTeHoug> ей това е хубав рол вече
+[11:29:13] <KpeTeHoug> .ety sex
+[11:29:14] <wilindex> "late 14c., 'males or females collectively,' from Latin sexus 'state of being either male or female, gender.' 'Commonly taken with seco as division or 'half' of the race' [Tucker], which would connect it to secare 'to divide or cut' (see section (n.))." - http://etymonline.com/?term=sex
+[11:29:23] <KpeTeHoug> :)
+[11:30:08] <KpeTeHoug> .ip 87.254.181.36
+[11:30:09] <wilindex> Downloading GeoIP database, please wait...
+[11:30:21] <phalaaxx> .in 1m blabla
+[11:30:21] <wilindex> phalaaxx: Okay, will remind at 2013-09-12 - 11:35:05EEST
+[11:30:26] <wilindex> [IP/Host Lookup] Hostname: 13498.telnet.bg | Location: Bulgaria | ISP: Telnet Limited
+[11:31:03] <KpeTeHoug> бива за забавление
+[11:31:14] <KpeTeHoug> ма можеше да ни кажеш, да не го ругаем горкият сутринта :)
+[11:31:14] <phalaaxx> mda :)
+[11:31:22] <wilindex> phalaaxx: blabla
+[11:31:26] <phalaaxx> :D
+[11:31:27] <KpeTeHoug> .movie lotr
+[11:31:28] <wilindex> [MOVIE] Title: Old vs. New: LOTR Animated vs. Lord of the Rings | Year: 2009 | Rating: 8.1 | Genre: Comedy | IMDB Link: http://imdb.com/title/tt1644197
+[11:31:35] <phalaaxx> верно ме подсети
+[11:32:01] <KpeTeHoug> .roulette
+[11:32:21] Last message repeated 1 time(s).
+[11:32:21] <KpeTeHoug> tc
+[11:32:25] <KpeTeHoug> не ще да си играем :)
+[11:32:38] <KpeTeHoug> .title off
+[11:32:47] <KpeTeHoug> .slap dencho
+[11:32:59] <KpeTeHoug> .slaps
+[11:33:06] <KpeTeHoug> .time
+[11:33:06] <wilindex> 2013-09-12 - 08:36:49UTC
+[11:33:20] <phalaaxx> хм това може да не е съвсем вярно :D
+[11:33:32] <KpeTeHoug> :)
+[11:33:41] <phalaaxx> .settz Europe/Sofia
+[11:33:41] <wilindex> phalaaxx: I now have you in the Europe/Sofia time zone.
+[11:33:45] <phalaaxx> .time
+[11:33:45] <wilindex> 2013-09-12 - 11:37:29EEST
+[11:33:50] <phalaaxx> така е по-добре
+[11:36:09] <phalaaxx> .time
+[11:36:09] <wilindex> 2013-09-12 - 11:42:48EEST
+[11:36:23] <phalaaxx> така е още по-добре (часовника не беше съвсем верен)
+[11:38:19] <phalaaxx> .in 7h15m Лекция!
+[11:38:19] <wilindex> phalaaxx: Okay, will remind at 2013-09-12 - 18:44:59EEST
+[11:38:21] <phalaaxx> :D
+[11:44:55] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[11:47:38] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
