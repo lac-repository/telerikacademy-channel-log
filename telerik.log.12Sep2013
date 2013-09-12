@@ -270,3 +270,16 @@
 [11:47:38] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
+[12:10:35] anton_dutsov (~Thunderbi@178.75.235.36) joined #telerikacademy.
+[12:12:31] anton_dutsov (~Thunderbi@178.75.235.36) left #telerikacademy.
+[12:13:38] anton_dutsov (~Thunderbi@178.75.235.36) joined #telerikacademy.
+[12:13:53] <anton_dutsov> Здравейте колеги!
+[12:14:32] <anton_dutsov> Някой може ли да ми обясни как да използвам i8kutils или по-нов пакет за Vostro 3560?
+[12:17:59] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) joined #telerikacademy.
+[12:20:15] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) left irc: Client Quit
+[12:27:59] <yulimoto_> явно искаш да решиш някакъв проблем и си стигнал до някъде :) По-добре опиши какъв е проблема и как смяташ да го решиш, защото едва ли някой ще се сети как се ползва i8kutils и дали беше за вентилатора или за нещо друго
+[12:28:49] <yulimoto_> т.е. ако някой някога си е оправял вентилатора да ти каже как го е направил :)
+[12:53:22] <anton_dutsov> работата е там, че под Linux вентилаторът намаля от пълни обороти, ако намали много рядко и шумът е повече от колокото ми понася
+[12:54:11] <anton_dutsov> от друга страна ме съмнява, че този пакет върши работа защото е от 2005г. и е правен за I8000 на Dell
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
