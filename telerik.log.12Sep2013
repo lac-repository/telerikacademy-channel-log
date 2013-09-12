@@ -527,3 +527,28 @@
 [22:03:16] KacanuH (~Deyan@46.249.92.240) left irc: Read error: Connection reset by peer
 [22:03:33] Nick change: Deyan_ -> KacanuH
 [22:04:24] telerikacademy (~tt@77.70.125.246) left #telerikacademy.
+[22:05:40] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) left irc: Quit: Page closed
+[22:06:46] BM_boyan (~BM_boyan@85.187.248.24) left #telerikacademy.
+[22:06:53] BM_boyan (~BM_boyan@85.187.248.24) joined #telerikacademy.
+[22:07:59] BM_boyan (~BM_boyan@85.187.248.24) left #telerikacademy.
+[22:09:40] Guest32969 (~stratoss@members.datacentrix.org) left irc: Ping timeout: 260 seconds
+[22:10:03] <phalaaxx> KpeTeHoug: тоя бот са го направили по-умен отколкото си мислех, няма очеваден начин за правене на пакости :)
+[22:10:13] <phalaaxx> .py print open('/etc/passwd', 'r').readlines()
+[22:10:13] <wilindex> IOError: [Errno 13] Permission denied: '/etc/passwd'
+[22:10:18] <phalaaxx> :D
+[22:11:04] <KacanuH> phalaaxx, хитрец си ти андрешко :)
+[22:14:27] hackman (~hackman@89.190.207.11) left irc: Ping timeout: 264 seconds
+[22:14:32] stratoss|away (~stratoss@members.datacentrix.org) joined #telerikacademy.
+[22:14:53] Nick change: stratoss|away -> Guest94580
+[22:14:54] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 268 seconds
+[22:18:59] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: keep calm and фостата
+[22:31:40] Guest94580 (~stratoss@members.datacentrix.org) left irc: Ping timeout: 264 seconds
+[22:36:02] stratossz (~stratoss@members.datacentrix.org) joined #telerikacademy.
+[22:37:51] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds
+[22:41:55] alabala (~alabala@unaffiliated/alabala) joined #telerikacademy.
+[22:45:14] alabala (~alabala@unaffiliated/alabala) left irc: Client Quit
+[22:45:38] Nick change: stratossz -> stratoss
+[22:46:07] Nick change: stratoss -> Guest61019
+[22:54:32] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
