@@ -374,3 +374,36 @@
 [19:02:02] darin (4d461232@gateway/web/freenode/ip.77.70.18.50) joined #telerikacademy.
 [19:04:24] BM_boyan (~BM_boyan@85.187.248.24) joined #telerikacademy.
 [19:04:56] <BM_boyan> privet
+[19:06:54] dewily (c1684f33@gateway/web/freenode/ip.193.104.79.51) joined #telerikacademy.
+[19:07:05] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) joined #telerikacademy.
+[19:08:32] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[19:10:38] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[19:12:03] amimind (~amimind@87-126-35-160.btc-net.bg) joined #telerikacademy.
+[19:13:40] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) left irc: Ping timeout: 250 seconds
+[19:14:34] GreenGo (~Xristo@77-85-17-162.btc-net.bg) joined #telerikacademy.
+[19:15:56] darin (4d461232@gateway/web/freenode/ip.77.70.18.50) left irc: Disconnected by services
+[19:16:31] <phalaaxx> aptitude си има и cmdline със search/install/update/...
+[19:17:35] <pinkiePie> Доколкото бях гледал в нета има възможност да се използва apt-get върху red hat, има ли смисъл да се прави подобно нещо, например да могат да се използват едните предимства на единия и на другия пакет мениджър?
+[19:17:44] SOLARWIND (82ccd80d@gateway/web/cgi-irc/kiwiirc.com/ip.130.204.216.13) joined #telerikacademy.
+[19:19:19] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[19:21:17] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 245 seconds
+[19:21:46] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) joined #telerikacademy.
+[19:33:38] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[19:37:41] <fityla> в такъв случай старото правило важи в пълна сила, ако работи нещо не се пипа..
+[19:40:14] <phalaaxx> при Debian upgrade (stable) инсталира само security updates, не променя версията на софтуера
+[19:44:43] <yulimoto_> в apt имаме preferences където можем да слагаме Pin-priority и да downgrade-ваме принципно върши ли работа в работна среда ?
+[19:45:49] pe6o (~ps7v@95.87.207.245) left irc: 
+[19:47:37] pe6o (~ps7v@95.87.207.245) joined #telerikacademy.
+[19:48:54] tuxar (~tuxar@athedsl-109997.home.otenet.gr) joined #telerikacademy.
+[19:49:38] <sig_> в suse съм правил downgrade през yast успешно многократно, има version
+[19:49:56] pe6o (~ps7v@95.87.207.245) left irc: Client Quit
+[19:51:21] Ivaka (~opera@46.238.49.41) left #telerikacademy.
+[19:52:18] _NEKTAR_ (~nektar@176.12.19.179) left irc: Quit: Leaving.
+[19:53:11] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[19:55:50] <yulimoto_> iptables ?
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:00:28] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) left irc: Ping timeout: 250 seconds
+[20:00:28] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[20:03:52] telerikacademy (~tt@77.70.125.246) joined #telerikacademy.
+[20:04:18] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
