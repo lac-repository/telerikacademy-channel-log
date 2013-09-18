@@ -202,3 +202,50 @@
 [23:02:01] <phalaaxx1> последния път като се опитах да го инсталирам (е... върху gpt partition table) изобщо не запали след края на инсталацията и съм му обиден :D
 [23:02:02] <hackman> ако си копираш всичли libs в tmpfs и после bind mount-неш tmpfs-а в /lib също ще получиш speedup
 [23:02:43] <phalaaxx1> да, звучи лесно за пробване :)
+[23:11:13] <phalaaxx1> това ако вземе да ми хареса какъв ефект има виждам как ще си блъскам главата някой ден след ъпдейт или инсталация на нещо
+[23:33:43] <yulimoto> hackman: реално ще си държа /lib библиотеките в рама, така ли ?
+[23:34:07] <hackman> да
+[23:35:38] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[23:35:44] Nick change: ndyakov|away -> ndyakov
+[23:42:41] <yulimoto> tmpfs          tmpfs      100M   75M    26M  75% /tmpfs
+[23:42:41] <yulimoto> tmpfs          tmpfs      100M   75M    26M  75% /lib
+[23:42:48] <yulimoto> :)
+[23:42:50] <ndyakov> ?
+[23:43:14] <yulimoto> за горното ли ?
+[23:43:25] <ndyakov> да , защо lib като tmpfs ?
+[23:43:28] <yulimoto> < hackman> ако си копираш всичли libs в tmpfs и после bind mount-неш tmpfs-а в /lib също ще получиш  speedup
+[23:43:59] <yulimoto> просто играчки
+[23:44:13] <ndyakov> а по време на буут какво правим ?
+[23:45:26] <yulimoto> ами по-време на буут чакаме, вероятно има вариант за който аз не знам де
+[23:45:41] <ndyakov> става въпрос, че нали трябва да заредиш всичко в този tmpfs
+[23:45:45] <ndyakov> не виждам смисъл. лично аз
+[23:45:55] <phalaaxx1> сега ще пробвам да си счупя машината със скрипт дето писах да пробвам :D
+[23:45:59] <yulimoto> < phalaaxx1> някой правил ли е нещо подобно на това: https://github.com/terminator14/RAM_booster  ?
+[23:46:00] <wilindex> [ terminator14/RAM_booster · GitHub ] - github.com
+[23:46:08] <phalaaxx1> ако не се върна до 15 минути - закъсал съм яко :D
+[23:46:21] <yulimoto> phalaaxx1: успех :)
+[23:46:34] <ndyakov> ааа ... guake не ми дава да отворя линка
+[23:46:39] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[23:47:10] <yulimoto> ndyakov: след като бутне е лесно, ще направим един скрипт и ще го бутнем в на runlevela
+[23:47:59] <yulimoto> guake ??
+[23:48:59] <yulimoto> ndyakov: според мен по-големия проблем е ако решим да инсталираме нови библиотеки :)
+[23:49:13] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[23:49:30] <yulimoto> ако не се усетим и забравим ще ги инсталираме у въздуха
+[23:49:31] <phalaaxx1> засега е добре :)
+[23:49:35] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[23:49:37] <yulimoto> ееее много си бърз phalaaxx1
+[23:49:51] <yulimoto> това гитхуба ли пробва
+[23:49:52] <ndyakov> yulimoto: ти така или иначе изсипваш нещата в този tmpfs, просто като инсталираш, после синхронизираш tmpfs-а с хард диска
+[23:50:26] <ndyakov> а това да ти работи от рам... не виждам голям смисъл, тъй като основното е да ти се зареди приложението X или Y , самия OS веднъж като е бутнал е вече в рам :)
+[23:50:54] <ndyakov> yulimoto: терминал емулатор е guake
+[23:51:05] <yulimoto> аха не знаех
+[23:51:17] <ndyakov> но с един /exec xdg-open .... се оправих
+[23:51:24] <yulimoto> как синхронизираш tmpfs с хард диска ?
+[23:52:27] <phalaaxx1> http://pastebin.com/eizbYG6W
+[23:52:29] <wilindex> [ [Bash] /usr/local/bin/tmpfslibs - Pastebin.com ] - pastebin.com
+[23:52:31] <ndyakov> е ще намериш просто някакво приложение за синхронизиране на две директории , ще си пазиш библиотеките в някаква /hddlib , при буут ги зареждаш в tmpfs-а , инсталирането всъщност ще става в tmpfs-а , но след това ще пуснеш да ги sync–не
+[23:52:56] <ndyakov> трябва да си направя alias за отварянето на линкове
+[23:52:59] <ndyakov> ;D
+[00:00:00] --- Thu Sep 19 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

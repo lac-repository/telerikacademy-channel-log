@@ -1,0 +1,10 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:00] net: connect! sock 6
+[00:00:15] Telerik joined #telerikacademy.
+[00:00:33] <yulimoto> скоро гледах в нета рутерче raspery P , на което слагат софт, работи с iptables-a и си синква базата данни на определено време, блокира известните ip-ta от където идват реклами
+[00:01:49] <yulimoto> май това беше http://learn.adafruit.com/raspberry-pi-as-an-ad-blocking-access-point/overview
+[00:01:51] <wilindex> [ Overview | Raspberry Pi as an Ad Blocking Access Point | Adafruit Learning System ] - learn.adafruit.com
+[00:02:42] <yulimoto> на демото изглежда ефикасно в действителност не знам :)
+[00:04:50] <phalaaxx1> оо липсва ми още нещо в скрипта - sync от /.lib{,64} към /lib{,64} при boot-ване (-m)
+[00:04:52] <ndyakov> yulimoto: това е идея, аз си използвам adblock за браузъра.
