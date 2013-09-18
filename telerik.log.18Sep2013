@@ -28,3 +28,48 @@
 [17:04:46] <yulimoto> и ще си сам
 [17:04:52] <dencho-at-work> hahaha
 [17:04:53] <dencho-at-work> :D
+[17:05:21] <dencho-at-work> dobre, nqkoi da patuva ot varna kum sofia v subota?
+[17:05:22] <dencho-at-work> :D
+[17:05:50] <yulimoto> на връщане ще си платиш билета също и ще си сам
+[17:07:16] <hackman> dencho имам колега който може би ще се връща в събота или неделя :)
+[17:08:06] <yulimoto> dencho-at-work: изкара късмет пак :)
+[17:08:37] <phalaaxx> yulimoto: ми слагай го с debootstrap и после на теб ще се падне неприятната задача да пишеш тема във форума ;)
+[17:08:46] <dencho-at-work> hackman: ako e v subota 6te e 4udesno, poneje priqtelkata v nedelq e na rabota
+[17:10:10] stratoss (~stratoss@unaffiliated/stratoss) joined #telerikacademy.
+[17:10:54] <yulimoto> phalaaxx: сигурно вече си забелязал, че словото не ми е проблем т.е. не словото, а количествата слово :)
+[17:11:19] <yulimoto> phalaaxx: сега го слагам на една федора тестово
+[17:12:00] <yulimoto> довечерка ще е на grizzly
+[17:12:24] <phalaaxx> тестово?
+[17:12:45] <phalaaxx> че то с това няма какво толкова да оплескаш
+[17:12:51] <phalaaxx> ако се постараеш - може ама...
+[17:13:19] <phalaaxx> в най-лошия случай grizzly ще стане на Debian :D
+[17:13:44] <phalaaxx> шегувам се
+[17:13:45] <phalaaxx> има и по-лош вариант разбира се :)
+[17:15:13] <yulimoto> най-добре помня нещата не като ги уча а като се замесвам в някакви истории. 1 ще го сложа на федората 2. на гризлито. 3 на федората ще пробвам ръчно както си го представям, че трябва да изглежда :)
+[17:15:42] <yulimoto> но си прав
+[17:16:15] <phalaaxx> после може да си сложим schroot/dchroot и да си пускаме разни неща вътре
+[17:16:21] <phalaaxx> примерно bzflag сървър :)
+[17:17:05] <yulimoto> може ама аз преди да се извратя като теб, трябва това да направя :)
+[17:19:00] <phalaaxx> като стана въпрос някой играл ли е bzflag?
+[17:22:35] s0ny123 (~s0ny123@95.111.79.72) left irc: Read error: Operation timed out
+[17:23:34] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[17:31:57] <yulimoto> phalaaxx: какво е това ?
+[17:32:39] <yulimoto> гледам някаква игра има
+[17:32:44] <yulimoto> ама не схващам идеята ти
+[17:38:15] <phalaaxx> да де, игра е :)
+[17:38:20] <phalaaxx> http://sourceforge.net/projects/bzflag/
+[17:38:23] <wilindex> [ BZFlag - Multiplayer 3D Tank Game | Free Graphics software downloads at SourceForge.net ] - sourceforge.net
+[17:40:22] <dencho-at-work> vzeh primer ot yulimoto i dnes sam malko nahalen
+[17:40:22] <dencho-at-work> :D
+[17:40:32] <dencho-at-work> toi mi kaja, 4e trqq da sam nahalen :D
+[17:40:37] <dencho-at-work> kaza*
+[17:42:52] angie_bg1 (~angie@77.236.189.210) joined #telerikacademy.
+[17:42:54] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 260 seconds
+[17:43:35] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[17:43:44] angie_bg (~angie@77.236.189.210) left irc: Ping timeout: 245 seconds
+[17:45:12] <dencho-at-work> are ora! :D be6e mi priqtno da vi 4eta kirilicata :D
+[17:47:00] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:49:51] angie_bg1 (~angie@77.236.189.210) left #telerikacademy.
+[17:52:31] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
