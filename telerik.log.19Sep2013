@@ -374,3 +374,30 @@
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
 [14:00:49] Vankata (~Ivan@77.70.105.191) left irc: Quit: Leaving
+[14:07:43] <KrasiGa> понеже нямам на виртуалката интернет и си свалям пакета rpmbuild, в коя папка да го сложа за да го инсталирам с yum install?
+[14:11:27] <hackman> хъх....
+[14:11:27] <phalaaxx> rpm -i
+[14:11:27] <phalaaxx> илии ще ти трябва локално репо
+[14:11:50] <hackman> rpm packages  се инсталират с rpm  а не със yun
+[14:11:53] <hackman> yum :)
+[14:12:05] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[14:12:14] <hackman> rpm -Uvh върши работа
+[14:12:17] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[14:12:57] <KrasiGa> въроса по-скоро е така: има ли значение къде ще бъде rpm пакета
+[14:13:00] <KrasiGa> ?
+[14:16:21] <hackman> не :)
+[14:17:08] nlkl (~nlkl@nat125.cnsys.bg) left irc: Remote host closed the connection
+[14:21:18] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:29:56] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[14:50:38] <yulimoto> dencho-at-work: богат съм ...
+[14:50:46] <yulimoto> +30лв
+[14:52:25] <dencho-at-work> brau yulimoto taka e kato ste coder4eta
+[14:52:25] <dencho-at-work> :D
+[14:52:52] <yulimoto> хаха кодерчета таратанци... да живее нашето малоумно висше образование
+[14:54:52] <yulimoto> dencho-at-work: съм си направил теплейт и само ръгам, готов съм да изкарвам по 1 задача на 5-6 минути
+[14:55:27] <dencho-at-work> haha
+[14:56:10] <dencho-at-work> KrasiGa: nqma kak da gi vidq tezi film4eta
+[14:56:15] <yulimoto> само балъци да има и windows ще си сложа с visual studio, ама като се замисля няма да ми се занимава
+[14:56:21] <dencho-at-work> btw dneska sam na sql language ;d
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
