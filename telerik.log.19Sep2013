@@ -275,3 +275,84 @@
 [12:00:00] Writing channel file...
 [12:00:19] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
 [12:00:42] <dencho-at-work> yulimotooooooooooool
+[12:06:46] nlkl (~nlkl@nat125.cnsys.bg) left irc: Ping timeout: 268 seconds
+[12:19:51] <hackman> a
+[12:19:53] <hackman> hmm
+[12:22:23] <hackman> fuck
+[12:22:26] <hackman> нямам ги
+[12:22:37] <hackman> ебаси мамамата
+[12:22:58] <hackman> еми, някой да пише във форума
+[12:23:02] <hackman> дано някой ги е свалил
+[12:23:08] <hackman> защото ги нямам
+[12:23:14] <hackman> не ми е останало време да ги сваля
+[12:32:45] s0ny123 (~s0ny123@95.111.79.72) left irc: Read error: Connection reset by peer
+[12:33:56] <dencho-at-work> samnqq me nqkoi da gi e svalil :d
+[12:35:17] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[12:36:37] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 260 seconds
+[12:42:37] <yulimoto> dencho-at-work: пак решавам задачи за студенстки изпити брат
+[12:42:56] <yulimoto> тоя път вземам и пари, ама колко да искам бе. Те са малоумни
+[12:43:07] <dencho-at-work> hahaha
+[12:43:08] <dencho-at-work> a be
+[12:43:15] <dencho-at-work> mi da te bqh viknal za moq izpit :D
+[12:43:24] <yulimoto> хахах
+[12:43:30] <dencho-at-work> prolog...
+[12:43:33] <dencho-at-work> haskel :D
+[12:43:50] <yulimoto> ако х > 2  еди кво си някакви условни конструкции и толкоз
+[12:43:55] <yulimoto> а да ве
+[12:44:00] <dencho-at-work> az si igraq s nmap.. chekvam dali pravilno razbira OS-to na IP-to
+[12:44:08] <yulimoto> тия само съм ги чувал
+[12:44:16] <yulimoto> хаскел маскел
+[12:44:43] <yulimoto> ама те ги изпитват на C++ за неща които могат да се напишат на ЕЛКА 1958
+[12:44:53] <yulimoto> ;)
+[12:45:11] <yulimoto> нз аз мисля 30 все пак ми взеха от ценното време
+[12:45:20] <dencho-at-work> za kolko vreme?
+[12:45:27] <yulimoto> 15 мин
+[12:45:30] <yulimoto> може и 20
+[12:45:39] <yulimoto> сега чакам да ми върне имейл
+[12:45:48] <dencho-at-work> mi dobre e :D
+[12:45:53] <yulimoto> неможе да компилира Visual Studio ала бала
+[12:45:59] <dencho-at-work> pak li?
+[12:46:17] <dencho-at-work> nali i predniq put ima6e problemi :d
+[12:46:18] <yulimoto> ами те са малоумници брат, тоя му е приятел
+[12:46:25] <dencho-at-work> aghaha
+[12:46:32] <dencho-at-work> kvo u4at tiq wE?
+[12:46:43] <yulimoto> обаче на първия имаше промоция викам "аре приятели сме - бира"
+[12:46:57] <dencho-at-work> glei tva kvo mi vika za grizzly-to
+[12:46:58] <dencho-at-work> Aggressive OS guesses: Linux 2.6.22 (90%), Vodavi XTS-IP PBX (89%), Tandberg Border Controller VoIP gateway (Linux 2.6.11) (88%), Linux 2.6.9 - 2.6.23 (87%), Infoblox NIOS 4.1r5 (86%), Linux 2.6.11 - 2.6.19 (86%), Wireless broadband router (FON La Fonera, Linksys WAP54GL, or Netgear WGT634U) (OpenWrt, Linux 2.6.22) (86%), Check Point VPN-1 UTM appliance (85%), Linux 2.6.18 (Slackware 11.0) (85%), Linux 2.6.19 - 2.6.24 (
+[12:47:32] <yulimoto> обаче сега направо започнаха с темата за парите и аз  викам "зависи  от времето и сложността м/у 20 а може 40-50 да стигне"
+[12:47:32] <dencho-at-work> windows 7 go razpoznava kato Vista... :D
+[12:47:46] <dencho-at-work> mi da :D
+[12:47:47] <yulimoto> nmap li ве брат
+[12:47:53] <dencho-at-work> ako e prolog... 100/200
+[12:47:53] <dencho-at-work> :D
+[12:47:54] <yulimoto> слушай сега
+[12:47:56] <dencho-at-work> nmap-a we
+[12:48:35] <yulimoto> в гризлито нали направихме debian chroot обаче мисля как да прехвърля юзерите от центос на дебиана
+[12:48:53] <yulimoto> не ме устройва с cp passwd i shadows
+[12:49:10] <yulimoto> щото искам идента на юзерите да е над 1000 както в дебиан
+[12:49:17] <yulimoto> някакви идеи
+[12:49:21] <yulimoto> искам и да си имат групи
+[12:49:36] <yulimoto> та идеи чакам от някои
+[12:49:40] <dencho-at-work> emi kato ne te ustroiva, da te ustroiva we :D
+[12:49:56] <dencho-at-work> az 4akam tema vuv foruma :P
+[12:50:36] <yulimoto> после ще направя скрипт който те прехвърля направо в дебиан. Примерно като се логнеш като dencho в гризли i напишеш debian направо те chroot-ва е дебиана като юзер dencho
+[12:51:10] <yulimoto> обаче сега мъдря скрипт за прехвърляне на юзерите
+[12:51:55] <yulimoto> който е до никъде
+[12:52:46] <phalaaxx> защо да не става с cp passwd и shadow?
+[12:53:39] <phalaaxx> аа май разбрах
+[12:53:47] <phalaaxx> да, няма да стане :D
+[12:57:32] <yulimoto> phalaaxx аз искам да не се препокриват групи юзери, а искам всеки потребител да си има и група
+[12:57:55] <phalaaxx> echo -ne "import pwd\nprint filter(lambda x: x.pw_uid >= 500, pwd.getpwall())\n" | python
+[12:58:03] <yulimoto> т.е. ще запазя потребителите на дебиан но искам да добавям новите потребители
+[12:58:14] <yulimoto> мммм нещо подобно
+[12:58:23] <yulimoto> ама сега правя 1000 неща на веднъж
+[12:58:46] <yulimoto> ако имаш време що не опиташ на дебиана има само един потребител аднат hackman
+[12:58:56] <yulimoto> ако не аз ще го мъча следобед
+[12:59:31] <phalaaxx> мии може, ама след малко
+[12:59:40] <phalaaxx> че пробвам някакви други глупости :)
+[12:59:42] <phalaaxx> brb
+[12:59:57] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:04:08] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[13:04:42] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
