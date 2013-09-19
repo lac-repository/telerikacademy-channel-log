@@ -183,3 +183,56 @@
 [06:00:00] Writing channel file...
 [07:00:00] Writing user file...
 [07:00:00] Writing channel file...
+[07:16:29] <dencho> are we yulimoto stana li
+[07:34:00] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[07:34:23] <dencho> mnogo rano bre KrasiGa :D
+[07:35:02] <KrasiGa> Добро утро dencho , че аз тази седмица през това време влизам
+[07:35:29] <dencho> aul :D
+[07:35:47] <dencho> verno be
+[07:35:51] <dencho> kato po 4asovnik si
+[07:35:55] <KrasiGa> а ти защо толко рано?
+[07:36:11] <KrasiGa> чак пък часовник
+[07:36:13] <dencho> trqbva6e da pi6a malko maili :D
+[07:36:24] <dencho> [07:43:47] * KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) has joined #telerikacademy
+[07:36:43] <dencho> [07:43:48] * KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) has joined #telerikacademy
+[07:36:44] <dencho> hahaha
+[07:36:48] <KrasiGa> това от вчера ли?
+[07:36:56] <dencho> ot prednite dni...
+[07:37:12] <KrasiGa> лелееее, верно
+[07:37:14] <dencho> ot v4era, ot onq den
+[07:37:16] <KrasiGa> хахаха :)
+[07:37:27] <KrasiGa> днес съм подранила с 3мин
+[07:37:32] <dencho> da :D
+[07:37:36] <dencho> [07:40:42] * KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) has joined #telerikacademy
+[07:37:55] <dencho> haide, do skoro
+[07:38:02] <KrasiGa> лек ден!
+[07:56:34] net: connect! sock 3
+[07:57:15] DNS resolve failed for 127.0.0.1
+[07:57:15] Telnet connection: 127.0.0.1/33190
+[07:57:15] net: connect! sock 9
+[07:57:15] net: eof!(read) socket 9
+[07:57:15] Timeout/EOF ident connection
+[07:57:39] net: connect! sock 3
+[07:57:39] DNS resolve failed for 127.0.0.1
+[07:57:39] Telnet connection: 127.0.0.1/33194
+[07:57:39] net: connect! sock 9
+[07:57:39] net: eof!(read) socket 9
+[07:57:39] Timeout/EOF ident connection
+[07:57:48] Logged in: KpeTeHoug (telnet@127.0.0.1/33194)
+[07:57:53] tcl: builtin dcc call: *dcc:help KpeTeHoug 8 all
+[07:58:07] tcl: builtin dcc call: *dcc:convertalllogs KpeTeHoug 8 
+[07:59:11] tcl: builtin dcc call: *dcc:help KpeTeHoug 8 all
+[07:59:24] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 8 
+[07:59:43] tcl: builtin dcc call: *dcc:makeindexpage KpeTeHoug 8 
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:04:18] net: eof!(read) socket 8
+[08:04:18] Lost dcc connection to KpeTeHoug (telnet@127.0.0.1/33194)
+[08:04:31] net: connect! sock 3
+[08:04:31] DNS resolve failed for 127.0.0.1
+[08:04:31] Telnet connection: 127.0.0.1/33196
+[08:04:31] net: connect! sock 9
+[08:04:31] net: eof!(read) socket 9
+[08:04:31] Timeout/EOF ident connection
+[08:04:35] Logged in: KpeTeHoug (telnet@127.0.0.1/33196)
+[08:04:50] tcl: builtin dcc call: *dcc:help KpeTeHoug 8 all

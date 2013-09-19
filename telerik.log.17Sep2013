@@ -1,0 +1,218 @@
+
+Session Start: Tue Sep 17 00:00:00 2013
+Session Ident: #telerikacademy
+03[00:02:09] * Joins: usersdsdsd (~usersdsds@46.40.125.160)
+12[00:05:05] * Quits: usersdsdsd (~usersdsds@46.40.125.160) (Client Quit)
+12[00:48:44] * Quits: Deyan (~deyan@46.249.92.240) (Quit: Nettalk6 - www.ntalk.de)
+13[01:08:51] * stratoss|away is now known as stratoss
+12[01:25:12] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 245 seconds)
+03[01:29:57] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+13[01:42:47] * stratoss is now known as stratoss|away
+13[02:18:32] * stratoss|away is now known as stratoss
+13[02:56:11] * stratoss is now known as stratoss|away
+12[03:01:21] * Quits: phalaaxx1 (~bozhin@94.26.20.166) (Quit: Leaving.)
+03[07:43:37] * Joins: KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8)
+12[08:04:27] * Quits: rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) (Quit: Page closed)
+03[08:42:59] * Joins: Deyan (~deyan@46.249.92.240)
+12[08:43:12] * Quits: stratoss|away (~stratoss@unaffiliated/stratoss) (Ping timeout: 268 seconds)
+03[08:43:31] * Joins: stratossz (~stratoss@members.datacentrix.org)
+13[08:43:35] * stratossz is now known as stratoss
+12[08:43:36] * Quits: stratoss (~stratoss@members.datacentrix.org) (Changing host)
+03[08:43:36] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+12[08:48:11] * Quits: Deyan (~deyan@46.249.92.240) (Quit: Nettalk6 - www.ntalk.de)
+03[09:06:27] * Joins: hackman (~hackman@management.1h.com)
+12[09:18:01] * Quits: wilindex (~willie@91.230.230.224) (Ping timeout: 264 seconds)
+12[09:18:01] * Quits: ndyakov (~ndyakov@client-38-76.speedy-net.bg) (Ping timeout: 264 seconds)
+03[09:18:59] * Joins: ndyakov_ (~ndyakov@client-38-76.speedy-net.bg)
+13[09:19:07] * ndyakov_ is now known as ndyakov
+12[09:24:43] * Quits: Vankata (~Ivan@77.70.105.191) (Read error: Connection reset by peer)
+12[09:24:50] * Quits: phalaaxx (~bozhin@94.26.20.166) (Ping timeout: 245 seconds)
+03[09:24:53] * Joins: phalaaxx (~bozhin@94.26.20.166)
+12[09:25:21] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 246 seconds)
+03[09:26:01] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[09:26:06] * stratoss|away is now known as stratoss
+03[09:26:10] * Joins: Vankata (~Ivan@77.70.105.191)
+13[09:52:06] * ndyakov is now known as ndyakov|away
+03[09:52:55] * Joins: wilindex (~willie@91.230.230.224)
+12[09:53:44] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 248 seconds)
+03[09:59:01] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[09:59:09] * stratoss|away is now known as stratoss
+03[10:00:46] * Joins: rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142)
+12[10:16:05] * Quits: rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) (Ping timeout: 250 seconds)
+[10:19:41] <hackman> добрутро :)
+[10:23:09] <yulimoto> добро (утро|ден) :)
+[10:28:42] <KrasiGa> Добро и от мен!
+03[10:30:52] * Joins: rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142)
+12[11:16:03] * Quits: rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) (Disconnected by services)
+03[11:24:51] * Joins: vhristev (~vhristev@77.70.112.88)
+[11:24:58] <vhristev> Damn
+[11:25:01] <vhristev> чете ли се
+[11:27:20] <phalaaxx> дам :)
+[11:31:45] <vhristev> Год Пак сме в бизнеса
+[11:40:20] <vhristev> Кво става иначе тука мн мъртвило нещо
+[12:07:50] <phalaaxx> работна атмосфера :)
+[12:14:23] <vhristev> че да не се преуморите
+[12:14:23] <vhristev> (;
+[12:19:55] <yulimoto> О-о-о-о vhristev
+[12:20:21] <yulimoto> къде ходиш ве куче !!!
+[12:20:51] <yulimoto> къде обикаля толкова време
+12[12:21:59] * Quits: Vankata (~Ivan@77.70.105.191) (Ping timeout: 245 seconds)
+[12:29:51] <vhristev> мн бачкане ман
+[12:30:01] <vhristev> имам дупка някоя друга седмица и Ноемрви пак газ
+[12:31:49] <vhristev> Но пък не съм пропускал лекция
+[12:35:34] <yulimoto> браво ман, хубаво че се редуват седмици на мн газ с лижерни и има кво да се търкаля
+[12:35:49] <vhristev> Техника да искаш ман
+[12:35:57] <vhristev> аз имам един лаф "Техника да има акъла ще дойде"
+[12:36:19] <vhristev> Само да знаеш работа винаги ще има по много
+[12:37:37] <yulimoto> луд си брато, ще обърнеш света някой ден :)
+[12:41:01] <vhristev> Оххх пази боже
+03[12:41:57] * Joins: alabala (~immortal@unaffiliated/alabala)
+13[13:00:02] * ndyakov|away is now known as ndyakov
+03[13:30:36] * Joins: dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218)
+[13:30:47] <dencho-at-work> 4urulikate li si ?!
+[13:33:07] <yulimoto> a ве dencho-at-work  да знаеш от де да взема картинката на iptables от лекцията
+13[13:34:51] * ndyakov is now known as ndyakov|away
+12[13:35:38] * Quits: alabala (~immortal@unaffiliated/alabala)
+13[13:36:28] * ndyakov|away is now known as ndyakov
+[13:38:48] <dencho-at-work> yulimoto, da... ot sobstvenika :)
+[13:39:12] <dencho-at-work> yulimoto koq kartinka we ?!
+03[13:40:22] * Joins: Vankata (~Ivan@77.70.105.191)
+[13:40:54] <yulimoto> dencho-at-work: която гледахме на лекция - INPUT, OUTPUT, FORWARDING
+[13:42:11] <yulimoto> dencho-at-work: в репоситорито няма нищо за лекция №8 ,та викам ти нали си гуру на iptables-a може да знаеш
+[13:44:43] <vhristev> yulimoto http://www.google.bg/imgres?client=firefox-a&hs=ZyE&sa=X&rls=org.mozilla:en-US:official&channel=fflb&tbm=isch&tbnid=vXheRlhZa8bRoM:&imgrefurl=http://10network.justk2.com/2008_04_01_archive.html&docid=zON-K3mPTreE8M&imgurl=http://lh5.ggpht.com/joseph.k2lee/SA9Wz1CyIrI/AAAAAAAABGw/HCg5rCyRI20/tables_traverse_thumb%25255B4%25255D.jpg%253Fimgmax%253D800&w=407&h=654&ei=hDI4UoeKOOa
+[13:44:43] <vhristev> kiQKRrYHABw&zoom=1&ved=1t:3588,r:13,s:0,i:119&iact=rc&page=1&tbnh=174&tbnw=108&start=0&ndsp=40&tx=55&ty=34&biw=1600&bih=1034
+[13:44:43] <wilindex> [ Резултатът на Google за http://lh5.ggpht.com/joseph.k2lee/SA9Wz1CyIrI/AAAAAAAABGw/HCg5rCyRI20/tables_traverse_thumb%255B4%255D.jpg%3Fimgmax%3D800 ] - www.google.bg
+[13:44:59] <vhristev> просто напиши iptables chart
+[13:45:04] <vhristev> и ще намериш мн
+[13:48:13] <yulimoto> да аз намерих в началото и имат малки разлики, та викам по-добре от тази на лекцията
+[13:48:17] <yulimoto> 10х
+13[13:59:41] * ndyakov is now known as ndyakov|away
+12[14:00:58] * Quits: Vankata (~Ivan@77.70.105.191) (Ping timeout: 276 seconds)
+[14:01:18] <vhristev> (;
+13[14:06:16] * ndyakov|away is now known as ndyakov
+03[14:31:39] * Joins: s0ny123 (~s0ny123@95.111.79.72)
+13[14:47:49] * ndyakov is now known as ndyakov|away
+13[14:59:25] * ndyakov|away is now known as ndyakov
+13[15:03:59] * stratoss is now known as stratoss|away
+13[15:06:22] * ndyakov is now known as ndyakov|away
+13[15:09:40] * ndyakov|away is now known as ndyakov
+[15:13:59] <vhristev> като си го прочетеш 2-3 пъти от лекцията хвани някой друг чарт там да си го обясниш
+[15:14:12] <vhristev> Аз тука имам един колега викаше "Добре ,че почнах да преподавам мрежи та да ги науча"
+[15:14:19] <vhristev> та лаф лаф ама си е живата истина
+[15:19:13] <yulimoto> мм да нещо такова правя, то аз лекцията я гледах ама има хубави материали и искам да ми е пред очите :)
+03[15:19:30] * Joins: nlkl (~nlkl@nat125.cnsys.bg)
+13[15:20:39] * ndyakov is now known as ndyakov|away
+13[15:32:16] * ndyakov|away is now known as ndyakov
+12[15:58:13] * Quits: nlkl (~nlkl@nat125.cnsys.bg) (Ping timeout: 245 seconds)
+[16:04:42] <hackman> yulimoto, vhristev  https://github.com/hackman/linux-sysadmin-course/blob/master/additional/lecture-06/linux-firewall.png
+[16:04:44] <wilindex> [ linux-sysadmin-course/additional/lecture-06/linux-firewall.png at master · hackman/linux-sysadmin-course · GitHub ] - github.com
+[16:04:52] <hackman> това го има от бая време :)
+[16:06:51] <yulimoto> ъъъ аз кво съм гледал тогава :|
+[16:07:18] <dencho-at-work> gledal si paris hiltan
+[16:09:11] <yulimoto> а, не ми стигат бг ку**ите ми ще гледам и тая
+[16:10:25] <hackman> нафукана жена без цици... за къв ^ ви е?
+03[16:13:39] * Joins: nlkl (~nlkl@nat125.cnsys.bg)
+12[16:29:42] * Quits: KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) (Quit: Page closed)
+06[16:45:57] * hackman дигнах Grizzly :)
+[16:47:44] <yulimoto> ко ? не !
+[16:48:43] <dencho-at-work> nedei we
+[16:48:43] <dencho-at-work> :D
+[16:49:21] <dencho-at-work> [17:12] <yulimoto> свалих Grizzly :D
+[16:51:02] <yulimoto> кога ?
+[16:51:52] <yulimoto> ко? не !! -   http://bit.ly/14espoX
+[16:53:55] <yulimoto> недей лъга хората ей, млад меринджей, да са определяш като 24, кат ти прасна един ...
+[16:58:21] <phalaaxx> http://www.archives.bg/x.htm - някой се е приготвил за deface като гледам...
+[16:58:22] <wilindex> [ hacked by Hmei7 ] - www.archives.bg
+03[16:58:53] * Joins: rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142)
+[17:00:17] <dencho-at-work> hahahah
+[17:00:27] <dencho-at-work> phalaaxx... podgotvenko mu e
+[17:01:02] <dencho-at-work> zimno vreme 6te da e bilo...
+[17:01:04] <dencho-at-work> s tiq snejinki
+[17:01:58] <phalaaxx> амиии да, но това: http://www.archives.bg/indonesia.php - от 6-ти септември е
+[17:02:04] <phalaaxx> мечтае си човека за сняг явно
+[17:03:03] <yulimoto> да или като си е теглил разсни javascript скриптчета това му е харесало най-много
+[17:03:08] <yulimoto> :)
+[17:03:32] <dencho-at-work> ama realno ima li dostup ?!
+[17:04:39] <yulimoto> ами реално щом можеш да променяш имаш достъп
+[17:05:08] <dencho-at-work> tva ne vi li haresva pove4e http://www.isuzu.com.hk/isuzu/images/image/x.png
+[17:05:08] <yulimoto> правят си даже php терминалчета
+[17:06:22] <dencho-at-work> http://www.cyberwarzone.com/barcodesolutionscomau-defaced-hmei7-hacker
+[17:06:25] <wilindex> [ barcodesolutions.com.au defaced by Hmei7 hacker | Cyberwarzone ] - www.cyberwarzone.com
+[17:09:44] <yulimoto> ам те може да цяла група
+[17:09:48] <yulimoto> клан
+[17:10:19] <yulimoto> едно време имаше едни VHG varna hacking group ей какви глупости правиха
+[17:11:17] <yulimoto> верно ли е grizlly  е внигнато. -Ко? Не !!
+[17:15:18] <yulimoto> аре пичове
+[17:15:30] <dencho-at-work> da
+[17:15:41] <dencho-at-work> GHG Grizzly Hack Group
+[17:29:24] <phalaaxx> :D
+[17:29:43] <nlkl> 194.141.98.35 - FMI PLD port 22 open : )
+[17:32:28] <nlkl> have fun :)
+13[17:32:38] * phalaaxx is now known as phalaaxx|GHG
+[17:32:40] <phalaaxx|GHG> :D
+13[17:32:47] * phalaaxx|GHG is now known as phalaaxx
+[17:32:58] <phalaaxx> добре ми седи, нали?
+[17:39:12] <dencho-at-work> sedi ti
+03[17:40:23] * Joins: Vankata (~Ivan@77.70.105.191)
+[17:40:29] <dencho-at-work> http://showbusiness.actualno.com/Patrashkova-Gledala-sym-porno-samo-vednyj--news_438687.html
+[17:40:30] <wilindex> [ Патрашкова: Гледала съм порно само веднъж - Actualno.com ] - showbusiness.actualno.com
+[17:41:06] <dencho-at-work> Според нея хората, които гледат такива филми са самотници или такива с проблеми в секса.  Read more: http://showbusiness.actualno.com/Patrashkova-Gledala-sym-porno-samo-vednyj--news_438687.html#ixzz2fA3K22OA
+[17:41:06] <wilindex> [ Патрашкова: Гледала съм порно само веднъж - Actualno.com ] - showbusiness.actualno.com
+[17:41:08] <dencho-at-work> GAGAGAGGA
+[17:44:01] <dencho-at-work> gladen sam !
+[17:44:02] <dencho-at-work> :D
+[17:55:08] <nlkl> https://lh3.googleusercontent.com/-tRXVRmtuxuU/UjMogvs01DI/AAAAAAAAP_Q/FVp8bWc-mzY/s612-no/2013+-+1 :)
+[17:55:46] <dencho-at-work> ghaha
+[17:55:55] <dencho-at-work> tva da ne sa 5 4anti s disketi we
+[17:56:59] <nlkl> нещо подобно :)) :D
+[17:57:54] <dencho-at-work> are ora.... do skoro vijdane
+12[17:57:59] * Quits: dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) (Quit: Page closed)
+12[17:59:33] * Quits: s0ny123 (~s0ny123@95.111.79.72) (Quit: Lost terminal)
+[18:06:53] <hackman> пуснете ботя бря :)
+03[18:09:50] * Joins: Deyan (~deyan@46.249.92.240)
+12[18:39:19] * Quits: hackman (~hackman@management.1h.com) (Read error: Operation timed out)
+03[18:40:20] * Joins: hackman (~hackman@management.1h.com)
+13[18:56:07] * stratoss|away is now known as stratoss
+03[18:58:38] * Joins: phalaaxx1 (~bozhin@94.26.20.166)
+[19:20:53] <yulimoto> хаха
+13[19:21:05] * yulimoto is now known as yulimoto|GHG
+[19:21:08] <yulimoto|GHG> brrr
+13[19:21:20] * yulimoto|GHG is now known as yulimoto
+[19:28:36] <yulimoto> dencho: брат имаше една приставка, която ти казва кои медии са на Василев-Пеевски, та ти я препоеръчвам, щото като те гледам всичките ти линкове все натам водят :P~~~
+[19:31:09] <dencho> ghahahhaa
+[19:31:12] <dencho> e kva e taa pristavkq
+[19:38:38] <yulimoto> кажи за какво да я търся - chrome | firefox
+[19:39:22] <yulimoto> https://chrome.google.com/webstore/detail/%D0%B4%D0%B0%D0%BD%D1%81withme/lmcpmmnecclemnhobkplkgpjjddgnkej?hl=bg&gl=001
+[19:39:23] <wilindex> [ Уеб магазин на Chrome - #ДАНСwithme ] - chrome.google.com
+12[19:39:24] * Quits: rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) (Ping timeout: 250 seconds)
+[19:40:23] <yulimoto> файрфокс - https://addons.mozilla.org/en-US/firefox/addon/danswithme/
+[19:40:26] <wilindex> [ #ДАНСwithme :: Add-ons for Firefox ] - addons.mozilla.org
+[19:40:59] <yulimoto> опера https://addons.opera.com/en/extensions/details/danswithme/?display=bg
+[19:41:00] <wilindex> [ #ДАНСwithme extension - Opera add-ons ] - addons.opera.com
+[19:46:01] <dencho> e tva pa kak gi znae koi sa :P
+12[19:46:28] * Quits: hackman (~hackman@management.1h.com) (Ping timeout: 260 seconds)
+[19:49:53] <yulimoto> ща изплющя
+[19:50:58] <yulimoto> ми знае ги щото той пеевския я е писал и за трите броузера
+[19:51:49] <yulimoto> и даже беше ги направил да пеят на рождения ден на Доган
+12[20:10:20] * Quits: Vankata (~Ivan@77.70.105.191) (Read error: Connection reset by peer)
+03[20:10:46] * Joins: Vankata (~Ivan@77.70.105.191)
+12[20:36:41] * Quits: vhristev (~vhristev@77.70.112.88)
+[20:50:00] <yulimoto> Мълчите нали, гледате оная с малките гърди, ей днес сте се разминали с поне 40-50 по-хубави от нея, ама щото е г-ца Хилтън и Ви текат лигите !!!!
+[20:50:31] <yulimoto> а аз гледам тука icmp-type то бая били глей ти
+[20:51:15] <nlkl> :D
+[20:51:18] <nlkl> за коя говориш?
+[20:57:19] <yulimoto> за Парис Хилтън дето е взела на dencho акъла
+[20:59:40] <yulimoto> аре лека, че ме стегна шибаната шапка цял ден нищо не мога свърша
+[21:02:32] <nlkl> :D лека лека : )))
+[21:11:35] <dencho> yulimoto az gledam edelvais we
+03[21:31:41] * Joins: Nikiman (kvirc@94.72.165.215)
+03[22:17:58] * Joins: RosenN (~tt@77.70.125.246)
+03[22:21:13] * Parts: RosenN (~tt@77.70.125.246)
+13[22:43:12] * ndyakov is now known as ndyakov|away
+13[22:43:17] * ndyakov|away is now known as ndyakov
+[22:54:13] <Nikiman> êàêâî ìó å íà Grizzly
+[22:54:20] <Nikiman> îò äîñòà âðåìå ëè ãî íÿìà
+[23:13:33] <phalaaxx1> това на кирилица ли беше? (при мен излизат въпросителни само)
+[23:22:13] <ndyakov> това беше на windows-cp1251
+[23:22:15] <ndyakov> :D
+Session Close: Wed Sep 18 00:00:00 2013
