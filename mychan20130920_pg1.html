@@ -165,6 +165,45 @@
 			<div>&nbsp;<span class="time">[13:59:25]</span>&nbsp;<span class="else">&nbsp;net: connect! sock 6</span></div>
 			<div>&nbsp;<span class="time">[13:59:38]</span>&nbsp;<span class="else_j">&nbsp;Telerik joined #telerikacademy.</span></div>
 			<div>&nbsp;<span class="time">[13:59:49]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; кво му правите на Telerik бе ? :)</span></div>
+			<div>&nbsp;<span class="time">[14:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[14:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[14:00:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; впрочем изпълнението ти с дяволчето в началото на BSD конференцията (на OpenFest 2012) беше много вдъхновяващо :D но добре че го няма никъде документирано все пак :D</span></div>
+			<div>&nbsp;<span class="time">[14:03:12]</span>&nbsp;<span class="else_li">&nbsp;Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection</span></div>
+			<div>&nbsp;<span class="time">[14:03:56]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; кое изпълнение ?</span></div>
+			<div>&nbsp;<span class="time">[14:11:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ще оставя въпроса за друг път а сега ще го избегна с друг въпрос :) : някой има ли идея дали е възможно в PostgreSQL да се вземат данните от binary backup от версия 8.3 и да се пуснат под 9.1 например?</span></div>
+			<div>&nbsp;<span class="time">[14:12:12]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; без да се инсталира 8.3 от sources или chroot със версия 8.3</span></div>
+			<div>&nbsp;<span class="time">[14:14:02]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; Аз да питам... какво мислите за lxc ?</span></div>
+			<div>&nbsp;<span class="time">[14:14:25]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; защото гледам си харесват chroot... но си мисля, че един контейнер е по-добре.</span></div>
+			<div>&nbsp;<span class="time">[14:14:42]</span>&nbsp;<span class="else_j">&nbsp;s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[14:15:26]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; phalaaxx, binary backup само на съответната версия</span></div>
+			<div>&nbsp;<span class="time">[14:15:27]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; то в Debian има възможност да се инсталират няколко версии едновременно, но само при последователен upgrade - и там има готини скриптчета като pg_upgradecluster  с които може да се мигрират данните от 8.3 към 9.1 по много готин начин, но за целта трябва да има 8.3 все пак</span></div>
+			<div>&nbsp;<span class="time">[14:15:30]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; pg_dump едруго</span></div>
+			<div>&nbsp;<span class="time">[14:16:13]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ndyakov, lxc e нещо страхотно преди 2 години на OpenFest Ilf-а говори точно за това въпреки, че ни никой не разбра, че това има предвид :)</span></div>
+			<div>&nbsp;<span class="time">[14:16:27]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ама сега имам Debian Wheezy което върви с 9.1 а ми трябва на него да разгъна данните от 8.3, но няма легален начин да се инсталира 8.3 върху Wheezy</span></div>
+			<div>&nbsp;<span class="time">[14:17:14]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; hackman: аз от скоро си играя, за съжаление е само за linux ще запали, а не като bsd jail-овете.</span></div>
+			<div>&nbsp;<span class="time">[14:18:02]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; иначе би било добра играчка, да можеше да си сложиш един bsd контейнер :)</span></div>
+			<div>&nbsp;<span class="time">[14:18:40]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ndyakov: ако искаш bsd не е ли по-добре да ползваш bsd?</span></div>
+			<div>&nbsp;<span class="time">[14:19:00]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; phalaaxx: може да го искаш само за някаква конкретна задача :)</span></div>
+			<div>&nbsp;<span class="time">[14:19:21]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; все пак никой не си инсталира Linux за да си пусне уиндоуското приложение под Wine :)</span></div>
+			<div>&nbsp;<span class="time">[14:20:08]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; е, може би не е много точен примера де</span></div>
+			<div>&nbsp;<span class="time">[14:20:48]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз ползвам wine но не защото искам да ползвам дадена уиндоуска програма а защото програмата няма алтернатива за Linux - аз пък нямам уиндоус</span></div>
+			<div>&nbsp;<span class="time">[14:20:51]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; така че може би си прав</span></div>
+			<div>&nbsp;<span class="time">[14:21:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; така де аз реално искам да я ползвам щом слагам wine</span></div>
+			<div>&nbsp;<span class="time">[14:22:06]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; мисля че започнах да си говоря сам, ако това продължи дълго моля някой да ме спре и да ми каже защото това вероятно означава че имам нужда от специализирана помощ :D</span></div>
+			<div>&nbsp;<span class="time">[14:22:52]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[14:23:14]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; представи си че не говорим за графични приложения</span></div>
+			<div>&nbsp;<span class="time">[14:23:25]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; а просто за отделни задачи, които машината върши</span></div>
+			<div>&nbsp;<span class="time">[14:23:36]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; примерно тя е едновременно рутер и nas сървър</span></div>
+			<div>&nbsp;<span class="time">[14:23:53]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; рутера може да е един линукс, а nas-а да е един контейнер с bsd</span></div>
+			<div>&nbsp;<span class="time">[14:24:06]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; защото вече имаш freenas с всичката му функционалнос</span></div>
+			<div>&nbsp;<span class="time">[14:24:11]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; и съпорт и прочие ;)</span></div>
+			<div>&nbsp;<span class="time">[14:29:53]</span>&nbsp;<span class="else_j">&nbsp;adutev (~adutev@gw.3dc.net) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[14:31:32]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; та да се дооплача, налага ми се да слагам chroot и да си правя последователен upgrade вътре за да си извадя данните от binary backup-а на PostgreSQL 8.3</span></div>
+			<div>&nbsp;<span class="time">[14:31:49]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; или да слагам 8.3 от sources ама съм мързелив и предпочитам с chroot</span></div>
+			<div>&nbsp;<span class="time">[14:33:07]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; а правя binary backups защото не знам да има друг начин за PITR с PostgreSQL</span></div>
+			<div>&nbsp;<span class="time">[14:34:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; с Bacula си правя инкрементални backups по веднъж на час и ако правя dump ще е много тежко и няма да е никак инкрементално :)</span></div>
+			<div>&nbsp;<span class="time">[14:42:22]</span>&nbsp;<span class="else_j">&nbsp;urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[14:56:21]</span>&nbsp;<span class="else_li">&nbsp;stratoss (~stratoss@unaffiliated/stratoss) left irc: Ping timeout: 264 seconds</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
