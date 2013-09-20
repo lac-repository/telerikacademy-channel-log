@@ -120,3 +120,25 @@
 [13:02:26] stratoss (~stratoss@unaffiliated/stratoss) left irc: Read error: Operation timed out
 [13:04:07] Nick change: ndyakov|away -> ndyakov
 [13:04:54] s0ny123 (~s0ny123@95.111.79.72) left irc: Ping timeout: 248 seconds
+[13:10:35] stratoss (~stratoss@unaffiliated/stratoss) joined #telerikacademy.
+[13:28:46] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 246 seconds
+[13:41:12] net: eof!(read) socket 6
+[13:41:54] DNS resolve failed for chat.freenode.net
+[13:42:54] DNS resolve failed for irc.freenode.net
+[13:43:12] net: connect! sock 6
+[13:43:28] Telerik joined #telerikacademy.
+[13:46:21] <hackman> yulimoto, какво не ти харесва на OLinuXino-то ?
+[13:51:20] <yulimoto> напротив, харесва ми. аз си ги следя от доста време :)
+[13:51:56] <yulimoto> hackman: ама се чудех от къде идва този познат глас и ... о, изненада това е линукс пингвинчето !!!
+[13:52:59] <hackman> какъв глас бе ?
+[13:54:07] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[13:54:36] <yulimoto> hackman: а бе познах те по гласа, нали ти си бил в "кожата" на линукс пингвина ? Я да не се правиш ;P
+[13:59:25] net: eof!(read) socket 6
+[13:59:25] net: connect! sock 6
+[13:59:38] Telerik joined #telerikacademy.
+[13:59:49] <hackman> кво му правите на Telerik бе ? :)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:19] <phalaaxx> впрочем изпълнението ти с дяволчето в началото на BSD конференцията (на OpenFest 2012) беше много вдъхновяващо :D но добре че го няма никъде документирано все пак :D
+[14:03:12] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[14:03:56] <hackman> кое изпълнение ?
