@@ -213,3 +213,22 @@
 [18:01:40] <phalaaxx> .blocks add Telerik
 [18:01:40] <wilindex> phalaaxx: I could not figure out what you wanted to do.
 [18:01:47] <wilindex> [ aziliann - Twitch ] - www.twitch.tv
+[18:08:16] <phalaaxx> добрее опитвам се да накарам единия бот да не обръща внимание на това което му говори другия бот но явно не се прави по този начин :)
+[18:13:24] <phalaaxx> .blocks add nick Telerik
+[18:13:24] <wilindex> phalaaxx: Successfully added block: Telerik
+[18:13:44] <phalaaxx> мдааа така е по-добре
+[18:24:27] <hackman> phalaaxx, къде си го пуснал тоя ?
+[18:24:54] <phalaaxx> на онази въпросната машина в NET1
+[18:25:08] <phalaaxx> дето разпитвах за нея за ZFS и RAID5
+[18:37:01] <hackman> Аз днес гледам новината, че SuSE подменят Default FS-а с Btrfs
+[18:37:09] <hackman> усещам, че бъдещето ще е на там :)
+[18:37:12] <hackman> но да видим
+[18:37:13] <hackman> лека от мен
+[18:42:14] angie_bg (~angie@77.236.189.210) left #telerikacademy.
+[18:43:36] hackman (~hackman@management.1h.com) left irc: Ping timeout: 252 seconds
+[18:43:54] Nick change: phalaaxx -> phalaaxx_
+[18:49:41] adutev (~adutev@gw.3dc.net) left #telerikacademy ("Leaving").
+[18:50:11] adutev (~adutev@gw.3dc.net) joined #telerikacademy.
+[18:51:03] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
