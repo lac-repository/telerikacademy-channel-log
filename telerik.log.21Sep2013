@@ -1,2 +1,13 @@
 [00:00:00] Writing user file...
 [00:00:00] Writing channel file...
+[00:22:56] phalaaxx_ (~bozhin@94.26.20.166) left irc: Ping timeout: 246 seconds
+[00:37:50] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[00:43:14] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:01:03] net: connect! sock 6
+[01:01:03] net: eof!(read) socket 6
+[01:01:46] DNS resolve failed for chat.freenode.net
+[01:02:46] DNS resolve failed for irc.freenode.net
+[01:03:04] net: connect! sock 6
+[01:03:17] Telerik joined #telerikacademy.
