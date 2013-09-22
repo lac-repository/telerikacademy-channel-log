@@ -36,3 +36,13 @@
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
 [11:00:58] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[11:07:25] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Read error: Connection reset by peer
+[11:50:02] net: connect! sock 6
+[11:50:02] net: eof!(read) socket 6
+[11:51:42] DNS resolve failed for chat.freenode.net
+[11:52:42] DNS resolve failed for irc.freenode.net
+[11:53:00] net: connect! sock 6
+[11:53:17] Telerik joined #telerikacademy.
+[11:55:23] sagruob (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
