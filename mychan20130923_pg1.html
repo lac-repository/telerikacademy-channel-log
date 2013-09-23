@@ -100,6 +100,26 @@
 			<div>&nbsp;<span class="time">[11:24:01]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; се чудех дали да не организираме нещо тоя четв. след лекцията</span></div>
 			<div>&nbsp;<span class="time">[11:27:39]</span>&nbsp;<span class="else_n">&nbsp;Nick change: phalaaxx1 -&gt; phalaaxx</span></div>
 			<div>&nbsp;<span class="time">[11:52:29]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; hackman, как е по-прието (kato best practise) да се прави, когато се инсталира от сорс - да се слага префикс /usr/local/ или /usr/local/app_name, следователно едно дърво с /bin /etc и т.н. за всички апс или за всеки app по отделно?</span></div>
+			<div>&nbsp;<span class="time">[12:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[12:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[12:15:21]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; Изцяло зависи от администратора... няма best practice</span></div>
+			<div>&nbsp;<span class="time">[12:15:34]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ако слагаш нещо с prefix /usr/local/app-name</span></div>
+			<div>&nbsp;<span class="time">[12:15:45]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; вътре ще имаш bin lib sbin и тн. директории</span></div>
+			<div>&nbsp;<span class="time">[12:16:09]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; и след това повечето админи правят symlink от /usr/local/app/bin/app към /usr/bin или /usr/local/bin</span></div>
+			<div>&nbsp;<span class="time">[12:16:17]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; така, че зависи ти как предпочиташ</span></div>
+			<div>&nbsp;<span class="time">[12:17:05]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ако използваш само /usr/local/, то тогава рискуваш да си задръстиш /usr/local/bin lib и тн. с apps и Libs които или вече не ти трябват или изобщо не работят</span></div>
+			<div>&nbsp;<span class="time">[12:17:25]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; затова някой хора използват /usr/local/app и след това правят symlinks</span></div>
+			<div>&nbsp;<span class="time">[12:17:33]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; но е case by case</span></div>
+			<div>&nbsp;<span class="time">[12:35:06]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; благодаря, hackman, а когато се наложи да се инсталира по-нова версия на даден app който вече е инсталиран през yum да речем, а разполагаме само със сорс на по-новата версия има ли някакви практики които да се следват</span></div>
+			<div>&nbsp;<span class="time">[12:35:33]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; например, да не се ъпдейтва автоматично от yum update</span></div>
+			<div>&nbsp;<span class="time">[12:35:38]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; в последствие</span></div>
+			<div>&nbsp;<span class="time">[12:36:17]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; например vim</span></div>
+			<div>&nbsp;<span class="time">[12:38:19]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; да... ако инсталираш нещо от source трябва да го добавяш в excludes за repo-тата от които го има</span></div>
+			<div>&nbsp;<span class="time">[12:45:43]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; колко трябва да си прост за да сложиш срещу gid името на усера, прерових целия courier и добре че има логове де.</span></div>
+			<div>&nbsp;<span class="time">[12:46:27]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; между другото кое предпочитате courier или dovecot ?</span></div>
+			<div>&nbsp;<span class="time">[12:48:09]</span>&nbsp;<span class="else_li">&nbsp;ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) left irc: Read error: Connection reset by peer</span></div>
+			<div>&nbsp;<span class="time">[12:58:10]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; hackman: t.e. довечера ще има стрийм ли или ще я пуснеш след като я запишеш ? Ако има стрийм в колко часа ?</span></div>
+			<div>&nbsp;<span class="time">[12:59:33]</span>&nbsp;<span class="else_j">&nbsp;dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />

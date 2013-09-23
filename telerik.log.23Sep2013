@@ -74,3 +74,25 @@
 [11:52:29] <lyubenblagoev> hackman, как е по-прието (kato best practise) да се прави, когато се инсталира от сорс - да се слага префикс /usr/local/ или /usr/local/app_name, следователно едно дърво с /bin /etc и т.н. за всички апс или за всеки app по отделно?
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
+[12:15:21] <hackman> Изцяло зависи от администратора... няма best practice
+[12:15:34] <hackman> ако слагаш нещо с prefix /usr/local/app-name
+[12:15:45] <hackman> вътре ще имаш bin lib sbin и тн. директории
+[12:16:09] <hackman> и след това повечето админи правят symlink от /usr/local/app/bin/app към /usr/bin или /usr/local/bin
+[12:16:17] <hackman> така, че зависи ти как предпочиташ
+[12:17:05] <hackman> ако използваш само /usr/local/, то тогава рискуваш да си задръстиш /usr/local/bin lib и тн. с apps и Libs които или вече не ти трябват или изобщо не работят
+[12:17:25] <hackman> затова някой хора използват /usr/local/app и след това правят symlinks
+[12:17:33] <hackman> но е case by case
+[12:35:06] <lyubenblagoev> благодаря, hackman, а когато се наложи да се инсталира по-нова версия на даден app който вече е инсталиран през yum да речем, а разполагаме само със сорс на по-новата версия има ли някакви практики които да се следват
+[12:35:33] <lyubenblagoev> например, да не се ъпдейтва автоматично от yum update
+[12:35:38] <lyubenblagoev> в последствие
+[12:36:17] <lyubenblagoev> например vim
+[12:38:19] <hackman> да... ако инсталираш нещо от source трябва да го добавяш в excludes за repo-тата от които го има
+[12:45:43] <yulimoto> колко трябва да си прост за да сложиш срещу gid името на усера, прерових целия courier и добре че има логове де.
+[12:46:27] <yulimoto> между другото кое предпочитате courier или dovecot ?
+[12:48:09] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) left irc: Read error: Connection reset by peer
+[12:58:10] <yulimoto> hackman: t.e. довечера ще има стрийм ли или ще я пуснеш след като я запишеш ? Ако има стрийм в колко часа ?
+[12:59:33] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:03:28] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 260 seconds
+[13:04:08] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
