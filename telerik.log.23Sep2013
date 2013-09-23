@@ -261,3 +261,33 @@
 [23:00:00] Writing channel file...
 [23:01:03] <ndyakov> наздраве
 [23:04:42] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) left irc: Ping timeout: 250 seconds
+[23:09:50] <nikolacio> и в двете ли дистрибуции (fedora/debian) инструмента се нарича named-checkconfig? :)
+[23:35:57] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[23:39:15] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[23:46:49] <ndyakov> allow-transfer {none;};
+[23:46:50] <ndyakov> ?
+[23:47:20] <ndyakov> има принципно, въпроса е дали при трансфера ще мине
+[23:52:36] <ndyakov> Благодаря за лекция :)
+[23:52:42] <ndyakov> Лека вечер.
+[23:52:44] <informer> лека
+[23:52:50] <urban_filth> лека
+[23:52:58] <nikolacio> лека, лека : )))
+[23:54:56] <yulimoto> ако нещо се случи пак с лекциите слагам един бекъп на http://grizzly.yuhu.biz/lectures/
+[23:54:57] <wilindex> [ Index of /lectures ] - grizzly.yuhu.biz
+[23:55:10] vladisr (kvirc@78.128.12.6) joined #telerikacademy.
+[23:56:16] vladisr (kvirc@78.128.12.6) left irc: Client Quit
+[23:56:26] <hackman> yulimoto, искаш ли да ги свалиш от Twitch със download script-a
+[23:56:49] <hackman> И даже направо да ги обедениш трите лекции ?
+[23:57:07] <yulimoto> ами те са при мен и на гризли вече
+[23:57:18] <yulimoto> не знам как се обединяват
+[23:57:30] <yulimoto> ти нямаше ли някакъв скрипт писан във форума помня нещо ?
+[23:57:42] <hackman> yulimoto, какъв ти е user-a
+[23:57:51] <hackman> на grizzly
+[23:58:54] <yulimoto> yulimoto
+[23:59:16] <hackman> v home-a ti e script-a
+[23:59:24] <yulimoto> 10x :)
+[23:59:26] <hackman> trqbva wget i ffmpeg ;)
+[23:59:37] <yulimoto> ясно :)
+[00:00:00] --- Tue Sep 24 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...
