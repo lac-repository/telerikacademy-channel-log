@@ -203,3 +203,40 @@
 [21:00:00] Writing user file...
 [21:00:00] Writing channel file...
 [21:03:12] nlkl|home (~Nikolacio@85.118.193.164) left irc: Ping timeout: 264 seconds
+[21:11:39] nlkl|home (~Nikolacio@37-143-203-190.sf.ddns.bulsat.com) joined #telerikacademy.
+[21:11:44] <hackman> ехо :)
+[21:11:51] <hackman> мисля да започвам след малко :)
+[21:12:00] <hackman> има ли някой който ще слуша/задава въпроси ?
+[21:13:16] <informer> аз ще гледам
+[21:15:08] RosenN (~tt@77.70.125.246) joined #telerikacademy.
+[21:20:47] RosenN (~tt@77.70.125.246) left irc: Quit: Leaving.
+[21:24:59] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:30:51] nlkl|home (~Nikolacio@37-143-203-190.sf.ddns.bulsat.com) left irc: Read error: Connection reset by peer
+[21:32:47] <hackman> informer, stream има ли ?
+[21:33:28] <informer> има
+[21:44:46] nikolacio (~nikolacio@37-143-203-190.sf.ddns.bulsat.com) joined #telerikacademy.
+[21:48:21] <ndyakov> Има ли начин да кешираме един запис, за повече време от това, което е упоменато в неговия запис ?
+[21:51:34] <KrasiGa> samo na men li mi nakasva?
+[21:51:46] <ndyakov> KrasiGa: и на мен , но се разбира.
+[21:51:50] <informer> не и при мен е така
+[21:52:57] <hackman> имам проблем с megalan
+[21:53:00] <ndyakov> Иначе аз просто пуснах един bind9 да кешира тук само за моя трафик, та... ще мога да изчистя кеша ако се наложи, предполагам....
+[21:53:02] <hackman> чакайте да им звънна
+[21:53:24] <KrasiGa> 4akame
+[21:53:26] <ndyakov> hackman: мини на speedynet ... там поне като имаш проблем, направо нямаш интернет
+[21:53:29] <ndyakov> ;)
+[21:53:33] <ndyakov> :Д
+[21:53:37] <nikolacio> :d
+[21:53:44] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[21:54:52] <informer> На мегалан ДНС-ите са им акани
+[21:55:11] <hackman> аз докато звънна и то се оправи :)
+[21:55:16] <hackman> пускам тестово :)
+[21:55:51] <hackman> ехоо
+[21:55:52] <informer> засега е добре, ама говори повече :)
+[21:56:04] <nikolacio> бива :)
+[21:56:22] <informer> Мегалан, ако гелдат, даси оправят ДНС сървърите
+[21:58:20] <informer> пак понакъсва отвреме-навреме
+[21:59:06] <KrasiGa> i pri men nakasva :(
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:01:08] <ndyakov> пак понакъсва, може би ако намалиш малко резолюцията или фреймовете ?
