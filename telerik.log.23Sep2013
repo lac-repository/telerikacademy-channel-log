@@ -96,3 +96,39 @@
 [13:00:00] Writing channel file...
 [13:03:28] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 260 seconds
 [13:04:08] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[13:28:40] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[13:28:46] Nick change: ndyakov|away -> ndyakov
+[13:35:53] <hackman> stream ще има
+[13:35:56] <hackman> но за колко часа
+[13:35:59] <hackman> още не мога да кажа
+[13:36:04] <hackman> че имам бая ангажименти :)
+[13:36:31] <hackman> трябва да копувам подарък за рожден ден на много близък приятел , трябва за визи да хода... абе ебало си мамата :)
+[13:36:57] <vhristev> Аз така и не разбрах за бирата
+[13:37:07] <vhristev> правят ли се After party-а след лекцията
+[13:38:44] <hackman> vhristev, да, качаме се горе на покрива
+[13:43:12] <vhristev> Супер тоя четв. няма да пропусна мерси за инфото
+[13:44:29] <phalaaxx> sudo chroot /chroot/debian apt-get install locales
+[13:44:29] <phalaaxx> sudo chroot /chroot/debian dpkg-reconfigure locales
+[13:44:41] <phalaaxx> и пипнах sources.list да ползва bg mirror
+[13:45:11] <phalaaxx> че малко дразнещо това дето се оплаква за "settings locale failed"
+[13:45:48] <yulimoto> phalaaxx: къде това в гризли ли ?
+[13:46:01] <phalaaxx> да
+[13:46:20] <phalaaxx> setting*
+[13:46:34] <vhristev> locales гърми ли с проблем при инсталация
+[13:46:44] <yulimoto> аз щях да прехвърлям потребителите ама от тоя мейл сървър не ми остана време
+[13:46:49] <phalaaxx> вече не
+[13:46:58] <phalaaxx> аа да верно ще чях да пиша нещо по въпроса
+[13:47:03] <phalaaxx> ма и аз нещо се отплеснах :D
+[13:47:13] <vhristev> пробвай това
+[13:47:17] <vhristev> export LC_ALL=en_US.UTF-8
+[13:47:17] <vhristev> dpkg-reconfigure locales
+[13:47:28] <phalaaxx> vhristev: вече е ок
+[13:47:34] <vhristev> дай грешката
+[13:47:43] <vhristev> пусни ми целяит аутпут
+[13:47:47] <yulimoto> phalaaxx: ам aко исках пиши, ама се обади да не се мина напразно :)
+[13:47:47] <vhristev> в един pastebin
+[13:48:02] <yulimoto> phalaaxx: vhristev нема спиране :)
+[13:49:06] <phalaaxx> yulimoto: още се боря с postgres-а от миналата седмица че само се разсейвам, като пробвам каквото ми трябва там ще си поиграя малко и със потребителите на гризли :)
+[13:49:19] <yulimoto> are piчове, phalaaxx ако вземеш да напишеш нещо по юзерите кажи, да не се мина :)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
