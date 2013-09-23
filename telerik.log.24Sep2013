@@ -8,3 +8,32 @@
 [00:04:34] <yulimoto> hackman: да личеше ти, че си изморен ама иначе пък не пропусна нищо
 [00:04:34] <hackman> yulimoto, да twitch ги разделя... но тоя моя скрипт ги обединява :)
 [00:04:44] <yulimoto> :)
+[00:05:14] <hackman> yulimoto, пропуснах излагацията от предната лекция където бях направил zone file-а root owned и не се зареждаше :)
+[00:05:29] <yulimoto> аа да permission denied
+[00:05:44] <yulimoto> ама той никой не го видя 5-6 минути
+[00:06:33] <yulimoto> правя една баня аз и лягам :) мъча един smtp сървър, ама ще остане за събота и неделя ...
+[00:08:01] <hackman> :) кво му е на SMTP-то ? :)
+[00:08:18] <hackman> ние в четвъртък ще мъчим DHCP + syslog + crond + logrotate :)
+[00:09:27] <yulimoto> ми уча чета postfix-a обаче като се логвам от вън не мога да пращам имейли, от вътре понеже съм 127.0.0.1 пращам
+[00:09:39] <yulimoto> и не мога да намеря каква опция да сложа
+[00:09:44] <yulimoto> в посфикса
+[00:10:29] <yulimoto> Relay access denied
+[00:11:08] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[00:11:32] <yulimoto> сменях правих спрях sasl-a, но ще видя мисля че другаде бъркам :) не чета като хората :)
+[00:18:57] <hackman> yulimoto, sender_address_verification tursish
+[00:19:16] <hackman> #smtpd_sender_restrictions = permit_mynetworks, permit_sasl_authenticated, check_sender_access hash:/etc/postfix/sender_access, reject_non_fqdn_sender, reject_unknown_sender_domain, reject_unverified_sender
+[00:19:23] <hackman> #smtpd_client_restrictions =  permit_sasl_authenticated, check_client_access hash:/etc/postfix/client_access, permit_mynetworks, reject_unknown_client_hostname
+[00:19:31] <hackman> играеш си с тези двете
+[00:19:38] <hackman> докато го докараш до това което искаш
+[00:19:40] <hackman> и готово :)
+[00:20:01] <hackman> при мен са така:
+[00:20:02] <hackman> smtpd_client_restrictions = reject_rbl_client rbl.fccf.net
+[00:20:02] <hackman> smtpd_sender_restrictions = permit_mynetworks, permit_sasl_authenticated, check_sender_access hash:/etc/postfix/sender_access, reject_non_fqdn_sender, reject_unknown_sender_domain, reject_unverified_sender
+[00:20:10] <hackman> на yuhu
+[00:24:06] <hackman> аз се къпя и сядам да си сготвя нещо за манджане :)
+[00:32:07] <yulimoto> hackman: днес съм си играл 2 само с smtpd_sender_restriction и smtpd_recipient_restrictions , ако излезе това ще скачам до тавана :)
+[00:32:56] <yulimoto> 2 часа*
+[00:33:59] <yulimoto> утре като стана ще погледна структурата на check_sender_access файла, дефакто с него се връзват нещата, поне на теория
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:00:49] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de

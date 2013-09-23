@@ -26,6 +26,42 @@
 		</div>
 		<div id="mainblock">
 			<div id="navtop"><a href="index.html">Main page</a></div>
+			<div>&nbsp;<span class="time">[00:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[00:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[00:03:06]</span>&nbsp;<span class="else_li">&nbsp;informer (~informer@95.111.9.121) left irc: Quit: dashing</span></div>
+			<div>&nbsp;<span class="time">[00:03:49]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ебаси... много се уморих</span></div>
+			<div>&nbsp;<span class="time">[00:03:57]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; а уж на удобно си седя на дивана</span></div>
+			<div>&nbsp;<span class="time">[00:03:58]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; :(</span></div>
+			<div>&nbsp;<span class="time">[00:04:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; hackman: значи в twitch явно разделя нещо файловете, при мен няма разделяне, ако не прекъснеш, защото аз дъмпвам стрийма и го записвам директно в файл</span></div>
+			<div>&nbsp;<span class="time">[00:04:34]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; hackman: да личеше ти, че си изморен ама иначе пък не пропусна нищо</span></div>
+			<div>&nbsp;<span class="time">[00:04:34]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; yulimoto, да twitch ги разделя... но тоя моя скрипт ги обединява :)</span></div>
+			<div>&nbsp;<span class="time">[00:04:44]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[00:05:14]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; yulimoto, пропуснах излагацията от предната лекция където бях направил zone file-а root owned и не се зареждаше :)</span></div>
+			<div>&nbsp;<span class="time">[00:05:29]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аа да permission denied</span></div>
+			<div>&nbsp;<span class="time">[00:05:44]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ама той никой не го видя 5-6 минути</span></div>
+			<div>&nbsp;<span class="time">[00:06:33]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; правя една баня аз и лягам :) мъча един smtp сървър, ама ще остане за събота и неделя ...</span></div>
+			<div>&nbsp;<span class="time">[00:08:01]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; :) кво му е на SMTP-то ? :)</span></div>
+			<div>&nbsp;<span class="time">[00:08:18]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ние в четвъртък ще мъчим DHCP + syslog + crond + logrotate :)</span></div>
+			<div>&nbsp;<span class="time">[00:09:27]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ми уча чета postfix-a обаче като се логвам от вън не мога да пращам имейли, от вътре понеже съм 127.0.0.1 пращам</span></div>
+			<div>&nbsp;<span class="time">[00:09:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и не мога да намеря каква опция да сложа</span></div>
+			<div>&nbsp;<span class="time">[00:09:44]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; в посфикса</span></div>
+			<div>&nbsp;<span class="time">[00:10:29]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; Relay access denied</span></div>
+			<div>&nbsp;<span class="time">[00:11:08]</span>&nbsp;<span class="else_j">&nbsp;staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[00:11:32]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сменях правих спрях sasl-a, но ще видя мисля че другаде бъркам :) не чета като хората :)</span></div>
+			<div>&nbsp;<span class="time">[00:18:57]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; yulimoto, sender_address_verification tursish</span></div>
+			<div>&nbsp;<span class="time">[00:19:16]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; #smtpd_sender_restrictions = permit_mynetworks, permit_sasl_authenticated, check_sender_access hash:/etc/postfix/sender_access, reject_non_fqdn_sender, reject_unknown_sender_domain, reject_unverified_sender</span></div>
+			<div>&nbsp;<span class="time">[00:19:23]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; #smtpd_client_restrictions =  permit_sasl_authenticated, check_client_access hash:/etc/postfix/client_access, permit_mynetworks, reject_unknown_client_hostname</span></div>
+			<div>&nbsp;<span class="time">[00:19:31]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; играеш си с тези двете</span></div>
+			<div>&nbsp;<span class="time">[00:19:38]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; докато го докараш до това което искаш</span></div>
+			<div>&nbsp;<span class="time">[00:19:40]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; и готово :)</span></div>
+			<div>&nbsp;<span class="time">[00:20:01]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; при мен са така:</span></div>
+			<div>&nbsp;<span class="time">[00:20:02]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; smtpd_client_restrictions = reject_rbl_client rbl.fccf.net</span></div>
+			<div>&nbsp;<span class="time">[00:20:02]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; smtpd_sender_restrictions = permit_mynetworks, permit_sasl_authenticated, check_sender_access hash:/etc/postfix/sender_access, reject_non_fqdn_sender, reject_unknown_sender_domain, reject_unverified_sender</span></div>
+			<div>&nbsp;<span class="time">[00:20:10]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; на yuhu</span></div>
+			<div>&nbsp;<span class="time">[00:24:06]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; аз се къпя и сядам да си сготвя нещо за манджане :)</span></div>
+			<div>&nbsp;<span class="time">[00:32:07]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; hackman: днес съм си играл 2 само с smtpd_sender_restriction и smtpd_recipient_restrictions , ако излезе това ще скачам до тавана :)</span></div>
+			<div>&nbsp;<span class="time">[00:32:56]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; 2 часа*</span></div>
+			<div>&nbsp;<span class="time">[00:33:59]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; утре като стана ще погледна структурата на check_sender_access файла, дефакто с него се връзват нещата, поне на теория</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
