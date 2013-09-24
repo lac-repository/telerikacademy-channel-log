@@ -561,3 +561,40 @@
 [17:03:12] <yulimoto> аха аз бях правил с postgray amavis
 [17:03:28] <yulimoto> но тук се чудя какво да слагам ---- arm 1.2 gh
 [17:03:50] <yulimoto> мисля че само postgray e достатъчен
+[17:06:32] <yulimoto> а за някакъв бекъп ще чета и ще видя там за vps така или иначе ще ми трябва
+[17:06:34] <phalaaxx> ако правиш гореописаната картинка с 3 сървъра от които 2 се виждат към Интернет, достатъчно е само на тях да имаш postgrey
+[17:07:05] <phalaaxx> backup за vps... това не знам как се прави :)
+[17:07:19] <phalaaxx> аз лично си го представям със снапшоти във файловата система и виртуализацията
+[17:07:38] <phalaaxx> обаче не знам какви са best practices в този случай
+[17:07:58] <phalaaxx> иначе съм фен на bacula :)
+[17:08:14] <phalaaxx> това чудо може много пари и нерви да спести
+[17:09:22] <yulimoto> аз не се изразих правилно
+[17:11:00] <phalaaxx> ааа за mx backup?
+[17:11:01] <phalaaxx> :)
+[17:11:11] <yulimoto> има група от сайтове които в момента са на хостове и мисля да ги сложа на vps,тъй като вече преместих персоналния си мейл на sheeva plug
+[17:11:31] <yulimoto> ще сложа и нa vps-a мейл сървър
+[17:11:44] <yulimoto> когато шивата не е на линия по някаква причина
+[17:11:50] <yulimoto> vps ще поема писмата
+[17:12:27] <yulimoto> просто в dns-а ще опиша vps-а и ще го настроя да взема писмата когато шивата не онлайн
+[17:14:02] <yulimoto> нали има такава опция в postfix primary MX и secondary MX ?
+[17:15:15] <phalaaxx> има, казваш му само писмата за кой домейн към кой майл сървър да ходя но не ме питай за конкретната настройка, не я знам на изуст :)
+[17:16:18] <yulimoto> не те питам, щото не си правиш илюзии, че си толкоз ... че да знаеш наизуст такива настройки
+[17:16:27] <yulimoto> не си правя*
+[17:16:27] <phalaaxx> аа било лесно май
+[17:16:27] <phalaaxx> описваш relay_domains и в transport_maps слагаш кой домейн към кой сървър да ходи (по IP)
+[17:17:07] <yulimoto> http://www.postfix.org/STANDARD_CONFIGURATION_README.html#backup
+[17:17:08] <wilindex> [ Postfix Standard Configuration Examples ] - www.postfix.org
+[17:17:30] <phalaaxx> примерно: transport_maps = hash:/etc/postfix/transport-maps
+[17:17:31] <phalaaxx> и в transport-maps файла слагаш: domain_name.tld  smtp:1.2.3.4
+[17:18:20] <yulimoto> да и не зарбравям да го postmap-на че ... ми се случи да се чудя какво става
+[17:18:47] <phalaaxx> да :)
+[17:19:11] <phalaaxx> хм relay_recipient_maps, това пък е нещо друго интересно
+[17:23:13] <yulimoto> нещо не му хващам смисъла
+[17:25:18] <yulimoto> аха долу горе го разбрах сега
+[17:25:50] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[17:27:20] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[17:48:57] <dencho-at-work> do skoro :D
+[17:49:01] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:58:55] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
