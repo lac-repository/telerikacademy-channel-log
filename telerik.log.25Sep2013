@@ -103,3 +103,72 @@
 [12:01:55] <dencho-at-work> stanal sam odavna :D
 [12:02:10] <dencho-at-work> lyubeneeeei :D
 [12:03:06] <dencho-at-work> dneska go igraq call catcher :D i vikam da vi testvam koi e na liniq :D
+[12:13:21] <dencho-at-work> btw dnes pak mi zabi laptopa i pak izbqga wifi-a... razlikata be6e 4e na virtualbox-a vurve6e centos
+[12:13:32] <dencho-at-work> vuzmojno li e virtualbox-a da se ebe na krivo?
+[12:13:39] <phalaaxx> hackman: 8-мо домашно кога и къде трябва да се качи?
+[12:13:49] <phalaaxx> в сайта пише "Лекцията няма домашно."
+[12:14:01] <phalaaxx> пък има задания :)
+[12:14:31] <dencho-at-work> hahaha :D
+[12:14:48] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[12:20:56] <hackman> sega shte dobavq :)
+[12:20:58] <hackman> propusk :)
+[12:22:43] <yulimoto> phalaaxx ей не може да на кажеш, сега остави много хора извън чертата
+[12:23:00] <yulimoto> phalaaxx щяхме да си пашикаме без домашна
+[12:24:56] <yulimoto> то човек влезе в да ви види и вие му понижите настроениeтo ;P
+[12:24:59] <phalaaxx> yulimoto  аз съм се трудил вчера, да не взема да се мина нещо
+[12:25:03] <phalaaxx> :D
+[12:25:32] <yulimoto> отрудил си се ти, от вчера вдигаш гири че няма ъплоуд ;)
+[12:26:22] <dencho-at-work> hahaha
+[12:26:49] <dencho-at-work> phalaaxx preeba rautata :)
+[12:27:34] <yulimoto> аз предлагам да направим заговор
+[12:27:59] <dencho-at-work> sre6to?
+[12:28:44] <yulimoto> трябва да видим колко SYN заявки може да носи от Ip сайта на телерик и да ги заемем всичките от source ип-то na phalaaxx
+[12:29:35] <dencho-at-work> :D
+[12:29:38] <yulimoto> имаше такива настройки
+[12:30:15] <yulimoto> че му вземем всичките SYN и после да се връзва през телефона, поне ще го затрудним
+[12:30:32] <phalaaxx> кой? какво?
+[12:30:52] <phalaaxx> DDoS само с 1 машина? :)
+[12:30:56] <yulimoto> нищо нищо, говорим си за кой ще праща домашна и кой не
+[12:31:00] <phalaaxx> това е DoS всъщност
+[12:32:00] <yulimoto> ами не знам, ако не ти се отваря сайта на телерик да знаеш не е от мен или dencho-at-work
+[12:32:53] <phalaaxx> впрочем наскоро един приятел си игра с един стар DoS - range DoS
+[12:32:59] <yulimoto> :)
+[12:33:01] <phalaaxx> учудващо ама успя да бутне няколко сървъра н сего
+[12:33:08] <phalaaxx> c*
+[12:33:16] <phalaaxx> него*
+[12:33:18] <phalaaxx> :D
+[12:33:30] <yulimoto> ами не ги знам, на какъв принцип действа какво прави ?
+[12:33:41] <yulimoto> не ги знам по имена :)
+[12:34:41] <dencho-at-work> kvi gi prai toq range ?
+[12:34:43] <phalaaxx> амиии в една заявка по http иска няколко range-а, примерно 0-* или някакви припокриващи се
+[12:34:54] <yulimoto> аха
+[12:35:01] <phalaaxx> демек с 1 заявка караш уеб сървъра да генерира 50 пъти едно и също нещо
+[12:35:14] <yulimoto> да :)
+[12:35:52] <phalaaxx> и като му пратиш 50 такива заявки в секунда и за кратко време става така, че му свършва леко паметта, пълни му се суап-а и т.н.
+[12:35:58] <phalaaxx> после дава заето
+[12:36:32] <yulimoto> да ясно, просто не ми беше ясно range какво ще рече
+[12:37:05] <phalaaxx> това е нещото което позволява да правиш resume download като теглиш нещо по http
+[12:37:27] <yulimoto> аха
+[12:37:39] <phalaaxx> обаче в протокола се допуска да поискаш повече от един range в една заявка
+[12:44:20] net: eof!(read) socket 6
+[12:45:03] DNS resolve failed for chat.freenode.net
+[12:46:03] DNS resolve failed for irc.freenode.net
+[12:46:22] net: connect! sock 6
+[12:46:38] Telerik joined #telerikacademy.
+[12:46:49] <dencho-at-work> welcome back Mr. Telerik
+[12:47:00] <yulimoto> аха
+[12:47:42] <phalaaxx> но ме кефи най-много идеята с varnish, това ако го позволява приложението... кърти мивки, лепи плочки, стърже асфалт... :D
+[12:48:59] <yulimoto> ами зависи от колко динамичен е сайта май, щото това като те забучи в кеша, направо ще ти гипсира сайта от всекъде
+[12:49:42] sagruob (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[12:50:18] <dencho-at-work> imam deja vu!
+[12:50:41] <dencho-at-work> q proverete v logovete tva dali ne ste si go prikazvali :D
+[12:51:33] <phalaaxx> dencho-at-work: на това може би му се викат спомени, не deja vu :D
+[12:52:37] <dencho-at-work> ami ako ne ste si go prikazvali zna4i e deja vu
+[12:52:54] <dencho-at-work> moje nqkoi da promenq koda v matricata :D
+[12:53:04] <phalaaxx> амии мисля че съм разправял и преди колко ме кефи varnish
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:01:16] <dencho-at-work> mi moje i spomeni da imam, znam li :D
+[13:02:35] <KrasiGa> нищо не разбрах от това дето си говорите. yulimoto моите сървъра са си наред и затова има дъра бъра
+[13:02:59] <KrasiGa> когато ние работим значи има проблем и всички останали чакат
+[13:03:39] <KrasiGa> а ти какво бачкаш by the way?
