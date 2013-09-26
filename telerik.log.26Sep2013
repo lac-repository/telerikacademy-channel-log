@@ -312,3 +312,15 @@
 [19:54:11] <yulimoto> след като dhcp сървъра може по всяко едно време да  смени адреса на даден клиент от мрежата, теоретично можем ли да си "съчиним" пакет като уж пратен от сървъра и да го пратим към някой клиент, за да си смени ип-то ?
 [20:00:00] Writing user file...
 [20:00:00] Writing channel file...
+[20:09:38] KacanuH (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:22:12] RosenN (~tt@77.70.125.246) joined #telerikacademy.
+[20:31:05] V_Ivanoff (5d9be661@gateway/web/cgi-irc/kiwiirc.com/ip.93.155.230.97) joined #telerikacademy.
+[20:45:07] vladisr|2 (kvirc@78.128.12.6) left irc: Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/
+[20:45:47] vladisr (kvirc@78.128.12.6) joined #telerikacademy.
+[20:49:18] <episparh> мда , ама да си закачи 2-ро ниво рутерите на суича
+[20:49:29] <episparh> и да си спре dhcp
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:00:40] <yulimoto> hackman: ще има ли прекъсване за разделяне на файловете?
+[21:00:55] <yulimoto> както и да е :)
+[21:03:01] falatel (~bozhin@212.5.158.108) left irc: Quit: Leaving.
