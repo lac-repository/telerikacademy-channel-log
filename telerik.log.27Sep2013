@@ -94,3 +94,34 @@
 [11:00:00] Writing channel file...
 [11:00:06] <nlkl> млади меринджей направо : )
 [11:01:10] <lyubenblagoev> ко не
+[11:06:41] <KpeTeHoug> ко ? не !
+[11:06:42] <KpeTeHoug> :)
+[11:06:46] <KpeTeHoug> искаш дакажеп
+[11:06:50] <KpeTeHoug> ах
+[11:06:56] <KpeTeHoug> днес ще е bad kbd day
+[11:06:57] <KpeTeHoug> :)
+[11:07:30] <KrasiGa> къв е тоя лаф с ко? не! Днес попадам на него за 3ти път
+[11:08:40] <lyubenblagoev> KrasiGa, не си ли гледала от господарите за младия меринджей
+[11:09:22] <KrasiGa> ами ТВ принципно не гледам
+[11:13:45] <KpeTeHoug> е то и аз
+[11:13:51] <KpeTeHoug> но има интернет за тая работа
+[11:14:06] <KpeTeHoug> виж в vbox-a за млад меринджей
+[11:14:14] <KpeTeHoug> и ще разбереш
+[11:16:53] <KrasiGa> вбокса не ми върви тук ама все тая
+[11:17:04] <KrasiGa> ще го преживея, че не разбирам
+[11:26:56] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[11:27:59] <dencho-at-work> op :D
+[11:43:51] <yulimoto> http://www.nytimes.com/2013/09/26/science/researchers-build-a-working-carbon-nanotube-computer.html?_r=0
+[11:50:26] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[11:53:40] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[11:54:44] Nick change: lyubenblagoev_ -> lyubenblagoev
+[11:55:51] Ivaka (~opera@46.238.49.41) joined #telerikacademy.
+[11:58:21] Nick change: ndyakov|away -> ndyakov
+[11:58:21] Ivaka (~opera@46.238.49.41) left #telerikacademy.
+[11:58:28] <ndyakov> Добро утро ?
+[11:58:38] <ndyakov> някой тук да ми помогне с нещо, че явно не си задавам въпроса правилно на google
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:02:19] <phalaaxx> ако кажеш с какво може и някой да успее да помогне :)
+[12:04:31] <ndyakov> сложил съм си един bind9 да кешира на рутера
+[12:04:49] <ndyakov> ама понеже имам 3-4 у-ва в мрежата ми се иска да го пусна и да връща ip–тата им
