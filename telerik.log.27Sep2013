@@ -125,3 +125,112 @@
 [12:02:19] <phalaaxx> ако кажеш с какво може и някой да успее да помогне :)
 [12:04:31] <ndyakov> сложил съм си един bind9 да кешира на рутера
 [12:04:49] <ndyakov> ама понеже имам 3-4 у-ва в мрежата ми се иска да го пусна и да връща ip–тата им
+[12:05:08] <ndyakov> искаше ми се просто да взима hostname–овете им
+[12:05:36] <ndyakov> но намирам само как да си пусна някакъв домейн и да ги мапна към него
+[12:06:51] <dencho-at-work> tva ne se li kazva reverce dns
+[12:08:35] <ndyakov> въпроса е принципно дали мога да го накарам сам да ги събира
+[12:08:38] <ndyakov> или трябва да ги пиша
+[12:09:06] <ndyakov> защото с reverse може и да стане да си сложа просто някакво име (например name) , а не name.local
+[12:10:18] <dencho-at-work> a ot kade da gi subere?
+[12:12:37] <ndyakov> принципно те би трябвало да си промоутват hostname–овете
+[12:19:28] <yulimoto> ndyakov: от къде би трябвало да взема hostname-тата
+[12:19:47] <ndyakov> yulimoto: е те не си ли ги promote–ват по мрежата ?
+[12:20:50] BM_boyan (~BM_boyan@87.119.67.173.client.entry.bg) joined #telerikacademy.
+[12:21:13] <yulimoto> не знам, за това питам, зад този термин "promote" трябва да има протокол, верятно dhcp и нещо от сорта ? Иначе да взема да си промотна 2-3 домейна в интернет :)
+[12:22:34] <yulimoto> но аз сега навлизам в темата т.е. още съм на линукс-бг - как работи днс статиите, така че наистина не знам, може би има нещо такова
+[12:25:28] <ndyakov> netbios
+[12:28:40] <yulimoto> честно ли ? :)
+[12:28:49] <ndyakov> честно
+[12:28:51] <yulimoto> не не ми казвай, не искам да знам
+[12:28:54] <yulimoto> оф
+[12:29:02] <yulimoto> каза ми, ужас :)
+[12:29:59] <ndyakov> може и аз да се бъркам
+[12:30:09] <ndyakov> накрая ще ги направя с ревърси хардкоднато
+[12:30:12] <ndyakov> и това е.
+[12:30:18] <ndyakov> те са 4-5 бокса
+[12:30:19] <ndyakov> не е кой-знае какво
+[12:32:29] <yulimoto> dencho-at-work: http://mybeatlive.com/kink.html
+[12:32:40] <yulimoto> dencho-at-work: само ако имаш 18
+[12:33:33] <ndyakov> ама то няма да стане и само с ревърс
+[12:34:07] <dencho-at-work> kvo gledame tuka?
+[12:34:14] <yulimoto> слушаме
+[12:34:37] <dencho-at-work> slu6ame, ama sq ne mojem da slu6ame
+[12:34:37] <dencho-at-work> :d
+[12:34:37] <ndyakov> е и гледаме сервитьорката
+[12:35:01] <yulimoto> ами губиш, те за теб са го направили, ама на
+[12:35:11] <dencho-at-work> trea da oda si pla6tam internetq
+[12:35:22] <yulimoto> пак ли ве
+[12:36:02] <dencho-at-work> da we
+[12:36:07] <dencho-at-work> da gi eba u tupacite
+[12:36:17] <yulimoto> ndyakov: ми що не ги опишеш в днс сървъра и тва е, а или то беше cache
+[12:36:17] <dencho-at-work> trqq da oda sq v dujda
+[12:36:21] <dencho-at-work> i pak sam bolen we!
+[12:36:25] <yulimoto> ndyakov: не ме слушай
+[12:36:27] <dencho-at-work> pak me boli gurloto i pak imam supoli
+[12:36:46] <yulimoto> и дъжд ли имате ве
+[12:36:53] <yulimoto> тука слъчопек
+[12:36:59] <ndyakov> болката ми е само, че не искам да е neshtosi.local , а само neshtosi.
+[12:36:59] <dencho-at-work> imame si4ko we
+[12:37:18] <dencho-at-work> az vse o6te ne moga da razbera ndyakov kakvo iska
+[12:37:42] <ndyakov> dencho-at-work: да си resolv–на Hostname–овете на машините в нас
+[12:37:44] <yulimoto> dencho-at-work: това да го слушаш аз със слушалки на ушите и виж какви глупости говоря, много яко действа на социалните умения
+[12:37:45] <ndyakov> :D
+[12:37:49] <yulimoto> !!!
+[12:38:55] <dencho-at-work> reverce dns si napravi, sloji kato purvi DNS na ma6inite si
+[12:39:00] <dencho-at-work> taka nqq li da stane ?
+[12:39:15] <dencho-at-work> opi6i gi tam pc2 1021.3.13.13
+[12:39:38] <dencho-at-work> ako iska6 napravi i pc2.gogo.net 123.123.123.2
+[12:39:54] <ndyakov> dencho-at-work: е нали трябва да използвам . ... ще видя
+[12:39:59] <dencho-at-work> t.e ne :D to posle si vliza v domeina
+[12:40:10] <ndyakov> мисля че разбрах какво имаш в предвид
+[12:40:18] <ndyakov> ще видя дали мога да ги изсипя в зоната .
+[12:40:42] <dencho-at-work> da ti dam li conf-natiq bind9 kakto e pri mene
+[12:40:57] <dencho-at-work> ili da oda da si pla6tam netq
+[12:41:17] <dencho-at-work> yulimotooooooooooooooooooooooooool BOLEN SAM WE
+[12:41:45] <ndyakov> dencho-at-work: metni mi edin link ot pastebin ako mojesh
+[12:42:49] <hackman> dencho-at-work, па и аз съм болен ама водя лекции нали ?
+[12:43:07] <yulimoto> dencho-at-work: какво да направя, да ти пратя чай ще изтине !?
+[12:43:51] <yulimoto> dencho-at-work: питай KpeTeHoug и KrasiGa те имат повеч опит сякаш, от мен само музика !!!!
+[12:43:54] <yulimoto> хаха
+[12:43:55] <phalaaxx> yulimoto: бъди съпричастен
+[12:44:33] <phalaaxx> ама не много, не е необходимо и ти да се разболяваш
+[12:45:00] <yulimoto> ааааа стига, неща
+[12:45:22] <phalaaxx> е поне малко бъди съпричастен де, то лошо няма :)
+[12:45:26] <phalaaxx> човещинка :D
+[12:45:38] <yulimoto> dencho-at-work: ти да не пушиш цигарки, че се разболяваш през 10 деня ве
+[12:45:57] <phalaaxx> hackman: видя ли линка (скритата камера)? :)
+[12:46:39] <dencho-at-work> hahaha hackman vodi6 ama te4e li ti supolq?
+[12:46:43] <yulimoto> аз го видях сутринта , изкара акъла на човека
+[12:47:01] <dencho-at-work> yulimoto: ne :D
+[12:47:08] <hackman> phalaaxx, гледал съм го... даже на живо :)
+[12:47:17] <phalaaxx> :D
+[12:47:21] <yulimoto> хахаха dencho-at-work сега ако ще си мериш саполя, ходи у леглото
+[12:47:38] <hackman> но отзад е много по "различно" :)
+[12:47:46] <phalaaxx> е нали стана въпрос за разни подобни изпълнения при взимане на завои
+[12:47:49] <hackman> някак си по-силни са усещанията :)
+[12:48:27] <phalaaxx> мен само са ми разказвали, не съм виждал такова нещо на живо
+[12:50:11] <phalaaxx> разправяли са ми как се взима завой на 180 градуса при 200км/ч със 20 метра спирачен път преди завоя
+[12:50:46] <phalaaxx> малко ми е трудно да повярвам че е възможно това ама човека който ми го разказа твърди че не преувеличава с числата
+[12:54:18] <KpeTeHoug> dencho-at-work много ти кекав firewall-a
+[12:54:25] <KpeTeHoug> за 2 седмици 2 пъти болен ве
+[12:54:26] <Deyan> ахахха
+[12:54:42] <KpeTeHoug> hackman на нищо ли не те е научил
+[12:54:56] <yulimoto> KpeTeHoug: или не си описал iptables кат хората
+[12:55:05] <KpeTeHoug> ми да
+[12:55:07] <KpeTeHoug> и това го има
+[12:55:15] <yulimoto> KpeTeHoug: има отворен порт !!!!
+[12:55:24] <hackman> KpeTeHoug, той и моя такъв... от две седмици не съм се оправил :)
+[12:55:29] <KpeTeHoug> кой, входящият или изходящият
+[12:55:35] <hackman> но пък performance-а ми не пада :) мога да поемам още
+[12:55:46] <KpeTeHoug> щото имаш мноо рам
+[12:55:49] <KpeTeHoug> а dencho-at-work кекаФ
+[12:55:50] <KpeTeHoug> :)
+[12:56:06] <KpeTeHoug> dencho-at-work ходи си прави чай от лайка, няма да сгрешиш
+[12:56:44] <KpeTeHoug> за сополите вземаш xylometazolin за възстратни,  и Rhinomer, детски
+[12:56:59] <KpeTeHoug> редуваш пред 2 часа и си готов
+[12:57:47] <KpeTeHoug> и другият път, 2и 90 такса
+[12:57:49] <hackman> Лимони и мед
+[12:57:53] <KpeTeHoug> за здравната каса
+[12:58:11] <KpeTeHoug> лимони и мед става за гърлото да, аз го тача много
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
