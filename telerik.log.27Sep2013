@@ -255,3 +255,62 @@
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
 [14:00:31] <dencho-at-work> mi da weee
+[14:12:10] BM_boyan (~BM_boyan@87.119.67.173.client.entry.bg) left #telerikacademy.
+[14:13:10] <dencho-at-work> of
+[14:13:14] <dencho-at-work> petak...
+[14:14:08] <KrasiGa> хммм на мен в понеделник ме беше като петък а днес ми е като понеделник
+[14:14:41] <KrasiGa> странно объркана съм
+[14:17:14] <KpeTeHoug> това е от пълнолунието
+[14:21:11] <KrasiGa> да бе, току виж стана въркулак :)
+[14:29:54] <yulimoto> Какво е това tunnel brоker ?
+[14:30:14] <yulimoto> за какво служи и какви възможности има ?
+[14:31:14] <dencho-at-work> na kakvo we yulimoto  we
+[14:31:22] <dencho-at-work> za ipv6 li?
+[14:31:31] <yulimoto> да
+[14:31:38] <yulimoto> я кажи
+[14:32:08] <dencho-at-work> mi az ne sam naqsno, no dokolkoto si spomnqm, ako nqma6 ipv6 vse o6te, moje da ide6 tam i da si vzeme6
+[14:33:12] <yulimoto> къде е това там ?
+[14:33:16] <dencho-at-work> ama 4iii hui ti e ipv6 ne znam :D
+[14:33:25] <dencho-at-work> mi v broker saitovete
+[14:33:26] <yulimoto> трябва ми
+[14:33:51] <yulimoto> аха
+[14:33:58] <yulimoto> пари ?
+[14:34:03] <dencho-at-work> mi ima i free
+[14:34:11] <dencho-at-work> http://dnslookup.me/free-tunnel/free-ipv6-tunnels/
+[14:34:21] <dencho-at-work> temata e stara
+[14:34:21] <dencho-at-work> :D
+[14:34:35] <dencho-at-work> amaaaa az pomnq, 4e bqha free predi 5-6-7 godini
+[14:34:35] <yulimoto> аз искам официално да си взема ipV6 мрежа
+[14:34:36] <dencho-at-work> sq ne znam
+[14:34:49] <yulimoto> няма да са намалели много
+[14:35:24] <dencho-at-work> na http://en.linuxreviews.org/Free_IPv4_to_IPv6_Tunnel_Brokers
+[14:36:51] <yulimoto> как да стана брокер ? искам да раздавам на хората мрежи ? направя ip станция "Соларис" и ще давам на кибер пънк обществото мрежи ?
+[14:38:54] <yulimoto> ма аз не знам как става това с тунелите, трябва да го разуча сигурно е интересно
+[14:42:34] <yulimoto> ама според мен работата е следната ---> аз се връзвам към сървис (някакъв тунел) към съвър с юзер и пасс, като ме види ми дава ipV6 ип-то т.е. препраща го към мен, един вид го nat-и към моето ип
+[14:43:26] <yulimoto> демек нати с външно ип V6 към мен с ipv4
+[14:43:49] <yulimoto> такъв ли е принципа бре ? щото аз само гадая
+[14:48:29] <KpeTeHoug> или просто е резолв на ipv4 kym ipv6
+[14:48:30] <KpeTeHoug> ?
+[14:48:54] <KpeTeHoug> IP DNS resolve ?
+[14:49:00] <KpeTeHoug> яко звучи :)
+[14:52:27] <KpeTeHoug> освен това ако искаш ИП-та за европа
+[14:52:40] <KpeTeHoug> ripe.net са твоите хора
+[14:52:52] <KpeTeHoug> https://www.ripe.net/lir-services/resource-management/allocations-and-assignments/request-ipv6
+[14:53:04] <KpeTeHoug> не съм чел, оставям удоволствието на теб
+[14:55:55] <yulimoto> да значи съм бил на прав път, то си е все едно vpn , от едния край е vp6
+[14:56:02] <yulimoto> нещо такова
+[14:58:18] <KpeTeHoug> т.е е опит да запазим старата структура, за да не ни се налага да помним ип-та
+[14:58:19] <KpeTeHoug> :)
+[14:58:27] <KpeTeHoug> поне не и ipv6 такива
+[14:58:34] <KpeTeHoug> трябва да се научим да бачкаме с хостове :)
+[14:59:31] <yulimoto> с кви хостове ?
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:01] <phalaaxx> host -> ip
+[15:00:06] <phalaaxx> това имаше предвид :)
+[15:00:26] <phalaaxx> за да не помним IP адреси
+[15:02:00] <phalaaxx> въпреки че какво им е на IPv6 адресите, толкова е лесно да запомниш 2001:db8:0:0:0:ff00:42:8329 например...
+[15:02:13] <yulimoto> ми да
+[15:04:16] <yulimoto> 2001 от годината: database 8 : 3 нули : фф 00  първата и последната hex цифра по 2 : 42 от набора на някой си : 8329 е това ти остава само да го запомниш
+[15:04:17] <dencho-at-work> nikvi problemi
+[15:04:51] <KpeTeHoug> нали
