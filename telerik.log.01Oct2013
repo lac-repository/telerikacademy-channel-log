@@ -190,3 +190,84 @@
 [14:00:00] Writing channel file...
 [14:02:35] anton_dutsov (~Thunderbi@178.75.230.84) left irc: Quit: anton_dutsov
 [14:02:46] anton_dutsov (~Thunderbi@178.75.230.84) joined #telerikacademy.
+[14:05:21] anton_dutsov (~Thunderbi@178.75.230.84) left irc: Read error: No route to host
+[14:05:28] anton_dutsov (~Thunderbi@178.75.230.84) joined #telerikacademy.
+[14:05:45] anton_dutsov (~Thunderbi@178.75.230.84) left #telerikacademy.
+[14:06:15] anton_dutsov (~Thunderbi@178.75.230.84) joined #telerikacademy.
+[14:07:26] anton_dutsov1 (~Thunderbi@178.75.230.84) joined #telerikacademy.
+[14:07:35] anton_dutsov (~Thunderbi@178.75.230.84) left irc: Client Quit
+[14:10:50] <KpeTeHoug> както и да е, ще се почерпя с едно кафе, може и малко кола
+[14:12:13] <anton_dutsov1> някой от вас кара ли php курса?
+[14:25:55] <dencho> az ne, no moje i da go zagledam nqkoi den
+[14:26:29] Action: KpeTeHoug slaps dencho around a bit with a large trout
+[14:26:30] Action: dencho slaps KpeTeHoug around a bit with a large lame trout !!!
+[14:26:41] Action: KpeTeHoug си бърка в носа, и мята по dencho
+[14:26:53] <anton_dutsov1> :D
+[14:27:19] <anton_dutsov1> каква е командата за тези съобщения?
+[14:27:34] <KpeTeHoug> /me
+[14:28:03] <KpeTeHoug> /me замества ник нейма, и ти дописваш каквото си искаш :)
+[14:40:30] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[14:47:31] Action: KpeTeHoug rolls a wagon wheel over to yulimoto here ya go eat up & enjoy :)
+[14:48:13] staafl (~staafl@92.247.181.202) left irc: Ping timeout: 245 seconds
+[14:50:48] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[14:52:39] <KpeTeHoug> не се закачай, да не мятам сополи пак ;)
+[14:54:14] <dencho> az 6ti mqtam salfetki ot supoli :D
+[14:56:00] <yulimoto> dencho а така
+[14:56:10] <yulimoto> го налепи .. целия
+[14:56:32] <yulimoto> KpeTeHoug: последно с allow-update ли ве ?
+[14:56:36] <dencho> da we :D
+[14:56:42] <KpeTeHoug> ми да, според мен сработи
+[14:56:43] <KpeTeHoug> :)
+[14:56:44] <yulimoto> ейййй браво
+[14:57:02] <KpeTeHoug> няма ми са смейти уа
+[14:57:02] <dencho> KpeTeHoug dokaji 4e raboti we :D
+[14:57:12] <dencho> kvo e tva spored men raboti!
+[14:57:12] <dencho> :D
+[14:57:16] <yulimoto> ми сега ве
+[14:57:32] <yulimoto> я вдигайте mastera я че вдигнем слейва
+[14:57:38] <KpeTeHoug> все едно пиша  Клетниците, без да говоря френски
+[14:57:46] <yulimoto> и се запукваме с конфигове
+[14:57:49] <KpeTeHoug> кой то туй
+[14:57:54] <KpeTeHoug> да бе, аз си мислех
+[14:57:58] <KpeTeHoug> да сложим по едно хамачи
+[14:58:11] <KpeTeHoug> и да направим една мрежа, да може да вкараме виртуалките вътре
+[14:58:14] <KpeTeHoug> и да машем
+[14:58:24] <dencho> hama4i?
+[14:58:43] <KpeTeHoug> http://hamachi.en.softonic.com/
+[14:58:45] <wilindex> [ Hamachi - Download ] - hamachi.en.softonic.com
+[14:59:09] <KpeTeHoug> ма незнам за 2+ компа как е
+[14:59:15] <KpeTeHoug> не съм работил кой знае колко с енго
+[14:59:17] <KpeTeHoug> *него
+[14:59:29] <dencho> lua
+[14:59:29] <dencho> :D
+[14:59:31] <yulimoto> много е кликъбъл бе, дай нещо в cli , опенvpn ne]o
+[14:59:42] <dencho> drugo si e hama4ito
+[14:59:43] <dencho> :D
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:42] <phalaaxx> http://pastebin.com/BAx5EYTR
+[15:00:43] <wilindex> [ [Bash] ZFS RAIDZ1 (3x160GB) - Pastebin.com ] - pastebin.com
+[15:00:46] <phalaaxx> ZFS fun :D
+[15:00:49] <KpeTeHoug> може и с openvpn
+[15:00:59] <KpeTeHoug> az po`ti si go pusnah na centOS-a
+[15:01:03] <KpeTeHoug> ma neshto omazah :)
+[15:01:06] <KpeTeHoug> nqma vreme da gledam kakwo
+[15:01:26] <yulimoto> да той phalaaxx щеше геймсървър с танкове да прави :P
+[15:02:00] <KpeTeHoug> :)
+[15:02:05] <KpeTeHoug> tank.bg
+[15:02:11] <phalaaxx> аа мързи ме, има пуснат UT сървър (е, него си го държа от 10 години)... ако кажете ще пусна и bzflag-а :)
+[15:02:26] <dencho> UT ?
+[15:02:34] <KpeTeHoug> ънриъл търнамент
+[15:02:35] <yulimoto> UT ?
+[15:02:37] <yulimoto> aaa
+[15:02:39] <KpeTeHoug> ламери :)
+[15:02:41] <dencho> :D
+[15:02:48] <yulimoto> въри ли под линукс това UT
+[15:03:06] <KpeTeHoug> dencho, to e click-able, после нали и на winserv2008r2
+[15:03:07] <dencho> az edinstvenata igra koqto sam igral e Test Drive 5 :D predi okolo 14 godini
+[15:03:07] <dencho> :D
+[15:03:11] <KpeTeHoug> ще се учим
+[15:03:13] <yulimoto> ako искате CS да ви напукам каските и да си лягате !!!!
+[15:03:50] <dencho> KpeTeHoug n dam :D
+[15:03:54] <dencho> yulimoto kaskata :D
+[15:04:04] <yulimoto> хахах
