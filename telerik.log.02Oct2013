@@ -70,3 +70,93 @@
 [01:02:37] net: eof!(read) socket 7
 [01:03:37] net: connect! sock 7
 [01:03:37] net: eof!(read) socket 7
+[01:05:04] DNS resolve failed for chat.freenode.net
+[01:06:04] DNS resolve failed for irc.freenode.net
+[01:07:54] net: connect! sock 7
+[01:07:54] net: eof!(read) socket 7
+[01:08:23] DNS resolve failed for chat.freenode.net
+[01:09:23] DNS resolve failed for irc.freenode.net
+[01:10:38] net: connect! sock 7
+[01:10:38] net: eof!(read) socket 7
+[01:11:25] net: connect! sock 7
+[01:11:25] net: eof!(read) socket 7
+[01:12:23] DNS resolve failed for chat.freenode.net
+[01:13:23] DNS resolve failed for irc.freenode.net
+[01:14:26] net: connect! sock 7
+[01:14:26] net: eof!(read) socket 7
+[01:15:24] net: connect! sock 7
+[01:15:24] net: eof!(read) socket 7
+[01:17:06] DNS resolve failed for chat.freenode.net
+[01:18:06] DNS resolve failed for irc.freenode.net
+[01:18:25] net: connect! sock 7
+[01:18:25] net: eof!(read) socket 7
+[01:19:26] net: connect! sock 7
+[01:19:26] net: eof!(read) socket 7
+[01:20:25] DNS resolve failed for chat.freenode.net
+[01:21:25] DNS resolve failed for irc.freenode.net
+[01:22:26] net: connect! sock 7
+[01:22:26] net: eof!(read) socket 7
+[01:23:27] net: connect! sock 7
+[01:23:27] net: eof!(read) socket 7
+[01:24:25] DNS resolve failed for chat.freenode.net
+[01:25:25] DNS resolve failed for irc.freenode.net
+[01:26:27] net: connect! sock 7
+[01:26:27] net: eof!(read) socket 7
+[01:27:27] net: connect! sock 7
+[01:27:27] net: eof!(read) socket 7
+[01:29:09] DNS resolve failed for chat.freenode.net
+[01:30:09] DNS resolve failed for irc.freenode.net
+[01:30:28] net: connect! sock 7
+[01:30:28] net: eof!(read) socket 7
+[01:31:44] net: connect! sock 7
+[01:31:44] net: eof!(read) socket 7
+[01:32:27] DNS resolve failed for chat.freenode.net
+[01:33:27] DNS resolve failed for irc.freenode.net
+[01:34:29] net: connect! sock 7
+[01:34:29] net: eof!(read) socket 7
+[01:35:30] net: connect! sock 7
+[01:35:30] net: eof!(read) socket 7
+[01:36:28] DNS resolve failed for chat.freenode.net
+[01:37:28] DNS resolve failed for irc.freenode.net
+[01:38:36] net: connect! sock 7
+[01:38:36] net: eof!(read) socket 7
+[01:39:31] net: connect! sock 7
+[01:39:31] net: eof!(read) socket 7
+[01:41:11] DNS resolve failed for chat.freenode.net
+[01:42:11] DNS resolve failed for irc.freenode.net
+[01:42:31] net: connect! sock 7
+[01:42:31] net: eof!(read) socket 7
+[01:43:45] net: connect! sock 7
+[01:43:45] net: eof!(read) socket 7
+[01:44:30] DNS resolve failed for chat.freenode.net
+[01:45:30] DNS resolve failed for irc.freenode.net
+[01:46:46] net: connect! sock 7
+[01:46:46] net: eof!(read) socket 7
+[01:48:33] net: connect! sock 7
+[01:48:33] net: eof!(read) socket 7
+[01:48:34] DNS resolve failed for chat.freenode.net
+[01:49:34] DNS resolve failed for irc.freenode.net
+[01:50:36] net: connect! sock 7
+[01:50:36] net: eof!(read) socket 7
+[01:51:50] net: connect! sock 7
+[01:51:50] net: eof!(read) socket 7
+[01:53:17] DNS resolve failed for chat.freenode.net
+[01:54:17] DNS resolve failed for irc.freenode.net
+[01:54:40] net: connect! sock 7
+[01:54:40] net: eof!(read) socket 7
+[01:55:38] net: connect! sock 7
+[01:55:38] net: eof!(read) socket 7
+[01:56:36] DNS resolve failed for chat.freenode.net
+[01:57:36] DNS resolve failed for irc.freenode.net
+[01:58:38] net: connect! sock 7
+[01:58:38] net: eof!(read) socket 7
+[01:59:37] net: connect! sock 7
+[01:59:37] net: eof!(read) socket 7
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:00:36] DNS resolve failed for chat.freenode.net
+[02:01:37] DNS resolve failed for irc.freenode.net
+[02:02:38] net: connect! sock 7
+[02:02:38] net: eof!(read) socket 7
+[02:03:39] net: connect! sock 7
+[02:03:39] net: eof!(read) socket 7
