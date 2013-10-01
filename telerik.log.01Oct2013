@@ -271,3 +271,93 @@
 [15:03:50] <dencho> KpeTeHoug n dam :D
 [15:03:54] <dencho> yulimoto kaskata :D
 [15:04:04] <yulimoto> хахах
+[15:05:14] <yulimoto> добре къв плана ?
+[15:05:25] <yulimoto> спираме 80 порт на гризли
+[15:05:34] <yulimoto> пускаме опенvpn
+[15:06:02] <yulimoto> после в дебиана на гризли пускаме геймсървър и през vpn-a се пуцаме
+[15:06:41] <dencho> aghahahah
+[15:07:15] <yulimoto> ко се хилиш ве 8 ГБ рам ко че га праим !?
+[15:07:29] <KpeTeHoug> ми да
+[15:07:32] <KpeTeHoug> 8г ще лети
+[15:08:16] <KpeTeHoug> и то нема спираш 80-ти, само ше го пренасочим
+[15:08:40] <KpeTeHoug> аз и друго си мислех, нали може по домейн да цепим
+[15:08:41] <phalaaxx> yulimoto: върви, има си native linux версия
+[15:08:51] <yulimoto> браво
+[15:08:54] KpeTeHoug (~GT@212.36.13.10) left #telerikacademy.
+[15:08:59] <yulimoto> Ще я запомня UT
+[15:09:01] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[15:09:13] <KpeTeHoug> чей че натиснах не кото трябва
+[15:09:17] <phalaaxx> недей
+[15:09:27] <phalaaxx> последната версия си няма :D
+[15:09:38] <KpeTeHoug> ужасТ
+[15:09:46] <yulimoto> phalaaxx: а ве що тая другата дето я препоръча няма network -- cookie clicker , там можеше да ме биете !!! :)
+[15:09:47] <KpeTeHoug> е ще сложим още едно IP
+[15:09:59] <phalaaxx> UT99/UT2003/UT2004 имат, UT3 (2007) си няма :D
+[15:10:06] Action: KpeTeHoug coffee.wav dunks a timtam in java & then slaps yulimoto around with it :)
+[15:10:15] <KpeTeHoug> дай салгаме опен впн
+[15:10:36] <yulimoto> къде ?
+[15:10:42] <yulimoto> на гризли ли ?
+[15:10:54] staafl (~staafl@92.247.181.202) joined #telerikacademy.
+[15:10:59] <KpeTeHoug> мхм
+[15:11:32] <KpeTeHoug> аз нещо омазах key-овете предният път
+[15:11:37] <KpeTeHoug> пък ти си по специалист по това
+[15:11:42] <KpeTeHoug> знам от сигурен източник
+[15:11:42] <KpeTeHoug> :)
+[15:11:51] <yulimoto> а ве то инсталцията и конфига лесно
+[15:12:03] <yulimoto> чакай да си го представя
+[15:12:38] <yulimoto> между другото някой може ли да ми каже от къде мога да си намеря/гемап топологията на примерни ISP-та
+[15:13:26] <yulimoto> KpeTeHoug: добре спираме уеб сървъра или молим хакман да ни отпусне един порт бонус
+[15:13:45] <yulimoto> после пускаме там да се вързваме на впн-а
+[15:13:51] <yulimoto> на тоя порт
+[15:14:14] alabala (~immortal@unaffiliated/alabala) joined #telerikacademy.
+[15:14:20] <KpeTeHoug> мхм
+[15:14:26] <KpeTeHoug> ти го пусни на дефаулт
+[15:14:30] <KpeTeHoug> после ще го пренасочим смао
+[15:14:32] <KpeTeHoug> *само
+[15:14:35] <yulimoto> да ве
+[15:15:09] <yulimoto> ама ме интересува после гейма на къде ще е
+[15:15:59] <KpeTeHoug> ам
+[15:16:05] <KpeTeHoug> те геймовете са на локалхост
+[15:16:24] <yulimoto> бррр не знам
+[15:16:30] <KpeTeHoug> знам знам
+[15:16:33] <KpeTeHoug> те са на лоцал
+[15:18:11] <yulimoto> значи УТ 3 трябва да пуснем, сега ще я видя у тубата да знам изобщо за какво иде реч
+[15:18:19] <KpeTeHoug> :)
+[15:18:46] staafl (~staafl@92.247.181.202) left irc: Ping timeout: 248 seconds
+[15:19:10] <yulimoto> ама тя не е с коли бре
+[15:19:12] <yulimoto> пуцане
+[15:19:32] <KpeTeHoug> е пуцане е де
+[15:19:34] <KpeTeHoug> ънриъла
+[15:19:41] <KpeTeHoug> с коли незнам ко може
+[15:20:09] <KpeTeHoug> чек да видим
+[15:20:16] <yulimoto> остави колите това
+[15:20:21] <yulimoto> колко процесор иска
+[15:21:14] <KpeTeHoug> малко колко
+[15:21:16] <KpeTeHoug> чек да видим
+[15:21:21] <KpeTeHoug> ут3 искаш
+[15:21:29] <yulimoto> тука ще съм толко босс че ако взема фраг ще е по случайност
+[15:22:14] <yulimoto> само мрежата ме притеснява
+[15:22:22] <KpeTeHoug> http://forums.epicgames.com/threads/612389-HOW-to-SETUP-a-UT3-server-Webadmin-AND-troubleshoot
+[15:22:26] <wilindex> [ HOW to SETUP: a UT3 server, Webadmin, AND troubleshoot ] - forums.epicgames.com
+[15:23:11] <KpeTeHoug> ма това май е само за уин
+[15:24:03] <KpeTeHoug> http://www.unrealadmin.org/forums/showthread.php?t=26680
+[15:24:06] <wilindex> [ UT3 Linux Server Now Available - The Unreal Admins Page - Forums ] - www.unrealadmin.org
+[15:24:21] <KpeTeHoug> как да различим дали нещо е за линукс или за иундовс
+[15:24:43] <KpeTeHoug> ако има sha1, md5 или друга сума за чек - 99 % е за линукс :)
+[15:25:47] <yulimoto> ами ако е филм ? дали е за линукс :D
+[15:28:14] <KpeTeHoug> hahaha
+[15:28:21] <KpeTeHoug> знаеш какво имам предвид :)
+[15:29:38] <yulimoto> искам да намеря един лог на anonymous в бг, някакви лапета, ама нейсе изчезнал е от пространството
+[15:29:54] <yulimoto> т.е. не мога го намеря по-точно
+[15:30:32] anton_dutsov1 (~Thunderbi@178.75.230.84) left irc: Ping timeout: 246 seconds
+[15:33:17] <KpeTeHoug> виж в гугъл дали няма кеширана версия
+[15:33:46] <dencho> kvo ti vikat anonimus bg
+[15:33:46] <dencho> :D
+[15:37:03] <yulimoto> беше пейстано в бин
+[15:37:07] <yulimoto> pastebin
+[15:42:17] anton_dutsov (~Thunderbi@178.75.230.84) joined #telerikacademy.
+[15:57:03] hackman (~hackman@87.118.135.253) left irc: Ping timeout: 240 seconds
+[15:57:52] yulimoto (~yulimoto@78.108.248.204) left irc: Quit: leaving
+[15:59:10] ndyakov (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
