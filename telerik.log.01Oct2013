@@ -146,3 +146,47 @@
 [12:58:35] <anton_dutsov> :D
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:07:37] <phalaaxx> сигнала за край на националната тревога звучи някак по-страшно от сигнала за национална тревога, аз така мисля
+[13:08:21] <KrasiGa> ???
+[13:08:28] <KrasiGa> какво става?
+[13:13:00] <KpeTeHoug> нещо учение ?
+[13:13:02] <dencho> signali da ima :D
+[13:13:12] <KpeTeHoug> пробват си сигурно системата ГЗ
+[13:13:22] <dencho> proverka na seki 6 meseca
+[13:13:28] <dencho> prednata be6e na 1-vi april
+[13:13:52] <KpeTeHoug> phalaaxx аз се чудех точно дали иде реч за slave master, или само master
+[13:15:05] <KpeTeHoug> или за http://www.youtube.com/watch?v=IsvfofcIE1Q
+[13:15:06] <KpeTeHoug> :)
+[13:15:08] <wilindex> [YouTube] Title: Depeche Mode - Master And Servant (Remastered Video) | Uploader: Warner Bros Records | Uploaded: 27/10/2009, 01:56 | Duration: 3mins 50secs | Views: 566,309 | Comments: 385 | Likes: 1,866 | Dislikes: 16
+[13:15:19] <KpeTeHoug> wilindex лагваш нещо :)
+[13:15:45] <phalaaxx> ее не му е лесно, до преди малко го мъчих с bonnie++
+[13:15:52] <KpeTeHoug> :)
+[13:15:58] <KpeTeHoug> чек да видя аз подсказката в лекцията
+[13:16:46] <KpeTeHoug> ако е в бинд лекцията де :)
+[13:18:12] <KpeTeHoug> 13 мин от dhcpd лекциятъа
+[13:19:19] <KpeTeHoug> ddns-update-styke
+[13:19:24] <KpeTeHoug> *style even
+[13:20:08] Nick change: ndyakov -> ndyakov|away
+[13:20:21] <KpeTeHoug> ама това е по скоро за 2ра задача KrasiGa
+[13:20:30] <KpeTeHoug> т.е за dhcp сервър
+[13:20:59] <KpeTeHoug> а ние за първа искаме named.conf, a не dhcp.conf
+[13:21:11] <KpeTeHoug> или всички сме се объркали и Мариян ни се хили в момента
+[13:22:33] staafl (~staafl@92.247.181.202) joined #telerikacademy.
+[13:25:05] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) left irc: Read error: Connection reset by peer
+[13:28:53] <KrasiGa> KpeTeHoug:  аз почнах да я слушам лекцията и реших, че е за първата
+[13:28:58] <KrasiGa> може и да си прав
+[13:29:08] <KrasiGa> не са ми ясни тези неща
+[13:32:08] <KpeTeHoug> и на мен :)
+[13:34:25] staafl (~staafl@92.247.181.202) left irc: Ping timeout: 240 seconds
+[13:37:22] <KpeTeHoug> тей, мисля го направих, само allow-updates се ползва, но няма да казвам как :)
+[13:39:32] staafl (~staafl@92.247.181.202) joined #telerikacademy.
+[13:40:20] <KrasiGa> кажи де, не се срамувай :)
+[13:43:45] <KpeTeHoug> :) mi phalaaxx е прав, горе долу
+[13:44:07] <KpeTeHoug> реално allow-updates всъшност ти дава въобще да имаш dynamic dns
+[13:44:35] <KpeTeHoug> т.е. с тази опция директно го включваш, само му подаваш кой ще е external dns-а
+[13:44:50] <KpeTeHoug> и после правиш един зоне файл, и си готов
+[13:44:53] <KpeTeHoug> ай гес :)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:02:35] anton_dutsov (~Thunderbi@178.75.230.84) left irc: Quit: anton_dutsov
+[14:02:46] anton_dutsov (~Thunderbi@178.75.230.84) joined #telerikacademy.
