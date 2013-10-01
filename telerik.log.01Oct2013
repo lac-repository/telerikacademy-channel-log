@@ -97,3 +97,46 @@
 [10:51:27] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 256 seconds
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:27:57] <KpeTeHoug> 1. Configure BIND to accept remote dynamic updates for zone maimunka.net. Show the named.conf and the zone file.
+[11:28:06] <KpeTeHoug> тва домашно какво ще рече :)
+[11:28:09] <KpeTeHoug> че малко не вдявам
+[11:28:17] <KpeTeHoug> allow-updates ?
+[11:28:34] <phalaaxx> https://image-store.slidesharecdn.com/27e914b8-29be-11e3-989d-22000aa5108a-original.jpg
+[11:28:58] nlkl (~nlkl@nat102.cnsys.bg) left irc: Remote host closed the connection
+[11:29:16] <KpeTeHoug> хехе
+[11:29:32] <KpeTeHoug> как се казваше андроида ?
+[11:29:39] <phalaaxx> Data
+[11:29:39] <phalaaxx> :)
+[11:29:51] <KpeTeHoug> ма разбира се, що за въпрос
+[11:29:56] <KpeTeHoug> подскажи сега за домашното
+[11:30:09] <KpeTeHoug> това ли се има предвид, спорд теб :)
+[11:30:40] <KpeTeHoug> hackman да не гледа докато ми подсказваш :)
+[11:30:59] <KpeTeHoug> да не бях пуцал едно време по залите, ми да бях правил мрежи :)
+[11:37:05] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[11:39:51] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[11:40:06] <phalaaxx> ами аз доколкото разбирам въпроса е за slave зоната, allow-update май ти върши работа за master зоната
+[11:40:33] <phalaaxx> всъщност може и баш за master зоната да е въпроса
+[11:40:49] <phalaaxx> в който случай предположението ти би трябвало да е съвсем вярно :)
+[11:41:07] <phalaaxx> ааа не бе
+[11:41:17] <phalaaxx> то трябва да се чете :D
+[11:42:20] staafl (~staafl@92.247.181.202) joined #telerikacademy.
+[11:42:35] <phalaaxx> ми значиии май става въпрос за slave зона и трябва да я конфигурираш така че master-а да може да и пробута промените в тази зона :|
+[11:43:12] <phalaaxx> демек така че да можеш да пуснеш rndc notify maimunka.net на master-а
+[11:43:26] <phalaaxx> и slave-а да разбере какво трябва да направи
+[11:43:38] <phalaaxx> само предполагам де
+[11:44:15] <KrasiGa> преслушайте 13-та минута на последната лекция
+[11:44:37] <KrasiGa> там подсказва за този въпрос
+[11:44:50] <yulimoto> за домашната ли разсъждавате ?
+[11:44:58] <phalaaxx> да, верно че нещо се споменаваше там
+[11:45:13] <KrasiGa> да, за първият въпрос
+[11:45:51] <yulimoto> аха maimunka.net
+[11:47:14] <KrasiGa> да, за първият въпрос
+[11:47:18] <yulimoto> според мен най-лесен е третия и го има почти напрвен във всяка bind инсталация с 1.0.0.127.in-addr.arpa само че в случая трябва да се смятат маски
+[11:48:00] <yulimoto> и да се редактира де в съответсвие с мрежата, която ще се прави reverse ip
+[11:48:56] <yulimoto> другите два първо трябва да се учи dynamic dns и чак тогава да се правят, поне според мен. аз не съм ги правил още :)
+[11:49:21] staafl (~staafl@92.247.181.202) left irc: Ping timeout: 240 seconds
+[11:51:52] Nick change: ndyakov|away -> ndyakov
+[11:59:04] <yulimoto> KrasiGa: на коя лекция тази за dhcp или за dns
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:01:10] yulimoto (~yulimoto@78.108.248.204) left irc: Quit: leaving
