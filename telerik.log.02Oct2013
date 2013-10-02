@@ -551,3 +551,138 @@
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
 [14:02:03] <dencho> baa go, sq trqq sa klimbu4kam 35 minuti s tramvai
+[14:22:39] <KpeTeHoug> е само 35
+[14:22:43] <KpeTeHoug> за сф си е кратка разходка
+[14:22:55] <KpeTeHoug> ма ти сигурно си стигнал даже :)
+[14:25:32] hackman (~hackman@12.166.214.2) left irc: Ping timeout: 264 seconds
+[14:28:13] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[14:28:24] <yulimoto> бръммм
+[14:28:29] Action: KpeTeHoug WAKE up yulimoto....
+[14:28:45] <KpeTeHoug> дека одиш кат та няма
+[14:29:13] <yulimoto> хаха имах уорк
+[14:29:32] <KpeTeHoug> phalaaxx искаше от снощи да ти обяснява bind i chroot
+[14:29:47] <yulimoto> ко да прайш лятото свърши и лежиерните дни станават по-малко поне така се надявам :)
+[14:29:54] <yulimoto> ей
+[14:30:00] <yulimoto> браво
+[14:30:06] <KpeTeHoug> ей мей, ма ти сбяга и са не видя
+[14:30:33] <KpeTeHoug> а аз тука да ти го подам
+[14:30:33] <yulimoto> аз взема да запиша едно чиракуване при него, ще науча някои неща, ама му се свиди знанието ;)
+[14:30:36] <KpeTeHoug> http://www.netwidget.net/books/apress/dns/
+[14:30:40] <wilindex> [ NetWidget - Book Stuff ] - www.netwidget.net
+[14:30:52] <KpeTeHoug> и за който иска друг естествено
+[14:31:01] <KpeTeHoug> доста по густо от линукс-бг
+[14:31:07] <yulimoto> ко е тва
+[14:31:21] <yulimoto> ааа обяснение на днс и bind ли ?
+[14:31:49] <yulimoto> 10х
+[14:31:50] <KpeTeHoug> mhm
+[14:31:55] <KpeTeHoug> аз не го четох цялото
+[14:32:11] <KpeTeHoug> но има бая работи, и готиното е че е с линкове, и може се мяташ насам натам докато четеш
+[14:32:15] <KpeTeHoug> а и заглавието е яко :)
+[14:32:19] <KpeTeHoug> DNS for Rocket Scientists
+[14:32:24] <KpeTeHoug> за нас демек :)
+[14:32:45] <KpeTeHoug> http://www.zytrax.com/books/dns/
+[14:32:49] <wilindex> [ DNS for Rocket Scientists - Contents ] - www.zytrax.com
+[14:32:55] <KpeTeHoug> е по директният линк
+[14:33:07] <yulimoto> да и аз този втория линк веднага намерих, щото има съдържание по глави
+[14:34:12] <KpeTeHoug> не само, всяка опция я има с пример, и описание
+[14:34:14] <yulimoto> чудя се какво да правя дали да почна да го чета или да направя днс + dhcp сървър - втората домашна, други те 2 ги напраих уж
+[14:34:14] <KpeTeHoug> горе долу
+[14:34:25] <yulimoto> супер
+[14:34:27] <KpeTeHoug> първо правиш машините
+[14:34:32] <KpeTeHoug> *сървисите
+[14:34:42] <KpeTeHoug> после четеш и разбираш що не ти е сработило
+[14:34:43] <KpeTeHoug> :)
+[14:35:13] <KpeTeHoug> Normal system administration practices such as ensuring that files (configuration and zone files) are securely backed-up, proper read and write permissions applied and sensible physical access control to servers may be sufficient.
+[14:35:13] <KpeTeHoug> Implementing a Stealth (or Split) DNS server provides a more serious solution depending on available resources.
+[14:35:13] <KpeTeHoug> Finally you can run BIND (named) in a chroot jail
+[14:35:19] <KpeTeHoug> chroot jail
+[14:35:23] <KpeTeHoug> о йе
+[14:35:24] <KpeTeHoug> :Л)
+[14:36:11] <yulimoto> ми phalaaxx да каже
+[14:36:30] Action: yulimoto се чуди къде е phalaaxx 
+[14:37:20] <phalaaxx> ъ?
+[14:37:22] <phalaaxx> какво да кажа?
+[14:37:34] <KpeTeHoug> що бинд в чруут
+[14:37:40] <phalaaxx> ааа
+[14:37:44] <phalaaxx> ми щото може :D
+[14:38:24] <yulimoto> има някаква тенденция от секюрити гледна точка да се пуска в chroot
+[14:38:33] <yulimoto> може би не е само за bind
+[14:38:39] <phalaaxx> да
+[14:38:39] <phalaaxx> по-сигурно е, ако някой го счупи нещо и върви като root - може да успее да изпълни код като root
+[14:38:44] <yulimoto> та си мисля, че може би си по-запознат
+[14:38:56] <phalaaxx> по тази причина или chroot или setuid/setgid
+[14:39:06] <yulimoto> добре ама то не върви като рут
+[14:39:37] <yulimoto> то си върви със системен юзер
+[14:40:21] <phalaaxx> няма значение
+[14:40:21] <phalaaxx> аз примерно правих една тъпотия дето идеята и е уеб приложения да вървят в chroot, независимо че не им се дава root
+[14:40:26] <phalaaxx> това дава по-голяма сигурност
+[14:40:46] <phalaaxx> по принцип chroot по дизайн не е измислен с цел сигурност
+[14:41:09] <phalaaxx> и ако си root в chroot - има много по-голям шанс да излезеш извън chroot-а отколкото ако не си root
+[14:42:03] lyubenblagoev (~root@ip-163-36.powernet.bg) joined #telerikacademy.
+[14:42:27] <phalaaxx> примерно някои от пачовете на grsecurity са с цел да направят chroot нещо по-сигурно и да може да се използва за изолиране на процеси и да елиминира (поне познатите досега) начини за "бягане" от chroot
+[14:42:43] Nick change: ndyakov|away -> ndyakov
+[14:42:51] lyubenblagoev (~root@ip-163-36.powernet.bg) left #telerikacademy.
+[14:43:07] <phalaaxx> https://github.com/phalaaxx/jail
+[14:43:11] <wilindex> [ phalaaxx/jail · GitHub ] - github.com
+[14:43:56] <ndyakov> phalaaxx: аз си мисля, че контейнерите биха свършили по-добра работа за sandboxing
+[14:43:58] <phalaaxx> това е моето скромно нещо, доколкото знам има и доста други начини да се постигне подобен резултат и вероятно много по-добре изпитани от този
+[14:44:14] <phalaaxx> но аз си го ползвам на една машина
+[14:44:24] <phalaaxx> ако wilindex можеше да говори - щеше да го потвърди :D
+[14:44:39] <phalaaxx> ndyakov: lxc?
+[14:44:44] <ndyakov> yep.
+[14:45:33] <phalaaxx> не съм ползвал, седи ми на опашката като нещо с което искам да си поиграя като имам време и желание за това
+[14:45:34] lyubenblagoev (~root@ip-163-36.powernet.bg) joined #telerikacademy.
+[14:45:54] <ndyakov> phalaaxx: всъщност е доста лесно.
+[14:46:07] <ndyakov> поне за setup, после вече може много да си играеш
+[14:46:12] lyubenblagoev (~root@ip-163-36.powernet.bg) left #telerikacademy.
+[14:46:17] lyubenblagoev (~root@ip-163-36.powernet.bg) joined #telerikacademy.
+[14:46:27] <phalaaxx> амиии... примерно от гледна точка на shared hosting как се вписва това?
+[14:46:48] lyubenblagoev (~root@ip-163-36.powernet.bg) left #telerikacademy.
+[14:46:54] <phalaaxx> имаш 500 потребителя на една машина, можеш ли да подкараш 500 контейнера за всеки потребител?
+[14:47:37] lyubenblagoev (~root@194.145.163.36) joined #telerikacademy.
+[14:48:10] <ndyakov> предполагам можеш, те работят като jail-ове
+[14:48:31] <yulimoto> тия контейнери сега чета описанието на lxc от гледна точка на пърформънса, кое е по-добро
+[14:49:06] <KrasiGa> Готина техника за умножение: http://photos.mayaiv.com/genialno-vizte-kak-umnozavat-japoncite-video
+[14:49:07] <phalaaxx> да, въпроса ми беше колко са тежки
+[14:49:11] <wilindex> [ Гениално: Вижте как умножават японците (видео) | Любопитно ] - photos.mayaiv.com
+[14:49:21] <ndyakov> не би трябвало да тежат въобще
+[14:49:21] <yulimoto> щото витруализации паравиртуализации ми звучи доста сложно
+[14:49:25] <ndyakov> те рабоятят с твоето ядро
+[14:49:28] <yulimoto> аха
+[14:49:47] lyubenblagoev (~root@194.145.163.36) left #telerikacademy.
+[14:50:16] <yulimoto> докато не разбера ядрото ще съм си прост потребител аз апт-гет потребител !!
+[14:50:51] <ndyakov> че аз lxc-то с apt-get си го взех :)
+[14:51:18] <yulimoto> едва ли си го разбрал с apt-get обаче :)
+[14:51:52] <yulimoto> .whether yambol
+[14:52:01] <KpeTeHoug> ти поне си на апт-гет, аз още съм на апт-ъпдейт
+[14:52:04] <KpeTeHoug> само гледам
+[14:52:08] <KpeTeHoug> .w yambol
+[14:52:10] <wilindex> "Yàmbol (Bulgarian: Ямбол) is a city in southeastern Bulgaria, an administrative centre of Yambol Province. It lies on both banks of the Tundzha river in the historical region of Thrace. It is occasionally spelt 'Jambol'.The administrative centres of two municipalities are situated in Yambol. One is..." - http://en.wikipedia.org/wiki/Yambol
+[14:52:16] <KpeTeHoug> pf
+[14:52:21] <KpeTeHoug> .weather yambol
+[14:52:23] <wilindex> Yahoo! Weather - Yambol, BG: Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[14:52:42] <KpeTeHoug> .weather veliko tarnovo
+[14:52:44] <wilindex> Yahoo! Weather - Veliko Turnovo, BG: Cloudy, 8°C (46°F), 30in (1015mb), Light air 3kt (↑)
+[14:52:49] <yulimoto> haha аз го написах като "дали"
+[14:53:01] <yulimoto> сигуро от дали вали
+[14:53:03] <KpeTeHoug> само посокат на ветъро е различна
+[14:53:07] <KpeTeHoug> :)
+[14:53:32] <yulimoto> ам от кой сървър сверява времето
+[14:53:38] <yulimoto> за вятър ги знам всичките
+[14:53:49] <yulimoto> ;П
+[14:54:03] <yulimoto> .weather varna
+[14:54:05] <wilindex> Yahoo! Weather - Vahrn, IT: Fair, 13°C (55°F), 30in (1015mb), Light air 2kt (←)
+[14:54:21] <yulimoto> .weather burgas
+[14:54:22] <KpeTeHoug> яху
+[14:54:23] <wilindex> Yahoo! Weather - Burgas, BG: Mostly Cloudy, 9°C (48°F), 29in (982mb), Fresh breeze 16kt (↑)
+[14:54:31] <KpeTeHoug> фреш брийз
+[14:54:32] <KpeTeHoug> яко :)
+[14:56:14] <yulimoto> http://asen.iliev.name/weather/
+[14:56:15] <wilindex> [ Бургас Времето ] - asen.iliev.name
+[14:57:02] <yulimoto> http://95.169.196.218:8080/?action=snapshot&n=242
+[14:57:18] <yulimoto> Помпиш с ф5 и гледаш вятъра това най-достоверно !!!
+[14:57:58] <yulimoto> карат се сърфове и кайте в момента ама е в ляво и не се вижда на камерата
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:04:36] <KrasiGa> е как успях да си счупя крачето на клавиатурата :(
+[15:04:53] <KrasiGa> видяхте ли техниката за умножение? много е яка
