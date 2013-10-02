@@ -774,3 +774,60 @@
 [20:00:00] Writing user file...
 [20:00:00] Writing channel file...
 [20:02:50] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[20:08:37] <yulimoto> .in 16h anton_dutsov: да мисля, че юлимото стигна до някакво решение :) при което на master сървъра използва allow-transfer, а на slave masters
+[20:08:38] <wilindex> yulimoto: Okay, will remind at 2013-10-03 - 09:14:59UTC
+[20:09:01] <yulimoto> .help
+[20:09:02] <wilindex> yulimoto: Say .help <command> (for example .help c) to get help for a command, or .commands for a list of commands.
+[20:09:07] <yulimoto> .help in
+[20:09:08] <wilindex> yulimoto: Gives you a reminder in the given amount of time.
+[20:09:09] <wilindex> e.g. .in 3h45m Go to class
+[20:09:20] <yulimoto> .help c
+[20:09:23] <wilindex> yulimoto: Google calculator.
+[20:09:24] <wilindex> e.g. .calc 20cm in inches
+[20:09:32] <yulimoto> .help v
+[20:09:37] <yulimoto> .help b
+[20:09:39] <yulimoto> .help a
+[20:09:46] <yulimoto> .help help
+[20:09:47] <wilindex> yulimoto: Shows a command's documentation, and possibly an example.
+[20:09:48] <wilindex> e.g. .help tell
+[20:09:54] <yulimoto> .help tell
+[20:09:56] <wilindex> yulimoto: Give someone a message the next time they're seen
+[20:09:56] <wilindex> e.g. Willie, tell Embolalia he broke something again.
+[20:10:37] <yulimoto> tell anton_dutsov да мисля, че юлимото стигна до някакво решение :) при което на master  сървъра използва allow-transfer, а на slave masters
+[20:10:44] <yulimoto> .tell anton_dutsov да мисля, че юлимото стигна до някакво решение :) при което на master  сървъра използва allow-transfer, а на slave masters
+[20:10:45] <wilindex> yulimoto: I'll pass that on when anton_dutsov is around.
+[20:13:35] <yulimoto> .commands
+[20:13:37] <wilindex> yulimoto: I am sending you a private message of all my commands!
+[20:14:11] <wilindex> dencho!
+[20:27:06] <yulimoto> hahah глейте ся
+[20:27:15] <yulimoto> .mangle ko praite be hora
+[20:27:17] <wilindex> yulimoto: What praiti mountains
+[20:27:24] <yulimoto> .mangle ko praite be hora
+[20:27:27] <wilindex> yulimoto: I have an old Praiti
+[20:27:31] <yulimoto> .mangle ko praite be hora
+[20:27:34] <wilindex> yulimoto: I am praite LA
+[20:27:52] <yulimoto> .mangle How are you Dencho
+[20:27:55] <wilindex> yulimoto: as Dencho
+[20:28:13] <yulimoto> .mangle Wili you are stupid idiot
+[20:28:16] <wilindex> yulimoto: wili fool
+[20:28:28] <yulimoto> .mangle yea that is true
+[20:28:31] <wilindex> yulimoto: This is also true for
+[20:28:59] <yulimoto> .mangle wilindex what time is it
+[20:29:02] <wilindex> yulimoto: It 's time to wilindex
+[20:29:22] <yulimoto> .mangle yeeee you are smart bot !!
+[20:29:24] <wilindex> yulimoto: IEEE 're Smart robots!
+[20:29:34] <yulimoto> haha
+[20:30:03] <yulimoto> .mangle that game is funny !!:)
+[20:30:07] <wilindex> yulimoto: In this game , it's fun ! ! :)
+[20:30:30] <yulimoto> .mangle what about prostitution ?
+[20:30:33] <wilindex> yulimoto: Prostitution ?
+[20:30:43] <yulimoto> .mangle yes,  prostitution ?
+[20:30:45] <wilindex> yulimoto: Even prostitution ?
+[20:31:06] <yulimoto> .mangle I am exhausted man
+[20:31:09] <wilindex> yulimoto: I am exhausted
+[20:32:36] <yulimoto> tell KpeTeHoug ко стаа робо
+[20:32:40] <yulimoto> .tell KpeTeHoug ко стаа робо
+[20:32:41] <wilindex> yulimoto: I'll pass that on when KpeTeHoug is around.
+[20:43:13] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
