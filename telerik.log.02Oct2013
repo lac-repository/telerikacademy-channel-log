@@ -340,3 +340,52 @@
 [04:02:06] DNS resolve failed for irc.freenode.net
 [04:03:08] net: connect! sock 7
 [04:03:08] net: eof!(read) socket 7
+[04:05:51] DNS resolve failed for chat.freenode.net
+[04:06:51] DNS resolve failed for irc.freenode.net
+[04:07:12] net: connect! sock 7
+[04:07:12] net: eof!(read) socket 7
+[04:08:10] net: connect! sock 7
+[04:08:10] net: eof!(read) socket 7
+[04:09:09] DNS resolve failed for chat.freenode.net
+[04:10:09] DNS resolve failed for irc.freenode.net
+[04:11:41] net: connect! sock 7
+[04:11:41] net: eof!(read) socket 7
+[04:12:11] net: connect! sock 7
+[04:12:11] net: eof!(read) socket 7
+[04:13:10] DNS resolve failed for chat.freenode.net
+[04:14:10] DNS resolve failed for irc.freenode.net
+[04:15:13] net: connect! sock 7
+[04:15:13] net: eof!(read) socket 7
+[04:16:10] net: connect! sock 7
+[04:16:10] net: eof!(read) socket 7
+[04:17:53] DNS resolve failed for chat.freenode.net
+[04:18:53] DNS resolve failed for irc.freenode.net
+[04:19:11] net: connect! sock 7
+[04:19:11] net: eof!(read) socket 7
+[04:20:12] net: connect! sock 7
+[04:20:12] net: eof!(read) socket 7
+[04:21:11] DNS resolve failed for chat.freenode.net
+[04:22:11] DNS resolve failed for irc.freenode.net
+[04:23:12] net: connect! sock 7
+[04:23:12] net: eof!(read) socket 7
+[04:24:14] net: connect! sock 7
+[04:24:14] net: eof!(read) socket 7
+[04:25:11] DNS resolve failed for chat.freenode.net
+[04:26:11] DNS resolve failed for irc.freenode.net
+[04:27:14] net: connect! sock 7
+[04:27:14] net: eof!(read) socket 7
+[04:28:13] net: connect! sock 7
+[04:28:13] net: eof!(read) socket 7
+[04:29:53] DNS resolve failed for chat.freenode.net
+[04:30:53] DNS resolve failed for irc.freenode.net
+[04:31:43] net: connect! sock 7
+[04:31:43] net: eof!(read) socket 7
+[04:32:13] net: connect! sock 7
+[04:32:13] net: eof!(read) socket 7
+[04:33:11] DNS resolve failed for chat.freenode.net
+[04:34:11] DNS resolve failed for irc.freenode.net
+[04:35:11] net: connect! sock 7
+[04:35:28] Telerik joined #telerikacademy.
+[04:38:57] sagruob (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
