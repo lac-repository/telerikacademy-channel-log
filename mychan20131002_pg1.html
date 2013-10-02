@@ -710,6 +710,49 @@
 			<div>&nbsp;<span class="time">[14:57:02]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; <a href="http://95.169.196.218">http://95.169.196.218</a>:8080/?action=snapshot&amp;n=242</span></div>
 			<div>&nbsp;<span class="time">[14:57:18]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; Помпиш с ф5 и гледаш вятъра това най-достоверно !!!</span></div>
 			<div>&nbsp;<span class="time">[14:57:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; карат се сърфове и кайте в момента ама е в ляво и не се вижда на камерата</span></div>
+			<div>&nbsp;<span class="time">[15:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[15:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[15:04:36]</span>&nbsp;<span class="nick">&lt;KrasiGa&gt;</span><span class="text">&nbsp; е как успях да си счупя крачето на клавиатурата :(</span></div>
+			<div>&nbsp;<span class="time">[15:04:53]</span>&nbsp;<span class="nick">&lt;KrasiGa&gt;</span><span class="text">&nbsp; видяхте ли техниката за умножение? много е яка</span></div>
+			<div>&nbsp;<span class="time">[15:05:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; lxc-create ми дърпа със debootstrap разни работи</span></div>
+			<div>&nbsp;<span class="time">[15:05:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и задава разни въпроси в curses прозорци</span></div>
+			<div>&nbsp;<span class="time">[15:06:32]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; което означава 2 неща: 1. за всеки потребител ми трябва отделен bootstrap (съответно много повече дисково пространство) и 2. много по-трудно мога да автоматизирам процеса по създаване на потребител</span></div>
+			<div>&nbsp;<span class="time">[15:06:49]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ndyakov: поправи ме ако греша, не съм го цъкал още достатъчно :D</span></div>
+			<div>&nbsp;<span class="time">[15:07:32]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; KrasiGa: къде е тази техника ?</span></div>
+			<div>&nbsp;<span class="time">[15:07:43]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; момент, че ме нямаше, ей сега ще видя</span></div>
+			<div>&nbsp;<span class="time">[15:07:51]</span>&nbsp;<span class="nick">&lt;KrasiGa&gt;</span><span class="text">&nbsp; <a href="http://photos.mayaiv.com/genialno">http://photos.mayaiv.com/genialno</a>-vizte-kak-umnozavat-japoncite-video</span></div>
+			<div>&nbsp;<span class="time">[15:08:03]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ Гениално: Вижте как умножават японците (видео) | Любопитно ] - photos.mayaiv.com</span></div>
+			<div>&nbsp;<span class="time">[15:08:09]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; phalaaxx: веднъж като дръпне bootstrapa, няма да го тегли повече</span></div>
+			<div>&nbsp;<span class="time">[15:08:35]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; не знам дали ако си създадеш втори, дали просто ще направи линкове към файловете или ще ги копира - това трябва да се тества.</span></div>
+			<div>&nbsp;<span class="time">[15:08:49]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; автоматизирането не виждам как</span></div>
+			<div>&nbsp;<span class="time">[15:08:51]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; ще е трудно</span></div>
+			<div>&nbsp;<span class="time">[15:12:53]</span>&nbsp;<span class="nick">&lt;KpeTeHoug&gt;</span><span class="text">&nbsp; това старо с умножаването</span></div>
+			<div>&nbsp;<span class="time">[15:13:02]</span>&nbsp;<span class="nick">&lt;KpeTeHoug&gt;</span><span class="text">&nbsp; проблемът е че ние сме научени на друга система</span></div>
+			<div>&nbsp;<span class="time">[15:13:10]</span>&nbsp;<span class="nick">&lt;KpeTeHoug&gt;</span><span class="text">&nbsp; и трудно ще ни отучат</span></div>
+			<div>&nbsp;<span class="time">[15:13:16]</span>&nbsp;<span class="nick">&lt;KrasiGa&gt;</span><span class="text">&nbsp; старо ама аз не го знаех</span></div>
+			<div>&nbsp;<span class="time">[15:13:30]</span>&nbsp;<span class="nick">&lt;KrasiGa&gt;</span><span class="text">&nbsp; тествах го и ми се стори готино</span></div>
+			<div>&nbsp;<span class="time">[15:13:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; chroot мога да си го автоматизирам така че потребителя като си направи поръчка през контролен панел и приложението го препрати да си плати някъде онлайн, след като си плати да му се създаде акаунт (в chroot) и да започне веднага да си го ползва</span></div>
+			<div>&nbsp;<span class="time">[15:13:50]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; така де акаунта не се създава в chroot средата, грешно се изразих</span></div>
+			<div>&nbsp;<span class="time">[15:14:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; акаунта си е на машината но всичко което потребителя може да прави на тази машина се изпълнява в chroot само за него</span></div>
+			<div>&nbsp;<span class="time">[15:16:01]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; говориш за акаунт на линукса ли ?</span></div>
+			<div>&nbsp;<span class="time">[15:16:07]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; мда сори</span></div>
+			<div>&nbsp;<span class="time">[15:16:26]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да това е интересно</span></div>
+			<div>&nbsp;<span class="time">[15:16:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; впрочем втория контейнер ми го направи за 56 секунди - което води до още един голям проблем</span></div>
+			<div>&nbsp;<span class="time">[15:16:30]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; доста интересно</span></div>
+			<div>&nbsp;<span class="time">[15:16:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако прехвърлям акаунти от една машина на друга - за 500 акаунта ще трябва да чакам 500 минути само за да им създам контейнерите</span></div>
+			<div>&nbsp;<span class="time">[15:18:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако това го правя защото примерно ми е изгърмяло захранването на основния сървър и местя разни работи към някой свободен такъв - за 500 минути ще ми се стопи телефона да давям обяснение защо не работят разни сайтове и пощи :)</span></div>
+			<div>&nbsp;<span class="time">[15:18:29]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; давам*</span></div>
+			<div>&nbsp;<span class="time">[15:19:21]</span>&nbsp;<span class="else_j">&nbsp;hackman (~hackman@12.166.214.2) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[15:24:51]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; давям е по-добре, средно между давам и удавям ;P</span></div>
+			<div>&nbsp;<span class="time">[15:26:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; трябва да ги разгледам, щото си мисля как ще направя една система с телескоп и позиционер, който може да се контролира от щатите примерно, та там съм си мислел точно за такива акаунти</span></div>
+			<div>&nbsp;<span class="time">[15:28:43]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ще е яко да си ннаблюдавам  луната от телефона примерно  докато съм някъде на биричка :)</span></div>
+			<div>&nbsp;<span class="time">[15:29:40]</span>&nbsp;<span class="else_li">&nbsp;Tiako (1000@80.30.185.82) left irc: Quit: Leaving</span></div>
+			<div>&nbsp;<span class="time">[15:46:01]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; тъй смених си търсачката на дъкдък го вече окончателно, ако isp-то ми оправи ip-то май ще реджекна гугъл от iptables-a , да видим колко ще изкарам :)</span></div>
+			<div>&nbsp;<span class="time">[15:50:39]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; phalaaxx: при мен втория го направи за ~5 секунди</span></div>
+			<div>&nbsp;<span class="time">[15:51:16]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; пак може да се автоматизира, може да се направят различни рестрикции на това какви ресурси да ползват</span></div>
+			<div>&nbsp;<span class="time">[15:51:35]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; и можеш всичките да ги изсипеш в един контейнер, а вътре каквот искаш да си оправляваш security-то</span></div>
+			<div>&nbsp;<span class="time">[15:52:47]</span>&nbsp;<span class="nick">&lt;ndyakov&gt;</span><span class="text">&nbsp; аз излитам , чао :)</span></div>
+			<div>&nbsp;<span class="time">[15:55:11]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; KpeTeHoug: yulimoto zyntrax</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
