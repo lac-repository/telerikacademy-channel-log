@@ -411,3 +411,41 @@
 [09:51:42] anton_dutsov (~Thunderbi@178.75.230.84) left irc: Quit: anton_dutsov
 [10:00:00] Writing user file...
 [10:00:00] Writing channel file...
+[10:06:39] Vankata (~Vankata@87.120.123.63) joined #telerikacademy.
+[10:06:58] <Vankata> Добро утро :)
+[10:19:24] <Deyan> Д У Ванка
+[10:40:36] <KpeTeHoug> А добър ден, пичувиЕ и пичкиЕ
+[10:40:37] <KpeTeHoug> :)
+[10:40:46] <KpeTeHoug> явно днес ще си говорим на мойто любим роден език
+[10:48:21] <KrasiGa> ! weather blagoevgrad
+[10:48:31] <KrasiGa> !weather blagoevgrad
+[10:49:06] <KrasiGa> phalaaxx:  защо не ти работи бота?
+[10:50:02] <KpeTeHoug> .weater blagoevgrad
+[10:50:09] <KpeTeHoug> az pyk go napisah s gazy s
+[10:50:22] <KpeTeHoug> .weather Blagoevgrad
+[10:50:23] <KrasiGa> аааа с точка ли беше
+[10:50:24] <wilindex> Yahoo! Weather - Blagoevgrad, BG: Mostly Cloudy, 8°C (46°F), 29in (1012mb), Light breeze 6kt (↖)
+[10:50:50] <KpeTeHoug> да, само че не зачита правописни грешки
+[10:50:55] <KpeTeHoug> на Telerik е с !
+[10:51:01] <KpeTeHoug> a на wilindex s .
+[10:51:01] <KrasiGa> е как 8оС? уффф
+[10:51:16] <KpeTeHoug> е в търново е 6-7
+[10:51:20] <KpeTeHoug> я да видим
+[10:51:31] <KpeTeHoug> .weather Veliko Tarnovo
+[10:51:32] <wilindex> Yahoo! Weather - Veliko Turnovo, BG: Light Rain, 6°C (42°F), 30in (1015mb), Light air 2kt (↑)
+[10:51:42] <KpeTeHoug> е толкоз е
+[10:51:52] <KrasiGa> е да ама по-малко вятър
+[10:52:12] <KrasiGa> даже хич при вас
+[10:52:56] <KpeTeHoug> да, спокойно е времето
+[10:53:45] <KpeTeHoug> .in 3h yulimoto zyntrax
+[10:53:46] <wilindex> KpeTeHoug: Okay, will remind at 2013-10-02 - 11:00:08UTC
+[10:54:52] <KrasiGa> това какво прави?
+[10:55:44] <KpeTeHoug> напомня ми след еди колко си време
+[10:55:57] <KpeTeHoug> а другото е забележка, каакво да ти каже
+[10:56:28] <KrasiGa> заблудих се от 11ч понеже сега е толкова
+[10:56:35] <KrasiGa> ама UTC е с 3 час
+[10:56:40] <KpeTeHoug> мхм
+[10:56:41] <KrasiGa> зацепих :)
+[10:58:25] <KpeTeHoug> :) щото трябва да тормозя yulimoto за нещо, да не забравя :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
