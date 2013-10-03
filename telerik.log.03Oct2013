@@ -106,3 +106,17 @@
 [10:54:33] <KpeTeHoug> възможно е
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:51:09] <phalaaxx> http://pcworld.bg/21624_telerik_stapi_v_silicievata_dolina?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pcworldbg+%28PC+World+%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F%29
+[11:51:10] <wilindex> [ Телерик стъпи в Силициевата долина | Бизнес | PC World България ] - pcworld.bg
+[11:52:07] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[11:59:42] <yulimoto> някой може ли да ми каже тук за лесно конфигуриране и получаване на пакети, който да работи с днс, но все пак да има и  повечко протоколи за по нататък ?
+[11:59:54] <yulimoto> тук=tool*
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:02:31] <yulimoto> взех един питонаджийски ама да видим ще го пробва следобед
+[12:04:20] <yulimoto> .weather yambol
+[12:04:22] <wilindex> Yahoo! Weather - Yambol, BG: Mostly Cloudy, 5°C (41°F), 30in (1024mb), Light breeze 6kt (↖)
+[12:04:30] <yulimoto> .weather sofia
+[12:04:32] <wilindex> Yahoo! Weather - Sofia, BG: Cloudy, 6°C (42°F), 30in (1015mb), Light air 3kt (↑)
+[12:04:45] <yulimoto> .weather burgas
+[12:04:47] <wilindex> Yahoo! Weather - Burgas, BG: Partly Cloudy, 9°C (48°F), 30in (1015mb), Moderate breeze 14kt (↑)
