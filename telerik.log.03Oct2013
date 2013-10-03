@@ -193,3 +193,193 @@
 [13:04:53] <dencho> .weather Arbanasi
 [13:04:56] <wilindex> Yahoo! Weather - Beceni, RO: Mostly Cloudy, 8°C (46°F), 30in (1025mb), Gentle breeze 8kt (↑)
 [13:04:59] <dencho> RO
+[13:05:01] <dencho> kade RO we
+[13:05:01] <dencho> :D
+[13:05:06] <yulimoto> .weather Copa Cabana
+[13:05:08] <wilindex> Yahoo! Weather - San Nicolas De Los Garzas, MX: Clear, 25°C (77°F), 29in (982mb), Light breeze 5kt (→)
+[13:05:17] <dencho> .weather Sibir
+[13:05:19] <wilindex> Yahoo! Weather - Sibirskiy, RU: Mostly Cloudy, 9°C (48°F), 29in (982mb), Moderate breeze 11kt (↖)
+[13:05:34] <dencho> .weather Sochi
+[13:05:36] <wilindex> Yahoo! Weather - Sochi, RU: Light Rain Shower, 14°C (57°F), 29in (982mb), Light air 3kt (↑)
+[13:05:38] <yulimoto> .weather siberia
+[13:05:40] <wilindex> Yahoo! Weather - Siberia, RU: Sunny, -2°C (28°F), 30in (1018mb), Calm 0kt (↑)
+[13:05:52] <phalaaxx> вие двамата правите нагледен пример за DoS :D
+[13:05:55] <yulimoto> .weather vladivostok
+[13:05:57] <wilindex> Yahoo! Weather - Vladivostok, RU: Clear, 8°C (46°F), 29in (982mb), Light air 3kt (↑)
+[13:05:59] <dencho> haha
+[13:06:05] <dencho> .weather Kursk
+[13:06:07] <wilindex> Yahoo! Weather - Kursk, RU: Mostly Cloudy, 4°C (39°F), 30in (1015mb), Gentle breeze 10kt (↑)
+[13:06:08] <yulimoto> da
+[13:06:11] <dencho> dobre e :D
+[13:06:23] <dencho> hahaha phalaaxx :D
+[13:06:25] <yulimoto> DoS от изток на запад и обратно
+[13:06:32] <yulimoto> имаме си мап
+[13:06:40] <yulimoto> по който движим атаката
+[13:06:40] <dencho> .weather Aliaska
+[13:06:42] <wilindex> Yahoo! Weather - Alaska, AK: Partly Cloudy, 1°C (33°F), 29in (982mb), Calm 0kt (↑)
+[13:06:51] <dencho> .weather Tampa
+[13:06:52] <wilindex> Yahoo! Weather - Tampa, FL: Partly Cloudy, 23°C (73°F), 30in (1015mb), Light air 3kt (→)
+[13:06:53] <phalaaxx> roadmap
+[13:07:09] <dencho> .weather Sahara
+[13:07:12] <wilindex> Yahoo! Weather - Sahara, IN: Haze, 30°C (86°F), 29in (982mb), Gentle breeze 10kt (→)
+[13:07:15] <dencho> aa tam e dobre
+[13:07:16] <dencho> :D
+[13:07:20] <yulimoto> da be
+[13:07:22] <phalaaxx> да искам и аз там :D
+[13:07:37] <yulimoto> .weather Borabora
+[13:07:40] <wilindex> Yahoo! Weather - Bora-Bora, PF: Unknown, 26°C (78°F), 30in (1015mb), Gentle breeze 10kt (→)
+[13:07:43] <dencho> .weather torabora
+[13:07:46] <wilindex> Yahoo! Weather - Tarboro, NC: Fog, 13°C (55°F), 30in (1015mb), Calm 0kt (↑)
+[13:07:49] <dencho> haha
+[13:07:53] <yulimoto> eto tam e dobre na borabora
+[13:08:03] <dencho> .weather Damask
+[13:08:12] <dencho> damask nqma li?
+[13:08:14] <yulimoto> .weather izmir
+[13:08:16] <wilindex> Yahoo! Weather - Dimashq, SY: Partly Cloudy, 27°C (80°F), 29in (982mb), Fresh breeze 21kt (←)
+[13:08:19] <wilindex> Yahoo! Weather - Izmir, TR: Partly Cloudy, 17°C (62°F), 30in (1015mb), Moderate breeze 15kt (↑)
+[13:08:26] <dencho> .weather diarbekir
+[13:08:30] <wilindex> Yahoo! Weather - Diyaribakir, TR: Mostly Cloudy, 29°C (84°F), 29in (982mb), Moderate breeze 15kt (↙)
+[13:08:34] <yulimoto> .weather Ямбол
+[13:08:36] <wilindex> UnicodeEncodeError: 'ascii' codec can't encode characters in position 42-46: ordinal not in range(128) (file "/usr/lib/python2.7/urllib.py", line 1312, in urlencode)
+[13:08:39] <dencho> uuu
+[13:08:41] <dencho> ascii
+[13:08:41] <dencho> :D
+[13:08:49] <dencho> .weather anadola
+[13:08:51] <wilindex> Yahoo! Weather - Antalya, TR: Partly Cloudy, 25°C (77°F), 29in (982mb), Fresh breeze 16kt (↖)
+[13:08:53] <phalaaxx> .weather Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+[13:08:56] <wilindex> TypeError: object of type 'NoneType' has no len() (file "/usr/local/lib/python2.7/dist-packages/willie/modules/weather.py", line 33, in woeid_search)
+[13:08:57] <dencho> mnoo jega tam we
+[13:08:58] <yulimoto> ааа еи тука ше има играчка
+[13:09:21] <phalaaxx> .weather Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+[13:09:23] <wilindex> Yahoo! Weather - Llanfairpwllgwyngyll, GB: Cloudy, 20°C (68°F), 29in (982mb), Gentle breeze 10kt (↘)
+[13:09:27] <yulimoto> .weather print()
+[13:09:30] <wilindex> Yahoo! Weather - Presnensky, RU: Mostly Cloudy, 4°C (39°F), 30in (1015mb), Gentle breeze 10kt (↑)
+[13:09:34] <yulimoto> heee
+[13:09:54] <yulimoto> .weather cpu in my comp
+[13:09:58] <wilindex> Yahoo! Weather - Cururupu Airport, BR: Partly Cloudy, 27°C (80°F), 29in (982mb), Fresh breeze 18kt (↗)
+[13:09:58] <dencho> .weather rm -fr
+[13:10:00] <wilindex> Yahoo! Weather - Frosinone, IT: Fair, 18°C (64°F), 30in (1015mb), Light breeze 5kt (→)
+[13:10:06] <yulimoto> biwa
+[13:10:16] <phalaaxx> .weather Chargoggagoggmanchauggagoggchaubunagungamaugg
+[13:10:18] <wilindex> TypeError: object of type 'NoneType' has no len() (file "/usr/local/lib/python2.7/dist-packages/willie/modules/weather.py", line 33, in woeid_search)
+[13:10:26] <phalaaxx> :D
+[13:10:29] <dencho> are ora, az 4inii trqq da miq
+[13:10:30] <dencho> :D
+[13:10:37] <yulimoto> tell dencho .weather dencho
+[13:10:40] <yulimoto> .tell dencho .weather dencho
+[13:10:41] <wilindex> yulimoto: I'll pass that on when dencho is around.
+[13:10:51] <dencho> az sam around we
+[13:10:52] <dencho> :D
+[13:10:52] <wilindex> dencho: 2013-10-03 10:17:01 UTC <yulimoto> tell dencho .weather dencho
+[13:10:59] <dencho> :]
+[13:11:17] <yulimoto> .weather in dencho headbox
+[13:11:19] <wilindex> Yahoo! Weather - Indiana, IN: Light Rain, 19°C (66°F), 30in (1016mb), Light breeze 6kt (↙)
+[13:11:32] <yulimoto> .weather florida
+[13:11:35] <wilindex> Yahoo! Weather - Florida, FL: Fair, 22°C (71°F), 30in (1016mb), Light breeze 6kt (↗)
+[13:11:57] <yulimoto> няма ли прогнозата за 5 дена напред ве
+[13:12:58] <yulimoto> .mangle dencho is R'n'B icon !!!
+[13:13:02] <dencho> hahaha
+[13:13:04] <wilindex> yulimoto: Battery Hop code !
+[13:13:04] <dencho> mangal
+[13:13:18] <dencho> .mangal wilindex
+[13:15:54] <dencho> .weather f
+[13:15:56] <wilindex> Yahoo! Weather - Hesse, DE: Mostly Cloudy, 9°C (48°F), 30in (1023mb), Gentle breeze 10kt (→)
+[13:16:02] <dencho> .weather a
+[13:16:04] <wilindex> Yahoo! Weather - Trondelag, NO: Partly Cloudy, 3°C (37°F), 30in (1023mb), Light breeze 6kt (↘)
+[13:16:06] <dencho> .weather b
+[13:16:08] <wilindex> Yahoo! Weather - B., IN: Cloudy, 30°C (86°F), 29in (1005mb), Light air 3kt (←)
+[13:16:15] <dencho> .weather c
+[13:16:18] <wilindex> Yahoo! Weather - Saxony, DE: Sunny, 8°C (46°F), 30in (1027mb), Gentle breeze 8kt (↘)
+[13:16:20] <yulimoto> e тва е вече дикшънъри
+[13:16:33] <dencho> :D
+[13:16:36] <dencho> .weather :D
+[13:16:38] <wilindex> Yahoo! Weather - North Rhine-Westphalia, DE: Fair, 15°C (59°F), 30in (1015mb), Gentle breeze 10kt (↘)
+[13:16:50] <dencho> .weather :
+[13:16:52] <wilindex> TypeError: object of type 'NoneType' has no len() (file "/usr/local/lib/python2.7/dist-packages/willie/modules/weather.py", line 33, in woeid_search)
+[13:17:11] <phalaaxx> .blocks add nick dencho
+[13:17:12] <phalaaxx> :P
+[13:17:13] <wilindex> phalaaxx: Successfully added block: dencho
+[13:17:23] <dencho> 4estito :D
+[13:17:31] <dencho> .weather dfg
+[13:17:41] <dencho> nema weather za dencho ve4e
+[13:17:41] <dencho> :D
+[13:17:44] Action: dencho slaps wilindex around a bit with a large trout
+[13:17:51] <phalaaxx> .blocks del nick dencho
+[13:17:52] <wilindex> phalaaxx: Successfully deleted block: dencho
+[13:17:59] <dencho> .blocks add nick phalaaxx
+[13:18:02] <phalaaxx> :D
+[13:18:08] <phalaaxx> ne staa
+[13:18:08] <dencho> :D
+[13:18:11] <phalaaxx> samo men me slusha
+[13:18:37] <dencho> lo6o sledlarov :D lo6o
+[13:19:15] <phalaaxx> не е лошо, много е хубаво даже
+[13:19:43] <dencho> baaago mnogo vetar weee
+[13:19:57] <dencho> onaz lelq v metroto kak me izluga 4e metroto raboti i 4akah 15 minuti dole
+[13:20:16] <dencho> spre li metroto nekav jestok haus stava v sofia
+[13:21:07] <phalaaxx> не не, не си разбрал правилно ситуацията със София
+[13:21:19] <phalaaxx> необходимо и достатъчно условие за жесток хаос е да изгрее Слънцето
+[13:21:31] <dencho> za6to?
+[13:21:35] <phalaaxx> тоя град е някаква грешка на цивилизацията :D
+[13:21:42] <dencho> za6to slunceto?
+[13:21:51] <phalaaxx> защото всеки ден е хаос
+[13:21:57] <dencho> haha :D
+[13:27:55] <yulimoto> някой да знае от де да дръпна dhcpd за федора, щото от версия еди-коя си ползват dnsmasq нещо си комбинирано
+[13:46:55] <phalaaxx> rpmforge?
+[13:52:14] <yulimoto> мм лъжа в репоситорито има dhcp някакво ама дали е само клиент или клиент и сървър е мн друдно да се каже, когато се опитвам да го пусна реве, че няма конфиг файлове. трудно начало с загадка :)
+[13:53:11] <yulimoto> а иначе ползвах rpmpbone или нещо подобно
+[13:56:10] <dencho> nqkoi da e vijdal eto tova - reboot and select proper boot device or insert boot media in selected boot device and press a key - na 4eren ekran kato instalirana OS e windows?
+[13:56:34] <dencho> problema e, 4e dokato 4oveka si rovel facebook-a (windows) mu izlizalo tova ne6to na 4er ekran?
+[13:56:40] <dencho> nqkoi s podobni probleim?
+[13:56:43] <dencho> problemi?
+[13:58:12] <KpuCko> =]]]
+[13:58:15] <KpuCko> #WindowsHelp?
+[13:58:26] <dencho> hahaha
+[13:58:37] <dencho> 4akai KpeTeHoug e windows master
+[13:58:38] <dencho> :D
+[13:58:40] <KpeTeHoug> аз съм го виждал
+[13:58:41] <KpeTeHoug> :)
+[13:58:43] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[13:58:45] <dencho> znaeh si
+[13:58:45] <dencho> :D
+[13:58:51] <dencho> i kak go re6i?
+[13:58:54] <KpeTeHoug> ама това е при рестарт на машината
+[13:58:58] <KpeTeHoug> причини бол
+[13:59:20] <dencho> e toz mi kazva, 4e kato si cuka.. i mu izliza tva, (qvno trqbva da mi obesni po-podrobno)
+[13:59:20] <dencho> :D
+[13:59:21] <KpeTeHoug> от липса на proper МБР
+[13:59:28] <KpeTeHoug> MBR
+[13:59:29] <dencho> po edno vreme kazva6e 4e mu izliza sin ekran
+[13:59:45] <KpeTeHoug> до неправилно направени конфигурации по дъното
+[13:59:48] <KrasiGa> да си смени харддиска според мен
+[13:59:50] <dencho> a hard diska moje li da e zdal bagaja?
+[13:59:55] <KpeTeHoug> на това кое устройство да търси при буут
+[13:59:56] <dencho> KrasiGa ya...
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:01] <KpeTeHoug> да, може и харда
+[14:00:15] <KpeTeHoug> 2 чалъма - вади захранващият от кутията на КОМПА
+[14:00:18] <KpeTeHoug> не от контакта
+[14:00:21] <dencho> 6toto to onq den ne e imal problemi, a windows-a az sam go instaliral (osven da sam lame windows installer) :D
+[14:00:26] <KpeTeHoug> пуши една цигара, закача и пробва пак
+[14:00:38] <KpeTeHoug> 2рия е ако може да си отвори кутията, да разкачи харда, и да го закачи пак
+[14:00:48] <KpeTeHoug> ако не - да ти плаща пътните да вариш да го опраяш
+[14:00:58] <dencho> KpeTeHoug tiq proceduri nai veroqtno az 6a gi prava :D
+[14:00:59] <dencho> qsno
+[14:01:10] <KpeTeHoug> е с кабела
+[14:01:12] <KpeTeHoug> може и сам баси
+[14:01:27] <KpeTeHoug> само му обясни че е черният кабел най-отгоре, отзад на кутията баси
+[14:01:27] <KpeTeHoug> :)
+[14:01:32] <dencho> basi dobre :D
+[14:01:52] <KpeTeHoug> айде бе, аз даже на лелките успявам да обясня по телефона
+[14:01:55] <KpeTeHoug> не ми се прей :)
+[14:01:59] <dencho> tuka mi se podmqtat nqkvi hardove ot po 4 gb... moe mu sloja edin win95 toi nali e free ve4e
+[14:02:00] <dencho> :D
+[14:02:30] <dencho> 4ai da vidim kvo kazvat orata v netq :D
+[14:02:46] <dencho> 4e 6a pra6tame KrasiGa da nosi hard
+[14:03:16] <KrasiGa> ше носа бе, само кажете къде
+[14:03:24] <yulimoto> dencho: слушай какво на човек дето цъка фацето вяра му нямай, аз на един му давам тоя линк http://bit.ly/19WJ13p , като ме ядосва с въпросите си и той после ме пита що му влизам в компютъра
+[14:03:28] <wilindex> [ Let me google that for you ] - bit.ly
+[14:03:31] <dencho> toq indiec li e ? http://youtu.be/3WBjF4Ijvj4 ili rusnak?
+[14:03:33] <wilindex> [YouTube] Title: (HOW TO FIX) reboot and select proper boot device | Uploader: Nik Bel | Uploaded: 11/09/2012, 15:09 | Duration: 4mins 56secs | Views: 160,646 | Comments: 333 | Likes: 548 | Dislikes: 104
+[14:03:55] <dencho> yulimoto qsnooo :D
+[14:04:06] <dencho> samo mi kajete toq rusnak li e ili indiec D:
