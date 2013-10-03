@@ -120,3 +120,76 @@
 [12:04:32] <wilindex> Yahoo! Weather - Sofia, BG: Cloudy, 6°C (42°F), 30in (1015mb), Light air 3kt (↑)
 [12:04:45] <yulimoto> .weather burgas
 [12:04:47] <wilindex> Yahoo! Weather - Burgas, BG: Partly Cloudy, 9°C (48°F), 30in (1015mb), Moderate breeze 14kt (↑)
+[12:08:40] <wilindex> yulimoto: anton_dutsov: да мисля, че юлимото стигна до някакво решение :) при което на master сървъра използва allow-transfer, а на slave masters
+[12:19:06] <dencho> yo
+[12:28:44] <phalaaxx> tool за какво?
+[12:39:34] <yulimoto> ми аз съм писал, не е ли ясно, тул с който конфигурирам и получавам пакети по мрежата, да може да конфигва и парсва пакети за повече протоколи и да има днс
+[12:40:40] <yulimoto> сложих един scrapy писан на питон ама не съм го човъркал направих един днс пакет  само да видя за какво иде реч и до там
+[12:42:24] <dencho> ei coderi
+[12:44:04] <yulimoto> аз съм код консуматор, не creator :)
+[12:53:48] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 245 seconds
+[12:55:24] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:58:16] Action: dencho slaps yulimoto around a bit with a large trout
+[12:58:19] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[12:58:20] Action: dencho slaps KrasiGa around a bit with a large trout
+[12:58:22] Action: dencho slaps phalaaxx around a bit with a large trout
+[12:58:29] Action: dencho slaps Telerik around a bit with a large trout
+[12:58:31] Action: dencho slaps wilindex around a bit with a large trout
+[12:58:58] <phalaaxx> тоз пак почна със шамарите :)
+[12:59:34] <dencho> ... защото така каза ледения стив остин!
+[12:59:36] <dencho> :д
+[12:59:38] <dencho> :D
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:00:29] <yulimoto> .weather Berlin
+[13:00:31] <wilindex> Yahoo! Weather - Berlin, DE: Fair, 10°C (50°F), 30in (1015mb), Moderate breeze 13kt (↘)
+[13:00:37] <dencho> .weather Botevgrad
+[13:00:37] <yulimoto> .weather Yambol
+[13:00:38] <wilindex> Yahoo! Weather - Botevgrad, BG: Mostly Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[13:00:41] <wilindex> Yahoo! Weather - Yambol, BG: Mostly Cloudy, 7°C (44°F), 30in (1024mb), Moderate breeze 14kt (↑)
+[13:00:48] <dencho> .weather Lukovit
+[13:00:50] <wilindex> Yahoo! Weather - Lukovit, BG: Light Rain, 6°C (42°F), 30in (1024mb), Light air 3kt (↙)
+[13:00:52] <yulimoto> .weather Sofia
+[13:00:56] <wilindex> Yahoo! Weather - Sofia, BG: Mostly Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[13:00:59] <dencho> .weather Haskovo(zatvora)
+[13:01:01] <wilindex> Yahoo! Weather - Khaskovo, BG: Mostly Cloudy, 5°C (41°F), 30in (1023mb), Light air 3kt (↗)
+[13:01:04] <dencho> qsno
+[13:01:32] <dencho> .weather Dermantsi
+[13:01:32] <yulimoto> само в хасково (в затвора) и Луковит е по-студено от ямбол ебаси
+[13:01:34] <wilindex> Yahoo! Weather - Durmantsi, BG: Mostly Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[13:01:47] <yulimoto> аа сигурно сливен
+[13:01:48] <dencho> haha :D
+[13:01:58] <dencho> .weather Sliven(zatvora)
+[13:02:00] <wilindex> Yahoo! Weather - Sliven, BG: Mostly Cloudy, 7°C (44°F), 30in (1024mb), Moderate breeze 14kt (↑)
+[13:02:02] <yulimoto> то там баси вятъра чуек
+[13:02:12] <yulimoto> равни !!!
+[13:02:17] <dencho> .weather Liulin
+[13:02:18] <wilindex> Yahoo! Weather - Liulin, CN: Sunny, 22°C (71°F), 30in (1016mb), Light air 3kt (↓)
+[13:02:22] <dencho> ooo
+[13:02:26] <dencho> v liulin 22 gradusa we
+[13:02:33] <yulimoto> ко стаа е брато къде е тва
+[13:02:41] <dencho> ebasi temperaturnite kolebaniq :D tva e kvartal na sofia
+[13:02:49] <yulimoto> да ве
+[13:03:12] <dencho> .weather vrachesh
+[13:03:15] <wilindex> Yahoo! Weather - Vrachesh, BG: Mostly Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[13:03:25] <yulimoto> ама аз имах предвид това дето го разбира бота за люлин а не ти
+[13:03:31] <dencho> .weather Bratsigovo(hijite)
+[13:03:33] <wilindex> Yahoo! Weather - Bratsigovo, BG: Light Rain, 6°C (42°F), 30in (1024mb), Calm 0kt (↑)
+[13:03:41] <dencho> na hijite e dobre
+[13:03:51] <yulimoto> ха
+[13:03:59] <yulimoto> .weather shipka
+[13:04:01] <wilindex> Yahoo! Weather - Shipka, BG: Mostly Cloudy, 5°C (41°F), 30in (1023mb), Light air 3kt (↗)
+[13:04:10] <dencho> .weather pametnika Levski
+[13:04:14] <wilindex> Yahoo! Weather - Levski, BG: Light Rain, 6°C (42°F), 30in (1024mb), Light air 3kt (↙)
+[13:04:17] <dencho> qsno :D
+[13:04:37] <phalaaxx> .weather #telerikacademy
+[13:04:39] <phalaaxx> :D
+[13:04:40] <wilindex> TypeError: object of type 'NoneType' has no len() (file "/usr/local/lib/python2.7/dist-packages/willie/modules/weather.py", line 33, in woeid_search)
+[13:04:41] <yulimoto> .weather Hawai
+[13:04:42] <dencho> .weather Arbanasi
+[13:04:44] <wilindex> Yahoo! Weather - Arunachal Pradesh, IN: Mostly Cloudy, 32°C (89°F), 29in (1006mb), Light breeze 6kt (→)
+[13:04:45] <wilindex> Yahoo! Weather - Beceni, RO: Mostly Cloudy, 8°C (46°F), 30in (1025mb), Gentle breeze 8kt (↑)
+[13:04:48] <dencho> kvo?
+[13:04:53] <dencho> .weather Arbanasi
+[13:04:56] <wilindex> Yahoo! Weather - Beceni, RO: Mostly Cloudy, 8°C (46°F), 30in (1025mb), Gentle breeze 8kt (↑)
+[13:04:59] <dencho> RO
