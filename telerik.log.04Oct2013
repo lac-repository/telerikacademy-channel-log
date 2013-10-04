@@ -103,3 +103,14 @@
 [10:39:32] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Ping timeout: 240 seconds
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:10:21] Action: anton_dutsov rndc connect failed:127.0.0.1#953: connection refused
+[11:10:38] <anton_dutsov> това на коя грешна настройка се дължи?
+[11:11:43] <KpuCko> anton_dutsov: на това, че на 127.0.0.1#953 нямаш кво да слуша
+[11:12:44] <anton_dutsov> KpuCko: тази нощ беше малко четенето. Как да го оправя?
+[11:17:42] <KpuCko> Не знам кво точно се опитваш да направиш, ама бая материал има писано по темата в google.
+[11:17:45] <KpuCko> http://myeasylinux.wordpress.com/2011/08/27/rndc-connect-failed-127-0-0-1953-connection-refused/
+[11:17:48] <KpuCko> Например.
+[11:17:48] <wilindex> [ rndc: connect failed: 127.0.0.1#953: connection refused | Linux Blog ] - myeasylinux.wordpress.com
+[11:26:02] <anton_dutsov> KpuCko: мерси за помощта!
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
