@@ -288,3 +288,62 @@
 [18:02:49] <vhristev> май крон апаче nginx
 [18:04:07] <hackman> с logrotate приключихме до колкото помня
 [18:04:08] <phalaaxx> да си продължа въпроса с RAID-а, опасявам се че е възможно заради някаква история със chunk size в софтуерния RAID и разликата във physical_block_size да се проявява този неприятен страничен ефект с производителноста - в този случай предполагам няма лесно решение зад
+[18:05:19] <hackman> значи днес... трябва да са crond/atd, telnet, ssh
+[18:05:21] <yulimoto> мда lorotate го споменахме на бързо, останаха другите сървиси бази данни и т.н.
+[18:06:15] <yulimoto> hackman, според теб колко седмици ще са нужни да свършим  (долу-горе) ?
+[18:08:49] <vhristev> Плахх ..
+[18:08:54] <hackman> 3-4 лекции имаме още
+[18:08:56] <vhristev> трябва всичко дискове да са ти еднакви
+[18:09:15] <vhristev> Хакман ... лекциите в софийският залично от тези ли ще са ?
+[18:11:51] <yulimoto> phalaaxx: реже ти " няма лесно решение зад" до тук. разделяй ги :)
+[18:12:20] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:14:06] <vhristev> ай паля
+[18:14:12] <vhristev>  че и може да закъснея за курса
+[18:14:17] <vhristev> Пийз пийпъл
+[18:14:17] <phalaaxx> знам че трябва да са еднакви дисковете ама това да се разправя човек с Hetzner си е невъзможна мисия :D
+[18:14:29] <vhristev> ааа добри са бе
+[18:14:47] <vhristev> аз имам няколко ВПС-а железа и хостинг
+[18:14:51] <vhristev> имат мн добър интернешънал
+[18:14:55] <vhristev> пийз
+[18:14:57] vhristev (~vhristev@212.36.1.26) left irc: 
+[18:15:20] <hackman> айде и аз духвам към терлика
+[18:15:45] <phalaaxx> имат ама като не спи човек 2 дена заради тях започва друго да си мисли :D
+[18:17:16] <phalaaxx> ще трябва да го дебна vhristev като се появи пак да му разказвам за дневни и нощни неволи с тях и как се възстановяват данни от бекъпи и няколко часа изгубени безвъзвратно данни :D
+[18:23:02] hackman (~hackman@management.1h.com) left irc: Ping timeout: 246 seconds
+[18:25:34] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[18:26:53] Guest59978 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:28:04] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[18:36:36] KacanuH (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[18:36:39] ss (~ss@gateway/tor-sasl/ss) joined #telerikacademy.
+[18:36:40] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[18:37:45] Nick change: Deyan_ -> Deyan
+[18:42:51] tuxar (~tuxar@ppp-2-85-82-72.home.otenet.gr) joined #telerikacademy.
+[18:44:54] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[18:51:36] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:51:40] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[18:52:03] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[18:53:17] hackman (~hackman@89.190.207.11) joined #telerikacademy.
+[18:54:03] <hackman> упс
+[18:54:05] <hackman> тук ли сте ? :0
+[18:54:24] <fityla> да изгася ли лампите
+[18:54:27] <fityla> опред
+[18:54:34] <ss> Ja.
+[18:54:42] <hackman> как е stream-a ? :0
+[18:54:42] <anton_sh> pri men nqma stream
+[18:54:50] <hackman> reload-ни :)
+[18:54:50] <lyubenblagoev> стрима тръгна
+[18:54:54] <anton_sh> a trugna
+[18:54:58] <ss> стрийма*
+[18:55:01] <lyubenblagoev> да
+[18:55:03] <fityla> а лампите?
+[18:55:08] <tuxar> ok
+[18:55:09] <sig_> OK E
+[18:55:10] <Deyan> ima stream
+[18:55:56] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[18:56:06] mike (~mike@77.70.49.155) joined #telerikacademy.
+[18:56:21] Nick change: mike -> Guest53588
+[18:57:06] Guest53588 (~mike@77.70.49.155) left irc: Client Quit
+[18:57:14] <Brahman> :) hahaha
+[18:57:51] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
