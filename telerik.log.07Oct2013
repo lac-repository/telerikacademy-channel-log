@@ -384,3 +384,13 @@
 [20:56:30] <sig_> за Х форуърд не трябва ли Х сървър? а ако няма и няма дисплей?
 [21:00:00] Writing user file...
 [21:00:00] Writing channel file...
+[21:07:34] <ss> export DISPLAY='localhost:0.0'
+[21:09:29] <ss> 127.0.0.1?
+[21:17:56] <ss> fail2ban е решението.
+[21:18:16] <fityla> искам такъв бот
+[21:28:17] <fityla> кога ще е тая мрежова сигурност
+[21:37:22] Nick change: ndyakov -> ndyakov|away
+[21:46:31] anton_dutsov (b24be654@gateway/web/cgi-irc/kiwiirc.com/ip.178.75.230.84) joined #telerikacademy.
+[21:50:33] pgachev (~pgachev@85.187.153.2) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
