@@ -347,3 +347,17 @@
 [18:57:51] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
 [19:00:00] Writing user file...
 [19:00:00] Writing channel file...
+[19:06:26] koshmarko (~marko@87-126-17-211.btc-net.bg) joined #telerikacademy.
+[19:14:00] <ss> vim > *
+[19:26:32] <ss> cron
+[19:27:09] <ss> aptitude search cron
+[19:27:16] <ss> aptitude search cron | grep daemon
+[19:31:54] <Brahman> na windows nqma li ?
+[19:31:57] <Brahman> :D
+[19:37:15] <Brahman> stavashe vupros sa schedule na reboot :D
+[19:37:33] <Brahman> nqma znachenie
+[19:38:53] <Brahman> uha
+[19:54:45] <ss> `cron` е за периодично изпълнявани събития, а `at` за "еднократна употреба".
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:04] <Brahman> na kill -HUP ne si li preprochita confa
