@@ -153,3 +153,67 @@
 [14:57:33] <ss> И м/у другото, говорим си за сигурност и добри практики всеки ден, а канала не е с +S (SSL only).
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
+[15:12:43] <hackman> ss, кой беше gat3way ?
+[15:13:32] <hackman> ss относно канала... на практика това е проблем с IRC клиентите по принцип и не е много добра идея ако искаш да могат повече хора да пишат
+[15:13:38] <hackman> т.е. целта на канала не е да е сигурен
+[15:13:57] <hackman> целта му е да се създаде едно място където хората лесно да могат да обменят знания
+[15:14:03] <hackman> за това сигурност не ти е нужна
+[15:17:10] <ss> Milen Rangelov <gat3way@gat3way.eu> (http://www.linux-bg.org/forum/index.php?action=profile;u=8455)
+[15:17:11] <wilindex> [ Виж профила на gat3way ] - www.linux-bg.org
+[15:17:56] <ss> Относно забележката, приемам я донякъде, но не мога да се съглася изцяло, защото изграждането на навици сред потребителите започва от малки неща, като това, например.
+[15:20:05] <ss> hackman, дори ти не използваш SSL и паролата ти преминава в чист текст по трасето.
+[15:20:51] <ss> Не мисля, че е добър пример това, било то и когато става дума за нещо незначително, като IRC...
+[15:23:55] <hackman> yulimoto, http://forums.academy.telerik.com/122408/%D0%BC%D1%80%D0%B5%D0%B6%D0%BE%D0%B2%D0%B0-%D1%81%D0%B8%D0%B3%D1%83%D1%80%D0%BD%D0%BE%D1%81%D1%82-i-%D0%B2%D1%8A%D0%B2-%D1%84%D0%BC%D0%B8
+[15:23:56] <wilindex> [ Мрежова Сигурност I във ФМИ - Telerik Academy Forums ] - forums.academy.telerik.com
+[15:24:21] <ss> about:config -> network.standard-url.escape-utf8 -> false
+[15:26:00] <hackman> ss, за мен SSL за IRC е неудобство
+[15:26:23] <hackman> ако някой реши да ми открадне nick-а просто ще говоря с админите да ми го възстановят
+[15:26:50] <hackman> едно от нещата с които съм свикнал е, че реална сигурност НЯМА
+[15:26:56] <hackman> има илюзията за такава
+[15:27:10] <ss> С предпоследното изречение съм напълно съгласен.
+[15:28:06] <ss> Няма, няма и да има никога, защото винаги остава един единствен (и много често пренебрегван) фактор - човешкият.
+[15:28:26] <phalaaxx> ss къде точно пише че не го препоръчва? нещо не мога да се ориентирам там...
+[15:28:53] <yulimoto> както съм казвал и преди IT сигурността е като да си подсигуриш охрана. Това просто кача цената на убийството, но не го прави невъзможно. :)
+[15:30:56] <ss> phalaaxx, https://www.schneier.com/blog/archives/2013/09/the_nsa_is_brea.html, но разгледай и коментарите най-добре.
+[15:30:59] <wilindex> [ 404 Not Found ] - www.schneier.com
+[15:32:19] <ss> yulimoto, не смятам, че са еквивалентни двете, но ми харесва твърдението за охраната. :)
+[15:36:59] <KrasiGa> hackman: видеото от мрежова сигурност тул ли ще ги качваш? http://training.iseca.org/index.php
+[15:37:01] <wilindex> [ Учебен център на ISECA ] - training.iseca.org
+[15:40:49] <hackman> KrasiGa, не, в YouTube, в моя канал
+[15:41:13] <hackman> http://www.youtube.com/aziliann
+[15:41:14] <wilindex> [ Marian Marinov - YouTube ] - www.youtube.com
+[15:42:24] <phalaaxx> ss: само в коментарите се казват няколко неща за ECDSA, за тях ли говориш?
+[15:44:47] <ss> phalaaxx, като цяло за elliptic-curve говоря, имай едно на ум все пак.
+[15:45:57] <ss> Имай предвид, че статията е редактирана няколко пъти и хората явно цитират редактирано съдържание.
+[15:46:08] <ss> "Prefer conventional discrete-log-based systems over elliptic-curve systems; the latter have constants that the NSA influences when they can." -- http://www.theguardian.com/world/2013/sep/05/nsa-how-to-remain-secure-surveillance
+[15:46:10] <wilindex> [ NSA surveillance: how to stay secure | Bruce Schneier | World news | theguardian.com ] - www.theguardian.com
+[15:48:20] <phalaaxx> ок, това означава ли че трябва да избягваме и SELinux защото е тръгнало от NSA?
+[15:48:34] <phalaaxx> в смисъл от страх че може да е backdoor и никой досега да не е разбрал това?
+[15:50:01] <ss> http://grsecurity.net/
+[15:50:04] <wilindex> [ grsecurity ] - grsecurity.net
+[15:51:01] <phalaaxx> аз питах за selinux, не за grsecurity :)
+[15:51:52] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[15:53:29] <ss> http://www.crypt.gen.nz/papers/trusting_the_nsa.html
+[15:53:32] <wilindex> [ Do you trust the NSA and SELinux? ] - www.crypt.gen.nz
+[15:55:03] <phalaaxx> ss: http://en.wikipedia.org/wiki/Darmok
+[15:55:04] <wilindex> [ Darmok - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[15:55:16] <phalaaxx> ако не си гледал този сериал и този епизод конкретно - гледай го
+[15:55:16] <ss> Дадох ти grsecurity, като алтернатива, ако си крайно параноичен, в което силно се съмнявам, тъй като изглежда и ти не си привърженик на SSL употребата.
+[15:55:37] <phalaaxx> разказва се за една раса която комуникира със събития от историята им
+[15:55:50] <phalaaxx> и ако не им знаеш историята - това което ти говорят няма никакъв смисъл
+[15:56:09] <phalaaxx> май се опитваш да ползваш подобен вид комуникация тук :D
+[15:56:21] <phalaaxx> но не с история а със статии и коментари по статиите
+[15:57:14] <ss> :D
+[15:57:43] <phalaaxx> достатъчно съм параноичен за да знам какво е grsecurity и как се използва (поне част от него), както и какво е SELinux и защо ми е трудно да го използвам
+[15:58:47] <ss> В момента нямам време за сериозна дискусия, а и съм доста некомпетентен, за да коментирам твоите спекулации в детайли.
+[15:59:58] <phalaaxx> аз със нищо не спекулирам, ти започна със това че някой препоръчва да не се ползва EC (явно в отговор на нещата които аз писах за ECDSA и Debian)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:15] <phalaaxx> и ми трябваше половин час да достигна до конкретното твърдение
+[16:00:29] <phalaaxx> "Prefer conventional discrete-log-based systems over elliptic-curve  systems; the latter have constants that the NSA influences when they  can."
+[16:01:09] <phalaaxx> ако беше написал това щеше да ми спестиш половин час ровене и четене на коментари на хора за които никога не съм чувал и не мисля че искам да съм чувал нещо за тях
+[16:01:20] <phalaaxx> и на себе си щеше да спестиш наколко линка copy/paste
+[16:02:00] Action: ss is taking notes.
+[16:02:04] <ss> Приемам забележката.
+[16:02:39] <phalaaxx> :P
+[16:04:33] <ss> Коментарите под статиите цитират думи на Bruce Schneier, а не "неизвестен източник".
