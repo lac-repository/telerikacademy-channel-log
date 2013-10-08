@@ -67,3 +67,37 @@
 [09:58:16] ss (~ss@gateway/tor-sasl/ss) joined #telerikacademy.
 [10:00:00] Writing user file...
 [10:00:00] Writing channel file...
+[10:11:39] dencho (~dencho@95.111.14.183) got netsplit.
+[10:11:40] Liverpool (liverpool@unaffiliated/liverpool) got netsplit.
+[10:11:40] xezes (~xezes@unaffiliated/xezes) got netsplit.
+[10:17:12] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[10:17:46] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:22:00] xezes (~xezes@unaffiliated/xezes) got lost in the net-split.
+[10:22:00] dencho (~dencho@95.111.14.183) got lost in the net-split.
+[10:22:00] Liverpool (liverpool@unaffiliated/liverpool) got lost in the net-split.
+[10:24:11] <KrasiGa> lyubenblagoev:  свали ли лекцията от вчера?
+[10:30:01] <lyubenblagoev> KrasiGa, да свалих я
+[10:32:18] <lyubenblagoev> пуснах да се качва на гризли
+[10:41:41] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[10:42:17] <lyubenblagoev> http://forums.academy.telerik.com/122344/%D0%B7%D0%B0%D0%BF%D0%B8%D1%81-%D0%BD%D0%B0-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F%D1%82%D0%B0-%D0%B7%D0%B0-cron-ssh-telnet-%D0%BE%D1%82-07-2013-%D0%BA%D0%B0%D1%87%D0%B5%D0%BD-%D0%BD%D0%B0-%D0%B3%D1%80%D0%B8%D0%B7%D0%BB%D0%B8
+[10:42:19] <wilindex> [ Запис на лекцията за Cron, SSH, Telnet... от 07.10.2013 е качен на гризли - Telerik Academy Forums ] - forums.academy.telerik.com
+[10:43:47] <lyubenblagoev> hackman, като имаш възможност ще push-неш ли промените по репозиторито за курса в github
+[10:50:31] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[10:50:39] <KpeTeHoug> грух грух
+[10:55:19] <KrasiGa> Благодаря lyubenblagoev : Хубав ден!
+[10:55:37] <lyubenblagoev> KrasiGa, хубав ден и на теб!
+[10:55:41] <KrasiGa> KpeTeHoug:  къде се изгуби? До сега ли отрезняваш след конфа
+[10:55:54] <KrasiGa> *изтрезняваш
+[10:56:28] <ss> lyubenblagoev, about:config -> network.standard-url.escape-utf8 -> false
+[10:57:12] <KpeTeHoug> KrasiGa даже не стигнах до там
+[10:57:29] <KpeTeHoug> командировахе ме по спещност Шумен и Варна
+[10:57:38] <KpeTeHoug> и днес/утре пак Варна, чакам обаждане :)
+[10:57:45] <KpeTeHoug> така че, нищо не видях от конфа ;)
+[10:57:50] <KrasiGa> еее пропуснал си значи
+[10:59:22] <KpeTeHoug> ем ...
+[10:59:32] <KpeTeHoug> работа, какво да правиш
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:43] Liverpool (liverpool@unaffiliated/liverpool) joined #telerikacademy.
+[11:01:44] <KpeTeHoug> само МанЮнайтед !
+[11:01:45] <KpeTeHoug> :)
