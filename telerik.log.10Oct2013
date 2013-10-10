@@ -438,3 +438,90 @@
 [20:43:50] Phototo (~dfdfdfd@94.72.191.0) joined #telerikacademy.
 [21:00:00] Writing user file...
 [21:00:00] Writing channel file...
+[21:12:23] <phalaaxx> mradoychovski: проблем е това, че вече не говорим за инкрементален backup когато се промени съдържанието на file1 и имаш само hard link към него
+[21:13:44] <Phototo> phalaaxx: ���� �� �������� �� �
+[21:14:16] <anton_dutsov> Phototo: отново не се чете.
+[21:14:58] <anton_dutsov> Тръгна ли ви stream-a?
+[21:15:09] <sig_> не май
+[21:15:10] <pacho10> pri men ne
+[21:15:12] <mihail_m> ne
+[21:15:17] <Phototo> nishto ne razchitam
+[21:15:25] <Phototo> ne znam dali mene chetqhte po-gore
+[21:15:47] <Phototo> i az niamam stream, ako tova pitate
+[21:15:52] hackman (~hackman@89.190.207.11) left irc: Read error: Connection reset by peer
+[21:16:27] <anton_dutsov> Phototo: ne se chetesh na cirillyc
+[21:16:30] <fityla> още сме почивка
+[21:16:40] <Phototo> brb
+[21:16:42] <fityla> имате
+[21:16:45] <fityla> търпение
+[21:16:48] <phalaaxx> принудителна почивка поради технически проблем предполагам :)
+[21:16:48] Phototo (~dfdfdfd@94.72.191.0) left irc: Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/
+[21:17:09] <anton_dutsov> *cyrillic
+[21:17:38] <fityla> не
+[21:17:52] Phototo (~dfdfdfd@94.72.191.0) joined #telerikacademy.
+[21:18:08] <Phototo> � ����?
+[21:18:15] <fityla> точно ...
+[21:18:20] <Phototo> �..
+[21:18:20] <anton_dutsov> Phototo: ne
+[21:18:20] <yulimoto> с сега ? пак не се чете Phototo
+[21:18:22] <Phototo> ts..
+[21:18:24] <Phototo> ok
+[21:18:25] <fityla> след малко поочваме
+[21:18:47] <anton_dutsov> Phototo: kakvo izpolzvash za chat?
+[21:18:50] hackman (~hackman@89.190.207.11) joined #telerikacademy.
+[21:18:53] <Phototo> Kvirc
+[21:18:58] morena (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:19:00] <yulimoto> phalaaxx: какъв е тоя hard link при remote primerno или на различни fs ?
+[21:19:00] <hackman> re
+[21:19:11] <fityla> имате
+[21:19:15] <fityla> ли стрийм
+[21:19:21] <anton_dutsov> Phototo: programata ili saita?
+[21:19:28] <phalaaxx> няма
+[21:19:30] <tuxar> засега нямам
+[21:19:36] <fityla> е виж де
+[21:19:37] <vladisr> ofline
+[21:19:39] <Phototo> programata
+[21:19:43] <fityla> трябва да има
+[21:19:44] <Phototo> niama stream
+[21:19:48] <Phototo> brb
+[21:19:52] <phalaaxx> yulimoto: l8r
+[21:19:54] Phototo (~dfdfdfd@94.72.191.0) left irc: Client Quit
+[21:19:55] <pacho10> няма
+[21:20:01] <fityla> пак ?
+[21:20:03] <anton_dutsov> i az nqmam stream
+[21:20:03] <vladisr> ИМА
+[21:20:10] <vladisr> вече
+[21:20:10] <pacho10> трагна
+[21:20:10] <fityla> другите
+[21:20:10] <anton_dutsov> тъкмо тръгна
+[21:20:44] morena_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:20:47] <yulimoto> phalaaxx: k
+[21:20:48] Phototo (~dfdfdfd@94.72.191.0) joined #telerikacademy.
+[21:21:11] morena (59becf0d@gateway/web/freenode/ip.89.190.207.13) left #telerikacademy.
+[21:21:16] <Phototo> оправих го :) utf-8 :)
+[21:22:32] morena (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:23:04] <phalaaxx> можем ли да логваме директно през pipe към програма, примерно "|/usr/bin/tee file1.log file2.log"?
+[21:25:01] morena_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[21:48:01] case181 (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:49:33] <case181> man
+[21:49:51] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:51:31] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[21:59:43] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:59:44] morena (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:59:44] case181 (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:00] <hackman> bye guys
+[22:00:11] <anton_dutsov> лека вечер!
+[22:00:12] <Phototo> лека
+[22:00:12] vladisr (kvirc@78.128.12.6) left #telerikacademy ("Once you know what it is you want to be true, instinct is a very useful device for enabling you to know that it is").
+[22:00:15] <mihail_m> leka
+[22:00:17] <TPB_> лека
+[22:00:24] <tuxar> мерси и приятно изкарване
+[22:00:51] anton_dutsov (~Thunderbi@178.75.229.40) left irc: Quit: anton_dutsov
+[22:00:59] <RosenN> Лека и от мен
+[22:01:09] RosenN (~tt@77.70.125.246) left #telerikacademy.
+[22:01:21] <pacho10> сварши ли
+[22:01:49] mradoychovski (~marko@95-42-200-17.btc-net.bg) left irc: Quit: Leaving
+[22:02:07] TPB_ (55d9aaf2@gateway/web/freenode/ip.85.217.170.242) left irc: Quit: ма той умрял ма
+[22:02:47] pacho10 (4f649f93@gateway/web/freenode/ip.79.100.159.147) left irc: Quit: Page closed
