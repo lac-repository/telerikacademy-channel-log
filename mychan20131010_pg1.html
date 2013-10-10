@@ -322,6 +322,30 @@
 			<div>&nbsp;<span class="time">[16:37:10]</span>&nbsp;<span class="nick">&lt;ss&gt;</span><span class="text">&nbsp; yulimoto, не, не, имах предвид, че не рабрах много добре въпроса на krasin, а не твоя.</span></div>
 			<div>&nbsp;<span class="time">[16:38:20]</span>&nbsp;<span class="else_j">&nbsp;anton_dutsov (~Thunderbi@178.75.229.40) joined #telerikacademy.</span></div>
 			<div>&nbsp;<span class="time">[16:47:07]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ss: :) както и да е дано поне  нашето словоблудство е помогнало на човека :)</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[17:00:42]</span>&nbsp;<span class="else_j">&nbsp;Tiako (1000@39.Red-88-3-191.dynamicIP.rima-tde.net) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[17:04:13]</span>&nbsp;<span class="else_li">&nbsp;Informer (53e4376d@gateway/web/freenode/ip.83.228.55.109) left irc: Quit: Page closed</span></div>
+			<div>&nbsp;<span class="time">[17:12:27]</span>&nbsp;<span class="else_j">&nbsp;dencho (~dencho@95.111.14.183) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[17:12:34]</span>&nbsp;<span class="else_li">&nbsp;anton_dutsov (~Thunderbi@178.75.229.40) left irc: Ping timeout: 248 seconds</span></div>
+			<div>&nbsp;<span class="time">[17:48:40]</span>&nbsp;<span class="nick">&lt;krasin&gt;</span><span class="text">&nbsp; благодаря :) Изпуснах момента на отговорите, но разбрах отговора. И гледам, че е станало време да заминавам за лекция.</span></div>
+			<div>&nbsp;<span class="time">[17:49:05]</span>&nbsp;<span class="nick">&lt;krasin&gt;</span><span class="text">&nbsp; И ако задам уточняващи въпроси, пак ще им изпусна отговорите</span></div>
+			<div>&nbsp;<span class="time">[17:49:39]</span>&nbsp;<span class="nick">&lt;krasin&gt;</span><span class="text">&nbsp; И все пак, с кой си комуникира телнета, като няма сървис на отсрещната страна?</span></div>
+			<div>&nbsp;<span class="time">[17:51:14]</span>&nbsp;<span class="nick">&lt;krasin&gt;</span><span class="text">&nbsp; Въпросът ми е на google.com има ли telnet демон, който отговаря</span></div>
+			<div>&nbsp;<span class="time">[17:51:39]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; krasin, не. С телнет се връзваш на порт 80 на google.com където е уеб сървъра</span></div>
+			<div>&nbsp;<span class="time">[17:52:00]</span>&nbsp;<span class="nick">&lt;krasin&gt;</span><span class="text">&nbsp; и уеб-сървъра се разбира с телнета?</span></div>
+			<div>&nbsp;<span class="time">[17:52:17]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; телнета ти отваря сокет</span></div>
+			<div>&nbsp;<span class="time">[17:53:11]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; http протокола, с който работи уеб сървъра е текстов протокол и ти можеш да си говориш с него през телнет като му подаваш текстови команди</span></div>
+			<div>&nbsp;<span class="time">[17:53:42]</span>&nbsp;<span class="nick">&lt;krasin&gt;</span><span class="text">&nbsp; аха</span></div>
+			<div>&nbsp;<span class="time">[17:54:04]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; например GET / HTTP/1.1</span></div>
+			<div>&nbsp;<span class="time">[17:54:34]</span>&nbsp;<span class="nick">&lt;krasin&gt;</span><span class="text">&nbsp; Аха, пишем това, което би пратило и браузър. А за какво ни е telnet демон?</span></div>
+			<div>&nbsp;<span class="time">[17:55:35]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; да пишеш заявки към сървъра по протокола на който работи, в случая http</span></div>
+			<div>&nbsp;<span class="time">[17:57:23]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; telnet демон ти е телнет сървър</span></div>
+			<div>&nbsp;<span class="time">[17:58:08]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; телнет протокола е текстов протокол и ти предоставя команден интерфейс към отдалечен сървър</span></div>
+			<div>&nbsp;<span class="time">[17:58:15]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; подобно на ssh</span></div>
+			<div>&nbsp;<span class="time">[17:58:43]</span>&nbsp;<span class="nick">&lt;krasin&gt;</span><span class="text">&nbsp; аха. А аз в телнет клиент или сървър пиша, за да подам заявките?</span></div>
+			<div>&nbsp;<span class="time">[17:59:14]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; като напишеш telnet google.com 80 в конзолата си това е телнет клиента</span></div>
+			<div>&nbsp;<span class="time">[17:59:35]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; използваш телнет клиента за да се въжеш към отдалечен хост (google.com в случая) на порт 80</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
