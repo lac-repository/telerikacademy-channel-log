@@ -250,6 +250,53 @@
 			<div>&nbsp;<span class="time">[14:50:24]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; hackman, какво ползваш за защита и бакъп на твоите private keys за ssh? Криптиран файл или файлова система или използваш друг подход?</span></div>
 			<div>&nbsp;<span class="time">[14:56:14]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; KreTeHoug: mersi</span></div>
 			<div>&nbsp;<span class="time">[14:59:59]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; lyubenblagoev, много дълги pass phrases :)</span></div>
+			<div>&nbsp;<span class="time">[15:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[15:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[15:02:20]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; hackman, освен pass phrases използваш ли друг медод за защита и изобщо бакъпваш ли си ключовете?</span></div>
+			<div>&nbsp;<span class="time">[15:02:40]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; интересува ме по-скоро метода за бакъп</span></div>
+			<div>&nbsp;<span class="time">[15:03:03]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; така че да ги имаш в случай че ти се наложи да ги ползваш от друга машина или ако твоята сдаде Богу чип</span></div>
+			<div>&nbsp;<span class="time">[15:04:08]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; аз имам mirror на моята машина на друг лаптоп във вкъщи</span></div>
+			<div>&nbsp;<span class="time">[15:04:08]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; и дали има смисъл да се пазят в криптиран файл / файлова система, когато вече имам дълга pass phrase</span></div>
+			<div>&nbsp;<span class="time">[15:04:14]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; + това имам два диска на лаптопа</span></div>
+			<div>&nbsp;<span class="time">[15:04:25]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; и си правя backup на един от storage-ите във вкъщи</span></div>
+			<div>&nbsp;<span class="time">[15:04:36]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; имам едни 12Т във вкъщи</span></div>
+			<div>&nbsp;<span class="time">[15:12:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; добре де една флашка, pgp на ключовете и като не държите флашката под клавиатурата или на монитора ; няма ли да свърши работа :)</span></div>
+			<div>&nbsp;<span class="time">[15:18:23]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; 12T - това върху какви носители и каква файлова система? :)</span></div>
+			<div>&nbsp;<span class="time">[15:19:35]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; yulimoto, всичко може :) Аз се интересувах какъв е неговия подход в случая :)</span></div>
+			<div>&nbsp;<span class="time">[15:23:22]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp;  ясно best practice :)</span></div>
+			<div>&nbsp;<span class="time">[15:26:12]</span>&nbsp;<span class="nick">&lt;ss&gt;</span><span class="text">&nbsp; hackman, м/у другото, сега се сетих, не знам какво имаше предвид с това, че fail2ban не върши работа... ограничаваш опитите на 1 или маскимум 2-3, слагаш whitelist на няколко IP-та, от които обикновено се логват потребителите и... profit.</span></div>
+			<div>&nbsp;<span class="time">[15:33:37]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ss, zashtoto to vurshi rabota samo za edna mashina</span></div>
+			<div>&nbsp;<span class="time">[15:33:45]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; kogato imash N mashini</span></div>
+			<div>&nbsp;<span class="time">[15:34:08]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; tova e napravo bezmisleno... zashtoto trqbva da imash nachin da vijdash IPs ot vsichkite si mashini</span></div>
+			<div>&nbsp;<span class="time">[15:34:14]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; otvori: <a href="http://demo.1h.com">http://demo.1h.com</a></span></div>
+			<div>&nbsp;<span class="time">[15:34:15]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ 1H Central Portal: Demo ] - demo.1h.com</span></div>
+			<div>&nbsp;<span class="time">[15:34:19]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; i izberi Hawk</span></div>
+			<div>&nbsp;<span class="time">[15:34:56]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; sus fail2ban nqmash informaciq kakvo tochno se sluchva</span></div>
+			<div>&nbsp;<span class="time">[15:41:43]</span>&nbsp;<span class="nick">&lt;ss&gt;</span><span class="text">&nbsp; /var/log/fail2ban.log? Би могла да се автоматизира синхронизацията (на блокираните адреси) м/у машините... при всички положения не твърдя, че fail2ban е перфектното решение.</span></div>
+			<div>&nbsp;<span class="time">[15:46:18]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; hackman е прав</span></div>
+			<div>&nbsp;<span class="time">[15:46:37]</span>&nbsp;<span class="nick">&lt;vhristev&gt;</span><span class="text">&nbsp; и аз ползвам fail2ban но за мн машини ще ти трябва нещо от сорта на пъпетс за масов деплой</span></div>
+			<div>&nbsp;<span class="time">[15:47:12]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ss... и аз да те попитам... ти на всяка твоя машина всеки ден log-ваш ли се и да преглеждаш целият log от предният ден ?</span></div>
+			<div>&nbsp;<span class="time">[15:47:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; то проблем е също и това, че докато fail2ban разбере какво става - може вече да е късно</span></div>
+			<div>&nbsp;<span class="time">[15:47:30]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; това сме го играли... работи за 3-4 макс 5 машини</span></div>
+			<div>&nbsp;<span class="time">[15:47:54]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp;  phalaaxx е то всички такива tools имат този проблем :(</span></div>
+			<div>&nbsp;<span class="time">[15:47:55]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; hackman: syslog на remote машина? :)</span></div>
+			<div>&nbsp;<span class="time">[15:48:12]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; phalaaxx, преглеждането на много редове... си е много много време</span></div>
+			<div>&nbsp;<span class="time">[15:48:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; има и вариант със pipe във syslog за да избегнем (отчасти) този проблем</span></div>
+			<div>&nbsp;<span class="time">[15:48:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; но тогава някой трябва да седне да напише нещо което чете това, което се записва в syslog-e</span></div>
+			<div>&nbsp;<span class="time">[15:48:38]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; трябва да има лесен начин и... той е counters + graphs</span></div>
+			<div>&nbsp;<span class="time">[15:48:43]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; syslog-а да кажа</span></div>
+			<div>&nbsp;<span class="time">[15:48:50]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ако имаш graphs само с един поглед знаеш дали има нужда да гледаш повече</span></div>
+			<div>&nbsp;<span class="time">[15:50:38]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; а кой врътка броячите?</span></div>
+			<div>&nbsp;<span class="time">[15:50:56]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; или това е нещо, което не трябва да знаем (не и от този курс) :D</span></div>
+			<div>&nbsp;<span class="time">[15:55:02]</span>&nbsp;<span class="nick">&lt;ss&gt;</span><span class="text">&nbsp; hackman, риторичен въпрос е това. Не. :)</span></div>
+			<div>&nbsp;<span class="time">[15:58:50]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; phalaaxx, <a href="https://github.com/hackman/Hawk">https://github.com/hackman/Hawk</a>-IDS-IPS</span></div>
+			<div>&nbsp;<span class="time">[15:58:52]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ hackman/Hawk-IDS-IPS · GitHub ] - github.com</span></div>
+			<div>&nbsp;<span class="time">[15:58:58]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; opensource bate :)</span></div>
+			<div>&nbsp;<span class="time">[15:59:30]</span>&nbsp;<span class="nick">&lt;ss&gt;</span><span class="text">&nbsp; hackman, би ли дал малко повече информация относно <a href="http://training.iseca.org/?">http://training.iseca.org/?</a></span></div>
+			<div>&nbsp;<span class="time">[15:59:32]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ Учебен център на ISECA ] - training.iseca.org</span></div>
+			<div>&nbsp;<span class="time">[15:59:37]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аа добрее, ще го разгледам (само да не ме домързи)</span></div>
+			<div>&nbsp;<span class="time">[15:59:39]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; мерси :)</span></div>
+			<div>&nbsp;<span class="time">[15:59:59]</span>&nbsp;<span class="nick">&lt;lyubenblagoev&gt;</span><span class="text">&nbsp; hackman, и ние използваме ExtJS за интерфейсите на нашите аппс :)</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
