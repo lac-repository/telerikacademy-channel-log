@@ -214,3 +214,21 @@
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
 [14:04:30] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[14:09:24] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[14:25:46] <KpeTeHoug> Fairytale fityla или нещо подобно беше вчера на живо там
+[14:33:42] phalaaxx (~bozhin@94.26.20.166) left irc: Read error: Connection reset by peer
+[14:34:50] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[14:35:15] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:50:24] <lyubenblagoev> hackman, какво ползваш за защита и бакъп на твоите private keys за ssh? Криптиран файл или файлова система или използваш друг подход?
+[14:56:14] <Fairytale> KreTeHoug: mersi
+[14:59:59] <hackman> lyubenblagoev, много дълги pass phrases :)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:02:20] <lyubenblagoev> hackman, освен pass phrases използваш ли друг медод за защита и изобщо бакъпваш ли си ключовете?
+[15:02:40] <lyubenblagoev> интересува ме по-скоро метода за бакъп
+[15:03:03] <lyubenblagoev> така че да ги имаш в случай че ти се наложи да ги ползваш от друга машина или ако твоята сдаде Богу чип
+[15:04:08] <hackman> аз имам mirror на моята машина на друг лаптоп във вкъщи
+[15:04:08] <lyubenblagoev> и дали има смисъл да се пазят в криптиран файл / файлова система, когато вече имам дълга pass phrase
+[15:04:14] <hackman> + това имам два диска на лаптопа
+[15:04:25] <hackman> и си правя backup на един от storage-ите във вкъщи
+[15:04:36] <hackman> имам едни 12Т във вкъщи
