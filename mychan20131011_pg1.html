@@ -165,6 +165,33 @@
 			<div>&nbsp;<span class="time">[11:35:12]</span>&nbsp;<span class="nick">&lt;KrasiGa&gt;</span><span class="text">&nbsp; и обяснява разлика м/у хакер, кракер и &quot;кидиоти&quot; :)</span></div>
 			<div>&nbsp;<span class="time">[11:51:04]</span>&nbsp;<span class="else_j">&nbsp;phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.</span></div>
 			<div>&nbsp;<span class="time">[11:55:11]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; и на twitch ги има видеата бе :)</span></div>
+			<div>&nbsp;<span class="time">[12:00:01]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[12:00:01]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[12:14:48]</span>&nbsp;<span class="else_li">&nbsp;ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 264 seconds</span></div>
+			<div>&nbsp;<span class="time">[12:16:54]</span>&nbsp;<span class="else_j">&nbsp;ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[12:16:58]</span>&nbsp;<span class="else_n">&nbsp;Nick change: ndyakov|away -&gt; ndyakov</span></div>
+			<div>&nbsp;<span class="time">[12:39:45]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; hackman: вчера на лекцията каза че при event модела има loop който чака events на съответния дескриптор (примерно в случая порт 80) и ако има някакъв event - тогава се събужда някой child</span></div>
+			<div>&nbsp;<span class="time">[12:40:00]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; при apache2-mpm-event пак ли има child процеси?</span></div>
+			<div>&nbsp;<span class="time">[12:40:23]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; не, threads са</span></div>
+			<div>&nbsp;<span class="time">[12:40:26]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз доколкото знам идеята на event сървърите е по-различна и там нормално няма child процеси</span></div>
+			<div>&nbsp;<span class="time">[12:40:33]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; event e надграждане на worker</span></div>
+			<div>&nbsp;<span class="time">[12:41:00]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да, единствения смислен начин да се избегне ограничението на lighthttpd</span></div>
+			<div>&nbsp;<span class="time">[12:41:55]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; но те в такъв случай така или иначе threads пак въртят цикли, т.е. този модел не е по-лек от гледна точка на празни cpu цикли спрямо останалите</span></div>
+			<div>&nbsp;<span class="time">[12:42:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не че е проблем де, те тия цикли може и на ръка да се въртят :)</span></div>
+			<div>&nbsp;<span class="time">[12:47:40]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; <a href="http://www.youtube.com/watch?v=1UU4KIhcIJw">http://www.youtube.com/watch?v=1UU4KIhcIJw</a> :D</span></div>
+			<div>&nbsp;<span class="time">[12:47:40]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [YouTube] Title: Кметът на Ямбол ИЗКЪРТИ МАТРИЦАТА | Uploader: nzn4act | Uploaded: 10/10/2013, 17:23 | Duration: 1mins 54secs | Views: 4,437 | Comments: 19 | Likes: 110 | Dislikes: 4</span></div>
+			<div>&nbsp;<span class="time">[12:51:20]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; уникалнооооооооо</span></div>
+			<div>&nbsp;<span class="time">[12:51:33]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; това е по-силно от песента за Ямбол</span></div>
+			<div>&nbsp;<span class="time">[12:51:41]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; phalaaxx, не си прав</span></div>
+			<div>&nbsp;<span class="time">[12:52:02]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; циклите които са върху event fd са много по-ефтини от тези върху tcp socket fd</span></div>
+			<div>&nbsp;<span class="time">[12:52:27]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; причината, че при tcp socket fd, когато попиташ kernel-а дали има информация на socket-а той трябва да направи още приблизително 50 операции</span></div>
+			<div>&nbsp;<span class="time">[12:52:46]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; когато го питаш дали има events на event fd, той трябва да провери само една bitmask-а</span></div>
+			<div>&nbsp;<span class="time">[12:52:52]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; което става с 2-3 операции :)</span></div>
+			<div>&nbsp;<span class="time">[12:53:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; говорим за кои точно syscalls?</span></div>
+			<div>&nbsp;<span class="time">[12:53:47]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; select/poll?</span></div>
+			<div>&nbsp;<span class="time">[12:54:09]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; тези не се ли използват във всички модели горе долу?</span></div>
+			<div>&nbsp;<span class="time">[12:54:29]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; реално ако имаш blocking read не питаш в цикъл дали има дошли данни</span></div>
+			<div>&nbsp;<span class="time">[12:56:32]</span>&nbsp;<span class="else_j">&nbsp;Fairytale (1000@police.executie.org) joined #telerikacademy.</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />

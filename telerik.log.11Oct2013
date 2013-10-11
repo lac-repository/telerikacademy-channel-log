@@ -139,3 +139,30 @@
 [11:55:11] <hackman> и на twitch ги има видеата бе :)
 [12:00:01] Writing user file...
 [12:00:01] Writing channel file...
+[12:14:48] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 264 seconds
+[12:16:54] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[12:16:58] Nick change: ndyakov|away -> ndyakov
+[12:39:45] <phalaaxx> hackman: вчера на лекцията каза че при event модела има loop който чака events на съответния дескриптор (примерно в случая порт 80) и ако има някакъв event - тогава се събужда някой child
+[12:40:00] <phalaaxx> при apache2-mpm-event пак ли има child процеси?
+[12:40:23] <hackman> не, threads са
+[12:40:26] <phalaaxx> аз доколкото знам идеята на event сървърите е по-различна и там нормално няма child процеси
+[12:40:33] <hackman> event e надграждане на worker
+[12:41:00] <phalaaxx> да, единствения смислен начин да се избегне ограничението на lighthttpd
+[12:41:55] <phalaaxx> но те в такъв случай така или иначе threads пак въртят цикли, т.е. този модел не е по-лек от гледна точка на празни cpu цикли спрямо останалите
+[12:42:13] <phalaaxx> не че е проблем де, те тия цикли може и на ръка да се въртят :)
+[12:47:40] <phalaaxx> http://www.youtube.com/watch?v=1UU4KIhcIJw :D
+[12:47:40] <wilindex> [YouTube] Title: Кметът на Ямбол ИЗКЪРТИ МАТРИЦАТА | Uploader: nzn4act | Uploaded: 10/10/2013, 17:23 | Duration: 1mins 54secs | Views: 4,437 | Comments: 19 | Likes: 110 | Dislikes: 4
+[12:51:20] <Deyan> уникалнооооооооо
+[12:51:33] <Deyan> това е по-силно от песента за Ямбол
+[12:51:41] <hackman> phalaaxx, не си прав
+[12:52:02] <hackman> циклите които са върху event fd са много по-ефтини от тези върху tcp socket fd
+[12:52:27] <hackman> причината, че при tcp socket fd, когато попиташ kernel-а дали има информация на socket-а той трябва да направи още приблизително 50 операции
+[12:52:46] <hackman> когато го питаш дали има events на event fd, той трябва да провери само една bitmask-а
+[12:52:52] <hackman> което става с 2-3 операции :)
+[12:53:31] <phalaaxx> говорим за кои точно syscalls?
+[12:53:47] <phalaaxx> select/poll?
+[12:54:09] <phalaaxx> тези не се ли използват във всички модели горе долу?
+[12:54:29] <phalaaxx> реално ако имаш blocking read не питаш в цикъл дали има дошли данни
+[12:56:32] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
