@@ -166,3 +166,44 @@
 [12:56:32] Fairytale (1000@police.executie.org) joined #telerikacademy.
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:17:39] <hackman> select/poll имат разлика в зависимост от типа fd
+[13:17:56] <hackman> и разликата не е толкова в userspace, колкото нещата които се случват в kernel-a
+[13:19:31] net: connect! sock 3
+[13:19:31] DNS resolve failed for 127.0.0.1
+[13:19:31] Telnet connection: 127.0.0.1/34278
+[13:19:31] net: connect! sock 10
+[13:19:31] net: eof!(read) socket 10
+[13:19:31] Timeout/EOF ident connection
+[13:19:35] Logged in: KpeTeHoug (telnet@127.0.0.1/34278)
+[13:19:44] tcl: builtin dcc call: *dcc:help KpeTeHoug 8 all
+[13:22:06] tcl: builtin dcc call: *dcc:convertalllogs KpeTeHoug 8 
+[13:22:28] tcl: builtin dcc call: *dcc:makeindexpage KpeTeHoug 8 
+[13:22:35] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 8 
+[13:22:38] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[13:22:38] Writing user file...
+[13:22:38] Writing channel file...
+[13:22:38] Rehashing ...
+[13:22:38] Writing channel file...
+[13:22:38] Listening at telnet port 3333 (all).
+[13:22:38]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:22:38] UDEF: chanstats defined
+[13:22:38] 14<chanstats> version 1.3.0 by arfer loaded
+[13:22:38] UDEF: seend defined
+[13:22:38] Seend 1.8.3 loaded!
+[13:22:38] UDEF: greetings defined
+[13:22:38] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[13:22:38] MsG (1.0) By GT and yulimoto LOADED.....
+[13:22:38] Loading dccwhois.tcl...
+[13:22:38] Loaded dccwhois.tcl
+[13:22:38] Writing channel file...
+[13:22:38] Userfile loaded, unpacking...
+[13:26:42] ss (~ss@gateway/tor-sasl/ss) left #telerikacademy.
+[13:37:59] tcl: builtin dcc call: *dcc:convertlogs KpeTeHoug 8 
+[13:38:15] tcl: builtin dcc call: *dcc:convertalllogs KpeTeHoug 8 
+[13:42:07] <KpeTeHoug> тоя кмет верно изкърти
+[13:42:08] <KpeTeHoug> !
+[13:45:24] <phalaaxx> то ясно че имат разлики, иначе нямаше да има различни начини да постигнем приблизително същия ефект :)
+[13:46:07] <phalaaxx> мисълта ми беше че разликата между forks/threads и events е предимно в това, че при events заявките от много клиенти се обработват последователно в един процес (и една нишка)
+[13:46:23] <phalaaxx> не толкова в това доколко добре използват syscalls
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
