@@ -212,3 +212,29 @@
 [21:35:57] dyrgel (~chatzilla@79-100-24-30.btc-net.bg) joined #telerikacademy.
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:09:20] dyrgel (~chatzilla@79-100-24-30.btc-net.bg) left irc: Remote host closed the connection
+[22:15:12] <yulimoto> правя разни неща в cli (създавам папки и подреждам едни скриптове) и изведнъж при смяната на пермишън на файл при натискане на таба ...
+[22:15:16] <yulimoto> cannot create temp file for here-document
+[22:15:43] <yulimoto> и това нещо така си остана, търсих решение и не намерих
+[22:16:45] <yulimoto> т.е. бях през ssh като затворих и кънектнах пак, имаше аутокъмплишън с таба и нямаше проблем
+[22:17:30] <yulimoto> сега ми дойде на ум, че може нещо с харддиска
+[22:22:15] Nick change: ndyakov -> ndyakov|away
+[22:25:33] yulimoto (~yulimoto@78.108.248.204) left irc: Quit: leaving
+[22:26:01] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[22:27:46] yulimoto (~yulimoto@78.108.248.204) left irc: Client Quit
+[22:28:02] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[22:30:39] yulimoto (~yulimoto@78.108.248.204) left irc: Client Quit
+[22:30:57] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[22:31:07] yulimoto (~yulimoto@78.108.248.204) left irc: Client Quit
+[22:34:36] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[22:34:54] yulimoto (~yulimoto@78.108.248.204) left irc: Client Quit
+[22:39:27] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 245 seconds
+[22:40:27] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[22:45:29] Action: dencho slaps yulimoto around a bit with a large trout
+[22:51:59] Fairytale (~svetlyo@police.executie.org) left irc: Quit: Leaving
+[22:59:55] <yulimoto> само са бииш, цял курс ако си преброиш шамарите са повече от моите линии
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:01:07] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[23:04:05] yulimoto (~yulimoto@78.108.248.204) left irc: Quit: leaving
+[23:04:30] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
