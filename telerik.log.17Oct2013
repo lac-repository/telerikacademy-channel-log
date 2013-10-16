@@ -1,2 +1,28 @@
 [00:00:00] Writing user file...
 [00:00:00] Writing channel file...
+[00:13:50] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Quit: Leaving
+[00:15:17] <yulimoto> Хм оправих nodejs-то, библиотеки и т.н.  и съм пуснал страничка на висок порт
+[00:16:15] <yulimoto> но искам вместо домейн.ком:1444 примерно да я хостна на 80 където се намира апа4ито
+[00:17:24] <yulimoto> има ли някакъв вариант да направя апачито да пренасочва, когато заявката е за домейн.ком към страничката на nodejs-to
+[00:18:01] <yulimoto> имаше нещо Proxy module накакъв, ама не съм запознат мамка му
+[00:18:09] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[00:23:11] KacanuH (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[00:25:39] <hackman> yulimoto, reverse proxy се прави
+[00:26:40] <hackman> yulimoto,
+[00:26:41] <hackman> <VirtualHost *>
+[00:26:41] <hackman>   ServerName me.com
+[00:26:41] <hackman>   ServerAlias www.me.com
+[00:26:41] <hackman>   ServerAdmin webmaster@me.com
+[00:26:41] <hackman>   <IfModule mod_proxy.c>
+[00:26:43] <hackman>   ProxyPass / http://localhost:8080
+[00:26:45] <hackman>   ProxyPassReverse / http://localhost:8080
+[00:26:47] <hackman>   </IfModule>
+[00:26:49] <hackman> </VirtualHost>
+[00:26:51] <hackman> te tova e :)
+[00:27:14] <yulimoto> ха мерсаж :)
+[00:35:29] <yulimoto> между другото if [ $? -eq 0 ]; then; make; fi; ми свърши чудесна работа, помогна на нощните набези в/у хладилника ;)
+[00:40:18] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:55:30] Guest59978 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:04:48] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
