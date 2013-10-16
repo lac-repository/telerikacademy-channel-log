@@ -250,3 +250,66 @@
 [10:56:24] <dencho> :D
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:07:58] <yulimoto> dencho: ти voip-то с какво ще го слушаш, след като вземеш пакетите ве ?
+[11:08:59] <dencho> wireshark we
+[11:09:16] <dencho> direktno slusham we
+[11:09:26] <dencho> davam mu pley i slu6am
+[11:09:36] <yulimoto> аве wireshark ще ти снифи пакетите, да няма да четеш кода от матрицата директно ве НЕО ?
+[11:09:47] <KpeTeHoug> той dencho чете директно 0 и 1
+[11:09:51] <KpeTeHoug> няма се закачаш с него
+[11:09:52] <KpeTeHoug> ей
+[11:09:57] <dencho> i 4eta i pi6a daje 0 i 1
+[11:09:57] <dencho> :D
+[11:09:59] <yulimoto> ясно
+[11:10:39] <dencho> v4era stana na vupros za wireshark i voip i kazaha 4e moje da se 4uva :D 6te go testvam sus skype, ama to nali kazvat 4e imat kriptirovki nekvi
+[11:10:53] <yulimoto> KrasiGa: В броузера ли имаш настройки на прокси ? Това прокси от софийския ви офис ли е ? Това прокси с парола ли е ? Значи имаш парола някъде на твоя компютър така ли ?
+[11:11:18] <yulimoto> скайпа нема, ако става въпрос за чат
+[11:11:25] <yulimoto> за глас мисля че има
+[11:11:32] <yulimoto> кой ти каза тия неща ве ?
+[11:11:44] <yulimoto> къде ходиш да ги слушаш
+[11:12:03] <KrasiGa> yulimoto: в браузара е, но нямам никъде /или поне не знам да имам/ парола. Аз съм си го инсталирала и конфналал компа
+[11:12:05] <dencho> cisco uprajneniq vuv fmi
+[11:12:18] <KrasiGa> знам само ип-то и на кой порт е
+[11:12:30] <yulimoto> и на кой порт е ?
+[11:12:38] <KrasiGa> 8080, нали ти казах
+[11:12:44] <yulimoto> не че ще ми помогне
+[11:12:44] <yulimoto> а да
+[11:15:29] <yulimoto> KrasiGa: щом няма парола проксито, мисля можеш да пробваш нещо. Отиди във Vidalia->Настройки на предаването->Мрежа там трябва да има нещо по твоя въпрос
+[11:15:44] <yulimoto> т.е. нещо от рода "Ползвам прокси за интернет"
+[11:17:02] <yulimoto> може би хттп/хттпс като тип на проксито с порт 8080
+[11:17:42] <yulimoto> dencho: биват ли тия упражнения ?
+[11:19:43] <dencho> yulimoto mi za mene bivat :) az ne sam vijdal cisco prez jivota si
+[11:28:12] <KrasiGa> е много ясно, че избирам типа на проксито
+[11:28:23] <KrasiGa> абе зарежи го
+[11:30:46] <KrasiGa> Някой има ли представа как Office 2013 мога да го направя от БГ на En? Лицензиран е,и в пакета дето е инсталиран няма английски. Дали мога да си дръпна от някъде
+[11:31:13] <KrasiGa> Колегите от Сф казаха, че не може ама аз не им вярвам много
+[11:32:05] <KpeTeHoug> а не искаш ли англисйки пакет ? да си напишеш само оригиналният код
+[11:34:22] <KrasiGa> нямам код :( Този път не ни дадоха а с отдалечен достъп го инсталираха на 2 компютъра /от 100/
+[11:34:57] <KrasiGa> а държат да се работи с офис-а. А сме качили Libra на всички, но някои софтуери не рабптят с нея
+[11:35:00] <KrasiGa> абе немам думи
+[11:35:30] <KrasiGa> да не ви казвам, че повечете са с офис 2000 на PC-ta със win7
+[11:36:04] <KpeTeHoug> е и при нас е така :)
+[11:36:14] <KpeTeHoug> ако искаш имам много готин " излекуван" пакет на 2003
+[11:36:23] <KpeTeHoug> :)
+[11:36:39] <KrasiGa> aaa ne, ina4e imam 2007
+[11:37:17] <KrasiGa> но свиквам с 2013, но за съжаление половината от hot keys не работят заради този БГ
+[11:38:12] <KpeTeHoug> http://www.microsoft.com/en-us/download/details.aspx?id=1281
+[11:38:16] <KpeTeHoug> wild guess
+[11:38:18] <wilindex> [ Download Office 2003 Add-in: Desktop Language Settings from Official Microsoft Download Center ] - www.microsoft.com
+[11:39:41] <dencho> kvo kvo.. piratski soft li se razdava tuka
+[11:39:41] <dencho> :D
+[11:40:06] <KpeTeHoug> хахах
+[11:41:06] anton_dutsov (~Thunderbi@178.75.229.40) joined #telerikacademy.
+[11:41:10] <KpeTeHoug> аз само казах излекуван
+[11:41:13] <KpeTeHoug> не пиратски
+[11:41:13] <KpeTeHoug> :)
+[11:42:13] <anton_dutsov> Добър ден на всички.
+[11:42:16] <KpeTeHoug> добър да е
+[11:43:43] <anton_dutsov> KpeTeHoug: има ли инфо около изпита освен казаното на миналата лекция?
+[11:44:38] <KpeTeHoug> не доколкото ми е известно
+[11:44:59] <KrasiGa> за какво толкова се тормозите с този изпит
+[11:45:02] <KrasiGa> за сертификати ли се борите?
+[11:45:07] <anton_dutsov> на 24-ти ли остава последната лекция т.е. "Подготовка за изпита"?
+[11:46:03] <anton_dutsov> KrasiGa: Аз лично се боря за сертификат.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
