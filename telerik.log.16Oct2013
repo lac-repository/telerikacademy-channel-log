@@ -190,3 +190,63 @@
 [10:01:32] <yulimoto> https://bridges.torproject.org
 [10:01:33] <wilindex> [ web.Server Traceback (most recent call last) ] - bridges.torproject.org
 [10:03:38] <yulimoto> KrasiGa: 8080 върши ли ти работа. не го направих на 443 защото за портове под 1024 иска руут и трбява да си оправям пермишъните на акаунта
+[10:08:00] <KrasiGa> момент, не бях тук
+[10:08:11] <KrasiGa> закусвам
+[10:10:09] <yulimoto> значи има възможност аз да стана прокси за теб и от там да прекарам връзката към тор
+[10:10:42] <KrasiGa> аз да имам нет задължително трябвца да изляза през нашето прокси
+[10:11:12] Nick change: phalaaxx_ -> phalaaxx
+[10:13:13] <KrasiGa> dencho:  kakvo stana s rabotata
+[10:13:15] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 245 seconds
+[10:13:19] <KrasiGa> 6te po4va6 li nqkade
+[10:13:33] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[10:14:41] <Deyan> http://www.jobs.bg/f1972134
+[10:14:42] <wilindex> [ jobs.bg - Предложения за работа от водещи компании в България - Продавач консултант ] - www.jobs.bg
+[10:15:14] <dencho> extra
+[10:15:15] <dencho> :D
+[10:15:21] <dencho> tva za kade?
+[10:15:21] <dencho> :D
+[10:15:46] <dencho> Кърджали
+[10:15:53] <yulimoto> KrasiGa: https://www.torproject.org/docs/bridges
+[10:15:54] <wilindex> [ Tor Project: Bridges ] - www.torproject.org
+[10:16:47] <yulimoto> dencho: ей тва е описание
+[10:16:57] <yulimoto> компютърна грамотност
+[10:17:41] <yulimoto> аре ходя че пак се олях в спам-приказки :)
+[10:17:52] <Deyan> yulimoto: компютарна  искаш да кажеш
+[10:18:19] <Deyan> това е по-скоро "компютарна" неграмотност
+[10:19:13] <KrasiGa>  If your Internet connection requires the use of a proxy, you'll probably need to configure Vidalia to do so first. If
+[10:19:49] <KrasiGa> при мен е точно този случай, но ме спира при автентикацията за проксито така, че ще "духам супата"
+[10:25:23] <KpeTeHoug> KrasiGa аз май те бях питал, но не можеш ли да си иснталираш hamachi ?
+[10:25:28] <KpeTeHoug> и да ползваш през него интернет ?
+[10:25:32] <KpeTeHoug> и добро ви утро
+[10:25:35] <KpeTeHoug> или май ден вече
+[10:26:03] <KrasiGa> Dobro i na teb KpeTeHoug
+[10:26:06] <KrasiGa> ne sme govorili za hamachi
+[10:27:00] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[10:28:24] <KpeTeHoug> ми говорих с някого тук
+[10:28:27] <KpeTeHoug> може и да се бъркам
+[10:28:28] <KpeTeHoug> :)
+[10:29:21] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[10:30:06] <dencho> f
+[10:30:16] <dencho> za6to me dropqsa sq
+[10:30:27] <KpeTeHoug> ми губиш пакети сигурно :0
+[10:30:33] <KpeTeHoug> (Ping timeout: 265 seconds)
+[10:31:14] <dencho> mi su6ih si kosata na su6tiq razklonitel kudeto e switcha
+[10:31:15] <dencho> :D
+[10:31:24] <dencho> ebaaa go :D
+[10:31:37] <KpeTeHoug> ми, смущение и леко прескачане в напрежението
+[10:31:43] <KpeTeHoug> и хоп - няма пакети ;)
+[10:34:19] <dencho> qsno,
+[10:34:29] <dencho> 6te trqbva da go otdelqm na otdelno
+[10:34:30] <dencho> :D
+[10:34:52] <dencho> e sq kat kupuam na tu6tata razklonitel ot Deyan, 6a si zema i za mene
+[10:34:52] <dencho> D:
+[10:36:47] <KpeTeHoug> хахах
+[10:36:51] <KpeTeHoug> вземи си хубав
+[10:37:04] <KpeTeHoug> да има застраховка за 500 евро, за ел. уредите закачени на него
+[10:37:14] <KpeTeHoug> и после изпуши някой стара бракма, да ти купят нов комп ;)
+[10:54:31] <dencho> e to ima li takiva :D
+[10:55:22] <KpeTeHoug> ем незнам, нали сте гъсти с Deyan, може напрайте една далавера :)
+[10:56:24] <dencho> Deyaneeeeeeeei dai da praim dalavera we
+[10:56:24] <dencho> :D
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
