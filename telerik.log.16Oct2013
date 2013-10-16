@@ -440,3 +440,15 @@
 [17:03:25] Nick change: Svetlyo -> Fairytale
 [17:04:03] <Fairytale> Ееей успях.
 [17:04:46] <Fairytale> Явно ника се блокира за някакво време.
+[17:24:54] <yulimoto> има ли някакви демони, които да следят дали ти е крашнал определен сървър ? Примерно при node.js мога да си сложа един пакет forever който следи да не ми крашне сървъра и ако това се случи рестартита.
+[17:25:44] <yulimoto> Това върши ли работа http://supervisord.org/ .  Мога ли да му имам доверие ? Някой ползва ли такива работи :)
+[17:25:45] <wilindex> [ Supervisor: A Process Control System — supervisor 3.1a1-dev documentation ] - supervisord.org
+[17:26:28] <yulimoto> Едно кратичко ревю на опита Ви и съвети по темата са ми достатъчни :)
+[17:36:01] <vhristev> Може да разгледаш "watchdog"
+[17:58:10] <phalaaxx> yulimoto: daemontools
+[17:58:37] <phalaaxx> впрочем... upstart също върши работа
+[17:59:05] <phalaaxx> както и shell script
+[17:59:18] <phalaaxx> runit
+[17:59:22] <phalaaxx> абе варианти много :D
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
