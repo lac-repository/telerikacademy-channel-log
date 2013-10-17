@@ -278,3 +278,61 @@
 [18:00:00] Writing user file...
 [18:00:00] Writing channel file...
 [18:03:22] <yulimoto> phalaaxx_: CCFLAGS в configure ли е опция, щото аз там търся пък го няма ?
+[18:18:54] Guest96371 (~hackman@213.226.63.61) joined #telerikacademy.
+[18:20:57] Nick change: Guest96371 -> azilian
+[18:21:16] Nick change: azilian -> hackman
+[18:21:25] <yulimoto> обявавам компилирането на код в screen за откритието на деня :)
+[18:21:27] <hackman> днес, май сме камерен състав :)
+[18:21:38] <yulimoto> е той е 18:30
+[18:21:41] <hackman> yulimoto, а screen -L видя ли ?
+[18:21:50] <yulimoto> за лог ли
+[18:21:51] <yulimoto> :)
+[18:21:52] <yulimoto> да
+[18:21:54] <hackman> :)
+[18:22:45] <yulimoto> за arm ме кара да слагам някакви CCFLAGS  и имаше няколко проби, та открих screen-a покрай тая работа
+[18:23:24] <yulimoto> изчезвам за да сколасам до лекцията
+[18:32:22] anton_sh (5ebeb3b9@gateway/web/freenode/ip.94.190.179.185) joined #telerikacademy.
+[18:35:19] anton_dutsov (~Thunderbi@178.75.233.220) joined #telerikacademy.
+[18:37:59] Nick change: ndyakov -> ndyakov|away
+[18:38:00] Guest59978 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:38:29] vladisr (vladisr@78.128.12.6) joined #telerikacademy.
+[18:38:59] mradoychovski (~marko@79.100.17.0) joined #telerikacademy.
+[18:40:37] pinkiePie (~pinkiePie@78.90.46.96) joined #telerikacademy.
+[18:44:15] krasin (51a1fa94@gateway/web/freenode/ip.81.161.250.148) joined #telerikacademy.
+[18:44:37] vladisr (vladisr@78.128.12.6) left irc: Quit: quit
+[18:44:47] vladisr (vladisr@78.128.12.6) joined #telerikacademy.
+[18:45:14] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[18:45:39] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:45:42] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[18:50:24] <lyubenblagoev> hackman, на openfest няма ли да говориш за нещо?
+[18:52:51] mradoychovski (~marko@79.100.17.0) left irc: Quit: Leaving
+[18:53:03] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:53:12] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:53:21] <fityla> hackman системата не работи за отчине..
+[18:53:25] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) joined #telerikacademy.
+[18:54:14] hackman_ (~hackman@89.190.207.11) joined #telerikacademy.
+[18:54:30] Dewily (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:54:32] <hackman_> lyubenblagoev, не... достатъчно ми е че го правя :)
+[18:54:38] <hackman_> пък има доста добри лекции
+[18:54:44] <hackman_> тази година отказахме над 20 лекции
+[18:54:55] Nick change: hackman_ -> azilian
+[18:55:14] Nick change: hackman -> Guest66874
+[18:55:24] <lyubenblagoev> да, разгледах програмата
+[18:55:43] Guest66874 (~hackman@213.226.63.61) left irc: Ping timeout: 272 seconds
+[18:55:55] azilian (~hackman@89.190.207.11) left irc: Client Quit
+[18:56:09] azilian (~hackman@89.190.207.11) joined #telerikacademy.
+[18:56:38] Nick change: azilian -> hackman
+[18:56:47] <fityla> hackman не работи системата
+[18:56:50] <dencho> почваме ли?
+[18:57:01] <fityla> за посещенията
+[18:57:40] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[18:57:45] <anton_sh> Кога ще почва stream-a
+[18:58:05] <krasin> ей, дано не се прецака стрийма, че няма да мога да присъствам
+[18:58:06] <fityla> тича по жицата
+[18:58:21] <dencho> оп
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:00] Fairytale (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:00:21] deyan_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:03:34] darin (b2fef586@gateway/web/freenode/ip.178.254.245.134) joined #telerikacademy.
+[19:03:49] <sig_> прекъсва ли?
