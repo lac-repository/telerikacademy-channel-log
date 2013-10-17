@@ -152,3 +152,60 @@
 [12:54:12] <yulimoto> Сега като седнах и помислих не е невъзможно да имат имейлите
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:07:34] <Deyan> Както се казва няма невъзможни неща
+[13:20:26] Nick change: ndyakov -> ndyakov|away
+[13:21:14] Nick change: ndyakov|away -> ndyakov
+[13:25:35] <KpeTeHoug> Deyan от опит да ти кажа, всичко командно да го пишеш в статус-а :)
+[13:25:42] <KpeTeHoug> там първият джам :)
+[13:26:22] <dencho> ne ne predi tva go pi6e6 na KpeTeHoug :D
+[13:26:28] <dencho> i posle go pi6e6 v status-a
+[13:26:29] <dencho> :D
+[13:28:00] <KpeTeHoug> хехех
+[13:28:01] <KpeTeHoug> не мерси
+[13:28:19] <KpeTeHoug> нямам аз въжделения към неговият ник
+[13:28:22] <KpeTeHoug> аз си имам мои :)
+[13:28:28] Nick change: KpeTeHoug -> KpuBaHuBa
+[13:29:00] <KpuBaHuBa> ей тъй на, примерно :)
+[13:30:02] <KrasiGa> с коя команда сменяте ника?
+[13:31:38] <KpuBaHuBa> /nick .........
+[13:32:37] <KrasiGa> ееее къде е този ник?
+[13:34:06] Nick change: KrasiGa -> Agripina
+[13:38:42] <KpuBaHuBa> a никове на тая мрежа има много :)
+[13:38:47] <KpuBaHuBa> не е нужно да ги виждаш
+[13:39:11] <KpuBaHuBa> пишеш /whois nickname
+[13:39:19] <KpuBaHuBa> И ще видиш къде е :)
+[13:40:31] <KpuBaHuBa> http://www.ircbeginner.com/ircinfo/ircc-commands.html
+[13:40:41] Nick change: KpuBaHuBa -> KpeTeHoug
+[13:40:52] <KpeTeHoug> wilindex нещо си лагнал
+[13:40:54] <KpeTeHoug> :)щ
+[13:46:12] <dencho> li4i si koi e bil power irc user
+[13:46:12] <dencho> :D
+[13:46:54] <KpeTeHoug> ке ?
+[13:46:56] <KpeTeHoug> мнем
+[13:47:08] <KpeTeHoug> първите команди за рег на канал и тн.
+[13:47:12] <KpeTeHoug> си ги пишех на лисче
+[13:47:17] <KpeTeHoug> 98 година ;)
+[13:47:20] <dencho> haha
+[13:47:22] <KpeTeHoug> *листче
+[13:47:23] <dencho> golemiq sneg
+[13:47:29] <dencho> togava na win 98 li si bil :D
+[13:47:58] <dencho> az 98-ma godina vidqh pc za purvi put :D ina4e samo po televiziata
+[13:48:09] <dencho> abf gluposti govorq... edna godina po rano vidqh pravec 16!
+[13:48:17] <dencho> mnogo qko! :D
+[13:51:06] <KpeTeHoug> 98 бяхме на 98 да
+[13:51:11] <KpeTeHoug> че даже и повечето на 95
+[13:51:19] <dencho> hahah http://www.youtube.com/watch?v=0aN1NWmiUJk :D
+[13:51:19] <wilindex> [YouTube] Title: AkademikTodoroff | Uploader: Kitodar Todorov | Uploaded: 14/10/2013, 21:34 | Duration: 10mins 14secs | Views: 1,198 | Comments: 9 | Likes: 73 | Dislikes: 0
+[13:52:07] <vhristev> yulimoto
+[13:52:44] <vhristev> SPF-a
+[13:53:10] <vhristev> се слага ,за да се знае на кой мейл сървър му е разрешено да праща мейли от този домейн
+[13:53:31] <vhristev> тва е да спреш спамерите да пращат мейли от твоя домейн
+[13:53:52] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 268 seconds
+[13:54:18] <vhristev> Домейн ключовете са още по якото нещо
+[13:54:51] <vhristev> да кажем ,че всеки изходящ мейл се подписва от сървъра валидира се от ДНС-а и се праща
+[13:54:58] <vhristev> така човека който го получава е сигурен ,че не е спам
+[13:56:31] <vhristev> Реални Domain Keys ( DKIM ) е един левъл нагоре от SPF като прави подщи същото само
+[13:58:56] <vhristev> погледни opendkim
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:02:04] Nick change: ndyakov -> ndyakov|away
