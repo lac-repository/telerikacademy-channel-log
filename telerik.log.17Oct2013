@@ -272,3 +272,9 @@
 [17:00:00] Writing channel file...
 [17:00:11] <vhristev> ммм да може да си е въртиш накъдето поискаш
 [17:00:36] <vhristev> конфигваш си е компилваш си е и е пускаш продукшън да клати
+[17:09:03] Nick change: ndyakov|away -> ndyakov
+[17:26:26] vhristev (~vhristev@212.36.1.26) left irc: 
+[17:32:10] hackman (~hackman@management.1h.com) left irc: Ping timeout: 268 seconds
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:03:22] <yulimoto> phalaaxx_: CCFLAGS в configure ли е опция, щото аз там търся пък го няма ?
