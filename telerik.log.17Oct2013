@@ -356,3 +356,40 @@
 [19:57:53] Ivaka (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) joined #telerikacademy.
 [20:00:00] Writing user file...
 [20:00:00] Writing channel file...
+[20:16:00] blank (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:18:23] <tuxar> hackman:за стъпките за верификация не се ли използва chain файла? Как тогава набутват техен сертификат по веригата?
+[20:22:13] solarwind (3e2c626b@gateway/web/cgi-irc/kiwiirc.com/ip.62.44.98.107) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[20:26:36] Nikiman (~dfdfdfd@91.191.219.153) joined #telerikacademy.
+[20:28:51] Ivaka (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[20:29:07] blank (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:29:41] <hackman> stream ?
+[20:29:45] <Nikiman> ne
+[20:29:46] <tuxar> няма
+[20:29:50] <fityla> f5
+[20:30:04] <RosenN> da
+[20:30:08] <Nikiman> няма нужда от F5 тука
+[20:30:11] <Nikiman> има
+[20:30:16] <RosenN> ima strijm
+[20:30:23] <anton_dutsov> тръгна вече
+[20:30:29] <tuxar> мда
+[20:40:58] <yulimoto> dencho: тва как се учи бре
+[20:41:05] Dewily (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[20:42:59] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:43:15] <hackman> yulimoto, кое ?
+[20:43:34] Ivaka (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) joined #telerikacademy.
+[20:43:38] <yulimoto> апа4и конфига кое :)
+[20:44:01] <hackman> yulimoto, basics ви ги дадох
+[20:44:02] <yulimoto> доста конф
+[20:44:05] <yulimoto> хаха
+[20:44:09] <yulimoto> стига ми
+[20:44:10] <hackman> дори не съм навлизал в тънкостите
+[20:46:01] tuxar (~tuxar@ppp-94-69-248-238.home.otenet.gr) left irc: Ping timeout: 272 seconds
+[20:47:01] V-o-o-d-o-o (~admin@voodoonet.biz) joined #telerikacademy.
+[20:47:30] tuxar (~tuxar@athedsl-290423.home.otenet.gr) joined #telerikacademy.
+[20:49:20] <dencho> yulimoto uchi se we :D
+[20:51:18] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:52:28] <V-o-o-d-o-o> v ob6ti linii kakto se o4akva vseka sledva6ta izpolzvana blaginka tovari
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:01:57] morena (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:04:22] Ivaka (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
