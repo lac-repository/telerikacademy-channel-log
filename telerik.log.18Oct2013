@@ -127,3 +127,89 @@
 [16:00:00] Writing user file...
 [16:00:00] Writing channel file...
 [16:04:52] <phalaaxx> ко стаа админи
+[16:09:27] <phalaaxx> хм, админите са уморени :)
+[16:10:16] Vankata (Vankata@77.70.105.191) left irc: Write error: Broken pipe
+[16:22:00] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 264 seconds
+[16:25:19] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:31:53] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[16:31:57] Nick change: ndyakov|away -> ndyakov
+[16:33:11] anton_dutsov (~Thunderbi@178.75.233.220) left irc: Ping timeout: 272 seconds
+[16:34:10] <dencho> yulimoto kaji wa :D
+[16:34:23] <dencho> 6a mi kupua6 laptop praec li we
+[16:34:31] <dencho> phalaaxx spim q :D pak sa mi 4erveni o4ite na vulk
+[16:35:59] <phalaaxx> ще се преструваш на електроженист значи, а?
+[16:36:58] <dencho> :D
+[16:39:06] <phalaaxx> ти ли разправяше преди време за обява за админ в ICD?
+[16:39:14] <dencho> of ne pomnq we
+[16:39:15] <dencho> :D
+[16:39:20] <phalaaxx> вчера се озовах на админски тест при тях
+[16:39:25] <phalaaxx> и ми счупиха главата :D
+[16:39:37] <dencho> haha
+[16:39:45] <phalaaxx> след тоя тест вероятно изпита след курса ще ми е скучен
+[16:39:52] <dencho> ne sam az....
+[16:39:58] <dencho> za pruf go vijdam toq sait... ako e toq
+[16:40:01] <dencho> http://www.icd.bg/
+[16:40:02] <dencho> tiq li?
+[16:40:12] <phalaaxx> да
+[16:40:16] <dencho> mne.. ne sam az
+[16:40:23] <dencho> za sefte gi 4uam
+[16:40:41] <phalaaxx> някой май разправяше нещо за тях
+[16:40:43] <dencho> ama nekvi novi li sa? ili ?
+[16:40:48] <phalaaxx> не
+[16:41:29] <dencho> http://www.icd.bg/jobs.php#s
+[16:41:30] <dencho> woooo
+[16:41:34] <dencho> 2500 lea zaplata
+[16:41:39] <phalaaxx> така де технически погледнато не са ми счупили главата, още си ми е там
+[16:41:42] <dencho> ТЕХНИЧЕСКА ПОДДРЪЖКА НА КЛИЕНТИ С АНГЛИЙСКИ ЕЗИК
+[16:41:48] <phalaaxx> така де, още си е на мен и е здрава
+[16:42:15] <dencho> tiq dobra para daat
+[16:42:15] <phalaaxx> аа това не е админската работа
+[16:42:29] <phalaaxx> да видя дали го има още
+[16:43:51] <dencho> :)
+[16:44:05] <dencho> tiq 6tom za tech supp davat 2500 lea za admin sigur davat 6000 lea
+[16:45:08] <yulimoto> phalaaxx: теста долу-горе какво включваше ?
+[16:45:33] <phalaaxx> дават ти един комп за който знаеш че има инсталиран дебиан
+[16:45:38] <phalaaxx> но инсталацията е счупена
+[16:45:58] <phalaaxx> и освен това има нещо разбутано по хардуера за да не може да запали ако не го отвориш и не навържеш работите както трябва
+[16:46:41] <phalaaxx> после трябва да се компилира ядро без поддръжка за модули, apache + mysql + php - всичко от source
+[16:46:48] <phalaaxx> ftp сървър
+[16:46:56] <phalaaxx> ftp може и от пакет
+[16:47:09] <yulimoto> е с това вероятно си се справил :)
+[16:47:34] <phalaaxx> трябва да се напише скрипт който прави потребители на машината и базата, както и виртуален хост
+[16:47:56] <yulimoto> това на какво го пишеш ? перл ли ?
+[16:48:04] <phalaaxx> трябва да има 3 потребителя и за тях да се знае че са untrusted
+[16:48:11] <phalaaxx> perl или shell script
+[16:48:20] <yulimoto> аха
+[16:48:31] <phalaaxx> и накрая troubleshooting на 1 програма на C и една на perl
+[16:48:57] <yulimoto> какво беше счупено на дебиана
+[16:50:18] <phalaaxx> boot loader и настройки за мрежата, но имаше chattr върху един файл - да се чудиш що root не му дава да пипа там :D
+[16:50:32] <phalaaxx> аа и нямаш парола за root съответно ама то това не беше проблем
+[16:50:54] <phalaaxx> ми за толко време бая тъпо се справих според мен ама...
+[16:51:04] <phalaaxx> колкото - толкова
+[16:51:20] <phalaaxx> скрипта за потребителите не го измислих добре ама вече бях назад с времето :D
+[16:51:45] <yulimoto> колко време ти дадоха
+[16:51:47] <phalaaxx> аа и трябваше да се води документация за какво е направено и как
+[16:51:50] <phalaaxx> https://github.com/phalaaxx/jobinterview
+[16:51:52] <wilindex> [ phalaaxx/jobinterview · GitHub ] - github.com
+[16:52:01] hackman (~hackman@management.1h.com) left irc: Ping timeout: 260 seconds
+[16:52:13] <phalaaxx> ми принципно 8 часа ама аз седях повече от това щото се замотах много с kernel-а
+[16:52:27] <phalaaxx> че с това grsecurity си вкарах автогол по едно време :D
+[16:53:53] <yulimoto> браво човек !!
+[16:54:29] <yulimoto> всяко нещо поотделно не е толкова трудно но като ти се кюпнат толкова проблеми на една машина, и след известно време и работоспособноста пада
+[16:54:40] <phalaaxx> добре че знам какво съм правил че документацията дето я писах - съкс :D
+[16:58:18] <phalaaxx> аа в това си стартирах apache и mysql през daemontools, ти май пита преди 2 - 3 дена нещо по въпроса
+[16:58:25] <yulimoto> по принцип си покрил доста голям обем от знания, което си е постижение
+[16:58:26] <phalaaxx> за някакъв service supervisor
+[16:58:29] <yulimoto> само по себе си
+[16:58:48] <yulimoto> да
+[16:58:56] <yulimoto> интересувам се от добри практики
+[16:59:05] <phalaaxx> monit също е вариант :)
+[16:59:14] <yulimoto> :)
+[16:59:34] <yulimoto> чакай да те питам нещо след малко да видим дали ще отговориш :) като сме почнали с въпросите
+[16:59:44] <dencho> EVALATA phalaaxx, dano i az da stigna tova nivo sled 2-3 godini
+[16:59:45] <dencho> :D
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:31] <phalaaxx> шшш тихо, мен малко ме е срам щото знам че мога и по-добре да се справя ама... опасявам се че си е малко излагация това :D
+[17:01:41] <yulimoto> е напрежението си казва думата при всеки, предполагам че те го отчитат това
+[17:02:03] <yulimoto> What is the difference between General purpose Si and Shotkey diode?
