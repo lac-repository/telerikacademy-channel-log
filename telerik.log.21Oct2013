@@ -127,3 +127,105 @@
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
 [15:01:04] <rewind> мисля, че по повод тази, hackman обясни няколко неща в тази връзка по време на лекцията на 7-ми (или на 10-ти, не помня вече)
+[15:09:12] <rewind> интересно, тук пише, че има подготвени домашни по 5-6 теми за всичко без 9-та и 12-та точки от тази тема:
+[15:09:13] <rewind> http://forums.academy.telerik.com/95117/%D0%BE%D1%81-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0-%D0%BD%D0%B0-%D0%BA%D1%83%D1%80%D1%81%D0%B0-linux-administration
+[15:09:13] <wilindex> [ [ОС] Програма на курса Linux Administration - Telerik Academy Forums ] - forums.academy.telerik.com
+[15:09:34] <rewind> но за последните 2 лекции нямаше домашно
+[15:11:10] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[15:12:50] rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[15:13:01] <KpeTeHoug> не му достига време
+[15:13:04] <KpeTeHoug> според мен
+[15:13:09] <KpeTeHoug> то да не е 1
+[15:13:17] <KpeTeHoug> и аз движа близо 2 лекции назад
+[15:14:01] rewind (~teo@46.238.29.142) joined #telerikacademy.
+[15:14:40] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 245 seconds
+[15:16:45] Fairytale (~Fairytale@police.executie.org) joined #telerikacademy.
+[15:18:20] <topalov> някой знае ли какво се случва със записите на последните лекции (след 8-ма), че нямах възможност да присъствам ?
+[15:22:45] <KpeTeHoug> момент
+[15:22:55] <rewind> да, намират се на grizzly.yuhu.biz/lectures
+[15:22:56] <KpeTeHoug> http://grizzly.yuhu.biz/lectures/
+[15:22:56] <wilindex> [ Index of /lectures ] - grizzly.yuhu.biz
+[15:22:59] <KpeTeHoug> мдам
+[15:23:30] <rewind> извинявам се, http://grizzly.yuhu.biz/lectures
+[15:23:31] <wilindex> [ Index of /lectures ] - grizzly.yuhu.biz
+[15:23:48] <topalov> мерсаж :) а с домашните (че нещо не се виждат :) )?
+[15:24:02] <rewind> тъкмо и аз това питах по-нагоре
+[15:24:04] <KpeTeHoug> няма засега домашни
+[15:24:11] <KpeTeHoug> чакаме
+[15:24:11] <KpeTeHoug> ;)
+[15:24:27] <rewind> conveniently така да се каже :)
+[15:24:59] <KpeTeHoug> псилютно
+[15:25:49] <rewind> тъкмо ще има малко повече време за оценяване, че изоставам с повече три лекции вече
+[15:27:42] <topalov> ясно :)
+[15:27:59] <topalov> много несериозен съм станал в последно време :)
+[15:29:23] <dencho> topalov ne si edinstven :D
+[15:29:39] <yulimoto> ха оценняването съм го оставил отдавна
+[15:29:43] <dencho> are koito moje da gleda, da gleda :P http://youtu.be/PPgA7WCtY1Q
+[15:29:44] <wilindex> [YouTube] Title: Реална история за Рептили Шейпшифтъри Real Story about Reptilians | Uploader: badgo6o | Uploaded: 10/03/2013, 11:57 | Duration: 1hours 13mins 16secs | Views: 3,740 | Comments: 13 | Likes: 27 | Dislikes: 1
+[15:29:46] <dencho> hahaha
+[15:30:24] <rewind> yulimoto, аз лично осъзнах, че това е единствения начин да смогна с мат'риала и наистина се оказа вярно, че се схваща повече така
+[15:30:33] <anton_dutsov> KpeTeHoug: "и аз движа близо 2 лекции назад", какво имаш в предвид
+[15:32:30] <anton_dutsov> още две лекции ли ни остават?
+[15:32:47] <yulimoto> rewind: щом ти помага .. :)  аз ще направя няколко по едно за всяко колокото да се разпиша
+[15:33:44] <rewind> разбрах, че стигат три оценки на домашно, стига да получиш и за трите одобрение на коментара си (или нещо такова беше)
+[15:34:04] Fairytale (~Fairytale@police.executie.org) left irc: Ping timeout: 272 seconds
+[15:34:14] <rewind> но веднъж така се отплеснах, че направих 27 за една от лекциите без да разбера
+[15:34:28] Fairytale (~Fairytale@police.executie.org) joined #telerikacademy.
+[15:34:44] <anton_dutsov> rewind: на всяко домашно ли да пиша положителен коментар, за да ме пуснат на изпита :)?
+[15:34:51] Nick change: Fairytale -> Guest12314
+[15:35:13] <KpeTeHoug> не, че съм изостанал с 2 лекции от текущата
+[15:35:16] <KrasiGa> ама кой ви каза, че задължително трябва да оценяваш за изпит
+[15:35:17] <KpeTeHoug> не съм ги доизгледал
+[15:35:31] <KrasiGa> аз знам, че трябва да предадеш а дали ще оценяваш е въпрос на личен избор
+[15:35:39] <rewind> хаха :) не, май работи на обратно - човека, на който си цъкнал с да на "Полезен ли ви беше коментара" е с по-високо одобрение
+[15:35:55] Nick change: Guest12314 -> Svetlyo
+[15:36:17] <rewind> KrasiGa, никой, но стана дума с колега, който кара и друг курс, за който важат някакви подобни правила
+[15:36:27] <anton_dutsov> KpeTeHoug: аз започнах да преглеждам лекциите отначало :)
+[15:36:49] <rewind> и това ще трябва да стане преди изпита
+[15:37:04] <rewind> някой друг ще се подготвя ли за LPIC на 3-ти ?
+[15:37:27] <anton_dutsov> rewind:  дай линк
+[15:37:55] <anton_dutsov> rewind: къде се провежда
+[15:38:02] <KrasiGa> в сайта за openfest Го мернах
+[15:38:09] <rewind> секунда
+[15:38:20] <rewind> http://openfest.org/archive/openfest-2010/lpi-exam/
+[15:38:21] <wilindex> [ LPI изпит ] - openfest.org
+[15:39:01] <yulimoto> rewind: аз мислих да се готвя за lpi ма май няма да стане сега
+[15:39:42] <KrasiGa> забелязвате ли, че Url е в архив 2010
+[15:41:01] <anton_dutsov> KrasiGa: тъкм щях да питам каква е таксата, но така е като бързам
+[15:41:10] <Svetlyo> :-P
+[15:41:12] <rewind> не бях обърнал внимание :) хубаво пише 31 октомври краен срок за записване, но не пише година
+[15:41:48] <KrasiGa> иначе като четеш страницата все едно е за сега
+[15:41:56] <Svetlyo> Az sabiram taksata, zapisvaniq pri men.
+[15:42:03] <anton_dutsov> иначе има ли кой да провежда този изпит в България?
+[15:42:07] <KrasiGa> Svetlyo:  i az ia z
+[15:42:08] <KpeTeHoug> пак ще има на опен феста
+[15:42:10] <KpeTeHoug> тази година
+[15:42:36] <anton_dutsov> KpeTeHoug: разкажи какво, кога, как?
+[15:42:49] <KpeTeHoug> http://openfest.org/schedule/
+[15:42:51] <wilindex> [ Програма ] - openfest.org
+[15:43:06] <KpeTeHoug> тук някъде
+[15:43:22] <KpeTeHoug> а то води към тоя линк
+[15:43:23] <KpeTeHoug> :)
+[15:43:32] <KpeTeHoug> но Мариян писа със сигурност че ще има изпит
+[15:43:39] <KpeTeHoug> http://www.facebook.com/groups/6360369433/
+[15:43:41] <wilindex> [ Facebook ] - www.facebook.com
+[15:46:21] <yulimoto> вижте в линукс-бг там има актуални обяви
+[15:50:56] <anton_dutsov>  добре http://www.linux-bg.org/cgi-bin/y/index.pl?page=news&key=460675035
+[15:50:56] <wilindex> [ Линукс за българи: Новини: Събития» BSD изпит по време на OpenFest ] - www.linux-bg.org
+[15:52:07] phalaaxx (~phalaaxx@94.26.20.166) joined #telerikacademy.
+[15:52:09] <rewind> http://www.linux-bg.org/cgi-bin/y/index.pl?page=news&key=460610238"
+[15:52:09] <wilindex> [ Линукс за българи: Новини: LPI изпит в рамките на OpenFest 2013 ] - www.linux-bg.org
+[15:52:25] <rewind> горното е за BSD
+[15:53:53] <anton_dutsov> * http://www.linux-bg.org/cgi-bin/y/index.pl?page=news&key=460610238
+[15:53:54] <wilindex> [ Линукс за българи: Новини: LPI изпит в рамките на OpenFest 2013 ] - www.linux-bg.org
+[15:54:03] <anton_dutsov> rewind: мерси
+[15:54:34] <rewind> за нищо :)
+[15:55:31] <yulimoto> въй пуснах си слакс на ръка, бахти кефа
+[15:55:47] <anton_dutsov> yulimoto: браво
+[15:56:22] <yulimoto> anton_dutsov: по-скоро браво на тоя дето е правил слакса :)
+[15:56:29] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:03:23] <yulimoto> ауу познайте кой е в ямбол и надува селенията на мегданя... Да познахте оня ибрикчия Бареков
+[16:03:41] <rewind> Бюреков ? :)
+[16:04:11] <yulimoto> чувствам как ще затворя прозореца
