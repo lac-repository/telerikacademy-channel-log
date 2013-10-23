@@ -235,3 +235,89 @@
 [16:58:47] topalov (~topalov@gw.prosyst.bg) left irc: Remote host closed the connection
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:09:51] Fairytale (~Fairytale@police.executie.org) left irc: Remote host closed the connection
+[17:19:47] <Deyan> phalaaxx: просто не е толкова сложно, просто трябва да имаш правилните контакти
+[17:20:18] <Deyan> казваш ми какви дискове ти трябват и за няколко дни ще ти ги намеря от различни сериии
+[17:20:47] <Deyan> проблема е че говориш предимно с търговци, а те нямат достъп до склада
+[17:21:36] <phalaaxx> Deyan: ще имам предвид :)
+[17:21:36] <phalaaxx> засега съм с 3 от една партида и един от различна, ще сменям периодично както вече казах
+[17:25:25] Fairytale (~Fairytale@police.executie.org) joined #telerikacademy.
+[17:27:10] <yulimoto> някой знае ли за начин wireless от лаптоп да бъде някакви свързан с усб или нещо от сорта :P
+[17:28:50] <yulimoto> че си разколачих стария лаптоп тука за за 10 минути и си мисля кои чаркове може да имат приложение в някакво хоум мейд експериментално поле
+[17:29:25] <yulimoto> т.е. ще го вхърлям ама първо го разпарчатосвам
+[17:29:58] <Fairytale> iskash da kajesh wifi kartata da q izpolzvash na nastolen?
+[17:31:35] <yulimoto> ми коту дойде може и на арм да я използвам :)
+[17:31:59] <yulimoto> най-добре ако има някакво usb преходно нещо си
+[17:32:02] <yulimoto> :)
+[17:32:03] <yulimoto> ама едва ли
+[17:33:10] anton_dutsov (~Thunderbi@178.75.233.220) joined #telerikacademy.
+[17:33:11] <Deyan> по-скоро едва ли
+[17:33:37] <yulimoto> ейй точно ти не трябваше да ме разочароваш. в теб ми беше надеждата
+[17:33:43] <Deyan> yulimoto: дай модела на лаптопа да помислим
+[17:34:07] <anton_dutsov> с какво се занимавате?
+[17:34:58] <Deyan> идеята ми е че картата би трябвало да е на някакъв стандартен интерфейс, тоест би следвало да може да се обърне към усб с някакво чудо
+[17:35:18] <Deyan> а като знам колко такива глупости имаме може и да ти излезе късмета
+[17:35:42] <anton_dutsov> Deyan: каква карта?
+[17:36:01] <Deyan> yulimoto	някой знае ли за начин wireless от лаптоп да бъде някакви свързан с усб или нещо от сорта
+[17:36:03] <Deyan> [17:34]	yulimoto	че си разколачих стария лаптоп тука за за 10 минути и си мисля кои чаркове може да имат приложение в някакво хоум мейд експериментално поле
+[17:36:17] <Deyan> това е питането по което мислим в момента
+[17:36:19] <yulimoto> фуджи сименс амило 1505 !!!!
+[17:36:28] <yulimoto> ама това няма значение
+[17:36:35] <yulimoto> щото е важен модела на картата
+[17:36:38] <Deyan> да
+[17:36:39] <yulimoto> което е :
+[17:36:48] <Deyan> но аз мислех от лаптопа да стигна до там
+[17:36:49] <yulimoto> който* е :
+[17:37:25] <yulimoto> https://www.google.bg/search?q=wm3945abg+mow2&source=lnms&tbm=isch&sa=X&ei=n91nUvT_HcbZswac14GQAg&ved=0CAcQ_AUoAQ&biw=1152&bih=732#q=wm3945abg+mow2+&tbm=isch
+[17:37:26] <wilindex> [ wm3945abg mow2 - Google Търсене ] - www.google.bg
+[17:38:00] <Deyan> Atheros AR5006X нещо от рода
+[17:38:17] <yulimoto> интел пише
+[17:38:38] <yulimoto> ааа чакай
+[17:39:18] <yulimoto> https://www.google.bg/search?q=wm3945abg+mow2&source=lnms&tbm=isch&sa=X&ei=n91nUvT_HcbZswac14GQAg&ved=0CAcQ_AUoAQ&biw=1152&bih=732#q=intel+pro+wireless+3945abg+network+connection&tbm=isch
+[17:39:19] <wilindex> [ wm3945abg mow2 - Google Търсене ] - www.google.bg
+[17:39:26] <yulimoto> intel pro wireless 3945abg network connection
+[17:39:48] <Deyan> http://www.ebay.com/bhp/mini-pci-e-usb-adapter
+[17:39:50] <wilindex> [ Mini Pci-e USB Adapter | eBay ] - www.ebay.com
+[17:39:52] <yulimoto> за такъв тип карти има ли някакви слотове, преходници и т.н.
+[17:40:26] <yulimoto> забранявам да ми даваш отговори преди да съм си задал въпроса !!! :)
+[17:40:26] <Deyan> почти съм сигурен че нямаме такива, но сега ще погледна при доставчиците ни,
+[17:40:34] <yulimoto> хаха
+[17:40:46] <Deyan> ако са на прилични пари ще си поръчам
+[17:40:58] <Deyan> ама това е защото съм телеПаток
+[17:41:07] <Deyan> така че не се учудвай
+[17:41:16] <yulimoto> за кое да ссе учудвам
+[17:41:52] <anton_dutsov> я какви интересни неща има в ebay :)
+[17:42:17] <yulimoto> така вече съм подарил харддиска и рамта, останаха само процесора и wirelessa
+[17:42:32] <yulimoto> батерията е мъртва отдавна :)
+[17:42:49] <yulimoto> екрана също не можах да спася
+[17:42:54] <Fairytale> Rama kakuv beshe?
+[17:43:43] <yulimoto> оо не помня, а и нямах удоволствието да го сваля аз, доставих това удовоствие на човека който искаше да го позлва
+[17:43:54] <yulimoto> заедно с харддиска
+[17:44:38] <Fairytale> Az si tartsq DDR2 za laptop 1GB ,no zaduljitelno 533MHz
+[17:44:46] <yulimoto> иначе процесора е 1.86 2М cache
+[17:46:04] <Fairytale> Deynan: ti v nqkakva firma li rabotish?
+[17:46:16] <yulimoto> виж му Ip
+[17:46:25] <yulimoto> ako e на работа де :)
+[17:47:59] <yulimoto> това което разбрах е кое се нарича micro pci
+[17:48:16] <Fairytale> Komelsoft, tazi firma ima li q oste?
+[17:49:13] <yulimoto> пинчетата на процесора са много красиви и напомнят въздишките по филма матрицата в края на миналия век :)
+[17:49:45] agit0o (~agit0o@95.111.79.72) left irc: Quit: This computer has gone to sleep
+[17:51:12] <Deyan> Fairytale: .|.
+[17:51:36] <Deyan> как ще я няма бе
+[17:52:01] <Deyan> ако ни няма нас, половината фирми в бранша трябва да затворят
+[17:52:14] <Fairytale> Ne sum q vijdal otdavna, nqkoga imashe magazin na Rakoska
+[17:52:34] <Fairytale> Rakovska
+[17:52:38] <Deyan> то още си го има
+[17:53:02] <Fairytale> E znachi ne sum oburnal vnimanie .
+[17:53:07] <yulimoto> Fairytale: явно са станали доставчик на доставчиците. Играят го големи :)
+[17:54:05] Nick change: ndyakov|away -> ndyakov
+[17:54:32] <yulimoto> а всъщност колко върви един усб wifi
+[17:54:37] <yulimoto> долу горе
+[17:56:02] <Deyan> 12-15
+[17:56:04] <Deyan> лева
+[17:56:29] <yulimoto> хаха
+[17:56:53] <yulimoto> значи спасението на моя wifi се отлага :)
+[17:57:13] <Fairytale> ot DX mojesh da si poruchash za nqkolko $
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:10] <yulimoto> отивам да хвърля каквото е останало :)
