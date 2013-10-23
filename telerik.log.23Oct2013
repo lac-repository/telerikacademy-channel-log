@@ -374,3 +374,11 @@
 [21:03:49] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
 [21:04:05] _rewind (~teo@46.238.29.142) joined #telerikacademy.
 [21:04:18] _rewind (~teo@46.238.29.142) left irc: Client Quit
+[21:06:04] <yulimoto> за вечерта има 3 варианта: 1 да слагам ръчно един линукс слакс от лайв на харда. 2 да компилирам nginx и да направя реверс прокси към едно nodejs приложение и 3 да си легна
+[21:06:10] <yulimoto> кое да избера
+[21:06:13] <yulimoto> дилема
+[21:12:05] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: 1000Base-Kyp
+[21:23:17] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[21:54:27] Guest59979 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
