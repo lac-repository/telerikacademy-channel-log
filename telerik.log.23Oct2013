@@ -24,3 +24,19 @@
 [03:56:44] <Fairytale> NetSecurity nali ste e dnes ( srqda) ? Gledam na iseca pishe Всеки вторник в зала 200 на ФМИ от 19.00 до 21.00 часа
 [04:00:00] Writing user file...
 [04:00:00] Writing channel file...
+[04:12:10] <hackman> да, да... днес зала 325 от 19 до 22 :)
+[04:16:23] <Fairytale> hackman: mersi. Ti nqkoga spish li? :-)
+[04:20:23] <hackman> вчера спах :)
+[04:20:36] <hackman> сега подготвям два HA cluster-a :)
+[04:20:40] <Fairytale> E prestaral si se :-)
+[04:25:57] <Fairytale> Heartbeat i HA cluster edno i sasto li trqbva da oznachava?
+[04:31:15] <hackman> не точно :)
+[04:31:51] <hackman> просто защото на мястото на Heartbeat-а може да имаш corosync openais или cman
+[04:32:02] <hackman> общото е че всичките използват pacemaker отгоре
+[04:32:17] <hackman> в общи линии много лесно се пуска едно такова нещо :)
+[04:32:27] <hackman> 20 реда конфигурация и си готов
+[04:32:47] <Fairytale> Kato go znaesh e lesno, inache ne e :)
+[04:33:56] <hackman> с документацията която има
+[04:34:02] <hackman> за 3-4h пак ще си готов
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
