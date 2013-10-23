@@ -183,6 +183,33 @@
 			<div>&nbsp;<span class="time">[11:40:26]</span>&nbsp;<span class="else_li">&nbsp;KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 250 seconds</span></div>
 			<div>&nbsp;<span class="time">[11:45:24]</span>&nbsp;<span class="nick">&lt;KpeTeHoug&gt;</span><span class="text">&nbsp; ДЗП или Данон 4 Men</span></div>
 			<div>&nbsp;<span class="time">[11:45:27]</span>&nbsp;<span class="nick">&lt;KpeTeHoug&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[12:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[12:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[12:23:51]</span>&nbsp;<span class="else_li">&nbsp;agit0o (~agit0o@95.111.79.72) left irc: Quit: This computer has gone to sleep</span></div>
+			<div>&nbsp;<span class="time">[12:33:04]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; phalaaxx, а може и да си драснеш едно просто script-че за restart и да го сложиш на cron :)</span></div>
+			<div>&nbsp;<span class="time">[12:34:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може ама ме мързи... а и тази седмица ще правя подарък на машината (нови дискове)</span></div>
+			<div>&nbsp;<span class="time">[12:34:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; 4x3TB :)</span></div>
+			<div>&nbsp;<span class="time">[12:35:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; иначе може и в скрипт във loop да се стартира (foreground) и пак ще върши работа, без да седи в cron</span></div>
+			<div>&nbsp;<span class="time">[12:35:35]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; 3TB... ти си луд :)</span></div>
+			<div>&nbsp;<span class="time">[12:35:45]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; аз повече от 2 няма да сложа</span></div>
+			<div>&nbsp;<span class="time">[12:35:54]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; 3TB нямат recovery</span></div>
+			<div>&nbsp;<span class="time">[12:36:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; що да нямат :D</span></div>
+			<div>&nbsp;<span class="time">[12:37:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз все още обмислям вариант със ZFS а там rebuild се прави само върху данните, не върху целите дискове</span></div>
+			<div>&nbsp;<span class="time">[12:37:43]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пък и мен това ми трябва да пази backups</span></div>
+			<div>&nbsp;<span class="time">[12:37:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; едни има/няма 8TB</span></div>
+			<div>&nbsp;<span class="time">[12:39:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; доколкото разбрах в момента единствения голям проблем със ZFS под Linux е това, че липсва някаква функционалност която при счупване на диск да го извади автоматично и да добави spare диск</span></div>
+			<div>&nbsp;<span class="time">[12:39:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; но така или иначе там няма място за spare диск :D</span></div>
+			<div>&nbsp;<span class="time">[12:39:40]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако се счупи ще трябва да тичам да сменям</span></div>
+			<div>&nbsp;<span class="time">[12:47:11]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; и ти в момента ми твърдиш, че си копуваш 3TB дискове за да НЕ ГИ пълниш?</span></div>
+			<div>&nbsp;<span class="time">[12:47:29]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; няма значение дали  recovery-то е на цял partition или само на data</span></div>
+			<div>&nbsp;<span class="time">[12:47:37]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; 3TB са си 3TB</span></div>
+			<div>&nbsp;<span class="time">[12:47:46]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ако се наложи recovery дори и на един диск</span></div>
+			<div>&nbsp;<span class="time">[12:47:53]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ще чакаш 3-5 дни</span></div>
+			<div>&nbsp;<span class="time">[12:48:03]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; освен ако не е много празен този масив</span></div>
+			<div>&nbsp;<span class="time">[12:48:25]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; 5 дни при дискове които най-вероятно са сложени по едно и също време... :)</span></div>
+			<div>&nbsp;<span class="time">[12:48:32]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; сам си прецени...</span></div>
+			<div>&nbsp;<span class="time">[12:48:41]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; аз ти казвам само, че статистиката други неща говори :)</span></div>
+			<div>&nbsp;<span class="time">[12:48:47]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; пък и опита ми :)</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
