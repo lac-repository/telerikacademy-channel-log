@@ -132,3 +132,47 @@
 [10:59:47] topalov (~topalov@gw.prosyst.bg) joined #telerikacademy.
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:05:44] <KpeTeHoug> вие с седмици бяхте нали ?
+[11:07:48] <KpeTeHoug> http://support.lexmark.com/index?page=content&id=SO4635&locale=en&userlocale=EN_US
+[11:07:55] <KpeTeHoug> ай гес ?
+[11:11:10] <KrasiGa> гледах го този съпорт ама не помага
+[11:11:48] <KpeTeHoug> хм
+[11:11:56] <KrasiGa> аааа не не, точно това не съм
+[11:12:05] <KrasiGa> чакай
+[11:12:14] <KrasiGa> ще го разгледам по-подробно
+[11:12:17] <Deyan> имаше някаква глупост
+[11:12:31] <Deyan> и аз съм се сблъсквал с подобен проблем
+[11:12:48] <Deyan> ама преди 4-5 години
+[11:12:52] <KpeTeHoug> 100 % е някаква боза с протокола
+[11:12:53] <KpeTeHoug> порта
+[11:12:54] <Deyan> и не мога да се сетя как се оправи
+[11:13:09] <Deyan> да със протокол беше проблема,
+[11:13:50] <KpeTeHoug> http://support.lexmark.com/index?page=content&id=HO3792&locale=EN&userlocale=EN_US
+[11:13:59] <KpeTeHoug> ей това също изглежда интересно
+[11:14:11] <KpeTeHoug> конфига на самата дир в у-вото
+[11:16:21] <KpeTeHoug> http://www.youtube.com/watch?v=R2F_hGwD26g
+[11:16:22] <wilindex> [YouTube] Title: Tool - The Pot | Uploader: NoClueLol | Uploaded: 10/05/2006, 11:51 | Duration: 6mins 27secs | Views: 19,812,916 | Comments: 34,197 | Likes: 62,802 | Dislikes: 1,732
+[11:18:06] nlkl (~nlkl@213.91.241.45) left irc: Ping timeout: 268 seconds
+[11:20:31] <KrasiGa> Ето това ми подсказва, че няма да помогне  when you initiate a scan from the MFP, the server or client fails to receive the image.
+[11:20:45] <KrasiGa> понеже при мен не се initiate a scan from the MFP
+[11:22:13] <KrasiGa> не разпознава като MFP У-во нищо, като го вкарвам ръчно с IP, дава network error
+[11:22:45] <KrasiGa> не е error а по-скоро Msg, че няма никой отсреща
+[11:33:18] Nick change: phalaaxx_ -> phalaaxx
+[11:33:30] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 250 seconds
+[11:38:32] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[11:42:17] <KrasiGa> Точно това е моят случай http://support.lexmark.com/index?page=content&productCode=LEXMARK_X862&segment=SUPPORTproductCode%25253D&userlocale=EN_ZA&id=SO6280
+[11:42:24] <KrasiGa> но това решение не помага
+[11:50:42] <KpeTeHoug> няма ли по нова/стара версия на туй ютилити ?
+[11:50:59] <KpeTeHoug> или друго
+[11:51:09] <KpeTeHoug> те сигурно не са ти с админиски права потребителите
+[11:51:16] <KpeTeHoug> може софтуера да иска такива
+[11:51:23] <KpeTeHoug> и да не функционира правилно
+[11:52:34] <KpeTeHoug> аз поне съм имал няколко подобни софтуера
+[11:52:36] <KpeTeHoug> виж това
+[11:52:36] <KpeTeHoug> http://www.howtogeek.com/124087/
+[11:52:38] <wilindex> [ How To Create a Shortcut That Lets a Standard User Run An Application as Administrator ] - www.howtogeek.com
+[11:52:47] <KrasiGa> вчера изтеглих най-новото
+[11:52:49] <KrasiGa> с него пробвам
+[11:53:28] <KrasiGa> за съжаление са админи - и това не е
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
