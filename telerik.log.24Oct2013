@@ -529,3 +529,185 @@
 [19:02:16] _rewind (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
 [19:02:25] vladisr (vladisr@78.128.12.6) joined #telerikacademy.
 [19:03:49] <anton_sh> Кога ще почва курса?
+[19:05:24] <yulimoto> хайде сега да си pull-нем githuba докато мариян дойде да си разгледате нещата :P
+[19:05:39] <t_nenkov> hackman пристигна, но излезе някъде. предполагам на време ще почнем
+[19:06:02] darin (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:06:32] <yulimoto> аз си слагам питон като копирам разни папки и файлове :) и хакман не може ми помогна ...
+[19:06:42] komadrin (54f2a78c@gateway/web/freenode/ip.84.242.167.140) joined #telerikacademy.
+[19:10:31] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[19:10:31] rootstar (0@77.70.103.9) joined #telerikacademy.
+[19:10:42] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) joined #telerikacademy.
+[19:13:01] <komadrin> ще има ли стриим ?
+[19:13:50] <yulimoto> аз имам питон :) ейе
+[19:14:18] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:14:19] <yulimoto> намерете хакман и го вържете да седи в залата и да преподава :)
+[19:14:31] <t_nenkov> хмм май има някакъв проблем ... Мариян дръпна лаптопа и избяга
+[19:14:43] <fityla> има проблем
+[19:14:46] <fityla> явно с мрежата
+[19:15:07] <yulimoto> с коя мрежа вие нали сте там и ползвате телеришката мрежа ?
+[19:15:17] Ivaka (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) joined #telerikacademy.
+[19:15:19] <anton_dutsov> вероятно с WiFi
+[19:15:20] <fityla> форума..
+[19:15:24] <fityla> май е ..
+[19:15:38] <komadrin> ясно, благодаря за инфото
+[19:15:39] <fityla> еми може и кабела да се е прецакал
+[19:16:10] <KacanuH> yulimoto, твоя питон дори в песен е възпят http://vbox7.com/play:a8db4682
+[19:16:10] <wilindex> [ Видео споделяне / VBOX7 ] - vbox7.com
+[19:17:07] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[19:17:40] <KacanuH> има разбира се, мейл сървъра на сайтграунд се е прецакал, не могат да ми четат мейлите
+[19:17:49] <fityla> идва нета
+[19:18:08] <t_nenkov> ще го носят в кофи, докато дойде цистерната
+[19:18:29] <fityla> да..
+[19:18:32] <fityla> ти да не си в залата
+[19:18:34] <fityla> :D
+[19:18:45] <t_nenkov> да
+[19:19:02] <yulimoto> драми драми
+[19:19:16] <fityla> най много
+[19:19:19] <fityla> да счупим нещо
+[19:19:23] <t_nenkov> ip.89.190.207.13 на Wifi в залата, можеш да видиш колко хора се логват
+[19:19:43] hackman (~hackman@87.118.135.253) joined #telerikacademy.
+[19:20:07] <KacanuH> Ето го батко :)
+[19:20:08] <hackman> няма интернет в академията :)
+[19:20:17] <fityla> ние на wireless-a
+[19:20:19] <fityla> сме ок
+[19:20:24] <fityla> в академията
+[19:20:30] <hackman> я вижте колко накъсва  stream-а така
+[19:20:53] <anton_dutsov> изобщо не накъсва
+[19:20:58] <KacanuH> за сега работи добре стреама
+[19:21:00] <pinkiePie> засега върви добре стриима
+[19:21:02] <Vankata> добре е
+[19:21:19] <yulimoto> има драми значи
+[19:21:23] Dewily (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:21:32] <_rewind> искаш ли ad-hoc от моя лаптоп да пробваме
+[19:21:42] <_rewind> hackman: ?
+[19:22:04] <anton_dutsov> и дропна стрийма
+[19:22:11] <hackman> az go sprqh
+[19:22:12] <hackman> sec
+[19:22:13] <sig_> умря
+[19:22:18] BM_boyan (~BM_boyan@85.187.248.24) joined #telerikacademy.
+[19:22:53] <BM_boyan> ne6to umrq streem-a
+[19:23:19] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[19:23:21] <yulimoto> нещо се накачулихме всичките май и умре
+[19:23:40] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[19:23:42] <t_nenkov> много маймун на клона
+[19:23:52] <anton_dutsov> yulimoto: hackman каза, че го е спрял
+[19:24:02] <yulimoto> ок
+[19:24:03] <yulimoto> :)
+[19:27:31] hackman (~hackman@87.118.135.253) left irc: Ping timeout: 248 seconds
+[19:28:42] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[19:30:14] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[19:31:04] hackman (~hackman@87.118.135.253) joined #telerikacademy.
+[19:31:21] <hackman> bah
+[19:31:29] <hackman> stream ?
+[19:31:50] <yulimoto> чувам го
+[19:31:52] <KacanuH> да
+[19:31:52] <vladisr> da
+[19:31:52] <pinkiePie> тръгна
+[19:31:54] darin (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:31:55] <anton_dutsov> hackman:  има и видео
+[19:31:57] <yulimoto> да има
+[19:32:05] Ivaka (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[19:32:38] <t_nenkov> звук в залата няма
+[19:32:40] <hackman> ако нещо се прецака видеото свиркайте веднагаааа
+[19:32:47] <BM_boyan> ok
+[19:33:28] <KacanuH> hackman, умря
+[19:33:33] <BM_boyan> da
+[19:33:33] <anton_sh> umrqqqqqqqqqq
+[19:33:43] <Vankata> да, умря и при мен :)
+[19:33:44] <anton_dutsov> hackman: стриймът спря
+[19:33:45] <vladisr> прекъсна
+[19:33:55] <pacho10> umrq
+[19:33:56] <sig_> определено
+[19:34:12] <yulimoto> hackman nqma стрийм
+[19:34:17] <_rewind> някой в залата има ли микро усб кабел
+[19:34:17] <_rewind> в залата
+[19:34:18] <anton_dutsov> hackman: може ли да се направи локален запис на лекцията, за да не я пропуснем
+[19:34:30] <_rewind> за да пуснем един хотспот по-близо до катедрата
+[19:35:29] <yulimoto> hackman: няма стрийм
+[19:35:38] <yulimoto> я някой от вътре да му сигнализира
+[19:35:52] <fityla> да
+[19:35:53] <fityla> знае
+[19:35:57] <yulimoto> ок
+[19:36:03] <t_nenkov> даже писа в чата bah
+[19:36:21] <fityla> абе...
+[19:36:29] <fityla> двама .. са взели ...
+[19:36:34] <fityla> щанга и напъват рака
+[19:36:35] <fityla> :D
+[19:37:05] <KacanuH> май да взема да паля колата и да идвам,
+[19:37:15] hackman (~hackman@87.118.135.253) left irc: Ping timeout: 272 seconds
+[19:37:32] <KacanuH> то се е видяло че онлайн няма да стане
+[19:37:42] Nick change: phalaaxx -> phalaaxx_
+[19:37:44] <t_nenkov> вземи суха храна и вода, че май ще стоим до късмо, за да предаде MySQL и PosgreSQL-a
+[19:37:53] <yulimoto> трябва да се запише лекцията дали ще е стрийм или на декстоп няма значение
+[19:38:07] <KacanuH> а не е ли по-добре да взема бира и кебебчета
+[19:38:19] <solarwind> КасапиН, да можеше да ни забереш и другите, дето се надявахме да стрийм...
+[19:38:27] <KacanuH> *кебабчета
+[19:38:48] <KacanuH> solarwind, аз карам кола не барбарон
+[19:39:48] <solarwind> Бях забравила тази дума... барбарон.
+[19:40:42] <fityla> ако я запишем
+[19:40:43] <fityla> лолаконо
+[19:40:44] <fityla> ок ли сте
+[19:40:46] <fityla> да предложа
+[19:40:53] <fityla> на хакман?
+[19:41:05] <solarwind> Да, локалния запис е ОК
+[19:41:05] <KacanuH> solarwind, през кой край на българия трябва да мина да те забера, защото съм много близо до идеята да пална
+[19:41:08] <KacanuH> ОК
+[19:41:23] <fityla> кажете
+[19:41:28] <fityla> имате ли нещо против
+[19:41:30] <fityla> че мина 1 час
+[19:41:39] <KacanuH> аз съм за
+[19:41:39] <Vankata> ОК сме :)
+[19:41:40] <solarwind> О, ти да не реагира на "а"-то в края на една думичка
+[19:41:47] <BM_boyan> az nqmam i lokalen zapis stava
+[19:41:49] <anton_dutsov> fityla: аз вече предложих
+[19:41:50] <phalaaxx_> аз си паля маратонките че още съм на работа, имаше много работа :D
+[19:41:53] <anton_dutsov> съгласни сме
+[19:41:54] <BM_boyan> samo da ima zapis :D
+[19:42:16] <yulimoto> fityla: ЗАПИСВАЙТЕ ЛОКАЛНО, после само да има запис !!!
+[19:42:19] <urban_filth> локален запис също е ок :)
+[19:42:54] <yulimoto> да не останем с пръсче в г*зче нито онлайн нито запис после
+[19:43:11] <solarwind> Последно - ще има ли локален запис?
+[19:43:18] <t_nenkov> тцъ
+[19:43:23] <solarwind> Или да тръгвам...
+[19:43:24] <t_nenkov> Мариян отказа
+[19:43:41] <t_nenkov> май?
+[19:43:42] <yulimoto> t_nenkov: какво вика ?
+[19:44:06] <fityla> каза че ще изчакаме
+[19:44:22] <fityla> още 10мин.
+[19:44:26] <fityla> и след това го мислим
+[19:44:35] <BM_boyan> ще чакаме тогава :D
+[19:44:35] <t_nenkov> или ще го оте*ем
+[19:44:38] <anton_dutsov> всички сме тук и чакаме, няма проблем
+[19:44:48] <sig_> значи чакаме онлайн стрийм
+[19:45:46] _rewind (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:45:55] <fityla> имайте
+[19:45:59] <fityla> още малко търпение
+[19:46:02] <fityla> и наков се пяви
+[19:46:05] <fityla> появи*
+[19:46:10] <yulimoto>  ако има чалъм за локално и после качане  +1
+[19:46:36] <yulimoto> драма уважаеми зрители, дойде и windows евангелиста да помага
+[19:46:43] <KacanuH> ако не носи поне 2 кофи с интернет нищо няма да стане
+[19:47:14] <t_nenkov> само едно синьо кабелче ... даже биричка няма
+[19:47:42] <yulimoto> дано не е в такава поза http://dreal.net/wiki/index.php/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0:Nakov-igrae-kjucec-v-Kaspichan.jpg
+[19:47:43] <wilindex> [ Картинка:Nakov-igrae-kjucec-v-Kaspichan.jpg - Всичко за 1 лев ] - dreal.net
+[19:48:58] <fityla> май тръгна
+[19:49:10] <yulimoto> браво
+[19:49:22] <solarwind> :)
+[19:49:37] hackman (~hackman@87.118.135.253) joined #telerikacademy.
+[19:49:54] <hackman> reeeee
+[19:49:56] <hackman> stream ?
+[19:50:04] <solarwind> няма
+[19:50:09] <vhristev> Стрийма дойде
+[19:50:11] <solarwind> има
+[19:50:16] <anton_dutsov> тръгна
+[19:50:17] <pinkiePie> запали
+[19:51:00] _rewind (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:51:34] darin (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:52:10] freebsd (5576c192@gateway/web/freenode/ip.85.118.193.146) joined #telerikacademy.
+[19:53:51] <freebsd> накой знае ли защо няма домашни от няколко лекции насам
+[19:55:18] _rewind (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:00:22] tuxar (~tuxar@athedsl-289737.home.otenet.gr) joined #telerikacademy.
+[20:01:07] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[20:03:42] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
