@@ -214,3 +214,97 @@
 [12:50:54] <KrasiGa> хахаххаа ееее yulimoto  днес определено много ме забавляваш :))))))
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:14:01] <KrasiGa> Добре де, от моя комп достъпвам този скенер
+[13:15:38] <KrasiGa> дайте идеи бе хора
+[13:21:15] <Deyan> дефинирай достъпвам
+[13:21:31] <Deyan> имаш пинг към него или можеш да сканираш
+[13:23:15] <Deyan> моята идея е да заебеш вградените глупости и да им го инсталираш като прост twain скенер
+[13:23:54] <KrasiGa> мога да сканирам
+[13:23:58] <Deyan> за да им кажеш че работи, а след това може да си мъчиш мозъчето с това как да оправих сканирането към мрежова платка
+[13:24:07] <Deyan> *папка
+[13:24:41] <KrasiGa> и само twain скенер е инсталиран, излишните им програмки не ги харесвам
+[13:24:42] <Deyan> нали има twain драйвери за него
+[13:24:49] <KrasiGa> тях съм качила
+[13:24:57] <Deyan> и пак ли не иска
+[13:25:09] <Deyan> а това не е въможно
+[13:25:20] <KrasiGa> иска  само от моя комп и на колегата
+[13:26:56] <dencho> kvo stana s tiq printieri we :D
+[13:27:33] <dencho> KrasiGa mi samo vie 6te printirate bre :D
+[13:27:36] <dencho> haha
+[13:27:48] <KrasiGa> dencho: за сканиране става въпрос
+[13:27:55] <dencho> mi dobre :P pak su6toto :D
+[13:28:00] <KrasiGa> това е странното, че като принтер си е ОК
+[13:28:15] <KrasiGa> ха, с разликата, че е на етаж 1 а аз съм на 3ти
+[13:28:53] <dencho> a kakvo? drugite ne mogat da go dostupvat tozi skener li?
+[13:29:52] <KrasiGa> аха
+[13:30:08] <dencho> kabel-a im ok li e ? :P
+[13:30:17] <Deyan> хахаха
+[13:32:02] <yulimoto> KrasiGa: Ами рестартирайте ги тия принтери !!!
+[13:32:10] <KrasiGa> абе и това пробвах
+[13:32:14] <yulimoto> хахаха
+[13:32:23] <yulimoto> яко
+[13:32:54] <KrasiGa> след като пипах настройките за пароли /както казва гайда на лексмарк/
+[13:33:07] <dencho> ollll
+[13:33:07] <KrasiGa> реших, че може един рестарт ама не
+[13:33:11] <dencho> leksmark!
+[13:33:17] <dencho> 4estitka
+[13:33:18] <dencho> :D
+[13:33:25] <KrasiGa> lexmark dencho
+[13:33:32] <KrasiGa> ne leksmark ;p
+[13:33:38] <dencho> da da
+[13:33:39] <dencho> su6toto
+[13:33:40] <dencho> :)
+[13:33:41] <yulimoto> добре дайте да разделим проблема на части така ще е по-лесно
+[13:34:00] <yulimoto> реално има мрежа и се принтира
+[13:34:04] <yulimoto> но не сканира така ли ?
+[13:34:40] <dencho> btw operacionna sistema na horata deto iskat da rabotat s tva 4udo na tehnikata windows 7/ xp ?
+[13:36:38] <KrasiGa> yulimoto: Da
+[13:36:47] <KrasiGa> ами има и 7 и XP
+[13:37:27] Vankata (Vankata@77.70.105.191) left irc: 
+[13:42:52] <dencho> ami ako restartirame i operacionnite sistemi :P
+[13:43:29] <hackman> KrasiGa, сигурна ли си, че нямаш някой firewall/AV който да спира трафика ?
+[13:43:33] <hackman> едно tcpdump-че ? :)
+[13:45:03] <yulimoto> малко простотии - http://dreal.net/wiki/index.php/%D0%9A%D0%B0%D1%80%D1%82%D0%B8%D0%BD%D0%BA%D0%B0:Nakov-igrae-kjucec-v-Kaspichan.jpg
+[13:45:04] <wilindex> [ Картинка:Nakov-igrae-kjucec-v-Kaspichan.jpg - Всичко за 1 лев ] - dreal.net
+[13:45:17] <dencho> :D
+[13:45:38] <dencho> yulimoto dnes go trese ligavnqta poe4e ot mene :D
+[13:45:55] <KrasiGa> firewall e off
+[13:46:05] <yulimoto> денчо сигурен съм че знаеш парчето само позата на наков, защото и ти се виеш като змийорка
+[13:50:48] <dencho> yulimoto, a siguren li si kakvo 6te obqdvam sled malko :P
+[13:51:18] <dencho> male tva SU po4naha da go okupirat... vleznah da u4a tam i tiq zeha da go zatvarqt
+[13:51:23] <yulimoto> не, какво ?
+[13:51:25] <dencho> sq se 4udq da oda li dove4era :D
+[13:51:37] <dencho> yulimoto, kiufteta sus sos :D
+[13:52:34] <phalaaxx> dencho: ако има тенденция да окупират разни места където ходиш... защо не отидеш в народното събрание, да приключва историята там :)
+[13:54:39] <dencho> phalaaxx mi mai 6e trqqq :D btw 75% ot mestata kudeto sam rabotil sa gi zakrili... hahaha osven da stana deputat
+[13:54:40] <dencho> :D
+[13:55:58] <phalaaxx> аз не знам какво чакаш още :)
+[13:56:04] <phalaaxx> много хора ще ти благодарят после
+[13:56:26] <yulimoto> офф тряя да инсталирам nginx
+[13:56:30] <KpeTeHoug> KrasiGa, нали знаеш че 7мицата има 2 файъруола
+[13:56:59] <KrasiGa> там където се боря е XP
+[13:57:00] <yulimoto> manii верно ли са 2 и каква е таз глупост 2 файрлола
+[13:57:06] <KrasiGa> при мен на 7ца върви
+[13:57:41] <KpeTeHoug> аха
+[13:58:02] <KpeTeHoug> yulimoto - за хоум мрежа и за оутсайд мрежа
+[13:58:08] <KpeTeHoug> *аутсайд
+[13:58:16] <yulimoto> аха
+[13:58:20] <KpeTeHoug> ейиуей
+[13:58:48] <KpeTeHoug> аз само давам идеи, без лоцален достъп трудно се решава такъв проблем :)
+[13:58:50] <yulimoto> да представям си долу горе
+[13:59:30] <yulimoto> аз от принтери нищо не разбирам, пуснал съм един cups и толкоз :)
+[13:59:46] <dencho> nqma da se o4uda, ako 7 ima i 15 firewall-a, a nie da znaem za samo 2 :D
+[14:00:00] <KpeTeHoug> аз ползвам гугъл принтинг, и после през virtual pdf printer
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:04] <KpeTeHoug> и спи градо
+[14:00:57] <yulimoto> не знам обаче ше тряя да ставам, пък ме мързи
+[14:01:44] <dencho> kvo pa e tva google printing sq
+[14:01:49] <dencho> google i tva li sabira?
+[14:03:04] <KpeTeHoug> имаш клауд принтинг
+[14:03:13] <KpeTeHoug> и си адваш ремоут у-ва
+[14:03:57] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[14:04:05] <yulimoto> и моеш ли от харманли да принтираш у каспичан ?
+[14:04:38] <KpeTeHoug> мойш
+[14:04:45] <dencho> ibaa go
+[14:04:55] <KpeTeHoug> ми един вид шерваш принтера
