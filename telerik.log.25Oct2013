@@ -404,3 +404,21 @@
 [13:57:46] <yulimoto> какъв е тоя партишън бе хора OnTrack DM6 Aux
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
+[14:12:29] <Deyan> е как какъв OnTrack DM6 Aux
+[14:21:51] informer (~informer@83.228.55.109) joined #telerikacademy.
+[14:26:35] topalov (~topalov@gw.prosyst.bg) left irc: Remote host closed the connection
+[14:30:16] topalov (~topalov@gw.prosyst.bg) joined #telerikacademy.
+[14:31:50] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[14:34:51] topalov (~topalov@gw.prosyst.bg) left irc: Remote host closed the connection
+[14:35:38] topalov (~topalov@gw.prosyst.bg) joined #telerikacademy.
+[14:40:37] <Deyan> OnTrack DiskManager (on the first disk) is detected by the fact that the first primary partition has type 54. The geometry is remapped as described above and the entire disk is shifted by 63 sectors (so that the old sector 63 becomes sector 0). Afterwards a new MBR (with partition table) is read from the new sector 0. Of course this shift is to make room for the DDO - that is why there is no...
+[14:40:39] <Deyan> ...shift on other disks.
+[14:41:13] <Deyan> последното може да се чете и като ....shit on other disks
+[14:44:48] <phalaaxx> http://www.youtube.com/watch?v=NtQFT9KAwsQ
+[14:44:48] <wilindex> [YouTube] Title: Фенка на Орешарски вандализира протестния палатков лагер | Uploader: komitata69 | Uploaded: 24/10/2013, 22:24 | Duration: 2mins 37secs | Views: 832 | Comments: 17 | Likes: 11 | Dislikes: 1
+[14:52:26] sig_ (~sig@87.97.211.51) left irc: Ping timeout: 252 seconds
+[14:54:15] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[14:58:58] <KpeTeHoug> незнам дали има дума вандализира
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:03:08] <phalaaxx> ее не бъди дребнав :D
