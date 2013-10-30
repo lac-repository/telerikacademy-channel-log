@@ -1,0 +1,12 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:01] <_rewind> всъщност, аз бях качил във виртуална някаква тъпа игра на братовчед ми на Минт-а му, за да не рестартира, но беше достатъчно стара
+[00:00:18] <_rewind> така че... самия аз трябва да съм сред лудите
+[00:01:08] <anton_sh> и всъщност има ли начин да се намали partition като се използва cfdisk или  fdisk?
+[00:01:09] <_rewind> Моторола определено имат нужда от този шут напред, тъй като бяха стигнали горе-долу положението на Блакбери
+[00:01:22] <_rewind> има, но с parted
+[00:01:31] <_rewind> ако говориш за commandline
+[00:02:13] <anton_sh> da za command line
+[00:02:19] <anton_sh> ok shte porovq sega za parted
+[00:03:57] <_rewind> от ман на fdisk - These days there also is parted.  The cfdisk interface  is  nicer,  but parted  does  much  more:  it not only resizes partitions, but also the  filesystems that live in them.
+[00:04:50] <_rewind> ако целта е да ти бъде по-лесно можеш да бутнеш в някакъв livecd и да resize-неш с gparted
