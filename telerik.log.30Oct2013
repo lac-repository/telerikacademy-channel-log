@@ -164,3 +164,63 @@
 [14:03:28] <KpeTeHoug> може може, не спорим :)
 [14:04:19] <KpeTeHoug> обменяме мнения
 [14:04:45] <yulimoto> според мен не е тъй
+[14:05:37] <phalaaxx> http://www.ebay.com/itm/The-Constitutional-Court-of-The-Republic-of-Bulgaria-/200981677425
+[14:05:41] <wilindex> [ The Constitutional Court of The Republic of Bulgaria | eBay ] - www.ebay.com
+[14:05:52] <yulimoto> мисля, че само когато е в irc и когато името му се спомене в даден канал, прозорците му светват в цвят който му  сигнализира, че става въпрос за него
+[14:06:00] <yulimoto> но можем да пробваме
+[14:06:35] <yulimoto> hackman hackman, получваш ли.... ? ако получаваш дай сигнал !!!
+[14:06:56] <yulimoto> ако го чете .... ще се обади все някога че го е получил :)
+[14:07:59] <yulimoto> phalaaxx: много скъпо, трябват ми ратаи за една земя, ама ще си харижа други
+[14:11:20] <KpeTeHoug> това с цветовете ясно
+[14:11:28] <KpeTeHoug> аз съм си сложил ника и още няколко думички
+[14:11:32] <KpeTeHoug> да светят и писукат
+[14:11:33] <KpeTeHoug> :)
+[14:12:22] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[14:20:09] <fityla> дано се появи ..
+[14:20:12] <fityla> до 2- часа
+[14:20:19] <fityla> 2-3*
+[14:20:32] <fityla> ако не ще ходя на там пък дано имаме
+[14:20:46] <KrasiGa> лекциите в кой факултет се провеждат
+[14:20:56] <fityla> фми
+[14:21:15] <KrasiGa> до колкото знам е окупирана само .... като се замислих не знам кой факултет е централната сграда
+[14:21:31] <KrasiGa> ама не е ФМИ мисля, така че ....
+[14:21:36] <KrasiGa> какво се притеснявате
+[14:22:03] <fityla> фми-тое след семинарията
+[14:22:21] <fityla> знам ли какви са маймуни може и там нещо да са затвороли..
+[14:22:22] <KrasiGa> до Химическия, нали
+[14:22:23] rewind_mobile (~rewind@85.118.193.165) joined #telerikacademy.
+[14:22:27] <fityla> да
+[14:22:34] <fityla> близо е
+[14:22:41] <KrasiGa> ами окупацията е само в центъра
+[14:22:49] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[14:22:53] <KrasiGa> това няма да попречи
+[14:25:54] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[14:29:24] rewind_mobile (~rewind@85.118.193.165) left irc: Ping timeout: 268 seconds
+[14:35:56] <KrasiGa> Слушам лекцията за PGsql и стигам до извода- всичко ти е забранено по default, което искаш да дотъпваш си даваш право, нали така
+[14:51:29] <_rewind> KrasiGa, на мен поне именно така ми прозвуча
+[14:51:58] <_rewind> по-интересното беше, че няма вградена автоматизация на даването на права
+[14:52:47] <KpeTeHoug> това е както хубаво, така и лошо
+[14:52:54] <KpeTeHoug> води до грешки в даването на права
+[14:53:01] <KpeTeHoug> ако не си напълно наясно какво правиш
+[14:53:16] <_rewind> е, според това, което каза hackman има начин да се преодолее това
+[14:53:35] <_rewind> но очевидно не е нещо тривиално
+[14:54:08] <_rewind> някой друг случайно да се подготвя за LPIC в събота ?
+[14:54:22] anton_dutsov (~anton@178.75.230.87) joined #telerikacademy.
+[14:55:31] <_rewind> че така като гледам май ще се окаже окупирано СУ по това време :)
+[14:55:45] anton_dutsov (~anton@178.75.230.87) left irc: Client Quit
+[14:56:10] anton_dutsov (~anton@178.75.230.87) joined #telerikacademy.
+[14:56:20] <_rewind> yulimoto, м/у другото само - много ценен подкаст (от 28-ми до phalaaxx)
+[14:56:28] anton_dutsov (~anton@178.75.230.87) left irc: Client Quit
+[14:57:28] rewind_mobile (~rewind@85.118.193.184) joined #telerikacademy.
+[14:57:56] anton_dutsov (~rebelxt@178.75.230.87) joined #telerikacademy.
+[14:57:57] <phalaaxx> дай copy/paste че някои хора не ни стига толкова паметта :)
+[14:58:02] <yulimoto> _rewind: мдаа има какво повече да се желае, но на мен посоката ми харесва
+[14:58:05] <phalaaxx> и мързела ни е в повече да четем хисторита
+[14:58:17] rewind_mobile (~rewind@85.118.193.184) left irc: Client Quit
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:29] <_rewind> секунда :)
+[15:00:37] <_rewind> http://www.nerds2nerds.com/?p=220
+[15:00:38] <wilindex> [ Nerds2Nerds » Blog Archive » Епизод 20 – част 2 – Linux Containers и виртуализация ] - www.nerds2nerds.com
+[15:01:14] <_rewind> конкретната тема ми е доста интересна и малко не съвпада с хубав момент точно сега да се занимавам с нещо, което ми е интересно :)
+[15:01:32] <_rewind> в тоя смисъл пожелавам успех на студентите в събота, че да отложат изпитната дата :D
