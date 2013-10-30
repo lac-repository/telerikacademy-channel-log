@@ -224,3 +224,22 @@
 [15:00:38] <wilindex> [ Nerds2Nerds » Blog Archive » Епизод 20 – част 2 – Linux Containers и виртуализация ] - www.nerds2nerds.com
 [15:01:14] <_rewind> конкретната тема ми е доста интересна и малко не съвпада с хубав момент точно сега да се занимавам с нещо, което ми е интересно :)
 [15:01:32] <_rewind> в тоя смисъл пожелавам успех на студентите в събота, че да отложат изпитната дата :D
+[15:17:39] anton_dutsov (~rebelxt@178.75.230.87) left #telerikacademy.
+[15:18:06] <_rewind> ако пък успеят да свалят и правителството след това - цена няма да имат
+[15:23:57] topalov (~topalov@gw.prosyst.bg) left irc: Ping timeout: 252 seconds
+[15:29:50] <yulimoto> добре де инсталирам (маке инсталл) си апа4и в /уср/локал всичко си е там и върви
+[15:30:44] <yulimoto> после слагам php директно от пакетната систама yum (na centos) и половината conf файлове са ми вече в /etc/httpd
+[15:31:28] <yulimoto> че нямам снапшот да видя аз ли съм спал
+[15:31:42] <yulimoto> или нещо не вдявавам
+[15:32:54] anton_dutsov (~Thunderbi@178.75.230.87) joined #telerikacademy.
+[15:38:56] KpeTeH0ug (~GT@212.36.13.10) joined #telerikacademy.
+[15:40:20] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 268 seconds
+[15:43:53] anton_dutsov (~Thunderbi@178.75.230.87) left irc: Remote host closed the connection
+[15:57:51] <yulimoto> бахти странните сетъпи, ама трябва се свиква
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:02:39] <fityla> видях ли ..
+[16:02:53] <fityla> имало е hackFMI
+[16:02:56] <fityla> http://hackfmi.com/hackfmi2-winners/
+[16:03:00] <wilindex> [ Победителите на HackFMI 2.0 | HackFMI - Тридневно състезание (хакатон) във ФМИ ] - hackfmi.com
+[16:03:08] <fityla> във форума има тема... ..
