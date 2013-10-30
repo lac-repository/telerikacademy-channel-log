@@ -10,3 +10,56 @@
 [00:02:19] <anton_sh> ok shte porovq sega za parted
 [00:03:57] <_rewind> от ман на fdisk - These days there also is parted.  The cfdisk interface  is  nicer,  but parted  does  much  more:  it not only resizes partitions, but also the  filesystems that live in them.
 [00:04:50] <_rewind> ако целта е да ти бъде по-лесно можеш да бутнеш в някакъв livecd и да resize-неш с gparted
+[00:07:02] <_rewind> и едно готино мнение от hwbg.com по повод инициативата на Моторола:
+[00:07:02] <KacanuH> _rewind, аз пък чакам да се появи читава версия на ubuntu phone,
+[00:07:12] <_rewind> Сори ,ама не мога да се сдържа - не че ползвам смартфон, но и телефоните, които ползвам до сега , кат ги изпусне човек, се разпадаха на 3 части горе долу.
+[00:07:13] <_rewind> Тва като го изпуснеш, ще получиш най готиния хардуерен пъзел (да не кажа скъп)
+[00:07:20] <KacanuH> хахааххахаха
+[00:07:34] <_rewind> :) готин
+[00:08:01] <anton_sh> въщност се опитвам да разиграя изпита все едно...имам виртуалка с един партитион и Мариан иска да направя раид
+[00:08:39] <KacanuH> ресайзваш си партишъна, тоест правиш го по-малък
+[00:08:49] <anton_sh> но май няма как да стане защото parted иска на umount-на партицията
+[00:09:06] <KacanuH> мммм дааа
+[00:09:10] <anton_sh> а това реално се пада партитиона на който е ОС
+[00:09:30] <anton_sh> тоест няма как да ни даде такава ситиация
+[00:09:37] <KacanuH> не си тормози главицата с глупости, на изпита ще го мислим
+[00:10:03] <anton_sh> ааа сега съм седнал да си поиграя.. на изпита за 45мин няма да мога да го измисля
+[00:12:23] <_rewind> всъщност няма как да ресайзнеш жив закачен партишън
+[00:12:57] <_rewind> трябва да бутнеш от друг линукс и да го ресайзнеш разкачен
+[00:13:02] <anton_sh> да наистина няма...утре ще създам виртуалка с два партитион-а и тогава ще се мъча
+[00:13:35] <anton_sh> хайде сега свавам че вече ми идва зор
+[00:13:36] <_rewind> дори и с два да създадеш, няма как да пуснеш райд на вече инсталираната, тъй като нейния партишън трябва да е от тип linux raid
+[00:13:49] <_rewind> или LVM ако си решил да правиш с него
+[00:13:57] <_rewind> лека :)
+[00:14:17] <anton_sh> това накрая не го разбрах
+[00:15:06] <_rewind> само да кажа, ако някой друг се е подготвял за LPIC да знаете, че окончателно отпадна поради окупацията в СУ - http://www.linux-bg.org/cgi-bin/y/index.pl?page=news&id=0&key=461045788
+[00:15:08] <wilindex> [ Линукс за българи: Новини: ВАЖНО! LPI на 2 ноември няма да се проведе ] - www.linux-bg.org
+[00:15:36] <anton_sh> за да създам раид трябва партишъните да са ми от тип linux raid така ли? иначе не става ли
+[00:15:59] <_rewind> anton_sh, да - провери тук:
+[00:15:59] <_rewind> http://en.wikipedia.org/wiki/Partition_type
+[00:16:01] <wilindex> [ Partition type - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[00:16:15] <_rewind> 8е e GNU/Linux
+[00:17:28] <_rewind> Linux RAID е fd
+[00:17:56] <anton_sh> Ясно
+[00:18:00] <_rewind> извинявам се - 8e беше Linux LVM
+[00:18:28] <_rewind> можеш да ги видиш и във fdisk - m за help и l за list partition types
+[00:18:37] <anton_sh> тоест трябва да създам поне три партиции едната с ОС-а и другите две да са от тип linix raid  за райда
+[00:19:00] <_rewind> освен ако не искаш да инсталираш линукс на райд-а
+[00:19:25] <anton_sh> направо ос-а да ти е на райда ли
+[00:19:29] <anton_sh> да мисля че разбрах
+[00:19:54] <anton_sh> благодаря мн
+[00:20:07] <_rewind> да, не знам каква ти е идеята, но - да, ако искаш можеш и да инсталираш линукс-а на райда, например ОС да ти е на RAID1 и така да бъде redundant
+[00:20:20] <_rewind> you're welcome :)
+[00:20:38] <anton_sh> хайде лека за сега от мен
+[00:20:39] <anton_sh> ;)
+[00:21:27] <_rewind> лека и от мен на всички :)
+[00:21:44] Nick change: _rewind -> _rewind|away
+[00:25:05] anton_sh (5ebeb3b9@gateway/web/freenode/ip.94.190.179.185) left irc: Ping timeout: 250 seconds
+[00:25:16] Guest59979 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:42:26] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 264 seconds
+[00:55:33] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:56:30] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[00:59:12] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:00:39] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 240 seconds
