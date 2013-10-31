@@ -86,3 +86,30 @@
 [07:37:38] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
 [08:00:00] Writing user file...
 [08:00:00] Writing channel file...
+[08:06:34] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[08:38:30] Nick change: _rewind|away -> _rewind
+[08:38:46] <_rewind> Добро утро :)
+[08:40:21] <yulimoto> знае ли някой как да сменя conf директорията на апачито. примерно от /etc/httpd/conf на /usr/local/apache/conf
+[08:40:22] <wilindex> yulimoto: 2013-10-30 18:59:16 UTC <dencho> tell yulimoto yulimoto: kak sa kazva?
+[08:40:39] <yulimoto> Добро утро
+[08:42:40] <yulimoto> .tell dencho Не помня име, ако си гледал лекциите по криптография в сайта на iseca там също става въпрос за него. Нещата се въртят нищо чудно сега да има нова версия, но принципа си остава същия
+[08:42:41] <wilindex> yulimoto: I'll pass that on when dencho is around.
+[08:43:50] <_rewind> ако е 2 и нагоре доколкото видях конф. файл е разбит на части
+[08:47:25] <yulimoto> някой пакети като при дебиан са разбити, други май не са
+[08:48:05] <yulimoto> но при мен се случи че си инсталирах от сорс апачито, и ме домързя да правя същото като си инсталирам Php-то
+[08:49:01] <_rewind> ако ти си си го компилирал, гледам в хелп-а на .configure-то, че има --prefix=PREFIX
+[08:49:03] <yulimoto> инсталирах Php от пакет И при инсталацията ми премести httpd.conf и всичко останало conf в /etc/httpd , koeto аз не желая
+[08:49:38] <yulimoto> иначе аз като си го инсталирах всичко ми беше ок, проблема с местенето дойде когато инсталирах пхп-то от пакет
+[08:50:13] <_rewind> ясно, уви не съм се сблъсквал все още с този сетъп, а май трябва, тъй като времето си върви
+[08:50:49] <yulimoto> та се сетих, че щом Php може да премести conf файловете що да не мога и аз да си ги върна и сега търся от къде ли става това.
+[08:53:01] <_rewind> -f config
+[08:53:02] <_rewind>               Uses  the  directives  in  the file config on startup. If config
+[08:53:02] <_rewind>               does not begin with a /, then it is taken to be a path  relative
+[08:53:02] <_rewind>               to the ServerRoot. The default is /etc/apache2/apache2.conf.
+[08:53:36] <_rewind> да не би при инсталация PHP да указва в конфигурациите друго стартиране на апач2
+[08:55:48] <yulimoto> да това е интересно
+[08:55:52] <yulimoto> ще го погледна
+[08:55:56] <yulimoto> мерси
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:01:39] <_rewind> за нищо, някой борил ли се е с митници и освобождаване на пратка

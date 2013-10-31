@@ -112,6 +112,32 @@
 			<div>&nbsp;<span class="time">[07:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
 			<div>&nbsp;<span class="time">[07:31:44]</span>&nbsp;<span class="else_li">&nbsp;yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds</span></div>
 			<div>&nbsp;<span class="time">[07:37:38]</span>&nbsp;<span class="else_j">&nbsp;yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[08:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[08:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[08:06:34]</span>&nbsp;<span class="else_j">&nbsp;lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[08:38:30]</span>&nbsp;<span class="else_n">&nbsp;Nick change: _rewind|away -&gt; _rewind</span></div>
+			<div>&nbsp;<span class="time">[08:38:46]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; Добро утро :)</span></div>
+			<div>&nbsp;<span class="time">[08:40:21]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; знае ли някой как да сменя conf директорията на апачито. примерно от /etc/httpd/conf на /usr/local/apache/conf</span></div>
+			<div>&nbsp;<span class="time">[08:40:22]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; yulimoto: 2013-10-30 18:59:16 UTC &lt;dencho&gt; tell yulimoto yulimoto: kak sa kazva?</span></div>
+			<div>&nbsp;<span class="time">[08:40:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; Добро утро</span></div>
+			<div>&nbsp;<span class="time">[08:42:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; .tell dencho Не помня име, ако си гледал лекциите по криптография в сайта на iseca там също става въпрос за него. Нещата се въртят нищо чудно сега да има нова версия, но принципа си остава същия</span></div>
+			<div>&nbsp;<span class="time">[08:42:41]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; yulimoto: I'll pass that on when dencho is around.</span></div>
+			<div>&nbsp;<span class="time">[08:43:50]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; ако е 2 и нагоре доколкото видях конф. файл е разбит на части</span></div>
+			<div>&nbsp;<span class="time">[08:47:25]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; някой пакети като при дебиан са разбити, други май не са</span></div>
+			<div>&nbsp;<span class="time">[08:48:05]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; но при мен се случи че си инсталирах от сорс апачито, и ме домързя да правя същото като си инсталирам Php-то</span></div>
+			<div>&nbsp;<span class="time">[08:49:01]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; ако ти си си го компилирал, гледам в хелп-а на .configure-то, че има --prefix=PREFIX</span></div>
+			<div>&nbsp;<span class="time">[08:49:03]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; инсталирах Php от пакет И при инсталацията ми премести httpd.conf и всичко останало conf в /etc/httpd , koeto аз не желая</span></div>
+			<div>&nbsp;<span class="time">[08:49:38]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; иначе аз като си го инсталирах всичко ми беше ок, проблема с местенето дойде когато инсталирах пхп-то от пакет</span></div>
+			<div>&nbsp;<span class="time">[08:50:13]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; ясно, уви не съм се сблъсквал все още с този сетъп, а май трябва, тъй като времето си върви</span></div>
+			<div>&nbsp;<span class="time">[08:50:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; та се сетих, че щом Php може да премести conf файловете що да не мога и аз да си ги върна и сега търся от къде ли става това.</span></div>
+			<div>&nbsp;<span class="time">[08:53:01]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; -f config</span></div>
+			<div>&nbsp;<span class="time">[08:53:02]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp;               Uses  the  directives  in  the file config on startup. If config</span></div>
+			<div>&nbsp;<span class="time">[08:53:02]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp;               does not begin with a /, then it is taken to be a path  relative</span></div>
+			<div>&nbsp;<span class="time">[08:53:02]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp;               to the ServerRoot. The default is /etc/apache2/apache2.conf.</span></div>
+			<div>&nbsp;<span class="time">[08:53:36]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; да не би при инсталация PHP да указва в конфигурациите друго стартиране на апач2</span></div>
+			<div>&nbsp;<span class="time">[08:55:48]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да това е интересно</span></div>
+			<div>&nbsp;<span class="time">[08:55:52]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ще го погледна</span></div>
+			<div>&nbsp;<span class="time">[08:55:56]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; мерси</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
