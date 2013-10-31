@@ -502,3 +502,42 @@
 [20:00:00] Writing channel file...
 [20:00:17] <sig_> cgroup s lxc ili se polzvat pootdelno i nezavisimo?
 [20:01:48] <fityla> ако искаш да зададеш въпрос пиши му .. името за да може да види
+[20:07:41] _rewind_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:13:15] Xristo (~Xristo@eduroam-stud.uni-ruse.bg) left irc: 
+[20:14:13] <anton_dutsov> hackman: стриймът прекъсна при мен.
+[20:14:43] <fityla> други
+[20:14:45] <fityla> имат ли проблем?
+[20:14:49] <KacanuH> при мен си работи
+[20:15:38] <hackman> anton_dutsov, ping imash li do twitch ?
+[20:15:40] <hackman> :)
+[20:15:50] <hackman> при другите как е stream-a ?
+[20:15:51] <TPB_> бачка стреама
+[20:15:59] <hackman> produljavame :0
+[20:15:59] <anton_sh> супер
+[20:16:08] <dencho> за сега е ок при мене
+[20:16:09] <mihail_m> ok e
+[20:16:12] <vladisr> OK e
+[20:16:17] <sig_> raboti i pri men
+[20:16:29] <anton_dutsov> hackman: request timeout
+[20:16:39] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 264 seconds
+[20:17:08] <fityla> провери си нета
+[20:17:13] <anton_dutsov> оправи се
+[20:17:38] <anton_dutsov> благодаря
+[20:23:33] <phalaaxx> hackman: има ли вариант да се конфигурира монолитно ядро (без поддръжка за модули) със включени binary драйвери, които по принцип идват като 3rd party модули (nvidia, ati, zfs, някакъв друг необичаен хардуер...)?
+[20:25:30] <_rewind_> phalaaxx: нямаше ли такава gentoo базирана дистрибуция ?
+[20:26:24] informer (~informer@95.111.9.121) joined #telerikacademy.
+[20:26:44] dgeorgiev91 (~UnnamedUs@93-152-129-253.ddns.onlinedirect.bg) joined #telerikacademy.
+[20:28:37] dgeorgiev91 (~UnnamedUs@93-152-129-253.ddns.onlinedirect.bg) left irc: Client Quit
+[20:30:39] dgeorgiev91 (~UnnamedUs@93-152-129-253.ddns.onlinedirect.bg) joined #telerikacademy.
+[20:35:30] dgeorgiev91 (~UnnamedUs@93-152-129-253.ddns.onlinedirect.bg) left irc: Ping timeout: 272 seconds
+[20:36:32] UnnamedUser (~UnnamedUs@93-152-129-253.ddns.onlinedirect.bg) joined #telerikacademy.
+[20:38:26] _rewind_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:41:05] <KacanuH> hackman, да и стреама, лагва като местиш екраните или скролваш
+[20:41:29] UnnamedUser (~UnnamedUs@93-152-129-253.ddns.onlinedirect.bg) left irc: Ping timeout: 272 seconds
+[20:43:23] pinkiePie (~pinkiePie@78.90.46.96) left irc: Ping timeout: 272 seconds
+[20:45:53] pinkiePie (~pinkiePie@78.90.46.96) joined #telerikacademy.
+[20:50:55] informer (~informer@95.111.9.121) left irc: Read error: Operation timed out
+[20:52:31] pinkiePie (~pinkiePie@78.90.46.96) left irc: Ping timeout: 272 seconds
+[20:53:07] pinkiePie (~pinkiePie@78.90.46.96) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
