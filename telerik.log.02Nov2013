@@ -787,3 +787,91 @@
 [16:59:01] <dencho> vuv varna
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:06:28] <anton_sh> Вижте докъде стигам и не знам как да продължа
+[17:06:31] <anton_sh> http://picpaste.com/snapshot1-lIoPwfzf.png
+[17:06:32] <wilindex> [ PicPaste - snapshot1-lIoPwfzf.png ] - picpaste.com
+[17:08:43] <dencho> HAHAHAHA
+[17:09:04] <rewind_mobile> дай му use entire drive
+[17:09:50] <anton_sh> emi da ama naprawo zapochva instalaciqta
+[17:09:56] <anton_sh> dneska go dadoh 5 pati sig veche
+[17:11:09] <anton_sh> ako nqkoi  mu se zanimava moga da mu dam dostap prez team viwer da probva eventualno zashtoto opitah hilqda nachina i ne uspqvam
+[17:12:05] <rewind_mobile> ок, пробва ли със use free space, позволява ли ти да избираш partition table
+[17:12:47] <anton_sh> ne
+[17:12:55] <anton_sh> ne stava
+[17:12:58] <anton_sh> opitah i tova
+[17:13:10] <rewind_mobile> още не съм стигнал, но ще го тествам с минимал у дома, след 20-на минути
+[17:13:27] <yulimoto> anton_sh: spored men не е от това
+[17:13:38] <anton_sh> ne e ot koe?
+[17:13:40] <yulimoto> чакай 5 минути да пробвам нещо
+[17:13:49] <yulimoto> да не приказвам на хаос
+[17:13:56] <anton_sh> ok
+[17:14:10] <anton_sh> az opitvam s net instaliation samo da kaja...s min se otkazah nqma nadejda tam
+[17:15:12] <yulimoto> според мен vdi + този центос не се разбират добре, но сега го опитам
+[17:15:59] <anton_sh> shte svalq drug soft ako se nalaga
+[17:16:15] <anton_sh> to sig samo tova ne sam opitval
+[17:17:04] <anton_sh> makar che do kolkoto si spomnqm na izpita shte badem s virtual PC az zatova i go izpolzvam nego
+[17:20:59] <yulimoto> значи може ли като създаваш vrtualbox image-a да не бъде vdi, a vdd примерно
+[17:21:19] <yulimoto> или по-добре изчакай да стигна до там за да знаем да не те объркам
+[17:21:32] <yulimoto> при мен е мн бавно сори
+[17:22:01] <anton_sh> nqmam vdd
+[17:22:30] <yulimoto> то не беше vdd
+[17:22:36] <anton_sh> imam samo vdi, vmdk, vhd,hdd,qed,qcow
+[17:22:38] <yulimoto> беше vd нещо си
+[17:22:49] <yulimoto> virtual hard drive
+[17:22:53] <anton_sh> ok
+[17:22:54] <yulimoto> aa
+[17:22:58] <yulimoto> vhd
+[17:22:58] <anton_sh> testvam vednaga
+[17:24:35] <yulimoto> sega дори може да те пусне в графичната среда
+[17:24:51] <yulimoto> моля те оглеждай се за custom layout
+[17:25:13] <anton_sh> oglejdam se
+[17:25:15] <anton_sh> D:
+[17:25:37] <yulimoto> pusna ли те в графична среда между другото ?
+[17:26:00] <anton_sh> ne
+[17:26:04] <yulimoto> хм
+[17:26:05] <anton_sh> i nqma rezultat
+[17:26:27] <anton_sh> pri men stava mn barzo iskash li da pusnem edin team viewer
+[17:26:31] <anton_sh> da testvash
+[17:27:57] <yulimoto> какво стана при теб
+[17:28:03] <yulimoto> при мен се получава
+[17:28:16] <yulimoto> няма team viever
+[17:28:22] <yulimoto> viewer
+[17:29:08] <anton_sh> stana li?
+[17:29:10] <anton_sh> pri men ne
+[17:29:40] <yulimoto> ами аз стигам до там да си форматирам харддиска т.е. стаава
+[17:29:47] <yulimoto> чудя се при теб защо не ще
+[17:29:59] <anton_sh> toi ne trqbva da se instalira samo  trqbva da se svali i run-va bez instalacia
+[17:30:07] <anton_sh> ako iskash da go probvame za da vidq kakvo tochno pravish
+[17:30:31] <yulimoto> трябва да тегля teamviewer
+[17:30:33] <yulimoto> чакай
+[17:30:46] <anton_sh> da go puskam i i az da se tegl?
+[17:36:14] <yulimoto> какво става
+[17:36:40] <yulimoto> оправи ли го
+[17:36:44] <anton_sh> ne razbrah da svalqm li team-a?
+[17:36:59] <yulimoto> аз го свалих
+[17:37:00] <anton_sh> ne
+[17:37:26] <yulimoto> според мен са настройките на шибания virtual box
+[17:37:40] <anton_sh> no ne se opravih
+[17:37:40] <anton_sh> i az taka si mislq
+[17:37:44] <anton_sh> sega i az go svalqm izchakai sekunda
+[17:37:49] <yulimoto> хмм
+[17:37:57] <yulimoto> интересно защо така се получава
+[17:43:53] <yulimoto> denchooooouuuuu
+[17:44:14] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[17:46:01] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 240 seconds
+[17:46:56] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[17:47:52] <yulimoto> dencho: в зала варна има раздума за zfs на bsd хора
+[17:48:36] <yulimoto> раздумка*
+[17:51:32] <anton_sh> yulimoto:  dnes ne mi e den.. sega pak team Viewer-a se zapaka
+[17:51:35] <anton_sh> yulimoto:  dnes ne mi e den.. sega pak team Viewer-a se zapava
+[17:51:47] <yulimoto> хаха
+[17:51:48] <yulimoto> остава
+[17:51:53] <yulimoto> остави тогава
+[17:52:30] <yulimoto> но при мен този проблем за който говориш ми се оправи просто като избрах vhd във виртуалката
+[17:52:35] <yulimoto> не знам при теб какво става
+[17:52:49] <anton_sh> opravih go team-a
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:48] rewind_mobile (~rewind@85.118.193.160) left irc: Ping timeout: 272 seconds
+[18:01:17] agit0o (5f6f128c@gateway/web/freenode/ip.95.111.18.140) joined #telerikacademy.
+[18:01:56] agit0o (5f6f128c@gateway/web/freenode/ip.95.111.18.140) left irc: Client Quit
