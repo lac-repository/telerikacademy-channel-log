@@ -298,3 +298,97 @@
 [12:03:33] <dencho> are si napraim
 [12:04:00] <yulimoto> изпуснах началото и ся ме мързи къде ще търся кънекшънс, рекомендс и т.н.
 [12:04:10] <dencho> yulimoto mislq, 4e momi4eto s 4erveniq pulover e [12:08:40] * MiReTo_F14 (~sexy@5.53.170.239)
+[12:05:02] <yulimoto> как го реши ве
+[12:05:05] <yulimoto> Ф14
+[12:05:18] <yulimoto> това създание там е поне Ф24
+[12:05:39] <yulimoto> не ме пращай в гората моля те
+[12:06:08] <dencho> hahaha
+[12:06:08] <dencho> :D
+[12:07:38] <dencho> galeriikata sprq li ?
+[12:08:09] AndChat|579921 (~AndChat57@212.5.158.67) joined #telerikacademy.
+[12:08:11] Deyan_mobile (~AndChat57@212.5.158.67) left irc: Read error: Connection reset by peer
+[12:08:36] Nick change: AndChat|579921 -> Deyan_mobile
+[12:08:52] <yulimoto> dencho: слушай музиката в варна
+[12:08:57] <yulimoto> сега почна ново парче
+[12:09:08] <yulimoto> и се надъхай
+[12:09:30] <dencho> hahaha
+[12:09:37] <dencho> v galeriikta e bg nqkakva
+[12:09:38] <dencho> :D
+[12:09:44] <yulimoto> момичето избега ве
+[12:09:48] <yulimoto> някой да не и каза
+[12:10:02] <yulimoto> някой ме предаде
+[12:10:48] <rewind_mobile> Някой ще гледа ли Tizen ?
+[12:11:42] <yulimoto> бас въртя че музиката е взета Васил Колев
+[12:11:43] <dencho> kvo e laiting tolk we?
+[12:11:44] <dencho> hahaha
+[12:11:47] <dencho> HAHAAHAHHA
+[12:11:49] <dencho> doooobre
+[12:11:50] <dencho> :D
+[12:11:55] <yulimoto> хахаха
+[12:11:58] <yulimoto> питай вики
+[12:12:00] <yulimoto> хаха
+[12:12:19] <yulimoto> 5 минутни говорения за който иска
+[12:12:19] AndChat|579921 (~AndChat57@212.5.158.93) joined #telerikacademy.
+[12:12:19] <rewind_mobile> моля ако някой гледа да казва ако изчезне стрийма
+[12:12:36] <dencho> rewind_mobile v koq zala?
+[12:12:46] <rewind_mobile> Галерия
+[12:13:02] <yulimoto> rewind_mobile: ти да не си на камерата
+[12:13:03] <rewind_mobile> че нещо спира от време на време
+[12:13:04] <fityla_> На живо е ок
+[12:13:05] <yulimoto> :)
+[12:13:14] <rewind_mobile> хахха :-)
+[12:13:24] <dencho> aa to bilo taizan
+[12:13:25] <dencho> :D
+[12:13:31] <yulimoto> fityla_: то остава да ти сече на живо ще трябва да те водим на чичко доктор
+[12:13:43] <rewind_mobile> :-D
+[12:13:51] <fityla_> Нак вече
+[12:14:02] <fityla_> Или центровка
+[12:14:10] <yulimoto> :)
+[12:14:22] <yulimoto> бегам да разгледам другите стриймове
+[12:15:04] <fityla_> Оки
+[12:15:06] Deyan_mobile (~AndChat57@212.5.158.67) left irc: Ping timeout: 240 seconds
+[12:15:58] AndChat|579921 (~AndChat57@212.5.158.93) left irc: Read error: Connection reset by peer
+[12:19:46] <dencho> yulimoto kvo gleda6 we?
+[12:21:42] <yulimoto> civic hacking ма няма ти хареса
+[12:22:59] <yulimoto> ма са чудя дали да не си го пусна бекграунд и да почна си подкарвам Php на nginx че да пусна и squirrelmail
+[12:23:21] <yulimoto> т.е. да слушам само лекциите
+[12:24:08] <dencho> :D
+[12:24:24] <dencho> az mislq da si izmiq 4iniite
+[12:24:24] <dencho> :
+[12:24:25] <dencho> :D
+[12:25:49] <yulimoto> haha аз чистих сутринта бързах да сколасам ;)
+[12:26:55] <rewind_mobile> yulimoto, това и аз исках да го направя със squirrelmail
+[12:28:02] <yulimoto> ми аз го имам на апачи
+[12:28:25] <yulimoto> обаче сега искам да го сложа на компа дето е маилсървъра
+[12:28:47] <yulimoto> но squirrelmail ме кефи повече от другите маил веб клиенти
+[12:29:11] <yulimoto> поне тия дето съм гледал cube mail и т.н.
+[12:34:19] <dencho> roundcube e po qko we
+[12:34:19] <dencho> :D
+[12:34:25] <rewind_mobile> ти на шива ли ще го инсталираш?
+[12:35:13] <yulimoto> dencho: roundcube е супер не яко ;P
+[12:35:41] <yulimoto> rewind_mobile: да, ама ша го местя от един сървър дето беше преди това :)
+[12:37:52] <rewind_mobile> това има ли толкова вътък... :-)
+[12:40:02] <yulimoto> ма то ша има 10-20 пощи. най-много 2-ма аре трима клиента онлайн. family история :)
+[12:40:57] <yulimoto> ба аз и nodejs site ша слагам ... 7 заявки в секунда ша обслужва ;)
+[12:42:19] <yulimoto> тоя от CiviC Hacking големи глупости извади от джоба си
+[12:42:32] <dencho> pod gluposti kvo se razbira :D
+[12:42:36] <fityla_> Защо
+[12:43:47] <rewind_mobile> по принцип се бях ориентирал към RPi, но сега се озовоах горд притежател на един лаптоп с полусчупен чипсет, който като запали веднъж работи кат' пич и май ще се задоволя с него... засега
+[12:45:05] <dencho> kvo :D
+[12:45:43] <yulimoto> fityla_: dencho : защото в индия имало capcha services (живи хора пишат capchata) за теб, а ти можело да го направиш в някакво село в България и да даваш на някакви пенсионери по 300лв. и те не били роби
+[12:46:27] <dencho> da
+[12:46:29] <dencho> tva go znam :D
+[12:46:45] <dencho> hahaha
+[12:47:02] <dencho> trudno moje da kaje6 na pensioner da pi6e captchata hahahah
+[12:49:24] <yulimoto> ми той щял да ги обучи, но тук проблема е друг, да караш човек да пише capcha e сбъркано изобщо в основата, пък после да го убеждаваш че не е роб щото му даваш 300 лв за това е още по-сббъркано според мен
+[12:50:14] <dencho> 4udna rabota
+[12:50:15] <dencho> :D
+[12:53:56] <yulimoto> rewind_mobile: ми лаптоп е също много добро, пък 2014 ще излезат платки на allwiners а31
+[12:53:59] <yulimoto> qqq
+[12:54:05] <yulimoto> mariqn ще играе
+[12:54:23] <yulimoto> мариян е с чевена розово-червена шапка ли ?
+[12:54:37] <rewind_mobile> тъкмо до тогава ще е умрял напълно чипсета
+[12:55:11] <yulimoto> ми направо ще си имаш 4 кор нещо си :)
+[12:56:37] <dencho> yulimoto da :D rozova sqka6
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
