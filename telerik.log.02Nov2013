@@ -157,3 +157,144 @@
 [11:04:01] phalaaxx (~phalaaxx@212.5.158.65) left irc: Read error: Connection reset by peer
 [11:04:01] <fityla_> Idvash li
 [11:04:31] phalaaxx (~phalaaxx@212.5.158.65) joined #telerikacademy.
+[11:05:01] <fityla_> Pred tv li si
+[11:05:06] <phalaaxx> vyv zala Varna sme
+[11:05:43] <fityla_> Kak se stiga do neq
+[11:06:09] <phalaaxx> ot liavo sled kamerata pced kolonata
+[11:06:20] rewind_mobil1 (~rewind@2a01:288:4000:18:fadb:7fff:fe7d:acad) left irc: Ping timeout: 252 seconds
+[11:06:35] <fityla_> Dobre namerih q
+[11:06:37] <phalaaxx> izlizash prez vratata i po stylbite
+[11:06:56] <fityla_> Na vrata sym
+[11:07:37] <yulimoto> това със записа на лекциите няма да стане, защото не прекъсват стрийма при отделните лекции
+[11:08:32] <dencho> mi 6a zapi6e6 celia den i posle 6te gi otreje6 we yulimoto we
+[11:08:33] <dencho> :D
+[11:09:54] <yulimoto> a ве аз мога да записва и моя си стрийм при това качеството не е лошо, ама те са си решили по друг начин да стават нещата :)
+[11:10:00] <fityla_> Da mojesh...
+[11:10:16] <fityla_> Ako mojeah...
+[11:10:48] <yulimoto> другия вариант е rtmpdump на гризли и от там да помпам стрийма направо във файл и после конверт към ави
+[11:10:52] <yulimoto> avi*
+[11:11:06] phalaaxx (~phalaaxx@212.5.158.65) left irc: Read error: Connection reset by peer
+[11:11:32] phalaaxx (~phalaaxx@212.5.158.65) joined #telerikacademy.
+[11:11:32] <yulimoto> ама предполагам че тази работа ще я вършат от опенфеста и няма смисъл да дублираме, при това моето ще бъде с по-лошо качесто
+[11:11:36] <yulimoto> качество*
+[11:12:41] <fityla_> Bsd se prepylni zalata
+[11:15:18] Deyan_Mobile (~AndChat57@82.147.138.46) joined #telerikacademy.
+[11:15:22] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[11:16:14] AndChat|579921 (~AndChat57@212.5.158.67) joined #telerikacademy.
+[11:19:32] Deyan_Mobile (~AndChat57@82.147.138.46) left irc: Ping timeout: 248 seconds
+[11:22:38] <dencho> gledm na bsd-to ima nqkakvo mome otprede
+[11:22:39] <dencho> :D
+[11:25:28] rewind_mobile (~rewind@85.118.193.160) joined #telerikacademy.
+[11:25:44] <yulimoto> да гледам пак се обясняват chroot и containers t.e. jails za bsd
+[11:25:55] <AndChat|579921> Kak ste mutri
+[11:26:07] <yulimoto> phalaaxx какво направи дали спечели състезанието
+[11:26:22] <yulimoto> той е тренирал цяла нощ
+[11:27:00] <AndChat|579921> Kakwo състезание
+[11:27:09] <phalaaxx> ne sym se probval :)
+[11:27:25] Nick change: AndChat|579921 -> Deyan_mobile
+[11:27:30] <fityla_> Прави хал
+[11:27:30] <yulimoto> еййй изсъхнаха ми ръцете да стискам палци
+[11:27:44] <yulimoto> да беше казал че не си се пуснал на състезанието ;P
+[11:27:46] <fityla_> Хак*
+[11:27:54] <rewind_mobile> phalaaxx, кой IRC  client ползваш за андроид
+[11:28:36] <phalaaxx> AndChat
+[11:28:59] <Deyan_mobile> И аз съм с него
+[11:30:17] AndChat-205625 (~AndChat20@82.147.138.40) joined #telerikacademy.
+[11:32:00] <yulimoto> ба стрийма прекъсна
+[11:32:11] <dencho> da
+[11:32:14] <dencho> bsd-to umrq
+[11:32:24] <dencho> q nqkoi da ida da plesne kamerata
+[11:32:44] Action: dencho slaps fityla_ around a bit with a large trout
+[11:32:53] <yulimoto> мисля че един човек който мина прекъсна кабела с краче :P
+[11:33:09] <dencho> fityla_ predai mnogo pozdravi na mometo ot purvia red ot yulimoto :D
+[11:33:16] <dencho> i fix-ni stream-a
+[11:33:17] <dencho> aaa
+[11:33:18] <dencho> trugna
+[11:33:19] <dencho> :D
+[11:33:23] <yulimoto> da
+[11:33:29] fityla_ (~AndChat20@85.118.193.163) left irc: Read error: Connection reset by peer
+[11:34:23] <AndChat-205625> Сега да проверим мрежата
+[11:35:51] <yulimoto> dencho виде ли  го тоз как щеше да ни закрие гледката ве ?
+[11:37:32] <yulimoto> dencho: започна ли ти да сече  ?
+[11:38:53] <dencho> haha
+[11:38:56] <dencho> za sq nqmam problemi az
+[11:38:57] <dencho> :D
+[11:39:15] <rewind_mobile> спирай микровълновата веднага :-)
+[11:39:16] <dencho> toq ako o6te edin put se pokaje na kamerata 6a ida da go plesna zad vrata
+[11:39:17] <dencho> :D
+[11:39:40] <dencho> a tva momi4e da ne bi da e oburkalo Interpred s ofisa na Oriflame we?
+[11:39:41] <dencho> :D
+[11:42:19] <AndChat-205625> Кое бре
+[11:43:15] <dencho> e tva na purvia stol ot dqsno we
+[11:43:52] <AndChat-205625> Хехех
+[11:44:03] <AndChat-205625> веднага я огледахъе
+[11:44:09] <AndChat-205625> Всички..
+[11:44:11] <Deyan_mobile> Това на първия ред, идвам на bsd да го видя
+[11:44:39] phalaaxx1 (~phalaaxx@212.5.158.65) joined #telerikacademy.
+[11:44:40] phalaaxx (~phalaaxx@212.5.158.65) left irc: Read error: Connection reset by peer
+[11:44:49] <dencho> haha
+[11:45:10] <dencho> Deyan_mobile idi i go pitai kolko e 4esa?
+[11:45:11] <dencho> :D
+[11:45:40] fityla_ (~AndChat20@85.118.193.175) joined #telerikacademy.
+[11:45:47] <dencho> fityla_ q pomahai na kamerata we
+[11:45:47] <dencho> :D
+[11:46:08] <fityla_> А не ще ме бият
+[11:46:35] <fityla_> Точно зад камерата съм
+[11:46:59] <yulimoto> fityla_: почеши се по главата бре, ама мини пред камерата
+[11:47:11] <dencho> fityla_ koi 6ta bie we?
+[11:47:15] <Deyan_mobile> Hahah
+[11:47:23] <dencho> nali Deyan_mobile e tam... :D
+[11:47:25] <fityla_> Има кой...
+[11:47:29] <dencho> be ima :D
+[11:47:35] <dencho> ZA PARI
+[11:47:36] <dencho> !
+[11:47:45] <dencho> q pa ti!
+[11:47:53] <dencho> HAHAHAHAHHA
+[11:47:56] <dencho> az ne sam v 4as!
+[11:48:24] <dencho> ama kak da kaja na kolejkata ot marketing-a 4e apple-a e bsd :D
+[11:48:57] <dencho> fityla_ are deistvai
+[11:49:07] <yulimoto> а ве кажи и че чичко джобс е ИТ ахмед доган и тогава вече ще те нампрази
+[11:49:20] <yulimoto> fityla_: аре пред камерата
+[11:49:24] AndChat-205625 (~AndChat20@82.147.138.40) left irc: Ping timeout: 245 seconds
+[11:49:53] <yulimoto> сега в паузата ще може да направиш малко шоу
+[11:49:56] <yulimoto> ;P
+[11:50:28] <dencho> hahaha
+[11:50:41] <yulimoto> aaa dencho една дама в червено видя ли ?
+[11:51:02] <dencho> vidqh q
+[11:51:17] <dencho> ama tiq muziki ot kade gi zemat ne znam
+[11:51:18] <dencho> :D
+[11:51:36] <yulimoto> еее искат да ни надъхат ве
+[11:51:42] <dencho> haha
+[11:51:47] <dencho> sq koi kvo 6te gleda?
+[11:51:49] <yulimoto> да чувстваме пауъра
+[11:52:00] <dencho> mqtt tva za pruv put go 4uam, Tizen-a mai 6te e interesno su6to
+[11:52:01] <yulimoto> аз ша гледам май тизен
+[11:52:30] <dencho> to i dvete sa interesni sqka6 :D
+[11:54:00] <yulimoto> мдааа и трите даже
+[11:54:42] <fityla_> Местим се в галерия
+[11:55:25] <dencho> tizen :D
+[11:55:47] <fityla_> Да
+[11:56:14] <dencho> ne ne... 6te go pitam az marian ot de sa q zeli taq muzika :D
+[11:56:20] <yulimoto> Ако знам че Mqtt е като БАТМАН ще го гледам
+[11:56:30] <dencho> hahaha
+[11:56:35] <yulimoto> що ве да не се надъха
+[11:57:04] <dencho> moje6e da idem na bsd sertifikaciata
+[11:57:32] <yulimoto> хаха аз бсд съм си инсталирал и го държах мисля 2 седмици
+[11:57:38] <yulimoto> не че е лошо
+[11:58:20] <yulimoto> dencho може да направиш един курс по фреебсд, аз ще съм ти единствения ученик
+[11:58:53] <yulimoto> ще ми пускаш домашни, които да си проверявам сам и да си ги оценям self peer review !!!
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:21] <yulimoto> някой ще отиде ли да пита момиченцето с червения пуловер в зала Варна дали има месинджър или присъствие в някоя от социалните мрежи ?
+[12:00:25] <yulimoto> от мое име
+[12:02:04] <dencho> hahahahhaa
+[12:02:31] <dencho> az 6a si praa linkedin sq
+[12:02:31] <dencho> :D
+[12:02:34] <dencho> tiq 4asove
+[12:02:35] <dencho> D:
+[12:02:47] <yulimoto> ейй браво
+[12:03:15] <dencho> ti ima6 li?
+[12:03:21] <yulimoto> не
+[12:03:33] <dencho> are si napraim
+[12:04:00] <yulimoto> изпуснах началото и ся ме мързи къде ще търся кънекшънс, рекомендс и т.н.
+[12:04:10] <dencho> yulimoto mislq, 4e momi4eto s 4erveniq pulover e [12:08:40] * MiReTo_F14 (~sexy@5.53.170.239)
