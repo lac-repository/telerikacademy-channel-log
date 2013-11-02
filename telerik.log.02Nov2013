@@ -981,3 +981,86 @@
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
 [22:00:36] <_rewind> и тока
+[22:10:46] <fityla> е ток нямаш ли в мазето
+[22:12:47] <_rewind> в много от мазетата има само фасонга (без крушка) и мишки...
+[22:12:52] <_rewind> и разбита врата
+[22:12:56] <_rewind> това примерно
+[22:15:11] <fityla> ясно..
+[22:15:48] <fityla> някой играл ли си е с това
+[22:15:51] <fityla> DriveDroid
+[22:16:09] Nick change: ndyakov|away -> ndyakov
+[22:17:23] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[22:17:48] <fityla> гледах...
+[22:18:18] <fityla> с това можеш да си качиш боот сд на телефона
+[22:18:33] <yulimoto> и на телефона ли бутваш
+[22:18:43] <fityla> windows/linux
+[22:18:51] <fityla> не за инстал
+[22:19:03] <fityla> вместо флашка
+[22:19:53] <fityla> https://play.google.com/store/apps/details?id=com.softwarebakery.drivedroid&hl=en
+[22:19:55] <wilindex> [ DriveDroid - Android Apps on Google Play ] - play.google.com
+[22:20:13] <fityla>  Description    * This application requires root * DriveDroid allows you to boot your PC from ISO/IMG files stored on your phone. This is ideal for trying Linux distributions or always having a rescue-system on the go... without the need to burn different CDs or USB pendrives. The paid version of DriveDroid does not include ads and helps the developer.  DriveDroid also includes a convenient download menu where you can downloa
+[22:20:22] <yulimoto> тъкмо това четях
+[22:21:05] <fityla> аз търсих,, да кача 3 неща на една флашка
+[22:21:16] <yulimoto> добре как се връзва към компютъра телефона
+[22:21:23] <fityla> windows 7, linux и hiren
+[22:21:40] <fityla> кабел
+[22:21:46] <fityla> явно
+[22:22:02] <yulimoto> ааа аз се размечтах
+[22:22:19] <fityla> e boisa
+[22:22:20] <yulimoto> аз помислих че прави телефона на tftp или нещо от сорта
+[22:22:29] <fityla> едва ли ти е толкова умен
+[22:22:57] <yulimoto> помислих че ша караме компа да бутва по мрежата
+[22:23:04] <yulimoto> от телефона
+[22:23:10] <fityla> Requirements: * Root * USB cable (from phone to PC)
+[22:24:53] <fityla> по скоро ще си кача всичко в една флашка,..
+[22:25:10] <fityla> дано се разбере ... с боота'
+[22:25:55] <yulimoto> дайте да напрайм телефон tftp server + wake on и когато телефона влезе в домашната мрежа. пуска wake-on paket и компа тръгва после, ако сме го отменали като необходимо зарежда ядро от servera-телефон, когато излезе от мрежата пък да има опция за изгасяне посред
+[22:26:39] <yulimoto> да ве поне с wake-on и гасенето ako se измисли приложение поне hackman ще ни е потребител ;ь
+[22:26:51] <fityla> има сървър за андроид
+[22:28:07] <yulimoto> :)
+[22:29:12] <yulimoto> приложението ще се ползва от админите, представете си какъв пауър ще изпита админ, който като влиза в офиса всички компове тръгват.
+[22:29:27] <yulimoto> Един вид знаят кой е шефа на компютрите
+[22:32:25] <yulimoto> а всъщност то вече имало доса https://play.google.com/store/search?q=wake%20onlan
+[22:32:26] <wilindex> [ wake onlan - Android Apps on Google Play ] - play.google.com
+[22:32:28] <yulimoto> доста*
+[22:33:52] <fityla> da
+[22:37:24] <yulimoto> а ве да ви питам nginx наистина ли има подкарва php само  fastCGI
+[22:37:32] <yulimoto> или аз съм разбрал грешно
+[22:38:27] <yulimoto> не може ли обикновено дето се вика модулче да се подкара ;ь
+[22:41:58] <fityla> http://getapk.co/details/genius.mohammad.httpserver
+[22:42:00] <wilindex> [ HTTP Server 1.0 apk free download cracked ] - getapk.co
+[22:42:10] <fityla> ето сървър за андроида
+[22:42:17] <fityla> ако ползате андродида
+[22:42:21] <fityla> AirDroid
+[22:42:25] <fityla> е много готинва програма
+[22:42:30] <fityla> през wireless-a
+[22:42:40] <fityla> се връзваш в телефона и можеш да го оправляваш
+[22:42:42] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 245 seconds
+[22:43:24] <fityla> http://getapk.co/details/com.icecoldapps.serversultimatepro
+[22:43:26] <wilindex> [ Servers Ultimate Pro apk free download cracked ] - getapk.co
+[22:43:30] <fityla> ето още един
+[22:56:04] <_rewind> за много исо-та на една флашка ми е любимо ето това:
+[22:56:04] <_rewind> http://www.pendrivelinux.com/multiboot-create-a-multiboot-usb-from-linux/
+[22:56:10] <wilindex> [ MultiSystem – Create a MultiBoot USB from Linux | USB Pen Drive Linux ] - www.pendrivelinux.com
+[22:57:37] <_rewind> а това с WOL го има в повечето фърмуери за домашен AP+рутер като томато или DD-WRT
+[22:58:37] <_rewind> но не е лоша идея за ап на телефона, все пак сега трябва да се логна в рутера и от там да дам WOL за да събудя PC-то
+[22:59:06] <_rewind> другия вариант да си направя алиас със ether-wake -b xx:xx:... мак адреса му, но това ще е до следващия рестарт на рутера :)
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:01:12] <fityla> аз съм с dd-wrt-то
+[23:01:14] <fityla> :D
+[23:01:18] <fityla> и така действам
+[23:01:43] <fityla> иначе момчета в хардуера пуснах тема
+[23:01:50] <fityla> и ме побутнаха
+[23:01:50] <_rewind> готино е :)
+[23:01:51] <fityla> със ..
+[23:02:19] <fityla> http://www.winsetupfromusb.com/supported-sources/
+[23:02:21] <wilindex> [ WinSetupFromUSB Supported Sources ] - www.winsetupfromusb.com
+[23:02:25] <fityla> с това и още 2-3
+[23:02:34] <fityla> аз го ползвам това ..ама в новата версия има вече..
+[23:02:40] <fityla> да добавяш ..
+[23:02:44] <fityla> няколко
+[23:03:28] <yulimoto> сега кажете за nginx php-fpm ще върши ли работа ?
+[23:04:47] <fityla> да едното мнение беше точно
+[23:04:51] <fityla> Yumi
+[23:04:58] <fityla> да не си писал ти в хардуера
