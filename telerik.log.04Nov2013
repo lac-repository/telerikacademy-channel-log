@@ -155,3 +155,17 @@
 [15:00:00] Writing channel file...
 [15:00:33] <_rewind> Мдаа, тази мацка беше много добра, по едно време жена ми ми затвори устата, вероятно не съм изглеждал по-различно от физиономиите отдясно :)
 [15:00:37] <_rewind> А и здравейте :)
+[15:14:18] <MoHu> хахах, култова снимка
+[15:15:46] <MoHu> много добре се връзва с въпроса за социалния живот и маркетинга
+[15:19:45] <fityla> да да..
+[15:21:50] <yulimoto> връзва се и с "най-често посещавани сайтове" на оня младеж дето си забрави броузера :ь
+[15:23:39] <MoHu> това кога е било на ЛТ
+[15:26:46] <yulimoto> мда, всъщност от камерата не се виждаше добре, но имаше люде които веднага да споделят какво се вижда :)
+[15:32:15] anton_dutsov (~Thunderbi@89.106.112.247) joined #telerikacademy.
+[15:43:56] <_rewind> е, то беше супер забавно това :) подсети ме за този бъзик за почитателите на WoW - http://gizmodo.com/5588083/customers-who-bought-male-masturbator-kit-also-bought
+[15:43:58] <wilindex> [ Customers Who Bought the Male Masturbator Kit Also Bought... ] - gizmodo.com
+[15:59:49] <phalaaxx> не знам що ма някак много ме кефят ей такива работи
+[15:59:53] <phalaaxx> for qid in $(mailq | grep nagios -B2 | grep MAILER-DAEMON | cut -d' ' -f1); do postsuper -d $qid; done
+[15:59:54] <phalaaxx> :D
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
