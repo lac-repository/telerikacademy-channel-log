@@ -740,3 +740,123 @@
 [21:00:00] Writing channel file...
 [21:01:06] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 244 seconds
 [21:01:13] hackman (~hackman@2001:67c:20d0:3a:e0f1:52ad:91bb:e860) left irc: Ping timeout: 245 seconds
+[21:09:56] <anton_sh> Някой отворен към въпроси
+[21:10:15] <anton_sh> защото колкото повече чета толкова повече изникват
+[21:13:22] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) joined #telerikacademy.
+[21:13:45] Nick change: hackman -> Guest1359
+[21:15:30] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[21:16:00] fityla_ (54287492@gateway/web/freenode/ip.84.40.116.146) left irc: Quit: Page closed
+[21:16:47] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[21:17:41] <_rewind> anton_sh, стреляй, тъкмо и аз се заравям
+[21:17:49] <_rewind> в четене след лекцията
+[21:18:02] <anton_sh> след лекциата ли?
+[21:18:10] <anton_sh> каква лекция
+[21:20:40] <_rewind> hakman води лекция всяка сряда във ФМИ по Мрежова Сигурност
+[21:20:56] <anton_sh> аха ясно
+[21:21:13] <_rewind> http://forums.academy.telerik.com/122408/%D0%BC%D1%80%D0%B5%D0%B6%D0%BE%D0%B2%D0%B0-%D1%81%D0%B8%D0%B3%D1%83%D1%80%D0%BD%D0%BE%D1%81%D1%82-i-%D0%B2%D1%8A%D0%B2-%D1%84%D0%BC%D0%B8
+[21:21:13] <wilindex> [ Мрежова Сигурност I във ФМИ - Telerik Academy Forums ] - forums.academy.telerik.com
+[21:21:22] <anton_sh> виж сега до какво положения я докарах
+[21:21:38] <anton_sh> инсталирах си апаче и bind
+[21:21:55] <yulimoto> .tell fityla_ http://www.youtube.com/watch?v=6jgjk3DsN7c
+[21:21:56] <wilindex> yulimoto: I'll pass that on when fityla_ is around.
+[21:21:59] <wilindex> [YouTube] Title: Angry ram vs rider - He's back & angrier than ever - RAMCAM edition - | Uploader: Buddhanz1 | Uploaded: 08/09/2013, 05:57 | Duration: 3mins 22secs | Views: 189,540 | Comments: 153 | Likes: 703 | Dislikes: 26
+[21:22:22] <anton_sh> и идеята ми е да подкарам dnes server
+[21:22:28] Guest1359 (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) left irc: Ping timeout: 245 seconds
+[21:22:42] <anton_sh> за даден домаин
+[21:22:48] <anton_sh> например myhost.com
+[21:23:28] <anton_sh> уж настроих bind-a но не знам как да го тестжам
+[21:23:39] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:25:10] <_rewind> с host и dig
+[21:25:21] <anton_sh> опитах се да написша firefox http://myhost.com обаче ми пише cannot open display
+[21:25:22] <wilindex> [ My Host - Online Hosting - Copy righting - Licensing - Storage ] - myhost.com
+[21:25:53] <_rewind> а каква ти е настройката в resolv.conf ?
+[21:26:20] <anton_sh> nameserver 127.0.0.1
+[21:26:56] <_rewind> ок, а dig @127.0.0.1 myhost.com какво връща
+[21:27:13] <_rewind> и връща ли answer section ?
+[21:28:25] <_rewind> предполагам вече си проверил дали bind и apache са стартирали ?
+[21:28:34] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[21:28:50] <anton_sh> http://picpaste.com/snapshot2-GVqls1ww.png
+[21:28:50] <wilindex> [ PicPaste - snapshot2-GVqls1ww.png ] - picpaste.com
+[21:29:09] <anton_sh> да стартирани са
+[21:29:18] <fityla> трябваеше по рано да кажем да рестартира
+[21:30:30] <anton_sh> по този резултат който ми връща dig сякаж работи
+[21:30:32] <anton_sh> нали?
+[21:31:14] Fairytale_ (4d4675a9@gateway/web/freenode/ip.77.70.117.169) left irc: Quit: Page closed
+[21:31:15] <yulimoto> дай едно по едно, първо го виж на процесите, после на netstat
+[21:31:28] <yulimoto> после вече проверявай за конкретната конфигурация
+[21:31:44] <_rewind> диг ти е дал само question section - нямаш answer
+[21:32:06] <_rewind> казал ти е кой DNS е питал, но от там нататък нямаш отговор
+[21:33:32] <_rewind> http://pastebin.com/BdutpYSK
+[21:33:35] <wilindex> [ dig @8.8.8.8 owncloud.xkbit.info ; <<>> DiG 9.8.2rc1-RedHat-9.8.2-0.17.rc1.el - Pastebin.com ] - pastebin.com
+[21:33:43] <_rewind> ето пример с работещ хост и със dig
+[21:34:21] <_rewind> имаш question секция, след което имаш отговор, в който пише, че ауторитейтив днс за тоя хост е този адрес
+[21:34:26] <_rewind> под answer section
+[21:35:15] <anton_sh> аха
+[21:35:44] <anton_sh> и какви са стъпките за дебъгване
+[21:36:03] <_rewind> както каза yulimoto едно по едно
+[21:36:10] <_rewind> първо разбери работи ли bind
+[21:36:24] <_rewind> с каква дистрибуция го пробваш това ?
+[21:36:50] <anton_sh> kato napisha /etc/init.d/named start
+[21:36:59] <anton_sh> mi izpiswa che veche e vkliuchen
+[21:37:12] <_rewind> ок, а с netstat видял ли си къде слуша ?
+[21:37:43] <yulimoto> как се казваше bind-a в rpm дистротата
+[21:38:05] <yulimoto> named
+[21:38:10] <_rewind> е не е ли named?
+[21:38:12] <anton_sh> named  da
+[21:38:26] <yulimoto> значи пиши примерно netstat -tupan | grep named
+[21:38:39] <_rewind> tupan :D nice
+[21:39:01] <anton_sh> няма резултат
+[21:39:10] <_rewind> това много готино се запомня
+[21:39:13] <fityla> какво чупите момчета
+[21:39:39] <_rewind> fityla, на anton_sh bind-a
+[21:39:56] <anton_sh> на нет стат ми излиза само : http://picpaste.com/snapshot4-xfhhmDRb.png
+[21:39:57] <wilindex> [ PicPaste - snapshot4-xfhhmDRb.png ] - picpaste.com
+[21:40:08] <_rewind> щом го няма провери конфигурацията му, къде е настроен да слуша
+[21:40:16] <fityla> не може сам да го счупи и вие му помагате
+[21:40:23] <_rewind> по-добре с pastebin, това е текст и по-трудно се вижда на снимки
+[21:40:24] <yulimoto> не ти ли е по-лесно на pastebin texta samo
+[21:40:29] <_rewind> хаха ;)
+[21:40:34] <anton_sh> мога...дори го счупих :Д
+[21:41:04] <anton_sh> yulimoto:  ne sam si podkaral copy paste na virtualkata o]e
+[21:41:11] <yulimoto> aa
+[21:41:24] <yulimoto> i az
+[21:41:25] <yulimoto> :)
+[21:41:29] <_rewind> можеш да се свържеш по ssh и ще си спестиш това неудобство
+[21:41:40] <yulimoto> аз така правя :)
+[21:42:03] <yulimoto> виж на 53 порт слуша ли нещо
+[21:42:41] <yulimoto> netstat -tupan|grep :53
+[21:42:48] <_rewind> да, да не би да слуша на ipv6
+[21:42:48] <yulimoto> или просто с лесс
+[21:43:07] <yulimoto> порта ще е все 53
+[21:43:16] <yulimoto> а ве мунчооо
+[21:43:28] <yulimoto> Iptables-a не си оправил 100%
+[21:43:41] <yulimoto> нали познах :)
+[21:43:48] <_rewind> при мен стои на 53 локалния рутер 192.168....
+[21:44:22] <_rewind> ама все ми се струва, че трябваше на тупан-а да му добавим и едно l
+[21:44:26] <_rewind> за listening
+[21:44:28] <yulimoto> ама то пак трябва да показва 53 порт ако си бачка въпреки таблеса
+[21:44:49] <anton_sh> nestat|grep :53
+[21:44:52] <anton_sh> nqma rezultat
+[21:44:54] <yulimoto> може няма да има толкова шума
+[21:45:01] <_rewind> netstat -nplu | grep 53
+[21:45:49] <yulimoto> netstat без опции ще ти вади друго
+[21:46:03] <_rewind> сега си подкарай един ssh и се вържи през някой шел или през пути и пейстни в pastebin конфигурацията да позяпаме там
+[21:46:33] <yulimoto> добре де ти и на снимката не си сложил опции на netstat
+[21:46:49] <yulimoto> то няма как да ти го изкара без опции
+[21:46:51] <_rewind> cat /etc/named/named.conf или където ти е конфигурацията му, тъй като така и не каза с каква дистрибуция се мъчиш
+[21:46:55] <anton_sh> нетстат-а ми върна два реда .... 127.0.0.1:53 и ::1.:)
+[21:47:14] <anton_sh> цент ос но момента да си подкарам ссх-а
+[21:47:20] <_rewind> всъщност по-спомен май пак ти питаше за centos minimal инсталация virtualpc, така че ще предположа, че си продължил с тия мъки
+[21:47:41] <_rewind> ок, значи все пак работи на 127.0.0.1
+[21:47:47] <_rewind> слуша там, демек
+[21:47:54] <yulimoto> da da за там не ти трябва iptables
+[21:48:06] <yulimoto> така че си ок
+[21:48:08] <_rewind> следващия - зона ? оправил ли си я ?
+[21:48:08] <yulimoto> работи
+[21:49:23] <_rewind> пусни един ssh и пейстни конфигурацията на bind и зоните, аз ще се позабавлявам с някое домашно :)
+[21:52:06] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Ping timeout: 250 seconds
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:03:28] anton_dutsov (~Thunderbi@89.106.112.247) left irc: Read error: Connection reset by peer
+[22:04:22] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[22:04:22] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
