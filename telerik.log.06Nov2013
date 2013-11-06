@@ -860,3 +860,40 @@
 [22:03:28] anton_dutsov (~Thunderbi@89.106.112.247) left irc: Read error: Connection reset by peer
 [22:04:22] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
 [22:04:22] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[22:06:42] anton_dutsov (~Thunderbi@89.106.112.247) joined #telerikacademy.
+[22:07:48] anton_dutsov (~Thunderbi@89.106.112.247) left irc: Client Quit
+[22:20:36] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[22:24:13] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
+[22:34:34] <anton_sh> _rewind: нещо не се получава ssh-a  на виртуалката... не мога да направя връзка между виртуалката и реалната машина
+[22:35:14] MoHu_l (~simeon@77.70.108.185) left irc: Quit: Leaving
+[22:35:34] <anton_sh> когато зада два адаптера: NAT и host-only имам нет но нямам връзка с реалната машина. Когато задам един адабпре bridge нямам дори и нет на виртуалката
+[22:35:38] <anton_sh> (think)
+[22:42:51] <anton_sh> _rewind: подкарах го
+[22:45:09] <anton_sh> http://pastebin.com/nWPd3S6v
+[22:45:10] <wilindex> [ named.conf - Pastebin.com ] - pastebin.com
+[22:47:35] <_rewind> anton_sh, железен си :)
+[22:47:40] <anton_sh> toest http://pastebin.com/6urqTrfV
+[22:47:41] <wilindex> [ named - Pastebin.com ] - pastebin.com
+[22:48:11] <anton_sh> _rewind: ако бях железен нямаше да ми трябва помощ :P
+[22:48:29] <_rewind> не бе, за ssh
+[22:49:08] <anton_sh> ако подкараме и днс-а и фиефоь-а гресхка няма да има :Д
+[22:49:13] <_rewind> а за нет-а, вероятно не си си спрял network manager и за това нямаш нет на бриджа
+[22:49:32] <_rewind> в смисъл не ти е конфигуриран бриджа
+[22:50:21] <_rewind> конфигурацията на мен поне ми изглежда ок, я ми покажи myhost.com.zone файла
+[22:51:23] <_rewind> греша ли или на allow-query при localhost ми създаваше главоболия с 127.0.0.1
+[22:51:54] <_rewind> чакайте сега да се изфукам и тук - познайте, чие домашно ми се падна да оценям :D
+[22:52:00] <_rewind> https://github.com/phalaaxx/homework/blob/master/phalaaxx.6.md
+[22:52:02] <wilindex> [ homework/phalaaxx.6.md at master · phalaaxx/homework · GitHub ] - github.com
+[22:55:25] <anton_sh> http://pastebin.com/J2UC70Wz
+[22:55:26] <wilindex> [ myhost - Pastebin.com ] - pastebin.com
+[22:57:19] <anton_sh> _rewind:  za allow-query опитах и 127.0.0.1 и пак не стана
+[22:59:53] <_rewind> чакай малко сега... преди малко какво пробва с dig ?
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:07] <_rewind> dig @127.0.0.1 myhost.com нали ?
+[23:00:42] <_rewind> ти вътре си описал единствено ns1
+[23:01:06] <_rewind> и www.mydomain.com
+[23:01:57] <_rewind> я тествай с host www.mydomain.com и после със dig @127.0.0.1 www.mydomain.com
+[23:02:12] <_rewind> и пусни output
+[23:03:55] <anton_sh> http://pastebin.com/rkm59nEx
+[23:03:55] <wilindex> [ Spam Detection For Paste ID: rkm59nEx ] - pastebin.com
