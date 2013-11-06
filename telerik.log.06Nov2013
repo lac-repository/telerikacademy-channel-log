@@ -664,3 +664,38 @@
 [16:02:24] <yulimoto> има време
 [16:02:36] <yulimoto> пък и уилито си е ок
 [16:03:54] <phalaaxx> ее ама друго си е да си го напишеш сам :)
+[16:07:04] <yulimoto> uuu da
+[16:07:33] <yulimoto> problema e че доста ботове са изписани добре :)
+[16:07:52] <anton_dutsov> Утре ще има ли някаква лекция :)
+[16:09:03] <yulimoto> phalaaxx: според мен това е като да си напишеш блог, другите ще имат плъгини, фючъри и лесно ще се решават проблемите :) но от друга страна ти пък си имаш твоя си блог :)
+[16:13:38] ph_py_irc_bot (~ph_py_irc@94.26.20.166) joined #telerikacademy.
+[16:13:45] <phalaaxx> баси това даже работи
+[16:14:20] <phalaaxx> 10 реда код (включително 2 празни реда)
+[16:15:32] <phalaaxx> добре, значи писането е лесно - трябва да измислим защо искаме да си пишем наш бот :D
+[16:15:36] ph_py_irc_bot (~ph_py_irc@94.26.20.166) left irc: Remote host closed the connection
+[16:16:39] simpleirc1 (~test@89.106.112.247) joined #telerikacademy.
+[16:17:53] simpleirc1 (~test@89.106.112.247) left irc: Remote host closed the connection
+[16:19:39] <yulimoto> ако за  wraith
+[16:19:49] <yulimoto> говориш мен голям ми се видя
+[16:19:59] <phalaaxx> аз ли?
+[16:20:09] <yulimoto> мда
+[16:20:27] <yulimoto> т.е. линка който си дал горе
+[16:20:34] <phalaaxx> тоя линк не го дадох аз
+[16:20:44] <yulimoto> ааа
+[16:20:45] <yulimoto> сори
+[16:20:48] <phalaaxx> и не говоря аз за wrath :)
+[16:20:53] <phalaaxx> говоря за това:
+[16:21:01] <yulimoto> нещо питонаджийско
+[16:21:06] <yulimoto> вероятно
+[16:22:11] <phalaaxx> http://pastebin.com/bfY4y1jL
+[16:22:12] <wilindex> [ [Python] ircbot - Pastebin.com ] - pastebin.com
+[16:24:20] <yulimoto> някаква готина библиотечка
+[16:24:49] <yulimoto> ми супер :)
+[16:27:16] <yulimoto> аз се зачетох тук - https://lists.connman.net/pipermail/connman/2013-November/016017.html
+[16:27:18] <wilindex> [ Iptable rules and MARK values for sessions ] - lists.connman.net
+[16:28:26] <yulimoto> mdaaa towa s bota shte byde interesno :)
+[16:38:00] <phalaaxx> кое?
+[16:41:53] <yulimoto> с тази библиотека ирцбот и някаква микро архитектурка, отдавна не съм поглеждал нещо подобно
+[16:50:38] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
