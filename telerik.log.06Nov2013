@@ -897,3 +897,30 @@
 [23:02:12] <_rewind> и пусни output
 [23:03:55] <anton_sh> http://pastebin.com/rkm59nEx
 [23:03:55] <wilindex> [ Spam Detection For Paste ID: rkm59nEx ] - pastebin.com
+[23:05:27] <anton_sh> http://pastebin.com/1XsaGgxQ
+[23:05:28] <wilindex> [ Spam Detection For Paste ID: 1XsaGgxQ ] - pastebin.com
+[23:05:52] <_rewind> е хубаво де, ама да беше сложил @127.0.0.1 - тоя myhost и аз го имам в моя днс и на мен също ми показва 71.183.239.131
+[23:07:17] <_rewind> host www.mydomain.com ?
+[23:08:13] <anton_sh> ei da we...
+[23:08:14] <anton_sh> tct
+[23:08:16] <anton_sh> http://pastebin.com/E8fV930u
+[23:08:17] <wilindex> [ Spam Detection For Paste ID: E8fV930u ] - pastebin.com
+[23:08:21] <anton_sh> ето го
+[23:08:25] <_rewind> anton_sh, ти хубаво търсиш www.myhost.com, но в твоята зона има mydomain.com само :)
+[23:08:49] <_rewind> ми отваря си го :) кат' пич
+[23:09:39] <_rewind> стават такива работи, да не говорим колко пъти съм се чудил що не запълва някой диск с нули, а аз се пробвам примерно да пиша от /dev/null в устройството :D
+[23:12:46] <anton_sh> да ве вярно ве...
+[23:12:49] <anton_sh> тцтцт
+[23:12:58] <anton_sh> добре а как е правилно да се тества
+[23:13:29] <anton_sh> dig @127.0.0.1 ili host www.myhost.com@127.0.0.1
+[23:14:13] <anton_sh> при първия вариант имам answers при втория нямам
+[23:14:28] <anton_sh> аве май не съм мн наясно с цялата система нещо
+[23:18:10] <_rewind> едното е за по-задълбочен анализ, другото е просто за проверка в един ред
+[23:26:18] <anton_sh> a tozi konfig dostatachen li e za zona
+[23:26:18] <anton_sh> http://pastebin.com/9n4MwBmn
+[23:26:19] <wilindex> [ N SOA myhost.com ( 2013042201 ;Serial 3600 ;Refre - Pastebin.com ] - pastebin.com
+[23:41:27] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[23:59:37] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[00:00:00] --- Thu Nov  7 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...
