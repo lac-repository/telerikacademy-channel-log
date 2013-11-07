@@ -315,3 +315,28 @@
 [16:54:30] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:10:09] <phalaaxx> hackman: писах преди известно време но няма отговор :)
+[17:10:15] <phalaaxx> предполагам съм твърде нетърпелив
+[17:10:20] <hackman> ?
+[17:10:43] <phalaaxx> робския въпрос към team @ ...
+[17:11:47] <phalaaxx> нищо де, това го казах малко като за разчупване на леда към следващия въпрос :D
+[17:12:09] <phalaaxx> кой прави UUID линковете на partitions/disks във /dev? udev или нещо в ядрото?
+[17:14:17] <hackman> UUID-тата трябва да се създават при partitioning
+[17:14:26] <hackman> дисковете не би следвало да имат UUID-та
+[17:14:31] <hackman> или поне не съм запознат
+[17:15:50] <phalaaxx> амиии.... примерно в grub:
+[17:16:17] <phalaaxx>  /vmlinuz-3.2.0-4-amd64 root=UUID=d6a3bbb8-e1cf-4a6e-9f47-ccc9d845cf47 ro  quiet
+[17:16:53] <phalaaxx> lrwxrwxrwx 1 root root 10 Nov  7 15:23 /dev/disk/by-uuid/d6a3bbb8-e1cf-4a6e-9f47-ccc9d845cf47 -> ../../sda2
+[17:20:20] <phalaaxx> така де, разбрах какво имаш предвид... за partitions само :)
+[17:21:17] <phalaaxx> но това с линковете би трябвало да става в udev, нали? т.е. няма начин горния ред от конфигурация на grub да се използва без initrd (със udev вътре)?
+[17:21:24] <phalaaxx> или тотално не съм го разбрал :D
+[17:36:39] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[17:39:00] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[17:51:49] KacanuH (~deyan@46.249.92.240) joined #telerikacademy.
+[17:57:07] <hackman> phalaaxx, няма проблем да се използват Partitions по lavel или UUID дори и без initrd
+[17:57:30] <hackman> механизмът за търсенето на root device е в kernel-а не в udev и тн :)
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:24] <phalaaxx> амаааа... хм, тогава нещо съм пропуснал да си сложа в конфигурацията
+[18:00:41] <phalaaxx> щото ми вади някакъв дълъг panic (не му виждам началото)
+[18:00:57] <phalaaxx> а ме мързи да му слагам printk delay (мързи ме да го чакам да стигне до там)

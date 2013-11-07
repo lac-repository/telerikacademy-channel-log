@@ -341,6 +341,28 @@
 			<div>&nbsp;<span class="time">[16:36:46]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; предлагам да нахраним телерик с моркови</span></div>
 			<div>&nbsp;<span class="time">[16:42:15]</span>&nbsp;<span class="else_li">&nbsp;anton_dutsov (~Thunderbi@89.106.112.247) left irc: Ping timeout: 240 seconds</span></div>
 			<div>&nbsp;<span class="time">[16:54:30]</span>&nbsp;<span class="else_li">&nbsp;KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[17:10:09]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; hackman: писах преди известно време но няма отговор :)</span></div>
+			<div>&nbsp;<span class="time">[17:10:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; предполагам съм твърде нетърпелив</span></div>
+			<div>&nbsp;<span class="time">[17:10:20]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ?</span></div>
+			<div>&nbsp;<span class="time">[17:10:43]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; робския въпрос към team @ ...</span></div>
+			<div>&nbsp;<span class="time">[17:11:47]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; нищо де, това го казах малко като за разчупване на леда към следващия въпрос :D</span></div>
+			<div>&nbsp;<span class="time">[17:12:09]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; кой прави UUID линковете на partitions/disks във /dev? udev или нещо в ядрото?</span></div>
+			<div>&nbsp;<span class="time">[17:14:17]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; UUID-тата трябва да се създават при partitioning</span></div>
+			<div>&nbsp;<span class="time">[17:14:26]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; дисковете не би следвало да имат UUID-та</span></div>
+			<div>&nbsp;<span class="time">[17:14:31]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; или поне не съм запознат</span></div>
+			<div>&nbsp;<span class="time">[17:15:50]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амиии.... примерно в grub:</span></div>
+			<div>&nbsp;<span class="time">[17:16:17]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp;  /vmlinuz-3.2.0-4-amd64 root=UUID=d6a3bbb8-e1cf-4a6e-9f47-ccc9d845cf47 ro  quiet</span></div>
+			<div>&nbsp;<span class="time">[17:16:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; lrwxrwxrwx 1 root root 10 Nov  7 15:23 /dev/disk/by-uuid/d6a3bbb8-e1cf-4a6e-9f47-ccc9d845cf47 -&gt; ../../sda2</span></div>
+			<div>&nbsp;<span class="time">[17:20:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; така де, разбрах какво имаш предвид... за partitions само :)</span></div>
+			<div>&nbsp;<span class="time">[17:21:17]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; но това с линковете би трябвало да става в udev, нали? т.е. няма начин горния ред от конфигурация на grub да се използва без initrd (със udev вътре)?</span></div>
+			<div>&nbsp;<span class="time">[17:21:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; или тотално не съм го разбрал :D</span></div>
+			<div>&nbsp;<span class="time">[17:36:39]</span>&nbsp;<span class="else_li">&nbsp;phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.</span></div>
+			<div>&nbsp;<span class="time">[17:39:00]</span>&nbsp;<span class="else_j">&nbsp;phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[17:51:49]</span>&nbsp;<span class="else_j">&nbsp;KacanuH (~deyan@46.249.92.240) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[17:57:07]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; phalaaxx, няма проблем да се използват Partitions по lavel или UUID дори и без initrd</span></div>
+			<div>&nbsp;<span class="time">[17:57:30]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; механизмът за търсенето на root device е в kernel-а не в udev и тн :)</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
