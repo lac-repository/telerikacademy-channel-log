@@ -182,3 +182,15 @@
 [12:03:58] <yulimoto> dencho: направи си пластична операция да изглеждаш кат phalaaxx от там е лесно , той ще оправя на ремоте нещата
 [12:04:25] <dencho> ghahahaha
 [12:04:42] <dencho> trqq sa pazara togava za hilqdi levove, 4e da moga da si izbiq operaciata pri doktor en4ev
+[12:06:46] <yulimoto> а ве аз тия ffmeg вече на гризли ше ги прая, по време на опенфеста качих там един
+[12:10:35] <lyubenblagoev> качих лекцията от вчера
+[12:12:19] <yulimoto> am super
+[12:26:56] <dencho> gladen sam :D
+[12:49:25] <yulimoto> хора за fastcgi prez сокет ползвaм php-fpm, някакви идеи за нещо по-ръчно така
+[12:49:32] <yulimoto> по-като за учене
+[12:51:40] <phalaaxx> fastcgid?
+[12:53:18] <yulimoto> искам да се науча да направя php-то да е през сокет, но като инсталирам php-fpm върши цялата работа и просто трябва да отметна 2-3 настройки и да опиша сокета в apacheто, което за учене не ме доближава до нещата :)
+[12:56:11] <yulimoto> phalaaxx: да
+[12:56:25] <yulimoto> phalaaxx: да, тва е по-добре
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
