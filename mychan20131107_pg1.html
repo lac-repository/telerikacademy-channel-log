@@ -363,6 +363,47 @@
 			<div>&nbsp;<span class="time">[17:51:49]</span>&nbsp;<span class="else_j">&nbsp;KacanuH (~deyan@46.249.92.240) joined #telerikacademy.</span></div>
 			<div>&nbsp;<span class="time">[17:57:07]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; phalaaxx, няма проблем да се използват Partitions по lavel или UUID дори и без initrd</span></div>
 			<div>&nbsp;<span class="time">[17:57:30]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; механизмът за търсенето на root device е в kernel-а не в udev и тн :)</span></div>
+			<div>&nbsp;<span class="time">[18:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[18:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[18:00:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амаааа... хм, тогава нещо съм пропуснал да си сложа в конфигурацията</span></div>
+			<div>&nbsp;<span class="time">[18:00:41]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; щото ми вади някакъв дълъг panic (не му виждам началото)</span></div>
+			<div>&nbsp;<span class="time">[18:00:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; а ме мързи да му слагам printk delay (мързи ме да го чакам да стигне до там)</span></div>
+			<div>&nbsp;<span class="time">[18:10:23]</span>&nbsp;<span class="else_j">&nbsp;user99 (John@2002:4e82:ba63::4e82:ba63) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[18:11:04]</span>&nbsp;<span class="else_j">&nbsp;gloom (John@78.130.186.99) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[18:12:02]</span>&nbsp;<span class="else_li">&nbsp;looser99 (John@78.130.186.99) left irc: Ping timeout: 246 seconds</span></div>
+			<div>&nbsp;<span class="time">[18:14:39]</span>&nbsp;<span class="else_li">&nbsp;user99 (John@2002:4e82:ba63::4e82:ba63) left irc: Ping timeout: 240 seconds</span></div>
+			<div>&nbsp;<span class="time">[18:18:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; май му трябва udev</span></div>
+			<div>&nbsp;<span class="time">[18:19:12]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това показват опитите ми без initrd и резултатите, които намирам из гугъл</span></div>
+			<div>&nbsp;<span class="time">[18:19:49]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; а защо се мъчиш с тея UUID-та изобщо</span></div>
+			<div>&nbsp;<span class="time">[18:20:07]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може и да пропускам нещо в ядрото все пак</span></div>
+			<div>&nbsp;<span class="time">[18:20:41]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ми щото в определени ситуации е по-надеждно</span></div>
+			<div>&nbsp;<span class="time">[18:20:56]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; бая главоболия съм имал със cpanel сървър който не използваше UUID/labels</span></div>
+			<div>&nbsp;<span class="time">[18:21:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и като се сдоби с нови устройства (нови vdisks от shared storage) - веселбата стана страшна</span></div>
+			<div>&nbsp;<span class="time">[18:22:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; размести си дисковете нещо и не искаше да запали :)</span></div>
+			<div>&nbsp;<span class="time">[18:23:32]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; &quot;Linux, because I'd rather own a free OS than steal one that's not worth paying for. &quot;</span></div>
+			<div>&nbsp;<span class="time">[18:23:32]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; lol :D</span></div>
+			<div>&nbsp;<span class="time">[18:26:22]</span>&nbsp;<span class="else_li">&nbsp;hackman (~hackman@management.1h.com) left irc: Ping timeout: 248 seconds</span></div>
+			<div>&nbsp;<span class="time">[18:33:51]</span>&nbsp;<span class="else_j">&nbsp;pgachev (~pgachev@85.187.153.2) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[18:39:12]</span>&nbsp;<span class="else_j">&nbsp;rootstar (0@77.70.103.9) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[18:40:30]</span>&nbsp;<span class="else_j">&nbsp;tuxar (~tuxar@athedsl-116711.home.otenet.gr) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[18:43:01]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; мда, това го прави udev</span></div>
+			<div>&nbsp;<span class="time">[18:43:01]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може би някъде по широкия свят има някой пач който да вкарва тази функционалност в ядрото, но иначе си трябва udev</span></div>
+			<div>&nbsp;<span class="time">[18:44:09]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; така де, трябва initrd - може да няма udev а с някой скрипт да се правят symlinks във /dev но... без initrd ядрото не знае какво да прави с root=UUID=....</span></div>
+			<div>&nbsp;<span class="time">[18:44:41]</span>&nbsp;<span class="else_li">&nbsp;krasin (~krasin@95.43.29.186) left irc: Quit: Leaving</span></div>
+			<div>&nbsp;<span class="time">[18:46:26]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; t.e. неможе да се запали GRUB който има UUID параметри с ядро което без inird ?</span></div>
+			<div>&nbsp;<span class="time">[18:46:32]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; initrd*</span></div>
+			<div>&nbsp;<span class="time">[18:50:39]</span>&nbsp;<span class="else_j">&nbsp;_rewind (~teo@46.238.29.142) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[18:52:07]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да</span></div>
+			<div>&nbsp;<span class="time">[18:52:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пробвах го няколко пъти с което се надявах да си спестя четенето</span></div>
+			<div>&nbsp;<span class="time">[18:52:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ама не стана, не го спестих :D</span></div>
+			<div>&nbsp;<span class="time">[18:52:51]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; същото важи и за root=LABEL=...</span></div>
+			<div>&nbsp;<span class="time">[18:54:38]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това предполагам го чете linuxrc от initrd-то (cat /proc/cmdline), разбира какво се търси и mount-ва каквото трябва</span></div>
+			<div>&nbsp;<span class="time">[18:55:06]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; или както казах - със udev</span></div>
+			<div>&nbsp;<span class="time">[18:58:14]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; най-накрая как трябва да се бутне</span></div>
+			<div>&nbsp;<span class="time">[18:58:28]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; msdos(0,0);</span></div>
+			<div>&nbsp;<span class="time">[18:58:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ;П</span></div>
+			<div>&nbsp;<span class="time">[18:58:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; udev не знам как го прави но ако се прави в шел скрипт със linuxrc предполагам инфото се вади по някакъв шантав начин, blkid например</span></div>
+			<div>&nbsp;<span class="time">[18:59:44]</span>&nbsp;<span class="else_j">&nbsp;mihail_m (~mike@77.70.49.155) joined #telerikacademy.</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
