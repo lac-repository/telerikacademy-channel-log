@@ -404,6 +404,112 @@
 			<div>&nbsp;<span class="time">[18:58:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ;П</span></div>
 			<div>&nbsp;<span class="time">[18:58:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; udev не знам как го прави но ако се прави в шел скрипт със linuxrc предполагам инфото се вади по някакъв шантав начин, blkid например</span></div>
 			<div>&nbsp;<span class="time">[18:59:44]</span>&nbsp;<span class="else_j">&nbsp;mihail_m (~mike@77.70.49.155) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[19:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[19:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[19:01:09]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а ти как бутваш без initrd какви параметри даваш за да разпознае партишъна ?</span></div>
+			<div>&nbsp;<span class="time">[19:01:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; /dev/sda2 :D</span></div>
+			<div>&nbsp;<span class="time">[19:01:34]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; лесно, а?</span></div>
+			<div>&nbsp;<span class="time">[19:02:42]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; иначе ако знаеш UUID-то от /proc/cmdline...</span></div>
+			<div>&nbsp;<span class="time">[19:03:01]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; blkid | grep $UUID</span></div>
+			<div>&nbsp;<span class="time">[19:04:37]</span>&nbsp;<span class="else_j">&nbsp;Xristo (~Xristo@eduroam-stud.uni-ruse.bg) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[19:04:52]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; добре нещо друго интересно</span></div>
+			<div>&nbsp;<span class="time">[19:05:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; тези параметри директно ли отива към ядрото</span></div>
+			<div>&nbsp;<span class="time">[19:06:09]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; в смисъл има ли начин някакъв примерно да съм U-boot и да същите параметри  параметри и на него</span></div>
+			<div>&nbsp;<span class="time">[19:06:59]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; примерно някакъв начин вместо root=/dev/sdaX да дам параметър primerno root=UUID=XXXXXX-XXXX</span></div>
+			<div>&nbsp;<span class="time">[19:07:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако имаш initrd - да</span></div>
+			<div>&nbsp;<span class="time">[19:07:44]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; глей са колко е просто значи</span></div>
+			<div>&nbsp;<span class="time">[19:07:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; на boot loader-а му казваш да зареди ядрото</span></div>
+			<div>&nbsp;<span class="time">[19:08:00]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; казваш му къде е</span></div>
+			<div>&nbsp;<span class="time">[19:08:09]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; то го чете от диска в паметта и го стартира</span></div>
+			<div>&nbsp;<span class="time">[19:08:22]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; така</span></div>
+			<div>&nbsp;<span class="time">[19:08:23]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако има initrd - чете и initrd-то в паметта и го дава на ядрото</span></div>
+			<div>&nbsp;<span class="time">[19:08:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; така</span></div>
+			<div>&nbsp;<span class="time">[19:09:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; така че когато заредиш kernel + initrd в паметта - самия kernel не му се налага да знае от къде е прочетен и къде се е намирал initrd</span></div>
+			<div>&nbsp;<span class="time">[19:09:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; те са му в паметта наготово</span></div>
+			<div>&nbsp;<span class="time">[19:10:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; а initrd сам по себе си е силно орязан image с разни тулчета, демек root файлова система, конфигурации, дръндрън...</span></div>
+			<div>&nbsp;<span class="time">[19:10:38]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може да си направиш някакъв rescue image като initrd със каквито си искаш tools вътре</span></div>
+			<div>&nbsp;<span class="time">[19:11:10]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да това долу горе е ясно initrd е root зареден в рамта</span></div>
+			<div>&nbsp;<span class="time">[19:11:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и тъй като вече имаш разни tools в тоя image - ползваш ги тях за да mount-неш правилните файлови системи където трябва</span></div>
+			<div>&nbsp;<span class="time">[19:11:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да после има pivot root</span></div>
+			<div>&nbsp;<span class="time">[19:11:50]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; t.e. подменя роот фс-а</span></div>
+			<div>&nbsp;<span class="time">[19:12:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; pivot_root е накрая</span></div>
+			<div>&nbsp;<span class="time">[19:12:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; преди това трябва да монтира правилните файлови системи</span></div>
+			<div>&nbsp;<span class="time">[19:12:25]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; един път го говорехме, ама мен ме интересува друго, сега ще се опитам да го обясня</span></div>
+			<div>&nbsp;<span class="time">[19:12:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; т.е. /dev ако не е монтирана от ядрото</span></div>
+			<div>&nbsp;<span class="time">[19:12:59]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; после root (тази със /sbin/init или каквото му е казано на kernel-а да стартира)</span></div>
+			<div>&nbsp;<span class="time">[19:13:00]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; преди pivot_root имаш ли /дев</span></div>
+			<div>&nbsp;<span class="time">[19:13:10]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; със сигурност трябва да имаш</span></div>
+			<div>&nbsp;<span class="time">[19:13:11]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; имаш</span></div>
+			<div>&nbsp;<span class="time">[19:13:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; без него не можеш да монтираш root файловата система за да направиш pivot_root към нея</span></div>
+			<div>&nbsp;<span class="time">[19:14:17]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да това долу горе ясно, но се аз се интересувам от друго. Примерно бутлоудъра вижда root= като параметър, и после някакво value - интересуваме обрабтва ли това валю или директно го пуска към кернела.</span></div>
+			<div>&nbsp;<span class="time">[19:15:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не, това го записва в определена памет която kernel-а си я чете</span></div>
+			<div>&nbsp;<span class="time">[19:15:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и което виждаш като напишеш cat /proc/cmdline</span></div>
+			<div>&nbsp;<span class="time">[19:15:30]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; т.е. бутлоудъра не се меси на стойностите които задавам като параметтри</span></div>
+			<div>&nbsp;<span class="time">[19:15:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не</span></div>
+			<div>&nbsp;<span class="time">[19:16:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може да зададеш каквито си искаш стойности и да си ги четеш от /proc/cmdline после</span></div>
+			<div>&nbsp;<span class="time">[19:16:35]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ти беше с убунту, нали?</span></div>
+			<div>&nbsp;<span class="time">[19:16:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ако утре излезе ядро което подържа примерно special_param=0123 и аз го пусна в бутлоудъра той ще го пусне на ядрото и вече то да се оправя ако го подържа ?</span></div>
+			<div>&nbsp;<span class="time">[19:16:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аха</span></div>
+			<div>&nbsp;<span class="time">[19:16:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; с убунту</span></div>
+			<div>&nbsp;<span class="time">[19:17:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да, точно</span></div>
+			<div>&nbsp;<span class="time">[19:17:22]</span>&nbsp;<span class="else_j">&nbsp;pinkiePie (~pinkiePie@78.90.46.96) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[19:17:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пробвай примерно да редактираш /etc/default/grub</span></div>
+			<div>&nbsp;<span class="time">[19:17:49]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; във реда GRUB_CMDLINE_LINUX_DEFAULT=&quot;....&quot;</span></div>
+			<div>&nbsp;<span class="time">[19:17:52]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; добави си нещо там</span></div>
+			<div>&nbsp;<span class="time">[19:18:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; примерно &quot;mynickis=yulimoto&quot;</span></div>
+			<div>&nbsp;<span class="time">[19:18:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[19:18:07]</span>&nbsp;<span class="else_j">&nbsp;hackman (~hackman@213.226.63.151) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[19:18:13]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; после update-grub</span></div>
+			<div>&nbsp;<span class="time">[19:18:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и reboot</span></div>
+			<div>&nbsp;<span class="time">[19:18:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и след това cat /proc/cmdline</span></div>
+			<div>&nbsp;<span class="time">[19:18:32]</span>&nbsp;<span class="else_li">&nbsp;KacanuH (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - <a href="http://www.ntalk.de">www.ntalk.de</a></span></div>
+			<div>&nbsp;<span class="time">[19:18:41]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и кажи ако ти буутне компа след тази интервенция :D</span></div>
+			<div>&nbsp;<span class="time">[19:18:45]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; шегувам се :D</span></div>
+			<div>&nbsp;<span class="time">[19:19:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; мм няма да си играя да го ъпдейтвам чак просто утре като буутвам че едитна докато бутва груба ще сложа някакъв параметър и после ще го прочета proca</span></div>
+			<div>&nbsp;<span class="time">[19:19:17]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да, може и така</span></div>
+			<div>&nbsp;<span class="time">[19:19:22]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; за по-лесно</span></div>
+			<div>&nbsp;<span class="time">[19:19:24]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[19:19:37]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; еми щото после трябва и да го трия :)</span></div>
+			<div>&nbsp;<span class="time">[19:19:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и ако имаш custom initrd можеш да четеш такъв параметър</span></div>
+			<div>&nbsp;<span class="time">[19:20:01]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; но това е хитро че бутлоъдъра ги предава директно</span></div>
+			<div>&nbsp;<span class="time">[19:20:15]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; в неговия proc ли</span></div>
+			<div>&nbsp;<span class="time">[19:20:24]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ?</span></div>
+			<div>&nbsp;<span class="time">[19:20:27]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; той /proc-а е еднакъв за двете</span></div>
+			<div>&nbsp;<span class="time">[19:20:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не се различава</span></div>
+			<div>&nbsp;<span class="time">[19:20:34]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ядрото е едно и също</span></div>
+			<div>&nbsp;<span class="time">[19:20:41]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; преди и след pivot_root</span></div>
+			<div>&nbsp;<span class="time">[19:21:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; съответно и cmdline е еднакво преди и след pivot_root</span></div>
+			<div>&nbsp;<span class="time">[19:21:07]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; мда има предвид на същото място ли да го търся и в initrd</span></div>
+			<div>&nbsp;<span class="time">[19:21:12]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да</span></div>
+			<div>&nbsp;<span class="time">[19:21:22]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; нормално е там</span></div>
+			<div>&nbsp;<span class="time">[19:21:27]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ама трябва някой да го монтира все пак</span></div>
+			<div>&nbsp;<span class="time">[19:21:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; dobre доволен съм, понапреднал си от предния път ;P</span></div>
+			<div>&nbsp;<span class="time">[19:21:41]</span>&nbsp;<span class="else_j">&nbsp;KacanuH (~deyan@46.249.92.240) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[19:21:48]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; за целта има linuxrc</span></div>
+			<div>&nbsp;<span class="time">[19:22:14]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; linuxrc какво прави</span></div>
+			<div>&nbsp;<span class="time">[19:22:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; е аз съм си писал на ръка linuxrc и съм си събирал initrd горе долу файл по файл</span></div>
+			<div>&nbsp;<span class="time">[19:22:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ама беше доста отдавна де</span></div>
+			<div>&nbsp;<span class="time">[19:22:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; за ония джаджи в асансьорите ?</span></div>
+			<div>&nbsp;<span class="time">[19:23:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това е скрипт който целта му е да ти mount-не основната файлова система и да подготви всичко преди pivot_root</span></div>
+			<div>&nbsp;<span class="time">[19:23:32]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; като например да разбере какъв хардуер имаш и да ти зареди правилните модули за него</span></div>
+			<div>&nbsp;<span class="time">[19:23:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; примерно правилните модули за файловата система на root-а</span></div>
+			<div>&nbsp;<span class="time">[19:24:26]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; драйвер за контролера за да ти се вижда диска, модул за съответния partition table...</span></div>
+			<div>&nbsp;<span class="time">[19:24:36]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; на какво е писно това ?</span></div>
+			<div>&nbsp;<span class="time">[19:24:45]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; модул за lvm/raid (ако се ползва такова нещо)...</span></div>
+			<div>&nbsp;<span class="time">[19:24:47]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; че казваш скрипт ?</span></div>
+			<div>&nbsp;<span class="time">[19:24:50]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; на каквото си искаш го пишеш</span></div>
+			<div>&nbsp;<span class="time">[19:25:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; bash (sh) ksh dash csh ...</span></div>
+			<div>&nbsp;<span class="time">[19:25:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може и на C/C++ да го напишеш</span></div>
+			<div>&nbsp;<span class="time">[19:25:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; python/perl/php/...</span></div>
+			<div>&nbsp;<span class="time">[19:25:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; до къде ти стига въображението? :)</span></div>
+			<div>&nbsp;<span class="time">[19:26:34]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; тръгвам си към нас, до по-късно :)</span></div>
+			<div>&nbsp;<span class="time">[19:27:09]</span>&nbsp;<span class="else_li">&nbsp;phalaaxx (~bozhin@94.26.20.166) left irc: Quit: wavez :)</span></div>
+			<div>&nbsp;<span class="time">[19:27:27]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ок</span></div>
+			<div>&nbsp;<span class="time">[19:36:39]</span>&nbsp;<span class="else_li">&nbsp;Xristo (~Xristo@eduroam-stud.uni-ruse.bg) left irc: Ping timeout: 240 seconds</span></div>
+			<div>&nbsp;<span class="time">[19:36:54]</span>&nbsp;<span class="else_j">&nbsp;Xristo (~Xristo@91.210.88.84) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[19:45:13]</span>&nbsp;<span class="else_j">&nbsp;Vankata (Vankata@77.70.105.191) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[19:58:58]</span>&nbsp;<span class="else_li">&nbsp;tuxar (~tuxar@athedsl-116711.home.otenet.gr) left irc: Ping timeout: 252 seconds</span></div>
+			<div>&nbsp;<span class="time">[19:59:35]</span>&nbsp;<span class="else_li">&nbsp;mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
