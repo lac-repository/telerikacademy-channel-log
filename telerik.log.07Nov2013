@@ -220,3 +220,72 @@
 [13:57:28] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
+[14:11:12] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:16:10] <anton_dutsov> .weather Montana
+[14:16:11] <wilindex> Yahoo! Weather - Montana, MT: Fair, -6°C (21°F), 30in (1027mb), Light breeze 5kt (↘)
+[14:16:19] <anton_dutsov> :D
+[14:16:30] <anton_dutsov> .weather Montana, BG
+[14:16:31] <wilindex> Yahoo! Weather - Mikhaylovgrad, BG: Partly Cloudy, 7°C (44°F), 30in (1019mb), Light breeze 6kt (↖)
+[14:16:33] krasin (~krasin@95.43.29.186) got netsplit.
+[14:16:40] <anton_dutsov> :D (rolf)
+[14:16:53] <anton_dutsov> .weather Vratsa
+[14:16:54] <wilindex> Yahoo! Weather - Vratsa, BG: Partly Cloudy, 7°C (44°F), 30in (1019mb), Light breeze 6kt (↖)
+[14:17:07] <anton_dutsov> .weather Sofia
+[14:17:08] <wilindex> Yahoo! Weather - Sofia, BG: Fair, 15°C (59°F), 30in (1015mb), Light air 2kt (↑)
+[14:17:22] <anton_dutsov> .weather Bansko
+[14:17:23] <wilindex> Yahoo! Weather - Bansko, BG: Partly Cloudy, 21°C (69°F), 30in (1015mb), Gentle breeze 8kt (↖)
+[14:17:49] <anton_dutsov> :D (ще падна)
+[14:18:12] <anton_dutsov> .weather Kalafat
+[14:18:13] <wilindex> Yahoo! Weather - Clift, CA: Cloudy, 13°C (55°F), 30in (1020mb), Calm 0kt (↑)
+[14:18:27] <anton_dutsov> .weather Negotin
+[14:18:28] <wilindex> Yahoo! Weather - Negotin Krajina, RS: Sunny, 15°C (59°F), 30in (1016mb), Light breeze 6kt (←)
+[14:18:34] <anton_dutsov> .weather Belgrade
+[14:18:35] <wilindex> Yahoo! Weather - Belgrade, RS: Fair, 18°C (64°F), 30in (1015mb), Light air 3kt (↙)
+[14:18:46] <anton_dutsov> .weather Buharest
+[14:18:47] <wilindex> Yahoo! Weather - Bucharest, RO: Fair, 15°C (59°F), 29in (982mb), Light breeze 5kt (←)
+[14:20:53] krasin (~krasin@95.43.29.186) returned to #telerikacademy.
+[14:21:02] <anton_dutsov> .weather Vail,CO
+[14:21:02] <wilindex> Yahoo! Weather - Vail, CO: Fair, -9°C (15°F), 30in (1034mb), Light breeze 4kt (↓)
+[14:22:32] <KrasiGa> Кажете каква програма ползвате за сваляне на видео с андроида?
+[14:22:45] <KrasiGa> аз ползвам tubemate ама нещо не ме кефи
+[14:22:49] <KrasiGa> и много ми бави
+[14:23:06] <KrasiGa> направо си ми блокира телефона докато сваля
+[14:28:21] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[14:29:43] <anton_dutsov> KrasiGa: какъв е телефонът- марка, модел
+[14:30:12] <KrasiGa> какво значение има, питам за андроид
+[14:30:25] <KrasiGa> иначе е Galaxy S2
+[14:30:40] <KrasiGa> s jelly bean
+[14:31:35] <anton_dutsov> WiFi или HSDPA
+[14:32:09] <anton_dutsov> и последен въпрос за youtube ли специално или без значение
+[14:35:31] <KrasiGa> ами желателно е и за Youtube да става
+[14:36:22] <KrasiGa> с TUBEMATE мога да тегля от всякъде, но този софтуер не е в гугъл плей
+[14:36:46] <KrasiGa> и сваля защитата като го ъпдейтвам, но и тела ми е бавен като сваля
+[14:37:25] <KrasiGa> намерих един Tube Video Downloader ама пише, че не става за youtube
+[14:39:26] <anton_dutsov> KrasiGa: проблемът на TUBEMATE е че google го забраняват като цяло защото сваля директно от utube, а това не им харесва да става
+[14:39:56] <KrasiGa> de da be6e samo tova
+[14:40:07] <anton_dutsov> KrasiGa: https://play.google.com/store/apps/details?id=it.tolelab.fvd
+[14:40:08] <wilindex> [ FVD - Free Video Downloader - Android Apps on Google Play ] - play.google.com
+[14:40:14] <anton_dutsov> това дали ще ти свърши работа
+[14:40:41] <KrasiGa> и това не става за YOUTUBE
+[14:41:00] <KrasiGa> ама явно няма и да намеря в Google play
+[14:45:44] <anton_dutsov> KrasiGa: http://android-circle.blogspot.com/2011/12/3-best-free-ways-to-download-youtube.html
+[14:45:44] <anton_dutsov> 2-ят начин върши ли ти работа?
+[14:45:45] <wilindex> [ 3 Best Free Ways to Download YouTube Videos For Android Devices - Android Circle ] - android-circle.blogspot.com
+[14:47:26] <anton_dutsov> официална програма и аз сега научих, не ми беше минавало през ума, че е възможно, просто няма :(
+[14:50:12] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:54:29] _rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[14:55:12] <_rewind> Здравейте, извинявам се, че се намесвам, по принцип през деня само ви чета логовете, но...
+[14:55:31] <_rewind> KrasiGa: защо не опиташ с open source приложение от тук https://f-droid.org/
+[14:55:32] <wilindex> [ F-Droid · ] - f-droid.org
+[14:56:03] <_rewind> в смисъл провери дали има такова приложение, това е маркет само за опън сорс приложения за андроид
+[14:56:15] <anton_dutsov> _rewind: аз не мисля, че трябва да се извиняваш защото се включваш в нечий разговор. Тук всичко е публично :)
+[14:57:18] <_rewind> ок, де :) навик
+[14:57:30] <_rewind> лека от  мен
+[14:57:36] <anton_dutsov> _rewind: проблемът на тези програми е че свалят директно от сървърите на тубата до колкото разбрах и на гугъл не им харесва това и ограничават подобни програми в ап-стора.
+[14:57:43] _rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Client Quit
+[14:59:56] _rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:40] <_rewind> https://f-droid.org/repository/browse/?fdfilter=youtube&fdid=dentex.youtube.downloader
+[15:00:42] <wilindex> [ F-Droid · ] - f-droid.org
+[15:04:27] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
