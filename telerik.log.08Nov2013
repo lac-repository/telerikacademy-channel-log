@@ -435,3 +435,9 @@
 [15:00:00] Writing channel file...
 [15:03:34] <topalov> здравейте, някой да знае има ли вариант udhcp да се пусне на 2 интерфейса (1 conf file и 1 daemon) ?
 [15:04:26] <topalov> пробвах да bridge-на двата интерфейса и да пусна демона върху bridge-a но не стана :)
+[15:05:07] <yulimoto> hackman: не знам, да не излезе после че подтикваш младежите към лоши практики. Иди обяснявай после
+[15:13:09] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Quit: prophylaxis
+[15:43:08] hackman (~hackman@management.1h.com) left irc: Ping timeout: 252 seconds
+[15:44:51] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
