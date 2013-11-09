@@ -113,3 +113,29 @@
 [16:16:41] wilindex (~willie@91.230.230.251) joined #telerikacademy.
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:21:25] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Read error: Operation timed out
+[17:31:47] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[17:31:53] Nick change: ndyakov|away -> ndyakov
+[17:36:31] __rewind (~teo@46.238.29.142) left irc: Ping timeout: 264 seconds
+[17:40:51] fityla (4d550779@gateway/web/freenode/ip.77.85.7.121) joined #telerikacademy.
+[17:41:04] <fityla> видеята от openfest
+[17:41:05] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 0: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 139, in getReminders)
+[17:41:05] <fityla> http://va.ludost.net/files/of2013/
+[17:41:07] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 0: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 139, in getReminders)
+[17:41:08] <wilindex> [ Index of /files/of2013 ] - va.ludost.net
+[17:42:57] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[17:53:04] <phalaaxx> wilindex: lol :D
+[17:53:04] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 48: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[17:53:30] <phalaaxx> тоя нещо се побърка май
+[17:53:31] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 48: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[17:53:45] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[17:53:55] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[17:54:01] <phalaaxx> проба
+[17:54:07] <phalaaxx> аа сега май е по-добре
+[17:57:42] <phalaaxx> впрочем
+[17:57:56] <phalaaxx> тъй като бота се насмота нещо:
+[17:58:02] <phalaaxx> (03:13:54 PM) __rewind: .tell fityla няма да е iso, вероятно ще е img или vdi (или ova), а грешката с long mode да не се дължи на това, че се опитваш да инсталираш x86_64 на 32 bit хост
+[17:58:38] <phalaaxx> (ставам ли за заместник-бот?)
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:04:32] __rewind (~teo@46.238.29.142) joined #telerikacademy.
