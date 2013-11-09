@@ -225,3 +225,59 @@
 [20:00:00] Writing channel file...
 [20:00:56] <anton_sh> ако не се запазат настройките(при мен не се запазиха после) просто отиваш и си едитваш конфига и си готов
 [20:02:48] MoHu (~MO@77.70.108.185) left irc: Ping timeout: 245 seconds
+[20:09:33] <fityla> ще го мъча опитвам се да му подкарам..
+[20:09:42] <fityla> по голяма резулюция..
+[20:09:50] <fityla> 800х600
+[20:09:55] <fityla> ме побъркава...
+[20:10:23] <fityla> на 1/5 от екрана ми е
+[20:10:30] <anton_sh> probwai s auto
+[20:10:43] <fityla> auto?
+[20:10:58] <anton_sh> fityla, междудругото нищо не си споменал за raid и lvm за изпита
+[20:11:05] <anton_sh> ще има ли такова чудо
+[20:11:32] <fityla> не
+[20:11:34] <fityla> написал съм
+[20:11:40] <fityla> всичко което е казал
+[20:11:42] <fityla> мариян
+[20:11:48] <fityla> или поне което съм успял
+[20:11:49] <fityla> да запиша
+[20:12:40] <anton_sh> тоест може би няма да има райд
+[20:12:49] <fityla> тоест няма да има
+[20:14:25] <anton_sh> probwa li s GRUB_GFXMODE=auto
+[20:14:44] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[20:21:32] <anton_sh> това което ти пратих май е за груб2
+[20:22:02] <fityla> да
+[20:22:05] <fityla> може би
+[20:22:58] <anton_sh>  за груб като гледам си му задаваш конкретна резолюция
+[20:23:51] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[20:23:57] Nick change: ndyakov|away -> ndyakov
+[20:25:47] Nick change: ndyakov -> ndyakov|away
+[20:26:08] Nick change: ndyakov|away -> ndyakov
+[20:31:13] <fityla> няма разлика между ..
+[20:32:18] <fityla> grub.conf и menu.lst
+[20:32:31] <fityla> в описанието вътре
+[20:34:15] <anton_sh> знам
+[20:34:22] <anton_sh> аз използвам grub.conf
+[20:34:28] <anton_sh> и работи
+[20:35:02] <ndyakov> е... защо пипате grub.conf направо ? пипайте default/grub.conf и после Update-grub
+[20:35:10] <ndyakov> всъщност... поне така е на дебианските..
+[20:35:52] <anton_sh> ndyakov, на цент ос не е така
+[20:36:08] <anton_sh> нама default/grub.conf file
+[20:36:50] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[20:43:30] __rewind (~teo@46.238.29.142) left irc: Ping timeout: 248 seconds
+[20:45:30] <fityla> бягам аз да
+[20:45:32] <fityla> пием по бира..
+[20:45:38] <fityla> утре пак ще го .. мъчим
+[20:45:48] <fityla> лека от мен
+[20:45:57] <yulimoto> anton_sh: ndyakov говори за /etc/default/grub.нещоси
+[20:46:05] <yulimoto> вероятно
+[20:46:30] <yulimoto> изглежда логично да го има
+[20:46:40] <yulimoto> или поне /etc/sysconfig/grub.нещо си
+[20:46:47] <fityla> утре
+[20:46:52] <fityla> ще го търся
+[20:47:20] fityla (4d550779@gateway/web/freenode/ip.77.85.7.121) left irc: Quit: Page closed
+[20:52:19] __rewind (~teo@46.238.29.142) joined #telerikacademy.
+[20:59:38] anton_dutsov1 (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:01:03] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Ping timeout: 244 seconds
+[21:03:19] <ndyakov> възможно е :)
