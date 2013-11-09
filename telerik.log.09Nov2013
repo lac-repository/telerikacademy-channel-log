@@ -67,3 +67,31 @@
 [12:49:03] <anton_sh> Някой знае ли ако изкараме изпита, ще получилим ли някакъв сертификат или трябва да изкараме и операционни системи?
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:12:29] <fityla> Да ако се изкара..
+[13:13:19] <fityla> изпита..
+[13:13:28] <fityla> ще получиш сертификат за линукса
+[13:13:35] <fityla> и после можеш да пишеш на телерик
+[13:13:41] <fityla> и да се явиш на ОС
+[13:21:32] <yulimoto> kak e tigrri ?
+[13:22:34] <yulimoto> fityla: az sashto goworih s hackman za grizzly, vj logovete ot v4era
+[13:22:38] <yulimoto> :)
+[13:23:00] <fityla> ясн0ю
+[13:23:04] <fityla> така и не разбраах
+[13:23:11] <fityla> от къде трябва да ги търся
+[13:23:13] <fityla> тива логове
+[13:23:15] <fityla> :D
+[13:34:33] <__rewind> в http://grizzly.yuhu.biz/ - избираш ден и четеш
+[13:34:34] <wilindex> [ Logs of #telerikacademy 2013 year ] - grizzly.yuhu.biz
+[13:35:01] <__rewind> виж, даже wili каза как се казва - logs of #telerikacademy 2013...
+[13:36:11] <fityla> :D
+[13:36:14] <fityla> благодаря
+[13:36:25] <fityla> свалих си един VirtualBox
+[13:36:45] <fityla> правя си виртуална машина..
+[13:37:17] <fityla> не разбирам iso-то където ще ни го даде..
+[13:37:34] <fityla> го слагаме на виртуално сд от него боотваме
+[13:37:36] <fityla> или..
+[13:38:56] <fityla> или боот директно от флашката
+[13:47:03] <fityla> :D
+[13:48:08] <fityla> първа грешка Your CPU does not support long mode. Use a 32bit distribution
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
