@@ -281,3 +281,25 @@
 [21:00:00] Writing channel file...
 [21:01:03] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Ping timeout: 244 seconds
 [21:03:19] <ndyakov> възможно е :)
+[21:17:44] <anton_sh> Имам едно въпросче. Какво правим в ситуация когато се опитваме да инсталираме mysql s yum install mysql mysql-server php-mysql
+[21:17:53] <anton_sh> и съответно
+[21:18:14] <anton_sh> mirrors не отговарят
+[21:18:32] <anton_sh> опитва опитва и накрая try other mirrors
+[21:19:56] <anton_dutsov1> anton_sh: проверяваш си връзката
+[21:20:55] <anton_sh> tc...мн съм зле
+[21:21:13] <anton_sh> недопуснах да е това защото преди 10 мин всичко си работеше
+[21:21:30] <anton_sh> но забравих че ровичках днс server-a
+[21:22:28] <anton_dutsov1> anton_sh: споко, до като не ти се случи няма да се сетиш ;)
+[21:22:55] <anton_sh> нещо се шашкам май затова така
+[21:22:58] <anton_sh> :П
+[21:23:44] Nick change: anton_dutsov1 -> anton_dutsov
+[21:25:47] <anton_dutsov> .weather Vidin,BG
+[21:25:48] <wilindex> Yahoo! Weather - Vidin, BG: Fair, 9°C (48°F), 29in (982mb), Calm 0kt (↑)
+[21:28:53] <Nikiman> weatheer Sofia,BG
+[21:29:09] <Nikiman> .weather Sofia,BG
+[21:29:10] <wilindex> Yahoo! Weather - Sofia, BG: Fair, 10°C (50°F), 30in (1015mb), Light breeze 6kt (→)
+[21:31:52] <phalaaxx> някой ако се опитва да подкара virtualbox на debian wheezy (virtualbox за linux < 3.7.0) със custom kernel (>= 3.7.0) - това пести време:
+[21:31:52] <phalaaxx> http://www.preining.info/software/virtualbox-3.11.patch
+[21:31:52] <phalaaxx> :)
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
