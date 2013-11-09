@@ -139,3 +139,42 @@
 [18:00:00] Writing user file...
 [18:00:00] Writing channel file...
 [18:04:32] __rewind (~teo@46.238.29.142) joined #telerikacademy.
+[18:12:17] <fityla> хехе
+[18:12:18] <fityla> ..
+[18:12:21] <fityla> идеално
+[18:12:37] <fityla> не проблема май е във VirtualBox май не поддръжа
+[18:12:43] <fityla> 64бит. ОС
+[18:13:11] <fityla> свалих х386
+[18:13:17] <fityla> i386
+[18:13:20] <fityla> и запали
+[18:13:28] <fityla> гледам по гръба..
+[18:13:35] <fityla> не виждам какво може да се прави ..
+[18:13:46] <fityla> в него
+[18:22:12] <__rewind> fityla, на каква ОС качваш VirtualBox ?
+[18:29:22] <fityla> Windows 8 64bit -> VirtualBox -> изтеглих някакво CentOS 5.0 i386
+[18:29:27] <fityla> за да го подкарам
+[18:32:28] <fityla> <phalaaxx> (03:13:54 PM) __rewind: .tell fityla няма да е iso, вероятно ще е img или vdi (или ova)
+[18:32:32] <fityla> прав си да ..
+[18:32:46] <fityla> ще е сигурно директно .vdi
+[18:33:08] <fityla> формата на VirtualBox само трябва да си го налеем в папката
+[18:35:08] <fityla> и хич не ме бива с тоя VirtualBox
+[18:35:45] <fityla> Както каза phalaxx .. :D за някаква необичайна прична да ти се повреди компютъра.. /от яд да го удряш в бюрото/ на моменти ми идава.. това
+[18:35:47] <fityla> :D
+[18:36:39] <fityla> пуснал съм тема във форума.. нещо ако мислите че трябва да се добави ..
+[18:36:41] <fityla> казвайте
+[18:36:50] <fityla> http://forums.academy.telerik.com/129515/%D0%B8%D0%B7%D0%BF%D0%B8%D1%82-linux-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F
+[18:36:50] <wilindex> [ Изпит Linux администрация - Telerik Academy Forums ] - forums.academy.telerik.com
+[18:37:55] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 244 seconds
+[18:47:51] <anton_sh> fityla,  сещам се за DNS  не знам дали ще го има на изпита но сме го учили
+[18:48:26] <fityla> Мариян каза че няма да го има
+[18:48:48] <fityla> просто няма време
+[18:50:11] <anton_sh> а относно груб-а цент ос е с груб 1 налои
+[18:59:38] Nikiman (~dfdfdfd@91.191.219.153) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:02:00] <yulimoto> тоя груб е такава шитня
+[19:02:12] <yulimoto> груб 1 груб legacy груб 2
+[19:02:24] <yulimoto> всеки с нов синтакс
+[19:03:21] <fityla> да
+[19:03:40] <fityla> каквото съм можал
+[19:03:54] <fityla> записал
