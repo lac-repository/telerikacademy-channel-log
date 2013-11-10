@@ -136,3 +136,36 @@
 [21:57:06] <Nikiman> честито :)
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:08:28] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[22:19:44] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Remote host closed the connection
+[22:20:03] <anton_sh> Здравейте, имам два въпроса относно 'конспекта' от форума свързан с изпита
+[22:20:12] <anton_sh> anybody here?
+[22:29:35] <Nikiman> ами аз
+[22:39:37] <anton_sh> Една от точките която не ми е ясна е
+[22:39:40] <anton_sh> Директорията rc/local - за конфигурация на мрежата
+[22:39:57] <anton_sh> не ми е яско какво се има предвид точно
+[22:44:47] anton_sh (~anton_sh@cable-84-43-194-120.mnet.bg) left irc: Remote host closed the connection
+[22:46:34] <phalaaxx> това не е директория
+[22:46:41] anton_sh (~anton_sh@cable-84-43-194-120.mnet.bg) joined #telerikacademy.
+[22:46:51] <phalaaxx> anton_sh: това не е директория
+[22:48:13] <anton_sh> предположих и аз че имат предвид rc.local
+[22:48:28] <anton_sh> но защо от там да се настойва мрежата не мога да разбера
+[22:48:33] <Nikiman> да :)
+[22:48:56] <anton_sh> какъв е смисъла?
+[22:49:08] <Nikiman> ами в /etc/rc.local се слагали команди които да се изпълняват
+[22:49:13] <Nikiman> при буутване
+[22:49:36] <anton_sh> еми за тази цел има config file за мрежата
+[22:49:45] <phalaaxx> rc.local обикновено се изпълнява последно след всички останали rc скриптове
+[22:49:50] <anton_sh> не знам струва ми се странно
+[22:50:22] <phalaaxx> идеята е за да покажеш че знаеш как се използва iproute или iproute2 (ifconfig или ip)...
+[22:50:37] <phalaaxx> да си опишеш там командите които правят мрежовите настройки
+[22:54:03] <_rewind> което не е много трудно, но определено не е нещо често срещано...
+[22:54:18] <_rewind> вчера опитах да направя именно това и установих, че не помня голяма част от синтаксиса на командите
+[22:54:38] <_rewind> отне ми може би около половин час да си припомня всичко необходимо за вдигането на мрежа от man page-a
+[22:55:13] <_rewind> от този ман обаче - http://www.computerhope.com/unix/ip.htm има по-хубави примери
+[22:55:15] <wilindex> [ Linux and Unix ip command and examples ] - www.computerhope.com
+[22:56:59] <_rewind> phalaaxx, мислиш ли да "оборудваш" и #bzimage с присъствието на един небезизвестен бот
+[22:57:00] <_rewind> ?
+[22:57:30] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
