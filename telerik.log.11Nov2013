@@ -525,3 +525,92 @@
 [19:00:00] Writing user file...
 [19:00:00] Writing channel file...
 [19:01:55] rewind_mobile (~yaaic@85.118.193.177) left irc: Ping timeout: 240 seconds
+[19:10:27] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[19:11:43] <Deyan_> HELP
+[19:11:54] <Deyan_> кой е на линия
+[19:12:04] <Deyan_> phalaaxx, yulimoto KpeTeHoug
+[19:12:29] <Deyan_> айде бе спамъри
+[19:12:32] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[19:12:46] <Deyan_> Nov 11 15:37:08 localhost kernel: ath: phy0: Could not kill baseband RX
+[19:13:33] <Deyan_> Nov 11 19:01:16 localhost kernel: ath: phy0: Unable to set channel
+[19:13:33] <Deyan_> Nov 11 19:01:16 localhost kernel: ath: phy0: Could not kill baseband RX
+[19:13:33] <Deyan_> Nov 11 19:01:16 localhost kernel: ath: phy0: Unable to reset channel, reset status -5
+[19:16:35] Nick change: Deyan -> Guest43981
+[19:17:11] Nick change: Deyan_ -> Deyan
+[19:26:12] <_rewind> Deyan, от какво е това - това не е ли atheros, първата физическа лан карта ?
+[19:26:27] <_rewind> и какво се случва
+[19:26:44] <Deyan> не иска да се върже към нета
+[19:26:52] <Deyan> тоест към рутера
+[19:27:02] <_rewind> кабел ? (пробвал ли си )
+[19:27:03] <Deyan> сега съм пуснал нета през телефона и усб кабел
+[19:27:19] <Deyan> сега ще закача един пач
+[19:27:22] <_rewind> хаха ;) класика (аз правя така винаги, когато имам проблем с драйвър или кабел)
+[19:27:27] <Deyan> :)
+[19:28:06] <_rewind> една от най-хубавите благини на линукс, няма нужда да изспиваш един тон драйвъри и джънк приложения на оператора в операционната система за да си споделиш интерфейса за интернет
+[19:28:28] <Deyan> да
+[19:28:55] <_rewind> ама това как  се случи, след кърнъл ъпдейт или ?
+[19:29:48] <_rewind> и на какво устройство е качено ?
+[19:29:59] <_rewind> и каква дистрибуция :D
+[19:30:36] <Deyan> работи си на жица
+[19:31:05] <Deyan> не то си го прави когато си иска
+[19:31:19] <Deyan> на 2-3 дни и решава да се прецака
+[19:31:25] <Deyan> на цент ос 6.4
+[19:32:32] <yulimoto> тва wifi ли  е кво е
+[19:32:39] <Deyan> да шифи
+[19:32:43] <yulimoto> а ве някой получил ли е МАИЛ
+[19:33:01] <yulimoto> я казвайте един по един
+[19:33:40] <Deyan> аз не
+[19:33:54] <Deyan> явно само на афтер партито ще се ходи
+[19:33:58] <_rewind> и аз не
+[19:35:12] <_rewind> ще ми се поне да разбера, в какво съм съгрешил, освен че си признах за dd - http://forums.academy.telerik.com/129765/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5%D0%B4%D0%BD%D0%B0%D1%82%D0%B0-%D0%B3%D0%BB%D1%83%D0%BF%D0%BE%D1%81%D1%82-%D0%BA%D0%BE%D1%8F%D1%82%D0%BE-%D0%BD%D0%B0%D0%BF%D1%80%D0%B0%D0%B2%D0%B8%D1%85%D1%82%D0%B5-%D0%B4%D0%BE%D0%BA%D0%B0%D1%82%D0%BE-%D1%83%D1%87%D0%B8%D1%85%D1%82%D0%B5-%D0%B7%D0%B0-l
+[19:35:12] <_rewind> sa
+[19:35:12] <wilindex> [ Последната глупост, която направихте докато учихте за LSA. - Telerik Academy Forums ] - forums.academy.telerik.com
+[19:35:21] <yulimoto> значи утре ще им оспамим сървъра
+[19:36:15] <_rewind> надявам се говориш за mail сървъра им :)
+[19:36:49] <yulimoto> мда :)
+[19:36:54] <yulimoto> аз ще им пиша към 12
+[19:37:28] <_rewind> тогава аз в и 01
+[19:39:52] <Deyan> ето ви и пейст от dmesg
+[19:39:53] <Deyan> http://pastebin.com/WEFf7Xvi
+[19:39:55] <wilindex> [ Initializing cgroup subsys cpuset Initializing cgroup subsys cpu Linux version - Pastebin.com ] - pastebin.com
+[19:40:13] <Deyan> wilindex, ти да мълчиш
+[19:40:35] <Deyan> хубавото е че след рестарт се оправя, ама не ми се рестаритира
+[19:45:11] <yulimoto> a рутера къв е ?
+[19:45:13] <yulimoto> ;P
+[19:45:30] <Deyan> айде сега какъв бил ритера
+[19:45:33] <Deyan> е ми черен е
+[19:46:18] <yulimoto> :)
+[19:46:31] <Deyan> не ми е проблема в рутера, защото като натиснах бутончето за изключване на wifi-то и то вече не иска да светне
+[19:46:54] <Deyan> Марков ми е рутера
+[19:47:51] <_rewind> цицко трябва да е, съдейки по това с какво се уредих тия дни от Деян :)
+[19:48:17] <Deyan> същото е и моето
+[19:48:57] <Deyan> _rewind, той yulimoto знае много добре какъв е, ама се прави на Лепа Брена
+[19:49:07] <_rewind> това Presario CQ57 ли е ?
+[19:49:21] <Deyan> какво пресарио
+[19:49:29] <_rewind> модела на notebook-a ?
+[19:49:37] <_rewind> така и не го каза, или аз го пропуснах
+[19:49:43] <Deyan> ХП 630
+[19:51:19] <_rewind> пробва ли със sudo rfkill unblock all ?
+[19:52:58] <Deyan> не бях го пробвал но не помогна
+[19:53:37] <_rewind> за този модел пишат, че понякога тръгва, ако му спреш от бутона wireless-a и след това го стартираш при вече бутнал линукс
+[19:54:07] <Deyan> да то след рестарт се оправя
+[19:54:13] <_rewind> ахаа...
+[19:54:15] <Deyan> ама не исках да рестатирам
+[19:54:40] <Deyan> опитвам се да го излъжа някак с ваша помощ
+[19:54:41] <_rewind> тогава това е твоето решение: sudo rmmod -f ath5k
+[19:54:42] <_rewind> sudo rfkill unblock all
+[19:54:42] <_rewind> sudo modprobe ath5k
+[19:55:01] <_rewind> поне това работи под mint според блог постинга, който намерих
+[19:55:07] <_rewind> http://www.geekmind.net/2011/01/linux-wifi-operation-not-possible-due.html
+[19:55:08] <wilindex> [ Linux WiFi: operation not possible due to RF-kill ] - www.geekmind.net
+[19:57:48] <Deyan> [root@Device-0DC9EB ~]# ifconfig wlan0 up
+[19:57:48] <Deyan> SIOCSIFFLAGS: Input/output error
+[19:58:01] <Deyan> да това звучеше добре, до последният ред
+[19:58:02] <Deyan> :)
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:20] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Ping timeout: 272 seconds
+[20:04:30] <Deyan> проблема е решен
+[20:04:32] <Deyan> [root@Device-0DC9EB ~]# cat /proc/modules |less
+[20:04:33] <Deyan> [root@Device-0DC9EB ~]# rmmod ath9k
+[20:04:33] <Deyan> [root@Device-0DC9EB ~]# modprobe ath9k
