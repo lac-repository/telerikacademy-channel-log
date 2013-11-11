@@ -760,6 +760,48 @@
 			<div>&nbsp;<span class="time">[21:57:07]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; anton_sh, не, просто когато е зададена поредност dns files първо проверява dns сървърите за наличието на даден хост и чак след това /еtc/hosts</span></div>
 			<div>&nbsp;<span class="time">[21:57:56]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; да това имах предвид но и в такъв случай би трябвало да резолвне локалхоста</span></div>
 			<div>&nbsp;<span class="time">[21:58:14]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; може би няма да го резолвне единствено ако е изтрито files</span></div>
+			<div>&nbsp;<span class="time">[22:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[22:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[22:03:06]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; ами ето, създадохме си задачка, аз отивам да видя дали ще стане така</span></div>
+			<div>&nbsp;<span class="time">[22:03:15]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; ама като си приключа с инсталацията на апач с мъсял</span></div>
+			<div>&nbsp;<span class="time">[22:04:46]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; да интересна тема за дискусия е какво може да ни даде счупено,което ще трябва да оправим</span></div>
+			<div>&nbsp;<span class="time">[22:05:28]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; защото едно инсталиране на apache, mysql подкарване на wordpress и цонфигуриране на мрежа ми се вижда доста просто</span></div>
+			<div>&nbsp;<span class="time">[22:05:31]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; то за чупене ТВЪРДЕ много има, аз от снощи се замислих, колко всеобхватен може да бъде тоя термин</span></div>
+			<div>&nbsp;<span class="time">[22:05:47]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; хаха</span></div>
+			<div>&nbsp;<span class="time">[22:05:52]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; защо какво счупи</span></div>
+			<div>&nbsp;<span class="time">[22:06:17]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; ами като за начало смених партишъна във виртуалната и видях, че няма как да провали бутването</span></div>
+			<div>&nbsp;<span class="time">[22:06:35]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; след което затрих изцяло menu.lst или по-точно grub.cfg като го възстанових на ръка</span></div>
+			<div>&nbsp;<span class="time">[22:06:52]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; малко беше зор докато нацеля LVM волюма, но стана</span></div>
+			<div>&nbsp;<span class="time">[22:07:21]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; но пък после осъзнах, че това не е grub2 и в CentOS няма такова нещо като update-grub за да си възстанови настройките</span></div>
+			<div>&nbsp;<span class="time">[22:07:54]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; после си поиграх и с dd и точно тогава си припомних глупостта с /dev/null и dd (темата във форума)</span></div>
+			<div>&nbsp;<span class="time">[22:08:19]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; след това се замислих, че е възможно iptables да не са спрени и съответно да трябва да се flush-нат за да тръгне сайта</span></div>
+			<div>&nbsp;<span class="time">[22:08:59]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; в момента съм на възстановяване на липсваща парола за mysql root и конфигурация на apache, при която нещо е необичайно разхвърляно</span></div>
+			<div>&nbsp;<span class="time">[22:09:40]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; много е интересно, Мариан никакъв не се появява в ИРЦ</span></div>
+			<div>&nbsp;<span class="time">[22:09:52]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; той само ни чете логовете и ни гледа сеира ;)</span></div>
+			<div>&nbsp;<span class="time">[22:10:00]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; иначе можеше да го тормозим</span></div>
+			<div>&nbsp;<span class="time">[22:10:04]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; и събира :D</span></div>
+			<div>&nbsp;<span class="time">[22:10:09]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; идеи :D :P~</span></div>
+			<div>&nbsp;<span class="time">[22:10:19]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; yulimoto, убивай телерик</span></div>
+			<div>&nbsp;<span class="time">[22:10:27]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; да не го правя аз</span></div>
+			<div>&nbsp;<span class="time">[22:11:56]</span>&nbsp;<span class="nick">&lt;Nikiman&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[22:35:35]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; _rewind, имам идея ако нещо имам затруднения на изпита с MYSQL users</span></div>
+			<div>&nbsp;<span class="time">[22:35:58]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; инсталирам един phpmyadmin и през него оправям положението :D</span></div>
+			<div>&nbsp;<span class="time">[22:37:21]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; и как точно ще го направиш без мрежа</span></div>
+			<div>&nbsp;<span class="time">[22:37:40]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; и не ми казвай, че ще си вържеш 3G флашката, щото това трябва да са -10 така или иначе ;)</span></div>
+			<div>&nbsp;<span class="time">[22:38:07]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; това, което той каза е, че изпита ще бъде изцяло конфигурация и нищо друго</span></div>
+			<div>&nbsp;<span class="time">[22:38:23]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; ще трябва да се справим с наличните на машината тулове</span></div>
+			<div>&nbsp;<span class="time">[22:40:32]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; аа така ли няма ли да има нет</span></div>
+			<div>&nbsp;<span class="time">[22:41:10]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; аз си мислех че ще има защото си спомням беше казал веднъж че задачите ще са такива че трудно ще намерим отговора в google.com</span></div>
+			<div>&nbsp;<span class="time">[22:47:23]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; _rewind, не ме стряскай дано да може да ползваме google защото ми е добър приятел</span></div>
+			<div>&nbsp;<span class="time">[22:49:10]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; по-добре се сприятели с man страниците на нещата, които смяташ, че ще ти трябват, защото последния му коментар на подготвителната лекция беше, че...</span></div>
+			<div>&nbsp;<span class="time">[22:49:26]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; и жена му ще се оправи за не повече от час и половина само с man страници :D</span></div>
+			<div>&nbsp;<span class="time">[22:50:52]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; хахах</span></div>
+			<div>&nbsp;<span class="time">[22:51:51]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; попринцип сигурно е прав но аз без интернет не мисля че мога да настроя например апачето</span></div>
+			<div>&nbsp;<span class="time">[22:52:06]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; не знам кой таг за какво е</span></div>
+			<div>&nbsp;<span class="time">[22:52:52]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; винаги гледам от интернет когато настройвам виртуални хостове например</span></div>
+			<div>&nbsp;<span class="time">[22:53:10]</span>&nbsp;<span class="nick">&lt;anton_sh&gt;</span><span class="text">&nbsp; знам какво правя (уж) но просто се консултирам с чичо гугъл</span></div>
+			<div>&nbsp;<span class="time">[22:59:39]</span>&nbsp;<span class="else_li">&nbsp;Deyan_ (~Deyan@46.249.92.240) left irc: Ping timeout: 252 seconds</span></div>
+			<div>&nbsp;<span class="time">[22:59:51]</span>&nbsp;<span class="else_li">&nbsp;Deyan (~Deyan@46.249.92.240) left irc: Ping timeout: 272 seconds</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
