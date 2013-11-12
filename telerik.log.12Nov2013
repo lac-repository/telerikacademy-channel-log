@@ -796,3 +796,22 @@
 [21:00:00] Writing user file...
 [21:00:00] Writing channel file...
 [21:04:28] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[21:05:30] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[21:26:51] hackman (~hackman@management.1h.com) left irc: Ping timeout: 268 seconds
+[21:37:56] pinkiePie (~pinkiePie@78.90.46.96) joined #telerikacademy.
+[21:39:47] <phalaaxx> https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-ash3/936023_10202185073057142_524072751_n.jpg
+[21:41:24] <pinkiePie> :D
+[21:53:14] <pinkiePie> имаше ли хора, които бяха на последната подготвителна лекция
+[21:53:38] Informer (Informer@78.90.229.234) left irc: Read error: Connection reset by peer
+[21:58:24] <yulimoto> имало е :)
+[21:58:40] <yulimoto> т.е. има ама явно си почиват :)
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:02] <pinkiePie> и аз бях там
+[22:00:39] <pinkiePie> мариян каза че ще инсталваме с rpm и ако съм разбрал правлно е с пакети които са на машината
+[22:01:56] <pinkiePie> ама ако е така дали ще има за 32 и 64 битови машини или ще има различни дистрибуции на флашките или с репозитори ще се свалят през нета
+[22:03:38] <yulimoto> до колкото аз разбрах (но не съм бил там) нет няма да има, ако има репозитори то ще е локално
+[22:03:52] <pinkiePie> ясно
+[22:04:32] <pinkiePie> всъщност за интернет нещата бяха под въпрос дали ще има
+[22:04:55] <yulimoto> идеята на хакман е да ограничи нетя, за да не се консултираме с него
+[22:05:00] <yulimoto> само man
