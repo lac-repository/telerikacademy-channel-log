@@ -815,3 +815,75 @@
 [22:04:32] <pinkiePie> всъщност за интернет нещата бяха под въпрос дали ще има
 [22:04:55] <yulimoto> идеята на хакман е да ограничи нетя, за да не се консултираме с него
 [22:05:00] <yulimoto> само man
+[22:05:59] Nikiman (~dfdfdfd@91.191.219.153) joined #telerikacademy.
+[22:06:09] <pinkiePie> само ман и alt+tab :D
+[22:07:14] <Nikiman> е това, което каза за жена си и ман страниците дали беше шега? :)
+[22:07:43] <pinkiePie> ем предполагам че не
+[22:07:56] <pinkiePie> час и половина и ако си разбрал как да четеш ман-а
+[22:08:23] <yulimoto> 1 час ще е май
+[22:08:28] <Nikiman> да...
+[22:08:36] <Nikiman> 1 час е изпита, ад
+[22:08:39] <Nikiman> * да
+[22:08:51] <pinkiePie> не, на лекцията мариян каза, че за час и половина жену ме ще направи изпита само от ман
+[22:09:41] <yulimoto> ми ако се закучи някъде, има помощ от публиката до колкото разбрах -1 точка
+[22:10:28] <Nikiman> не беше ли помощ от квесторите срещу -10 точки
+[22:10:45] <yulimoto> аааа
+[22:10:51] <yulimoto> гадно
+[22:10:57] <yulimoto> може и така да е
+[22:11:02] <yulimoto> което не ме устройва
+[22:11:05] <Nikiman> да... а всичко са 100
+[22:11:25] <pinkiePie> -10
+[22:11:30] <pinkiePie> и то не е помощ, а правят задачата цялата
+[22:11:47] <yulimoto> аха
+[22:11:56] <pinkiePie> т.е. не мога да си запаля буута, идва човека, фиксва -10
+[22:12:06] <yulimoto> т.е. мога да им кажа да ми направят целия изпит и ще взема 11 точки :)
+[22:12:28] <pinkiePie> мне -110 точки :D
+[22:12:35] <Nikiman> :D
+[22:12:49] <yulimoto> аха
+[22:12:53] <yulimoto> лошо
+[22:12:58] <pinkiePie> при 5 задачи ако не направиш, по-добре да си ставаш
+[22:13:21] <phalaaxx> pinkiePie: няма да се инсталира нищо
+[22:13:47] <phalaaxx> каза че всичко ще е инсталирано и ще трябва само да се конфигурира
+[22:14:04] <pinkiePie> може и да са променили нещата, ама последния път каза, че ще е така
+[22:14:06] <phalaaxx> rpm може да се наложи да се ползва за да се види разни неща къде се намират
+[22:14:13] <pinkiePie> тогава защо съм писал rpm, че съм го и ограждал :D
+[22:14:22] <pinkiePie> аха, ясно
+[22:14:34] <Nikiman> защото каза, че rpm може да си проверим какво има инсталирано
+[22:14:35] <phalaaxx> аз не съм си записвал но това каза по спомени
+[22:14:36] <Nikiman> на машината
+[22:14:47] <phalaaxx> да, или нещо такова да беше
+[22:15:09] <pinkiePie> ем да rpm, ама ако е инсталнато преди това с rpm :D
+[22:15:33] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[22:15:58] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[22:16:56] <yulimoto> тва рпм mi e криво ама утре ще го погледна поне да видя query-тата да си припомня за пакетите
+[22:16:57] <wilindex> TypeError: 'Nick' object is not callable (file "/home/phalaaxx/.willie/modules/weblogger.py", line 45, in logger)
+[22:17:06] <yulimoto> охооо
+[22:17:07] <wilindex> TypeError: 'Nick' object is not callable (file "/home/phalaaxx/.willie/modules/weblogger.py", line 45, in logger)
+[22:17:18] <yulimoto> мдааа
+[22:17:18] <wilindex> TypeError: 'Nick' object is not callable (file "/home/phalaaxx/.willie/modules/weblogger.py", line 45, in logger)
+[22:17:55] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[22:18:13] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[22:18:13] <yulimoto> значи като се username-а го оправихме :) сега ще трябва да огледаме за дикшънърита
+[22:18:13] <wilindex> TypeError: 'Nick' object is not callable (file "/home/phalaaxx/.willie/modules/weblogger.py", line 44, in logger)
+[22:18:19] <phalaaxx> леко го побърках :D
+[22:18:20] <wilindex> TypeError: 'Nick' object is not callable (file "/home/phalaaxx/.willie/modules/weblogger.py", line 44, in logger)
+[22:18:26] <yulimoto> упсс пак същатата ралта
+[22:18:27] <wilindex> TypeError: 'Nick' object is not callable (file "/home/phalaaxx/.willie/modules/weblogger.py", line 44, in logger)
+[22:18:28] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[22:20:01] <Nikiman> кво е това? бот, който логва от тоя канал ли
+[22:21:02] <yulimoto> вероятно а на всичко отгоре е weblogger
+[22:21:19] <yulimoto> което говори, че логовете са в html вид :)
+[22:21:58] <phalaaxx> мииии...
+[22:22:06] <phalaaxx> всъщност за бота няма такъв модул
+[22:22:10] <phalaaxx> сега се опитвам да го напиша
+[22:22:27] <yulimoto> което пък ме навежда на мисълта, че phalaaxx ще прави логове на #bgadmin
+[22:22:30] <Nikiman> аха :)
+[22:22:42] <phalaaxx> yulimoto: това е идеята
+[22:23:04] <yulimoto> ясноооо имаш си занимание :)
+[22:23:35] <yulimoto> аре хора че ще ставам рано аз
+[22:25:37] <Nikiman> лека
+[22:25:50] <pinkiePie> чао
+[22:37:17] bgpepi (~bgpepi@ip-80-236-221-201.dsl.scarlet.be) joined #telerikacademy.
+[22:57:27] pgachev (~pgachev@85.187.153.2) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
