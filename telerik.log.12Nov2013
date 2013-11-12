@@ -489,3 +489,93 @@
 [15:54:34] <KacanuH> както казах съм готов и за квестор доброволец
 [16:00:00] Writing user file...
 [16:00:00] Writing channel file...
+[16:06:04] <rewind_work> e, то квестори разбрах, че има достатъчно, по-скоро за подготовката на машините. Молбата ми е hackman да каже дали ще бъдат необходими и трите notebook-а?
+[16:06:21] <rewind_work> и кога ще бъде организацията ?
+[16:06:43] <rewind_work> 14 - 15 ч. в петък ?
+[16:08:38] <rewind_work> и един въпрос към всички, които получиха покани - задължителна ли е регистрацията в bgcoder и вие направихте ли си ?
+[16:09:31] <yulimoto> аз се записах но не съм си направил регистрация
+[16:09:48] <yulimoto> предполагам че това е част от стратегията им да развиват бгкодър
+[16:14:33] <phalaaxx> къде го видяхте това за bgcoder?
+[16:18:02] <yulimoto> в EULA-та на изпита точка 1
+[16:18:19] <yulimoto> ама ако си се записал вече не знам къде е линка :)
+[16:22:07] dencho (f@89.25.28.162) left irc: Ping timeout: 265 seconds
+[16:22:26] <phalaaxx> ми ще пропусна регистрацията там
+[16:22:58] <phalaaxx> все пак курса не е за програмиране
+[16:23:09] <phalaaxx> ако направят bgadmin - може :)
+[16:23:39] <phalaaxx> ето ви още едно име за канал - #bgadmin :)
+[16:24:19] <KacanuH> phalaaxx: е ми регистрирай го
+[16:25:47] <phalaaxx> #bzimage или #bgadmin ?
+[16:25:50] <phalaaxx> (дилема)
+[16:26:03] <KrasiGa> bgadmin
+[16:26:10] <KrasiGa> Освен да гласуваме
+[16:26:17] <KacanuH> bzimage изглежда по-готино, но аз лично съм за бгадмин
+[16:26:35] <KrasiGa> така може да привлече повече хора
+[16:27:01] <KrasiGa> по commercial е
+[16:28:03] <phalaaxx> ми и двата са регистрирани така че...
+[16:28:17] <phalaaxx> .join #bgadmin
+[16:28:27] <phalaaxx> тъп бот
+[16:28:55] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[16:29:14] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:29:16] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[16:29:35] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:29:54] <phalaaxx> а така
+[16:41:31] <yulimoto> mi кой ги е регистрирал пък
+[16:41:58] <phalaaxx> миии... аз май :)
+[16:42:21] <yulimoto> ясно ясно аз мислех че някой те е преварил
+[16:42:35] <anton_dutsov> phalaaxx: yulimoto: и официално ли е? има ли вече #bgadmin?
+[16:42:46] <phalaaxx> в момента мисля име за домейн
+[16:43:05] <yulimoto> хихи мн рошаво става
+[16:43:11] <phalaaxx> .at, .mobi, .biz, .info, .net, .eu... кой си избирате?
+[16:43:24] <yulimoto> jp съм аз
+[16:43:35] <anton_dutsov> yulimoto: mn skupo
+[16:43:51] <anton_dutsov> .info един глас
+[16:43:51] <wilindex> Can't do that, start meeting first
+[16:44:09] <yulimoto> аз знам по евтино ама трябва да се разгадават йероглифи
+[16:44:11] <anton_dutsov> wilindex: тихо!
+[16:44:32] <anton_dutsov> .eu не е ли на промоция в момента?
+[16:44:37] <phalaaxx> май да
+[16:44:54] <anton_dutsov> .net също изглежда добре :)
+[16:44:58] <yulimoto> аз съм по принцип за еу ama ne ги разбирам
+[16:45:02] <phalaaxx> 12.5 за 3 години
+[16:45:13] <yulimoto> къде ве ?
+[16:45:17] <yulimoto> .нет li
+[16:45:18] <anton_dutsov> phalaaxx: лв?
+[16:45:19] <phalaaxx> eu
+[16:45:27] <phalaaxx> anton_dutsov: euro
+[16:45:38] <phalaaxx> аре казвайте докато не съм размислил :D
+[16:45:43] <phalaaxx> къде ще държим логове :)
+[16:45:49] <KacanuH> phalaaxx: давай eu
+[16:45:59] <anton_dutsov> grizzly ще живее
+[16:46:00] <anton_dutsov> eu
+[16:46:12] <KacanuH>  и казвай банкожата сметка на която да ти пратя паричките
+[16:46:16] <anton_dutsov> bgadmin.eu
+[16:46:29] <anton_dutsov> bgadmin.net
+[16:46:40] <anton_dutsov> мн "n" стават
+[16:46:42] <anton_dutsov> eu
+[16:48:19] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:48:34] <nikiman> значи в края на крайщата ще си е практически изпита
+[16:48:39] <nikiman> само, че на 4 групи
+[16:48:41] <nikiman> така ли?
+[16:48:53] <nikiman> че не можах да следя много днес дискусията тук
+[16:50:37] <rewind_work> a някой помни ли едно момче, на ligthning talks в събота на OpenFest, което сподели няколко безплатни домейна кои домейни точно беше споменал ?
+[16:51:12] <rewind_work> вероятно ще го изровя из записите, но няма да е веднага
+[16:55:12] <phalaaxx> http://bgadmin.eu/
+[16:55:18] <phalaaxx> :D
+[16:55:29] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[16:57:39] <anton_dutsov> .ws свободен ли е?
+[16:58:20] <phalaaxx> е късно, регистрирах го тоя вече
+[16:58:42] <phalaaxx> вече и празен индекс вади
+[16:59:46] <phalaaxx> тия дни може да му кача някой форум
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:43] <anton_dutsov> eu ли
+[17:00:50] <phalaaxx> да бе
+[17:00:53] <phalaaxx> http://bgadmin.eu/
+[17:01:28] <yulimoto> сложи едно # пред bgadmin
+[17:01:40] <yulimoto> и ирц канала да се знае за сега :)
+[17:01:56] nikiman (d47aa522@gateway/web/freenode/ip.212.122.165.34) left #telerikacademy.
+[17:01:59] <yulimoto> :)
+[17:02:25] <phalaaxx> така ок ли е?
+[17:02:49] <yulimoto> пууууу идеалнооо
+[17:03:01] <yulimoto> како е то h3 ли ?
+[17:03:05] <yulimoto> идеалну
