@@ -219,6 +219,20 @@
 			<div>&nbsp;<span class="time">[15:56:31]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; примерно ако направя няколко Mysql-a после датата се синхронизира ;P</span></div>
 			<div>&nbsp;<span class="time">[15:56:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това също работи освен ако не се замотаеш да правиш странни тригери които променят данни при SELECT заявки</span></div>
 			<div>&nbsp;<span class="time">[15:59:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може да направиш Master-Slave репликация в MySQL и с load balancer (примарно mysqlproxy - не е лошо за това да поназнайваш малко Lua) да пращаш SELECT заявките към някой Slave а UPDATE/INSERT/DELETE/... към Master-а</span></div>
+			<div>&nbsp;<span class="time">[16:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[16:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[16:00:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може и Master-Master репликация но тогава трябва да внимаваш малко повече, щото има едни ситуации (при спиране на захранването на някой от сървърите например) дето трябва предварително да се помислят</span></div>
+			<div>&nbsp;<span class="time">[16:00:53]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ам как става принципа на самата синхронизация, ако имам 3-4 mysql-а</span></div>
+			<div>&nbsp;<span class="time">[16:01:20]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ами при MS - имаш един Master и няколко Slave-а</span></div>
+			<div>&nbsp;<span class="time">[16:01:40]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; като запишеш/промениш данни на Master-а - промяната се репликира към Slave сървърите</span></div>
+			<div>&nbsp;<span class="time">[16:01:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и на всички имаш еднакви данни</span></div>
+			<div>&nbsp;<span class="time">[16:02:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; за целта трябва да имаш binary logs и да се опишат още някакви работи в конфигурацията</span></div>
+			<div>&nbsp;<span class="time">[16:12:52]</span>&nbsp;<span class="else_li">&nbsp;bgpepi (~bgpepi@ip-80-236-221-201.dsl.scarlet.be) left irc: Remote host closed the connection</span></div>
+			<div>&nbsp;<span class="time">[16:27:01]</span>&nbsp;<span class="else_li">&nbsp;KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed</span></div>
+			<div>&nbsp;<span class="time">[16:38:53]</span>&nbsp;<span class="else_li">&nbsp;wilindex (~willie@91.230.230.251) left irc: Quit: Closing</span></div>
+			<div>&nbsp;<span class="time">[16:40:30]</span>&nbsp;<span class="else_li">&nbsp;phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.</span></div>
+			<div>&nbsp;<span class="time">[16:40:45]</span>&nbsp;<span class="else_j">&nbsp;phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[16:41:18]</span>&nbsp;<span class="else_li">&nbsp;rewind_work (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Quit: Page closed</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
