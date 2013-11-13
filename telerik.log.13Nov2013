@@ -208,3 +208,29 @@
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
 [17:04:57] <yulimoto> phalaaxx: като мисля приложението, има ли практика да се връзва към mysql-a с 2 юзера, единия да има възможност само да чете
+[17:05:06] <hackman> fuck, nqkoi dali e svalql poslednata lekciq ot NetSec ?
+[17:05:16] <hackman> che sum zabravil da q save-na v twitch-a :(
+[17:05:32] <yulimoto> http://grizzly.yuhu.biz/lectures/NetSec-I/
+[17:06:10] <yulimoto> phalaaxx: имам предвид като секюрити трик, мисля ще е доста ефектно ;P
+[17:06:26] <yulimoto> hackman: има я на гризли :)
+[17:07:48] bgpepi (~bgpepi@ip-80-236-221-201.dsl.scarlet.be) joined #telerikacademy.
+[17:07:50] <phalaaxx> амии да, правят се такива неща
+[17:07:58] <phalaaxx> зависи колко те интересува сигурноста
+[17:08:20] <yulimoto> аха :)
+[17:08:22] <phalaaxx> в някои случаи се правят повече потребители и се дават права само за определени таблици
+[17:09:26] <yulimoto> да, това ме интересуваше дали има практика, защото ми изглежда доста логично :)
+[17:10:15] <phalaaxx> ако примерно имаш база данни на един сървър, уеб сървър на друга машина, фтп на трета, dns на 4-та.... имаш системни потребители в базата данни (PAM), информация за виртуални хостове, FTP акаунти и т.н. - няма идея да ползваш един потребител на всички сървъри с 
+[17:10:33] <phalaaxx> за всяка услуга си правиш потребител с необходимия достъп само до определените таблици
+[17:11:39] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
+[17:12:29] <yulimoto> ъхъ :)
+[17:14:43] rewind_mobile (~yaaic@85.118.193.189) joined #telerikacademy.
+[17:15:02] rewind_mobile (~yaaic@85.118.193.189) left #telerikacademy.
+[17:15:44] rewind_mobile (~yaaic@85.118.193.189) joined #telerikacademy.
+[17:17:15] pinkiePie (~pinkiePie@78.90.46.96) joined #telerikacademy.
+[17:23:20] hackman (~hackman@management.1h.com) left irc: Ping timeout: 245 seconds
+[17:39:27] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[17:48:18] fityla (~fityla@85.118.193.165) joined #telerikacademy.
+[17:48:51] rewind_mobile (~yaaic@85.118.193.189) left irc: Read error: Connection reset by peer
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:02:27] rewind_mobile (~yaaic@85.118.193.166) joined #telerikacademy.
