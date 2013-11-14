@@ -82,3 +82,43 @@
 [09:00:00] Writing user file...
 [09:00:00] Writing channel file...
 [09:01:30] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[09:05:39] dench0 (~dencho@87-126-21-42.btc-net.bg) joined #telerikacademy.
+[09:08:45] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[09:10:24] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[09:13:51] <anton_dutsov> Добро утро на всички
+[09:14:05] <anton_dutsov> Стягате ли се за изпита? :)
+[09:14:34] dench0 (~dencho@87-126-21-42.btc-net.bg) left irc: Ping timeout: 265 seconds
+[09:28:18] Nikiman (~dfdfdfd@91.191.219.153) left irc: Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/
+[09:38:21] Deyan__ (~Deyan@46.249.92.240) left irc: Ping timeout: 245 seconds
+[09:39:05] Deyan (~Deyan@46.249.92.240) left irc: Ping timeout: 272 seconds
+[09:40:31] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[09:42:55] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[09:45:38] <hackman> стягам се да стана аз :)
+[09:46:43] <KacanuH> а аз да си прекомпилирам модулите защото снощи нещо се е бъгнало
+[09:46:52] rewind_mobile (~yaaic@85.118.193.166) left irc: Ping timeout: 240 seconds
+[09:49:20] <yulimoto> вали ли при вас ? тука има нещо такова :)
+[09:49:29] <yulimoto> .weather Sofia
+[09:49:30] <wilindex> Yahoo! Weather - Sofia, BG: Cloudy, 10°C (50°F), 30in (1015mb), Light breeze 6kt (↘)
+[09:49:44] <yulimoto> .weather Yambol
+[09:49:44] <wilindex> Yahoo! Weather - Yambol, BG: Cloudy, 10°C (50°F), 30in (1020mb), Calm 0kt (↑)
+[09:50:04] <yulimoto> .weather Burgas
+[09:50:04] <wilindex> Yahoo! Weather - Burgas, BG: Mostly Cloudy, 12°C (53°F), 30in (1015mb), Gentle breeze 10kt (↗)
+[09:50:34] <KacanuH> yulimoto, ти на синоптик.бг ли се правиш
+[09:51:58] <yulimoto> не просто се чудя какво якенце да си сложа като ида у софето
+[09:52:20] <yulimoto> KacanuH: тръгна ли ти кернела ?
+[09:52:36] <KacanuH> не
+[09:52:47] <yulimoto> що
+[09:52:54] <KacanuH> никаква идея
+[09:52:56] <yulimoto> нещо си пропуснал
+[09:52:59] <yulimoto> сигурно
+[09:53:09] <KacanuH> сигурно
+[09:53:09] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[09:53:20] <KacanuH> сутринта го боотнах
+[09:53:44] <KacanuH> тръгва ама не иска да ми зареди всички драйвери
+[09:54:05] <KacanuH> и ми е много сложно да пиша в момента защото се опитвам да ги прекомпилирам
+[09:54:48] <KacanuH> DEPMOD  3.12.0
+[09:54:49] <KacanuH> sh /usr/src/linux-3.12/arch/x86/boot/install.sh 3.12.0 arch/x86/boot/bzImage \
+[09:54:49] <KacanuH> 		System.map "/boot"
+[09:54:57] <KacanuH> сега е момента на истината!
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
