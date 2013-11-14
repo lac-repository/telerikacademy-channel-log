@@ -398,3 +398,91 @@
 [18:00:00] Writing user file...
 [18:00:00] Writing channel file...
 [18:01:00] <pinkiePie> е малко дарк сайда :D
+[18:07:32] <anton_dutsov> ще има ли лайв стрийм ?
+[18:10:45] <pinkiePie> ем според мен няма да има, то май мариян въведе това като ново, но би трябвало да се качват после лекциите в канала на телерик в тубата
+[18:11:39] pinkiePie (~pinkiePie@78.90.46.96) left irc: 
+[18:34:44] vhristev (~vhristev@212.36.1.26) left irc: Ping timeout: 244 seconds
+[18:39:08] Nick change: yulimoto -> yulimoto__
+[18:39:22] yulimoto_ (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Quit: Changing server
+[18:39:38] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[18:39:59] <_rewind> много yulimoto много нещо :)
+[18:40:40] yulimoto__ (~yulimoto@wolf.yuhu.biz) left irc: Quit: leaving
+[18:40:41] <_rewind> интересно, всички казват, че имат нови коментари от днес, но аз нямам нито един нов, все още
+[18:40:54] <_rewind> за домашните говорех
+[18:41:02] <phalaaxx> и аз нямам
+[18:41:15] <phalaaxx> аз прегледах няколко домашни че бях назад с материала
+[18:41:20] <_rewind> е, онзи моя от оня ден ?
+[18:41:54] <yulimoto> аз като ви видя домашните и ги познавам и не оценям ;P
+[18:42:11] <phalaaxx> аз за днес говоря
+[18:42:15] <phalaaxx> твоя го видях
+[18:42:17] <_rewind> надявам се си ми оценил коментара като полезен ;) :P
+[18:42:46] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:42:48] <phalaaxx> мно'о ясно :)
+[18:42:58] <_rewind> иначе, зная, че сбърках, разбира се ама не го знаех тоя трик...
+[18:43:01] <fityla> маряне
+[18:43:07] <fityla> марияне*
+[18:43:13] <fityla> тука има някоя друга мома
+[18:43:16] <fityla> в windows-a
+[18:43:24] <fityla> като една я бива..
+[18:43:56] <anton_dutsov> fityla: дръж да не избяга :D
+[18:44:04] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Quit: anton_dutsov
+[18:44:36] <fityla> няма бре..
+[18:44:40] <fityla> май има промяна
+[18:44:41] <fityla> в лектора
+[18:45:58] <fityla> x chata
+[18:46:15] <fityla> Пак не ми работи . и трябва на .. браузера
+[18:46:16] <fityla> пак
+[18:47:23] <_rewind> в залата са забранени почти всички портове освен 80 и 443
+[18:47:41] <fityla> дано им забранят..
+[18:47:56] <fityla> да не казвам какво..
+[18:48:10] <_rewind> направи си някой рутер да слуша SSH на порт 443 и си пусни тунел :)
+[18:48:15] <fityla> не повече от 40 човека сме
+[18:48:15] <_rewind> ...и си свиркай
+[18:52:03] <fityla> пълни се все повече..
+[18:52:34] <fityla> имате ли представя
+[18:52:36] <fityla> кой трябва да води
+[18:54:35] <hackman> Уж боби трябва да води :)
+[18:54:39] <hackman> колко хора сте?
+[18:54:41] <hackman> само 40 ?
+[18:55:26] <Deyan> hackman, http://hicomm.bg/hi-tech/zapochna-se-i-zte-s-modulen-telefon.html/
+[18:55:26] <wilindex> [ Започна се! И ZTE с модулен телефон, HiTech | HiComm ] - hicomm.bg
+[18:55:55] <yulimoto> hackman: взе ли го ?
+[18:55:58] <Deyan> когато излезна новината за phoneblocks ти казваше ще че хвърляш галаксито
+[18:56:13] <Deyan> май ще скоро ще дойде и тоя момент
+[18:56:28] <fityla> Борислав Варадинов
+[18:56:30] <fityla> е ..
+[18:56:32] <yulimoto> ей това с тия модули не го вярвах, ама верно се почна
+[18:56:42] <yulimoto> модулни чаркове
+[18:56:57] <hackman> yulimoto, контролното май на половина го напраих... напраих и едно по алгоритми... ама се оказа, че само съм си изгубил времето... защото не било за моя курс :)
+[18:58:43] <yulimoto> hackman: еми ако е до половината, другия път другата половина ;P .... за алгоритми учебника добринков-наков според мен е мн добър :)
+[18:59:57] fityla_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:13] <hackman> Deyan, аз мисля, че това ще си взема: http://neo900.org/
+[19:00:14] <wilindex> [ Neo900 ] - neo900.org
+[19:00:52] <hackman> yulimoto, потърси за Knuth...
+[19:00:56] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:00:58] <hackman> the father of all :)
+[19:01:16] <yulimoto> hackman: 10х
+[19:01:21] <hackman> веднъж изчел и разбрал knuth... имаш съвсем различно виждане за алгоритмите и светът като цяло :)
+[19:01:26] <hackman> аз имам всичките 7 книги
+[19:01:30] <hackman> изчел съм само първите 4
+[19:01:35] <hackman> 3 или 4 не помня :)
+[19:01:35] <fityla_> напълни се..
+[19:01:48] <hackman> fityla_, напълни ли се залата ?
+[19:01:53] <hackman> а боби дойде ли ?
+[19:01:53] <fityla_> да
+[19:02:02] Last message repeated 1 time(s).
+[19:02:02] <fityla_> даже спомена ..
+[19:02:07] <fityla_> и за курса linux..
+[19:02:11] <hackman> жалко, че ще пропусна :(
+[19:02:15] <fityla_> ОС и за теб..
+[19:02:15] <hackman> какво за linux-a ?
+[19:02:22] <hackman> пууу защо няма stream :(
+[19:02:43] <fityla_> май няма да
+[19:02:44] <fityla_> има ..
+[19:02:46] Deyan (~deyan@46.249.92.240) left irc: Ping timeout: 240 seconds
+[19:03:11] <fityla_> само с добро те споменава..
+[19:03:12] <fityla_> :D
+[19:03:27] Nikiman (~dfdfdfd@91.191.219.153) joined #telerikacademy.
+[19:03:58] <yulimoto> тоя телефон нещо и мен ме привлича с хардуерната си клавиатурка :)
