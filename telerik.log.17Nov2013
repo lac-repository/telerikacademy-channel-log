@@ -148,3 +148,43 @@
 [15:00:44] _rewind (~teo@46.238.29.142) left irc: Ping timeout: 248 seconds
 [15:03:40] Fairytale (1000@77.70.117.169) joined #telerikacademy.
 [15:04:38] <Fairytale> Едно проблемче ..
+[15:05:35] <Fairytale> Със  Slackware съм, вентилаторите работят на макс, все едно компа ще излита.
+[15:05:47] <Fairytale> Desktop машина
+[15:06:23] <Fairytale> В WIN компа не се чува че работи.
+[15:06:44] <Fairytale> Някаква идея?
+[15:07:21] <Fairytale> В BIOSа всичко съм сложил на silent
+[15:08:02] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Ping timeout: 272 seconds
+[15:08:09] <Fairytale> Температурата на CPUто е 47
+[15:12:05] <lyubenblagoev> Fairytale, пробва ли да сложиш acpi_osi=Linux в бут параметрите на кърнъла?
+[15:13:09] <Fairytale> Ne
+[15:13:23] <Fairytale> KuКъде точно трябва да се сложат/
+[15:14:41] <lyubenblagoev> в конфигурацията на boot loader-a, на реда за kernel-a
+[15:15:14] <Fairytale> Сега ще прегледам.
+[15:16:02] fityla (~fityla@37.157.179.200) joined #telerikacademy.
+[15:17:09] <Fairytale> Само да не излети.
+[15:18:40] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[15:22:23] bgpepi (~bgpepi@ip-80-236-221-201.dsl.scarlet.be) left irc: Remote host closed the connection
+[15:24:41] <Fairytale> lyubenblagoev: Аз обаче съм с LILO. В lilo.conf ли трябва да ги добавя?
+[15:27:50] <Fairytale> Видях къде е.
+[15:28:05] <lyubenblagoev> в лило не съм го правил, трябва да го добавиш на края на kernel реда
+[15:29:55] <Fairytale> Намерих го
+[15:32:01] <Fairytale> Сега да видим дали ще бутне :-)
+[15:32:33] Fairytale (1000@77.70.117.169) left irc: Remote host closed the connection
+[15:33:18] fityla_ (~fityla@37.157.179.200) joined #telerikacademy.
+[15:35:12] Fairytale (1000@77.70.117.169) joined #telerikacademy.
+[15:35:37] <Fairytale> Няма разлика.
+[15:36:19] <Fairytale> А и те са много вентилатори
+[15:36:39] <Fairytale> Мисля че бучат допалнителните.
+[15:37:01] <Fairytale> CPU FAN Speed:          1979 RPM  (min =    0 RPM, max = 1800 RPM)
+[15:37:01] <Fairytale> CHASSIS FAN Speed:      1318 RPM  (min =    0 RPM, max = 1800 RPM)
+[15:37:01] <Fairytale> POWER FAN Speed:           0 RPM  (min =    0 RPM, max = 1800 RPM)
+[15:37:04] <Fairytale> CHASSIS4 FAN FAN Speed:    0 RPM  (min =    0 RPM, max = 1800 RPM)
+[15:37:06] <Fairytale> CHASSIS2 FAN FAN Speed:    0 RPM  (min =    0 RPM, max = 1800 RPM)
+[15:37:08] <Fairytale> CHASSIS3 FAN FAN Speed:    0 RPM  (min =    0 RPM, max = 1800 RPM)
+[15:37:10] <Fairytale> CPU Temperature:         +51.0�C  (high = +90.0�C, crit = +125.0�C)
+[15:37:12] <Fairytale> MB Temperature:          +36.0�C  (high = +45.0�C, crit = +90.0�C)
+[15:37:26] fityla (~fityla@37.157.179.200) left irc: Ping timeout: 272 seconds
+[15:45:52] <Fairytale> Има някакъв fancontrol, според мен так се крие истината
+[15:51:23] ttanev (~yaaic@85.118.193.187) left irc: Ping timeout: 265 seconds
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
