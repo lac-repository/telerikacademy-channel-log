@@ -65,3 +65,57 @@
 [11:54:28] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
+[12:15:15] <yulimoto> а ве колкото да блъскам повече от 88 не мога да напрая
+[12:15:45] <yulimoto> mysql grant пермишъните field И web request to WP field
+[12:16:08] <yulimoto> трябва да видя terminfo :)
+[12:16:14] <yulimoto> какво иска
+[12:17:20] <phalaaxx> yulimoto: какво име си сложи в wordpress-а?
+[12:17:44] <phalaaxx> трябва да е "pesho", това никъде не го пише ;)
+[12:17:50] <yulimoto> да да разбрах :) сега гледам /sbin/терминфо
+[12:17:52] <phalaaxx> това беше първия проблем със заданието
+[12:17:58] <yulimoto> grep pesho pishe
+[12:18:23] <yulimoto> даже не трябва да се инсталира wordpress може една страничка да сложа дето има pesho в нея
+[12:18:30] <yulimoto> :)
+[12:18:48] <phalaaxx> втория е че трябва да имаш пуснат userdir въпреки ч е в заданието пише че може или така или с virtualhost
+[12:19:27] <phalaaxx> => 88 е най-високия резултат според мен защото за останалите 11 точки трябва да знаеш неща които никой не ги е казал и никъде не ги пише :)
+[12:19:31] <yulimoto> аз съм с виртуал хост обаче ... трябва пътя ми да е http://localhost/wordpress
+[12:19:31] <wilindex> [ 404 Not Found ] - localhost
+[12:19:44] <phalaaxx> wilindex: ROFL :D
+[12:19:48] <yulimoto> явко
+[12:19:56] <yulimoto> я да видим какво имаш на лоцалхост
+[12:20:00] <yulimoto> http://localhost
+[12:20:09] <yulimoto> http://localhost/
+[12:20:09] <phalaaxx> http://localhost/
+[12:20:11] <phalaaxx> :D
+[12:20:20] <phalaaxx> тоя се засрами нещо
+[12:20:35] <yulimoto> Но все пак има някаква превенция обаче може да се научва
+[12:20:46] <phalaaxx> http://127.0.0.1/
+[12:20:55] <yulimoto> http://localhost/bgadmin.eu
+[12:20:55] <wilindex> [ 404 Not Found ] - localhost
+[12:21:07] <yulimoto> http://localhost/00-bgadmin.eu
+[12:21:07] <wilindex> [ 404 Not Found ] - localhost
+[12:21:10] <yulimoto> http://localhost/01-bgadmin.eu
+[12:21:10] <wilindex> [ 404 Not Found ] - localhost
+[12:21:15] <yulimoto> :)
+[12:23:45] <yulimoto> ако hackman си рестартира машината от записа ще има 71.5
+[12:23:49] <yulimoto> :)
+[12:24:09] <yulimoto> мисля че не описва boot партишъна в fstab или бъркам ?
+[12:24:11] <yulimoto> :)
+[12:24:17] <yulimoto> сега ще видя
+[12:24:23] <phalaaxx> та, трябва да си пуснеш UserDir public_html и да си кръстиш wordpress-а pesho :)
+[12:24:25] <Deyan> yulimoto казах ти че е турист :)
+[12:24:33] <phalaaxx> за да получиш последните 11 точки
+[12:25:27] <yulimoto> phalaaxx: да обаче ме мързи и в terminfo просто го сменям на grep wordpress
+[12:25:36] <Deyan> .weather Sofia
+[12:25:37] <wilindex> Yahoo! Weather - Sofia, BG: Mostly Cloudy, 5°C (41°F), 30in (1015mb), Light air 2kt (↑)
+[12:25:58] <Deyan> ибал съм го, в тоя студ няма да ходя да си купувам цигари
+[12:26:38] <yulimoto> spored мен в хед тага или някъде където и да е на wordpress-a  hackman трябваше някакъв низ, който е уникален и после да грепва с него :)
+[12:26:53] <yulimoto> трябваше да сложи *
+[12:32:05] <yulimoto> мдаааа мариян е забравил да опише boot партишъна в fstab, въпреки че е бил на подготвителната лекция :)
+[12:32:22] <phalaaxx> :D
+[12:32:37] <phalaaxx> аз не го описах щото не беше описано в заданието
+[12:35:58] yulimoto_ (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[12:36:24] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[12:58:22] bgpepi (~bgpepi@ip-80-236-221-201.dsl.scarlet.be) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
