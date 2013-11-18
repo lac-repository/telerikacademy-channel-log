@@ -52,3 +52,45 @@
 [10:54:22] Fairytale (Fairytale@77.70.117.169) left irc: Ping timeout: 248 seconds
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:25:29] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[11:34:45] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[11:42:36] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:47:31] <hackman> https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/q71/1424541_10151826175576840_731432294_n.jpg
+[11:48:49] #telerikacademy: mode change '+o hackman' by ChanServ!ChanServ@services.
+[11:50:13] Topic changed on #telerikacademy by hackman!~hackman@management.1h.com: LSA forums: http://goo.gl/XQWlW Win forums: http://goo.gl/ugcQI1 for more info type !help in the channel
+[11:50:32] <hackman> baaa zashto ne raboti !help-a
+[11:50:45] <hackman> terlika neshto ne e v kondiciq mai
+[11:50:54] <hackman> koi go adminvashe tova neshto ? :)
+[11:51:50] <fityla> май phalaxx
+[11:51:54] <phalaaxx> не съм аз
+[11:51:58] <fityla> :Д
+[11:52:06] <phalaaxx> аз си цъкам по wilindex
+[11:52:37] <fityla> аз мислех че и двете са под твой контрол
+[11:55:38] <yulimoto> не Kpetenoid обаче той човека още в събота изрева, че гризлито нещо си и телерик нещо си ...
+[11:56:05] <phalaaxx> амиии хелп-а на wilindex се вика с .help :)
+[11:56:16] <phalaaxx> а списъка с команди - .commands
+[11:56:37] <phalaaxx> ако има нещо с което той може да е полезен...
+[11:57:07] <phalaaxx> btw grizzly-то си работи така като гледам
+[11:57:20] <phalaaxx> от вчера насам поне
+[11:58:26] <Fairytale> .help
+[11:58:26] <wilindex> Fairytale: Say .help <command> (for example .help c) to get help for a command, or .commands for a list of commands.
+[11:59:29] <Fairytale> .commands
+[11:59:29] <wilindex> Fairytale: I am sending you a private message of all my commands!
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:18] <fityla> .commands
+[12:00:18] <wilindex> fityla: I am sending you a private message of all my commands!
+[12:00:41] <Fairytale> :-P
+[12:00:52] <fityla> работи
+[12:00:55] <fityla> .help
+[12:00:55] <wilindex> fityla: Say .help <command> (for example .help c) to get help for a command, or .commands for a list of commands.
+[12:02:02] <fityla> .help
+[12:02:02] <wilindex> fityla: Say .help <command> (for example .help c) to get help for a command, or .commands for a list of commands.
+[12:02:37] <fityla> help-a
+[12:02:41] <fityla> Не сработва май
+[12:03:51] <Fairytale> .help help
+[12:03:51] <wilindex> Fairytale: Shows a command's documentation, and possibly an example.
+[12:03:52] <wilindex> e.g. .help tell
+[12:04:03] <Fairytale> .help info
+[12:04:03] <wilindex> Fairytale:     Log an informational item in the meeting log    https://github.com/embolalia/willie/wiki/Using-the-meetbot-module
+[12:04:04] <wilindex> e.g. .info all board members present
