@@ -179,3 +179,47 @@
 [14:00:00] Writing user file...
 [14:00:00] Writing channel file...
 [14:02:16] topalov (~topalov@gw.prosyst.bg) joined #telerikacademy.
+[14:06:26] lyubenblagoev (~lyubenbla@95.43.94.113) left irc: Ping timeout: 272 seconds
+[14:14:34] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) joined #telerikacademy.
+[14:15:21] bgpepi (~bgpepi@ip-80-236-203-189.dsl.scarlet.be) joined #telerikacademy.
+[14:19:36] net: connect! sock 3
+[14:28:39] Seend data restored.
+[14:28:39] main: entering loop
+[14:28:40] net: connect! sock 8
+[14:28:52] Telerik joined #telerikacademy.
+[14:36:01] <anton_dutsov> KpeTeHoug: phalaaxx също остави съобщение за hackman, че е регистрирал нещо
+[14:36:09] <anton_dutsov> с какво се занимавате
+[14:37:00] <KpeTeHoug> ботовете оправяме
+[14:37:09] <KpeTeHoug> Telerik и wilindex
+[14:37:38] <KpeTeHoug> не бяха регистрирани никовете, а за да имат auto-voice  в канала
+[14:37:46] <KpeTeHoug> трябва да са регнати
+[14:37:59] <anton_dutsov> KpeTeHoug: Telerik бота от къде е свален
+[14:38:29] <anton_dutsov> ясно, днес доста нещо започват да ми се изясняват около ботовете :)
+[14:38:31] <KpeTeHoug> http://www.eggheads.org/
+[14:38:32] <wilindex> [ Eggheads.org - Main Index ] - www.eggheads.org
+[14:38:43] <KpeTeHoug> сваляш, компилираш :)
+[14:38:47] <KpeTeHoug> качваш на шел
+[14:39:00] <KpeTeHoug> тук има един по сложен, но нямам време да си играя с него
+[14:39:06] <KpeTeHoug> ако си ентусиаст :)
+[14:39:11] <KpeTeHoug> http://wraith.botpack.net/ю
+[14:39:11] <wilindex> UnicodeEncodeError: 'ascii' codec can't encode character u'\u044e' in position 26: ordinal not in range(128) (file "/home/phalaaxx/.willie/modules/weblogger.py", line 45, in TagLinks)
+[14:39:13] <wilindex> [ Error: Not Found – Wraith IRC Bot ] - wraith.botpack.net
+[14:39:14] <KpeTeHoug> http://wraith.botpack.net/
+[14:39:16] <wilindex> [ Wraith IRC Bot ] - wraith.botpack.net
+[14:39:51] <KpeTeHoug> .tell hackman http://ajenti.org/
+[14:39:51] <wilindex> KpeTeHoug: I'll pass that on when hackman is around.
+[14:39:52] <wilindex> [ Ajenti ] - ajenti.org
+[14:40:06] <KpeTeHoug> phalaaxx yulimoto http://ajenti.org/
+[14:40:07] <wilindex> [ Ajenti ] - ajenti.org
+[14:43:44] <anton_dutsov> KpeTeHoug: днес ми стана ясно за ботовете в irc, като се ентусиазирам със сигурност ще ги пробвам! :)
+[14:44:06] <anton_dutsov> ти със С ли се занимаваш основно?
+[14:47:56] <phalaaxx> това звучи като някакъв контролен панел
+[14:50:12] <yulimoto> KpeTeHoug: :) видях
+[14:51:42] <yulimoto> ама не нямам идея дали се справя :)
+[14:55:05] <phalaaxx> нещо съм оплескал май с модула... гърми леко от време на време :)
+[14:57:37] <anton_dutsov> какви Linux дистрибуции използвате за лаптоп?
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:05] <yulimoto> аз имам едно лаптопче с дебиан ама мисля, че ще му сложа един слакуер (slax)
+[15:00:38] <phalaaxx> yulimoto: и защо ти е да го правиш? :)
+[15:03:25] <anton_sh> anton_dutsov:  аз използвам kubuntu и съм с добри впечатления
