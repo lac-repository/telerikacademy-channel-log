@@ -115,3 +115,63 @@
 [11:59:41] Nick change: wilindex -> phalaaxx
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
+[12:06:23] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[12:07:50] <phalaaxx> .tell hackman вече е регистриран :)
+[12:07:51] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[12:07:52] <wilindex> phalaaxx: I'll pass that on when hackman is around.
+[12:07:54] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[12:07:56] <phalaaxx> айдееее
+[12:07:57] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[12:07:59] <phalaaxx> пак ли бе
+[12:08:00] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[12:08:05] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[12:08:20] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[12:08:28] <phalaaxx> пууу
+[12:08:28] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[12:08:31] <phalaaxx> не ще :D
+[12:08:31] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[12:10:02] <anton_dutsov> phalaaxx: как да регистрирам чат стая във FreeNode?
+[12:10:02] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[12:10:28] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[12:11:00] <phalaaxx> напиши /msg chanserv help register
+[12:13:09] <anton_dutsov> phalaaxx: #caseSensitive ли е името, както го регна така трябва да се изписва?
+[12:13:22] <phalaaxx> мисля че не е
+[12:13:37] <anton_dutsov> phalaaxx: от къде мога да си взема бот-че
+[12:13:48] <phalaaxx> може и да бъркам обаче, не помня
+[12:14:32] <anton_dutsov> ще го пиша с малки букви като всички :)
+[12:15:41] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[12:15:44] <phalaaxx> проба
+[12:15:48] <phalaaxx> а, сега май е ок
+[12:15:59] <anton_dutsov> phalaaxx: чете се
+[12:16:13] <anton_dutsov> а да се изтрие чат канал?
+[12:17:06] <phalaaxx>  /msg chanserv help drop
+[12:18:03] <phalaaxx> за бота е по-сложно, има най-различни и в общи линии който те кефи най-много или който си избереш на някакъв случаен (или неслучаен) принцип
+[12:18:43] <anton_dutsov> phalaaxx: а дали има място от където да разгледам нещо готово като guide?
+[12:19:14] <phalaaxx> не вярвам Ю№
+[12:19:20] <phalaaxx> Ю№ = :)
+[12:19:22] <phalaaxx> :D
+[12:20:01] <anton_dutsov> phalaaxx: добре ти как написа твоя бот
+[12:20:07] <phalaaxx> .tell hackman вече е регистриран
+[12:20:07] <wilindex> phalaaxx: I'll pass that on when hackman is around.
+[12:20:18] <phalaaxx> не съм го писал аз, изтеглих си го
+[12:20:23] <phalaaxx> аз само написах модул за логване
+[12:20:46] <phalaaxx> http://bgadmin.eu/logs/telerikacademy/2013/11/19.html
+[12:20:47] <wilindex> [ Channel logs for #telerikacademy (2013/11/19) ] - bgadmin.eu
+[12:20:52] <anton_dutsov> супер аз мога ли да изтегля нещо като този бот
+[12:21:17] <phalaaxx> .g willie bot
+[12:21:17] <wilindex> phalaaxx: http://willie.dftba.net/
+[12:23:01] <anton_dutsov> phalaaxx: супер, мерси много
+[12:23:22] <phalaaxx> нп :)
+[12:27:24] <anton_dutsov> phalaaxx: за да работи този бот трябва да е интсталиран на копмютър, който е постоянно включен?
+[12:28:24] <phalaaxx> мда :)
+[12:28:53] <anton_dutsov> phalaaxx: евтин хостинг :) ?
+[12:30:25] <phalaaxx> не знам
+[12:30:25] <phalaaxx> чакай да го помисля
+[12:32:01] <phalaaxx> мое да ти дам един шел акаунт да си го пуснеш ама трябва да си пипна малко jail работите и да си сложа grsec на сървъра :)
+[12:36:59] <anton_dutsov> phalaaxx: ще е супер, но нека си запазя тази възможност за по-късно, за да не се окаже, че съм ти създал излишна работа. Много ти благодаря за обясненията.
+[12:37:15] <anton_dutsov> phalaaxx: Имаш ли резултат от изпита?
+[12:37:22] <phalaaxx> не аз и без това го обмислям този въпрос от тази сутрин насам
+[12:37:55] <phalaaxx> няма резултат
+[12:50:03] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
