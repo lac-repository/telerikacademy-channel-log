@@ -817,3 +817,13 @@
 [21:28:52] bgpepi (~bgpepi@ip-80-236-203-189.dsl.scarlet.be) joined #telerikacademy.
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:08:46] hanasd (~hanasd@188-254-186-191.sf.ddns.bulsat.com) joined #telerikacademy.
+[22:12:45] <hanasd> questtion to Marian (hackman) kakwa e MD5 sumata na lsa-test.vdi?
+[22:30:38] <phalaaxx> hanasd: по-сложен ли ти изглежда image-а отколкото беше на изпита? :)
+[22:31:49] <hanasd> ne sum go teswal wse oshte :) proso iskam md5 sumata za da widq dali e downloadnat korektno
+[22:32:11] <hanasd> ama se sumnqwam sega 6te imam wreme da si go razru4kam na spokoistwie
+[22:51:16] <hanasd> to da ti kazha naj-tupoto e 4e s towa mkfs.etx3 -o loop /fs1 zagubih uzhasno mnogo wreme
+[22:51:31] ddmitov (~knoppix@87.120.214.102) left #telerikacademy.
+[22:51:54] <hanasd> dokato setq sled podskazka na Marian da 4eta 4e trqbwa da napisha loop/loops a ne samo -o
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
