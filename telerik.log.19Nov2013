@@ -58,3 +58,11 @@
 [03:02:02] #telerikacademy: mode change '+v Telerik' by hackman!~hackman@wolf.yuhu.biz
 [03:02:05] #telerikacademy: mode change '+v wilindex' by hackman!~hackman@wolf.yuhu.biz
 [03:02:10] #telerikacademy: mode change '-o hackman' by hackman!~hackman@wolf.yuhu.biz
+[03:05:55] <bgpepi> къде у нас а и не само у нас намират приложение според теб? И дали накратко работата която правиш с центос/дебиан е напълно достаъчна -разбирай да няма нужда от тях и напълно да се заменят
+[03:07:20] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:07:49] <bgpepi> последно време точно за ZFS и добрата работа под FreeBSD се шуми, нещо което при линукс конкретно все още не е стабилно
+[03:07:50] <hackman> bgpepi, най-често се използват за NAS-ове и routers
+[03:17:18] <hackman> phalaaxx, ако регистрираш nick-а на wilindex мисля, че мога да го добавя в chanserv да си взима сам voice :)
+[03:17:37] <hackman> не знам кой се грижи за Telerik, но и за него мога да направя същото :)
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
