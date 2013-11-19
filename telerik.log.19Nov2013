@@ -92,3 +92,26 @@
 [10:54:01] Nick change: lyubenblagoev_ -> lyubenblagoev
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:09:21] <hackman> добрутро :)
+[11:16:24] <anton_dutsov> hackman: Добро утро! Пий кафе, че изпускаш char and space :)
+[11:17:30] <anton_dutsov> hackman: много работа до късно, вероятно?
+[11:20:39] <hackman> аха :) едни експериментални kernel-чета ;)
+[11:20:50] <hackman> dracut-а се ебава с мен :)
+[11:21:08] lyubenblagoev (~lyubenbla@95.43.94.113) left irc: Ping timeout: 252 seconds
+[11:21:58] <anton_dutsov> hackman: не го е срам. как смее :)
+[11:22:28] <anton_dutsov> тези експерименти да не са заради Fairytaile, че иска нов изпит?
+[11:22:51] <hackman> не, вярваш или не... това ми е работата ;)
+[11:25:15] <anton_dutsov> hackman: :D ако не вярвам, значи ме е нямало последните 6 месеца в курсовете :)
+[11:28:10] ddmitov (~knoppix@87.120.214.102) joined #telerikacademy.
+[11:31:09] <anton_dutsov> hackman: правилно ли разбрах man dracut(8) , че той търси initramfs-<kernel version>.img от посочените в него, ако първият не е достъпен?
+[11:40:26] <ddmitov> Колеги, някой получил ли е резултатите от теста в системата на "Телерик"?
+[11:41:56] <anton_dutsov> ddmitov: аз все още не съм.
+[11:43:45] <ddmitov> И аз не съм.
+[11:54:09] <anton_dutsov> .logs
+[11:55:42] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 272 seconds
+[11:57:36] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[11:58:14] Nick change: phalaaxx -> wilindex
+[11:58:30] <wilindex> Това съм аз, Льоклер! :D
+[11:59:41] Nick change: wilindex -> phalaaxx
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
