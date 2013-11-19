@@ -6,3 +6,55 @@
 [01:52:39] _rewind (~teo@46.238.29.142) left irc: Ping timeout: 272 seconds
 [02:00:00] Writing user file...
 [02:00:00] Writing channel file...
+[02:23:17] <bgpepi> благодаря
+[02:23:27] <bgpepi> къде се провеждат тези лекции
+[02:23:38] <bgpepi> NetSec
+[02:24:10] <bgpepi> в телерик не открих нищо по въпроса
+[02:32:48] <urban_filth> bgpepi, тези лекции се провеждат като част от курса Мрежова Сигурност I във ФМИ
+[02:41:00] <bgpepi> благодаря
+[02:41:11] <bgpepi> дали има и други лекции
+[02:41:13] <bgpepi> записани
+[02:46:13] <urban_filth> курса започна към средата на октомври, това мисля, че са всички лекции до момента
+[02:49:05] <bgpepi> благодаря ще следя
+[02:49:12] <bgpepi> изглежда доста интересен
+[02:49:24] <hackman> ба, тук има още будни ? :)
+[02:49:24] <wilindex> hackman: 2013-11-18 17:49:42 UTC <_rewind> tell hackman възможно е и аз да съм се подвел, но впечатленията ми бяха доста противоречиви, когато пробвах за пръв път LVM преди няколко години. Възможно е причината да е била в това, че беше виртуалка.
+[02:49:44] <bgpepi> има има
+[02:50:07] <yulimoto> bgpepi: http://grizzly.yuhu.biz/lectures
+[02:50:07] <wilindex> [ Index of /lectures ] - grizzly.yuhu.biz
+[02:50:08] #telerikacademy: mode change '+o hackman' by ChanServ!ChanServ@services.
+[02:50:32] Topic changed on #telerikacademy by hackman!~hackman@wolf.yuhu.biz: LSA forums: http://goo.gl/XQWlW Win forums: http://goo.gl/ugcQI1 Win course: http://goo.gl/8zEl3A for more info type !help in the channel
+[02:51:29] <hackman> bgpepi, разгледай http://training.iseca.org
+[02:51:31] <wilindex> [ Учебен център на ISECA ] - training.iseca.org
+[02:51:36] <hackman> там имаме и видеа от предните години
+[02:52:19] <hackman> abe shto ne bachka toq Теле
+[02:52:23] <hackman> :)
+[02:52:37] <yulimoto> щото си го блокирал мен :)
+[02:52:49] <yulimoto> я си провери скриптовете :)
+[02:53:53] <bgpepi> да
+[02:54:12] <bgpepi> свалих си ги от 2007 и 2010
+[02:54:28] <yulimoto> тууу много бързо бре bgpepi
+[02:54:40] <bgpepi> сега трябва да си заделя време да ги изгледам...
+[02:55:41] <bgpepi> въпрос към hackman -каква тежест имат бсд-тата в днешно време?
+[02:56:38] <bgpepi> знам че е трудно да се намери човек с добри бсд познания(макар че и те си имат сертифициране)
+[02:57:16] <yulimoto> аре пичове крайно време е да легна така да се опна дето се вика
+[02:57:57] <urban_filth> лека и от мен на всички :)
+[02:58:06] <hackman> bgpepi, еми аз го обяснявам така: всичко във мрежите първо се прави и тества на BSD и след това всички останали го имплементират
+[02:58:13] <hackman> сам си реши каква точно е тежестта им
+[02:58:26] <yulimoto> hackman:  ако съм бил в грешка за блокирането бота сори, ама какво да се прави като съм сигурен че си го блокирал трябва да си кажа ;P
+[02:58:27] <hackman> към момента най-сигурната OS на света се казва OpenBSD
+[02:58:50] <bgpepi> ясно
+[02:58:57] <bgpepi> значи имат голяма тежест
+[02:59:09] <bgpepi> аз така го разбирам
+[02:59:22] <hackman> ок :) бачкат
+[02:59:29] <hackman> yulimoto, прав си!
+[02:59:32] <hackman> мерси
+[02:59:40] <hackman> едва ли щях да се сетя сам :)
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:00:03] <bgpepi> използваш ли в работата
+[03:00:14] <bgpepi> free/open bsd
+[03:01:57] <hackman> bgpepi, не... в моя бранш тази OS е малко разпространена... налагало ми се е да я използвам за мрежови проекти
+[03:02:02] #telerikacademy: mode change '+v Telerik' by hackman!~hackman@wolf.yuhu.biz
+[03:02:05] #telerikacademy: mode change '+v wilindex' by hackman!~hackman@wolf.yuhu.biz
+[03:02:10] #telerikacademy: mode change '-o hackman' by hackman!~hackman@wolf.yuhu.biz
