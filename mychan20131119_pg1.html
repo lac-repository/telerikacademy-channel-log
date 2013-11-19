@@ -379,6 +379,88 @@
 			<div>&nbsp;<span class="time">[16:57:44]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; phalaaxx, имаме много iЗарибени в офиса :)</span></div>
 			<div>&nbsp;<span class="time">[16:57:57]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; hackman: вероятно заради тези забележки си го patch-нал. сигурен съм, че iпрограмите са зле</span></div>
 			<div>&nbsp;<span class="time">[16:58:23]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; все пак ябълката не се интересува от сигурност, а от печалба :P</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[17:01:24]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; дори и за windows го има</span></div>
+			<div>&nbsp;<span class="time">[17:03:41]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; в интерес на инстината и аз бях зарибен може би до 2010, дори съм слагал и  хакинтош на десктоп машина зор за ман всичко да е мак :)</span></div>
+			<div>&nbsp;<span class="time">[17:05:16]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а един приятел дизайнер  в  пика i-революцията беше се писал iBachev :)</span></div>
+			<div>&nbsp;<span class="time">[17:05:30]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; dvd-та на Debian съдържат ли драйвери за Intel WiFi</span></div>
+			<div>&nbsp;<span class="time">[17:05:59]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; карти или няма значение от медиата</span></div>
+			<div>&nbsp;<span class="time">[17:06:08]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; драйверите на флашка</span></div>
+			<div>&nbsp;<span class="time">[17:06:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; цялата дистрибуция на дебиян не знам на колко двд-та е :) ама няма да са 10-20</span></div>
+			<div>&nbsp;<span class="time">[17:07:39]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; yulimoto: hackman: phalaaxx: Debian дали ще буутне от LVM или Еxtended или да му правя отделен дял?</span></div>
+			<div>&nbsp;<span class="time">[17:08:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; според мен гръб-а е по-важен в случая коя версия е :)</span></div>
+			<div>&nbsp;<span class="time">[17:08:44]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; какъв дебиан</span></div>
+			<div>&nbsp;<span class="time">[17:08:55]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; yulimoto:3 двд-та са <a href="http://cdimage.debian.org/debian">http://cdimage.debian.org/debian</a>-cd/7.2.0/amd64/bt-dvd/</span></div>
+			<div>&nbsp;<span class="time">[17:08:55]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ Index of /debian-cd/7.2.0/amd64/bt-dvd ] - cdimage.debian.org</span></div>
+			<div>&nbsp;<span class="time">[17:09:51]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да ще ти тръгне, друг е въпроса, че някои го отбягват :)</span></div>
+			<div>&nbsp;<span class="time">[17:10:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; anton_dutsov: bootloader-а е нещото което създава ограниченията дали дадена дистрибуция може да буутне по някакъв начин или не</span></div>
+			<div>&nbsp;<span class="time">[17:10:59]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; anton_dutsov, винаги е добра идея boot loader-a и kernel-а да са на отделен partition</span></div>
+			<div>&nbsp;<span class="time">[17:11:10]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; няма значение дали е primary или extended</span></div>
+			<div>&nbsp;<span class="time">[17:11:26]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; не е добра практика да го слагаш върху LVM дори и да е възможно</span></div>
+			<div>&nbsp;<span class="time">[17:11:39]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; причината, слагаш още едно ниво което може да се счупи</span></div>
+			<div>&nbsp;<span class="time">[17:11:45]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; а и fsck за LVM няма</span></div>
+			<div>&nbsp;<span class="time">[17:11:55]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; счупи ли се... си остава счупен</span></div>
+			<div>&nbsp;<span class="time">[17:11:59]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; и правиш на ново :(</span></div>
+			<div>&nbsp;<span class="time">[17:12:00]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; phalaaxx: по-горе като писах, че ми гръмна инсталацията на Debian стана когато търсеше дискове и му бях задал да се инсталира на extended</span></div>
+			<div>&nbsp;<span class="time">[17:12:28]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; anton_dutsov, хорта от години правят само netinstalls :)</span></div>
+			<div>&nbsp;<span class="time">[17:12:31]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; с друга дистрибуция не ми се беше случвало -fedora19 и centos6</span></div>
+			<div>&nbsp;<span class="time">[17:12:42]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; какви са тея CD/DVD-та за които говориш :)</span></div>
+			<div>&nbsp;<span class="time">[17:13:01]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; hackman: 3 :)</span></div>
+			<div>&nbsp;<span class="time">[17:13:08]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[17:15:48]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; съгласен съм за отделните partitions, рядко се пипа нещо в /boot (обикновено при update/upgrade/умишлено чупене) и шанса да се натроши файловата система по такъв начин, че grub да не може да я чете е много по-малък ако е върху друг partition</span></div>
+			<div>&nbsp;<span class="time">[17:17:12]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; по същата причина е добре на desktop машина /home да е на друг partition - защото там обикновено има най-голямо двжиение</span></div>
+			<div>&nbsp;<span class="time">[17:17:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз на отделни partitions си слагам още и /usr, /var, /tmp</span></div>
+			<div>&nbsp;<span class="time">[17:18:14]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; аз на практика си umount-вам /boot на всички мои машини</span></div>
+			<div>&nbsp;<span class="time">[17:18:30]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; как да си заредя драйверите за wifi при нет-инстал</span></div>
+			<div>&nbsp;<span class="time">[17:18:30]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; на фирмените го държим mounted защото нямаме процедура да го проверяват при kernel upgrades :)</span></div>
+			<div>&nbsp;<span class="time">[17:18:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; обаче ни караш ние да го mount-ваме на изпита, а? :P</span></div>
+			<div>&nbsp;<span class="time">[17:19:05]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; човек трябва да знае и 2 и 200 :) все пак е изпит</span></div>
+			<div>&nbsp;<span class="time">[17:19:25]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; anton_dutsov, ако не са ти заредени автоматично, най-вероятно install media-та няма поддръжка за твоя WiFi :)</span></div>
+			<div>&nbsp;<span class="time">[17:20:14]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амиии мисла че ще има някакви грозни начини ама ще е много по-лесно инсталацията да мине на кабел в този случай</span></div>
+			<div>&nbsp;<span class="time">[17:20:22]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; hackman: политиката на debian е да няма поддръжка за Intel карти до колкото виждам, че имат отделно пакети за всички модели</span></div>
+			<div>&nbsp;<span class="time">[17:20:40]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; phalaaxx: и за кабел няма драйвери</span></div>
+			<div>&nbsp;<span class="time">[17:20:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; сигурен ли си?</span></div>
+			<div>&nbsp;<span class="time">[17:20:55]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; та пак да питам за 3-те двд-та :D</span></div>
+			<div>&nbsp;<span class="time">[17:21:14]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; до сега ми искаше пакети и за двете карти</span></div>
+			<div>&nbsp;<span class="time">[17:21:26]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пакети?</span></div>
+			<div>&nbsp;<span class="time">[17:21:35]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; може да ти е искало firmware някакъв</span></div>
+			<div>&nbsp;<span class="time">[17:21:47]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; можеш и без него да минеш за жицата</span></div>
+			<div>&nbsp;<span class="time">[17:21:51]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; поне в повечето случаи</span></div>
+			<div>&nbsp;<span class="time">[17:22:56]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; phalaaxx: дори и аз се учудих, че за кабела също няма, да firmware е но не го помня, после ще го погледна на флашката</span></div>
+			<div>&nbsp;<span class="time">[17:23:01]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; alt-f2 / &lt;enter&gt; / lspci | grep -i ether &lt;enter&gt;</span></div>
+			<div>&nbsp;<span class="time">[17:24:00]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; phalaaxx: ще ти кажа после като започна да го инсталирам</span></div>
+			<div>&nbsp;<span class="time">[17:24:52]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; phalaaxx: ще бъдеш ли тук по-късно, че ме дърпат да изляза за час време?</span></div>
+			<div>&nbsp;<span class="time">[17:25:16]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; anton_dutsov, е аз съм с e1000</span></div>
+			<div>&nbsp;<span class="time">[17:25:30]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; инсталирах debian-а през netinstall преди 2-3 месеца</span></div>
+			<div>&nbsp;<span class="time">[17:25:42]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; не може да нямаш е1000 или igb</span></div>
+			<div>&nbsp;<span class="time">[17:25:49]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; това не са драйвери на debian</span></div>
+			<div>&nbsp;<span class="time">[17:25:54]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; това са drivers на kernel-а</span></div>
+			<div>&nbsp;<span class="time">[17:26:14]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; и са 100% open source, т.е. по никакъв начин не нарушават политиките на Debian</span></div>
+			<div>&nbsp;<span class="time">[17:26:23]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; не е нормално да не ти работи на кабел инсталацията</span></div>
+			<div>&nbsp;<span class="time">[17:26:25]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; hackman: кабелът ми е някаква RealTek карта, а WiFi е N2230</span></div>
+			<div>&nbsp;<span class="time">[17:26:43]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; с realtek пък още повече :)</span></div>
+			<div>&nbsp;<span class="time">[17:27:00]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; anton_dutsov, няма realtec driver който да не е free</span></div>
+			<div>&nbsp;<span class="time">[17:27:08]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; някъде другаде е проблема :)</span></div>
+			<div>&nbsp;<span class="time">[17:27:37]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; то не е проблем</span></div>
+			<div>&nbsp;<span class="time">[17:27:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; инсталатора пита дали искаш да заредиш firmware от друг носител...</span></div>
+			<div>&nbsp;<span class="time">[17:28:05]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и като му откажеш си продължава по реда</span></div>
+			<div>&nbsp;<span class="time">[17:28:28]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; phalaaxx: hackman: после ще направя screenshots</span></div>
+			<div>&nbsp;<span class="time">[17:29:37]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; трябва да стана за малко</span></div>
+			<div>&nbsp;<span class="time">[17:30:06]</span>&nbsp;<span class="nick">&lt;anton_dutsov&gt;</span><span class="text">&nbsp; ако ви няма по-късно лека вечер и благодаря!</span></div>
+			<div>&nbsp;<span class="time">[17:38:42]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пробвай, аз вечер съм често пред PC :)</span></div>
+			<div>&nbsp;<span class="time">[17:39:11]</span>&nbsp;<span class="else_j">&nbsp;KrasiGa (569284f6@gateway/web/freenode/ip.86.146.132.246) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[17:40:43]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; KrasiGa бати, поздрави ли от мен херзога на уиндзор на вечерната му разходка :)</span></div>
+			<div>&nbsp;<span class="time">[17:41:01]</span>&nbsp;<span class="nick">&lt;topalov&gt;</span><span class="text">&nbsp; anton_dutsov: firmware-a се казва iwlwifi и е в non-free repo-то. За това трябва да си изтеглиш пакета на флашка (инсталатора те пита дали да зареди модула от друг носител) и да му кажеш &quot;Yes&quot;</span></div>
+			<div>&nbsp;<span class="time">[17:41:19]</span>&nbsp;<span class="nick">&lt;topalov&gt;</span><span class="text">&nbsp; по спомен така съм го правил</span></div>
+			<div>&nbsp;<span class="time">[17:46:40]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; hackman: сега се сетих, че освен със сокети като лекция, не знам колко е удачно за сървъри и с udev да се запознае човек :)</span></div>
+			<div>&nbsp;<span class="time">[17:48:10]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; hackman: а бучането ми все пак свърши работа защото на изпита освен това което спомена горе, забрави и да опишеш /boot в fstab и не беше маунтнат от там и grub.conf-a няма как да се оцени</span></div>
+			<div>&nbsp;<span class="time">[17:48:52]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; първите две светнаха в червено, ама екрана беше къс да им обърнем внимание :)</span></div>
+			<div>&nbsp;<span class="time">[17:49:06]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; на записа обаче има пауза :P</span></div>
+			<div>&nbsp;<span class="time">[17:50:27]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; yulimoto, аз знам... и даже после ви казах, че съм ги пропуснал... и ако бях reboot-нал щях да го видя и да го управя</span></div>
+			<div>&nbsp;<span class="time">[17:50:35]</span>&nbsp;<span class="nick">&lt;hackman&gt;</span><span class="text">&nbsp; ама пусто... нали го правихме за бързина ;)</span></div>
+			<div>&nbsp;<span class="time">[17:50:57]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да ти искаше за под 20 мин. :)</span></div>
+			<div>&nbsp;<span class="time">[17:56:32]</span>&nbsp;<span class="nick">&lt;Deyan&gt;</span><span class="text">&nbsp; спамъриии</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
