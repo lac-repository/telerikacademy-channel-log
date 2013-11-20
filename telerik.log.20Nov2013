@@ -173,3 +173,16 @@
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
 [12:00:02] <hackman> сигурен ли си, че не е проблем с ACPI-то ти ?
+[12:05:08] <Fairytale> ами не съм, Пробвах да добавя някакви параметри в boot loader, но нямаше промяна, ако въобще не съм направил някаква глупост.
+[12:09:10] KrasiGa (569284f6@gateway/web/freenode/ip.86.146.132.246) left irc: Quit: Page closed
+[12:13:13] <hackman> да не си си спрял acpi-то :)
+[12:20:10] <yulimoto> hackman: тва blueproximity верно бачка, ама се чудя ако взема да имитирам mac адреса на телефона от друг телефон какво ще стане :)
+[12:20:56] <hackman> по-лесно ще ти е с laptop от колкото с телефон
+[12:21:08] <hackman> не съм виждал телефон който да позволява да се променя MAC адреса на BT
+[12:21:23] <hackman> но за сметка на това във софтуера на linux може
+[12:21:48] <yulimoto> :)
+[12:48:41] <Fairytale> hackman: acpi_osi=linux това писах в LILO
+[12:54:32] nikiman (d47aa522@gateway/web/freenode/ip.212.122.165.34) joined #telerikacademy.
+[12:55:37] nikiman (d47aa522@gateway/web/freenode/ip.212.122.165.34) left irc: Client Quit
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
