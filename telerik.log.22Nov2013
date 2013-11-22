@@ -2809,3 +2809,31 @@
 [16:58:13] bgpepi (~bgpepi@ip-80-236-203-216.dsl.scarlet.be) joined #telerikacademy.
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:06:17] <anton_dutsov> The new Intel processors that use pstate do not support the ondemand governer - егати цирка и аз се чудя защо не ме слуша като му дам on_demand :D
+[17:13:21] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[17:13:21] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[17:15:26] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[17:15:49] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[17:15:49] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[17:17:54] <phalaaxx> хм
+[17:17:54] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 51: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[17:17:57] <phalaaxx> :D
+[17:17:57] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 51: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[17:18:03] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[17:25:16] <yulimoto> phalaaxx: чудя се той ли се разваля, ти ли го чупиш ? и си мисля че е второто :)
+[17:26:21] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[17:26:21] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[17:27:08] <phalaaxx> мноо ясно :]
+[17:27:19] <phalaaxx> правя разни опити тука
+[17:27:36] <phalaaxx> дай някъв public key за ssh
+[17:27:46] <phalaaxx> ма найш к'во
+[17:27:49] <phalaaxx> по-добре не тук
+[17:27:50] <phalaaxx> :D
+[17:37:55] <rewind_work> phalaaxx, хахах :) що бе, само на две места се логва и само 4 бота на търсачки ги обхождат :D
+[17:38:28] <phalaaxx> :)
+[17:43:44] anton_dutsov (~Thunderbi@178.75.226.53) left irc: Ping timeout: 272 seconds
+[17:49:07] fityla (~fityla@85.118.193.164) joined #telerikacademy.
+[17:56:49] fityla (~fityla@85.118.193.164) left irc: Quit: Leaving
+[17:58:43] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
