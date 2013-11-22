@@ -2782,3 +2782,30 @@
 [16:00:10] anton_dutsov (~Thunderbi@178.75.226.53) joined #telerikacademy.
 [16:00:21] anton_dutsov (~Thunderbi@178.75.226.53) left #telerikacademy.
 [16:01:00] anton_dutsov (~Thunderbi@178.75.226.53) joined #telerikacademy.
+[16:05:52] <yulimoto> anton_dutsov: подкара ли дбиана ?
+[16:10:39] bgpepi (~bgpepi@ip-80-236-203-216.dsl.scarlet.be) left irc: Remote host closed the connection
+[16:11:39] <anton_dutsov> yulimoto: подкарах го, но сега съм с fedora :)
+[16:13:57] <yulimoto> :)
+[16:18:55] <rewind_work> anton_dutsov, реши ли какво ще правиш с ъпгрейда :)
+[16:27:11] <anton_dutsov> rewind_work:  за сега смятам да го оставя така.
+[16:27:11] <anton_dutsov> струва ми се, че един сървър на старо или нов десктоп ще е по-добре от ъпгрейд?
+[16:27:11] <anton_dutsov> Ти какво ще посъветваш без горе споменатото от мен :)
+[16:31:49] <anton_dutsov> cat /sys/devices/system/cpu/cpu0/cpufreq/scaling_governor
+[16:31:49] <anton_dutsov> powersave
+[16:32:49] <anton_dutsov> в момента имам отворен браузър чат и конзола
+[16:32:49] <anton_dutsov> cpu MHz		: 2684.000
+[16:32:56] <rewind_work> аз лично винаги ползвам нещо до откат
+[16:32:59] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[16:33:11] <yulimoto> jeeeee
+[16:33:19] <rewind_work> голяма част от старите PC-та, които ползвам продължават да работят и поради някаква причина не искат да ме изоставят
+[16:33:30] <yulimoto> dencho: само като ти видя ип-то и се кефя :)
+[16:34:19] <dencho> :]
+[16:35:50] <rewind_work> може би защото някога съм слагал по-читави и с повече от необходимото запас захранвания
+[16:36:03] <rewind_work> Здравей dencho :)
+[16:41:25] <dencho> zdraveite ora :D
+[16:41:31] <dencho> dencho is back
+[16:45:12] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 272 seconds
+[16:50:10] <KacanuH> https://www.facebook.com/photo.php?v=605446192799331&set=vb.223328951057221&type=3&theater
+[16:58:13] bgpepi (~bgpepi@ip-80-236-203-216.dsl.scarlet.be) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
