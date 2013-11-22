@@ -2990,3 +2990,42 @@
 [21:50:57] <yulimoto> :ь
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:06:43] <phalaaxx> на :)
+[22:12:28] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[22:31:15] <yulimoto> phalaaxx: чакай да видя кода че не знам какво става
+[22:32:11] <yulimoto> логично на сокета не става, но passwd връща passwd: Authentication token manipulation error
+[22:32:25] <phalaaxx> аа опитваш се да смениш парола ли?
+[22:32:29] <yulimoto> т.е mysql -u user -p
+[22:32:43] <phalaaxx> тоя passwd дето го виждаш не е онзи който машината ползва ;)
+[22:32:53] <yulimoto> това е хубаво
+[22:33:10] <yulimoto> аз за тва гледам и  кода
+[22:33:11] <phalaaxx> и седи там само за да си виждаш файловете с твоя потребител както и системните
+[22:33:14] <phalaaxx> кой код?
+[22:33:19] <yulimoto> твоя
+[22:33:24] <yulimoto> в гитхъба
+[22:33:33] <yulimoto> ама как да се логна в mysql
+[22:33:44] <yulimoto> като се логвам с key
+[22:34:41] hanasd (~hanasd@188-254-186-191.sf.ddns.bulsat.com) joined #telerikacademy.
+[22:34:51] <phalaaxx> нямаш база в момента
+[22:35:04] <phalaaxx> а и mysql user не ползва /etc/passwd
+[22:35:59] <yulimoto> аха
+[22:36:21] <phalaaxx> може би малко странно отговарям ама играя D2 :D
+[22:37:06] <yulimoto> np :)
+[22:40:10] <KpeTeH0ug> хахах
+[22:40:17] <KpeTeH0ug> аз тъкмо врътах една сесия Д3
+[22:40:19] <KpeTeH0ug> :)
+[22:46:37] <KpeTeH0ug> оф. айде сгъвам аз, отивам да спя
+[22:46:49] <KpeTeH0ug> лека и мека
+[22:47:43] KpeTeH0ug (57feb524@gateway/web/freenode/ip.87.254.181.36) left irc: Quit: Page closed
+[22:48:03] urban_filth (~urban_fil@95.111.6.98) left irc: Quit: Leaving
+[22:48:22] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[22:48:47] <yulimoto> кво е ДЗ ?
+[22:49:29] <yulimoto> .tell KpeTeH0ug какво е ДЗ ?
+[22:49:29] <wilindex> yulimoto: I'll pass that on when KpeTeH0ug is around.
+[22:49:36] <yulimoto> .tell KpeTeHоug какво е ДЗ ?
+[22:49:37] <wilindex> yulimoto: I'll pass that on when KpeTeHоug is around.
+[22:52:59] <phalaaxx> yulimoto: Diablo 3
+[22:56:46] rewind_mobile (~yaaic@85.118.193.171) left irc: Ping timeout: 246 seconds
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:03:50] Nick change: ndyakov|away -> ndyakov
