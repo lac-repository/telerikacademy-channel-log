@@ -2286,3 +2286,469 @@
 [12:56:06] Nick change: ndyakov|away -> ndyakov
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:11:38] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Quit: поради evn профилактика + скапан ups :)
+[13:20:53] KpeTeH0ug (~GT@212.36.13.10) joined #telerikacademy.
+[13:23:53] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 240 seconds
+[13:23:56] Nick change: KpeTeH0ug -> KpeTeHoug
+[13:24:03] <KpeTeHoug> за аутоидент е
+[13:24:05] <KpeTeHoug> ама правя 20 неща
+[13:24:13] <KpeTeHoug> и се опитвам да дописвам разби тука работи
+[13:24:15] <KpeTeHoug> и нема как :)
+[13:25:23] <phalaaxx> ако не стане - може да пробваме с outsorcing на ident-та в Индия
+[13:27:36] MoHu (~MO@77.70.108.185) left irc: Ping timeout: 272 seconds
+[13:27:43] <KpeTeHoug> хаха
+[13:27:43] <KpeTeHoug> мне
+[13:27:48] <phalaaxx> що бе
+[13:27:56] <phalaaxx> ще пуснем една обява че търсим Autoidenter
+[13:27:59] <KpeTeHoug> слабо квалифизирани са :)
+[13:28:07] <phalaaxx> може и клип да направим
+[13:28:14] <phalaaxx> като гугъл за autocompleter-а
+[13:28:33] <phalaaxx> впрочем нали сте го гледали тоя клип?
+[13:29:25] <phalaaxx> http://www.youtube.com/watch?v=blB_X38YSxQ
+[13:29:25] <wilindex> [YouTube] Title: Being a Google Autocompleter | Uploader: Google | Uploaded: 31/03/2011, 22:57 | Duration: 2mins 37secs | Views: 954,469 | Comments: 1,500 | Likes: 6,863 | Dislikes: 238
+[13:30:59] <KpeTeHoug> счупих нещо на гризли :0
+[13:31:00] <KpeTeHoug> -bash: fork: retry: Resource temporarily unavailable
+[13:31:23] <KpeTeHoug> и сега имам само -bash-4.1$
+[13:31:25] <KpeTeHoug> лол
+[13:31:57] <phalaaxx> напълнил си си процесите
+[13:32:02] <KpeTeHoug> аааа
+[13:32:19] <KpeTeHoug> ма сега не мога и да ги спра :)
+[13:32:25] <KpeTeHoug> някой може ли ми ги утрепе
+[13:32:44] <phalaaxx> има sftp-server, ако си отворил някакво sftp натам можеш и сам да го спреш
+[13:32:59] <KpeTeHoug> спрях
+[13:33:05] <KpeTeHoug> зомг
+[13:33:05] KrasiGa (569284f6@gateway/web/freenode/ip.86.146.132.246) joined #telerikacademy.
+[13:33:13] <KpeTeHoug> баси и уйаса
+[13:33:16] <phalaaxx> аре честито :)
+[13:35:19] <KpeTeHoug> така е по добре
+[13:35:31] <KpeTeHoug> по някакъв начин пуснах screen forkove :)
+[13:35:46] <phalaaxx> впрочем да работиш като autoidenter може би е скучно освен ако не е за много ботове в различни мрежи
+[13:35:46] net: connect! sock 3
+[13:35:46] DNS resolve failed for 127.0.0.1
+[13:35:46] Telnet connection: 127.0.0.1/43685
+[13:35:46] net: connect! sock 10
+[13:35:46] net: eof!(read) socket 10
+[13:35:46] Timeout/EOF ident connection
+[13:35:53] Logged in: KpeTeHoug (telnet@127.0.0.1/43685)
+[13:35:56] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 9 
+[13:35:56] Writing user file...
+[13:35:56] Writing channel file...
+[13:35:56] Rehashing ...
+[13:35:56] Writing channel file...
+[13:35:56] Listening at telnet port 3333 (all).
+[13:35:56]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:35:56] UDEF: chanstats defined
+[13:35:56] 14<chanstats> version 1.3.0 by arfer loaded
+[13:35:56] UDEF: seend defined
+[13:35:56] Seend 1.8.3 loaded!
+[13:35:56] UDEF: greetings defined
+[13:35:56] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[13:35:56] 8,2Nick Identify Script Has Been Loaded make by Blue ... Repaired By Xenogear and moded by GT
+[13:35:56] MsG (1.0) By GT and yulimoto LOADED.....
+[13:35:56] Loading dccwhois.tcl...
+[13:35:56] Loaded dccwhois.tcl
+[13:35:56] Writing channel file...
+[13:35:56] Userfile loaded, unpacking...
+[13:35:58] <phalaaxx> ако е само за един - май по-добре да работиш като бот :D
+[13:36:13] <phalaaxx> ctrl-a-c?
+[13:36:22] tcl: builtin dcc call: *dcc:restart KpeTeHoug 9 
+[13:36:22] Writing user file...
+[13:36:22] Writing channel file...
+[13:36:22] Restarting ...
+[13:36:22] Seend data saved.
+[13:36:22] LANG: Section unloaded: logs2html
+[13:36:22] Module unloaded: logs2html
+[13:36:22] LANG: Section unloaded: console
+[13:36:22] Module unloaded: console
+[13:36:22] LANG: Section unloaded: notes
+[13:36:22] Module unloaded: notes
+[13:36:22] De-Allocated bind table topc
+[13:36:22] De-Allocated bind table splt
+[13:36:22] De-Allocated bind table sign
+[13:36:22] De-Allocated bind table rejn
+[13:36:22] De-Allocated bind table part
+[13:36:22] De-Allocated bind table nick
+[13:36:22] De-Allocated bind table mode
+[13:36:22] De-Allocated bind table kick
+[13:36:22] De-Allocated bind table join
+[13:36:22] De-Allocated bind table pubm
+[13:36:22] De-Allocated bind table pub
+[13:36:22] De-Allocated bind table need
+[13:36:22] Module unloaded: irc
+[13:36:22] Module unloaded: ctcp
+[13:36:22] De-Allocated bind table wall
+[13:36:22] De-Allocated bind table raw
+[13:36:22] De-Allocated bind table notc
+[13:36:22] De-Allocated bind table msgm
+[13:36:22] De-Allocated bind table msg
+[13:36:22] De-Allocated bind table flud
+[13:36:22] De-Allocated bind table ctcr
+[13:36:22] De-Allocated bind table ctcp
+[13:36:22] De-Allocated bind table out
+[13:36:22] Module unloaded: server
+[13:36:22] Writing channel file...
+[13:36:22] Module unloaded: channels
+[13:36:22] Module unloaded: dns
+[13:36:22] Allocated bind table unld (flags 1)
+[13:36:22] Allocated bind table time (flags 1)
+[13:36:22] Allocated bind table cron (flags 1)
+[13:36:22] Allocated bind table note (flags 0)
+[13:36:22] Allocated bind table nkch (flags 1)
+[13:36:22] Allocated bind table load (flags 1)
+[13:36:22] Allocated bind table link (flags 1)
+[13:36:22] Allocated bind table filt (flags 1)
+[13:36:22] Allocated bind table disc (flags 1)
+[13:36:22] Allocated bind table dcc (flags 0)
+[13:36:22] Allocated bind table chpt (flags 1)
+[13:36:22] Allocated bind table chon (flags 1)
+[13:36:22] Allocated bind table chof (flags 1)
+[13:36:22] Allocated bind table chjn (flags 1)
+[13:36:22] Allocated bind table chat (flags 1)
+[13:36:22] Allocated bind table bot (flags 0)
+[13:36:22] Allocated bind table bcst (flags 1)
+[13:36:22] Allocated bind table away (flags 1)
+[13:36:22] Allocated bind table act (flags 1)
+[13:36:22] Allocated bind table evnt (flags 1)
+[13:36:22] Allocated bind table log (flags 1)
+[13:36:22] Listening at telnet port 3333 (all).
+[13:36:22] Module loaded: dns             
+[13:36:22] No longer supporting channel #telerikacademy
+[13:36:22] No longer supporting channel #bgadmin
+[13:36:22] Module loaded: channels        
+[13:36:22] Allocated bind table wall (flags 1)
+[13:36:22] Allocated bind table raw (flags 1)
+[13:36:22] Allocated bind table notc (flags 1)
+[13:36:22] Allocated bind table msgm (flags 1)
+[13:36:22] Allocated bind table msg (flags 0)
+[13:36:22] Allocated bind table flud (flags 1)
+[13:36:22] Allocated bind table ctcr (flags 1)
+[13:36:22] Allocated bind table ctcp (flags 1)
+[13:36:22] Allocated bind table out (flags 1)
+[13:36:22] Module loaded: server          
+[13:36:22] Module loaded: ctcp            
+[13:36:22] Allocated bind table topc (flags 1)
+[13:36:22] Allocated bind table splt (flags 1)
+[13:36:22] Allocated bind table sign (flags 1)
+[13:36:22] Allocated bind table rejn (flags 1)
+[13:36:22] Allocated bind table part (flags 1)
+[13:36:22] Allocated bind table nick (flags 1)
+[13:36:22] Allocated bind table mode (flags 1)
+[13:36:22] Allocated bind table kick (flags 1)
+[13:36:22] Allocated bind table join (flags 1)
+[13:36:22] Allocated bind table pubm (flags 1)
+[13:36:22] Allocated bind table pub (flags 0)
+[13:36:22] Allocated bind table need (flags 1)
+[13:36:22] Module loaded: irc             
+[13:36:22] LANG: Section loaded: notes
+[13:36:22] LANG: 42 messages of 48 lines loaded from ./language/notes.english.lang
+[13:36:22] LANG: 0 adds, 42 updates to message table
+[13:36:22] Module loaded: notes            (with lang support)
+[13:36:22] LANG: Section loaded: console
+[13:36:22] LANG: 10 messages of 16 lines loaded from ./language/console.english.lang
+[13:36:22] LANG: 0 adds, 10 updates to message table
+[13:36:22] Module loaded: console          (with lang support)
+[13:36:22] LANG: Section loaded: logs2html
+[13:36:22] LANG: 24 messages of 39 lines loaded from ./language/logs2html.english.lang
+[13:36:22] LANG: 0 adds, 24 updates to message table
+[13:36:22] Module loaded: logs2html        (with lang support)
+[13:36:22]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:36:22] Creating chanstats (type 1)
+[13:36:22] 14<chanstats> version 1.3.0 by arfer loaded
+[13:36:22] Creating seend (type 1)
+[13:36:22] Seend 1.8.3 loaded!
+[13:36:22] Creating greetings (type 1)
+[13:36:22] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[13:36:22] 8,2Nick Identify Script Has Been Loaded make by Blue ... Repaired By Xenogear and moded by GT
+[13:36:22] MsG (1.0) By GT and yulimoto LOADED.....
+[13:36:22] Loading dccwhois.tcl...
+[13:36:22] Loaded dccwhois.tcl
+[13:36:22] Writing channel file...
+[13:36:22] Userfile loaded, unpacking...
+[13:36:22] Seend data restored.
+[13:36:23] net: connect! sock 7
+[13:36:31] Tcl error [identify:notc]: wrong # args: no script following " $nick == $nickserv " argument
+[13:36:38] Telerik joined #telerikacademy.
+[13:37:24] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 9 
+[13:37:24] Writing user file...
+[13:37:24] Writing channel file...
+[13:37:24] Rehashing ...
+[13:37:24] Writing channel file...
+[13:37:24] Listening at telnet port 3333 (all).
+[13:37:24]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:37:24] UDEF: chanstats defined
+[13:37:24] 14<chanstats> version 1.3.0 by arfer loaded
+[13:37:24] UDEF: seend defined
+[13:37:24] Seend 1.8.3 loaded!
+[13:37:24] UDEF: greetings defined
+[13:37:24] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[13:37:24] 8,2Nick Identify Script Has Been Loaded make by Blue ... Repaired By Xenogear and moded by GT
+[13:37:24] MsG (1.0) By GT and yulimoto LOADED.....
+[13:37:24] Loading dccwhois.tcl...
+[13:37:24] Loaded dccwhois.tcl
+[13:37:24] Writing channel file...
+[13:37:24] Userfile loaded, unpacking...
+[13:37:27] tcl: builtin dcc call: *dcc:restart KpeTeHoug 9 
+[13:37:27] Writing user file...
+[13:37:27] Writing channel file...
+[13:37:27] Restarting ...
+[13:37:27] Seend data saved.
+[13:37:27] LANG: Section unloaded: logs2html
+[13:37:27] Module unloaded: logs2html
+[13:37:27] LANG: Section unloaded: console
+[13:37:27] Module unloaded: console
+[13:37:27] LANG: Section unloaded: notes
+[13:37:27] Module unloaded: notes
+[13:37:27] De-Allocated bind table topc
+[13:37:27] De-Allocated bind table splt
+[13:37:27] De-Allocated bind table sign
+[13:37:27] De-Allocated bind table rejn
+[13:37:27] De-Allocated bind table part
+[13:37:27] De-Allocated bind table nick
+[13:37:27] De-Allocated bind table mode
+[13:37:27] De-Allocated bind table kick
+[13:37:27] De-Allocated bind table join
+[13:37:27] De-Allocated bind table pubm
+[13:37:27] De-Allocated bind table pub
+[13:37:27] De-Allocated bind table need
+[13:37:27] Module unloaded: irc
+[13:37:27] Module unloaded: ctcp
+[13:37:27] De-Allocated bind table wall
+[13:37:27] De-Allocated bind table raw
+[13:37:27] De-Allocated bind table notc
+[13:37:27] De-Allocated bind table msgm
+[13:37:27] De-Allocated bind table msg
+[13:37:27] De-Allocated bind table flud
+[13:37:27] De-Allocated bind table ctcr
+[13:37:27] De-Allocated bind table ctcp
+[13:37:27] De-Allocated bind table out
+[13:37:27] Module unloaded: server
+[13:37:27] Writing channel file...
+[13:37:27] Module unloaded: channels
+[13:37:27] Module unloaded: dns
+[13:37:27] Allocated bind table unld (flags 1)
+[13:37:27] Allocated bind table time (flags 1)
+[13:37:27] Allocated bind table cron (flags 1)
+[13:37:27] Allocated bind table note (flags 0)
+[13:37:27] Allocated bind table nkch (flags 1)
+[13:37:27] Allocated bind table load (flags 1)
+[13:37:27] Allocated bind table link (flags 1)
+[13:37:27] Allocated bind table filt (flags 1)
+[13:37:27] Allocated bind table disc (flags 1)
+[13:37:27] Allocated bind table dcc (flags 0)
+[13:37:27] Allocated bind table chpt (flags 1)
+[13:37:27] Allocated bind table chon (flags 1)
+[13:37:27] Allocated bind table chof (flags 1)
+[13:37:27] Allocated bind table chjn (flags 1)
+[13:37:27] Allocated bind table chat (flags 1)
+[13:37:27] Allocated bind table bot (flags 0)
+[13:37:27] Allocated bind table bcst (flags 1)
+[13:37:27] Allocated bind table away (flags 1)
+[13:37:27] Allocated bind table act (flags 1)
+[13:37:27] Allocated bind table evnt (flags 1)
+[13:37:27] Allocated bind table log (flags 1)
+[13:37:27] Listening at telnet port 3333 (all).
+[13:37:27] Module loaded: dns             
+[13:37:27] No longer supporting channel #telerikacademy
+[13:37:27] No longer supporting channel #bgadmin
+[13:37:27] Module loaded: channels        
+[13:37:27] Allocated bind table wall (flags 1)
+[13:37:27] Allocated bind table raw (flags 1)
+[13:37:27] Allocated bind table notc (flags 1)
+[13:37:27] Allocated bind table msgm (flags 1)
+[13:37:27] Allocated bind table msg (flags 0)
+[13:37:27] Allocated bind table flud (flags 1)
+[13:37:27] Allocated bind table ctcr (flags 1)
+[13:37:27] Allocated bind table ctcp (flags 1)
+[13:37:27] Allocated bind table out (flags 1)
+[13:37:27] Module loaded: server          
+[13:37:27] Module loaded: ctcp            
+[13:37:27] Allocated bind table topc (flags 1)
+[13:37:27] Allocated bind table splt (flags 1)
+[13:37:27] Allocated bind table sign (flags 1)
+[13:37:27] Allocated bind table rejn (flags 1)
+[13:37:27] Allocated bind table part (flags 1)
+[13:37:27] Allocated bind table nick (flags 1)
+[13:37:27] Allocated bind table mode (flags 1)
+[13:37:27] Allocated bind table kick (flags 1)
+[13:37:27] Allocated bind table join (flags 1)
+[13:37:27] Allocated bind table pubm (flags 1)
+[13:37:27] Allocated bind table pub (flags 0)
+[13:37:27] Allocated bind table need (flags 1)
+[13:37:27] Module loaded: irc             
+[13:37:27] LANG: Section loaded: notes
+[13:37:27] LANG: 42 messages of 48 lines loaded from ./language/notes.english.lang
+[13:37:27] LANG: 0 adds, 42 updates to message table
+[13:37:27] Module loaded: notes            (with lang support)
+[13:37:27] LANG: Section loaded: console
+[13:37:27] LANG: 10 messages of 16 lines loaded from ./language/console.english.lang
+[13:37:27] LANG: 0 adds, 10 updates to message table
+[13:37:27] Module loaded: console          (with lang support)
+[13:37:27] LANG: Section loaded: logs2html
+[13:37:27] LANG: 24 messages of 39 lines loaded from ./language/logs2html.english.lang
+[13:37:27] LANG: 0 adds, 24 updates to message table
+[13:37:27] Module loaded: logs2html        (with lang support)
+[13:37:27]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:37:27] Creating chanstats (type 1)
+[13:37:27] 14<chanstats> version 1.3.0 by arfer loaded
+[13:37:27] Creating seend (type 1)
+[13:37:27] Seend 1.8.3 loaded!
+[13:37:27] Creating greetings (type 1)
+[13:37:27] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[13:37:27] 8,2Nick Identify Script Has Been Loaded make by Blue ... Repaired By Xenogear and moded by GT
+[13:37:27] MsG (1.0) By GT and yulimoto LOADED.....
+[13:37:27] Loading dccwhois.tcl...
+[13:37:27] Loaded dccwhois.tcl
+[13:37:27] Writing channel file...
+[13:37:27] Userfile loaded, unpacking...
+[13:37:27] Seend data restored.
+[13:37:27] net: connect! sock 7
+[13:37:35] Tcl error [identify:notc]: invalid command name "
+  puthelp ".msg $nickserv $identcmd $identpass"
+  putlog "Identifying : $nickserv (as $botnick)"
+ "
+[13:37:41] Telerik joined #telerikacademy.
+[13:40:03] <phalaaxx> аре и другия тогава... :)
+[13:40:19] wilindex (~willie@91.230.230.251) left irc: Remote host closed the connection
+[13:46:47] <phalaaxx> iLo-тата на HP са някакъв невероятен epic fail напоследък
+[13:46:47] <phalaaxx> не знам при по-висок клас сървъри дали има такива проблеми ама на моята машина понякога ми идва да отида при нея и елегантно да и откъртя чиповете с подходящ по размери чук
+[13:47:23] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 9 
+[13:47:23] Writing user file...
+[13:47:23] Writing channel file...
+[13:47:23] Rehashing ...
+[13:47:23] Writing channel file...
+[13:47:23] Listening at telnet port 3333 (all).
+[13:47:23]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:47:23] UDEF: chanstats defined
+[13:47:23] 14<chanstats> version 1.3.0 by arfer loaded
+[13:47:23] UDEF: seend defined
+[13:47:23] Seend 1.8.3 loaded!
+[13:47:23] UDEF: greetings defined
+[13:47:23] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[13:47:23] 8,2Nick Identify Script Has Been Loaded make by Blue ... Repaired By Xenogear and moded by GT
+[13:47:23] MsG (1.0) By GT and yulimoto LOADED.....
+[13:47:23] Loading dccwhois.tcl...
+[13:47:23] Loaded dccwhois.tcl
+[13:47:23] Writing channel file...
+[13:47:23] Userfile loaded, unpacking...
+[13:47:25] tcl: builtin dcc call: *dcc:restart KpeTeHoug 9 
+[13:47:25] Writing user file...
+[13:47:25] Writing channel file...
+[13:47:25] Restarting ...
+[13:47:25] Seend data saved.
+[13:47:25] LANG: Section unloaded: logs2html
+[13:47:25] Module unloaded: logs2html
+[13:47:25] LANG: Section unloaded: console
+[13:47:25] Module unloaded: console
+[13:47:25] LANG: Section unloaded: notes
+[13:47:25] Module unloaded: notes
+[13:47:25] De-Allocated bind table topc
+[13:47:25] De-Allocated bind table splt
+[13:47:25] De-Allocated bind table sign
+[13:47:25] De-Allocated bind table rejn
+[13:47:25] De-Allocated bind table part
+[13:47:25] De-Allocated bind table nick
+[13:47:25] De-Allocated bind table mode
+[13:47:25] De-Allocated bind table kick
+[13:47:25] De-Allocated bind table join
+[13:47:25] De-Allocated bind table pubm
+[13:47:25] De-Allocated bind table pub
+[13:47:25] De-Allocated bind table need
+[13:47:25] Module unloaded: irc
+[13:47:25] Module unloaded: ctcp
+[13:47:25] De-Allocated bind table wall
+[13:47:25] De-Allocated bind table raw
+[13:47:25] De-Allocated bind table notc
+[13:47:25] De-Allocated bind table msgm
+[13:47:25] De-Allocated bind table msg
+[13:47:25] De-Allocated bind table flud
+[13:47:25] De-Allocated bind table ctcr
+[13:47:25] De-Allocated bind table ctcp
+[13:47:25] De-Allocated bind table out
+[13:47:25] Module unloaded: server
+[13:47:25] Writing channel file...
+[13:47:25] Module unloaded: channels
+[13:47:25] Module unloaded: dns
+[13:47:25] Allocated bind table unld (flags 1)
+[13:47:25] Allocated bind table time (flags 1)
+[13:47:25] Allocated bind table cron (flags 1)
+[13:47:25] Allocated bind table note (flags 0)
+[13:47:25] Allocated bind table nkch (flags 1)
+[13:47:25] Allocated bind table load (flags 1)
+[13:47:25] Allocated bind table link (flags 1)
+[13:47:25] Allocated bind table filt (flags 1)
+[13:47:25] Allocated bind table disc (flags 1)
+[13:47:25] Allocated bind table dcc (flags 0)
+[13:47:25] Allocated bind table chpt (flags 1)
+[13:47:25] Allocated bind table chon (flags 1)
+[13:47:25] Allocated bind table chof (flags 1)
+[13:47:25] Allocated bind table chjn (flags 1)
+[13:47:25] Allocated bind table chat (flags 1)
+[13:47:25] Allocated bind table bot (flags 0)
+[13:47:25] Allocated bind table bcst (flags 1)
+[13:47:25] Allocated bind table away (flags 1)
+[13:47:25] Allocated bind table act (flags 1)
+[13:47:25] Allocated bind table evnt (flags 1)
+[13:47:25] Allocated bind table log (flags 1)
+[13:47:25] Listening at telnet port 3333 (all).
+[13:47:25] Module loaded: dns             
+[13:47:25] No longer supporting channel #telerikacademy
+[13:47:25] No longer supporting channel #bgadmin
+[13:47:25] Module loaded: channels        
+[13:47:25] Allocated bind table wall (flags 1)
+[13:47:25] Allocated bind table raw (flags 1)
+[13:47:25] Allocated bind table notc (flags 1)
+[13:47:25] Allocated bind table msgm (flags 1)
+[13:47:25] Allocated bind table msg (flags 0)
+[13:47:25] Allocated bind table flud (flags 1)
+[13:47:25] Allocated bind table ctcr (flags 1)
+[13:47:25] Allocated bind table ctcp (flags 1)
+[13:47:25] Allocated bind table out (flags 1)
+[13:47:25] Module loaded: server          
+[13:47:25] Module loaded: ctcp            
+[13:47:25] Allocated bind table topc (flags 1)
+[13:47:25] Allocated bind table splt (flags 1)
+[13:47:25] Allocated bind table sign (flags 1)
+[13:47:25] Allocated bind table rejn (flags 1)
+[13:47:25] Allocated bind table part (flags 1)
+[13:47:25] Allocated bind table nick (flags 1)
+[13:47:25] Allocated bind table mode (flags 1)
+[13:47:25] Allocated bind table kick (flags 1)
+[13:47:25] Allocated bind table join (flags 1)
+[13:47:25] Allocated bind table pubm (flags 1)
+[13:47:25] Allocated bind table pub (flags 0)
+[13:47:25] Allocated bind table need (flags 1)
+[13:47:25] Module loaded: irc             
+[13:47:25] LANG: Section loaded: notes
+[13:47:25] LANG: 42 messages of 48 lines loaded from ./language/notes.english.lang
+[13:47:25] LANG: 0 adds, 42 updates to message table
+[13:47:25] Module loaded: notes            (with lang support)
+[13:47:25] LANG: Section loaded: console
+[13:47:25] LANG: 10 messages of 16 lines loaded from ./language/console.english.lang
+[13:47:25] LANG: 0 adds, 10 updates to message table
+[13:47:25] Module loaded: console          (with lang support)
+[13:47:25] LANG: Section loaded: logs2html
+[13:47:25] LANG: 24 messages of 39 lines loaded from ./language/logs2html.english.lang
+[13:47:25] LANG: 0 adds, 24 updates to message table
+[13:47:25] Module loaded: logs2html        (with lang support)
+[13:47:25]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:47:25] Creating chanstats (type 1)
+[13:47:25] 14<chanstats> version 1.3.0 by arfer loaded
+[13:47:25] Creating seend (type 1)
+[13:47:25] Seend 1.8.3 loaded!
+[13:47:25] Creating greetings (type 1)
+[13:47:25] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[13:47:25] 8,2Nick Identify Script Has Been Loaded make by Blue ... Repaired By Xenogear and moded by GT
+[13:47:25] MsG (1.0) By GT and yulimoto LOADED.....
+[13:47:25] Loading dccwhois.tcl...
+[13:47:25] Loaded dccwhois.tcl
+[13:47:25] Writing channel file...
+[13:47:25] Userfile loaded, unpacking...
+[13:47:25] Seend data restored.
+[13:47:27] net: connect! sock 7
+[13:47:38] Telerik joined #telerikacademy.
+[13:47:39] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[13:47:49] <KpeTeHoug> деа таз крива нива деа :)
+[13:48:29] <KpeTeHoug> skriptowa mriptova
+[13:55:55] <KpeTeHoug> тея дни повече, за днес няма време :)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
