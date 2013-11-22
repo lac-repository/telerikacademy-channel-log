@@ -2940,3 +2940,53 @@
 [21:00:08] <fityla> има ли някакъв списък..
 [21:01:57] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
 [21:02:21] <yulimoto> тодор 1 сигурно е rewind_work , a тодор 2 кой е ?
+[21:05:19] rewind_mobile (~yaaic@85.118.193.171) joined #telerikacademy.
+[21:06:22] <phalaaxx> yulimoto: разбрах що така издайнически работеше who :D
+[21:07:11] <yulimoto> що ?
+[21:07:17] <yulimoto> нещо си забравил
+[21:07:18] <yulimoto> ?
+[21:07:36] <phalaaxx> ползвах bind mount за /var/run/utmp
+[21:08:01] <phalaaxx> демек /jail/home/<username>/var/run/utmp -> /jail/root/<username>/var/run/utmp
+[21:08:15] <phalaaxx> а в debian явно /var/run вече е symlink към /run
+[21:08:45] <yulimoto> обаче ти сега си на сървъра под рут, пак те виждам :)
+[21:08:45] <phalaaxx> и съответно вместо всеки потребител да си има собствен utmp - всички ползваха един който се bindmount-ва в /run извън chroot-а :D
+[21:10:14] <yulimoto> между другото и аз си кръсих преди машинките на звезди
+[21:10:32] <phalaaxx> :)
+[21:10:38] <yulimoto> точно в орион са с много яки имена ;P
+[21:10:44] <phalaaxx> мда
+[21:11:10] <yulimoto> аз имах и бетелгейзе
+[21:11:51] <yulimoto> но не ги ползвай за пароли като b3t3lg31z3 и прочие, ще те изловя
+[21:11:54] <yulimoto> ;P
+[21:12:13] <yulimoto> сменяй бързо :P
+[21:13:18] <phalaaxx> аа нямам такива, това ми е сложно за помнене :D
+[21:13:56] <yulimoto> тя не се помни просто betelgeize с цифри :)
+[21:14:03] <phalaaxx> да бе знам
+[21:14:15] <phalaaxx> логни се сега плс да видя какво съм сътворил
+[21:15:35] <yulimoto> who
+[21:15:42] <yulimoto> връща нищо
+[21:16:05] <phalaaxx> не съм сигурен това ли е правилно или трябва да се виждаш себе си поне...
+[21:16:45] <yulimoto> ами би трябвало да се виждам но това пък ще ти отнеме адски много време според мен
+[21:17:26] <yulimoto> ако е възможно да правиш някакви виртуални файлове, в които си сортирал това което трябва да виждам
+[21:17:46] <yulimoto> отивам да се къпя :)
+[21:17:47] <phalaaxx> не правя никакви такива сложни неща :)
+[21:19:24] kolio2_ (~kolio2@92.247.8.98) joined #telerikacademy.
+[21:19:24] kolio2_ (~kolio2@92.247.8.98) left irc: Client Quit
+[21:19:38] <phalaaxx> сетъпа е този: https://github.com/phalaaxx/jail
+[21:19:55] <phalaaxx> уф, бота ми го няма
+[21:19:57] <phalaaxx> скатавка
+[21:21:55] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[21:21:55] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[21:23:41] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[21:23:52] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:24:48] <phalaaxx> даже разбрах що е спрял... отрязал съм му краката без да искам :D
+[21:32:56] <KpeTeH0ug> горките
+[21:33:07] <KpeTeH0ug> и аз днес Telerik чо що мъка беше
+[21:33:27] <KpeTeH0ug> ако остане време през уйкенда, ще прегледам сичкото тцл и тн
+[21:33:59] <KpeTeH0ug> май даже ще го Make наново :) че предният път даже не знаех че има опции на make :)
+[21:46:33] <yulimoto> phalaaxx: а това създава и база данни с моето име ?
+[21:46:43] <yulimoto> phalaaxx: а как ще се кънектвам ?
+[21:49:53] <yulimoto> т.е. един mysql client da имаше
+[21:50:01] <phalaaxx> миии не още :)
+[21:50:57] <yulimoto> :ь
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
