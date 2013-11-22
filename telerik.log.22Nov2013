@@ -44,3 +44,47 @@
 [09:46:04] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) left irc: Ping timeout: 264 seconds
 [10:00:00] Writing user file...
 [10:00:00] Writing channel file...
+[10:18:04] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[10:34:51] <yulimoto> а ве наков беше писал във форума, че имало някакви хостинги фрий, помните ли нещо такова ?
+[10:38:29] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[10:44:08] <KacanuH> hackman като чу за фрее хостинги и изчезна със скороста на падаща мазилка
+[10:47:28] <yulimoto> ми то ако ние сме му таргета по-добре да затваря кипеците :)
+[10:48:55] <KpeTeHoug> :)
+[10:49:03] <KpeTeHoug> и аз искам фрее хостинг
+[10:49:09] <KpeTeHoug> ма не знам наков за какво е говорил
+[10:49:55] <yulimoto> беше във форума, хостинга беше за win, ама имало опция за lamp
+[10:50:09] <yulimoto> 10 hosta ала бала за две години
+[10:50:38] <yulimoto> не че нещо ами сестра ми ми мрънка да ѝ сложа някъде wordpressa
+[10:51:09] <KpeTeHoug> :)
+[10:53:54] <KpeTeHoug> Telerik priqtel
+[10:54:01] <KpeTeHoug> лягай за малко :)
+[10:54:17] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[10:55:55] net: connect! sock 3
+[10:56:07] net: eof!(read) socket 7
+[10:56:07] Lost connection while resolving hostname [127.0.0.1/43662]
+[10:56:22] <KpeTeHoug> офф
+[10:56:33] <KpeTeHoug> пак някой ми е затрил руловете не iptables
+[10:56:37] DNS resolve failed for 127.0.0.1
+[10:57:20] <KpeTeHoug> добре, живей още малко, че ми се обадиха по телефона
+[10:57:22] <KpeTeHoug> :)
+[10:57:28] net: connect! sock 3
+[10:57:28] DNS resolve failed for 127.0.0.1
+[10:57:28] Telnet connection: 127.0.0.1/43668
+[10:57:28] net: connect! sock 11
+[10:57:28] net: eof!(read) socket 11
+[10:57:28] Timeout/EOF ident connection
+[10:57:34] net: connect! sock 3
+[10:57:34] DNS resolve failed for 127.0.0.1
+[10:57:34] Telnet connection: 127.0.0.1/43670
+[10:57:34] net: connect! sock 11
+[10:57:34] net: eof!(read) socket 11
+[10:57:34] Timeout/EOF ident connection
+[10:57:38] Logged in: KpeTeHoug (telnet@127.0.0.1/43670)
+[10:59:48] tcl: builtin dcc call: *dcc:die KpeTeHoug 7 
+[10:59:51] Writing user file...
+[10:59:51] Writing channel file...
+[10:59:51] * DIE BY KpeTeHoug!telnet@127.0.0.1 (request)
+[11:00:01] Seend data restored.
+[11:00:01] main: entering loop
+[11:00:02] net: connect! sock 7
+[11:00:19] Telerik joined #telerikacademy.
