@@ -410,3 +410,161 @@
 [11:58:06] _rewind (~teo@46.238.29.142) left irc: Ping timeout: 264 seconds
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
+[12:06:39] <phalaaxx> fityla: за какво викаш ще го ползваш този микротик?
+[12:08:20] <fityla> с цел да си играя с нея..
+[12:08:24] <fityla> VPN-
+[12:08:37] <fityla> за вкъщи го взимам
+[12:09:02] <fityla> и по сложни сценарии ми се въртят в главата
+[12:10:35] <phalaaxx> и аз си мисля от известно време за точно този модел но на него май не може да му се сложи openwrt (засега)
+[12:11:16] <fityla> за какво ти е това
+[12:11:19] <fityla> openwrt
+[12:11:30] <fityla> микротика
+[12:11:33] <phalaaxx> да си го сложа на машинката и да си го ползвам
+[12:11:35] <phalaaxx> :)
+[12:11:42] <phalaaxx> някак по-отворено е
+[12:11:50] <fityla> микоротика
+[12:11:52] <fityla> има всичко
+[12:11:53] <phalaaxx> и по-стандартно
+[12:12:06] <phalaaxx> не всичко
+[12:12:26] <fityla> ако искаш openwrt
+[12:12:29] <fityla> вземи
+[12:12:47] <phalaaxx> аз си имам openwrt
+[12:12:48] <phalaaxx> на RB450G
+[12:12:53] <fityla> на тп-линк
+[12:13:04] <fityla> качваш му и си в играта
+[12:13:47] <phalaaxx> tp-link...
+[12:13:49] <phalaaxx> lol?
+[12:13:52] <phalaaxx> :D
+[12:14:05] <fityla> http://jarcomputers.com/l_bg/?m=7&i=546639
+[12:14:10] <wilindex> [ JAR Computers - TP-Link TL-WDR3600, Dual Band 600Mbps Dual-Band Wireless-N Router + 4Port Gigabit Switch, 2xUSB, 2 антени - Безжични мрежови карти ] - jarcomputers.com
+[12:14:20] <fityla> 106лв. с ДДС
+[12:16:02] <phalaaxx> не е лоша машинка
+[12:16:06] <phalaaxx> ама и е малко флаш-а
+[12:16:23] <phalaaxx> 8MB само
+[12:16:29] <phalaaxx> срещу 512 на RB450G
+[12:18:05] <fityla> да
+[12:18:33] <fityla> wigi
+[12:18:35] <fityla> wifi
+[12:18:36] <fityla> nqmash
+[12:18:41] <fityla> с 450
+[12:20:38] <phalaaxx> че за какво ми е? :)
+[12:20:43] <fityla> :D
+[12:20:58] <fityla> е как за какво нали ти трябва
+[12:21:07] <fityla> да подсигуриш и външна линия
+[12:21:08] <fityla> ;)
+[12:21:37] <fityla> въпреки мариянски
+[12:21:48] <fityla> аз не съм толкова голям параноик като него..
+[12:21:53] <fityla> ползвам си Wireless-a
+[12:21:55] <fityla> на лаптопа
+[12:22:14] <phalaaxx> и аз - когато си ползвам лаптопа
+[12:22:38] <phalaaxx> което се случва когато реша да пробвам нещо някъде :)
+[12:22:42] <fityla> е аз съм основно на лаптопа
+[12:23:10] <fityla> да ти кажа в момента съм с един 741nd
+[12:23:15] <fityla> tp-link
+[12:23:19] <fityla> вкъщи ..
+[12:23:29] <fityla> с dd-wrt
+[12:23:39] <fityla> не съм го рестартирал не знам от кога..
+[12:23:57] <fityla> едниствено е това че не мога да си дигна кадърен VPN
+[12:24:08] <Fairytale> Daite savet za nqkakv ruterche
+[12:24:12] <phalaaxx> да... сложи си openwrt
+[12:24:34] <Fairytale> trqbva da lovi ot ednata staq v drugata
+[12:24:48] <Fairytale> Vsichko li ste svarshi rabota ili da tarsq nesto opredeleno?
+[12:24:52] <phalaaxx> openvpn в openwrt се настройва по-лесно и работи по-добре отколкото в routeros
+[12:24:53] <Fairytale> kato marka, model
+[12:25:02] <fityla> то има PPTP
+[12:25:08] <fityla> ама много несигурен
+[12:25:09] ddmitov (~knoppix@87.120.214.102) joined #telerikacademy.
+[12:25:12] <phalaaxx> Fairytale: за през една врата в общи линии всичко би свършило работа
+[12:25:31] <Fairytale> phalaaxx mersi
+[12:25:32] <phalaaxx> fityla: кой ползва pptp :D
+[12:25:44] <fityla> dd-wrt-то
+[12:25:46] <fityla> за това казах
+[12:25:47] <fityla> че нямам
+[12:25:50] <fityla> читав
+[12:25:52] <Fairytale> Az si prodadoh kolata i sega kef, samo na kompa :-)
+[12:25:56] <fityla> OpenWrt-то
+[12:26:13] <fityla> OpenVPN-a
+[12:26:28] <fityla> май го няма в моята версия и без това е слабичък
+[12:26:32] <fityla> от към ресурси
+[12:26:42] <fityla> За рутер.. бюджет имаш ли?
+[12:27:03] <fityla> и какво ще връзваш на него
+[12:27:12] <Fairytale> Emi kolkoto po evtin, tolkova po dobre
+[12:27:32] <fityla> нещо по завъртяно ще ти трябва ли
+[12:27:34] <fityla> като функция
+[12:27:37] <Fairytale> emi da ima WIFI za edin laptop v drugata staq i edin lan kum men
+[12:27:58] <Fairytale> nisto drugo
+[12:28:05] <fityla> VPN, firewall
+[12:28:12] <fityla> WOL
+[12:28:25] <Fairytale> samo da raboti
+[12:28:30] <fityla> :D
+[12:28:33] <fityla> взимай 740
+[12:28:39] <fityla> 30лв.
+[12:28:52] <Fairytale> dobra oferta mi izglejda
+[12:30:18] <fityla> ако забива..
+[12:30:23] <fityla> слагаш му най новият фърм
+[12:30:28] <fityla> ако пак дава проблем
+[12:30:34] <fityla> едно dd-wrt
+[12:30:40] <fityla> и влизаш в джажа..
+[12:31:10] <fityla> Можеш да събуждаш машини по кабела..
+[12:31:15] <Fairytale> chakai da vidq za nqkoi link
+[12:31:16] <fityla> вързани към него
+[12:32:21] <Fairytale>  TP-LINK TL-WR740N  tova li e?
+[12:34:39] <Fairytale> http://www.stantek.com/?i=34781 tova trqbva da e
+[12:34:39] <wilindex> [ Lan components TP-LINK TL-WR740N Wireless-N nLite Router: 31.70 лв (цена 1 бр.) :: Stantek ] - www.stantek.com
+[12:35:18] <fityla> да
+[12:35:25] <Fairytale> mersi
+[12:36:14] <fityla> ако
+[12:36:21] <fityla> има още бюджет
+[12:36:23] <fityla> вземи това...
+[12:36:33] <fityla> http://shop.sky.bg/index.php?route=product/product&path=1_47&product_id=4704&sort=pd.name&order=ASC
+[12:37:02] <fityla> иначе 740ката..
+[12:37:17] <wilindex> [ TP-LINK TL-WR841N 300Mbps Wireless N Router ] - shop.sky.bg
+[12:37:54] <fityla> http://shop.sky.bg/index.php?route=product/product&path=1_47&product_id=4699&sort=pd.name&order=ASC
+[12:38:09] <Fairytale> pari ima kolkoto iskash, ama v blizkata godina nqma da bachkam i ne mislq da harcha mnogo
+[12:38:17] <wilindex> [ TP-LINK TL-WR740N 150Mbps Wireless N Router ] - shop.sky.bg
+[12:38:39] <Fairytale> Taq kola mi glutna vsichko i edvam q prodadoh za 10 000
+[12:39:12] <fityla> :D
+[12:39:15] <fityla> въпроса е ..
+[12:39:20] <fityla> бюдет дали има за това
+[12:39:27] <fityla> 841n v8
+[12:39:31] <Fairytale> abe edvam ne e, na 2rata sedmica q kupiha ama se okaza che mnogo malko hora mogat da iskarat na ruka 10 000
+[12:40:05] <Fairytale> netso ne mi otvarq linka
+[12:40:06] <fityla> 533Мхз
+[12:40:38] <fityla> малко им е бавен..
+[12:40:47] <Fairytale> otvori se
+[12:40:48] <fityla> магазина на пичагите
+[12:41:01] <fityla> трябва някой по сериозен админ да го пипне
+[12:41:05] <fityla> или нов хардуер
+[12:42:26] <Fairytale> emi tozi e mnogo malko po skup
+[12:42:38] <fityla> e 10лв. е разликата
+[12:42:48] <fityla> 740 vs 841
+[12:43:23] <Fairytale> znachi ste gledam za 841
+[12:43:42] <fityla> гледай 8ма версия
+[12:43:43] <fityla> да е
+[12:43:55] <fityla> защото другите са 400Mhz
+[12:44:27] <Fairytale> Tazi versiq ot kude moje da se vidi?
+[12:45:24] <fityla> на кутията или отдолу на рутера
+[12:45:47] <Fairytale> qsno
+[12:46:03] <Fairytale> emi znachi veche e izbran :-)
+[12:46:10] <Fairytale> Mersi za pomosta
+[12:46:12] <fityla> ако има ядове ..
+[12:46:19] <fityla> псоледен ъпдейт..
+[12:46:24] <Fairytale> qsno
+[12:46:25] <fityla> ако ти се играе..
+[12:46:31] <fityla> с него ..
+[12:46:35] <fityla> почни с dd-wrt
+[12:46:54] <Fairytale> igrae mi se, veche sum svoboden i imam cqloto vreme na sveta
+[12:47:51] <Fairytale> Sega ako zapochvashe Linux kursa stqh da imam po cql den da se zanimavam
+[12:48:06] <fityla> лятото ще има ..
+[12:48:10] <fityla> нов курс..
+[12:48:17] <fityla> или началото на годинита..
+[12:48:21] <fityla> сигурно
+[12:48:26] <fityla> предполагам само
+[12:48:55] <Fairytale> Loshoto e che v Telerik Hackman kaza che nqma da vodi drug kurs
+[12:49:27] <Fairytale> Dano pri Nakov da napravqt
+[12:50:30] <Fairytale> Trqbva i cigarite da spiram
+[12:50:52] <ddmitov> Здравейте колеги! На grizzly качих малко книги на linux/sysadmin/perl/python тематика. Всички те (с изключение на Debian Handbook) са свалени от http://it-ebooks.info/ благодарение на пост на go6konn - http://forums.academy.telerik.com/69052/books-1-%D1%82%D0%BE%D0%BD-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8. Може да видите книгите на http://gri
+[12:50:54] <wilindex> [ IT eBooks - Free Download - Big Library ] - it-ebooks.info
+[12:50:55] <wilindex> [ [BOOKS] 1 тон книги - Telerik Academy Forums ] - forums.academy.telerik.com
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
