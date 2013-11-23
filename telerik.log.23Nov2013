@@ -581,3 +581,96 @@
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
 [15:04:39] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[15:26:49] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[15:30:31] <phalaaxx> оо muliyoto ;)
+[15:33:26] <yulimoto> отивам да си направя чай :-) някой иска ли ?
+[15:35:25] <yulimoto> о phatalaxi
+[15:35:53] <yulimoto> rewind сложи ли вече ownclouda
+[15:36:09] <phalaaxx> нещо ти се преплетоха пръстечата по клавиатурата май, а? :P
+[15:36:13] <phalaaxx> не знам
+[15:36:30] <phalaaxx> _rewind, сложи ли вече owncloud-а?
+[15:36:51] <yulimoto> ами преплетоха се като твоите май :)
+[15:37:08] <phalaaxx> е аз съвсем умишлено смених местата на 2 символа
+[15:37:12] <phalaaxx> а ти си добавил нови :P
+[15:37:26] <phalaaxx> ма ти не се обиждаш, нали?
+[15:37:29] <phalaaxx> аз на майтап така
+[15:37:41] <yulimoto> ха то остава и да се обиждам
+[15:37:47] <phalaaxx> виж Telerik като го наричам Terelik не ми се сърди :D
+[15:38:30] <yulimoto> да же докато пия и чета издухвам парата на чая и очилата ми стават запотени
+[15:38:57] <phalaaxx> като каза очила се сетих за jabber профила ти
+[15:39:15] <phalaaxx> защо през повечето време си ми not authorized?
+[15:39:23] <yulimoto> мариян щял да говори за bluetooth секюрити
+[15:39:28] <yulimoto> аа не знам защо
+[15:39:45] <yulimoto> в смисъл какво трябва да направя за да не съм така ?
+[15:40:13] <yulimoto> sega как съм ти
+[15:40:20] <phalaaxx> не знам
+[15:40:20] <phalaaxx> аз си давам от време на време re-request authorization
+[15:40:27] <phalaaxx> сега си online
+[15:40:34] <phalaaxx> ама пак нямам authorization май
+[15:41:34] <yulimoto> ауторизейшъна за какво служи
+[15:41:43] <yulimoto> да ме виждаш кога съм оналайн ли ?
+[15:41:44] <phalaaxx> Subscription: From (To Pending)
+[15:42:14] <phalaaxx> да, всъщност
+[15:42:49] <_rewind> phalaaxx, гледам предпоследната лекция, която качих на гризли, че снощи се беше омацала, а така и така не съм я гледал
+[15:43:06] <_rewind> и така м/у другото тествам томато-то на рутера ми дали работи на 5гхц и май излиза, че не може
+[15:43:11] <_rewind> или телефона ми е твърде стар и куц
+[15:43:13] <yulimoto> ами има "Отмяна на известията за присъствие" ако искаш ще го махна и после пак ще го дам
+[15:43:43] <phalaaxx> ми дай да видим
+[15:43:53] <phalaaxx> а, са стана още по-зле :D
+[15:44:17] <phalaaxx> всъщност беше същото
+[15:44:21] <yulimoto> дадох ти разрешение
+[15:44:24] <yulimoto> да
+[15:44:24] <phalaaxx> аааа
+[15:44:30] <phalaaxx> Subscription: Both
+[15:44:34] <phalaaxx> така е екстра
+[15:44:54] <yulimoto> супер сега ще ме виждаш дори като съм гол в банята
+[15:44:56] <yulimoto> ;P
+[15:45:24] <phalaaxx> :D
+[15:45:30] <phalaaxx> нее не работи така
+[15:45:33] <yulimoto> та мариян сигурно ще говори за blueproximity нещо си
+[15:46:26] <phalaaxx> то ако беше така - порно сайтовете щяха да са най-западащите... :D
+[15:47:04] <phalaaxx> оф хора кажете chroot или rbac без chroot?
+[15:47:21] <yulimoto> да и ще почне като във велико търното, "един ученик ме попита 'hackman, ако сложа един лаптоп със същия mac какво ще стане?' и за това правя тази лекция"
+[15:47:45] <yulimoto> chroot
+[15:48:08] <phalaaxx> ок, обоснови се сега
+[15:48:10] <phalaaxx> :)
+[15:48:24] rewind_work (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[15:49:06] <yulimoto> rbac е много по-сигурно, chroot-а може да се прескочи особено като те тормозим да пускаш разни услуги
+[15:49:16] <yulimoto> онова ми изглежда изпитано
+[15:49:34] <phalaaxx> ъъъ чакай чакай, защо каза chroot тогава?
+[15:49:39] <yulimoto> chroot-а който ти си направил ми изглежда по-заобиколим
+[15:49:51] <yulimoto> защото така ще се научи нещо ново
+[15:49:54] <phalaaxx> ок де, как ще го заобиколиш?
+[15:50:10] <phalaaxx> че ми стана интересно
+[15:50:11] <yulimoto> идея си нямам
+[15:50:37] <yulimoto> но ми изглежда по-възможно от rbac който е мислен за това
+[15:51:05] <yulimoto> примерно вчера беше пропуснал who
+[15:51:12] <yulimoto> и разни файлове
+[15:51:22] <yulimoto> може да се окаже че си пропуснал други неща
+[15:51:37] <yulimoto> така кода ти ще стане по-сигурен
+[15:54:31] <phalaaxx> пропуска с who беше щото са направили symlink от /var/run към /run в Debian Wheezy
+[15:54:54] <phalaaxx> но това е лесно за хващане
+[15:55:30] <phalaaxx> щото директорията е измежду 8 - 10 bind mount-а
+[15:55:51] <phalaaxx> а grsecurity пачовете за chroots са си сериозно нещо
+[15:55:57] <yulimoto> a ти как го оправи да се вижда само моя юзер
+[15:56:14] <phalaaxx> root@rigel:~# cat /proc/sys/kernel/grsecurity/chroot_deny_mount
+[15:56:14] <phalaaxx> root@rigel:~# chroot /jail/base mount -t proc proc /proc
+[15:56:14] <phalaaxx> mount: permission denied
+[15:57:31] <phalaaxx> root@rigel:~# echo 0 | tee /proc/sys/kernel/grsecurity/chroot_deny_mount
+[15:57:31] <phalaaxx> 0
+[15:57:31] <phalaaxx> root@rigel:~# echo 0 | tee /proc/sys/kernel/grsecurity/chroot_caps
+[15:57:31] <phalaaxx> 0
+[15:57:31] <phalaaxx> root@rigel:~# chroot /jail/base mount -t proc proc /proc
+[15:57:37] <phalaaxx> voila :)
+[15:58:17] <phalaaxx> chroot-а е ужасно сигурно нещо с тия пачове
+[15:58:25] <yulimoto> значи оставаме на chroot
+[15:58:39] <phalaaxx> като работих в space.bg сървърите там ползваха подобна схема
+[15:58:45] <phalaaxx> на Debian Etch
+[15:58:55] <phalaaxx> и за 3  години не бяха мръднали хич
+[15:59:10] <phalaaxx> без updates на ядрото и на повечето работи по тях
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:05] <yulimoto> space.bg  звучи като българска астрономическа програма :)
+[16:00:52] <phalaaxx> сървърите им вече са на cpanel и единия от тогава е руутван поне веднъж...
+[16:02:35] <phalaaxx> на въпроса как го оправих - смених му mount point-а да бъде /run вместо /var/run
+[16:03:08] ttanev (~yaaic@46.238.29.142) joined #telerikacademy.
