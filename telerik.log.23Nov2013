@@ -674,3 +674,71 @@
 [16:00:52] <phalaaxx> сървърите им вече са на cpanel и единия от тогава е руутван поне веднъж...
 [16:02:35] <phalaaxx> на въпроса как го оправих - смених му mount point-а да бъде /run вместо /var/run
 [16:03:08] ttanev (~yaaic@46.238.29.142) joined #telerikacademy.
+[16:05:01] rewind_mobile2 (~yaaic@85.118.193.183) joined #telerikacademy.
+[16:06:03] <phalaaxx> той верно окупира канала
+[16:06:13] <yulimoto> ttanev atakuva
+[16:06:14] <phalaaxx> накрая ще ни изгони и ще се заключи вътре
+[16:06:42] rewind_mobile (~yaaic@85.118.193.170) left irc: Ping timeout: 272 seconds
+[16:06:42] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[16:07:12] ttanev (~yaaic@46.238.29.142) left irc: Ping timeout: 246 seconds
+[16:07:15] <yulimoto> _rewind rewind_mobile2 rewind_mobile ttanev agent Smith кой търсите ?
+[16:07:43] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:07:43] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[16:08:18] <phalaaxx> ок, вече се виждат и логовете в ~/logs
+[16:08:18] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[16:08:23] <phalaaxx> уууууууууууууу!
+[16:08:23] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[16:08:26] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[16:08:43] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:08:43] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[16:08:47] <phalaaxx> wilindex: калпазанин
+[16:10:29] <_rewind> yulimoto, можем да изритаме всички, които не са мен :)
+[16:10:43] rewind_mobile2 (~yaaic@85.118.193.183) left irc: Quit: Yaaic - Yet another Android IRC client - http://www.yaaic.org
+[16:11:17] <_rewind> тествам си рутера на 5гхц и не иска да тръгне и всеки път като се разкачи телефона ми започва да превключва
+[16:11:35] <_rewind> 3g -> wi-fi 2.4ghz и т.н.
+[16:11:54] <phalaaxx> ох айде пак проба
+[16:11:57] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[16:12:43] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:12:43] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[16:12:44] <phalaaxx> такаа
+[16:14:56] <yulimoto> dobre сте вие
+[16:16:16] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[16:17:50] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:17:50] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[16:17:51] <phalaaxx> що да сме добре?
+[16:19:08] <fityla> какъв
+[16:19:10] <fityla> рутер..
+[16:19:12] <fityla> действаш
+[16:22:29] <yulimoto> phalaaxx: щото се чудите каква да я измислите :)
+[16:22:53] <_rewind> wrt320n, но е с tomato USB и по спомен имаше някакви грижи с 5GHz с този фърмуер
+[16:23:29] <_rewind> превключва, но не го виждам след това... по принцип предлагат да се ресет-не, но в момента копая и не ми се иска :)
+[16:24:41] <phalaaxx> yulimoto: аз се чудя какъв основателен аргумент да си измисля да махна chroot-а и да ползвам rbac
+[16:24:47] <phalaaxx> и не мога да го измисля
+[16:24:52] <phalaaxx> не знам що реши че съм добре
+[16:24:53] <phalaaxx> :D
+[16:24:59] <phalaaxx> изобщо не съм добре :D
+[16:25:07] <_rewind> имам едни мераци да сложа втора 1гб лан карта на моя компютър и да си взема гб суич за от другата страна... играе ми се с бондинг
+[16:25:15] <_rewind> phalaaxx, помощ ? :D
+[16:25:50] <phalaaxx> трябва ти помощ за bonding ли?
+[16:26:08] <_rewind> yulimoto, мисля, че phalaaxx иска някой да му докаже, че chroot просто НЕ Е подходящ и си му трябва rbac
+[16:26:25] <_rewind> не, чудя се какъв аргумент да измисля
+[16:26:33] <phalaaxx> а, ако някой може да го направи - ще съм благодарен :)
+[16:26:42] <phalaaxx> ама се опасявам че само ще си изгубите времето
+[16:27:36] fityla_ (~fityla@37.157.179.200) joined #telerikacademy.
+[16:28:00] <yulimoto> ми направи rbac  да го видим кво поне
+[16:28:13] <_rewind> на мен определено ще ми трябва известно време да се образовам на тази тема, за да мога изобщо да се изкажа
+[16:29:27] <yulimoto> phalaaxx: ама ти си напарави там policyto !!1
+[16:29:33] <_rewind> phalaaxx, с бондинга надали ще имам проблем, имам проблем обаче с избора на малък управляем суич
+[16:29:46] <phalaaxx> yulimoto: какво съм направил?
+[16:30:29] <_rewind> brb
+[16:30:35] fityla (~fityla@37.157.179.200) left irc: Ping timeout: 245 seconds
+[16:37:57] Fairytale (Fairytale@77.70.117.169) left irc: Quit: Leaving
+[16:38:03] <phalaaxx> не разбрах какво съм направил
+[16:45:05] <yulimoto> нищо не си направил
+[16:46:25] <yulimoto> rbac няма ли policy ?
+[16:51:37] <phalaaxx> в момента не
+[16:51:41] <phalaaxx> ако това ме питаш
+[16:58:47] <yulimoto> какво значи в момента не ?
+[16:59:09] <yulimoto> а преди е имало ?
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
