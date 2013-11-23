@@ -742,3 +742,90 @@
 [16:59:09] <yulimoto> а преди е имало ?
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:08:14] <phalaaxx> не но обмислям варианта да сложа :D
+[17:11:47] <yulimoto> именно сега ще преповторя това което казах и по-горе -> phalaaxx: ама ти си напарави там policyto !!
+[17:12:03] <yulimoto> т.е. from scratch
+[17:15:15] <_rewind> phalaaxx, готов е owncloud-а, даже и работи
+[17:20:36] <yulimoto> super я пусни един акаунт да си чета вътре rss-ите
+[17:21:36] <yulimoto> в ownclouda
+[17:21:59] <yulimoto> или ако ще го махаш недей аз имам другъде някъде
+[17:27:35] <yulimoto> опитах да ти ресетна паролата в знак на протест, естествено неуспешно
+[17:28:03] <_rewind> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=03a6088f5a82f97cd36feaf15c34c643
+[17:28:04] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:28:13] <_rewind> за rss-ите по-добре направо в tt-rss
+[17:28:23] <_rewind> http://rewind.bgadmin.eu/tt-rss
+[17:28:24] <wilindex> [ Tiny Tiny RSS : Login ] - rewind.bgadmin.eu
+[17:29:22] <yulimoto> добре поне да го опитам
+[17:31:37] <yulimoto> тряба на KrasiGa  да направиш, тя преди имаше интерес към owncloud
+[17:32:50] <_rewind> ще ѝ направя, като се появи
+[17:33:28] <_rewind> .tell KrasiGa - като се появиш ми драсни да ти изпратя credentials за да тестваш http://rewind.bgadmin.eu/owncloud/
+[17:33:28] <wilindex> _rewind: I'll pass that on when KrasiGa is around.
+[17:33:29] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:34:13] <yulimoto> _rewind: не помня от къде се оправяше uploada т.е. имаше в сеттингс, но може да трябва и phalaaxx да барне php.ini
+[17:35:56] <_rewind> за големината ли ?
+[17:36:01] <_rewind> yulimoto ?
+[17:36:02] <yulimoto> da
+[17:36:09] <_rewind> да, там е phalaaxx :)
+[17:36:10] <yulimoto> да е повече от 2 мб
+[17:37:21] <phalaaxx> 8MB
+[17:38:00] <phalaaxx> това чудо може ли да share-ва файлове?
+[17:38:07] <_rewind> phalaaxx - http://doc.owncloud.org/server/5.0/admin_manual/configuration/configuring_big_file_upload.html
+[17:38:07] <wilindex> [ Uploading big files > 512MB (as set by default) — ownCloud Administrators Manual 5.0 documentation ] - doc.owncloud.org
+[17:38:16] <_rewind> да, по-горе шернах имидж
+[17:38:22] <_rewind> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=03a6088f5a82f97cd36feaf15c34c643
+[17:38:23] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:38:38] <_rewind> може и с парола
+[17:39:04] <phalaaxx> не мога да се ориентирам от къде и как :D
+[17:39:11] <yulimoto> php_value upload_max_filesize 1024M
+[17:39:11] <yulimoto> php_value post_max_size 1024M
+[17:39:11] <yulimoto> php_value memory_limit 1024M
+[17:39:29] <yulimoto> това съм сложил в .htaccess  на моя
+[17:39:50] <phalaaxx> aaa
+[17:39:52] <phalaaxx> ясно
+[17:40:07] <_rewind> phalaaxx, имаш и тук същия акаунт - http://rewind.bgadmin.eu/tt-rss
+[17:40:08] <wilindex> [ Tiny Tiny RSS : Login ] - rewind.bgadmin.eu
+[17:40:35] <phalaaxx> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=8a41afc1de49e72e8d409a0ae777124e
+[17:40:35] <phalaaxx> това отваря ли се?
+[17:40:35] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:40:45] <phalaaxx> че аз съм логнат и... не знам как стои въпроса
+[17:42:19] <_rewind> не, при мен не се отваря
+[17:42:32] <_rewind> лъжа, отваря се, но май можеше и да се прослушва преди ?
+[17:43:09] <_rewind> в смисъл да се прослушва от сървъра
+[17:43:17] <_rewind> може би само докато си логнат в акаунта
+[17:43:33] <phalaaxx> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=b5e441e4c4bcc6766adbacafef5e763b
+[17:43:34] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:43:59] <phalaaxx> като съм логнат ми ги тананика в слушалките
+[17:44:07] <_rewind> мдаа, отваря си се, но само го download-вам
+[17:44:07] <phalaaxx> ама линковете ми ги дава само за download
+[17:44:20] <_rewind> ако го шернеш вътре, мога да си го слушкам докато съм логнат
+[17:44:40] <phalaaxx> оо грешния файл съм шернал :)
+[17:44:44] <phalaaxx> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=209a28412f1784a33eed843ba9feda2e
+[17:44:44] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:45:05] <phalaaxx> готитно изглежда
+[17:45:10] <_rewind> приятно парче
+[17:45:13] <phalaaxx> не го бях пускал да го пробвам
+[17:46:16] <_rewind> аз не мога да кача 9 мб файл
+[17:47:06] <phalaaxx> момент
+[17:47:30] <_rewind> до 8 ли беше ?
+[17:47:36] <phalaaxx> пробвай пак
+[17:49:01] <_rewind> споделих едно парче с теб вътре
+[17:52:32] <_rewind> те щяха да правят така, че ако upload-неш flac примерно да го транскодва и да го пуска като mp3
+[17:52:40] <_rewind> трябва да видя, направили ли са го в тази версия
+[17:52:51] <_rewind> последно прогбвах версия 4-нещо
+[17:52:55] <phalaaxx> ее ма аз мога да си го направя това, защо ми е да ми го прецаква...
+[17:54:12] <_rewind> :)
+[17:54:26] <_rewind> сега вече ме кръцна с 41мб-товия флак, който се опитах да кача :)
+[17:56:09] <_rewind> $ crontab -l
+[17:56:09] <_rewind> crontabs/rewind/: fopen: Permission denied
+[17:56:24] <_rewind> за tt-rss иска cron да ъпдейтва feed-овете
+[17:56:32] <_rewind> ама това по-късно
+[17:56:41] <_rewind> че се налага да изчезна за няколко часа
+[17:56:49] <_rewind> хубава вечер на всички от мен :)
+[17:57:02] <yulimoto> като говорих с тях около версия 5 нямаше човек който да подържа плеъра, чудно ми е кой ли се  е навил
+[17:57:07] <yulimoto> аре
+[17:57:08] <yulimoto> чао
+[17:57:25] <_rewind> чао :)
+[17:57:28] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:03:16] krasin (~krasin@95-42-30-48.btc-net.bg) joined #telerikacademy.
