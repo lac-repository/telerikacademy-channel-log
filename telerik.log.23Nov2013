@@ -18,3 +18,142 @@
 [01:00:00] Writing user file...
 [01:00:00] Writing channel file...
 [01:03:51] rewind_mobile (~yaaic@85.118.193.162) left irc: Read error: Connection reset by peer
+[01:13:17] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[01:15:57] <phalaaxx> _rewind: дай един публичен ключ за ssh :)
+[01:21:04] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) joined #telerikacademy.
+[01:21:22] <Agripina> Ima li budni
+[01:22:13] <phalaaxx> да, аз :)
+[01:22:24] <phalaaxx> ама за други не съм сигурен
+[01:24:26] <Agripina> Zashto ne spish
+[01:24:48] <Agripina> Bachkash 24h
+[01:24:55] <phalaaxx> ръчкам си по сървъра
+[01:25:00] <phalaaxx> не, в момента се забавлявам
+[01:25:12] <Agripina> Eiii bravo na teb
+[01:25:26] <Agripina> Maniak :)
+[01:25:56] <phalaaxx> :D
+[01:26:03] <Agripina> Az kato se pribera ot rabota ne mi se poglejdat pcta
+[01:26:53] <Agripina> Ti li si s nai-visok rezultst ot cursa
+[01:27:05] <phalaaxx> тц :D
+[01:27:16] <Agripina> Eee da be
+[01:27:23] <phalaaxx> пише ми че съм на 5-то място :)
+[01:27:29] <_rewind> phalaaxx, тук ли :P
+[01:27:30] <Agripina> Nqkoi te e minal
+[01:27:37] <Agripina> Daje 4ma
+[01:27:38] <phalaaxx> _rewind: не :D
+[01:27:50] <phalaaxx> _rewind: дай един public key за ssh
+[01:27:58] <phalaaxx> в скайп примерно :)
+[01:28:14] <_rewind> да, ТОЧНО в скайп още по-малко бих :)
+[01:28:16] <_rewind> по-скоро тук
+[01:28:21] <phalaaxx> предполагам съм писал недостатъчно във форума
+[01:28:24] <_rewind> секунда
+[01:28:42] <phalaaxx> бе дай някакъв key, после ще си го смениш като ти е зор
+[01:28:46] <phalaaxx> генерирай си някакъв временен
+[01:31:13] bgpepi (~bgpepi@ip-80-236-203-216.dsl.scarlet.be) joined #telerikacademy.
+[01:31:36] <phalaaxx> Agripina: какво работиш?
+[01:31:45] <_rewind> паролата е като последното ти съобщение
+[01:31:56] <_rewind> phalaaxx, пратил на скайпа ти
+[01:32:28] <Agripina> Phalaaxx KrasiGa sam
+[01:32:31] <phalaaxx> каква парола какви 5GB RAM, не ми трябва парола :D
+[01:32:42] <_rewind> трябва, трябва :) в 7z архив е
+[01:32:45] <phalaaxx> ключа е да можеш ти да се логнеш
+[01:32:56] <phalaaxx> оф бе ще ти дърпам ушите
+[01:33:00] <_rewind> знам, но не искам в скайп мои публични ключове :D
+[01:33:30] <_rewind> паролата е 'генерирай си някакъв временен'
+[01:33:35] <_rewind> без ''
+[01:34:26] <phalaaxx> ок пробвай ssh на 91.230.230.251
+[01:34:30] <phalaaxx> un: rewind
+[01:34:46] <_rewind> порт ?
+[01:35:09] <_rewind> ин съм
+[01:35:13] <phalaaxx> ок
+[01:35:15] <_rewind> нямам шел :)
+[01:35:17] <phalaaxx> ssh/sftp/scp
+[01:35:21] <phalaaxx> аа да сори
+[01:35:34] <phalaaxx> windown упражнението
+[01:35:40] <phalaaxx> излез и пак влез
+[01:35:56] <phalaaxx> беше sh вместо bash
+[01:36:12] <_rewind> Linux rigel 3.11.8-grsec #3 SMP Fri Nov 22 15:21:33 EET 2013 x86_64
+[01:36:12] <_rewind> The programs included with the Debian GNU/Linux system are free software;
+[01:36:12] <_rewind> the exact distribution terms for each program are described in the
+[01:36:12] <_rewind> individual files in /usr/share/doc/*/copyright.
+[01:36:12] <_rewind> Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+[01:36:13] <_rewind> permitted by applicable law.
+[01:36:15] <_rewind> Last login: Sat Nov 23 01:44:38 2013 from 46.238.29.142
+[01:36:17] <_rewind> /usr/bin/xauth:  file /home/rewind/.Xauthority does not exist
+[01:36:19] <phalaaxx> и кажи дали работи че още не съм измислил как да разбера кой се е логнал
+[01:36:19] <_rewind> пробвал с -X
+[01:36:34] <phalaaxx> т.е. по някакъв лесен начин
+[01:36:37] <phalaaxx> иначе има как да разбера
+[01:37:00] <phalaaxx> та, sftp/scp в public_html
+[01:37:09] <phalaaxx> имаш парола за mysql във .my.cnf
+[01:37:19] <phalaaxx> и адрес rewind.bgadmin.eu
+[01:37:51] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) left irc: Quit: Bye
+[01:38:06] <_rewind> имам sftp
+[01:38:11] <phalaaxx> аа виждаш ли нещо друго в /home освен твоята директория?
+[01:38:32] <_rewind> $ ls -lh
+[01:38:33] <_rewind> total 4.0K
+[01:38:33] <_rewind> drwxr-xr-x 2 root   root   4.0K Nov 23 01:14 logs
+[01:38:33] <_rewind> drwxr-x--- 2 rewind rewind    6 Nov 23 01:13 mail
+[01:38:33] <_rewind> drwxr-x--- 2 rewind rewind    6 Nov 23 01:16 public_htm
+[01:38:54] <phalaaxx> в /home, не в /home/rewind
+[01:38:56] <_rewind> ls -lh ../
+[01:38:56] <_rewind> total 0
+[01:38:56] <_rewind> drwxr-x--- 6 rewind rewind 89 Nov 23 01:45 rewind
+[01:38:59] <_rewind> да, извинявай
+[01:39:07] <_rewind> no one else :)
+[01:39:08] <phalaaxx> да, идеален си :)
+[01:39:21] <phalaaxx> не си сам, споко :)
+[01:39:38] <phalaaxx> ама за да си говориш с останалите трябва да се ослушваш за сигнали от космоса :P
+[01:39:47] <_rewind> хехе :)
+[01:40:45] <phalaaxx> .tell KrasiGa GB?
+[01:40:45] <wilindex> phalaaxx: I'll pass that on when KrasiGa is around.
+[01:40:54] <phalaaxx> .tell Agripina GB?
+[01:40:54] <wilindex> phalaaxx: I'll pass that on when Agripina is around.
+[01:41:11] <_rewind> брех, че умен тоя willie :)
+[01:41:55] <phalaaxx> :)
+[01:42:17] <_rewind> сипахте ли си по едно таз' вечер да отпразнувате оценките
+[01:42:36] <phalaaxx> та, ако не съм сбъгясал нещо - има само 1 начин в момента да разбереш какви други потребители има на машината
+[01:43:22] <_rewind> вероятно ще ми отнеме известно време да се усетя какъв е той, предполагам
+[01:43:54] <phalaaxx> мога да ти кажа ако искаш
+[01:44:17] <_rewind> така не е интересно :)
+[01:44:27] <phalaaxx> .tell Agripina дай публичен ключ за ssh :)
+[01:44:27] <wilindex> phalaaxx: I'll pass that on when Agripina is around.
+[01:44:48] <phalaaxx> _rewind: аре де качи нещо че съм любопитен да го видя как работи
+[01:45:32] <phalaaxx> аз като си го пробвам всичко е ок
+[01:45:42] <_rewind> секунда,
+[01:48:00] <_rewind> ухаа... 4.3 МБ/с
+[01:48:26] <_rewind> но доста бързо го шейпна на 2.4-2.5
+[01:48:48] <phalaaxx> че ти какво катериш там бе? :D
+[01:49:01] <_rewind> предпоследната лекция на нетсек :)
+[01:49:11] <_rewind> само 182 мб е този път :)
+[01:49:15] <phalaaxx> оф бе
+[01:49:15] <phalaaxx> аз ти говоря за нещо php, cgi...
+[01:49:39] <_rewind> ок, ще кача и такова
+[01:49:58] <_rewind> секунда да го измисля, че по това време на денонощието съм малко... безидеен...
+[01:50:14] <_rewind> представи си щом първото нещо, което ми дойде наум беше wordpress :D :D
+[01:50:47] <phalaaxx> че какво му е лошото на wordpress?
+[01:50:55] <_rewind> нищо, но имам по-добра идея :)
+[01:51:10] <_rewind> wget https://github.com/gothfox/Tiny-Tiny-RSS/archive/1.10.tar.gz
+[01:54:17] <phalaaxx> иии какво прави то?
+[01:54:59] <_rewind> заместник на google reader
+[01:55:34] <phalaaxx> аха
+[01:56:08] <phalaaxx> не съм ползвал google reader, това вероятно обяснява защо не знам какво прави ttrss :)
+[01:56:44] <_rewind> аз до скоро ползвах друго, но останах малко разочарован и сега си имам свой тт-рсс, само че така или иначе не ми остава време да го следя така или иначе
+[01:58:19] <_rewind> какво да сложа за database name ?
+[01:58:24] <phalaaxx> добре, в общи линии - май работи
+[01:58:26] <_rewind> http://rewind.bgadmin.eu/tt-rss/install/
+[01:58:26] <wilindex> [ Tiny Tiny RSS - Installer ] - rewind.bgadmin.eu
+[01:58:31] <phalaaxx> cat ~/.my.cnf
+[01:58:56] <_rewind> client името на базата ли е ?
+[01:59:01] <phalaaxx> не
+[01:59:18] <phalaaxx> echo "show databases" | mysql
+[01:59:38] <_rewind> ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[01:59:45] <phalaaxx> иии верно ли бе
+[01:59:49] <_rewind> мдаа
+[01:59:57] <phalaaxx> да, чакай да видя как да го fix тоя проблем...
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:00:34] <_rewind> ок :) отивам да се налея с вода, че тази 20 г. ракия ми дойде малко обезводняваща днес...
+[02:02:35] <_rewind> оп... пак премина границата от 800$, phalaaxx
+[02:03:11] <phalaaxx> да, видях го преди около  половин час
+[02:03:28] <_rewind> доста се колебая дали да не си напазарувам една 600GH
+[02:03:42] <_rewind> ще ми излезе около 7 биткойна с тази цена
