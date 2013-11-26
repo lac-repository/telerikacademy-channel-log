@@ -37,3 +37,34 @@
 [08:57:16] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
 [09:00:00] Writing user file...
 [09:00:00] Writing channel file...
+[09:07:18] Nikiman (~dfdfdfd@91.191.219.153) left irc: Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/
+[09:09:31] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:16:22] <KacanuH> Добро утро и Честит първи сняг
+[09:16:47] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[09:26:07] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[09:26:07] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[09:37:11] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:43:19] <yulimoto> къде е тоя сняг ве ?
+[09:43:29] <yulimoto> .weather
+[09:43:29] <wilindex> I don't know where you live. Give me a location, like .weather London, or tell me where you live by saying .setlocation London, for example.
+[09:43:40] <yulimoto> .weather sofia kyde
+[09:43:41] <wilindex> Yahoo! Weather - Sofia, BG: Light Snow, -1°C (30°F), 29in (982mb), Gentle breeze 8kt (←)
+[09:43:54] <yulimoto> .weather yambol
+[09:43:55] <wilindex> Yahoo! Weather - Yambol, BG: Light Rain, 6°C (42°F), 29in (1011mb), Light air 3kt (↑)
+[09:45:16] <yulimoto> KrasiGa: върна ли се чадо ?
+[09:46:01] <KrasiGa> yulimoto: още в събота ама като за добре дошла изгърмяха два контролера на 2 от 3 сървъра
+[09:46:09] <phalaaxx1> yulimoto: ти си като метеорологична станция :P
+[09:46:14] <KrasiGa> и вчера беше лудница
+[09:47:59] <phalaaxx1> KacanuH: добре дошъл :) скоро ще взема и да мисля с какви теми да го разчупим, само да му натаманя криво-ляво настройките...
+[09:50:12] <yulimoto> phalaaxx1: е как вземе да дойде на тука тоя сняг
+[09:51:21] <yulimoto> KrasiGa: браво, гордея че си оправила всички проблеми :)
+[09:51:41] <phalaaxx1> KrasiGa: wb :) ти беше някъде по чужбинско, нали? ... при робинзоновците :P
+[09:52:47] <KrasiGa> абе оправила съм ги .... срам ме е да разкажа какви ги свършиха колегите в софия
+[09:52:58] <KrasiGa> то бива простотия ......
+[09:53:33] <KrasiGa> phalaaxx1:  Бях малко на гости и да си отпочина от семейните задължения :)
+[09:54:28] <phalaaxx1> супер :)
+[09:57:10] <KacanuH> phalaaxx 3 пъти прочетох какво си написал преди да разбера :)
+[09:58:19] <phalaaxx1> :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:03:27] <phalaaxx1> KacanuH: надявам се не си имал проблеми с пощата... че още не съм си настроил MTA-то както трябва
