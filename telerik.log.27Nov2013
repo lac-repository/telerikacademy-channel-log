@@ -121,3 +121,81 @@
 [10:04:26] <KpeTeHoug> снощи гледах модул 1
 [10:04:33] <KpeTeHoug> това което се е появило в първата лекция
 [10:04:36] <KpeTeHoug> е същото
+[10:07:08] <KpeTeHoug> даже мисля да направя и двете домашни днес
+[10:07:16] <KpeTeHoug> да приключа засега
+[10:07:26] <KpeTeHoug> някак си ми е хлабав тоя курс
+[10:07:39] <KpeTeHoug> след обученияето на jedi master hackman
+[10:07:40] <KpeTeHoug> :)
+[10:11:31] <KrasiGa> daaa
+[10:11:41] <KrasiGa> даже е скучен ама ...
+[10:11:50] <KrasiGa> да не обиждам някого :)
+[10:12:39] <KpeTeHoug> то е малко субективно, защото нещата които говори ги знаем достатъчно добре
+[10:12:45] <KpeTeHoug> ще видим как ще е нататък
+[10:13:59] <KrasiGa> абеее не е само до нещата. Мариан е доста по сладкодумен
+[10:14:27] <KrasiGa> неща дето уж знам ги представя в светлина дето не се и замисляш
+[10:15:04] <KrasiGa> какво ще пишеш за 2ро домашно
+[10:15:08] <KrasiGa> аз 1то го пратих вчера
+[10:15:19] <phalaaxx1> какво представляват домашните?
+[10:15:37] <KrasiGa> и тва е много тъпо за дублиращи се домашни. Еми като съм дала copy paste от нета
+[10:15:48] <KrasiGa> и някой друг също копира тази статия?
+[10:16:04] <KrasiGa> phalaaxx1: нищо сериозно
+[10:16:29] <KrasiGa> eto tova sa http://downloads.academy.telerik.com/svn/os-windows-linux/Lectures/Windows/homework-01.txt
+[10:18:14] <phalaaxx1> това не са ли домашни за virtualbox?
+[10:18:37] <KpeTeHoug> за VMware тоо
+[10:18:51] <KpeTeHoug> макар че аз не харесвам VMware
+[10:18:57] <KpeTeHoug> боза пълна;)
+[10:19:01] <phalaaxx1> впрочем не знаех че вече има легален начин да се инсталира уин от usb
+[10:19:25] <KpeTeHoug> http://downloads.academy.telerik.com/svn/os-windows-linux/Lectures/Windows/homework-02.txt
+[10:19:27] <phalaaxx1> боза ама върши работа...
+[10:19:29] <KpeTeHoug> туй е второто
+[10:19:37] <KpeTeHoug> ima za 7 i 8
+[10:19:39] <KpeTeHoug> инсталери
+[10:19:46] <phalaaxx1> поне на хората дето си мислят че трябва непременно да дават пари за да им се свърши работа както трябва
+[10:19:58] <KpeTeHoug> ми Virtual Box pod uin
+[10:20:01] <KpeTeHoug> под Уин
+[10:20:03] <KpeTeHoug> е ок
+[10:20:14] <KpeTeHoug> и е по флексибъл
+[10:20:15] <KpeTeHoug> според мен
+[10:20:58] <KpeTeHoug> KrasiGa мисля да пиша последното
+[10:21:12] <KpeTeHoug> 6. Find and document some non-Microsoft products that supports PowerShell as management shell.
+[10:22:16] <phalaaxx1> PowerShell - не съм ползвал уин от доста отдавна и не знам какво е това, но си го представям като bash под cygwin :D
+[10:23:10] <KpeTeHoug> ами
+[10:23:24] <KpeTeHoug> това е C based bash
+[10:23:28] <KpeTeHoug> сорт оф
+[10:23:37] <KpeTeHoug> така го обясни Боби
+[10:23:47] <KpeTeHoug> аз също не съм го ползвал :)
+[10:24:00] <KpeTeHoug> аз си ползвам дос и команд ком
+[10:24:01] <KpeTeHoug> :")
+[10:24:32] <phalaaxx1> кое е C based bash?
+[10:24:43] <KpeTeHoug> powershell
+[10:24:54] <KpeTeHoug> има много близък синтаксис с C
+[10:24:59] <KpeTeHoug> според него
+[10:25:59] <phalaaxx1> аха
+[10:26:33] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[10:26:41] <phalaaxx1> демек копие на csh може би :)
+[10:26:47] <KpeTeHoug> http://www.youtube.com/watch?v=CeV-1aYJsr4#t=4630
+[10:26:48] <wilindex> [YouTube] Title: 2. Server Roles and Features | Uploader: TelerikAcademy | Uploaded: 24/11/2013, 19:29 | Duration: 1hours 30mins 44secs | Views: 260 | Comments: 0 | Likes: 1 | Dislikes: 0
+[10:26:53] <KpeTeHoug> гледах тея 5 мин
+[10:26:55] <phalaaxx1> ама C based bash... все едно bash е fortran based :D
+[10:27:02] <KpeTeHoug> и пример има даже
+[10:27:16] <KpeTeHoug> ами може, аз не разбирам от програмиране, идея си нямам :)
+[10:27:30] Nick change: ndyakov|away -> ndyakov
+[10:29:42] <fityla> как мога да прочета
+[10:29:47] <fityla> RAW формат
+[10:29:52] <fityla> на диск..
+[10:30:11] <fityla> един скапан стар DVR, който няма и LAN
+[10:30:18] <fityla> се опитвам да му извадя инфото
+[10:31:35] <phalaaxx1> KpeTeHoug: 3 минути, за толко ми стигнаха нервите :)
+[10:36:55] <KpeTeHoug> е :) поне видя ли какво обяснява за щела
+[10:37:01] <KpeTeHoug> *шела
+[10:56:06] <yulimoto> phalaaxx1: има един българин, даже мисля говори на openfesta за jails дешев или нещо подобно, та той е писал книга за powershell
+[10:56:43] <yulimoto> не от любов, а щото му предложили от някакво престижно  издатество до колкото знам
+[10:56:55] <yulimoto> така че има литература ;P
+[10:57:42] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:58:11] Nick change: ndyakov -> ndyakov|away
+[10:58:55] <hackman> KrasiGa, благодаря за гостоприемството ;)
+[10:59:52] <KrasiGa> моля моля :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:03:17] <KpeTeHoug> jedi master hackman :)
+[11:04:32] <hackman> KpeTeHoug, да ме видиш преди половин час какъв Jedi бях с метличката около колите :)
