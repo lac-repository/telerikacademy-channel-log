@@ -235,3 +235,23 @@
 [14:48:32] <yulimoto> знам го аз ама все пак да питам, може да го е тествал само, може да е видял някой на живо да се мъчи с него
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
+[15:16:10] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[15:19:52] <phalaaxx> някой борил ли се е проблеми с binary програма която използва (вероятно неправилно) sched_yield() ?
+[15:32:28] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[15:37:19] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[15:41:00] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
+[15:41:12] AndChat|700625 (~AndChat70@178.75.230.1) joined #telerikacademy.
+[15:42:33] AndChat|700625 (~AndChat70@178.75.230.1) left irc: Quit: Bye
+[15:43:47] dutsov_mobile (~dutsov_mo@178.75.230.1) joined #telerikacademy.
+[15:44:48] dutsov_mobile (~dutsov_mo@178.75.230.1) left irc: Client Quit
+[15:45:05] dutsov_mobile (~dutsov_mo@178.75.230.1) joined #telerikacademy.
+[15:47:37] dutsov_mobile (~dutsov_mo@178.75.230.1) left irc: Remote host closed the connection
+[15:51:28] dutsov_mobile (~dutsov_mo@178.75.230.1) joined #telerikacademy.
+[15:52:08] dutsov_mobile (~dutsov_mo@178.75.230.1) left irc: Client Quit
+[15:53:46] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[15:56:04] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Quit: anton_dutsov
+[15:59:03] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:01:28] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Client Quit
+[16:02:32] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
