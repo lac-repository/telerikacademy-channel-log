@@ -124,6 +124,92 @@
 			<div>&nbsp;<span class="time">[15:57:50]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аа аз не му давам trace=open</span></div>
 			<div>&nbsp;<span class="time">[15:58:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; възмущавам се от цикъла дето са извъртяли</span></div>
 			<div>&nbsp;<span class="time">[15:59:37]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; да видях го, но се сетих, че skypeto отваряше някакви файлс които не му беше работа :)</span></div>
+			<div>&nbsp;<span class="time">[16:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[16:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[16:08:32]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; да, единия от тях /etc/passwd</span></div>
+			<div>&nbsp;<span class="time">[16:09:59]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; name=&quot;/etc/resolv.conf&quot;</span></div>
+			<div>&nbsp;<span class="time">[16:09:59]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; name=&quot;/etc/ssl/certs/ca-certificates.crt&quot;</span></div>
+			<div>&nbsp;<span class="time">[16:09:59]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; name=&quot;/home/username/.mozilla/&quot;</span></div>
+			<div>&nbsp;<span class="time">[16:10:03]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; също :)</span></div>
+			<div>&nbsp;<span class="time">[16:10:14]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; това м/у другото ми го е пращал phalaaxx</span></div>
+			<div>&nbsp;<span class="time">[16:11:28]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да, пипкави пръстенца има гадния скайп</span></div>
+			<div>&nbsp;<span class="time">[16:11:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; добре че си имаме apparmor :)</span></div>
+			<div>&nbsp;<span class="time">[16:15:35]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; <a href="http://pastebin.com/KDdfASgN">http://pastebin.com/KDdfASgN</a></span></div>
+			<div>&nbsp;<span class="time">[16:15:36]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ /etc/apparmor.d/usr.bin.skype - Pastebin.com ] - pastebin.com</span></div>
+			<div>&nbsp;<span class="time">[16:16:37]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това работи в Debian, за Ubuntu трябва да се пипнат някои неща</span></div>
+			<div>&nbsp;<span class="time">[16:18:46]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; даде ама има ли някакъв начин да разбера кога ги отваря ?</span></div>
+			<div>&nbsp;<span class="time">[16:19:00]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; yulimoto, тъкмо се загледах какво всъщност има отворено, но не видях нищо интересно с lsof</span></div>
+			<div>&nbsp;<span class="time">[16:19:28]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; въпроса е, че той не ги държи отворени, а просто ги достъпва в даден момент от execution-а си</span></div>
+			<div>&nbsp;<span class="time">[16:19:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; yulimoto: tail -f /var/log/syslog (като си качиш този профил)</span></div>
+			<div>&nbsp;<span class="time">[16:20:10]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; или tail -f /var/log/audit/audit.log (ако имаш инсталиран auditd)</span></div>
+			<div>&nbsp;<span class="time">[16:20:22]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; _rewind: аз ползвам strace не би ли трябвало да го виждам на процеса да го е*а ? :)</span></div>
+			<div>&nbsp;<span class="time">[16:20:45]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; би трябвало ноооо...</span></div>
+			<div>&nbsp;<span class="time">[16:20:50]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; спри го и го пусни с strace</span></div>
+			<div>&nbsp;<span class="time">[16:20:53]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; в даден момент от времето ли ?</span></div>
+			<div>&nbsp;<span class="time">[16:21:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; щото като не си му изкълчил пръстенцата - вече ги е отворил и не му е интересно</span></div>
+			<div>&nbsp;<span class="time">[16:21:08]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; да, тъкмо и аз това щях да кажа, че трябва по-скоро да си проследил целия му еxecution</span></div>
+			<div>&nbsp;<span class="time">[16:21:19]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; хаха :)</span></div>
+			<div>&nbsp;<span class="time">[16:21:36]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ама аз направо си пускам скайпа така strace -e trace=open skype</span></div>
+			<div>&nbsp;<span class="time">[16:21:45]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; той си тръгва от самото начало</span></div>
+			<div>&nbsp;<span class="time">[16:21:55]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; добре, а ако му затриеш .Skype и всички конфигурации, дали няма да се опита да пипне пак там</span></div>
+			<div>&nbsp;<span class="time">[16:22:12]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амиии би трябвало да го видиш, честно казано не съм пробвал досега така</span></div>
+			<div>&nbsp;<span class="time">[16:22:16]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; в смисъл дали това не се случва при първоначална инициализация или само при определени стартирания</span></div>
+			<div>&nbsp;<span class="time">[16:22:16]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ей сега ще го пейстбин-а</span></div>
+			<div>&nbsp;<span class="time">[16:22:32]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; аз така го пускам и не виждам нищо нередно</span></div>
+			<div>&nbsp;<span class="time">[16:22:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; баси магиите само само да ми бъркат по файловете</span></div>
+			<div>&nbsp;<span class="time">[16:22:50]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; амии чакай да пробвам и аз, че ме заинтригува с това :)</span></div>
+			<div>&nbsp;<span class="time">[16:24:08]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; <a href="http://pastebin.com/LGKck18j">http://pastebin.com/LGKck18j</a></span></div>
+			<div>&nbsp;<span class="time">[16:24:09]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ strace -e trace=open skype open(&quot;/etc/ld.so.cache&quot;, O_RDONLY|O_CLOEXEC) = 3 o - Pastebin.com ] - pastebin.com</span></div>
+			<div>&nbsp;<span class="time">[16:24:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; оо ама аз няма да мога да видя май, щото apparmor-а вече не му дава да пипа там</span></div>
+			<div>&nbsp;<span class="time">[16:24:40]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; това за колко време ти го е записало?</span></div>
+			<div>&nbsp;<span class="time">[16:25:14]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аз току що си отворих syslog-а да видя там какво става и...</span></div>
+			<div>&nbsp;<span class="time">[16:25:19]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; Nov 29 16:32:41 ankaa kernel: [364575.286785] type=1400 audit(1385735561.126:687): apparmor=&quot;DENIED&quot; operation=&quot;open&quot; parent=1 profile=&quot;/usr/bin/skype&quot; name=&quot;/etc/ssl/certs/ca-certificates.crt&quot; pid=5314 comm=&quot;skype&quot; requested_mask=&quot;r&quot; denied_mask=&quot;r&quot; fsuid=1000 ouid=0</span></div>
+			<div>&nbsp;<span class="time">[16:25:37]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хммм</span></div>
+			<div>&nbsp;<span class="time">[16:25:46]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; а аз стартирам така и го няма</span></div>
+			<div>&nbsp;<span class="time">[16:26:43]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; обаче ....</span></div>
+			<div>&nbsp;<span class="time">[16:26:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp;  3991 pts/3    S      0:00 /bin/bash /usr/local/bin/skype</span></div>
+			<div>&nbsp;<span class="time">[16:26:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp;  3992 pts/3    Sl     0:06 /usr/bin/skype</span></div>
+			<div>&nbsp;<span class="time">[16:27:16]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; strace-а e фактически първия процес</span></div>
+			<div>&nbsp;<span class="time">[16:27:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; хмм сега 1 момент</span></div>
+			<div>&nbsp;<span class="time">[16:28:42]</span>&nbsp;<span class="nick">&lt;topalov_laptop&gt;</span><span class="text">&nbsp; а я пробвай да го пуснеш с друг account или в друга --dbpath</span></div>
+			<div>&nbsp;<span class="time">[16:29:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ааа да, ти със trace=path не виждаш кога прави fork (exec)</span></div>
+			<div>&nbsp;<span class="time">[16:30:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; пробвай със -f -o trace=open</span></div>
+			<div>&nbsp;<span class="time">[16:31:55]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; добре</span></div>
+			<div>&nbsp;<span class="time">[16:32:24]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; phalaaxx: ползваш ли stellarium</span></div>
+			<div>&nbsp;<span class="time">[16:32:36]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; дали там ще има ISON ?</span></div>
+			<div>&nbsp;<span class="time">[16:32:51]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; или трябва някакви библиотеки сигур</span></div>
+			<div>&nbsp;<span class="time">[16:33:15]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; не знам, а това отдавна не съм го пускал</span></div>
+			<div>&nbsp;<span class="time">[16:35:23]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; и аз, но според мен ъпдейт ще трябва задължително</span></div>
+			<div>&nbsp;<span class="time">[16:37:26]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; вероятно да, те тая нали са я открили преди година и нещо</span></div>
+			<div>&nbsp;<span class="time">[16:38:27]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ти засне ли я ?</span></div>
+			<div>&nbsp;<span class="time">[16:38:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ако имаш снимки постни, че тука има засилен интерес</span></div>
+			<div>&nbsp;<span class="time">[16:39:43]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; Nov 29 16:47:59 ankaa kernel: [365494.377721] type=1400 audit(1385736479.168:688): apparmor=&quot;DENIED&quot; operation=&quot;open&quot; parent=1 profile=&quot;/usr/bin/skype&quot; name=&quot;/etc/ssl/certs/ca-certificates.crt&quot; pid=5314 comm=&quot;skype&quot; requested_mask=&quot;r&quot; denied_mask=&quot;r&quot; fsuid=1000 ouid=0</span></div>
+			<div>&nbsp;<span class="time">[16:40:08]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; strace-а не го хвана, явно apparmor спира процеса някъде преди trace-а</span></div>
+			<div>&nbsp;<span class="time">[16:41:02]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; така че ако искаш да го хванеш със strace - ще трябва да го пускаш unconfined</span></div>
+			<div>&nbsp;<span class="time">[16:41:11]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; yulimoto, тъй като ме заинтригува, а не знам дали си попадал - <a href="http://www.wikihow.com/Add">http://www.wikihow.com/Add</a>-Comet-ISON-to-Stellarium</span></div>
+			<div>&nbsp;<span class="time">[16:41:13]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ How to Add Comet ISON to Stellarium: 12 Steps - wikiHow ] - <a href="http://www.wikihow.com">www.wikihow.com</a></span></div>
+			<div>&nbsp;<span class="time">[16:41:21]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; нямам мои снимки още</span></div>
+			<div>&nbsp;<span class="time">[16:41:30]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; айде пожелайте ми успех, отивам на интервю</span></div>
+			<div>&nbsp;<span class="time">[16:41:31]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; надявам се утре да е подходящо времето сутринта</span></div>
+			<div>&nbsp;<span class="time">[16:41:36]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; _rewind: успех</span></div>
+			<div>&nbsp;<span class="time">[16:41:37]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[16:41:54]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; м/у другото има отворена позиция за телекомуникационен инженер в Теленова, имам малко вътрешна информация ако някой се интересува</span></div>
+			<div>&nbsp;<span class="time">[16:43:05]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; така де специалис' телекомуникации - <a href="http://www.nbu.bg/PUBLIC/IMAGES/File/Alumni/jobs/2008/april/Obiawa%20Rabota.pdf">http://www.nbu.bg/PUBLIC/IMAGES/File/Alumni/jobs/2008/april/Obiawa%20Rabota.pdf</a> :)</span></div>
+			<div>&nbsp;<span class="time">[16:43:18]</span>&nbsp;<span class="nick">&lt;_rewind&gt;</span><span class="text">&nbsp; phalaaxx, благодаря :)</span></div>
+			<div>&nbsp;<span class="time">[16:43:26]</span>&nbsp;<span class="else_li">&nbsp;_rewind (~teo@46.238.29.142) left irc: Quit: Leaving</span></div>
+			<div>&nbsp;<span class="time">[16:48:23]</span>&nbsp;<span class="else_li">&nbsp;KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed</span></div>
+			<div>&nbsp;<span class="time">[16:48:35]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; той пък излезе :)</span></div>
+			<div>&nbsp;<span class="time">[16:53:14]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; очаквам в следващите 1 - 2 минути пак да се появи съобщение от apparmor за ca-certificates.crt</span></div>
+			<div>&nbsp;<span class="time">[16:53:29]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ако съм прав - това се случва на около 15 минути</span></div>
+			<div>&nbsp;<span class="time">[16:53:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[16:54:30]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ей ама съм добър бе :D</span></div>
+			<div>&nbsp;<span class="time">[16:54:38]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; Nov 29 17:03:41 ankaa kernel: [366437.481076] type=1400 audit(1385737421.195:689): apparmor=&quot;DENIED&quot; operation=&quot;open&quot; parent=1 profile=&quot;/usr/bin/skype&quot; name=&quot;/etc/ssl/certs/ca-certificates.crt&quot; pid=5314 comm=&quot;skype&quot; requested_mask=&quot;r&quot; denied_mask=&quot;r&quot; fsuid=1000 ouid=0</span></div>
+			<div>&nbsp;<span class="time">[16:55:39]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; :)</span></div>
+			<div>&nbsp;<span class="time">[16:57:53]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; хрумна ми една идея... да излъжа skype за съдържанието на този файл</span></div>
+			<div>&nbsp;<span class="time">[16:58:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; нещо с LD_PRELOAD</span></div>
+			<div>&nbsp;<span class="time">[16:58:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; и ще вкарам някакъв текст дето яко да ги нахрани тия миндили</span></div>
+			<div>&nbsp;<span class="time">[16:58:47]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ще им обясня колко много ги обичам и как не мога без тях :)</span></div>
+			<div>&nbsp;<span class="time">[16:59:13]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; haha</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />

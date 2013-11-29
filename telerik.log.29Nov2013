@@ -98,3 +98,90 @@
 [15:59:37] <yulimoto> да видях го, но се сетих, че skypeto отваряше някакви файлс които не му беше работа :)
 [16:00:00] Writing user file...
 [16:00:00] Writing channel file...
+[16:08:32] <_rewind> да, единия от тях /etc/passwd
+[16:09:59] <_rewind> name="/etc/resolv.conf"
+[16:09:59] <_rewind> name="/etc/ssl/certs/ca-certificates.crt"
+[16:09:59] <_rewind> name="/home/username/.mozilla/"
+[16:10:03] <_rewind> също :)
+[16:10:14] <_rewind> това м/у другото ми го е пращал phalaaxx
+[16:11:28] <phalaaxx> да, пипкави пръстенца има гадния скайп
+[16:11:36] <phalaaxx> добре че си имаме apparmor :)
+[16:15:35] <phalaaxx> http://pastebin.com/KDdfASgN
+[16:15:36] <wilindex> [ /etc/apparmor.d/usr.bin.skype - Pastebin.com ] - pastebin.com
+[16:16:37] <phalaaxx> това работи в Debian, за Ubuntu трябва да се пипнат някои неща
+[16:18:46] <yulimoto> даде ама има ли някакъв начин да разбера кога ги отваря ?
+[16:19:00] <_rewind> yulimoto, тъкмо се загледах какво всъщност има отворено, но не видях нищо интересно с lsof
+[16:19:28] <_rewind> въпроса е, че той не ги държи отворени, а просто ги достъпва в даден момент от execution-а си
+[16:19:31] <phalaaxx> yulimoto: tail -f /var/log/syslog (като си качиш този профил)
+[16:20:10] <phalaaxx> или tail -f /var/log/audit/audit.log (ако имаш инсталиран auditd)
+[16:20:22] <yulimoto> _rewind: аз ползвам strace не би ли трябвало да го виждам на процеса да го е*а ? :)
+[16:20:45] <phalaaxx> би трябвало ноооо...
+[16:20:50] <phalaaxx> спри го и го пусни с strace
+[16:20:53] <_rewind> в даден момент от времето ли ?
+[16:21:02] <phalaaxx> щото като не си му изкълчил пръстенцата - вече ги е отворил и не му е интересно
+[16:21:08] <_rewind> да, тъкмо и аз това щях да кажа, че трябва по-скоро да си проследил целия му еxecution
+[16:21:19] <_rewind> хаха :)
+[16:21:36] <yulimoto> ама аз направо си пускам скайпа така strace -e trace=open skype
+[16:21:45] <yulimoto> той си тръгва от самото начало
+[16:21:55] <_rewind> добре, а ако му затриеш .Skype и всички конфигурации, дали няма да се опита да пипне пак там
+[16:22:12] <phalaaxx> амиии би трябвало да го видиш, честно казано не съм пробвал досега така
+[16:22:16] <_rewind> в смисъл дали това не се случва при първоначална инициализация или само при определени стартирания
+[16:22:16] <yulimoto> ей сега ще го пейстбин-а
+[16:22:32] <yulimoto> аз така го пускам и не виждам нищо нередно
+[16:22:49] <yulimoto> баси магиите само само да ми бъркат по файловете
+[16:22:50] <phalaaxx> амии чакай да пробвам и аз, че ме заинтригува с това :)
+[16:24:08] <yulimoto> http://pastebin.com/LGKck18j
+[16:24:09] <wilindex> [ strace -e trace=open skype open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 o - Pastebin.com ] - pastebin.com
+[16:24:15] <phalaaxx> оо ама аз няма да мога да видя май, щото apparmor-а вече не му дава да пипа там
+[16:24:40] <phalaaxx> това за колко време ти го е записало?
+[16:25:14] <phalaaxx> аз току що си отворих syslog-а да видя там какво става и...
+[16:25:19] <phalaaxx> Nov 29 16:32:41 ankaa kernel: [364575.286785] type=1400 audit(1385735561.126:687): apparmor="DENIED" operation="open" parent=1 profile="/usr/bin/skype" name="/etc/ssl/certs/ca-certificates.crt" pid=5314 comm="skype" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[16:25:37] <yulimoto> хммм
+[16:25:46] <yulimoto> а аз стартирам така и го няма
+[16:26:43] <yulimoto> обаче ....
+[16:26:58] <yulimoto>  3991 pts/3    S      0:00 /bin/bash /usr/local/bin/skype
+[16:26:58] <yulimoto>  3992 pts/3    Sl     0:06 /usr/bin/skype
+[16:27:16] <yulimoto> strace-а e фактически първия процес
+[16:27:35] <yulimoto> хмм сега 1 момент
+[16:28:42] <topalov_laptop> а я пробвай да го пуснеш с друг account или в друга --dbpath
+[16:29:31] <phalaaxx> ааа да, ти със trace=path не виждаш кога прави fork (exec)
+[16:30:04] <phalaaxx> пробвай със -f -o trace=open
+[16:31:55] <yulimoto> добре
+[16:32:24] <yulimoto> phalaaxx: ползваш ли stellarium
+[16:32:36] <yulimoto> дали там ще има ISON ?
+[16:32:51] <yulimoto> или трябва някакви библиотеки сигур
+[16:33:15] <phalaaxx> не знам, а това отдавна не съм го пускал
+[16:35:23] <yulimoto> и аз, но според мен ъпдейт ще трябва задължително
+[16:37:26] <phalaaxx> вероятно да, те тая нали са я открили преди година и нещо
+[16:38:27] <yulimoto> ти засне ли я ?
+[16:38:39] <yulimoto> ако имаш снимки постни, че тука има засилен интерес
+[16:39:43] <phalaaxx> Nov 29 16:47:59 ankaa kernel: [365494.377721] type=1400 audit(1385736479.168:688): apparmor="DENIED" operation="open" parent=1 profile="/usr/bin/skype" name="/etc/ssl/certs/ca-certificates.crt" pid=5314 comm="skype" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[16:40:08] <phalaaxx> strace-а не го хвана, явно apparmor спира процеса някъде преди trace-а
+[16:41:02] <phalaaxx> така че ако искаш да го хванеш със strace - ще трябва да го пускаш unconfined
+[16:41:11] <_rewind> yulimoto, тъй като ме заинтригува, а не знам дали си попадал - http://www.wikihow.com/Add-Comet-ISON-to-Stellarium
+[16:41:13] <wilindex> [ How to Add Comet ISON to Stellarium: 12 Steps - wikiHow ] - www.wikihow.com
+[16:41:21] <phalaaxx> нямам мои снимки още
+[16:41:30] <_rewind> айде пожелайте ми успех, отивам на интервю
+[16:41:31] <phalaaxx> надявам се утре да е подходящо времето сутринта
+[16:41:36] <phalaaxx> _rewind: успех
+[16:41:37] <phalaaxx> :)
+[16:41:54] <_rewind> м/у другото има отворена позиция за телекомуникационен инженер в Теленова, имам малко вътрешна информация ако някой се интересува
+[16:43:05] <_rewind> така де специалис' телекомуникации - http://www.nbu.bg/PUBLIC/IMAGES/File/Alumni/jobs/2008/april/Obiawa%20Rabota.pdf :)
+[16:43:18] <_rewind> phalaaxx, благодаря :)
+[16:43:26] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[16:48:23] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:48:35] <yulimoto> той пък излезе :)
+[16:53:14] <phalaaxx> очаквам в следващите 1 - 2 минути пак да се появи съобщение от apparmor за ca-certificates.crt
+[16:53:29] <phalaaxx> ако съм прав - това се случва на около 15 минути
+[16:53:30] <phalaaxx> :)
+[16:54:30] <phalaaxx> ей ама съм добър бе :D
+[16:54:38] <phalaaxx> Nov 29 17:03:41 ankaa kernel: [366437.481076] type=1400 audit(1385737421.195:689): apparmor="DENIED" operation="open" parent=1 profile="/usr/bin/skype" name="/etc/ssl/certs/ca-certificates.crt" pid=5314 comm="skype" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[16:55:39] <yulimoto> :)
+[16:57:53] <phalaaxx> хрумна ми една идея... да излъжа skype за съдържанието на този файл
+[16:58:03] <phalaaxx> нещо с LD_PRELOAD
+[16:58:16] <phalaaxx> и ще вкарам някакъв текст дето яко да ги нахрани тия миндили
+[16:58:47] <phalaaxx> ще им обясня колко много ги обичам и как не мога без тях :)
+[16:59:13] <yulimoto> haha
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:04] Fairytale (~Fairytale@77.70.117.169) joined #telerikacademy.
