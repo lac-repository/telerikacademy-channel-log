@@ -75,3 +75,26 @@
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
 [15:02:50] Guest83831 (~hackman@management.1h.com) left irc: Ping timeout: 260 seconds
+[15:19:23] <phalaaxx> strace -p $(pidof skype)
+[15:19:33] <phalaaxx> грозна работа
+[15:19:39] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[15:29:33] <_rewind> от Hristo Topalov - Професионалният консултант трябва да има брада, шкембе и хемороиди. Брадата и шкембето ще му помогнат да изглежда впечатляващо, а хемороидите - разтревожено и загрижено.
+[15:30:43] <_rewind> а по темата за брадата според една статия в /. и коментарите истинския админ също трябва да има дълга брада  - http://slashdot.org/comments.pl?sid=3945823&cid=44218277
+[15:30:45] <wilindex> [ Meet the Stampede Supercomputing Cluster's Administrator (Video) - Slashdot ] - slashdot.org
+[15:30:49] <phalaaxx> хаха :D
+[15:31:27] <_rewind> както и един от най-ценните коментари по статията (пак от Х. Топалов) - Actually, that beard is an uptime indicator. It is little known that sysadmins have to shave when their server goes down. That is also why unix admins have them and windows admins don't.
+[15:38:07] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[15:44:18] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: leaving
+[15:44:20] yulimoto_ (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[15:44:42] Nick change: yulimoto_ -> yulimoto
+[15:49:54] gdanailov (~gdanailov@94.26.94.2) left irc: Ping timeout: 260 seconds
+[15:53:24] <yulimoto> phalaaxx: с коя версия на скайп си ?
+[15:53:51] <phalaaxx> 4.2.0.11-1
+[15:54:04] <phalaaxx> не че има голямо значение
+[15:56:32] <yulimoto> м аз съм версия 4.2 обаче като отварям с strace -e trace=open за да видя какви файлове отваря не виждам някакви необичайни истории
+[15:57:23] <yulimoto> kak да разбера кои файлове ползва ?
+[15:57:50] <phalaaxx> аа аз не му давам trace=open
+[15:58:02] <phalaaxx> възмущавам се от цикъла дето са извъртяли
+[15:59:37] <yulimoto> да видях го, но се сетих, че skypeto отваряше някакви файлс които не му беше работа :)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
