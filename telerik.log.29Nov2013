@@ -215,3 +215,16 @@
 [21:55:33] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Ping timeout: 272 seconds
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:05:33] <yulimoto> .weather yambol
+[22:05:34] <wilindex> Yahoo! Weather - Yambol, BG: Clear, 3°C (37°F), 30in (1022mb), Gentle breeze 10kt (↖)
+[22:05:46] <yulimoto> .weather Sofia
+[22:05:47] <wilindex> Yahoo! Weather - Sofia, BG: Cloudy, 0°C (32°F), 30in (1015mb), Light air 3kt (↖)
+[22:05:56] <yulimoto> .weather Burgas
+[22:05:57] <wilindex> Yahoo! Weather - Burgas, BG: Fair, 1°C (33°F), 30in (1015mb), Gentle breeze 8kt (↙)
+[22:21:55] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[22:47:38] <yulimoto> как мина интервюто ?
+[22:48:51] <_rewind> според мен добре :) благодаря
+[22:48:58] <_rewind> ще разбера скоро
+[22:48:59] <yulimoto> :)
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
