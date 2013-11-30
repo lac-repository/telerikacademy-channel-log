@@ -101,3 +101,15 @@
 [16:00:00] Writing user file...
 [16:00:00] Writing channel file...
 [16:04:52] <dencho> a be nqkoi pital li e hackman dali muzikata na openfest-a koqto se puska6e e free :P~
+[16:27:27] <yulimoto> по-скоро питай васил колев, не съм запознат но мисля той отговаря за това
+[16:27:43] <yulimoto> за музиката, не за това дали е фри
+[16:27:50] <yulimoto>  
+[16:28:19] Last message repeated 2 time(s).
+[16:28:19] <yulimoto> а ве пичове правя read със делимитер ","
+[16:28:53] <yulimoto> read -d "," обаче искам далимитер ",|enter"
+[16:29:01] <yulimoto> има ли начин ?
+[16:29:54] topalov_laptop (~topalov@46.249.85.156) joined #telerikacademy.
+[16:36:17] <yulimoto> демек IFS да бъде запетая или ентър
+[16:36:53] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
