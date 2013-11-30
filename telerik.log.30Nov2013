@@ -51,3 +51,13 @@
 [10:00:00] Writing channel file...
 [10:02:45] Nick change: Guest63246 -> azilian
 [10:03:07] Nick change: azilian -> hackman
+[10:26:16] <yulimoto> _rewind: да има някакъв проблем, като гледам лог файла в приложението има няколко грешки :)
+[10:26:47] <_rewind> да, аз също го видях, че не се появява никъде
+[10:27:08] <yulimoto> ще се радвам phalaaxx да увеличи upload_max_filesize = 2M
+[10:27:39] <yulimoto> в php.ini-to на апа4ито на поне 7-8-20 МБ :)
+[10:27:56] hackman (~hackman@87.118.135.253) left irc: Ping timeout: 245 seconds
+[10:28:08] <yulimoto> но пък той зависи от трафика така, че той си преценява
+[10:34:39] <yulimoto> какво е това jive ?
+[10:34:53] <yulimoto> и от кога owncloud се прегръщат с него :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
