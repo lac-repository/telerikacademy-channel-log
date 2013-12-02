@@ -174,3 +174,38 @@
 [21:35:09] Nick change: hackman -> Guest23091
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:09:49] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[22:10:39] <_rewind> До'ър вечер :)
+[22:17:35] Nick change: Guest23091 -> hackman
+[22:17:48] <hackman> _rewind, добра :0
+[22:21:52] <_rewind> :)
+[22:21:56] <_rewind> 88% на куиз-а
+[22:22:08] <_rewind> тия малките ги огелпих нещо
+[22:22:21] <_rewind> люксембург и лихтенщайн поради някаква причина ги сбърках
+[22:22:27] <_rewind> два пъти :)
+[22:23:49] bgpepi (~bgpepi@ip-80-236-221-58.dsl.scarlet.be) joined #telerikacademy.
+[22:35:32] kuxcheto (2e287df4@gateway/web/freenode/ip.46.40.125.244) left irc: Quit: Page closed
+[22:42:46] <_rewind> опс... Could not establish database connection. Please check the username, password and hostname in the config file, and if necessary set up the appropriate MySQL user and privileges.
+[22:42:52] <_rewind> това форума на Телерик
+[22:42:58] <_rewind> http://forums.academy.telerik.com/
+[22:43:06] <_rewind> willie ?
+[22:43:53] <_rewind> phalaaxx, скарай му се :)
+[22:45:29] <phalaaxx> http://test.com
+[22:45:41] <phalaaxx> wilindex... скатавка
+[22:46:10] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[22:46:27] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[22:46:27] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[22:47:04] <phalaaxx> http://test.com
+[22:47:12] <phalaaxx> хм
+[22:47:34] <phalaaxx> .g test
+[22:47:34] <wilindex> phalaaxx: http://www.speedtest.net/
+[22:47:40] <phalaaxx> добре де тук е
+[22:51:37] <_rewind> може би защото не отговаря форума
+[22:57:54] <phalaaxx> форума има проблем с базата, така поне пише
+[22:58:23] <phalaaxx> ама уеб сървъра му е ок
+[22:58:34] <phalaaxx> apache върху ubuntu
+[22:59:29] <phalaaxx> ама telerikacademy.com дава 503 пък то е нещо върху Microsoft-HTTPAPI/2.0 (каквото и да е това)
+[22:59:55] <phalaaxx> може би нещо си ъпдейтват софтуерите
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:03:31] <phalaaxx> академията проработи ама базата на форума още я няма
