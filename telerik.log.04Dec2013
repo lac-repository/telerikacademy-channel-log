@@ -41,3 +41,15 @@
 [08:55:42] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
 [09:00:00] Writing user file...
 [09:00:00] Writing channel file...
+[09:05:00] net: eof!(read) socket 6
+[09:05:01] DNS resolved irc.freenode.net to 192.166.143.49
+[09:05:01] net: connect! sock 6
+[09:05:17] Telerik joined #telerikacademy.
+[09:05:17] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[09:09:00] <KacanuH> Добро утро
+[09:10:47] <yulimoto> Добро Деян, виж и здрав :)
+[09:15:06] nlkl (~nikolacio@213.91.241.45) joined #telerikacademy.
+[09:30:31] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 250 seconds
+[09:52:29] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
