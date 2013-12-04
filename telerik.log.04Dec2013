@@ -63,3 +63,20 @@
 [11:49:42] dencho (~dencho@95.111.14.183) joined #telerikacademy.
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
+[12:05:37] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[12:06:04] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[12:09:40] <yulimoto> как е машини :ь
+[12:09:44] <yulimoto> къртите ли ?
+[12:10:56] Nick change: ndyakov|away -> ndyakov
+[12:28:22] <phalaaxx> къкво да къртим?
+[12:28:28] <phalaaxx> какво*
+[12:31:34] <HackMan> мивки, павета... всичко :)
+[12:32:50] <phalaaxx> сичко правим - къртим дискове, стържем остатъци от храна по клавиатурата (и сирене от мишката), полираме екрани... кой каквото поиска - налага се да го направим :)
+[12:33:29] <HackMan> phalaaxx, признай си... харесва ти :)
+[12:33:40] <phalaaxx> :D
+[12:43:21] <phalaaxx> някой опит с MegaRaid? това чудо може ли примерно да праща SNMP traps ако нещо се случи с някой диск (или целия RAID)?
+[12:43:41] <phalaaxx> или да се следи състоянието му през SNMP изобщо... :/
+[12:57:39] <HackMan> през SNMP не сме го използвали
+[12:57:55] <HackMan> но имаме някакъв shell script който му parse-ва output-а :0
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
