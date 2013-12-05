@@ -203,3 +203,22 @@
 [21:57:54] <wilindex> [ itBit | Bitcoin Trading for Serious Investors. The virtual currency exchange of professionals worldwide ] - www.itbit.com
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:12:43] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[22:14:41] Nick change: ndyakov|away -> ndyakov
+[22:14:51] <rew1nd> хората са сЮриозни :) недей сега и ти
+[22:18:29] bgpepi (~bgpepi@ip-80-236-210-65.dsl.scarlet.be) joined #telerikacademy.
+[22:23:04] <yulimoto> ти остави ква съм патка - някаква сокет директория и  shm  файла на fcgid са в /вар/лог оправил съм някакви пермишъни, обаче вероятно въртенето на логовете вероятно го презаписва
+[22:23:38] <yulimoto> и така си играем с едно апачи на що не пали, а запали, що не пали, а запали :)
+[22:23:51] <yulimoto> ама сега просто ги преместих в /var/run/httpd
+[22:24:29] <yulimoto> kakto И да е и да не е това причината след като ги преместих се оправиха нещата
+[22:25:19] <rew1nd> http://www.youtube.com/watch?feature=player_embedded&v=Pv-Do30-P8A
+[22:25:19] <wilindex> [YouTube] Title: SOFLES — LIMITLESS. | Uploader: ironlakfilms | Uploaded: 22/11/2013, 23:34 | Duration: 5mins 11secs | Views: 6,227,880 | Comments: 3,326 | Likes: 66,376 | Dislikes: 1,675
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:13] <rew1nd> http://goo.gl/FDrgTr ето този ми стана любимец :)
+[23:00:14] <wilindex> [ Гражданин надхитри банка със същия трик, който банките използват срещу нас - сп. Обекти ] - goo.gl
+[23:00:32] <dencho> spite li we
+[23:00:36] Action: dencho slaps yulimoto around a bit with a large trout
+[23:00:39] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[23:00:43] Action: dencho slaps Deyan around a bit with a large trout
+[23:00:48] Action: dencho slaps rew1nd around a bit with a large trout
