@@ -182,3 +182,24 @@
 [20:40:04] <yulimoto> O, чудо оправих си гном-а! лош наутилус :)
 [21:00:00] Writing user file...
 [21:00:00] Writing channel file...
+[21:07:24] <yulimoto> анкетка: какво казва апачито ? mod_fcgid: can't apply process slot for
+[21:43:22] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[21:45:56] _rewind (~teo@46.238.29.142) left irc: Client Quit
+[21:47:14] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[21:48:41] <rew1nd> Здравейте :)
+[21:50:26] <rew1nd> KpeTeHoug,  веднага ти казвам, че phalaaxx съвсем скоро ме пита за 7990 и я сравнихме с R9 серията и се оказа, че откъм $/MHash/Watt 7990 побеждава, тъй като също е 28нм производствен процес на чипа и въпреки по-силния performance на R9, 7990 си заслужава повече
+[21:51:00] <rew1nd> yulimoto, гледам че цената се е върнала - http://bitcoinprices.org/
+[21:51:01] <wilindex> [ BitcoinPrices.org - fast lookup of Bitcoin (BTC) to US Dollar prices ] - bitcoinprices.org
+[21:51:29] <rew1nd> имало е една доста голяма продажба на биткойни, заради които е била на 900$ за известно време
+[21:52:38] <rew1nd> KpeTeHoug, като цяло с видеокарти само litecoin може да се копае в наши дни, ето сравнение - https://litecoin.info/Mining_hardware_comparison
+[21:52:39] <wilindex> [ Mining hardware comparison - Litecoin Wiki ] - litecoin.info
+[21:54:01] <yulimoto> rew1nd: lightcoin-a отделна валута ли е от биткоина ?
+[21:54:02] <rew1nd> 7990, Sapphire   1310 KH/s / R9 290X, Sapphire   990 KH/s
+[21:54:56] <rew1nd> yulimoto, практически ltc е нещо като модифицирана версия на bitcoin, която се "копае" много по-трудно от ASIC miner-и, тъй като ползва по-сложен алгоритъм scrypt (вместо sha256)
+[21:55:57] <yulimoto> но тъй като е по- в началото се копа все още по-лесно ?
+[21:56:24] <rew1nd> ами май все още не са измислили ASIC за ltc, да
+[21:57:49] rew1nd (~teo@46.238.29.142) left #telerikacademy.
+[21:57:53] <yulimoto> бре бре https://www.itbit.com/ вече сириъз инвеститърс
+[21:57:54] <wilindex> [ itBit | Bitcoin Trading for Serious Investors. The virtual currency exchange of professionals worldwide ] - www.itbit.com
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
