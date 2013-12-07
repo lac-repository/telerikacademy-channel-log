@@ -54,3 +54,81 @@
 [12:51:16] Nick change: ndyakov|away -> ndyakov
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:11:36] <KpeTeHoug> момци
+[13:11:39] <KpeTeHoug> въпрос
+[13:11:49] <KpeTeHoug> гледам тука един супер параноичен линукс :)
+[13:11:54] <KpeTeHoug> TAILS
+[13:11:58] <KpeTeHoug> дебиан басед
+[13:12:09] <KpeTeHoug> някой да има опит ?
+[13:13:04] <KpeTeHoug> ако не, нещо друго супер secure banking i browse
+[13:13:58] <rew1nd> за пръв път го чувам, какво му е не параноичното на стандартния Live Debian с току що дръпнат tor :)
+[13:15:23] <KpeTeHoug> ми горе долу същото е
+[13:15:41] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[13:15:47] <KpeTeHoug> Tails comes with a load of software to cater to every need you may have. This includes a customized Firefox browser (branded as Iceweasel because Tails is Debian-based) which uses the Tor network out-of-the-box. Firefox in Tails also includes other extensions to make browsing as secure as possible with HTTPS Everywhere and NoScript. Tails also comes with Claws Mail with OpenPGP support,
+[13:15:47] <KpeTeHoug> Pidgin with OTR encryption support, and editing tools like GIMP and OpenOffice.
+[13:15:54] <rew1nd> аз по принцип съм малко резервиран към проекти, чиито цели са изрично да бъдат private, тъй като някой такива проекти доказаха, че всъщност са разработени тъкмо с цел да бъдат honeypots
+[13:15:56] <KpeTeHoug> hackman може да го е чувал :)
+[13:16:05] Nick change: hackman -> Guest3083
+[13:16:22] <KpeTeHoug> абе и аз това си мисля, затова питам
+[13:16:37] <KpeTeHoug> аз не съм ползвал подобни работи, ма човека иска да си сложи на лаптопа
+[13:16:41] <KpeTeHoug> ма да е много много сигурно :)
+[13:17:00] <rew1nd> Open BSD ? :)
+[13:17:19] <KpeTeHoug> ам
+[13:17:21] <KpeTeHoug> и това го мислих
+[13:17:28] <KpeTeHoug> ма като не съм ръчкал достатъчно
+[13:17:37] <KpeTeHoug> знам ли дали мога да се оправя :)
+[13:17:41] Nick change: Guest3083 -> azilian
+[13:18:07] <rew1nd> аз имам мераци, само да мине LPI-я другата седмица и ще тествам както Open, така и free за да се заиграя със zfsguru, който беше препоръчал hackman преди врее
+[13:18:10] Nick change: azilian -> hackman
+[13:18:11] <rew1nd> *време
+[13:18:29] <rew1nd> hackman, проблеми със самоличността ? ;)
+[13:18:48] <hackman> не... просто бавно IRC :)
+[13:18:48] <KpeTeHoug> криза на пубертета
+[13:18:49] <KpeTeHoug> :)
+[13:18:57] <rew1nd> хаха :)
+[13:19:12] <KpeTeHoug> hackman препоръчай дистро за параноик
+[13:19:21] <KpeTeHoug> както каза той - " да е много много сигурно"
+[13:19:23] <KpeTeHoug> :)
+[13:19:33] <rew1nd> оп, тук и аз ще слушам hackman :)
+[13:20:06] <rew1nd> че и на мен ми е интересно, имам двама адвокатина, които изведнъж параноясаха последните няколко месеца
+[13:20:09] <hackman> за параноиците... лист и хартия + голяма запалка
+[13:20:27] <KpeTeHoug> :) това опмага, ма не може да се банкира по тоя начин
+[13:20:27] <KpeTeHoug> ;0
+[13:20:39] <rew1nd> е.. говорим и за usability освен всичко останало :D
+[13:21:22] <hackman> usability-то е една от трите страни на триъгълника securiyt, usability, performance :)
+[13:21:42] <hackman> обикновено като добавиш много security, другите две страдат максимално
+[13:22:01] <rew1nd> добре, тогава поправям по-горе на *някакво* usability, освен всичко останало :)
+[13:22:44] <rew1nd> hackman, може би не си видял началото - проекта се казва TAILS
+[13:23:33] <hackman> в общи линии какъв да е линукс, криптирани дискове, FF със Tor extension-a, Thunderbird s OpenPGP и всички документи които се предават по какъвто и да е начин да се криптират с OpenPGP или друг подобен механизъм
+[13:23:47] <hackman> rew1nd, не съм го чувал
+[13:24:01] <KpeTeHoug> ми има висчко посочено от теб :)
+[13:24:13] <KpeTeHoug> ей малко по нагоре го пейстнах
+[13:24:27] <KpeTeHoug> веднага след грейта на бота
+[13:24:44] <KpeTeHoug> *грийта
+[13:25:13] <hackman> KpeTeHoug, не бих си изгубил спокойствието със Slackware за която и да е друга distro
+[13:25:28] <rew1nd> hackman, аз също и тъкмо споделих мнение на KpeTeHoug, че нещо нямам вяра на такъв тип проекти, създадени специално с тази цел
+[13:25:33] <rew1nd> да бъдат secure
+[13:25:53] <hackman> хубавото на Linux е, че ако едно нещо го има на един... можеш да си го сложиш на които и да е друг Linux и пак да ти работи по същият начин
+[13:25:59] <hackman> торбичката няма значение :)
+[13:26:05] <rew1nd> :)
+[13:26:15] <KpeTeHoug> хахах
+[13:26:23] <KpeTeHoug> това с торбичката ми хареса :)
+[13:26:24] <KpeTeHoug> добре
+[13:26:30] <KpeTeHoug> като го донесе понеделник лаптопа
+[13:26:35] <KpeTeHoug> почвам да го троша ;)
+[13:27:02] <KpeTeHoug> благодаря за насоките
+[13:27:13] <hackman> аз отивам да си прекарам колата на преглед
+[13:27:24] <hackman> лек ден
+[13:28:04] <KpeTeHoug> лек да е
+[13:28:15] <KpeTeHoug> аз ще се възползвам че зверовете спят
+[13:28:23] <KpeTeHoug> да поцъкам малко  Диабло :)
+[13:28:25] <KpeTeHoug> после пак
+[13:28:43] <hackman> аз после мога да драсна малко StarCraft
+[13:28:49] <hackman> ще се обадя ако има навитаци :)
+[13:32:16] Fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[13:34:36] <rew1nd> ей... едвам ме навихте, аз ще поцъкам малко Osmos, че от сутринта само съм забил поглед в тая книжка
+[13:35:08] <rew1nd> м/у другото ако някой иска инди игрички за Linux, да си избере нещо от тук и да ми пише да му го кача някъде
+[13:35:31] <rew1nd> http://en.wikipedia.org/wiki/Humble_Bundle
+[13:35:32] <wilindex> [ Humble Bundle - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
