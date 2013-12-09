@@ -36,3 +36,16 @@
 [01:03:54] <hackman> аз така съм си направил kernel-а, че да работи и на текущия ми T520 и на Backup Т61-иниците ми :)
 [01:04:02] <ndyakov> да видя как е малко от тъмната страна на луната
 [01:04:11] <hackman> аз BSD имам на виртуалка ;)
+[01:05:06] <ndyakov> и това си мислех, ама мен ме интересува повече виртуализацията с jail-овете да я видя как мога да си я сетъпна, та искам да е на желязо.
+[01:08:14] <ndyakov> май ще взема накрая една desktop машина (втора ръка) и ще се занимавам там...
+[01:17:44] bgpepi (~bgpepi@ip-80-236-221-210.dsl.scarlet.be) joined #telerikacademy.
+[01:42:33] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:49:35] looser99 (John@78.130.186.99) left irc: Ping timeout: 240 seconds
+[01:49:46] user99 (John@78.130.186.99) joined #telerikacademy.
+[01:51:07] bgpepi (~bgpepi@ip-80-236-221-210.dsl.scarlet.be) left irc: Read error: Operation timed out
+[01:58:41] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:59:48] looser99 (John@78.130.186.99) joined #telerikacademy.
+[01:59:57] user99 (John@78.130.186.99) left irc: Ping timeout: 252 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:04:44] bgpepi (~bgpepi@ip-80-236-221-210.dsl.scarlet.be) joined #telerikacademy.
