@@ -295,3 +295,28 @@
 [17:55:48] dencho (~dencho@95.111.14.183) left irc: Read error: Connection reset by peer
 [18:00:00] Writing user file...
 [18:00:00] Writing channel file...
+[18:10:22] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:34:53] <hackman> phalaaxx, това го има във абсолютно всеки език
+[18:45:41] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[18:54:54] <yulimoto> hackman: с каква fs и бутлоудър си на лаптопа, ако не е тайна :)
+[18:56:29] <dencho> taina e :D
+[18:56:35] <dencho> moje li da pita6 takiva vuprosi
+[18:56:35] <dencho> :D
+[18:56:41] Action: dencho slaps yulimoto around a bit with a large trout
+[18:57:41] <hackman> yulimoto, ext4 само
+[18:57:59] <hackman> lilo на SSD-то GRUB на SATA-та
+[18:58:17] <hackman> грешка... /boot ми е ext2
+[18:58:24] <hackman> и не е монтиран :)
+[18:59:47] <yulimoto> ясно, магията е другаде значи :)
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:32] <hackman> за boot-a ли ?
+[19:00:33] <yulimoto> т.е както се очаква оптимално бърз кернел и вероятно барнат sysV
+[19:00:39] <yulimoto> да
+[19:00:47] <hackman> магията е във rc.sysvinit за fedora-та
+[19:00:51] <yulimoto>  това 3 секунди направо ме шокира
+[19:00:52] <hackman> и rc.S за slack-a
+[19:01:32] <hackman> опитвам се RPi и другите си платки да ги направя по същият начин
+[19:01:32] <yulimoto> :)
+[19:01:36] <hackman> заради колата :)
+[19:04:18] <yulimoto> аз на платка с ubifs и u-boot максимум 11 секунди съм стигал (без ssh), но реално само съм барал по u-boot-a. не ми се мисли ако го барнеш какви времена ще направиш там ;)
