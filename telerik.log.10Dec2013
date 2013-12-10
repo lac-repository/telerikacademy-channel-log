@@ -14,3 +14,32 @@
 [03:00:00] Writing channel file...
 [03:01:51] Nick change: ndyakov -> ndyakov|away
 [03:04:25] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:45:34] net: connect! sock 6
+[03:45:34] net: eof!(read) socket 6
+[03:46:32] net: connect! sock 6
+[03:46:32] net: eof!(read) socket 6
+[03:47:43] DNS resolve failed for chat.freenode.net
+[03:48:43] DNS resolve failed for irc.freenode.net
+[03:50:04] net: connect! sock 6
+[03:50:04] net: eof!(read) socket 6
+[03:50:06] net: connect! sock 6
+[03:50:06] net: eof!(read) socket 6
+[03:51:05] DNS resolve failed for chat.freenode.net
+[03:52:05] DNS resolve failed for irc.freenode.net
+[03:54:08] net: connect! sock 6
+[03:54:08] net: eof!(read) socket 6
+[03:54:12] net: connect! sock 6
+[03:54:12] net: eof!(read) socket 6
+[03:55:09] DNS resolve failed for chat.freenode.net
+[03:56:09] DNS resolve failed for irc.freenode.net
+[03:58:13] net: connect! sock 6
+[03:58:13] net: eof!(read) socket 6
+[03:58:15] net: connect! sock 6
+[03:58:15] net: eof!(read) socket 6
+[03:59:56] DNS resolve failed for chat.freenode.net
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:00:41] DNS resolved irc.freenode.net to 86.65.39.15
+[04:00:41] net: connect! sock 6
+[04:00:57] Telerik joined #telerikacademy.
+[04:00:57] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
