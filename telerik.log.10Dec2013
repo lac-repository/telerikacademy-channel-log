@@ -135,3 +135,28 @@
 [12:50:10] Fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:45:02] net: connect! sock 6
+[13:45:02] net: eof!(read) socket 6
+[13:46:18] net: connect! sock 6
+[13:46:18] net: eof!(read) socket 6
+[13:47:43] DNS resolve failed for chat.freenode.net
+[13:48:43] DNS resolve failed for irc.freenode.net
+[13:49:02] net: connect! sock 6
+[13:49:02] net: eof!(read) socket 6
+[13:50:10] net: connect! sock 6
+[13:50:10] net: eof!(read) socket 6
+[13:51:01] DNS resolve failed for chat.freenode.net
+[13:52:01] DNS resolve failed for irc.freenode.net
+[13:53:02] net: connect! sock 6
+[13:53:02] net: eof!(read) socket 6
+[13:54:17] net: connect! sock 6
+[13:54:17] net: eof!(read) socket 6
+[13:55:01] DNS resolve failed for chat.freenode.net
+[13:56:02] DNS resolve failed for irc.freenode.net
+[13:57:05] net: connect! sock 6
+[13:57:05] net: eof!(read) socket 6
+[13:58:02] net: connect! sock 6
+[13:58:14] Telerik joined #telerikacademy.
+[13:58:14] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
