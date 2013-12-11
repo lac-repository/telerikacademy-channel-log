@@ -374,3 +374,52 @@
 [22:00:32] <Fairytale> 6800 mislq beshe
 [22:01:00] <Fairytale> Kato gi instalna ste linkna
 [22:04:42] <Fairytale> Kato gledam drugite I3 i na men tolkova mi se merna predi da mahna linuxa System Bogomips 6784.74
+[22:09:00] rew1nd1 (~teo@46.238.29.142) joined #telerikacademy.
+[22:17:28] <Fairytale> Otivam da instalvam. Stiskaite palci da trugne lana kartata che ne mi se misli
+[22:18:02] Fairytale (~Svetlyo@77.70.117.169) left irc: Quit: Leaving
+[22:35:20] azilian (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[22:35:42] Nick change: azilian -> Guest63801
+[22:36:12] rew1nd (~yaaic@85.118.193.191) left irc: Ping timeout: 250 seconds
+[22:41:29] Fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[22:41:47] <Fairytale> Vsichko trugna
+[22:42:00] <Fairytale> Samo Audigy-to mai e problemno
+[22:43:47] <Fairytale> vendor_id       : GenuineIntel
+[22:43:47] <Fairytale> cpu family      : 6
+[22:43:47] <Fairytale> model           : 58
+[22:43:47] <Fairytale> model name      : Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz
+[22:43:47] <Fairytale> stepping        : 9
+[22:43:48] <Fairytale> microcode       : 0x12
+[22:43:50] <Fairytale> cpu MHz         : 2142.000
+[22:43:52] <Fairytale> cache size      : 3072 KB
+[22:43:54] <Fairytale> physical id     : 0
+[22:43:56] <Fairytale> siblings        : 4
+[22:43:58] <Fairytale> core id         : 1
+[22:44:00] <Fairytale> cpu cores       : 2
+[22:44:02] <Fairytale> apicid          : 3
+[22:44:04] <Fairytale> initial apicid  : 3
+[22:44:06] <Fairytale> fpu             : yes
+[22:44:08] <Fairytale> fpu_exception   : yes
+[22:44:10] <Fairytale> cpuid level     : 13
+[22:44:12] <Fairytale> wp              : yes
+[22:44:16] <Fairytale> flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt tsc_deadline_timer xsave avx f16c lahf_lm arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriorit
+[22:44:21] <Fairytale> y ept vpid fsgsbase smep erms
+[22:44:23] <Fairytale> bogomips        : 6800.48
+[22:44:25] <Fairytale> clflush size    : 64
+[22:44:27] <Fairytale> cache_alignment : 64
+[22:44:29] <Fairytale> address sizes   : 36 bits physical, 48 bits virtual
+[22:44:31] <Fairytale> Basi spama
+[22:44:37] <Fairytale> rew1nd1, linknah go
+[22:45:03] rew1nd (~yaaic@85.118.193.185) joined #telerikacademy.
+[22:47:15] <Fairytale> rew1nd, vidq li go ili da linkvam pak
+[22:47:53] Guest63801 (~hackman@wolf.yuhu.biz) left irc: Remote host closed the connection
+[22:49:05] <Fairytale> Nqmam zvuk na Audigyto i igrata zagrubqva
+[22:53:22] <Fairytale> Mai ima :-)
+[22:53:51] <Fairytale> Obache Volume mi stoi na 0, promenqm go i pak e 0 a zvuk ima
+[22:56:11] <rew1nd1> да, идеално е
+[22:56:45] rew1nd (~yaaic@85.118.193.185) left irc: Quit: Yaaic - Yet another Android IRC client - http://www.yaaic.org
+[22:57:31] <rew1nd1> две ядра, четири нишки, хубава турбо честота
+[22:58:43] <rew1nd1> lspci | grep -i vga
+[22:59:40] <rew1nd1> а за звуковата карта, audigy винаги са ми създавали проблеми, както и creative като цяло. Много намразих тази компания с един техен live 24bit навремето
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:13] <rew1nd1> особено когато разбрах, че примерно от десетилетие изобщо не се занимават с хардуер, а само със софтуера за звуковите им карти
