@@ -114,3 +114,78 @@
 [08:45:41] <Fairytale> i3 pod 200lv nqma li? Napravo me boli glavata kato gledam cenite
 [09:00:00] Writing user file...
 [09:00:00] Writing channel file...
+[09:08:11] rew1nd (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[09:12:13] <rew1nd> Мале, чак сега видях какви ги е преживял Fairytale...
+[09:12:34] <Fairytale> rew1nd, mani ujas \;-)
+[09:12:48] <rew1nd> Ако не ти се дават 20 лв. за да ти го рефлашнат, може аз да ти дам 20 лв. за това дъно, имам такова, гръмнало и ми трябва един от чиповете на дъното
+[09:13:12] <rew1nd> а иначе биос мога и аз да ти дам, стига да може да се сваля, само трябва да си го взема от "майстора"
+[09:13:21] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[09:13:32] <Fairytale> Emi ste go flashna ama nqma da e sega
+[09:13:52] <yulimoto> dencho: лягай ве цяла вечер гледа филми
+[09:14:31] <rew1nd> моето го убих докато го "палех" с отвертката - мързеше ме да си намеря копченце и го запалвах като давах на късо пиновете за power бутона и така докато не замина чипа отговарящ за запалването
+[09:14:48] <Fairytale> "-))
+[09:15:08] <Fairytale> ASUS M2N-E ?
+[09:15:54] <rew1nd> да, видях сега, че може да се сваля и EEPROM-а на биоса
+[09:16:05] <rew1nd> мога да го накарам да го свали от дъното и да ти го дам да си възстановиш дъното
+[09:16:26] <rew1nd> или вариант 2, ще го накарам направо да го копира на друг чип
+[09:17:24] <Fairytale> ako mu go zanesa ste moje li da go pravi?
+[09:21:53] <rew1nd> със сигурност, въпроса е, че човека е малко... зает... в смисъл моето дъно "отлежава" при него 6-ти месец вече
+[09:22:01] <Fairytale> maleee
+[09:22:09] <rew1nd> всъщност има напредък - намерил е дъно, от което да пробва същия чип
+[09:22:35] <rew1nd> но моето си има такъв биос, ще трябва само един екстрактор и да пусне програматора за 10 минути
+[09:24:27] <rew1nd> Само м/у другото това дъно се оказа доста голям дзвер - работи денонощно на една работна станция близо 6 години преди да го строша
+[09:24:33] <Fairytale> Emi az bih otishul ama ne mi se chaka 6 meseca :-)
+[09:24:38] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[09:24:46] <rew1nd> е, не случая ти не е такъв
+[09:24:54] <KpeTeHoug> морген
+[09:25:02] <rew1nd> KpeTeHoug, гутен :)
+[09:25:31] <Fairytale> Skapani sa mu biosite , neta e pulen s problemi s flashvane na tova MB
+[09:25:42] <rew1nd> интересно, никога не съм имал проблеми с него
+[09:25:55] <rew1nd> вярно, че съм му ъпдейтвал биоса преди години още
+[09:25:56] <Fairytale> A flashval li si?
+[09:26:07] <rew1nd> да, но последния биос е много отдавна
+[09:26:11] <Fairytale> Oste predi 3 godini se precakah
+[09:26:20] <Fairytale> i edvam go opravih
+[09:26:31] <Fairytale> i bqh kazal che nqma da go pipam
+[09:27:03] <KacanuH> Добро утро и от мен
+[09:27:08] <Fairytale> s posledia 5001 zabiva
+[09:27:19] <Fairytale> KacanuH, dobro utro
+[09:27:32] <Fairytale> KacanuH,  teb chakam :-)
+[09:27:42] <Fairytale> spasqvai polojenieto
+[09:27:55] <KacanuH> Fairytale: ти базикаш ли се, какво да правя по това време на денонощието буден, аз съм стар човек трябва да си почивам
+[09:28:11] <Fairytale> :-)
+[09:28:52] <KacanuH> сега преглеждам какво си омазал
+[09:28:55] <Fairytale> Emi i az sum star chovek ama ne pochivam
+[09:29:09] <KacanuH> само да оправя документите за един търг
+[09:29:13] <Fairytale> Dai da pravime nqkakva konfiguraciq
+[09:29:17] <Fairytale> ok
+[09:29:36] <KacanuH> драсни ми на бързо какво ще искаш за да ти го нащракам на бързо
+[09:29:44] <KacanuH> че поне до обед ще съм бизи
+[09:29:52] <Fairytale> Emi tam e rabotata che se chudq
+[09:30:45] <Fairytale> VIDEO,RAM,MB,CPU i CASE
+[09:31:17] <Fairytale> GTX 650Ti boost primerno
+[09:31:33] <Fairytale> i nqkoi i3
+[09:32:11] <Fairytale> a ima li shans da trugnat s FORTRON 350W?
+[09:32:41] <Fairytale> 2x4 GB RAM
+[09:34:25] <Fairytale> ako imash nqkakvo dobro predlojenie okolo tezi parametri no da e INTEL i NVIDIA
+[09:35:20] <KacanuH> тоя Fortron, няма да може да храни само видео картата
+[09:35:36] <Fairytale> Znach i CASE s dobro zahranvane
+[09:35:50] <KacanuH> колко спешно ти трябва
+[09:35:54] <Fairytale> mnogo
+[09:36:13] <Fairytale> za dnes ima li variant?
+[09:37:05] <KacanuH> да ще стане за днес
+[09:37:56] <Fairytale> Super, znachi samo da izberem nestata
+[09:39:51] <Fairytale> rew1nd, ta znachi s 5001 zabivashe, posle edvam go vurnah i drugite imashe edno zabavqne
+[09:40:52] <Fairytale> rew1nd, i go ostavih s 1204 mai beshe
+[09:51:29] <rew1nd> Ъ-ъ-ъм... Fairytale, 5001 е бета, както и 3001, аз съм бил със 1703
+[09:51:55] <rew1nd> ако беше казал, че си тествал бета версии, щях да ти препоръчам направо да се позабавляваш със опън сорс биос
+[09:52:23] <rew1nd> http://www.coreboot.org/ASUS_M2N-E
+[09:52:27] <wilindex> [ ASUS M2N-E - coreboot ] - www.coreboot.org
+[09:53:03] <Fairytale> Da, beta sa ama 17xx mislqmpraveshe problem
+[09:53:54] <rew1nd> ти каква памет си сложил ?
+[09:55:23] <Fairytale> 4 plochki 2x2GB ADATA 800Mhz i PQI 2x1GB 800Mhz
+[09:55:36] MoHu (~MO@77.70.108.185) left irc: Ping timeout: 245 seconds
+[09:55:46] <Fairytale> 6GB i ne gi razpoznavashe tolkova s 1204
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:03] <rew1nd> мисля, че имаше ограничение в nforce570, което не позволяваше повече от 667 мхц при четири слота, ако го възстановиш опитай да му свалиш тактовата честота на DDR шината
