@@ -448,6 +448,115 @@
 			<div>&nbsp;<span class="time">[22:57:31]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; две ядра, четири нишки, хубава турбо честота</span></div>
 			<div>&nbsp;<span class="time">[22:58:43]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; lspci | grep -i vga</span></div>
 			<div>&nbsp;<span class="time">[22:59:40]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; а за звуковата карта, audigy винаги са ми създавали проблеми, както и creative като цяло. Много намразих тази компания с един техен live 24bit навремето</span></div>
+			<div>&nbsp;<span class="time">[23:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[23:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[23:00:13]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; особено когато разбрах, че примерно от десетилетие изобщо не се занимават с хардуер, а само със софтуера за звуковите им карти</span></div>
+			<div>&nbsp;<span class="time">[23:05:10]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; root@Svetlyo:~# lspci | grep -i vga</span></div>
+			<div>&nbsp;<span class="time">[23:05:10]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; 01:00.0 VGA compatible controller: NVIDIA Corporation GK106 [GeForce GTX 650 Ti] (rev a1)</span></div>
+			<div>&nbsp;<span class="time">[23:05:30]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; добре звучи</span></div>
+			<div>&nbsp;<span class="time">[23:05:34]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; памет ?</span></div>
+			<div>&nbsp;<span class="time">[23:05:43]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; не само на картата, също на машината</span></div>
+			<div>&nbsp;<span class="time">[23:06:01]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Ami na minalia comp nqmashe problem, ne mi se vqrva da e sega ot 64bit OS</span></div>
+			<div>&nbsp;<span class="time">[23:06:03]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; особено ако ѝ знаеш латентностите, на които работи в момента и с каква тактова честота е</span></div>
+			<div>&nbsp;<span class="time">[23:07:40]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; /proc/meminfo izlizat mngo</span></div>
+			<div>&nbsp;<span class="time">[23:07:43]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; mnogo</span></div>
+			<div>&nbsp;<span class="time">[23:07:53]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; free</span></div>
+			<div>&nbsp;<span class="time">[23:08:10]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;             total       used       free     shared    buffers     cached</span></div>
+			<div>&nbsp;<span class="time">[23:08:10]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Mem:       8112488    1750028    6362460          0      65496     732940</span></div>
+			<div>&nbsp;<span class="time">[23:08:10]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; -/+ buffers/cache:     951592    7160896</span></div>
+			<div>&nbsp;<span class="time">[23:08:58]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; A videoto trqbva da e TI boost, nikade ne go pishe</span></div>
+			<div>&nbsp;<span class="time">[23:10:54]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; пише го на картата :)</span></div>
+			<div>&nbsp;<span class="time">[23:11:23]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; паметта, няма как да ѝ разбереш тактовата честота с meminfo</span></div>
+			<div>&nbsp;<span class="time">[23:11:34]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; s kakvo moga?</span></div>
+			<div>&nbsp;<span class="time">[23:12:22]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; sudo /usr/sbin/dmidecode | grep -i &quot;current speed&quot;</span></div>
+			<div>&nbsp;<span class="time">[23:12:26]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Memory Device</span></div>
+			<div>&nbsp;<span class="time">[23:12:27]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Array Handle: 0x005C</span></div>
+			<div>&nbsp;<span class="time">[23:12:27]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Error Information Handle: No Error</span></div>
+			<div>&nbsp;<span class="time">[23:12:27]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Total Width: 64 bits</span></div>
+			<div>&nbsp;<span class="time">[23:12:27]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Data Width: 64 bits</span></div>
+			<div>&nbsp;<span class="time">[23:12:27]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Size: 4096 MB</span></div>
+			<div>&nbsp;<span class="time">[23:12:29]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Form Factor: DIMM</span></div>
+			<div>&nbsp;<span class="time">[23:12:31]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Set: None</span></div>
+			<div>&nbsp;<span class="time">[23:12:33]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Locator: ChannelA-DIMM1</span></div>
+			<div>&nbsp;<span class="time">[23:12:35]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Bank Locator: BANK 1</span></div>
+			<div>&nbsp;<span class="time">[23:12:37]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Type: DDR3</span></div>
+			<div>&nbsp;<span class="time">[23:12:39]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Type Detail: Synchronous</span></div>
+			<div>&nbsp;<span class="time">[23:12:41]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Speed: 1600 MHz</span></div>
+			<div>&nbsp;<span class="time">[23:12:43]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Manufacturer: 04CB</span></div>
+			<div>&nbsp;<span class="time">[23:12:47]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Serial Number: 8CF60000</span></div>
+			<div>&nbsp;<span class="time">[23:12:49]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Asset Tag: 9876543210</span></div>
+			<div>&nbsp;<span class="time">[23:12:51]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Part Number: 10242397</span></div>
+			<div>&nbsp;<span class="time">[23:12:53]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Rank: 1</span></div>
+			<div>&nbsp;<span class="time">[23:12:55]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Configured Clock Speed: 1600 MHz</span></div>
+			<div>&nbsp;<span class="time">[23:12:57]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; E ti si gotov sysadmin :-)</span></div>
+			<div>&nbsp;<span class="time">[23:13:15]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; root@Svetlyo:~# /usr/sbin/dmidecode | grep -i &quot;current speed&quot;</span></div>
+			<div>&nbsp;<span class="time">[23:13:15]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp;         Current Speed: 3400 MHz</span></div>
+			<div>&nbsp;<span class="time">[23:13:34]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Tova trqbva da e CPU to</span></div>
+			<div>&nbsp;<span class="time">[23:13:37]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; не, това вероятно е CPU</span></div>
+			<div>&nbsp;<span class="time">[23:13:47]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; горе пише - configured clock speed</span></div>
+			<div>&nbsp;<span class="time">[23:14:10]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; s dmidecode go izkarah</span></div>
+			<div>&nbsp;<span class="time">[23:15:06]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; латентностите, можеш да ги видиш от биос-а</span></div>
+			<div>&nbsp;<span class="time">[23:15:06]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Abe edin chuval s pari</span></div>
+			<div>&nbsp;<span class="time">[23:16:58]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Kutiqta e hubava ama dobre che m ise speche che ako bqh oburnal vnimanie na cenata ... :-)</span></div>
+			<div>&nbsp;<span class="time">[23:18:31]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Sus zahranvaneto 250lv mai idva</span></div>
+			<div>&nbsp;<span class="time">[23:19:01]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Ama takava kutiq ne sum imal nikoga</span></div>
+			<div>&nbsp;<span class="time">[23:19:42]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; десктопите стават все по-скъпи и трудно достъпни играчки, каквито са били в самото начало</span></div>
+			<div>&nbsp;<span class="time">[23:21:45]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; To laptop mi izglejda po golqma oferta obache iskam desktop</span></div>
+			<div>&nbsp;<span class="time">[23:22:30]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; десктопа винаги ще бъде средно два до три пъти по-производителен от най-бързите лаптопи, именно поради power environment-a, в който трябва да работят</span></div>
+			<div>&nbsp;<span class="time">[23:22:44]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; To napravo moje da dadesh bezkrai pari</span></div>
+			<div>&nbsp;<span class="time">[23:22:57]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Az taka kato zapochnah da pravq muzika v kolata...</span></div>
+			<div>&nbsp;<span class="time">[23:22:59]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; а.. то с всяко нещо е така</span></div>
+			<div>&nbsp;<span class="time">[23:23:06]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; 1000lv mi se vijdaha mnogo</span></div>
+			<div>&nbsp;<span class="time">[23:23:23]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; obache kato q napravih se zaribih oste</span></div>
+			<div>&nbsp;<span class="time">[23:23:32]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; i slagam oste i oste ostee</span></div>
+			<div>&nbsp;<span class="time">[23:23:38]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Stanaha 3 000lv</span></div>
+			<div>&nbsp;<span class="time">[23:23:50]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; a imam chuvstvoto che nqmam nisto</span></div>
+			<div>&nbsp;<span class="time">[23:24:06]</span>&nbsp;<span class="else_li">&nbsp;mihail_m (~mike@77.70.49.155) left irc: Ping timeout: 260 seconds</span></div>
+			<div>&nbsp;<span class="time">[23:24:39]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Ako trugnesh da pravish muzika v kolata i 10 000lv nqma da ti stignat</span></div>
+			<div>&nbsp;<span class="time">[23:24:57]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; sudo lshw -short -C memory с това можеш да видиш и латентностите</span></div>
+			<div>&nbsp;<span class="time">[23:25:24]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; за това трябва да се търси баланс във всичко :)</span></div>
+			<div>&nbsp;<span class="time">[23:25:52]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; root@Svetlyo:~# lshw -short -C memory</span></div>
+			<div>&nbsp;<span class="time">[23:25:52]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; -su: lshw: command not found</span></div>
+			<div>&nbsp;<span class="time">[23:25:54]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; въпреки, че аз самия не спазвам това правило - нямам кола (или може би го спазвам прекалено стриктно...)</span></div>
+			<div>&nbsp;<span class="time">[23:25:59]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; е.. инстал</span></div>
+			<div>&nbsp;<span class="time">[23:26:12]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Loshoto e che posle nqma prodavane</span></div>
+			<div>&nbsp;<span class="time">[23:26:37]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; имах едно приятелче, което започна да се занимава с това преди 15 години</span></div>
+			<div>&nbsp;<span class="time">[23:26:53]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Az kato prodadoh kolata predi 2-3 sedmici nikoi ne iskashe muzika a i edvam mi izvadiha 10 000lv</span></div>
+			<div>&nbsp;<span class="time">[23:27:02]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; говореше, че единственото, което крепяло бизнеса му е именно насищането на хората, които си купуват озвучение за колите...</span></div>
+			<div>&nbsp;<span class="time">[23:27:06]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; i si svalih muzikata</span></div>
+			<div>&nbsp;<span class="time">[23:27:20]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; 100lv na vqtura za svalqne</span></div>
+			<div>&nbsp;<span class="time">[23:27:25]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; мине не мине месец-два и идват отново за още</span></div>
+			<div>&nbsp;<span class="time">[23:29:53]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; ще ти излезе нещо такова:</span></div>
+			<div>&nbsp;<span class="time">[23:29:53]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; H/W path           Device      Class       Description</span></div>
+			<div>&nbsp;<span class="time">[23:29:53]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; ======================================================</span></div>
+			<div>&nbsp;<span class="time">[23:29:53]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/0                           memory      64KiB BIOS</span></div>
+			<div>&nbsp;<span class="time">[23:29:53]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/4/5                         memory      256KiB L1 cache</span></div>
+			<div>&nbsp;<span class="time">[23:29:53]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/4/6                         memory      1MiB L2 cache</span></div>
+			<div>&nbsp;<span class="time">[23:29:53]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/4/7                         memory      6MiB L3 cache</span></div>
+			<div>&nbsp;<span class="time">[23:29:54]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/26                          memory      12GiB System Memory</span></div>
+			<div>&nbsp;<span class="time">[23:29:54]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/26/0                        memory      4GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)</span></div>
+			<div>&nbsp;<span class="time">[23:29:55]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/26/1                        memory      2GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)</span></div>
+			<div>&nbsp;<span class="time">[23:29:55]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/26/2                        memory      4GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)</span></div>
+			<div>&nbsp;<span class="time">[23:29:56]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; /0/26/3                        memory      2GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)</span></div>
+			<div>&nbsp;<span class="time">[23:30:12]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; това 0.6 ns е CAS Latency</span></div>
+			<div>&nbsp;<span class="time">[23:30:40]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; по принцип трябва да се вижда и от dmidecode, но поради някаква причина, ако го няма след speed в скобички, може да се види и така</span></div>
+			<div>&nbsp;<span class="time">[23:30:58]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Emi ako si fen na muzikata chuvstvoto e neupisuemo, kato efekta na narkoticite :-) Obache sled mesec veche si i se nasladil i chuvstvoto izchezva</span></div>
+			<div>&nbsp;<span class="time">[23:31:05]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; i iskah oste i oste ...</span></div>
+			<div>&nbsp;<span class="time">[23:31:21]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; slagash oste i pak sled mesec 2 iskah oste</span></div>
+			<div>&nbsp;<span class="time">[23:31:35]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; <a href="https://en.wikipedia.org/wiki/Memory_latency">https://en.wikipedia.org/wiki/Memory_latency</a> според википедията моята памет е 1600 мхц, вероятно CAS 9</span></div>
+			<div>&nbsp;<span class="time">[23:31:36]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ CAS latency - Wikipedia, the free encyclopedia ] - en.wikipedia.org</span></div>
+			<div>&nbsp;<span class="time">[23:32:28]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; тъй като съм фен на погледозамъгляващия бас, те разбирам чудесно какво имаш предвид, но не мисля, че това е от такава есенциална важност в едно превозно средство. Предпочитам да си го имам вкъщи това удобство обаче :)</span></div>
+			<div>&nbsp;<span class="time">[23:33:00]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Da obache ako prekarvash poveche vreme v kolata otkolkot  v kasti? :-)</span></div>
+			<div>&nbsp;<span class="time">[23:33:40]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; A i v kusti ima golqm problem sus susedite</span></div>
+			<div>&nbsp;<span class="time">[23:34:44]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Zvunqt ti na vratata i si mislqt che ima zemetresenie a to e ot bas a :-)</span></div>
+			<div>&nbsp;<span class="time">[23:35:50]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; хаха, случвало ми се е, да :) но не съм прекалявал често, а и просто си има часове, в които това е позволено</span></div>
+			<div>&nbsp;<span class="time">[23:36:07]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; ако човек не прекалява и с това си няма проблеми</span></div>
+			<div>&nbsp;<span class="time">[23:37:04]</span>&nbsp;<span class="nick">&lt;Fairytale&gt;</span><span class="text">&nbsp; Vij go tova <a href="http://www.youtube.com/watch?v=8BcR3Iy6rHQ">http://www.youtube.com/watch?v=8BcR3Iy6rHQ</a></span></div>
+			<div>&nbsp;<span class="time">[23:37:04]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [YouTube] Title: &quot;CRAZY&quot; 30,000 WATT BASS DEMO  4 18&quot; Woofers -  Nephew and Friend | Uploader: meade916 | Uploaded: 27/08/2011, 13:22 | Duration: 5mins 1secs | Views: 390,258 | Comments: 498 | Likes: 1,366 | Dislikes: 59</span></div>
+			<div>&nbsp;<span class="time">[23:49:15]</span>&nbsp;<span class="nick">&lt;rew1nd1&gt;</span><span class="text">&nbsp; това е малко (МАЛКО) прекалено :)</span></div>
+			<div>&nbsp;<span class="time">[23:55:47]</span>&nbsp;<span class="else_j">&nbsp;hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[00:00:00]</span>&nbsp;<span class="else">&nbsp;Backing up channel file...</span></div>
+			<div>&nbsp;<span class="time">[00:00:00]</span>&nbsp;<span class="else">&nbsp;Backing up user file...</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />

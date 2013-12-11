@@ -423,3 +423,110 @@
 [23:00:00] Writing user file...
 [23:00:00] Writing channel file...
 [23:00:13] <rew1nd1> особено когато разбрах, че примерно от десетилетие изобщо не се занимават с хардуер, а само със софтуера за звуковите им карти
+[23:05:10] <Fairytale> root@Svetlyo:~# lspci | grep -i vga
+[23:05:10] <Fairytale> 01:00.0 VGA compatible controller: NVIDIA Corporation GK106 [GeForce GTX 650 Ti] (rev a1)
+[23:05:30] <rew1nd1> добре звучи
+[23:05:34] <rew1nd1> памет ?
+[23:05:43] <rew1nd1> не само на картата, също на машината
+[23:06:01] <Fairytale> Ami na minalia comp nqmashe problem, ne mi se vqrva da e sega ot 64bit OS
+[23:06:03] <rew1nd1> особено ако ѝ знаеш латентностите, на които работи в момента и с каква тактова честота е
+[23:07:40] <Fairytale> /proc/meminfo izlizat mngo
+[23:07:43] <Fairytale> mnogo
+[23:07:53] <Fairytale> free
+[23:08:10] <Fairytale>             total       used       free     shared    buffers     cached
+[23:08:10] <Fairytale> Mem:       8112488    1750028    6362460          0      65496     732940
+[23:08:10] <Fairytale> -/+ buffers/cache:     951592    7160896
+[23:08:58] <Fairytale> A videoto trqbva da e TI boost, nikade ne go pishe
+[23:10:54] <rew1nd1> пише го на картата :)
+[23:11:23] <rew1nd1> паметта, няма как да ѝ разбереш тактовата честота с meminfo
+[23:11:34] <Fairytale> s kakvo moga?
+[23:12:22] <rew1nd1> sudo /usr/sbin/dmidecode | grep -i "current speed"
+[23:12:26] <Fairytale> Memory Device
+[23:12:27] <Fairytale>         Array Handle: 0x005C
+[23:12:27] <Fairytale>         Error Information Handle: No Error
+[23:12:27] <Fairytale>         Total Width: 64 bits
+[23:12:27] <Fairytale>         Data Width: 64 bits
+[23:12:27] <Fairytale>         Size: 4096 MB
+[23:12:29] <Fairytale>         Form Factor: DIMM
+[23:12:31] <Fairytale>         Set: None
+[23:12:33] <Fairytale>         Locator: ChannelA-DIMM1
+[23:12:35] <Fairytale>         Bank Locator: BANK 1
+[23:12:37] <Fairytale>         Type: DDR3
+[23:12:39] <Fairytale>         Type Detail: Synchronous
+[23:12:41] <Fairytale>         Speed: 1600 MHz
+[23:12:43] <Fairytale>         Manufacturer: 04CB
+[23:12:47] <Fairytale>         Serial Number: 8CF60000
+[23:12:49] <Fairytale>         Asset Tag: 9876543210
+[23:12:51] <Fairytale>         Part Number: 10242397
+[23:12:53] <Fairytale>         Rank: 1
+[23:12:55] <Fairytale>         Configured Clock Speed: 1600 MHz
+[23:12:57] <Fairytale> E ti si gotov sysadmin :-)
+[23:13:15] <Fairytale> root@Svetlyo:~# /usr/sbin/dmidecode | grep -i "current speed"
+[23:13:15] <Fairytale>         Current Speed: 3400 MHz
+[23:13:34] <Fairytale> Tova trqbva da e CPU to
+[23:13:37] <rew1nd1> не, това вероятно е CPU
+[23:13:47] <rew1nd1> горе пише - configured clock speed
+[23:14:10] <Fairytale> s dmidecode go izkarah
+[23:15:06] <rew1nd1> латентностите, можеш да ги видиш от биос-а
+[23:15:06] <Fairytale> Abe edin chuval s pari
+[23:16:58] <Fairytale> Kutiqta e hubava ama dobre che m ise speche che ako bqh oburnal vnimanie na cenata ... :-)
+[23:18:31] <Fairytale> Sus zahranvaneto 250lv mai idva
+[23:19:01] <Fairytale> Ama takava kutiq ne sum imal nikoga
+[23:19:42] <rew1nd1> десктопите стават все по-скъпи и трудно достъпни играчки, каквито са били в самото начало
+[23:21:45] <Fairytale> To laptop mi izglejda po golqma oferta obache iskam desktop
+[23:22:30] <rew1nd1> десктопа винаги ще бъде средно два до три пъти по-производителен от най-бързите лаптопи, именно поради power environment-a, в който трябва да работят
+[23:22:44] <Fairytale> To napravo moje da dadesh bezkrai pari
+[23:22:57] <Fairytale> Az taka kato zapochnah da pravq muzika v kolata...
+[23:22:59] <rew1nd1> а.. то с всяко нещо е така
+[23:23:06] <Fairytale> 1000lv mi se vijdaha mnogo
+[23:23:23] <Fairytale> obache kato q napravih se zaribih oste
+[23:23:32] <Fairytale> i slagam oste i oste ostee
+[23:23:38] <Fairytale> Stanaha 3 000lv
+[23:23:50] <Fairytale> a imam chuvstvoto che nqmam nisto
+[23:24:06] mihail_m (~mike@77.70.49.155) left irc: Ping timeout: 260 seconds
+[23:24:39] <Fairytale> Ako trugnesh da pravish muzika v kolata i 10 000lv nqma da ti stignat
+[23:24:57] <rew1nd1> sudo lshw -short -C memory с това можеш да видиш и латентностите
+[23:25:24] <rew1nd1> за това трябва да се търси баланс във всичко :)
+[23:25:52] <Fairytale> root@Svetlyo:~# lshw -short -C memory
+[23:25:52] <Fairytale> -su: lshw: command not found
+[23:25:54] <rew1nd1> въпреки, че аз самия не спазвам това правило - нямам кола (или може би го спазвам прекалено стриктно...)
+[23:25:59] <rew1nd1> е.. инстал
+[23:26:12] <Fairytale> Loshoto e che posle nqma prodavane
+[23:26:37] <rew1nd1> имах едно приятелче, което започна да се занимава с това преди 15 години
+[23:26:53] <Fairytale> Az kato prodadoh kolata predi 2-3 sedmici nikoi ne iskashe muzika a i edvam mi izvadiha 10 000lv
+[23:27:02] <rew1nd1> говореше, че единственото, което крепяло бизнеса му е именно насищането на хората, които си купуват озвучение за колите...
+[23:27:06] <Fairytale> i si svalih muzikata
+[23:27:20] <Fairytale> 100lv na vqtura za svalqne
+[23:27:25] <rew1nd1> мине не мине месец-два и идват отново за още
+[23:29:53] <rew1nd1> ще ти излезе нещо такова:
+[23:29:53] <rew1nd1> H/W path           Device      Class       Description
+[23:29:53] <rew1nd1> ======================================================
+[23:29:53] <rew1nd1> /0/0                           memory      64KiB BIOS
+[23:29:53] <rew1nd1> /0/4/5                         memory      256KiB L1 cache
+[23:29:53] <rew1nd1> /0/4/6                         memory      1MiB L2 cache
+[23:29:53] <rew1nd1> /0/4/7                         memory      6MiB L3 cache
+[23:29:54] <rew1nd1> /0/26                          memory      12GiB System Memory
+[23:29:54] <rew1nd1> /0/26/0                        memory      4GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+[23:29:55] <rew1nd1> /0/26/1                        memory      2GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+[23:29:55] <rew1nd1> /0/26/2                        memory      4GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+[23:29:56] <rew1nd1> /0/26/3                        memory      2GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+[23:30:12] <rew1nd1> това 0.6 ns е CAS Latency
+[23:30:40] <rew1nd1> по принцип трябва да се вижда и от dmidecode, но поради някаква причина, ако го няма след speed в скобички, може да се види и така
+[23:30:58] <Fairytale> Emi ako si fen na muzikata chuvstvoto e neupisuemo, kato efekta na narkoticite :-) Obache sled mesec veche si i se nasladil i chuvstvoto izchezva
+[23:31:05] <Fairytale> i iskah oste i oste ...
+[23:31:21] <Fairytale> slagash oste i pak sled mesec 2 iskah oste
+[23:31:35] <rew1nd1> https://en.wikipedia.org/wiki/Memory_latency според википедията моята памет е 1600 мхц, вероятно CAS 9
+[23:31:36] <wilindex> [ CAS latency - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[23:32:28] <rew1nd1> тъй като съм фен на погледозамъгляващия бас, те разбирам чудесно какво имаш предвид, но не мисля, че това е от такава есенциална важност в едно превозно средство. Предпочитам да си го имам вкъщи това удобство обаче :)
+[23:33:00] <Fairytale> Da obache ako prekarvash poveche vreme v kolata otkolkot  v kasti? :-)
+[23:33:40] <Fairytale> A i v kusti ima golqm problem sus susedite
+[23:34:44] <Fairytale> Zvunqt ti na vratata i si mislqt che ima zemetresenie a to e ot bas a :-)
+[23:35:50] <rew1nd1> хаха, случвало ми се е, да :) но не съм прекалявал често, а и просто си има часове, в които това е позволено
+[23:36:07] <rew1nd1> ако човек не прекалява и с това си няма проблеми
+[23:37:04] <Fairytale> Vij go tova http://www.youtube.com/watch?v=8BcR3Iy6rHQ
+[23:37:04] <wilindex> [YouTube] Title: "CRAZY" 30,000 WATT BASS DEMO  4 18" Woofers -  Nephew and Friend | Uploader: meade916 | Uploaded: 27/08/2011, 13:22 | Duration: 5mins 1secs | Views: 390,258 | Comments: 498 | Likes: 1,366 | Dislikes: 59
+[23:49:15] <rew1nd1> това е малко (МАЛКО) прекалено :)
+[23:55:47] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[00:00:00] --- Thu Dec 12 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...
