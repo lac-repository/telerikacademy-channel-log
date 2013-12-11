@@ -35,3 +35,31 @@
 [05:01:22] <dencho> ne sam kazapin :P
 [05:01:42] <dencho> tva da updeitva6 bios si e stra6na rabota :D
 [05:02:00] <dencho> za kuv zor trugna da go updeitva6?
+[05:06:28] <Fairytale> zastoto slojih oste RAM i ne mi razpoznavashe vsichkata, sled update na biosa se opravi obache zabivashe
+[05:07:51] <Fairytale> Az i predi imah problem s novite biosi na tova duno i edvam go opravih, obache sega e totalka
+[05:09:00] <Fairytale> Chakam KacaniHa da sglobqvame nesto novo
+[05:11:00] <Fairytale> Na edin milion MB sum updatenal biosa, samo s tozi skapan model sum imal problem. Poveche ne iskam da chuvam za ASUS
+[05:20:50] <dencho> :)
+[05:34:09] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[05:38:49] <Fairytale> Qd me e zastoto sega se setih kak sum go pravql, mojeshe da napravq recovery na biosa obache veche e ksno
+[05:46:05] <hackman> Fairytale, кво правиш?
+[05:46:38] <Fairytale> hackman, precakah si biosa na kompa
+[05:46:55] <hackman> Fairytale, laptop или desktop ?
+[05:47:36] <Fairytale> hackman, desktop , shibano MB ASUS M2N-E
+[05:48:00] <hackman> Fairytale, по принцип всички дъна след 2007-2008 имат по два BIOS-а на дъното :)
+[05:48:07] <hackman> твоето няма ли ?
+[05:48:20] <hackman> има процедура по палене само със default BIOS-а
+[05:48:23] <Fairytale> hackman, flashna go i izpisa che lipsva info vav faila i se restartira i ne pali
+[05:48:51] <hackman> провери по model name + BIOS recovery
+[05:49:01] <Fairytale> ami to tova e 2006-2007ma ne vijdam da ima
+[05:49:03] <hackman> или model name + secondary BIOS
+[05:49:15] <Fairytale> sega ste vidq
+[05:49:29] <hackman> Fairytale, то не е важно ти да го виждаш... важно е да го има на дъното :) пък къде и как са го скрили няма значение :)
+[05:49:32] <Fairytale> samo da zapali i ste go pravq
+[05:54:18] <hackman> гррр... къде си шибнах телефона :)
+[05:57:45] <Fairytale> kude? :-)
+[05:59:26] <Fairytale> probvah vsichko mamka mu. http://support.asus.com/Troubleshooting/detail.aspx?SLanguage=en&m=M2N-E&os=&no=1722
+[05:59:26] <wilindex> [ ASUSTeK Computer Inc. -Support- Troubleshooting M2N-E ] - support.asus.com
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:00:04] <Fairytale> samo pishe za nqkakvo CLRTC_SW takova ne vijdam na dunoto
