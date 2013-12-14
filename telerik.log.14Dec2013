@@ -81,3 +81,13 @@
 [16:43:27] user99 (John@78.130.186.99) left irc: Ping timeout: 246 seconds
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:07:52] <phalaaxx> yulimoto: в /etc/passwd
+[17:08:00] <phalaaxx> и това прилича на въпрос, не на анкета :)
+[17:12:08] <phalaaxx> всъщност за да съм съвсем откровен - никога не съм пипал линукс на който няма shadow, честно казано не съм сигурен дали е възможно в наши дни съществуването и функционирането на дистрибуция без shadow (може би твърде много неща вече зависят от това)
+[17:18:18] <yulimoto> phalaaxx: да просто въпроса ми се стори интересен, и зададен твърде сложно :)
+[17:19:10] <yulimoto> просто попаднах на една статия в tldp и ми стана интересно :)
+[17:19:23] <phalaaxx> :)
+[17:19:34] <phalaaxx> ако решиш да пробваш дали работи - кажи после че ми е любопитно
+[17:23:14] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
