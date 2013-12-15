@@ -108,3 +108,20 @@
 [20:00:00] Writing user file...
 [20:00:00] Writing channel file...
 [20:00:49] Fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[20:07:38] <fityla> живи има ли
+[20:08:46] <Fairytale> Emi mardat nqkoi vse oste
+[20:14:15] <fityla> хехе..
+[20:14:15] <fityla> ;)
+[20:38:45] <fityla> дигам един openvpn
+[20:38:47] <fityla> http://wiki.openwrt.org/doc/howto/vpn.openvpn
+[20:38:48] <wilindex> [ Easy OpenVPN server setup guide - OpenWrt Wiki ] - wiki.openwrt.org
+[20:39:02] <fityla> има ли нещо което трябва да се добави според вас
+[20:40:05] <fityla> 2048 RSA
+[20:40:09] <fityla> ок ли е?
+[20:55:36] <rew1nd> hackman спомена, че до 8192 RSA са лесно разбиваеми от NSA и единственото, което си заслужава е Eliptic Curve DSA
+[20:55:52] <rew1nd> това ако решиш да параноясваш
+[20:58:40] <rew1nd> yulimoto, гледам, че се води "a Lua implementation of an ext3 filesystem checker...", но аз лично не съм го срещал никога
+[20:59:23] <rew1nd> абе... забравих да ви кажа, днес на LPI на изпита имаше едно много симпатично младо момиче, направо паднах, това е последното място, на което съм очаквал да видя такова :)
+[20:59:42] <rew1nd> и май си го взе и тя
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
