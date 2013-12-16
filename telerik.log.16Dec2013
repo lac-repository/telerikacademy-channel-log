@@ -270,3 +270,20 @@
 [22:00:00] Writing channel file...
 [23:00:00] Writing user file...
 [23:00:00] Writing channel file...
+[23:14:06] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[23:19:59] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[23:25:19] wilindex (~willie@91.230.230.251) left irc: Ping timeout: 252 seconds
+[23:28:39] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[23:28:39] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[23:33:20] wilindex (~willie@91.230.230.251) left irc: Ping timeout: 260 seconds
+[23:33:54] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[23:33:55] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[23:37:05] <rew1nd> някой правил ли си е transparent caching proxy ?
+[23:37:05] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[23:37:19] <rew1nd> wilindex ??
+[23:37:19] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[23:40:38] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left #telerikacademy.
+[23:58:49] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[00:00:00] --- Tue Dec 17 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...
