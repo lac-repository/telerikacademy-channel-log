@@ -8,3 +8,29 @@
 [01:48:26] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
 [02:00:00] Writing user file...
 [02:00:00] Writing channel file...
+[02:15:23] <fairytale> wilindex ??
+[02:15:23] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:15:55] <fairytale> wilindex /?
+[02:15:55] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:17:55] <fairytale> Някой ако се интересува от БГ ТВта http://www.tvonlinestreams.com/16-bulgarian/4078-here-bulgarian-premium-package-good-quality-updated-by-halilou-comment
+[02:17:55] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:17:57] <wilindex> [ {{{HERE BULGARIAN PREMIUM PACKAGE GOOD QUALITY UPDATED BY HALILOU}}}***COMMENT*** ] - www.tvonlinestreams.com
+[02:18:18] <fairytale> Аз си ги вкарах в SMPlayer
+[02:18:18] <wilindex> ...
+[02:19:03] <fairytale> wilindex нещо изпуши :-)
+[02:19:03] <wilindex> ...
+[02:23:06] <hackman> :)
+[02:23:06] <wilindex> ...
+[02:23:21] <hackman> кои се еба така с ботя
+[02:23:21] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:23:42] <fairytale> Нещо му е лошо
+[02:23:42] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:24:03] <hackman> някой му е вкарал нещо в reminders file-а което ботя не разбира :)
+[02:24:10] <fairytale> :-))
+[02:24:10] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:28:12] Last message repeated 1 time(s).
+[02:28:12] <fairytale> Аз отивам да поспя малко
+[02:28:12] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:37:08] fairytale (~fairytale@77.70.117.169) left irc: Remote host closed the connection
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
