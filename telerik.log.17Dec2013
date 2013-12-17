@@ -84,3 +84,29 @@
 [11:03:12] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
 [11:03:27] <yulimoto> този иска да ми каже нещо ама йок
 [11:03:27] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[11:13:59] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[11:14:22] Nick change: hackman -> Guest70402
+[11:14:25] <Guest70402> KrasiGa, DECATHLON-а е на 10мин пеш от мен :)
+[11:14:25] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[11:14:29] Nick change: Guest70402 -> azilian
+[11:14:53] <azilian> ко ти стана пак бе wilindex
+[11:14:54] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd1 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[11:15:01] Nick change: azilian -> hackman
+[11:15:21] <KrasiGa> hackman, ще идваш ли преди нова година насам?
+[11:15:31] <KrasiGa> нали щеше да ходиш по училищата?
+[11:15:46] <hackman> KrasiGa, не... след НГ ще е
+[11:15:58] <KrasiGa> ако не, може с наложен платеж по куриер тогава
+[11:16:14] <hackman> това с наложения платеж не съм го играл :)
+[11:16:47] <KrasiGa> и аз не съм пращала, само съм получвала
+[11:17:00] <KrasiGa> тия пък как може да не правят такива услуги
+[11:32:17] <yulimoto> KrasiGa: пусни им един имейл (пиши че ти трябва за мостра ала-бала), може направо те да пращат с наложен платеж
+[11:32:35] <KrasiGa> абе аз говорих сутринта с тях по телефона
+[11:32:50] <KrasiGa> ще пуснат услугата ама на този етап нямат
+[11:34:46] wilindex (~willie@91.230.230.251) left irc: Ping timeout: 248 seconds
+[11:35:32] <yulimoto> ясно значи през човек :)
+[11:36:00] <yulimoto> по спиди или еконт ако имат на близо офис
+[11:37:49] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[11:37:49] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:04:46] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
