@@ -213,3 +213,181 @@
 [21:43:19] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:07:11] <yulimoto> има ли живи ?
+[22:07:39] <yulimoto> трябва ми някой windows чиляк
+[22:09:32] <urban_filth> намират се живи :)
+[22:09:56] <urban_filth> пиши какво има - ако мога да ти помогна
+[22:10:26] <yulimoto> трябва ми lspci на win
+[22:10:29] <yulimoto> :)
+[22:10:53] <yulimoto> t.e. седнал съм на една машина която не знам  саунд карта има
+[22:11:06] <yulimoto> видеото го намерих с debug и там вкарах някакъв код
+[22:11:34] <yulimoto> как се процедира на win в такива случаи
+[22:12:13] <yulimoto> т.е. не знам каква е саунд картата, за да знам какъв драйвер да търся :)
+[22:12:37] <urban_filth> ахам
+[22:12:53] <yulimoto> може би някакъв код от вендора пак ще свърши работа; къде да го търся обаче
+[22:13:28] <Fairytale> Osven da vidish kakva e na platkata drug nachin ne se sestam
+[22:13:36] <urban_filth> код можеш да го намерия като отвориш device manager-
+[22:14:11] <yulimoto> аха там в систем и hardware
+[22:14:22] <yulimoto> видях нещо :)
+[22:14:31] <rew1nd> yulimoto, какъв уиндоус е това ?
+[22:14:35] <urban_filth> след това би трябвало да виждаш саунд картата с нещо като жълт въпросителен (ако няма драйвери)
+[22:14:58] <yulimoto> xp
+[22:15:20] <yulimoto> urban_filth: да отидох на детайлс
+[22:15:21] <rew1nd> в system information пробва ли да потърсиш нещо ?
+[22:15:41] <yulimoto> няма нищо в system information
+[22:15:45] <urban_filth> десен бутон върхи device-а (дето ти е за саунд) и properties. после отиваш на Details и от падащото меню избираш Hardware IDs
+[22:16:47] <yulimoto> хм
+[22:17:08] <yulimoto> чакайте да се окумуша !!! ;)
+[22:17:22] <urban_filth> това би трябвало да ти покаже кода на вендора
+[22:17:51] <rew1nd> не съм сигурен дали в dxdiag ще видиш нещо също...
+[22:17:55] <Fairytale> ama pri polojenie che wina ne znae kakva e kartata ste mu go dade li?
+[22:18:11] <rew1nd> но по принцип в system information  съм виждал липсващи драйвъри, но трябва да вдигна виртуалката за да ти кажа къде да търсиш точно
+[22:18:22] <yulimoto> първо ще проверя ид на вендора
+[22:18:34] <rew1nd> а машината не ти е пред очите, така ли ?
+[22:18:47] <phalaaxx> yulimoto: aida32/aida64?
+[22:18:52] <rew1nd> по принцип на самата платка е най-лесно да се ориентираш каква е картата или поне какъв е чипа
+[22:18:56] <Fairytale> Kartata vgradena l ie ili vunshna?
+[22:19:03] <urban_filth> ако го вижда дивайса, но не го разпознава, защото няма драйвери би трябвало да даде инфо за кода на вендора
+[22:19:10] <phalaaxx> ще се перна през ръчичките, от къде знам такива неща за уиндоус та да ги пиша!
+[22:19:29] <rew1nd> да, phalaaxx много хубава отправна точка дава - пробвай с някой Everest/Aida portable edition
+[22:19:32] <Fairytale> :-P
+[22:19:35] <urban_filth> иначе, може да пробвая и със SIW
+[22:20:03] <yulimoto> phalaaxx: какво е aida32
+[22:20:13] <yulimoto> i SIW
+[22:20:14] <rew1nd> каквото е и Everest :)
+[22:20:18] <yulimoto> qsno
+[22:20:18] <Fairytale> Ako e vgradena vij modela na dunoto
+[22:20:34] <rew1nd> tool, който рови в system information и ти вади на лесно информацията за хардуера :)
+[22:20:49] <rew1nd> Fairytale, очевидно не е вградена :)
+[22:20:56] <yulimoto> hubu de няма ли някаквъв чалъм да видя вендор ид-то и девисе номера и да си ги намеря цивилизовано
+[22:21:11] <Fairytale> Ne mislq che tezi tools ste pokajat nesto pri polojenie che nqma driver
+[22:21:18] <rew1nd> има, но ще ти кажа след малко, в момента ми се инсталират ъпдейти на виртуалния вин7
+[22:21:40] <Fairytale> Az v takiva sluchai prosto otvarqm kapaka i gledam kakvo pishe na chipa na kartata
+[22:21:59] <rew1nd> да де ама той май не е пред пц-то
+[22:22:17] <rew1nd> yulimoto, признай си - съпортваш някого remotely :)
+[22:22:29] <Fairytale> Kakav % ste vzemem?
+[22:23:32] <yulimoto> не ве пц-то е тука ама на студено, а аз съм на топло
+[22:23:39] <urban_filth> yulimoto, в детайлс като избра Hardware Ids не се ли появи кода?
+[22:23:41] <yulimoto> иначе е вкъщи
+[22:23:49] <yulimoto> да появи се
+[22:24:27] <yulimoto> искам да разбера и как се процедира цивилизовано :)
+[22:24:47] <yulimoto> така
+[22:24:52] <urban_filth> иначе SIW e като Everest и aida32
+[22:25:07] <yulimoto> да мерси
+[22:25:23] <yulimoto> но това с ид на вендора ми се струва най-човешко
+[22:25:26] <yulimoto> )
+[22:25:36] <Fairytale> Civillizovano- vzimasgh edin chuk, Smazvash kutiqta kato gledash da ne povredish sound kartata, Svalqsh q i vijdash kakva e
+[22:25:53] <yulimoto> познайте !!!!
+[22:25:53] <phalaaxx> е те тия програми това правят - гледат ID-тата и по тях ти казват какъв е хардуера
+[22:26:01] <yulimoto> не това е култово
+[22:26:03] <phalaaxx> yulimoto: 42?
+[22:26:09] <rew1nd> пхахаха :)
+[22:26:11] <yulimoto> не
+[22:26:21] <rew1nd> много... вселенско :)
+[22:26:26] <yulimoto> РеалTek AC'97
+[22:26:32] <yulimoto> не познахте
+[22:26:33] <yulimoto> ахахахах
+[22:27:13] <phalaaxx> има ли желаещи за ut2004 след около час и половина? :))
+[22:27:37] <urban_filth> yulimoto, като вземеш Ids можеш да го провериш на този сайт: http://www.pcidatabase.com/
+[22:27:39] <wilindex> [ PCI Vendor and Device Lists ] - www.pcidatabase.com
+[22:27:44] <rew1nd> аз я нямам и не съм сигурен, че ще мога да яподкарам под Scientific
+[22:27:59] <yulimoto> urban_filth: там съм taka и направих :)
+[22:28:12] <rew1nd> добре де... в system information на hardware resources виждаш ли я в IRQs ?
+[22:28:35] <yulimoto> rew1nd: сцентифика ще ми го хвалиш ли ?
+[22:28:44] <yulimoto> сега ще видя какво виждам точно
+[22:28:45] <urban_filth> ок :)
+[22:29:12] <rew1nd> yulimoto, аз много му се радвам, щото е 100% като центос и RHEL
+[22:29:25] <rew1nd> но си има своите... peculiarities :)
+[22:30:16] <rew1nd> много е хубав за подготовка за RHCSA и RHCE, но не можеш да подкараш steam на него :D
+[22:30:33] <yulimoto> има едно Старт->All Progr. -> Accessiaries->System Tools-> System INformation За него ли ми говориш ?
+[22:30:43] <phalaaxx> rew1nd: аз досега не съм виждал линукс на който не върви (но и реално не съм пробвал на кой знае колко много дистрибуции)
+[22:30:43] <rew1nd> мда, именно
+[22:31:34] <rew1nd> phalaaxx, аз пробвах доста пъти, повярвай ми :)
+[22:31:34] <rew1nd> https://github.com/xvitaly/steamrpm/issues/15
+[22:31:36] <wilindex> [ Broken dependencies in RHEL/CentOS/SL 6.4 · Issue #15 · xvitaly/steamrpm · GitHub ] - github.com
+[22:32:04] <rew1nd> както и https://github.com/ValveSoftware/steam-for-linux/issues/2253
+[22:32:05] <phalaaxx> rew1nd: не си ме питал мен как да пробваш? :))
+[22:32:06] <wilindex> [ EL6 glibc issue · Issue #2253 · ValveSoftware/steam-for-linux · GitHub ] - github.com
+[22:32:13] <phalaaxx> какъв steam какви 5 лева
+[22:32:24] <rew1nd> true :) не съм
+[22:32:28] <yulimoto> rew1nd: не не се вижда там
+[22:32:49] <yulimoto> в началото помислих че се вижда но това е етернета
+[22:33:22] <rew1nd> yulimoto, ок, при мен има още нещо в components -> sound device, но не виждам нищо вътре
+[22:33:40] <yulimoto> i towa опитах преди малко
+[22:34:02] <rew1nd> ок, значи наистина остава отварянето на кутията и Hardware ID-то, което имаш
+[22:34:03] <yulimoto> чаках 40 секунди да загрее и да ми каже че не вижда нищо
+[22:34:14] <rew1nd> е... Windows
+[22:34:20] <yulimoto> rew1nd: ама то какво rpm  дистро ли е ?
+[22:34:44] <rew1nd> често го пишат RHEL/CentOS/SL
+[22:34:55] <rew1nd> базирано е на същия сорс код
+[22:35:25] <yulimoto> каква му е пакетната система ?
+[22:35:28] <rew1nd> https://en.wikipedia.org/wiki/Scientific_Linux ползва се в ЦЕРН
+[22:35:30] <wilindex> [ Scientific Linux - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[22:35:43] <rew1nd> rpm, практически това си е RHEL clone
+[22:35:48] <yulimoto> ясно
+[22:35:53] <yulimoto> не тежи ли ?
+[22:36:08] <rew1nd> в смисъл ?
+[22:38:25] <yulimoto> е предполагам не е пъргаво като slack ;p
+[22:38:27] <rew1nd> yulimoto, не схванах въпроса - откъм ресурси или използваемост ?
+[22:38:39] <yulimoto> от към ресурси ?
+[22:38:46] <rew1nd> е... аз slack не съм пробвал, но някога се бях ентусиазирал с arch :)
+[22:39:01] <rew1nd> определено не е толкова бърз, но не мисля, че сега ще усетя кой знае каква разлика
+[22:39:03] <phalaaxx> и аз пробвах arch преди 2 седмици
+[22:39:06] <phalaaxx> и си останах с пробата
+[22:39:18] <yulimoto> ще го погледна само да си намеря мишката :)
+[22:39:21] <phalaaxx> нацепих си дяловете както аз си знам
+[22:39:31] <phalaaxx> и това чудо фейлна след инсталацията
+[22:40:02] <phalaaxx> някой умник му е хрумнала гениалната идея да махне /bin и /sbin
+[22:40:02] <rew1nd> в смисъл на 12GB RAM и 128GB hi-grade SSD не мисля, че ще има такава - дори съм пуснал full encryption на LVM-a
+[22:40:13] <phalaaxx> и да ги направи symlinks към /usr/bin и /usr/sbin
+[22:40:49] <rew1nd> phalaaxx, arch взаимства доста иде от LFS, нормално е да има такива извращеняи
+[22:40:54] <rew1nd> *извращения
+[22:40:56] <yulimoto> phalaaxx: и ти си направи пъртишън на /usr
+[22:41:11] <phalaaxx> амии това е някак в противоречие със FHS
+[22:41:13] <rew1nd> пфф.. *идеи
+[22:41:21] <phalaaxx> не че те твърдят че следват стандарта ама...
+[22:41:29] <phalaaxx> някак неразумно е
+[22:41:33] <phalaaxx> адски неразумно
+[22:41:48] <rew1nd> а симлинковете накъде сочат
+[22:42:09] <rew1nd> в смисъл аз когато се занимавах последно с него мисля, че нямаше такива главоболия
+[22:42:13] <rew1nd> имаше други :D
+[22:42:28] <phalaaxx> амиии... /bin -> /usr/bin, /sbin -> /usr/sbin
+[22:42:45] <phalaaxx> и да, сложих си /usr на отделен partition
+[22:42:52] <phalaaxx> и това тотално не проработи
+[22:42:57] <yulimoto> и тръгна ли
+[22:43:01] <yulimoto> аха ясно
+[22:43:14] <phalaaxx> ми няма как да стане
+[22:43:24] <phalaaxx> mount ти е на дял който трябва да го mount-неш...
+[22:43:28] <phalaaxx> леко тъпо става
+[22:43:47] <yulimoto> не ве може да си го оправиш от initrd-то ;P
+[22:43:47] <phalaaxx> подобно безумие не очаквах от дистрибуция която има някакви претенции
+[22:44:25] <phalaaxx> как ще го оправиш от initrd?
+[22:44:50] <yulimoto> е не съм казал че ще е лесно
+[22:45:03] <yulimoto> ;П
+[22:45:18] <phalaaxx> аз сравнително лесно го оправих
+[22:45:26] <phalaaxx> http://www.debian.org/
+[22:45:27] <wilindex> [ Debian -- The Universal Operating System ] - www.debian.org
+[22:45:30] <phalaaxx> от там беше лесно
+[22:45:33] <phalaaxx> :)
+[22:45:46] <yulimoto> мммда
+[22:47:02] <phalaaxx> ако си бях с онзи акъл от преди 8 - 10 години когато всичко си бухах на 1 partition - нямаше да имам проблеми
+[22:48:16] <yulimoto> 8-10 години ползваш линукс ? еййй баце
+[22:48:32] <phalaaxx> не, повечко са :)
+[22:48:48] <phalaaxx> някъде от '98-ма
+[22:48:52] <phalaaxx> ама с прекъсвания в началото
+[22:50:05] <yulimoto> аз си сложих един слак 1999 (3 месеца по-късно подкарах и саунда)  ама просто имах други планове и си остана така слак 4 на 200 мгх пентуим
+[22:50:05] <phalaaxx> ок, малко съм излъгал значи
+[22:50:07] <phalaaxx> от 99-та
+[22:50:22] <phalaaxx> ей сега видях че Mandrake 5.3 е излязла февруари 99-та
+[22:50:33] <phalaaxx> значи от тогава са ми първите стъпки :)
+[22:51:23] <yulimoto> на мен първо ми сложиха редхат, обаче ми писна за 1 месец нещо и газ на слак
+[22:52:12] <phalaaxx> еееех, добрите стари времена - когато Mandriva още беше Mandrake а Slackware беше любимата дистрибуция :)
+[22:55:08] <phalaaxx> аз Mandrake-а си го сложих сам
+[22:55:15] <phalaaxx> и веднага след инсталацията го изтрих
+[22:55:24] <phalaaxx> щото не знаех какви са тия username/password дето ми ги иска
+[22:55:57] <yulimoto> някакви серийни номера сигурно :P
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:03:45] <phalaaxx> ейй звука едно време беше яко забавно да се подкара
+[23:04:09] <phalaaxx> беше едно зареждане на модули, едно компилиране на kernel... :)
+[23:04:43] <yulimoto> за 2-3 месеца сколасах
