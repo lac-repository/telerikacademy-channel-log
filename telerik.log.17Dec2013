@@ -391,3 +391,72 @@
 [23:03:45] <phalaaxx> ейй звука едно време беше яко забавно да се подкара
 [23:04:09] <phalaaxx> беше едно зареждане на модули, едно компилиране на kernel... :)
 [23:04:43] <yulimoto> за 2-3 месеца сколасах
+[23:05:12] <yulimoto> може и 3-4 да са били :) но бях горд .... мноооогооо горд
+[23:05:49] <yulimoto> аз първо не можех да си насртоя X
+[23:07:13] <phalaaxx> да бе, и аз така
+[23:07:49] <phalaaxx> un/pw в текстова конзола, затрих го и си сложих уин за да отворя цд-то и да прочета в текстовите файлове дали не пише нещо  за потребител и парола
+[23:08:03] <phalaaxx> и ги видях и аре пак затрих уин за да слагам мандрейк
+[23:08:39] <phalaaxx> и като се логнах - о каква неприятна изненада, нищо от това което знаех за ДОС не ми свърши работа
+[23:08:42] <phalaaxx> и аре пак на уин :D
+[23:10:52] <yulimoto> :) аз имах свидлив да дава знания приятел, обаче имаше ирц
+[23:11:52] <yulimoto> а бе това xp да не са му спряни ъпдейтите от сайта бря
+[23:14:18] <urban_filth> не би трябвало. С кой Service Pack е?
+[23:16:07] <yulimoto> гол е
+[23:16:30] <yulimoto> не знам sp1
+[23:18:06] <urban_filth> оттук можеш да изтеглиш SP3: http://www.microsoft.com/en-us/download/details.aspx?id=24
+[23:18:09] <wilindex> [ Download Windows XP Service Pack 3 Network Installation Package for IT Professionals and Developers from Official Microsoft Download Center ] - www.microsoft.com
+[23:19:25] <urban_filth> първо инсталирай SP3 и след това го пусни да се ъпдейтва през Windows Update
+[23:20:05] <yulimoto> сп3 за какво ми е сп3
+[23:22:35] <urban_filth> това е последния SP и той включва в себе си предходни ъпдейти, добавя някои функционалности и т.н.
+[23:22:54] <yulimoto> да не стане тежко
+[23:23:02] <urban_filth> например може да се случи някоя програма да има грижи заради по-стара версия на Service Pack-а
+[23:23:38] <yulimoto> това е специален комп
+[23:24:08] <yulimoto> 1.25Ghz Атхлон  768 MB Ram
+[23:24:10] <yulimoto> !!!
+[23:24:22] <yulimoto> аз мислех че е поне 2 мгХ
+[23:24:23] <yulimoto> :)
+[23:24:44] bborka (~bborka@91.210.103.182) joined #telerikacademy.
+[23:25:51] <urban_filth> с колко рам е? процесор?
+[23:26:16] <rew1nd> http://slovored.com/games/hangman/
+[23:26:35] <yulimoto> 768 РАМ
+[23:26:35] <rew1nd> yulimoto, SP3 ще пее на тази машинка :)
+[23:26:52] <rew1nd> доколкото ХР може изобщо да пее :Р
+[23:26:55] <yulimoto> 1.25 Ghz Athlon
+[23:28:24] <urban_filth> според мен ще е ок
+[23:28:42] <urban_filth> а РС-то ще има ли достъп до и-нет
+[23:29:43] <urban_filth> щото без SP3 мисля че ще ти създава грижи
+[23:30:06] <urban_filth> ама все пак зависи за какво основно ще го ползаш
+[23:30:44] <yulimoto> ще го ползват в едно заведение да си пускат музичка, и когато няма хора да си гледат двама мъже и 1/2
+[23:30:58] <yulimoto> ааа faceto !!!
+[23:31:00] <urban_filth> може да ти върши работа и без SP3
+[23:31:36] <yulimoto> да бре обче нещо с видето сега сме на мушка
+[23:31:55] <yulimoto> та поне да почне ъпдейтите там installer да подкара
+[23:32:40] <yulimoto> имаше ли някакъв пиниз трябваше ли installer да сложи, че да мога да си инсталирам някакви работи ?
+[23:33:29] <urban_filth> няма
+[23:33:55] <yulimoto> ясно бъркам значи :)
+[23:34:19] <urban_filth> общо взето next -> next -> finish :)
+[23:38:32] bborka (~bborka@91.210.103.182) left irc: Ping timeout: 248 seconds
+[23:40:49] <yulimoto> тегля сп2 za IT professionals i developers ; ще има ли проблем ?
+[23:40:53] <yulimoto> нещо с това
+[23:43:42] <urban_filth> не - като цяло като СП3, но съдържа съответно по-малко секюрити пачове и функционалности
+[23:47:17] <urban_filth> в един момент сигурно ще се стигне и до офис пакет :) ако ти трябват s/n пиши :) алтернативата е open office за win
+[23:49:40] <yulimoto> о йе ще пропусна :)
+[23:53:06] <urban_filth> :)
+[23:53:21] <Fairytale> Слагай SP3 . Върви перфектно
+[23:54:01] <yulimoto> какво стана с видео картата ?
+[23:54:22] <Fairytale> Моята ли?
+[23:54:43] <yulimoto> ахъм
+[23:54:58] <Fairytale> Чакам от МОСТ да се наканят да я пуснат за да видят, че не работи FANа
+[23:55:29] <Fairytale> Общо взето чисто нова карта и съм без карта
+[23:55:59] <yulimoto> развалена ?
+[23:56:36] <Fairytale> Иначе Kacapana uredi da q smenime za BOOST, no trqbva konstativen protokol ot servisa
+[23:56:54] <Fairytale> Ventilatora sprq
+[23:57:09] <Fairytale> Zapekul e
+[23:57:37] <Fairytale> zZa moment kartata pregrq
+[23:57:51] <Fairytale> Napravo sprq, Sigurno e minala 100 gradusa
+[23:58:39] <Fairytale> Abe napravo pareshe kato e pregledah
+[23:59:19] <yulimoto> браво, майсто си :P
+[23:59:21] <Fairytale> Inache bez FAN ako ne q tovarish ne minava 60 gradusa
+[00:00:00] --- Wed Dec 18 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...
