@@ -80,3 +80,18 @@
 [11:58:30] <yulimoto> въпросче: кажете има ли рестрикции по отношение на големината на имената на променливи в BASH ?
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
+[12:07:55] fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[12:09:12] <fairytale> KacanuH, Здр. Някакъе резултат за картата?
+[12:09:13] <phalaaxx> http://www.lowbird.com/data/images/2013/12/kxaav1v.gif
+[12:09:39] <fairytale> :-)
+[12:26:25] <phalaaxx> yulimoto: http://stackoverflow.com/questions/1078031/what-is-the-maximum-size-of-an-environment-variable-value
+[12:26:26] <wilindex> [ linux - What is the maximum size of an environment variable value? - Stack Overflow ] - stackoverflow.com
+[12:26:53] <KacanuH> fairytale: лудница ми в в момента, ще погледна по-късно
+[12:27:45] <fairytale> KacanuH, ok
+[12:39:46] <yulimoto> phalaaxx: за value ok, а за name ?
+[12:39:53] <yulimoto> towa e уловката на въпроса ;P
+[12:47:36] <phalaaxx> амиии NAME=VALUE - това е environment variable
+[12:48:55] <phalaaxx> като имаш ограничение за всички общо - предполагам можеш да си го изхабиш в името на една променлива само, стига да имаш желание и това да те забавлява :)
+[12:59:41] niki (~niki@213.91.241.45) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
