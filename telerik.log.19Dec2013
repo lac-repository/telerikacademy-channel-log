@@ -95,3 +95,18 @@
 [12:59:41] niki (~niki@213.91.241.45) joined #telerikacademy.
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
+[13:06:10] Nick change: niki -> nlkl
+[13:34:07] <hackman> vhristerv baq si e poigral
+[13:34:18] <hackman> .tell vhristev bravo za dobrata dokumentaciq kum testa
+[13:34:18] <wilindex> hackman: I'll pass that on when vhristev is around.
+[13:38:03] <hackman> yulimoto, за cmdline args  -  getconf ARG_MAX
+[13:40:12] <hackman> yulimoto, иначе за env vars, size-а лимита на процеса(bash)
+[13:40:17] <hackman> лимита памет от ulimit -a
+[13:45:40] <KacanuH> http://www.dnes.bg/blogini/2013/12/18/policeiski-biseri.209957
+[13:45:41] <wilindex> [ Полицейски бисери | БЛОГИНИ Dnes.bg ] - www.dnes.bg
+[13:49:24] <dencho> hahaha
+[13:49:26] <dencho> :)
+[13:49:30] <dencho> miliciata
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:04:55] <dencho> e sq prikazvah s edin milicioner
