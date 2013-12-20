@@ -190,3 +190,13 @@
 [16:50:11] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:11:39] <KacanuH> По пътя на логиката би следвало отговора да е ТЦ
+[17:22:09] hackman (~hackman@management.1h.com) left irc: Ping timeout: 252 seconds
+[17:23:28] <KacanuH> http://ibm-1401.info/ACM1401Sim.html
+[17:23:29] <wilindex> [ 1401 Compatibility Feature ] - ibm-1401.info
+[17:24:16] <KacanuH> Тоест се оказа че греша, и размера е както предполагах в началото 512б
+[17:36:53] <vhristev> Кепаса амигоз
+[17:43:08] bgpepi (~bgpepi@ip-80-236-246-4.dsl.scarlet.be) joined #telerikacademy.
+[17:52:41] fairytale (~fairytale@77.70.117.169) left irc: Remote host closed the connection
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
