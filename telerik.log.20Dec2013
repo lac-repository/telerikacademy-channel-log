@@ -105,3 +105,36 @@
 [10:46:49] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
+[11:06:10] <KacanuH> Добро ви утро
+[11:06:17] <vhristev> morn
+[11:06:31] <vhristev> Утрото е бая по назад KacanuH ти май вече за обяд
+[11:08:47] <yulimoto> въпросче: Ако смените пермишъните на /tmp от 1777 на 0655 ще имате проблем със следните неща: а. системата няма да бутне правилно ; б. Х Сървъра няма да стартира в. някои дивайси няма да работят г. man няма да работи е. нито едно от изброените
+[11:09:57] <yulimoto> ще имате проблем със следните неща *след рестарт
+[11:17:41] <vhristev> е.
+[11:18:04] <yulimoto> вери гуд :)
+[11:22:25] <vhristev> може да имаш проблем с апаче
+[11:22:29] <vhristev> но от тия изброените едва ли
+[11:22:48] <vhristev> аз моят темп от мн време си го монтирам в меморито
+[11:23:16] <vhristev> [11:31]vhristev@vhristev:~$ grep tmp /etc/fstab
+[11:23:16] <vhristev> tmpfs   /tmp       tmpfs   defaults,noatime,mode=1777   0  0
+[11:23:16] <vhristev> tmpfs   /var/spool tmpfs   defaults,noatime,mode=1777   0  0
+[11:23:16] <vhristev> tmpfs   /var/tmp   tmpfs   defaults,noatime,mode=1777   0  0
+[11:23:49] <vhristev> yulimoto, ако правиш някакъв тест я ми го прати
+[11:30:10] <yulimoto> да играя си общо взето, но rc.sysinit оправя там х съреъра : mkdir -m 1777 /tmp/.ICE-unix  и т.н.
+[11:40:36] KacanuH_ (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[11:41:34] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Ping timeout: 240 seconds
+[11:41:46] Nick change: KacanuH_ -> KacanuH
+[11:41:50] <KpeTeHoug> yulimoto играч :)
+[11:42:16] Nick change: KacanuH -> Guest6957
+[11:42:46] <yulimoto> KpeTeHoug: ууу ти се появи :)
+[11:43:28] <yulimoto> KpeTeHoug: мислех, че си загинал в мърджването !
+[11:44:14] <KpeTeHoug> абе
+[11:44:19] <KpeTeHoug> сървайвнах
+[11:44:27] <KpeTeHoug> ма сега са ме налегнали празниците
+[11:44:30] <KpeTeHoug> и да си ебе :)
+[11:44:32] <KpeTeHoug> ма съм жив
+[11:49:58] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[11:51:02] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[11:52:27] <yulimoto> :)
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
