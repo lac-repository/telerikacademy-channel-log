@@ -13,3 +13,40 @@
 [02:51:57] <fairytale> Ste mi se razkaje igrata dokato isntaliram VLC player na Slack
 [03:00:00] Writing user file...
 [03:00:00] Writing channel file...
+[03:34:55] Action: dencho slaps hackman around a bit with a large trout
+[03:35:00] Action: dencho slaps fairytale around a bit with a large trout
+[03:35:31] <hackman> basi kolko ste boini v 4 sutrinta
+[03:35:36] <hackman> rakiata li vi svurshi ?
+[03:35:39] <dencho> kvo prikaa6 :)
+[03:35:42] <dencho> haha
+[03:35:55] <hackman> install-vam containers za edni kolegi
+[03:36:25] <hackman> sled tova shte si paketiram libvirt+qemu+openvswitch+ebi mu maikata i patch-a deto sglobih :)
+[03:37:20] <hackman> fairytale, shto se muchish s tova vlc ?
+[03:37:28] <hackman> sloji si mplayer i si 6 :)
+[03:40:52] <fairytale> hackman, Opitvam se da podkaram nqkakvi TVta koito sa RTMP linkove
+[03:41:07] <fairytale> samo s VLC vijdam kak stava
+[03:41:19] <fairytale> a i pak ne gi podkarah
+[03:41:54] <fairytale> livestreamer --yes-run-as-root "rtmp://$OPT:rtmp-raw=rtmp://edge1.stream-server.org/lstv//zdf.stream swfUrl=http://stream.live-stream.tv/stv39/player.swf live=1" best
+[03:41:54] <fairytale> [cli][info] Found matching plugin stream for URL rtmp://:rtmp-raw=rtmp://edge1.stream-server.org/lstv//zdf.stream swfUrl=http://stream.live-stream.tv/stv39/player.swf live=1
+[03:41:54] <fairytale> [cli][info] Opening stream: live
+[03:41:54] <fairytale> [cli][error] No data returned from stream
+[03:42:25] <fairytale> Misleh da ne e zastoto nqmam VLC ama qvno ne e
+[03:43:16] <hackman> fairytale, искаш да гледаш RTMP или искаш да stream-ваш RTMP ?
+[03:43:26] <fairytale> da gledam
+[03:44:48] <fairytale> Ne razbiram zasto ne trugvat
+[03:47:59] <fairytale> hackman, Nqkakuv hint? :-)
+[03:48:21] <fairytale> stiga do [cli][error] No data returned from stream
+[03:50:25] <hackman> livestreamer-a можеш да го подкараш и със mplayer
+[03:50:30] <hackman> не ти трябва vlc
+[03:50:41] <hackman> има някаква опция --player ли беше или нещо такова
+[03:51:21] <hackman> възможно е обаче да не можеш да хванеш целия RTMP stream и затова да не можеш да го гледаш
+[03:51:45] <hackman> примерно ние затова сменихме от ustream на twitch... защото RTMP-то на ustream се сменяше на всеки 15-30сек
+[03:53:07] <hackman> има и други неща... като например rtmpsniff или нещо подобно се казваше, с което можеш да си извадиш реалният RTMP stream когато ги отваряш с browser-а :)
+[03:56:10] <fairytale> Az i ne sum siguren che tezi linkove rabotqt
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:01:55] <fairytale> LOL prez VLC TVtata mi varvqt po dobre otkolkoto na SMPlayer !!!
+[04:02:06] <fairytale> Na SMplayer HDtata nasichat
+[04:02:21] <fairytale> Na VLC varvi perfektno !!!
+[04:02:30] <fairytale> Basi kachestvoto !!
+[04:04:40] <fairytale> Sega ste probvam i na Mplayer
