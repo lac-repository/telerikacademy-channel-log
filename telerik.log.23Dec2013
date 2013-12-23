@@ -87,3 +87,11 @@
 [17:03:00] <fairytale> 05:02.0 Multimedia audio controller: Creative Labs SB Audigy (rev 03)
 [17:03:13] <fairytale> искам да махна 01:00.1 Audio device: NVIDIA Corporation Device 0e0b (rev a1)
 [17:03:26] <fairytale> Na Slackware e
+[17:07:56] <fairytale> Пробвах echo 1 > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1/remove обаче след рестарт пак се зарежда
+[17:09:48] <fairytale> -su: /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1/remove: Permission denied
+[17:31:59] fairytale (~fairytale@46.249.85.67) left irc: Remote host closed the connection
+[17:35:33] fairytale (~fairytale@46.249.85.67) joined #telerikacademy.
+[17:36:51] <fairytale> Вкарах като ред echo 1 > /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1/remove   в /etc/rd.d/rc.local
+[17:37:10] <fairytale> и засега всичк ое наред май, нямам идея какво съм направил
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...

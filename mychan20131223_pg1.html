@@ -106,6 +106,21 @@
 			<div>&nbsp;<span class="time">[16:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
 			<div>&nbsp;<span class="time">[16:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
 			<div>&nbsp;<span class="time">[16:25:43]</span>&nbsp;<span class="else_li">&nbsp;Fairytale (~Svetlyo@46.249.85.66) left irc: Quit: Leaving</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[17:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[17:02:03]</span>&nbsp;<span class="else_j">&nbsp;fairytale (~fairytale@46.249.85.67) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[17:02:49]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; Кой ще хелпне да изтрия един audio device, нещо не м исе получава</span></div>
+			<div>&nbsp;<span class="time">[17:03:00]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; lspci | grep -i audio</span></div>
+			<div>&nbsp;<span class="time">[17:03:00]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; 01:00.1 Audio device: NVIDIA Corporation Device 0e0b (rev a1)</span></div>
+			<div>&nbsp;<span class="time">[17:03:00]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; 05:02.0 Multimedia audio controller: Creative Labs SB Audigy (rev 03)</span></div>
+			<div>&nbsp;<span class="time">[17:03:13]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; искам да махна 01:00.1 Audio device: NVIDIA Corporation Device 0e0b (rev a1)</span></div>
+			<div>&nbsp;<span class="time">[17:03:26]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; Na Slackware e</span></div>
+			<div>&nbsp;<span class="time">[17:07:56]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; Пробвах echo 1 &gt; /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1/remove обаче след рестарт пак се зарежда</span></div>
+			<div>&nbsp;<span class="time">[17:09:48]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; -su: /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1/remove: Permission denied</span></div>
+			<div>&nbsp;<span class="time">[17:31:59]</span>&nbsp;<span class="else_li">&nbsp;fairytale (~fairytale@46.249.85.67) left irc: Remote host closed the connection</span></div>
+			<div>&nbsp;<span class="time">[17:35:33]</span>&nbsp;<span class="else_j">&nbsp;fairytale (~fairytale@46.249.85.67) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[17:36:51]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; Вкарах като ред echo 1 &gt; /sys/devices/pci0000:00/0000:00:01.0/0000:01:00.1/remove   в /etc/rd.d/rc.local</span></div>
+			<div>&nbsp;<span class="time">[17:37:10]</span>&nbsp;<span class="nick">&lt;fairytale&gt;</span><span class="text">&nbsp; и засега всичк ое наред май, нямам идея какво съм направил</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
