@@ -77,3 +77,13 @@
 [15:21:03] rew1nd (~teo@46.238.29.142) left irc: Ping timeout: 264 seconds
 [16:00:00] Writing user file...
 [16:00:00] Writing channel file...
+[16:25:43] Fairytale (~Svetlyo@46.249.85.66) left irc: Quit: Leaving
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:02:03] fairytale (~fairytale@46.249.85.67) joined #telerikacademy.
+[17:02:49] <fairytale> Кой ще хелпне да изтрия един audio device, нещо не м исе получава
+[17:03:00] <fairytale> lspci | grep -i audio
+[17:03:00] <fairytale> 01:00.1 Audio device: NVIDIA Corporation Device 0e0b (rev a1)
+[17:03:00] <fairytale> 05:02.0 Multimedia audio controller: Creative Labs SB Audigy (rev 03)
+[17:03:13] <fairytale> искам да махна 01:00.1 Audio device: NVIDIA Corporation Device 0e0b (rev a1)
+[17:03:26] <fairytale> Na Slackware e
