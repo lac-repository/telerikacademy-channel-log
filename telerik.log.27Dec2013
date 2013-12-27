@@ -78,3 +78,13 @@
 [11:00:00] Writing channel file...
 [11:03:11] yulimoto_ (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
 [11:04:02] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[11:09:27] <phalaaxx> как сте коледни еленчета :)
+[11:09:27] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[11:09:38] <phalaaxx> уу тоя пак са го хванали бесните
+[11:09:38] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[11:09:56] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[11:10:33] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[11:10:33] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[11:22:08] yulimoto_ (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
