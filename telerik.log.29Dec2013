@@ -22,3 +22,33 @@
 [07:00:00] Writing channel file...
 [08:00:00] Writing user file...
 [08:00:00] Writing channel file...
+[08:45:43] DNS resolve failed for chat.freenode.net
+[08:46:43] DNS resolve failed for irc.freenode.net
+[08:47:16] net: connect! sock 6
+[08:47:16] net: eof!(read) socket 6
+[08:48:02] net: connect! sock 6
+[08:48:02] net: eof!(read) socket 6
+[08:49:01] DNS resolve failed for chat.freenode.net
+[08:50:01] DNS resolve failed for irc.freenode.net
+[08:51:16] net: connect! sock 6
+[08:51:16] net: eof!(read) socket 6
+[08:53:04] DNS resolve failed for chat.freenode.net
+[08:54:04] DNS resolve failed for irc.freenode.net
+[08:55:05] net: connect! sock 6
+[08:55:05] net: eof!(read) socket 6
+[08:56:35] net: connect! sock 6
+[08:56:35] net: eof!(read) socket 6
+[08:57:46] DNS resolve failed for chat.freenode.net
+[08:58:46] DNS resolve failed for irc.freenode.net
+[08:59:05] net: connect! sock 6
+[08:59:05] net: eof!(read) socket 6
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:01:07] net: connect! sock 6
+[09:01:07] net: eof!(read) socket 6
+[09:01:08] DNS resolve failed for chat.freenode.net
+[09:02:08] DNS resolve failed for irc.freenode.net
+[09:03:10] net: connect! sock 6
+[09:03:10] net: eof!(read) socket 6
+[09:04:15] net: connect! sock 6
+[09:04:15] net: eof!(read) socket 6
