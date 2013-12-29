@@ -226,3 +226,34 @@
 [11:03:07] DNS resolve failed for irc.freenode.net
 [11:04:10] net: connect! sock 6
 [11:04:10] net: eof!(read) socket 6
+[11:05:09] net: connect! sock 6
+[11:05:09] net: eof!(read) socket 6
+[11:06:07] DNS resolve failed for chat.freenode.net
+[11:07:07] DNS resolve failed for irc.freenode.net
+[11:08:38] net: connect! sock 6
+[11:08:38] net: eof!(read) socket 6
+[11:09:15] net: connect! sock 6
+[11:09:15] net: eof!(read) socket 6
+[11:10:50] DNS resolve failed for chat.freenode.net
+[11:11:50] DNS resolve failed for irc.freenode.net
+[11:12:39] net: connect! sock 6
+[11:12:39] net: eof!(read) socket 6
+[11:13:15] net: connect! sock 6
+[11:13:15] net: eof!(read) socket 6
+[11:14:08] DNS resolve failed for chat.freenode.net
+[11:15:08] DNS resolve failed for irc.freenode.net
+[11:16:12] net: connect! sock 6
+[11:16:12] net: eof!(read) socket 6
+[11:17:10] net: connect! sock 6
+[11:17:10] net: eof!(read) socket 6
+[11:18:09] DNS resolve failed for chat.freenode.net
+[11:19:09] DNS resolve failed for irc.freenode.net
+[11:20:09] net: connect! sock 6
+[11:20:25] Telerik joined #telerikacademy.
+[11:20:25] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[11:25:24] <rew1nd> Добро утро, мили хора :)
+[11:25:41] <rew1nd> направо не мога да повярвам колко много хора има тук като за 29-ти декември :)
+[11:26:34] <rew1nd> yulimoto, замислих се, че онзи ден не ти отговорих на въпроса за ZFS и се поразтърсих и трябва да ти призная, че по-хубав ресурс за ZFS от wikipedia и страницата на arch няма :)
+[11:42:50] Fairytale (~Svetlyo@46.249.85.150) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
