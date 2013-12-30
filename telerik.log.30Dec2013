@@ -111,3 +111,20 @@
 [15:28:24] <rew1nd> така е :) виж, явно съм потъркал крак
 [16:00:00] Writing user file...
 [16:00:00] Writing channel file...
+[16:17:59] yulimoto_ (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[16:21:49] <yulimoto> аз пък до сега си правих десктопа - т.е.. първо изтрих всички конфиг файлове от хоум-а защото имаше много много дразнещ бъг, който не можах да хвана и последно разбрах че е мога да го избегна чрез някоя настройка на nautilus
+[16:22:13] <yulimoto> и сега от час съм на тема шрифтове
+[16:22:19] <yulimoto> за декстоп
+[16:22:53] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: leaving
+[16:23:11] <yulimoto_> те така
+[16:23:21] Nick change: yulimoto_ -> yulimoto
+[16:36:08] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[16:37:18] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[16:44:34] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:48:03] <rew1nd> аз пък мисля да унифицирам малко нещата с един Дебиан и да направя и аз същото с домашната папка
+[16:57:09] <yulimoto> ами просто ме изнервяше че чаках доста след като се логвах в gdm-то
+[16:57:15] <yulimoto> сега значително по-добре
+[16:57:45] <yulimoto> е за щастие този път не забравих да си преместя .ssh и др. подобни :)
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:04:07] <rew1nd> :)
