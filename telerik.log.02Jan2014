@@ -123,3 +123,13 @@
 [13:00:00] Writing user file...
 [13:00:00] Writing channel file...
 [13:00:26] fityla (~fityla@84.40.116.146) left irc: Ping timeout: 265 seconds
+[13:18:33] <fityla_> някой по опитен има ли в подкарването на 3G Модеми
+[13:18:43] <fityla_> на линукс и частност openwrt
+[13:18:51] <fityla_> мъча и ме ръчка от вътре..
+[13:40:08] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[13:42:30] fityla_ (~fityla@84.40.116.146) left irc: Ping timeout: 240 seconds
+[13:45:48] <yulimoto> някой знае ли как къде и как да сложа ovpn файловете на vpn клиента на линукс,гноме (инсалиран network-manager-gnome-openvpn пакет), които имам за да не си играя да ги цъкам цък-цък на ръка ?
+[13:49:52] <phalaaxx> аз за VPN-и не ползвам NM и си ги слагам в /etc/openvpn :)
+[13:50:49] <phalaaxx> за autostart се описват в /etc/default/openvpn (Debian, Ubuntu)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
