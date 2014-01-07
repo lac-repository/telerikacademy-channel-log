@@ -133,3 +133,39 @@
 [19:59:34] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
 [20:00:00] Writing user file...
 [20:00:00] Writing channel file...
+[20:09:00] <yulimoto> phalaaxx: издаде на старата и ще ходиш на новата ?
+[20:11:06] <rew1nd> мечо още го боли лапата явно
+[20:11:13] <phalaaxx> мда, днес ми беше последния ден
+[20:12:01] <rew1nd> сега разбирам колко много бях свикнал да чета логовете там :)
+[20:12:23] <rew1nd> phalaaxx, явно почти съвпадат като при мен нещата - аз съм последно на 10-ти в петък
+[20:13:56] <phalaaxx> :)
+[20:17:48] <hackman> rew1nd, довечера ще му сложа нов диск
+[20:17:52] <hackman> и ще се оправи
+[20:17:59] <hackman> много ме марзи да се занимавам с HW :)
+[20:31:36] <rew1nd> като на всички предполагам :)
+[20:32:03] <rew1nd> мен ме чака един компютър на брат ми след седмица-две като се замисля
+[20:35:22] rew1nd (~teo@46.238.29.142) got netsplit.
+[20:36:34] rew1nd (~teo@46.238.29.142) returned to #telerikacademy.
+[20:39:52] fityla (~fityla@85.118.193.172) joined #telerikacademy.
+[20:41:37] fityla_ (~fityla@84.40.116.146) joined #telerikacademy.
+[20:41:55] <fityla_> след няколко дни борба...
+[20:42:13] <fityla_> и обеждаване във форумите че с това не може да тръгне 3g modem-a
+[20:42:24] <fityla_> openwrt го подкарах
+[20:43:05] <fityla_> проблема ... ето този ред.. трябвало да се добави ... echo "1bbb 0017" > /sys/bus/usb-serial/drivers/option1/new_id
+[20:43:27] <fityla_> ама вече знам
+[20:43:28] <fityla_> :D
+[20:43:41] <rew1nd> fityla_, мисля да си пусна опънврт и при мен, тъй като май ще се окаже единствения фърмуер, с който моя рутер работи на 5 гхц
+[20:43:58] <fityla_> :D
+[20:44:07] <fityla_> сега седи дилема дали да му слагам ..
+[20:44:09] hackman (~hackman@management.1h.com) left irc: Ping timeout: 272 seconds
+[20:44:11] <fityla_> диск или флаш
+[20:44:54] <fityla_> имам 500gb диск за 70лв. и една флашка около 40-50лв. 32gb
+[20:44:57] fityla (~fityla@85.118.193.172) left irc: Ping timeout: 265 seconds
+[20:45:16] <fityla_> математиката ще надлее .. май май
+[20:45:17] <fityla_> :D
+[20:49:10] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[20:54:07] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:02:38] <fityla_> rew1nd утре ще ходиш ли във ФМИ
+[21:04:31] <rew1nd> fityla_, а утре ще има ли лекция ?
