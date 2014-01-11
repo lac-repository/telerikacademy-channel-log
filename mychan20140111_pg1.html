@@ -708,6 +708,29 @@
 			<div>&nbsp;<span class="time">[17:57:49]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; престараваш*</span></div>
 			<div>&nbsp;<span class="time">[17:58:00]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; ;)</span></div>
 			<div>&nbsp;<span class="time">[17:58:11]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; сега ще поразтърся из нетя за опенvpn със ecdsa</span></div>
+			<div>&nbsp;<span class="time">[18:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[18:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[18:06:26]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; <a href="http://wiki.openwrt.org/doc/howto/vpn.openvpn">http://wiki.openwrt.org/doc/howto/vpn.openvpn</a></span></div>
+			<div>&nbsp;<span class="time">[18:06:27]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ Easy OpenVPN server setup guide - OpenWrt Wiki ] - wiki.openwrt.org</span></div>
+			<div>&nbsp;<span class="time">[18:10:41]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; значи openvpn-a не се надява само на rsa a прави и dh сертификат (diffie-hellman), който направи поне 4096 :)</span></div>
+			<div>&nbsp;<span class="time">[18:10:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; за него ще почакаш и на голямата машина поне 1-2 минути</span></div>
+			<div>&nbsp;<span class="time">[18:11:28]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; az na rutera</span></div>
+			<div>&nbsp;<span class="time">[18:11:37]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; като видях че минава над 1 час</span></div>
+			<div>&nbsp;<span class="time">[18:11:40]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; го отказах</span></div>
+			<div>&nbsp;<span class="time">[18:11:40]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[18:11:58]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; ами нали ще ги генерираш от голямата и после ще ги прехвърлиш на рутера</span></div>
+			<div>&nbsp;<span class="time">[18:12:06]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; точно</span></div>
+			<div>&nbsp;<span class="time">[18:12:07]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; това ще е</span></div>
+			<div>&nbsp;<span class="time">[18:12:08]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; ;)</span></div>
+			<div>&nbsp;<span class="time">[18:13:00]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; значи dh серификата прави цялата, работа, сега се опитвам да разбера точно как, ама тука вече ми е ту мъч криптографик</span></div>
+			<div>&nbsp;<span class="time">[18:14:20]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; With TLS a connection is made between server and client.</span></div>
+			<div>&nbsp;<span class="time">[18:14:20]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; The server authenticcates itsself to the client with RSA. Its certificate is shown to</span></div>
+			<div>&nbsp;<span class="time">[18:14:23]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; do so.</span></div>
+			<div>&nbsp;<span class="time">[18:14:26]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; The client authenticates itsself to the server with RSA. Its certificate is shown to do</span></div>
+			<div>&nbsp;<span class="time">[18:14:29]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; so.</span></div>
+			<div>&nbsp;<span class="time">[18:14:45]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; Then the encrypted connection is set up. This is done by a Diffie-Hellmann (DH)</span></div>
+			<div>&nbsp;<span class="time">[18:15:34]</span>&nbsp;<span class="nick">&lt;yulimoto&gt;</span><span class="text">&nbsp; т.е. за шифроването на връзката е дф, а rsa служи за аутентикация</span></div>
+			<div>&nbsp;<span class="time">[18:30:58]</span>&nbsp;<span class="else_li">&nbsp;fityla (~fityla@84.40.116.146) left irc: Quit: Leaving</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />

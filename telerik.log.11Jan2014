@@ -682,3 +682,26 @@
 [17:58:11] <yulimoto> сега ще поразтърся из нетя за опенvpn със ecdsa
 [18:00:00] Writing user file...
 [18:00:00] Writing channel file...
+[18:06:26] <yulimoto> http://wiki.openwrt.org/doc/howto/vpn.openvpn
+[18:06:27] <wilindex> [ Easy OpenVPN server setup guide - OpenWrt Wiki ] - wiki.openwrt.org
+[18:10:41] <yulimoto> значи openvpn-a не се надява само на rsa a прави и dh сертификат (diffie-hellman), който направи поне 4096 :)
+[18:10:58] <yulimoto> за него ще почакаш и на голямата машина поне 1-2 минути
+[18:11:28] <fityla> az na rutera
+[18:11:37] <fityla> като видях че минава над 1 час
+[18:11:40] <fityla> го отказах
+[18:11:40] <fityla> :D
+[18:11:58] <yulimoto> ами нали ще ги генерираш от голямата и после ще ги прехвърлиш на рутера
+[18:12:06] <fityla> точно
+[18:12:07] <fityla> това ще е
+[18:12:08] <fityla> ;)
+[18:13:00] <yulimoto> значи dh серификата прави цялата, работа, сега се опитвам да разбера точно как, ама тука вече ми е ту мъч криптографик
+[18:14:20] <yulimoto> With TLS a connection is made between server and client.
+[18:14:20] <yulimoto> The server authenticcates itsself to the client with RSA. Its certificate is shown to
+[18:14:23] <yulimoto> do so.
+[18:14:26] <yulimoto> The client authenticates itsself to the server with RSA. Its certificate is shown to do
+[18:14:29] <yulimoto> so.
+[18:14:45] <yulimoto> Then the encrypted connection is set up. This is done by a Diffie-Hellmann (DH)
+[18:15:34] <yulimoto> т.е. за шифроването на връзката е дф, а rsa служи за аутентикация
+[18:30:58] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
