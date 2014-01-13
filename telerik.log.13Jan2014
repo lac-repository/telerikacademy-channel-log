@@ -1,0 +1,12 @@
+[20:44:07] Seend data restored.
+[20:44:07] main: entering loop
+[20:44:07] timer: drift (lastmin=41, now=44)
+[20:44:07] timer: drift (lastmin=42, now=44)
+[20:44:07] timer: drift (lastmin=43, now=44)
+[20:44:07] (!) timer drift -- spun 3 minutes
+[20:44:07] net: connect! sock 7
+[20:44:19] Telerik joined #telerikacademy.
+[20:44:19] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[20:47:43] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
