@@ -2,3 +2,72 @@
 [00:00:00] Writing channel file...
 [00:01:42] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
 [00:02:06] Nick change: hackman -> Guest4079
+[00:06:14] Nick change: Guest4079 -> azilian
+[00:06:33] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:19:11] WonderBoy_ (5d98a3ab@gateway/web/freenode/ip.93.152.163.171) joined #telerikacademy.
+[00:19:41] <WonderBoy_> !ман
+[00:20:09] <azilian> !woman
+[00:20:10] <azilian> :)
+[00:20:22] Nick change: azilian -> hackman
+[00:22:07] <WonderBoy_> Добър вечер  :)
+[00:22:19] <WonderBoy_> Имам въпрос за lvm и grub2
+[00:22:21] <hackman> :) добра :)
+[00:22:25] <hackman> ами питай :)
+[00:23:01] <WonderBoy_> имам 2 машини с по 2 диска, идеята и на двете е да има lmv и всичко да е вътре
+[00:24:18] <WonderBoy_> на лаптопа lvm-a е от /dev/sda /dev/sdb целите, без да имат partitions на тях и защото нямам bios_boot partition boot-вам от флашка, като /boot ми е в lvm-a и няма проблеми
+[00:24:20] <WonderBoy_> но
+[00:25:30] <WonderBoy_> на сървъра имам /dev/sda /dev/sdb като и на двата имам 2МБ bios_boot partition в началото( които се явяват /dev/sda1 /dev/sda2 съответно) и други два partitions /dev/sda2 /dev/sdb2 от които имам lvm
+[00:26:49] <WonderBoy_> в lmv-a имаам инсталиран линукс (gentoo) който работеше много добре докато нещата в lmv-a бяха linear, след като ги convert-нах на lvm-raid1 grub2 fail-ва
+[00:27:17] <WonderBoy_> и немога да го инсталирам наново, нито пък grub2-mkconfig, което също дава грешка
+[00:27:56] <WonderBoy_> това е проблем от доста дни и съм направил всичко, което ми е дошло на ум....и един приятел, с който заедно се занимаваме
+[00:28:40] <WonderBoy_> търся идеи на къде да се насоча
+[00:28:42] <WonderBoy_> :)
+[00:31:54] <WonderBoy_> chroot livecd ~ # ls /boot  System.map-genkernel-working  grub  initramfs-genkernel-working  kernel-genkernel-working  lost+found  chroot livecd ~ # grub2-install /dev/sda  Path `/boot/grub' is not readable by GRUB on boot. Installation is impossible. Aborting.  chroot livecd ~ #
+[00:32:13] <WonderBoy_> нищо не се видя...
+[00:32:28] <WonderBoy_> chroot livecd ~ # grub2-install /dev/sda
+[00:32:40] <WonderBoy_> Path `/boot/grub' is not readable by GRUB on boot. Installation is impossible. Aborting.
+[00:33:05] <WonderBoy_>  /boot e mount-nat v momenta
+[00:33:42] <hackman> WonderBoy_, да ти се чуди човек на ентусиазма :)
+[00:33:46] <hackman> проблема е прост
+[00:34:02] <hackman> имаш SW RAID върху LVM което не е supported от grub2
+[00:34:25] <hackman> grub2 очаква във LVM-а volumes и във тях НЕ очаква partitions
+[00:34:26] <hackman> :(
+[00:34:54] <hackman> или правиш SW RAID под LVM-а или правиш raid1(mirror) директно с LVM-а
+[00:35:05] <hackman> едва ли ще стане по пътя по който си тръгнал
+[00:35:16] <hackman> другият вариянт е да потърсиш в mailing list-а на grub2
+[00:35:52] <hackman> и да питаш там дали се support-ва boot from SW RAID on top of LVM
+[00:36:12] <WonderBoy_> проблема ми е в инсталацията на grub2, na laptopa imam sashtata configuraciq, no prosto boot-vam ot device ne mi e /sda ili /sdb, koito sa v lvm, .t.e MBR i bios_boot partitions sa mi na /sdc...vsi4ko raboti
+[00:36:13] <hackman> това което те интересува е stage2 loading from  SW RAID on top of LVM
+[00:36:45] <hackman> аз обикновено в твоя случай правя така
+[00:37:14] <hackman> правя си дисковете с по два partition-а
+[00:37:22] <hackman> 1. boot 2. LVM
+[00:37:39] <hackman> на двата диска boot partitions ги правя със SW RAID1
+[00:37:52] <hackman> и след това инсталирам grub-а на md0
+[00:38:06] <hackman> след това LVM-а го правя в mirror
+[00:38:09] <hackman> и това е
+[00:38:47] <WonderBoy_> под boot имаш предвид /boot директорията или bios_boot partition
+[00:39:40] <hackman>  /boot dir-a
+[00:39:55] <hackman> bios_boot не ми се е налагало да си правя никога
+[00:40:07] <hackman> и избягвам тези екзотични setups
+[00:40:17] <hackman> после не се знае как ще го оправяш ако се счупи
+[00:40:24] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:42:45] <WonderBoy_> според мен проблема е, че след конвертиране от linear към lvm-raid1 идентификатори на устройствата са се променили и това, което е записано като конфигурация вече не е актуално и дава грешка. На лаптопа зареждам от 3то устройство и grub2 лесно �
+[00:43:51] <yulimoto> WonderBoy_: енкодинга ти нещо..
+[00:44:08] <WonderBoy_> yulimoto: ne se li chete?
+[00:44:31] <yulimoto> последното само от 00:53
+[00:44:57] <WonderBoy_> samo to se chete ili to ne se chete? :)
+[00:46:38] <yulimoto> само то не се чете за мен
+[00:48:24] <yulimoto> вероятно си пейстанл нещо, което било с друг енкодинг, както и да е
+[00:49:01] <WonderBoy_> spored men problema e, che sled convertirane ot linear kam lvm-raid1 identifikatori na ustroistvata sa se promenili i tova, koeto e zapisano kato konfiguraciq, veche ne e aktualno i dava greshka, Na laptopa zarejdam ot 3to ustroistvo i grub2 lesno si vzima modulite ot bios_boot partition i vsichko varvi perfekt, no qvno s dva diska samo nqma da stane
+[00:49:23] <WonderBoy_> по-нагоре пействах..ама..шанс:)
+[00:49:39] <yulimoto> сега е ок
+[00:52:02] <yulimoto> WonderBoy_: идентификатор на у-во == UUID ? Това ли имаш предвид. Не знам термините на бг
+[00:52:10] <WonderBoy_> ааааа, сега разбрах какво каза Мариян и защо работи на лаптопа а не на сървъра :)
+[00:52:28] <WonderBoy_> yulimoto: да, за това говорех
+[00:53:24] <WonderBoy_> hackman: благодаря, разбрах проблема :)
+[00:54:43] <hackman> на лаптоп-а никога не зареждаш от дисковете... затова ти работи :)
+[00:54:53] <hackman> на сървъра не е баш така ;)
+[00:55:58] <WonderBoy_> да, да, на лаптопа са целите /dev/sda /dev/sdb без partitions а на сървъра е от partitions от дисковете
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:04:22] WonderBoy__ (5d98a3ab@gateway/web/freenode/ip.93.152.163.171) joined #telerikacademy.
