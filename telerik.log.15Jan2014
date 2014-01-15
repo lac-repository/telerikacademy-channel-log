@@ -351,3 +351,34 @@
 [21:30:54] hackman (~hackman@2001:67c:20d0:3a:a11:96ff:fe03:b228) left irc: Ping timeout: 276 seconds
 [22:00:00] Writing user file...
 [22:00:00] Writing channel file...
+[22:17:37] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[22:38:59] <fityla> http://www.jmt.bg/%D0%B1%D0%B5%D0%B7%D0%B6%D0%B8%D1%87%D0%BD%D0%B8-%D1%83%D1%81%D1%82%D1%80%D0%BE%D0%B9%D1%81%D1%82%D0%B2%D0%B0-cID=690/asus-rt-n66u-dual-band-wireless-n900-gigabit-router-pID=20059/
+[22:39:06] <fityla> баси това как са го напомпали
+[22:39:31] <fityla> двуядрен процесор... 256ram, 32mb flash
+[22:39:49] <fityla> за първи път виждам хоме рутер двуядрен и с толкова много рам
+[22:50:48] <yulimoto> phalaaxx: е значи има нормални хора
+[22:56:59] <phalaaxx> fityla: къде прочете че е двуядрен?
+[22:57:51] <phalaaxx> и за паметта къде прочете?
+[22:57:58] <fityla> ето тук
+[22:57:59] <fityla> http://wiki.openwrt.org/toh/start#linksys
+[22:58:32] <fityla> RT-N66U	1	brcm47xx	Broadcom BCM4706	2*600	32	256	Broadcom (integrated)?	11a/b/g/n	5 gigE	2x 2.0
+[22:58:35] <phalaaxx> аа момент, линка който си пратил е за асус?
+[22:58:55] <fityla> дай съарч
+[22:59:03] <fityla> просот ми беше интересно дали линксис
+[22:59:11] <fityla> са пуснали с двуядрен
+[22:59:42] <phalaaxx> ами за линксис пък къде прочете 256MB RAM?
+[22:59:49] <fityla> http://wiki.openwrt.org/toh/asus/rt-n66u
+[22:59:54] <fityla> айде така
+[22:59:55] <fityla> няма
+[22:59:57] <fityla> толкова
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:25] <fityla> вътре
+[23:00:30] <fityla> не пише 2х600
+[23:00:44] <fityla> ама в главната страница.. хардуера пише 2х600
+[23:01:29] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[23:01:46] <fityla> принципно тези от опенврт
+[23:01:56] <fityla> не грешат ама май това ще излезе грешка
+[23:04:33] <phalaaxx> нищо
+[23:04:33] <phalaaxx> браво за съобщенията вчера в асансьора на нищо неподозиращия вход :)
+[23:04:55] <phalaaxx> имало е някакъв малък ефект
