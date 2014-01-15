@@ -193,3 +193,72 @@
 [11:00:00] Writing user file...
 [11:00:00] Writing channel file...
 [11:03:45] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[11:09:40] <hackman> guys, някой от вас може ли да пробва да се SSH-не на Grizzly ?
+[11:14:10] <KpeTeHoug> мумент
+[11:14:24] <KpeTeHoug> works as a charm
+[11:15:10] net: connect! sock 3
+[11:15:52] Last message repeated 1 time(s).
+[11:15:52] DNS resolve failed for 127.0.0.1
+[11:15:52] Telnet connection: 127.0.0.1/34903
+[11:15:52] Telnet connection: 127.0.0.1/34907
+[11:15:52] net: connect! sock 10
+[11:15:52] net: eof!(read) socket 10
+[11:15:52] Timeout/EOF ident connection
+[11:15:52] net: connect! sock 11
+[11:15:52] net: eof!(read) socket 11
+[11:15:52] Timeout/EOF ident connection
+[11:16:06] net: connect! sock 3
+[11:16:06] DNS resolve failed for 127.0.0.1
+[11:16:06] Telnet connection: 127.0.0.1/34909
+[11:16:06] net: connect! sock 10
+[11:16:06] net: eof!(read) socket 10
+[11:16:06] Timeout/EOF ident connection
+[11:16:12] Logged in: KpeTeHoug (telnet@127.0.0.1/34909)
+[11:16:16] tcl: builtin dcc call: *dcc:say KpeTeHoug 9 dfasfdsfdsf
+[11:16:40] tcl: builtin dcc call: *dcc:say KpeTeHoug 9 daje i v bota moga da vlqza
+[11:17:06] net: eof!(read) socket 6
+[11:17:06] Lost telnet connection to telnet@127.0.0.1/34903
+[11:24:17] <KpeTeHoug> опраих и resolve,conf :П
+[11:34:45] <yulimoto> mdaa
+[11:35:24] <yulimoto> KpeTeHoug: тва -t като опция в скрийн, къде ще излезе title-то ?
+[11:37:01] <fityla> :D
+[11:37:10] <fityla> вентилатора ли помогна на гризлито
+[11:37:33] <fityla> https://fbcdn-sphotos-e-a.akamaihd.net/hphotos-ak-ash3/1043968_10152136655813221_483975036_n.jpg
+[11:37:38] <hackman> fityla, не... още му стърже диска
+[11:37:39] <yulimoto> пробвам ама не виждам ефект, аз ползвам '-S bot ' фор екзампъл и после пиша screen bot (Подържа и [Tab] да го е*а)
+[11:37:45] <hackman> но се оказа, че е от 2TB-овите
+[11:37:56] <hackman> а аз имах резервен само 1TB
+[11:37:59] <hackman> и сега чакам дискове
+[11:38:04] <fityla> лошо
+[11:39:18] <yulimoto> hackman: а къде беше бота докато нямаше диск се чудя и как влизаше в канала. в рамта ли ?
+[11:40:02] <fityla> той явно е почти умрял...
+[11:43:31] <fityla> а това ти е бекъпа ли
+[11:43:44] <fityla> или някакъв сторйдж за 2 тб
+[11:44:30] <hackman> yulimoto, не бе... то е малко тъпо
+[11:44:39] <hackman> имам SW RAID върху който имам LVM
+[11:44:50] <hackman> и съм направи write mostly здравия диск
+[11:45:06] <hackman> обаче по някога като реши, че иска да чете от лошия диск и си ебава мамата
+[11:45:09] <hackman> и забива машина
+[11:45:12] <hackman> аз рестартирам
+[11:45:27] <yulimoto> ааа
+[11:45:27] <fityla> а как работи
+[11:45:29] <fityla> канала
+[11:45:36] <fityla> като забие
+[11:45:37] <hackman> и тогава libvirt-а пуска от VM-а навън... но не и от вън към VM-a :(
+[11:45:55] <yulimoto> hackman: ясно
+[11:45:56] <hackman> fityla, а тая снимка е на rack-а в офиса ни в Стара Загора
+[11:46:09] <fityla> добре изглежда
+[11:46:12] <hackman> в rack-а е 23градуса а NAS-овете report-ват 90 :)
+[11:46:13] <fityla> с изкл
+[11:46:19] <fityla> на вентилатора
+[11:46:36] <fityla> :D
+[11:46:46] <fityla> лоша работа
+[11:47:03] <fityla> че то 23 градуса направо ще настинат
+[11:47:51] <yulimoto> оф, много ме кефят хелповете за инсталация на някой проекти: за уин 1 страница, за мак -1/2 и най-накрая пише linux феновете ще се оправят :)
+[11:48:18] <fityla> :D
+[11:49:09] <fityla> имаше един в хардуера много често ползваше един израз..
+[11:49:14] <fityla> за всяка цел си има тел
+[11:49:16] <fityla> :D
+[11:56:13] WonderBoy (4d46720a@gateway/web/freenode/ip.77.70.114.10) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
