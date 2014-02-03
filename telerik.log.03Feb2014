@@ -80,3 +80,46 @@
 [05:00:00] Writing channel file...
 [06:00:00] Writing user file...
 [06:00:00] Writing channel file...
+[06:06:18] net: eof!(read) socket 6
+[06:06:19] net: connect! sock 6
+[06:15:42] DNS resolve failed for chat.freenode.net
+[06:16:42] DNS resolve failed for irc.freenode.net
+[06:18:04] net: connect! sock 6
+[06:18:04] net: eof!(read) socket 6
+[06:18:05] net: connect! sock 6
+[06:25:00] DNS resolve failed for chat.freenode.net
+[06:26:00] DNS resolve failed for irc.freenode.net
+[06:29:44] DNS resolve failed for chat.freenode.net
+[06:30:44] DNS resolve failed for irc.freenode.net
+[06:32:05] net: connect! sock 6
+[06:32:05] net: eof!(read) socket 6
+[06:33:09] net: connect! sock 6
+[06:33:09] net: eof!(read) socket 6
+[06:33:10] DNS resolve failed for chat.freenode.net
+[06:34:10] DNS resolve failed for irc.freenode.net
+[06:35:29] net: connect! sock 6
+[06:40:07] Telerik joined #telerikacademy.
+[06:40:07] #telerikacademy: mode change '+ns ' by pratchett.freenode.net
+[06:40:07] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 248 seconds
+[06:40:07] Switching back to nick Telerik
+[06:41:11] net: connect! sock 6
+[06:41:11] net: eof!(read) socket 6
+[06:41:54] DNS resolve failed for chat.freenode.net
+[06:42:54] DNS resolve failed for irc.freenode.net
+[06:43:17] net: connect! sock 6
+[06:43:30] Telerik joined #telerikacademy.
+[06:43:30] #telerikacademy: mode change '+ns ' by pratchett.freenode.net
+[06:48:07] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 248 seconds
+[06:48:07] Switching back to nick Telerik
+[06:49:11] net: connect! sock 6
+[06:49:11] net: eof!(read) socket 6
+[06:49:12] DNS resolve failed for chat.freenode.net
+[06:50:12] DNS resolve failed for irc.freenode.net
+[06:51:12] net: connect! sock 6
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:01:03] net: connect! sock 6
+[07:01:03] net: eof!(read) socket 6
+[07:01:47] DNS resolve failed for chat.freenode.net
+[07:02:47] DNS resolve failed for irc.freenode.net
+[07:03:05] net: connect! sock 6
