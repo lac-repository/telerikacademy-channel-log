@@ -249,3 +249,23 @@
 [10:02:47] net: eof!(read) socket 6
 [10:02:48] DNS resolve failed for chat.freenode.net
 [10:03:48] DNS resolve failed for irc.freenode.net
+[10:05:03] net: connect! sock 6
+[10:07:11] Telerik joined #telerikacademy.
+[10:10:47] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 248 seconds
+[10:10:47] Switching back to nick Telerik
+[10:10:48] net: connect! sock 6
+[10:11:01] Telerik joined #telerikacademy.
+[10:11:01] #telerikacademy: mode change '+ns ' by leguin.freenode.net
+[10:11:17] #telerikacademy: mode change '+t ' by Telerik!~Telerik@wolf.yuhu.biz
+[10:11:46] #telerikacademy: mode change '-o Telerik  ' by leguin.freenode.net
+[10:11:46] TS resync (#telerikacademy): Telerik deopped by leguin.freenode.net
+[10:11:46] TS resync deopped me on #telerikacademy :(
+[10:11:46] -:#telerikacademy- *** Notice -- TS for #telerikacademy changed from 1391415796 to 1372796050
+[10:11:46] #telerikacademy: mode change '+c-s ' by leguin.freenode.net
+[10:11:46] viderbit (viderbit@78-83-124-137.spectrumnet.bg) joined #telerikacademy.
+[10:11:46] ChanServ (ChanServ@services.) joined #telerikacademy.
+[10:11:46] #telerikacademy: mode change '+o ChanServ  ' by leguin.freenode.net
+[10:11:46] Topic changed on #telerikacademy by !leguin.freenode.net: LSA forums: http://goo.gl/XQWlW Win forums: http://goo.gl/ugcQI1 Win course: http://goo.gl/8zEl3A for more info type !help in the channel
+[10:11:50] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
