@@ -46,3 +46,33 @@
 [03:02:53] Switching back to nick Telerik
 [03:02:54] DNS resolve failed for chat.freenode.net
 [03:03:54] DNS resolve failed for irc.freenode.net
+[03:05:57] net: connect! sock 6
+[03:05:57] net: eof!(read) socket 6
+[03:06:13] net: connect! sock 6
+[03:06:26] Telerik joined #telerikacademy.
+[03:06:26] #telerikacademy: mode change '+ns ' by leguin.freenode.net
+[03:08:09] #telerikacademy: mode change '+t ' by Telerik!~Telerik@wolf.yuhu.biz
+[03:14:33] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[03:14:33] Switching back to nick Telerik
+[03:15:16] DNS resolve failed for chat.freenode.net
+[03:16:16] DNS resolve failed for irc.freenode.net
+[03:17:37] net: connect! sock 6
+[03:17:37] net: eof!(read) socket 6
+[03:18:09] net: connect! sock 6
+[03:25:00] DNS resolve failed for chat.freenode.net
+[03:26:00] DNS resolve failed for irc.freenode.net
+[03:28:03] net: connect! sock 6
+[03:28:03] net: eof!(read) socket 6
+[03:29:07] net: connect! sock 6
+[03:29:07] net: eof!(read) socket 6
+[03:29:50] DNS resolve failed for chat.freenode.net
+[03:30:50] DNS resolve failed for irc.freenode.net
+[03:31:41] net: connect! sock 6
+[03:33:44] Telerik joined #telerikacademy.
+[03:33:44] #telerikacademy: mode change '+ns ' by pratchett.freenode.net
+[03:45:31] net: connect! sock 6
+[03:55:42] DNS resolve failed for chat.freenode.net
+[03:56:42] DNS resolve failed for irc.freenode.net
+[03:57:15] net: connect! sock 6
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
