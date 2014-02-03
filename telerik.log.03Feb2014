@@ -209,3 +209,43 @@
 [09:00:28] Telerik joined #telerikacademy.
 [09:04:58] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
 [09:04:58] Switching back to nick Telerik
+[09:05:41] DNS resolve failed for chat.freenode.net
+[09:06:42] DNS resolve failed for irc.freenode.net
+[09:07:16] net: connect! sock 6
+[09:08:18] Telerik joined #telerikacademy.
+[09:08:18] #telerikacademy: mode change '+ns ' by pratchett.freenode.net
+[09:12:39] Telerik (~Telerik@77.70.33.151) left irc: Ping timeout: 248 seconds
+[09:12:39] Switching back to nick Telerik
+[09:13:43] net: connect! sock 6
+[09:13:43] net: eof!(read) socket 6
+[09:13:44] DNS resolve failed for chat.freenode.net
+[09:14:44] DNS resolve failed for irc.freenode.net
+[09:17:49] net: connect! sock 6
+[09:17:49] net: eof!(read) socket 6
+[09:18:32] DNS resolve failed for chat.freenode.net
+[09:19:32] DNS resolve failed for irc.freenode.net
+[09:19:51] net: connect! sock 6
+[09:20:07] Telerik joined #telerikacademy.
+[09:24:23] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 248 seconds
+[09:24:23] Switching back to nick Telerik
+[09:25:26] DNS resolve failed for chat.freenode.net
+[09:26:26] DNS resolve failed for irc.freenode.net
+[09:27:31] net: connect! sock 6
+[09:27:52] Telerik joined #telerikacademy.
+[09:32:23] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 248 seconds
+[09:32:23] Trying to cycle #bgadmin to regain ops.
+[09:32:23] Switching back to nick Telerik
+[09:34:08] DNS resolve failed for chat.freenode.net
+[09:35:08] DNS resolve failed for irc.freenode.net
+[09:35:37] net: connect! sock 6
+[09:55:42] Last message repeated 1 time(s).
+[09:55:42] DNS resolve failed for chat.freenode.net
+[09:56:42] DNS resolve failed for irc.freenode.net
+[09:57:15] net: connect! sock 6
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:43] Switching back to nick Telerik
+[10:02:47] net: connect! sock 6
+[10:02:47] net: eof!(read) socket 6
+[10:02:48] DNS resolve failed for chat.freenode.net
+[10:03:48] DNS resolve failed for irc.freenode.net
