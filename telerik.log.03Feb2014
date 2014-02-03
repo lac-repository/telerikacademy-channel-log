@@ -123,3 +123,56 @@
 [07:01:47] DNS resolve failed for chat.freenode.net
 [07:02:47] DNS resolve failed for irc.freenode.net
 [07:03:05] net: connect! sock 6
+[07:05:10] Last message repeated 1 time(s).
+[07:05:10] net: eof!(read) socket 6
+[07:05:11] DNS resolve failed for chat.freenode.net
+[07:06:11] DNS resolve failed for irc.freenode.net
+[07:08:14] net: connect! sock 6
+[07:08:14] net: eof!(read) socket 6
+[07:08:46] net: connect! sock 6
+[07:13:18] Telerik joined #telerikacademy.
+[07:13:18] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[07:13:18] Switching back to nick Telerik
+[07:14:01] DNS resolve failed for chat.freenode.net
+[07:15:01] DNS resolve failed for irc.freenode.net
+[07:16:23] net: connect! sock 6
+[07:16:23] net: eof!(read) socket 6
+[07:16:31] net: connect! sock 6
+[07:16:44] Telerik joined #telerikacademy.
+[07:16:44] #telerikacademy: mode change '+ns ' by leguin.freenode.net
+[07:18:39] #telerikacademy: mode change '-o Telerik  ' by leguin.freenode.net
+[07:18:39] TS resync (#telerikacademy): Telerik deopped by leguin.freenode.net
+[07:18:39] TS resync deopped me on #telerikacademy :(
+[07:18:40] -:#telerikacademy- *** Notice -- TS for #telerikacademy changed from 1391405339 to 1372796050
+[07:18:40] #telerikacademy: mode change '+ct-s ' by leguin.freenode.net
+[07:18:40] ChanServ (ChanServ@services.) joined #telerikacademy.
+[07:18:40] #telerikacademy: mode change '+o ChanServ  ' by leguin.freenode.net
+[07:18:40] Topic changed on #telerikacademy by !leguin.freenode.net: LSA forums: http://goo.gl/XQWlW Win forums: http://goo.gl/ugcQI1 Win course: http://goo.gl/8zEl3A for more info type !help in the channel
+[07:21:13] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[07:21:13] Trying to cycle #telerikacademy to regain ops.
+[07:21:13] Switching back to nick Telerik
+[07:21:14] DNS resolve failed for chat.freenode.net
+[07:22:15] DNS resolve failed for irc.freenode.net
+[07:24:18] net: connect! sock 6
+[07:24:18] net: eof!(read) socket 6
+[07:24:20] net: connect! sock 6
+[07:24:34] Telerik joined #telerikacademy.
+[07:28:44] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[07:28:44] Switching back to nick Telerik
+[07:29:27] DNS resolve failed for chat.freenode.net
+[07:30:27] DNS resolve failed for irc.freenode.net
+[07:31:48] net: connect! sock 6
+[07:31:48] net: eof!(read) socket 6
+[07:32:20] net: connect! sock 6
+[07:40:42] DNS resolve failed for chat.freenode.net
+[07:41:42] DNS resolve failed for irc.freenode.net
+[07:42:00] net: connect! sock 6
+[07:51:03] Last message repeated 1 time(s).
+[07:51:03] net: eof!(read) socket 6
+[07:51:46] DNS resolve failed for chat.freenode.net
+[07:52:46] DNS resolve failed for irc.freenode.net
+[07:55:24] DNS resolve failed for chat.freenode.net
+[07:56:24] DNS resolve failed for irc.freenode.net
+[07:57:40] net: connect! sock 6
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
