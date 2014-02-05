@@ -80,3 +80,90 @@
 [20:26:49] DTL (4d46720a@gateway/web/freenode/ip.77.70.114.10) left irc: Quit: Page closed
 [21:00:00] Writing user file...
 [21:00:00] Writing channel file...
+[21:28:57] rew1nd (~teo@46.238.29.142) left irc: Quit: Leaving.
+[21:30:17] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[21:30:41] <fityla> :D
+[21:31:01] <fityla> бях забравил че имам xchat
+[21:31:04] <fityla> http://www.capital.bg/biznes/finansi/2014/02/05/2235202_sci_beshe_ulichena_ot_kzp_v_piramidalni_prodajbi/
+[21:31:05] <wilindex> [ Финанси | SCI беше уличена от КЗП в "пирамидални продажби" | Регулаторът е издал заповед за преустановяване на нелоялната търговска практика от дружеството, което вече иска да се казва &quot ] - www.capital.bg
+[21:31:37] <fityla> най накрая някой програгледна ... за тия бандити
+[21:40:27] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[21:46:00] <dencho> :)
+[21:46:04] <dencho> lekar s noj ot mene
+[21:46:14] <fityla> :D
+[21:46:18] <fityla> много си груб
+[21:46:26] <dencho> :)
+[21:46:34] <dencho> nqkoi 6te hodi li programist pri nakov ?
+[21:46:47] <fityla> трябва
+[21:46:52] <fityla> да огледам какво има
+[21:46:57] <fityla> може и аз да прежаля
+[21:47:14] <dencho> su6toto... c#
+[21:47:15] <dencho> :)
+[21:47:36] <fityla> това го уча за 3 пъти
+[21:47:39] <fityla> :D
+[21:47:46] <dencho> haha epa 6ti e po-lesno tamun
+[21:47:46] <dencho> :D
+[21:47:49] <fityla> и не ми е интересно..
+[21:47:58] <fityla> а е толкова
+[21:48:00] <fityla> базово
+[21:48:00] <fityla> :D
+[21:48:49] <dencho> :]
+[21:49:21] <dencho> fityla
+[21:49:22] <dencho> :)
+[21:49:24] <dencho> q kaji sq...
+[21:49:35] <dencho> kakvo razbira6 pod klasove mreji i klasove adresi?
+[21:49:52] <fityla> :D
+[21:49:57] <fityla> на изпит ли станах
+[21:50:03] <fityla> ужас..
+[21:50:30] <dencho> n da :D
+[21:50:45] <dencho> klasove mreji ... A, B, C... ok... no klasove adresi?
+[21:50:57] Action: dencho slaps Guest33966 around a bit with a large trout
+[21:50:58] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[21:51:00] Action: dencho slaps phalaaxx around a bit with a large trout
+[21:51:01] Action: dencho slaps yulimoto around a bit with a large trout
+[21:51:05] <dencho> pitam vi si4kite!
+[21:51:08] <fityla> аз класове мрежи
+[21:51:18] <fityla> никога не съм ги учил .. A B C
+[21:51:39] <fityla> по скоро да ги помня като така разделени
+[21:52:07] <dencho> e pa...
+[21:52:08] <dencho> А - от 1.0.0.0 до 126.0.0.0
+[21:52:14] <dencho> В - 128.0.0.0 до 191.0.0.0
+[21:52:19] <dencho> С - 129.0.0.0 до 224.0.0.0
+[21:52:20] <fityla> имаш си адрес и маска
+[21:52:43] <fityla> нещо ги размени
+[21:52:47] <fityla> 192..
+[21:52:52] <dencho> :)
+[21:53:00] <fityla> ясно ми че така ама ..
+[21:53:03] <fityla> все пак
+[21:53:14] <phalaaxx> амиииии размера на мрежата...
+[21:53:44] <fityla> :D
+[21:53:50] <phalaaxx> демек... /24 - C, /16 - B, /8 - A
+[21:54:07] <fityla> или едно и също
+[21:54:23] <fityla> или има уловка
+[21:54:33] <phalaaxx> къде да има уловка?
+[21:54:55] <fityla> под класове мрежи и класвове адреси
+[21:54:59] <fityla> не е ли едно и също
+[21:55:11] <dencho> mai ne, ne znam :)
+[21:55:27] <phalaaxx> амии може и да бъркам, не ми вярвайте... ама според мен е е дно и също
+[21:55:46] <fityla> това от де ти дойде на акъл
+[21:55:57] <phalaaxx> няма проблем да си заделиш клас C във адреси които са ти между 1 и 126
+[21:56:11] <phalaaxx> въпреки че май действително навремето така щедро са ги раздавали като A :D
+[21:56:22] <fityla> :D
+[21:56:39] <phalaaxx> миии какъв е проблема да имаш клас C във 10.114.12 например?
+[21:56:53] <phalaaxx> 10.114.12.1-254
+[21:56:57] <fityla> никакъв
+[21:57:01] <phalaaxx> 0 е мрежа а 255 broadcast
+[21:57:06] <phalaaxx> това си е валиден клас C
+[21:57:07] <fityla> и готово
+[21:57:27] <phalaaxx> subnet на C е примерно 1-126 (/25)
+[21:57:58] <phalaaxx> а supernet е примерно 23 - 10.114.12.0 - 10.114.13.255 (/23)
+[21:57:59] <dencho> i kvo?
+[21:58:08] <dencho> zna4i e edno i su6to?
+[21:58:54] <phalaaxx> ми реално не ни интересува толкова дали първия байт ти е между 1 и 126, можеш да си го цепиш както намериш за добре
+[21:59:31] <fityla> реално да
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:16] <phalaaxx> примерно в случая със 10 имаш една клас A мрежа - 10.0.0.0, 255 клас B мрежи - 10.1.0.0, 10.2.0.0... по 255 клас C мрежи във всяка B мрежа...
+[22:00:47] <phalaaxx> после увеличаваш брояча със ++ и отиваш на 11 и започваш пак да броиш по същия начин
+[22:01:05] <dencho> klasove mreji = klasove adresi ?
+[22:01:06] <dencho> :D
