@@ -167,3 +167,102 @@
 [22:00:47] <phalaaxx> после увеличаваш брояча със ++ и отиваш на 11 и започваш пак да броиш по същия начин
 [22:01:05] <dencho> klasove mreji = klasove adresi ?
 [22:01:06] <dencho> :D
+[22:06:30] <phalaaxx> какво те забавлява толкова?
+[22:07:23] <dencho> iskam da razbera kakvo ozna4ava klasove adresi :)
+[22:07:58] <dencho> klas mreja C ima klas adresi /24
+[22:07:59] <dencho> taka li?
+[22:08:09] <dencho> tva li e vruzkata?
+[22:08:54] <phalaaxx> какво означава клас адреси?
+[22:09:19] <phalaaxx> адреса си е адрес - може да е IPv4 адрес или IPv6 адрес (ако говорим само за IP)
+[22:09:48] <dencho> mi ne znam i az kakvo ozna4ava klas adresi :P za tva pitam :D
+[22:09:55] <phalaaxx> ако ти харесва да ги наричаш класове адреси - ок :)
+[22:09:59] <dencho> hahaha
+[22:10:00] <dencho> :D
+[22:10:04] <phalaaxx> както казах може и да бъркам, не ми вярвайте
+[22:10:08] <dencho> :)
+[22:10:10] <phalaaxx> но за мен е едно и също
+[22:11:36] <phalaaxx> в миналото май са раздавали смело A мрежи между 1 и 127 (без 10, то е за private мрежи) и B от 128 до 191...
+[22:12:01] <phalaaxx> ама не мисля че вече някой някога ще даде клас А мрежа между 1 и 127
+[22:12:52] <dencho> :)
+[22:12:59] <dencho> to ne sa li razdadeni ve4e vsi4kite adresi ?
+[22:12:59] <dencho> :D
+[22:13:11] <phalaaxx> ми официално май да
+[22:13:27] <phalaaxx> ама разни фирми се появяват, други фалират...
+[22:13:28] <dencho> :)
+[22:13:44] <dencho> 10x :D
+[22:13:46] <dencho> leka
+[22:13:47] <dencho> :)
+[22:13:47] <phalaaxx> препродават си разни мрежи помежду си, освобождават други мрежи...
+[22:13:56] <phalaaxx> изобщо пълна анархия
+[22:14:02] <phalaaxx> уж го контролирали това
+[22:14:28] <dencho> phalaaxx
+[22:14:40] <dencho> a avtonomna sistema znae6 li kakvo e
+[22:14:41] <dencho>  :P
+[22:15:49] <phalaaxx> нещо което групира мрежи
+[22:16:00] <phalaaxx> представи си го като шкаф на който редиш книги
+[22:16:11] <phalaaxx> книгата е мрежа, страниците са отделните IP-та в мрежата
+[22:16:19] <phalaaxx> а в шкафа редиш книги
+[22:17:03] <dencho> suvkupnost ot mreji ?
+[22:17:10] <dencho> ok
+[22:17:11] <dencho> 10x :D
+[22:17:24] <phalaaxx> ако имаш някакви особени мрежови изисквания - регистрираш си автономна система която има за име някакъв номер...
+[22:17:29] <phalaaxx> примерно AS12345
+[22:17:38] <phalaaxx> и после си купуваш от някой мрежа
+[22:17:47] <phalaaxx> и той ти я дава в твоята автономна система
+[22:17:57] <phalaaxx> ама после решаваш че ти трябват още адреси
+[22:18:04] <phalaaxx> и купуваш друга мрежа ама може да е от някой друг
+[22:18:14] <phalaaxx> и тя също попада в твоята автономна система
+[22:18:18] <dencho> a za6to mi e da imam AS, kato moga samo da si kupq mrejata?
+[22:18:38] <dencho> tva kakvo mi dava, 4e imam AS ?
+[22:18:53] <phalaaxx> по AS се настройват BGP рутерите за да знаят къде да пращат пакетите
+[22:19:09] <dencho> da, tva 6tqh da ti kazvam sq za bgp-to
+[22:19:31] <dencho> a za da si komunikirat 2 AS te trqbva da komunikirat po BGP nali?
+[22:19:35] <phalaaxx> щото ако си купиш мрежа от кварталния доставчик и утре отидеш да живееш във Франция (примерно) ще трябва да си купиш друга мрежа от тамошен квартален доставчик
+[22:19:49] <phalaaxx> а ако си имаш AS - можеш да си я занесеш там
+[22:20:03] <fityla> :D
+[22:20:07] <dencho> a za da si komunikirat 2 AS te trqbva da komunikirat po BGP nali?
+[22:20:16] <fityla> вие бая сте се разписали оставих ви за 10мин.
+[22:20:25] <dencho> fityla az sq lagam i phalaaxx 6a spre :D
+[22:20:42] <fityla> мисля че не е задължително
+[22:20:47] <fityla> BGP-то
+[22:20:58] <fityla> той мариян го обясняваше
+[22:21:38] <dencho> fityla v koq lekcia po net sec li?
+[22:21:49] <fityla> да
+[22:21:50] <dencho> 6a trqq pak da gi pregledam :D
+[22:22:03] <fityla> обясняваше и за автомнитените системи
+[22:22:11] <dencho> eiiii maikata mu srara
+[22:22:14] <fityla> и за bgp-то
+[22:22:14] <dencho> ne sam go gledal
+[22:22:26] <fityla> не знам в коя беше
+[22:22:36] <fityla> ама и рисунки няма как да я подминеш
+[22:22:40] <dencho> 6a gi pregledam si4kite OTNOVO
+[22:22:44] <dencho> 10x fityla ;)
+[22:22:44] <fityla> :D
+[22:22:51] <dencho> 4e tiq mreji mnogo me 4ovurkat
+[22:23:05] <dencho> i na ciskoto sa usiram kat kifladjia
+[22:23:05] <dencho> :D
+[22:23:52] <dencho> are pi4ue...
+[22:23:53] <dencho> lueka
+[22:23:54] <dencho> :D
+[22:24:40] <fityla> лека
+[22:31:23] <phalaaxx> ми може и с друго, не с BGP
+[22:31:39] <phalaaxx> то работата на BGP е да каже коя мрежа къде се намира
+[22:32:00] <phalaaxx> ама това е работата на всеки routing protocol всъщност
+[22:32:22] <yulimoto> как е спамъри :)
+[22:32:38] <fityla> youlimoto
+[22:32:45] <fityla> тук наука се лееше
+[22:32:47] <fityla> ти спамери
+[22:32:48] <fityla> :D
+[22:32:53] <yulimoto> ааа сори
+[22:33:12] <yulimoto> видях класове мрежи § класове адреси
+[22:33:15] <yulimoto> мани мани
+[22:33:54] <yulimoto> докато не измислят преподаватели дето са го страдали няма да стане май :)
+[22:35:56] <phalaaxx> кой от какво да страда?
+[22:38:17] <yulimoto> да изстрадат мрежите, термините и цялата галимация. Примерно hackman понеже, го е страдал направо казва, че класовете мрежи са отживелица
+[22:38:58] <yulimoto> Аве хакман и реуинд за какви машини са си бъбрили в iseca, да не си правите шоу някъде пък аз да не знам
+[22:49:20] <yulimoto> какво значи 19" high performance server
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:01:56] <phalaaxx> rack mountable сървър някакъв
+[23:04:04] <yulimoto> да и аз това разбрах като рових, ама викам може да е нещо по-специфично
+[23:04:43] <phalaaxx> като сървър дето работи с 19" монитори :D
