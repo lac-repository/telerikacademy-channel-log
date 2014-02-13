@@ -71,3 +71,14 @@
 [11:01:56] Guest96206 (~hackman@management.1h.com) joined #telerikacademy.
 [12:00:00] Writing user file...
 [12:00:00] Writing channel file...
+[12:26:11] Guest96206 (~hackman@management.1h.com) left irc: Ping timeout: 245 seconds
+[12:27:10] <yulimoto> KrasiGa: Според мен либрето просто си има пакет с l10n превода
+[12:27:23] <yulimoto> И няма смисъл да се маха
+[12:27:27] <yulimoto> че после пак
+[12:28:15] <yulimoto> то просто взема настройките на системата и ако те са бг ще използва бг пакета за да преведе интерфейса
+[12:29:53] <yulimoto> Всъщност така би трябвало да е не либре и под вин
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:01:11] <KrasiGa> ами да ама пробвах на един комп и след като смених регионалните не се появи в менюто бг интерфейса
+[13:02:02] Action: yulimoto slaps KpeTeH0ug
+[13:02:42] <yulimoto> да не трябва да се приложат от някъде, не знам ?
