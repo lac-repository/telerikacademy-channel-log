@@ -281,3 +281,37 @@
 [19:02:06] <phalaaxx> ама аз бих го направил на скрипт
 [19:02:44] <fityla_> neshto ne go haresa
 [19:02:57] <phalaaxx> начии нещо такова:
+[19:05:03] <phalaaxx> #/bin/bash
+[19:05:03] <phalaaxx> # backlight-up.sh
+[19:05:03] <phalaaxx> echo $(( $(cat /sys/class/backlight/nvidia_backlight/brightness) + 10 )) | gksudo tee /sys/class/backlight/nvidia_backlight/brightness
+[19:05:16] <phalaaxx> все пак имало gksudo :)
+[19:09:31] <fityla_> sega shte go tesvam
+[19:09:58] <phalaaxx> gksudo ще да идва от gnome keyring sudo, така че съм почти сигурен че поне веднъж ще те пита за парола като си запалиш машината
+[19:10:35] <phalaaxx> впрочем, да не кажеш че имам същия лаптоп като твоя...
+[19:10:37] <phalaaxx> http://askubuntu.com/questions/151831/screen-backlight-control-for-asus-g55v
+[19:10:38] <wilindex> [ 12.04 - Screen backlight control for Asus G55V - Ask Ubuntu ] - askubuntu.com
+[19:10:52] <phalaaxx> ей това е нещото където видях как го правят хората
+[19:11:04] <phalaaxx> иначе онова с grub съм го правил на моя асус
+[19:11:25] <phalaaxx> но явно аз имам повече късмет, с grub fix-а работят Fn keys на лаптопа
+[19:11:50] <fityla_> :D
+[19:12:29] <fityla_> това го гледах
+[19:12:39] <phalaaxx> мии не си гледал внимателно значи :D
+[19:12:51] <fityla_> :Д
+[19:12:54] <fityla_> със сигурност
+[19:13:01] <fityla_> благодаря мног о
+[19:13:05] <fityla_> много ми помогна
+[19:13:22] <fityla_> сега ще върна жеста
+[19:13:24] <fityla_> ;)
+[19:13:52] <fityla_> и ще пусна на едно момче.. дето .. питаше linux-bg.org
+[19:14:05] <fityla_> трябва да черпя да знаеш
+[19:19:47] fityla_ (~fityla@84.40.116.146) left irc: Remote host closed the connection
+[19:23:31] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:23:45] <fityla> най странното
+[19:23:56] <fityla> е че в гръба рабоят бутоните
+[19:24:10] <fityla> ама само там
+[19:24:13] <fityla> :
+[19:24:16] <fityla> :Д
+[19:49:09] fityla (~fityla@84.40.116.146) left irc: Remote host closed the connection
+[19:50:26] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...

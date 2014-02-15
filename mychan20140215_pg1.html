@@ -295,6 +295,52 @@
 			<div>&nbsp;<span class="time">[18:59:03]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; sega go testwam</span></div>
 			<div>&nbsp;<span class="time">[18:59:33]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; в gnome по-скоро май ще трябва да ползваш gksudo вместо sudo</span></div>
 			<div>&nbsp;<span class="time">[18:59:46]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; щото иначе ако ти иска парола няма да разбереш и няма да проработи клавишната комбинация</span></div>
+			<div>&nbsp;<span class="time">[19:00:00]</span>&nbsp;<span class="else">&nbsp;Writing user file...</span></div>
+			<div>&nbsp;<span class="time">[19:00:00]</span>&nbsp;<span class="else">&nbsp;Writing channel file...</span></div>
+			<div>&nbsp;<span class="time">[19:00:07]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; оф нещо като gksudo беше</span></div>
+			<div>&nbsp;<span class="time">[19:00:54]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; gksu</span></div>
+			<div>&nbsp;<span class="time">[19:00:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; близо бях</span></div>
+			<div>&nbsp;<span class="time">[19:01:02]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; tova</span></div>
+			<div>&nbsp;<span class="time">[19:01:05]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; go slagam</span></div>
+			<div>&nbsp;<span class="time">[19:01:49]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; аа върни си /etc/default/grub както беше преди и после update-grub</span></div>
+			<div>&nbsp;<span class="time">[19:01:49]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp;  echo 50 | dksu tee /sys/class/backlight/nvidia_backlight/brightness</span></div>
+			<div>&nbsp;<span class="time">[19:01:56]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да не седят ненужни работи там</span></div>
+			<div>&nbsp;<span class="time">[19:01:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; да</span></div>
+			<div>&nbsp;<span class="time">[19:02:06]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ама аз бих го направил на скрипт</span></div>
+			<div>&nbsp;<span class="time">[19:02:44]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; neshto ne go haresa</span></div>
+			<div>&nbsp;<span class="time">[19:02:57]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; начии нещо такова:</span></div>
+			<div>&nbsp;<span class="time">[19:05:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; #/bin/bash</span></div>
+			<div>&nbsp;<span class="time">[19:05:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; # backlight-up.sh</span></div>
+			<div>&nbsp;<span class="time">[19:05:03]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; echo $(( $(cat /sys/class/backlight/nvidia_backlight/brightness) + 10 )) | gksudo tee /sys/class/backlight/nvidia_backlight/brightness</span></div>
+			<div>&nbsp;<span class="time">[19:05:16]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; все пак имало gksudo :)</span></div>
+			<div>&nbsp;<span class="time">[19:09:31]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; sega shte go tesvam</span></div>
+			<div>&nbsp;<span class="time">[19:09:58]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; gksudo ще да идва от gnome keyring sudo, така че съм почти сигурен че поне веднъж ще те пита за парола като си запалиш машината</span></div>
+			<div>&nbsp;<span class="time">[19:10:35]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; впрочем, да не кажеш че имам същия лаптоп като твоя...</span></div>
+			<div>&nbsp;<span class="time">[19:10:37]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; <a href="http://askubuntu.com/questions/151831/screen">http://askubuntu.com/questions/151831/screen</a>-backlight-control-for-asus-g55v</span></div>
+			<div>&nbsp;<span class="time">[19:10:38]</span>&nbsp;<span class="nick">&lt;wilindex&gt;</span><span class="text">&nbsp; [ 12.04 - Screen backlight control for Asus G55V - Ask Ubuntu ] - askubuntu.com</span></div>
+			<div>&nbsp;<span class="time">[19:10:52]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; ей това е нещото където видях как го правят хората</span></div>
+			<div>&nbsp;<span class="time">[19:11:04]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; иначе онова с grub съм го правил на моя асус</span></div>
+			<div>&nbsp;<span class="time">[19:11:25]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; но явно аз имам повече късмет, с grub fix-а работят Fn keys на лаптопа</span></div>
+			<div>&nbsp;<span class="time">[19:11:50]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; :D</span></div>
+			<div>&nbsp;<span class="time">[19:12:29]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; това го гледах</span></div>
+			<div>&nbsp;<span class="time">[19:12:39]</span>&nbsp;<span class="nick">&lt;phalaaxx&gt;</span><span class="text">&nbsp; мии не си гледал внимателно значи :D</span></div>
+			<div>&nbsp;<span class="time">[19:12:51]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; :Д</span></div>
+			<div>&nbsp;<span class="time">[19:12:54]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; със сигурност</span></div>
+			<div>&nbsp;<span class="time">[19:13:01]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; благодаря мног о</span></div>
+			<div>&nbsp;<span class="time">[19:13:05]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; много ми помогна</span></div>
+			<div>&nbsp;<span class="time">[19:13:22]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; сега ще върна жеста</span></div>
+			<div>&nbsp;<span class="time">[19:13:24]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; ;)</span></div>
+			<div>&nbsp;<span class="time">[19:13:52]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; и ще пусна на едно момче.. дето .. питаше linux-bg.org</span></div>
+			<div>&nbsp;<span class="time">[19:14:05]</span>&nbsp;<span class="nick">&lt;fityla_&gt;</span><span class="text">&nbsp; трябва да черпя да знаеш</span></div>
+			<div>&nbsp;<span class="time">[19:19:47]</span>&nbsp;<span class="else_li">&nbsp;fityla_ (~fityla@84.40.116.146) left irc: Remote host closed the connection</span></div>
+			<div>&nbsp;<span class="time">[19:23:31]</span>&nbsp;<span class="else_j">&nbsp;fityla (~fityla@84.40.116.146) joined #telerikacademy.</span></div>
+			<div>&nbsp;<span class="time">[19:23:45]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; най странното</span></div>
+			<div>&nbsp;<span class="time">[19:23:56]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; е че в гръба рабоят бутоните</span></div>
+			<div>&nbsp;<span class="time">[19:24:10]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; ама само там</span></div>
+			<div>&nbsp;<span class="time">[19:24:13]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; :</span></div>
+			<div>&nbsp;<span class="time">[19:24:16]</span>&nbsp;<span class="nick">&lt;fityla&gt;</span><span class="text">&nbsp; :Д</span></div>
+			<div>&nbsp;<span class="time">[19:49:09]</span>&nbsp;<span class="else_li">&nbsp;fityla (~fityla@84.40.116.146) left irc: Remote host closed the connection</span></div>
+			<div>&nbsp;<span class="time">[19:50:26]</span>&nbsp;<span class="else_j">&nbsp;fityla (~fityla@84.40.116.146) joined #telerikacademy.</span></div>
 		</div>
 		<div id="totoplink"><a href="#top">up</a></div>
 		<br class="clearfloat" />
