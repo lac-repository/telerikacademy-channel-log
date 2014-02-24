@@ -68,3 +68,19 @@
 [16:51:43] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
 [17:00:00] Writing user file...
 [17:00:00] Writing channel file...
+[17:25:53] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[17:28:25] Guest33967 (~deyan@46.249.92.240) joined #telerikacademy.
+[17:29:25] fityla (~fityla@84.40.116.146) left irc: Remote host closed the connection
+[17:30:30] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[17:30:53] <fityla> имам ебати странни проблем...
+[17:31:08] <fityla> нагласявам се часовника в биоса
+[17:31:46] <fityla> пускам линукс-а часовника 2 часа напред...
+[17:32:03] <fityla> корегирам го от линукса... и променя часа в биоса
+[17:38:17] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[17:49:02] <yulimoto> чай ся тоз проблем и аз съм го имал ама беше отдавна
+[17:49:57] <yulimoto> цялата работа беше виндоуса ползваше нещо си, а линукс не и ставаше мазало
+[17:51:00] <yulimoto> мисля, че имаше начин за справяне, ама аз не си играх, май само заададох в винуса часовата зона така, че като влезе в линукс да си е същия часа
+[17:57:32] <phalaaxx> fityla: ls -lh /etc/localtime
+[17:58:19] <phalaaxx> мое и само -l, това другото си е навик и си го пиша автоматично :)
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
