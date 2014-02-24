@@ -84,3 +84,52 @@
 [17:58:19] <phalaaxx> мое и само -l, това другото си е навик и си го пиша автоматично :)
 [18:00:00] Writing user file...
 [18:00:00] Writing channel file...
+[18:22:34] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[18:31:58] <fityla> оф..
+[18:32:03] <fityla> нещо се разбират
+[18:32:13] <fityla> задавам му
+[18:32:20] <fityla> ама не се разбират
+[18:32:41] <fityla> +2 часа ми е зоната
+[18:32:45] <fityla> и на двата
+[18:37:04] <fityla> само че линукс-а
+[18:37:13] <fityla> ми казва че 20:47
+[18:37:22] <fityla> а аз отказвам да му вярвам :Д
+[18:39:03] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[18:48:45] phalaaxx (~bozhin@94.26.20.166) got netsplit.
+[18:48:58] urban_filth (~urban_fil@95.111.6.98) got netsplit.
+[18:49:02] wilindex (~willie@91.230.230.251) got netsplit.
+[18:54:24] urban_filth (~urban_fil@95.111.6.98) returned to #telerikacademy.
+[18:54:24] wilindex (~willie@91.230.230.251) returned to #telerikacademy.
+[18:54:24] #telerikacademy: mode change '+v wilindex  ' by leguin.freenode.net
+[18:54:51] fityla_ (~fityla@84.40.116.146) joined #telerikacademy.
+[18:54:51] phalaaxx (~bozhin@94.26.20.166) returned to #telerikacademy.
+[18:55:31] <fityla_> това от няколко дни
+[18:55:32] <fityla_> го прави
+[18:55:36] <fityla_> преди не го правеше
+[18:55:55] <phalaaxx> ми крайно време е да си преместим стаята в jabber
+[18:56:24] <phalaaxx> то затова го прави, иска да ни покаже че е настъпил момента за тази стъпка :)
+[18:57:21] <phalaaxx> инсталира ли си ntpdate?
+[18:58:40] <fityla_> da
+[18:58:45] <fityla_> без него
+[18:58:46] <fityla_> не ставаше
+[18:58:56] <phalaaxx> кое не ставаше?
+[18:59:04] <phalaaxx> то само ти сверява часовника
+[18:59:15] <fityla_> да ми свери часовника
+[18:59:25] <fityla_> нещо даваше проблем
+[18:59:27] <fityla_> след като сложих
+[18:59:44] <fityla_> заспа
+[18:59:54] <phalaaxx> ZZZzzzZZZzzz...
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:17] <fityla_> ;)
+[19:00:40] <phalaaxx> е хубаво де, а ресетна ли да си видиш часовника през BIOS-а?
+[19:01:04] <fityla_> не
+[19:01:07] <fityla_> чакай да видим
+[19:01:09] <fityla_> какво ще стане
+[19:01:15] fityla_ (~fityla@84.40.116.146) left irc: Remote host closed the connection
+[19:04:06] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:04:13] <fityla> греда
+[19:04:18] <fityla> два пъти го тествах
+[19:04:25] <fityla> променя ми и в биоса
+[19:04:47] <phalaaxx> амииии ти какъв час слагаш в биоса?
+[19:04:58] <fityla> 19 часа
