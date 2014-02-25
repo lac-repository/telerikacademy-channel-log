@@ -36,3 +36,29 @@
 [09:03:17] <KpeTeHoug> ваща лесна, аз правя химии, да си направя лайв линукс хост, който само да подкарвам VirtualBox и да си пускам работният Уиндовс, където имам VPN към нащия си Man
 [09:03:25] <KpeTeHoug> и така където и да съм, все ще съм на работа :)
 [09:04:20] <KpeTeHoug> ма не остава много време за заиграване :)
+[09:24:46] rew1nd (~teo@46.238.29.142) left irc: Ping timeout: 246 seconds
+[09:28:18] <yulimoto> ко, ко ?
+[09:29:20] <yulimoto> пускаш линукс на него пускаш win (virtualbox) и си подкарваш vpn-a на windowsa ?
+[09:37:52] <KrasiGa> KpeTeHoug: слушал ли си цялата лекция на File and print services 2?
+[09:38:37] <KrasiGa> ima li problem s videoto sled 1h i 47min?
+[09:42:32] <KpeTeHoug> yulimoto - Usb drive s live linux
+[09:42:41] <KpeTeHoug> боотжам от него и пускам VirtualBox
+[09:43:40] <KpeTeHoug> в който имам имидж на работната ми машина
+[09:43:46] <KpeTeHoug> с всички тулки и тн
+[09:44:41] <KpeTeHoug> от Уина си пускам VPN-а  и съм в активната
+[09:45:09] <KpeTeHoug> няма как да мигрирам изццяло на линукс, софтуера който ползваме си е наш и само за Уин
+[09:45:14] <KpeTeHoug> а и активна дир под линукс :)
+[09:47:28] <KpeTeHoug> KrasiGa ще погледна след малко че сега съм заел повечкото рам на машината
+[09:47:32] <KpeTeHoug> билдвам едно исо :)
+[09:50:22] <KrasiGa> ot 1.47 do 1.58 ne se 4uva ni6to
+[09:56:04] <KpeTeHoug> имам звук
+[09:56:21] <KpeTeHoug> през цялото време
+[09:56:27] <KpeTeHoug> включително този период
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:13] Guest34246 (~hackman@management.1h.com) joined #telerikacademy.
+[10:02:18] <yulimoto> KpeTeHoug: супер, значи си там ама те няма
+[10:04:17] <KpeTeHoug> ам нещо такова
+[10:04:23] <KpeTeHoug> то още е бета тестинг
+[10:04:36] <KpeTeHoug> не мога да го направя кадърно още
+[10:04:39] <KpeTeHoug> но ще видим :)
