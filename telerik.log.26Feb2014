@@ -34,3 +34,22 @@
 [09:44:25] Guest34246 (~hackman@management.1h.com) joined #telerikacademy.
 [10:00:00] Writing user file...
 [10:00:00] Writing channel file...
+[10:17:20] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[10:18:01] dyrgel (~kolio@95-42-17-132.btc-net.bg) joined #telerikacademy.
+[10:19:19] <yulimoto> Хора искам да натя от мрежа в друга .... 10.60.0.0/24 на единия интерфейс да нати в локалната
+[10:20:10] <yulimoto> примерно 10.60.0.100 <-> 192.168.100
+[10:20:47] <yulimoto> с wiresharka гледам, че пакетите от 10.60.0.100 пристигат
+[10:21:50] <yulimoto> мислех, че това ще ми свърши работа iptables -t nat -A POSTROUTING -d 10.60.0.0/24 -o eth0 -j MASQUERADE
+[10:21:56] <yulimoto> ама йок
+[10:22:31] <yulimoto> eth0 е другия интерфейс
+[10:22:45] <yulimoto> за локалната
+[10:33:48] <dyrgel> enable-nal li si forwarding-a mejdu interface-ite
+[10:37:38] <yulimoto> cat /proc/sys/net/ipv4/ip_forward
+[10:41:42] <dyrgel> a probva li bez -d 10.60.0.0/24
+[10:47:21] <yulimoto> не, ще пробвам и това
+[10:50:43] <yulimoto> упссс, май е трябвало тунела да се рестартира след като правилото се зададе в iptables-а... странна работа
+[10:52:12] <dyrgel> проработи ли?
+[10:53:36] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[10:58:10] <yulimoto> не, но не е от таблицата май, ще поогледам пак vpn-a
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
