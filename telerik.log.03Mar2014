@@ -44,3 +44,16 @@
 [14:00:00] Writing channel file...
 [15:00:00] Writing user file...
 [15:00:00] Writing channel file...
+[15:33:51] Telerik (~Telerik@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[15:33:51] Switching back to nick Telerik
+[15:34:34] DNS resolve failed for chat.freenode.net
+[15:35:34] DNS resolve failed for irc.freenode.net
+[15:36:55] net: connect! sock 6
+[15:36:55] net: eof!(read) socket 6
+[15:36:56] net: connect! sock 6
+[15:37:12] Telerik joined #telerikacademy.
+[15:37:14] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[15:42:49] <yulimoto_> aaaa super, мерси
+[15:49:58] <yulimoto_> hackman: само виртуализация 1 и 2 ли сте говорили, само тези лекции виждам с LSA2 заглавие ? :)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
