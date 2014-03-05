@@ -112,3 +112,91 @@
 [21:01:39] <fityla> yolimoto_ чул ли си нещо
 [21:01:44] <fityla> за курса във ФМИ
 [21:01:50] <fityla> LSA2
+[21:12:25] <yulimoto_> почнал ве
+[21:12:41] <phalaaxx> yulimoto_: ?
+[21:12:45] <yulimoto_> той hackman извика в четвъртък
+[21:13:17] <yulimoto_> направо преди лекцията, обаче го е записал гледай виртуализацията kvm
+[21:14:40] <yulimoto_> phalaaxx: "hackman wilindex, е wellcome и в #softuni"
+[21:14:51] <phalaaxx> някой да знае евтин вариант за 8 портов FXS gateway?
+[21:16:41] <yulimoto_> phalaaxx: ставаше въпрос, че мислим че iseca e по-добър избор за канал, отделно сега има и нов softuni за унито на наков, но телерик се изчерва
+[21:16:50] <yulimoto_> Вие какво мислите ?
+[21:19:31] <phalaaxx> аз съм навит на jabber room ама май не са много хората дето са навити на такова :)
+[21:20:51] <yulimoto_> аз съм също  но има сякаш хората го смятат за прекалено обвързващо
+[21:22:09] <phalaaxx> на мен irc ми е прекалено обвързващо
+[21:26:54] <phalaaxx> амии и логове пази вече, даже не се налагаше да правя нещо по въпроса
+[21:31:11] <fityla> да сега
+[21:31:17] <fityla> разбрах, че е почнал
+[21:31:23] <fityla> нещо съм изпуснал
+[21:31:25] <fityla> :D
+[21:31:35] <fityla> аз си мислех че е около 15
+[21:35:06] <yulimoto_> phalaaxx: da :|
+[21:35:10] yulimoto_ (~yulimoto@ec2-54-72-23-132.eu-west-1.compute.amazonaws.com) left #telerikacademy.
+[21:35:17] yulimoto_ (~yulimoto@ec2-54-72-23-132.eu-west-1.compute.amazonaws.com) joined #telerikacademy.
+[21:39:19] Writing user file...
+[21:39:19] Writing channel file...
+[21:39:19] * TERMINATE SIGNAL -- SIGNING OFF
+[21:39:32] Seend data restored.
+[21:39:32] main: entering loop
+[21:40:36] net: connect! sock 7
+[21:40:36] net: eof!(read) socket 7
+[21:40:36] Writing user file...
+[21:40:36] Writing channel file...
+[21:40:36] * TERMINATE SIGNAL -- SIGNING OFF
+[21:41:02] Seend data restored.
+[21:41:02] main: entering loop
+[21:42:06] net: connect! sock 7
+[21:42:06] net: eof!(read) socket 7
+[21:42:07] net: connect! sock 7
+[21:42:23] Telerik joined #telerikacademy.
+[21:42:23] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[21:42:42] net: connect! sock 3
+[21:42:42] DNS resolve failed for 127.0.0.1
+[21:42:42] Telnet connection: 127.0.0.1/37310
+[21:42:42] net: connect! sock 9
+[21:42:42] net: eof!(read) socket 9
+[21:42:42] Timeout/EOF ident connection
+[21:42:53] Bad Password: [yulimoto]telnet@127.0.0.1/37310
+[21:42:59] net: connect! sock 3
+[21:42:59] DNS resolve failed for 127.0.0.1
+[21:42:59] Telnet connection: 127.0.0.1/37312
+[21:42:59] net: connect! sock 9
+[21:42:59] net: eof!(read) socket 9
+[21:42:59] Timeout/EOF ident connection
+[21:43:04] Bad Password: [yulimoto]telnet@127.0.0.1/37312
+[21:43:06] net: connect! sock 3
+[21:43:06] DNS resolve failed for 127.0.0.1
+[21:43:06] Telnet connection: 127.0.0.1/37314
+[21:43:06] net: connect! sock 9
+[21:43:06] net: eof!(read) socket 9
+[21:43:06] Timeout/EOF ident connection
+[21:43:13] Bad Password: [yulimoto]telnet@127.0.0.1/37314
+[21:43:32] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[21:43:39] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[21:47:17] Writing user file...
+[21:47:17] Writing channel file...
+[21:47:17] * TERMINATE SIGNAL -- SIGNING OFF
+[21:47:24] Seend data restored.
+[21:47:24] main: entering loop
+[21:48:28] net: connect! sock 7
+[21:48:28] net: eof!(read) socket 7
+[21:48:29] net: connect! sock 7
+[21:48:40] Telerik joined #telerikacademy.
+[21:48:40] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[21:48:44] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[21:48:47] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[21:50:12] yulimoto_ (~yulimoto@ec2-54-72-23-132.eu-west-1.compute.amazonaws.com) left #telerikacademy.
+[21:50:24] Writing user file...
+[21:50:24] Writing channel file...
+[21:50:24] * TERMINATE SIGNAL -- SIGNING OFF
+[21:52:00] Seend data restored.
+[21:52:00] main: entering loop
+[21:53:04] net: connect! sock 7
+[21:53:04] net: eof!(read) socket 7
+[21:53:05] net: connect! sock 7
+[21:53:20] Telerik joined #telerikacademy.
+[21:53:20] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[21:53:47] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[21:53:50] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[21:54:27] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
