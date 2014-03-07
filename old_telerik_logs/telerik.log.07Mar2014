@@ -93,3 +93,78 @@
 [10:39:19] Writing user file...
 [10:39:19] Writing channel file...
 [10:39:19] * DIE BY KpeTeHoug!telnet@127.0.0.1 (bu)
+[11:10:10] Trying server 86.65.39.15:6667
+[11:11:13] Connected to 86.65.39.15
+[11:11:13] Disconnected from 86.65.39.15
+[11:11:14] Trying server 130.239.18.172:6667
+[11:11:14] Connected to 130.239.18.172
+[11:11:14] -NOTICE- *** Looking up your hostname...
+[11:11:14] -NOTICE- *** Checking Ident
+[11:11:18] -NOTICE- *** Found your hostname
+[11:11:24] -NOTICE- *** No Ident response
+[11:11:30] Iseca joined #telerikacademy.
+[11:13:36] <wilindex> UnicodeEncodeError: 'ascii' codec can't encode characters in position 67-74: ordinal not in range(128) (file "/home/bgadmin/.willie/modules/weblogger.py", line 45, in TagLinks)
+[11:13:38] <wilindex> [ Recent questions in Linux системна администрация - Telerik Academy Forums ] - forums.academy.telerik.com
+[11:13:39] <wilindex> [ Recent questions and answers in Операционни системи - Telerik Academy Forums ] - forums.academy.telerik.com
+[11:27:13] <yulimoto_> Я дайте акъл за статискиите на сайтовете какъв софт ползвате освен админските гугълски ?
+[11:28:18] <yulimoto_> тука сутринта гледах piwik
+[11:28:42] <yulimoto_> не е лош даже го инсталнах на тестовата
+[11:29:04] <KpeTeHoug> немамекспириънс
+[11:32:11] <yulimoto_> трябва да питам едни хора дето със сигурност имат експириънс ама са пълни захлупеняци като ще да си издават циреите по дупето
+[11:32:43] <KpeTeHoug> знаем ги тея
+[11:32:56] <KpeTeHoug> все едно в наше време е трудно да намери човек инфо
+[11:33:00] <KpeTeHoug> и никога няма да разбереш
+[11:33:07] <yulimoto_> хаха да
+[11:33:33] <yulimoto_> хубавото на хелпа е просто че могат да ти го позиционират, което пести време
+[11:33:36] <yulimoto_> :)
+[11:35:01] <KpeTeHoug> е :)
+[11:35:03] <KpeTeHoug> spotify:track:2miAut6dp9BWdGmOxwSGEC
+[11:37:38] <yulimoto_> Sweet Dreams
+[11:39:18] <yulimoto_> някой ползва ли Rackspace ?
+[11:40:29] <KpeTeHoug> не
+[11:40:32] <KpeTeHoug> was ist das ?
+[11:41:02] <KpeTeHoug> das ist хибриден облак
+[11:41:02] <KpeTeHoug> :)
+[11:41:28] <yulimoto_> не само
+[11:42:41] <yulimoto_> т.е. базирани са нещо което се казва openstack (linux prigoden да е облак (каквото и да значи облак в случая))
+[11:43:17] <KpeTeHoug> Мента и мастика
+[11:43:19] <KpeTeHoug> ко да значи
+[11:43:19] <KpeTeHoug> :)
+[11:43:19] <yulimoto_> и на базата правят различни услуги
+[11:43:26] <yulimoto_> :)
+[11:43:48] <yulimoto_> само че аз го позлвам като за вируалки
+[11:44:22] <yulimoto_> но ме интересува колко флексибъл е мрежата им дали е кат aws от които що годе съм доволен
+[11:44:24] <KrasiGa> 10x hackman
+[11:44:55] <KpeTeHoug> т.е пускаш само vps-и там ?
+[11:45:11] <yulimoto_> дам
+[11:45:25] <KpeTeHoug> т.е пускаш само vps-и там ?
+[11:45:28] <KpeTeHoug> опс
+[11:45:48] <KpeTeHoug> какви стотоинки ти илиза един месечно
+[11:46:11] <yulimoto_> приммерно в aws си правя една мрежа 10.0.0.0/16 да кажа и на 10.0.0.100 пускам един vps и такаа си редя мрежата ако ми требет още
+[11:46:40] <yulimoto_> зависи от vps
+[11:47:05] <yulimoto_> направил съм ги направо на оферти щото ги пращам
+[11:47:35] <yulimoto_> най-йовтента мисля беше към $40/month
+[11:48:18] <yulimoto_> но aws i azure (които не препоръчвам ще береш ядове) imat триалс
+[11:48:55] <KpeTeHoug> :) които не се виждат по време на trail-а нали :)
+[11:49:31] <yulimoto_> кое не се вижда ?
+[11:50:13] <KpeTeHoug> ядовете
+[11:50:14] <KpeTeHoug> :)
+[11:50:20] <yulimoto_> имам проблем с ракспейса щото ми реджектва картата и им се обадих вчера т.е. писахме си в чата и ги чакам да я оправят и да ми кажат що, уж нямало причина
+[11:51:00] <yulimoto_> ааа за триалса си го ползвай на azure e 200$ a na aws mislq че беше една година
+[11:51:11] <yulimoto_> поне ще си имаш линукси (и уиндоуси)
+[11:51:18] <yulimoto_> като ти потребе
+[11:51:19] <KpeTeHoug> 1 година trial ?
+[11:51:26] <yulimoto_> мммм да
+[11:51:29] <KpeTeHoug> лол
+[11:51:39] <KpeTeHoug> после ще ми обадиш че трябва да изляза
+[11:51:43] <KpeTeHoug> :)
+[11:51:44] <KpeTeHoug> http://open.spotify.com/track/3FUS56gKr9mVBmzvlnodlh
+[11:51:45] <wilindex> [ Killing In The Name by Rage Against The Machine on Spotify ] - open.spotify.com
+[11:51:57] <yulimoto_> ама имаш минимални характеристики
+[11:52:08] <KpeTeHoug> ми мен ми стига и  256 рам
+[11:52:18] <yulimoto_> имаш ги
+[11:52:28] <KpeTeHoug> аз за чегъркане, не да играя Total REcall
+[11:52:28] <KpeTeHoug> :)
+[11:52:29] <yulimoto_> даже към 600 и кусур
+[11:54:36] <yulimoto_> на азурето му е хубаво че там може в рамките на триала да си пуснеш уин и да го настоиш примерно да видиш клиента ти как се настройва към даден сървис
+[11:55:02] <yulimoto_> или ...... да видиш колко смотан е IE :)
