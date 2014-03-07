@@ -32,3 +32,5 @@
 [11:13:11] <KpeTeHoug> i tn
 [11:13:11] <wilindex> UnicodeEncodeError: 'ascii' codec can't encode characters in position 67-74: ordinal not in range(128) (file "/home/bgadmin/.willie/modules/weblogger.py", line 45, in TagLinks)
 [11:13:13] <wilindex> [ Recent questions and answers in Операционни системи - Telerik Academy Forums ] - forums.academy.telerik.com
+[12:24:48] fityla (~fityla@85.118.193.182) joined #iseca.
+[12:26:01] fityla (~fityla@85.118.193.182) left irc: Client Quit
