@@ -1,0 +1,399 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:10:29] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:14:44] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[01:35:46] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[01:46:46] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:50:00] net: eof!(read) socket 7
+[02:50:01] net: connect! sock 6
+[02:50:17] Telerik joined #telerikacademy.
+[02:50:17] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:48:27] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:12:45] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:44:34] Fairytale (~Svetlyo@46.249.85.189) left irc: Quit: Leaving
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:51:39] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[07:51:52] <fityla> добро утро ..
+[07:51:54] <fityla> ;)
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:04:49] <hackman> dobro :)
+[08:53:25] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:03:30] <KpeTeHoug> добро мобро ви
+[09:08:43] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 252 seconds
+[09:18:59] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[09:26:32] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[09:26:51] Nick change: hackman -> Guest50894
+[09:29:33] <yulimoto> Втория семестър адвансед линукс ще има ли  ?
+[09:31:45] <fityla> :D явно е време да се събудя.. аз чета widnows-... :Д
+[09:39:40] <yulimoto> Дали няма начин да си маунтна VDI-тата от virtualBoxa като loop device-и  ?
+[09:40:03] <yulimoto> Тва няма начин някой да не се е сетил да го направи
+[09:54:40] <KpeTeHoug> малко smile :)
+[09:54:42] <KpeTeHoug> http://www.boredpanda.com/funny-children-hide-and-seek/
+[09:54:43] <wilindex> [ 20 Kids Who Are Totally Winning at the Game Of Hide And Seek | Bored Panda ] - www.boredpanda.com
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:14:32] nlkl (~nlkl@213.91.241.45) joined #telerikacademy.
+[10:19:29] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[10:30:32] Nick change: Guest50894 -> hackman
+[10:37:00] hackman (~hackman@management.1h.com) left irc: Ping timeout: 252 seconds
+[10:51:23] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:51:47] Nick change: hackman -> Guest13007
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:15:57] <fityla> ебаси случая
+[11:15:59] <fityla> паднах..
+[11:16:15] <fityla> Widnwos 8.1 инсталиран skype...
+[11:16:35] <fityla> лаптпа е i7-4000 neshto si 8 ram
+[11:17:21] <fityla> скайпа му ебава мамата с голямата хронология... компютъра умира.. пуска се друг user
+[11:17:24] <fityla> компютъра лети
+[11:18:42] <KrasiGa> откакто microsoft купиха скайп стана страшно
+[11:19:40] <KrasiGa> с последната версия за андроид щом си пусна камерата ми забие телефона и трябва да му вадя батерията
+[11:20:22] <KrasiGa> а с предната стоя си онлайн но щом го отворя ми търси юзер и парола всеки път
+[11:21:43] <fityla> по дяволите взима 500Mb
+[11:21:45] <fityla> ram
+[11:22:04] <fityla> а процесора го прави на салата
+[11:27:24] <KpeTeHoug> а още по якото е
+[11:27:45] <KpeTeHoug> че вече няма АПИ да пишеш софтуер и плъгини за скайп
+[11:27:54] <KpeTeHoug> затвориха си кода :)
+[11:28:02] <KpeTeHoug> да си го заврът в газъ дано :)
+[11:28:06] <KpeTeHoug> с извинение
+[11:28:10] <KpeTeHoug> отивам да обядвам :)
+[11:46:56] bgpepi (~bgpepi@ip-80-236-200-87.dsl.scarlet.be) joined #telerikacademy.
+[11:50:14] <fityla> ама е доста масова комуникация ..
+[11:50:24] <fityla> и се налага.. да я ползваме
+[11:50:25] <fityla> и нея
+[11:50:26] <fityla> :D
+[11:50:59] <phalaaxx> кой налага?
+[11:52:31] <yulimoto> аре минавайте на jabber бе
+[11:53:00] <yulimoto> ще проповядвате малко на познатите си колко и яко, голяма работа :)
+[11:53:20] <yulimoto> колко е яко*
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:26] <fityla> как кой като ползват доста хора .. е убен за комуникация..
+[12:01:07] <fityla> ще мина на jabber
+[12:01:26] <fityla> и като хората с койото комуникирам не са .. минали .. какво прави тогава
+[12:13:36] <yulimoto> "ще проповядваш на познатите" ==  ще ги убеждаваш :)
+[12:18:58] <phalaaxx> аз съм навит за jabber
+[12:19:03] <phalaaxx> едвам ме навихте ама... :)
+[12:19:53] <yulimoto> не че не е безмислено
+[12:20:18] <yulimoto> щото все едно да викаш на хората, оставете фейсбук елате другате
+[12:21:32] <yulimoto> другаде*
+[12:22:34] <phalaaxx> skype си има някои функционалности и удобства които ги няма на друго място, но троянско-конските му наклонности са направо завидни
+[12:30:09] <yulimoto> тия от Уин скоро ще го използват и да копат биткоини тия, процесора на fityla що да седи на idle
+[12:31:12] <yulimoto> by the way ако бях вирусо-писач това щеше да ми е работата ден и нощ
+[12:31:33] <fityla> :D
+[12:31:58] <fityla> давай тука
+[12:31:59] <fityla> да напишем
+[12:32:06] <fityla> някакъв крив вирус
+[12:32:25] <phalaaxx> направи го уеб базиран, модерно е
+[12:32:28] <yulimoto> хахха нито имам познанията нито уменията нито ми се правят глупости :)
+[12:32:44] <phalaaxx> нещо на javascript
+[12:32:50] <yulimoto> да
+[12:32:54] <yulimoto> и
+[12:32:58] <phalaaxx> със бутончета за start/stop
+[12:33:38] <yulimoto> 1 ще намерря такъв сайт ще му взема javascript-a ще има анализ на кода, после ще мислим по-оригинални идеи за имплементация
+[12:33:51] <yulimoto> що да пишем като моем си го вземем :)
+[12:34:28] <fityla> :D
+[12:34:36] <fityla> айде да скачаме
+[12:34:37] <fityla> :d
+[12:34:42] <fityla> нямам познаията
+[12:34:48] <fityla> искам да чупя
+[12:35:09] <yulimoto> хаха, както каза един човек, който гледах по телевизията "ние не крадем тухли, ние си берем"
+[12:35:10] <phalaaxx> започни с албански вирус по пощата
+[12:36:11] <fityla> от 606 компютъра само един има споделена папка без firewall
+[12:36:26] <fityla> в тая мрежа.. добре се случват нещата..
+[12:37:02] <fityla> тия дни съм на вълна слушане мрежата
+[12:37:04] <yulimoto> тръгна по мрежата ли ве ?
+[12:37:09] <fityla> на доставчика
+[12:37:17] <yulimoto> аха
+[12:37:49] <fityla> и в момента... се чудя дали и аз да не пусна..
+[12:38:05] <fityla> отворена шерната папка
+[12:38:06] <fityla> :D
+[12:38:08] <fityla> вътре..
+[12:38:10] <yulimoto> да ви кажа, че slack почва да ме кефи. сега инсталирам един
+[12:38:25] <fityla> нямам нерви още за него
+[12:38:27] <fityla> аз..
+[12:40:33] <yulimoto> аз си викам "чакай да си настроя мрежата и си оправя пъртишъните още в конзолата" и като влизам в хелппа на инсталатора и там чета "оправи си ги в конзолата"
+[12:40:43] <yulimoto> иначе всичко си е написано
+[12:41:47] <fityla> аз се борих с openwrt със гадните драйвъри на 3g модема ..
+[12:41:50] <fityla> толкова време..
+[12:43:15] <fityla> ебаси якото
+[12:43:57] <fityla> вече си именуаат и по квартали
+[12:43:57] <fityla> :D
+[12:44:00] <fityla> като сканираш можеш да видиш в кой квартал е ...
+[12:44:36] <fityla> пише примерно drujba2-ip-то-net1.bg
+[12:44:48] agit0o (5f6f4f48@gateway/web/freenode/ip.95.111.79.72) joined #telerikacademy.
+[12:45:16] agit0o (5f6f4f48@gateway/web/freenode/ip.95.111.79.72) left irc: Client Quit
+[12:47:18] <fityla> за сега hostname-a само в дружба2 го засекох .. да видим и в другите рейджове.. какво ще излеже
+[12:47:25] <fityla> излезе*
+[12:47:56] <yulimoto> да да те още от преди само, че трябваше да го видиш на whois
+[12:48:21] <fityla> не на всички
+[12:48:32] <fityla> не че не ясно с кой Ip sym..
+[12:48:46] <fityla> на моят адрес..
+[12:49:02] <fityla> 84.40.116.146
+[12:50:13] <fityla> при сканиране интересното е че само на някой виждам и мак адресите
+[12:50:15] <yulimoto> aha Може и да бъркам доставчика
+[12:50:38] <yulimoto> тия дето са ти в мрежата вероятно :)
+[12:50:46] <yulimoto> е един Pool
+[12:51:23] <yulimoto> баси slacka може да не му сложа iptables
+[12:54:30] <yulimoto> шшш признах инсталацията на слака... сигурно ще и дам 7.5 от 10
+[12:56:49] <fityla> :D
+[12:58:29] <fityla> някой ако иска песни на бон джоуви
+[12:58:30] <fityla> :D
+[12:58:32] <fityla> \\95.87.234.187\usb\DLNA\Music
+[12:58:45] simpleirc (~simpleirc@37.157.138.43) joined #telerikacademy.
+[12:59:09] <fityla> metalica i drugi takiva..
+[12:59:09] <fityla> :Д
+[12:59:26] <fityla> ima snimki za gledane dosta
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:00:17] Nick change: simpleirc -> Shosh
+[13:04:58] <KpeTeHoug> абе фитила
+[13:05:03] <KpeTeHoug> то това е мрежова сигурност
+[13:05:08] <KpeTeHoug> ти го обърна на мрежова несигурност
+[13:05:08] <KpeTeHoug> :)
+[13:05:13] <KpeTeHoug> контра проект
+[13:05:14] <KpeTeHoug> :)
+[13:06:04] <fityla> toq lud chovek
+[13:06:24] <fityla> има файло с документи
+[13:06:46] <KpeTeHoug> сега като всеки уважаващ себе си хакер
+[13:06:57] <KpeTeHoug> трябва да му направиш едно Тхт
+[13:07:05] <KpeTeHoug> в неговата папка
+[13:07:10] <KpeTeHoug> и да му обясниш че не се прави така
+[13:07:11] <KpeTeHoug> :)
+[13:07:20] <fityla> не знам да не се изплаши
+[13:07:26] <fityla> аз не съм правил нищо..
+[13:07:32] <KpeTeHoug> ти не си  :)
+[13:07:33] <fityla> само разгледах
+[13:07:34] <KpeTeHoug> ма друг може да е
+[13:07:40] <KpeTeHoug> а и да се изплаши е по добре
+[13:07:45] <KpeTeHoug> ще спре шеринга
+[13:07:50] <KpeTeHoug> и няма д аима проблем :)
+[13:08:16] <KpeTeHoug> пак ще е решение някакво
+[13:08:25] <KpeTeHoug> а може и да извика някой дето отбира, да му оправи настройкие
+[13:08:55] <fityla> добре...
+[13:08:55] <fityla> де щу пусна мухата
+[13:09:33] <yulimoto> дай му линкове и т.н все едно пишеш домашна :)
+[13:09:49] <fityla> :D
+[13:09:55] <yulimoto> препоръчай му линукс !!!
+[13:09:59] <fityla> :D
+[13:10:04] <yulimoto> или поне jabber
+[13:10:16] <yulimoto> може да си седи сам ама ще е на сигурно
+[13:11:19] <yulimoto> fityla: ако ловиш мрежите на мола не знам защо се занимаваш с тия на доставчика
+[13:11:31] <fityla> абе
+[13:11:33] <fityla> има мъгла
+[13:11:43] <yulimoto> яснооо
+[13:11:53] <fityla> другият ваирант
+[13:12:01] <fityla> по чистия да ходя си седна вътре..
+[13:12:02] <fityla> :D
+[13:12:05] <fityla> като човек
+[13:13:21] <yulimoto> ще те видят камерите, после при анализа след 3-4 месеца като изязат нещата от контрол ще те хванат :P
+[13:13:41] Shosh (~simpleirc@37.157.138.43) left irc: Remote host closed the connection
+[13:14:18] <fityla> :D
+[13:14:18] <fityla> в мола има 600 човека
+[13:14:18] <fityla> поне
+[13:14:32] <fityla> от тях имат 100 с компютър
+[13:14:39] <fityla> поне
+[13:14:39] <fityla> как ще станат нещата
+[13:19:08] <yulimoto> системно ще  забравяш да си смениш мак адреса на wi-fi-а, от там ще си проследим в логовете на един от рутерите, който случайно имал такива, после чакай да видим камерите.
+[13:19:41] <KpeTeHoug> ма той знае паролата на рутерите
+[13:19:45] <KpeTeHoug> админ/123456
+[13:19:50] <KpeTeHoug> ще влезе да ги затрие после
+[13:20:08] <yulimoto> После ще налепят бележки "Wanted: fityla " със твоя снимка и един твой комшия ще те предаде щото си го настъпал в асансьора
+[13:20:29] <yulimoto> и край
+[13:21:05] <KpeTeHoug> поне дано в затвора има вифи
+[13:21:09] <KpeTeHoug> да си пусне жабера
+[13:21:10] <KpeTeHoug> :)
+[13:21:17] <fityla> :D
+[13:21:23] <fityla> ебаси за мезе ме хванхте
+[13:21:26] <fityla> аз не разбирам
+[13:21:42] <fityla> обяснете ми как ще разберат че моят мак адрес
+[13:21:51] <fityla> на wifi карта е мой
+[13:21:57] <fityla> дори и да не го сменям
+[13:22:07] <KpeTeHoug> ми при анализа в полицията
+[13:22:08] <yulimoto> човек много бавно изгражда тва дърво на пакетите в slack от там е цялата работа за моя спам
+[13:22:31] <KpeTeHoug> да, и мен това ме дразни леко :)
+[13:22:36] <fityla> какъв ще тоя анализ
+[13:22:43] <fityla> че не се сещам
+[13:22:53] <KpeTeHoug> хардуерен
+[13:22:56] <KpeTeHoug> на некой чичка
+[13:22:59] <KpeTeHoug> специалист
+[13:23:05] <KpeTeHoug> ... с поялник !
+[13:23:06] <fityla> пак не разбирам..
+[13:23:16] <yulimoto> ми с тоя мак аддресс е влизано на 5 10 и 13 януари видиш  май не е той
+[13:23:24] <fityla> как ще разберат... мак адрес Х е на човека Ъ
+[13:23:29] <yulimoto> а тоя тука ми кисне по 12 часа
+[13:23:33] <yulimoto> я да видим
+[13:23:50] <yulimoto> кога е влязъл
+[13:23:52] <fityla> :D
+[13:23:52] <fityla> гарантирам ти
+[13:23:58] <fityla> полицията няма как да направи такъв анализ..
+[13:24:01] <yulimoto> в 15:15:45
+[13:24:07] <yulimoto> пусни записа от камери
+[13:24:08] <fityla> имаш идея колко камери трябва да се прегледат
+[13:24:17] <fityla> :D
+[13:24:23] <fityla> Никакъв шанс
+[13:24:27] <fityla> аз съм правил анализи на събият
+[13:24:30] <yulimoto> имали в 15:10-15:15:45 някой да ис отваря лаптопа
+[13:24:35] <fityla> със 3 камери
+[13:24:53] <yulimoto> ама ти си международен терорист бе фитила
+[13:24:57] <KpeTeHoug> :)
+[13:24:58] <KpeTeHoug> ахахахаха
+[13:25:20] <yulimoto> ние разработваме вариант от мола да вземаме карти и т.н.
+[13:25:32] <yulimoto> не тука само за едни мрежи да хакваме
+[13:25:38] <yulimoto> мрежата е първата стъпка
+[13:25:41] <KpeTeHoug> ей това пусни на екарана
+[13:25:44] <KpeTeHoug> да видиш няма ли те намерят
+[13:25:45] <KpeTeHoug> archimedEDMS
+[13:25:47] <KpeTeHoug> опс
+[13:25:52] <KpeTeHoug> http://www.thecleverest.com/countdown.swf
+[13:25:53] <KpeTeHoug> туй
+[13:26:54] <yulimoto> нали ще заразяваме хората с кода за биткоини
+[13:27:10] <yulimoto> ще ни търсят не ами ще преровят света заради нас
+[13:27:49] <yulimoto> упс
+[13:27:58] <yulimoto> дървото е готово
+[13:29:44] <fityla> а с принтера
+[13:29:44] <fityla> какво да го правя тоя
+[13:29:44] <fityla> да му писна страница да го изпринтира ли..
+[13:29:53] <fityla> :D
+[13:30:04] <yulimoto> каква страница :)
+[13:30:20] <yulimoto> сложи му файл
+[13:30:28] <yulimoto> и му пусни една страница
+[13:30:38] <yulimoto> Успокой го
+[13:30:42] <yulimoto> Не се шашкай
+[13:30:46] <yulimoto> туй-онуй :)
+[13:31:09] <yulimoto> ще имаш да черпиш и да не забравиш
+[13:31:14] <yulimoto> такива работи
+[13:32:28] <fityla> :D
+[13:32:35] <fityla> ей ударих и късмет
+[13:32:39] Guest13007 (~hackman@management.1h.com) left irc: Ping timeout: 260 seconds
+[13:32:40] <fityla> някаква готина мома
+[13:32:42] <fityla> уцелих..
+[13:32:43] <fityla> :D
+[13:35:04] <yulimoto> какъв камък бре  поискай ѝ скайпа
+[13:35:18] <yulimoto> от тоя слак обаче човек разбира за пакетите какво що
+[13:46:53] <fityla> аз скайпа мога да си го взема и така
+[13:47:00] <fityla> извинявай тя си шернала
+[13:47:05] <fityla>  цял дял
+[13:47:15] <fityla> има и извлечения на сметката и
+[13:47:37] <fityla> да не говорим .. папката лято .. 2013
+[13:47:38] <fityla> :D
+[13:47:57] <KpeTeHoug> хахахах
+[13:48:04] <KpeTeHoug> ако има и аматьорско порно
+[13:48:11] <KpeTeHoug> и ще си запълниш деня :)
+[13:48:26] <fityla> :D
+[13:48:29] <fityla> ще ще
+[13:48:53] <yulimoto> haha лято 2013
+[13:48:58] <yulimoto> и как е каката
+[13:49:00] <yulimoto> бива ли я
+[13:49:05] <yulimoto> в кърската любоФ
+[13:49:14] <yulimoto> хаха
+[13:49:37] <fityla> писна ми да гледам снимки
+[13:49:40] <fityla> слагам файла
+[13:49:42] <fityla> и продължавам
+[13:50:06] <yulimoto> ами вземи ѝ телефона или скайпа и ѝ кажи да си затвори .... Ц-то !!!
+[13:51:03] <yulimoto> баси slacka може дори да не си инсталираш shadow suite
+[13:52:11] <yulimoto> ili system V
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:19:58] agit0o (5f6f4f48@gateway/web/freenode/ip.95.111.79.72) joined #telerikacademy.
+[14:20:07] agit0o (5f6f4f48@gateway/web/freenode/ip.95.111.79.72) left irc: Client Quit
+[14:34:25] <yulimoto> хм сега съм на пакети за мрежата
+[14:34:46] <yulimoto> iftop  не го знаех, а изглежда готин
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:10:35] <fityla> :D
+[15:10:35] <fityla> ебаси
+[15:10:35] <fityla> хоста..
+[15:11:04] <fityla> piem.peem.pushim.izvyn.ofisa.na.net1.bg
+[15:11:13] <fityla> :D
+[15:11:15] <fityla> тия се гаврят
+[15:12:53] <fityla> другият
+[15:13:11] <fityla> stud.i.mraz.v.ofisa.na.net1.bg
+[15:15:55] bgpepi (~bgpepi@ip-80-236-200-87.dsl.scarlet.be) left irc: Remote host closed the connection
+[15:20:45] Guest13007 (~hackman@management.1h.com) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:43] Fairytale (~Svetlyo@46.249.85.210) joined #telerikacademy.
+[16:03:08] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:06:52] <yulimoto> Ей красигчето ходи в друг канал веке там да си плямпа
+[16:07:21] <yulimoto> някой по-win канал сигурно
+[16:25:52] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:04:38] <phalaaxx> вече не сме интересни :)
+[17:07:07] righthand (~righthand@193.28.144.95) joined #telerikacademy.
+[17:22:13] righthand (~righthand@193.28.144.95) left irc: Ping timeout: 265 seconds
+[17:27:23] Fairytale (~Svetlyo@46.249.85.210) left irc: Quit: Leaving
+[17:37:17] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[17:37:37] <yulimoto> Ooooo, Deyane a за много години !
+[17:37:42] <yulimoto> Къде ходиш
+[17:37:53] <yulimoto> phalaaxx: не сме актуални ;P
+[17:41:04] Action: yulimoto slaps  Deyan с парчета мъгла!
+[17:41:18] <yulimoto> толкова е гъста
+[17:56:09] rew1nd (~yaaic@85.118.193.167) joined #telerikacademy.
+[17:56:36] <rew1nd> Добър вечер :)
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:05:17] rew1nd (~yaaic@85.118.193.167) left irc: Ping timeout: 252 seconds
+[18:14:13] rew1nd (~yaaic@85.118.193.185) joined #telerikacademy.
+[18:20:57] <yulimoto> Добра да е :)
+[18:21:23] <yulimoto> Някой запознат със Slack има ли ?
+[18:21:50] <yulimoto> Идеята ми е следната:
+[18:23:16] <yulimoto> В менюто на инсталацията има опции, кои пакети да се инсталират, разделени са на групи А,АP, C, L,К, N и т.н.
+[18:23:56] <yulimoto> Има ли начин да ги запаметя в някакъв конфиг файл, и при следващи инсталации да не си играя, а да ползвам готовите ?
+[18:44:15] <yulimoto> питах в канал на Слак  това което търся са си го измислили и се нарича tagfiles
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:19:36] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[19:24:56] rew1nd (~yaaic@85.118.193.185) left irc: Ping timeout: 272 seconds
+[19:30:50] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[19:41:24] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[19:41:55] toller (~toller@193.105.154.11) joined #telerikacademy.
+[19:47:10] toller (~toller@193.105.154.11) left irc: Remote host closed the connection
+[19:53:03] rew1nd (~yaaic@85.118.193.173) joined #telerikacademy.
+[19:59:28] rew1nd (~yaaic@85.118.193.173) left irc: Ping timeout: 246 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:04:00] rew1nd (~yaaic@85.118.193.172) joined #telerikacademy.
+[20:37:37] rew1nd (~yaaic@85.118.193.172) left irc: Ping timeout: 246 seconds
+[20:58:51] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:05:15] rew1nd (~yaaic@85.118.193.172) joined #telerikacademy.
+[21:11:28] rew1nd (~yaaic@85.118.193.172) left irc: Ping timeout: 245 seconds
+[21:16:41] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[21:19:41] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[21:39:12] rew1nd (~yaaic@85.118.193.174) joined #telerikacademy.
+[21:51:30] Guest13007 (~hackman@management.1h.com) left irc: Quit: Leaving
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:38] rew1nd (~yaaic@85.118.193.174) left irc: Ping timeout: 245 seconds
+[23:18:06] rew1nd (~yaaic@85.118.193.162) joined #telerikacademy.
+[23:23:43] <dencho> dobar ve4er uvajaemi zriteli, spite li?
+[23:48:19] ttanev (~yaaic@85.118.193.166) joined #telerikacademy.
+[23:49:23] rew1nd (~yaaic@85.118.193.162) left irc: Ping timeout: 245 seconds
+[23:58:16] ttanev (~yaaic@85.118.193.166) left irc: Ping timeout: 272 seconds
+[23:58:32] rew1nd (~yaaic@85.118.193.166) joined #telerikacademy.
+[23:59:58] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[00:00:00] --- Fri Jan 10 2014
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

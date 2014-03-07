@@ -1,0 +1,197 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:12:52] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:16:07] Guest33967 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:07:42] <rew1nd> yulimoto, да има нещо такова
+[01:07:54] <rew1nd> доста интензивно ми дойде :)
+[01:09:17] fityla_ (~fityla@84.40.116.146) left irc: Quit: Leaving
+[01:15:45] <rew1nd> http://tema.livejournal.com/1337888.html
+[01:15:48] <wilindex> [ tema: Пятничная космическая жаба ] - tema.livejournal.com
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:26:05] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
+[02:29:57] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:47:46] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 265 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:58:58] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[05:59:22] Nick change: hackman -> Guest34246
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:26:05] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:43:49] Guest34246 (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[08:58:35] <KpeTeHoug> гутен морген
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:03:17] <KpeTeHoug> ваща лесна, аз правя химии, да си направя лайв линукс хост, който само да подкарвам VirtualBox и да си пускам работният Уиндовс, където имам VPN към нащия си Man
+[09:03:25] <KpeTeHoug> и така където и да съм, все ще съм на работа :)
+[09:04:20] <KpeTeHoug> ма не остава много време за заиграване :)
+[09:24:46] rew1nd (~teo@46.238.29.142) left irc: Ping timeout: 246 seconds
+[09:28:18] <yulimoto> ко, ко ?
+[09:29:20] <yulimoto> пускаш линукс на него пускаш win (virtualbox) и си подкарваш vpn-a на windowsa ?
+[09:37:52] <KrasiGa> KpeTeHoug: слушал ли си цялата лекция на File and print services 2?
+[09:38:37] <KrasiGa> ima li problem s videoto sled 1h i 47min?
+[09:42:32] <KpeTeHoug> yulimoto - Usb drive s live linux
+[09:42:41] <KpeTeHoug> боотжам от него и пускам VirtualBox
+[09:43:40] <KpeTeHoug> в който имам имидж на работната ми машина
+[09:43:46] <KpeTeHoug> с всички тулки и тн
+[09:44:41] <KpeTeHoug> от Уина си пускам VPN-а  и съм в активната
+[09:45:09] <KpeTeHoug> няма как да мигрирам изццяло на линукс, софтуера който ползваме си е наш и само за Уин
+[09:45:14] <KpeTeHoug> а и активна дир под линукс :)
+[09:47:28] <KpeTeHoug> KrasiGa ще погледна след малко че сега съм заел повечкото рам на машината
+[09:47:32] <KpeTeHoug> билдвам едно исо :)
+[09:50:22] <KrasiGa> ot 1.47 do 1.58 ne se 4uva ni6to
+[09:56:04] <KpeTeHoug> имам звук
+[09:56:21] <KpeTeHoug> през цялото време
+[09:56:27] <KpeTeHoug> включително този период
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:13] Guest34246 (~hackman@management.1h.com) joined #telerikacademy.
+[10:02:18] <yulimoto> KpeTeHoug: супер, значи си там ама те няма
+[10:04:17] <KpeTeHoug> ам нещо такова
+[10:04:23] <KpeTeHoug> то още е бета тестинг
+[10:04:36] <KpeTeHoug> не мога да го направя кадърно още
+[10:04:39] <KpeTeHoug> но ще видим :)
+[10:05:12] <KpeTeHoug> така мога да работя от всяка щайга с повече от 1 гб рам общо взето
+[10:09:15] <KpeTeHoug> още не съм решил на какво дистро да съм обаче, чудя се кое ще ми яде минимално памет, но да има vbox
+[10:09:39] <KpeTeHoug> макар че qemu ми харесва повече, нещо ми е сложно само с команд лайн
+[10:20:00] <yulimoto> то и virtualbox може samo cmd line
+[10:20:08] <yulimoto> cli t.e
+[10:20:32] <yulimoto> vboxheadless май беше
+[10:20:40] <KpeTeHoug> хедлес да
+[10:20:48] <KpeTeHoug> ма аз не сакам само цли
+[10:21:01] <KpeTeHoug> т.е нямам време засега
+[10:21:08] <KpeTeHoug> :) ще видим
+[10:21:31] <yulimoto> да да, не ти трябва само кли щото нали искаш да цъкаш от някъде виндоуса
+[10:22:08] <yulimoto> така или иначе ти трябва графична среда
+[10:23:52] <yulimoto> а защо е цялата галимация с линукс като хост, не може ли да подкараш директно вин и да ползваш vpn-a
+[10:47:44] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:45:58] DamnTheLuck (4d46720a@gateway/web/freenode/ip.77.70.114.10) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[14:00:01] Writing user file...
+[14:00:01] Writing channel file...
+[14:06:06] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[14:16:01] <KpeTeHoug> може и да може, но аз искам да съм си с линукс :)
+[14:16:04] <KpeTeHoug> трябва да се търкаля
+[14:16:05] <KpeTeHoug> :)
+[14:16:36] <yulimoto> aaa
+[14:16:38] <yulimoto> ясно
+[14:16:52] <yulimoto> я кажи как си правите мрежите
+[14:17:30] <yulimoto> че аз не съм запознат с дизайна
+[14:17:44] <KpeTeHoug> ам то не ги правя и аз :)
+[14:17:48] <KpeTeHoug> нямам реален достъп до там
+[14:17:56] <KpeTeHoug> Софийските големи пръчки ги правят :)
+[14:18:05] <yulimoto> ясно
+[14:18:17] <KpeTeHoug> но реално за всеки офис имаме мрежа 10.10.х.0/24 заделена
+[14:18:37] <KpeTeHoug> 192.168.0.0/16 е в централата
+[14:18:48] <KpeTeHoug> и 10тина реални ИПта за конкретни услуги
+[14:19:02] <yulimoto> чудесно чакай да те питам щото аз съм на тоя хал
+[14:19:55] <yulimoto> примерно вие сте 10.10.30.0/24  от другите субмрежи така ли се виждате като 10.10.30.0/24 или ?
+[14:20:17] <KpeTeHoug> да, 1 към 1
+[14:21:08] <KpeTeHoug> незнам точно как са ги сегемнтирали, щото всеки офис е с CisCo рутерче
+[14:21:14] <KpeTeHoug> дето нямам достъп до него
+[14:21:15] <yulimoto> при мен случая е централен офис с 2 под офиса на майната си и се чудя
+[14:21:31] <yulimoto> т.е. дали да са винаги статични
+[14:21:34] <KpeTeHoug> ми те правят влан от всяко ИП което им дава доставчика
+[14:21:41] <KpeTeHoug> към Цетралният офис
+[14:21:55] <KpeTeHoug> ами желателно е да са статични
+[14:21:56] <yulimoto> или локалната да е винаги 192.168.1.1 a вече другите да се виждат като 10.10
+[14:22:02] <KpeTeHoug> според мен
+[14:22:09] <yulimoto> ок
+[14:22:21] <yulimoto> трябва да гледам топологии ма не знам от къде
+[14:22:22] <KpeTeHoug> така няма да се чудиш преди една седмица, тоя комп с тояа ИП
+[14:22:36] <KpeTeHoug> ми свали си на ЦиЦко тулчето за диаграми
+[14:22:39] <KpeTeHoug> и си чертай
+[14:22:47] <KpeTeHoug> казват че било хубаво, аз не съм го ползвал
+[14:23:08] <KpeTeHoug> дето Марян обяснява с него рутинги протоколи и тн
+[14:23:21] <yulimoto> да аз имам едно DIA обаче ме ми трябва направо примери да гледам, да се уча на best practise
+[14:23:28] <KpeTeHoug> ааа
+[14:23:44] <yulimoto> иначе си чертая
+[14:24:29] <yulimoto> 2 от мрежите вече са изградени и малко става "една гаща плява" мен това ме дразни
+[14:24:54] <yulimoto> щото не са го мислили, че ще се връзват една с друга
+[14:25:10] <KpeTeHoug> ми то зависи как са изградени
+[14:25:20] <KpeTeHoug> т.е те не може да нямат някакви сървъри
+[14:25:33] <KpeTeHoug> дигаш по 1 влан на всеки сървър
+[14:25:38] <KpeTeHoug> и ги връзваш в една мрежа
+[14:28:16] <yulimoto> сложно става, ша го правя с опенvpn защото едната мрежа е в лондон, центъра искат да е облак на амазон/ракспейс/азюр там ще са и сървърите с услугите, а последния офис е в сф
+[14:28:54] <yulimoto> то така звучи сложно но става въпрос за малко компове
+[14:28:54] <KpeTeHoug> е пускаш опен впн в облъка и ги връзваш
+[14:29:00] <yulimoto> да
+[14:29:06] <yulimoto> това е плана и си става
+[14:29:15] <yulimoto> пирфектно въри за сега
+[14:29:56] <KpeTeHoug> ми аз не мисля да има по лесен начин
+[14:30:02] <KpeTeHoug> и прост
+[14:31:39] <yulimoto> да просто линквам мрежите
+[14:53:50] Guest33967 (~deyan@46.249.92.240) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:31:07] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:18:17] <yulimoto> KpeTeHoug: оказа се че ще има обаче още мрежи в последствие и най-вероятно всички локални офиси ще са с 192.168.0.0/16 настроени мрежи, ще трябва да правя masquerade поне така си го представям
+[17:18:55] <yulimoto> т.е. такък им е плана
+[17:18:58] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:37:40] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[18:44:19] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[18:46:51] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[18:57:37] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:04:59] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[19:06:02] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[19:20:30] <fityla> ето го и блогъра... дето е ходил при тодор и компания....
+[19:20:30] <fityla> http://www.entrepreneur.bg/6650/balgarski-startap-promenya-storidzh-industriyata-storpool/
+[19:20:31] <wilindex> [ Български стартъп променя сторидж индустрията - StorPool | Entrepreneur.bg ] - www.entrepreneur.bg
+[19:23:07] <fityla> има го и тодор..
+[19:23:08] <fityla> ;)
+[19:23:10] <fityla> в гръб
+[19:34:59] <fityla> owasp zed позвали сте изглежда много интересен инструмент
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:05:41] phalaaxx (~bozhin@94.26.20.166) left irc: Excess Flood
+[20:10:53] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:12:00] Guest34246 (~hackman@management.1h.com) left irc: Ping timeout: 252 seconds
+[20:54:59] DamnTheLuck (4d46720a@gateway/web/freenode/ip.77.70.114.10) left irc: Quit: Page closed
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:29:17] <yulimoto> fityla: кой е този със зеленото поло
+[22:29:20] viderbit (viderbit@78-83-124-137.spectrumnet.bg) left irc: Ping timeout: 252 seconds
+[22:29:29] viderbit (parset07@78-83-124-137.spectrumnet.bg) joined #telerikacademy.
+[22:32:45] <fityla> хехе
+[22:32:49] <fityla> питай го като се появи
+[22:32:54] <fityla> :D
+[22:39:38] <yulimoto> ехеее той значи много добра работа си е намерил, след 2-3 години може да се хвалим че го познаваме :)
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:11:49] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[23:31:27] <fityla> http://www.entrepreneur.bg/6650/balgarski-startap-promenya-storidzh-industriyata-storpool/
+[23:31:27] <wilindex> [ Български стартъп променя сторидж индустрията - StorPool | Entrepreneur.bg ] - www.entrepreneur.bg
+[23:31:46] <fityla> да видим дали ще се разпознае..
+[23:31:48] <fityla> ;)
+[23:51:42] Guest33967 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[23:52:01] <rew1nd> хехех :) ето и от мен, че говорихме за игри тази вечер... https://www.facebook.com/photo.php?v=10152175584497929&set=vb.60530467928&type=2&theater
+[23:52:05] <wilindex> [ Best Videos - What do Germans do when they wait for... | Facebook ] - www.facebook.com
+[00:00:00] --- Wed Feb 26 2014
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

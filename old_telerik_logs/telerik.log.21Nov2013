@@ -1,0 +1,338 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:03:56] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:22:07] ddmitov (~knoppix@87.120.214.102) left #telerikacademy.
+[00:26:50] rewind_mobile (~yaaic@85.118.193.182) joined #telerikacademy.
+[00:31:19] rewind_mobile (~yaaic@85.118.193.182) left irc: Ping timeout: 245 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:07:57] bgpepi (~bgpepi@ip-80-236-253-3.dsl.scarlet.be) left irc: Remote host closed the connection
+[01:12:03] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:35:00] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[01:56:20] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Ping timeout: 245 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:03:29] Nick change: ndyakov -> ndyakov|away
+[02:07:08] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[02:07:32] Nick change: Deyan -> Guest99575
+[02:12:36] rewind_mobile (~yaaic@85.118.193.168) joined #telerikacademy.
+[02:16:45] rewind_mobile (~yaaic@85.118.193.168) left irc: Ping timeout: 245 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:56:54] rewind_mobile (~yaaic@85.118.193.178) joined #telerikacademy.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:01:20] rewind_mobile (~yaaic@85.118.193.178) left irc: Ping timeout: 245 seconds
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:43:02] rewind_mobile (~yaaic@85.118.193.172) joined #telerikacademy.
+[05:47:10] rewind_mobile (~yaaic@85.118.193.172) left irc: Ping timeout: 245 seconds
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:31:37] rewind_mobile (~yaaic@85.118.193.190) joined #telerikacademy.
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:21:39] rewind_mobile (~yaaic@85.118.193.190) left irc: Read error: Connection reset by peer
+[07:50:56] rewind_mobile (~yaaic@85.118.193.162) joined #telerikacademy.
+[07:57:18] rewind_mobile (~yaaic@85.118.193.162) left irc: Ping timeout: 240 seconds
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:16:03] rewind_mobile (~yaaic@85.118.193.188) joined #telerikacademy.
+[08:17:50] MoHu (~MO@77.70.108.185) left irc: Ping timeout: 264 seconds
+[08:34:54] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:14:25] Nick change: Guest99575 -> KacanuH
+[09:17:10] fityla (~fityla@213.91.137.137) joined #telerikacademy.
+[09:17:44] <KacanuH> Добро утро
+[09:17:56] <fityla> добро и от мен...
+[09:18:22] <fityla> някой идеи как да тесвам
+[09:18:27] <fityla> коаксиален кабел
+[09:18:30] <fityla> дали е наред
+[09:26:56] <_rewind> .tell anton_dutsov, aко питаш мен на такава машина единственото, което би усетил истински и би могъл да ползваш с всеки следващ компютър е някое бързо SSD
+[09:26:56] <wilindex> _rewind: I'll pass that on when anton_dutsov is around.
+[09:27:54] <_rewind> .tell anton_dutsov ...практически няма никакво значение, че ще е на SATA2, разликата в скоростта се усеща, тъй като това е наистина най-бавния компонент в един компютър.
+[09:27:54] <wilindex> _rewind: I'll pass that on when anton_dutsov is around.
+[09:28:03] <_rewind> добро утро и от мен :)
+[09:30:52] <_rewind> fityla, с мултицет ?
+[09:31:09] <_rewind> fityla - http://www.handiham.org/drupal2/node/72
+[09:31:13] <wilindex> [ How to check coaxial cable with a multimeter | Courage Kenny Handiham Program ] - www.handiham.org
+[09:32:41] rewind_mobile (~yaaic@85.118.193.188) left irc: Ping timeout: 240 seconds
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:02:49] <KacanuH> fityla: ела ми на гости и в офиса имам тестер
+[10:03:00] <KacanuH> ще го тестваме
+[10:04:13] <KacanuH> ако не беше свършил курса можеше довечера да взема един
+[10:07:55] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:21:08] <fityla> :D
+[10:21:15] <fityla> няма как .. трябва да тествам
+[10:21:17] <fityla> на стената..
+[10:21:17] <fityla> ;)
+[10:21:38] <fityla> е кабела и нещо ебава и не мога да разбера дали е от гадните ...
+[10:21:48] <fityla> или съм защипал
+[10:21:50] <fityla> кабела
+[10:21:52] <fityla> ще го мисля
+[10:21:54] <fityla> ;)
+[10:21:58] <fityla> бягам аз..
+[10:22:01] fityla (~fityla@213.91.137.137) left irc: Quit: Leaving
+[10:39:04] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[10:55:54] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:04:49] bgpepi (~bgpepi@ip-80-236-253-3.dsl.scarlet.be) joined #telerikacademy.
+[11:17:04] Nick change: ndyakov|away -> ndyakov
+[11:19:32] <hackman> ndyakov, вчера изобщо не успях да разбера какво питаш
+[11:19:33] <hackman> :(
+[11:19:54] <ndyakov> hackman: добро утро
+[11:20:13] <ndyakov> втория път ли ?, защото на първия ми отговори
+[11:21:21] <hackman> да, втория :)
+[11:22:44] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[11:22:49] <ndyakov> еми, нали като си говориш с рутера, връзката ти е криптирана по някакъв начин ?
+[11:23:16] <hackman> да, WEP/WPA/WPA2
+[11:23:19] <hackman> и ?
+[11:23:35] <ndyakov> е, когато искаш да си говориш с друга машина на същата мрежа, не си криптираш връзката, така ли ?
+[11:23:58] <hackman> не... пак криптираш... просто не минаваш през рутера
+[11:24:17] <hackman> винаги когато изпращаш данни към ESSID което е с криптиране
+[11:24:21] <hackman> винаги криптираш
+[11:24:28] <hackman> иначе никой няма да те разбере какво говориш
+[11:25:51] <ndyakov> ясно, аз попрегледах за hole 196, тоест за wpa2, където всеки криптира със собствен ключ.
+[11:26:19] <ndyakov> но ще прочета , че там видях има и групи, та ще прочета малко от rfc-то по-късно днес.
+[11:37:53] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:52:27] <_rewind> hackman, aз пропуснах да питам снощи в същата връзка, в този случай препоръчителна ли е, дори необходима ли е изобщо периодичната смяна на WPA2 фразата ?
+[11:54:05] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 240 seconds
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:26:54] <topalov> то и честа смяна на мак адреса е добре да има ама това все още влиза в категория параноя :)
+[12:28:52] <phalaaxx> isohybrid ftw :D  ако не знаете какво е това - заслужава малко внимание :)
+[12:31:43] <yulimoto> :) мдаааа така си правя бутващи усб-та
+[12:32:12] <hackman> _rewind, няма смисъл от честа сманя на passphrase-а... приемете, че Wireless-a е insecure комуникация и или използвайте кабел или тунел върху WiFi :)
+[12:32:14] <phalaaxx> аз по друг начин правих досега ама вчера си блъсках главата с едно тъпо и упорито дъно
+[12:32:18] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) joined #telerikacademy.
+[12:32:24] <yulimoto> phalaaxx: ако помня добре даже е в debian без да се налага da se инсталира :)
+[12:33:55] <phalaaxx> кое не се налага да се инсталира?
+[12:33:55] <yulimoto> phalaaxx: хммм явно нещо съм пропуснал, щото аз със isohybrid май само съм правил :)
+[12:35:04] <phalaaxx> ми аз досега си ги правих по предписание със syslinux върху msdos - 4-ти primary partition (щото някои BIOS-и знаели как да буутват от ZIP а там по наследство трябвало да е с такъв номер...)
+[12:36:15] <yulimoto> мали-мали  то не е лошо да се знае ако на човек му се наложи :)
+[12:36:29] <hackman> Любов е...
+[12:36:29] <hackman> когато програмираш и тя идва зад теб, прегръща те и ти прошепва в ухото "Затвори скобите на 127 ред."
+[12:37:23] <yulimoto>  имало и женски нърдове значи :)
+[12:37:55] <hackman> yulimoto, аз съм женен за Java programmer :) не е лошо :)
+[12:38:11] <phalaaxx> това дъно ми счупи главата, не щя да буутне по правилния начин та ми се наложи да разбера как се прави това с isohybrid
+[12:39:37] <phalaaxx> hackman: останах с впечатлението че не си голям фен на Java
+[12:39:52] <phalaaxx> или може би съм се заблудил защото аз не съм :D
+[12:40:22] <hackman> изобщо не я обичам... но жена си обичам :)
+[12:40:22] <yulimoto> phalaaxx: hackman може да не е фен на Java, а на Java програмистките :)
+[12:40:44] <hackman> затовя и я карам да ми направи едни upgrade-и на web interface-a на azureus-а :)
+[12:40:45] <phalaaxx> според мен ако го нямаше този език света щеше да е едно много по-добро място за живеене
+[12:41:05] <phalaaxx> тъпия ми андроидски телефон не пропуска ден да ми го напомни
+[12:41:19] <phalaaxx> оо не само ми го напомня, завира ми го в лицето по най-брутален начин
+[12:41:25] <yulimoto> phalaaxx:  не си прав, чадо :P той може да не става, но е дал доста матреал на други езици :)
+[12:42:10] <phalaaxx> оо не съм съгласен с това, ако беше така - света сега щеше да е още по-лошо място за живеене :D
+[12:42:51] <yulimoto> phalaaxx: isohybrid не е ли много по-лесен за употреба от isolinux ?
+[12:43:26] <phalaaxx> говориш за syslinux върху USB памет може би
+[12:43:32] <yulimoto> mmmmda
+[12:43:45] <phalaaxx> това за което аз казах (или поне за това си мисля че казах) преди малко
+[12:44:53] <phalaaxx> мисля че е по-лесно със syslinux особено ако ти се налага често да правиш промени по съдържанието
+[12:45:36] <phalaaxx> иначе трябва при всяка промяна да записваш целия image върху USB-то
+[12:48:59] <phalaaxx> имам си едно USB с разни полезни неща (memtest, mhdd) и от което си инсталирам разни работи със netinstall (debian, ubuntu) и скрипт на него който ми тегли последните версии на ядрото и initrd за съответните netinstall-и
+[12:49:21] <phalaaxx> и като реша да му правя update на работите по него само си го монтирам някъде и си пускам скрипта и то си ги тегли
+[12:50:02] <phalaaxx> иначе със isohybrid ще трябва да си генерирам цялото iso наново и после да намажа USB-то с него :)
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:00:46] hackman (~hackman@management.1h.com) left irc: Ping timeout: 272 seconds
+[13:01:04] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[13:02:13] <anton_sh> Здравейте нещо крайния резултат от изпита чува ли се? Кога ще се разбере кой го е взел и кой не?
+[13:19:00] <ndyakov> точно изпусна hackman
+[13:21:16] <anton_sh> той не е ли казвал нещо по въпроса
+[13:40:42] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[13:42:21] <hackman> http://www.youtube.com/watch?v=S1x76DoACB8
+[13:42:22] <wilindex> [YouTube] Title: Disney's Frozen Teaser Trailer | Uploader: disneyanimation | Uploaded: 19/06/2013, 14:12 | Duration: 1mins 36secs | Views: 1,068,892 | Comments: 596 | Likes: 4,507 | Dislikes: 241
+[13:48:02] <KacanuH> hackman яко
+[13:50:39] <yulimoto> a ве някой гледа ли futurama аз от скоро ги гледам :)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:03:16] <phalaaxx> Microsoft released a new Download Manager for Chrome... It's called IE11.
+[14:21:25] TheJovial (~Jovial@2074707823.shumen.cablebg.net) joined #telerikacademy.
+[14:22:26] dyrgel (~dyrgel@92.247.8.98) joined #telerikacademy.
+[14:32:06] JovialMaster (~Jovial@2074707823.shumen.cablebg.net) joined #telerikacademy.
+[14:36:02] TheJovial (~Jovial@2074707823.shumen.cablebg.net) left irc: Ping timeout: 272 seconds
+[14:48:36] JovialMaster (~Jovial@2074707823.shumen.cablebg.net) left irc: Quit: Leaving
+[14:49:35] Jovial (~Jovial@2074707823.shumen.cablebg.net) joined #telerikacademy.
+[14:54:29] <anton_sh> hackman:  чува ли се нещо за реяултатите от изпита?
+[14:56:54] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) left irc: Quit: Bye
+[14:58:37] <phalaaxx> anton_sh: http://forums.academy.telerik.com/131157/%D0%B8%D0%B7%D0%BF%D0%B8%D1%82%D0%B0-%D0%BC%D0%B8%D0%BD%D0%B0%D0%B0%D0%B0%D0%B0%D0%B0%D0%B0%D0%B0?start=10#132341
+[14:58:37] <wilindex> [ Изпита минааааааа - Telerik Academy Forums ] - forums.academy.telerik.com
+[14:58:38] <hackman> идея си нямам... не са ми писали
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:14] <anton_sh> ясно.. те докато изчислят кой присъствал кой не,домашни работи...
+[15:02:33] <anton_sh> а последно тези който са участвали по време на stream-a също ще получат точки за присъствие нали?
+[15:05:29] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[15:06:57] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[15:07:44] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[15:08:41] <Jovial> Здравейте, само да попитам в последствие появи ли се някакъв по-изчистен от смущения вариант на лекциите ?
+[15:08:57] <Jovial> в смисъл нещо да е презаписвано пак
+[15:10:09] <KpeTeHoug> само една лекция е презаписвана, и то защото я нямаше цялата
+[15:10:14] <KpeTeHoug> ин аче мисля не
+[15:10:15] phalaaxx (~bozhin@94.26.20.166) left irc: Remote host closed the connection
+[15:10:46] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[15:12:34] <Jovial> е жалко
+[15:12:52] <Jovial> :) ще се изчака следващия сезон
+[15:14:08] <KpeTeHoug> честно казано аз съм гледал всичко само онлайн
+[15:14:13] <KpeTeHoug> не са чак толкова отчайващи :)
+[15:14:20] <KpeTeHoug> като преглътнеш първите 2-3
+[15:15:05] <Jovial> е може ... аз избутах малко зор 2-рата и 3-тата ... и не ми се почваше по-нататък :D
+[15:15:16] <Jovial> отказал съм се явно "точно навреме"
+[15:15:56] <Jovial> довечера май пак ще пробвам да грабна химикала и тетрадката и да пиша ключови думи дето подхвърля Машината :)
+[15:17:41] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[15:19:36] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[15:23:00] <_rewind> yulimoto, това е УНИКАЛЕН сериал :) изгледах всичко, включително пълнометражните... за съжаление май са го спряли..
+[15:23:34] <_rewind> за което с удоволствие ще им кажа, че са глупаци, както и "bite my shiny metal aass..."
+[15:23:53] <_rewind> само ако наистина са го спряли
+[15:24:06] <KpeTeHoug> кое това :) я раздук
+[15:24:09] <KpeTeHoug> *раздуй
+[15:24:20] <_rewind> за Futurama говорим :)
+[15:24:32] <_rewind> тия имат невероятно въображение най-малкото
+[15:24:38] <KpeTeHoug> ааа
+[15:24:45] <KpeTeHoug> изгледа всичко ?
+[15:24:48] <KpeTeHoug> баси ентусиаста
+[15:24:53] <KpeTeHoug> а доколкото знам няма повече
+[15:25:07] <KpeTeHoug> на последният епизод пишело "avange us"
+[15:25:11] <KpeTeHoug> аз не съм го гелдал
+[15:25:30] <_rewind> KpeTeHoug, е по серия на вечеря и те отлетяха.. въпреки, че последните няколко пъти вечерям с лекция по-скоро, че имах да наваксвам
+[15:25:44] <_rewind> да! този го видях, точно за това мисля, че е спрян
+[15:25:56] <KpeTeHoug> спрян е да
+[15:27:10] <KpeTeHoug> яйде бе
+[15:27:15] <_rewind> phalaaxx, имаше такава шега преди години, кое е най-често използваната функция на новия IE11 :) а именно да изтеглиш с него Firefox
+[15:27:17] <KpeTeHoug> те спират winamp
+[15:27:20] <KpeTeHoug> ти за един сериал
+[15:27:26] <_rewind> :)
+[15:27:31] <Jovial> :)
+[15:27:51] <KpeTeHoug> и аз затова го ползвам IE11
+[15:31:07] <phalaaxx> аз IE11 бих ползвал само да плаша непослушни деца с него
+[15:37:39] Jovial (~Jovial@2074707823.shumen.cablebg.net) left irc: Ping timeout: 264 seconds
+[15:44:04] Jovial (~Jovial@2074707823.shumen.cablebg.net) joined #telerikacademy.
+[15:47:20] topalov (~topalov@gw.prosyst.bg) left irc: Remote host closed the connection
+[15:58:14] <yulimoto> колкото до изпита и резултатите в някакъв момент предполагам ще е възможно ако това се налага hackman да добави присъствията на тези които са били онлайн по-време на лекциите
+[15:58:55] <hackman> yulimoto, пратих им кой е присъствал online още в понеделник миналата седмица
+[15:59:23] <yulimoto>  добрия админ мисли в предварение :)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:04:23] <yulimoto> _rewind: вчера някой постна сериа от balgar и ми стана интересно, та за това попитах. Анимацииката си има много добре направено аудио и бяга от бг битовите истории :)
+[16:11:18] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[16:12:43] <_rewind> yulimoto, да. Също така серийката, колкото и да харесах идеята на Под Прикритие си беше с много хубав сарказъм с това дърво :D
+[16:18:05] topalov (~topalov@gw.prosyst.bg) joined #telerikacademy.
+[16:19:03] <KpeTeHoug> въпрос
+[16:19:27] <KpeTeHoug> на курса по ОС Наков каза че всеки взел някаквъ изпит в Telerik ще има ключ за dreamspark
+[16:19:47] <KpeTeHoug> да си тегли приложения на Microsoft, за тестване и education
+[16:19:52] <KpeTeHoug> някой някакви идеи ?
+[16:19:55] <KpeTeHoug> и дали го е правил
+[16:22:03] <hackman> KpeTeHoug, аз имам ключ за dreamspark от НБУ :)
+[16:22:07] <hackman> искаш ли ? :)
+[16:22:42] <KpeTeHoug> :)
+[16:22:48] <KpeTeHoug> ми няма да откажа, ако не е голям проблем
+[16:22:59] <KpeTeHoug> да си сваля оригинално продукт :)
+[16:23:15] <KpeTeHoug> аз предполагам някой ден и на мен ще дадат
+[16:25:02] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[16:30:51] <hackman> KpeTeHoug, http://dreamspark.nbu.bg/2013/10/nbu-dreamspark-new-acc-autumn-2013/
+[16:30:53] <wilindex> [ Нови акаунти за есенният семестър през учебната 2013-2014г. ← DreamSpark@NBU ] - dreamspark.nbu.bg
+[16:31:07] <hackman> използвай mm at 1h.com за e-mail
+[16:31:16] <hackman> ще ти forward-на после mail-a
+[16:32:46] <KpeTeHoug> :)
+[16:44:11] <dyrgel> аз имам регистрация в dreamspark oт СУ, ама тая година доста постно от към продукти
+[16:52:39] dyrgel (~dyrgel@92.247.8.98) left #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:17:22] Jovial (~Jovial@2074707823.shumen.cablebg.net) left irc: Quit: Leaving
+[17:48:01] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[17:51:12] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:40:52] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) left irc: Ping timeout: 250 seconds
+[18:43:23] hanasd (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:43:57] <hanasd> hi all
+[18:43:57] <wilindex> hanasd: 2013-11-19 23:39:22 UTC <hackman> tell hanasd md5sum - 93447f0da891cc386e4e6fede30c5731
+[18:44:05] <hanasd> 10x
+[18:45:40] <hanasd> to hackman 10x when you see it :beer:
+[18:48:10] <hackman> :)
+[18:49:45] <hanasd> gotin both dneska toest dowe4era 6te chekna virtualkata da widq dali sum downloadnal prawilno 6toto neshto mi failva da se zaredi wuw WM playera
+[18:50:46] <hackman> hanasd, виртуалката е за VirtualBox :) не е за VMware :)
+[18:51:07] <hanasd> hm... towa mozhe i da obqsnqwa neshata
+[18:51:14] <hackman> :) нали :)
+[18:51:54] <hackman> заради тъпия VirtualBox се наложи да си прекомпилирам ядрото без signatures за да може да се компилира правилно модула за vbox-a :)
+[18:53:12] <hanasd> toest Vbox si e bugawa rabota taka li da razbiram
+[18:59:08] hackman (~hackman@management.1h.com) left irc: Ping timeout: 272 seconds
+[18:59:30] _rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[18:59:37] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[19:00:01] Writing user file...
+[19:00:01] Writing channel file...
+[19:01:13] <hanasd> ima li nqkoi i na win admin w momenta koito te4e oswen men
+[19:01:31] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[19:03:14] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:08:38] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[19:09:35] rewind_telerik_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:09:54] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:11:00] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:11:21] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[19:11:32] <fityla> оп//
+[19:12:58] <rewind_telerik_> fityla ?
+[19:14:18] <fityla> тука съм
+[19:14:23] <fityla> видях че си ме чекнал и ти
+[19:14:24] <fityla> ;)
+[19:14:26] <fityla> мерси
+[19:15:09] <hanasd> to fityla e s teb si kazahme zdrasti
+[19:15:35] <fityla> :Д
+[19:15:37] <fityla> :D
+[19:15:38] <fityla> ;)
+[19:20:56] <hackman> eee to imashe lekciq dnes beee
+[19:21:00] <hackman> fuck... ima li hora ?
+[19:22:48] <hanasd> baq
+[19:23:12] <hanasd> ma to e taka w na4aloto sa mnogo kum kraq nikoi po4ti ili obi4ainite zapodozneni bez K.Speisi :)
+[19:25:16] <hackman> аз се прибирам... щом е full залата
+[19:25:30] <hanasd> abe mqsto ima
+[19:25:42] <hanasd> dazhe do men na red 1 e svobodno
+[19:26:00] <hanasd> i na 2 ima i t.n.
+[19:32:04] <fityla> има места...
+[19:53:04] <rewind_telerik_> имам чувството, че някой неща са твърде логични за обяснение, въпреки което Боби държи да ги спомене
+[19:55:24] <hanasd> imai predwid 4e wse pak ima hora koito ne znaqt kude e device manager i kakwo e cmd
+[19:57:09] <fityla> :D
+[19:57:14] <fityla> не се ебавай
+[19:57:42] <hanasd> ne ne se ebawam imam si i takiwa kolegi w ofisa
+[19:59:13] <hanasd> dazhe skoro nastroiwah language na wsi4ki kolegi 4psc. da imat bulgarski
+[20:00:01] Writing user file...
+[20:00:01] Writing channel file...
+[20:01:30] <rewind_telerik_> той и phalaaxx разказа за негов колега, който се бореше по много странен начин с логин-а на убунту, но конкретно тук не мисля, че някой от именно тези неща ТРЯБВА да бъде обяснявано в такива детайли :)
+[20:05:34] hackman (~hackman@management.1h.com) left irc: Ping timeout: 246 seconds
+[20:07:58] rewind_telerik_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:10:27] <yulimoto> eee сега може да има хора които не са виждали win, а направо са седнали на линукс бря :)
+[20:19:25] <hanasd> ima ima :) poznawam edin takuw exzemplqr purwo na llinux sled towa 4ak na win
+[20:23:08] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:34:55] kolio2 (~kolio2@87-126-73-25.btc-net.bg) joined #telerikacademy.
+[20:35:21] _rewind (~teo@46.238.29.142) left irc: Remote host closed the connection
+[20:36:12] Nick change: kolio2 -> dyrgel
+[20:46:12] Jovial (~jovial@2073800296.shumen.cablebg.net) joined #telerikacademy.
+[20:51:32] Jovial (~jovial@2073800296.shumen.cablebg.net) left irc: Quit: Leaving
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:10:02] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:10:59] hanasd (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:12:59] Nick change: ndyakov -> ndyakov|away
+[21:22:32] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[21:22:56] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[21:29:41] dyrgel (~kolio2@87-126-73-25.btc-net.bg) left irc: Ping timeout: 252 seconds
+[21:48:51] Nick change: ndyakov|away -> ndyakov
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:20:14] dyrgel (~kolio2@87-126-73-25.btc-net.bg) joined #telerikacademy.
+[22:22:13] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[22:22:13] Nikiman (~dfdfdfd@91.191.219.153) joined #telerikacademy.
+[22:22:56] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[22:44:08] dyrgel (~kolio2@87-126-73-25.btc-net.bg) left irc: Ping timeout: 245 seconds
+[22:46:00] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:28:13] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
+[23:28:28] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[00:00:00] --- Fri Nov 22 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

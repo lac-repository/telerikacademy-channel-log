@@ -1,0 +1,876 @@
+
+--- Day changed чт юли 04 2013
+00:00 < DamnTheLuck> hackman: аз и с mplayer не го отварям
+00:01 < Informer> hackman, относно днешния ти съвет - CentOS 5.8 ми разпозна DVD-то. :)
+00:01 < hackman> Е аз вече го спрях
+00:01 < hackman> и качеството не ми хареса
+00:01 -!- Guest51746 [~wiseman@mariay.pppoe.fiber-lan.eu] has quit [Read error: Connection reset by peer]
+00:01 -!- Guest51746 [~wiseman@mariay.pppoe.fiber-lan.eu] has joined #telerikacademy
+00:02 < Deyan_at_home> какво изпуснах, да не да е имало някакъ стриим
+00:04 < yulimoto> аз подкарах нещо но с wmv и също качеството беше шит 
+00:04 < yulimoto> cvlc v4l2:// :v4l2-vdev="/dev/video0" --sout '#transcode{vcodec=x264{keyint=60,idrint=2},vcodec=h264,vb=400,width=368,heigh=208,acodec=mp4a,ab=32 ,channels=2,samplerate=22100}:duplicate{dst=std{access=http{mime=video/x-ms-wmv},mux=asf,dst=:8080/stream.wmv}}' --sout
+00:04 < hackman> guys
+00:04 < hackman> q otvorete tova pls: http://youtu.be/FUZGi0QZs30
+00:05 < DamnTheLuck> работи
+00:05 < DamnTheLuck> някъде сигурно с 1 мин закъснение, ама работи
+00:05 < hackman> Ами може и така да го направим :)
+00:06 < yulimoto> пърфект е 
+00:06 < hackman> изглежда по-добре ;)
+00:06 < yulimoto> доста 
+00:07 < yulimoto> ок значи така ще стане, и ще гледаме десктопа 
+00:07 < yulimoto> аз мислех, че камерата трябвало да се вкл. 
+00:07 < yulimoto> у на мен 
+00:09 < phalaaxx> това pidgin ли е? :)
+00:09 -!- wiseman [~wiseman@mariay.pppoe.fiber-lan.eu] has joined #telerikacademy
+00:10 -!- wiseman is now known as Guest67576
+00:10 -!- Guest67576 [~wiseman@mariay.pppoe.fiber-lan.eu] has quit [Client Quit]
+00:10 -!- wiseman_ [~wiseman@mariay.pppoe.fiber-lan.eu] has quit [Quit: Leaving]
+00:10 -!- Guest51746 [~wiseman@mariay.pppoe.fiber-lan.eu] has quit [Quit: Leaving]
+00:11 -!- Slavov [~slavov@77.70.91.102] has quit [Remote host closed the connection]
+00:15 -!- _wiseman_ [~wiseman@mariay.pppoe.fiber-lan.eu] has joined #telerikacademy
+00:15 < yulimoto> 
+00:15 < _wiseman_> jalko  che e samo 480p
+00:17 < yulimoto> стигат 
+00:18 < yulimoto> ще се види в реални условия ; сигурно тогава ще дойдат идеи 
+00:18 < yulimoto> лека на всички 
+00:18 < yulimoto> лягам 
+00:18 < _wiseman_> vsu6tnost ideqta za stream e dvuposo4nata vruzka
+00:19 < _wiseman_> 6toto ina4e i ka4enite klipove vurshat rabota
+00:19 < yulimoto> хм има някакви такива корпоративни платформи 
+00:19 < _wiseman_> stream sus chat
+00:19 < _wiseman_> az ponqkoga izpolzvam ustream
+00:20 < _wiseman_> kachvam go na saita i montiram i ch
+00:20 < _wiseman_> at
+00:20 < _wiseman_> samo deto na hakman-a shte mu dojde nanagorno ako 500+ pochnat da zadavat vuprosi :)
+00:20 < DamnTheLuck> с чата...трябва да има някой да отговаря:)
+00:21 < DamnTheLuck> за коментари по вреем на liveStream-а мисля че и тоя канал ще върши работа
+00:21 < yulimoto> аз по принцип бих се доверил на някоя корпоративна услуга в случая проблема е че се плащат особено когато потребителите са повечко 
+00:22 < _wiseman_> ustream e bazplatna
+00:22 < yulimoto> общо взето там си има някакъв ред искаш думата - дават ти я, иначе ще стане мазало, нещо като webinar 
+00:23 < yulimoto> да безплатна но най-вероятно е само видео и аудио 
+00:23 < _wiseman_> ima i chat kakto kazah...  instaliral sum q na domein zaedno s chata :)
+00:24 < yulimoto> аха
+00:24 < _wiseman_> ni6to de, 6te mi e interesno da vidq kakvo shte sutvori hackman, no tozi put mislq da go gledam na jivo
+00:25 < yulimoto> да, то по-интересното е че ако има въпроси в края на лекцията може да се задат сигурно 
+00:26 < yulimoto> макар и с минутно закъснение ще може да се реагира 
+00:26 < yulimoto> въпреки, че на мен въпросите ми идват не на лекциите, а на домашната работа :) 
+00:26 < yulimoto> хайде лека на всички 
+00:27 < _wiseman_> bb
+00:27 -!- You're now known as yulimoto_away
+00:30 -!- billykain [billykain@78-83-54-216.spectrumnet.bg] has quit [Ping timeout: 245 seconds]
+00:30 -!- Botlike [~do0mnsday@185.7.217.1] has joined #telerikacademy
+00:32 -!- TBP [4e5a59ab@gateway/web/freenode/ip.78.90.89.171] has quit [Quit: ma toi umrql ma]
+00:38 -!- iordan_93 [82cc6e33@gateway/web/freenode/ip.130.204.110.51] has joined #telerikacademy
+00:39 -!- iordan_93 [82cc6e33@gateway/web/freenode/ip.130.204.110.51] has quit [Client Quit]
+00:44 -!- Informer [Informer@78.90.229.234] has quit [Quit: C ya!]
+00:48 < _wiseman_> лека и от мен
+00:48 -!- _wiseman_ [~wiseman@mariay.pppoe.fiber-lan.eu] has quit [Quit: Leaving]
+00:57 < Deyan_at_home> лека ви нощ :)
+00:59 -!- Deyan_at_home [~Deyan@46.249.92.240] has quit [Remote host closed the connection]
+01:02 -!- lengarski [~lengarski@free-bnc.radio33.org] has quit [Read error: Connection timed out]
+01:04 -!- Fairytale [Fairytale@police.executie.org] has quit []
+01:15 < phalaaxx> nite u all guys & gals
+01:15  * phalaaxx wavez
+01:15 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: bb]
+01:27 < Botlike> zdraveite :)
+01:27 < MarianaB> Драсти :)
+01:27 < Botlike> za pari za pastii
+01:28 < MarianaB> айде почнахме със сделките )
+01:35 < Botlike> xax
+01:42 < MarianaB> :)
+01:44 < Botlike> как се справяте с домашните
+01:45 < MarianaB> Ми аз направих една домашна..., то ще проличи после :)
+01:49 < Botlike> Само аз ли нямам време за домашни :)
+01:50 < MarianaB> май има и други, които чакат последния момент.
+01:51 < Botlike> Аз още се чудя как да я напиша :)
+01:51 < DamnTheLuck> то не е за писане..направи я :)
+01:52 < Botlike> и после копи от терминала :Д
+01:53 < DamnTheLuck> еми, в добрия случай накрая ще може да направиш файл, който като се пусне да прави точно това :)
+01:54 < Botlike> значи да инсталвам QT4 и да я пражя графично програмката :)
+01:56 < DamnTheLuck> говорех по-скоро за bash скрипт или по-точно файл само с команди :)
+01:56 -!- Botlike [~do0mnsday@185.7.217.1] has quit [Read error: Connection reset by peer]
+02:11 -!- MarianaB1 [~Mariana@46.10.160.154] has joined #telerikacademy
+02:11 -!- MarianaB [~Mariana@46.10.160.154] has quit [Ping timeout: 246 seconds]
+02:18 -!- DamnTheLuck [~wonderboy@93-152-190-38.ddns.onlinedirect.bg] has left #telerikacademy []
+02:44 -!- rox`away [~n_a@130-204-86-120.2073150800.ddns.cablebg.net] has quit [Ping timeout: 264 seconds]
+02:48 -!- rox`away [~n_a@130-204-86-120.2073150800.ddns.cablebg.net] has joined #telerikacademy
+03:02 -!- lengarski [~lengarski@free-bnc.radio33.org] has joined #telerikacademy
+03:09 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Read error: Operation timed out]
+05:46 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has quit [Ping timeout: 250 seconds]
+07:09 -!- MarianaB1 [~Mariana@46.10.160.154] has left #telerikacademy []
+07:41 -!- dencho [~dencho@95.111.14.183] has quit []
+07:50 -!- samy [~samy@84.238.184.98] has quit [Ping timeout: 276 seconds]
+08:15 -!- billykain [billykain@78-83-54-216.spectrumnet.bg] has joined #telerikacademy
+08:33 -!- samy [~samy@77-85-36-211.btc-net.bg] has joined #telerikacademy
+08:59 -!- hackman [~hackman@wolf.yuhu.biz] has quit [Ping timeout: 256 seconds]
+09:01 < Deyan_borodzhiys> доубро утро
+09:08 -!- DamnTheLuck [~wonderboy@93-152-190-38.ddns.onlinedirect.bg] has joined #telerikacademy
+09:20 < lamqta> добро
+09:31 -!- stoyan [~chatzilla@94.26.85.140] has joined #telerikacademy
+09:31 -!- stoyan [~chatzilla@94.26.85.140] has quit [Client Quit]
+09:32 -!- stoyan [~chatzilla@94.26.85.140] has joined #telerikacademy
+09:34 -!- gryzli [~gryzli@94.155.42.130] has joined #telerikacademy
+09:35 -!- stoyan [~chatzilla@94.26.85.140] has left #telerikacademy []
+09:39 -!- gryzli [~gryzli@94.155.42.130] has left #telerikacademy ["Leaving"]
+09:49 -!- ivzb [~ivzb@92.62.251.121] has joined #telerikacademy
+09:51 -!- DamnTheLuck [~wonderboy@93-152-190-38.ddns.onlinedirect.bg] has left #telerikacademy []
+09:56 < Deyan_borodzhiys> Хайде бе, няма ли да се събуждате вече
+09:58 -!- niki [~niki@nat103.cnsys.bg] has joined #telerikacademy
+09:59 -!- niki is now known as Guest89351
+09:59 -!- Guest89351 is now known as nlkl
+09:59 -!- KpeTeHoug|afk is now known as KpeTeHoug
+10:00 < KpeTeHoug> briutru
+10:03 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+10:04 -!- You're now known as yulimoto
+10:17 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+10:25 -!- bentoslack [~Adium@ibekyarov.mw-medianetworks.eu] has joined #telerikacademy
+10:34 -!- marian1 [~hackman@management.1h.com] has joined #telerikacademy
+10:34 -!- marian1 is now known as hackman
+10:35 -!- mode/#telerikacademy [+o hackman] by ChanServ
+10:35 < KpeTeHoug> еха
+10:35 < KpeTeHoug> бриутру
+10:35 <@hackman> добро
+10:35 < KpeTeHoug> дай сега мас кик/бан и take over на канала :)
+10:37 < KpeTeHoug> снощи ме нямаше, ама как минаха тестовете на лайф стрийма ?
+10:39 -!- zxcvbnm [4e5a59ab@gateway/web/freenode/ip.78.90.89.171] has joined #telerikacademy
+10:39 <@hackman> плачевно... но намерихме решение :)
+10:40 -!- zxcvbnm [4e5a59ab@gateway/web/freenode/ip.78.90.89.171] has quit [Client Quit]
+10:40 < KpeTeHoug> хаха
+10:40 < KpeTeHoug> е все е начало
+10:45 -!- gyankov [4e5abff5@gateway/web/freenode/ip.78.90.191.245] has joined #telerikacademy
+10:46 < Deyan_borodzhiys> https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn1/1017390_688240647869049_744970082_n.jpg
+10:46 -!- DamnTheLuck [4d46720b@gateway/web/freenode/ip.77.70.114.11] has joined #telerikacademy
+10:49 < KpeTeHoug> е пишем пишем
+10:49 < KpeTeHoug> или както се казва
+10:49 < KpeTeHoug> пишими :)
+10:49  * KpeTeHoug playz : Deep Purple - When a Blind Man Cries (RockRadio1.Com - Classic Hard Rock and Heavy Metal Mix, 24/7 Live Requests / www.rockradio1.com)
+10:50 < KpeTeHoug> тва даже още работи :)
+10:51 -!- Slavov [~slavov@78-83-68-163.spectrumnet.bg] has joined #telerikacademy
+11:01 -!- dencho [4d463cda@gateway/web/freenode/ip.77.70.60.218] has joined #telerikacademy
+11:01 -!- dencho is now known as dencho-at-work
+11:23 -!- sore|loser [4e5a59ab@gateway/web/freenode/ip.78.90.89.171] has joined #telerikacademy
+11:39 < Deyan_borodzhiys> KacanuH is not in the sudoers file.  This incident will be reported.
+11:40 < Deyan_borodzhiys> до къде стигнахме с броотфорсването на гризлито
+11:42 <@hackman> момци що се борите толкова
+11:42 < dencho-at-work> hahahaha
+11:42 <@hackman> следващата седмица всички ще имате root на grizzly
+11:42 < dencho-at-work> e togava nqma da e interesno :D
+11:42 < Deyan_borodzhiys> dencho-at-work: https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn1/1017390_688240647869049_744970082_n.jpg
+11:42 <@hackman> еми хайде правете си интересното на вашите машинки, не на моята
+11:42 < dencho-at-work> btw... mislq che sledvashtata sedmica grizzly-to shte pada na 20 minuti ot rm -fr
+11:43 <@hackman> да не ви го направя прекалено интересно :)
+11:43 < dencho-at-work> hahaha
+11:43 < dencho-at-work> Deyan_borodzhiys: zaradi problemi s encoding-a ne pisha na kirilica
+11:43 < dencho-at-work> :Д
+11:43 < dencho-at-work> :D
+11:44 < Deyan_borodzhiys> Добре това те извинява, но все пак опитай да го оправиш,
+11:44 < Deyan_borodzhiys> ти какъв клиент ползваш
+11:44 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+11:44 < dencho-at-work> zavisi kyde se namiram, t.e az moga da cheta kirilica, no ne vsichki mogat da chetyt moiata kirilica :)
+11:45 < dencho-at-work> izpolzvam webchat, mIRC (kogato sym si v nas) i prochie
+11:45 < dencho-at-work> no shte se opitam da pisha maksimalko razbiraemo na latinska kirilica :D ghahaha
+11:46 < Deyan_borodzhiys> а опита ли с ChatZilla
+11:46 < DamnTheLuck> аз съм през http://webchat.freenode.net/ и май всички ме разбират:)
+11:46 < dencho-at-work> poneje kartinkata ti... penka otide na kyra triabva da e taka :P
+11:47 < Deyan_borodzhiys> остана да го напишеш Penka otide na kypa
+11:47 < Deyan_borodzhiys> тогава всички ще знаем че пенка е разгонена
+11:51 < dencho-at-work> az moga da napravia vseki klient za vseki encoding, no horata koito ne sa go napravili nqma da me chetyt :P
+11:51 < dencho-at-work> i vsio :)
+11:51 < dencho-at-work> obiad... :)
+11:51 < sore|loser> Пичове я кажете има ли някакъв конкретен формат/оформление за домашните ?
+11:51 < dencho-at-work> sore|loser: ne
+11:51 < sore|loser> или единственото изискване е .txt
+11:51 < dencho-at-work> sore|loser: da
+11:51 < sore|loser> окс, мерси
+11:52 < dencho-at-work> Deyan_borodzhiys: fonetichna bylgarska klaviatura - y = ъ :)
+11:53 < dencho-at-work> :D
+11:56 < Deyan_borodzhiys> да бе то и на паметника на Братята Кирил и Методи на паметника пред НДК не пише кур и ташак
+11:58 < Deyan_borodzhiys> ама ако питаш мен точно това си пише
+12:05 < Deyan_borodzhiys> Днес е починал  създателят на първата компютърна мрежа ARPANET
+12:06 < Deyan_borodzhiys> Douglas Engelbart който е създателят още и на мишката Douglas Engelbart
+12:06 < Deyan_borodzhiys> Douglas Engelbart който е създателят още и на мишката
+12:07 < gyankov> Тази кирилица нали я четете, че ми стана интересно :).
+12:22 < dencho-at-work> gyankov: cherem q :D
+12:23 < gyankov> Супер :).
+12:24 < dencho-at-work> da... i snoshti hacknaha foruma na linux-bg.org :)
+12:25 <@hackman> за трети път :)
+12:25 < dencho-at-work> ya :)
+12:26 <@hackman> аз не ги разбирам тези идиоти които го правят
+12:27 -!- ViLKaTa [5761c055@gateway/web/freenode/ip.87.97.192.85] has joined #telerikacademy
+12:27 <@hackman> това е все едно като минаваш покрай някой фитнес на улицата, от там да излязат две "нацепени батки" и ти вкарат два юмрука в главата
+12:27 <@hackman> без причина :)
+12:28 < ViLKaTa> Това четете ли го?
+12:29 < ViLKaTa> bentoslack:
+12:29 < ViLKaTa> :)
+12:29 < dencho-at-work> chetem go ve ViLKaTa ve :d
+12:30 < dencho-at-work> hackman: ne e bash vse edno :)
+12:31 <@hackman> dencho-at-work: според мен е еднакво...
+12:31 <@hackman> не е етично да hack-ваш сайтове като linux-bg, които са в полза на обществото
+12:31 <@hackman> да ходят да hack-ват сайтовете на ДПС и БСП
+12:31 <@hackman> глупаци...
+12:33 -!- Netsplit *.net <-> *.split quits: Deyan_borodzhiys, phalaaxx, user99
+12:33 < dencho-at-work> za grupa hora sajta e ot polza... za drugi ne e... :)
+12:33 < dencho-at-work> ima hora za kojto sajta na M$ e ot polza :D
+12:34 -!- Netsplit over, joins: Deyan_borodzhiys
+12:34 <@hackman> dencho-at-work: и сега ти искаш да ме убедиш, че някой M$ ориентиран е hack-нал сайта на linux-bg ли?
+12:35 < yulimoto> dencho-at-work: да но това не го прави вреден 
+12:36 < yulimoto> хубавото е че има адекватна реакция от линукс-бг веднага пратиха мейли, има хора които ще поискат да потулят случая 
+12:36 < yulimoto> т.е. в такива ситуации няма да се опитат да защитят потребители
+12:37 < dencho-at-work> hackman: ne :)
+12:38 < dencho-at-work> i tuk idva fundamentalnia vypros... Tiabva li da se pravi update, pri uslovie, che vsichko raboti korektno?! :D
+12:38 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+12:38 < dencho-at-work> hackman: M$ Orientiranite nqmat poznanieto (ili pone taka si mislq) :D
+12:39 <@hackman> трябва :)
+12:39 <@hackman> то от такива които не update-ват после стават драмите
+12:39 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+12:39 < yulimoto> що ? като си бачка що да се  ъпдейтва ?
+12:40 < yulimoto> да си бачка докато си умре после ще купим ново, то до тогава ще е морално остаряло
+12:41 < dencho-at-work> az vseki den chuvam po nqkolko pyti i dvete strani :D
+12:42 < yulimoto> пък и като е достатъчно остаряло се секюрва от самосебе си, никой неще да се занимава и да учи стари работи, а тези които разбират от него улягат и не им се занимава с глуспости :)
+12:43 < yulimoto> не знам аз приказвам, за да не заспя. сигур ако ми се случи драма ще псуя като селянин теорията която защитавам...
+12:43 < ViLKaTa> yulimoto, ti si kat priatelkata
+12:44 < yulimoto> коя дето ти омаза десктопа ли ?
+12:44 < ViLKaTa> Tia ne update antivirusnata, shtoto niama virus
+12:44 < ViLKaTa> Da
+12:44 < ViLKaTa> Idi i obiasni, che kat update i e po-veroiatno da prodalji da niama virus
+12:45 < dencho-at-work> ne che taq virusna programa antivirus pravi neshto :P
+12:45 < ViLKaTa> Pravi
+12:45 < ViLKaTa> Ot neta napipvam serizlcheta
+12:45 < ViLKaTa> Za Eset Smart Security
+12:45 < ViLKaTa> S firewall
+12:45 < yulimoto> не виж сега. ако не ъпдейтва няма да има вирус, защото вирусната няма да го засече, а щом не го засече няма да има и проблем 
+12:46 -!- user99 [~McNamee@213.226.63.144] has joined #telerikacademy
+12:46 -!- nlkl [~niki@nat103.cnsys.bg] has quit [Ping timeout: 245 seconds]
+12:46 < ViLKaTa> Leko..
+12:46 < ViLKaTa> Tva che ne go zasichna, ne znachi, che niama virus i saotvetno niama problemi
+12:46 < ViLKaTa> E, dencho-at-work  da ti kaje za edin virus
+12:46 < ViLKaTa> Det kat ne go zaseche i vidimo za tebe niama problemi
+12:46 < yulimoto> Да за секюрити съм съгласен да се ъпдейтва, за друго обаче ... може би няма генерален признак, зависи от случая 
+12:47 < ViLKaTa> Ako ne e problem drug da ima palen dostap do kompa ti..
+12:47 < ViLKaTa> Ckl. da ti gleda desktopa, da te gleda prez kamerata i da te slusha prez mikrofona
+12:49 < yulimoto> Ако този дето ти е влязъл в системата е свестно момче ще почне да те защитава, и то точно от слабостите с които се е сдобил с достъп до машината. Така ти ще поделиш ризата с ближния, а той ще те защитава от келеши като него
+12:49 < ViLKaTa> hahahahaaaa
+12:49 < ViLKaTa> Ti si mnogo pozitivna lichnost
+12:50 < ViLKaTa> I vse pak predpochitam nikoj da ne vliza
+12:51 < dencho-at-work> ne zabraviaite, che govorim za Windows :D
+12:54 < yulimoto> Ама помисли, ако влезеш в някоя машина благодарение на някаква слабост, няма ли да почнеш да я защитиш, за да не могат други да влязат и да се гоните един-други. Примерно ще решиш да прекомпилираш там я ядро е нещо и си играеш 3-4 часа и на другия ден конкуренцията и тя с нейно ядро. И почват караници, емейли до официалния собственик - "пич имаш проблем, мога да го реша" и т.н. после официалния собственик решава един вид с конкурс, кой ще му пази машината от келеши
+12:54 -!- pgachev [~androirc@213.226.63.154] has joined #telerikacademy
+12:55 < yulimoto> и така вместо антивирусна си имаш секюрити експерт, то сигурна тая специалност така е създадена 
+12:55 < dencho-at-work> ne zabraviaite, che govorim za Windows :D
+12:55 < yulimoto> хаха 
+12:55 < yulimoto> аз наистина се шегувам ; то си личи ама да го кажа 
+12:56 < yulimoto> просто малко повечко ядох на обед
+12:59 -!- nlkl [~niki@78-83-251-233.spectrumnet.bg] has joined #telerikacademy
+13:01 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Ping timeout: 245 seconds]
+13:06 -!- sto|work [~chatzilla@195.34.115.66] has joined #telerikacademy
+13:07 < Informer> hackman, по задачките за домашното, които изискват да се прави RAID масив, има ли значение дали на някое устройство от масива ще има предварително инсталирана ОС или просто се прави масив от празни сторидж дивайси?
+13:09 -!- nlkl [~niki@78-83-251-233.spectrumnet.bg] has quit [Ping timeout: 245 seconds]
+13:13 < sto|work> hackman: нали правилно разбрах записа - избираме си една задачка, и пишем по нея, не всички - нямам време за повечко ;)
+13:13 < Informer> hackman, да, но друго ми беше питането.
+13:14 < Informer> не hackman де, sto|work исках да напиша :)
+13:15 < sto|work> благодаря
+13:16 < sto|work> за сторидж тестовете - само идея - направи си с ДД няколко файла и ги ползвай за РАУ дивайси
+13:16 < sto|work> не гониш пърформънс, само как се прави
+13:17 < Informer> да де, но има вариант да се намети ОС в масива, с което обяснението ще отнеме далеч повече от 1 страница, пък нали гоним и компактно обяснение
+13:18 < sto|work> ооо - сега зацепих
+13:18 < Informer> иначе си заделих 5 виртуални харда, които нямат нищо върху себе си и ще ги съединя
+13:18 < sto|work> яка идея, ама време време - :):)
+13:19 < Informer> обаче, ако има ОС, има допълнителни обяснения как се мести и какво се прави, за да може да буутне от там
+13:21 < sto|work> http://spin.atomicobject.com/2010/08/03/using-sparse-files-as-disks-for-networked-raid/
+13:22 < sto|work> а - то в /boot/grub/grub.conf си го пише
+13:28 -!- user99 [~McNamee@213.226.63.144] has quit [Ping timeout: 248 seconds]
+13:33 < Informer> инересен метод
+13:36 <@hackman> Informer: няма значение за дисковете, важното е да помислите как се правят нещата
+13:36 <@hackman> sto|work: САМО една тема.  поне 3 пъти го повторих, и във форума го написах
+13:36 <@hackman> ако пишеш по повече от една тема директно 0 точки
+13:37 < Informer> hackman, добре, значи си продължавам по план.
+13:42 < Slavov> hackman,  труден път си поел, със всичките маймуни където сме ти на главата, здрава психика добре е
+13:43 < dencho-at-work> az prodyljavam da mislq, che poveche ot 300/400 domashni nqma da bydat uploadnati
+13:44 <@hackman> към момента са 106
+13:45 < lyubenblagoev> по стара българска традиция сигурно голяма част от хората ще ги изпратят в последния момент, така че има време :)
+13:45 < dencho-at-work> :)
+13:45 < dencho-at-work> ostanalite 1000 i neshto :D
+13:46 < Slavov> по още по голяма бг традиция на мързела, няма да изпратят, ще кажаат че не знаят от къде да видят дадените задания и те така, максимум 200 да предадът
+13:46 < dencho-at-work> pichove kakvo e job definition file da mu sa ne vidi?
+13:46 < lengarski> :D и мен ме марзи но има време .. активирам се когато остане 1-2 часа до крайния срок и го пращам
+13:47 < Slavov> Еми аз  прегледах всичките домашни, иии това за което бях писал даже  редактирах защото имаше грешки, таа последния момент никога не е удачен
+13:48 < KpeTeHoug> тва щото казаха че системният трябва да е мързелив ?:)
+13:48 < lengarski> няй вероятно утре сутринта ще го напиша .. че сега се боря с едни прокиса ....
+13:49 < KpeTeHoug> затва ли се чака мързеливо последният момент
+13:49 < KpeTeHoug> :)
+13:49 < dencho-at-work> qsno... tazi sybota i nedelq shte napisha ot 02 do 04 domashnoto :D
+13:49 < dencho-at-work> gledam ima bash maistorski zadachi
+13:49 < lengarski> denco-at-work - ти ли ще пишеш домашни мърсел такъв :D
+13:50 < dencho-at-work> az imam da pisha i 2 kursovi raboti :D
+13:50 < dencho-at-work> taka che sam bomba :D
+13:50 < dencho-at-work> v momenta im slagam preoriteti 1 domashno telerik + 2 kursovi raboti s kraen srok petyk 23:59 :D
+13:51 < lengarski> :D uspeh
+13:51 < dencho-at-work> no pyk sam si nahvyrlql belejki... koeto e +
+13:52 < sto|work> hackman: thanks
+13:55 < dencho-at-work> lengarski: istoriata pomni i po loshi neshta :)
+13:56 < dencho-at-work> predpolagam za 4 chasa shte sam gotov, koeto znachi...23-4=19... koeto e dobyr rezultat
+13:57 < lengarski> :D kato TrTT naprimer :D
+14:01 < dencho-at-work> sht
+14:19 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+14:23 < Deyan_borodzhiys> Като гледам има 4-5 спамъра и много воайори :)
+14:24 -!- user99 [~McNamee@213.226.63.144] has joined #telerikacademy
+14:25 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Ping timeout: 248 seconds]
+14:26 < KpeTeHoug> те тия са гугълски ботове
+14:28 < Deyan_borodzhiys> Не са ботове, гледай че user99 и milev се обидиха и изчезнаха
+14:29 < KpeTeHoug> ами, имам 15минутка за по цигара :)
+14:36 -!- linmaster [~linmaster@89.253.177.83] has joined #telerikacademy
+14:38 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+14:39 < KpeTeHoug> ето казах ли ти
+14:51 -!- user99 [~McNamee@213.226.63.144] has quit [Quit: Bye]
+14:51 -!- user99 [~McNamee@213.226.63.144] has joined #telerikacademy
+14:53 < Slavov>  set voice
+14:59 -!- ivzb [~ivzb@92.62.251.121] has quit [Remote host closed the connection]
+15:11 -!- user99 [~McNamee@213.226.63.144] has quit [Ping timeout: 256 seconds]
+15:20 -!- nlkl [~niki@nat103.cnsys.bg] has joined #telerikacademy
+15:22 < samy> http://forums.academy.telerik.com/105012/skype-%D0%B3%D1%80%D1%83%D0%BF%D0%B0-%D0%B7%D0%B0-%D0%BF%D1%80%D0%BE%D0%BB%D0%B5%D1%82%D0%BD%D0%B0%D1%82%D0%B0-%D0%B0%D0%BA%D0%B0%D0%B4%D0%B5%D0%BC%D0%B8%D1%8F
+15:24 < samy> priobshtawaite horata da idwat tuk
+15:25 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Ping timeout: 246 seconds]
+15:26 < dencho-at-work> Колкото и да ми се иска, IRC опитите не доживяват повече от седмица. Пък и прекалено малко хора биха се навили да заменят изключително разпространения скайп с IRC.
+15:26 < dencho-at-work> tva e vqrno
+15:26 < dencho-at-work> no zako zapochnat ot vsichki kursove da vlizat v tozi kanal shte stane mazaliotina :D
+15:26 < sto|work> dencho-at-work: аз и по работа ползвам ИРК
+15:28 < dencho-at-work> m da :D
+15:28 < dencho-at-work> Fedora 19 с кодовото име "Котката на Шрьодингер"
+15:31 < samy> e toi tozi kanal she zawehne
+15:31 < samy> sled kursa
+15:31 < dencho-at-work> ne se znae
+15:33 < ViLKaTa> IRC fenovete moje i da ostanete
+15:33 < ViLKaTa> Ama drugite 100% shte se ometem :)
+15:35 < DamnTheLuck> при положение че всички видове чат са ми през браузера, IRC доста добре се вписва:0
+15:35 < DamnTheLuck> :)
+15:37 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+15:41 < sto|work> една хитринка - чатзила и така - chrome://chatzilla/content/chatzilla.xul
+15:47 < dencho-at-work> btw nqkoi logva li kakvo se pishe v kanala?
+15:47 < sto|work> не мога тук
+15:47 <@hackman> АЗ :)
+15:48 < phalaaxx> и после... компромати :)
+15:49 < dencho-at-work> hackman: a nqkyde uploadvash li log-natoto ?!
+15:49 < sto|work> бий ме, ако не ти е жал :P :D
+15:50 < sto|work> Денчо, мен на Федората ми беше по-смешно това "бийфи" - четох мнение, че звучало като порно
+15:52 -!- gryzli [~gryzli@94.155.42.130] has joined #telerikacademy
+15:52 < dencho-at-work> haha
+15:58 < Informer> Има ли начин да направя нещо с fdisk само с 1 ред в конзола, защото каквото и да правя, все ме изкарва на варианта с подпитвания за всеки параметър?
+15:59 < Informer> В документацията е даден някакъв синтаксис, ама нъц.
+16:01 < sto|work> ами -n = new; -p = primary ...
+16:01 < sto|work> 83 май беше линукс
+16:02 < sto|work> то е почти като нехт нехт
+16:04 < sto|work> опа - сори - 8е
+16:04 < sto|work> http://www.server-world.info/en/note?os=CentOS_5&p=add_hd
+16:08 < dencho-at-work> haha purvia Security Tips na apache e Keep up to Date :)
+16:10 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has joined #telerikacademy
+16:10 < KacanuH> ÏÔ ÔÕË ÎÅ ÓÅ ÞÅÔÅ ËÉÒÉÌÉÃÁÔÁ
+16:11 < yulimoto> мда и аз логвам, ама тва е щото да гледам какво е станало докато правя каквото трябва да правя.
+16:12 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving]
+16:13 -!- Deyan_borodzhiys [~chatzilla@supersonic.comelsoft.com] has quit [Quit: (no reason)]
+16:13 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+16:13 < yulimoto> ако искате логовете мога да ги оставя някъде по сървъра 
+16:13 < yulimoto> да ги четат, който го интересува нещо
+16:13 < yulimoto> лл
+16:13 < yulimoto> ll
+16:14 < asdasd> = )
+16:14 -!- bentoslack [~Adium@ibekyarov.mw-medianetworks.eu] has quit [Quit: Leaving.]
+16:14 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Ping timeout: 240 seconds]
+16:15 < KacanuH> napishete neshto nkirilica
+16:15 < dencho-at-work> ami da, men me interesuva poneje ne vinagi sym na linia i misleh da si pusna neshto ot vkyshti da logva, no shtom ima niakoi koito go pravi znachi niama smisyl i az da puskam logging :D
+16:15 < KacanuH> dencho-at-work: napishi neshto na kirilica
+16:15 < dencho-at-work> кирил
+16:16 < KacanuH> mersi, pak ne moga da go cheta
+16:16 < KacanuH> exit
+16:16 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has quit [Quit: leaving]
+16:18 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has joined #telerikacademy
+16:18 < KacanuH> ÓÅÇÁ
+16:18 < KacanuH> grrrr
+16:19 < KacanuH> nyakoj ospyaval li e da podkara irssi da zaraboti na kirilica
+16:19 < sto|work> ох
+16:19 < sto|work> имаше нещо там
+16:20 < sto|work> ще потърся
+16:20 -!- gryzli [~gryzli@94.155.42.130] has left #telerikacademy ["Leaving"]
+16:20 < KacanuH> sto|work: nihsto ne ti razbiram, shte se puska pak chatzilata
+16:21 < KacanuH> 16:19 < sto|work> имаше нещо там
+16:21 < sto|work> http://xkr47.outerspace.dyndns.org/howtos/irssi-utf-8-guide.txt
+16:21 < sto|work> za irssi
+16:22 < KacanuH> Краставица
+16:22 < KacanuH> май заработи
+16:22 < sto|work> а за чатзилата - chrome://chatzilla/content/chatzilla.xul ама ти трябва
+16:22 < sto|work> хахахаха
+16:22 < sto|work> Домат
+16:22 < KacanuH> Таратор
+16:22 < KacanuH> МАстика
+16:22 < KacanuH> Шопска салата
+16:23 < Informer> sto|work, да бе, аз точно next-next-next искам да избегна и да влзезне в една команда, ама явно няма как
+16:23 < sto|work> ох - сори, ама дойде бачкането
+16:23 < sto|work> после пак ;)
+16:23 -!- sto|work is now known as sto|away
+16:24 -!- mishev [chatzilla@nat/ibm/x-qhpqkhgmomgtxkim] has joined #telerikacademy
+16:27 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+16:27 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+16:29 -!- Deyan_borodzhiys [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+16:31 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+16:34 -!- Deyan_borodzhiys [~chatzilla@supersonic.comelsoft.com] has quit [Ping timeout: 246 seconds]
+16:37 -!- nlkl [~niki@nat103.cnsys.bg] has quit [Quit: chao :)]
+16:46 -!- lengarski [~lengarski@free-bnc.radio33.org] has left #telerikacademy ["Leaving"]
+16:46 -!- lengarski [~lengarski@free-bnc.radio33.org] has joined #telerikacademy
+16:49 < KacanuH> Млад шотландец учи в университет в Англия. Обажда се на родителите си:
+16:49 < KacanuH> - Аз съм добре. Живея в общежитие. Ходя на лекции. Всичко е наред.
+16:49 < KacanuH> - А с кого живееш в това общежитие?
+16:49 < KacanuH> - О-о, с двама пълни психари. Единият посред нощ реве като заклан и с моли да умре на момента. Другия цяла нощ блъска главата си в стената.
+16:49 < KacanuH> - А ти, как издържаш всичко това?
+16:49 < KacanuH> - О, аз запазвам хладнокръвие и спокойно си свиря на гайдата.
+16:50 < yulimoto> KacanuH: сутринта сложих irssi на дебиан, нямаше проблеми; но енкодинга на конзолата беше оправен 
+16:50 < yulimoto> поне аз така си мисля 
+16:51 -!- MarianaB [~mariana@93.183.136.172] has joined #telerikacademy
+16:53 -!- samy [~samy@77-85-36-211.btc-net.bg] has quit [Ping timeout: 246 seconds]
+16:55 < KacanuH> как мога да накарам irssi да работи в бекграунд
+16:55 < KacanuH> как мога да накарам irssi да работи в бекграунд режим
+16:55 -!- armel [~yulimoto@78.108.248.204] has joined #telerikacademy
+16:56 < armel> ÐÐ/Ñ/query yulimoto
+16:56 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Read error: Connection reset by peer]
+16:56 -!- skuller [~skuller@free-bnc.radio33.org] has joined #telerikacademy
+16:57 < yulimoto> а не лъжа имало е проблеми 
+16:57 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+16:57 < skuller> на мен irssi-то чете кирилица
+16:57 < yulimoto> значи и аз ще трябва да се мъча
+16:57 < yulimoto> за бекграунд ползвам screen 
+16:57 < skuller> без да съм правил никакви настойки
+16:58 < yulimoto> гледам че и някои други са го пускали ама нямат бекграунд процеси 
+16:58 < asdasd> kakvo znachi
+16:58 < asdasd> irssi da raboti v background?
+16:58 < asdasd> to nali se runva v konzolata ;)
+16:59 < yulimoto> да си излизам от конзолата и да ходя на кафе и да си гася компютъра пък то да ми работи на сървъра 
+16:59 < asdasd> mi mai nqma kak ;)
+16:59 < skuller> ако инсталираш byobu можеш да го правиш това
+16:59 < yulimoto> в линукс няма няма 
+16:59 < yulimoto> то си има screen 
+17:00 < yulimoto> готино е
+17:00 -!- skuller [~skuller@free-bnc.radio33.org] has quit [Client Quit]
+17:01 < yulimoto> на кой му трябваше лог от чата ?
+17:02 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+17:03 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+17:05 < dencho-at-work> Y
+17:05 < dencho-at-work> az :D
+17:05 < yulimoto> KacanuH: значи виж просто manuala на screen и от ще го пуснеш. общо взето ще ти изнесе сесията от терминала в негова си, ама то си пише в менюала
+17:06 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Ping timeout: 276 seconds]
+17:09 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+17:09 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+17:10 -!- lyubenblagoev_ is now known as lyubenblagoev
+17:11 < armel> к
+17:12 < yulimoto> KacanuH: сега видях, че съм пропуснал да сложа "/set term_charset utf-8" в настройките на irssi и за това не е работило 
+17:13 < yulimoto> ако и конзолата е настроена с utf-8 няма да има проблеми мисля 
+17:14 -!- armel [~yulimoto@78.108.248.204] has quit [Quit: leaving]
+17:14 < Deyan> да така е
+17:14 < Deyan> уф чакай че съм с много имена
+17:15 -!- yulimoto_ [~yulimoto@78.108.248.204] has joined #telerikacademy
+17:15 < yulimoto_> кирилица
+17:15 < KacanuH> до сега някакъ кретен ми скачаше по нервите и не видях къде пиша
+17:15 < KacanuH> кирилица я
+17:18 < KacanuH> screen -rd
+17:18 < yulimoto> ахъ 
+17:20 -!- samy [~samy@91.196.227.180] has joined #telerikacademy
+17:20 < Deyan> не знам какво направих, ама нищо не ми възприема путито
+17:20 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has quit [Quit: Lost terminal]
+17:22 < Deyan> Ей какво е хитро как разбра че съм си загубил терминала :)
+17:24 < yulimoto_> кое путито ли ?
+17:25 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Ping timeout: 264 seconds]
+17:25 < yulimoto_> путита винаги са хитри да знаеш, едно пути просто просто колко да е просто все ще те наиграе
+17:25 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has joined #telerikacademy
+17:25 -!- samy [~samy@91.196.227.180] has quit [Ping timeout: 245 seconds]
+17:26 < yulimoto> Ксапин :значи така може да си възвръщаш сесия ; примерно пускаш screen отваряш си вътре един irssi и после като трябва да бегаш ctrl+a+d и излизаш обаче то irssi-то остава във screena и ти си излизаш от терминала и ходиш да ти се качат по нервите; като се върнеш screen -rd и си вътре пак 
+17:26 -!- Informer [~Informer@83.228.55.109] has quit [Quit: C ya!]
+17:27 -!- yulimoto_ [~yulimoto@78.108.248.204] has quit [Quit: leaving]
+17:34 -!- fuzly [fuzly@95-42-54-47.btc-net.bg] has joined #telerikacademy
+17:34 -!- dencho [~dencho@wolf.yuhu.biz] has joined #telerikacademy
+17:35 -!- dencho [~dencho@wolf.yuhu.biz] has quit [Client Quit]
+17:36 < MarianaB> Стриймининга сработи ли?
+17:38 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+17:40 -!- gyankov [4e5abff5@gateway/web/freenode/ip.78.90.191.245] has quit [Ping timeout: 250 seconds]
+17:40 -!- ncuxoTo [54eee159@gateway/web/freenode/ip.84.238.225.89] has quit [Ping timeout: 250 seconds]
+17:41 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+17:42 < dencho-at-work> MarianaB: da
+17:42 < dencho-at-work> no ne tochno :P
+17:42 < dencho-at-work> http://forums.academy.telerik.com/104450/live-streaming
+17:43 < dencho-at-work> Това означава, че преди лекцията ще post-на тук, в тази тема адреса на линк-а към youtube клипчето. by hackman
+17:44 < MarianaB> dencho-at-work: +1 благодаря :)
+17:44 < dencho-at-work> haha :D
+17:45 < MarianaB> Денчо, ти що така пак си на работа? :)
+17:46 < dencho-at-work> mi poprincip vseki den ot ponedelnik do petyk sym na rabota :D
+17:46 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has quit [Quit: leaving]
+17:47 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Ping timeout: 264 seconds]
+17:47 < dencho-at-work> osven ako nqkoi ne iska da me naznachi da rabotq ponedelnik, srqda i petyk :D
+17:48 <@hackman> dencho-at-work: а вторник и четвъртък какво ще правиш, като другите са на работа ?
+17:48 < MarianaB> хех, ако може да работиш събота и неделя само?
+17:48 < dencho-at-work> no oshte malko i shte trygvam za lekciata :D az za 15 minuti sam tam :)
+17:48 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has joined #telerikacademy
+17:48 -!- Slavov [~slavov@78-83-68-163.spectrumnet.bg] has quit [Ping timeout: 276 seconds]
+17:49 < KacanuH> кирилица
+17:49 < MarianaB> hackman: намира се какво да се прави, като си имаш Линукс, винаги има нещо за оправяне. :)
+17:49 < dencho-at-work> hackman: shte rabotq po moi neshta :P~
+17:49 < MarianaB> KacanuH: чете се
+17:49 -!- _wiseman_ [~wiseman@94.26.21.83] has joined #telerikacademy
+17:49 < dencho-at-work> MarianaB: sybota i nedelia rabotq po moi neshta taka che vseki den rabotia :D
+17:49 -!- user99 [~McNamee@78.130.186.99] has joined #telerikacademy
+17:49 < dencho-at-work> i to za mersi :P~
+17:49 <@hackman> аз да взема да погледна за какво ще говоря :)
+17:50 < _wiseman_> hi all
+17:50 < dencho-at-work> mi trqbva da dovyrshish predniq pyt :D
+17:50 < dencho-at-work> _wiseman_: welcome
+17:50 < KacanuH> МЕрси MarianaB , аз имам още един клиент пуснат за да тествам, защото никога до сега не ми се е налагало да ползвам конзолата за IRC
+17:50 < MarianaB> :)
+17:50 < samy> az w itneres na istinata
+17:50 < samy> ne uspqh da se doredq da gledam nikakyw stream
+17:51 < samy> ;((((
+17:51 < dencho-at-work> snoshti li ?
+17:51 < MarianaB> едно време беше култово BitchX,защо са го прекръстили на pork не е ясно
+17:51 < KacanuH> samy: не си изпуснал крайно много
+17:51 < dencho-at-work> porky powered by BitchX
+17:51 < dencho-at-work> Bitch kakvo znachi v sluchaia ? :D
+17:51 < dencho-at-work> haha
+17:52 < KacanuH> е аз тогава когато всички се превъзнасяха по КучкатаХикс си чатех на Xchat
+17:52 < samy> az w momenta sym s xchat
+17:52 < dencho-at-work> az pyk vinagi sym si chatel s mIRC :P hahaha
+17:53 < DamnTheLuck> mIRC > ALL
+17:53 -!- lengarski [~lengarski@free-bnc.radio33.org] has quit [Remote host closed the connection]
+17:53 < DamnTheLuck> мисля че няма как да спорим :D
+17:53 -!- yulimoto_ [~yulimoto@78.108.248.204] has joined #telerikacademy
+17:53 < dencho-at-work> :D
+17:54 <@hackman> reboot :)
+17:54 < MarianaB> webchat rullz!
+17:54 < dencho-at-work> uspeh :P
+17:54 < MarianaB> hurry back hackman
+17:54 < phalaaxx> а ние да reboot-ваме ли?
+17:54 -!- hackman [~hackman@management.1h.com] has quit [Remote host closed the connection]
+17:54 < samy> xD
+17:54 < dencho-at-work> haha :D
+17:54 < MarianaB> phalaaxx: ако имаш нужда да упражниш командата.. давай смело
+17:54 < samy> purwo se logni
+17:54 < samy> :D
+17:54 < MarianaB> ./ctcp phalaaxx reboot
+17:55 < phalaaxx> аа не така грубо моля :D
+17:55 < MarianaB> ./ctcp phalaaxx halt?
+17:56 < dencho-at-work> i na tazi lekcia shte hodia gladen...
+17:56 < dencho-at-work> pfull
+17:56 -!- sto|away [~chatzilla@195.34.115.66] has left #telerikacademy []
+17:56 < MarianaB> няма ли банички по пътя
+17:56 < dencho-at-work> mne
+17:57 -!- marian1 [~hackman@management.1h.com] has joined #telerikacademy
+17:57 -!- yulimoto_ [~yulimoto@78.108.248.204] has quit [Client Quit]
+17:58 < KacanuH> Аз мисля след 3 мин да паля към младост,
+17:58 < marian1> http://youtu.be/Hc_5Ad_euxA
+17:58 < marian1> q nqkoi da vidi dali se vijda neshot
+17:58 < KacanuH> някой навит да пуем по една бира до като стане 19:00
+17:58 < dencho-at-work> send by
+17:58 < dencho-at-work> stend
+17:58 < dencho-at-work> pf
+17:58 < samy> xD
+17:58 < KacanuH> http://youtu.be/Hc_5Ad_euxA
+17:58 < dencho-at-work> starting soon vijdam ya
+17:58 < samy> trugna be
+17:59 < samy> mikrofonche neshto?
+17:59 < samy> shte ima li
+17:59 < dencho-at-work> super qko
+17:59 < dencho-at-work> haha
+17:59 < marian1> ima li zvuk ?
+17:59 < dencho-at-work> mnogo razmazano brq?
+17:59 < samy> He
+17:59 -!- milev [~milev@client-33-170.speedy-net.bg] has joined #telerikacademy
+17:59 < samy> da be...
+17:59 < KacanuH> аз виждам само please stand my
+17:59 < _wiseman_> само като гледах предишният курс за ОС на финала винаги - "бира?"
+17:59 < dencho-at-work> i pri men nqma zvuk
+17:59 < KacanuH> аз виждам само please stand by
+17:59 < marian1> mnogo golqm mi e screen-a
+17:59 < marian1> shte stane po-dobre s malkata rezoluciq v telerik
+17:59 < dencho-at-work> az vijdam razmazano :P ne znam dali e ot men ili teb :D
+18:00 < samy> mazalqk e
+18:00 < marian1> 100% ne e ot men :)
+18:00 < samy> hahahah
+18:00 < dencho-at-work> hahaha
+18:00 < _wiseman_> аре пичови и аз паля....метрото :)
+18:00 < dencho-at-work> i az trugvam :P
+18:01  * KacanuH away
+18:01 < samy> oi
+18:01  * dencho-at-work quit :D
+18:01 -!- _wiseman_ [~wiseman@94.26.21.83] has quit [Quit: Leaving]
+18:01 < marian1> aide stiga testove :0
+18:01 -!- dencho-at-work [4d463cda@gateway/web/freenode/ip.77.70.60.218] has quit [Quit: Page closed]
+18:05 -!- mishev [chatzilla@nat/ibm/x-qhpqkhgmomgtxkim] has quit [Quit: ChatZilla 0.9.90 [Firefox 17.0.6/20130513041616]]
+18:06 -!- milev [~milev@client-33-170.speedy-net.bg] has quit [Remote host closed the connection]
+18:08 < phalaaxx> язък, добре си беше като имахме метро :)
+18:17 < MarianaB> в колко почва стрийма? в 19ч?
+18:19 < marian1> към 19 :)
+18:19 < MarianaB> нямаше ли едно време един анимационен филм Мариан 1?
+18:20 < MarianaB> и благодаря за инфото :)
+18:20 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+18:20 < phalaaxx> имаше :)
+18:20 < MarianaB> Ей старост, ама помня още :)
+18:22 -!- linmaster [~linmaster@89.253.177.83] has quit [Quit: Leaving.]
+18:23 < marian1> аз колко базици съм изкарал покрай тази анимация :)
+18:23 < MarianaB> :))
+18:25 -!- DamnTheLuck [4d46720b@gateway/web/freenode/ip.77.70.114.11] has quit [Ping timeout: 250 seconds]
+18:25 -!- iordan_93 [82cc6e33@gateway/web/freenode/ip.130.204.110.51] has joined #telerikacademy
+18:28 < MarianaB> до следмалко
+18:28 -!- MarianaB [~mariana@93.183.136.172] has left #telerikacademy []
+18:28 < marian1> айде... и аз тръгвам
+18:31 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+18:33 -!- marian1 [~hackman@management.1h.com] has quit [Ping timeout: 256 seconds]
+18:42 -!- pgachev [~androirc@213.226.63.154] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+18:47 -!- dencho [~dencho@wolf.yuhu.biz] has joined #telerikacademy
+18:47 < dencho> alo :D
+18:48 < dencho> pozdravi ot lengarski
+18:48 < dencho> :D
+18:49 -!- skuller [~skuller@85.118.193.177] has joined #telerikacademy
+18:49 -!- lengarski [~lengarski@85.118.193.177] has joined #telerikacademy
+18:49 < dencho> alo :D
+18:49 < skuller> dencho kvo pravi6
+18:49 < dencho> samo che trafika se filtrira
+18:49 < dencho> :D
+18:49 < dencho> nakov spomena
+18:51 -!- MarianaB [~Mariana@46.10.160.154] has joined #telerikacademy
+18:52 < skuller> много яко .. няма да е зле да оправят малко нета и да спрат да филтрират трафика
+18:55 -!- DamnTheLuck [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+18:56 < MarianaB> чакаме ли инфо за стрийма или съм го пропуснала?
+18:56 -!- bldrchd [4d461ba7@gateway/web/freenode/ip.77.70.27.167] has joined #telerikacademy
+18:56 < sore|loser> to stream or not to stream ...
+18:57 < sore|loser> стреам за сега нЕма
+18:57 -!- dencho [~dencho@wolf.yuhu.biz] has quit [Quit: leaving]
+18:57 -!- mishev [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+18:57 < MarianaB> стискаме палци тогава
+18:57 < MarianaB> да му се не види и смотания биос, пак показва дата в бъдещето
+18:57 < sore|loser> ами май ще гледаме hangouts на 480p със 2 минути закъснение
+18:57 -!- marian1 [~hackman@89.190.207.11] has joined #telerikacademy
+18:58 < sore|loser> т.е. който задава въпроси ще трябва да гледа в бъдещето
+18:58 -!- marian1 is now known as hackman
+18:58 -!- hackman is now known as HackMan
+18:58 < samy> HackMan
+18:58 < samy> da chakame li stream?
+19:00 < HackMan> guys
+19:00 < HackMan> molq vi sprete s obshtite prikazki
+19:00 < HackMan> i da zadavate samo vuprosi tuk
+19:00 < HackMan> inache shte mi e mnogo trudno da namerq vuprosite na horata
+19:02 < sore|loser> http://www.youtube.com/watch?v=BMCQVNjcNQU
+19:02 < sore|loser> налазвайте
+19:02 -!- MarianaB1 [~Mariana@87-126-114-241.btc-net.bg] has joined #telerikacademy
+19:03 < HackMan> http://youtu.be/BMCQVNjcNQU
+19:04 < HackMan> emiiii
+19:04 < HackMan> nqma da ima stream mai
+19:04 -!- MarianaB is now known as MarianaB2
+19:04 -!- pgachev [~androirc@213.226.63.154] has joined #telerikacademy
+19:04 -!- MarianaB1 is now known as MarianaB
+19:05 < HackMan> fuck... nqma da stane :(
+19:05 < HackMan> next time... tova mi zaema mikrofona
+19:05 < HackMan> i nqma kak da zapisvam
+19:05 < HackMan> a zapisa ot stream-a e ujasen
+19:05 < HackMan> :(
+19:06 < HackMan> sorry guys
+19:06 < MarianaB> здраве да е
+19:06 < bldrchd> ok chakame videoto po skoro :)
+19:12 -!- Brahman [~Brahman@109.121.248.105] has joined #telerikacademy
+19:14 -!- MarianaB2 [~Mariana@46.10.160.154] has left #telerikacademy []
+19:15 -!- lengarski [~lengarski@85.118.193.177] has quit [Ping timeout: 252 seconds]
+19:15 -!- skuller [~skuller@85.118.193.177] has quit [Ping timeout: 245 seconds]
+19:15 -!- r [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+19:15 -!- r is now known as Guest69718
+19:16 < Guest69718> sroka za domashnoto se odyljava do chetvyrtak :D
+19:16 < Guest69718> Brahman: izlygah te za live streama :D
+19:16 -!- mishev [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+19:19 -!- lengarski [~lengarski@85.118.193.177] has joined #telerikacademy
+19:19 < Brahman> :>
+19:19 < Brahman> lujec
+19:19 < Brahman> :P
+19:19 < fuzly> днес сме четвъртък
+19:19 < fuzly> или до другия четвъртък?
+19:19 < fuzly> за домашното питам
+19:19 < fuzly> : )
+19:20 < Guest69718> drugia :)
+19:21 < Guest69718> udyljava se sroka
+19:21 < Guest69718> za kojto ne go e predal do utre, moje da go predade do chetvyrtak
+19:21 -!- skuller [~skuller@85.118.193.177] has joined #telerikacademy
+19:22 < iordan_93> няма stream :(
+19:27 < Brahman> ima samo steam :P
+19:28 -!- Guest69718 [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Quit: Page closed]
+19:30 < yulimoto> ей значи ще го мислим за следващия път ако се измисли нещо 
+19:31 < yulimoto> ами да то записа е по-важен и мога да си гледам посред нощ 
+19:36 -!- toniev [d5e78b10@gateway/web/freenode/ip.213.231.139.16] has joined #telerikacademy
+19:37 -!- Slavov [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+19:37 < Slavov> хуц хуц
+19:37 < iordan_93> абе, нямаше да е зле да има и запис, и stream :D
+19:43 < ViLKaTa> дА
+19:43 < ViLKaTa> Аз съм на работа по време на курса.
+19:43 < samy> " Относно срока... hackman туко що (на лекцията, която ще бъде качена след няколко часа) каза, че може да го предадем до следващия четвъртък! "
+19:44 -!- toniev [d5e78b10@gateway/web/freenode/ip.213.231.139.16] has quit [Quit: Page closed]
+19:50 -!- Slavov [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+19:51 -!- mishev [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+19:52 < iordan_93> samy, това е много добра новина :)
+19:54 < samy> znam samo che mi propadna ezdata dnes..
+19:56 -!- mishev [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+20:01 < skuller> nqma da e zle da pusnat klimatik .....
+20:02 -!- lengarski [~lengarski@85.118.193.177] has quit [Quit: Leaving]
+20:03 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+20:11 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+20:17 -!- lengarski [~lengarski@wolf.yuhu.biz] has joined #telerikacademy
+20:18 -!- lengarski [~lengarski@wolf.yuhu.biz] has quit [Client Quit]
+20:36 -!- gyankov [4e5abff5@gateway/web/freenode/ip.78.90.191.245] has joined #telerikacademy
+20:37 -!- iordan_93 [82cc6e33@gateway/web/freenode/ip.130.204.110.51] has quit [Quit: Page closed]
+20:39 -!- si [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+20:39 -!- si is now known as Guest45621
+20:40 -!- lengarski [~lengarski@85.118.193.177] has joined #telerikacademy
+20:43 -!- dominionbg [~dominionb@176.12.21.27] has joined #telerikacademy
+20:47 -!- bldrchd [4d461ba7@gateway/web/freenode/ip.77.70.27.167] has quit [Quit: Page closed]
+20:47 -!- Guest45621 [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+20:51 -!- lamqta [lamqta@93.152.159.237] has quit []
+20:53 < ViLKaTa> Във форума мазало..
+20:53 < ViLKaTa> CentOS да стане идеалната десктоп дистро..
+21:03 -!- KacanuH_ [~KacanuH@wolf.yuhu.biz] has joined #telerikacademy
+21:07 -!- bashmash [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+21:09 -!- samy [~samy@84.238.184.98] has quit [Quit: Leaving]
+21:10 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+21:13 -!- Brahman [~Brahman@109.121.248.105] has quit [Quit: Leaving]
+21:17 -!- billykain [billykain@78-83-54-216.spectrumnet.bg] has quit []
+21:30 -!- AndChat|2004 [~McNamee@213.226.63.150] has joined #telerikacademy
+21:33 -!- skuller [~skuller@85.118.193.177] has quit [Quit: Lost terminal]
+21:34 -!- user99 [~McNamee@78.130.186.99] has quit [Ping timeout: 252 seconds]
+21:38 -!- KacanuH_ [~KacanuH@wolf.yuhu.biz] has quit [Quit: Lost terminal]
+21:48 -!- lengarski [~lengarski@85.118.193.177] has quit [Ping timeout: 268 seconds]
+21:49 -!- AndChat|2004 [~McNamee@213.226.63.150] has quit [Quit: Bye]
+21:55 -!- user99 [~McNamee@213.226.63.150] has joined #telerikacademy
+21:57 -!- bashmash [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Quit: Page closed]
+22:06 -!- DamnTheLuck [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Ping timeout: 250 seconds]
+22:16 -!- HackMan [~hackman@89.190.207.11] has quit [Ping timeout: 276 seconds]
+22:29 -!- user99 [~McNamee@213.226.63.150] has quit [Quit: Bye]
+22:29 -!- user99 [~McNamee@213.226.63.150] has joined #telerikacademy
+22:39 -!- samy is now known as roots
+22:41 -!- roots is now known as samy
+22:41 < samy> eee tiq sichko sa regnali ;s
+22:42 -!- LupoTo [~lupo@wolf.yuhu.biz] has joined #telerikacademy
+22:43 < LupoTo> ia maj se vurzah
+22:43 < LupoTo> ima li njakoj tuk
+22:43 < ViLKaTa> Хич да не е..
+22:44 < LupoTo> tova na kirilica li beshe ?
+22:44 < samy> ahm
+22:44 < LupoTo> ne go 4eta az sum ot konzolata na grizzly
+22:44 < LupoTo> ili pone IRC-to ne e kirilizirano
+22:46 < LupoTo> VilKaTa s kakuv klient si ?
+22:49 < LupoTo> vzeh da instalvam Centos i drupnah minimal
+22:49 < LupoTo> oba4e to suvsem minimalno stana daje i mreja niamam :-)
+22:50 < LupoTo> goliama greda :-)
+22:54 -!- gyankov [4e5abff5@gateway/web/freenode/ip.78.90.191.245] has quit [Quit: Page closed]
+22:58 < samy> otdeli si partition
+22:58 < samy> az towa naprawih predi 3-4 meseca
+22:58 < samy> i da ti kaja ne zgreshih
+22:58 -!- rootstar [0@78.90.53.106] has quit [Ping timeout: 276 seconds]
+22:58 -!- rootstar [0@78.90.53.106] has joined #telerikacademy
+22:59 < yulimoto> LupoTo: grizzlito e kirilizirano az syshto polzwam irssi ot grizzly
+22:59 < LupoTo> ami na Virtualna mashina go pravia niama smisul
+22:59 < LupoTo> ami tazi kirlica ne mi izleze na irssi-to
+23:00 < LupoTo> niakakvi nastrojki pravish li ?
+23:00 -!- yulimoto_ [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+--- Log opened чт юли 04 23:00:34 2013
+23:00 -!- yulimoto_ [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+23:00 -!- Irssi: #telerikacademy: Total of 19 nicks [1 ops, 0 halfops, 0 voices, 18 normal]
+23:00 -!- Irssi: Join to #telerikacademy was synced in 6 secs
+--- Log closed чт юли 04 23:00:34 2013
+23:00 -!- yulimoto_ [~yulimoto@wolf.yuhu.biz] has quit [Client Quit]
+23:00 -!- yulimoto_ [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+--- Log opened чт юли 04 23:00:49 2013
+23:00 -!- yulimoto_ [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+23:00 -!- Irssi: #telerikacademy: Total of 19 nicks [1 ops, 0 halfops, 0 voices, 18 normal]
+23:00 -!- Irssi: Join to #telerikacademy was synced in 6 secs
+23:01 < yulimoto_> кирилица
+23:01 < yulimoto_> кирилица
+23:01 < yulimoto_> хм бачка си 
+23:01 < yulimoto_> хм бачка си
+23:01 < yulimoto_> при мен 
+23:01 < yulimoto_> при мен
+--- Log closed чт юли 04 23:01:47 2013
+23:01 -!- yulimoto_ [~yulimoto@wolf.yuhu.biz] has quit [Client Quit]
+23:01 < LupoTo> moje problema mi da e v putty-to
+23:03 < yulimoto> wyzmojno e ako ima encoding neshto si utf-8
+23:03 < yulimoto> bi trqbvalo dae
+23:03 < yulimoto> kakto i da e
+23:05 < LupoTo> za foruma na Telerik otdelna registracia li triabva ?
+23:06 < yulimoto> po princip pri men imashe problem s encodinga na debian v irssa no slojih  "/SET term_charset utf-8" i podkara
+23:06 < yulimoto> da mislq otdelna registraciq 
+23:06 < LupoTo> ne me puska s tazi koiato sum
+23:07 < LupoTo> ami shte se reg shtom triabva ...te 100 reg
+23:07 < yulimoto> da
+23:08 < ViLKaTa> Prez web sam
+23:09 < LupoTo> ok
+23:09 < ViLKaTa> LupoTo na minimal pak ima mreja
+23:10 < ViLKaTa> Ама трябва ръчно да се настрои
+23:10 < LupoTo> моята кирлица четете ли я ?
+23:10 < ViLKaTa> Да
+23:10 < LupoTo> ami niamah imashe samo localhost
+23:10 < LupoTo> i ru4no ia slojih ne sum si igral po skriptovete da ia pravia
+23:11 < LupoTo> кирилизирах Путито
+23:11 < ViLKaTa> Нещо не вденах.. На виртуалката не си имал интернет?
+23:11 < LupoTo> да инсталирах на виртуалка минимал
+23:12 < LupoTo> и нямаше eth0
+23:12 < ViLKaTa> Ем, най-вероятно е от виртуалката.
+23:12 < LupoTo> виртуалката емулира е1000 няма как да не го разпознае
+23:13 < ViLKaTa> Ем, и тя има настройки. Вклчително и DHCP server
+23:13 < ViLKaTa> Ако си с ВиртуалБокс, де
+23:14 < LupoTo> да на ДЧЦП беше но не сработи
+23:14 < LupoTo> modprobe e1000
+23:14 < LupoTo> ifconfig eth0 10.1.1.20 netmask 255.255.255.0 up
+23:14 < LupoTo> route add default gw 10.1.1.254
+23:14 < LupoTo> това оправи нещата
+23:14 < LupoTo> но ръчно
+23:14 < ViLKaTa> Ем, да
+23:14 < ViLKaTa> Така е най-сигурно
+23:14 < LupoTo> имам и убунту и др ОС не съм имал проблем
+23:14 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+23:15 < ViLKaTa> При мен на някои дистрибуции се ебават уеб приложениата
+23:15 < ViLKaTa> Графичните
+23:15 < LupoTo> може инсталатора да не е много умен
+23:15 < LupoTo> сега пробвах да инстална Хwindow
+23:15 < LupoTo> обаче не ще да тръгне извърля :-)
+23:16 < ViLKaTa> Ми, то да ти кажа и аз не бях преинсталирал от доста месеци..
+23:16 < ViLKaTa> Къде на физическия, къде по виртуалки.
+23:16 < ViLKaTa> И аз доста греди нацелих.
+23:17 < ViLKaTa> Че за някои лайвцд треаше да си ги правя как си пише по хартиите да са буут и изпечени на УСБ/ДВД
+23:17 < ViLKaTa> Иначе от самата виртуалка кат намирах пътя на оисо образа и не трагваха
+23:17 < samy> o.O
+23:18 < LupoTo> аз сега съм на Вин и ползвам VMware
+23:18 < LupoTo> добър е
+23:18 < ViLKaTa> Трябва да го разчопля.
+23:18 < ViLKaTa> Аз само ВБокса съм ползвал
+23:18 < ViLKaTa> Кусурът му е, че не можеш да влачиш.
+23:19 < LupoTo> той е зле
+23:19 < LupoTo> VMware workstation
+23:19 < ViLKaTa> В смисал от реалния десктоп да завличаш файлове и папки на виртуалния
+23:19 < ViLKaTa> Все шервам папки
+23:19 -!- dominionbg [~dominionb@176.12.21.27] has quit []
+23:19 < LupoTo> смятам сега на линукса да пробвам там нз кой софт трябва
+23:20 < LupoTo> ами може да влачиш на вмварето
+23:20 < LupoTo> но само с вин
+23:22 < LupoTo> za linux polzvam  WinSCP
+23:23 < ViLKaTa> Какво?
+23:23 < ViLKaTa> Това не е ли FTP клиент?
+23:23 < LupoTo> za prehwyrlqne na fajlowe
+23:23 < LupoTo> не SSH
+23:24 < LupoTo> SFTP
+23:24 < samy> O.O
+23:24 < ViLKaTa> От реалния уиндоус прехвърляш на виртуалката на твоя комп под линукс с този ФТП клиент?
+23:24 < LupoTo> da
+23:24 < ViLKaTa> Смятай!
+23:24 < ViLKaTa> хаха
+23:24 < LupoTo> trqbwa da imash SSH pusnat na linuksa
+23:24 < samy> :D
+23:25 < LupoTo> SSHD
+23:25 < ViLKaTa> Знам какво трябва. А ти знаеш ли, че можеш само да си шернеш една папка?
+23:25 < LupoTo> със САМБА имаш предвид
+23:27 < ViLKaTa> Не
+23:28 < LupoTo> и така става:-)
+23:32 -!- LupoTo [~lupo@wolf.yuhu.biz] has quit [Quit: leaving]
+23:32 -!- DamnTheLuck [5d98be26@gateway/web/freenode/ip.93.152.190.38] has joined #telerikacademy
+23:33 -!- pgachev [~androirc@213.226.63.154] has quit [Quit: AndroIRC - Android IRC Client ( http://www.androirc.com )]
+23:41 -!- LupoTo_ [~root@cable-84-43-188-231.mnet.bg] has joined #telerikacademy
+23:45 < LupoTo_> пробвам кирлицата
+23:46 < DamnTheLuck> raboti
+23:46 < DamnTheLuck> работи
+23:47 < LupoTo_> и аз го чета
+23:48 < LupoTo_> не съм слагал кирлица на Centos-a само на пути UTF i cyrilic script

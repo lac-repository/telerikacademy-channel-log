@@ -1,0 +1,211 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:40:05] Fairytale (~Svetlyo@77.70.117.169) joined #telerikacademy.
+[00:42:29] <Fairytale> Само на 3.6Ghz успях да го overclock-на
+[00:42:30] <wilindex> Fairytale: 2013-12-20 21:34:11 UTC <rew1nd> tell Fairytale не че си само ти, но Интел обезсмислиха този термин при всичко друго освен най-високия клас процесори
+[00:42:33] <wilindex> Fairytale: 2013-12-20 21:35:09 UTC <rew1nd> tell Fairytale а иначе по въпроса ти, практически зависи само и единствено от дънната платка дали заключва pci/pci-e при промяна на FSB (всъщност то вече не се казва така)
+[00:46:02] <Fairytale> .tell rew1nd Да, видях вече. С отключен множител са само i5-7  К. Успях само на 3.6GHz да го докарам. 200 отгоре.
+[00:46:03] <wilindex> Fairytale: I'll pass that on when rew1nd is around.
+[00:59:44] <Fairytale> .tell rew1nd Най-евтиния е I5-3570K /3.4G/6MB/BOX/LGA1155	426.13 лв. Мерси, ще пропусна. Чудя се защо минах на Intel ама поне веднъж искам да му се накефя
+[00:59:44] <wilindex> Fairytale: I'll pass that on when rew1nd is around.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:07:15] <Fairytale> .tell hackman Винаги съм мразил VLC ама сега го обичам :-)
+[01:07:16] <wilindex> Fairytale: I'll pass that on when hackman is around.
+[01:17:17] Guest88364 (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[01:21:10] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:37:33] rew1nd (~teo@46.238.29.142) left irc: Ping timeout: 248 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:14:10] Fairytale (~Svetlyo@77.70.117.169) left irc: Quit: Leaving
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:37:11] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:59:43] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:05:09] <fityla> !log
+[07:23:47] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:37:40] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:42:17] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[08:43:10] <KrasiGa> Dobro utro! Стягате ли се за празниците?
+[08:48:38] <fityla> еми.. последни напани май трябва при мен ..
+[08:48:41] <fityla> :D
+[08:48:44] <fityla> да разчистя малко ..
+[08:51:43] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[08:56:56] topalov (~topalov@gw.prosyst.bg) left irc: Remote host closed the connection
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:00:30] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:12:35] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 264 seconds
+[10:13:35] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[10:30:58] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[10:33:09] Guest88364 (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:02:03] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 272 seconds
+[11:10:20] Guest88364 (~hackman@management.1h.com) joined #telerikacademy.
+[11:27:29] fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[11:31:51] fairytale (~fairytale@77.70.117.169) left irc: Remote host closed the connection
+[11:39:30] fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[11:41:38] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[11:58:49] fairytale (~fairytale@77.70.117.169) left irc: Remote host closed the connection
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:10:28] Guest88364 (~hackman@management.1h.com) left irc: Ping timeout: 260 seconds
+[12:22:40] Guest88364 (~hackman@management.1h.com) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:32:42] <phalaaxx> как сте админи :)
+[13:32:55] <phalaaxx> в този така работен днешен ден :)
+[13:40:41] <yulimoto> а ве я да ви питам
+[13:42:18] <yulimoto> вярно ли е че при инсталация lvm-а на рут може да бъде само един физически диск ?
+[13:42:30] <yulimoto> глупсти нали ?
+[13:47:03] <phalaaxx> root partition-а да бъде върху lvm само с 1 диск?
+[13:50:12] <phalaaxx> да ви се оплача какъв съм двойкар :D
+[13:50:12] <phalaaxx> вчера каква колосална грешка направих...
+[13:50:47] <phalaaxx> забърсах MBR и partition table на HDD за което няма backups на данните, които всъщност са доста важни и ценни :D
+[13:51:11] <phalaaxx> вместо да го направя на USB flash памет - минах с dd през втория диск в машината
+[13:51:13] <phalaaxx> :D
+[13:51:57] <phalaaxx> изобщо цялата седмица ми е някаква такава ама това беше кулминацията според мен (надявам се)
+[13:52:32] <phalaaxx> мисля че мога да направя следния извод: ако петък 13-ти е хубав и весел ден, цялата следваща седмица е кошмар :D
+[13:55:55] <yulimoto> phalaaxx: root partition-а да бъде върху lvm само с 1 диск? --- разбрал си ме ?
+[13:56:21] <yulimoto> това не ми се е случвало но не виждам защо да има такова ограничение
+[13:56:31] <phalaaxx> честно казано не съм пробвал с повече от един диск но не виждам причина да не може
+[13:57:05] <phalaaxx> може би нещо от boot loader-а ако не го кефи (think)
+[13:57:17] <phalaaxx> та да си довърша историята
+[13:57:23] <phalaaxx> забърсах partition table
+[13:57:33] <phalaaxx> направих си нов partition (върху целия диск)
+[13:57:55] <phalaaxx> и си сложих FAT32 че и си копирах едно файлче
+[13:58:00] <phalaaxx> което трябваше да отиде на флашката
+[13:58:00] <phalaaxx> и през цялото време си мисля че цъкам на тъпата флашка
+[13:58:28] <phalaaxx> и цялата история дойде след солидна доза бързане и липса на време за да се свърши всичко, което трябваше да се свърши този ден
+[13:58:57] <yulimoto> иии ?
+[13:59:08] <yulimoto> разреши ли се драмата ?
+[13:59:13] <phalaaxx> но за щастие разни умни хора (ами явно и те са ги правили такива тъпотии като мен) са написали готина програма дето помага в този случай
+[13:59:36] <phalaaxx> testdisk - ако ви се случи нещо подобно - това работи
+[13:59:48] <yulimoto> за възстановяване на таблици ли ?
+[13:59:49] <phalaaxx> стига dd да не е минало през partition-а със данните
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:03] <phalaaxx> или новата файлова система да е забърсала нещо важно
+[14:00:11] <phalaaxx> от съответния дял
+[14:00:24] <phalaaxx> в моя случай замина само /boot дяла (който винаги си го слагам първи)
+[14:01:02] <phalaaxx> за който ми е толко все тая колкото не може да бъде, то така или иначе имаше 2 дискащото се правеше софтуерен и хардуерен upgrade на машината
+[14:01:40] <phalaaxx> обаче колко нерви изхабих тоя ден, не е за разправяне
+[14:01:53] <phalaaxx> и колко малко неща свърших от всичко планирано
+[14:02:27] <yulimoto> testdisk какво прави възстановява файловете таблици ли ?
+[14:03:10] <yulimoto> сега ще го погледна
+[14:05:44] <yulimoto> hmm гледам му описанието доста внушително изглежда
+[14:06:34] <yulimoto> интересно ми при счупен гръмнал хард диск какво се прави да се извади каквото може да се извади
+[14:14:42] <phalaaxx> да, бива си го - вчера тотално ме спаси :)
+[14:14:55] <phalaaxx> а за счупения диск - зависи как е счупен
+[14:17:16] <phalaaxx> мен ми се е случвало да вадя данни от диск с изгорял контролер като му сложих контролер от съвместим модел от същия производител
+[14:18:07] <yulimoto> не аз си представям да му са разорани плочите
+[14:18:10] <phalaaxx> и също така и при магнитни проблеми - със много търпение и mhdd за да намеря къде са проблемите и да го накарам да чете по-бързо на съответните места (или изобщо да чете)
+[14:28:36] <Guest88364> phalaaxx, защо не възстанови данните с testdisk-a ?
+[14:28:40] Nick change: Guest88364 -> hackman
+[14:35:45] fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[14:47:15] <phalaaxx> hackman: възстанових си ги
+[14:48:05] <phalaaxx> съвсем правилно си проработи testdisk със partitions които ме интересуваха и всичко си е ок сега :)
+[14:49:08] <hackman> yulimoto, phalaaxx абе вие не сте ли гледали лекциите от OS курса
+[14:49:09] <wilindex> hackman: 2013-12-20 23:15:55 UTC <Fairytale> tell hackman Винаги съм мразил VLC ама сега го обичам :-)
+[14:49:13] <hackman> аз там точно за това говорех :0
+[14:50:09] <phalaaxx> аз не съм, признавам си :)
+[14:50:16] <phalaaxx> но ще ги гледам преди 16-ти
+[14:50:33] <phalaaxx> така де, преди 16-ти януари догодина :)
+[14:53:19] <hackman> yulimoto, LVM можеш да слаган на 1+ диска... като 1 е минимума
+[14:54:25] <yulimoto> hackman: аз съм гледал някои, но и доста липсват и то от  интересните (lvm-a примерно си спомням я нямаше и последните също)
+[14:55:12] <yulimoto> а това за LVM-а е от един тест, така се умотах към 40-тия въпрос че вече почнах да мисля за всички възможности като за отговор :)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:59:53] fairytale (~fairytale@77.70.117.169) left irc: Ping timeout: 240 seconds
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:12:20] fairytale (~fairytale@46.249.85.37) joined #telerikacademy.
+[16:23:44] <fairytale> Пуснаха ми NET1
+[16:24:09] <fairytale> Няма нищо общо с скапания нет на МТЕЛ
+[16:25:06] <fairytale> поне засега е номер1
+[16:32:16] hackman (~hackman@management.1h.com) left irc: Read error: Operation timed out
+[16:34:30] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:39:11] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[16:59:23] fairytale (~fairytale@46.249.85.37) left irc: Remote host closed the connection
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:12:56] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[18:37:04] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[18:37:28] Nick change: hackman -> Guest1851
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:46:39] Deyan (~deyan@46.249.92.240) left irc: Ping timeout: 248 seconds
+[19:49:33] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[19:55:52] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:58:07] <fityla> !log
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:43] Fairytale (~Svetlyo@46.249.85.38) joined #telerikacademy.
+[20:04:31] <fityla>  Fairytale имай предвид, че от време на време има проблем с DNS-a
+[20:04:55] <fityla> и чесно казано вече не знам кой ползвам.. като резервен вариант съм му пуснал гооглеският..
+[20:05:20] <fityla> openwrt-то ги върти някак си.. и не знам през кой минава..
+[20:05:44] <Fairytale> Te kazaha, che tqhniq e po burz ot googalskiq
+[20:05:55] <fityla> :D
+[20:06:00] <fityla> логично да е така
+[20:06:04] <fityla> аз съм го сложил ..
+[20:06:07] <fityla> за бекъп
+[20:06:17] <Fairytale> a toi 8.8.8.8 li e?
+[20:06:22] <fityla> да единият
+[20:06:24] <fityla> другият е
+[20:06:29] <fityla> 8.8.4.4
+[20:06:36] <Fairytale> super.Tnx
+[20:06:49] <fityla> като цяла са точни
+[20:07:00] <Fairytale> Na MTEL neta na speed testa mi izkarvashe 14mbit
+[20:07:02] <fityla> аз съм на тях от 3 години
+[20:07:05] <Fairytale> 20lv internet
+[20:07:17] <Fairytale> Sega udrqm 45mbit
+[20:07:26] <Fairytale> 1-lv na mesec izliza
+[20:07:36] <fityla> ти подписа ..
+[20:07:40] <fityla> за тези 6 месеца
+[20:07:42] <Fairytale> Da
+[20:07:48] <fityla> екстра.. ;)
+[20:08:07] <Fairytale> s TV e 22lv na mesec, Strasha oferta
+[20:08:20] <Fairytale> ama naste imat dogor s Blizoo
+[20:08:32] <fityla> аз ги препоръчвам напред назад въпреки че последната седмица забива два пъти суича..
+[20:08:51] <fityla> им казах да го сменят ...
+[20:08:59] <fityla> ама да видим
+[20:09:06] <Fairytale> Kato za parvi den sum predovolen, ama zasega naokolo nqma drugi abonati
+[20:09:16] <fityla> близо са ми любимци най-много ядове съм брал с тях
+[20:09:40] <Fairytale> Kato se navarjat ne znam dali nqma da padne skorosta zastoto 45bim ama sa negarantirani
+[20:10:03] <fityla> със самкноу съм
+[20:10:07] <fityla> от 1-2 месеца
+[20:10:11] <Fairytale> Zasaega gi durja 45
+[20:10:14] <fityla> статистиката е перфекрна
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:39:10] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:48:01] <fityla> http://www.xakep.ru/post/61795/
+[21:48:05] <wilindex> [ Шапка-невидимка ] - www.xakep.ru
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:01:40] <fityla> http://www.xakep.ru/post/61789/
+[22:01:43] <wilindex> [ Удаленное отключение LED-индикатора на веб-камере MacBook ] - www.xakep.ru
+[22:54:19] fityla_ (~fityla@84.40.116.146) joined #telerikacademy.
+[22:56:08] fityla1234 (~fityla@84.40.116.146) joined #telerikacademy.
+[22:56:08] fityla_ (~fityla@84.40.116.146) left irc: Read error: Connection reset by peer
+[22:56:34] fityla (~fityla@84.40.116.146) left irc: Read error: Connection reset by peer
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[00:00:00] --- Sun Dec 22 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

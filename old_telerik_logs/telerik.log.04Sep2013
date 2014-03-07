@@ -1,0 +1,599 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:29:19] <rewind_> yulimoto_: aaa rewind_work излиза от домашното ми пц :) нищо че се връзва от work ( да живее ssh )
+[00:33:04] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[00:59:23] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:01:23] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[02:35:45] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:04:08] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:40:35] Nick change: stratoss -> stratoss|away
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:34:16] <yulimoto_> rewind_: сложна работа :)
+[08:41:56] <yulimoto_> rewind_: става въпрос, че обърках твоето ип- с ип на някакъв от видин, а не го пък обърках с dencho :)
+[08:47:09] <yulimoto_> KpeTeHoug: /dev/sda4     ext4    2,3G  1,2G  1,1G  53% /media/usb4
+[08:47:32] hackman (~hackman@wolf.yuhu.biz) left irc: Read error: Operation timed out
+[08:48:54] <yulimoto_> KpeTeHoug: 1,1 Гб е свободно сложил съм ти уеб квота 800МБ, ako не ти стигнат ще я мислим. сега си на 274M
+[08:55:19] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:10:31] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:10:56] Nick change: Deyan -> Guest8895
+[09:11:39] Guest8895 (~Deyan@supersonic.comelsoft.com) left #telerikacademy.
+[09:11:50] <KpeTeHoug> shte mi stignat, samo da ostane wreme da sedna
+[09:11:54] <KpeTeHoug> che pak po zada`i
+[09:12:12] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:12:28] <KacanuH> Добро утро
+[09:34:03] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:37:54] <fityla> добър ден и от мен ;)
+[09:44:10] <KpeTeHoug> добър да ви е
+[09:44:20] <KpeTeHoug> KrasiGa ще ти пишем 1/3 та закъснение
+[09:44:42] <KrasiGa> Добър ден! Днес много работа рано сутрин
+[09:44:58] <KrasiGa> ще дам извинителна бележка :
+[09:45:00] <KrasiGa> :)
+[09:49:41] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[09:58:37] <fityla> hackman утре сме на линия нали?
+[09:58:37] <fityla> или по скоро .. утре ще имаме курс..
+[09:58:37] <hackman> да :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:26] <KrasiGa> hackman: направете конференцията в Благоевград, не се отказвайте
+[10:01:26] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[10:02:05] <KacanuH> Е аз утре ще пропусна лекцията, ще ходя на сватба
+[10:05:34] <fityla> В четвъртък сватба?
+[10:06:17] <KpeTeHoug> е те от четвъртък почват
+[10:06:23] <KpeTeHoug> а и петък е почивен ден все пак
+[10:06:24] <KpeTeHoug> за повечето
+[10:07:32] <fityla> ужас..
+[10:07:35] <fityla> почват.. ?!
+[10:07:38] <fityla> а свършват
+[10:10:58] <KpeTeHoug> ми зависи от стимулацията която получават
+[10:11:05] <KpeTeHoug> някой хора малко им трябва да свършат
+[10:11:13] <KpeTeHoug> други повече кандърдисване
+[10:11:14] <KpeTeHoug> и така
+[10:11:17] <KpeTeHoug> ^_^
+[10:16:27] <KacanuH> По план трябва да свърша в неделя
+[10:16:33] <KacanuH> да видим дали ще издържа
+[10:18:45] <fityla> баси..
+[10:18:51] <fityla> това да не е циганска сватба
+[10:23:53] rewind_work (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[10:27:37] <yulimoto_> fityla: само да ти кажа че българската сватба по традиция почва в понеделник и свършва в неделя. то си е процесия някаква
+[10:27:56] <yulimoto_> не е само ядини и пиини
+[10:28:09] <yulimoto_> чииза се носи в сряда !!!
+[10:28:25] <yulimoto_> с каруца през центъра на селото се минава
+[10:33:37] <KrasiGa> yulimoto_: вече сме в 21 век, традициите се променят
+[10:35:38] <yulimoto_> хубу
+[10:37:36] <fityla> абе .. аз на 25 години..
+[10:37:56] <fityla> не съм ходил нито една такава сватба от понеделник до неделя
+[10:38:50] <yulimoto_> а на циганска ходил ли си ?
+[10:38:58] <fityla> не
+[10:40:43] nlkl (~nlkl@nat117.cnsys.bg) joined #telerikacademy.
+[10:41:27] <dencho> fityla http://youtu.be/pQ2iZshavfA
+[10:41:47] <KpeTeHoug> денчу, как е гърлуту
+[10:42:00] <dencho> KpeTeHoug vse taka, dnes vidqh, 4e imam beli ne6ta po slivicite
+[10:42:20] <dencho> ot lqvo me boli pomlako no ot dqsno pove4e
+[10:42:52] <yulimoto_> казвам го щото много хора говорят за циганската сватба, а не знаят че прадядо им се е женил 8 дена :)
+[10:43:22] <dencho> yulimoto_ zavisi ot kakuv rod e bil
+[10:43:23] <dencho> :)
+[10:43:30] <dencho> v smisul, kolko zamojen e bil
+[10:43:55] <dencho> pra dqdo im :D
+[10:44:17] <dencho> KpeTeHoug anginata e na nivo :D
+[10:44:37] <KpeTeHoug> цар си лъвчо
+[10:44:53] <KpeTeHoug> е че той прадядо ти е бил с 3 фабрики  и 4 завода
+[10:44:56] <KpeTeHoug> ай не ми се прай
+[10:45:33] <dencho> hahaha
+[10:45:42] <dencho> e ne,
+[10:45:53] <KrasiGa> dencho:  от къде го изкопа това? издържах го едвам 2 мин
+[10:46:40] <dencho> KrasiGa edin slovdnik mi go dade :D
+[10:46:40] <KrasiGa> словдник?
+[10:47:11] <dencho> svodnik
+[10:47:12] <dencho> :D
+[10:47:12] <KrasiGa> WTF is that?
+[10:47:12] <KrasiGa> aaaa
+[10:47:12] <KrasiGa> разбрах
+[10:47:15] <dencho> KpeTeHoug pra dqdo mi e imal 4 dekara niva
+[10:47:21] <dencho> i ni6to pove4e
+[10:47:21] <dencho> :D
+[10:47:41] <dencho> KrasiGa ama kvo 6te kaje6, svatba sus scena... i visoka kamera
+[10:47:42] <dencho> :D
+[10:48:37] <KrasiGa> хахаха забелязах. Чудех се дали не е Сашка Васева ама май не е тя
+[10:48:57] <dencho> ne
+[10:49:08] <dencho> tva sa si nekvi lokalni bogata6i
+[10:49:09] <dencho> :D
+[10:49:14] <dencho> sigurno hodili v ispania
+[10:49:15] <dencho> :D
+[10:49:42] <dencho> i zanimavali se s prostitucia
+[10:49:57] <dencho> 6tom toq svodnik e bil tam, zna4i e imalo i drugi :D
+[10:49:57] <KpeTeHoug> добре че съм със слушалки
+[10:50:05] <KpeTeHoug> иначе щях да ме уволнят за простотия
+[10:50:13] <KpeTeHoug> и тормоз над колегите
+[10:50:16] <KpeTeHoug> с тая музика
+[10:50:39] <dencho> http://youtu.be/Wjb8Z49N5a0
+[10:50:44] <dencho> za mladoto semeistvo
+[10:50:45] <dencho> :D
+[10:53:14] <dencho> mnogo mi e 4udno kak pa sa vidqli saksofona i sa go vkarali v tazi muzika
+[10:53:21] <dencho> nenormalno muzikalni sa tiq hora
+[10:53:21] <dencho> :D
+[10:55:24] <KpeTeHoug> що бе, той саксофона да не се крие
+[10:55:28] <yulimoto_> саксофона има същата постановка като кларинета и се учат бързо кларинетистите т.е. то си е производно на кларинет
+[10:55:38] <dencho> tva sigurno e bulkata kato  mlada http://youtu.be/HuCquo-nUG4
+[10:55:42] <KpeTeHoug> да, и вие като зурла малко
+[10:56:58] <yulimoto_> булката ги знае номерата, сигурно е взела акъла на веско !!!
+[10:57:08] <dencho> haha
+[10:57:09] <dencho> :D
+[10:58:42] <yulimoto_> сигурно има дълга кариера каката, веско горкия да е жив и здрав баща му
+[10:59:53] <dencho> http://youtu.be/DwndCqcd3MM
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:10] <dencho> po-zdrav
+[11:00:11] <dencho> :P
+[11:00:40] <KpeTeHoug> :)
+[11:01:56] <KpeTeHoug> http://www.youtube.com/watch?v=VRsYZ0RmjkE
+[11:05:19] <dencho> dobre... vidqhme bulgarskata oligofreniq, sq da vidim amerikanskata
+[11:05:24] <dencho> http://youtu.be/jmHp51dCvkk
+[11:06:19] <KpeTeHoug> ужасТ
+[11:06:23] <KpeTeHoug> добре че са го вързали да не бяга
+[11:08:31] <yulimoto_> да кажете някоя книга която обяснява ОСИ модела добре, хедъри хендшейкове дъра-бъра
+[11:10:51] <KpeTeHoug> и аз бих искал да знам :)
+[11:11:11] <KpeTeHoug> ти гледа ли tcp/ip илюстрейтед
+[11:11:36] <dencho> http://www.kaldata.com/IT-%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8/%D0%A5%D0%B0%D0%BA%D0%B5%D1%80-%D0%BD%D0%B0%D0%BC%D0%B5%D1%80%D0%B8-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD-%D0%B7%D0%B0-%D0%BF%D1%80%D0%B5%D0%BC%D0%B0%D1%85%D0%B2%D0%B0%D0%BD%D0%B5-%D0%BD%D0%B0-%D0%BF%D1%80%D0%BE-82266.html
+[11:11:40] <dencho> q pa toz :D
+[11:15:39] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[11:16:50] lari__ (5f2a1e9c@gateway/web/freenode/ip.95.42.30.156) left irc: Ping timeout: 250 seconds
+[11:41:21] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[11:49:49] <dencho> aide hora, pojelaite mi uspeh
+[11:49:49] <dencho> :D
+[11:55:54] <KrasiGa> на интервю ли отиваш?
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:05:37] <dencho> da, i predi tova na test :]
+[12:08:21] <yulimoto_> за админ ли ? :)
+[12:12:55] <yulimoto_> KpeTeHoug: сега като каза си изтеглих едно calibre че да я видя нали еpub
+[12:13:32] <yulimoto_> KpeTeHoug: подробна работа ама аз веднага отидох na layering да си ги припомня
+[12:18:27] <dencho> yulimoto_ test-a e za admin, a interviuto e za prodava4 (kato se smqta 4e tam testa sam go napravil dobre)
+[12:18:42] <dencho> ako se klasiram za interviu za admin 6te vi po4erpa
+[12:19:36] <dencho> az ne moga da prodavam, ama horata 6to sa re6ili, 4e me iskat za prodava4 ne znam :D
+[12:24:19] <yulimoto_> ми аре да се класираш за админ
+[12:38:30] <dencho> mi are de :D
+[12:38:42] <dencho> qvno v tezi sredi purvata stupka na podbora e test
+[12:40:09] <dencho> sega pak... dobar den - dobar den... ela na test denislave :D
+[12:43:11] <phalaaxx> къде си на тест ако не е тайна?
+[12:46:07] <yulimoto_> ей много фамилиарни, аз по принцип говоря на малко име, но на вие "денислав имате ли възможност да дойдете на тест" направо полудяват полудяват
+[12:50:46] <dencho> phalaaxx v superhosting, a sq mi se obadi edna kaka za ne6to nare4eno Датамакс АД
+[12:51:11] <dencho> no kato 4eta v netq za Датамакс АД, ne6to ne me radvat
+[12:51:19] <dencho> ne 4e i az sam super gotin de...
+[12:52:22] <dencho> v superhosting minalata sedmica hodih na test za prodava4, a sq me vikat i na interviu, v su6toto vreme drug otdel me vika na test za tech supp
+[12:52:26] <dencho> 6te e zabava
+[12:52:26] <dencho> :D
+[12:52:33] <dencho> a az sam BOLEN! :D
+[12:52:56] <dencho> tova e obqvata za datamax http://www.jobs.bg/f1938544
+[12:53:34] <dencho> ba sefte sa mi takiva testove :D
+[12:54:24] <dencho> za*
+[12:54:41] <yulimoto_> обявята изглежда ок, ама по форумите какво пишат за тях
+[12:55:05] <dencho> m da, i az tva gledam :D
+[12:55:50] <dencho> a pri uslovie, 4e imam samo 6 meseca staj v tazi nasoka e pak dobre :P t.e za men mai vsqko ne6to v tazi oblast bi bilo dobre :D
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:01:00] <yulimoto_> да бе отивай там и каквото стане
+[13:01:39] <yulimoto_> ти за това ли учи bind -а  ? :)
+[13:02:03] Nick change: stratoss|away -> stratoss
+[13:03:11] <dencho> da, i za iptables, i bind, i za kvm, vitrualbox, sega sam na openbsd i pf
+[13:03:44] <dencho> na staja koito karam v momenta imam razgrafeni zada4i :)
+[13:04:08] <dencho> otdelno incident management
+[13:04:33] <yulimoto_> eheee ти си готов бре
+[13:05:59] <dencho> neeee znam :) v ponedelnik trqbva6e da imam appraisal review ama nali si ostanah u nas, i 6te vidim dali sam gotov :P
+[13:06:22] <yulimoto_> ми мн неподходящо се разболяваш
+[13:06:27] <dencho> no da... poslednite 6 meseca s tova se zanimavam :)
+[13:06:31] <dencho> sudba :D
+[13:07:27] <yulimoto_> ами сегашната ти фирма бива ли ?
+[13:07:39] <dencho> biva, na men mi haresva
+[13:07:52] <dencho> tq mi e purvata HAHAH
+[13:07:58] <dencho> normalno e da mi haresva
+[13:07:58] <dencho> :D
+[13:08:15] <yulimoto_> ми стой си там докато се отракаш
+[13:08:38] <dencho> em na appraisal review-to 6te se razbere dali 6te imam vuzmojnost da ostana
+[13:08:39] <dencho> :D
+[13:09:03] <yulimoto_> колко стажанта сте ?
+[13:09:30] <yulimoto_> ууу значи ти си останал, ама защо се разболя така лошо, все едно им каза не ме вземайте
+[13:09:38] <yulimoto_> ;)
+[13:09:42] <dencho> da wee :D
+[13:09:56] <yulimoto_> другия чува ли ги ?
+[13:10:02] <dencho> tc :)
+[13:10:11] <yulimoto_> ем кво се плашиш ?
+[13:10:25] <dencho> ne sam se upla6il :)
+[13:10:41] <dencho> ama znae li se... :D moje nito edin da ne e ot spe4elilite
+[13:10:42] <dencho> :D
+[13:11:07] <dencho> v smisul qvno sa postaveni nqkakvi o4akvaniq... i ako si gi pokril zna4i si OK, ako ne si zna4i hodi na test v superhositng :D
+[13:11:08] <yulimoto_> и да не забравиш да говориш на шефовете все едно са нищо не разбират и са шефове по случайност, което си е така
+[13:11:25] <dencho> toz gi razbira :P
+[13:11:29] <yulimoto_> браво
+[13:11:34] <yulimoto_> значи има за какво да седиш
+[13:12:05] <dencho> da! :D za 6 meseca nau4ih super mnogo ot nego kato na4in na rabota
+[13:12:26] <yulimoto_> кажи му шефе аз ще си тръгна от тук кога ти ограбя знанията, после ще си правя каквото знам
+[13:12:36] <yulimoto_> тъй че ме вземаш
+[13:12:49] <dencho> hahaha :D
+[13:13:37] <yulimoto_> да ве кажи му " ти да не мислиш, че като се развия ще седя да ти слушам глупостите, ама до тогава ще трябва да ги слушам"
+[13:13:48] <dencho> hahahaha
+[13:15:00] <dencho> a be hubavo e 4e pone zapo4naha da me vikat na testove, predi i tova go nqma6e
+[13:15:01] <dencho> :P
+[13:15:03] <dencho> t.e
+[13:15:18] <dencho> liniqta v grafikata vurvi nagore
+[13:15:18] <dencho> :D
+[13:15:29] <yulimoto_> кажи му "мисля тука да побачкам 4+ години, до тогава трябва да вземеш нов стажант, а аз като дойде време ще го обуча"
+[13:15:53] <yulimoto_> кое ти се промени толкова, че взеха да те викат на тестове ?
+[13:16:30] <dencho> mi qvno 6tot sam napisal 4e imam 6 meseca stajant v IT firma i sam dobavil Telerik academy v obu4enieto :D aaaa i tezi rabotki koito sum minal na staja
+[13:16:47] <dencho> taka si go obesnqvam
+[13:17:11] <yulimoto_> аха ами значи имаш ключови моменти
+[13:17:21] <dencho> predi tova imam 4 godini hotelierstvo... :D
+[13:17:36] <yulimoto_> о йе това е много добре за сис админ
+[13:17:41] <dencho> hhahahahha
+[13:17:43] <dencho> :D
+[13:17:57] <dencho> da... moga da rabota s hora :P~
+[13:18:00] <dencho> hahahaha
+[13:18:19] <KrasiGa> завидях ти за това, че можеш да учиш от шефовете си
+[13:18:28] <KrasiGa> при мен е точно обратното
+[13:18:37] <yulimoto_> ей бум бум бум
+[13:18:46] <yulimoto_> с чифте пищофи
+[13:18:51] <KrasiGa> а аз не знам много, така че ...
+[13:18:56] <dencho> :D
+[13:19:18] <dencho> to az ne znam koi znae kolko, taka 4e sigurno kudeto i da ida 6te moga da se u4a :D
+[13:19:48] <yulimoto_> KrasiGa: ами ако шефовете са ти едни лелки дето виреят по държавните учреждения, то от тях можеш да научиш за лютеницата и компотите само
+[13:20:09] <KrasiGa> :) ще си замълча
+[13:20:10] <dencho> i az iskam da sam sys admin v ob6tinata
+[13:20:11] <dencho> :P
+[13:20:24] <yulimoto_> за какво ти е бе
+[13:20:39] <dencho> si burkam v nosleto po cql den kato KrasiGa :P
+[13:20:54] <KrasiGa> хахаха еееее айде без обиди
+[13:21:05] <dencho> hahaha :D ne e obida :P
+[13:21:08] <KrasiGa> надграждам знанията си
+[13:21:28] <yulimoto_> мен ако ми кажат "сега почваме да правим нова мрежа и да я развиваме от а-я" отивам и без пари дето се вика, ама така да подържам на някой бакиите не ми се работи така
+[13:21:46] <dencho> :)
+[13:22:07] <dencho> v botevgrad... 400 leva pomo6nik sys admin (ili kakto go nari4at ne znam) samo WINDOWS :D цък цък язък
+[13:22:08] <dencho> :D
+[13:22:19] <yulimoto_> мани мани
+[13:22:44] <KrasiGa> то и при нас е само windows
+[13:23:00] <dencho> normalno
+[13:23:00] <dencho> :P
+[13:23:07] <dencho> nali ste dyrjavni ora
+[13:23:08] <dencho> :D
+[13:23:12] <yulimoto_> разбира се че е windows нали си плащат в сф едни чичковци
+[13:23:19] <dencho> nekoi e gu6nal nekakvi pari
+[13:23:21] <KrasiGa> по районите имаме BSD serveri za VPN връзка ама там освен image на диска друго не пипаме
+[13:24:08] <dencho> kak moje :P
+[13:24:09] <dencho> sramota
+[13:24:10] <dencho> :D
+[13:24:14] <yulimoto_> бсд-то кърти
+[13:24:17] <KrasiGa> по софия може и да има линукси ама не знам. Сега ще има някакви обучение и гледах, че има курс за линукс администрация
+[13:24:35] <dencho> sram za bulgarskata administracia :P
+[13:24:37] <dencho> bsd :D
+[13:24:57] <yulimoto_> що ве то си работи повече от линукс-а даже
+[13:25:08] <dencho> nali znaete s kakvo e izvesten berkely :D s bsd i lsd :D
+[13:25:13] <dencho> be da slagat windows server :P
+[13:25:23] <yulimoto_> аа
+[13:26:06] <KrasiGa> yulimoto_: , dencho  се шегува
+[13:26:13] <yulimoto_> ааа добре
+[13:26:34] <dencho> yulimoto_ ne6to otkak go razslapvaha sno6ti me gleda mnogo seriozno :P
+[13:26:38] <KrasiGa> не долавяш ли сарказъма
+[13:26:40] <rewind_work> dencho: слагай <sarcasm> тагове, че се бъркат хората
+[13:26:45] <dencho> hahaha
+[13:27:45] <yulimoto_> значи тука в ямбол за админ има два варианта или цъкаш някъде из и-нет доставчиците, другия вариант е да докопаш някой шеф на фабрика или някои от заводските шефове и там да им оправяш завода
+[13:28:50] <dencho> qmbooool i v botevgrad e taka, ima 2-3 serviz4eta deto preinstalirat windowsi i slagat kameri i edin lame net dostav4ik kudeto trqq da ima smurten slu4ai, 4e nqkoi da ide :D
+[13:29:46] <phalaaxx> смъртен случай? някой трябва да пририта щото му се зарежда бавно фейсбука ли?
+[13:29:55] <rewind_work> доколкото разбирам почти навсякъде извън София е така, аз имам наблюдения само за Казанлък и Бургас, но практически съм чувал подобни истории и за други
+[13:30:12] <yulimoto_> тука има и добри инет доставчици тука, но има и такива дето се разкарват с едно ауди 80 и една стълба - тия ми пълнят душата все едно е 2001г
+[13:30:33] <dencho> phalaaxx, smurten slu4ai v dostav4ika, t.e nqkoi da umre, 4e da se klasira6 da raboti6 tam
+[13:30:34] <dencho> :D
+[13:30:57] <phalaaxx> ааа темата още е за работа по такива места :)
+[13:30:57] <dencho> yulimoto_ e nali ima6e zakon da nqma kabeli po direcite?
+[13:31:12] <yulimoto_> dencho:  ела да видиш дирека пред вкъщи чадо
+[13:31:20] <dencho> ebaaa go
+[13:33:25] <yulimoto_> dencho: ами нормално е да са се окупирали до пенсия. Обикновено една такава мрежа я правят 3-4-5 човека, другите са работници дето носят и окабеляват. тия 3-4-5 човека си карат по 1-2 и стват 6-8-10 човека ; ти къде смяташ да се внедриш ве man ? :)
+[13:34:29] <dencho> mi 4akam nqkoi da umre :P
+[13:35:15] s0ny123 (~s0ny123@84.40.112.16) joined #telerikacademy.
+[13:35:38] <yulimoto_> да едно време така се чакаше за държавното радио, но то верно колкото ги чакаше човек, толкова не измираха, нито един не умря
+[13:35:55] <dencho> hahaha
+[13:36:20] <yulimoto_> щото те знаят че ги чакаш и се мобилизират, иначе се отпускат
+[13:36:23] <yulimoto_> и хоп
+[13:36:24] <dencho> liuksemburg 1800 evro minimalna zaplata!!!!!!!!!!!!!!
+[13:36:49] <yulimoto_> значи според мен ако изкараш LPI ще си много надежден кадър
+[13:36:53] <yulimoto_> !!!
+[13:37:44] <dencho> sega sam namislil da hodq v sofiiskia nqkakva magistratura, no izpita e sled 7 dni i 6te go karam na ob6ta kultura, ako stane - stane
+[13:37:44] <dencho> :D
+[13:38:06] <yulimoto_> и ти трябва някой старши колега като vhristev да те учи, ще изхвърчиш в космоса за 6-12 месеца, а vhristev ще ти предаде и тая селска надъханост, която имаме ние ората от селу
+[13:38:19] <dencho> :D
+[13:38:25] <dencho> e to az ne sam ot golemiq grad :D
+[13:38:48] <dencho> vuprosa e cisco vs lpi ?
+[13:39:00] <yulimoto_> ама ти требе да станеш "надъхан селянин" само тогава човек може да пробие + умения разбира се
+[13:39:08] <yulimoto_> според мен циско
+[13:39:34] <yulimoto_> ама циско е доста повече учиене и си е мрежи
+[13:39:56] <KrasiGa> аз съм карала CCNA ама не съм много доволна. Но тук в Благоевград
+[13:40:19] <dencho> 6te vidim kakvo 6te se slu4i :D
+[13:40:23] <yulimoto_> KrasiGa: towa kakvo e ?
+[13:40:26] <KrasiGa> единият преподавател беше кофти и беше суха наука с много малко практика
+[13:40:29] <dencho> yulimoto_ purvo nivo :D
+[13:40:35] <yulimoto_> аха
+[13:40:44] <KrasiGa> първо ниво на cisco
+[13:40:51] <yulimoto_> колко нива са
+[13:40:54] <yulimoto_> 3 ли ?
+[13:40:56] <yulimoto_> аха
+[13:41:09] <yulimoto_> виж сега денчо :П)
+[13:41:11] <dencho> purvo nivo se razdava kato topal hlqb mai... :D
+[13:41:24] <KrasiGa> abe ne e parvo nivo
+[13:41:29] <KrasiGa> te sa CCNA1 do 4
+[13:41:39] <KrasiGa> ima CCNP i t.n
+[13:41:53] <dencho> da
+[13:41:55] <dencho> purvo nivo :P
+[13:41:57] <dencho> haha
+[13:41:59] <dencho> 6eguvam se
+[13:42:00] <dencho> :P
+[13:42:02] <yulimoto_> докато е линукс курса да изкараме по един lpi с малко учене, тамъм ще може да се питта когото трябва, после като почне курса за мрежи може да изкараме и мрежи някакъв сертигикат
+[13:42:04] <KrasiGa> za daвземеш сертификат за CCNA караш 4 курса
+[13:42:35] <yulimoto_> ти 4-те курса ли кара KrasiGa
+[13:42:43] <dencho> KrasiGa e advanced :D
+[13:42:49] <yulimoto_> ne be pitam
+[13:42:52] <yulimoto_> da znam
+[13:42:56] <KrasiGa> 3, за 4тия не се събраха хора и още чакам за да сформират група
+[13:43:15] <yulimoto_> колко е продължителността на един такъв курс
+[13:43:19] <KrasiGa> а това беше през 2010
+[13:43:23] <yulimoto_> една част
+[13:43:36] <KrasiGa> 3-4 месеца
+[13:43:39] <yulimoto_> пссс
+[13:43:46] <yulimoto_> има ли чалъм да си ходя само на изпити
+[13:43:47] <yulimoto_> ?
+[13:43:53] <dencho> ima
+[13:43:54] <dencho> :D
+[13:44:00] <KrasiGa> да, лекциите не са задължителни
+[13:44:12] <yulimoto_> значи по-добре да си купя учебниците
+[13:44:18] <dencho> ama nali znae6 kak e v bulgaria :P ne hodi6 na kurs, zna4i si skusan :D
+[13:44:31] <yulimoto_> а бе нали ти казах, че не си селяннин
+[13:44:33] <KrasiGa> не е така. ИЗпита е онлайн
+[13:44:43] <dencho> hahaha
+[13:44:43] <KrasiGa> през системата на cisco
+[13:44:44] <dencho> :D
+[13:44:52] <KrasiGa> имат специален сайт за обучаващите се
+[13:44:53] <yulimoto_> как ще ме скъсат като после отида и почна въпрос по върпос
+[13:44:58] <KrasiGa> регистрират те и т.н
+[13:45:00] <phalaaxx> не винаги
+[13:45:00] <phalaaxx> ама CCNA след първия изпит става скучна история, само ти говорят колко велико нещо е това Cisco
+[13:45:41] <yulimoto_> то е ясно че ще хвалят циско, корпоративните килиини у-ща това правят
+[13:46:20] <phalaaxx> на мен ми стана тъпо да слушам някакви суперлативи и така и не се явих на последния изпит за CCNA
+[13:46:55] <yulimoto_> въпроса спама лесно да бъде регистриран и сложен в коша, а понякога е и умело вплетен в учебния матр'еал тогава става по-трудно
+[13:47:11] <KrasiGa> dencho: не знам какъв е курса за LPI, но бих предпочела него
+[13:47:32] <yulimoto_> linux professional institute
+[13:47:40] <KrasiGa> предполагам, че и по-малко хора имат такъв сертификта
+[13:47:44] <yulimoto_> KrasiGa: LPI
+[13:47:48] <KrasiGa> да бе знам му абревиатурата
+[13:47:59] <yulimoto_> aa dobre
+[13:48:07] <yulimoto_> притесних се
+[13:48:13] <KrasiGa> не знам какво представляват лекции и изпит
+[13:48:47] <phalaaxx> аз съм се явявал на LPI 101 без курс (на обща култура дето се вика)
+[13:49:08] <yulimoto_> да то като го гледам така може да мине с четене само
+[13:49:12] <yulimoto_> то е тестт
+[13:49:15] <phalaaxx> и някои въпроси бяха на границата на познанията ми по това време
+[13:49:16] <yulimoto_> phalaaxx: wze li go
+[13:49:22] <phalaaxx> изобщо не знаех какво ще има вътре
+[13:49:29] <phalaaxx> това преди 3 - 4 години беше де
+[13:49:33] <phalaaxx> взех го
+[13:49:59] <phalaaxx> и от тогава все се опитвам да заделя пари за още изпити ама все отлагам за другия път щото всякакви непредвидени разходи :D
+[13:50:19] <KrasiGa> колко струва един изпит?
+[13:50:36] <phalaaxx> ами тогава май платих 120 лева
+[13:50:44] <yulimoto_> dencho: щом phalaaxx-ито го е взел без четене преди 3-4 г. значи ние като четем ще трябва да го вземем !!
+[13:50:46] <phalaaxx> или беше по-малко... имаше някаква промоция :)
+[13:51:05] <KrasiGa> а къде се изпитва?
+[13:51:31] <fityla> човек да не ви остави
+[13:51:34] <fityla> изписали сте роман
+[13:51:47] <yulimoto_> трябва да видя май по openfest-а правеха изпит
+[13:51:51] <fityla> някой учасва ли в проекта SamKnows
+[13:52:05] <phalaaxx> аз ходих в софийския, тия дето ги пишат по linux-bg
+[13:52:12] <phalaaxx> но има и други места на които може да се яви човек
+[13:52:30] <phalaaxx> мисля че Technologica провеждат такива изпити (on demand)
+[13:52:43] <yulimoto_> аха
+[13:53:06] <dencho> tehnologica (tezi v durvenica) ?
+[13:53:08] <yulimoto_> първо май трябва да се регистрира човек и после с номера отива да го изпитат
+[13:53:34] <phalaaxx> бил съм на изпит в технологика ама не беше в дървеница...
+[13:53:58] <yulimoto_> Lpi май са три сертификата
+[13:53:59] <phalaaxx> май Лозенец се водеше този район (в София)
+[13:54:03] <phalaaxx> или Хладилника :)
+[13:54:07] <phalaaxx> едно от двете
+[13:54:15] <yulimoto_> phalaaxx: ти къде си ?
+[13:54:23] <dencho> OLLLLL tezi sa bili dosta golemi, btw minavam pokrai tehnologica v durvenica
+[13:54:34] <dencho> i edin put gledam izliza 1 i si prikazva sam...
+[13:54:44] <dencho> razsujdava si po nqkakvi ekzistencialni vuprosi
+[13:55:02] <dencho> qvno dosta logika e sabral :P
+[13:55:14] <phalaaxx> http://www.technologica.com/education-center/%D0%B8%D0%B7%D0%BF%D0%B8%D1%82%D0%B5%D0%BD-%D1%86%D0%B5%D0%BD%D1%82%D1%8A%D1%80/pearson-vue
+[13:55:15] <dencho> ТехноЛогика - Развоен офис
+[13:55:16] <dencho> ул. "Софийско поле" 3
+[13:55:18] <dencho> su6toto :D
+[13:55:38] <yulimoto_> то и аз си приказвам сам бре, на тая алиенация какво да не забравя да приказвам
+[13:55:46] <phalaaxx> yulimoto_: на работа съм :D
+[13:55:47] <dencho> :]
+[13:56:05] <yulimoto_> phalaaxx: разбра ме, както и да е :)
+[13:56:45] <yulimoto_> аре пичове
+[13:56:55] <yulimoto_> и пички :)
+[13:56:58] <yulimoto_> хихи
+[13:57:05] <phalaaxx> къде живея ли?
+[13:57:09] <yulimoto_> да
+[13:57:18] <phalaaxx> в София
+[13:57:18] <phalaaxx> или питаш за квартал?
+[13:57:34] <yulimoto_> ясно, за софия те питам
+[13:57:44] <yulimoto_> за град
+[13:58:14] <dencho> sofia brat, na showbiznesa e grad
+[13:58:15] <dencho> :D
+[13:59:01] <phalaaxx> най-хубавото нещо на този град са табелите София - на излизане от града
+[13:59:13] <dencho> Бихме искали да имаш:
+[13:59:13] <dencho> - 6+ месеца на подобна позиция
+[13:59:13] <dencho> - да разбираш от Windows 8 Pro OS
+[13:59:13] <dencho> - опит с администриране на Windows OS
+[13:59:14] <phalaaxx> и терминалите (заминаващи) на летището
+[13:59:16] <dencho> e...
+[13:59:21] <dencho> az windows 8 ne sam vijdal o6te we
+[13:59:21] <dencho> !
+[14:00:00] <KrasiGa> и аз dencho споко
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:12] <dencho> koga izlezna toq windows koga po4naha da go iskat
+[14:00:22] <dencho> http://www.jobs.bg/f1942514
+[14:00:26] <KrasiGa> phalaaxx: стига си плюл по  милата ни столица
+[14:00:29] <KrasiGa> екстра си е
+[14:01:05] <phalaaxx> да де и аз това казвам
+[14:01:05] <phalaaxx> има хубави табели на излизане и летището върши работа :)
+[14:01:32] <KrasiGa> като живеех там не можех да си помисля как ще се върна в малкия град
+[14:01:37] <KrasiGa> страдах цяла година
+[14:01:53] <KrasiGa> не, че сега съжалявам
+[14:02:25] <dencho> az puk ne iskam da jiveq v sofia
+[14:06:43] <rewind_work> dencho: просто вече само с това идват новите инсталирани компютри, нормално да го искат :)
+[14:07:11] <rewind_work> докато се включа и това, за което пишех отишло на две страници нагоре ...
+[14:07:31] Nick change: stratoss -> stratoss|away
+[14:07:35] <dencho> :) to hubavo, ama az kak da pro-razbiram na windows na 2 meseca :D
+[14:12:08] <rewind_work> чети за впечатленията на останалите, които са се докосвали - например: http://hardware.slashdot.org/comments.pl?sid=4107263&cid=44613929
+[14:12:31] <rewind_work> или http://tech.slashdot.org/story/13/08/22/1225236/german-government-warns-windows-8-is-an-unacceptable-security-risk
+[14:18:30] <dencho> ahahah
+[14:18:40] <dencho> Unacceptable Security Risk
+[14:28:00] <rewind_work> виж и превода на статията, доста е добра, нищо че е през translate :)
+[14:28:04] paparazzo (~drako@xtsystems.net) left irc: Ping timeout: 240 seconds
+[14:28:39] paparazzo (~drako@xtsystems.net) joined #telerikacademy.
+[14:34:17] <KpeTeHoug> денчу, те не искат да проразбираш, а да разбираш от Про версията
+[14:34:31] <KpeTeHoug> и къде имало LPI курз
+[14:37:21] <KrasiGa> KpeTeHoug:  онези линкове за последното домашни да ги пазиш случайно?
+[14:40:07] <KpeTeHoug> за RHEL и Дебиан бриджове ?
+[14:40:12] <KrasiGa> аха
+[14:40:16] <KpeTeHoug> ахъм
+[14:40:17] <KpeTeHoug> мумент
+[14:40:35] <KpeTeHoug> https://access.redhat.com/site/documentation/en-US/Red_Hat_Enterprise_Linux/6/html/Deployment_Guide/s2-networkscripts-interfaces_network-bridge.html
+[14:40:48] <KpeTeHoug> https://wiki.debian.org/BridgeNetworkConnections#Manual_bridge_setup
+[14:41:00] <KpeTeHoug> не са лоши за отправна точка, но има какво да се чете още
+[14:41:22] <KrasiGa> 10х
+[14:41:43] <KpeTeHoug> моля
+[14:50:56] <dencho> gasa toka,
+[14:50:58] <dencho> 4ao
+[14:50:58] <dencho> :D
+[14:53:08] dencho (~dencho@95.111.14.183) left irc: 
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:05:18] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[15:14:15] <KacanuH> Ако някой проявява интерес имам един клиент който си купи такива суичове Cisco Compact 24-Port Gigabit Switch/SG102-24 и се оказа, че няма да му трябват и сега ги дава на много добри цени
+[15:22:13] <phalaaxx> на колко добри цени? :)
+[15:23:49] <KacanuH> Е ми аз съм му ги давал на 300 лева
+[15:24:08] <KacanuH> предполагам на 240-250 лева ще се спазарите, те не са пускани в употреба
+[15:24:27] <KacanuH> тоест съм му ги давал на 360 лева с ДДС
+[15:32:05] <paparazzo> Какво значи добри пари?
+[15:33:00] <paparazzo> да не се чете последно :-D
+[15:33:03] <KacanuH> paparazzo: прочети по-горе
+[15:33:55] <KacanuH> гаранцията им тече от средата на юни
+[15:58:18] <yulimoto_> KrasiGa: значи викаш това CCNA бошлаф ?
+[15:58:49] <yulimoto_> а ве на някой някога да са му искали димплома/сертификат ?
+[15:59:23] <KrasiGa> ами ... научаваш нещо, ама повече е суха теория
+[15:59:35] <KrasiGa> и пак казвам зависи от лектора
+[15:59:46] <KrasiGa> единият много го биваше и ми беше интересно
+[15:59:55] <KrasiGa> а при другият заспивах
+[16:00:04] Writing user file...
+[16:00:04] Writing channel file...
+[16:00:20] <KrasiGa> а за дипломата и сертификата ми ги искат като почвам на ново място
+[16:00:29] <KrasiGa> но вече са ме одобрили
+[16:00:39] <yulimoto_> ясно и до къде я докарахте с лекции долу-горе до къде стигнахте ?
+[16:01:04] <KrasiGa> уффф най-лошото е, че не помня много неща от там
+[16:01:27] <KrasiGa> беше преди доста време. Май излъгах за 2010
+[16:01:54] <yulimoto_> един рутер колко интерфейса има най-малко ? :)
+[16:02:58] <KrasiGa> :) изпитваш ли ме?
+[16:05:31] <KpeTeHoug> най-малко 1, да има къде да пъхнеш кабела :)
+[16:05:39] <KpeTeHoug> предполгам, де
+[16:05:53] <KpeTeHoug> иа з имах зор за CCNA, но като чух 4 нива и после CCNP
+[16:05:57] <KpeTeHoug> викам tnx, but no tnx
+[16:13:49] <lyubenblagoev> CCNA не е ли само един изпит, а нивата да са в самите академии? Реално ако не се записваш в академия, а се подготвяш сам изпита ти е един или бъркам?
+[16:14:12] <lyubenblagoev> при CCNP вече е друго с изпитите
+[16:14:28] <yulimoto_> ама май CCNP е един или не ?
+[16:15:04] <lyubenblagoev> switch, route, tshoot
+[16:15:14] <lyubenblagoev> до колкото си спомням последно като разглеждах
+[16:15:18] <lyubenblagoev> на отделни изпити са
+[16:15:24] <yulimoto_> За да станете CCNA, имате два варианта за полагане на изпит. Единият е да се явите поотделно на два изпита: ICND1 и ICND2, а другият – да положите изпит CCNA Composite, който включва материала за ICND1 и ICND2.
+[16:16:12] <lyubenblagoev> да има вариант на две части, те сега май го променят това
+[16:16:20] <lyubenblagoev> и изпита ще е друг
+[16:16:33] <yulimoto_> KrasiGa: CCNA сертификатът е валиден три години от датата на сертифициране. След изтичане на срока е необходимо да се ресертифицирате или да се сертифицирате за следващо ниво – CCNP, CCSP, CCVP и т.н.
+[16:17:43] <KrasiGa> това го знам и като исках да карам CCNA 4 ми казаха, че мога понеже: след като изкараш 4те след които имаш всеки път изпит тогава реално се явяваш на CCNA
+[16:18:00] <KrasiGa> realno za цялото обучение ще имаш 5 изпита
+[16:18:12] <KrasiGa> ама ти не ми вярваш ли не мога да разбера?
+[16:18:29] <yulimoto_> вярвам ти
+[16:18:47] <lyubenblagoev> аз като цяло имам малко особено мнение за сертификати и дипломи. Да има такива които ги искат, но общо взето всеки гледа знания и възможности, не сертификати.
+[16:19:13] <yulimoto_> KrasiGa: ами просто ти пействам да знаеш, че след като вземеш ЦЦНА трябвало до 3 години да вземеш там и нещо си друго
+[16:19:16] <KrasiGa> ами то знанията са по-важни
+[16:19:48] <KrasiGa> yulimoto_:  това е когато финализираш целия курс
+[16:19:49] <yulimoto_> ами да така е на мен не са ми искали до сега сертификат
+[16:19:55] <KrasiGa> а моите са междинни
+[16:19:59] <yulimoto_> аа ясно
+[16:21:12] <yulimoto_> оф едни го карат за 4-5 дена тоя курс и после 2 седмици подготовка,  други с  месеци
+[16:22:32] <yulimoto_> мен сертификати ми не требват, но със времето може да имат някаква тежест,  както скачам от едно на друго все ще е по-добре
+[16:30:01] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) left irc: Quit: Page closed
+[16:38:31] Nick change: KacanuH -> Deyan
+[16:59:20] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:07:32] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[17:34:47] <rewind_work> доколкото виждам навсякъде сертификатите служат най-вече за кичене в Linkedin, но за съжаление са първата цедка в доста компании навън
+[17:35:56] <rewind_work> това особено важи за желаещите да се порадват на хубавите неща в София (по думите на phalaaxx ) като Терминал 1 и 2
+[17:45:26] <lyubenblagoev> rewind_work, наистина за съжаление
+[17:46:34] <lyubenblagoev> има страшно много хора без конретна диплома или сертификат притежаващи знания и възможности липсващи при такива със сертификат или дадена диплома
+[17:47:31] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[17:47:31] <phalaaxx> м, какво сбърках? :D
+[17:48:40] paparazzo (~drako@xtsystems.net) left irc: Quit: Leaving
+[17:52:55] <Deyan> phalaaxx: шшшшът виновен си
+[17:57:40] <phalaaxx> добре, ще си мълча
+[17:58:16] <rewind_work> нищо не е сбъркал, много хубаво си ги назова най-убавите неща у София ;)
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:10:25] <rewind_work> lyubenblagoev: всъщност не съм сигурен дали наистина е така по принцип, просто вече ми се случи два пъти.
+[18:13:35] s0ny123 (~s0ny123@84.40.112.16) left irc: Quit: Lost terminal
+[18:14:58] lari (5f2a1e9c@gateway/web/freenode/ip.95.42.30.156) joined #telerikacademy.
+[18:35:31] <rewind_work> Приятна вечер на всички :)
+[18:40:34] rewind_work (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:35] hackman (~hackman@management.1h.com) left irc: Read error: Operation timed out
+[19:18:38] wessly (~wessly@unaffiliated/wessly) joined #telerikacademy.
+[19:18:59] wessly (~wessly@unaffiliated/wessly) left #telerikacademy.
+[19:20:45] Nick change: stratoss|away -> stratoss
+[19:38:21] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[19:53:20] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[19:56:32] rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:04:58] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:30:38] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 276 seconds
+[20:46:44] Nick change: stratoss -> stratoss|away
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:19:47] xezes (~xezes@unaffiliated/xezes) joined #telerikacademy.
+[21:28:13] xezes (~xezes@unaffiliated/xezes) left irc: 
+[21:47:11] xezes (~xezes@37.139.13.60) joined #telerikacademy.
+[21:47:21] xezes (~xezes@37.139.13.60) left irc: Changing host
+[21:47:21] xezes (~xezes@unaffiliated/xezes) joined #telerikacademy.
+[21:47:27] <xezes> привет
+[21:50:03] s0ny123 (~s0ny123@84.40.112.16) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:02:14] <yulimoto_> привет тогава :)
+[22:31:27] s0ny123 (~s0ny123@84.40.112.16) left irc: Quit: leaving
+[22:31:43] s0ny123 (~s0ny123@84.40.112.16) joined #telerikacademy.
+[22:40:10] lari (5f2a1e9c@gateway/web/freenode/ip.95.42.30.156) left irc: Quit: Page closed
+[22:41:36] <yulimoto_> KpeTeHoug: мисля да ти ъпдейтна облачето :) ти какво ще кажеш
+[22:41:57] Nick change: stratoss|away -> stratoss
+[22:50:42] s0ny123 (~s0ny123@84.40.112.16) left irc: Quit: leaving
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:42:58] Nick change: stratoss -> stratoss|away
+[00:00:00] --- Thu Sep  5 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

@@ -1,0 +1,447 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:41:05] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[00:51:49] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:08:38] phalaaxx (~bozhin@94.26.20.166) left irc: Read error: Connection reset by peer
+[01:14:00] silverboy (~silverboy@46.249.82.232) joined #telerikacademy.
+[01:17:16] silverboy (~silverboy@46.249.82.232) left irc: Client Quit
+[01:19:41] wilindex (~willie@91.230.230.251) left irc: Remote host closed the connection
+[01:19:54] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[01:33:06] <phalaaxx> баси в NET1 пак се подпали сървърното...
+[01:58:37] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:32:18] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:05:56] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:51:22] Nick change: ndyakov -> ndyakov|away
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:12:34] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[07:48:50] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:30:36] user99 (John@78.130.186.99) joined #telerikacademy.
+[08:56:14] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 272 seconds
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:23:05] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[09:23:05] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[09:23:34] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[09:23:38] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[09:23:51] Nick change: hackman -> Guest28224
+[09:24:14] Nick change: Guest28224 -> aziliann
+[09:24:18] Nick change: aziliann -> azilian
+[09:24:46] Nick change: azilian -> Guest67443
+[09:25:01] Guest67443 (~hackman@management.1h.com) left irc: Remote host closed the connection
+[09:26:11] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[09:44:41] Jovial (~Jovial@2074707823.shumen.cablebg.net) joined #telerikacademy.
+[09:52:08] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[09:58:18] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:07:48] <KacanuH> Добро утро пиянкиии
+[10:08:46] <yulimoto> Къде ходиш ве Kacan4e ?
+[10:12:52] <anton_dutsov> Добро утро
+[10:15:10] Jovial (~Jovial@2074707823.shumen.cablebg.net) left #telerikacademy ("Leaving").
+[10:16:34] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[10:16:53] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[10:24:04] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[10:24:21] <KpeTeHoug> гутин моргин
+[10:27:07] <KacanuH> yulimoto: няма да ти казвам какво си причиних в събота
+[10:27:37] <yulimoto> e за тва че си си го причинл, що трябва да ни викаш на нас "пиянки"
+[10:27:43] <yulimoto> ;P
+[10:30:26] Nick change: ndyakov|away -> ndyakov
+[10:32:34] <KpeTeHoug> за да си има другари по призвание
+[10:32:35] <KpeTeHoug> :)
+[10:40:17] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:11:44] dencho (~dencho@95.111.14.183) left irc: Remote host closed the connection
+[11:20:13] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:34:52] <hackman> KacanuH, убеден съм, че е по-яко да напиеш жената отколкото ти да се напиеш ;)
+[11:35:02] <hackman> phalaaxx, верно ли се е запалил DC?
+[11:35:25] <phalaaxx> миии... не буквално
+[11:35:30] <phalaaxx> нещо с климатиците май
+[11:35:49] <phalaaxx> и сървърите щракат за да не се подпалят буквално :D
+[11:36:06] <phalaaxx> в IML пишеше нещо за ambient temperature
+[11:38:00] <phalaaxx> ама през ноща май и техния сайт не работеше :D
+[11:41:07] <KpeTeHoug> това за жената и пиенето е вярно
+[11:41:14] <KpeTeHoug> аз затова като излизаме с мойта не пия много :Р
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:02:07] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[12:10:21] <KacanuH> hackman, и аз съм убеден че е по-добре да напиеш друг, вместо да си го причиниш на себе си, цяла сутрин колежките ми се подиграват колко съм бил пребледнял и подут
+[12:12:59] <hackman> KpeTeHoug, да но го има момента, че ти като не пиеш... и тя няма да пие :)
+[12:13:36] <hackman> KacanuH, едва ли те лъжат :) но пък ти можеш да ги помолиш учтиво да ти донесат закуска... чаша студена вода... аспиринче и тн. :)
+[12:18:59] <anton_dutsov> IT КЛАСИФИКАТОР ЗА ЖЕНИ
+[12:18:59] <anton_dutsov> Ако на Мъжете им беше хрумнало, да класифицират Жените по класове,
+[12:18:59] <anton_dutsov> в Информационните Технологии...
+[12:18:59] <anton_dutsov> Класификацията щеше да изглежда така:
+[12:18:59] <anton_dutsov> Internet Жена
+[12:18:59] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Excess Flood
+[12:19:18] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[12:39:32] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[12:57:35] phalaaxx (~bozhin@94.26.20.166) left irc: Remote host closed the connection
+[12:58:29] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:04:59] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[13:12:52] anton_dutsov1 (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[13:13:24] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Read error: Connection reset by peer
+[13:17:39] Nick change: anton_dutsov1 -> anton_dutsov
+[13:49:49] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:14] <Fairytale> Daite savet za nqkakvo ruterche. Za momenta sum izbral TP LINK 841 , obache gledam tova s poveche extri http://jarcomputers.com/l_bg/?m=7&i=541874
+[14:00:16] <wilindex> [ JAR Computers - TP-Link TL-MR3420, поддрържа 3G чрез външен модем на USB порт, 300Mbps Wireless-N Router + 4Port Switch - Безжични мрежови карти ] - jarcomputers.com
+[14:06:57] <KpeTeHoug> Deyan KacanuH a  да каже :)
+[14:07:03] <KpeTeHoug> той е хардуерист
+[14:11:01] <Fairytale> Deyan, tuk li si?
+[14:11:28] <KpeTeHoug> махмурлия е днес
+[14:11:31] <Fairytale> :-)
+[14:11:39] <KpeTeHoug> може да е тук, ма не се знае къде му е душата
+[14:13:14] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) left irc: Quit: Page closed
+[14:13:35] <Fairytale> Чета хубави неща за това рутерче, но ще видим той какво ще каже.
+[14:13:52] <KacanuH> da
+[14:14:02] <KacanuH> малко съм крив иначе съм тук
+[14:14:27] <KacanuH> ТП-линк нямам и не искам да имам
+[14:14:50] <Fairytale> :-)
+[14:15:36] <KacanuH> ама ако си го харесвате кажете да ви уредя цена
+[14:15:36] <Fairytale> Някакво предложение до към 50-60лв с повече екстри?
+[14:16:21] <KacanuH> най-голямата екстра на един рутер е да не се налага до като си в тоалетната да викаш на жената да го рестаритра
+[14:16:29] <Fairytale> :-))
+[14:16:42] <KacanuH> за 50-60 лева това са екстрите които мога да ти предложа
+[14:18:32] <Fairytale> http://www.comelsoft.com/product/17744/linksys-e900-bezzhichen-n-ruter-300-mbps.html#.UpNCRCdqe70 za tozi kakvo ste kajesh?
+[14:18:33] <wilindex> [ Linksys E900 :: Безжичен N рутер, 300 Mbps - Комел Софт Мултимедия ЕООД ] - www.comelsoft.com
+[14:18:49] <KacanuH> работи,
+[14:19:15] <KacanuH> за свой хора не знам дали знаете ама имам едни промоционални е1200
+[14:20:39] <Fairytale> kakva e promociqta?
+[14:22:34] <KacanuH> 43.88 лева с ддс за е1200
+[14:23:14] <KacanuH> разликата е че идва с 1 година гаранция и в бяла (ОЕМ) опаковка
+[14:23:39] <Fairytale> tova e tozi http://www.comelsoft.com/product/17737/linksys-e1200-bezzhichen-n-ruter.html#.UpNCwidqe70 ?
+[14:23:40] <wilindex> [ Linksys E1200 :: Безжичен N рутер - Комел Софт Мултимедия ЕООД ] - www.comelsoft.com
+[14:24:12] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
+[14:26:39] <Fairytale> Ako e tozi da idvam da go vzimam
+[14:26:55] <Fairytale> Bqloto ne me kefi, no ste se prejalq
+[14:28:13] <phalaaxx> ако му наслагаш лепенки ще изглежда яко
+[14:28:36] <phalaaxx> или с четката и боята отгоре :)
+[14:28:42] <Fairytale> Kato na Hackman laptopa :-)
+[14:33:51] <KacanuH> идвай ще ти сложа
+[14:34:32] <Fairytale> Kude e tova?
+[14:35:59] <KacanuH> https://www.comelsoft.com/page/17/kontakti.html
+[14:35:59] <wilindex> [ Комел Софт Мултимедия - Контакти ] - www.comelsoft.com
+[14:36:42] <Fairytale> e mnogo adresi :-) Magazina na Rakovska li ?
+[14:43:00] <hackman> ебаси... вече и антени ли не им слагат на тея рутери
+[14:43:01] <hackman> ужас
+[14:45:02] <Fairytale> За какво ти е антена, само да стърчи.
+[14:46:08] <KacanuH> hackman, за тая цел продаваме и антени на 7бд
+[14:46:15] <KacanuH> 7db де
+[14:47:13] <Fairytale> На мен антена ще ми трябва ли?
+[14:47:15] <KacanuH> Fairytale, принципно аз съм на златоструй, но ако ти е по-удобно на Раковска ще им се обадя да ти го пуснат с отстъпката
+[14:47:40] <KacanuH> не не ти трябва антена, работи си и без антена
+[14:47:47] <Fairytale> Чакай да видя къде е Златоструи
+[14:48:27] <hackman> v moq Env... bez anteni edvam bachkat Wifi devices :)
+[14:48:48] <yulimoto> Fairytale: антената само покачва риска от подслушване !! Ако ще си купуваш рутер с антена отдели средства и за екраниране на помещенията !!!!
+[14:49:03] <yulimoto> :P
+[14:49:25] <hackman> yulimoto, колко пъти да казвам... не вярвайте на средата в която сте :)
+[14:49:34] <hackman> правете си тунели до местата на които вярвате :)
+[14:49:40] <hackman> OpenVPN
+[14:49:48] <hackman> IPsec за по-смелите :)
+[14:50:37] <KacanuH> yulimoto, ти се базикаш но аз съм имал клиент на който целият офис е опакован в оловно фолио
+[14:50:51] <Fairytale> Maleee tova e Botevgradsko shoshe, az si prodadoh kolata i veche ne znam kude kak da otida :-)
+[14:50:53] <KacanuH> правят някакъв хардуер за М$
+[14:51:49] <KacanuH> преди да си купят нещо си поръчваха по една тестова бройка за да я разглобят и да видят какво има вътре
+[14:52:02] <Fairytale> KacanuH, v magazina na Rakovska ako stava napravo se oblicham i trufvam
+[14:52:38] <yulimoto> KacanuH: има 90% шанс да купи, до 30 мин след рекламата, какво решаваш ?
+[14:52:44] <Fairytale> :-)
+[14:53:08] <Fairytale> E vzimam go, ama do Zlatostru bez kola ne znam kak se stiga
+[14:53:10] <yulimoto> има и път 15-20 минути човека !!
+[14:54:01] <Fairytale> A i kolata si prodaoh, ima parichki ... :-)
+[14:54:09] <yulimoto> KacanuH: човека чака да му кажеш, че си се обадил на колегите на Раковасска за отсъпката. Алоооу
+[14:54:52] <KacanuH> 1 мин
+[14:54:59] <Fairytale> ok
+[14:55:12] <Fairytale> okolo chas ste mi trqbva da stigna
+[14:55:26] <KacanuH> отивай
+[14:55:59] <Fairytale> Trugvam, koi da kaza che me prasta?
+[14:56:16] <yulimoto> hackman: да OpenVpn си е доста добър вариант ползване на wifi. Ти кажи в благоевград blueproximity ли ще хакваш ?
+[14:56:22] <Fairytale> Ste e malko grubo da kaja KacanuH
+[14:56:24] <Fairytale> :-)
+[14:56:26] <yulimoto> за ползване*
+[14:56:44] <yulimoto> ама те така го знаят KacanuH i Kacan4o
+[14:57:13] <yulimoto> или им кажи "оня ваш колега дето се е напил кат жиотно в събота" !!
+[14:57:58] <yulimoto> и те ще ти кажат "Отсъпка ли ? Каква отсъпка ? Той май още е пиян!!"
+[14:58:42] <hackman> yulimoto, нищо няма да hack-вам в Благоевград
+[14:59:02] <hackman> това е една от най-сложните задачи... хем да разкажа... хем да НЕ покажа
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:04:54] <Fairytale> KacanuH, gotov sum i trugvam, koi da kaja che me prasta che nqma d aimam net posle?
+[15:05:07] <KacanuH> Деян
+[15:05:27] <Fairytale> ok, kum 16:00 ste stigna
+[15:09:10] Fairytale (Fairytale@77.70.117.169) left irc: Quit: Leaving
+[15:18:01] <yulimoto> hackman: яснооо
+[15:25:18] <phalaaxx> хора знаете ли някой дето може да чипоса PS2?
+[15:26:55] <KacanuH> phalaaxx: тая антика за какво ти е
+[15:27:18] <phalaaxx> не е за мен, един приятел ме пита дали мога да намеря някой
+[15:27:23] <phalaaxx> че не му се занимава да търси
+[15:27:26] <phalaaxx> :D
+[15:27:31] <phalaaxx> (чувствам се прецакан)
+[15:27:53] <phalaaxx> шегувам се, не се чувствам прецакан
+[15:28:14] <phalaaxx> ама за другото не се шегувам - все още се търси някой дето може да направи чип-тунинг на PS2 :))
+[15:33:31] <KpeTeHoug> е то оня ден излезе пс4 :)
+[15:33:38] <KpeTeHoug> да си вземе пс3 :)
+[15:33:43] <KpeTeHoug> трябва да са паднали цените
+[15:36:12] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[15:36:13] Action: dencho slaps yulimoto around a bit with a large trout
+[15:36:15] Action: dencho slaps phalaaxx around a bit with a large trout
+[15:36:17] Action: dencho slaps Deyan around a bit with a large trout
+[15:37:38] <phalaaxx> арее на шамарите :D
+[15:43:22] <KacanuH> dencho, чувствам се пренебрегнат
+[15:43:44] <KacanuH> плющиш ми само домашната машина
+[15:43:46] <yulimoto> dencho: ко стаа ве келеш
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:24:46] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[16:28:30] <fityla> на някой да му се намира 3TB хитачи... от тази серия... HDS723030ALA640
+[16:29:42] <KacanuH> fityla, изгоряла електроника?
+[16:29:55] <fityla> най вероятно криви глави
+[16:35:47] <fityla> май намерих
+[16:35:49] <fityla> в асбис..
+[16:35:54] <fityla> само 262$
+[16:35:55] <fityla> :D
+[16:37:50] <dencho> KacanuH nema qd we, 6te te slapna i tebe :P
+[16:37:56] <dencho> yulimoto u4a sa brat :D
+[16:38:00] Action: dencho slaps KacanuH around a bit with a large trout
+[16:47:04] <phalaaxx> fityla: това пък за кривите глави как го разбра?
+[16:47:44] <fityla> сигурно чукат
+[16:47:45] <fityla> :D
+[16:47:55] <fityla> търся.. диск..
+[16:48:00] <fityla> друг ще му мисли за поправката
+[16:48:01] <fityla> ;)
+[16:48:21] <fityla> или по скоро възстановяването на иформацията..
+[16:48:22] <fityla> ;)
+[16:57:42] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[16:58:34] Deyan (~deyan@46.249.92.240) left irc: Ping timeout: 272 seconds
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:49] <phalaaxx> втори диск ще помогне само ако има проблем в контролера нещо
+[17:01:21] <phalaaxx> и това е евтин вариант - вадиш единия, слагаш другия, включваш го и се молиш да не си направил грешката на живота си :D
+[17:01:33] <phalaaxx> стига да не ти е все тая за данните, но случая май не е такъв
+[17:18:09] <fityla> :D
+[17:18:14] <fityla> не не е..
+[17:18:19] <fityla> само донора..
+[17:18:28] <fityla> в момента през ebay
+[17:18:31] <fityla> 170$
+[17:18:41] <fityla> най добрият вариант
+[17:18:45] <fityla> който го намерих ..
+[17:18:59] <fityla> ама ще дойде сигурно след нова година ..
+[17:19:02] <fityla> около колега...
+[17:19:10] <fityla> доставките много закъсняват
+[17:20:10] <phalaaxx> амааа.... не е ли по-лесно да се даде някъде за диагностика? на някой който има необходимото оборудване?
+[17:20:51] <phalaaxx> щото ако примерно двигателя не върти или върти по-бавно/по-бързо отколкото трябва - ако щеш да изредиш главите на всички дискове дето се продават в ebay - пак няма да тръгне
+[17:21:06] <phalaaxx> или ако firmware-а върху плочите не се чете правилно
+[17:21:55] <phalaaxx> или ако двигателя върти с променлива скорост...
+[17:22:49] <fityla> при специалист е..
+[17:22:49] <fityla> ;)
+[17:22:55] <phalaaxx> това доколкото знам се решава със специални контролери дето може да им се настройват купища параметри по тях за да са в състояние да четат разни работи...
+[17:23:00] <fityla> за това ти казах че няма да се разправям аз..
+[17:23:50] <phalaaxx> амааа... той закачил ли го е диска някъде за да каже че му трябва друг за да смени главите?
+[17:24:31] <phalaaxx> щото съм чувал за много такива специалисти дето искат да им занесеш същия диск и пробват да сменят местата на контролерите и ако стане - стане...
+[17:24:42] <phalaaxx> това и аз съм го правил (за мен) и за щастие стана
+[17:25:31] <fityla> при митко от итема в е
+[17:25:39] <fityla> разбира разбира...
+[17:25:41] <fityla> ;)
+[17:26:00] <phalaaxx> ок, щом му се има доверие
+[17:26:03] <phalaaxx> какво е итема в?
+[17:26:07] <phalaaxx> и кой митко?
+[17:26:38] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[17:26:56] <phalaaxx> аз честно казано нямам никаква идея за човек който може да прави такива неща
+[17:27:29] <fityla> митко е разботи в итема В
+[17:27:31] <phalaaxx> само споделям какво съм чел и доколко ми стигат главоблъсканиците в темата
+[17:27:39] <fityla> итема в възстановяват информация ..
+[17:27:53] <fityla> ясн ясно ...
+[17:27:54] <fityla> ;)
+[17:30:08] <phalaaxx> уу това на 2 етажа под мен бе, чудех се от къде ми е познато...
+[17:30:54] <fityla> е ти на 7ми лия си
+[17:30:55] <fityla> :D
+[17:31:01] <phalaaxx> да
+[17:31:03] <fityla> :Д
+[17:31:08] <phalaaxx> на 7-ми етаж
+[17:31:10] <phalaaxx> те са на 5-ти
+[17:31:13] <fityla> да
+[17:31:18] <fityla> има .. на 3тия
+[17:31:19] <fityla> май едни
+[17:31:21] <fityla> ;)
+[17:31:26] <fityla> ако не се лъжа..
+[17:31:29] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Ping timeout: 245 seconds
+[17:31:36] <phalaaxx> аа не знам
+[17:31:47] <phalaaxx> то толко неща има тук че реших че не ми трябва да ги знам всичките
+[17:32:41] <fityla> :D
+[17:32:49] <fityla> на мен ATM
+[17:32:51] <fityla> центъра
+[17:32:54] <fityla> и изот-а
+[17:32:56] <fityla> са ми еднакви
+[17:32:57] <fityla> :D
+[17:32:58] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[17:35:28] <KacanuH> да в общият случай на Итема може да се разчита
+[17:38:57] <phalaaxx> аз пък научих нещо ново - кой вади информация от счупени дискове :)
+[17:39:12] <fityla> da ne ti se nalaga
+[17:39:14] <phalaaxx> впрочем могат ли да вадят информация която е била презаписана?
+[17:39:18] <fityla> че е доста скъпа операция
+[17:39:35] <fityla> мисля че това е невъзможно
+[17:39:41] <phalaaxx> нямам предвид само изтрити файлове ами записано нещо отгоре върху съответните сектори
+[17:39:46] <fityla> но ако може той ще знае
+[17:40:01] <phalaaxx> че и това е полезно да се знае (ако се наложи)
+[17:41:13] <phalaaxx> амиии недей да го мислиш щото е възможно :) ама ми стана интересно дали могат да го направят
+[17:41:35] <phalaaxx> man wipe
+[17:41:51] <phalaaxx> ако не беше възможно - нямаше да си правят труда хората да пишат такива утилчета
+[17:42:21] <yulimoto> dencho: какво учиш брат :)
+[17:42:23] <phalaaxx> или да правят такива машини: https://www.youtube.com/watch?v=Wp8sFsriH4c
+[17:42:23] <wilindex> [YouTube] Title: HDD shredder | Uploader: Mihai Popa | Uploaded: 05/02/2008, 06:29 | Duration: 1mins 17secs | Views: 21,855 | Comments: 3 | Likes: 60 | Dislikes: 5
+[17:42:44] <yulimoto> dencho: попадна на хора и стана човек ли брат ?
+[17:45:54] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[17:47:12] <Fairytale> Deyane rutercheto e v men i e cherno :-)
+[17:47:53] <Fairytale> Strahotno e, ako i raboti greshka nqma da ima. Blagodarnosti.
+[17:56:22] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[17:56:35] dencho (~dencho@apollo.netissat.bg) left irc: Remote host closed the connection
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:30:09] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[18:33:22] Action: dencho slaps Deyan2 around a bit with a large trout
+[18:33:25] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[18:33:26] Action: dencho slaps yulimoto around a bit with a large trout
+[18:33:28] Action: dencho slaps phalaaxx around a bit with a large trout
+[18:33:34] Nick change: Deyan2 -> Deyan
+[18:34:53] <phalaaxx> dencho нали знаеш че в IRC освен да ни раздаваш шамари може и да си пишеш с нас?
+[18:35:06] <Deyan> Fairytale рутерчето е черно, кутията казах че е бяла
+[18:36:36] <yulimoto> според мен dencho има някакъв скрипт за биене на шамари който работи на високосна година
+[18:40:22] <Fairytale> Deyan, az misleh che rutercheto e bqlo :-) Ste imam da pocherpa
+[18:44:13] fityla (~fityla@84.40.116.146) left irc: Ping timeout: 246 seconds
+[18:44:16] <dencho> ghaha :D
+[18:44:17] <dencho> znam :D
+[18:44:20] <dencho> yulimoto ne :D
+[18:51:00] <phalaaxx> dencho: сигурен ли си?
+[18:51:29] Fairytale (Fairytale@77.70.117.169) left irc: Ping timeout: 245 seconds
+[18:58:29] <phalaaxx> възможно ли е тогава да имаш скрипт който добавя ":D" на края на всеки ред, който не започва със "/me slaps..." ? :P
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:03:43] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:07:06] <dencho> :D
+[19:07:06] <dencho> ne
+[19:07:07] <dencho> :P
+[19:07:37] <phalaaxx> отдъхнах си :)
+[19:07:50] <phalaaxx> аре, вече мога спокойно да си тръгна към нас
+[19:07:52] <phalaaxx> :D
+[19:08:13] <dencho> haha
+[19:08:14] <dencho> aide
+[19:08:14] <dencho> :P
+[19:08:16] <dencho> trugni si :P
+[19:08:41] fityla (~fityla@84.40.116.146) left irc: Ping timeout: 272 seconds
+[19:19:25] <yulimoto> dencho ко стааа ве, шашкаш ли се на новата ралта ?
+[19:19:37] <yulimoto> т.е. на най-новата работа !!
+[19:20:41] <dencho> gahaha
+[19:21:06] <dencho> mi... ne mnogo :P vse o6te ne mi davat klaviatura, ama sam se naduhal sq vtornik srqda da pipna klaviaturata
+[19:21:17] <dencho> i po4vam da 4upa :D
+[19:23:57] <yulimoto> ми те хората дават клавиатура на втората седмица ве, ти като седиш по една седмица, може и да не видиш клавиатура изобщо ;P
+[19:24:11] <dencho> makq.. obu4enieto mi e to4no 1 sedmica :D
+[19:24:19] <dencho> posle... dencho komandva
+[19:25:10] <yulimoto> мани мани, луд с калашник
+[19:25:59] <dencho> aa ne be :D
+[19:26:31] <yulimoto> хайде ставам и аз ю
+[19:27:12] <dencho> haide
+[19:27:14] <dencho> trugvaite si
+[19:27:15] <dencho> :P
+[19:35:33] hackman (~hackman@management.1h.com) left irc: Ping timeout: 246 seconds
+[19:38:29] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:41:03] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:52:04] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[21:00:01] Writing user file...
+[21:00:01] Writing channel file...
+[21:09:33] bentoslack (~Adium@78.130.219.210) joined #telerikacademy.
+[21:23:32] bentoslack (~Adium@78.130.219.210) left irc: Quit: Leaving.
+[21:30:35] <_rewind> Здравейте
+[21:35:06] bentoslack (~Adium@78.130.219.210) joined #telerikacademy.
+[21:39:34] <phalaaxx1> здрасти :)
+[21:46:23] <phalaaxx1> какво му направи на owncloud-a? :D
+[21:50:40] <_rewind> тъкмо му сменям паролата
+[21:51:07] <_rewind> и ще ти дам администраторски права, че чак вчера видях че сте юзъри
+[21:51:14] <_rewind> да разцъкаш
+[21:51:23] <_rewind> някой друг иска ли да тества owncloud
+[21:52:48] <_rewind> хаха :) някой е затрил admin акаунта :D
+[21:53:01] Action: _rewind гледа подозрително phalaaxx
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:14] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Ping timeout: 245 seconds
+[22:03:02] dench0 (~dencho@95.111.14.183) joined #telerikacademy.
+[22:03:13] Fairytale (~Fairytale@77.70.117.169) joined #telerikacademy.
+[22:04:20] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[22:06:43] Nick change: dench0 -> dencho
+[22:15:10] <phalaaxx1> що ме гледаш мен подозрително??
+[22:15:16] <phalaaxx1> аз си цъкам други работи тука...
+[22:18:29] <_rewind> шегувам се естествено.. просто много странно изчезна админ потребителя :)
+[22:21:44] <fityla> не съм и аз..
+[22:21:52] <fityla> даже не съм изпуснал..
+[22:21:56] <fityla> какви ги чупите..
+[22:21:57] <fityla> :D
+[22:22:01] <_rewind> :)
+[22:22:02] <fityla> лека момчета от мен ..
+[22:22:03] <fityla> ;)
+[22:22:12] <_rewind> лека, Джордж
+[22:22:13] <fityla> други ден ще се видим в сряда
+[22:22:18] <_rewind> ще, ще
+[22:22:29] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[22:23:57] <yulimoto> hmm админ потребителя викаш :)
+[22:26:28] <_rewind> да, в базата не съществува такъв поради някаква причина...
+[22:26:38] <_rewind> нас тримата ни има, но не и админ
+[22:27:13] <_rewind> а причината да не работи изгубената парола е, че не е сетъпван мейл, с който да праща за забравена парола
+[22:27:34] <_rewind> по-тъпото е, че и откраднатия от базата token също не помогна за ресет-а :Р
+[22:29:37] <yulimoto> :)
+[22:30:13] <yulimoto> според мен ъплоуда трябва да се качи на поне 30-40MB
+[22:30:39] <_rewind> при мен го бях направил на 1.8 гб
+[22:30:46] <phalaaxx1> ее не прекалявай :)
+[22:30:53] <phalaaxx1> ууу 1.8GB
+[22:30:58] <phalaaxx1> кажи къде е да пробвам нещо :)
+[22:31:06] <_rewind> толкова ми трябваше :)
+[22:31:16] <phalaaxx1> пусни си ftp като ти трябва толкова
+[22:31:32] <_rewind> след малко ще се опитам да направя някой от вас админ user, ама след малко
+[22:31:37] <yulimoto> _rewind ще ми пуснеш ли news reader
+[22:31:59] <phalaaxx1> дайте акъл за имена на раздели за форум
+[22:32:01] <_rewind> да, само phalaaxx phalaaxx1 да ми рутне owncloud-a :D
+[22:32:30] <_rewind> опс, ти за tt-rss ли говориш ?
+[22:32:47] <_rewind> имаш от вчера още - user yulimoto, паролата е същата като за owncloud
+[22:33:43] <yulimoto> не за owncloud
+[22:33:59] <yulimoto> там има плъгин, ама ти като нямаш админ :)
+[22:34:12] <_rewind> phalaaxx1, хубав въпрос, но не мога да се сетя нищо подходящо... защо не откраднеш идея от някъде
+[22:34:19] <_rewind> например hardwarebg.com/forum
+[22:34:47] <_rewind> yulimoto, малко по-късно :) нека phalaaxx1 да се позабавлява с форума и после
+[22:35:51] <yulimoto> а за tt нямам представа как се влиза ;P incorect user or pass
+[22:36:49] <yulimoto> kakto i da е utre ще опитам пак, че ме мързи и аз да слагам щуротии
+[22:38:22] <_rewind> е уж, сетнах същите
+[22:38:32] <_rewind> секунда да проверя пак
+[22:46:11] bentoslack (~Adium@78.130.219.210) left irc: Quit: Leaving.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:05:48] <Fairytale> Аааа Fityla ima profil na HWbg
+[23:06:25] <_rewind> Fairytale, то вероятно всички тук имаме :D
+[23:07:12] <Fairytale> Dano ne sme karali mnogo :-)
+[23:07:31] ddmitov (~knoppix@87.120.214.102) joined #telerikacademy.
+[23:08:17] <_rewind> всъщност сега се сещам, че съм те срещал неведнъж там, ако и там си с този ник :)
+[23:08:43] <Fairytale> Ne sum
+[23:09:09] <_rewind> ок, значи някой те копира на ник със сигурност, но това е нормално съдейки по ника ти :)
+[23:13:49] <Fairytale> Nqma registriran Fairytale tam
+[23:19:00] <_rewind> ок, моя грешка - fairy съм срещал често :)
+[23:25:08] <Fairytale> Veche ima, da ne mi go gepi nqkoi.
+[00:00:00] --- Tue Nov 26 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

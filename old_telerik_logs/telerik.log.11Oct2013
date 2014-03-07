@@ -1,0 +1,475 @@
+[00:00:06] Writing user file...
+[00:00:06] Writing channel file...
+[00:03:04] pgachev (~pgachev@85.187.153.2) left irc: Quit: Leaving
+[00:04:20] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Read error: Connection reset by peer
+[00:04:56] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[00:05:48] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Max SendQ exceeded
+[00:06:17] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[00:06:46] vladisr (kvirc@78.128.12.6) joined #telerikacademy.
+[00:07:07] vladisr (kvirc@78.128.12.6) left irc: Client Quit
+[00:09:56] vladisr (kvirc@78.128.12.6) joined #telerikacademy.
+[00:11:14] vladisr (kvirc@78.128.12.6) left irc: Client Quit
+[00:14:45] vladisr (kvirc@78.128.12.6) joined #telerikacademy.
+[00:16:46] vladisr (kvirc@78.128.12.6) left irc: Client Quit
+[00:44:09] <phalaaxx> ок значи прави копие и на променените файлове :)
+[00:44:19] <phalaaxx> не прави hard link
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:17:13] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:24:28] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:08:09] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:36:40] KpeTeH0ug (~GT@212.36.13.10) left irc: Read error: Connection reset by peer
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:18:39] Nick change: ndyakov -> ndyakov|away
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:38:11] Vankata (~Ivan@77.70.105.191) got netsplit.
+[05:38:12] KpuCko (~kpucko@213.16.42.98) got netsplit.
+[05:38:12] ss (~ss@gateway/tor-sasl/ss) got netsplit.
+[05:38:29] KpuCko (~kpucko@213.16.42.98) returned to #telerikacademy.
+[05:38:34] Vankata (~Ivan@77.70.105.191) returned to #telerikacademy.
+[05:49:00] ss (~ss@gateway/tor-sasl/ss) got lost in the net-split.
+[05:49:08] ss (~ss@gateway/tor-sasl/ss) joined #telerikacademy.
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:28:18] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) got netsplit.
+[06:28:18] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) got netsplit.
+[06:28:42] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) returned to #telerikacademy.
+[06:28:43] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) returned to #telerikacademy.
+[06:28:50] Nick change: ndyakov|away -> ndyakov
+[06:36:30] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[06:43:19] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:01:59] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:27:52] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[08:30:19] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:27:57] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[09:28:32] <KpeTeHoug> добро утро
+[09:31:07] <KrasiGa> Добро да е :)
+[09:31:11] <lyubenblagoev> dobro da e
+[09:32:27] <Vankata> Добро утро :)
+[09:35:28] Vankata (~Ivan@77.70.105.191) left irc: Read error: Connection reset by peer
+[09:39:09] <KrasiGa> lyubenblagoev:  нали ще качиш вчерашната лекция?
+[09:41:54] <yulimoto> lyubenblagoev: със ffmpeg ли конвертираш до mp4, аз нещо се омотах в настройки :)
+[09:42:10] <yulimoto> и май само до avi ги мерджвам
+[09:43:28] <yulimoto> т.е. не се ориентирам къде мога да укажа че искам output файла да е мп4
+[09:43:34] <lyubenblagoev> KrasiGa, да ще ги кача
+[09:44:06] <lyubenblagoev> yulimoto, да ffmpeg.
+[09:44:51] <lyubenblagoev> потърси за ffmpeg convert flv to mp4
+[09:45:23] <yulimoto> :)
+[09:47:04] <lyubenblagoev> в първите резултати е командата и опциите които използвам и аз
+[09:47:44] <lyubenblagoev> ffmpeg -i output.flv -qscale 0 -ar 22050 -vcodec libx264 output.mp4
+[09:48:04] <lyubenblagoev> -qscale май не е нужно но не съм го ресърчвал допълнително
+[09:48:55] <yulimoto> -vcodec и библиотеката ми трябваше :)
+[09:48:58] <yulimoto> 10х
+[09:50:20] <lyubenblagoev> n.p.
+[09:50:43] <lyubenblagoev> хора качена е лекцията от вчера
+[09:51:17] <lyubenblagoev> който иска може да дърпа
+[09:52:57] <lyubenblagoev> снощи не разбрах за подготовката за изпита, лекцията която няма да се стримва можем ли да присъстваме всички които сме записани онлайн
+[09:53:00] <lyubenblagoev> някой разбра ли ?
+[09:53:22] <yulimoto> да, който иска ходи
+[09:53:31] <yulimoto> даже ни покани
+[09:54:17] <KrasiGa> а защо няма да се стриймва?
+[09:54:20] <lyubenblagoev> това нещо го пропуснах
+[09:54:25] <lyubenblagoev> защото не иска да има запис в нета
+[09:54:25] <yulimoto> сега ще кандардисвам dencho да влезе с микрофон, те ББ подслушват пък ММ няма, така ли ?
+[09:54:36] <KrasiGa> защо?
+[09:54:53] <yulimoto> защото не искат да се знаят задачите на изпита в нета
+[09:55:07] <lyubenblagoev> за да не могат хора които не са гледали и следяли лекциите да се подготвят и да дойдат на изпит само с това видео
+[09:55:16] <yulimoto> да
+[09:55:49] <KpeTeHoug> няма да има стрийм, но ще има запис после ?
+[09:55:54] <lyubenblagoev> на мен лично това с присъствието ми е малко проблемно и не знам дали ще мога за съжаление :(
+[09:55:54] <yulimoto> и защото в бъдещи курсове по LSA това също може да е възможно
+[09:56:05] <KpeTeHoug> а въобще без запис
+[09:56:15] <KpeTeHoug> ми денчо ще е там 100 % :)
+[09:56:26] <yulimoto> само трябва да му сложим микрофон
+[09:57:37] <yulimoto> хакман каза и още една причина, за нежеланието му за запис - "няма да я запишем, заради KrasiGa , за да не може да се подготви за изпита !!!" Така каза честна дума :P
+[09:57:49] <KpeTeHoug> и заради KpeTeHoug
+[09:57:51] <KpeTeHoug> знам аз
+[09:57:52] <lyubenblagoev> сигурно ще му е голям кеф на Мариян обаче да троши виртуалки и да гледа сеир после :)
+[09:57:58] <KpeTeHoug> щото ние и да искаме, не можем да додйем :)
+[09:58:21] <yulimoto> може и със собствен лаптоп
+[09:58:51] <yulimoto> ма моя "лаптоп" не подържа виртуализация така, че ...
+[09:59:02] <yulimoto> минавам на служебна телеришка машина
+[09:59:35] <KpeTeHoug> хмм
+[09:59:45] <KpeTeHoug> а ако си сваля 10 готови vdi-ta
+[09:59:59] <KpeTeHoug> с сякакви дистро/демон/апликейшъни :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:12] <yulimoto> цент ос 6.х ще е на изпита, но ще е къстъм
+[10:00:47] <yulimoto> трябва да се владее ip, ifconfig и route перфектно, конфиг файлове може и да няма
+[10:00:49] <KpeTeHoug> оф незнам, май ми се свтрува че ще дойда да се запознаем :)
+[10:01:30] <KpeTeHoug> само да не стане като с Търново Конфа
+[10:01:37] <KpeTeHoug> да съм командирован другаде
+[10:01:45] <yulimoto> вж ся ще мариян е мързелив като всеки админ, ще направи макс 4-5 case-а
+[10:02:25] <yulimoto> така че ще има доста повтарящи се ситуации
+[10:02:56] <yulimoto> от там се прави един канал и yum install irssi
+[10:03:25] <yulimoto> варианти много, но май най-лесния е да се реши проблема като се напъне човек
+[10:04:10] <yulimoto> + това инсталация на мрежа всеки ще направи
+[10:04:28] <yulimoto> + ще има нещо счупено ако се оправи супер
+[10:04:35] <yulimoto> + инсталация на някакъв сървис
+[10:04:54] <yulimoto> + конфигване насрттойки туй онуй
+[10:05:11] <yulimoto> и тва шее за 1 час кво повече
+[10:06:03] <yulimoto> are изчез :)
+[10:07:05] <KpeTeHoug> ми аз route само ме притеснява
+[10:07:15] <KpeTeHoug> че не ми е ясна ама въобще кашата там
+[10:07:22] <KpeTeHoug> иначе другото се търкаля :)
+[10:12:57] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 248 seconds
+[10:19:31] <KrasiGa> yulimoto:  аз няма да ходя на изпит, така че му предай спокойна да си прави запис :)
+[10:45:57] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:58] <Deyan> я разкажете за снощи, че ми излезе неочайкван ангажимент
+[11:04:46] <KrasiGa> na grizzly има качено видео
+[11:04:50] <KrasiGa> дръпни си го
+[11:23:09] <Deyan> ;)
+[11:34:48] <KrasiGa> иначе слушам в момента лекцията. Интро за сигурност
+[11:35:12] <KrasiGa> и обяснява разлика м/у хакер, кракер и "кидиоти" :)
+[11:51:04] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:55:11] <hackman> и на twitch ги има видеата бе :)
+[12:00:01] Writing user file...
+[12:00:01] Writing channel file...
+[12:14:48] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 264 seconds
+[12:16:54] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[12:16:58] Nick change: ndyakov|away -> ndyakov
+[12:39:45] <phalaaxx> hackman: вчера на лекцията каза че при event модела има loop който чака events на съответния дескриптор (примерно в случая порт 80) и ако има някакъв event - тогава се събужда някой child
+[12:40:00] <phalaaxx> при apache2-mpm-event пак ли има child процеси?
+[12:40:23] <hackman> не, threads са
+[12:40:26] <phalaaxx> аз доколкото знам идеята на event сървърите е по-различна и там нормално няма child процеси
+[12:40:33] <hackman> event e надграждане на worker
+[12:41:00] <phalaaxx> да, единствения смислен начин да се избегне ограничението на lighthttpd
+[12:41:55] <phalaaxx> но те в такъв случай така или иначе threads пак въртят цикли, т.е. този модел не е по-лек от гледна точка на празни cpu цикли спрямо останалите
+[12:42:13] <phalaaxx> не че е проблем де, те тия цикли може и на ръка да се въртят :)
+[12:47:40] <phalaaxx> http://www.youtube.com/watch?v=1UU4KIhcIJw :D
+[12:47:40] <wilindex> [YouTube] Title: Кметът на Ямбол ИЗКЪРТИ МАТРИЦАТА | Uploader: nzn4act | Uploaded: 10/10/2013, 17:23 | Duration: 1mins 54secs | Views: 4,437 | Comments: 19 | Likes: 110 | Dislikes: 4
+[12:51:20] <Deyan> уникалнооооооооо
+[12:51:33] <Deyan> това е по-силно от песента за Ямбол
+[12:51:41] <hackman> phalaaxx, не си прав
+[12:52:02] <hackman> циклите които са върху event fd са много по-ефтини от тези върху tcp socket fd
+[12:52:27] <hackman> причината, че при tcp socket fd, когато попиташ kernel-а дали има информация на socket-а той трябва да направи още приблизително 50 операции
+[12:52:46] <hackman> когато го питаш дали има events на event fd, той трябва да провери само една bitmask-а
+[12:52:52] <hackman> което става с 2-3 операции :)
+[12:53:31] <phalaaxx> говорим за кои точно syscalls?
+[12:53:47] <phalaaxx> select/poll?
+[12:54:09] <phalaaxx> тези не се ли използват във всички модели горе долу?
+[12:54:29] <phalaaxx> реално ако имаш blocking read не питаш в цикъл дали има дошли данни
+[12:56:32] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:17:39] <hackman> select/poll имат разлика в зависимост от типа fd
+[13:17:56] <hackman> и разликата не е толкова в userspace, колкото нещата които се случват в kernel-a
+[13:19:31] net: connect! sock 3
+[13:19:31] DNS resolve failed for 127.0.0.1
+[13:19:31] Telnet connection: 127.0.0.1/34278
+[13:19:31] net: connect! sock 10
+[13:19:31] net: eof!(read) socket 10
+[13:19:31] Timeout/EOF ident connection
+[13:19:35] Logged in: KpeTeHoug (telnet@127.0.0.1/34278)
+[13:19:44] tcl: builtin dcc call: *dcc:help KpeTeHoug 8 all
+[13:22:06] tcl: builtin dcc call: *dcc:convertalllogs KpeTeHoug 8 
+[13:22:28] tcl: builtin dcc call: *dcc:makeindexpage KpeTeHoug 8 
+[13:22:35] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 8 
+[13:22:38] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 8 
+[13:22:38] Writing user file...
+[13:22:38] Writing channel file...
+[13:22:38] Rehashing ...
+[13:22:38] Writing channel file...
+[13:22:38] Listening at telnet port 3333 (all).
+[13:22:38]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[13:22:38] UDEF: chanstats defined
+[13:22:38] 14<chanstats> version 1.3.0 by arfer loaded
+[13:22:38] UDEF: seend defined
+[13:22:38] Seend 1.8.3 loaded!
+[13:22:38] UDEF: greetings defined
+[13:22:38] LOADED: Greetings (greetings.tcl v1.0) by fyre
+[13:22:38] MsG (1.0) By GT and yulimoto LOADED.....
+[13:22:38] Loading dccwhois.tcl...
+[13:22:38] Loaded dccwhois.tcl
+[13:22:38] Writing channel file...
+[13:22:38] Userfile loaded, unpacking...
+[13:26:42] ss (~ss@gateway/tor-sasl/ss) left #telerikacademy.
+[13:37:59] tcl: builtin dcc call: *dcc:convertlogs KpeTeHoug 8 
+[13:38:15] tcl: builtin dcc call: *dcc:convertalllogs KpeTeHoug 8 
+[13:42:07] <KpeTeHoug> тоя кмет верно изкърти
+[13:42:08] <KpeTeHoug> !
+[13:45:24] <phalaaxx> то ясно че имат разлики, иначе нямаше да има различни начини да постигнем приблизително същия ефект :)
+[13:46:07] <phalaaxx> мисълта ми беше че разликата между forks/threads и events е предимно в това, че при events заявките от много клиенти се обработват последователно в един процес (и една нишка)
+[13:46:23] <phalaaxx> не толкова в това доколко добре използват syscalls
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:20:53] DCC connection closed (KpeTeHoug!telnet@127.0.0.1)
+[14:47:08] Nick change: ndyakov -> ndyakov|away
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:44:43] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[15:51:46] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[15:56:05] hackman (~hackman@management.1h.com) left irc: Ping timeout: 272 seconds
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:07:20] <phalaaxx> Debian + Vanilla Kernel - Loadable Modules = ?
+[16:07:20] <phalaaxx> някой да е правил нещо такова?
+[16:11:30] <yulimoto> ами ванилата много ли се преправя за да стане дебианска ?
+[16:17:30] <phalaaxx> по принцип не, но задачата не е да стане като дебианското ядро а без модули :)
+[16:23:27] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:37:10] <yulimoto> няма ли да ти тежи тва нещо ?:)
+[16:49:47] Fairytale (1000@police.executie.org) left irc: Remote host closed the connection
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:01:38] <phalaaxx> кое да тежи?
+[17:04:11] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[17:07:09] <Fairytale> След по-малко от час започва мача
+[17:11:21] <dencho> ot kolko i kade 6te se gleda?
+[17:11:39] <Fairytale> БНТ 18:00
+[17:12:04] <Fairytale> Студиото запозва в 7:30
+[17:12:08] <Fairytale> Студиото запозва в 1:30
+[17:12:31] <Fairytale> ..17:30
+[17:15:26] <Fairytale> Някаква идея каква е разликата между двете освен версията 14 и 24  mozilla-firefox-24.0esr-i486-1 --> mozilla-firefox-17.0.8esr-i486-1_slack14.0?
+[17:16:57] <Fairytale> инсталирах ръчно mozilla-firefox-24.0esr-i486-1 и ми дава upgrade към стара версия mozilla-firefox-17.0.8esr-i486-1_slack14.0
+[17:22:02] <dencho> 10x
+[17:24:54] <Fairytale> Студиото по БНТ започна.
+[17:31:39] AZ__ (535423ed@gateway/web/freenode/ip.83.84.35.237) joined #telerikacademy.
+[17:33:56] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[17:34:01] AZ__ (535423ed@gateway/web/freenode/ip.83.84.35.237) left #telerikacademy.
+[17:36:51] <Fairytale> fityla: ти вчера нали беше в залата на LSA?
+[17:37:01] <yulimoto> phalaaxx: на бутването
+[17:37:36] <fityla> да
+[17:37:58] <Fairytale> А как се логваш на IRC?
+[17:38:16] <fityla> ползвам си лаптопа
+[17:38:22] <Fairytale> На мен не ми дава,порта ли трябва да се смени?
+[17:38:24] <fityla> и се логвам с браузера
+[17:38:48] <fityla> през wireless-a
+[17:38:49] <fityla> Ли си
+[17:38:53] <Fairytale> да
+[17:39:14] <fityla> другият път ще пускам да сканимрам
+[17:39:21] <fityla> кой портове са забранени
+[17:39:24] <fityla> не ми работи ..
+[17:39:25] <yulimoto> до колкото знам в залата понякога се ловят две мрежи имайте го предвид :)
+[17:39:31] <fityla> и viber-a
+[17:40:15] <fityla> с windows ли си или линукс
+[17:40:21] <Fairytale> Линукс
+[17:40:27] <fityla> виртуалка ?
+[17:40:31] <Fairytale> Не
+[17:40:38] <fityla> защо на виртуалката
+[17:40:39] <fityla> няма нет
+[17:40:43] <Fairytale> Но и на WIN не става.
+[17:40:49] <fityla> през wireless-a
+[17:40:59] <Fairytale> Не съм с виртулка.
+[17:41:10] <Fairytale> На лаптоп със Slack
+[17:41:35] <fityla> Ползвай http://webchat.freenode.net/
+[17:41:35] <wilindex> [ freenode Web IRC (qwebirc) ] - webchat.freenode.net
+[17:41:56] <Fairytale> Супер.Благодаря ти много.
+[17:44:08] <fityla> hackman е качил
+[17:44:20] <fityla> скрипт .. за сваляне на видеото
+[17:46:58] <Fairytale> Мача започва, айде да ги смажем.
+[17:50:45] <Fairytale> http://tv.bnt.bg/bnt1/
+[17:50:47] <wilindex> [ БНТ1 LIVE ] - tv.bnt.bg
+[17:50:58] <Fairytale> :-)
+[17:51:47] <Fairytale> Яко ни освиркват, но ще плачат накрая.
+[17:52:52] Guest59978 (~deyan@46.249.92.240) joined #telerikacademy.
+[17:54:17] <dencho> deyaneeeei
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:03:46] <dencho> byhahaha
+[18:03:50] <dencho> tuk sadiata e gospoda!
+[18:03:50] <dencho> :D
+[18:07:40] <Fairytale> :-P
+[18:08:17] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) left irc: Ping timeout: 250 seconds
+[18:13:06] <Fairytale> lele
+[18:13:11] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[18:13:35] <Fairytale> Изтръпнах.
+[18:14:05] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[18:26:04] <fityla> hackman на fullHD последният код дето си го сложил..
+[18:26:29] <fityla> извинявай скрипта е нещо .. много криво.. изглежда
+[18:26:29] <hackman> какъв код бе?
+[18:26:42] <fityla> в блога ти
+[18:27:48] <fityla> тоя ред..
+[18:27:48] <fityla> video_urls=( $(curl http://api.justin.tv/api/broadcast/by_archive/${id}.xml?onsite=true
+[18:28:10] <fityla> част от него минава след категориите
+[18:30:03] <fityla> http://img689.imageshack.us/img689/6000/xjsu.png
+[18:30:08] <fityla> ето как се вижда
+[18:30:42] <fityla> mozila, chrome, IE
+[18:33:00] anton_sh (504ee1e3@gateway/web/freenode/ip.80.78.225.227) joined #telerikacademy.
+[18:33:40] <anton_sh> Здравейте колеги, от последната лекция, която имахме в понеделник имаме ли домашно?
+[18:35:13] <fityla> няма качени
+[18:35:19] <fityla> още теми за домашни
+[18:36:01] <anton_sh> тоест няма да е крайният срок днес явно
+[18:36:13] <fityla> да
+[18:36:21] <Fairytale> Еми няма качено домашно.
+[18:36:51] <anton_sh> Нещо напоследък не качват редовно нещата в сайта на телерик
+[18:37:40] <Fairytale> Само не разбрах за Мрежова сигурност външните дали трябва да изпращаме домашно.
+[18:38:43] <fityla> и аз това не разбрах
+[18:39:09] <fityla> те домашните са им за кредити..
+[18:39:45] <Fairytale> Мислех да отвориме по една кола за домашно и да му я докараме.
+[18:40:27] <dencho> Fairytale for fun, moje da pra6ta6 ako iska6 :)
+[18:40:38] <dencho> aide, bulgar4etata se naigraha
+[18:40:54] <Fairytale> Много тежко става.
+[18:42:47] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[18:44:00] <fityla> http://www.youtube.com/watch?v=Um3l47yyCEQ
+[18:44:01] <wilindex> [YouTube] Title: DEFCON 20: Secure Ninja Girls Lockpicking 101 | Uploader: SecureNinjaTV | Uploaded: 24/08/2012, 22:04 | Duration: 6mins 26secs | Views: 7,952 | Comments: 14 | Likes: 30 | Dislikes: 2
+[18:44:11] <dencho> ne e trudno da gi biqt
+[18:44:21] <dencho> aide vesela subota i nedelq
+[18:44:22] <Fairytale> Абе дано.
+[18:44:23] <dencho> do skoro ot mene
+[18:44:23] <dencho> :D
+[18:44:31] <Fairytale> Лека
+[18:44:34] <dencho> otivam na zbor q
+[18:44:34] <dencho> :D
+[18:44:39] dencho (~dencho@95.111.14.183) left irc: 
+[18:45:22] <hackman> fityla, знам за проблема... но тъпата тема няма fix за това
+[18:45:27] <hackman> и ме мръзи да я оправям ;)
+[18:45:33] anton_sh (504ee1e3@gateway/web/freenode/ip.80.78.225.227) left irc: Ping timeout: 250 seconds
+[18:45:47] <fityla> добре.. реших че не си видял ... ;)
+[18:51:18] <Fairytale> hackman: на изпита по LSA може ли да се използва много слаб лаптоп или не е добра идея?
+[18:52:48] <hackman> Fairytale, хич не е добра идея... все пак виртуалка ще трябва да подкарваш
+[18:53:22] <Fairytale> Значи няма да рискувам.Мерси.
+[18:53:57] <hackman> fityla, баш така изглежда lockpickers school :)
+[18:59:12] <Fairytale> http://dx.com/p/aml020127-civil-lock-car-lock-opener-tools-whole-set-green-175053
+[18:59:15] <wilindex> [ AML020127 Civil Lock / Car Lock Opener Tools Whole Set - Green - Free Shipping - DealExtreme ] - dx.com
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:04:52] <Fairytale> А я вижте тук какво става http://dx.com/c/electrical-tools-499/hand-tools-404/lock-picks-and-tools-433
+[19:04:55] <wilindex> [ Buy Cheap Lock Picks Tools Kit Set from China at Dealextreme - DX ] - dx.com
+[19:14:05] <Fairytale> YEEEES
+[19:14:09] <Fairytale> 1:1
+[19:15:14] <fityla> hackman имаш предвид мацките..
+[19:15:26] <fityla> или обстановката
+[19:15:27] <fityla> :D
+[19:15:40] <hackman> обстановката :)
+[19:16:13] <fityla> секурити нинджа съм гледал доста имаха ..
+[19:16:35] <fityla> от тоя уоъркшоп репортажи
+[19:17:19] <fityla> а това ме разбива за криптографията
+[19:17:20] <fityla> http://www.youtube.com/watch?v=2mpOwtz2AaM
+[19:17:20] <wilindex> [YouTube] Title: Secure Ninja Shorts: RSA 2012 Crypto & The Enigma | Uploader: SecureNinjaTV | Uploaded: 14/03/2012, 14:59 | Duration: 3mins 4secs | Views: 415 | Comments: 0 | Likes: 1 | Dislikes: 0
+[19:17:38] <fityla> баси джажата
+[19:21:08] <fityla> http://www.youtube.com/watch?v=mahvRacznho
+[19:21:08] <wilindex> [YouTube] Title: Hacking, Lockpicking and Hungarians @ Hacktivity 2012 | Uploader: SecureNinjaTV | Uploaded: 19/10/2012, 17:13 | Duration: 6mins 33secs | Views: 4,460 | Comments: 6 | Likes: 29 | Dislikes: 0
+[19:25:26] <fityla> този чат
+[19:25:27] <fityla> два бота ли има ..
+[19:25:40] <fityla> wilindex-a e Много яко
+[19:25:41] <fityla> :D
+[19:29:20] <fityla> добре..
+[19:29:22] <fityla> бавят времето
+[19:29:23] <fityla> ;)
+[19:35:08] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:36:30] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
+[19:49:10] <Fairytale> Плаче ми се след този мач.
+[19:50:36] <fityla> случва се..
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:17:52] Nick change: ndyakov|away -> ndyakov
+[20:20:42] <fityla> какво ще кажете за тоя тол.. http://www.ebay.com/itm/Mac-tools-MASTER-LOCK-PICK-SUPER-KIT-LT600PK-Set-/281185701070?pt=Motors_Automotive_Tools&hash=item4177f94cce&vxp=mtr
+[20:20:45] <wilindex> [ Mac Tools Master Lock Pick Super Kit LT600PK Set | eBay ] - www.ebay.com
+[20:22:38] Tiako (1000@235.Red-88-13-102.dynamicIP.rima-tde.net) joined #telerikacademy.
+[20:30:37] <Fairytale> Да не си решил да си купуваш?
+[20:35:00] <Fairytale> Предлагам за домашно да отвориме колата на Наков.
+[20:36:33] <yulimoto> Fairytale: и да я напълним с бетон. Така няма да има никакви повреди, само трябва да махне бетона :P
+[20:36:59] <Fairytale> Е това ще е грубо :-)
+[20:37:05] <Fairytale> хаха
+[20:37:43] <yulimoto> еми все пак е C# евангелист !!
+[20:37:50] <Fairytale> хаха
+[20:38:22] <yulimoto> как свърши мача
+[20:38:28] <Fairytale> Не питай
+[20:38:37] <Fairytale> 1:2
+[20:38:44] <yulimoto> за онез
+[20:38:47] <yulimoto> ясно
+[20:38:48] <Fairytale> Да
+[20:39:02] <Fairytale> Бяхме с 9 човека.
+[20:39:10] <Fairytale> Иначе ги биехме.
+[20:39:30] <yulimoto> еее то баба ако беше мъжка, какво щеше да стане :P
+[20:39:55] <yulimoto> жалко наистина
+[20:40:17] <Fairytale> Еми за мен пресилени червени картони.Дори и с 10 щяхме да бием.
+[20:41:03] <yulimoto> дано постепено да се оправят нещата с футбола
+[20:42:01] <Fairytale> Еми момчетата играят добре, обаче ни липсва голмайстор.
+[20:43:22] <fityla> не съм решил
+[20:43:27] <fityla> да купувам '
+[20:43:38] <fityla> защото не си струва 60$
+[20:44:18] <fityla> да си начеша крастата 1-2 пъти
+[20:44:40] <yulimoto> баси покрай този клип на ямболския кмет сега излизат всякакви ямболски изгъзици
+[20:44:41] <fityla> ако намеря някакъв по евтин кит бих взел
+[20:44:56] <Fairytale> Така е обаче един път ако ти потрябва и си избиваш парите.
+[20:45:15] <fityla> глупости
+[20:45:15] <fityla> :D
+[20:45:23] <Fairytale> На мен за колата ми искаха 80лв да ми я отключат.
+[20:45:32] <fityla> nali trqbva id a se oprajnqvash na neshtp
+[20:45:39] <Fairytale> Отворих си я сам само с тел.
+[20:46:01] <fityla> не се ли прецаква ключалката
+[20:46:19] <Fairytale> АМи не с ключалката.
+[20:46:57] <fityla> другият път .. ако имаме криптография..
+[20:46:58] <fityla> :D
+[20:47:01] <Fairytale> Трябва само да вкараш телта и да дръпнеш заключването.Много е елементарно.
+[20:47:09] <fityla> за домашно съеседният банкомат..
+[20:47:25] <fityla> сигурно е така ..
+[20:47:32] <fityla> ама механизмите са различни на колите
+[20:47:46] <fityla> и някой път не става
+[20:48:20] <Fairytale> Принципа е еднакъв.
+[20:48:44] <fityla> за един хундай ..
+[20:48:46] <fityla> се мъчиха
+[20:49:08] <fityla> от сонатите
+[20:49:20] <fityla> ама май .. проблема беше че се беше прецакала ръчката отвънка..
+[20:49:24] <Fairytale> Еми моята е КИА Магентис
+[20:49:31] <fityla> а от вътре бяха набили ...
+[20:49:34] <fityla> режима за деца
+[20:50:33] <Fairytale> Ема това заключване мисля е само за задните врати.
+[20:51:11] <fityla> да
+[20:51:21] <fityla> другите бяха отворени
+[20:51:25] <fityla> само тая ..
+[20:51:29] <fityla> не можаха с тел
+[20:51:31] <fityla> :D
+[20:52:02] <fityla> но явно тела палчето дига.. и после си я отваряш ..
+[20:52:32] <Fairytale> Това е принципа и не съм виждал кола на която да не става http://www.youtube.com/watch?v=M0v6O-sFl_g
+[20:52:32] <wilindex> [YouTube] Title: Tips on how to safely get into your car if you lock your key | Uploader: assertivecrystalgg45 | Uploaded: 08/06/2007, 10:08 | Duration: 2mins 22secs | Views: 1,025,191 | Comments: 608 | Likes: 436 | Dislikes: 158
+[20:52:49] <Fairytale> Да.
+[20:54:49] <fityla> haha
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:02:33] <fityla> в продавалника
+[21:02:39] <fityla> има за 1200лв.
+[21:02:40] <fityla> http://prodavalnik.com/klyucharski-instrumenti-za-klyuchari-i30618913
+[21:02:40] <wilindex> [ Ключарски инструменти за ключари - 30618913 | Други - Машини, промишлено оборудване ] - prodavalnik.com
+[21:03:48] <Fairytale> В БГ са много скъпи.
+[21:04:36] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[21:05:18] <Fairytale> Този даже доста се е изхвърлил.
+[21:05:46] <fityla> иначе
+[21:05:51] <fityla> за бмв
+[21:05:54] <fityla> 150лв.
+[21:05:55] <fityla> :D
+[21:06:00] <fityla> Почти всички серии
+[21:06:20] <fityla> това изглежда прилично
+[21:06:22] <fityla> http://prodavalnik.com/shpertsove-za-koli-i-klyuchalki-i26516369
+[21:06:22] <wilindex> [ ШПЕРЦОВЕ ЗА КОЛИ И КЛЮЧАЛКИ - 26516369 | Дом и градина - Домашен майстор - Инструменти, оборудване ] - prodavalnik.com
+[21:07:23] <Fairytale> За кратата може да си поръчаш от Dealextreme за няколко $ .
+[21:07:34] <Fairytale> ..крастата..
+[21:22:08] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 248 seconds
+[21:49:26] <fityla> лека вечер
+[21:49:28] <fityla> от мен ..
+[21:49:29] <fityla>  ;)
+[21:49:33] <Fairytale> лека
+[21:49:33] <fityla> отивам да пробвам ...
+[21:49:34] <fityla> :D
+[21:49:40] <Fairytale> хаха
+[21:49:40] <fityla> Шперцовете
+[21:49:51] <fityla> шегувам се
+[21:49:52] <fityla> ;)
+[21:50:01] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) left irc: Quit: Page closed
+[21:50:22] <Fairytale> И от мен лека.
+[21:50:42] Fairytale (1000@police.executie.org) left irc: Quit: Leaving
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:21:01] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[22:27:30] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:35:39] Nick change: ndyakov -> ndyakov|away
+[00:00:00] --- Sat Oct 12 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

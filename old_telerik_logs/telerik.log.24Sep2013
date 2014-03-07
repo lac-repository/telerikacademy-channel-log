@@ -1,0 +1,757 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:03:06] informer (~informer@95.111.9.121) left irc: Quit: dashing
+[00:03:49] <hackman> ебаси... много се уморих
+[00:03:57] <hackman> а уж на удобно си седя на дивана
+[00:03:58] <hackman> :(
+[00:04:06] <yulimoto> hackman: значи в twitch явно разделя нещо файловете, при мен няма разделяне, ако не прекъснеш, защото аз дъмпвам стрийма и го записвам директно в файл
+[00:04:34] <yulimoto> hackman: да личеше ти, че си изморен ама иначе пък не пропусна нищо
+[00:04:34] <hackman> yulimoto, да twitch ги разделя... но тоя моя скрипт ги обединява :)
+[00:04:44] <yulimoto> :)
+[00:05:14] <hackman> yulimoto, пропуснах излагацията от предната лекция където бях направил zone file-а root owned и не се зареждаше :)
+[00:05:29] <yulimoto> аа да permission denied
+[00:05:44] <yulimoto> ама той никой не го видя 5-6 минути
+[00:06:33] <yulimoto> правя една баня аз и лягам :) мъча един smtp сървър, ама ще остане за събота и неделя ...
+[00:08:01] <hackman> :) кво му е на SMTP-то ? :)
+[00:08:18] <hackman> ние в четвъртък ще мъчим DHCP + syslog + crond + logrotate :)
+[00:09:27] <yulimoto> ми уча чета postfix-a обаче като се логвам от вън не мога да пращам имейли, от вътре понеже съм 127.0.0.1 пращам
+[00:09:39] <yulimoto> и не мога да намеря каква опция да сложа
+[00:09:44] <yulimoto> в посфикса
+[00:10:29] <yulimoto> Relay access denied
+[00:11:08] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[00:11:32] <yulimoto> сменях правих спрях sasl-a, но ще видя мисля че другаде бъркам :) не чета като хората :)
+[00:18:57] <hackman> yulimoto, sender_address_verification tursish
+[00:19:16] <hackman> #smtpd_sender_restrictions = permit_mynetworks, permit_sasl_authenticated, check_sender_access hash:/etc/postfix/sender_access, reject_non_fqdn_sender, reject_unknown_sender_domain, reject_unverified_sender
+[00:19:23] <hackman> #smtpd_client_restrictions =  permit_sasl_authenticated, check_client_access hash:/etc/postfix/client_access, permit_mynetworks, reject_unknown_client_hostname
+[00:19:31] <hackman> играеш си с тези двете
+[00:19:38] <hackman> докато го докараш до това което искаш
+[00:19:40] <hackman> и готово :)
+[00:20:01] <hackman> при мен са така:
+[00:20:02] <hackman> smtpd_client_restrictions = reject_rbl_client rbl.fccf.net
+[00:20:02] <hackman> smtpd_sender_restrictions = permit_mynetworks, permit_sasl_authenticated, check_sender_access hash:/etc/postfix/sender_access, reject_non_fqdn_sender, reject_unknown_sender_domain, reject_unverified_sender
+[00:20:10] <hackman> на yuhu
+[00:24:06] <hackman> аз се къпя и сядам да си сготвя нещо за манджане :)
+[00:32:07] <yulimoto> hackman: днес съм си играл 2 само с smtpd_sender_restriction и smtpd_recipient_restrictions , ако излезе това ще скачам до тавана :)
+[00:32:56] <yulimoto> 2 часа*
+[00:33:59] <yulimoto> утре като стана ще погледна структурата на check_sender_access файла, дефакто с него се връзват нещата, поне на теория
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:00:49] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:12:20] nikolacio (~nikolacio@37-143-203-190.sf.ddns.bulsat.com) left irc: Quit: Leaving
+[01:50:00] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 240 seconds
+[01:50:56] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[01:59:12] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:04:36] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[02:26:54] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:07:12] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:39:48] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 264 seconds
+[03:46:38] ndyakov (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:10:06] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:31:15] Nick change: ndyakov -> ndyakov|away
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:18:50] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 240 seconds
+[09:25:17] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[09:25:23] <KpeTeHoug> morgen
+[09:25:30] Action: KpeTeHoug slaps komadrin with a couple of playboy magazines
+[09:25:37] Action: KpeTeHoug slaps hackman around with a cream filled donut...... smack ... smack ... smack .. :)
+[09:25:53] <KpeTeHoug> KrasiGa тебе няма да те бия, да не ми се кара yulimoto
+[09:26:29] <KrasiGa> Добро утро KpeTeHoug :
+[09:26:52] <KrasiGa>  защо ще ти се кара? да не ми е закрилник
+[09:27:05] <KrasiGa> хммм не знаех
+[09:27:41] <KpeTeHoug> не, че не е  с нещо по-тежко :)
+[09:28:30] <KrasiGa> :)
+[09:28:39] <KrasiGa> къде изчезна ти? нямаше те доста време
+[09:29:10] <KpeTeHoug> оф не питай :) големия на училища, рожденник, ремонти в куняхта, смяна на дограма в едната стая
+[09:29:13] <KpeTeHoug> все забавни работи :)
+[09:30:11] <KrasiGa> първокласник ли си имаш?
+[09:32:11] <KpeTeHoug> не, третокласник
+[09:32:15] <KpeTeHoug> ма все си е занимавка
+[09:32:25] <KpeTeHoug> сега драмата е да се прибираме сами  :)
+[09:51:20] <hackman> KpeTeHoug, ти не беше ли от търново ?
+[09:52:02] <hackman> ох... трябва да тръгвам
+[09:52:10] hackman (~hackman@wolf.yuhu.biz) left irc: Quit: Leaving
+[09:52:43] <yulimoto> ей не сте станали и вече сте ме замеси в сутрешната си интрижка :P
+[09:54:56] <yulimoto> замесили*
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:24] <yulimoto> ей, говорите си иначе но с мен мълчите --- гадове ;)
+[10:01:22] <yulimoto> аз тука толкова се нядявах да ми кажете 2-3 мили думи, че съм на път да си оправя smtp сървърчето
+[10:02:56] <KpeTeHoug> горкият той
+[10:03:03] <KpeTeHoug> hackman избега
+[10:03:20] <KpeTeHoug> bira iska sigurno da piem :)
+[10:03:22] <KpeTeHoug> :)
+[10:03:28] <yulimoto> да той щеше да ти казва кога ще е във ВТ
+[10:03:34] <KpeTeHoug> знаех си
+[10:03:38] <yulimoto> ами той май bin я организира тази работа
+[10:03:46] <yulimoto> така че и с него може да се видите
+[10:03:51] <yulimoto> джингибито
+[10:04:01] <KpeTeHoug> верно имаше некфи  тука  интригации
+[10:04:06] <KpeTeHoug> да, джингибито :)
+[10:04:21] <KpeTeHoug> ма тая седмица ли ще е, знаеш ли
+[10:04:26] <yulimoto> той един ден те търси да те пита дали ще ходиш на конфа
+[10:04:54] <yulimoto> един вид имаш персонална покана, обачее ти тогава беше по ремонти и само ника ти тука
+[10:05:21] <KpeTeHoug> ем :)
+[10:05:31] <KpeTeHoug> аз даже чета повечето пъти какво е писано докато ме няма
+[10:05:36] <KpeTeHoug> ма цяла седмица не ми остана време
+[10:05:45] <yulimoto> в блога на крокодила четох за датата ама не помня
+[10:05:59] <yulimoto> чакай
+[10:06:09] <KpeTeHoug> чакам
+[10:06:15] <KpeTeHoug> то и бат Наков май щеше да иде
+[10:06:35] <yulimoto> http://tarnovoconf.com/
+[10:06:36] <wilindex> [ TarnovoConf 2013 ] - tarnovoconf.com
+[10:06:46] <yulimoto> цел отбор юнаци ще се съберат
+[10:07:00] <yulimoto> bin добре че е по-деен та ги е навил
+[10:07:15] <yulimoto> тук в ямбол не мисля че има ора за публика
+[10:07:18] <yulimoto> за
+[10:07:21] <yulimoto> за жалост
+[10:07:37] <yulimoto> нещо ми сече баси ужаса
+[10:08:12] <KpeTeHoug> ми аз даже се очудвам че толкова хора е навил, наистина
+[10:08:14] <KpeTeHoug> ма лошо няма
+[10:08:23] <KpeTeHoug> то ентусиазъм трябва, за да тръгнат нещата
+[10:08:54] <yulimoto> да, ами те не са много всъщност но са все качествени :P
+[10:09:36] <yulimoto> дори 5 лекции за един ден са ОК, ако са интересни. На мен лично след такова преживяване главата ми е плувнала
+[10:10:53] <KpeTeHoug> то добре че е събота :) че инак ще плувам в офисас
+[10:12:10] <KpeTeHoug> бах, с едната организаторка имаме 20 мутуал френдове, пък не я знам
+[10:12:14] <KpeTeHoug> бах маа му
+[10:12:14] <KpeTeHoug> :)
+[10:12:43] <yulimoto> къде ги гледаш бре
+[10:13:51] <KpeTeHoug> у фацебука, имат си група
+[10:13:59] <KpeTeHoug> ма вий нямате таквизи екстри
+[10:14:00] <KpeTeHoug> :)
+[10:15:42] <KpeTeHoug> направи си един профил, не за друго, да може да гледаш линкове и тн
+[10:15:47] <KpeTeHoug> без истинско име, и без снимки
+[10:15:51] <yulimoto> аз имам един фаце ма той е от 2009 сигур тамън за разузнаване
+[10:16:37] <yulimoto> ма паролите тогава бяха други, т.е. имах други дежурни пароли за идиотските си профили
+[10:16:44] <yulimoto> сега ще има научкване
+[10:17:03] <KpeTeHoug> е нищо
+[10:17:25] <KpeTeHoug> важното е да имаш досег с невероятният информационен поток, който носи тази скромна соц. мрежа
+[10:17:26] <KpeTeHoug> :)
+[10:17:28] <KpeTeHoug> и спама за игри ;0
+[10:18:48] <yulimoto> не знам какво наричаш информационен поток, но за мен там има два потока - спам и другия спам
+[10:19:16] <yulimoto> видях я тази ВТ девойка
+[10:22:14] <yulimoto> аре стига клюкарщина изчезвам :)
+[10:23:04] <KpeTeHoug> стига бе, я виж как готяно си хортуваме
+[10:23:05] <KpeTeHoug> :)
+[10:26:48] <KrasiGa> тези конференции ги правят в градовете с универститети ако не се лъжа yulimoto
+[10:27:22] <KrasiGa> и в Благоевград ще идват, но през ноември
+[10:29:20] <KpeTeHoug> ми дано да има влияние
+[10:29:44] <KpeTeHoug> че като знам какво е положението в университетите с така наречените КСТ и Програмиране
+[10:29:48] <KpeTeHoug> нищо лично komadrin
+[10:29:52] <KpeTeHoug> KrasiGa  de
+[10:29:57] <KpeTeHoug> много с К станахме :)
+[10:30:05] <KrasiGa> KpeTeHoug: дай линк във ФБ
+[10:30:13] <KrasiGa> на конференцията
+[10:32:32] <KpeTeHoug> https://www.facebook.com/events/440772186032364/?fref=ts
+[10:32:33] <wilindex> [ TarnovoConf | Facebook ] - www.facebook.com
+[10:38:08] <KpeTeHoug> чай ви пусна една весела песничка, не като на dencho кичеците
+[10:38:09] <KpeTeHoug> http://www.youtube.com/watch?v=yY0OY0LbjeU
+[10:38:09] <wilindex> [YouTube] Title: Mylène Farmer - C'est Une Belle Journée | Uploader: ognumus | Uploaded: 14/08/2006, 11:22 | Duration: 4mins 13secs | Views: 1,278,576 | Comments: 647 | Likes: 1,845 | Dislikes: 48
+[10:38:29] <KpeTeHoug> wilindex ма голяма си клюкарка :P
+[10:42:18] <KrasiGa> KpeTeHoug: благодаря за песента, бях забравила, че харесвам Mylene Farmer :)
+[10:42:33] <KrasiGa> хахах върна ме в студентските години
+[10:42:33] <KpeTeHoug> моля моля :)
+[10:42:41] <KpeTeHoug> то и аз тогава горе долу слушах
+[10:42:48] <KpeTeHoug> ма тая сутрин ми се мерна някъде из фейсбука
+[10:42:52] <KpeTeHoug> и рекох да си пусна нещо
+[10:42:53] <KpeTeHoug> :)
+[10:51:10] <yulimoto> с гордост обявавам, че smtp сървъра ми веке работи !!! остава събота и неделя да си подредя файловете и да намаля log-levelite и съм готов - имам mail server na sheeva plug
+[10:52:02] <KpeTeHoug> браво
+[10:52:03] <yulimoto> тъй като днес се очертава да съм айляк поне още 3-4 часа ще се боря с това bind струва ми се доста оплетено
+[10:52:13] <KpeTeHoug> сега и NSA няма да те следят
+[10:52:56] <yulimoto> те отдавна не могат, ама все пак сега 5 вата ми гори сървъра :)
+[10:53:54] <KpeTeHoug> аа по разхода ще те усетят :0
+[10:54:17] <KpeTeHoug> http://www.youtube.com/watch?v=6AQRBt9ibJ8&list=PL983193A9530A74BE
+[10:54:17] <wilindex> [YouTube] Title: Mylène Farmer - Libertine (Clip Officiel) | Uploader: generationhitmachine | Uploaded: 02/02/2013, 15:57 | Duration: 9mins 21secs | Views: 27,461 | Comments: 4 | Likes: 82 | Dislikes: 4
+[10:54:25] <KpeTeHoug> чай да спамя :)
+[10:54:56] <yulimoto> лошото е че съм в residental ip pool, което означава, че тез имейли дето ги пращам през тоз smtp сървър са напразни, трябва да си търся stmp сървър сега външен, но събота и неделя
+[10:55:24] <yulimoto> моето ip ще го режат повечето email съръвъи
+[10:55:31] <KpeTeHoug> ахъм
+[10:55:43] <KpeTeHoug> щото ти къташ като пчеличка, а някой ака като слон
+[10:55:48] <KpeTeHoug> дето имаше една такава приказка
+[10:56:36] <yulimoto> щото някой от тях си спами като луд и за да се предотвратят такива работи .... аре тез ip-ta изобщо няма да ги отразяваме
+[10:57:14] <KpeTeHoug> ми това е нормално, те ги режат постоянно
+[10:57:16] <yulimoto> но може да се пише там на разни организации да те извадят, ама дълга и широка
+[10:57:29] <KpeTeHoug> и ние по офисите които не са ни в ман мрежата имаме редовно тоя проблем
+[10:57:53] <KpeTeHoug> абе не е толкова дълга самото изваждане, ама трябва да се регнеш като компания, или нещо подобно
+[10:58:05] <KpeTeHoug> после рекуестваш и за 30тина мин си 6
+[10:58:19] <KpeTeHoug> твойто доставчик не дава ли статик риъл ИП
+[10:59:14] <yulimoto> да имам опция да съм зад NAT и да съм риъл, познай кое съм :)
+[10:59:23] <yulimoto> я кажи как се вади
+[10:59:28] <yulimoto> ип-то от тия листи
+[10:59:55] <KpeTeHoug> ми забравих на кой сайт се ходеше
+[10:59:56] <yulimoto> къде рекуествам
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:02] <yulimoto> баракуда ?
+[11:00:02] <KpeTeHoug> http://www.youtube.com/watch?v=wsdy_rct6uo
+[11:00:03] <wilindex> [YouTube] Title: Spin Doctors - Two Princes | Uploader: SpinDoctorsVEVO | Uploaded: 25/10/2009, 08:40 | Duration: 4mins 20secs | Views: 8,441,557 | Comments: 3,577 | Likes: 38,137 | Dislikes: 377
+[11:00:24] <KpeTeHoug> ти като пратиш мейл, не ти ли връща съобщение че е блокнато ИП-то от еди къде си
+[11:01:01] <KpeTeHoug> http://whatismyipaddress.com/blacklist-check
+[11:01:03] <wilindex> [ Blacklist Check ] - whatismyipaddress.com
+[11:01:04] <KpeTeHoug> пробвай тук
+[11:02:36] <yulimoto> да баракуда и спамхаус
+[11:02:50] <yulimoto> обаче има и нещо друго
+[11:03:19] <yulimoto> ако искам да пращам на гмаил трябва да имам reverse ip
+[11:03:41] <KpeTeHoug> http://www.youtube.com/watch?v=oCsbUSk5-O8#
+[11:03:41] <wilindex> [YouTube] Title: Nirvana - MTV Unplugged in NY [Full Show] | Uploader: Incesticide23 | Uploaded: 06/12/2012, 23:26 | Duration: 1hours 6mins 11secs | Views: 473,580 | Comments: 363 | Likes: 1,785 | Dislikes: 16
+[11:04:09] <yulimoto> това което hackman обяснява последния път, И трбява да се моля на доставчика кат циганка да ми адне срещу Ip-to домайна
+[11:04:10] <KpeTeHoug> т.е ?
+[11:04:17] <KpeTeHoug> аха
+[11:04:17] <lyubenblagoev> yulimoto, добавих mp4 файл с пълната лекция, събран от твоите файлове в lectures на grizzly, ако някой го иска: http://grizzly.yuhu.biz/lectures/
+[11:04:17] <wilindex> [ Index of /lectures ] - grizzly.yuhu.biz
+[11:04:37] <KpeTeHoug> ами с някой фрий днс ? няма ли да стане
+[11:04:37] <yulimoto> lyubenblagoev: супер :)
+[11:04:43] <KpeTeHoug> lyubenblagoev цар си
+[11:05:42] <yulimoto> нека моите поседят още 10-тина часа и ще ги изтрия и ще оставя само събраните да си е всичко ясно
+[11:06:00] <lyubenblagoev> е чак пък :)
+[11:06:09] <lyubenblagoev> ама това ме подсети за вица за магарето и лъва :)
+[11:06:22] <KpeTeHoug> :) е нямах точно това предвид :)
+[11:09:01] <lyubenblagoev> странно е какви асоциации прави мозъка понякога :)
+[11:09:10] <lyubenblagoev> с такова подсъзнание...
+[11:09:40] <KpeTeHoug> така е
+[11:09:47] <KpeTeHoug> ние сме обременени от нашето супер Аз
+[11:09:50] <KpeTeHoug> нямаме избор
+[11:09:54] <lyubenblagoev> yulimoto, другите части са си там, просто понеже го направих за себе си реших да го кача и там за другите
+[11:10:08] <KpeTeHoug> последн спам на музика
+[11:10:11] <KpeTeHoug> http://www.youtube.com/watch?v=iHJ88s_O21A#
+[11:10:11] <wilindex> [YouTube] Title: Korn - MTV Unplugged - Full Album | Uploader: Нина климова | Uploaded: 22/04/2013, 00:06 | Duration: 44mins 49secs | Views: 20,813 | Comments: 27 | Likes: 89 | Dislikes: 2
+[11:15:13] <yulimoto> lyubenblagoev: супер ;) той хакман предложи нещо вчера, ама бях изморен :)
+[11:16:16] <KrasiGa> yulimoto:  и сега внимавай да не откраднеш заслугите от lyubenblagoev
+[11:16:18] <lyubenblagoev> прочетох сутринта като станах
+[11:17:38] <yulimoto> KrasiGa: няма няма, що ме коркаш че крада заслуги ти не знам
+[11:18:31] <KpeTeHoug> ма сте ми като петокласници двамата
+[11:18:37] <KpeTeHoug> :) само се джафкате
+[11:22:24] <yulimoto> тя ме хапе бе, а от мен само добро е видяла
+[11:23:04] <KpeTeHoug> ааа, не ме намесвайте, аз си слушам музика
+[11:23:07] <KpeTeHoug> днес ми е айляшко
+[11:24:37] <KrasiGa> не хапя никого :)
+[11:24:53] <KpeTeHoug> нищо не чувам, чорапа си обувам :)
+[11:25:24] <KpeTeHoug> айде отивам да обядвам, ето ви една последно
+[11:25:24] <KpeTeHoug> http://www.youtube.com/watch?v=cyMtlpOrAEs&list=PLC9E323898F47EB99
+[11:25:24] <wilindex> [YouTube] Title: Voodoo People - Hackers OST | Uploader: cruiserVL13 | Uploaded: 16/04/2009, 19:42 | Duration: 4mins 12secs | Views: 69,540 | Comments: 73 | Likes: 191 | Dislikes: 2
+[11:25:40] <KrasiGa> KpeTeHoug:  mnogo rano
+[11:25:50] <KpeTeHoug> минавам да мина за децата обяд, затова :)
+[11:25:56] <KrasiGa> някои хора като yulimoto  сега ще закусват
+[11:25:58] <KrasiGa> :)
+[11:26:20] <KpeTeHoug> вуду пипъл, меджик пипъл
+[11:26:20] <KpeTeHoug> :
+[11:26:24] <KpeTeHoug> :)
+[11:39:57] <yulimoto> да и аз следмалко ще ходя да закусвам, че сутрин трябва да се яде
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:12:39] Nick change: ndyakov|away -> ndyakov
+[12:22:27] KpeTeH0ug (~GT@212.36.13.10) joined #telerikacademy.
+[12:26:18] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 260 seconds
+[12:31:14] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 260 seconds
+[12:42:34] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[12:42:40] <dencho-at-work> yo
+[12:42:41] <dencho-at-work> !
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:14:34] Nick change: KpeTeH0ug -> KpeTeHoug
+[13:14:44] <KpeTeHoug> ти си йо
+[13:15:39] <dencho-at-work> ti si yoyo
+[13:15:55] <dencho-at-work> i sq kvo v turnovo 6a si praiti conf a?
+[13:16:18] <KpeTeHoug> ми аз няма :)
+[13:16:20] <KpeTeHoug> но ще отида
+[13:16:35] <dencho-at-work> mi az nqma da otida, 6tot ne si me pokanil na gosti :D
+[13:17:29] <KpeTeHoug> ми няма грижи
+[13:17:38] <KpeTeHoug> в детската стая има малко м=сто май :)
+[13:17:48] <dencho-at-work> haha
+[13:20:07] <dencho-at-work> tva 4etohte li go? http://www.linux-bg.org/forum/index.php?topic=45267
+[13:20:08] <wilindex> [ GSM == ЗЛО! ] - www.linux-bg.org
+[13:30:40] <yulimoto> ами аз преди бях пуснал "gsm забави с евтин хардуер" на gat3way това май е нещо като продължение в линукс бг
+[13:31:29] <yulimoto> в момента обаче има проблем със сървъра - http://www.gat3way.eu/index.php?mact=News,cntnt01,detail,0&cntnt01articleid=198&cntnt01returnid=15
+[13:31:32] <phalaaxx> таковатаааа.... някой да има идея къде се може да се качи 8-мото домашно?
+[13:31:38] <phalaaxx> пише "Лекцията няма домашно"
+[13:33:19] <yulimoto> .seen hackman
+[13:33:20] <wilindex> yulimoto: I last saw hackman at 2013-09-24 06:58:39 UTC on #telerikacademy, saying ох... трябва да тръгвам
+[13:33:59] <yulimoto> аз още не съм подхванал bind пък ми се чини че ще ям дървото
+[13:34:03] <yulimoto> там
+[13:34:33] <dencho-at-work> yulimoto: 6to we?!
+[13:35:09] <phalaaxx> аз досега писах домашно, това ме затрудни щото не го бях правил досега :)
+[13:35:29] <phalaaxx> ама няма линк за качване на домашното
+[13:35:36] <phalaaxx> чувствам се прецакан :D
+[13:35:51] <dencho-at-work> haha
+[13:35:58] <dencho-at-work> ama samo tva li sa zada4ite?!
+[13:35:59] <dencho-at-work> 3 ?!
+[13:36:10] <phalaaxx> малко ли са?
+[13:37:33] <phalaaxx> http://security.osmocom.org/trac/
+[13:37:34] <wilindex> [ Mobile (in)security ] - security.osmocom.org
+[13:38:38] <dencho-at-work> :]
+[13:48:02] <yulimoto> това верно gsm-тата са мн зле и то не щото технологията е толкова зле ами щото операторите са келеши
+[13:50:10] <yulimoto> dencho-at-work: как що ве ? ти ли ще я правиш, че що ?
+[13:59:50] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:06:50] <phalaaxx> обмисляте ли възможноста да си направим администраторски бал след края на курса :D
+[14:10:38] <phalaaxx> http://gadgetsteria.com/wp-content/uploads/2010/06/circuit-shoes8.jpg
+[14:10:38] <phalaaxx> http://itnovini-bg.com/wp-content/uploads/2012/02/board.jpg
+[14:10:38] <phalaaxx> (модни идеи) :D
+[14:13:52] <yulimoto> phalaaxx: мисля, че никой друг освен теб не обмисля тази идея, камо ли пък да ходи по nerd сайтове и да търси трескаво тоалети и обувки :P
+[14:14:48] <phalaaxx> аз не я обмислям хич, не обичам баловете :D
+[14:15:08] <yulimoto> да разбира, че ти така си ходиш по принцип
+[14:15:11] <yulimoto> :)
+[14:16:46] <yulimoto> KpeTeHoug: прав беше за 30 минути съм аут от всички списъци с изключение на 1
+[14:17:12] <yulimoto> KpeTeHoug: който така или иначе няма как да го изтрия.
+[14:18:06] <yulimoto> phalaaxx: тая работа с реверс ип не ми е много ясна. технологично само isp-то ли може да сложи reverse ip ?
+[14:18:58] <KpeTeHoug> yulimoto браво :)
+[14:20:04] <KpeTeHoug> а мислех да правим админско пиене на бира
+[14:20:23] <KpeTeHoug>  иначе аз от 3 лекции насам, незнам къде съм, правя домашните на магия и стъкмистика
+[14:20:24] <KpeTeHoug> :)
+[14:20:32] <KpeTeHoug> а това не съм го почвал още
+[14:21:28] <phalaaxx> yulimoto: доставчика, от който си взимаш IP-тата трябва да ти сложи reverse запис или твой DNS
+[14:21:37] <phalaaxx> и предполагам че нишката отива нагоре до RIPE
+[14:21:49] <phalaaxx> никога не съм си купувал мрежи от тях, нямам представа :D
+[14:22:03] <KpeTeHoug> е то едно време можеше
+[14:22:12] <KpeTeHoug> си земаш по 1, бяха някви 5-6 доалра на година
+[14:22:17] <KpeTeHoug> ма сега нъцки
+[14:22:34] <phalaaxx> то и сега може ама е доста по-трудна процедурата
+[14:22:48] <KpeTeHoug> май на физически лица ен продават вече
+[14:22:54] <KpeTeHoug> така ми каза някой
+[14:23:27] <yulimoto> phalaaxx: идеята е следната, щото миналата година мрънках на доставчика за реверсе ип, и то не да ми даде да го стопанисвам ами само да го опише. И неще, не отговарят на имейлите изобщо
+[14:24:06] <yulimoto> phalaaxx: та идеята дали ако си направя един dns сървър ще може да се адне reverse ip без реално isp да има участие ?
+[14:24:08] <phalaaxx> мии и аз не знам да може
+[14:24:08] <phalaaxx> трябва да си някаква организация и да си ползвал преди това някакви IP-та - повечко на брой, не от 1 IP да скочиш на C мрежа
+[14:24:24] <yulimoto> аха
+[14:25:11] <phalaaxx> yulimoto: това само доставчика ти може да го направи
+[14:25:24] <phalaaxx> или NS запис към твой DNS или да сменят те записите
+[14:25:26] <yulimoto> логчно погледнато да той е споманин
+[14:25:42] <phalaaxx> или ако имат някаква автоматика за да не си говориш с тях... но едва ли
+[14:26:23] <yulimoto> едва ли, начина е следния слизам долу в парка където пият двама трима админи, говоря с тях пием бира, после пращам имейл за който сме се уговорили предварително
+[14:26:57] <phalaaxx> мда :)
+[14:27:17] <yulimoto> та може и конфигурацията да им направя да не се мъчат
+[14:27:29] <yulimoto> таман ще имам стимул
+[14:30:15] <KpeTeHoug> това с пиенетео на бира с админи работи
+[14:30:24] <KpeTeHoug> така ми бяха оправили и на мен едно време хоста :)
+[14:30:58] <KpeTeHoug> Blonde.tyrnovo.com
+[14:31:07] <KpeTeHoug> :) ма беше едно време
+[14:31:13] <KpeTeHoug> тоя отиде на друго място да бачка
+[14:31:34] <KpeTeHoug> и единия ден ми звъня някъв, вика вашето ИП е засечено на нашия сървър :)
+[14:31:36] <KpeTeHoug> ко прайте
+[14:31:43] <KpeTeHoug> викам нищо, ръчкам си из шела :)
+[14:31:50] <KpeTeHoug> пак той бил на ко-локацията им
+[14:31:54] <KpeTeHoug> спомени спомени :)
+[14:34:38] <yulimoto> еми така е, номера с админите на isp-та е да ги накараш да се чувстват и те като хора !!!
+[14:35:06] <yulimoto> после ще ти дадат всички пароли и ще реват през сълзи от кеф, че и те са живи същества !!!
+[14:35:27] <phalaaxx> ее друго си е да се чувстваш като истински BOFH :)
+[14:36:35] <yulimoto> еее да ама нали вечерта ще свалиш костюма и ще те набарам да пиеш биричка, пък пред биричката всичко ще си кажеш :)
+[14:40:07] <KpeTeHoug> :)
+[14:41:23] <phalaaxx> ее не мое така, трябва да се пази доброто име :)
+[14:41:39] <phalaaxx> http://bofh.ntk.net/BOFH/0000/bastard01.php
+[14:41:40] <wilindex> [ Bastard Operator From Hell Official Archive ] - bofh.ntk.net
+[14:46:06] <nlkl> http://dbareactions.tumblr.com/post/62064609248 : ))))
+[14:46:07] <wilindex> [ DBA Reactions | When I get an email from the monitoring software,... ] - dbareactions.tumblr.com
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:18:02] <dencho-at-work> ora!
+[15:23:24] <KpeTeHoug> какво ореш ?
+[15:25:52] <dencho-at-work> sql language
+[15:34:51] <KpeTeHoug> блях :)
+[15:37:22] <dencho-at-work> i ne6to nare4eno mysql workbench
+[15:38:08] <KpeTeHoug> незнам, нещо ми е празна главата днес, и съм го ударил на музика
+[15:38:13] <KpeTeHoug> и утре е ден
+[15:38:26] <KpeTeHoug> те едно време много ми се смееха  колегите в уни-то
+[15:38:38] <KpeTeHoug> като им викам че не съм учил, щото нямам настроение
+[15:38:55] <KpeTeHoug> пък то няма сми
+[15:39:01] <KpeTeHoug> ако нищо няма да ти влезе в главата
+[15:39:34] Vankata (~Ivan@77.70.105.191) got netsplit.
+[15:39:59] Vankata (~Ivan@77.70.105.191) returned to #telerikacademy.
+[15:42:39] <dencho-at-work> KpeTeHoug: az mnogo rqdko imam nastroenie za u4ene
+[15:48:13] <KpeTeHoug> е аз пък рядко нямам :)
+[15:48:29] <KpeTeHoug> аз съм грийди :)
+[15:51:03] <KrasiGa> KpeTeHoug: значи днес ти е различен ден от ежедневието
+[15:52:07] <dencho-at-work> po to4no ne znam dali 4eteneto na interesna za men informacia e u4ene ! :D
+[15:52:08] <dencho-at-work> haha
+[15:54:49] <KpeTeHoug> естествено че е учене, стига да не е порно :)
+[15:55:08] <KpeTeHoug> KrasiGa да, защото ме нямаше тука известно време, и сега докато вляза в крачка
+[15:55:14] <KpeTeHoug> изпуснал съм ритъма :0
+[15:56:06] <dencho-at-work> nqkoi 4uval li e za ITIL ?
+[15:56:12] <KpeTeHoug> тц
+[15:57:50] <dencho-at-work> :)
+[15:59:17] <dencho-at-work> http://tuj.asenevtsi.com/Alfa09/Index.htm
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:03:14] <dencho-at-work> http://asenevtsi.com/index.php/%D1%81%D0%B0%D0%BC%D0%BE%D1%83%D1%81%D1%8A%D0%B2%D1%8A%D1%80%D1%88%D0%B5%D0%BD%D1%81%D1%82%D0%B2%D0%B0%D0%BD%D0%B5/%D0%BE%D1%82%D0%BA%D0%BB%D1%8E%D1%87%D0%B8-%D0%BF%D0%B0%D0%BC%D0%B5%D1%82%D1%82%D0%B0-%D1%81%D0%B8-%D0%B7%D0%B0%D0%BF%D0%BE%D0%BC%D0%BD%D0%B8-%D0%B2%D1%81%D0%B8%D1%87%D0%BA%D0%BE
+[16:03:15] <wilindex> [ Отключи паметта си. Запомни всичко ] - asenevtsi.com
+[16:05:36] <yulimoto> само като прочета на wilindex индекса и няма смисъл да го отварям
+[16:07:34] <dencho-at-work> e glei go pa toq
+[16:07:36] <dencho-at-work> :D
+[16:07:44] <dencho-at-work> yulimoto: zapomni vsi4ko we!
+[16:09:51] <yulimoto> dencho-at-work: ко? не !
+[16:09:58] <KrasiGa> той явно си може
+[16:10:34] <yulimoto> не не KrasiG4eTo може аз не можем
+[16:11:18] <yulimoto> кво ще правим с bind-a аз мисля довечера да го започвам, че зор ще видя там
+[16:12:10] <KpeTeHoug> мисл ритуално да се прострелям в коляното
+[16:12:15] <KpeTeHoug> само незнам дали това ще помогне
+[16:12:17] <dencho-at-work> a be yulimoto 6to prikazva6 gluposti nali sa 3 conf faila
+[16:12:49] <KpeTeHoug> http://www.youtube.com/watch?v=P9GkF1CLzJU&list=WLq2z3oOIH6FRgzDzkoIoHYrUB_XtIpsBl
+[16:12:49] <wilindex> [YouTube] Title: Техники за бързо четене и ефективно учене | Uploader: TelerikAcademy | Uploaded: 01/08/2013, 10:27 | Duration: 2hours 31mins 42secs | Views: 2,863 | Comments: 0 | Likes: 32 | Dislikes: 1
+[16:13:00] <KpeTeHoug> по добре виж това
+[16:13:24] <KpeTeHoug> отколкото тея бози с - заповмни всичко :)
+[16:13:58] <yulimoto> dencho-at-work: не съм правил преди туй нищо с bind-а не съм го барал не съм чел така че ще ми е трудно
+[16:14:19] <dencho-at-work> yulimoto: are sq da vidi6 na mene lesno li mi e :P~
+[16:14:55] <yulimoto> dencho-at-work: ти си умен рапър бе !!!
+[16:15:38] <KpeTeHoug> абе незнам кой е рапър
+[16:15:44] <KpeTeHoug> ма ми е пълна каша главата
+[16:15:54] <KpeTeHoug> така плодова, на Ганчев
+[16:16:32] <KrasiGa> не се оплаквайте, аз какво да кажа?
+[16:16:51] <dencho-at-work> ne sam rapar we
+[16:16:52] <dencho-at-work> :D
+[16:17:31] <KpeTeHoug> просто е много информация, която иска време за усвояване и отработване, която Мариян е учил с години, а ние трябва да смелим за 3 месеца ;)
+[16:18:44] <dencho-at-work> da
+[16:19:28] <dencho-at-work> az zatova ne tursq sertifikat, poneje sled kursa sus sigurnost pak 6te gi izgledam lekciite
+[16:19:29] <dencho-at-work> :D
+[16:19:44] <yulimoto> да ве
+[16:20:14] <yulimoto> гледането е след като си учил да отидиш да си свериш
+[16:20:19] <dencho-at-work> ob6to vzeto kursa 6te go mine yulimoto 6toto toi e super user, i samo s bind ne se e sre6tal
+[16:20:30] <yulimoto> хахаха
+[16:21:21] <KpeTeHoug> хахахаха
+[16:21:37] <KpeTeHoug> то и аз не съм за сертификата толкоз, колкото за ученето
+[16:22:00] <KpeTeHoug> пак и yulimoto каза че щял да черпи бири на after-party to
+[16:22:46] <yulimoto> dencho-at-work: аз брато не знам дали мога да инсталирам линукс т.е. аз мога ама ako mi дадеш един слак бая ще се озоря на конфигурация + това аз забраявям мн0000 и постоянно съм в мана да търся неща които по принцип трябва да знам
+[16:23:07] <yulimoto> тъй че аз няма да черпя
+[16:23:17] <KrasiGa> аз на изпит няма да ходя ама на афтър партито ще дойда ако ме поканите
+[16:23:48] <yulimoto> ще ме черпите вие; ще дойда и без цигарки и ще ви муфта цигари с бира и коту има на мас'та
+[16:24:18] <KpeTeHoug> KrasiGa аз те каня, за тях незнам
+[16:24:30] <KpeTeHoug> а за цигари има да чакаш - спрях ги преди 4 години :)
+[16:24:43] <yulimoto> хаха какво това афтър парти ве
+[16:24:46] <KpeTeHoug> имате по 1 бира от мен, пък нататък се оправяйте поединично :)
+[16:24:47] <yulimoto> къде ще партито
+[16:25:01] <yulimoto> че чак и афтър парти
+[16:25:03] <KpeTeHoug> е де да знам, в академията там не можа да няма лафка :)
+[16:25:10] <KpeTeHoug> партито ще е на изпита :)(
+[16:25:11] <yulimoto> лафка 1!!!
+[16:25:13] <yulimoto> оле оле
+[16:25:31] <yulimoto> да дойда със въшкарника тогава щом ще има лафка
+[16:25:48] <yulimoto> :)
+[16:25:59] <KpeTeHoug> гавриш се ти, ама твоята бира нещо се стопля ми се струва :)
+[16:26:02] <KrasiGa> кога ще е изпита?
+[16:26:24] <dencho-at-work> az 6a vi 4erpa we... ako si namera rabota
+[16:26:24] <dencho-at-work> :D
+[16:26:58] <KrasiGa> dencho-at-work:  не се ли обадиха от ...
+[16:27:09] <KrasiGa> където ни разказваше, не помня точно
+[16:27:20] <dencho-at-work> tiq superhosting o6te sa bavat :D
+[16:27:29] <KpeTeHoug> Компилация на kernel - част III
+[16:27:30] <KpeTeHoug> Дата: 17.10.2013
+[16:27:41] <KpeTeHoug> това е последната лекция по план
+[16:28:02] <KpeTeHoug> т.е края на ноември, начало на дек.
+[16:28:10] <yulimoto> a ве изпита ще е късна есен така, че не се притеснявайте + това голяма част от материала няма как да влезе на изпита
+[16:28:11] <KpeTeHoug> ориентировачно
+[16:28:18] <KrasiGa> 10 е октомври, какъв край?
+[16:28:37] <KpeTeHoug> краят на месец октомври имам предвид :)
+[16:28:40] <KpeTeHoug> не на годината
+[16:28:45] <KrasiGa> е мен ме няма средата на ноември, ще изпусна афтър партито :(
+[16:28:55] <KrasiGa> аз затова питам :)
+[16:28:58] <KpeTeHoug> ноември де
+[16:29:04] <KpeTeHoug> оф, че съм смотан :)
+[16:29:10] <yulimoto> ее пак ли у италия, спри са вече !!
+[16:29:23] <KrasiGa> този път на друго място
+[16:29:26] <KpeTeHoug> е то средата е последната лекция
+[16:29:32] <KpeTeHoug> сигурно ще има поне 10тина дни преди изпита
+[16:29:57] <KpeTeHoug> ако те няма KrasiGa dencho-at-work ще ти изпие бирата
+[16:29:59] <KpeTeHoug> така да знаеш
+[16:30:02] <dencho-at-work> q kajete koga 6te e toq izpit da sedna da pro4eta ne6to we
+[16:30:39] <yulimoto> + това изпита ще е инсталация на линукс + конфигурация мрежа + инсталация и конфигурация на сървис . поне така мисля така, че ще се оправим
+[16:30:54] <yulimoto> така че трябва да се научи bind
+[16:30:55] <dencho-at-work> tva e OK ako e tak
+[16:30:55] <dencho-at-work> :D
+[16:31:01] <KpeTeHoug> бинд да
+[16:31:11] <dencho-at-work> ama ako 6a trqq da sa praa na koder 6a vikam yulimoto
+[16:31:18] <KpeTeHoug>  и всите други Нетуърк рабти
+[16:31:20] <dencho-at-work> btw... nali 6te si napraim teniski s irc nicknames ?!
+[16:31:20] <yulimoto> не ве
+[16:31:26] <yulimoto> няма да има скрипт
+[16:31:44] <KpeTeHoug> dencho-at-work е аз бях показал тука едни даже
+[16:31:46] <yulimoto> dencho-at-work пак си спал с чорапите
+[16:31:54] <KpeTeHoug> а за KrasiGa потник :)
+[16:32:04] <yulimoto> за какво ѝ е
+[16:32:06] <dencho-at-work> KpeTeHoug: q pak mi gi pokaji na nick dencho |:D
+[16:32:38] <yulimoto> не на dencho, a на dencho-at-work  --- дай да не се лъжем бре
+[16:33:04] <dencho-at-work> dencho @ #telerikacademy
+[16:33:21] <KrasiGa> потник ноември си носете вие - за мен грейка
+[16:33:37] <yulimoto> ако ходиш на юг потник
+[16:33:56] <yulimoto> не потник, потниче !!!! ;P
+[16:33:57] <KrasiGa> аз ще дойда от юг
+[16:34:25] <yulimoto> ейй сега кажи че околосветско ще правиш и ще те замеря с два пакета
+[16:34:36] <dencho-at-work> SYN paketi li we ?
+[16:34:44] <yulimoto> ACK
+[16:34:47] <dencho-at-work> ghaha
+[16:35:11] <KrasiGa> абе Благоевград е на юг от София
+[16:35:26] <dencho-at-work> siguren sam 4e ako pusne6 udp flood, 6te vdigne6 administraciata na krak :D
+[16:35:57] <yulimoto> аз ще ги пусна ама че сложим source денчос-ип
+[16:36:15] <dencho-at-work> sloji :D
+[16:36:41] <dencho-at-work> ako iska6 sloji nasa ip
+[16:36:48] <yulimoto> KrasiGa: значи по потниче инаке не можем те познае, те ноември всички са с грейки
+[16:37:14] <KpeTeHoug> http://portokal.bg/res/orders/medium/front_1380030274.1903.jpg
+[16:37:14] <KrasiGa> ше ме познаете бе, нема по-убава от мен ;)
+[16:37:27] <yulimoto> бум-бум
+[16:37:38] <yulimoto> с чифтеята
+[16:38:02] <yulimoto> олеее денчо същия
+[16:38:07] <yulimoto> само плитките ги нема
+[16:38:12] <dencho-at-work> ama are si gi napraim ednakvi nali?
+[16:38:14] <yulimoto> и лаптопа
+[16:38:37] <dencho-at-work> toz po qk ot mene
+[16:38:37] <yulimoto> ама той е у приятелката му
+[16:38:50] <dencho-at-work> az sam veika
+[16:38:51] <yulimoto> оф трябва да ходя да бягам
+[16:39:18] <KrasiGa> правиш кросче или така се изразяваш, че тръгваш?
+[16:39:27] <KrasiGa> цигарите не ти ли пречат?
+[16:39:29] <yulimoto> днес правих нищо и взех да се потискам
+[16:39:48] <yulimoto> бягам в един парк
+[16:40:05] <yulimoto> утре трябва да отметна малко работа
+[16:40:47] <KrasiGa> цигари и бягане?
+[16:41:16] <yulimoto> да и последния месец нямам бягане под 8 км
+[16:41:36] <yulimoto> но пиша само като пия
+[16:41:40] <yulimoto> пуша*
+[16:41:45] <yulimoto> пия вечер
+[16:41:52] <yulimoto> понякога
+[16:42:37] <yulimoto> поне днес разбрах за smtp някои тънкости
+[16:42:51] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:42:55] <phalaaxx> като например?
+[16:45:08] <yulimoto> като например как да настоя smtd_recipient и там сгрях малко различните опции в postfixa и   sasl да ползва локалния имап сървър, а не да мисля отделни пароли за smtp
+[16:46:06] <yulimoto> долу горе сгрях и как да позлвам чужд smtp от моя сървър
+[16:47:28] <yulimoto> t.e. не знам дали това са някакви тънкости или просто най-обикновени очевидности, ама поне да имам някакъв поглед върху нещата
+[16:48:45] <yulimoto> от цялата работа остана само да има reverse ip, което ме навежда на мисълта, че е по-добре да търся сигурен smtp сървър който да ползвам
+[16:48:48] <phalaaxx> миии то са си неща важни за пускане на mail услуга
+[16:49:07] <phalaaxx> smarthost?
+[16:49:24] <yulimoto> да на това му викат смартхост
+[16:49:55] <phalaaxx> не е ли по-лесно все пак да се пребориш с доставчика си?
+[16:51:54] <yulimoto> не знам, да ползвам чужд smtp сървър не ми изгледжа толкова трудно
+[16:52:21] <phalaaxx> то не е трудно но не е ли по-добре ако имаш повече контрол върху цялата картинка?
+[16:52:34] <yulimoto> мдаа така е
+[16:53:11] <yulimoto> чудя се, най-добре е да подхвана някой админ да говоря
+[16:55:22] <yulimoto> phalaaxx: правят ли се някакви специални настройки на външния smtp сървър kojto ще ползвам
+[16:55:37] <yulimoto> аааа това ще го прочета
+[16:55:43] <yulimoto> я по-добре да ме насочиш
+[16:56:21] <phalaaxx> не знам, едва ли мога да помогна много в случая :)
+[16:56:24] <yulimoto> ако искам да ползвам втори майл сървър ако едния падне, какво долу горе се прави
+[16:56:44] <phalaaxx> аз си ползвам postfix, направил съм си една конфигурация и си я копирам навсякъде където ми трябва
+[16:57:10] <dencho-at-work> mi osven da ni q spodeli6 da q kopirame i nie
+[16:57:11] <dencho-at-work> :"D
+[16:57:46] <yulimoto> гледам, че някакви хора ползват примерно мейл сървър на приятел като secondary , ako неговия падне да отиват при приятеля
+[16:58:32] <phalaaxx> по принцип може, идеята е че втория сървър е само опашка и прави някои по-основни проверки
+[16:58:57] <phalaaxx> примерно може да имаш конфигурация с 3 сървъра
+[16:58:57] <yulimoto> dencho-at-work: няма да ти свърши работа гарантирам, аз съм правил mysql postfix преди 1 година и сега все едно съм в в началото
+[16:58:57] <phalaaxx> един от който си четеш пощата и 2 опашки през които влиза и излиза пощата
+[16:59:09] <yulimoto> аха
+[16:59:45] <phalaaxx> на 2-те опашки им слагаш по-тежките проверки - graylist, spam, антивирусни разни и т.н.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:23] <phalaaxx> ако ти падне кой да е от mx сървърите - писмата все ще има къде да почакат известно време за да си стигнат до получателя
+[17:01:41] <phalaaxx> но е хубаво ако правиш повече от един сървър да знаеш какво правиш наистина, защото съм виждал интересни ситуации преди време със спам
+[17:01:54] <yulimoto> postgray ползвал ли си ?
+[17:02:19] <phalaaxx> в някои случаи разни спамърски програми предпочитат втория сървър с идеята че на него се обръща по-малко внимание и спама по-лесно минава от там
+[17:02:35] <phalaaxx> да, май навсякъде ползвам но с настройки по подразбиране
+[17:03:12] <yulimoto> аха аз бях правил с postgray amavis
+[17:03:28] <yulimoto> но тук се чудя какво да слагам ---- arm 1.2 gh
+[17:03:50] <yulimoto> мисля че само postgray e достатъчен
+[17:06:32] <yulimoto> а за някакъв бекъп ще чета и ще видя там за vps така или иначе ще ми трябва
+[17:06:34] <phalaaxx> ако правиш гореописаната картинка с 3 сървъра от които 2 се виждат към Интернет, достатъчно е само на тях да имаш postgrey
+[17:07:05] <phalaaxx> backup за vps... това не знам как се прави :)
+[17:07:19] <phalaaxx> аз лично си го представям със снапшоти във файловата система и виртуализацията
+[17:07:38] <phalaaxx> обаче не знам какви са best practices в този случай
+[17:07:58] <phalaaxx> иначе съм фен на bacula :)
+[17:08:14] <phalaaxx> това чудо може много пари и нерви да спести
+[17:09:22] <yulimoto> аз не се изразих правилно
+[17:11:00] <phalaaxx> ааа за mx backup?
+[17:11:01] <phalaaxx> :)
+[17:11:11] <yulimoto> има група от сайтове които в момента са на хостове и мисля да ги сложа на vps,тъй като вече преместих персоналния си мейл на sheeva plug
+[17:11:31] <yulimoto> ще сложа и нa vps-a мейл сървър
+[17:11:44] <yulimoto> когато шивата не е на линия по някаква причина
+[17:11:50] <yulimoto> vps ще поема писмата
+[17:12:27] <yulimoto> просто в dns-а ще опиша vps-а и ще го настроя да взема писмата когато шивата не онлайн
+[17:14:02] <yulimoto> нали има такава опция в postfix primary MX и secondary MX ?
+[17:15:15] <phalaaxx> има, казваш му само писмата за кой домейн към кой майл сървър да ходя но не ме питай за конкретната настройка, не я знам на изуст :)
+[17:16:18] <yulimoto> не те питам, щото не си правиш илюзии, че си толкоз ... че да знаеш наизуст такива настройки
+[17:16:27] <yulimoto> не си правя*
+[17:16:27] <phalaaxx> аа било лесно май
+[17:16:27] <phalaaxx> описваш relay_domains и в transport_maps слагаш кой домейн към кой сървър да ходи (по IP)
+[17:17:07] <yulimoto> http://www.postfix.org/STANDARD_CONFIGURATION_README.html#backup
+[17:17:08] <wilindex> [ Postfix Standard Configuration Examples ] - www.postfix.org
+[17:17:30] <phalaaxx> примерно: transport_maps = hash:/etc/postfix/transport-maps
+[17:17:31] <phalaaxx> и в transport-maps файла слагаш: domain_name.tld  smtp:1.2.3.4
+[17:18:20] <yulimoto> да и не зарбравям да го postmap-на че ... ми се случи да се чудя какво става
+[17:18:47] <phalaaxx> да :)
+[17:19:11] <phalaaxx> хм relay_recipient_maps, това пък е нещо друго интересно
+[17:23:13] <yulimoto> нещо не му хващам смисъла
+[17:25:18] <yulimoto> аха долу горе го разбрах сега
+[17:25:50] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[17:27:20] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[17:48:57] <dencho-at-work> do skoro :D
+[17:49:01] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:58:55] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:35:59] <dencho> Deyaneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeei
+[18:45:59] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:17:46] <dencho> pi4ove
+[19:17:50] <dencho> koi sa интернет-протоколите ?!
+[19:41:57] <Deyan> dencho
+[19:42:08] <Deyan> за кой слой питаш?
+[19:42:08] <dencho> dencho
+[19:42:14] <dencho> mi are de...
+[19:42:14] <dencho> :P
+[19:42:29] <dencho> * TCP/IP networking, познаване на интернет-протоколите
+[19:42:32] <dencho> http://www.jobs.bg/f1966380
+[19:42:33] <wilindex> [ jobs.bg - Предложения за работа от водещи компании в България - Системен администратор ] - www.jobs.bg
+[19:42:37] <dencho> za koi sloi pitat :P
+[19:43:39] <Deyan> Transport layer ака layer 4
+[19:44:24] <dencho> i koi sa protokolite we Deyane we
+[19:44:25] <Deyan> поне аз за него си мисля че питат, ама според мен и те нямат идея какво питат, все пак нали се сещаш че това го пише някоя мома, за която интернет е скайп и сураттефтер
+[19:44:32] <dencho> hahahaha
+[19:44:39] <dencho> e da
+[19:44:42] <dencho> za tva te pitam :P
+[19:45:41] <Deyan> http://en.wikipedia.org/wiki/Transport_layer
+[19:45:42] <wilindex> [ Transport layer - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[19:46:44] <dencho> dobre.. znam gi tiq
+[19:46:44] <dencho> :D
+[19:46:57] <Deyan> https://fbcdn-sphotos-g-a.akamaihd.net/hphotos-ak-prn2/1240281_173271556192126_2031248447_n.jpg
+[19:48:33] <Deyan> по същата логика можеш да питаш и защо * Debian GNU/Linux, OpenOffice/NeoOffice са в една графа и отговора пак ще ми същият
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:14:58] <dencho> tva neooffice za pruv put go 4uam
+[20:23:21] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[20:38:44] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[20:58:21] <ndyakov> абе, я предложете добри vps-и в българия
+[20:58:23] <ndyakov> на прилични цени
+[20:58:57] <ndyakov> че с digitalocean от тук имам към 10-11 mbps bandwidth само
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:04:46] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 245 seconds
+[21:17:55] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[21:19:23] <dencho> bali go, vij v po-golemite hosting kompaniiki
+[21:19:42] <dencho> host.bg, icn.bg, superhosting.bg
+[21:19:53] <ndyakov> dencho: гледам да са и на прилични цени, тук доста завишават.
+[21:24:20] <yulimoto> ndyakov: връзката към бг ли е така (10-12 mbps) или по принцип ?
+[21:27:14] <ndyakov> само към bg съм тествал
+[21:27:21] <ndyakov> реално нямам от къде май да тествам иначе
+[21:27:27] <ndyakov> а имам...
+[21:27:29] <ndyakov> от германия
+[21:27:29] <ndyakov> ;D
+[21:27:42] <ndyakov> но трябва да занимавам някого...
+[21:30:31] <yulimoto> ясно :)
+[21:31:02] <ndyakov> ей сега ще пусна един serverbear бенчмарк
+[21:31:25] <ndyakov> ама може да отнеме няколко часа де ;)
+[21:34:25] <yulimoto> uhuuu
+[21:51:48] <phalaaxx1> .seen hackman
+[21:51:48] <wilindex> phalaaxx1: I last saw hackman at 2013-09-24 06:58:39 UTC on #telerikacademy, saying ох... трябва да тръгвам
+[21:51:56] <phalaaxx1> още го няма
+[21:52:38] <phalaaxx1> пфууу да не се прецаках нещо с домашното че го писах :D
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:50] <yulimoto> phalaaxx1: няма как да се прeцакаш, ако не го отворят другата седмица пак щее то :)
+[22:28:20] <dencho> phalaaxx1 mnogo qsno e 4e si se precakal :P
+[22:28:22] <dencho> haha
+[22:28:26] <dencho> leka vi no6t ora!
+[22:28:26] <dencho> :D
+[22:28:33] <phalaaxx1> ее бива ли така
+[22:28:56] <phalaaxx1> казваш ми че съм се прецакал и бягаш без да дадеш обяснение
+[22:29:11] <phalaaxx1> имай милост, как очакваш да спя тази нощ след твоята постъпка?
+[22:29:13] <phalaaxx1> :D
+[22:30:22] <dencho> kvo!
+[22:30:23] <dencho> This is the mail system at host zimbra-new.sofia.sparkygroup.com.
+[22:30:23] <dencho> I'm sorry to have to inform you that your message could not
+[22:30:23] <dencho> be delivered to one or more recipients. It's attached below.
+[22:30:23] <dencho> For further assistance, please send mail to postmaster.
+[22:30:23] <dencho> If you do so, please include this problem report. You can
+[22:30:23] <dencho> delete your own text from the attached returned message.
+[22:30:23] <dencho> The mail system
+[22:30:24] <dencho> <jobs@sofia.sparkygroup.com>: sofia.sparkygroup.com
+[22:30:25] <dencho> ?!
+[22:30:29] <dencho> ebasi orata...
+[22:30:43] <dencho> ostavili mail, koito iska da kandidatstva, a toi s4upen :D
+[22:31:11] <dencho> zimbri4kata
+[22:34:32] <phalaaxx1> ми затова търсят админ, логично :D
+[22:35:20] <yulimoto> dencho: тия си заслужават
+[22:35:32] <yulimoto> отивай направо в офиса и чукай на вратата
+[22:36:41] <yulimoto> плана е да бачкаш до към 2+ години там и после да откриеш outsource пак към тях
+[22:36:42] <dencho> utre 6a gi svetna :D
+[22:36:48] <dencho> haha
+[22:37:07] <dencho> neska videh obqva za admin sus startova zaplatka 3 ilqdi lea
+[22:37:13] <dencho> ama sam mnogo malak za tam
+[22:37:14] <dencho> D
+[22:37:14] <dencho> :D
+[22:37:17] <yulimoto> да ве те ще са ти първата рибка в аквариума с големите рибки
+[22:37:35] <yulimoto> къде ве, как ще си малък
+[22:37:38] <dencho> http://www.jobs.bg/f1965819
+[22:37:38] <wilindex> [ jobs.bg - Предложения за работа от водещи компании в България - Системен администратор ] - www.jobs.bg
+[22:37:45] <dencho> are koito ima staja da hodi tam
+[22:37:52] <phalaaxx1> това може да е някъв готин начин да си търсят хора, виждал съм една много идейна обява за програмисти дето декодирането и беше сложна задача за някакъв език :D
+[22:38:26] <dencho> Experience with MySQL - 3 dni ve4e... :D
+[22:38:27] <dencho> haha
+[22:39:05] <yulimoto> хаха dencho ходи се забъркай с някакъв проект иначе не става ученето
+[22:39:25] <yulimoto> увеличение до 5500
+[22:39:28] <yulimoto> добре ве
+[22:39:38] <dencho> tva e dobra obqva i izglejda, 4e ako se zahvana s to4kite za 2 godini 6a gi nau4a ne6tata
+[22:39:43] <dencho> lekar s noj :D
+[22:39:50] <yulimoto> аре
+[22:40:06] <yulimoto> ми добре изглежда, ама изгледа и да знаят какво търсят
+[22:40:17] <yulimoto> не като онез интернет протоколи
+[22:40:50] <phalaaxx1> аа ICD ги знам
+[22:41:02] <yulimoto> имаше едни които търсеха flash девелопър на игри, "и да знае разните там патерни, а не да рови в гугъл"
+[22:41:04] <phalaaxx1> странно кой ли е напуснал пък при тях :|
+[22:41:21] <yulimoto> може да е починал някой
+[22:41:43] <phalaaxx1> един бивш мой шеф отиде да работи там :)
+[22:41:44] <yulimoto> с такава заплата 5500 само гроб ще ги раздели някои админи
+[22:41:59] <phalaaxx1> а аз съм се пробвал за програмист при тях
+[22:42:12] <yulimoto> програмист на какво ?
+[22:42:13] <phalaaxx1> и казаха че ми харесват админските познания ама не и тия на програмист :D
+[22:42:18] <phalaaxx1> perl
+[22:42:22] <yulimoto> стига ве
+[22:42:27] <yulimoto> и перл ли знаеш
+[22:42:47] <yulimoto> аз на перл му знам само името
+[22:43:06] <phalaaxx1> ми и това съм го работил
+[22:43:11] <phalaaxx1> програмист на perl
+[22:43:19] <phalaaxx1> изобщо не ме кефи тоя език
+[22:43:23] <yulimoto> браво
+[22:43:28] <phalaaxx1> беше ми любим преди, ама това беше преди :D
+[22:43:40] <yulimoto> не знам на мен ми изглежда старо куче
+[22:43:52] <yulimoto> не знам нищо за него дори дали е ооп
+[22:44:05] <yulimoto> т.е. дали е станал ооп
+[22:44:07] <phalaaxx1> http://sourceforge.net/projects/pwebsat/
+[22:44:08] <phalaaxx1> :D
+[22:44:09] <wilindex> [ WebSat | Free software downloads at SourceForge.net ] - sourceforge.net
+[22:44:47] <phalaaxx1> ооп не е толкова възможност на езика колкото стил на програмиране
+[22:45:03] <phalaaxx1> реално и на асемблер можеш да пишеш обектни програми
+[22:45:12] <yulimoto> мммм .... ще замълча но да
+[22:45:35] <yulimoto> това уеб сървър ли е ?
+[22:45:39] <phalaaxx1> трябва ти само да пишеш на език който може да групира типове данни в структури
+[22:45:56] <phalaaxx1> да, една тъпотия с която се учих как работи http
+[22:45:58] <yulimoto> да, за това съм съгласен
+[22:46:14] <yulimoto> а бе то точно така се учи
+[22:46:46] <yulimoto> аз със air бях писал фтп client и тогава ща не ща разбрах какво е протокол :)
+[22:47:21] <yulimoto> и кога връща 200 и кога ftp-то отваря data connection
+[22:47:52] <yulimoto> но сървърната част винаги ми е била много мъгла
+[22:50:24] <yulimoto> но при мен нещата са били  fron-end де, общо взето да уйдисваш на дизайнерите
+[22:51:54] <yulimoto> какво не те кефи на перл ?
+[22:54:34] Action: yulimoto ask phalaaxx1 
+[22:56:38] <yulimoto> aaaaaa лягам, че утре да стана рано, то така разговор не се води :)
+[22:56:44] <yulimoto> хайде лека
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:03:22] <phalaaxx1> амиии... perl = write only language :D
+[23:52:26] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 252 seconds
+[23:53:00] <ndyakov> phalaaxx1: защо така ?
+[23:53:10] <ndyakov> аз си харесвам perl за четене... само когато аз съм го писал разбира се ;)
+[23:55:14] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[00:00:00] --- Wed Sep 25 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

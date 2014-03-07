@@ -1,0 +1,242 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:10] <Fairytale> Minavam malko na WIN da testvam videoto
+[00:00:32] Fairytale (~fairytale@77.70.117.169) left irc: Remote host closed the connection
+[00:00:41] <rew1nd1> че какво му е на Linux за тест на видеото :D
+[00:02:39] Fairytale (~Svetlyo@77.70.117.169) joined #telerikacademy.
+[00:03:32] <rew1nd1> не знам с каква дистрибуция си, но под Linux можеш да пробваш видеото както със Steam, така и с купища бенчмаркове
+[00:04:33] <rew1nd1> https://unigine.com/products/unigine/ това е доста натоварващо съвременните видеоускорители
+[00:04:34] <wilindex> [ UNIGINE Engine | Unigine: real-time 3D engine (game, simulation, visualization and VR) ] - unigine.com
+[00:06:29] <Fairytale> Slackware obache vav igrite pada proizvoditelnostta
+[00:06:48] <Fairytale> Nemi mislq che za Linux ima tolkova dobri drivers
+[00:08:36] <rew1nd1> Valve не мислят точно така: http://blogs.valvesoftware.com/linux/faster-zombies/
+[00:08:38] <wilindex> [ Faster Zombies! | Valve ] - blogs.valvesoftware.com
+[00:09:33] <Fairytale> Ste se testva :-)
+[00:12:12] <rew1nd1> аз специално подготвих още трима покрай мен с L4D2 още докато беше бета под Linux, но така и не съм имал време да седна да поиграя кой знае колко
+[00:16:47] <hackman> rew1nd1, ти steam-а под каква дистро си си го подкарал ?
+[00:17:32] <hackman> аз само съм чувал за тая игра
+[00:17:38] <hackman> разправят, че била много яка
+[00:17:46] <hackman> трябва ли ми server или нещо?
+[00:18:03] <hackman> мисля в петък като се съберем колегите да поиграем някакви такива глупости в офиса :)
+[00:19:20] <rew1nd1> играта е номер едно :) голямо шоу пада, щото докато един от четиримата го дъвчат зомбитата, другите трима трябва да го спасяват и се е случвало...
+[00:19:53] <rew1nd1> ... един в стаята на импровизираното лан парти да крещи "Аре елате ме измъкнете вееее..." и общо взето е забавно :)
+[00:20:02] <rew1nd1> само на Ubuntu базирани за сега
+[00:20:24] <rew1nd1> сървър не е необходим, има някакви public, на които се играе кадърно
+[00:20:35] <rew1nd1> общо взето играете четирима заедно в дадено ниво
+[00:21:32] <rew1nd1> имах някакви надежди, че ще може да се подкара и на RHEL/CentOS, но от повече от 6 месеца няма никакво движение там заради по-старата версия на glibc
+[00:23:03] Nick change: ndyakov|away -> ndyakov
+[00:27:49] <rew1nd1> hackman, даже вече съм започнал да лъжа, тъй като не съм имал време да си проверя фактите, вече има стийм и за моята http://negativo17.org/steam-is-now-in-rpmfusion/
+[00:27:50] <wilindex> [ Steam is now in RPMFusion! | negativo17 ] - negativo17.org
+[00:31:14] <hackman> :) е аз имам и Debian и Fedora :)
+[00:31:23] <hackman> просто се чудех на кое да го търся :)
+[00:31:54] <rew1nd1> ти си късметлия, чета, че на rhel 6.4 отново не работи, тъй като glibc е ancient version :)
+[00:32:16] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:32:57] <rew1nd1> под SL мога да играя единствено Xonotic :) но е доста бърз и не трябва да се играе много, болят очи после
+[00:34:17] <rew1nd1> telnet towel.blinkenlights.nl
+[00:36:08] <Fairytale> Leleleee napravo si e drugo sled 9600GTto. Tomb Raider e krasota maleee
+[00:37:09] <Fairytale> Sega trqbva da go vrutna. Ot 1 gi igraq .
+[00:38:43] <Fairytale> Aaaaa ne e istina leleee
+[00:50:26] rew1nd1 (~teo@46.238.29.142) left irc: Ping timeout: 252 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:15:44] phalaaxx (~bozhin@94.26.20.166) left irc: Read error: Operation timed out
+[01:44:02] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:26:05] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[02:31:38] Fairytale (~Svetlyo@77.70.117.169) left irc: Quit: Leaving
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:00:50] Nick change: ndyakov -> ndyakov|away
+[03:02:59] Nick change: ndyakov|away -> ndyakov
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:09:06] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[07:17:19] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[07:20:18] Nick change: ndyakov -> ndyakov|away
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:04:05] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:38:39] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[08:49:28] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[08:53:21] <yulimoto> KrasiGa: Добро утро
+[08:53:32] <yulimoto> Добро утро, всички останали :)
+[08:56:03] <KrasiGa> Добро утро yulimoto!
+[08:56:24] <KrasiGa> въпреки, че за мен не е много добро :(
+[08:59:39] <yulimoto> да не ви изгърмяха пак контролерите ?
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:01:15] <KrasiGa> де да беше това :)
+[09:01:22] <KrasiGa> лични проблеми са
+[09:09:15] <KacanuH> Добро утро и от мен
+[09:20:56] <KpeTeHoug> и от мен
+[09:21:13] <KpeTeHoug> ба, много сте писали
+[09:21:16] <KpeTeHoug> после ще чета
+[09:21:18] <KpeTeHoug> мързи ме :)
+[09:31:26] rew1nd (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[09:34:35] <rew1nd> Добро утро :)
+[09:37:19] <rew1nd> KrasiGa, можеш ли да бъдем в помощ с нещо ?
+[09:37:26] <rew1nd> *можем
+[09:49:58] <KrasiGa> rew1nd: благодаря ти за предложението ама не можете :)
+[09:57:55] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 260 seconds
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:18:53] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:19:22] Nick change: hackman -> Guest13924
+[10:23:14] Nick change: Guest13924 -> azilian
+[10:44:46] <KacanuH> Хайде и от мен една анкета, какво мислите за Ubuntu Touch и някой тествал ли го е?
+[10:49:48] <yulimoto> KacanuH: аз не съм :)
+[10:55:14] <yulimoto> KacanuH: имаше опън дискусия за UI-то на приложенията и бях се заел да правя на конзолата и от части на календара, но не видях да има комуникация на което и да е от предложените неща, не само моите и се отказах :)
+[10:55:42] <yulimoto> заел да правя mockup* на
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:04:13] <yulimoto> пиша като неграмотно, че не ми стига био-рамта като правя 2-3 неща наведнъж :)
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:24:50] rew1nd (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 272 seconds
+[12:31:33] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
+[12:32:06] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:34:33] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[12:35:50] Nick change: ndyakov|away -> ndyakov
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:47:24] <phalaaxx> http://www.epochtimes-bg.com/2013-04/2013-12-12_03.html
+[13:47:25] <wilindex> [ Длъжник разруши ипотекираната си къща и я стовари пред банката в насипно състояние ] - www.epochtimes-bg.com
+[13:55:56] <KacanuH> това е от преди повече от година
+[13:56:34] <KpeTeHoug> има такава статия
+[13:56:35] <KpeTeHoug> :)
+[13:57:09] <KacanuH> тоест от преди 4 години
+[13:57:39] <KpeTeHoug> мхм
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:05:06] azilian (~hackman@management.1h.com) left irc: Ping timeout: 264 seconds
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:13:25] <phalaaxx> днес ходих да си взема сертификата и ги попитах дали могат да ми оправят името и се съгласиха хората :)
+[15:19:13] <KpeTeHoug> бравус
+[15:19:43] <KpeTeHoug> то наистина че  е малко странно :) да имаш сертификат, ма не точно на твое име
+[15:20:29] <phalaaxx> то е ясно че е мой ама... някак не изглежда сериозно
+[15:20:57] <phalaaxx> така със сбъркано име щеше малко да ме е срам да го давам :)
+[15:22:19] <phalaaxx> защото или аз съм дебил и съм си написал грешно името (демек не знам как да си го напиша) или от академията са го сбъркали, а ако са ми объркали името каква тежест пък ще има самия сертификат после? ...
+[15:22:40] <phalaaxx> може и да издребнявам твърде много ама от моя гледна точка логиката изглежда по този начин :)
+[15:27:28] <yulimoto> ясно, щом е нямало проблем да го поправиш, защо да седи грешно ?
+[15:43:12] KpeTeHoug (~GT@212.36.13.10) left irc: Quit: The difference between friendship and love is how much you can hurt each other
+[15:46:35] <KrasiGa> какъв сертификат phalaaxx ?
+[15:47:08] <phalaaxx> https://telerikacademy.com/Certificates/View/545/e6971596 - ей този
+[15:47:08] <wilindex> [ Сертификат на Bozhin Zafirov за - Телерик Академия - Студентска система (students system) ] - telerikacademy.com
+[15:47:24] <phalaaxx> бяха ми объркали името, беше написано Bojin :)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:01:39] <yulimoto> анкетка: с какво предпочитате да едитвате initrd image-a ?
+[16:01:43] <KrasiGa> :) еее честито
+[16:01:50] <KrasiGa> yulimoto: ти взе ли сертификат?
+[16:02:06] <yulimoto> ц
+[16:02:14] <yulimoto> даже за малко да не взема изпита :)
+[16:02:49] <KrasiGa> е то като си го взел не се ли полага сертификат
+[16:02:57] <KrasiGa> или само на добрите резултати
+[16:03:01] <yulimoto> първите 5 :)
+[16:03:17] <yulimoto> rewind мисля е пръв :)
+[16:03:33] <KrasiGa> ее добре, че не отидох. Щях да лиша phalaaxx  от сертификат
+[16:03:50] <yulimoto> хаха да щеше да е 6-ти :)
+[16:03:59] <KrasiGa> :)))
+[16:04:46] <yulimoto> ти си благородна дама както винаги. Просто знаеш че честа на мъжете трябва да се пази :)
+[16:05:13] <phalaaxx> май не е първите 5 а според оценката от изпита
+[16:05:14] <KrasiGa> ееее да, такава съм си /и една дълбока въздишка/
+[16:06:14] <yulimoto> аа това наистина не знам, може да е според оценката, може да е само първите 5 :)
+[16:07:19] <yulimoto> KrasiGa: ти направи ли изпита вкъщи ?
+[16:10:35] <KrasiGa> нищо не съм правила /хвърлих се в едни филми и още не мога да изляза от тях/
+[16:13:28] <phalaaxx> KrasiGa: stop, eject, power off
+[16:13:48] <phalaaxx> това би трабвяло да е правилната последователност
+[16:14:20] <KrasiGa> ако я последвам трябва значи да се заровя
+[16:14:39] <yulimoto> KrasiGa: аха , ми така е живот кво да го правиш :)
+[16:14:56] <phalaaxx> ъм... не това имах предвид :D
+[16:15:10] <KrasiGa> :) знам знам
+[16:16:01] azilian (~hackman@management.1h.com) joined #telerikacademy.
+[16:18:02] <yulimoto> пфуу криптирах си / , толкоз лесно било че чак да се чуди човек
+[16:18:44] <KrasiGa> то със всичко е така, един път като го направиш и - лесно става
+[16:22:18] <phalaaxx> и скучно и скучно :))
+[16:23:07] <azilian> phalaaxx, http://www.outflux.net/blog/archives/2013/12/10/live-patching-the-kernel/
+[16:23:10] <wilindex> [ live patching the kernel « codeblog ] - www.outflux.net
+[16:23:12] <azilian> кажи че е скучно :)
+[16:25:55] <phalaaxx> не е скучно не е :)
+[16:27:27] <yulimoto> а на тоя пич определено му е скучно, та гледа да се развесели с разни магии :)
+[16:51:32] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:55:16] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:44] <phalaaxx> интересно дали някой му е хрумвало да направи някаква хардуерна защита за memory... примерно след изпълняване на дадена инструкция в процесора да не се позволява да се променя съдържанието на паметта  в kernel space (или нещо такова)
+[18:01:09] <phalaaxx> малко си фантазирам в момента, съчинение по картинка (а ако имаше и картинка - ехееее) :)
+[18:12:28] <azilian> phalaaxx, има такива технологии
+[18:12:32] <azilian> има и такива памети
+[18:12:49] <azilian> по-специално такива неща се използват в mainframes
+[18:13:01] <azilian> защото reboot-а на един mainframe е скъпо начинание
+[18:13:13] <azilian> write once, until reboot
+[18:13:44] <phalaaxx> аха
+[18:13:54] <phalaaxx> не е за нас значи това :)
+[18:14:08] <azilian> има и такива които можеш да ги правиш readonly с подадена команда към паметта
+[18:14:23] <azilian> има го и в comodity PC-тата
+[18:14:31] <azilian> не виждам до колко е смислено обаче :0
+[18:17:10] <phalaaxx> да де, това е другия въпрос
+[18:34:13] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[18:57:46] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:34:09] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[19:43:45] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:12:18] Fairytale (~Svetlyo@77.70.117.169) joined #telerikacademy.
+[20:16:38] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:17:08] Nick change: azilian -> hackman
+[20:32:47] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[20:34:03] hackman (~hackman@management.1h.com) left irc: Ping timeout: 272 seconds
+[20:34:28] <yulimoto> a бре струва ли ми се че hackman преди гледаше структурата и рам диска с миднайт командера ?
+[20:51:56] <Fairytale> Abe vchera imashe li Network Security?
+[20:52:52] <Fairytale> Az zasto taka sum go izpusnal
+[20:53:29] Deyan_Mobile (~AndChat57@94.26.70.42) joined #telerikacademy.
+[20:53:49] <Fairytale> Mai si opravqh novata mashinka, obache suvsem sum zabravil che e bilo srqda
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:00:37] <Deyan_Mobile> Dnes e четвъртък
+[21:00:54] <Deyan_Mobile> само да вметна
+[21:01:04] <rew1nd> и няма лекция по WSA :)
+[21:02:21] <Fairytale> Da da, za WSA e utre
+[21:04:22] <Fairytale> Deyane, kartata v men obache e GeForce GTX650Ti, ne e GTX650Ti BOOST
+[21:21:29] <Deyan_Mobile> Хммм
+[21:23:03] <yulimoto> Fairytale: какъв процесор и хард си взе ?
+[21:24:47] <Fairytale> yulimoto, Intel Core I3 3240 хард си закачих моя.
+[21:26:02] <Fairytale> yulimoto, 3.40GHz e
+[21:28:47] <yulimoto> :)
+[21:31:56] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[21:35:34] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[21:36:37] <yulimoto> dencho: ти що не си пуснеш едно шелче, тъй тъй си на 10 минутки и като стане 11-12 да си одиш пък като стане 5-6 да се връщаш :)
+[21:36:59] <yulimoto> ако нещо те питат ще викаш "бях на автомата за кафе"
+[21:37:10] <yulimoto> :)
+[21:44:16] dencho (~dencho@95.111.14.183) left irc: Read error: Connection reset by peer
+[21:46:52] <Fairytale> Deyan_Mobile, Не е проблем. Хвърли само едно око като си на работа за тези пари каква карта са дали. Според мен и за цената трябва е само  GTX650Ti.
+[21:54:42] <Fairytale> GTX650Ti BOOST e  GPU Clock : 980MHz, Mermory: 1502MHz 192bit a GTX650Ti GPU Clock: 928 MHz, Memory: 1350MHz 192bit
+[21:57:16] <Fairytale> Грешка:  GTX650Ti memory e 128bit, ne 192bit kato BOOST
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:09:25] <rew1nd> А това си е от значение, тъй като са доста ограничени откъм bandwidth съвременните видео ускорители. Но надали е чак толкова драстична разликата в конкретния случай
+[22:21:41] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[22:36:58] <rew1nd> http://www.tomshardware.co.uk/steamos-release-date-download-linux,news-46549.html
+[22:37:02] <wilindex> [ SteamOS to be Released on Friday the 13th ] - www.tomshardware.co.uk
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:07:27] AndChat|579921 (~AndChat57@94.26.70.42) joined #telerikacademy.
+[23:07:27] Deyan_Mobile (~AndChat57@94.26.70.42) left irc: Read error: Connection reset by peer
+[23:48:14] <Fairytale> rew1nd, http://www.youtube.com/watch?v=FhQi3EhUZdc
+[23:48:14] <wilindex> [YouTube] Title: GeForce GTX 650 Ti Boost 2GB vs. GTX 650 Ti 1GB Frame-Rate Tests | Uploader: DigitalFoundry | Uploaded: 21/04/2013, 18:15 | Duration: 5mins 38secs | Views: 64,518 | Comments: 170 | Likes: 204 | Dislikes: 7
+[23:53:33] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[00:00:00] --- Fri Dec 13 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

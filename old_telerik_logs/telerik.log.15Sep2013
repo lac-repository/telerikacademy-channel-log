@@ -1,0 +1,213 @@
+
+Session Start: Sun Sep 15 00:00:00 2013
+Session Ident: #telerikacademy
+13[00:18:02] * ndyakov is now known as ndyakov|away
+03[00:21:07] * Joins: bin (~bin@unaffiliated/phreaky)
+[00:21:09] <bin> sup
+12[00:36:56] * Quits: bin (~bin@unaffiliated/phreaky) (Ping timeout: 260 seconds)
+12[02:09:10] * Quits: urban_filth (~urban_fil@84-252-13-118.2074032680.ddns-lan.hisar.ekk.bg) (Quit: Leaving)
+12[02:13:00] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 264 seconds)
+13[02:14:10] * ndyakov|away is now known as ndyakov
+03[02:17:22] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+12[02:24:23] * Quits: phalaaxx (~bozhin@94.26.20.166) (Quit: Leaving.)
+12[07:07:35] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 264 seconds)
+03[07:11:54] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+13[07:31:00] * ndyakov is now known as ndyakov|away
+12[08:27:51] * Quits: morena (~chatzilla@37-143-251-253.plvd.ddns.bulsat.com) (Remote host closed the connection)
+03[09:19:30] * Joins: bin (~bin@94.155.229.38)
+12[09:19:30] * Quits: bin (~bin@94.155.229.38) (Changing host)
+03[09:19:30] * Joins: bin (~bin@unaffiliated/phreaky)
+[09:38:57] <yulimoto> dencho: distributed social network - http://dsn-test.com/dsn-vn/  като diaspora нещо такова
+[09:40:28] <yulimoto> и от същия автор - http://buddycloud.com/
+[09:40:29] <wilindex> [ buddycloud ] - buddycloud.com
+[09:48:06] <yulimoto> писан с node.js а клиента с backbone направо си е само javascript
+[09:48:42] <yulimoto> и вече се зарибявам дали да не си инсталирам един
+[10:12:06] <yulimoto> значи то се оказа xmpp нещо си подобно
+[10:34:47] <dencho> кжо кжо ?
+[10:34:50] <dencho> kvo kvo
+[10:34:53] <dencho> ?
+[10:34:56] <dencho> kvo e tva ?
+12[10:36:59] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 264 seconds)
+03[10:41:54] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+[10:42:04] <yulimoto> dencho: distributed social network
+[10:42:11] <yulimoto> интересно нещо
+[10:42:54] <yulimoto> сега изтеглих deb пакети и зависимостите за arm и мисля да сложа такова нещо на една флашка
+[10:43:24] <yulimoto> ама що ли си играя с глупости
+[11:02:18] <dencho> i s kakvo e po interesno tva ? distributed  ?!
+[11:03:13] <dencho> yulimoto - http://youtu.be/HVaoYFSC2X4
+[11:03:14] <wilindex> [YouTube] Title: Керанов - Провал | Uploader: Маната И Керанов | Uploaded: 23/08/2013, 22:28 | Duration: 5mins 9secs | Views: 2,984 | Comments: 12 | Likes: 80 | Dislikes: 0
+[11:03:23] <dencho> of bot be smotan si we wilindex
+13[11:39:03] * stratoss is now known as stratoss|away
+03[11:54:23] * Joins: phalaaxx (~bozhin@94.26.20.166)
+13[12:40:57] * ndyakov|away is now known as ndyakov
+[12:53:27] <yulimoto> dencho: пратих ти презентация за distributed още с първия линк http://dsn-test.com/dsn-vn/
+[12:54:47] <yulimoto> сървъра е при теб информацията ти също
+[13:29:00] <dencho> super qko
+[13:29:01] <dencho> :D
+[13:29:27] <dencho> bf za purvi praa lvm na debian super grozno sa go napraili
+[13:29:31] <dencho> put*
+[14:03:09] <dencho> oligofreni sa tiq
+[14:03:10] <dencho> debian failed to determine the codename for the release
+[14:03:10] <dencho> :D
+13[14:32:39] * ndyakov is now known as ndyakov|away
+13[14:33:07] * ndyakov|away is now known as ndyakov
+[14:45:43] <yulimoto> шшшш я да мълчиш
+[14:45:59] <yulimoto> на какво си правил lvm че кудкудякаш
+[14:46:08] <yulimoto> lvm си е lvm
+[14:48:11] <dencho> tiho, 4e instaliram sq, i o4akvam da mi kaje failed to determine the codename for the release
+[14:49:16] <yulimoto> я ве ко инсталираш ве ханко
+[14:49:28] <dencho> a be ne moa da instaliram debian ot 2 4asa we
+[14:49:34] <dencho> vse ne6to mu e failed ....
+[14:49:43] <dencho> na instalatora :D
+[14:49:48] <dencho> ne moa go razbera :D
+[14:49:56] <dencho> KVO NE MU ARESVA WE!
+[14:50:02] <yulimoto> а ве мунчоооо стой си на rpm-ите ве
+[14:50:11] <dencho> DEBIAN 7.0 WE
+[14:50:30] <yulimoto> ми нз
+[14:50:33] <yulimoto> нали ти пише там
+[14:50:35] <dencho> rpm-ite do sq da sam instaliral 4 sistemi dokato tva se 4udi za kvo da mu kaje failed
+[14:50:36] <yulimoto> гледай ко пише
+[14:51:44] <yulimoto> между другото и при мен е имало проблеми
+[14:52:07] <dencho> pi6e... unable to install busybox... kvoto i da e tva... i odi vij vuv var/log/syslog ili vij virtual console 4 for the details :D
+[14:52:53] <dencho> moje li takiva gluposti
+[14:52:53] <dencho> :D
+[14:53:45] <dencho> i ne stiga 4e mi pe4e slunceto v o4ite...
+[14:53:50] <dencho> mi i tva sa ligavi
+[14:53:50] <dencho> :D
+[14:54:07] <yulimoto> ами що не си свалиш нет инсталл
+[14:54:25] <dencho> mi 6to si misli6, 4e ne sam si go svalil
+[14:54:25] <dencho> :D
+[14:54:33] <yulimoto> и ко
+[14:54:35] <yulimoto> не ще ?
+[14:54:39] <yulimoto> на какво инсталираш
+[14:54:52] <dencho> ne ebaaa
+[14:55:10] <yulimoto> на лаптоп какъв ?
+[14:55:18] <dencho> mne
+[14:55:22] <dencho> na ko6nik
+[14:55:23] <dencho> :D
+[14:55:37] <yulimoto> ква кошница
+[14:55:46] <yulimoto> нещо има нередно тука
+[14:56:02] <yulimoto> и що точно бъзибокс
+[14:56:08] <yulimoto> ще те прецаква
+[14:58:26] <yulimoto> An error was return while trying to
+[14:58:27] <yulimoto> > > install the busybox package onto the target system
+[15:00:45] <yulimoto> а ве рошльо ти за каква архитектура инсталираш
+[15:00:48] <bin> какво маисторите е акери
+[15:06:29] <yulimoto> кой какво му е на душа
+[15:07:12] <bin> какво ти ен а душата
+[15:09:06] <dencho> procesora e Intel Core 2 duo e7500 @ 2.93 GHz
+[15:09:35] <yulimoto> провери в нетя аз гледах нещо за busybox при инсталацията
+[15:09:51] <bin> anyways
+[15:09:55] <bin> мариян мяркал ли се е
+[15:10:11] <yulimoto> мярка се от време на време
+[15:10:16] <yulimoto> по често от теб
+[15:10:50] <yulimoto> аз ще мъча една флашка за майл сървър на arm
+[15:10:55] <dencho> :D
+04[15:10:58] <bin> това е добре е добре , KpeTeHoug ще идваш ли на конфа
+[15:10:59] <yulimoto> това ми е на душата
+[15:11:39] <yulimoto> ще ти отговори утре като дойде на работа
+[15:11:40] <dencho> sq 6e se oblegna na next-a :D
+[15:11:52] <yulimoto> некста ?
+[15:12:07] <dencho> next, next, next :D
+[15:12:19] <yulimoto> аха
+[15:12:38] <yulimoto> аре като се изключим значи ще подкарваме флашката :) бай за сега
+[15:12:46] <yulimoto> как ме мързи обаче
+[15:13:00] <dencho> kak
+[15:13:23] <yulimoto> а ве преди бях се наиграл
+[15:13:57] <yulimoto> една флашка я цепих и се оказа че не може да намести мбр-то
+[15:14:22] <yulimoto> та колко трябва да се оставя, че да оправи там и фс таблиците
+[15:14:26] <yulimoto> за флашка
+[15:14:33] <yulimoto> не знаете
+[15:14:49] <yulimoto> значи аз ще оставя 1 мб струва ми се пре дстатъчно
+[15:19:55] <ndyakov> yulimoto: защо я цепиш само не разбирам, остави и един дял, сложи и grub да буутва и си готов
+[15:23:17] <yulimoto> 1/2 ще е линукс \ 1/2 storage снимки мимки | ne че ще ми потреби ама съм се изумил как ми трбяват такива глупости понякога
+[15:24:18] <yulimoto> после ако линукса работи както ми харесва, го правя основен т.е. го качам на flash паметта на ус-вото (ubifs) и ралтата фърчи
+[15:34:16] <ndyakov> аз просто си слагам дистрибуцията бутъбъл на флашката и останалата част я използваш за storage
+[15:34:19] <ndyakov> няма значение на какво
+[15:34:45] <ndyakov> когато ми трябва нещо такова де :) най-често като използвах онлайн банкиране, ама като си забравиш паролата :D няма оправия ;D
+[15:35:31] <ndyakov> пък все още не съм минал през банката да си взема нова парола
+[15:41:01] <yulimoto> :)
+12[15:50:25] * Quits: bin (~bin@unaffiliated/phreaky) (Quit: to the infinity and beyond)
+13[15:50:56] * ndyakov is now known as ndyakov|away
+13[16:01:50] * ndyakov|away is now known as ndyakov
+03[16:05:05] * Joins: alabala (~immortal@unaffiliated/alabala)
+13[16:11:22] * ndyakov is now known as ndyakov|away
+[16:15:42] <yulimoto> a ве пичове
+[16:15:51] <yulimoto> една малка загадка ми се получи
+[16:17:11] <yulimoto> ровя си тука из флашката и установявам, че съм бухал iso файла направо във флашката като ако флашката е била /dev/sdb
+[16:17:52] <yulimoto> аз направо съм правил dd if=iso of=/dev/sdb
+[16:18:32] <yulimoto> там помня че с един софтуер за конзола препервах iso da byde бутабъл
+[16:18:59] <yulimoto> сега реших да махна всичко и за тва написах малко нули
+[16:19:39] <yulimoto> dd if=/dev/zero of=/dev/sdb bs=512 count=4
+[16:19:56] <yulimoto> и очаквам всичко да е изтрито
+[16:20:02] <yulimoto> и да
+[16:20:21] <yulimoto> влизам в фдиск ili cfdisk и правя нови партишъни 3 на брой
+[16:21:04] <yulimoto> мкфс и мксвап  i t.n.
+[16:21:30] <yulimoto> вадя флашката и я мушкам в другия комп
+[16:21:33] <yulimoto> ииии....
+[16:21:50] <yulimoto> 3-те партишъна са там
+[16:22:04] <yulimoto> обаче всички файлове от iso-to и те са там
+[16:22:28] <yulimoto> т.е. имам файлове на /dev/sdb
+[16:23:03] <yulimoto> и отделно мога да си маунтна /deb/sdb[1-3]
+[16:26:19] <yulimoto> Какво не мога да си обясня ? --> Защо това iso седи (записано е на /deb/sdb) след като съм напълнил 1-вите 4 сектора от /dev/sdb с нули ?
+12[16:27:06] * Quits: stratoss|away (~stratoss@unaffiliated/stratoss) (Ping timeout: 264 seconds)
+03[16:32:25] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[16:32:42] * stratoss|away is now known as stratoss
+12[16:35:16] * Quits: phalaaxx (~bozhin@94.26.20.166) (Quit: Leaving.)
+[16:35:35] <yulimoto> /dev/sda   iso9660    277M  277M     0 100% /mnt
+[16:35:59] <yulimoto> това е mount-натото iso
+[16:37:26] <alabala> kato gledam povecheto sa afk,zashto ne drasnesh v #linux ?
+[16:39:08] <yulimoto> после ще четат
+[16:39:23] <alabala> i tova e variant
+[16:39:49] <yulimoto> по скоро ми е интересно къде е записано това нещо  ?
+[16:44:01] <yulimoto> има и нещо друго, ако напълня цялата флашка с нули dd if=/dev/zero /dev/usb-то
+[16:44:08] <yulimoto> не вярвам тогава да имам проблем
+[16:44:19] <yulimoto> :) ама трябва да има все пак драма :)
+12[16:46:47] * Quits: ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) (Ping timeout: 260 seconds)
+03[16:55:04] * Joins: ndyakov|away (~ndyakov@client-38-76.speedy-net.bg)
+12[16:59:46] * Quits: ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) (Ping timeout: 264 seconds)
+03[17:05:26] * Joins: ndyakov|away (~ndyakov@client-38-76.speedy-net.bg)
+13[17:05:49] * ndyakov|away is now known as ndyakov
+12[17:07:55] * Quits: yulimoto (~websemiot@78.108.248.204) (Remote host closed the connection)
+12[17:15:09] * Quits: ndyakov (~ndyakov@client-38-76.speedy-net.bg) (Ping timeout: 256 seconds)
+03[17:23:27] * Joins: ndyakov|away (~ndyakov@client-38-76.speedy-net.bg)
+13[17:23:36] * ndyakov|away is now known as ndyakov
+12[17:37:34] * Quits: vhristev (~vhristev@84.22.26.102) (Ping timeout: 264 seconds)
+12[17:39:50] * Quits: ndyakov (~ndyakov@client-38-76.speedy-net.bg) (Ping timeout: 260 seconds)
+03[17:40:29] * Joins: ndyakov|away (~ndyakov@client-38-76.speedy-net.bg)
+13[17:40:30] * ndyakov|away is now known as ndyakov
+12[17:45:09] * Quits: ndyakov (~ndyakov@client-38-76.speedy-net.bg) (Read error: Operation timed out)
+12[17:53:28] * Quits: alabala (~immortal@unaffiliated/alabala)
+03[18:27:50] * Joins: yulimoto_ (~websemiot@78.108.248.204)
+[18:28:51] <yulimoto_> а ве dencho сега се сетих да ти кажа да си смениш инсталатора брат, че аз имам един дето нот съпорт lvm i raid
+[18:29:33] <yulimoto_> t.e. при мен е щото ram diska e mismach със кернел имейджа
+[18:29:42] <yulimoto_> имиджа*
+[18:29:44] <yulimoto_> аре
+03[18:29:46] * Parts: yulimoto_ (~websemiot@78.108.248.204)
+03[19:01:36] * Joins: ndyakov|away (~ndyakov@client-38-76.speedy-net.bg)
+13[19:01:43] * ndyakov|away is now known as ndyakov
+03[19:03:11] * Joins: yulimoto_ (~websemiot@78.108.248.204)
+[19:10:06] <yulimoto_> dencho: знаеш ли някакъв уеб клиент за гювеча дето киснеш ден и нощ там ве?
+03[19:19:35] * Parts: yulimoto_ (~websemiot@78.108.248.204)
+12[19:20:29] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 256 seconds)
+03[19:25:26] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[19:25:37] * stratoss|away is now known as stratoss
+03[20:32:14] * Joins: Deyan (~deyan@46.249.92.240)
+03[20:49:57] * Joins: hackman (~hackman@wolf.yuhu.biz)
+03[20:56:53] * Joins: KrasiGa (9e3add9e@gateway/web/freenode/ip.158.58.221.158)
+03[20:57:33] * Joins: anton_sh (5ebeb3b9@gateway/web/freenode/ip.94.190.179.185)
+[20:58:33] <dencho> KrasiGa ?!
+[21:01:01] <dencho> anton_sh oprai li ip-tata
+[21:01:25] <anton_sh> dencho: `daaa Dnes 4-5 chasa ot internet kompaniata se chudqt kakvo stava
+[21:01:29] <anton_sh> no nakraq gi opraviha
+[21:01:34] <anton_sh> pri tqh e bil problema
+[21:02:33] <anton_sh> No moga da ti se pohvalq s drugo koeto napravih predi malko
+12[21:03:12] * Quits: KrasiGa (9e3add9e@gateway/web/freenode/ip.158.58.221.158) (Ping timeout: 250 seconds)
+[21:03:32] <anton_sh> flashnah si router-a i sega prez nego moga da si vliuchvam server-a s wake on lan
+[21:04:58] <anton_sh> nqkoi znae li kade moga da gledam viedeata ot 12-ti
+12[21:26:51] * Quits: hackman (~hackman@wolf.yuhu.biz) (Ping timeout: 256 seconds)
+03[22:23:25] * Joins: yulimoto (~yulimoto@78.108.248.204)
+12[22:47:15] * Quits: anton_sh (5ebeb3b9@gateway/web/freenode/ip.94.190.179.185) (Quit: Page closed)
+03[22:57:43] * Joins: hackman (~hackman@wolf.yuhu.biz)
+12[23:07:32] * Quits: hackman (~hackman@wolf.yuhu.biz) (Read error: Operation timed out)
+Session Close: Mon Sep 16 00:00:00 2013

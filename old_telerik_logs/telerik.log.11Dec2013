@@ -1,0 +1,532 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:26:05] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[00:42:47] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:58:50] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:01:05] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[01:15:55] rew1nd (~teo@46.238.29.142) left irc: Ping timeout: 246 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:07:59] <dencho> pi4ue daite nqkav akaunt za zamunda :D
+[02:32:34] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[02:36:55] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:18:15] KpeTeHoug (~GT@212.36.13.10) left irc: Quit: The difference between friendship and love is how much you can hurt each other
+[03:20:18] Fairytale (~Svetlyo@77.70.117.169) joined #telerikacademy.
+[03:20:46] <Fairytale> KacanuH, tuk li si?
+[03:21:02] <Fairytale> mamka mu, precakah si moputara
+[03:21:10] <Fairytale> ..komputara
+[03:27:55] <dencho> 6to be kvo naprai
+[03:44:29] <Fairytale> updatnah biosa
+[03:45:13] <Fairytale> uj go proveri i kaza che vsichko e ok i po vreme na update kaza "lipsva infomaciq vav faila" i do tam
+[03:46:18] <Fairytale> Sega pali ama ne beepva, nisto ne moga da napravq
+[03:46:35] <Fairytale> Basi skapanoto duno
+[03:46:56] <Fairytale> V neta e palno sus sastiq problem ASUS M2N-E
+[03:48:07] <Fairytale> Napravo nov komp vzimam
+[03:48:58] <Fairytale> dencho, ti KacaniH li si?
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:00:46] fityla_ (~fityla@84.40.116.146) left irc: Quit: Leaving
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:01:22] <dencho> ne sam kazapin :P
+[05:01:42] <dencho> tva da updeitva6 bios si e stra6na rabota :D
+[05:02:00] <dencho> za kuv zor trugna da go updeitva6?
+[05:06:28] <Fairytale> zastoto slojih oste RAM i ne mi razpoznavashe vsichkata, sled update na biosa se opravi obache zabivashe
+[05:07:51] <Fairytale> Az i predi imah problem s novite biosi na tova duno i edvam go opravih, obache sega e totalka
+[05:09:00] <Fairytale> Chakam KacaniHa da sglobqvame nesto novo
+[05:11:00] <Fairytale> Na edin milion MB sum updatenal biosa, samo s tozi skapan model sum imal problem. Poveche ne iskam da chuvam za ASUS
+[05:20:50] <dencho> :)
+[05:34:09] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[05:38:49] <Fairytale> Qd me e zastoto sega se setih kak sum go pravql, mojeshe da napravq recovery na biosa obache veche e ksno
+[05:46:05] <hackman> Fairytale, кво правиш?
+[05:46:38] <Fairytale> hackman, precakah si biosa na kompa
+[05:46:55] <hackman> Fairytale, laptop или desktop ?
+[05:47:36] <Fairytale> hackman, desktop , shibano MB ASUS M2N-E
+[05:48:00] <hackman> Fairytale, по принцип всички дъна след 2007-2008 имат по два BIOS-а на дъното :)
+[05:48:07] <hackman> твоето няма ли ?
+[05:48:20] <hackman> има процедура по палене само със default BIOS-а
+[05:48:23] <Fairytale> hackman, flashna go i izpisa che lipsva info vav faila i se restartira i ne pali
+[05:48:51] <hackman> провери по model name + BIOS recovery
+[05:49:01] <Fairytale> ami to tova e 2006-2007ma ne vijdam da ima
+[05:49:03] <hackman> или model name + secondary BIOS
+[05:49:15] <Fairytale> sega ste vidq
+[05:49:29] <hackman> Fairytale, то не е важно ти да го виждаш... важно е да го има на дъното :) пък къде и как са го скрили няма значение :)
+[05:49:32] <Fairytale> samo da zapali i ste go pravq
+[05:54:18] <hackman> гррр... къде си шибнах телефона :)
+[05:57:45] <Fairytale> kude? :-)
+[05:59:26] <Fairytale> probvah vsichko mamka mu. http://support.asus.com/Troubleshooting/detail.aspx?SLanguage=en&m=M2N-E&os=&no=1722
+[05:59:26] <wilindex> [ ASUSTeK Computer Inc. -Support- Troubleshooting M2N-E ] - support.asus.com
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:00:04] <Fairytale> samo pishe za nqkakvo CLRTC_SW takova ne vijdam na dunoto
+[06:05:18] <Fairytale> spored knijkata nqma secondary bios
+[06:06:13] <Fairytale> pravih clear, mahah bateriqta ama nestava
+[06:15:28] <Fairytale> Nikakvi sansove, chakam KacaniH da pravime nov komp
+[06:15:32] <hackman> то това с батерията работи само ако можеш да извадиш и BIOS-а :)
+[06:15:57] <hackman> Fairytale, носи го в някой сервиз да ти го flash-нат
+[06:16:00] <Fairytale> Ima jumper za reset
+[06:16:05] <hackman> едва ли ще ти вземат повече от 20лв
+[06:16:12] <hackman> reset-а не е reflash :)
+[06:16:18] <hackman> нищо общо нямат :)
+[06:16:35] <Fairytale> Na men mi trqbva samo da trugne za da flashna
+[06:17:09] <Fairytale> Toi pali,vartqt ventilatorite ama samo tolkova
+[06:20:18] <Fairytale> Az pravil drug nomer ama imah oste edno sastto duno. Palq go, podgotvqm go za flash, svalqm BIOSa v dvijenie na zapalena mashina i slagam neraboteshiq i si go flashvam
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:24:54] Fairytale (~Svetlyo@77.70.117.169) left irc: Quit: Leaving
+[07:30:22] Fairytale (~Svetlyo@77.70.117.169) joined #telerikacademy.
+[07:32:11] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[07:39:15] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[07:43:55] rew1nd_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[07:44:17] <rew1nd> Добро утро :)
+[07:44:42] rew1nd_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Client Quit
+[07:49:08] <Fairytale> Dobro da e
+[07:49:30] <Fairytale> Za nqkoi dobro, za drugi losho :-)
+[07:50:53] dencho (~dencho@apollo.netissat.bg) left irc: Ping timeout: 265 seconds
+[07:55:55] <rew1nd> май беше друг лафа и имаше нещо със сватба, но... надявам се да не е чак така лош :)
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:05:22] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:06:28] rew1nd (~teo@46.238.29.142) left irc: Ping timeout: 246 seconds
+[08:26:37] <yulimoto> ко стаа е тигри (и тигрици) гледам някои са омазали нещата, чак до нов компЮтър са стигнали :)
+[08:26:59] <yulimoto> браво ей така се маже :)
+[08:27:20] <Fairytale> :-)
+[08:27:40] <Fairytale> ASUS sa vinovni
+[08:28:00] <yulimoto> Fairytale: според мен си търсиш повод да си купиш нова щайга :)
+[08:28:14] <Fairytale> Emi stoqt im skapanite biosi  na oficialniq sait
+[08:28:41] <Fairytale> yulimoto, prav si. Chudeh se koga da go smenq i qvno sega e momenta
+[08:29:19] <yulimoto> е все пак дай 20-тина лева и да го рефлашнат, все някога ще може да ти потрябва машинката :)
+[08:29:33] <yulimoto> пък то новото няма да избяга
+[08:29:35] <Fairytale> Nqma da e sega
+[08:29:54] <Fairytale> Ne mi se nosi i ne mi se zanimava
+[08:30:13] <Fairytale> i za 20lv me samnqva nqkoi da go flashne
+[08:31:11] <Fairytale> Koga se poqvqva KacaniHa ?
+[08:31:41] <Fairytale> Ste q razkostq i q prodavam na chasti
+[08:31:47] <yulimoto> сигурно към 9:30 като си изпие кафето
+[08:32:49] <Fairytale> Chudq se obache kakvo da vzimam
+[08:34:44] <Fairytale> Tozi put mislq da minavam na Intel
+[08:37:34] <yulimoto> ами според мен добре мислиш, аз между впрочем друго не съм мислил, така че нямам база за сравнение :)
+[08:38:42] <yulimoto> я кажете лаптоп с качествен кейс и добро качество на матреала като цяло 13-14 инча, че ми стана интересно :)
+[08:45:41] <Fairytale> i3 pod 200lv nqma li? Napravo me boli glavata kato gledam cenite
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:08:11] rew1nd (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[09:12:13] <rew1nd> Мале, чак сега видях какви ги е преживял Fairytale...
+[09:12:34] <Fairytale> rew1nd, mani ujas \;-)
+[09:12:48] <rew1nd> Ако не ти се дават 20 лв. за да ти го рефлашнат, може аз да ти дам 20 лв. за това дъно, имам такова, гръмнало и ми трябва един от чиповете на дъното
+[09:13:12] <rew1nd> а иначе биос мога и аз да ти дам, стига да може да се сваля, само трябва да си го взема от "майстора"
+[09:13:21] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[09:13:32] <Fairytale> Emi ste go flashna ama nqma da e sega
+[09:13:52] <yulimoto> dencho: лягай ве цяла вечер гледа филми
+[09:14:31] <rew1nd> моето го убих докато го "палех" с отвертката - мързеше ме да си намеря копченце и го запалвах като давах на късо пиновете за power бутона и така докато не замина чипа отговарящ за запалването
+[09:14:48] <Fairytale> "-))
+[09:15:08] <Fairytale> ASUS M2N-E ?
+[09:15:54] <rew1nd> да, видях сега, че може да се сваля и EEPROM-а на биоса
+[09:16:05] <rew1nd> мога да го накарам да го свали от дъното и да ти го дам да си възстановиш дъното
+[09:16:26] <rew1nd> или вариант 2, ще го накарам направо да го копира на друг чип
+[09:17:24] <Fairytale> ako mu go zanesa ste moje li da go pravi?
+[09:21:53] <rew1nd> със сигурност, въпроса е, че човека е малко... зает... в смисъл моето дъно "отлежава" при него 6-ти месец вече
+[09:22:01] <Fairytale> maleee
+[09:22:09] <rew1nd> всъщност има напредък - намерил е дъно, от което да пробва същия чип
+[09:22:35] <rew1nd> но моето си има такъв биос, ще трябва само един екстрактор и да пусне програматора за 10 минути
+[09:24:27] <rew1nd> Само м/у другото това дъно се оказа доста голям дзвер - работи денонощно на една работна станция близо 6 години преди да го строша
+[09:24:33] <Fairytale> Emi az bih otishul ama ne mi se chaka 6 meseca :-)
+[09:24:38] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[09:24:46] <rew1nd> е, не случая ти не е такъв
+[09:24:54] <KpeTeHoug> морген
+[09:25:02] <rew1nd> KpeTeHoug, гутен :)
+[09:25:31] <Fairytale> Skapani sa mu biosite , neta e pulen s problemi s flashvane na tova MB
+[09:25:42] <rew1nd> интересно, никога не съм имал проблеми с него
+[09:25:55] <rew1nd> вярно, че съм му ъпдейтвал биоса преди години още
+[09:25:56] <Fairytale> A flashval li si?
+[09:26:07] <rew1nd> да, но последния биос е много отдавна
+[09:26:11] <Fairytale> Oste predi 3 godini se precakah
+[09:26:20] <Fairytale> i edvam go opravih
+[09:26:31] <Fairytale> i bqh kazal che nqma da go pipam
+[09:27:03] <KacanuH> Добро утро и от мен
+[09:27:08] <Fairytale> s posledia 5001 zabiva
+[09:27:19] <Fairytale> KacanuH, dobro utro
+[09:27:32] <Fairytale> KacanuH,  teb chakam :-)
+[09:27:42] <Fairytale> spasqvai polojenieto
+[09:27:55] <KacanuH> Fairytale: ти базикаш ли се, какво да правя по това време на денонощието буден, аз съм стар човек трябва да си почивам
+[09:28:11] <Fairytale> :-)
+[09:28:52] <KacanuH> сега преглеждам какво си омазал
+[09:28:55] <Fairytale> Emi i az sum star chovek ama ne pochivam
+[09:29:09] <KacanuH> само да оправя документите за един търг
+[09:29:13] <Fairytale> Dai da pravime nqkakva konfiguraciq
+[09:29:17] <Fairytale> ok
+[09:29:36] <KacanuH> драсни ми на бързо какво ще искаш за да ти го нащракам на бързо
+[09:29:44] <KacanuH> че поне до обед ще съм бизи
+[09:29:52] <Fairytale> Emi tam e rabotata che se chudq
+[09:30:45] <Fairytale> VIDEO,RAM,MB,CPU i CASE
+[09:31:17] <Fairytale> GTX 650Ti boost primerno
+[09:31:33] <Fairytale> i nqkoi i3
+[09:32:11] <Fairytale> a ima li shans da trugnat s FORTRON 350W?
+[09:32:41] <Fairytale> 2x4 GB RAM
+[09:34:25] <Fairytale> ako imash nqkakvo dobro predlojenie okolo tezi parametri no da e INTEL i NVIDIA
+[09:35:20] <KacanuH> тоя Fortron, няма да може да храни само видео картата
+[09:35:36] <Fairytale> Znach i CASE s dobro zahranvane
+[09:35:50] <KacanuH> колко спешно ти трябва
+[09:35:54] <Fairytale> mnogo
+[09:36:13] <Fairytale> za dnes ima li variant?
+[09:37:05] <KacanuH> да ще стане за днес
+[09:37:56] <Fairytale> Super, znachi samo da izberem nestata
+[09:39:51] <Fairytale> rew1nd, ta znachi s 5001 zabivashe, posle edvam go vurnah i drugite imashe edno zabavqne
+[09:40:52] <Fairytale> rew1nd, i go ostavih s 1204 mai beshe
+[09:51:29] <rew1nd> Ъ-ъ-ъм... Fairytale, 5001 е бета, както и 3001, аз съм бил със 1703
+[09:51:55] <rew1nd> ако беше казал, че си тествал бета версии, щях да ти препоръчам направо да се позабавляваш със опън сорс биос
+[09:52:23] <rew1nd> http://www.coreboot.org/ASUS_M2N-E
+[09:52:27] <wilindex> [ ASUS M2N-E - coreboot ] - www.coreboot.org
+[09:53:03] <Fairytale> Da, beta sa ama 17xx mislqmpraveshe problem
+[09:53:54] <rew1nd> ти каква памет си сложил ?
+[09:55:23] <Fairytale> 4 plochki 2x2GB ADATA 800Mhz i PQI 2x1GB 800Mhz
+[09:55:36] MoHu (~MO@77.70.108.185) left irc: Ping timeout: 245 seconds
+[09:55:46] <Fairytale> 6GB i ne gi razpoznavashe tolkova s 1204
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:03] <rew1nd> мисля, че имаше ограничение в nforce570, което не позволяваше повече от 667 мхц при четири слота, ако го възстановиш опитай да му свалиш тактовата честота на DDR шината
+[10:22:48] Nick change: ndyakov|away -> ndyakov
+[10:27:52] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[10:36:49] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:50:20] <phalaaxx> "Компютърът никога няма да замени човека." (канибалска мъдрост)
+[11:58:04] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:09:33] <Fairytale> hackman, imash li nqkoi chovek da moje da flashne biosa?
+[12:10:00] <hackman> всеки сервиз може да го направи
+[12:10:04] <hackman> аз нямам човек :)
+[12:10:11] <hackman> кой беше от comelsoft
+[12:10:12] <Fairytale> E vseki edva li
+[12:10:37] <Fairytale> Kasapina ama go chakam da dade oferta za edno novo PC
+[12:12:11] <Fairytale> Napravo zaspivam a ne se obajda
+[12:13:17] <yulimoto> eee toj ти каза, че ще прави оферта за някакъв търг и това му е приоритет :)
+[12:15:09] <Fairytale> Naistina kaza za nqkakav turg
+[12:26:41] <yulimoto> пичове тормейл има ли някаква алтернатива вече ?
+[12:43:04] <rew1nd> Fairytale, казах ти, трябва ти само един екстрактор, да свалиш ЕЕРROM-а от дъното и да сложиш новия, само кажи и ще му се обадя на тоя момък да ти копира един от старото ми дъно
+[12:43:41] <rew1nd> А можеш и да отидеш до първия сервиз с една флашка с последния биос, който е работил и да ги помолиш да ти препрограмират твоя от дънната платка
+[12:44:15] <rew1nd> даже и екстрактор не ти трябва, можеш с два кламера с подгънати краища да бръкнеш и да го измъкнеш :)
+[12:45:33] hackman (~hackman@management.1h.com) left irc: Ping timeout: 250 seconds
+[12:49:58] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:26:40] <yulimoto> анкетка: какъв софт предпочитате за криптиране на дискове или файлове ?
+[13:42:33] <yulimoto> тук предполагах да се изсипят само md-crypt отговори
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:27:05] <hackman> ecryptfs използвам аз
+[14:27:15] <hackman> не обичам криптирани partitions
+[14:27:19] <hackman> винаги са ми създавали проблеми :(
+[14:39:39] <phalaaxx> Само Чък Норис може да си избърше гъза с онлайн вестник.
+[14:39:58] <phalaaxx> Чък Норис хванал грип, но му станало жал и го пуснал...
+[14:49:34] <phalaaxx> https://www.facebook.com/photo.php?fbid=445647322224656&set=a.351572248298831.1073741826.348582061931183&type=1&theater
+[14:49:36] <wilindex> [ Смях - Снимки в дневника | Facebook ] - www.facebook.com
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:09:04] <KpeTeHoug> http://www.metalinjection.net/video/slayer-hell-awaits-christmas-light-show-2013
+[15:09:05] <wilindex> [ SLAYER Christmas Light Show 2013 - Metal Injection | ] - www.metalinjection.net
+[15:09:08] <KpeTeHoug> !!!
+[15:13:28] <yulimoto> rew1nd: phalaaxx: KpeTeHoug: вие как предпочитате да криптирате patitions ?
+[15:14:10] <KpeTeHoug> yulimoto и аз не криптирам
+[15:14:19] <KpeTeHoug> но скоро се замислих и аз като теб ако криптирах
+[15:14:22] <KpeTeHoug> с какво бих :)
+[15:14:26] <rew1nd> аз ползвам това, което предлага дистрибуцията
+[15:15:07] <phalaaxx> аз не си криптирам цели partitions, само файлове с gpg :)
+[15:15:12] <rew1nd> в Scientific Linux е криптиран целия партишън, в Mint гледам, че до версия 13 са само на home folder, а на DE, както и на 15 и нагоре ще може и на целия дял
+[15:16:34] <phalaaxx> ако реша да криптирам повечко работи накуп - предполагам пак няма да ходя на цял partition а на криптиран loop mount
+[15:16:44] <phalaaxx> то е горе долу същото де но...
+[15:17:03] <yulimoto> то и аз ползвах gpg, а всъщност сега се сещам, че еcryptfs е все едно файл по файл
+[15:17:07] <yulimoto> gpg
+[15:17:44] <yulimoto> това е полезно при омазване и пренасяне на инфо
+[15:20:48] <yulimoto> между другото hackman много добре почна лекциите за нетсек със "сигурността е чувство" !!! :)
+[15:24:02] <hackman> аз използвам хардуерното криптиране на лаптопа + криприрани директории
+[15:24:15] <hackman> които се decrypt-ват on boot
+[15:24:24] <hackman> на практика on login :)
+[15:24:38] <hackman> имам и reboot pass
+[15:25:29] <rew1nd> да, всъщност това е разликата при SL - при ребуут трябва pass
+[15:26:16] <rew1nd> Ако е отдалечена машина се правят едни магии с dropbear ssh, за да можеш да си вкараш passphrase-a на партишъна и да буутне
+[15:26:40] <hackman> аз remote машина не бих криптирал по този начин
+[15:26:55] <hackman> особено ако се очаква да работи 24/7
+[15:26:56] <rew1nd> но yulimoto ще го ползва за десктоп/лаптоп и това не му е проблем така или иначе
+[15:27:15] <hackman> за remote машините си плащаш за сигурност :)
+[15:27:16] <rew1nd> ако е сървър човек така или иначе ще има IPMI
+[15:27:33] <rew1nd> и това с dropbear става излишно
+[15:28:29] <rew1nd> hackman, не разбрах последното. В какъв смисъл си плащаш за сигурност ?
+[15:30:22] <yulimoto> hackman: бай дъ уей какъв ти е лаптопа ? чини ми се доста добре подбрана машина :)
+[15:31:06] <rew1nd> Lenovo T520 :)
+[15:32:51] <hackman> rew1nd, плащам си да знам, че само аз и персонала който работи по моите машини
+[15:33:25] <hackman> rew1nd, т.е. ако изведнъж ми изчезне диск от машината... то той трябва да бъде описан... двма човека да са се разписали и аз да съм го удобрил
+[15:35:49] <rew1nd> ок, идеята ми беше, че е добра практика, когато една машина е отдалечена, човек да държи данните си на нея криптирани. Надявам се, съм прав за това.
+[15:37:53] <rew1nd> в случая това е уредено посредством подизпълнител, който те освобождава от грижи за сигурността или поне така разбрах
+[15:51:53] <hackman> съгласен съм, че данните трябва да са криптирани
+[15:52:00] <hackman> не съм съгласен, че OS-а трябва да е криптиран
+[15:52:11] <hackman> губиш performance и функционалност
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:02:26] <dencho> kvo stava... za kakvo si govorite :P
+[16:03:48] <hackman> dencho, за ряпа брат... салата ще правим :)
+[16:03:56] <yulimoto> dencho: имахме бас кога ще се наспиш ? загубих бях заложил за 17:30-18:30
+[16:04:09] <hackman> dencho, кога си си легнал ?
+[16:04:25] <hackman> аз легнах в 6:30-6:45 и станах в 9:20 :)
+[16:06:56] <dencho> haha
+[16:07:05] <dencho> az si legnah kum 10:00
+[16:07:23] <dencho> btw yulimoto... 6te6e da spe4eli6, ako ne trqba6e da hoda da pla6tam smetki
+[16:07:23] <dencho> :D
+[16:07:29] <dencho> prosto si ucelil kofti den :D
+[16:07:48] <hackman> dencho, проспиваш си живота :)
+[16:07:50] <dencho> ii stanah kum 15:30
+[16:07:55] <hackman> ставаш направо за ракия :)
+[16:07:56] <dencho> hackman ne moga da se naspivam :(
+[16:09:51] <yulimoto> не знам аз мога да спя по 5 часа, но това е ... такива по 3 или 2 часа са ми вече ту мъч, просто на другата нощ ще трябва да го взема
+[16:10:47] <dencho> 5 4asa sa mi malko na mene :D
+[16:10:49] <rew1nd> hackman, аз останах доста озадачен от това сравнениеи м/у /home folder и full disk encryption http://goo.gl/s7xaZn
+[16:10:50] <wilindex> [ [Phoronix] Ubuntu 13.10 Linux Disk Encryption Performance ] - goo.gl
+[16:11:09] <hackman> аз като се зачетох във C++ книжката на Strustrup и отлепих 400 страници за 2-3часа :)
+[16:12:09] <rew1nd> естествено става дума за десктоп дистрибуция, гледам, че phoronix е правил и друг такъв бенчмарк - http://goo.gl/0cnJd7
+[16:12:10] <wilindex> [ [Phoronix] The Cost Of Ubuntu Disk Encryption ] - goo.gl
+[16:19:13] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:46:56] fityla (~fityla@213.91.217.91) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:02] Fairytale (~Svetlyo@77.70.117.169) left irc: Quit: Leaving
+[17:01:40] fityla (~fityla@213.91.217.91) left irc: Quit: Leaving
+[17:13:47] <KacanuH> rew1nd, абе че се присетих, ти защо не искаш да си говориш с мен?
+[17:35:11] <yulimoto> hackman: при теб е просто припомняне 400 страници, за други тези страници може да са най-трудните в живота им ;P
+[17:37:11] <hackman> yulimoto, не бе... учих
+[17:37:15] <hackman> съвсем съвестно
+[17:37:23] <hackman> имаше неща които изобщо не знаех за C++
+[17:37:55] <hackman> и са ми останали още 200 страници които реших, че неискам и да знам :)
+[17:43:34] <yulimoto> хахах ако отидеш и си вземеш изпита с 3 часа четене, ще ми кръстосаш очите. to  html се учи за толкова (отгоре отгоре)  ;P
+[17:44:10] <rew1nd> KacanuH, днес бях сигурен, че ми вдигна ти и после се сетих да питам Веселина :D Извинявай, другия път ще те позная
+[17:54:25] <phalaaxx> за 2-3 часа - това прави по 18-27 секунди на страница ;)
+[17:56:35] <yulimoto> rew1nd: KacanuH: чата не ви стига вече гълъбчета.
+[17:56:54] <phalaaxx> hackman ако продължаваш в същия дух ще станеш като андроида (Data) от StarTrek
+[17:56:59] <phalaaxx> :)
+[17:57:41] <yulimoto> phalaaxx: hackman 100% e прескачал това което му е доста добре известно. Пък и "имаше неща които изобщо не знаех за C++" говори че е имало доста ясни неща :)
+[17:57:48] <rew1nd> yulimoto, така е - крайно време е да ходим на бира :)
+[17:58:25] <yulimoto> rew1nd: бай дъ уей ти ямбол го отложи май :)
+[17:58:27] <phalaaxx> аз още обмислям дали си заслужава усилието да ходя до Телерик да се пробвам да ги накарам да ми оправят името
+[17:59:13] <phalaaxx> вчера пратих въпрос по емайл и... отговор няма
+[17:59:19] <yulimoto> да не са те писали Phalaaxx Zafirov :)
+[17:59:40] <phalaaxx> не, писали са ме Bojin
+[17:59:50] <phalaaxx> което е против общоприетите ни правила за транслитерация
+[17:59:55] <yulimoto> a to e dz  ли ?
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:02] <phalaaxx> zh
+[18:00:51] <yulimoto> няма смисъл според мен, в бг всеки ще те разбере, ако си навън ще трябва да им разкажеш все някога за абсурдистан ;П
+[18:02:41] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:02:45] <rew1nd> yulimoto, да, вместо да ходим на гости на възрастна роднина, взе че тя ни дойде на гости... но това не променя нещата, пак ще дойда
+[18:03:15] <rew1nd> phalaaxx, само ни дръж в течение за да знаем, кога да се организираме за бирата :)
+[18:03:33] <rew1nd> абе... кога стана 18:11... на мен ми трябва един час до ФМИ...
+[18:04:18] <yulimoto> rew1nd: да не си женен за ям_булка ?
+[18:04:50] <rew1nd> не съм още ама...
+[18:05:03] <rew1nd> айде лека ви :)
+[18:05:09] rew1nd (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Quit: Page closed
+[18:05:57] <phalaaxx> той па, Page closed...
+[18:06:09] <phalaaxx> сякаш току що затвори една страница от живота си :D
+[18:07:57] <hackman> аз ще закъснея за ФМИ
+[18:27:55] Nick change: ndyakov -> ndyakov|away
+[18:32:26] hackman (~hackman@management.1h.com) left irc: Ping timeout: 260 seconds
+[18:50:47] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[18:52:16] fityla_ (~AndChat20@85.118.193.173) joined #telerikacademy.
+[18:58:35] rew1nd (~yaaic@85.118.193.191) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:17:27] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[19:38:16] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) joined #telerikacademy.
+[19:38:35] Nick change: hackman -> Guest20414
+[19:39:29] Nick change: Guest20414 -> azilian
+[19:39:44] <azilian> nqkoi sluchaino da e svalil lekciqta ot 4-i
+[19:39:46] <azilian> zabravil sum da q save-na
+[19:39:48] <azilian> i q nqma :(
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:28:46] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:16:05] <Deyan> мамка му днес проспах лекцията по мрежова сигурност, а си знаех че като се прибера трябва да гледам нещо
+[21:23:06] Fairytale (~Svetlyo@77.70.117.169) joined #telerikacademy.
+[21:24:11] <Fairytale> Deyan, tozi CPU na 20 gradusa li raboti ili e nqkakav maitap?
+[21:24:26] <Deyan> толкова си го натоварил
+[21:24:34] <Fairytale> Stiga be
+[21:24:37] <Deyan> еее
+[21:24:40] <Fairytale> :-)))
+[21:25:14] <Fairytale> Kakvi sa tezi 20 gradusa, da ne sum na severniq polus
+[21:25:36] <Fairytale> Nqma beli mechki okolo men
+[21:27:33] azilian (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) left irc: Ping timeout: 245 seconds
+[21:31:19] <Fairytale> Nai posle uspqh da pusna WOOW na ultra grafics
+[21:32:13] <Fairytale> Molq se obache da mi trugne LAN kartata na linuxa
+[21:39:08] fityla_ (~AndChat20@85.118.193.173) left irc: Quit: Bye
+[21:46:18] <Fairytale> Drugo si e obache na noviq komp
+[21:59:31] <rew1nd> Fairytale, cat /proc/cpuinfo ? :-)
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:07] <Fairytale> sec
+[22:00:11] <Fairytale> ama ne
+[22:00:15] <Fairytale> na WIN sum
+[22:00:25] <Fairytale> sSega ste kachvam Slackware
+[22:00:32] <Fairytale> 6800 mislq beshe
+[22:01:00] <Fairytale> Kato gi instalna ste linkna
+[22:04:42] <Fairytale> Kato gledam drugite I3 i na men tolkova mi se merna predi da mahna linuxa System Bogomips 6784.74
+[22:09:00] rew1nd1 (~teo@46.238.29.142) joined #telerikacademy.
+[22:17:28] <Fairytale> Otivam da instalvam. Stiskaite palci da trugne lana kartata che ne mi se misli
+[22:18:02] Fairytale (~Svetlyo@77.70.117.169) left irc: Quit: Leaving
+[22:35:20] azilian (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[22:35:42] Nick change: azilian -> Guest63801
+[22:36:12] rew1nd (~yaaic@85.118.193.191) left irc: Ping timeout: 250 seconds
+[22:41:29] Fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[22:41:47] <Fairytale> Vsichko trugna
+[22:42:00] <Fairytale> Samo Audigy-to mai e problemno
+[22:43:47] <Fairytale> vendor_id       : GenuineIntel
+[22:43:47] <Fairytale> cpu family      : 6
+[22:43:47] <Fairytale> model           : 58
+[22:43:47] <Fairytale> model name      : Intel(R) Core(TM) i3-3240 CPU @ 3.40GHz
+[22:43:47] <Fairytale> stepping        : 9
+[22:43:48] <Fairytale> microcode       : 0x12
+[22:43:50] <Fairytale> cpu MHz         : 2142.000
+[22:43:52] <Fairytale> cache size      : 3072 KB
+[22:43:54] <Fairytale> physical id     : 0
+[22:43:56] <Fairytale> siblings        : 4
+[22:43:58] <Fairytale> core id         : 1
+[22:44:00] <Fairytale> cpu cores       : 2
+[22:44:02] <Fairytale> apicid          : 3
+[22:44:04] <Fairytale> initial apicid  : 3
+[22:44:06] <Fairytale> fpu             : yes
+[22:44:08] <Fairytale> fpu_exception   : yes
+[22:44:10] <Fairytale> cpuid level     : 13
+[22:44:12] <Fairytale> wp              : yes
+[22:44:16] <Fairytale> flags           : fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush dts acpi mmx fxsr sse sse2 ss ht tm pbe syscall nx rdtscp lm constant_tsc arch_perfmon pebs bts rep_good nopl xtopology nonstop_tsc aperfmperf eagerfpu pni pclmulqdq dtes64 monitor ds_cpl vmx est tm2 ssse3 cx16 xtpr pdcm pcid sse4_1 sse4_2 popcnt tsc_deadline_timer xsave avx f16c lahf_lm arat epb xsaveopt pln pts dtherm tpr_shadow vnmi flexpriorit
+[22:44:21] <Fairytale> y ept vpid fsgsbase smep erms
+[22:44:23] <Fairytale> bogomips        : 6800.48
+[22:44:25] <Fairytale> clflush size    : 64
+[22:44:27] <Fairytale> cache_alignment : 64
+[22:44:29] <Fairytale> address sizes   : 36 bits physical, 48 bits virtual
+[22:44:31] <Fairytale> Basi spama
+[22:44:37] <Fairytale> rew1nd1, linknah go
+[22:45:03] rew1nd (~yaaic@85.118.193.185) joined #telerikacademy.
+[22:47:15] <Fairytale> rew1nd, vidq li go ili da linkvam pak
+[22:47:53] Guest63801 (~hackman@wolf.yuhu.biz) left irc: Remote host closed the connection
+[22:49:05] <Fairytale> Nqmam zvuk na Audigyto i igrata zagrubqva
+[22:53:22] <Fairytale> Mai ima :-)
+[22:53:51] <Fairytale> Obache Volume mi stoi na 0, promenqm go i pak e 0 a zvuk ima
+[22:56:11] <rew1nd1> да, идеално е
+[22:56:45] rew1nd (~yaaic@85.118.193.185) left irc: Quit: Yaaic - Yet another Android IRC client - http://www.yaaic.org
+[22:57:31] <rew1nd1> две ядра, четири нишки, хубава турбо честота
+[22:58:43] <rew1nd1> lspci | grep -i vga
+[22:59:40] <rew1nd1> а за звуковата карта, audigy винаги са ми създавали проблеми, както и creative като цяло. Много намразих тази компания с един техен live 24bit навремето
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:13] <rew1nd1> особено когато разбрах, че примерно от десетилетие изобщо не се занимават с хардуер, а само със софтуера за звуковите им карти
+[23:05:10] <Fairytale> root@Svetlyo:~# lspci | grep -i vga
+[23:05:10] <Fairytale> 01:00.0 VGA compatible controller: NVIDIA Corporation GK106 [GeForce GTX 650 Ti] (rev a1)
+[23:05:30] <rew1nd1> добре звучи
+[23:05:34] <rew1nd1> памет ?
+[23:05:43] <rew1nd1> не само на картата, също на машината
+[23:06:01] <Fairytale> Ami na minalia comp nqmashe problem, ne mi se vqrva da e sega ot 64bit OS
+[23:06:03] <rew1nd1> особено ако ѝ знаеш латентностите, на които работи в момента и с каква тактова честота е
+[23:07:40] <Fairytale> /proc/meminfo izlizat mngo
+[23:07:43] <Fairytale> mnogo
+[23:07:53] <Fairytale> free
+[23:08:10] <Fairytale>             total       used       free     shared    buffers     cached
+[23:08:10] <Fairytale> Mem:       8112488    1750028    6362460          0      65496     732940
+[23:08:10] <Fairytale> -/+ buffers/cache:     951592    7160896
+[23:08:58] <Fairytale> A videoto trqbva da e TI boost, nikade ne go pishe
+[23:10:54] <rew1nd1> пише го на картата :)
+[23:11:23] <rew1nd1> паметта, няма как да ѝ разбереш тактовата честота с meminfo
+[23:11:34] <Fairytale> s kakvo moga?
+[23:12:22] <rew1nd1> sudo /usr/sbin/dmidecode | grep -i "current speed"
+[23:12:26] <Fairytale> Memory Device
+[23:12:27] <Fairytale>         Array Handle: 0x005C
+[23:12:27] <Fairytale>         Error Information Handle: No Error
+[23:12:27] <Fairytale>         Total Width: 64 bits
+[23:12:27] <Fairytale>         Data Width: 64 bits
+[23:12:27] <Fairytale>         Size: 4096 MB
+[23:12:29] <Fairytale>         Form Factor: DIMM
+[23:12:31] <Fairytale>         Set: None
+[23:12:33] <Fairytale>         Locator: ChannelA-DIMM1
+[23:12:35] <Fairytale>         Bank Locator: BANK 1
+[23:12:37] <Fairytale>         Type: DDR3
+[23:12:39] <Fairytale>         Type Detail: Synchronous
+[23:12:41] <Fairytale>         Speed: 1600 MHz
+[23:12:43] <Fairytale>         Manufacturer: 04CB
+[23:12:47] <Fairytale>         Serial Number: 8CF60000
+[23:12:49] <Fairytale>         Asset Tag: 9876543210
+[23:12:51] <Fairytale>         Part Number: 10242397
+[23:12:53] <Fairytale>         Rank: 1
+[23:12:55] <Fairytale>         Configured Clock Speed: 1600 MHz
+[23:12:57] <Fairytale> E ti si gotov sysadmin :-)
+[23:13:15] <Fairytale> root@Svetlyo:~# /usr/sbin/dmidecode | grep -i "current speed"
+[23:13:15] <Fairytale>         Current Speed: 3400 MHz
+[23:13:34] <Fairytale> Tova trqbva da e CPU to
+[23:13:37] <rew1nd1> не, това вероятно е CPU
+[23:13:47] <rew1nd1> горе пише - configured clock speed
+[23:14:10] <Fairytale> s dmidecode go izkarah
+[23:15:06] <rew1nd1> латентностите, можеш да ги видиш от биос-а
+[23:15:06] <Fairytale> Abe edin chuval s pari
+[23:16:58] <Fairytale> Kutiqta e hubava ama dobre che m ise speche che ako bqh oburnal vnimanie na cenata ... :-)
+[23:18:31] <Fairytale> Sus zahranvaneto 250lv mai idva
+[23:19:01] <Fairytale> Ama takava kutiq ne sum imal nikoga
+[23:19:42] <rew1nd1> десктопите стават все по-скъпи и трудно достъпни играчки, каквито са били в самото начало
+[23:21:45] <Fairytale> To laptop mi izglejda po golqma oferta obache iskam desktop
+[23:22:30] <rew1nd1> десктопа винаги ще бъде средно два до три пъти по-производителен от най-бързите лаптопи, именно поради power environment-a, в който трябва да работят
+[23:22:44] <Fairytale> To napravo moje da dadesh bezkrai pari
+[23:22:57] <Fairytale> Az taka kato zapochnah da pravq muzika v kolata...
+[23:22:59] <rew1nd1> а.. то с всяко нещо е така
+[23:23:06] <Fairytale> 1000lv mi se vijdaha mnogo
+[23:23:23] <Fairytale> obache kato q napravih se zaribih oste
+[23:23:32] <Fairytale> i slagam oste i oste ostee
+[23:23:38] <Fairytale> Stanaha 3 000lv
+[23:23:50] <Fairytale> a imam chuvstvoto che nqmam nisto
+[23:24:06] mihail_m (~mike@77.70.49.155) left irc: Ping timeout: 260 seconds
+[23:24:39] <Fairytale> Ako trugnesh da pravish muzika v kolata i 10 000lv nqma da ti stignat
+[23:24:57] <rew1nd1> sudo lshw -short -C memory с това можеш да видиш и латентностите
+[23:25:24] <rew1nd1> за това трябва да се търси баланс във всичко :)
+[23:25:52] <Fairytale> root@Svetlyo:~# lshw -short -C memory
+[23:25:52] <Fairytale> -su: lshw: command not found
+[23:25:54] <rew1nd1> въпреки, че аз самия не спазвам това правило - нямам кола (или може би го спазвам прекалено стриктно...)
+[23:25:59] <rew1nd1> е.. инстал
+[23:26:12] <Fairytale> Loshoto e che posle nqma prodavane
+[23:26:37] <rew1nd1> имах едно приятелче, което започна да се занимава с това преди 15 години
+[23:26:53] <Fairytale> Az kato prodadoh kolata predi 2-3 sedmici nikoi ne iskashe muzika a i edvam mi izvadiha 10 000lv
+[23:27:02] <rew1nd1> говореше, че единственото, което крепяло бизнеса му е именно насищането на хората, които си купуват озвучение за колите...
+[23:27:06] <Fairytale> i si svalih muzikata
+[23:27:20] <Fairytale> 100lv na vqtura za svalqne
+[23:27:25] <rew1nd1> мине не мине месец-два и идват отново за още
+[23:29:53] <rew1nd1> ще ти излезе нещо такова:
+[23:29:53] <rew1nd1> H/W path           Device      Class       Description
+[23:29:53] <rew1nd1> ======================================================
+[23:29:53] <rew1nd1> /0/0                           memory      64KiB BIOS
+[23:29:53] <rew1nd1> /0/4/5                         memory      256KiB L1 cache
+[23:29:53] <rew1nd1> /0/4/6                         memory      1MiB L2 cache
+[23:29:53] <rew1nd1> /0/4/7                         memory      6MiB L3 cache
+[23:29:54] <rew1nd1> /0/26                          memory      12GiB System Memory
+[23:29:54] <rew1nd1> /0/26/0                        memory      4GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+[23:29:55] <rew1nd1> /0/26/1                        memory      2GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+[23:29:55] <rew1nd1> /0/26/2                        memory      4GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+[23:29:56] <rew1nd1> /0/26/3                        memory      2GiB DIMM DDR3 Synchronous 1600 MHz (0.6 ns)
+[23:30:12] <rew1nd1> това 0.6 ns е CAS Latency
+[23:30:40] <rew1nd1> по принцип трябва да се вижда и от dmidecode, но поради някаква причина, ако го няма след speed в скобички, може да се види и така
+[23:30:58] <Fairytale> Emi ako si fen na muzikata chuvstvoto e neupisuemo, kato efekta na narkoticite :-) Obache sled mesec veche si i se nasladil i chuvstvoto izchezva
+[23:31:05] <Fairytale> i iskah oste i oste ...
+[23:31:21] <Fairytale> slagash oste i pak sled mesec 2 iskah oste
+[23:31:35] <rew1nd1> https://en.wikipedia.org/wiki/Memory_latency според википедията моята памет е 1600 мхц, вероятно CAS 9
+[23:31:36] <wilindex> [ CAS latency - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[23:32:28] <rew1nd1> тъй като съм фен на погледозамъгляващия бас, те разбирам чудесно какво имаш предвид, но не мисля, че това е от такава есенциална важност в едно превозно средство. Предпочитам да си го имам вкъщи това удобство обаче :)
+[23:33:00] <Fairytale> Da obache ako prekarvash poveche vreme v kolata otkolkot  v kasti? :-)
+[23:33:40] <Fairytale> A i v kusti ima golqm problem sus susedite
+[23:34:44] <Fairytale> Zvunqt ti na vratata i si mislqt che ima zemetresenie a to e ot bas a :-)
+[23:35:50] <rew1nd1> хаха, случвало ми се е, да :) но не съм прекалявал често, а и просто си има часове, в които това е позволено
+[23:36:07] <rew1nd1> ако човек не прекалява и с това си няма проблеми
+[23:37:04] <Fairytale> Vij go tova http://www.youtube.com/watch?v=8BcR3Iy6rHQ
+[23:37:04] <wilindex> [YouTube] Title: "CRAZY" 30,000 WATT BASS DEMO  4 18" Woofers -  Nephew and Friend | Uploader: meade916 | Uploaded: 27/08/2011, 13:22 | Duration: 5mins 1secs | Views: 390,258 | Comments: 498 | Likes: 1,366 | Dislikes: 59
+[23:49:15] <rew1nd1> това е малко (МАЛКО) прекалено :)
+[23:55:47] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[00:00:00] --- Thu Dec 12 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

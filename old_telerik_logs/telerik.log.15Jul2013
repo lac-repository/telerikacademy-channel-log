@@ -1,0 +1,360 @@
+
+00:02 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+00:08 -!- Informer [Informer@78.90.229.234] has quit [Quit: C ya!]
+01:17 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+02:13 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+02:48 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+08:11 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+08:34 -!- angie_bg [~angie@77.236.189.210] has joined #telerikacademy
+09:07 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+09:22 -!- dencho-at-work [4d463cda@gateway/web/freenode/ip.77.70.60.218] has joined #telerikacademy
+09:23 < dencho-at-work> dobro utro piqnici
+09:26 -!- _NEKTAR_ [~nektar@176.12.19.179] has joined #telerikacademy
+09:29 < KrasiGa> а за трезвениците?
+09:35 -!- KpeTeHoug [~GT@212.36.13.10] has joined #telerikacademy
+09:35 < KpeTeHoug> бриутру
+09:42 < dencho-at-work> KrasiGa: za tqh nqma :P
+09:42 < dencho-at-work> drasti KpeTeHoug
+09:43 -!- hackman [~HackMan@management.1h.com] has joined #telerikacademy
+09:43 < KpeTeHoug> абе, по колко коментара имате  на домашните ?
+09:43 -!- hackman is now known as Guest13188
+09:43 < KpeTeHoug> аз имам само 1 :(
+09:44 -!- Guest13188 is now known as azilian
+09:44 < dencho-at-work> az mai nqmam
+09:44 -!- azilian is now known as hackman
+09:45 < dencho-at-work> kade gi gledate tiq komentari
+09:46 < KpeTeHoug> ми където submit-ваш домашните
+09:46 < dencho-at-work> aa nqmam
+09:46 < dencho-at-work> az
+09:46 < dencho-at-work> nikoi ne 6te da me komentira
+09:46 < KpeTeHoug> ми аз съм оценил 14
+09:46 < KpeTeHoug> ма реших да не прекалявам :)
+09:49 < KpeTeHoug> малко влязох в серия
+09:54 < KpeTeHoug> yulimoto мноо яка реч
+09:55 < yulimoto> хаха да бях пийнал 
+09:55 < KrasiGa> каква реч, я кажете
+09:55 < yulimoto> обаче си е така, и викам да им дам малко теоретирчен отпор
+09:56 < yulimoto> напрво заглъхнаха 
+09:56 -!- You're now known as yulimoto_away
+09:56 < yulimoto_away> изчезвам
+09:57 < KpeTeHoug> в форума KrasiGa
+09:57 < hackman> KpeTeHoug: дай линк :)
+09:58 < KpeTeHoug> http://forums.academy.telerik.com/107895/os-linux-%D1%81%D0%B8%D1%81%D1%82%D0%B5%D0%BC%D0%BD%D0%B0-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D1%8F-%D0%BC%D0%BD%D0%B5%D0%BD%D0%B8%D0%B5
+09:58 < KrasiGa> аха, тази сутрин още не съм намерила време да се поровя
+09:58 < KrasiGa> сега ще чета
+09:58 < KpeTeHoug> hackman да продължавам ли с оценяването на домашни ?:)
+09:58 < KpeTeHoug> че KrasiGa не е доволна от оценкато която съм и дал :Р
+09:59 < KrasiGa> не лъжи
+10:00 < KrasiGa> оценила съм като полезен коментар
+10:00 < KpeTeHoug> :) аз не ги виждам още :)
+10:00 < KpeTeHoug> само предположих
+10:03 -!- Deyan [~Deyan@supersonic.comelsoft.com] has joined #telerikacademy
+10:09 < hackman> yulimoto_away: много благодаря за мнението ти във форума
+10:09 < hackman> KpeTeHoug: не знам дали трябва да продължаваш с оценяването :(
+10:09 < hackman> аз нямам време защото спа на палатка пред НС
+10:10 < KpeTeHoug> не, аз не че се натискам, просто вчера ми хартиса малко време  и като ги подкарах
+10:10 < KpeTeHoug> има и плачевни неща, чак да се очуди човек
+10:10 < KpeTeHoug> и не говоря за съдържанието
+10:10 < KpeTeHoug> а ти защо така на палатка >
+10:10 < KpeTeHoug> ?
+10:15 < dencho-at-work> otka4ate li?
+10:15 < dencho-at-work> :d
+10:16 < hackman> KpeTeHoug: протестирам с другите хора на палатка пред НС
+10:16 < hackman> днес ми се спука дюшека :)
+10:17 < KpeTeHoug> яко
+10:17 < KpeTeHoug> не за дюшека, а за протеста :)
+10:20 < KrasiGa> евака за протеста hackman:
+10:20 < KrasiGa> evala
+10:25 < dencho-at-work> pfull v toz forum mnogo pisano bre
+10:25 < dencho-at-work> ne moga da smogna da go pro4eta
+10:33 < angie_bg> Моля някой, от тези който присъстват в залата, дали hackman работи на няколко машини. Напр. 2 част от последната лекция, 24-25 мин., чува се тракане на клавиатура, но екранът е статичен. Командите не се изписват в реално време. Това проблем на стрийминга ли е 
+10:33 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+10:33 -!- You're now known as yulimoto
+10:35 < yulimoto> hackman: за нищо :) мотивите ми са въпрос на убеждения ;P 
+10:36 < yulimoto> hackman: ха ама аз мислех, че сте за събота и неделя. до края ли ще седите ? 
+10:37 < dencho-at-work> mi to dneska 4eta, 4e imalo 20 4oveka da piqt kafe
+10:37 < dencho-at-work> qvno tva be6e celta na ore6arski
+10:43 < yulimoto> dencho-at-work: не вярвам тенденцията да заглъхне, по-скоро се прегрупират нещата. Но мен ме е яд че тия се праят на луди, че и Вигенин се изцепил, че ще си поговри с френския и немски посланик. Направо взе да ми писва от мирни работи, ама ко да прайш иначе ще има правокации и вкарат ли си лайната по тоя начин протеста отива на кино. 
+10:44 < dencho-at-work> :)
+10:45 < Deyan> hackman: довечера да мина ли с малко кебабчета и бира ? Няма да те оставим гладен
+10:51 -!- plamer [~Plamer@84.40.92.7] has quit [Ping timeout: 240 seconds]
+10:54 -!- sto|yan [~chatzilla@195.34.115.66] has joined #telerikacademy
+10:54 -!- sto|yan is now known as sto|away
+11:03 < hackman> Deyan: аз съм много злоят... храна не ми носете
+11:07 < KpeTeHoug> само повече бира явно
+11:13 < dencho-at-work> az za tva puk qm si4ko :D
+11:17 < Deyan> hackman: е ми тогава довечера ще мина с картофки и бира!
+11:17 < hackman> аз отивам към 12
+11:18 < hackman> защото все пак искам да се видя и със жена си :)
+11:20 < Deyan> хахах, е ми то по това време някъде ще се весна и аз предполагам, освен ако не съм прекалил по-рано с бирата
+11:20 < hackman> :)
+11:21 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+11:22 < dencho-at-work> kak uspqvate da se naspivate be hora?!
+11:22 < hackman> аз нямам никакви грижи :)
+11:22 < hackman> по принцип така си спя :)
+11:26 < dencho-at-work> :]
+11:26 < dencho-at-work> e ot 12 do kolko spi6 sutrin?
+11:27 < hackman> и във вкъщи и на палатката спя от 3-4 до 7 макс 8
+11:27 < KpeTeHoug> до 7
+11:27 < KpeTeHoug> смятам че стига :Р
+11:27 < dencho-at-work> vie ne ste normalni
+11:28 < dencho-at-work> az ako spa po malko ot 9-10 4asa posle edvam edvam kretam
+11:28 < dencho-at-work> :D
+11:29 < KpeTeHoug> то затова едвам креташ
+11:29 < KpeTeHoug> 7 часа са такън
+11:29 < KpeTeHoug> *тамън
+11:30 < dencho-at-work> neee znam
+11:30 < dencho-at-work> struvat mi se malko
+11:31 < KpeTeHoug> млад си ти още, млаааад
+11:31 < KpeTeHoug> силата слаба в теб още е
+11:33 < dencho-at-work> :D
+12:00 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+12:04 < Deyan> къде се пазеше лога от чата
+12:05 < hackman> Deyan: с какъв софтуер си ?
+12:06 < Deyan> chat zilla ако това питаш
+12:06 < hackman> Deyan: търси някъде в ~/.chatzilla или ~/.mozilla/chatzilla/
+12:06 < Deyan> аз защо си мислех че се логва и някъде на гризли
+12:07 < Deyan> иначе за хисторито когато съм на линия знам
+12:07 < hackman> хахахаха :)
+12:07 < hackman> аз си имам log
+12:07 < hackman> при мен :)
+12:07 < hackman> за момемнтите в които съм бил online :)
+12:12 -!- BM_boyan [~BM_boyan@87.119.67.173.client.entry.bg] has joined #telerikacademy
+12:14 -!- BM_boyan [~BM_boyan@87.119.67.173.client.entry.bg] has left #telerikacademy []
+12:16 < yulimoto> Deyan: виж в /tmp ъпдейтва се на час. ако за това става въпрос.
+12:25 < hackman> yulimoto: можеш ли да ми извадиш списъка на сървърите в irc мрежата
+12:25 < hackman> че на мен /links не ми го разпознава като команда :0
+12:27 < dencho-at-work> nqma da moje s links
+12:27 < yulimoto> само с ./links li se вади 
+12:27 < dencho-at-work> http://freenode.net/irc_servers.shtml
+12:27 < dencho-at-work> eto vi gi
+12:27 < dencho-at-work> hide servers sa s links nqma kak :D
+12:28 < dencho-at-work> no go nqma bulgarskia
+12:28 < hackman> ха... кой хоства hichcoock ?
+12:28 < dencho-at-work> onlinedirect
+12:33 < dencho-at-work> a ima go we
+12:33 < dencho-at-work> az ne sam go vidql
+12:34 < dencho-at-work> ima i rumanski server haha
+12:40 < Deyan> yulimoto: [ Error reading yum.log: Permission denied ]
+12:41 -!- BM_boyan [~BM_boyan@87.119.67.173.client.entry.bg] has joined #telerikacademy
+12:42 -!- Krumov [~chatzilla@188-254-202-92.sf.ddns.bulsat.com] has joined #telerikacademy
+12:43 < Krumov> Hi
+12:50 < yulimoto> Deyan: мислех, че говориш за лога от канал #telericacademy, който има копие в /tmp-а на гризлито.
+12:52 < phalaaxx> http://mashable.com/2013/07/11/miscrosoft-helped-nsa-spy-hotmail-skype-outlook/
+12:53 -!- angie_bg [~angie@77.236.189.210] has quit [Read error: Connection reset by peer]
+12:55 -!- angie_bg [~angie@77.236.189.210] has joined #telerikacademy
+12:55 < yulimoto> phalaaxx: вече е вест ако някой не е съдействал 
+12:55 < hackman> phalaaxx: само MS да бяха :)
+12:55 -!- angie_bg [~angie@77.236.189.210] has left #telerikacademy []
+13:01 -!- BM_boyan [~BM_boyan@87.119.67.173.client.entry.bg] has left #telerikacademy []
+13:07 < phalaaxx> да де, амаааа.... "Absolute power corrupts absolutely"
+13:07 < sto|away> хъхъхъ http://www.plex86.org/linux/Hotmail-Platform-is-Hosted-on-Unix-88.html
+13:07 < phalaaxx> докъде ще стигнат NSA ако продължават да правят каквото си правят и ние лекомислено го подминаваме с "не ми пука, все ми е тая дали ще прочетат какво пиша в скайп" (например)
+13:07 < sto|away> старо, ама златно
+13:08 -!- BM_boyan [~BM_boyan@87.119.67.173.client.entry.bg] has joined #telerikacademy
+13:12 -!- BM_boyan [~BM_boyan@87.119.67.173.client.entry.bg] has left #telerikacademy []
+13:13 < yulimoto> phalaaxx: тук си прав, аз съм спорил с университетски преподавател, който щото нямал какво да крие не се притеснявал. 
+13:14 < yulimoto> все си мисля, че има феодали щото има крепостни 
+13:14 < phalaaxx> добре казано, не се бях замислял за това :D
+13:26 < hackman> yulimoto: според мен, от средновековието до сега, нищо не се е променило в типа управление. само техниките за неговото налагане са се променили
+13:26 < hackman> това, че днес му каваме демокрация, по никакъв начин не го прави различно от средновековието
+13:27 < hackman> и преди и сега, силните винаги покоряват слабите(овцете)
+13:27 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+13:28 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+13:31 -!- phalaaxx1 [~bozhin@212.5.158.114] has joined #telerikacademy
+13:31 < yulimoto> hackman: според мен силни и слаби винаги ще има в това няма лошо, проблема е че робите не мечтаят да са свободни, те мечтаят да са господари. И така няма начин да се променят нещата, колелото се върти .... 
+13:32 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Read error: No route to host]
+13:33 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Ping timeout: 250 seconds]
+13:33 < hackman> yulimoto: да, 100% аналогично на ситуацията в средновековието
+13:34 < yulimoto> yulimoto: тъй е за съжаление..
+13:34 -!- dencho-at-work [4d463cda@gateway/web/freenode/ip.77.70.60.218] has quit [Quit: Page closed]
+13:36 -!- phalaaxx1 [~bozhin@212.5.158.114] has quit [Ping timeout: 276 seconds]
+13:39 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+13:51 -!- dencho-at-work [4d463cda@gateway/web/freenode/ip.77.70.60.218] has joined #telerikacademy
+13:51 < dencho-at-work> yo
+13:51 < KpeTeHoug> йо йо
+13:55 < dencho-at-work> hriskata doide li ?
+13:56 -!- vlado [~vlado@212.5.158.101] has joined #telerikacademy
+13:56 < vlado> Zdraveite
+13:57 < vlado> Kogato napravq ls, kak da razbera koi neshta sa papki, i koi - failove?
+13:57 < dencho-at-work> a taka
+13:57 < dencho-at-work> :P
+13:57 < dencho-at-work> napravi ls -l
+13:57 < dencho-at-work> i posle ls -la
+13:57 < dencho-at-work> i posle ls -lah
+13:57 < dencho-at-work> l - long list format
+13:57 < dencho-at-work> a - all
+13:58 -!- vlado [~vlado@212.5.158.101] has quit [Remote host closed the connection]
+14:00 -!- vlado [~vlado@212.5.158.101] has joined #telerikacademy
+14:01 < dencho-at-work> vlado kogato napravi6 ls -l v na4aloto na faila predi permissionsite ima edna bukva d
+14:01 < dencho-at-work> koqto kazva 4e tova e direktoria
+14:02 < dencho-at-work> [dterziiski@dterziiski-laptop ~]$ ls -l total 40 drwxrwxr-x. 2 dterziiski dterziiski 4096 Jul  2 09:16 bin
+14:02 < dencho-at-work> pf
+14:02 < dencho-at-work> drwxrwxr-x. 2 dterziiski dterziiski 4096 Jul  2 09:16 bin
+14:02 < dencho-at-work> de
+14:02 < sto|away> ls -lF - голямото Ф-ъ ще джмъкне / за директория, * зза a+x, и @ за симлинк
+14:03 < dencho-at-work> ob6to vzeto man ls
+14:03 < dencho-at-work> :D
+14:03 < dencho-at-work> ima mnogo opciiki
+14:03 < sto|away> :) сори, че те прекъснах Денчо - писна ми да бачкам - реших да початя
+14:04 < dencho-at-work> 4udesno az puk mislq da napravq obratnoto :P
+14:04 < vlado> Mersi
+14:05 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+14:05 < vlado> Ima li nqkakav nachin za web dostap do IRC, bez da se instalira programa kato mIRC?
+14:06 < dencho-at-work> webchat.freenode.net
+14:07 < vlado> Mersi
+14:07 < dencho-at-work> :)
+14:07 -!- vlado [~vlado@212.5.158.101] has quit [Quit:  quit]
+14:08 -!- Fairytale [1000@police.executie.org] has joined #telerikacademy
+14:09 -!- vlado [d47ab072@gateway/web/freenode/ip.212.122.176.114] has joined #telerikacademy
+14:27 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+14:45 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Ping timeout: 246 seconds]
+15:00 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+15:06 -!- sto|away [~chatzilla@195.34.115.66] has quit [Read error: Connection reset by peer]
+15:06 -!- sto|away [~chatzilla@94.26.80.3] has joined #telerikacademy
+15:25  * KpeTeHoug slaps dencho-at-work with a big large mlekodaina krava
+15:25  * KpeTeHoug slaps dencho-at-work with a couple of playboy magazines
+15:53 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Ping timeout: 246 seconds]
+16:43 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+16:51 < dencho-at-work> - Мъжки полов орган с три букви? - Хоризонтално или вертикално? - Вертикално. - Мек.
+16:54 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+16:58 -!- phalaaxx [~phalaaxx@kyufte.mnet.bg] has joined #telerikacademy
+17:01 < dencho-at-work> http://www.businessinsider.com/36-year-old-seth-vidal-tragically-killed-2013-7
+17:02 -!- phalaaxx [~phalaaxx@kyufte.mnet.bg] has left #telerikacademy []
+17:03  * hackman HE WILL BE MISSED!
+17:06 -!- phalaaxx [~phalaaxx@kyufte.mnet.bg] has joined #telerikacademy
+17:07 -!- phalaaxx [~phalaaxx@kyufte.mnet.bg] has left #telerikacademy []
+17:08 < dencho-at-work> n dam
+17:08 -!- phalaaxx [~phalaaxx@kyufte.mnet.bg] has joined #telerikacademy
+17:10 -!- Fairytale [1000@police.executie.org] has quit [Remote host closed the connection]
+17:13 -!- phalaaxx1 [~bozhin@94.26.20.166] has joined #telerikacademy
+17:13 -!- phalaaxx [~phalaaxx@kyufte.mnet.bg] has left #telerikacademy []
+17:15 < phalaaxx1> баси ужаса това да се ползва irc транспорт в jabber не е лесна работа :D
+17:16 < dencho-at-work> transport?
+17:22 < phalaaxx1> не знаеш ли какво са транспортите в jabber?
+17:23 -!- phalaaxx1 is now known as phalaaxx
+17:24 -!- vlado [d47ab072@gateway/web/freenode/ip.212.122.176.114] has quit []
+17:26 < dencho-at-work> ne
+17:26 < dencho-at-work> q spodeli
+17:29 < phalaaxx> ами има услуги към jabber сървърите, така наречените транспорти с които можеш през jabber да ползваш различни IM - като AIM, ICQ, IRC, ... Facebook, Twitter, ...
+17:29 < phalaaxx> и всичко ти е в един jabber акаунт
+17:30 < phalaaxx> ако ти се наложи примерно да преинсталираш - после си настройваш jabber клиента и всички транспорти от акаунта ще са ти достъпни
+17:31 < phalaaxx> преди малко влязох тук през psi което е jabber клиент (и нищо друго) :)
+17:31 < dencho-at-work> aa iska6 da kaje6, 4e prosto izpolzva6 drug klient koito poddurja kakto XMPP taka i IRC  ?!
+17:32 < phalaaxx> не, използвам друг клиент който поддържа само XMPP
+17:32 < phalaaxx> а IRC транспорта си говори с jabber сървъра и реално за клиента всичко е XMPP
+17:33 < dencho-at-work> ahaa
+17:33 < dencho-at-work> razbrah ve4e
+17:33 < dencho-at-work> no ne vijdam smisul v ideqta :D
+17:33 < dencho-at-work> osven za security nqkakvo
+17:34 < yulimoto> phalaaxx: а сега, да видим лесно ли е да отговаряш,  както ти ме питаш защо ти е конзолен xmpp клиент ? :) 
+17:36 < phalaaxx> амии примерно предпочитания към даден IM клиент който не поддържа даден протокол, който искаш да ползваш
+17:36 < phalaaxx> както казах - psi не може да говори друго освен XMPP
+17:36 < yulimoto> то май беше руско тва или бъркам 
+17:36 < phalaaxx> но пък е най-добре развития jabber клиент който съм виждал
+17:37 < yulimoto> с кде ли си ?
+17:37 < dencho-at-work> razbrah
+17:37 < phalaaxx> в случая с IRC има и малко security, не ти виждат IP адреса :)
+17:37 < dencho-at-work> a kakvo vijdat?
+17:37 < phalaaxx> и като си наредиш транспортите в акаунта ти трябва само jabber клиент независимо къде си за да ползваш всички IM-та които иначе ползваш
+17:38 < yulimoto> да това е удобно 
+17:38 < dencho-at-work> kakuv ip adres se vijda, tozi na jabber servera?!
+17:38 < phalaaxx> а и ако клиента пази логове - всички логове ще са с еднакъв формат
+17:38 < phalaaxx> независимо дали са логове от ICQ, IRC, ...
+17:39 < phalaaxx> ще се вижда IP адреса на IRC транспорта
+17:39 < phalaaxx> може да ползваш google talk и IRC транспорт от произволен сървър
+17:39 < dencho-at-work> 4udni raboti se slu4vat :D
+17:39 < phalaaxx> или какъвто и да е друг транспорт в този ред мисли
+17:39 < dencho-at-work> po tozi na4in moje6 da abuse-va6 ot tozi adres ;d
+17:40 < phalaaxx> хаха да :D
+17:40 < phalaaxx> ако това ти е целта
+17:40 < dencho-at-work> vinagi na purvo mqsto prostotiqta
+17:40 < dencho-at-work> :D
+17:42 < phalaaxx> yulimoto: успях ли да отговоря добре на въпроса? :D
+17:43 < yulimoto> хм да :) 
+17:44 < yulimoto> щом dencho-at-work веднага му намери приложение - да abusva значи работата е ок
+17:44 < yulimoto> :)
+17:44 < phalaaxx> :D
+17:45 < dencho-at-work> vinagi :P
+17:46 < dencho-at-work> btw... sistemata ne me e ot4ela na poslednata lekcia
+17:46 < dencho-at-work> sux
+17:46 < dencho-at-work> :D
+17:47 < phalaaxx> това къде може да се види?
+17:48 < Deyan> dencho споко бе, ние ще се застъпим за теб като основен спамър :)
+17:49 < Deyan> phalaaxx: като си влезеш в профила под номера на студентската ти карта има кога си бил отчетен за последно
+17:50 < dencho-at-work> haha spoko sam az :P
+17:50  * dencho-at-work slaps hackman ! 
+17:51 < phalaaxx> ахаа ясно, 10x
+17:51 < phalaaxx> не бях обърнал внимание на това
+17:51 < dencho-at-work> i vse pak... kollko doma6ni se uploadnaha ?
+17:51 < hackman> dencho-at-work: що ма бииш бе батееее... аз таковате... не съм правил системката :)
+17:52 < dencho-at-work> da si znae6 :D
+17:53 < phalaaxx> http://sealedabstract.com/code/nsa-proof-your-e-mail-in-2-hours/
+17:53 < phalaaxx> да оставим NSA без работа :D
+17:54 < dencho-at-work> da! da izpolzvame gylabi :D
+17:55 < dencho-at-work> toz kakvo iska da kaje, da izpolzvame sobstveni mail serveri ?
+17:57 < dencho-at-work> haide 4ao ot mene za sega :D
+17:57 -!- dencho-at-work [4d463cda@gateway/web/freenode/ip.77.70.60.218] has quit [Quit: Page closed]
+17:58 < yulimoto> хм то аз го почнах преди година това и още има не съм преключил, просто много от хората ми пращат пощата на gmail и има едни обяснения 
+17:58 < yulimoto> пощата е основния проблем всичко друго мога да заместя 
+17:59 < yulimoto> м/у другото четох вчера един от бг блогърите gatakka и той към това призовава, дори и търсачката сменил
+18:00 < phalaaxx> би трябвало да е сравнително лесно да си препращаш пощата от gmail към друга поща за тези, които още не са разбрали че ползваш друга поща
+18:01 < phalaaxx> или ако не е възможно - да използваш нещо като fetchmail за да си издърпаш пощата от gmail (или друго място) на твоя машина
+18:01 < phalaaxx> и съответно да си я четеш в друг mail акаунт
+18:02 < yulimoto> да де ама част от хората които ми пишат не могат да си сменят адреса ми ; смятай и пак пращат на gmail щом разбрат, че така или иначе ги получавам. но да повечето си пристига при мен директно
+18:02 < phalaaxx> ами те да ти пращат там а ти им отговаряй от друга поща, рано или късно ще свикнат
+18:03 -!- sto|away [~chatzilla@94.26.80.3] has left #telerikacademy []
+18:03 < yulimoto> преди пробвах fetchmail и exim4 за гмаил, но защо да ползвам втори акаунт това не го рразбрах 
+18:04 < yulimoto> да така става но цялата процедура при мен е година 
+18:04 < yulimoto> е голяма част от пощата ми пристига директно 
+18:04 < yulimoto> особено личната 
+18:05 < yulimoto> т.е. имах и възможност и да си отсея някои от събскрипшъните
+18:10 < yulimoto> отделно ако се реши човек на домашен сървър,  къде му e ип-то да не е в residential pool. най-добре е с платена вируатлка 
+18:19 < yulimoto> а между другото някой да знае уеб майл клиент дето да подържа ел подписи ? 
+18:20 < yulimoto> squirrel има плъгин ама нещо е извън подръжка 
+18:22 < yulimoto> то аз не знам дали хората ще вземат да си правят по двама по трима сървъри (интернет АПК) но ако вземат по една двойка ключове да си направят и да ги качат на кeyserver цена няма да имат 
+18:39 -!- hackman [~HackMan@management.1h.com] has quit [Ping timeout: 276 seconds]
+18:45 -!- nveselinov [nveselinov@151.237.4.4] has quit [Quit: Leaving]
+18:46 -!- nveselinov [nveselinov@151.237.4.4] has joined #telerikacademy
+19:11 -!- nveselinov [nveselinov@151.237.4.4] has left #telerikacademy ["Leaving"]
+19:20 -!- yulimoto_ [~yulimoto_@odin.dnel.co.uk] has joined #telerikacademy
+19:20 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+19:21 -!- yulimoto_ [~yulimoto_@odin.dnel.co.uk] has left #telerikacademy []
+19:25 -!- lucho_ [~lucho@89.25.39.170] has joined #telerikacademy
+19:25 < lucho_> добра вечер
+19:46 < dencho> drasti
+19:46 < dencho> :D
+19:47 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+20:35 < dencho> http://bulgaria.actualno.com/Bylgarski-pravitelstven-syrvyr-shpionira-komputri-po-sveta-news_431464.html
+20:35 < dencho> hahaha
+20:35 < dencho> za6to me karat da se smeq
+20:35 < dencho> Âñåêè åäèí êîìïþòúð ïî ñâåòà ìîæå äà áúäå øïèîíèðàí ñâîáîäíî ÷ðåç âèðóñ îò ... áúëãàðñêè ïðàâèòåëñòâåí ñúðâúð, ñúîáùàâà „Äàðèê”.
+20:35 < dencho> Read more: http://sciencelogy.actualno.com/Bylgarski-pravitelstven-syrvyr-shpionira-komputri-po-sveta-news_431464.html#ixzz2Z8XGyvTF
+20:36 < dencho> sq ako kajat 4e tozi virus e pisan za vsi4ki operacionni sistemi!
+20:36 < dencho> :D
+20:36 < dencho> Âèðóñúò ìîæå äà èçòåãëÿ âñÿêàêâè äîêóìåíòè è äà ãè èçïðàùà íà ñúîòâåòíèòå ñëóæáè, äà âêëþ÷âà óåá êàìåðàòà è ìèêðîôîíà è äà çàïèñâà êàêâî ñå ñëó÷âà â ïîìåùåíèåòî, êàêòî è äà îòêðàäíå âñè÷êè ïàðîëè, êîèòî ïîëçâà ïîòðåáèòåëÿò.
+20:36 < dencho> toq virus moga i az da go napravq :P
+20:37 < dencho> oh oh oh lamerz
+20:40 < hackman> dencho: pak ne ti se chete kirilicata :)
+20:41 < dencho> eeee :D
+20:41 < dencho> dobre, vijte link-a
+20:41 < dencho> :P
+21:12 < lucho_> Дечо, това е windows кирилица
+21:28 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+21:31 -!- yulimoto [~yulimoto@wolf.yuhu.biz] has quit [Ping timeout: 240 seconds]
+--- Log closed пн юли 15 21:31:52 2013
+--- Log opened пн юли 15 22:03:06 2013
+22:03 -!- yulimoto [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+22:03 -!- Irssi: #telerikacademy: Total of 11 nicks [1 ops, 0 halfops, 0 voices, 10 normal]
+22:03 -!- Irssi: Join to #telerikacademy was synced in 7 secs
+22:18 -!- azilian [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+22:18 -!- azilian is now known as HackMan
+22:32 < yulimoto> dencho: виж обаче коментара на разбирателя отдолу 
+22:32 < yulimoto> спиридонов
+22:33 < yulimoto> извинявам се спиртомиров
+22:47 -!- plamer [~plamer@84.40.92.7] has left #telerikacademy []
+22:49 -!- Informer [Informer@78.90.229.234] has joined #telerikacademy
+22:54 -!- BM_boyan [~BM_boyan@85.187.248.24] has joined #telerikacademy
+23:00 -!- BM_boyan [~BM_boyan@85.187.248.24] has left #telerikacademy []
+23:16 -!- HackMan [~HackMan@wolf.yuhu.biz] has left #telerikacademy []
+23:32 -!- Krumov [~chatzilla@188-254-202-92.sf.ddns.bulsat.com] has quit [Ping timeout: 260 seconds]

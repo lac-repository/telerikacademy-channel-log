@@ -1,0 +1,876 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:02:53] rewind_mobile (~yaaic@85.118.193.175) left irc: Ping timeout: 240 seconds
+[00:05:15] <phalaaxx> оф, chroot или rbac (дилема)
+[00:05:57] <phalaaxx> почвам да си мисля че хубаво rbac policy има повече смисъл от chroot еквилибристиките
+[00:15:30] rewind_mobile (~yaaic@85.118.193.162) joined #telerikacademy.
+[00:37:04] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[00:37:20] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[00:37:20] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[00:37:35] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[00:37:49] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[00:37:49] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[00:38:17] Fairytale (Fairytale@77.70.117.169) left irc: Ping timeout: 264 seconds
+[00:48:54] <phalaaxx> yulimoto тук ли си?
+[00:49:59] wilindex (~willie@91.230.230.251) left irc: Read error: Connection reset by peer
+[00:50:21] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[00:50:21] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:03:51] rewind_mobile (~yaaic@85.118.193.162) left irc: Read error: Connection reset by peer
+[01:13:17] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[01:15:57] <phalaaxx> _rewind: дай един публичен ключ за ssh :)
+[01:21:04] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) joined #telerikacademy.
+[01:21:22] <Agripina> Ima li budni
+[01:22:13] <phalaaxx> да, аз :)
+[01:22:24] <phalaaxx> ама за други не съм сигурен
+[01:24:26] <Agripina> Zashto ne spish
+[01:24:48] <Agripina> Bachkash 24h
+[01:24:55] <phalaaxx> ръчкам си по сървъра
+[01:25:00] <phalaaxx> не, в момента се забавлявам
+[01:25:12] <Agripina> Eiii bravo na teb
+[01:25:26] <Agripina> Maniak :)
+[01:25:56] <phalaaxx> :D
+[01:26:03] <Agripina> Az kato se pribera ot rabota ne mi se poglejdat pcta
+[01:26:53] <Agripina> Ti li si s nai-visok rezultst ot cursa
+[01:27:05] <phalaaxx> тц :D
+[01:27:16] <Agripina> Eee da be
+[01:27:23] <phalaaxx> пише ми че съм на 5-то място :)
+[01:27:29] <_rewind> phalaaxx, тук ли :P
+[01:27:30] <Agripina> Nqkoi te e minal
+[01:27:37] <Agripina> Daje 4ma
+[01:27:38] <phalaaxx> _rewind: не :D
+[01:27:50] <phalaaxx> _rewind: дай един public key за ssh
+[01:27:58] <phalaaxx> в скайп примерно :)
+[01:28:14] <_rewind> да, ТОЧНО в скайп още по-малко бих :)
+[01:28:16] <_rewind> по-скоро тук
+[01:28:21] <phalaaxx> предполагам съм писал недостатъчно във форума
+[01:28:24] <_rewind> секунда
+[01:28:42] <phalaaxx> бе дай някакъв key, после ще си го смениш като ти е зор
+[01:28:46] <phalaaxx> генерирай си някакъв временен
+[01:31:13] bgpepi (~bgpepi@ip-80-236-203-216.dsl.scarlet.be) joined #telerikacademy.
+[01:31:36] <phalaaxx> Agripina: какво работиш?
+[01:31:45] <_rewind> паролата е като последното ти съобщение
+[01:31:56] <_rewind> phalaaxx, пратил на скайпа ти
+[01:32:28] <Agripina> Phalaaxx KrasiGa sam
+[01:32:31] <phalaaxx> каква парола какви 5GB RAM, не ми трябва парола :D
+[01:32:42] <_rewind> трябва, трябва :) в 7z архив е
+[01:32:45] <phalaaxx> ключа е да можеш ти да се логнеш
+[01:32:56] <phalaaxx> оф бе ще ти дърпам ушите
+[01:33:00] <_rewind> знам, но не искам в скайп мои публични ключове :D
+[01:33:30] <_rewind> паролата е 'генерирай си някакъв временен'
+[01:33:35] <_rewind> без ''
+[01:34:26] <phalaaxx> ок пробвай ssh на 91.230.230.251
+[01:34:30] <phalaaxx> un: rewind
+[01:34:46] <_rewind> порт ?
+[01:35:09] <_rewind> ин съм
+[01:35:13] <phalaaxx> ок
+[01:35:15] <_rewind> нямам шел :)
+[01:35:17] <phalaaxx> ssh/sftp/scp
+[01:35:21] <phalaaxx> аа да сори
+[01:35:34] <phalaaxx> windown упражнението
+[01:35:40] <phalaaxx> излез и пак влез
+[01:35:56] <phalaaxx> беше sh вместо bash
+[01:36:12] <_rewind> Linux rigel 3.11.8-grsec #3 SMP Fri Nov 22 15:21:33 EET 2013 x86_64
+[01:36:12] <_rewind> The programs included with the Debian GNU/Linux system are free software;
+[01:36:12] <_rewind> the exact distribution terms for each program are described in the
+[01:36:12] <_rewind> individual files in /usr/share/doc/*/copyright.
+[01:36:12] <_rewind> Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+[01:36:13] <_rewind> permitted by applicable law.
+[01:36:15] <_rewind> Last login: Sat Nov 23 01:44:38 2013 from 46.238.29.142
+[01:36:17] <_rewind> /usr/bin/xauth:  file /home/rewind/.Xauthority does not exist
+[01:36:19] <phalaaxx> и кажи дали работи че още не съм измислил как да разбера кой се е логнал
+[01:36:19] <_rewind> пробвал с -X
+[01:36:34] <phalaaxx> т.е. по някакъв лесен начин
+[01:36:37] <phalaaxx> иначе има как да разбера
+[01:37:00] <phalaaxx> та, sftp/scp в public_html
+[01:37:09] <phalaaxx> имаш парола за mysql във .my.cnf
+[01:37:19] <phalaaxx> и адрес rewind.bgadmin.eu
+[01:37:51] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) left irc: Quit: Bye
+[01:38:06] <_rewind> имам sftp
+[01:38:11] <phalaaxx> аа виждаш ли нещо друго в /home освен твоята директория?
+[01:38:32] <_rewind> $ ls -lh
+[01:38:33] <_rewind> total 4.0K
+[01:38:33] <_rewind> drwxr-xr-x 2 root   root   4.0K Nov 23 01:14 logs
+[01:38:33] <_rewind> drwxr-x--- 2 rewind rewind    6 Nov 23 01:13 mail
+[01:38:33] <_rewind> drwxr-x--- 2 rewind rewind    6 Nov 23 01:16 public_htm
+[01:38:54] <phalaaxx> в /home, не в /home/rewind
+[01:38:56] <_rewind> ls -lh ../
+[01:38:56] <_rewind> total 0
+[01:38:56] <_rewind> drwxr-x--- 6 rewind rewind 89 Nov 23 01:45 rewind
+[01:38:59] <_rewind> да, извинявай
+[01:39:07] <_rewind> no one else :)
+[01:39:08] <phalaaxx> да, идеален си :)
+[01:39:21] <phalaaxx> не си сам, споко :)
+[01:39:38] <phalaaxx> ама за да си говориш с останалите трябва да се ослушваш за сигнали от космоса :P
+[01:39:47] <_rewind> хехе :)
+[01:40:45] <phalaaxx> .tell KrasiGa GB?
+[01:40:45] <wilindex> phalaaxx: I'll pass that on when KrasiGa is around.
+[01:40:54] <phalaaxx> .tell Agripina GB?
+[01:40:54] <wilindex> phalaaxx: I'll pass that on when Agripina is around.
+[01:41:11] <_rewind> брех, че умен тоя willie :)
+[01:41:55] <phalaaxx> :)
+[01:42:17] <_rewind> сипахте ли си по едно таз' вечер да отпразнувате оценките
+[01:42:36] <phalaaxx> та, ако не съм сбъгясал нещо - има само 1 начин в момента да разбереш какви други потребители има на машината
+[01:43:22] <_rewind> вероятно ще ми отнеме известно време да се усетя какъв е той, предполагам
+[01:43:54] <phalaaxx> мога да ти кажа ако искаш
+[01:44:17] <_rewind> така не е интересно :)
+[01:44:27] <phalaaxx> .tell Agripina дай публичен ключ за ssh :)
+[01:44:27] <wilindex> phalaaxx: I'll pass that on when Agripina is around.
+[01:44:48] <phalaaxx> _rewind: аре де качи нещо че съм любопитен да го видя как работи
+[01:45:32] <phalaaxx> аз като си го пробвам всичко е ок
+[01:45:42] <_rewind> секунда,
+[01:48:00] <_rewind> ухаа... 4.3 МБ/с
+[01:48:26] <_rewind> но доста бързо го шейпна на 2.4-2.5
+[01:48:48] <phalaaxx> че ти какво катериш там бе? :D
+[01:49:01] <_rewind> предпоследната лекция на нетсек :)
+[01:49:11] <_rewind> само 182 мб е този път :)
+[01:49:15] <phalaaxx> оф бе
+[01:49:15] <phalaaxx> аз ти говоря за нещо php, cgi...
+[01:49:39] <_rewind> ок, ще кача и такова
+[01:49:58] <_rewind> секунда да го измисля, че по това време на денонощието съм малко... безидеен...
+[01:50:14] <_rewind> представи си щом първото нещо, което ми дойде наум беше wordpress :D :D
+[01:50:47] <phalaaxx> че какво му е лошото на wordpress?
+[01:50:55] <_rewind> нищо, но имам по-добра идея :)
+[01:51:10] <_rewind> wget https://github.com/gothfox/Tiny-Tiny-RSS/archive/1.10.tar.gz
+[01:54:17] <phalaaxx> иии какво прави то?
+[01:54:59] <_rewind> заместник на google reader
+[01:55:34] <phalaaxx> аха
+[01:56:08] <phalaaxx> не съм ползвал google reader, това вероятно обяснява защо не знам какво прави ttrss :)
+[01:56:44] <_rewind> аз до скоро ползвах друго, но останах малко разочарован и сега си имам свой тт-рсс, само че така или иначе не ми остава време да го следя така или иначе
+[01:58:19] <_rewind> какво да сложа за database name ?
+[01:58:24] <phalaaxx> добре, в общи линии - май работи
+[01:58:26] <_rewind> http://rewind.bgadmin.eu/tt-rss/install/
+[01:58:26] <wilindex> [ Tiny Tiny RSS - Installer ] - rewind.bgadmin.eu
+[01:58:31] <phalaaxx> cat ~/.my.cnf
+[01:58:56] <_rewind> client името на базата ли е ?
+[01:59:01] <phalaaxx> не
+[01:59:18] <phalaaxx> echo "show databases" | mysql
+[01:59:38] <_rewind> ERROR 2002 (HY000): Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)
+[01:59:45] <phalaaxx> иии верно ли бе
+[01:59:49] <_rewind> мдаа
+[01:59:57] <phalaaxx> да, чакай да видя как да го fix тоя проблем...
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:00:34] <_rewind> ок :) отивам да се налея с вода, че тази 20 г. ракия ми дойде малко обезводняваща днес...
+[02:02:35] <_rewind> оп... пак премина границата от 800$, phalaaxx
+[02:03:11] <phalaaxx> да, видях го преди около  половин час
+[02:03:28] <_rewind> доста се колебая дали да не си напазарувам една 600GH
+[02:03:42] <_rewind> ще ми излезе около 7 биткойна с тази цена
+[02:08:16] <_rewind> а някой ползвал ли е h.265 кодек с последния ffmpeg ?
+[02:09:25] <phalaaxx> ок, windows упражнение и пробвай пак :)
+[02:10:06] <_rewind> $ echo "show databases" | mysql
+[02:10:07] <_rewind> Database
+[02:10:07] <_rewind> information_schema
+[02:10:07] <_rewind> rewind
+[02:10:08] <_rewind> test
+[02:10:10] <_rewind> $
+[02:10:36] <_rewind>     It is highly recommended to enable support for CURL in PHP. (това ми го казва tt-rss
+[02:10:47] wilindex (~willie@91.230.230.251) left irc: Ping timeout: 265 seconds
+[02:12:18] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[02:12:18] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[02:12:27] <phalaaxx> миии сега ще го сложа...
+[02:12:27] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:13:42] <phalaaxx> готово
+[02:13:43] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:13:47] <phalaaxx> wilindex: тихо!
+[02:13:47] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[02:13:52] wilindex (~willie@91.230.230.251) left irc: Remote host closed the connection
+[02:14:07] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[02:14:08] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[02:14:49] <phalaaxx> тоз па да не му umount-не човек chroot-а изпод краката
+[02:15:03] <phalaaxx> че излиза и почва да пищи после
+[02:15:39] <_rewind> :)
+[02:16:23] <_rewind> зачудих се за какво друго мога да пробвам...
+[02:16:31] <_rewind> owncloud тествал ли си ?
+[02:16:43] <phalaaxx> не
+[02:16:51] <_rewind> не е хубав :)
+[02:16:58] <_rewind> но е интересно да се пробва :)
+[02:17:32] <phalaaxx> аз други неща се чудя
+[02:17:37] <_rewind> ама това е доста сериозна машина
+[02:18:02] <phalaaxx> дали си заслужава да си блъскам главата с chroots или да се пробвам да напиша някое здраво policy за rbac и да разкарам chroots от там
+[02:18:30] <phalaaxx> коя машина?
+[02:18:39] <_rewind> всяко с предимствата и недостатъците си
+[02:18:48] <_rewind> сървъра на който е бгадмин.еу
+[02:19:01] <phalaaxx> аа
+[02:19:01] <phalaaxx> ми не :D
+[02:19:09] <phalaaxx> това май е най-ниския клас сървъри на HP
+[02:19:12] <_rewind> 4х3.1гхц с 8 мб кеш/12г рам
+[02:19:13] <phalaaxx> G7-ца
+[02:21:45] <phalaaxx> това всъщност е машината с 4-те диска по 3TB
+[02:21:52] <phalaaxx> дето се ползва за backups
+[02:22:22] <_rewind> предусещам, че всеки момент ще припадна на клавиатурата и съществува голяма опасност да се събудя с qwerty на челото
+[02:22:50] <phalaaxx> това е щото ползваш qwerty клавиатура
+[02:22:57] <phalaaxx> при мен опасноста е от aoeui :D
+[02:23:07] <_rewind> тъй, тъй... така сте вие двораците
+[02:23:19] <_rewind> до скоро бях с azerty
+[02:23:51] <_rewind> но подредбата ѝ си беше чисто qwerty, просто създаваше много големи главоболия на хората, които заставаха пред нея :)
+[02:23:51] <phalaaxx> знаеш ли че на qwerty подредба можеш да напишеш "typewriter" само на top row?
+[02:24:05] <_rewind> да бе, вярно :) интересно
+[02:24:18] Action: _rewind вече се прозява доста сериозно
+[02:24:30] <phalaaxx> това е щото на търговците дето не им се учи подредба и да рекламират пишещи машини да им бъде по-лесно
+[02:24:48] <phalaaxx> тази подредба не е направена за да е удобна или за да се пише бързо на нея
+[02:24:55] <_rewind> qwerty ли ?
+[02:25:06] <phalaaxx> всъщност qwerty подредбата е направена с цел да е трудно писането на нея
+[02:25:42] <phalaaxx> за да се случва по-рядко да заклинват клавиши като се случи да натискаш бързо 2 клавиша последователно които са един до друг
+[02:25:48] <phalaaxx> това за пишещите машини
+[02:25:52] <_rewind> знам,че на бдс се правят повече удари  в минута от хората, които са се научили да пишат  на десетопръстна
+[02:26:04] <phalaaxx> миии...
+[02:26:13] <phalaaxx> всъщност БДС е доста близо до dvorak
+[02:26:17] <_rewind> това в сравнение, с хората, които са с енаучили да пишат на десетопръстна на фонетична, за да пишат на десетопръстна и на английски
+[02:26:24] <phalaaxx> което прави ученето на двете малко сложна задача
+[02:26:26] <phalaaxx> от опит го знам
+[02:26:31] <_rewind> именно за това го споменах :)
+[02:26:58] <phalaaxx> но идеята е че qwerty нарочно е направена така че да е по-бавно и по-трудно писането на нея
+[02:27:07] <_rewind> някога ми направи голямо впечатление това с бдс и именно защото ми беше доста трудно да се науча и на EN и на БДС, преминах директно на phonetic
+[02:27:16] <phalaaxx> и като пишеш думи на английски - клавиатурата те разхожда по диагонал и в кръг
+[02:27:21] <phalaaxx> за да пишеш по-бавно :)
+[02:27:27] <_rewind> вярно е :)
+[02:27:50] <phalaaxx> съответно пръстите ти изминават в пъти повече разстояние докато пишеш даден текст сравнено с dvorak за същия текст
+[02:27:53] <_rewind> на български фонетичен също, при БДС са приблизително подредени съгласни-гласни в двете страни
+[02:28:46] <phalaaxx> съответно има по-голяма вероятност да си докараш травми на ръцете ако пишеш на qwerty
+[02:28:54] <phalaaxx> но пък всяко с плюсовете и минусите както ти каза
+[02:29:07] <_rewind> phalaaxx, утре ще тествам и с owncloud :) за сега лека нощ от мен
+[02:29:08] <phalaaxx> аз щях да си докарам травма на мозъка докато се учих да пиша на dvorak
+[02:29:24] <_rewind> хаха ;) аз докато се мъчих едновременно на бдс и EN :D
+[02:29:43] <phalaaxx> мда :)
+[02:29:45] <_rewind> сега като че ли ми е ок, особено откакто се сдобих и с DAS
+[02:29:55] <phalaaxx> DAS?
+[02:29:57] <_rewind> дори ми липсва на работа
+[02:29:59] <phalaaxx> https://www.youtube.com/watch?v=fd0Ceq8PTQc
+[02:30:00] <wilindex> [YouTube] Title: Carbon Based Lifeforms - Epicentre First & Second Movement | Uploader: kavkar1 | Uploaded: 08/11/2009, 19:48 | Duration: 9mins 58secs | Views: 14,442 | Comments: 28 | Likes: 131 | Dislikes: 0
+[02:30:03] <_rewind> das keyboard
+[02:30:43] <phalaaxx> иии каква е тази клавиатура?
+[02:30:49] <phalaaxx> че нещо май съм пропуснал
+[02:31:25] <_rewind> https://upload.wikimedia.org/wikipedia/commons/7/71/Das_Keyboard_closeup.jpg
+[02:31:30] <phalaaxx> ахаа
+[02:31:38] <_rewind> механична
+[02:32:01] <_rewind> ако си чувал случайно за cherry суичове за механични клавиатури, практически тя използва именно такива
+[02:32:04] <phalaaxx> мен ми трябва клавиатура дето ония 2-та клавиша с точиците да са направени от титаний
+[02:32:09] <phalaaxx> че само ми се изтриват точиците
+[02:32:17] <phalaaxx> аз затова си сменям клавиатурите обикновено
+[02:32:18] <_rewind> с малката разлика, че за последните няколко години се намират изключително трудно т.н. кафеви суичове
+[02:32:38] <_rewind> сменяй си само клавишите, що целите клавиатури :)
+[02:32:51] <phalaaxx> е от къде да взема такива клавиши?
+[02:33:17] <_rewind> ами ако вземеш механична, имат взаимозаменяеми стандартни клавиши, тъй като са важни само механичните суичове
+[02:33:37] <phalaaxx> хм
+[02:33:37] <_rewind> дори има геймърски wasd заменяеми :) с наклон
+[02:33:52] <phalaaxx> аз си имам отделна геймърска клавиатура :)
+[02:34:04] <phalaaxx> ама ще трябва да я сменя че се е раздрънкала яко вече
+[02:34:33] <_rewind> механичните клавиатури са с голямо предимство пред останалите, тъй като при половината път на клавиша до долу регистрират натискането
+[02:34:44] <phalaaxx> предпочитам да не си чупя wasd-то (,aoe) клавишите на клавиатурата с която работя
+[02:34:45] <_rewind> което прави писането на такава многократно по-приятно
+[02:35:30] <_rewind> въпросните кафеви суичове имат т.н. feedback при преминаването на въпросната среда, което допълнително допринася за бързина и комфорт
+[02:35:48] <phalaaxx> аха
+[02:35:56] <_rewind> ще ти я покажа, като дойдеш на по бира някой ден
+[02:36:27] <_rewind> много ми се искаше да е като на снимката без никакви надписи, но се смилих над Теди :)
+[02:36:42] <_rewind> все пак аз ползвам нейния ноутбук, тя ползва моята машина през това време :)
+[02:38:02] <phalaaxx> http://www.ebay.com/itm/Max-Keyboard-Tesoro-Cherry-MX-Metal-Zinc-Keycap-Set-for-ESC-W-A-S-D-Keys/181246171055?rt=nc&_trksid=p2047675.m1851&_trkparms=aid%3D222002%26algo%3DSIC.FIT%26ao%3D1%26asc%3D261%26meid%3D2893218096105837692%26pid%3D100005%26prg%3D1088%26rk%3D2%26rkt%3D5%26sd%3D111063523722%26
+[02:38:04] <wilindex> [ Max Keyboard Tesoro Cherry MX Metal Zinc Keycap Set for ESC w A s D Keys | eBay ] - www.ebay.com
+[02:38:13] <phalaaxx> искам такова ама за FJ (UH)
+[02:38:24] <_rewind> ако си пазаруваш такава някой ден ми напомни да ти дам ваучер за магазина от който си я напазарувах аз, мисля, че бяха 10 евро или от сорта
+[02:38:49] <_rewind> това са именно клавиши за механична клавиатура, би трябвало да стават на всяка
+[02:40:17] <phalaaxx> ае да спим че е късно :)
+[02:40:24] <_rewind> тук има повечко, но нямат FJ - http://www.getdigital.eu/search?query=keys
+[02:40:25] <wilindex> [ getDigital.co.uk: keys | getDigital ] - www.getdigital.eu
+[02:40:33] <phalaaxx> мисли по този въпрос да ми дадеш съвет утре :)
+[02:40:40] <phalaaxx> chroots vs rbac :)
+[02:40:46] <_rewind> но пък имат linux keyset :)
+[02:41:11] <_rewind> хаха :) ще трябва да си поиграя някой друг месец, за да започна да ти давам съвети по тази тема :)
+[02:41:33] <_rewind> лека
+[02:41:39] <phalaaxx> лека
+[02:42:04] <_rewind> https://www.youtube.com/watch?v=X4RLyAVVsjc
+[02:42:04] <wilindex> [YouTube] Title: Lips - Everything to me (Bronze Whale Remix) | Uploader: thebronzewhale | Uploaded: 21/02/2012, 08:06 | Duration: 4mins 46secs | Views: 5,651 | Comments: 4 | Likes: 72 | Dislikes: 0
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:00:12] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:00:23] _rewind (~teo@46.238.29.142) left irc: Ping timeout: 246 seconds
+[03:03:28] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:10:37] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[03:23:07] Nick change: ndyakov -> ndyakov|away
+[03:53:35] rewind_mobile (~yaaic@85.118.193.182) joined #telerikacademy.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:00:01] rewind_mobile (~yaaic@85.118.193.182) left irc: Ping timeout: 245 seconds
+[04:01:04] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[04:29:28] rewind_mobile (~yaaic@85.118.193.186) joined #telerikacademy.
+[04:33:46] rewind_mobile (~yaaic@85.118.193.186) left irc: Ping timeout: 245 seconds
+[04:59:26] bgpepi (~bgpepi@ip-80-236-203-216.dsl.scarlet.be) left irc: Remote host closed the connection
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:46:41] rewind_mobile (~yaaic@85.118.193.169) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:28:21] rewind_mobile (~yaaic@85.118.193.169) left irc: Ping timeout: 245 seconds
+[08:59:27] rewind_mobile (~yaaic@85.118.193.180) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:04:38] rewind_mobile (~yaaic@85.118.193.180) left irc: Ping timeout: 272 seconds
+[09:16:47] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[09:31:28] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[09:38:45] Nick change: ndyakov|away -> ndyakov
+[09:59:28] rewind_mobile (~yaaic@85.118.193.163) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:04:23] anton_sh (542bc278@gateway/web/freenode/ip.84.43.194.120) joined #telerikacademy.
+[10:12:59] anton_sh (542bc278@gateway/web/freenode/ip.84.43.194.120) left irc: Ping timeout: 250 seconds
+[10:14:05] <_rewind> добро утро :)
+[10:25:25] <yulimoto> ей последен лягаш, първи ставаш
+[10:26:26] <_rewind> нещо ме дърпаше насам, а то тоя клип от последната лекция пак се счупил при конвертирането
+[10:27:19] <_rewind> опс, предпоследната
+[10:27:57] fityla (~fityla@37.157.179.200) joined #telerikacademy.
+[10:28:15] <_rewind> ето, почнахме да се посъбираме едийн по един :)
+[10:29:13] <yulimoto> да fityla e счупил вече всички wireless-и които е прихванал от the mall и сега влиза спокоен :)
+[10:29:46] <_rewind> не ви знам там заигравката :) 37.157.179.200 the mall  ли е ?
+[10:30:49] <fityla> не е
+[10:30:51] <fityla> :D
+[10:31:20] <fityla> ако ми остане време ...
+[10:31:32] <fityla> трябва да напавя малко преустройство на терасата
+[10:31:37] <fityla> и да инсталирам
+[10:31:42] <fityla> една дискретна антена
+[10:31:43] <fityla> :D
+[10:31:55] <fityla> за външна линия
+[10:32:09] <yulimoto> и сме в джаза !! the mall е наш
+[10:32:15] <_rewind> хаха :)
+[10:33:11] <fityla> това което ми се върти в главата
+[10:33:22] <fityla> да взема и RouterBoard
+[10:34:24] <yulimoto> ще пренасочваме трафика на всеки nxdomain record към наша реклама, така когато човек направи заявка към несъществуващ адресс ще попада на наша реклама
+[10:34:46] <fityla> http://www.reloadbg.com/product/395/
+[10:34:47] <wilindex> [ ReloadBG ] - www.reloadbg.com
+[10:34:51] <fityla> ето такова мисля..
+[10:36:42] <yulimoto> ами супер, после само трябва някой да уреди, кой ще купува рекламата и сме готови; докато ни усетят ще сме на карибите
+[10:37:10] <fityla> :D
+[10:37:16] <fityla> там е топло
+[10:37:18] <fityla> какво да правим
+[10:37:30] <fityla> и има много буби..
+[10:38:31] <yulimoto> добре значи другаде в Аляска ще си направим дата център
+[10:49:55] Nick change: ndyakov -> ndyakov|away
+[10:52:18] rewind_mobile (~yaaic@85.118.193.163) left irc: Ping timeout: 272 seconds
+[10:59:35] anton_sh (542bc278@gateway/web/freenode/ip.84.43.194.120) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:19] <_rewind> fityla, това много сериозно изглежда :)
+[11:04:11] <_rewind> момци, качих предпоследната лекция на гризли в lectures, като Part III на 5-та лекция
+[11:04:33] <_rewind> иска ли някой да я прегледа дали е ок, а също не съм сигурен, че трябва да се казва точно така
+[11:04:54] <_rewind> fityla, идеи дали трябва да е друго името
+[11:05:00] <yulimoto> _rewind: ако искаш ги наименовай така както ги е кръстил hackman в тубата
+[11:05:13] <yulimoto> за да няма разминаване
+[11:05:19] <_rewind> това е от twitch
+[11:05:47] <fityla>   нямам идея
+[11:05:50] <fityla> как трябва да е
+[11:06:13] <_rewind> ок, там е NetSec I - 03. Ethernet part III (attacks)
+[11:06:16] <fityla> той качил ли я в youtube
+[11:06:27] <_rewind> не съм гледал
+[11:06:50] <fityla> видях те
+[11:06:55] <fityla> в блоевград
+[11:07:02] <fityla> ще има конференция
+[11:07:13] <fityla> тяхната група
+[11:08:14] <fityla> http://www.polizei-dresden.de/
+[11:08:15] <wilindex> [ www.polizei-dresden.de ] - www.polizei-dresden.de
+[11:08:22] <fityla> добре са ги ударили
+[11:08:23] <fityla> :D
+[11:08:23] <yulimoto> https://www.youtube.com/watch?v=E2KkXoEtbJo&list=PLt1QKECwdt6jOxiZu0aYFWQKQ4tAtfCAW
+[11:08:23] <wilindex> [YouTube] Title: Network Security I - course introduction | Uploader: Marian Marinov | Uploaded: 22/11/2013, 00:57 | Duration: 1hours 28mins 41secs | Views: 54 | Comments: 0 | Likes: 1 | Dislikes: 0
+[11:08:50] <fityla> това е сайта на немската полиция.. отворето го ..
+[11:09:39] <yulimoto> просто лек дефейс
+[11:09:40] <yulimoto> :)
+[11:09:50] <fityla> :D
+[11:10:03] <_rewind> секунда... има нещо генерално сбъркано :)
+[11:10:38] <_rewind> добре де, в lectures на grizzly са наименовани до лекция 5, а тази, която качих е все едно 6
+[11:11:30] <fityla> http://blagoevgradconf.com/
+[11:11:30] <wilindex> [ BlagoevgradConf 2013 ] - blagoevgradconf.com
+[11:11:37] <fityla> ето я конференцията
+[11:11:41] <fityla> последната ..
+[11:11:44] <fityla> за тая година
+[11:11:49] <fityla> на мариянски и компания
+[11:14:22] <_rewind> дали ще има стрийм, вече си харесах две нещица
+[11:14:52] <_rewind> и сред тях не участват обяда и кафе паузата
+[11:15:15] <fityla> :D
+[11:15:20] <fityla> и аз зададох
+[11:15:21] <fityla> въпроса
+[11:15:25] <fityla> чакам отговор
+[11:16:56] <_rewind> .seen lyubenblagoev
+[11:16:56] <wilindex> Sorry, I haven't seen lyubenblagoev around.
+[11:17:59] <_rewind> .tell lyubenblagoev - искаш ли да променя имената на лекциите по NetSec I съобразно канала на hackman в youtube ?
+[11:17:59] <wilindex> _rewind: I'll pass that on when lyubenblagoev is around.
+[11:18:40] <_rewind> .tell lyubenblagoev https://www.youtube.com/playlist?list=PLt1QKECwdt6jOxiZu0aYFWQKQ4tAtfCAW
+[11:18:41] <wilindex> _rewind: I'll pass that on when lyubenblagoev is around.
+[11:18:42] <wilindex> [ Network Security I - YouTube ] - www.youtube.com
+[11:21:01] anton_sh (542bc278@gateway/web/freenode/ip.84.43.194.120) left irc: Ping timeout: 250 seconds
+[11:23:07] rewind_mobile (~yaaic@85.118.193.162) joined #telerikacademy.
+[11:42:56] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[11:50:46] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:51:19] <_rewind> аз отива пие кафе, хубав ден на всички :)
+[11:54:28] <phalaaxx> добро утро :)
+[11:56:01] <phalaaxx> _rewind малко по малко окупира канала
+[11:58:06] _rewind (~teo@46.238.29.142) left irc: Ping timeout: 264 seconds
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:06:39] <phalaaxx> fityla: за какво викаш ще го ползваш този микротик?
+[12:08:20] <fityla> с цел да си играя с нея..
+[12:08:24] <fityla> VPN-
+[12:08:37] <fityla> за вкъщи го взимам
+[12:09:02] <fityla> и по сложни сценарии ми се въртят в главата
+[12:10:35] <phalaaxx> и аз си мисля от известно време за точно този модел но на него май не може да му се сложи openwrt (засега)
+[12:11:16] <fityla> за какво ти е това
+[12:11:19] <fityla> openwrt
+[12:11:30] <fityla> микротика
+[12:11:33] <phalaaxx> да си го сложа на машинката и да си го ползвам
+[12:11:35] <phalaaxx> :)
+[12:11:42] <phalaaxx> някак по-отворено е
+[12:11:50] <fityla> микоротика
+[12:11:52] <fityla> има всичко
+[12:11:53] <phalaaxx> и по-стандартно
+[12:12:06] <phalaaxx> не всичко
+[12:12:26] <fityla> ако искаш openwrt
+[12:12:29] <fityla> вземи
+[12:12:47] <phalaaxx> аз си имам openwrt
+[12:12:48] <phalaaxx> на RB450G
+[12:12:53] <fityla> на тп-линк
+[12:13:04] <fityla> качваш му и си в играта
+[12:13:47] <phalaaxx> tp-link...
+[12:13:49] <phalaaxx> lol?
+[12:13:52] <phalaaxx> :D
+[12:14:05] <fityla> http://jarcomputers.com/l_bg/?m=7&i=546639
+[12:14:10] <wilindex> [ JAR Computers - TP-Link TL-WDR3600, Dual Band 600Mbps Dual-Band Wireless-N Router + 4Port Gigabit Switch, 2xUSB, 2 антени - Безжични мрежови карти ] - jarcomputers.com
+[12:14:20] <fityla> 106лв. с ДДС
+[12:16:02] <phalaaxx> не е лоша машинка
+[12:16:06] <phalaaxx> ама и е малко флаш-а
+[12:16:23] <phalaaxx> 8MB само
+[12:16:29] <phalaaxx> срещу 512 на RB450G
+[12:18:05] <fityla> да
+[12:18:33] <fityla> wigi
+[12:18:35] <fityla> wifi
+[12:18:36] <fityla> nqmash
+[12:18:41] <fityla> с 450
+[12:20:38] <phalaaxx> че за какво ми е? :)
+[12:20:43] <fityla> :D
+[12:20:58] <fityla> е как за какво нали ти трябва
+[12:21:07] <fityla> да подсигуриш и външна линия
+[12:21:08] <fityla> ;)
+[12:21:37] <fityla> въпреки мариянски
+[12:21:48] <fityla> аз не съм толкова голям параноик като него..
+[12:21:53] <fityla> ползвам си Wireless-a
+[12:21:55] <fityla> на лаптопа
+[12:22:14] <phalaaxx> и аз - когато си ползвам лаптопа
+[12:22:38] <phalaaxx> което се случва когато реша да пробвам нещо някъде :)
+[12:22:42] <fityla> е аз съм основно на лаптопа
+[12:23:10] <fityla> да ти кажа в момента съм с един 741nd
+[12:23:15] <fityla> tp-link
+[12:23:19] <fityla> вкъщи ..
+[12:23:29] <fityla> с dd-wrt
+[12:23:39] <fityla> не съм го рестартирал не знам от кога..
+[12:23:57] <fityla> едниствено е това че не мога да си дигна кадърен VPN
+[12:24:08] <Fairytale> Daite savet za nqkakv ruterche
+[12:24:12] <phalaaxx> да... сложи си openwrt
+[12:24:34] <Fairytale> trqbva da lovi ot ednata staq v drugata
+[12:24:48] <Fairytale> Vsichko li ste svarshi rabota ili da tarsq nesto opredeleno?
+[12:24:52] <phalaaxx> openvpn в openwrt се настройва по-лесно и работи по-добре отколкото в routeros
+[12:24:53] <Fairytale> kato marka, model
+[12:25:02] <fityla> то има PPTP
+[12:25:08] <fityla> ама много несигурен
+[12:25:09] ddmitov (~knoppix@87.120.214.102) joined #telerikacademy.
+[12:25:12] <phalaaxx> Fairytale: за през една врата в общи линии всичко би свършило работа
+[12:25:31] <Fairytale> phalaaxx mersi
+[12:25:32] <phalaaxx> fityla: кой ползва pptp :D
+[12:25:44] <fityla> dd-wrt-то
+[12:25:46] <fityla> за това казах
+[12:25:47] <fityla> че нямам
+[12:25:50] <fityla> читав
+[12:25:52] <Fairytale> Az si prodadoh kolata i sega kef, samo na kompa :-)
+[12:25:56] <fityla> OpenWrt-то
+[12:26:13] <fityla> OpenVPN-a
+[12:26:28] <fityla> май го няма в моята версия и без това е слабичък
+[12:26:32] <fityla> от към ресурси
+[12:26:42] <fityla> За рутер.. бюджет имаш ли?
+[12:27:03] <fityla> и какво ще връзваш на него
+[12:27:12] <Fairytale> Emi kolkoto po evtin, tolkova po dobre
+[12:27:32] <fityla> нещо по завъртяно ще ти трябва ли
+[12:27:34] <fityla> като функция
+[12:27:37] <Fairytale> emi da ima WIFI za edin laptop v drugata staq i edin lan kum men
+[12:27:58] <Fairytale> nisto drugo
+[12:28:05] <fityla> VPN, firewall
+[12:28:12] <fityla> WOL
+[12:28:25] <Fairytale> samo da raboti
+[12:28:30] <fityla> :D
+[12:28:33] <fityla> взимай 740
+[12:28:39] <fityla> 30лв.
+[12:28:52] <Fairytale> dobra oferta mi izglejda
+[12:30:18] <fityla> ако забива..
+[12:30:23] <fityla> слагаш му най новият фърм
+[12:30:28] <fityla> ако пак дава проблем
+[12:30:34] <fityla> едно dd-wrt
+[12:30:40] <fityla> и влизаш в джажа..
+[12:31:10] <fityla> Можеш да събуждаш машини по кабела..
+[12:31:15] <Fairytale> chakai da vidq za nqkoi link
+[12:31:16] <fityla> вързани към него
+[12:32:21] <Fairytale>  TP-LINK TL-WR740N  tova li e?
+[12:34:39] <Fairytale> http://www.stantek.com/?i=34781 tova trqbva da e
+[12:34:39] <wilindex> [ Lan components TP-LINK TL-WR740N Wireless-N nLite Router: 31.70 лв (цена 1 бр.) :: Stantek ] - www.stantek.com
+[12:35:18] <fityla> да
+[12:35:25] <Fairytale> mersi
+[12:36:14] <fityla> ако
+[12:36:21] <fityla> има още бюджет
+[12:36:23] <fityla> вземи това...
+[12:36:33] <fityla> http://shop.sky.bg/index.php?route=product/product&path=1_47&product_id=4704&sort=pd.name&order=ASC
+[12:37:02] <fityla> иначе 740ката..
+[12:37:17] <wilindex> [ TP-LINK TL-WR841N 300Mbps Wireless N Router ] - shop.sky.bg
+[12:37:54] <fityla> http://shop.sky.bg/index.php?route=product/product&path=1_47&product_id=4699&sort=pd.name&order=ASC
+[12:38:09] <Fairytale> pari ima kolkoto iskash, ama v blizkata godina nqma da bachkam i ne mislq da harcha mnogo
+[12:38:17] <wilindex> [ TP-LINK TL-WR740N 150Mbps Wireless N Router ] - shop.sky.bg
+[12:38:39] <Fairytale> Taq kola mi glutna vsichko i edvam q prodadoh za 10 000
+[12:39:12] <fityla> :D
+[12:39:15] <fityla> въпроса е ..
+[12:39:20] <fityla> бюдет дали има за това
+[12:39:27] <fityla> 841n v8
+[12:39:31] <Fairytale> abe edvam ne e, na 2rata sedmica q kupiha ama se okaza che mnogo malko hora mogat da iskarat na ruka 10 000
+[12:40:05] <Fairytale> netso ne mi otvarq linka
+[12:40:06] <fityla> 533Мхз
+[12:40:38] <fityla> малко им е бавен..
+[12:40:47] <Fairytale> otvori se
+[12:40:48] <fityla> магазина на пичагите
+[12:41:01] <fityla> трябва някой по сериозен админ да го пипне
+[12:41:05] <fityla> или нов хардуер
+[12:42:26] <Fairytale> emi tozi e mnogo malko po skup
+[12:42:38] <fityla> e 10лв. е разликата
+[12:42:48] <fityla> 740 vs 841
+[12:43:23] <Fairytale> znachi ste gledam za 841
+[12:43:42] <fityla> гледай 8ма версия
+[12:43:43] <fityla> да е
+[12:43:55] <fityla> защото другите са 400Mhz
+[12:44:27] <Fairytale> Tazi versiq ot kude moje da se vidi?
+[12:45:24] <fityla> на кутията или отдолу на рутера
+[12:45:47] <Fairytale> qsno
+[12:46:03] <Fairytale> emi znachi veche e izbran :-)
+[12:46:10] <Fairytale> Mersi za pomosta
+[12:46:12] <fityla> ако има ядове ..
+[12:46:19] <fityla> псоледен ъпдейт..
+[12:46:24] <Fairytale> qsno
+[12:46:25] <fityla> ако ти се играе..
+[12:46:31] <fityla> с него ..
+[12:46:35] <fityla> почни с dd-wrt
+[12:46:54] <Fairytale> igrae mi se, veche sum svoboden i imam cqloto vreme na sveta
+[12:47:51] <Fairytale> Sega ako zapochvashe Linux kursa stqh da imam po cql den da se zanimavam
+[12:48:06] <fityla> лятото ще има ..
+[12:48:10] <fityla> нов курс..
+[12:48:17] <fityla> или началото на годинита..
+[12:48:21] <fityla> сигурно
+[12:48:26] <fityla> предполагам само
+[12:48:55] <Fairytale> Loshoto e che v Telerik Hackman kaza che nqma da vodi drug kurs
+[12:49:27] <Fairytale> Dano pri Nakov da napravqt
+[12:50:30] <Fairytale> Trqbva i cigarite da spiram
+[12:50:52] <ddmitov> Здравейте колеги! На grizzly качих малко книги на linux/sysadmin/perl/python тематика. Всички те (с изключение на Debian Handbook) са свалени от http://it-ebooks.info/ благодарение на пост на go6konn - http://forums.academy.telerik.com/69052/books-1-%D1%82%D0%BE%D0%BD-%D0%BA%D0%BD%D0%B8%D0%B3%D0%B8. Може да видите книгите на http://gri
+[12:50:54] <wilindex> [ IT eBooks - Free Download - Big Library ] - it-ebooks.info
+[12:50:55] <wilindex> [ [BOOKS] 1 тон книги - Telerik Academy Forums ] - forums.academy.telerik.com
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:16:30] ttanev (~yaaic@83.228.14.152) joined #telerikacademy.
+[13:19:14] rewind_mobile (~yaaic@85.118.193.162) left irc: Ping timeout: 272 seconds
+[13:26:41] rewind_mobile (~yaaic@85.118.193.167) joined #telerikacademy.
+[13:29:00] ttanev (~yaaic@83.228.14.152) left irc: Ping timeout: 272 seconds
+[13:40:02] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[13:46:44] rewind_mobile (~yaaic@85.118.193.167) left irc: Ping timeout: 272 seconds
+[13:57:07] dyrgel (~dyrgel@92.247.8.98) joined #telerikacademy.
+[13:57:31] rewind_mobile (~yaaic@85.118.193.170) joined #telerikacademy.
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:04:39] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[15:26:49] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[15:30:31] <phalaaxx> оо muliyoto ;)
+[15:33:26] <yulimoto> отивам да си направя чай :-) някой иска ли ?
+[15:35:25] <yulimoto> о phatalaxi
+[15:35:53] <yulimoto> rewind сложи ли вече ownclouda
+[15:36:09] <phalaaxx> нещо ти се преплетоха пръстечата по клавиатурата май, а? :P
+[15:36:13] <phalaaxx> не знам
+[15:36:30] <phalaaxx> _rewind, сложи ли вече owncloud-а?
+[15:36:51] <yulimoto> ами преплетоха се като твоите май :)
+[15:37:08] <phalaaxx> е аз съвсем умишлено смених местата на 2 символа
+[15:37:12] <phalaaxx> а ти си добавил нови :P
+[15:37:26] <phalaaxx> ма ти не се обиждаш, нали?
+[15:37:29] <phalaaxx> аз на майтап така
+[15:37:41] <yulimoto> ха то остава и да се обиждам
+[15:37:47] <phalaaxx> виж Telerik като го наричам Terelik не ми се сърди :D
+[15:38:30] <yulimoto> да же докато пия и чета издухвам парата на чая и очилата ми стават запотени
+[15:38:57] <phalaaxx> като каза очила се сетих за jabber профила ти
+[15:39:15] <phalaaxx> защо през повечето време си ми not authorized?
+[15:39:23] <yulimoto> мариян щял да говори за bluetooth секюрити
+[15:39:28] <yulimoto> аа не знам защо
+[15:39:45] <yulimoto> в смисъл какво трябва да направя за да не съм така ?
+[15:40:13] <yulimoto> sega как съм ти
+[15:40:20] <phalaaxx> не знам
+[15:40:20] <phalaaxx> аз си давам от време на време re-request authorization
+[15:40:27] <phalaaxx> сега си online
+[15:40:34] <phalaaxx> ама пак нямам authorization май
+[15:41:34] <yulimoto> ауторизейшъна за какво служи
+[15:41:43] <yulimoto> да ме виждаш кога съм оналайн ли ?
+[15:41:44] <phalaaxx> Subscription: From (To Pending)
+[15:42:14] <phalaaxx> да, всъщност
+[15:42:49] <_rewind> phalaaxx, гледам предпоследната лекция, която качих на гризли, че снощи се беше омацала, а така и така не съм я гледал
+[15:43:06] <_rewind> и така м/у другото тествам томато-то на рутера ми дали работи на 5гхц и май излиза, че не може
+[15:43:11] <_rewind> или телефона ми е твърде стар и куц
+[15:43:13] <yulimoto> ами има "Отмяна на известията за присъствие" ако искаш ще го махна и после пак ще го дам
+[15:43:43] <phalaaxx> ми дай да видим
+[15:43:53] <phalaaxx> а, са стана още по-зле :D
+[15:44:17] <phalaaxx> всъщност беше същото
+[15:44:21] <yulimoto> дадох ти разрешение
+[15:44:24] <yulimoto> да
+[15:44:24] <phalaaxx> аааа
+[15:44:30] <phalaaxx> Subscription: Both
+[15:44:34] <phalaaxx> така е екстра
+[15:44:54] <yulimoto> супер сега ще ме виждаш дори като съм гол в банята
+[15:44:56] <yulimoto> ;P
+[15:45:24] <phalaaxx> :D
+[15:45:30] <phalaaxx> нее не работи така
+[15:45:33] <yulimoto> та мариян сигурно ще говори за blueproximity нещо си
+[15:46:26] <phalaaxx> то ако беше така - порно сайтовете щяха да са най-западащите... :D
+[15:47:04] <phalaaxx> оф хора кажете chroot или rbac без chroot?
+[15:47:21] <yulimoto> да и ще почне като във велико търното, "един ученик ме попита 'hackman, ако сложа един лаптоп със същия mac какво ще стане?' и за това правя тази лекция"
+[15:47:45] <yulimoto> chroot
+[15:48:08] <phalaaxx> ок, обоснови се сега
+[15:48:10] <phalaaxx> :)
+[15:48:24] rewind_work (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[15:49:06] <yulimoto> rbac е много по-сигурно, chroot-а може да се прескочи особено като те тормозим да пускаш разни услуги
+[15:49:16] <yulimoto> онова ми изглежда изпитано
+[15:49:34] <phalaaxx> ъъъ чакай чакай, защо каза chroot тогава?
+[15:49:39] <yulimoto> chroot-а който ти си направил ми изглежда по-заобиколим
+[15:49:51] <yulimoto> защото така ще се научи нещо ново
+[15:49:54] <phalaaxx> ок де, как ще го заобиколиш?
+[15:50:10] <phalaaxx> че ми стана интересно
+[15:50:11] <yulimoto> идея си нямам
+[15:50:37] <yulimoto> но ми изглежда по-възможно от rbac който е мислен за това
+[15:51:05] <yulimoto> примерно вчера беше пропуснал who
+[15:51:12] <yulimoto> и разни файлове
+[15:51:22] <yulimoto> може да се окаже че си пропуснал други неща
+[15:51:37] <yulimoto> така кода ти ще стане по-сигурен
+[15:54:31] <phalaaxx> пропуска с who беше щото са направили symlink от /var/run към /run в Debian Wheezy
+[15:54:54] <phalaaxx> но това е лесно за хващане
+[15:55:30] <phalaaxx> щото директорията е измежду 8 - 10 bind mount-а
+[15:55:51] <phalaaxx> а grsecurity пачовете за chroots са си сериозно нещо
+[15:55:57] <yulimoto> a ти как го оправи да се вижда само моя юзер
+[15:56:14] <phalaaxx> root@rigel:~# cat /proc/sys/kernel/grsecurity/chroot_deny_mount
+[15:56:14] <phalaaxx> root@rigel:~# chroot /jail/base mount -t proc proc /proc
+[15:56:14] <phalaaxx> mount: permission denied
+[15:57:31] <phalaaxx> root@rigel:~# echo 0 | tee /proc/sys/kernel/grsecurity/chroot_deny_mount
+[15:57:31] <phalaaxx> 0
+[15:57:31] <phalaaxx> root@rigel:~# echo 0 | tee /proc/sys/kernel/grsecurity/chroot_caps
+[15:57:31] <phalaaxx> 0
+[15:57:31] <phalaaxx> root@rigel:~# chroot /jail/base mount -t proc proc /proc
+[15:57:37] <phalaaxx> voila :)
+[15:58:17] <phalaaxx> chroot-а е ужасно сигурно нещо с тия пачове
+[15:58:25] <yulimoto> значи оставаме на chroot
+[15:58:39] <phalaaxx> като работих в space.bg сървърите там ползваха подобна схема
+[15:58:45] <phalaaxx> на Debian Etch
+[15:58:55] <phalaaxx> и за 3  години не бяха мръднали хич
+[15:59:10] <phalaaxx> без updates на ядрото и на повечето работи по тях
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:05] <yulimoto> space.bg  звучи като българска астрономическа програма :)
+[16:00:52] <phalaaxx> сървърите им вече са на cpanel и единия от тогава е руутван поне веднъж...
+[16:02:35] <phalaaxx> на въпроса как го оправих - смених му mount point-а да бъде /run вместо /var/run
+[16:03:08] ttanev (~yaaic@46.238.29.142) joined #telerikacademy.
+[16:05:01] rewind_mobile2 (~yaaic@85.118.193.183) joined #telerikacademy.
+[16:06:03] <phalaaxx> той верно окупира канала
+[16:06:13] <yulimoto> ttanev atakuva
+[16:06:14] <phalaaxx> накрая ще ни изгони и ще се заключи вътре
+[16:06:42] rewind_mobile (~yaaic@85.118.193.170) left irc: Ping timeout: 272 seconds
+[16:06:42] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[16:07:12] ttanev (~yaaic@46.238.29.142) left irc: Ping timeout: 246 seconds
+[16:07:15] <yulimoto> _rewind rewind_mobile2 rewind_mobile ttanev agent Smith кой търсите ?
+[16:07:43] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:07:43] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[16:08:18] <phalaaxx> ок, вече се виждат и логовете в ~/logs
+[16:08:18] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[16:08:23] <phalaaxx> уууууууууууууу!
+[16:08:23] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 47: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[16:08:26] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[16:08:43] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:08:43] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[16:08:47] <phalaaxx> wilindex: калпазанин
+[16:10:29] <_rewind> yulimoto, можем да изритаме всички, които не са мен :)
+[16:10:43] rewind_mobile2 (~yaaic@85.118.193.183) left irc: Quit: Yaaic - Yet another Android IRC client - http://www.yaaic.org
+[16:11:17] <_rewind> тествам си рутера на 5гхц и не иска да тръгне и всеки път като се разкачи телефона ми започва да превключва
+[16:11:35] <_rewind> 3g -> wi-fi 2.4ghz и т.н.
+[16:11:54] <phalaaxx> ох айде пак проба
+[16:11:57] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[16:12:43] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:12:43] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[16:12:44] <phalaaxx> такаа
+[16:14:56] <yulimoto> dobre сте вие
+[16:16:16] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[16:17:50] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[16:17:50] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[16:17:51] <phalaaxx> що да сме добре?
+[16:19:08] <fityla> какъв
+[16:19:10] <fityla> рутер..
+[16:19:12] <fityla> действаш
+[16:22:29] <yulimoto> phalaaxx: щото се чудите каква да я измислите :)
+[16:22:53] <_rewind> wrt320n, но е с tomato USB и по спомен имаше някакви грижи с 5GHz с този фърмуер
+[16:23:29] <_rewind> превключва, но не го виждам след това... по принцип предлагат да се ресет-не, но в момента копая и не ми се иска :)
+[16:24:41] <phalaaxx> yulimoto: аз се чудя какъв основателен аргумент да си измисля да махна chroot-а и да ползвам rbac
+[16:24:47] <phalaaxx> и не мога да го измисля
+[16:24:52] <phalaaxx> не знам що реши че съм добре
+[16:24:53] <phalaaxx> :D
+[16:24:59] <phalaaxx> изобщо не съм добре :D
+[16:25:07] <_rewind> имам едни мераци да сложа втора 1гб лан карта на моя компютър и да си взема гб суич за от другата страна... играе ми се с бондинг
+[16:25:15] <_rewind> phalaaxx, помощ ? :D
+[16:25:50] <phalaaxx> трябва ти помощ за bonding ли?
+[16:26:08] <_rewind> yulimoto, мисля, че phalaaxx иска някой да му докаже, че chroot просто НЕ Е подходящ и си му трябва rbac
+[16:26:25] <_rewind> не, чудя се какъв аргумент да измисля
+[16:26:33] <phalaaxx> а, ако някой може да го направи - ще съм благодарен :)
+[16:26:42] <phalaaxx> ама се опасявам че само ще си изгубите времето
+[16:27:36] fityla_ (~fityla@37.157.179.200) joined #telerikacademy.
+[16:28:00] <yulimoto> ми направи rbac  да го видим кво поне
+[16:28:13] <_rewind> на мен определено ще ми трябва известно време да се образовам на тази тема, за да мога изобщо да се изкажа
+[16:29:27] <yulimoto> phalaaxx: ама ти си напарави там policyto !!1
+[16:29:33] <_rewind> phalaaxx, с бондинга надали ще имам проблем, имам проблем обаче с избора на малък управляем суич
+[16:29:46] <phalaaxx> yulimoto: какво съм направил?
+[16:30:29] <_rewind> brb
+[16:30:35] fityla (~fityla@37.157.179.200) left irc: Ping timeout: 245 seconds
+[16:37:57] Fairytale (Fairytale@77.70.117.169) left irc: Quit: Leaving
+[16:38:03] <phalaaxx> не разбрах какво съм направил
+[16:45:05] <yulimoto> нищо не си направил
+[16:46:25] <yulimoto> rbac няма ли policy ?
+[16:51:37] <phalaaxx> в момента не
+[16:51:41] <phalaaxx> ако това ме питаш
+[16:58:47] <yulimoto> какво значи в момента не ?
+[16:59:09] <yulimoto> а преди е имало ?
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:08:14] <phalaaxx> не но обмислям варианта да сложа :D
+[17:11:47] <yulimoto> именно сега ще преповторя това което казах и по-горе -> phalaaxx: ама ти си напарави там policyto !!
+[17:12:03] <yulimoto> т.е. from scratch
+[17:15:15] <_rewind> phalaaxx, готов е owncloud-а, даже и работи
+[17:20:36] <yulimoto> super я пусни един акаунт да си чета вътре rss-ите
+[17:21:36] <yulimoto> в ownclouda
+[17:21:59] <yulimoto> или ако ще го махаш недей аз имам другъде някъде
+[17:27:35] <yulimoto> опитах да ти ресетна паролата в знак на протест, естествено неуспешно
+[17:28:03] <_rewind> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=03a6088f5a82f97cd36feaf15c34c643
+[17:28:04] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:28:13] <_rewind> за rss-ите по-добре направо в tt-rss
+[17:28:23] <_rewind> http://rewind.bgadmin.eu/tt-rss
+[17:28:24] <wilindex> [ Tiny Tiny RSS : Login ] - rewind.bgadmin.eu
+[17:29:22] <yulimoto> добре поне да го опитам
+[17:31:37] <yulimoto> тряба на KrasiGa  да направиш, тя преди имаше интерес към owncloud
+[17:32:50] <_rewind> ще ѝ направя, като се появи
+[17:33:28] <_rewind> .tell KrasiGa - като се появиш ми драсни да ти изпратя credentials за да тестваш http://rewind.bgadmin.eu/owncloud/
+[17:33:28] <wilindex> _rewind: I'll pass that on when KrasiGa is around.
+[17:33:29] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:34:13] <yulimoto> _rewind: не помня от къде се оправяше uploada т.е. имаше в сеттингс, но може да трябва и phalaaxx да барне php.ini
+[17:35:56] <_rewind> за големината ли ?
+[17:36:01] <_rewind> yulimoto ?
+[17:36:02] <yulimoto> da
+[17:36:09] <_rewind> да, там е phalaaxx :)
+[17:36:10] <yulimoto> да е повече от 2 мб
+[17:37:21] <phalaaxx> 8MB
+[17:38:00] <phalaaxx> това чудо може ли да share-ва файлове?
+[17:38:07] <_rewind> phalaaxx - http://doc.owncloud.org/server/5.0/admin_manual/configuration/configuring_big_file_upload.html
+[17:38:07] <wilindex> [ Uploading big files > 512MB (as set by default) — ownCloud Administrators Manual 5.0 documentation ] - doc.owncloud.org
+[17:38:16] <_rewind> да, по-горе шернах имидж
+[17:38:22] <_rewind> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=03a6088f5a82f97cd36feaf15c34c643
+[17:38:23] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:38:38] <_rewind> може и с парола
+[17:39:04] <phalaaxx> не мога да се ориентирам от къде и как :D
+[17:39:11] <yulimoto> php_value upload_max_filesize 1024M
+[17:39:11] <yulimoto> php_value post_max_size 1024M
+[17:39:11] <yulimoto> php_value memory_limit 1024M
+[17:39:29] <yulimoto> това съм сложил в .htaccess  на моя
+[17:39:50] <phalaaxx> aaa
+[17:39:52] <phalaaxx> ясно
+[17:40:07] <_rewind> phalaaxx, имаш и тук същия акаунт - http://rewind.bgadmin.eu/tt-rss
+[17:40:08] <wilindex> [ Tiny Tiny RSS : Login ] - rewind.bgadmin.eu
+[17:40:35] <phalaaxx> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=8a41afc1de49e72e8d409a0ae777124e
+[17:40:35] <phalaaxx> това отваря ли се?
+[17:40:35] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:40:45] <phalaaxx> че аз съм логнат и... не знам как стои въпроса
+[17:42:19] <_rewind> не, при мен не се отваря
+[17:42:32] <_rewind> лъжа, отваря се, но май можеше и да се прослушва преди ?
+[17:43:09] <_rewind> в смисъл да се прослушва от сървъра
+[17:43:17] <_rewind> може би само докато си логнат в акаунта
+[17:43:33] <phalaaxx> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=b5e441e4c4bcc6766adbacafef5e763b
+[17:43:34] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:43:59] <phalaaxx> като съм логнат ми ги тананика в слушалките
+[17:44:07] <_rewind> мдаа, отваря си се, но само го download-вам
+[17:44:07] <phalaaxx> ама линковете ми ги дава само за download
+[17:44:20] <_rewind> ако го шернеш вътре, мога да си го слушкам докато съм логнат
+[17:44:40] <phalaaxx> оо грешния файл съм шернал :)
+[17:44:44] <phalaaxx> http://rewind.bgadmin.eu/owncloud/public.php?service=files&t=209a28412f1784a33eed843ba9feda2e
+[17:44:44] <wilindex> [ ownCloud ] - rewind.bgadmin.eu
+[17:45:05] <phalaaxx> готитно изглежда
+[17:45:10] <_rewind> приятно парче
+[17:45:13] <phalaaxx> не го бях пускал да го пробвам
+[17:46:16] <_rewind> аз не мога да кача 9 мб файл
+[17:47:06] <phalaaxx> момент
+[17:47:30] <_rewind> до 8 ли беше ?
+[17:47:36] <phalaaxx> пробвай пак
+[17:49:01] <_rewind> споделих едно парче с теб вътре
+[17:52:32] <_rewind> те щяха да правят така, че ако upload-неш flac примерно да го транскодва и да го пуска като mp3
+[17:52:40] <_rewind> трябва да видя, направили ли са го в тази версия
+[17:52:51] <_rewind> последно прогбвах версия 4-нещо
+[17:52:55] <phalaaxx> ее ма аз мога да си го направя това, защо ми е да ми го прецаква...
+[17:54:12] <_rewind> :)
+[17:54:26] <_rewind> сега вече ме кръцна с 41мб-товия флак, който се опитах да кача :)
+[17:56:09] <_rewind> $ crontab -l
+[17:56:09] <_rewind> crontabs/rewind/: fopen: Permission denied
+[17:56:24] <_rewind> за tt-rss иска cron да ъпдейтва feed-овете
+[17:56:32] <_rewind> ама това по-късно
+[17:56:41] <_rewind> че се налага да изчезна за няколко часа
+[17:56:49] <_rewind> хубава вечер на всички от мен :)
+[17:57:02] <yulimoto> като говорих с тях около версия 5 нямаше човек който да подържа плеъра, чудно ми е кой ли се  е навил
+[17:57:07] <yulimoto> аре
+[17:57:08] <yulimoto> чао
+[17:57:25] <_rewind> чао :)
+[17:57:28] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:03:16] krasin (~krasin@95-42-30-48.btc-net.bg) joined #telerikacademy.
+[18:15:08] bgpepi (~bgpepi@ip-80-236-203-216.dsl.scarlet.be) joined #telerikacademy.
+[18:38:07] <phalaaxx> yulimoto: май ще пробвам с  rbac все пак :)
+[18:38:39] <phalaaxx> преди да го разбутам искаш ли да видиш къде му е слабото място в момента?
+[18:51:25] <yulimoto> къде
+[18:51:25] <yulimoto> ?
+[18:51:29] <yulimoto> я да видим сега
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:20:13] <fityla_> лека вечер от мен
+[19:20:17] fityla_ (~fityla@37.157.179.200) left irc: Quit: Leaving
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:11:27] wilindex (~willie@91.230.230.251) left irc: Ping timeout: 252 seconds
+[20:36:38] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[20:36:38] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[20:37:17] wilindex (~willie@91.230.230.251) left irc: Client Quit
+[20:37:35] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[20:37:35] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[20:46:56] fityla (~AndChat20@85.118.193.164) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:00:32] fityla (~AndChat20@85.118.193.164) left irc: Quit: Bye
+[21:14:19] <ddmitov> Приятна вечер на всички!
+[21:14:24] ddmitov (~knoppix@87.120.214.102) left #telerikacademy.
+[21:24:57] hanasd (~Kalojan@188-254-186-191.sf.ddns.bulsat.com) joined #telerikacademy.
+[21:27:11] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[21:31:02] Nick change: ndyakov|away -> ndyakov
+[21:32:52] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[21:32:52] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[21:49:41] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[21:56:38] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[21:56:38] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:06:05] hanasd (~Kalojan@188-254-186-191.sf.ddns.bulsat.com) left irc: Remote host closed the connection
+[22:50:37] dyrgel (~dyrgel@92.247.8.98) left #telerikacademy.
+[22:52:36] krasin (~krasin@95-42-30-48.btc-net.bg) left irc: Quit: Leaving
+[22:54:52] anton_dutsov (~Thunderbi@178.75.226.53) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:25:20] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[23:49:47] anton_dutsov (~Thunderbi@178.75.226.53) left irc: Quit: anton_dutsov
+[00:00:00] --- Sun Nov 24 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

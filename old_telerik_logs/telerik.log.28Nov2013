@@ -1,0 +1,360 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:04:40] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[00:05:14] _rewind (~teo@46.238.29.142) left irc: Read error: Operation timed out
+[00:15:22] Fairytale (~svetlyo@77.70.117.169) joined #telerikacademy.
+[00:35:15] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[00:38:31] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:00:55] gloom (John@78.130.186.99) joined #telerikacademy.
+[01:04:02] looser99 (John@2002:4e82:ba63::4e82:ba63) left irc: Ping timeout: 252 seconds
+[01:07:05] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[01:09:27] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[01:11:04] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Ping timeout: 246 seconds
+[01:15:32] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[01:15:47] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[01:15:55] Nick change: KacanuH -> Guest11554
+[01:16:10] Nick change: hackman -> Guest53738
+[01:24:59] urban_filth (~urban_fil@95.111.6.98) left irc: Quit: Leaving
+[01:25:20] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[01:26:20] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
+[01:36:36] <Guest53738> има ли будни ? :)
+[01:36:41] Nick change: Guest53738 -> azilian
+[01:36:57] Nick change: azilian -> hackman
+[01:39:17] <urban_filth> има :)
+[01:39:43] <hackman> епа кво правите ? :) то порното почна одавна :)
+[01:39:59] <urban_filth> готвя :)
+[01:40:19] <hackman> гювеч или друсан кебаб ?
+[01:41:29] <urban_filth> гречка :) хем ми се спи, хем съм гладен.. но просто няма как да заспя иначе
+[01:41:32] <urban_filth> :)
+[01:42:39] <hackman> :)
+[01:42:46] <hackman> аз нямам такива скруполи
+[01:42:49] <hackman> като ми се спи
+[01:42:56] <hackman> нито поза нито място ми пречат
+[01:43:02] <hackman> а за ядене изобщо
+[01:43:21] <hackman> такъв мързел ме гони понякога, че ме мързи до хладилника да стана за ядене :)
+[01:43:43] <hackman> мога цял ден да се навивам да стана :)
+[01:43:55] <urban_filth> опитвал съм се да заспя, но не мога. в един момент се будя и просто трябва да ям :)
+[01:45:12] Nick change: ndyakov -> ndyakov|away
+[01:48:17] <urban_filth> това с навиването да стана ми е много добре познато :) в подобни крайни ситуации - човек винаги може да си поръча храна за вкъщи :)
+[01:49:25] <Fairytale> Значи съм щастливец. Не се будя и мога да не ям с дни :)
+[01:49:58] <hackman> urban_filth, не ме разбра... аз имам готова храна в хладилника ;)
+[01:50:10] <hackman> мързи ме да оставя книгата или лаптоп-а да отида да си я взема  :)
+[01:50:27] <hackman> Жена ми, понякога се удивява колко голям мързел имам :)
+[01:50:37] <urban_filth> хахаха :)
+[01:50:43] <Fairytale> Проблема с вентилатора на видеото е решен. Инсталирах nvidia proprietary driver и заспа. Не се чува как работи.
+[01:50:56] <Fairytale> Обаче друг проблем...
+[01:51:36] <Fairytale> OpenGL 3D Accelerator - unlnown
+[01:51:56] <Fairytale> Kernel module също е unknown
+[01:52:23] <Fairytale> хелп?
+[01:52:34] <urban_filth> hackman, рИспкет! :D
+[01:52:43] <hackman> Fairytale, не мога да ти помогна приятелю :(
+[01:52:48] <hackman> и аз не съм запознат
+[01:53:05] <Fairytale> hackman, значи сам ще си помагам :-)
+[01:53:09] <hackman> затова и си кова с nouveau и гледам да съм с по-нови kernels
+[01:53:38] <hackman> само се ядосвам, че не съм си подкарал display port-a
+[01:53:42] <Fairytale> а с nouveau също беше unknown
+[01:53:45] <hackman> че ми трябва отвреме на време ;(
+[01:54:59] <hackman> Fairytale, къде го гледаш това ?
+[01:56:22] <Fairytale> Info Center - Graphical Information - OpenGL
+[01:56:42] <hackman> какво е това Info Center ?
+[01:56:48] <hackman> на коя графична среда е?
+[01:56:52] <hackman> коя команда е ?
+[01:56:53] <Fairytale> KDE
+[01:57:30] <hackman> неам такава команда аз :)
+[01:58:05] <Fairytale> v menuto na Aplication > System  , no mai samo na KDE go ima
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:01:28] <Fairytale> има ли начин да тествам 3D acceleration дали ми работи?
+[02:02:01] <hackman> идея си нямам ;)
+[02:02:23] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[02:03:23] <Fairytale> Иначе има някакво тестче с glxgears . 60 FPS ми изкарва
+[02:08:30] <urban_filth> - Скъпа, хайде тая вечер да вечеряме навън!
+[02:08:30] <urban_filth> - Хайде. А къде?
+[02:08:30] <urban_filth> - Пица да хапнем?
+[02:08:30] <urban_filth> - Не-е..
+[02:08:30] <urban_filth> - Китайско?
+[02:08:30] <urban_filth> - Омръзнало ми е!
+[02:08:34] <urban_filth> - Рибен ресторант?
+[02:08:36] <urban_filth> - Не ми се яде риба в момента!
+[02:08:38] <urban_filth> - Нещо на скара?
+[02:08:40] <urban_filth> - Стига с тая скара!
+[02:08:42] <urban_filth> - Суши?
+[02:08:44] <urban_filth> - Оризът им е гаден!
+[02:08:46] <urban_filth> - KFC?
+[02:08:48] <urban_filth> - Пърженето е тевко!
+[02:08:50] <urban_filth> - Да боднем в Happy?
+[02:08:52] <urban_filth> - Само селяни ходят там!
+[02:08:54] <urban_filth> - Добре. къде тогава искаш да идем?
+[02:08:56] <urban_filth> - Все ми е едно! Където ти предложиш..
+[02:09:31] <Fairytale> :-)
+[02:12:58] <Fairytale> Двама полицаи разпускат на по бира:
+[02:12:58] <Fairytale> А бе, ти кат се прибереш биеш ли жена ти ?
+[02:12:58] <Fairytale> Да бе, ше бачкам и у нас..
+[02:13:37] <urban_filth> :)
+[02:13:56] <Fairytale> e tova e qko
+[02:13:58] <Fairytale> Срещат се двама приятели.
+[02:13:58] <Fairytale> – Как си? – пита единият.
+[02:13:58] <Fairytale> – А, добре съм. Четири пъти се развеждах, сега съм с пета съпруга.
+[02:13:58] <Fairytale> – Брей, що толкова разводи?
+[02:13:59] <Fairytale> – Ами, първата жена беше спортистка. Върне се вечер вкъщи и... темпо, темпо, темпо - не издържах, разведох се.
+[02:14:02] <Fairytale> Втората беше зъболекарка. Тя пък все казваше:
+[02:14:04] <Fairytale> "Още не е за вадене, още не е за вадене" Пак се разведох.
+[02:14:06] <Fairytale> Третата беше ватманка:
+[02:14:08] <Fairytale> "Има още място, има още място..."
+[02:14:10] <Fairytale> Четвъртата – учителка:
+[02:14:12] <Fairytale> "Добре, ама можеш и пове4е..."
+[02:14:14] <Fairytale> Сега ми е добре, жена ми е инженер:
+[02:14:16] <Fairytale> "Ако сега не стане, следващия път..."
+[02:20:52] <urban_filth> :D
+[02:21:11] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[02:21:49] <urban_filth> още един от мен: Програмист хванал златната рибка и си пожелал да не умре девствен. Сега е безсмъртен.
+[02:23:00] <Fairytale> haha
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:07:46] Fairytale (~svetlyo@77.70.117.169) left irc: Remote host closed the connection
+[03:13:38] Fairytale (~Fairytale@77.70.117.169) joined #telerikacademy.
+[03:14:10] <Fairytale> Едно поздравче за будните http://www.youtube.com/watch?v=cMOgMevylRs&list=PL3666F5DD61E96B6D
+[03:14:11] <wilindex> [YouTube] Title: Kat Krazy feat. elkka - Siren (Armin van Buuren Remix - Official Extended Video) | Uploader: Armada Music | Uploaded: 18/11/2013, 11:51 | Duration: 5mins 41secs | Views: 118,123 | Comments: 136 | Likes: 2,361 | Dislikes: 28
+[03:21:07] <hackman> ето едно и за теб: http://www.youtube.com/watch?v=X7Tf23BzAOw
+[03:21:08] <wilindex> [YouTube] Title: Nissan Patrol test drive and Russian Monster Tracktors | Uploader: dmitry199 | Uploaded: 17/05/2010, 09:55 | Duration: 5mins 52secs | Views: 4,817,596 | Comments: 2,504 | Likes: 8,103 | Dislikes: 590
+[03:23:46] <hackman> бааа днес цял ден build-вам kernels на една 24 ядрена машина
+[03:24:00] <hackman> и сега на лаптопа ми се струва като двупотопна глупост с моите 8 ядра :)
+[03:24:18] <Fairytale> хаха, тези въобще ще излезнат ли от калта хаха
+[03:27:02] <Fairytale> Е аз след 8 месеца на CeleronM 1.7 сега се чувствам в космоса с Athlon64 x2 4600+
+[03:29:08] <hackman> аз си играя да patch-вам разни глупости по kernel-а
+[03:29:17] <hackman> и по цял ден съм на make-а
+[03:29:45] <Fairytale> Е ти си имба
+[03:33:04] <Fairytale> А при Наков замислили сте се да има Linux курс?
+[03:44:40] <Fairytale> Tova e dobro http://www.youtube.com/watch?v=MGEiA80ZL08
+[03:44:41] <wilindex> [YouTube] Title: Good people / Мир не без добрых людей... | Uploader: ArkadiYM93 | Uploaded: 26/04/2013, 06:58 | Duration: 5mins 34secs | Views: 6,046,663 | Comments: 14,115 | Likes: 80,779 | Dislikes: 547
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:17:39] Fairytale (~Fairytale@77.70.117.169) left irc: Quit: Leaving
+[04:26:26] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:22:00] <hackman> явно няма да стане сега... взема да поспя малко :)
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:22:31] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:08:58] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:16:24] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 272 seconds
+[08:40:38] <KpeTeHoug> гутин моргин
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:23:49] Nick change: Guest11554 -> Deyan
+[09:24:06] <Deyan> Добро утро
+[09:26:10] <KpeTeHoug> добро
+[09:27:44] <Deyan> !Tell hackman Мдааам... колкото по-високопроходим ти е джипа - толкова по-далече ще ходи трактора да те вади...
+[09:27:57] <KpeTeHoug> с точка
+[09:28:07] <Deyan> .Tell hackman Мдааам... колкото по-високопроходим ти е джипа - толкова по-далече ще ходи трактора да те вади...
+[09:28:08] <wilindex> Deyan: I'll pass that on when hackman is around.
+[09:28:13] <Deyan> mdaaa
+[09:50:27] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[09:53:05] <Deyan> Денчоуууууууу
+[09:53:31] <yulimoto> dencho, капитанине, денчо командирине !
+[09:54:55] <yulimoto> дойде му нагорно по-цял ден учи и нема време за глупости :)
+[09:55:25] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:03:54] dyrgel (~dyrgel@92.247.8.98) joined #telerikacademy.
+[10:04:57] <KpeTeHoug> да бе, представяш ли си
+[10:14:09] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[10:22:52] <dencho> da
+[10:22:53] <dencho> az sam
+[10:22:53] <dencho> :D
+[10:34:37] <yulimoto> после ше ви дава хелп, за туй трайте сега за хубост и знание
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:12:21] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[11:37:45] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:16:52] <Deyan> абе много работа ви е налегнала, никой не казва нищо
+[12:30:14] <phalaaxx> такива сме ние, работно налегнати :)
+[12:38:54] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[12:44:53] <KpeTeHoug> май всички ни налгна
+[12:44:58] <KpeTeHoug> със снега дойде и работата
+[12:45:03] <KpeTeHoug> нещо като такова стана
+[12:45:04] <KpeTeHoug> :)
+[12:47:54] Nick change: ndyakov|away -> ndyakov
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:06:23] <yulimoto> Nякой чел ли е plesk  "Parallels End-User License Agreement" ?
+[13:06:37] <yulimoto> _|_
+[13:06:51] <Deyan> какъв е тоя шит
+[13:07:14] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[13:07:37] Nick change: hackman -> Guest6613
+[13:14:26] <yulimoto> тва е кат cpanel, тъй като се придържат към някакви феодалн0-лизенционни  стратегии (за хубаво или лошо) лиценза им прилича на нещо като ферман от някакъв корпоративно крепостен период.
+[13:14:43] <yulimoto> поне на мен така ми изглежда отдавна не бях чел таквиз работи :)
+[13:16:20] <phalaaxx> добре казано :D
+[13:37:02] <dencho> yulimoto az o6te se 4udq za kvo ti e toq plesk
+[13:37:16] <dencho> windows hosting li 6e prai6
+[13:37:16] <dencho> :D
+[13:42:32] <yulimoto> dencho: споко ве, кораба завива бавно !!!
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:01:07] <phalaaxx> има и друга корабна приказка - кораба потъва нормално, вода ще има за всички!
+[14:01:08] <phalaaxx> :D
+[14:05:22] <yulimoto> Водата е за всички, но парсата обира един !!
+[14:05:25] <yulimoto> :)
+[14:06:24] <yulimoto> тва чудовище верно бавнеее още от сега
+[14:12:47] <yulimoto> докато зарежда имам време да пиша глупости :)
+[14:21:44] <Guest6613> yulimoto, plesk li testvash ?
+[14:21:51] Nick change: Guest6613 -> azilian
+[14:22:02] Nick change: azilian -> hackman
+[14:22:30] <KpeTeHoug> да, мучи го
+[14:22:34] <KpeTeHoug> *мъчи
+[14:22:39] <KpeTeHoug> хем му казаха да не се занимава :)
+[14:22:52] <yulimoto> hackman: Да
+[14:22:55] <hackman> sloji si directadmin ako shte plashtash :)
+[14:22:55] <wilindex> hackman: 2013-11-28 07:37:32 UTC <Deyan> Tell hackman Мдааам... колкото по-високопроходим ти е джипа - толкова по-далече ще ходи трактора да те вади...
+[14:25:17] <yulimoto> hackman: окс ще имам предвид:) .. за хостинг софтуер какво препоръчваш ? :)
+[14:26:07] <hackman> directadmin/cpanel
+[14:26:17] <hackman> plesk-a e golqma boza
+[14:26:56] <dencho> mdam :)
+[14:29:19] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[14:30:09] <yulimoto> лошото е че все аз ше ям дървото, май на там отива работата, усещам я от сега накъде се заформя :{
+[14:41:06] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[14:42:32] <dencho> yulimoto 4estito
+[14:42:32] <dencho> :D
+[14:42:59] <dencho> http://youtu.be/9ZpPh5kyl6A
+[14:43:00] <wilindex> [YouTube] Title: Preslava - Novata Ti | Uploader: MrGench | Uploaded: 19/06/2009, 18:59 | Duration: 3mins 31secs | Views: 87,306 | Comments: 15 | Likes: 97 | Dislikes: 4
+[14:43:04] <dencho> specialno za yulimoto
+[14:43:05] <dencho> :D
+[14:43:25] <yulimoto> dencho: ти къде си работил  плеск ?
+[14:45:33] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Client Quit
+[14:47:10] <KpeTeHoug> той денчу уебмастър нинджа
+[14:47:12] <yulimoto> ц кеси видя поздрава, довечера че сега става сложно :)
+[14:48:32] <yulimoto> знам го аз ама все пак да питам, може да го е тествал само, може да е видял някой на живо да се мъчи с него
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:16:10] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[15:19:52] <phalaaxx> някой борил ли се е проблеми с binary програма която използва (вероятно неправилно) sched_yield() ?
+[15:32:28] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[15:37:19] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[15:41:00] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
+[15:41:12] AndChat|700625 (~AndChat70@178.75.230.1) joined #telerikacademy.
+[15:42:33] AndChat|700625 (~AndChat70@178.75.230.1) left irc: Quit: Bye
+[15:43:47] dutsov_mobile (~dutsov_mo@178.75.230.1) joined #telerikacademy.
+[15:44:48] dutsov_mobile (~dutsov_mo@178.75.230.1) left irc: Client Quit
+[15:45:05] dutsov_mobile (~dutsov_mo@178.75.230.1) joined #telerikacademy.
+[15:47:37] dutsov_mobile (~dutsov_mo@178.75.230.1) left irc: Remote host closed the connection
+[15:51:28] dutsov_mobile (~dutsov_mo@178.75.230.1) joined #telerikacademy.
+[15:52:08] dutsov_mobile (~dutsov_mo@178.75.230.1) left irc: Client Quit
+[15:53:46] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[15:56:04] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Quit: anton_dutsov
+[15:59:03] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:01:28] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Client Quit
+[16:02:32] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
+[16:10:09] Fairytale (~svetlyo@77.70.117.169) joined #telerikacademy.
+[16:11:14] <Fairytale> Nqkakva ideq kakvo e tova nesto http://www.creaplus.si/prodaja/index.php/en/categories/smartusbkey/activkey-sim130311134612
+[16:11:15] <wilindex> [ Pametni ključ ActivIdentity ActivKey SIM 64K ] - www.creaplus.si
+[16:45:07] <Deyan> usb сертификат
+[16:51:15] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:55:06] <Deyan> Fairytale >
+[16:55:08] <Deyan>  USB tokens provide strong security in an easy-to-use, portable form factor that has the same two-factor authentication, digital signature and encryption capabilities as a smart card.
+[16:55:10] <Deyan> HID Global’s ActivKey® SIM USB Token combines the security of a smart card with a built-in USB reader. The field-serviceable subscriber identity module (SIM) provides organizations a path for future upgrades, without requiring them to HID Global’s ActivKey® Display USB Token supports online authentication using a SIM and built-in USB reader, as well as offline strong authentication...
+[16:55:12] <Deyan> ...using OTPs.
+[16:56:31] <Fairytale> Stoi pred men obache se chudq za kakvo moga da go izpolzvam :-)
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:06:21] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[17:24:50] fityla (~fityla@95.87.200.227) joined #telerikacademy.
+[17:38:46] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[17:44:50] dencho (~dencho@apollo.netissat.bg) left irc: Ping timeout: 265 seconds
+[17:59:16] Fairytale (~svetlyo@77.70.117.169) left irc: Remote host closed the connection
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:04:07] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[18:10:44] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[18:19:59] hackman (~hackman@management.1h.com) left irc: Read error: Operation timed out
+[18:22:46] <yulimoto> [A
+[18:23:17] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: Lost terminal
+[18:29:37] han_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:30:00] <han_> hi all
+[18:30:12] han_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Client Quit
+[18:30:41] han_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:30:48] han_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Client Quit
+[18:31:15] han_asd (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:40:04] net: connect! sock 6
+[18:40:22] Telerik joined #telerikacademy.
+[18:40:31] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[18:43:28] han_asd (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[18:43:49] han_asd (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:47:01] fityla (~fityla@95.87.200.227) left irc: Quit: Leaving
+[18:56:47] rewind_mobile (~yaaic@85.118.193.165) left irc: Read error: Connection reset by peer
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:02:38] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:14:40] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:17:16] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:21:13] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:22:05] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[19:24:49] fityla_ (~fityla@84.40.116.146) joined #telerikacademy.
+[19:28:08] fityla (~fityla@84.40.116.146) left irc: Ping timeout: 259 seconds
+[19:35:54] han_asd (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:39:04] han_asd (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:39:12] fityla_ (~fityla@84.40.116.146) left irc: Quit: Leaving
+[19:42:56] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:49:20] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:09:16] han_asd_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:11:26] han_asd (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:32:34] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:35:12] dyrgel (~dyrgel@92.247.8.98) left irc: Disconnected by services
+[20:35:53] dyrgel (~dyrgel@92.247.8.98) joined #telerikacademy.
+[20:47:06] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:07:46] han_asd_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[21:28:55] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[21:31:35] <yulimoto> как е win-a ?
+[21:32:02] <yulimoto> update
+[21:33:13] <yulimoto> phalaaxx: за момент помислих, че логовете се ъпдейтват на event :)
+[21:33:22] gdanailov (~gdanailov@94.26.94.2) joined #telerikacademy.
+[21:34:39] <phalaaxx> на какво? не те разбрах
+[21:36:32] gdanailov (~gdanailov@94.26.94.2) left irc: Quit: Leaving
+[21:36:38] gdanailov (~gdanailov@94.26.94.2) joined #telerikacademy.
+[21:36:49] gdanailov (~gdanailov@94.26.94.2) left irc: Read error: Connection reset by peer
+[21:36:54] gdanailov_ (~gdanailov@94.26.94.2) joined #telerikacademy.
+[21:36:58] <yulimoto> че когато някой пише в чата това тригерва event и съответно се ъпдейтва страницата :)
+[21:38:44] gdanailov_ (~gdanailov@94.26.94.2) left irc: Client Quit
+[21:39:08] gdanailov (~gdanailov@94.26.94.2) joined #telerikacademy.
+[21:43:15] gdanailov (~gdanailov@94.26.94.2) left irc: Client Quit
+[21:43:23] gdanailov (~gdanailov@94.26.94.2) joined #telerikacademy.
+[21:46:22] gdanailov (~gdanailov@94.26.94.2) left irc: Client Quit
+[21:46:31] gdanailov (~gdanailov@94.26.94.2) joined #telerikacademy.
+[21:51:38] gdanailov (~gdanailov@94.26.94.2) left irc: Quit: Leaving
+[21:51:49] gdanailov (~gdanailov@94.26.94.2) joined #telerikacademy.
+[21:51:49] gdanailov (~gdanailov@94.26.94.2) left irc: Client Quit
+[21:52:00] gdanailov (~gdanailov@94.26.94.2) joined #telerikacademy.
+[21:59:50] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:26:52] <phalaaxx> аа за refresh-а ли говориш?
+[22:26:57] <phalaaxx> на 30 секунди е
+[22:27:14] <phalaaxx> иначе да, лога се пише веднага след всяко съобщение в чата
+[22:28:41] urban_filth (~urban_fil@95.111.6.98) left irc: Quit: Leaving
+[22:28:57] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[22:32:25] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[22:42:18] Fairytale (~svetlyo@77.70.117.169) joined #telerikacademy.
+[22:54:37] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 246 seconds
+[22:55:56] ndyakov (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:11:31] <dencho> leka no6t ora
+[23:11:32] <dencho> :D
+[23:11:58] <dencho> do utre ve4er v drugia spektakul ;)
+[00:00:00] --- Fri Nov 29 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

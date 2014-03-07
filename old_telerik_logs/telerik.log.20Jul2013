@@ -1,0 +1,337 @@
+[00:00:01] Writing user file...
+[00:00:01] Writing channel file...
+[00:17:18] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 240 seconds
+[00:20:34] localhostbg (~billy@151.237.62.193) left irc: Ping timeout: 240 seconds
+[00:54:16] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:01:27] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[01:27:29] <KacanuH> дайте идея защо не мога да си сменя порта за ссх, тоест аз го сменям, но nmap продължава да ми казва че е затворен
+[01:31:49] samy_ (~samy@91.196.227.180) joined #telerikacademy.
+[01:32:10] samy__ (~samy@84.238.184.98) left irc: Read error: Connection reset by peer
+[01:32:22] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[01:33:15] <hackman> KacanuH: на твоята машина или на grizzly ?
+[01:33:33] <KacanuH> на моята маяина
+[01:33:38] <KacanuH> на моята машина
+[01:34:12] <KacanuH> защото не мога да мажа по гризли, а в офиса мога по цял ден да си мажа с путито
+[01:36:18] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 248 seconds
+[01:39:37] <vhristev> оп
+[01:39:53] <vhristev> сменянето на паролата с отворен порт няма нищо общо
+[01:39:57] <hackman> KacanuH: проблема най-вероятно ти е с firewall-а
+[01:40:11] <hackman> с netstat -lnpt можеш да видиш на кой порт ти слуша ssh-а
+[01:40:25] <vhristev> iptables -nL     < vij kakvi sa politikite
+[01:40:27] <hackman> nmap-а има съвсем други цели в живота :)
+[01:40:45] <KacanuH> мерси hackman , vhristev - кой говори за парола?
+[01:41:00] <vhristev> грешно го прочетах
+[01:41:04] <KacanuH> :)
+[01:41:11] <vhristev> iptables -nL
+[01:41:25] <vhristev> както казах хакмана там ти е грижата
+[01:41:35] <vhristev> а с нетстата ще видиш на портовете на които слуша
+[01:42:13] <vhristev> като тест направи   ssh localhost -p PORTA_KOITO_ISKASH
+[01:42:21] <vhristev> така ще знаеш ,че наистина работи
+[01:42:44] <KacanuH> ssh: connect to host localhost port 14567: Connection refused
+[01:42:55] <KacanuH> явно нещо не съм направил като хората :)
+[01:42:59] <vhristev> релоадна ли SSH -a  след като смени порта ?
+[01:43:02] <KacanuH> да
+[01:43:20] <vhristev> я дай аутпута на netstat -tnap | grep ssh
+[01:44:15] <KacanuH> tcp        0      0 0.0.0.0:22                  0.0.0.0:*                   LISTEN      10671/sshd
+[01:44:15] <KacanuH> tcp        0      0 :::22                       :::*                        LISTEN      10671/sshd
+[01:45:12] <vhristev> така и сега искаш още един порт 14567
+[01:45:57] <vhristev> vi /etc/ssh/sshd_config
+[01:46:00] <vhristev> добави един ред
+[01:46:07] <vhristev> Port 14567
+[01:46:15] <KacanuH> #Port 14567
+[01:46:15] <KacanuH> #Port 22
+[01:46:16] <KacanuH> #AddressFamily any
+[01:46:16] <KacanuH> #ListenAddress 0.0.0.0
+[01:46:16] <KacanuH> #ListenAddress ::
+[01:46:17] <vhristev> sled towa  /etc/init.d/ssh restart
+[01:46:19] <KacanuH> имам го
+[01:46:24] <vhristev> Той ти е Коментиран
+[01:46:26] <vhristev> махни коментара
+[01:46:58] <vhristev> махни коментара и набий   /etc/init.d/ssh reload
+[01:47:07] <vhristev> и след това пусни пак NETSTAT-a
+[01:47:15] <vhristev> за да видиш как ще имаш порта там и вече всичко ще работи
+[01:47:15] <KacanuH> работи
+[01:47:18] <KacanuH> мерси много
+[01:47:23] <vhristev> за нищо ман
+[01:47:43] <KacanuH> айде другият четвъртък имаш една бира от мен
+[01:47:54] <vhristev> Мерси мерси аз алхокол мн рядко
+[01:47:59] <vhristev> а бирата си е течен хляб
+[01:47:59] <vhristev> (;
+[01:48:02] <KacanuH> е ми безалкохолна тогава
+[01:48:09] <vhristev> Едно количка
+[01:48:10] <vhristev> ахахха
+[01:48:15] <vhristev> майтап си правя всичко е 6
+[01:48:18] <vhristev> та .....
+[01:48:23] <vhristev> за да не се бъркаш от коментарите
+[01:48:33] <vhristev> или си пусни цвят в текст едитор
+[01:48:42] <KacanuH> да коментара ми е правил магарията
+[01:48:47] <vhristev> или може да пуснеш  grep -v '^#' CONF
+[01:48:55] <vhristev> или може да пуснеш  grep -v '^#' CONF | sort
+[01:49:04] <KacanuH> и аз се зачудих трябва ли да го има, ама реших да го оставя
+[01:49:07] <vhristev> така ще видиш всички редове без коментарите
+[01:49:20] <vhristev> АМи 22ката е коментирана защото по дефайлт е на 22
+[01:49:26] <vhristev> и не е нужно да ОТкоментирана
+[01:49:41] <KacanuH> ясноооо
+[01:50:04] <KacanuH> айде по тоя повод да запаля една цигара, и да лягам да спя, защото утре ме чака яко каране
+[01:50:05] samy__ (~samy@84.238.184.98) left irc: Quit: Leaving
+[01:50:12] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[01:51:06] <vhristev> окс
+[01:51:07] <vhristev> (;
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:04:19] <KacanuH> лекар ви нощ
+[02:05:38] <hackman> лекар с нож
+[02:05:38] <hackman> :)
+[02:08:59] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 240 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:33:23] Fairytale (1000@police.executie.org) left irc: Remote host closed the connection
+[04:41:45] _NEKTAR_ (~abv@15.195.185.76) joined #telerikacademy.
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:20:26] s0ny123 (~agit0@95.111.18.140) left irc: Quit: Leaving
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:37:45] _NEKTAR_ (~abv@15.195.185.76) left irc: Remote host closed the connection
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:51:43] localhostbg (~billy@151.237.62.193) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:34:15] localhostbg (~billy@151.237.62.193) left irc: Ping timeout: 240 seconds
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:33:42] hackman (~HackMan@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:17:42] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[10:21:13] net: connect! sock 3
+[10:21:13] DNS resolved 127.0.0.1 to localhost
+[10:21:13] Telnet connection: localhost/44517
+[10:21:13] net: connect! sock 9
+[10:21:13] net: eof!(read) socket 9
+[10:21:13] Timeout/EOF ident connection
+[10:21:18] Logged in: KpeTeHoug (telnet@localhost/44517)
+[10:21:23] tcl: builtin dcc call: *dcc:rehash KpeTeHoug 6 
+[10:21:23] Writing user file...
+[10:21:23] Writing channel file...
+[10:21:23] Rehashing ...
+[10:21:23] Writing channel file...
+[10:21:23] Listening at telnet port 3333 (all).
+[10:21:23]   logs2html module: added channel '#telerikacademy'. Total channels added: 1.
+[10:21:23] UDEF: chanstats defined
+[10:21:23] 14<chanstats> version 1.3.0 by arfer loaded
+[10:21:23] UDEF: seend defined
+[10:21:23] Seend 1.8.3 loaded!
+[10:21:23] Loading dccwhois.tcl...
+[10:21:23] Loaded dccwhois.tcl
+[10:21:23] Userinfo TCL v1.07 loaded (URL BF GF IRL EMAIL DOB PHONE ICQ).
+[10:21:23] use '.help userinfo' for commands.
+[10:21:23] Writing channel file...
+[10:21:23] Userfile loaded, unpacking...
+[10:21:35] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 6 
+[10:21:55] tcl: builtin dcc call: *dcc:die KpeTeHoug 6 brb reset
+[10:21:58] Writing user file...
+[10:21:58] Writing channel file...
+[10:21:58] * DIE BY KpeTeHoug!telnet@localhost (brb reset)
+[10:22:12] Seend data restored.
+[10:22:12] main: entering loop
+[10:22:14] DNS resolved irc.freenode.net to 89.105.197.133
+[10:22:14] net: connect! sock 7
+[10:22:29] Telerik joined #telerikacademy.
+[10:22:35] net: connect! sock 3
+[10:22:35] DNS resolved 127.0.0.1 to localhost
+[10:22:35] Telnet connection: localhost/44519
+[10:22:35] net: connect! sock 9
+[10:22:35] net: eof!(read) socket 9
+[10:22:35] Timeout/EOF ident connection
+[10:22:39] Logged in: KpeTeHoug (telnet@localhost/44519)
+[10:22:43] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 8 
+[10:23:12] DCC connection closed (KpeTeHoug!telnet@localhost)
+[10:26:06] <dencho> toz bot vseki den li se resetva bre :D
+[10:26:09] Action: dencho slaps KpeTeH|week around a bit with a large trout
+[10:30:24] <dencho> dobro utro hora
+[10:31:03] net: connect! sock 3
+[10:31:03] DNS resolved 127.0.0.1 to localhost
+[10:31:03] Telnet connection: localhost/44521
+[10:31:03] net: connect! sock 9
+[10:31:03] net: eof!(read) socket 9
+[10:31:03] Timeout/EOF ident connection
+[10:31:07] Logged in: KpeTeHoug (telnet@localhost/44521)
+[10:31:10] tcl: builtin dcc call: *dcc:whom KpeTeHoug 8 
+[10:31:14] tcl: builtin dcc call: *dcc:die KpeTeHoug 8 brb
+[10:31:17] Writing user file...
+[10:31:17] Writing channel file...
+[10:31:17] * DIE BY KpeTeHoug!telnet@localhost (brb)
+[10:32:58] Seend data restored.
+[10:32:58] main: entering loop
+[10:33:00] DNS resolved irc.freenode.net to 86.65.39.15
+[10:33:00] net: connect! sock 7
+[10:33:14] Telerik joined #telerikacademy.
+[10:33:22] net: connect! sock 3
+[10:33:22] DNS resolved 127.0.0.1 to localhost
+[10:33:22] Telnet connection: localhost/44523
+[10:33:22] net: connect! sock 9
+[10:33:22] net: eof!(read) socket 9
+[10:33:22] Timeout/EOF ident connection
+[10:33:26] Logged in: KpeTeHoug (telnet@localhost/44523)
+[10:33:30] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 8 
+[10:35:03] DCC connection closed (KpeTeHoug!telnet@localhost)
+[10:44:26] localhostbg (~billy@151.237.62.193) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:05:00] localhostbg (~billy@151.237.62.193) left irc: Ping timeout: 240 seconds
+[11:08:55] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[11:25:39] samy__ (~samy@84.238.184.98) left irc: Ping timeout: 248 seconds
+[11:35:00] DNS resolved irc.freenode.net to 213.232.93.3
+[11:35:00] net: connect! sock 7
+[11:35:17] Telerik joined #telerikacademy.
+[11:48:15] nveselinov_ (nveselinov@151.237.4.4) joined #telerikacademy.
+[11:48:40] samy_ (~samy@84.238.184.98) left irc: Read error: Connection reset by peer
+[11:50:50] samy_ (~samy@84.238.184.98) joined #telerikacademy.
+[11:50:54] Nick change: milev -> 7JTAAC73K
+[11:51:01] milev (~martin@client-33-170.speedy-net.bg) joined #telerikacademy.
+[11:51:55] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 276 seconds
+[11:56:23] 7JTAAC73K (~martin@client-33-170.speedy-net.bg) got netsplit.
+[11:56:35] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[11:56:59] looser99 (John@78.130.186.99) left irc: Read error: Connection reset by peer
+[11:57:16] looser99 (John@78.130.186.99) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:03] dench0 (~dencho@95.111.14.183) joined #telerikacademy.
+[12:03:35] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 256 seconds
+[12:07:00] 7JTAAC73K (~martin@client-33-170.speedy-net.bg) got lost in the net-split.
+[12:08:17] milev (~martin@client-33-170.speedy-net.bg) got netsplit.
+[12:08:18] samy_ (~samy@84.238.184.98) got netsplit.
+[12:08:23] nveselinov_ (nveselinov@151.237.4.4) got netsplit.
+[12:08:26] yulimoto_away (~yulimoto@wolf.yuhu.biz) got netsplit.
+[12:09:09] nveselinov_ (nveselinov@151.237.4.4) returned to #telerikacademy.
+[12:09:09] yulimoto_away (~yulimoto@wolf.yuhu.biz) returned to #telerikacademy.
+[12:12:44] milev (~martin@client-33-170.speedy-net.bg) returned to #telerikacademy.
+[12:16:40] Nick change: dench0 -> dencho
+[12:17:49] nveselinov__ (nveselinov@151.237.4.4) joined #telerikacademy.
+[12:19:00] samy_ (~samy@84.238.184.98) got lost in the net-split.
+[12:21:07] yulimoto1away (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[12:26:19] nveselinov_ (nveselinov@151.237.4.4) got netsplit.
+[12:26:22] yulimoto_away (~yulimoto@wolf.yuhu.biz) got netsplit.
+[12:27:20] nveselinov_ (nveselinov@151.237.4.4) returned to #telerikacademy.
+[12:30:55] nveselinov__ (nveselinov@151.237.4.4) left irc: Ping timeout: 275 seconds
+[12:37:00] yulimoto_away (~yulimoto@wolf.yuhu.biz) got lost in the net-split.
+[12:55:35] Nick change: yulimoto1away -> yulimoto
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:13:22] nveselinov_ (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[13:51:46] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:04:22] milev (~martin@client-33-170.speedy-net.bg) got netsplit.
+[14:04:45] milev (~martin@client-33-170.speedy-net.bg) returned to #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:09:28] samy__ (~samy@84.238.184.98) left irc: Quit: Leaving
+[15:09:57] <vhristev> влизам гледам все едно един храст от Уестърните се търкаля тука ... пустоо...
+[15:18:32] <yulimoto> хаха vhristev ти и събота и неделя ли не работиш ?
+[15:19:34] <vhristev> работя чат пат не е задължително ама все пак си действам по задачки
+[15:19:48] <vhristev> а и както се вика човек като работи това което обича вече не работи ,а просто се забавлява
+[15:20:00] <vhristev> та въпроса ти може да се промени на ' Ти забавляваш ли се събота и неделя ;
+[15:20:01] <vhristev> аххха
+[15:21:05] <yulimoto> аха да аз виждам, че се забавляваш, друг е въроса, че може би работата и забавлението ти са две различни неща ;)
+[15:27:04] <yulimoto> с rtmpdump работил ли си ?
+[15:27:59] <yulimoto> опитвам се да дъмпна лайв стрийм видео
+[15:29:04] <yulimoto> първо си снифя обаче трафика за да изкарам малко информация за rtmp сървъра, ама нещо криво върви ралтата
+[15:30:32] <yulimoto> да не се обиди  ?
+[15:30:42] Nick change: yulimoto -> yulimoto_away
+[15:47:08] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:06:45] <vhristev> аз ли неее.... аз да не съм жена да се обиждам от две приказки
+[16:06:50] <vhristev> ами не не съм стриймвал видео от линукс
+[16:21:45] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:09:42] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[18:16:11] sto|away (~chatzilla@94.26.85.140) joined #telerikacademy.
+[18:16:14] Nick change: sto|away -> sto|yan
+[18:36:29] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[18:36:40] <sto|yan> на някой да му се е случвала следната глупост: РедХат на ESXi и по невнимание препълних диска от раз - машината се скапа и трябваше да връщам снапшот.
+[18:37:23] <sto|yan> Докато го правих се чудех, мога ли да буутна лайв-СиДи и да поразчистя, като монтирам от него - там не мога да си играя, ама по принцип ...
+[18:37:55] <sto|yan>  ... за другия път :D
+[18:53:01] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[18:58:26] Action: dencho slaps Brahman around a bit with a large trout
+[18:58:34] Action: dencho slaps angie_bg around a bit with a large trout
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:22:43] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[19:30:50] <episparh> sto|yan,  що не си разшириш партишъна
+[19:31:01] <episparh> ESXi  го позволява
+[19:32:04] <episparh> това , по принцип съм го правил само за уин сървъри но би трябвало да може за всичко
+[19:33:10] <sto|yan> може. правено е
+[19:34:36] <sto|yan> идеята ми беше, дали мога да го буутна през вирт СииДи, да заредя в рам-та лайв имиджа, да монтирам (в моя случай /tmp) волюма и да разкарам това, което намазах по-рано ;)
+[19:35:57] <episparh> ами няма причина да не може , просто като стартираш VM-a помпи F2 в конзолата и му смени буут сорса
+[19:36:23] <sto|yan> :)
+[19:37:19] <sto|yan> искам да мигрирам там към ProxMox - и скоро май ще го направя
+[19:38:33] <episparh> аз това не съм го ползвал - и просто би било тъпо на машина от вида poweredge ;)
+[19:40:36] <episparh> но съм забелязал , че vmware  и rhel базирани дистрота не се лайкват много което не е куул :S
+[19:41:13] <episparh> аз излизам да подишам малко йодни соли
+[19:41:20] <episparh> аз излизам да подишам малко йодни пари*
+[19:41:41] angie_bg (~angie@77.236.189.210) left #telerikacademy.
+[19:41:48] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[19:42:01] angie_bg (~angie@77.236.189.210) left #telerikacademy.
+[19:44:48] <sto|yan> Има един P/edge R810, ама не е много умно направен - много ядра, малко РАМ - по-добре блейд
+[19:45:33] <sto|yan> йодни пари?
+[19:47:08] <episparh> около морето има такива ;)
+[19:48:28] <sto|yan> черна завист :):)
+[19:48:41] <sto|yan> дано не вали
+[19:49:30] <episparh> а не .. аз говорих за добре конфигуриран т620 , за мое съжаление вече не работя за същата фирма и нямам достъп до него :(
+[19:50:30] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[19:50:51] <episparh> без проблеми покриваше dev/QA  нуждите на 20 човека
+[19:51:29] <episparh> както и да е , ако вали , и утре е ден
+[19:51:38] <episparh> морето няма да избяга
+[19:51:51] <episparh> и зимата си е тук ;)
+[19:53:36] <sto|yan> :D t620 - nice. ако можеш да избирам м/у ило, идрак, илом - определено идрак :)
+[19:56:49] sig (~sig@87.97.211.51) joined #telerikacademy.
+[19:57:23] sig (~sig@87.97.211.51) left irc: Client Quit
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:02:52] <episparh> като ти е в съседната стая и е само 1 - не ти трябват такива глупости ;)
+[20:06:21] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[20:06:37] <sto|yan> :D в офиса, съседната стая е WC
+[20:06:51] <sto|yan> а там - мога и сам :)
+[20:08:15] <sto|yan> бтв - като каза Уин - Тийм-вал ли си интерфейси под уин
+[20:10:33] <episparh> мне
+[20:11:36] <sto|yan> и аз - и не знам за какво да гледам
+[20:11:45] <episparh> гугъл
+[20:11:55] <sto|yan> там гледам
+[20:13:54] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 246 seconds
+[20:14:30] <episparh> може и в ютюб :)
+[20:14:32] <episparh> http://www.youtube.com/watch?v=vjxCrh-L_HM
+[20:16:49] <sto|yan> 10x
+[20:17:37] <episparh> а, за нищо аз само сърч направих - ако си счупиш нешо не нося отговорност :П
+[20:17:45] <episparh> :Р *
+[20:18:28] <sto|yan> hehe -
+[20:18:32] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[20:46:57] Nick change: sto|yan -> sto|away
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:01:02] sto|away (~chatzilla@94.26.85.140) left #telerikacademy.
+[21:01:26] Yavor (~chatzilla@87.97.197.136) joined #telerikacademy.
+[21:02:30] Yavor (~chatzilla@87.97.197.136) left irc: Client Quit
+[21:18:18] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 246 seconds
+[21:30:14] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 260 seconds
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:11:35] samy (~samy@84.238.184.98) joined #telerikacademy.
+[22:20:49] Brahman (~Brahman@109.121.248.105) left irc: Read error: Operation timed out
+[22:22:34] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:58:18] <KacanuH> спите ли бе
+[00:00:00] --- Sun Jul 21 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

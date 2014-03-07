@@ -1,0 +1,454 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:17:58] Guest59978 (~deyan@46.249.92.240) left irc: Ping timeout: 245 seconds
+[00:18:34] Guest59978 (~deyan@46.249.92.240) joined #telerikacademy.
+[00:33:22] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[00:37:24] Guest59978 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:25:11] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:58:19] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 248 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:33:38] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:47:00] Tiako (~Tiako@133.Red-79-151-218.dynamicIP.rima-tde.net) joined #telerikacademy.
+[05:47:36] <Tiako> Nqkoi znae li kak moga da si resize-na ( expand ) partition-a na linux-a ?
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:00:02] Tiako (~Tiako@133.Red-79-151-218.dynamicIP.rima-tde.net) left irc: Read error: Connection reset by peer
+[07:18:41] Tiako (~Tiako@212.Red-79-158-165.staticIP.rima-tde.net) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:11:54] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:14:59] <yulimoto> Tiako има големи дилеми всяка нощ-сутрин обаче !!
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:01:09] KpeTeH0ug (57feb524@gateway/web/freenode/ip.87.254.181.36) joined #telerikacademy.
+[09:01:33] <KpeTeH0ug> morgen
+[09:01:39] <KpeTeH0ug> не много гутен :)
+[09:30:00] KpeTeH0ug (57feb524@gateway/web/freenode/ip.87.254.181.36) left irc: Ping timeout: 250 seconds
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:10:08] vhristev (~vhristev@212.36.1.26) joined #telerikacademy.
+[10:10:21] <vhristev> Morning
+[10:10:52] <yulimoto> .seen hackman
+[10:10:54] <wilindex> yulimoto: I last saw hackman at 2013-10-03 07:52:43 UTC on #telerikacademy, saying да ви го нарисувам :)
+[10:11:11] <vhristev> днес курс ... по план уж го дават така
+[10:11:38] <yulimoto> ами аз за тва се чудя, че май хакман не се е мяркал
+[10:12:25] <vhristev> ще видим до довечера
+[10:12:37] <vhristev> все някой ще обади
+[10:12:50] <yulimoto> да де, ама все пак е добре човек да има предварително някаква представа, туй-онуй да подреди
+[10:12:59] <yulimoto> да все някой ще се обади :)
+[10:14:23] <vhristev> Еми позоваваш се на официалният план
+[10:14:29] <vhristev> който е днес кърнал
+[10:15:22] <vhristev> Но ... като гледам ние telnet/ssh , apache , nginx mysql pgsql не сме ги минали тъйче май ще са те
+[10:23:47] <yulimoto> не знаех, че има nginx и  pgsql супер :)
+[10:33:51] <vhristev> http://forums.academy.telerik.com/95117/%D0%BE%D1%81-%D0%BF%D1%80%D0%BE%D0%B3%D1%80%D0%B0%D0%BC%D0%B0-%D0%BD%D0%B0-%D0%BA%D1%83%D1%80%D1%81%D0%B0-linux-administration
+[10:33:52] <wilindex> [ [ОС] Програма на курса Linux Administration - Telerik Academy Forums ] - forums.academy.telerik.com
+[10:33:55] <vhristev> да ти пусна аванта
+[10:40:34] <yulimoto> ам аз съм я гледал ама в началото :)
+[10:40:52] <yulimoto> супер постгре не съм слагал нивга ще ми е интересно :)
+[10:41:36] <vhristev> Аз мн рядко съм го ползва
+[10:41:44] <vhristev> а и с базите данни там не ги разбраим мн мн
+[10:42:01] <vhristev> знам какво да правя ама счупи ли се нещо яко работата става куче на магаре
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:37:38] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:03:09] <dencho> drasti
+[13:14:58] Ivaka (~opera@46.238.49.41) joined #telerikacademy.
+[13:16:41] Ivaka (~opera@46.238.49.41) left #telerikacademy.
+[13:18:45] <vhristev> мара
+[13:18:54] <vhristev> много сме ама сме никва сила
+[13:24:21] <yulimoto> е ми то е basic ве daje  ne e advanced
+[13:25:08] <yulimoto> я кажете как се използва forwarders в бинда9 ?
+[13:25:36] <dencho> kvo da kajem?
+[13:25:45] <vhristev> искаш да forwardnesh заявките за друг домейн към друг bind
+[13:25:59] <vhristev> искаш примери ли да ти дадем
+[13:26:08] <vhristev> защото за конфигурация гуглето е мястото
+[13:28:52] <yulimoto> не ве пример кога е най-подходящо да се използва щото не схващам
+[13:29:35] <yulimoto> има ли случаи от практиката дето това е ок за предпочитане т.е. то има ама не се сещам
+[13:30:33] <vhristev> Еми ако вече имаш един главен ДНС
+[13:30:37] <vhristev> и искаш да си направиш Кеш сървър
+[13:30:47] <vhristev> ти forward-vash заявката към главният и е кешираш
+[13:31:46] <yulimoto> т.е. ако при събнети също, ако там има примерно днс+dhcp deto im раздава, да си forwardvam  към главния
+[13:32:16] <vhristev> DHCP само ти дава ДНС
+[13:32:22] <vhristev> дали ще им дадеш Главният или forward-a
+[13:32:24] <vhristev> зависи какво искаш
+[13:32:34] <vhristev> реално ако имаш мн офиси и локации избираш най близкият
+[13:32:36] <vhristev> до теб
+[13:32:41] <vhristev> само ,че ако главният е в Щатите а ти си тук
+[13:32:42] <yulimoto> аха
+[13:32:48] <vhristev> ти при теб ще си направиш DNS forwarder
+[13:32:59] <yulimoto> ясно да
+[13:33:16] <vhristev> всяка зявка към домейна ще е кешираш ,но при първата ще се пита главният
+[13:33:32] <vhristev> при повторна ще ти го върне Кеш forward сървъра
+[13:33:49] <yulimoto> да от тук вече е ясно, проблема е че с топологиите съм зле
+[13:33:57] <vhristev> Аз примерно в нас съм си пуснал Squid + tinyDNS (DNS cache )
+[13:33:58] <vhristev> и нета фърчи
+[13:34:12] <vhristev> защото здраво се кешира всичко
+[13:36:32] <yulimoto> squid-а  не се ли слага на разни услуги да ги кешира, можеш ли целия трафик да минава през кеш с него ?
+[13:36:47] <vhristev> Http
+[13:36:50] <vhristev> това кеширам
+[13:37:01] <yulimoto> аха
+[13:37:06] <yulimoto> някакво прокси ли правиш ?
+[13:37:40] <vhristev> Transparent proxy
+[13:37:47] <vhristev> използвам го само за кеш без лимитации
+[13:38:50] <yulimoto> това използва ли се от isp-тата или ползват нещо друго ?
+[13:39:11] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[13:39:57] <vhristev> Еми някой дори имат хардуерни кеш сървъри
+[13:40:09] <vhristev> ама мн надълбоко за ISP-тата не съм се интересувал
+[13:41:11] <yulimoto> ясно, то си е пара там, нормално :)
+[13:58:31] <dencho> :)
+[13:59:11] ndyakov (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[13:59:32] <ndyakov> някой да знае дали hackman е вече в българия
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:46] <yulimoto> и аз това се чудех, за това и попитах дали са е говорил на конфа във ВТ
+[14:01:36] <yulimoto> сетих се че му имам джабера
+[14:02:08] <dencho> mi osven da mu sa obadite po telefona da go pitate?
+[14:02:08] <dencho> :D
+[14:02:15] <yulimoto> haha
+[14:02:45] <yulimoto> idle е в джабера от 2 часа, ако имаше проблеми щеше да влезе да каже
+[14:03:00] anton_dutsov (~Thunderbi@178.75.230.84) joined #telerikacademy.
+[14:03:01] <dencho> :]
+[14:03:06] <dencho> pusni mu sms we :D
+[14:03:53] <yulimoto> ке му пусна емаил  ама нали знаеш че подправя и хедърите на пакети и тези на имейла и познай кой ще излезе досадника после ;P
+[14:04:48] <dencho> da we da we da we :D
+[14:04:52] anton_dutsov (~Thunderbi@178.75.230.84) left irc: Client Quit
+[14:05:15] <dencho> podprava4a :D
+[14:05:21] <yulimoto> хахах
+[14:05:23] <yulimoto> хаха
+[14:05:43] <dencho> kreteoid-a da ne e prekalil s conf-a ?
+[14:05:46] <dencho> ta za tva da go nqma sq
+[14:06:00] <dencho> tri dni qli pili i conf-ili :D
+[14:06:17] <yulimoto> не знам, може да е ходил на ВТ конфа и да е сменил попрището
+[14:06:26] <dencho> haha :D
+[14:06:49] <yulimoto> сутринта е казал морген и до там
+[14:07:23] <dencho> moje da nema net, taka kato gledam quit-a
+[14:07:24] <dencho> :D
+[14:07:35] <dencho> to tam u turnovo kat zavali im spira netq
+[14:07:35] <dencho> :D
+[14:07:49] <yulimoto> аз верно взема да напиша един имейл на телерик, "денчо се притеснява. дайте информация, човека му гори"
+[14:07:59] <dencho> hahaha
+[14:08:12] <dencho> napi6i
+[14:08:17] <dencho> i pitai dove4era 6te ima li lekciika
+[14:08:35] <yulimoto> ще питам "ще има ли за денчо лекция и топло място"
+[14:08:45] <dencho> btw ei tuka mislq da se probvam http://it.jobs.bg/f1980617 ITIL-a go znam kato az sam bulgar4e :D napisano na shliokavica
+[14:08:46] <wilindex> [ it.jobs.bg - Предложения за работа от водещи компании в България - Специалист Център за обслужване на клиенти ] - it.jobs.bg
+[14:08:49] <yulimoto> ако може и една леща да му сложите докато слуша
+[14:08:57] <dencho> yulimoto i qdene i qdene
+[14:09:05] <dencho> i hlqb
+[14:09:06] <dencho> :D
+[14:09:13] <dencho> 2 filii  molq
+[14:09:35] <dencho> i ako moje nqkoq HR-ka da mi govori :D
+[14:10:27] Action: dencho slaps yulimoto around a bit with a large trout
+[14:10:33] <dencho> Deyaneeeeeeeeeeeeeeeei
+[14:10:36] Action: dencho slaps Deyan around a bit with a large trout
+[14:11:13] <yulimoto> ами отивай то от обявата не става ясно
+[14:11:57] <yulimoto> дали ще инсталираш скайпове и на колко лелки ще си петльо
+[14:11:58] <dencho> dove4era ako sa pribera po navreme 6te pi6a motivacionno pismo
+[14:12:03] <dencho> hahah
+[14:12:27] <dencho> samo ne razbiram kakvo ob6to ima...
+[14:12:28] <dencho> Висше икономическо образование или образование в областта на Информационните технологии
+[14:12:32] <dencho> ikonomikata s infrmatikata?
+[14:12:40] <dencho> az li4no ne vijdam ni6to ob6to ili ili
+[14:12:41] <dencho> :D
+[14:13:17] <yulimoto> пиши инсталирам скайпа, хаквам фейбук акаунти ама трябва да кликнат на един линк дето им го пращам, и преди знаех как да града пощи и от абв-то !!!
+[14:13:36] <dencho> ghahahaha
+[14:13:37] <dencho> :D
+[14:14:15] <yulimoto> ма пише за абв-то вече не става щото го казах на един комшия и той много клюкари !!!
+[14:14:22] <KrasiGa> в банките всички тези услуги са им забранени
+[14:14:30] <yulimoto> хахах
+[14:14:38] <KrasiGa> лични пощи също не могат да отварят
+[14:14:42] <dencho> ne mislq, 4e mogat da gi ograni4at :D
+[14:14:50] <dencho> prosto trqbva da namerqt pravilniq port za ssh tunneling
+[14:14:51] <dencho> :D
+[14:14:54] <dencho> i proxy :D
+[14:15:16] <dencho> 100% port 80 e open :)
+[14:15:17] <yulimoto> слушайте сега ти пиши, аз съм Денчо фейсбук хакера и ще те вземам бе
+[14:15:22] <dencho> hahahha
+[14:15:28] <dencho> az ot facebook ne razbiram we
+[14:15:28] <dencho> :D
+[14:15:36] <KrasiGa> не знам как но са ограничени
+[14:15:54] <yulimoto> ограничени са ве, ма все не са се сетили за нещо
+[14:16:01] <dencho> n dam :D
+[14:16:20] <dencho> NQMA KAK DA ME OGRANI4AT AKO IMAM PONE 1 OPEN PORT :D
+[14:16:30] <yulimoto> може да си пуснеш openvpn на 80 у вас и от там да си отвориш целия свят
+[14:16:35] <dencho> to4no taka :D
+[14:16:57] <yulimoto> може може, ама ние нищо нее правим
+[14:17:10] <KrasiGa> е дали някой банков служител ще може да го направи?
+[14:17:13] <dencho> yulimoto a nai lesno moje sus ssh tunnel kum vku6ti :D
+[14:17:17] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[14:17:23] <dencho> KrasiGa ako e hodil v telerik :P
+[14:17:24] <dencho> ahahahha
+[14:17:24] <KrasiGa> dencho: тази обява е за обслужване на клиенти
+[14:17:26] <yulimoto> KrasiGа нали и тя е ограничена, ама никой не се сети да пусне един тунел да и оправи връзката
+[14:17:34] <KrasiGa> не е за теб
+[14:17:48] <dencho> yulimoto mi da i be6e pusnal edin ssh na port 80
+[14:18:26] <yulimoto> това е тъпо ве, по-добре openvpn да не го мислиш кое какво е
+[14:18:55] <yulimoto> на пускам си други глупости
+[14:19:13] <yulimoto> пък и не мога да ги поддържам, за по дълго от седмица :)
+[14:20:52] <dencho> :]
+[14:21:16] <dencho> kolko pari da iskam za windows reinstall we!?
+[14:21:19] <dencho> kak vurvat cenite
+[14:21:19] <dencho> :D
+[14:21:32] Nick change: ndyakov -> ndyakov|away
+[14:21:42] <KrasiGa> безплатно
+[14:22:08] <dencho> eeee risk si e... ako me fanat 4engetata s windows copy v djoba?
+[14:22:09] <dencho> :D
+[14:22:20] <KrasiGa> хахаха
+[14:23:44] <vhristev> от 10-15 до 100
+[14:23:46] <vhristev> лв.
+[14:24:02] <vhristev> аз примерно взимам на час а какво ще правя не ме интересува
+[14:27:19] <yulimoto> мда така си е, ти си гледай рейта, а ако искат да ти дават пасианса да им редиш тебе не те интересува
+[14:28:03] <yulimoto> виж вече ако нищо не свършиш е друг въпрос, там не бих се напъвал да им искам пари.
+[14:35:20] <vhristev> Ами докато не го свърша не си взимам парите
+[14:35:30] <vhristev> а и винаги трябва да се грижиш клиента да е доволен
+[14:35:35] <vhristev> дори и да ти коства да работиш за без пари
+[14:36:03] <dencho> da be qsno
+[14:36:03] <dencho> :D
+[14:36:33] <dencho> prosto 6toto do sq vinagi koito e nosel ne6to u nas e bilo free... a tva 4e se nosqt na priqtelite na priqtelite na priqtelite... :D
+[14:36:36] <dencho> nema zna4enie :D
+[14:53:54] <vhristev> та кой иска да плаща
+[14:55:12] <dencho> :]
+[14:55:40] <dencho> mi ta osven da im napraa edin kick start po windows installation :D
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:04:13] Nick change: ndyakov|away -> ndyakov
+[15:04:34] <ndyakov> а вие имате лекции днес ли ?
+[15:06:10] <yulimoto> ndyakov: ти във фми ли си ?
+[15:06:20] <ndyakov> да.
+[15:21:30] Nick change: ndyakov -> ndyakov|away
+[15:33:02] <dencho> fatalni moza4ni izkrivqvaniq :D
+[15:33:14] <dencho> haide
+[15:33:14] <dencho> :P
+[15:33:14] <dencho> do dove4era
+[15:34:23] <Deyan> dencho: пиши на кирилица
+[15:34:39] <Deyan> изтекоха ми очите до като ти прочета всичките писания
+[15:35:07] <dencho> Deyaneeeeeeeeeeeeeeeeeeeeeeeeei
+[15:53:26] Tiako (~Tiako@212.Red-79-158-165.staticIP.rima-tde.net) left irc: Quit: Leaving
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:12:33] <vhristev> днес по план трябва да има лекция
+[16:12:42] <vhristev> ама Мариян нещо не е влезнал ако някой чуе нещо да пише тука
+[16:36:29] yulimoto (~yulimoto@78.108.248.204) left irc: Ping timeout: 245 seconds
+[16:50:57] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[16:53:56] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:10:05] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[17:10:26] <vhristev> оп ...
+[17:10:37] <vhristev> Курса днес ще се води нали така ?
+[17:28:05] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[17:49:40] <phalaaxx> въпрос с повишена трудност: софтуерен RAID1 с 3 диска, единия е сменен с по-нов (съответно по-голям) и се товари повече от другите два диска което води до проблеми с производителноста на цялата машина
+[17:50:13] <vhristev> РАЙД-а ще взема най малкият диск от масива
+[17:50:21] <vhristev> и ще направи масив с такъв размер
+[17:50:24] <phalaaxx> особеното в случая е че новия диск е с physical_block_size - 4096, докато другите два диска са със 512 (и софтуерния райд е направен с 3 диска с physical_block_size 512)
+[17:50:41] <vhristev> ако имаш 2х500Г и един 1Т ще имаш РАЙД 1 от 3 диска с размер 500Г
+[17:50:46] <phalaaxx> размера не е проблем, както казах въпроса е с повишена трудност :)
+[17:51:07] <vhristev> блоксайза може да си го едитнеш
+[17:51:20] <vhristev> но все пак мога да погледна за подобен казус
+[17:51:48] <phalaaxx> не знам дали това е причината за проблемите с производителноста де
+[17:52:11] <phalaaxx> но определено с този диск в масива има проблем
+[17:53:07] <phalaaxx> може и хардуера да е някакъв по-евтин, не знам (това няма как да го разбера)
+[17:53:54] <phalaaxx> но се опитвам да извадя разликите от гледна точка на операционната система в опит да разбера дали няма някакъв конфигурационен проблем от така създалата се ситуация :)
+[17:54:28] <phalaaxx> не съм се сблъсквал с подобен проблем досега а и ми е малко труден за обяснение за да тръгна да го търся в гугъл
+[17:55:17] Vankata (~Ivan@77.70.105.191) left irc: Quit: Leaving
+[17:57:07] <hackman> абе, днес имаме ли лекция ?
+[17:57:31] <yulimoto> ти луд ли си ве, цял ден хората те питат дали ще имаме лекция и ти сега и ти питаш :)
+[17:57:32] <phalaaxx> по програма - да :)
+[17:57:46] <hackman> аха... ясно
+[17:57:49] <yulimoto> хаахах
+[17:57:54] <hackman> амиии  ще има значи :)
+[17:57:57] <hackman> сега ще подготвя
+[17:58:34] <Deyan> е аз съм малко много зле и ще я гледам от къщи
+[17:58:47] <Deyan> айде паля към нас
+[17:58:50] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[17:58:59] <yulimoto> и аз съм зле мамка му, ма ще я изкарам на крак тая
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:02:03] <hackman> абе за какво говорихме последният път?
+[18:02:05] <hackman> syslog
+[18:02:11] <hackman> cron не сме минали нали ?
+[18:02:33] <phalaaxx> не, доколкото си спомням аз
+[18:02:40] <vhristev> Крона не сме
+[18:02:44] <vhristev> само сислога
+[18:02:49] <vhristev> май крон апаче nginx
+[18:04:07] <hackman> с logrotate приключихме до колкото помня
+[18:04:08] <phalaaxx> да си продължа въпроса с RAID-а, опасявам се че е възможно заради някаква история със chunk size в софтуерния RAID и разликата във physical_block_size да се проявява този неприятен страничен ефект с производителноста - в този случай предполагам няма лесно решение зад
+[18:05:19] <hackman> значи днес... трябва да са crond/atd, telnet, ssh
+[18:05:21] <yulimoto> мда lorotate го споменахме на бързо, останаха другите сървиси бази данни и т.н.
+[18:06:15] <yulimoto> hackman, според теб колко седмици ще са нужни да свършим  (долу-горе) ?
+[18:08:49] <vhristev> Плахх ..
+[18:08:54] <hackman> 3-4 лекции имаме още
+[18:08:56] <vhristev> трябва всичко дискове да са ти еднакви
+[18:09:15] <vhristev> Хакман ... лекциите в софийският залично от тези ли ще са ?
+[18:11:51] <yulimoto> phalaaxx: реже ти " няма лесно решение зад" до тук. разделяй ги :)
+[18:12:20] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:14:06] <vhristev> ай паля
+[18:14:12] <vhristev>  че и може да закъснея за курса
+[18:14:17] <vhristev> Пийз пийпъл
+[18:14:17] <phalaaxx> знам че трябва да са еднакви дисковете ама това да се разправя човек с Hetzner си е невъзможна мисия :D
+[18:14:29] <vhristev> ааа добри са бе
+[18:14:47] <vhristev> аз имам няколко ВПС-а железа и хостинг
+[18:14:51] <vhristev> имат мн добър интернешънал
+[18:14:55] <vhristev> пийз
+[18:14:57] vhristev (~vhristev@212.36.1.26) left irc: 
+[18:15:20] <hackman> айде и аз духвам към терлика
+[18:15:45] <phalaaxx> имат ама като не спи човек 2 дена заради тях започва друго да си мисли :D
+[18:17:16] <phalaaxx> ще трябва да го дебна vhristev като се появи пак да му разказвам за дневни и нощни неволи с тях и как се възстановяват данни от бекъпи и няколко часа изгубени безвъзвратно данни :D
+[18:23:02] hackman (~hackman@management.1h.com) left irc: Ping timeout: 246 seconds
+[18:25:34] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[18:26:53] Guest59978 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:28:04] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[18:36:36] KacanuH (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[18:36:39] ss (~ss@gateway/tor-sasl/ss) joined #telerikacademy.
+[18:36:40] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[18:37:45] Nick change: Deyan_ -> Deyan
+[18:42:51] tuxar (~tuxar@ppp-2-85-82-72.home.otenet.gr) joined #telerikacademy.
+[18:44:54] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[18:51:36] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[18:51:40] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[18:52:03] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[18:53:17] hackman (~hackman@89.190.207.11) joined #telerikacademy.
+[18:54:03] <hackman> упс
+[18:54:05] <hackman> тук ли сте ? :0
+[18:54:24] <fityla> да изгася ли лампите
+[18:54:27] <fityla> опред
+[18:54:34] <ss> Ja.
+[18:54:42] <hackman> как е stream-a ? :0
+[18:54:42] <anton_sh> pri men nqma stream
+[18:54:50] <hackman> reload-ни :)
+[18:54:50] <lyubenblagoev> стрима тръгна
+[18:54:54] <anton_sh> a trugna
+[18:54:58] <ss> стрийма*
+[18:55:01] <lyubenblagoev> да
+[18:55:03] <fityla> а лампите?
+[18:55:08] <tuxar> ok
+[18:55:09] <sig_> OK E
+[18:55:10] <Deyan> ima stream
+[18:55:56] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[18:56:06] mike (~mike@77.70.49.155) joined #telerikacademy.
+[18:56:21] Nick change: mike -> Guest53588
+[18:57:06] Guest53588 (~mike@77.70.49.155) left irc: Client Quit
+[18:57:14] <Brahman> :) hahaha
+[18:57:51] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:06:26] koshmarko (~marko@87-126-17-211.btc-net.bg) joined #telerikacademy.
+[19:14:00] <ss> vim > *
+[19:26:32] <ss> cron
+[19:27:09] <ss> aptitude search cron
+[19:27:16] <ss> aptitude search cron | grep daemon
+[19:31:54] <Brahman> na windows nqma li ?
+[19:31:57] <Brahman> :D
+[19:37:15] <Brahman> stavashe vupros sa schedule na reboot :D
+[19:37:33] <Brahman> nqma znachenie
+[19:38:53] <Brahman> uha
+[19:54:45] <ss> `cron` е за периодично изпълнявани събития, а `at` за "еднократна употреба".
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:04] <Brahman> na kill -HUP ne si li preprochita confa
+[20:06:07] RosenN (~tt@77.70.125.246) joined #telerikacademy.
+[20:22:24] <fityla> hackman .. . ще кажеш ли как се движим
+[20:22:32] <fityla> другата седмица последна ли ни е ?
+[20:22:57] <hackman> ima li stream ? :)
+[20:23:05] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[20:23:14] <fityla> супер...
+[20:23:15] <fityla> ;)
+[20:23:18] <Deyan> da
+[20:23:27] <tuxar> da
+[20:23:37] <Deyan> работи стиима
+[20:25:10] <fityla> пуснал съм тема във форума може ли после там ... да пуснеш малко повече информация
+[20:25:25] vladisr (kvirc@78.128.12.6) joined #telerikacademy.
+[20:33:08] <fityla> командите напълно еднакви ли са на ssh и telnet
+[20:34:28] Liverpool (liverpool@unaffiliated/liverpool) joined #telerikacademy.
+[20:35:40] Dewily (c1684f33@gateway/web/freenode/ip.193.104.79.51) joined #telerikacademy.
+[20:42:12] Nick change: ndyakov|away -> ndyakov
+[20:46:57] rootstar (0@77.70.103.9) joined #telerikacademy.
+[20:51:57] <fityla> какви лоши хора
+[20:51:59] <fityla> :D
+[20:54:59] <fityla> не е ли същото като ремота?
+[20:56:30] <sig_> за Х форуърд не трябва ли Х сървър? а ако няма и няма дисплей?
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:07:34] <ss> export DISPLAY='localhost:0.0'
+[21:09:29] <ss> 127.0.0.1?
+[21:17:56] <ss> fail2ban е решението.
+[21:18:16] <fityla> искам такъв бот
+[21:28:17] <fityla> кога ще е тая мрежова сигурност
+[21:37:22] Nick change: ndyakov -> ndyakov|away
+[21:46:31] anton_dutsov (b24be654@gateway/web/cgi-irc/kiwiirc.com/ip.178.75.230.84) joined #telerikacademy.
+[21:50:33] pgachev (~pgachev@85.187.153.2) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:06:17] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:06:31] <tuxar> мерси и лека вечер
+[22:06:33] <anton_dutsov> може ли линк за днешната лекция?
+[22:07:38] <hackman> някой да дръпне клипчето
+[22:08:13] <hackman> лека
+[22:08:23] <mihail_m> 10x  za lekciqta
+[22:08:26] <anton_dutsov> лека вечер
+[22:08:34] <TPB_> следващата лекция този Четвъртък ли е ?
+[22:08:44] user99 (John@78.130.186.99) joined #telerikacademy.
+[22:08:46] <hackman> да
+[22:08:52] <TPB_> ок
+[22:09:02] <TPB_> лека и от мен
+[22:09:15] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[22:09:56] Dewily (c1684f33@gateway/web/freenode/ip.193.104.79.51) left irc: Quit: Page closed
+[22:10:01] anton_dutsov (b24be654@gateway/web/cgi-irc/kiwiirc.com/ip.178.75.230.84) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[22:11:41] <RosenN> Bye
+[22:11:50] RosenN (~tt@77.70.125.246) left #telerikacademy.
+[22:12:57] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Quit: Page closed
+[22:13:42] hackman (~hackman@89.190.207.11) left irc: Ping timeout: 264 seconds
+[22:15:47] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: owned by hackman
+[22:16:41] vladisr (kvirc@78.128.12.6) left irc: Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/
+[22:21:51] Brahman (~Brahman@109.121.248.105) left irc: 
+[22:26:08] koshmarko (~marko@87-126-17-211.btc-net.bg) left irc: Quit: Leaving
+[22:33:01] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[22:36:15] <Ivaka> Колеги, утре ще има ли лекция?
+[22:37:39] <Deyan> не в четвъртък ще има
+[22:38:14] <Deyan> обаче имам нужда от хелп, заби ми тъчпада, кажете как да го рестартирам
+[22:38:15] <Ivaka> Мерси :)
+[22:39:06] <Ivaka> рес?
+[22:39:31] <Deyan> рес ама само на пада
+[22:40:37] BM_boyan (~BM_boyan@85.187.248.24) joined #telerikacademy.
+[22:42:27] <BM_boyan> има ли някой или всички спят ? :)
+[22:42:42] <Ivaka> http://www.tuxtrix.com/2010/06/restarting-your-touchpadmouse-in-ubuntu.html
+[22:42:43] <wilindex> [ Tuxtrix: Restarting your touchpad/mouse in Ubuntu in simple steps ] - www.tuxtrix.com
+[22:42:47] <Ivaka> това не знам дали ще помогне
+[22:42:48] <Deyan> тук сме, не спим
+[22:43:05] <Deyan> не работи, това го пробвах
+[22:43:28] <Deyan> проблема с даването на линкове е че не мога да ги отварям
+[22:44:05] <Ivaka> аха
+[22:44:18] <Ivaka> с коя дистро си ?
+[22:44:25] <BM_boyan> някой напомни ли на Мариан да ъпдейтне репото в Гит ?
+[22:44:32] <BM_boyan> :)
+[22:45:25] <Ivaka> то май си ъпнато до последна лекция 8ма
+[22:46:52] <BM_boyan> да ама последните неща от 9-та, която май беше тази вечер (неможах да я слушам само ми се зареди ) ги няма в Гит
+[22:48:21] <Ivaka> Мда, прав си, то и аз съм я пропуснал
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:58] BM_boyan (~BM_boyan@85.187.248.24) left #telerikacademy.
+[23:06:04] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[23:11:05] Deyan (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[23:11:55] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:16:28] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[23:17:01] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[23:26:30] pgachev (~pgachev@85.187.153.2) left irc: Remote host closed the connection
+[23:47:34] <dencho> pi4ove... дистанционните канали за обслужване на клиенти kakvo 6te re4e?
+[00:00:00] --- Tue Oct  8 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

@@ -1,0 +1,748 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:00] net: connect! sock 6
+[00:00:15] Telerik joined #telerikacademy.
+[00:00:33] <yulimoto> скоро гледах в нета рутерче raspery P , на което слагат софт, работи с iptables-a и си синква базата данни на определено време, блокира известните ip-ta от където идват реклами
+[00:01:49] <yulimoto> май това беше http://learn.adafruit.com/raspberry-pi-as-an-ad-blocking-access-point/overview
+[00:01:51] <wilindex> [ Overview | Raspberry Pi as an Ad Blocking Access Point | Adafruit Learning System ] - learn.adafruit.com
+[00:02:42] <yulimoto> на демото изглежда ефикасно в действителност не знам :)
+[00:04:50] <phalaaxx1> оо липсва ми още нещо в скрипта - sync от /.lib{,64} към /lib{,64} при boot-ване (-m)
+[00:04:52] <ndyakov> yulimoto: това е идея, аз си използвам adblock за браузъра.
+[00:05:21] <ndyakov> иначе в къщи рутера ми е един linux бокс, така че мога да опитам и нещо такова.
+[00:05:50] <phalaaxx1> аз съм с OpenWRT върху RB450G
+[00:05:52] <ndyakov> и без това нагласям iptables-а за навтането , така че няма да е болка да сложа още няколко неща вътре
+[00:06:13] <ndyakov> phalaaxx1: сменях рутер след рутер, все ми отиваха чиповече за безчиния и почваше да ми пада мрежата
+[00:06:38] <phalaaxx1> това за RB ли говорим още?
+[00:06:47] <phalaaxx1> или само аз си говоря за RB :D
+[00:06:48] <ndyakov> накрая взех едина стара барака ( celeron 440 , 1gb ram ) и му сложих една безжична карта
+[00:08:00] <ndyakov> ти говориш за RB :) аз говоря за раните измислени рутери на пазара от типа на tenda и ... как беше другия..
+[00:08:07] <ndyakov> няма значение :)
+[00:09:50] <yulimoto> a ве пичове сега как да си umount-а /lib-a приложенията вече са взели файловете
+[00:09:56] <yulimoto> :)
+[00:10:49] <phalaaxx1> с reboot
+[00:10:52] <phalaaxx1> :D
+[00:11:02] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[00:11:05] <yulimoto> :) мнеее
+[00:11:11] <ndyakov> yulimoto: затваряш каквото чете от там ( или евентуално пише ) и umount-ваш
+[00:11:38] <ndyakov> http://ocaoimh.ie/2008/02/13/how-to-umount-when-the-device-is-busy/
+[00:11:40] <wilindex> [ How to umount when the device is busy ] - ocaoimh.ie
+[00:12:07] <yulimoto> имаше нещо lazy umount ама ще се чете, поне да си пропомня дали вършеше някаква работа
+[00:12:08] <ndyakov> примерно аз за един nfs използвам umount -l като ми падне мрежата
+[00:12:23] <ndyakov> yulimoto: при мен върши, иначе ми hang-ва дори file manager-а
+[00:12:32] <yulimoto> сега ще видим
+[00:12:58] <yulimoto> въх стана
+[00:13:40] <yulimoto> Detach the filesystem from the filesystem hierarchy now, and cleanup all refer‐ ences to the filesystem as soon as it is not busy anymore.
+[00:14:40] <phalaaxx1> http://pastebin.com/T6yMRQmR
+[00:14:42] <wilindex> [ [Bash] /usr/local/bin/tmpfslibs - Pastebin.com ] - pastebin.com
+[00:15:13] <phalaaxx1> yulimoto: нали се сещаш че това последното условие ще се изпълни като си загасиш програмите :)
+[00:17:18] <yulimoto> phalaaxx1: изчисти доста рам де беше заета ~210 МБ сега e 140
+[00:18:52] <phalaaxx1> при мен е захапало 147MB
+[00:21:46] <ndyakov> може просто да е кеширана
+[00:22:17] <yulimoto> преди това беше доста по-малко, но сега ще я изчистя от proc да видим
+[00:23:12] <ndyakov> alias freeram='echo 3 | sudo tee /proc/sys/vm/drop_caches'
+[00:23:29] <ndyakov> аз така чистя рамта
+[00:23:29] <ndyakov> ;D
+[00:24:39] <yulimoto>            total       used       free     shared    buffers     cached
+[00:24:39] <yulimoto> Mem:           503         32        470          0          1          8
+[00:25:08] <yulimoto> ами аз не я чистя чак толкова често :)
+[00:27:19] <ndyakov> http://paste.ubuntu.com/6125739/
+[00:27:20] <wilindex> [ Ubuntu Pastebin ] - paste.ubuntu.com
+[00:27:40] <ndyakov> ама от пускането му не съм го чистил
+[00:27:50] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:28:00] <ndyakov> и е лаптоп все пак, с графична срада и всичко. вече 3d6h uptime има без да е спиран.
+[00:29:11] <ndyakov> ето го след freeram http://paste.ubuntu.com/6125745/
+[00:29:12] <wilindex> [ Ubuntu Pastebin ] - paste.ubuntu.com
+[00:29:55] <yulimoto> я дай uptime
+[00:30:00] <phalaaxx1> че мен в офиса ми лаптопа беше направил ъптайм почти 70 дена - с графичната и браузера и.... после спряха тока в сградата за 1 ден :D
+[00:30:57] <yulimoto> phalaaxx1: сигурно нарочно са го спряли да си почине, принудилтено почистване на кеша force  cold-cache
+[00:31:24] <yulimoto> aaa ndyakov ти си казал 36 дена, а аз не съм го прочел
+[00:31:28] <phalaaxx1> нее някаква събота го спряха, бяха писали че ще го спират даже
+[00:31:28] <phalaaxx1> някаква профилактика
+[00:31:39] <phalaaxx1> почистили са прахоляка от бушоните предполагам
+[00:31:54] <ndyakov> http://paste.ubuntu.com/6125754/
+[00:31:55] <wilindex> [ Ubuntu Pastebin ] - paste.ubuntu.com
+[00:31:58] <yulimoto> щях да слагам слак на гризли, но може би ще е петък нещо ме намързява
+[00:32:17] <ndyakov> yulimoto: не ,3 дни и 5 часа :)
+[00:32:37] <yulimoto> аз вече съм пътник към леглото
+[00:32:46] <yulimoto> плувката леко ме носи на там
+[00:33:09] <ndyakov> при мен chrome-а тежи най-много
+[00:33:17] <ndyakov> че работя с поне 2 отворени хрома, всеки вътре пълен с табове
+[00:33:26] <yulimoto> да верно тоя хром, аз ползвам iron де ама то все тая
+[00:34:03] <ndyakov> тежкото става като пусна и eclipse
+[00:34:05] <ndyakov> :D
+[00:34:10] <yulimoto> последно обаче се заседях на firefox може би заради vimperator
+[00:34:19] <yulimoto> еклипса винаги е тежал
+[00:34:38] <ndyakov> така си е, ама и моя не е от най-леките, понеже го използвам за web ( тоест с Aptana Studio отгоре и още няколко нещица )
+[00:34:47] <yulimoto> аз преди бачкаш с флекс което си е преработен еклипс и под win i мак все тая тежи
+[00:35:25] <ndyakov> за лаптоп на вече над 2,5 години добре се държи
+[00:35:43] <yulimoto> какъв е лаптопа ?
+[00:35:47] <ndyakov> преграваше по едно време, ама учудващо сега ( когато беше най-голямата жега ) работеше най-добре без да вдига градусите
+[00:35:51] <ndyakov> hp probook 4320s
+[00:36:38] <phalaaxx1> каква му е резолюцията на екрана?
+[00:37:22] <phalaaxx1> тия машини много ме кефят колко повече неща могат да покажат от моя настолен монитор :D
+[00:37:41] <ndyakov> 1366x768
+[00:38:00] <phalaaxx1> аа тоя не е от хубавите значи
+[00:38:10] <ndyakov> да ти кажа, от една година от както съм с един 23' монитор в нас
+[00:38:20] <ndyakov> сега виждам зор като съм само на лаптопа
+[00:39:00] <ndyakov> окото си свиква просто
+[00:39:02] <ndyakov> http://i.imgur.com/wQOQ1Lm.jpg
+[00:39:23] <phalaaxx1> аз преди ползвах един служебен hp (някакъв подобен, не помня кой точно) със нещо като 1600x1280
+[00:39:28] <yulimoto> не знам аз за лаптоп-а не държа да е мощен, по-скоро го възприемам за терминал
+[00:40:23] <yulimoto> дзверо ве
+[00:40:54] <ndyakov> yulimoto: това чудо ми се оказа workstantion-а като цяло... ама вече искам нещо 11-13 иначе с поне 8-10 часа живот на батерия
+[00:41:00] <yulimoto> иначе си му нафрашкал харда :)
+[00:41:18] <ndyakov> този го разхождам винаги със зарядното
+[00:41:20] <yulimoto> да и аз нещо такова ще си взема
+[00:41:28] <yulimoto> малко
+[00:41:39] <yulimoto> 13-14 инча
+[00:41:43] <ndyakov> той има и един windows na дру партишан
+[00:42:02] <ndyakov> там отива повечето от харда, само дето не е пускат от вече ... поне година и 2-3 месеца
+[00:42:14] <yulimoto> иначе ме кефи дизайна на chromebook pixel а и може да се сложи един хубав дебиан и с тази резолюзия би било чидесно
+[00:42:23] <ndyakov> phalaaxx1: може да е бил elitebook , те са вече хубавите им :0
+[00:42:29] <yulimoto> но е много скъп не си заслужава
+[00:43:08] <ndyakov> yulimoto: мен ме дразни как като ги правят тези ultrabook-ове не сложат една малко по-голяма батерия... 5мм повече дебелина ще я преживея, ако имам 3-4 часа повече батерия за нейна сметка
+[00:43:32] <ndyakov> иначе toshiba protege (или както се пише ) z930 или z920 беше това което гледах последно
+[00:43:57] <ndyakov> но предпочитам един macbook air 13 инчов за тези пари , пак ще му изсипя някакъв linux.
+[00:44:15] <ndyakov> и няма да държи 12 часа, ама поне 8-10 ще държи :)
+[00:45:42] <yulimoto> ам не знам бях две години на мак, за десктоп не мога лоша дума да кажа, но златен кафез е цялата им среда
+[00:46:19] <ndyakov> аз го искам само заради хардуера :)
+[00:46:25] <ndyakov> хардуера
+[00:46:42] <yulimoto> :)
+[00:49:14] <phalaaxx1> те напоследък май също ползват някаква разновидност на optimus
+[00:49:23] <yulimoto> аз искам лаптоп дето ако се сбия със сервитьора в заведение и той мааа с таблата, а аз със лаптопа, после лаптопа да е здрав колкото таблата. Това са смели мечти, но все пак :)
+[00:49:27] <ndyakov> аз съм харесал този без дискретна видео карта
+[00:49:34] <phalaaxx1> така че нов хардуер с Linux няма да работи кой знае колко добре
+[00:50:09] <ndyakov> phalaaxx1: само wifi чипа им ме притеснява, нищо друго :)
+[00:50:09] <phalaaxx1> yulimoto: търси си panasonic toughbook
+[00:50:26] <ndyakov> между другото катерите ли си Dotfile-овете някъде ?
+[00:50:27] <phalaaxx1> това ще е по-здраво от таблата
+[00:51:16] <phalaaxx1> какви файлове?
+[00:51:21] <yulimoto> да те са здрави но от getac по-здраво нема, поне според мен :)
+[00:51:57] <ndyakov> конфигурационните ви , примерно :) неща, които си tweekвате (Dotfiles от това че започват с точка :) )
+[00:52:16] <ndyakov> https://bitbucket.org/ndyakov/dotfiles/
+[00:52:18] <wilindex> [ ndyakov / dotfiles — Bitbucket ] - bitbucket.org
+[00:54:21] <yulimoto> ама ти публик ли ги правиш ?
+[00:54:44] <yulimoto> то не че е супер тайно някаква конфигурация
+[00:55:34] <phalaaxx1> страхливите хора си крият информацията и се мъчат сами да си я бекъпват
+[00:55:34] <phalaaxx1> смелите я качват на публично фтп и оставят останалите хора по света да я бекъпват :D
+[00:55:35] <ndyakov> единствено паролата за интернета ми седи там
+[00:55:38] <ndyakov> :D
+[00:56:14] <ndyakov> утре като ми умре луната ( че е на път ) ще ги имам да си ги взема , не да ги търся едно по едно от някакви бекъпи
+[00:56:27] <ndyakov> ама трябва да видя как да бекъпна целия партишън с os -а ..
+[00:56:31] <ndyakov> и пакети и всичко...
+[00:56:45] <yulimoto> ами аз го тарвам и толкоз
+[00:56:58] <yulimoto> с пермишъните
+[00:57:02] hackman (~hackman@management.1h.com) left irc: Ping timeout: 264 seconds
+[00:57:47] <phalaaxx1> аз пък се чудя кога ще успея без да искам да си затрия всичкия боклук дето съм събрал и само го влача по разни дискове без да го ползвам реално :)
+[00:58:01] <yulimoto> phalaaxx1 +1
+[00:58:17] <phalaaxx1> ама ми се свиди да го хвърля бе мама му стара
+[00:58:26] <yulimoto> а ползвате ли на ubuntu бекъп машината ?
+[00:58:33] <yulimoto> не помня как се казваше
+[00:59:04] <ndyakov> ubuntu one
+[00:59:08] <yulimoto> ц
+[00:59:10] <ndyakov> ако за това говориш ?
+[00:59:17] <yulimoto> сега ще видя
+[00:59:29] <phalaaxx1> колко неща съм захващал да пиша и всичко е останало недовършено и прибрано някъде ако някой ден случайно ми дойде някаква нова муза
+[00:59:47] <ndyakov> phalaaxx1: преди години така на едни "хубави" DVD-та загубих 8gb снимки
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:00:01] <phalaaxx1> аа аз на оптични дискове не разчитам :D
+[01:00:10] <ndyakov> от тогава предпочитам на 3 хард диска да имам едни и същи неща ( не в raid, а просто на отделни машини + един външен ) и съм по-спокоен
+[01:00:34] <phalaaxx1> да, същата работа и при мен
+[01:00:44] <phalaaxx1> може би затова не успявам да затрия всичко без да искам
+[01:00:47] <phalaaxx1> щото не искам :D
+[01:01:18] <ndyakov> ама сега като се прибера към софия ще видя как да си направя едно работещо копие на тази машина дето ми е рутер, че е пред умиране като я слушам...
+[01:03:11] <yulimoto> deja-dup се казва
+[01:03:16] <yulimoto> май :)
+[01:03:33] <yulimoto> то не е на убунту май ами на гноме
+[01:04:31] <yulimoto> може да бекъпва ssh ftp webdav
+[01:04:49] <ndyakov> не съм запознат :)
+[01:06:15] <yulimoto> аз с него бекъпвам декстопа на майка ми, кат за нея бива :) общо взето home папката без downloads И trasha
+[01:06:23] <yulimoto> хайде пичове
+[01:06:34] <yulimoto> лека
+[01:06:56] <ndyakov> лека ;)
+[01:07:13] <ndyakov> аз ще пускам филм и ще заспивам също
+[01:07:19] <ndyakov> :)
+[01:07:30] <phalaaxx1> лека :)
+[01:38:07] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 260 seconds
+[01:42:21] stratoss (~stratoss@unaffiliated/stratoss) left irc: Ping timeout: 248 seconds
+[01:47:16] stratoss (~stratoss@unaffiliated/stratoss) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:13:40] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:17:30] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 245 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:55:42] stratoss (~stratoss@unaffiliated/stratoss) left irc: Ping timeout: 268 seconds
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:00:16] stratoss (~stratoss@unaffiliated/stratoss) joined #telerikacademy.
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:16:29] <dencho> are we yulimoto stana li
+[07:34:00] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[07:34:23] <dencho> mnogo rano bre KrasiGa :D
+[07:35:02] <KrasiGa> Добро утро dencho , че аз тази седмица през това време влизам
+[07:35:29] <dencho> aul :D
+[07:35:47] <dencho> verno be
+[07:35:51] <dencho> kato po 4asovnik si
+[07:35:55] <KrasiGa> а ти защо толко рано?
+[07:36:11] <KrasiGa> чак пък часовник
+[07:36:13] <dencho> trqbva6e da pi6a malko maili :D
+[07:36:24] <dencho> [07:43:47] * KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) has joined #telerikacademy
+[07:36:43] <dencho> [07:43:48] * KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) has joined #telerikacademy
+[07:36:44] <dencho> hahaha
+[07:36:48] <KrasiGa> това от вчера ли?
+[07:36:56] <dencho> ot prednite dni...
+[07:37:12] <KrasiGa> лелееее, верно
+[07:37:14] <dencho> ot v4era, ot onq den
+[07:37:16] <KrasiGa> хахаха :)
+[07:37:27] <KrasiGa> днес съм подранила с 3мин
+[07:37:32] <dencho> da :D
+[07:37:36] <dencho> [07:40:42] * KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) has joined #telerikacademy
+[07:37:55] <dencho> haide, do skoro
+[07:38:02] <KrasiGa> лек ден!
+[07:56:34] net: connect! sock 3
+[07:57:15] DNS resolve failed for 127.0.0.1
+[07:57:15] Telnet connection: 127.0.0.1/33190
+[07:57:15] net: connect! sock 9
+[07:57:15] net: eof!(read) socket 9
+[07:57:15] Timeout/EOF ident connection
+[07:57:39] net: connect! sock 3
+[07:57:39] DNS resolve failed for 127.0.0.1
+[07:57:39] Telnet connection: 127.0.0.1/33194
+[07:57:39] net: connect! sock 9
+[07:57:39] net: eof!(read) socket 9
+[07:57:39] Timeout/EOF ident connection
+[07:57:48] Logged in: KpeTeHoug (telnet@127.0.0.1/33194)
+[07:57:53] tcl: builtin dcc call: *dcc:help KpeTeHoug 8 all
+[07:58:07] tcl: builtin dcc call: *dcc:convertalllogs KpeTeHoug 8 
+[07:59:11] tcl: builtin dcc call: *dcc:help KpeTeHoug 8 all
+[07:59:24] tcl: builtin dcc call: *dcc:makemainpage KpeTeHoug 8 
+[07:59:43] tcl: builtin dcc call: *dcc:makeindexpage KpeTeHoug 8 
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:04:18] net: eof!(read) socket 8
+[08:04:18] Lost dcc connection to KpeTeHoug (telnet@127.0.0.1/33194)
+[08:04:31] net: connect! sock 3
+[08:04:31] DNS resolve failed for 127.0.0.1
+[08:04:31] Telnet connection: 127.0.0.1/33196
+[08:04:31] net: connect! sock 9
+[08:04:31] net: eof!(read) socket 9
+[08:04:31] Timeout/EOF ident connection
+[08:04:35] Logged in: KpeTeHoug (telnet@127.0.0.1/33196)
+[08:04:50] tcl: builtin dcc call: *dcc:help KpeTeHoug 8 all
+[08:05:01] tcl: builtin dcc call: *dcc:convertalllogs KpeTeHoug 8 
+[08:05:08] tcl: builtin dcc call: *dcc:makeindexpage KpeTeHoug 8 
+[08:20:51] vhristev (~vhristev@77.70.112.88) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:03:44] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[09:09:20] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[09:26:34] Vankata (~Ivan@77.70.105.191) left irc: Quit: Leaving
+[09:40:13] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[09:46:48] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:50] nlkl (~nlkl@nat125.cnsys.bg) left irc: Ping timeout: 245 seconds
+[10:10:48] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[10:18:30] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[10:23:10] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:52:54] <lyubenblagoev> някой свалил ли е записите от последната лекция?
+[10:52:59] <lyubenblagoev> вече ги няма в twitch
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:04:47] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[11:08:32] <KrasiGa> лошо, дано някой ги е свалил
+[11:10:24] <dencho-at-work> koe ?
+[11:11:57] <KrasiGa> lyubenblagoev: казва, че в Twitch ги няма последните лекции
+[11:12:05] <dencho-at-work> btw predpolagam, 4e kato gi nqma tam gi ima v youtube
+[11:12:14] <dencho-at-work> ili ne!?
+[11:12:28] <KrasiGa> в сайта на курса не са сложени
+[11:12:57] <lyubenblagoev> и в канала на телерик в тубата не ги намерих
+[11:13:16] <lyubenblagoev> последните от курса са от предната лекция
+[11:13:37] <dencho-at-work> aa da sq vidqh
+[11:13:39] <dencho-at-work> sudba :D
+[11:16:09] <KrasiGa> hackman: ти ще се произнесеш ли по въпроса?
+[11:17:39] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[11:56:47] <yulimoto> може от твича нещо да им са изгърмяли някакви работи и сега да ги оправят
+[11:59:01] Vankata (~Ivan@77.70.105.191) left irc: Quit: Leaving
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:19] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[12:00:42] <dencho-at-work> yulimotooooooooooool
+[12:06:46] nlkl (~nlkl@nat125.cnsys.bg) left irc: Ping timeout: 268 seconds
+[12:19:51] <hackman> a
+[12:19:53] <hackman> hmm
+[12:22:23] <hackman> fuck
+[12:22:26] <hackman> нямам ги
+[12:22:37] <hackman> ебаси мамамата
+[12:22:58] <hackman> еми, някой да пише във форума
+[12:23:02] <hackman> дано някой ги е свалил
+[12:23:08] <hackman> защото ги нямам
+[12:23:14] <hackman> не ми е останало време да ги сваля
+[12:32:45] s0ny123 (~s0ny123@95.111.79.72) left irc: Read error: Connection reset by peer
+[12:33:56] <dencho-at-work> samnqq me nqkoi da gi e svalil :d
+[12:35:17] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[12:36:37] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Ping timeout: 260 seconds
+[12:42:37] <yulimoto> dencho-at-work: пак решавам задачи за студенстки изпити брат
+[12:42:56] <yulimoto> тоя път вземам и пари, ама колко да искам бе. Те са малоумни
+[12:43:07] <dencho-at-work> hahaha
+[12:43:08] <dencho-at-work> a be
+[12:43:15] <dencho-at-work> mi da te bqh viknal za moq izpit :D
+[12:43:24] <yulimoto> хахах
+[12:43:30] <dencho-at-work> prolog...
+[12:43:33] <dencho-at-work> haskel :D
+[12:43:50] <yulimoto> ако х > 2  еди кво си някакви условни конструкции и толкоз
+[12:43:55] <yulimoto> а да ве
+[12:44:00] <dencho-at-work> az si igraq s nmap.. chekvam dali pravilno razbira OS-to na IP-to
+[12:44:08] <yulimoto> тия само съм ги чувал
+[12:44:16] <yulimoto> хаскел маскел
+[12:44:43] <yulimoto> ама те ги изпитват на C++ за неща които могат да се напишат на ЕЛКА 1958
+[12:44:53] <yulimoto> ;)
+[12:45:11] <yulimoto> нз аз мисля 30 все пак ми взеха от ценното време
+[12:45:20] <dencho-at-work> za kolko vreme?
+[12:45:27] <yulimoto> 15 мин
+[12:45:30] <yulimoto> може и 20
+[12:45:39] <yulimoto> сега чакам да ми върне имейл
+[12:45:48] <dencho-at-work> mi dobre e :D
+[12:45:53] <yulimoto> неможе да компилира Visual Studio ала бала
+[12:45:59] <dencho-at-work> pak li?
+[12:46:17] <dencho-at-work> nali i predniq put ima6e problemi :d
+[12:46:18] <yulimoto> ами те са малоумници брат, тоя му е приятел
+[12:46:25] <dencho-at-work> aghaha
+[12:46:32] <dencho-at-work> kvo u4at tiq wE?
+[12:46:43] <yulimoto> обаче на първия имаше промоция викам "аре приятели сме - бира"
+[12:46:57] <dencho-at-work> glei tva kvo mi vika za grizzly-to
+[12:46:58] <dencho-at-work> Aggressive OS guesses: Linux 2.6.22 (90%), Vodavi XTS-IP PBX (89%), Tandberg Border Controller VoIP gateway (Linux 2.6.11) (88%), Linux 2.6.9 - 2.6.23 (87%), Infoblox NIOS 4.1r5 (86%), Linux 2.6.11 - 2.6.19 (86%), Wireless broadband router (FON La Fonera, Linksys WAP54GL, or Netgear WGT634U) (OpenWrt, Linux 2.6.22) (86%), Check Point VPN-1 UTM appliance (85%), Linux 2.6.18 (Slackware 11.0) (85%), Linux 2.6.19 - 2.6.24 (
+[12:47:32] <yulimoto> обаче сега направо започнаха с темата за парите и аз  викам "зависи  от времето и сложността м/у 20 а може 40-50 да стигне"
+[12:47:32] <dencho-at-work> windows 7 go razpoznava kato Vista... :D
+[12:47:46] <dencho-at-work> mi da :D
+[12:47:47] <yulimoto> nmap li ве брат
+[12:47:53] <dencho-at-work> ako e prolog... 100/200
+[12:47:53] <dencho-at-work> :D
+[12:47:54] <yulimoto> слушай сега
+[12:47:56] <dencho-at-work> nmap-a we
+[12:48:35] <yulimoto> в гризлито нали направихме debian chroot обаче мисля как да прехвърля юзерите от центос на дебиана
+[12:48:53] <yulimoto> не ме устройва с cp passwd i shadows
+[12:49:10] <yulimoto> щото искам идента на юзерите да е над 1000 както в дебиан
+[12:49:17] <yulimoto> някакви идеи
+[12:49:21] <yulimoto> искам и да си имат групи
+[12:49:36] <yulimoto> та идеи чакам от някои
+[12:49:40] <dencho-at-work> emi kato ne te ustroiva, da te ustroiva we :D
+[12:49:56] <dencho-at-work> az 4akam tema vuv foruma :P
+[12:50:36] <yulimoto> после ще направя скрипт който те прехвърля направо в дебиан. Примерно като се логнеш като dencho в гризли i напишеш debian направо те chroot-ва е дебиана като юзер dencho
+[12:51:10] <yulimoto> обаче сега мъдря скрипт за прехвърляне на юзерите
+[12:51:55] <yulimoto> който е до никъде
+[12:52:46] <phalaaxx> защо да не става с cp passwd и shadow?
+[12:53:39] <phalaaxx> аа май разбрах
+[12:53:47] <phalaaxx> да, няма да стане :D
+[12:57:32] <yulimoto> phalaaxx аз искам да не се препокриват групи юзери, а искам всеки потребител да си има и група
+[12:57:55] <phalaaxx> echo -ne "import pwd\nprint filter(lambda x: x.pw_uid >= 500, pwd.getpwall())\n" | python
+[12:58:03] <yulimoto> т.е. ще запазя потребителите на дебиан но искам да добавям новите потребители
+[12:58:14] <yulimoto> мммм нещо подобно
+[12:58:23] <yulimoto> ама сега правя 1000 неща на веднъж
+[12:58:46] <yulimoto> ако имаш време що не опиташ на дебиана има само един потребител аднат hackman
+[12:58:56] <yulimoto> ако не аз ще го мъча следобед
+[12:59:31] <phalaaxx> мии може, ама след малко
+[12:59:40] <phalaaxx> че пробвам някакви други глупости :)
+[12:59:42] <phalaaxx> brb
+[12:59:57] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:04:08] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[13:04:42] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[13:14:44] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[13:15:36] <KrasiGa> ето линк за последната лекция https://my.bitcasa.com/send/971a6f0512ec1968780966d7301cf8309dff1efa51931bd7556c561bd743c039/72e77d002d67a71b103c94c1e987d5cd3443f4010e7c6dada821650205cca93c
+[13:15:41] <wilindex> [ video_12.09.2013 | Bitcasa Infinite Storage ] - my.bitcasa.com
+[13:15:59] <KrasiGa> във форума някой вече е писал и има резултат
+[13:19:29] <dencho-at-work> yea
+[13:31:13] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[13:36:24] komador (52774e03@gateway/web/freenode/ip.82.119.78.3) joined #telerikacademy.
+[13:37:02] komador (52774e03@gateway/web/freenode/ip.82.119.78.3) left irc: Client Quit
+[13:45:23] anton_dutsov (~Thunderbi@178.75.234.201) joined #telerikacademy.
+[13:45:51] s0ny123 (~s0ny123@95.111.79.72) left irc: Ping timeout: 240 seconds
+[13:54:04] <hackman> KrasiGa, това целите 3 часа ли са?
+[13:55:10] <KrasiGa> не знам, видях го от форума
+[13:55:37] <KrasiGa> понеже не мога да го изтегля от тук - чак довечера ще видя.
+[13:55:46] <KrasiGa> dencho-at-work:  Може и да знае вече
+[13:56:08] <KrasiGa> dencho-at-work:  изтегли ли видеото? Цялото ли е?
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:49] Vankata (~Ivan@77.70.105.191) left irc: Quit: Leaving
+[14:07:43] <KrasiGa> понеже нямам на виртуалката интернет и си свалям пакета rpmbuild, в коя папка да го сложа за да го инсталирам с yum install?
+[14:11:27] <hackman> хъх....
+[14:11:27] <phalaaxx> rpm -i
+[14:11:27] <phalaaxx> илии ще ти трябва локално репо
+[14:11:50] <hackman> rpm packages  се инсталират с rpm  а не със yun
+[14:11:53] <hackman> yum :)
+[14:12:05] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[14:12:14] <hackman> rpm -Uvh върши работа
+[14:12:17] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[14:12:57] <KrasiGa> въроса по-скоро е така: има ли значение къде ще бъде rpm пакета
+[14:13:00] <KrasiGa> ?
+[14:16:21] <hackman> не :)
+[14:17:08] nlkl (~nlkl@nat125.cnsys.bg) left irc: Remote host closed the connection
+[14:21:18] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:29:56] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[14:50:38] <yulimoto> dencho-at-work: богат съм ...
+[14:50:46] <yulimoto> +30лв
+[14:52:25] <dencho-at-work> brau yulimoto taka e kato ste coder4eta
+[14:52:25] <dencho-at-work> :D
+[14:52:52] <yulimoto> хаха кодерчета таратанци... да живее нашето малоумно висше образование
+[14:54:52] <yulimoto> dencho-at-work: съм си направил теплейт и само ръгам, готов съм да изкарвам по 1 задача на 5-6 минути
+[14:55:27] <dencho-at-work> haha
+[14:56:10] <dencho-at-work> KrasiGa: nqma kak da gi vidq tezi film4eta
+[14:56:15] <yulimoto> само балъци да има и windows ще си сложа с visual studio, ама като се замисля няма да ми се занимава
+[14:56:21] <dencho-at-work> btw dneska sam na sql language ;d
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:07:54] <yulimoto> кой sql
+[15:08:02] <yulimoto> ot cqloto semejstvo
+[15:13:38] <dencho-at-work> 4e te kolko sa we
+[15:20:43] <yulimoto> ми то тва си е релационна математика, колкото искаш могат да са
+[15:21:56] <yulimoto> я ми кажи  join-ове правиш ли ?
+[15:23:55] <phalaaxx> хм имало разлика между echo $VAR и echo "$VAR"
+[15:24:00] <phalaaxx> това не го знаех :)
+[15:26:54] <yulimoto> и каква е тая разлика
+[15:28:40] <dencho-at-work> yulimoto: ne
+[15:29:17] <yulimoto> phalaaxx: гледам си натръшкал узерите от гризли-центос нa гризли-дебиан
+[15:30:01] <yulimoto> phalaaxx:  aa ne ne si
+[15:30:07] <yulimoto> грешка стана
+[15:30:56] <phalaaxx> не съм, трудя се в момента :D
+[15:32:36] <yulimoto> добре аз днес съм пълен айляк само сутринта имах работа до към 11
+[15:33:40] <phalaaxx> значи като имаш някакви странни символи в дадена променлива - със "$VAR" можеш да изпринтиш всичко в променливата (заедно със символите)
+[15:33:45] <phalaaxx> без кавичките някакви работи липсват
+[15:33:47] <phalaaxx> без кавичките
+[15:33:51] <phalaaxx> ще трябва да се чете :D
+[15:34:17] <phalaaxx> мисля че се филтрират разни работи като \n например
+[15:34:50] <phalaaxx> и echo -e също не ги принти противно на очакванията ми досега
+[15:35:11] <phalaaxx> така де, ако няма кавички както вече казах
+[15:35:15] <phalaaxx> иначе е ОК
+[15:35:51] <yulimoto> т.е. echo -e $var е равно значно на echo "$var"  ?
+[15:36:42] <vhristev> ко прайте Орица
+[15:47:05] <yulimoto> O, hristev
+[15:47:30] <yulimoto> както обикновено дъра-бъра щот нема уърк
+[15:47:55] <yulimoto> отделно се мъча с един нат
+[15:48:12] <yulimoto> и обмислям една голяма простотия която да засе*е гризли
+[15:48:44] <vhristev> Пуснете си една виртуалка и си цъкайте там
+[15:49:36] <vhristev> или нямате тази възможност
+[15:49:50] <yulimoto> бат vhristev аз виртулки имам 3 ама как ще ме разберат хората, като ги за*ирам
+[15:50:16] <yulimoto> ако даваш public vps кажи :P
+[15:50:18] <vhristev> за какво ?
+[15:50:35] <vhristev> Ми щях да пускам в нас ама тока почна мн да спира и то не за минути
+[15:50:41] <vhristev> ми за часове
+[15:50:44] anton_dutsov (~Thunderbi@178.75.234.201) left irc: Remote host closed the connection
+[15:51:03] <vhristev> и ще предоставя НЕ работеща услуга което не е в мой стил решение
+[15:51:03] <yulimoto> на коя планета живеете, то в африка не спира за часове
+[15:51:12] <vhristev> Строят метрото до нас сега
+[15:51:17] <yulimoto> аа
+[15:51:43] <yulimoto> аз за тва те хваля щото си момче канара, като кажеш нещо трябва да стане
+[15:52:35] <yulimoto> с такива момчета кат тебе света ще обърна ; не ми трябват бил, стийв и т.н. путьовци на мен vhristev ми дай
+[15:52:49] <vhristev> малко гейска работа хахахаха
+[15:52:49] <vhristev> (;
+[15:53:21] <yulimoto> хахах
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:01:00] <vhristev> Купон да става
+[16:01:19] <vhristev> Аз откакто дойдох в софия изхвърлих всички сървъри машинки всичко
+[16:01:35] <vhristev> и си сложих един здрав workstation и яко с виртуалки
+[16:01:51] <vhristev> че ми писна сякви машини да бучат в нас ток шум прах и кво ли още не
+[16:06:45] <yulimoto> vhristev готвлиш ли някакъв изпит rhel или нещо от сорта ?
+[16:10:17] sagruob (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[16:12:48] sagruob_ (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[16:13:23] <vhristev> rhce
+[16:13:47] <vhristev> само ,че ще е след края на ноемрви ,че дотогава ще имам само някви евенти и няма да уча сериозно
+[16:13:53] <vhristev>  а седне ли се трябва постоянство
+[16:14:58] alabala (~immortal@unaffiliated/alabala) joined #telerikacademy.
+[16:15:08] <vhristev> а с мойто качество да забравям за 4 мин просто трябва да уча и да ида веднага на изпита
+[16:18:22] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:21:34] sagruob_ (~sagruob@wolf.yuhu.biz) left irc: Remote host closed the connection
+[16:21:47] sagruob (~sagruob@wolf.yuhu.biz) left irc: Quit: Lost terminal
+[16:26:23] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 268 seconds
+[16:30:18] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[16:32:32] sagruob (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[16:33:26] <phalaaxx> vps от workstation вкъщи... това за теб или да печелиш пари от vps-и под наем? :)
+[16:36:34] alabala (~immortal@unaffiliated/alabala) left irc: 
+[16:38:30] anton_dutsov (~anton_dut@178.75.234.201) joined #telerikacademy.
+[16:38:50] <wilindex> [ aziliann - Twitch ] - www.twitch.tv
+[16:49:10] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[16:49:30] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Client Quit
+[16:52:12] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[16:52:36] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[16:53:30] Nick change: lyubenblagoev_ -> lyubenblagoev
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:02:55] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[17:06:41] Action: hackman преди малко ми звънна Наков, днешната лекция ще започне 30мин по-късно
+[17:09:10] <dencho-at-work> da e jiv i zdrav :D
+[17:09:27] <phalaaxx> ех :(
+[17:09:33] <phalaaxx> а до кога ще продължи?
+[17:10:13] <dencho-at-work> +30 minuti
+[17:10:14] <dencho-at-work> :P
+[17:16:23] <Deyan> Това е добре, ще мога да се прибера до вкъщи да запаля колата и да дойда,
+[17:22:25] <anton_dutsov> hackman От 18:30 ли ще е лекцията?
+[17:23:05] <Vankata> От 19:30 ще е , и във форума пише :)
+[17:23:09] <vhristev> hackman това значи ли ,че края ще е до 22:30
+[17:23:35] <anton_dutsov> извинявам се сега осъзнах какво чета, че тъкмо влизам от дъжда :)
+[17:29:08] <vhristev> phalaaxx говорехме за ВПС който да си го ползваш за тестовете и аз казах ,че съм махнал машините и си ползвам виртуалки
+[17:29:39] <vhristev> не бих предоставял баш VPS услуги от нас като знам ,че нямам нужната техника за качество
+[17:30:21] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:30:53] <phalaaxx> да де, малко се притесних :D
+[17:31:25] <phalaaxx> щото съм чувал за shared hosting със cpanel върху домашни машини сложени да бръмчат на нечий шкаф :)
+[17:38:12] <hackman> phalaaxx, да де... моите машини у дома :)
+[17:38:26] <hackman> http://hydra.azilian.net/pics/home-server-room.jpg
+[17:38:42] <hackman> beast-а, машината на която стои grizzly е най-отгоре
+[17:40:48] <phalaaxx> предлагаш cpanel хостинг от някоя от тези машини?
+[17:41:17] <phalaaxx> иии... само 3 ли са? :)
+[17:53:24] <hackman> на практика в момента са 5
+[17:53:26] <hackman> снимката е стара
+[17:53:31] <hackman> тогава бяха 6
+[17:53:41] <hackman> има щастие
+[17:53:46] <hackman> видеото е цяло
+[17:54:23] s0ny123 (~s0ny123@95.111.79.72) left irc: Quit: leaving
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:01:56] <vhristev> аз пак не разбрах ще седим ли до 22:30 ?
+[18:02:17] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:05:18] <vhristev> ама явно ще разбера на място
+[18:14:15] <vhristev> чуствам се като ония храсти дето се въртят в Уестър филмите като няма никой
+[18:21:59] pe6o (~ps7v@95.87.207.245) joined #telerikacademy.
+[18:22:02] iren_y_ (5e444677@gateway/web/freenode/ip.94.68.70.119) joined #telerikacademy.
+[18:28:30] <hackman> vhristev, да ще висим до 22:30 :)
+[18:28:55] <hackman> ако ти се чустваш като храстите, yulimoto & phalaaxx какво да кажат ? :)
+[18:29:09] pe6o (~ps7v@95.87.207.245) left irc: 
+[18:29:43] <iren_y_> във форума пише че лекцията ще започне в 19:30
+[18:30:35] <phalaaxx> аз такива храсти съм виждал у нас :D
+[18:30:40] <iren_y_> заради изпит
+[18:31:04] <phalaaxx> минаха ми пред колата на един странен път който изглеждаше така сякаш не трябва да е отбелязан на картата
+[18:31:15] <phalaaxx> не знам и аз как попаднах там, нещо се бях изгубил :)
+[18:31:43] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 264 seconds
+[18:33:20] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[18:35:33] darin (4d461232@gateway/web/freenode/ip.77.70.18.50) joined #telerikacademy.
+[18:36:28] <vhristev> Тъкмо ще се пребера в нас и ако успея добре да се спъна ще заспя там дето съм паднал
+[18:37:06] user99 (John@78.130.186.99) joined #telerikacademy.
+[18:37:20] iren_y_ (5e444677@gateway/web/freenode/ip.94.68.70.119) left irc: Ping timeout: 250 seconds
+[18:39:55] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:41:09] <hackman> аз май ще тръгвам към терлик :)
+[18:41:25] <hackman> чудя се само днес дали да включваме нещо друго освен BIND & DHCPD
+[18:48:57] BM_boyan (~BM_boyan@85.187.248.24) joined #telerikacademy.
+[18:50:51] anton_sh (5ebeb3b9@gateway/web/freenode/ip.94.190.179.185) joined #telerikacademy.
+[18:51:20] pinkiePie (~pinkiePie@217.174.54.69) joined #telerikacademy.
+[18:52:22] Brahman` (~Brahman@109.121.248.105) joined #telerikacademy.
+[18:54:15] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) joined #telerikacademy.
+[18:54:54] hackman (~hackman@management.1h.com) left irc: Read error: Operation timed out
+[18:56:49] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[18:57:32] tuxar (~tuxar@athedsl-110683.home.otenet.gr) joined #telerikacademy.
+[18:58:50] fityla (~AndChat20@85.118.193.171) joined #telerikacademy.
+[18:59:00] <fityla> Jivi ima oi
+[18:59:07] <TPB_> ne
+[18:59:15] <fityla> Dobre
+[18:59:33] <fityla> Nqkoi da znae dnes ot kolko sme
+[18:59:38] <TPB_> само Telerik е на линия
+[18:59:52] <TPB_> 19 ++;?
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:01] <fityla> Che oshte ne sme vlenali
+[19:00:08] <TPB_> [18:47] <hackman> аз май ще тръгвам към терлик :) [18:47] <hackman> чудя се само днес дали да включваме нещо друго освен BIND & DHCPD
+[19:00:18] <Brahman`> :>
+[19:00:25] <Brahman`> pak ne e malko
+[19:00:55] <fityla> Ne ima I izpit vytre
+[19:00:59] <fityla> Do 19.30
+[19:01:40] <fityla> Ako ne sme v druga zala
+[19:01:53] pe6o (~ps7v@95.87.207.245) joined #telerikacademy.
+[19:01:55] <fityla> Shte pochnem 19.30
+[19:03:11] <TPB_> дам, в форума така пише
+[19:03:27] pe6o (~ps7v@95.87.207.245) left irc: Client Quit
+[19:03:46] solarwind (053589da@gateway/web/cgi-irc/kiwiirc.com/ip.5.53.137.218) joined #telerikacademy.
+[19:04:25] <fityla> Kakvo pishe vyv foruma
+[19:04:43] <fityla> Che az ne sym vidql
+[19:04:45] <TPB_> 19;30 ще почне
+[19:05:12] <fityla> Qvno I dosta ne sme procheli
+[19:05:35] <TPB_> от преди 2 hrs. май беще post-a
+[19:06:01] <solarwind> BYE
+[19:06:11] <solarwind> exit
+[19:06:16] solarwind (053589da@gateway/web/cgi-irc/kiwiirc.com/ip.5.53.137.218) left irc: Client Quit
+[19:06:51] <fityla> E.. nie sme gi izpusnali tazi tema
+[19:07:46] <vhristev> Курса е от 19:30
+[19:07:47] <vhristev> паллим натам
+[19:07:47] <vhristev> (;
+[19:08:31] <fityla> Pali...
+[19:11:50] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[19:13:18] <wilindex> [ aziliann - Twitch ] - www.twitch.tv
+[19:14:24] <fityla> Oshte nqma
+[19:14:54] <KacanuH> да да знам, ама аз да си заредя сайта, да не го търся в последният момент
+[19:15:01] <fityla> Sled 15min
+[19:16:01] <Brahman`> че взехме да получаваме "twitch"-ове от чакане =)
+[19:16:07] hackman (~hackman@89.190.207.11) joined #telerikacademy.
+[19:16:43] <KacanuH> ето го и Том се появи
+[19:16:56] <hackman> :)
+[19:17:01] <hackman> тука има изпит :)
+[19:17:23] <fityla> E dobro utro
+[19:17:27] <fityla> Ti pone vleze
+[19:17:28] <hackman> тесово да пусна stream-a ? :)
+[19:17:46] <KacanuH> пускай пускай
+[19:17:46] <hackman> я кажете чувате ли всичко ?
+[19:17:49] <fityla> Nie chakame otvyn
+[19:18:01] <hackman> ааа и аз излизам :)
+[19:18:04] <Brahman`> сега се чува
+[19:18:08] <hackman> как е stream-a ?
+[19:18:09] <fityla> Da go puskame I nie otvyn
+[19:18:13] <sig_> ok e
+[19:18:17] <tuxar> говори малко ...
+[19:18:17] <hackman> добре
+[19:18:20] <fityla> Pred vratata
+[19:18:33] <tuxar> ок
+[19:18:36] <hackman> спирам stream-а
+[19:18:37] <KacanuH> 10 11 12
+[19:18:43] <hackman> като приключат ще пусна пак
+[19:19:01] <fityla> Gasim im lampite
+[19:19:06] <fityla> Da si hodqt
+[19:19:21] solarwind (053589da@gateway/web/cgi-irc/kiwiirc.com/ip.5.53.137.218) joined #telerikacademy.
+[19:21:57] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[19:24:33] <Brahman`> абе посмейте се малко докато чакаме
+[19:24:33] <Brahman`> https://www.facebook.com/photo.php?v=161634020687649&set=vb.210862925590662&type=2&theater
+[19:24:36] <wilindex> [ Awesome kid loves Bon Jovi! | Facebook ] - www.facebook.com
+[19:24:48] iren_y (5e444677@gateway/web/freenode/ip.94.68.70.119) joined #telerikacademy.
+[19:26:22] <anton_dutsov> колеги при вас има ли стрийм?
+[19:26:46] <tuxar> anton_dutsov: още не сме почнали ...
+[19:27:20] <anton_dutsov> tuxar мерси.
+[19:27:24] <Brahman`> anton_dutsov, разгряваме :)
+[19:28:12] <tuxar> Brahman: правилно - да не скъсате нещо ;-)
+[19:31:25] RosenN (~tt@77.70.125.246) joined #telerikacademy.
+[19:31:56] <anton_dutsov> видяхте ли задачите за домашно?
+[19:32:27] <tuxar> anton_dutsov: по коя тема?
+[19:32:58] <anton_dutsov> tuxar за 8-ма.
+[19:34:42] <tuxar> anton_dutsov: сега им хвърлям един поглед
+[19:35:28] <hackman> опа, май ще почваме
+[19:35:49] <tuxar> hackman: готови сме
+[19:37:26] <hackman> пуснах stream-а
+[19:37:56] <anton_dutsov> чува се и се вижда
+[19:38:02] <tuxar> hackman: ок
+[19:41:21] fityla_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:41:23] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:41:34] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:47:04] dewily (~ro@93.152.141.161) joined #telerikacademy.
+[19:55:07] <phalaaxx> apt-get build-dep bind9
+[19:55:10] komadrin (54f2a78c@gateway/web/freenode/ip.84.242.167.140) joined #telerikacademy.
+[19:56:22] Xristo (~Xristo@109.120.195.26) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:07:25] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:08:38] anton_dutsov (~anton_dut@178.75.234.201) left irc: Read error: Connection reset by peer
+[20:09:10] anton_dutsov (~anton_dut@178.75.234.201) joined #telerikacademy.
+[20:13:01] anton_dutsov (~anton_dut@178.75.234.201) left irc: Read error: Connection reset by peer
+[20:15:36] anton_dutsov_ (b24beac9@gateway/web/cgi-irc/kiwiirc.com/ip.178.75.234.201) joined #telerikacademy.
+[20:23:09] anton_dutsov_ (b24beac9@gateway/web/cgi-irc/kiwiirc.com/ip.178.75.234.201) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[20:24:15] <fityla_> а за съществуващ можем ли да го направим по същият начин
+[20:26:25] <fityla_> по тая схема фишинг...
+[20:26:32] <fityla_> актуален ли е?
+[20:27:02] anton_dutsov (~anton_dut@178.75.234.201) joined #telerikacademy.
+[20:33:28] rewind_telerik (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[20:34:29] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[20:38:35] dencho (~dencho@95.111.14.183) left irc: 
+[20:40:20] <TPB_> името на зоната без точка накрая ли се изписва
+[20:41:26] <TPB_> к
+[20:52:20] <fityla_> ако стрийма умре нещо кажете...
+[20:52:39] <Brahman`> ще го реанимираш ли
+[20:53:27] <tuxar> fityla: защо тези тревоги?
+[20:53:36] <fityla_> май не е от червеният кръст
+[20:53:43] <fityla_> мисля че не
+[20:54:09] <Brahman`> абе да е в готовност на 220 V
+[20:54:10] <Brahman`> ;)
+[20:58:27] <fityla_> 220 няма да помогне
+[20:58:36] iren_y (5e444677@gateway/web/freenode/ip.94.68.70.119) left irc: Ping timeout: 250 seconds
+[20:59:00] <KacanuH> Мариан сега точи триона, след малко ще има шоуу
+[20:59:01] mihail_m (~mike@77.70.49.155) left irc: Ping timeout: 248 seconds
+[20:59:16] <fityla_> :D
+[20:59:44] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:01:22] <fityla_> по много сложен начин го точи тоя трион...
+[21:18:58] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[21:19:12] v_ivanoff (5d9be661@gateway/web/freenode/ip.93.155.230.97) joined #telerikacademy.
+[21:19:49] <fityla_> с наточеният трион няма да го уплашиш... трябва нещо по серизоно
+[21:20:12] morena (~chatzilla@37.143.250.193) joined #telerikacademy.
+[21:20:55] <yulimoto> да направим залагания :)
+[21:23:51] morena (~chatzilla@37.143.250.193) left irc: Remote host closed the connection
+[21:29:53] <fityla_> давай ти си
+[21:29:56] <fityla_> първи
+[21:39:39] dewily (~ro@93.152.141.161) left #telerikacademy.
+[21:43:38] <KacanuH> луда работа, Лудогорец би ПСВ с 2:0
+[21:43:41] <KacanuH> е тук няма ред
+[21:46:08] RosenN (~tt@77.70.125.246) left irc: Remote host closed the connection
+[21:46:46] <fityla_> вие и мачове ли гледате...
+[21:46:49] <fityla_> браво на вас
+[21:47:58] <KacanuH> 1 секунда преди края разбрах че го дават
+[21:52:58] <KacanuH> hackman, спри стреама, за да разделиш видеата
+[21:54:11] fityla__ (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:55:22] fityla_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[21:55:33] <KacanuH> hackman, спри stream-a, за да разделиш видеата
+[21:56:01] <hackman> KacanuH, няма :)
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:01:45] <KacanuH> Е ми добре пък ;)
+[22:10:49] <TPB_> този reverse за статично ip хубаво, ами за динамично :?
+[22:11:06] KacanuH (~Deyan@46.249.92.240) left irc: Read error: Connection reset by peer
+[22:11:16] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[22:17:27] iren_y (5e444677@gateway/web/freenode/ip.94.68.70.119) joined #telerikacademy.
+[22:25:03] fityla__ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:25:11] <hackman> TPB_, виж домашните :)
+[22:25:15] <tuxar> мерси
+[22:25:27] <yulimoto> лека
+[22:25:27] pacho10 (5d9893cc@gateway/web/freenode/ip.93.152.147.204) left irc: Quit: Page closed
+[22:25:31] <Xristo> лека
+[22:25:33] <tuxar> лека
+[22:25:38] Xristo (~Xristo@109.120.195.26) left irc: 
+[22:25:39] v_ivanoff (5d9be661@gateway/web/freenode/ip.93.155.230.97) left irc: Quit: Page closed
+[22:25:41] <TPB_> ок :)
+[22:25:43] <hackman> лека
+[22:25:49] <pinkiePie> лека
+[22:25:58] <hackman> айде на бирааа :)
+[22:26:01] <mihail_m> leka
+[22:26:08] pinkiePie (~pinkiePie@217.174.54.69) left irc: 
+[22:26:10] tuxar (~tuxar@athedsl-110683.home.otenet.gr) left irc: Quit: leaving
+[22:26:16] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[22:26:19] <phalaaxx> народа се разотива бавно и сигурно
+[22:26:49] <phalaaxx> не искат да си говорят с нас когато няма лекция :)
+[22:26:55] <anton_dutsov> лека
+[22:27:26] anton_dutsov (~anton_dut@178.75.234.201) left irc: Quit: Leaving
+[22:29:08] iren_y (5e444677@gateway/web/freenode/ip.94.68.70.119) left irc: Quit: Page closed
+[22:29:28] ndyakov (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[22:32:17] <KacanuH> и аз щях да ви зарежа да си висите пред компютрите, и да ходя да пия бира, ако не беше ме удавил дъжда до като се прибирах
+[22:32:18] hackman (~hackman@89.190.207.11) left irc: Ping timeout: 241 seconds
+[22:35:30] <solarwind> bye
+[22:35:36] solarwind (053589da@gateway/web/cgi-irc/kiwiirc.com/ip.5.53.137.218) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[22:36:31] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[22:36:57] BM_boyan (~BM_boyan@85.187.248.24) left #telerikacademy.
+[22:39:31] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[22:40:31] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Client Quit
+[22:43:42] anton_sh (5ebeb3b9@gateway/web/freenode/ip.94.190.179.185) left irc: Quit: Page closed
+[22:44:36] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[22:45:53] fityla (~AndChat20@85.118.193.171) left irc: Read error: Connection reset by peer
+[22:46:09] fityla (~AndChat20@85.118.193.171) joined #telerikacademy.
+[22:46:55] <lyubenblagoev> записите от днешните лекции ги няма в twitch-a, някой да знае нещо по въпроса?
+[22:47:23] <vhristev> гепи тоя филм до 22:30
+[22:53:16] <ndyakov> Добър вечер :)
+[22:53:25] fityla (~AndChat20@85.118.193.171) left irc: Ping timeout: 256 seconds
+[22:56:17] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[22:58:37] roxrite (~n_a@130-204-86-120.2073150800.ddns.cablebg.net) left irc: Quit: nice guys finish last...
+[22:58:40] fityla (~AndChat20@85.118.193.171) joined #telerikacademy.
+[22:59:12] fityla (~AndChat20@85.118.193.171) left irc: Client Quit
+[22:59:51] Vankata (~Ivan@77.70.105.191) left irc: Client Quit
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:05:39] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[23:13:17] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[23:19:22] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[23:36:54] <yulimoto> пичове гледах лекцията през vlc и накрая много сечеше, през браузер как беше ? сечеше ли в края ?
+[23:40:21] <ndyakov> лека вечер ;)
+[23:49:53] Nick change: ndyakov -> ndyakov|away
+[23:59:49] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:00:00] --- Fri Sep 20 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

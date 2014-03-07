@@ -1,0 +1,702 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:15:12] <plamer> опа
+[00:15:17] <plamer> някой ме споменава :p
+[00:17:09] <yulimoto_> dencho: brrrrrrr
+[00:17:23] <yulimoto_> Що ме хвърли на вълците бреее
+[00:20:02] <plamer> абе.. що нямам съспенд във федора бря...
+[00:20:45] <yulimoto_> смисъл
+[00:21:02] <yulimoto_> за сигнали ли си говорим ?
+[00:22:00] <plamer> в менюто на юзера, на гнома
+[00:22:22] <yulimoto_> аааа gnome 3 ли или 2.38
+[00:23:04] <yulimoto_> t.e. 2.nqkoq si
+[00:23:29] <plamer> дебилите го били сложили след като логаутнеш
+[00:23:31] <plamer> втф...
+[00:23:38] <yulimoto_> аха
+[00:23:54] <yulimoto_> имаше и плъгини да си добавяш там
+[00:24:07] <yulimoto_> там съм виждал нещо подобно, ама щом си се оправил
+[00:24:41] <plamer> ще потърся
+[00:26:21] <plamer> omg
+[00:26:29] <plamer> хаха, има беее
+[00:26:42] <plamer> ама докато си отворил менюто трябва да задържиш <alt>
+[00:26:44] <plamer> (:
+[00:27:40] <yulimoto_> дали не беше това
+[00:27:41] <yulimoto_> https://extensions.gnome.org/extension/663/suspend/
+[00:27:54] <yulimoto_> имай предвид че може да те лъжа с този линк
+[00:28:02] <yulimoto_> лека хайде
+[00:29:19] <plamer> лека
+[00:29:22] <plamer> и аз го видях това
+[00:29:28] <plamer> ама те са си го вградили по др начин
+[00:29:31] <plamer> и ме устойва
+[00:34:57] plamer (~plamer@84.40.92.7) left irc: Quit: Ex-Chat
+[00:35:36] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:43:37] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:39:25] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:51:53] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:20:12] user99 (John@78.130.186.99) left irc: Quit: Leaving
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:50:14] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:00:05] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:20:13] Guest68816 (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[09:20:34] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:20:58] Nick change: Deyan -> Guest85019
+[09:30:42] Nick change: Guest85019 -> KacanuH
+[09:31:17] <KacanuH> Добро утро
+[09:32:56] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[09:34:10] <KrasiGa> hackman: Добро утро! Ще качиш ли последните лекции?
+[09:36:00] <hackman> KrasiGa, da
+[09:43:27] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[09:45:17] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 264 seconds
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:06:30] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[10:10:58] <dencho> dobro utro ora
+[10:15:16] <KrasiGa> добро и на теб
+[10:19:12] <dencho> o KrasiGa zavurna li se
+[10:19:30] <KrasiGa> еееее преди цяла седмица
+[10:19:44] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:19:45] <KrasiGa> явно ти си отсъствал миналата
+[10:25:14] <dencho> qsno
+[10:25:14] <dencho> :D
+[10:25:22] <dencho> hackman hackman hackman hackman hackman hackman hackman hackman hackman
+[10:26:15] <hackman> dencho, wtf ? :)
+[10:30:22] <dencho> welcome back mr anderson we missed you
+[10:35:39] <KacanuH> hackman: не му се взирай, в последните 2-3 дни нещо го е напекло слънцето :)
+[10:37:16] <dencho> koi we!
+[10:37:18] <dencho> hahaha
+[10:38:01] <hackman> Ко? Не!
+[10:38:04] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[10:38:06] <dencho> haha
+[10:38:09] <KpeTeHoug> опса
+[10:38:10] <dencho> KpeTeHoug maraba
+[10:38:20] <dencho> how do you do
+[10:38:36] <KpeTeHoug> i du uio everi dei
+[10:39:18] <dencho> huio duio everi dei :D
+[10:39:19] <dencho> haha
+[10:39:20] <dencho> :D
+[10:40:40] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[10:40:54] <KpeTeHoug> е не го ли знаеш вица
+[10:41:04] <KpeTeHoug> 2 циганки ходели на английски
+[10:41:07] <KpeTeHoug> и се срещат
+[10:41:09] <KpeTeHoug> и едната вика
+[10:41:19] <KpeTeHoug> хау дую ую
+[10:41:23] <KpeTeHoug> и другата вика
+[10:41:33] <KpeTeHoug> ааа, и дую ую евери дей
+[10:41:36] <KpeTeHoug> :)
+[10:42:03] <dencho> :]
+[10:43:02] <KpeTeHoug> а аз малко починах, малко селскостопански туризъм
+[10:43:07] <KpeTeHoug> и сега малка лудница на рабта
+[10:43:07] net: connect! sock 3
+[10:43:07] DNS resolved 127.0.0.1 to localhost
+[10:43:07] Telnet connection: localhost/34148
+[10:43:07] net: connect! sock 9
+[10:43:07] net: eof!(read) socket 9
+[10:43:07] Timeout/EOF ident connection
+[10:43:11] <KpeTeHoug> докато вляза в крачка
+[10:43:22] <dencho> an taka
+[10:43:24] <dencho> obra li domatite
+[10:43:27] <dencho> krastavicite
+[10:43:32] <dencho> sloji li v burkani
+[10:43:37] <dencho> uvari li liutenicata
+[10:43:58] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[10:44:31] <dencho> Deyaneeeeeeeei
+[10:44:38] <Deyan> ojj
+[10:44:46] <Deyan> Сподели dencho
+[10:45:02] <dencho> много ме мързи
+[10:45:35] <KpeTeHoug> не, само картофи  и домати
+[10:45:42] <KpeTeHoug> краставицата не съм я барал :)
+[10:47:05] <dencho> :]
+[10:47:13] net: connect! sock 3
+[10:47:13] DNS resolved 127.0.0.1 to localhost
+[10:47:13] Telnet connection: localhost/34150
+[10:47:13] net: connect! sock 9
+[10:47:13] net: eof!(read) socket 9
+[10:47:13] Timeout/EOF ident connection
+[10:47:26] Logged in: taenfen (telnet@localhost/34150)
+[10:48:28] tcl: builtin dcc call: *dcc:say taejfen 7 O, KrasiGa pak si naj-krasivata, dori bez !ogledalce ne moje da ne otbeleja !!!
+[10:48:32] DCC connection closed (taenfen!telnet@localhost)
+[10:48:47] <dencho> ghahahaha
+[10:48:52] <dencho> KpeTeHoug pak otka4a
+[10:48:53] <dencho> :D
+[10:49:01] <dencho> KpeTeHoug ne kretenoiasvai we
+[10:49:09] <dencho> NE KRETENOIASVAI!
+[10:49:32] <KpeTeHoug> хахах
+[10:49:35] <KpeTeHoug> само да ти кажа
+[10:49:41] <KpeTeHoug> че dcc-to се логва и то
+[10:49:42] <KpeTeHoug> :)
+[10:49:47] <KpeTeHoug> така че се вижда кой пише
+[10:49:48] <KpeTeHoug> :)
+[10:52:22] <KrasiGa> кой е бота?
+[10:52:29] <dencho> Neo
+[10:52:34] <KrasiGa> иначе благодаря за комплимента
+[10:52:43] <KrasiGa> :) днес наистина съм хубава
+[10:53:13] <dencho> a v4era?
+[10:58:34] <KpeTeHoug> ти да не и пишеш мемоарите dencho :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:50] <KpeTeHoug> и кой е претрепал апачето
+[11:00:55] <KpeTeHoug> ей, да не излезе човек отпуска
+[11:02:05] fityla (~AndChat20@85.118.193.190) joined #telerikacademy.
+[11:02:28] <dencho> KpeTeHoug az vodq hronikite na #telerikacademy :D
+[11:02:52] <KpeTeHoug> ааа
+[11:02:56] <KpeTeHoug> пишеш анали :)
+[11:03:16] <dencho> pi6a na anali :D
+[11:03:21] fityla_ (~AndChat20@95.87.200.227) joined #telerikacademy.
+[11:03:33] <fityla_> Нещо интересно
+[11:04:57] net: connect! sock 3
+[11:04:57] DNS resolved 127.0.0.1 to localhost
+[11:04:57] Telnet connection: localhost/34152
+[11:04:57] net: connect! sock 9
+[11:04:57] net: eof!(read) socket 9
+[11:04:57] Timeout/EOF ident connection
+[11:05:01] Logged in: KpeTeHoug (telnet@localhost/34152)
+[11:05:03] tcl: builtin dcc call: *dcc:whom KpeTeHoug 7 
+[11:05:09] tcl: builtin dcc call: *dcc:match KpeTeHoug 7 *
+[11:05:49] DCC connection closed (KpeTeHoug!telnet@localhost)
+[11:05:54] <KpeTeHoug> ами не точно
+[11:06:00] <KpeTeHoug> dencho тука му е скука
+[11:06:15] fityla (~AndChat20@85.118.193.190) left irc: Ping timeout: 246 seconds
+[11:07:25] net: connect! sock 3
+[11:07:25] DNS resolved 127.0.0.1 to localhost
+[11:07:25] Telnet connection: localhost/34155
+[11:07:25] net: connect! sock 9
+[11:07:25] net: eof!(read) socket 9
+[11:07:25] Timeout/EOF ident connection
+[11:08:38] net: connect! sock 3
+[11:08:38] DNS resolved 127.0.0.1 to localhost
+[11:08:38] Telnet connection: localhost/34157
+[11:08:38] net: connect! sock 9
+[11:08:38] net: eof!(read) socket 9
+[11:08:38] Timeout/EOF ident connection
+[11:08:48] Logged in: taenfen (telnet@localhost/34157)
+[11:10:26] tcl: builtin dcc call: *dcc:say taenfen 7 KrasiGa: ti vinagi si naj-krasiva na sveta !!!
+[11:10:30] DCC connection closed (taenfen!telnet@localhost)
+[11:12:47] <KrasiGa> :) какво пиеш?
+[11:13:33] <KpeTeHoug> машинно масло
+[11:13:36] <KpeTeHoug> мен ако питаш :)
+[11:13:51] net: connect! sock 3
+[11:13:51] DNS resolved 127.0.0.1 to localhost
+[11:13:51] Telnet connection: localhost/34159
+[11:13:51] net: connect! sock 9
+[11:13:51] net: eof!(read) socket 9
+[11:13:51] Timeout/EOF ident connection
+[11:13:56] Logged in: KpeTeHoug (telnet@localhost/34159)
+[11:13:59] tcl: builtin dcc call: *dcc:whom KpeTeHoug 7 
+[11:14:57] net: connect! sock 3
+[11:14:57] DNS resolved 127.0.0.1 to localhost
+[11:14:57] Telnet connection: localhost/34163
+[11:14:57] net: connect! sock 10
+[11:14:57] net: eof!(read) socket 10
+[11:14:57] Timeout/EOF ident connection
+[11:15:01] Logged in: taenfen (telnet@localhost/34163)
+[11:15:46] <KrasiGa> дали?
+[11:15:56] fityla (~AndChat20@85.118.193.167) joined #telerikacademy.
+[11:16:31] <KpeTeHoug> :) ам или нещо което е ферментирало от слънцето
+[11:16:52] <KpeTeHoug> dencho да не си ходил и ти селскостопанско аграрен уикенда да правиш :)
+[11:16:55] <KpeTeHoug> да те е напекло слънцет
+[11:18:52] fityla_ (~AndChat20@95.87.200.227) left irc: Ping timeout: 245 seconds
+[11:45:05] <dencho> ПОЗИЦИЯТА Е ПОЧАСОВА РАБОТА НА ПОЛОВИН РАБОТЕН ДЕН.
+[11:45:05] <dencho> РАБОТАТА Е ПОДХОДЯЩА ЗА СТУДЕНТИ
+[11:45:05] <dencho> ЖЕЛАТЕЛНО ШОФЬОРСКА КНИЖКА И ЛИЧЕН АВТОМОБИЛ С ГАЗОВА УРЕДБА.
+[11:45:08] <dencho> HAHAHAHAHHA
+[11:45:10] <dencho> s gazova uredba
+[11:45:13] <dencho> e NE
+[11:45:13] <dencho> !
+[11:45:46] <dencho> KpeTeHoug az postoqnno sam na agraren weekend
+[11:47:06] <dencho> ne poznavam mnogo studenti s li4en avtomobil
+[11:47:06] <dencho> :D
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:02:22] dterziev (~dterziev@dterziev.mw-medianetworks.eu) joined #telerikacademy.
+[12:02:38] Jerkoff (~bin@85.217.129.123) joined #telerikacademy.
+[12:10:01] Action: dencho slaps Jerkoff around a bit with a large trout
+[12:11:42] dterziev (~dterziev@dterziev.mw-medianetworks.eu) left irc: Quit: Leaving
+[12:24:21] <hackman> https://www.youtube.com/watch?v=5iEJSQSTfTM#at=161
+[12:33:09] <yulimoto> ам то така ще стане наистина.. до 10-15 години ще прегаряш манджата на съседката с малко баш и джава ;)
+[12:34:59] <hackman> то при мен това вече е факт :)
+[12:35:15] <hackman> имам shell script който емулира че има някой в апартамента :)
+[12:35:21] <hackman> пуска телевизора
+[12:35:22] <hackman> лампи
+[12:35:23] <hackman> и тн.
+[12:40:15] <yulimoto> хах, аз съм си мислел за централен хоум компютър ще е доста интересно; а като се замисля за домашен асистент с глас - "Джена дай ми прогнозата за вятъра на Сарафово, че ще ходя да карам кайт".....
+[12:46:53] <dencho> hackman po dobre si emulirai edno ku4e da lae :P haha
+[12:47:37] <dencho> ei tva backtrack samo hakerilite li go izpolzvat
+[12:47:38] <dencho> :D
+[12:52:44] <yulimoto> dencho: не знам за куче, ама това може и да ти пази къщата доста зорко http://www.flyingmachinearena.org/videos/
+[12:53:23] <yulimoto> като го наблъскат с още малко десижън трийс и тн. алгоритми ще стане като доберман
+[12:55:09] <yulimoto> вж 3-тия клип
+[12:56:42] <dencho> loo mnogo video
+[12:56:51] <dencho> 3 ok
+[12:56:53] <dencho> gledam
+[12:57:39] <dencho> tiq sami li se komandvat we?
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:00:51] <yulimoto> мда ; в единия случай са контролирани централно; в другия "мисленето" е в тях
+[13:01:21] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[13:05:19] fityla_ (~AndChat20@95.87.215.241) joined #telerikacademy.
+[13:08:27] AndChat-205625 (~AndChat20@85.118.193.161) joined #telerikacademy.
+[13:09:10] AndChat-205625 (~AndChat20@85.118.193.161) left irc: Remote host closed the connection
+[13:09:26] fityla (~AndChat20@85.118.193.167) left irc: Ping timeout: 276 seconds
+[13:11:26] fityla (~AndChat20@85.118.193.161) joined #telerikacademy.
+[13:12:17] fityla_ (~AndChat20@95.87.215.241) left irc: Ping timeout: 264 seconds
+[13:22:11] <KrasiGa> ееее много яки клипчета, на мен 2то ми хареса
+[13:22:14] <KrasiGa> танца им
+[13:22:38] <KpeTeHoug> dencho сега е момента да поканиш KrasiGa на танц :)
+[13:22:41] <KpeTeHoug> докато и се танцува
+[13:23:00] <KrasiGa> хахаха, ааааа нещо ме взимате на подбив
+[13:23:29] <KpeTeHoug> теб ни най-малко :)
+[13:23:31] <KpeTeHoug> ама него да :Р
+[13:24:29] informer (~informer@83.228.55.109) joined #telerikacademy.
+[13:25:54] <dencho> ba!
+[13:26:14] <dencho> a be nqkoi hodil li e na test za rabota v superhosting ?
+[13:26:40] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[13:26:56] Action: KpeTeHoug slaps dencho with a couple of playboy magazines
+[13:27:01] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[13:27:30] <dencho> 4akai da si napi6a auto slap za KpeTeHoug :P
+[13:27:31] Action: KpeTeHoug slaps dencho with a big large mlekodaina krava
+[13:27:34] <dencho> s timer :P
+[13:28:00] <dencho> q me slapni sq
+[13:28:01] <dencho> :D
+[13:28:08] Action: KpeTeHoug slaps dencho around like a bitch!
+[13:28:09] Action: dencho slaps KpeTeHoug around a bit with a large lame trout !!!
+[13:28:12] <dencho> an tuj :D
+[13:28:24] Action: KpeTeHoug thinks that dencho REALLY needs a BATH..... :)
+[13:28:29] <dencho> haha
+[13:28:29] <KpeTeHoug> :П
+[13:28:29] <dencho> :D
+[13:28:43] <dencho> ok, sq 6go vkaram i tva :P
+[13:29:04] <KpeTeHoug> на ти вершън
+[13:29:05] <KpeTeHoug> :)
+[13:29:20] <dencho> dai mi version
+[13:29:20] <dencho> :D
+[13:29:25] <dencho> haha
+[13:29:27] <dencho> pinger :D
+[13:30:55] <dencho> q dai tva s BATH-a :D
+[13:31:10] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[13:31:11] Action: KpeTeHoug thinks that dencho REALLY needs a BATH..... :)
+[13:31:11] Action: dencho slaps KpeTeHoug around a bit with a large lame BATH !!!
+[13:31:15] <dencho> RABOTI
+[13:31:15] <dencho> :D
+[13:31:21] Action: KpeTeHoug says "1. Lam-er (noun) : a person who is lame. example of a lamer: dencho :)
+[13:32:32] <KpeTeHoug> LaMe-O-MeTeR [||||||||||||||||||||] 10/10  Jerkoff King of lam3rz...
+[13:32:41] <KpeTeHoug> и още други шарени шитни
+[13:32:45] <dencho> added
+[13:32:46] <KpeTeHoug> аз съм ги махнал повечето
+[13:32:46] <dencho> :P
+[13:32:47] <KpeTeHoug> :)
+[13:32:50] <dencho> tva s lamera e added
+[13:32:50] <dencho> :D
+[13:34:58] Action: KpeTeHoug kicks dencho (Quick Kick)
+[13:35:23] <dencho> deeeba tia lapeta i tiq piklivi maiki, deto ne mogat da gi kontrolirat samo revat tuka i lapetata i maikite
+[13:35:48] <KpeTeHoug> те майките са ги ебали вече :)
+[13:35:52] <KpeTeHoug> ма децата какво са ти виновни
+[13:35:53] <KpeTeHoug> :)
+[13:36:02] tcl: builtin dcc call: *dcc:say KpeTeHoug 7 idioti kreteni sprete da fludite kanala i se vazhishtavaite na KrasiGa -izvanzemnata krasota !!!!
+[13:36:20] <dencho> zh ?
+[13:36:45] <dencho> Telerik nali si u4il za signals :D
+[13:37:05] <KpeTeHoug> ти остави, ми някой ми ползва handle в бота :)
+[13:37:08] <KpeTeHoug> все едно аз съм го писал
+[13:37:11] <KpeTeHoug> хитро
+[13:37:31] <KpeTeHoug> я да видим кой ли ми е барал screen-a
+[13:37:35] <KrasiGa> еееее това е прекалено
+[13:37:37] <dencho> hahahaha
+[13:37:42] <KrasiGa> никакво машинно масло за Telerik
+[13:37:46] <dencho> KpeTeHoug hacknat si
+[13:37:54] <KpeTeHoug> мани
+[13:38:37] net: connect! sock 3
+[13:38:37] DNS resolved 127.0.0.1 to localhost
+[13:38:37] Telnet connection: localhost/34213
+[13:38:37] net: connect! sock 10
+[13:38:37] net: eof!(read) socket 10
+[13:38:37] Timeout/EOF ident connection
+[13:38:43] Logged in: dencho (telnet@localhost/34213)
+[13:38:45] tcl: builtin dcc call: *dcc:who dencho 9 
+[13:39:08] tcl: builtin dcc call: *dcc:match dencho 9 *
+[13:39:36] <KpeTeHoug> интересно като сме само аз и ти dencho
+[13:39:38] <KpeTeHoug> кой ли е бил
+[13:39:39] <KpeTeHoug> :)
+[13:39:45] <dencho> az sq se vurzah
+[13:39:48] tcl: builtin dcc call: *dcc:who dencho 9 
+[13:39:53] tcl: builtin dcc call: *dcc:whom dencho 9 
+[13:40:14] tcl: builtin dcc call: *dcc:help dencho 9 
+[13:40:25] tcl: builtin dcc call: *dcc:me dencho 9 
+[13:40:39] <dencho> dencho    yes      0 jlmnoptx        13:38 (partyline)
+[13:40:51] <dencho> 13:38 znae6 znae6 li koga e
+[13:40:51] <dencho> :P
+[13:41:22] tcl: builtin dcc call: *dcc:match dencho 9 *
+[13:41:23] tcl: builtin dcc call: *dcc:echo KpeTeHoug 7 off
+[13:42:04] <KpeTeHoug> зарежи
+[13:42:15] <KpeTeHoug> аз съм женен мън, не мой ме замесвате тука в афери мафери
+[13:42:23] <dencho> aghahaahahha
+[13:42:25] <dencho> oooo
+[13:42:33] <dencho> yulimoto 6ti kaje kvo prai v gyuvetch-a po no6tite
+[13:42:36] <KrasiGa> то и аз така
+[13:43:35] <dencho> a be i vie taka, ama kvo vi pre4i az pa ne moa da razbera :D
+[13:43:40] <dencho> li4no az ne moa da razbera
+[13:43:41] <KpeTeHoug> KrasiGa  и ти ли си женен мъж ?:)
+[13:44:23] <KrasiGa>  ами ако е така ;)
+[13:45:24] <KpeTeHoug> ми начи ти е готино като на мен :)
+[13:45:51] <KpeTeHoug> а dencho нас не ни пречи да си хортуваме
+[13:46:20] DCC connection closed (dencho!telnet@localhost)
+[13:47:06] tcl: builtin dcc call: *dcc:say KpeTeHoug 7 Az sam taenfen -dushata na bota!!!! Ne me zaka4ajte, ne me presledwaite !!!
+[13:47:17] <dencho> hahahaha
+[13:48:34] informer (~informer@83.228.55.109) left irc: Ping timeout: 256 seconds
+[13:48:56] informer (~informer@83.228.55.109) joined #telerikacademy.
+[13:49:26] informer (~informer@83.228.55.109) left irc: Client Quit
+[13:49:43] informer (~informer@83.228.55.109) joined #telerikacademy.
+[13:50:09] <KpeTeHoug> няма няма
+[13:50:19] <KpeTeHoug> само ще те предадем на ФеБеРе-ту
+[13:52:46] tcl: builtin dcc call: *dcc:say KpeTeHoug 7 i bota moje da ima dusha, kakvo znaete vie!!!!
+[13:53:13] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[13:53:25] <KrasiGa> милия бот, струва ми се, че скучаеш
+[13:53:44] <KrasiGa> самотно ти е?
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:01:12] <KpeTeHoug> (13:41:53)[gt@grizzly~]screen -x
+[14:01:12] <KpeTeHoug> [remote detached]
+[14:01:17] <KpeTeHoug> баси наглярите
+[14:01:17] <KpeTeHoug> :)
+[14:07:47] paparazzo (~drako@xtsystems.net) joined #telerikacademy.
+[14:08:57] <yulimoto> dencho: какво през нощите, нали ти ме пращаш ?
+[14:09:00] <yulimoto> там
+[14:09:43] <dencho> aghahaha
+[14:10:08] <dencho> KrasiGa asl, pls, pic :D
+[14:10:24] <KrasiGa> хаха - да бе
+[14:10:31] <KrasiGa> това да не е чат за запознанства
+[14:10:41] <KrasiGa> моля Ви - тук съм за знания :)
+[14:10:59] <dencho> hahaha
+[14:11:04] <dencho> DA WE DA WE
+[14:11:30] <yulimoto> dencho: а така директно брат, няма смисъл да се криеш :)
+[14:11:52] <KrasiGa> хахахаха - а разбрахмр кой е бота. Така ли?
+[14:12:22] <dencho> hahaha
+[14:12:38] <yulimoto> хаха
+[14:22:12] informer (~informer@83.228.55.109) left irc: Read error: Operation timed out
+[14:38:15] <fityla> Айде да вкарам тема за размишление
+[14:38:21] <fityla> Какво ще кажете
+[14:38:50] <fityla> Четвъртък среща на всички оцеляли от отпуските в каналя
+[14:39:18] <fityla> Да обменяме някакви трикчета за Linux
+[14:40:15] <fityla> Както си е по програ
+[14:40:31] <fityla> Програм 7часа
+[14:47:10] fityla (~AndChat20@85.118.193.161) left irc: Remote host closed the connection
+[14:48:09] fityla (~AndChat20@85.118.193.161) joined #telerikacademy.
+[14:52:24] <yulimoto> fityla: ако ще организирате нещо все пак помислете дали часа е удобен. 7 часа може да е ок за физическо събрание от гледна точка на работно време, сграда, място и т.н. но да има нещо по-удобно като час за виртуалното начинание. Поне аз така си мисля :)
+[14:54:38] <fityla> Ако може да отвори някой тема във форума... и че се издирват хора който вдяват и такива който имат интерес..
+[14:54:52] <fityla> Ако не по късно като се прибера...
+[14:55:08] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 245 seconds
+[14:55:22] <fityla> Ще драсна.. то и виртуално трудно за организиране
+[14:55:37] <yulimoto> да така е, успех :)
+[14:56:11] <fityla> Аз предложих.. също време .. заради факта че хората са свикнали
+[14:56:22] <fityla> С часа и времето
+[14:57:26] <yulimoto> Някой знае ли дали QoS дето го има по Циско рутерите е QoS от мрежовия слой на осито ? Примерно да се приоритизира видеото пред еди-кое си
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:56] <KrasiGa> на 4-та тема за Shell Scripting имате ли възможност да оценяватъе домашни?
+[15:01:06] <KrasiGa> понеже при мен стои празнощ
+[15:02:19] <KpeTeHoug> не, там явно hackman ще си ги проверява сам
+[15:02:23] <KpeTeHoug> дали работят
+[15:02:37] <Jerkoff> yulimoto:  true
+[15:03:01] <KrasiGa> 10х
+[15:03:44] <Jerkoff> yulimoto:  просто на цицко са някакви имплементации
+[15:06:19] <hackman> на мен пътуването ми отпадна
+[15:06:24] <hackman> разбиха ми колата в петък
+[15:06:32] <hackman> та, в четвъртък ако искате
+[15:06:41] <hackman> мога да съм на ваше разположение за известно време :)
+[15:08:44] <Jerkoff> hackman: хайде на бас ,че някой луд ученик ти я е разбил само и само да си тука и да преподаваш :) (няма случайни неща)
+[15:09:17] <hackman> Jerkoff, абе бая професионално я бяха разбили :)
+[15:09:31] <hackman> добре, че имам допълнителна система за сигурност в колата
+[15:09:58] <yulimoto> hackman: ама това, че не сме професионалисти в линукса не значи не сме професионалисти другъде
+[15:10:16] <Jerkoff> абе те хората, които се обучават тука по-принцип са специалисти в други области така че знаеш е ли човек :). И аз на колата имам заключващ ел. механизъм.Дори и да я запалиш пак гасне :)
+[15:10:18] <yulimoto> другаде*
+[15:11:55] <KrasiGa> е това, че са я разбили какво и пречи да се движи?
+[15:12:01] <KrasiGa> нали само са я отворили
+[15:13:00] <hackman> KrasiGa, счупи ли са единият компютър(този за keyless отключване и запалване) и са откраднали този който контролира запалването :)
+[15:13:10] <hackman> на практика, дори не можах да и отключа волана
+[15:13:27] <hackman> натоварих я на един репатрак и направо в Toyota
+[15:13:41] <hackman> бая драма стана със застрахователите
+[15:13:48] <KrasiGa> еее ако не се беше толкова автоматизирал сега нямаше да имаш такива ядове :)
+[15:14:04] <yulimoto> да нямаше да имаш ядове просто нямаше да имаш кола ;)
+[15:14:20] informer (~informer@83.228.55.109) joined #telerikacademy.
+[15:14:36] <Jerkoff> :D
+[15:15:12] <Jerkoff> вариант 2 : hackman е скъсал някой :)
+[15:15:26] <dencho> are pi4ove http://www.jobs.bg/f1921932
+[15:17:13] <KpeTeHoug> незнам
+[15:17:16] <informer> не е за изпускане :D
+[15:17:16] <KpeTeHoug> с толкова подробна обява
+[15:17:18] <KpeTeHoug> кой знае
+[15:17:18] <KpeTeHoug> :)
+[15:18:22] <yulimoto> тъкмо за една от чат приятелките на денчо, дето като я питал с какво се занимаваш тя отговорила "с компютри"
+[15:18:32] <KpeTeHoug> хахахах
+[15:18:32] <KrasiGa> dencho: цял ден ли в обявите се ровиш
+[15:18:45] <dencho> KrasiGa sled obed samo :D
+[15:18:47] <KrasiGa> явно работа търсиш а?
+[15:19:00] <Jerkoff> http://it.jobs.bg/f1899784
+[15:19:00] <Jerkoff> :D
+[15:19:04] <dencho> KrasiGa, orientiram se prosto :D
+[15:19:19] <KrasiGa> е сутринта не пуска ли пак ти обяви
+[15:19:19] <dencho> Jerkoff ne razbiram java q
+[15:19:19] <dencho> :d
+[15:19:36] <Jerkoff> your problem not mine )
+[15:19:48] Action: Jerkoff away
+[15:20:11] <KrasiGa> тази е добра ама и аз не знам java
+[15:20:34] <yulimoto> ха по какво разбирате че е добра ?
+[15:20:43] <KrasiGa> zaplatata
+[15:20:44] Writing user file...
+[15:20:44] Writing channel file...
+[15:20:44] * TERMINATE SIGNAL -- SIGNING OFF
+[15:33:23] Seend data restored.
+[15:33:23] main: entering loop
+[15:33:24] DNS resolved irc.freenode.net to 86.65.39.15
+[15:33:24] net: connect! sock 7
+[15:33:37] Telerik joined #telerikacademy.
+[15:33:40] net: connect! sock 3
+[15:33:40] DNS resolved 127.0.0.1 to localhost
+[15:33:40] Telnet connection: localhost/39932
+[15:33:40] net: connect! sock 9
+[15:33:40] net: eof!(read) socket 9
+[15:33:40] Timeout/EOF ident connection
+[15:33:45] Logged in: KpeTeHoug (telnet@localhost/39932)
+[15:33:47] tcl: builtin dcc call: *dcc:whom KpeTeHoug 8 
+[15:35:07] informer (~informer@83.228.55.109) left irc: Ping timeout: 256 seconds
+[15:35:26] <fityla> Пускам тема
+[15:35:31] <fityla> В форума
+[15:35:39] <fityla> Хакман
+[15:35:56] <fityla> Час или ще се включиш там
+[15:36:26] <yulimoto> fityla: не е лошо да се замислиш за някакво профилиране, примерно мрежи, баш скритп и т.н. --- просто като идея го казвам
+[15:36:37] <yulimoto> един вид задание
+[15:37:19] <fityla> Има 3 дни да се доразвият нещата
+[15:38:18] <dencho> za koe we
+[15:40:16] <hackman> dencho, za rqpa
+[15:40:24] <dencho> kva rqpa we?
+[15:40:25] Jerkoff (~bin@85.217.129.123) left irc: Quit: to the infinity and beyond
+[15:40:51] <dencho> ряпа ?!
+[15:43:26] <hackman> да, ряпа :)
+[15:43:30] <hackman> или моркови :)
+[15:44:01] <dencho> az sam za morkovite
+[15:44:30] <KpeTeHoug> може ли и зеленце
+[15:44:34] <KpeTeHoug> една салатка да ударим
+[15:44:35] <dencho> yulimoto, onazi deto s kompiutrite kato i kazah 4e si imam priqtelka, ve4e ne iska da si ob6tuvame, diri si umen muj - ima li jelae6ti ?!
+[15:44:52] <dencho> i mnoooo luk!
+[15:44:54] <yulimoto> haha ами аз съм глупав
+[15:44:58] <dencho> haha
+[15:45:03] <yulimoto> лук ?
+[15:45:07] <dencho> onaz znae c#
+[15:45:21] <dencho> 4-ti kurS v SU we :D
+[15:45:22] <yulimoto> супер
+[15:45:25] <dencho> moje hackman da q poznaa
+[15:45:26] <dencho> :D
+[15:45:50] <yulimoto> бреее те него го знаят през 10 планини в десета
+[15:46:22] <yulimoto> влизам аз през гризлито в тоя чат.инфо дето ми каза и в един канал шайкит като ме запосрещаха
+[15:46:37] <dencho> ako pak mi pi6e (koeto me samnqva) 6te q pitam dali poznava Azilian as known as hackman as known as Marian as known as Marinov
+[15:46:38] <yulimoto> викат ми хакман как си що си ?
+[15:46:49] <dencho> hahahahhaha
+[15:46:51] <dencho> q pa ti
+[15:46:52] <yulimoto> викам "не съм аз"
+[15:47:07] <dencho> toi e staro ku4e medalist we
+[15:47:08] <dencho> :D
+[15:47:20] <yulimoto> легенда
+[15:47:27] <hackman> yulimoto, къде са те объркали за мен бе?
+[15:47:37] <dencho> hackman u shakeit we
+[15:48:01] <yulimoto> те са виде ли grizzly.yuhu.biz и айде той е
+[15:48:04] <yulimoto> викам не съм
+[15:48:18] <yulimoto> или wolf yuhu biz
+[15:48:22] <yulimoto> нещо от сорта
+[15:48:43] <hackman> я дайте сървър да ги видя кои са тези индивиди :)
+[15:48:49] <dencho> 4at.info
+[15:48:50] <dencho> del.bg
+[15:48:52] <dencho> irc.
+[15:49:01] <yulimoto> ще погледна лога :)
+[15:50:01] <yulimoto> <+immortal> hackman?
+[15:50:01] <yulimoto> 00:08 <+immortal> :):
+[15:50:01] <yulimoto> 00:09 <+yulimoto> бззз не
+[15:50:01] <yulimoto> 00:09 <+immortal> mhm =)
+[15:50:14] <dencho> immortalee
+[15:50:14] <yulimoto> immortal
+[15:50:38] <dencho> moje da e kursist
+[15:50:39] <dencho> :D
+[15:50:41] <dencho> KURsist
+[15:51:30] <fityla> Айде темя
+[15:51:41] <fityla> темата е готова...
+[15:51:51] <yulimoto> immortal [~immortal@devilcode.pw] ммм този да
+[15:52:01] <fityla> Може да се отбележите във форума
+[15:53:39] <dencho> fityla kade we
+[15:54:05] <fityla> Телерик
+[15:54:32] <fityla> Все нещо не си разбрал
+[15:54:44] <dencho> fityla KADE WE
+[15:55:17] <KrasiGa> f5 na browser i moje da se poqvi
+[15:55:41] <fityla> Момент
+[15:55:43] <dencho> ebaa go :D
+[15:55:47] <dencho> q mi daite link
+[15:55:47] <dencho> :D
+[15:55:58] <KrasiGa> ama i az ne go namiram
+[15:56:01] <yulimoto> dencho: а ве нема я не разбра ли
+[15:56:23] <yulimoto> аз не съм там и знам че я нема
+[15:56:28] <dencho> NE RAZBRAH
+[15:56:29] <dencho> :D
+[15:56:44] <yulimoto> :)
+[15:56:45] <hackman> yulimoto, в кой канал това ? :0
+[15:56:52] <yulimoto> #shakeit
+[15:56:55] <yulimoto> беше май
+[15:56:59] <dencho> shake shit
+[15:57:00] <yulimoto> денчо така ли се казва канала
+[15:57:07] <dencho> yulimoto ot kade da znam we
+[15:57:07] <dencho> !
+[15:57:08] <dencho> haha
+[15:57:12] <dencho> ti si hodil iz mrejite
+[15:57:19] <dencho> brodi ne mil ne drag yulimoto
+[15:57:29] fityla_ (5f57c8e3@gateway/web/freenode/ip.95.87.200.227) joined #telerikacademy.
+[15:57:40] <yulimoto> hackman: #shakeit така е
+[15:57:46] <fityla_> http://forums.academy.telerik.com/114079/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%BD%D0%B0-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-%D0%B7%D0%B0-linux-22-08-2013
+[15:57:55] <fityla_> специално за dencho !
+[15:57:56] <fityla_> ;)
+[15:58:04] <KrasiGa> nali si imate jeni i priqtelki. Da ne vi gepqt logovete
+[15:58:34] <yulimoto> fityla_: не знам ама в раздел Важни Съобщения едва ли влизат линукс курсистите
+[15:58:47] <yulimoto> аз поне не влизам
+[15:58:49] <dencho> aaa
+[15:58:51] <dencho> rabzhrame
+[15:58:51] <yulimoto> директно одя в ликса
+[15:59:04] <fityla_> нямаше така тема
+[15:59:08] <fityla_> аз гледам всичките
+[15:59:31] <dencho> ama za6to vuv vajni saob6teniq we
+[15:59:37] <dencho> az gledah samo vuv foruma na kursa we
+[15:59:52] <KrasiGa> i az там търсех
+[15:59:57] <KrasiGa> премести го
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:02] <dencho> si4ki tam tursat
+[16:00:10] <yulimoto> да и според мен е най-добре да се премести
+[16:00:22] <dencho> qz KpeTeHoug KrasiGa yulimoto nveselinov paparazzo Telerik vhristev dencho bentoslack alabala
+[16:00:25] <dencho> ChanServ
+[16:00:27] <dencho> SeenServ
+[16:00:29] <fityla_> добре
+[16:00:30] <dencho> OperServ
+[16:00:32] <fityla_> слагам го и там
+[16:00:37] Action: dencho qko se ligavi dneska
+[16:01:06] <yulimoto> опитай така след като се логнеш цъкни тоя http://forums.academy.telerik.com/ask?cat=52
+[16:01:35] <KpeTeHoug> ама ти си го изпраскал в Важни съобщения fityla
+[16:01:41] <KpeTeHoug> а не в LSA
+[16:02:02] <fityla_> sega praskam
+[16:02:04] <fityla_> i na drugoto
+[16:03:17] <fityla_> така по добре ли е
+[16:03:17] <fityla_> http://forums.academy.telerik.com/114080/%D0%B2%D0%B8%D1%80%D1%82%D1%83%D0%B0%D0%BB%D0%BD%D0%B0-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D1%8F-%D0%B7%D0%B0-linux-22-08-2013
+[16:03:35] <KpeTeHoug> така да
+[16:06:18] <fityla_> баси странното нещо ми се случи..
+[16:06:45] <fityla_> диск който работеше ... след добавянето на още един .. и инсталиране на windows...
+[16:06:45] informer (~informer@83.228.55.109) joined #telerikacademy.
+[16:07:06] <fityla_> този първият Hitachi_то .. не иска да пали компютъра...
+[16:07:54] <fityla_> махм от SATA проблемното hitachi и windows-a си стартира включвам от sata проблемният диск и windows-a умира..
+[16:08:22] <dencho> => NO WINDOWS
+[16:11:03] <fityla_> windows-a e на новият
+[16:11:11] <fityla_> 100%
+[16:11:13] <dencho> 7. Мрежово Програмиране на Java
+[16:11:17] <dencho> grrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
+[16:11:20] <fityla_> live CD-то и то...
+[16:11:23] informer (~informer@83.228.55.109) left irc: Ping timeout: 256 seconds
+[16:11:25] <fityla_> и той зарежда 3 часа
+[16:17:08] AndChat-205625 (~AndChat20@95.87.200.227) joined #telerikacademy.
+[16:19:26] <KrasiGa> Боби от ОС също ли присъства на тези лекции?
+[16:20:01] <KrasiGa> By the way след този курс ли ще почен Windows?
+[16:20:14] <yulimoto> dencho: колкото и да ми е мъчно то само JAva i c# са
+[16:21:16] fityla (~AndChat20@85.118.193.161) left irc: Ping timeout: 266 seconds
+[16:22:25] <KrasiGa> как ходят на изпити в Тайланд http://kotaku.com/these-anti-cheating-hats-make-me-sad-1165692137?utm_campaign=Socialflow_Kotaku_Twitter&utm_source=Kotaku_Twitter&utm_medium=Socialflow
+[16:27:05] <yulimoto> зубрачи
+[16:27:14] <yulimoto> коне с капаци
+[16:27:25] <yulimoto> още да ги нареждам ли
+[16:27:27] <yulimoto> хайде няма
+[16:27:44] <yulimoto> иии KrasiGa 16:27
+[16:28:02] <yulimoto> шефката прибра ли се от отпуска или вече си на стартова позиция ?
+[16:29:28] <KrasiGa> тази седмица съм до 17часа
+[16:29:33] <KrasiGa> абе тук си
+[16:29:37] <KrasiGa> е
+[16:29:44] <KrasiGa> шефката ми не е проблем
+[16:29:59] <KrasiGa> а как разбра, че е жена?
+[16:30:42] <yulimoto> eeee чадо чадо изобщо не съм помислял, че е мъж :P
+[16:31:23] <KrasiGa> все пак е ИС сектор
+[16:31:25] <yulimoto> то по едно време при вас ли беше много Ви хвалеха, че имате плаващо работно време, ама май бъркам, в общината май беше
+[16:31:34] <KrasiGa> не сме ние
+[16:31:41] <yulimoto> браввооооооо
+[16:31:45] <KrasiGa> за ИС сектори са по-често мъже
+[16:32:01] <yulimoto> да ама твойта е жена
+[16:32:20] <yulimoto> :)
+[16:33:43] <yulimoto> добре обувай шпайковете, че за 17:00 да си направо готова, аз ако съм на теб ще си нашиша скрипт за shutdown точно в 17:00
+[16:34:00] <yulimoto> загрявай
+[16:34:29] <yulimoto> само ще ти видят петата на завоя в 17:00:00001
+[16:39:06] <Deyan> Виртуална лекция за Linux 22.08.2013 Предлагам да я организираме в някоя кръчма без WIFI
+[16:40:29] <Deyan> То доста намаляхме така мисля че ще е по-полезно да се видим да се чукнем с по бира и да си говорим глупости от колкото да висим пред компютрите и да гледаме чата!!!
+[16:41:51] fityla_ (5f57c8e3@gateway/web/freenode/ip.95.87.200.227) left irc: Quit: Page closed
+[16:43:08] <KrasiGa> и без туй по цял ден това правим :)
+[16:43:43] <yulimoto> а ве сега се замислих за някакво устройство което да предава физическия слой със светлина и не мога да се сетя !!!
+[16:43:47] <yulimoto> Идеи ?
+[16:43:51] <Deyan> абсолютно да, че и по цяла вечер
+[16:46:05] <KrasiGa> ама срещата за кръчмата ще трябва да е в събота
+[16:51:27] <Deyan> yulimoto: ЛАМПАТА НА АЛАДИН
+[16:52:59] fityla (~AndChat20@85.118.193.180) joined #telerikacademy.
+[16:54:15] fityla_ (~AndChat20@85.118.193.167) joined #telerikacademy.
+[16:56:12] <KrasiGa> айде, отивам да подкрепям БГ софтбола в Дупница. Играем с французойките. Стискайте палци да ги бием
+[16:56:16] <KrasiGa> лека вечер от мен
+[16:56:50] <yulimoto> успех и лека
+[16:56:51] AndChat-205625 (~AndChat20@95.87.200.227) left irc: Ping timeout: 268 seconds
+[16:57:18] <yulimoto> Deyan: или партизански фенерчета
+[16:57:54] fityla (~AndChat20@85.118.193.180) left irc: Ping timeout: 264 seconds
+[16:58:25] fityla_ (~AndChat20@85.118.193.167) left irc: Ping timeout: 256 seconds
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:22] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:05:13] <dencho> kakvi francuzoiki we
+[17:05:19] <dencho> kade ima francuzoiki
+[17:11:03] <yulimoto> благоевград
+[17:11:15] <yulimoto> на близо ти е
+[17:11:19] <yulimoto> не е като париж
+[17:38:38] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:25] fityla (~AndChat20@84.40.116.146) joined #telerikacademy.
+[18:47:55] <dencho> gasi toka :D
+[18:47:59] dencho (dencho@78.130.134.31) left irc: 
+[18:56:27] hackman (~hackman@management.1h.com) left irc: Ping timeout: 264 seconds
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:07:10] fityla (~AndChat20@84.40.116.146) left irc: Remote host closed the connection
+[19:26:24] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:32:20] fityla (~AndChat20@84.40.116.146) joined #telerikacademy.
+[20:36:47] fityla (~AndChat20@84.40.116.146) left irc: Read error: Connection reset by peer
+[20:37:14] fityla (~AndChat20@84.40.116.146) joined #telerikacademy.
+[20:37:56] <fityla> В темата е писъл кирил иларинов
+[20:38:06] <fityla> Ако е тук да пише
+[20:49:48] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:54:27] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:01:02] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[22:18:24] deyan_ (~deyan@46.249.92.240) joined #telerikacademy.
+[22:20:01] deyan_ (~deyan@46.249.92.240) left irc: Remote host closed the connection
+[22:22:35] deyan_ (~deyan@46.249.92.240) joined #telerikacademy.
+[22:51:52] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 246 seconds
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:43:26] <deyan_> Има ли живи?
+[23:48:59] <yulimoto> има правя опити да дъмпвам видео от twitch.tv че мн ми товари процесора като имаме лекции
+[23:49:24] <yulimoto> да си ги гледам направо във vlc-то
+[00:00:00] --- Tue Aug 20 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

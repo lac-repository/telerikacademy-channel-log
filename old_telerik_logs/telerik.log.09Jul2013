@@ -1,0 +1,895 @@
+
+00:01 < dencho> leka vi no6t
+00:02 < ViLKaTa> Лека
+00:02 < dencho> mnogo qko be6e edno vreme, nqkoi kato ti kaje "leka" da mu vurne6 - leka ti prust :P
+00:02 < dencho> hahaha
+00:03 < ViLKaTa> Пепел ти на устенцата
+00:04 -!- milev [~martin@client-33-170.speedy-net.bg] has quit [Ping timeout: 264 seconds]
+00:05 -!- milev [~martin@client-33-170.speedy-net.bg] has joined #telerikacademy
+00:07 < samy> xD
+00:07 < samy> Parliament
+00:12 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+00:12 -!- milev [~martin@client-33-170.speedy-net.bg] has quit [Remote host closed the connection]
+00:12 -!- hackman is now known as Guest42819
+00:13 -!- Guest42819 is now known as azilian
+00:13 < phalaaxx> имам въпрос относно initrd на netinstall cd-то :)
+00:14 -!- azilian is now known as HackMan
+00:14 < phalaaxx> мисля че вече си знам отговора ама да питам каква тъпотия съм направил :D
+00:14 < HackMan> ?
+00:15 < phalaaxx> значии, извадих си vmlinuz и initrd.img от iso-то (netinstall) и ги набутах в конфигурацията на pxelinux...
+00:15 < phalaaxx> съответно от оригиналния isolinux.cfg си харесах втория ред и го набутах без да му мисля много много
+00:15 < phalaaxx> xdriver=vesa nomodeset
+00:16 < phalaaxx> и това взе че си boot-на графичния инсталатор :D
+00:16 < phalaaxx> а аз очаквах текстов... да де, vesa...
+00:16 < phalaaxx> без параметри би трябвало да е текстовия, нали?
+00:18 < phalaaxx> реших че ми трябва това защото при инсталация от нормално cd/dvd/ по подразбиране е графичния инсталатор и трябва изрично да му се каже че се иска текстов инсталатор
+00:18 < phalaaxx> а в оригиналния isolinux.cfg по подразбиране не подава друго освен initrd
+00:19 < HackMan> centos/fedora по подразбиране ако намерят дайвер който поддържа видео картата директно стартират в графичен режим
+00:19 < phalaaxx> и някак чисто механично си сложих cmdline за vesa :)
+00:19 < HackMan> текстовият е със опция защото му липсват някой малки неща
+00:19 < phalaaxx> ок а какъв cmdline ми трябва за text?
+00:20 < phalaaxx> append initrd=... text? :)
+00:20 < HackMan> не, просто накрая на линията с параметрите добавяш text
+00:20 < HackMan> не initrd=text а на края на линията с параметрите добавяш text
+00:20 < phalaaxx> мдааа знаех си
+00:20 < phalaaxx> да де, ... защото ме мързи да пиша :D
+00:22 < phalaaxx> http://pastebin.com/KvAQgDqR - с такава ковфигурация го инсталирах
+00:22 < phalaaxx> но не ми даде да си подредя partitions както на мен ми харесва (без LVM)
+00:23 < phalaaxx> ще пробвам утре и с текстовия инсталатор да го видя там колко ще е отзивчив :D
+00:24 < phalaaxx> s/ковфигурация/конфигурация/g (така става като се омешат dvorak и bds)
+00:29 -!- ViLKaTa [~villy@87.97.192.85] has quit [Quit: Konversation terminated!]
+00:30 < phalaaxx> а има ли шанс да се намери initrd само с text install? че този е 31MB (срещу 11 - 19MB за Debian/Ubuntu)
+00:33 < phalaaxx> това не е толкова важно де, ще преживея 10-20MB отгоре  :)
+00:37 < phalaaxx> имам и друг относително не много умен въпрос...
+00:37 < phalaaxx> тъй като идвам от широкия свят на Debiat, от време на време ми се налага да правя dist-upgrade
+00:38 < phalaaxx> и след това да човъркам едни бази данни - PostgreSQL
+00:38 < phalaaxx> а Debian са го въоръжили с едни интересни тулчета (pg_dropcluster, pg_upgradecluster) които не успях да намеря в CentOS
+00:39 < phalaaxx> но всъщност и не успях да инсталирам 2 версии на PostgreSQL ако трябва да съм откровен
+00:39 < phalaaxx> как се решава там въпроса с подобен upgrade?
+00:44 < phalaaxx> s/Debiat/Debian/... стана ми навик да си бъркам клавиатурите :|
+00:46 < HackMan> centos stava bez LVM
+00:46 < HackMan> но само custom
+00:52 -!- roxrite [~n_a@130-204-86-120.2073150800.ddns.cablebg.net] has quit [Ping timeout: 264 seconds]
+00:53 < phalaaxx> да де, това е ясно, ама не успях да си подредя partitions както искам
+00:53 < HackMan> phalaaxx: моля те пробвай да отвориш това с VLC или някакъв друг player - http://85.14.7.110:8080/c.avi
+00:54 -!- dencho [~dencho@95.111.14.183] has quit [Ping timeout: 276 seconds]
+00:54 < phalaaxx> VLC не иска да го отвори
+00:55 < phalaaxx> totem също (gstreamer)
+00:56 < HackMan> az go resetnah za 1min
+00:56 < HackMan> da smenq video codec nastroikite
+00:57 < HackMan> сега изглежда доста добре :)
+00:58 < HackMan> със gmplayer-а се play-ва супер
+00:58 < HackMan> сега ще пусна windows-а на жената да видя там :0
+01:05 < phalaaxx> тц, с нищо не мога да го отворя
+01:05 < phalaaxx> пробвах с vlc, totem, gstreamer и mplayer
+01:05 < HackMan> mdaaa normalno
+01:05 < HackMan> firewall-nal sum go
+01:05 < HackMan> sec
+01:06 < phalaaxx> и с телнет също ама там...
+01:06 < phalaaxx> да, това обяснява всичко
+01:06 < phalaaxx> ама аз този проблем го имам още от преди последната лекция :)
+01:06 < HackMan> q vij sega ?
+01:06 < yulimoto> я да видим без стена
+01:07 < phalaaxx> с gstreamer са отвори
+01:07 < phalaaxx> се отвори
+01:07 < yulimoto> при мен vlc не
+01:07 < phalaaxx> пфуу трябва още да се упражнявам с тия клавиатури :D
+01:08 < phalaaxx> да, и при мен се зори нещо на vlc
+01:08 < HackMan> ще експериментирам малко със codecs
+01:08 < HackMan> така, че да може всеки да го play-ва
+01:08 < HackMan> мисля да пробвам пак  flv
+01:08 < phalaaxx> но с gstreamer си работи :)
+01:09 < phalaaxx> gst-launch playbin2 uri=http://85.14.7.110:8080/c.avi
+01:09 < HackMan> phalaaxx: mplayer ?
+01:10 < phalaaxx> момент
+01:10 < Deyan_> при мен дава само черен екран
+01:11 < phalaaxx> и с mplayer е ок
+01:11 < HackMan> а имате ли звук?
+01:11 < HackMan> чувате ли ми клавиатурата ? :)
+01:11 < phalaaxx> хм сега ще пробвам че съм на слушалки по принцип :)
+01:12 < yulimoto> az ne
+01:13 < phalaaxx> тц
+01:13 < phalaaxx> а впрочем в mplayer и видеото май не върви много читаво
+01:13 < HackMan> да, той mplayer-а е малко по-докачлив :)
+01:14 < HackMan> аз затова гледам да сменя video codec-а
+01:18 < Deyan_> при мен с нищо не тръгва, предполагам проблема е в мен
+01:19 < yulimoto> ама той в момента сигурно го е спрял нали сменя кодеци :) 
+01:19 < Deyan_> а да
+01:19 < Deyan_> да взема да си пусна и windows до като смени кодеците
+01:20 < phalaaxx> отвори се и с vlc ама половината екран не се вижда хич :)
+01:20 < HackMan> ще ви кажа като го пусна пак
+01:20 < phalaaxx> че аз какво отварям в момента ако е спрян?
+01:20 < HackMan> aa v momenta vurvi neshto
+01:20 < HackMan> no az oshte nemoga da go vidq :)
+01:23 < yulimoto> При vlc output-a в конзолата - [mp3 @ 0xb015bd20] Header missing
+01:27 < Deyan_> и аз не виждам нищо
+01:28 < Deyan_> wmp ми дава opening media ...
+01:28 < HackMan> Deyan_: да... и аз това виждам в windows :(
+01:29 < Deyan_> а линукса и той нищо не дава
+01:29 < Deyan_> защо ли не си пуснем по едно порно ми се занимаваме с глупости :)
+01:33 < yulimoto> Няма подходящ модул за декодера:
+01:33 < yulimoto> VLC не поддържа аудио или видео формата "undf". За съжаление, няма начин да го поправите.
+01:33 < Deyan_> Няма подходящ модул за декодера:
+01:33 < Deyan_> VLC не поддържа аудио или видео формата "undf". За съжаление, няма начин да го поправите.
+01:34 < Deyan_> големи сме спамъри
+01:34 < yulimoto> ха 
+01:34 < yulimoto> да
+01:34 < yulimoto> в конзолата иначе пак реве за хедъра на mp3 
+01:46 < Deyan_> HackMan, има ли развитие
+01:47 < HackMan> Deyan_: не все още
+01:47 < HackMan> нещо не успявам да го подкарам с audio което пречи на players :)
+01:51 < yulimoto> в конзолата иначе пак реве за хедъра на mp3 
+01:51 < yulimoto> упс
+01:51 < yulimoto> репейстнах без да искам
+01:54 < Deyan_> пуснах си някакво филмче да гледам, ако има нещо ново пишете на лични да ми писне
+02:22 < phalaaxx> време е за плувката :)
+02:22 < phalaaxx> лека нощ на всички
+02:22 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+03:02 -!- Fairytale [Fairytale@police.executie.org] has joined #telerikacademy
+03:31 < HackMan> http://hydra.azilian.net/stream/demo.html
+03:31 < HackMan> ако има будни
+03:31 < HackMan> някой ще отвори ли това ?
+03:31 < HackMan> да каже дали вижда видео :)
+04:40 -!- Fairytale [Fairytale@police.executie.org] has quit [Ping timeout: 264 seconds]
+05:05 -!- Deyan_ [~Deyan@46.249.92.240] has quit [Ping timeout: 248 seconds]
+07:35 -!- nveselinov_ [~nveselino@151.237.4.4] has joined #telerikacademy
+07:37 -!- nveselinov [nveselinov@151.237.4.4] has quit [Ping timeout: 264 seconds]
+09:05 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+09:12 < KrasiGa> Dobro utro! Kak ste dnes?
+09:24 < KpeTeHoug> мърдаме още
+09:24 < KpeTeHoug> като изпием кафето може и повече да мърдаме даже
+09:33 < KacanuH> снощи съм заспал, не съм дочакал да видя срииминга
+09:37 < KrasiGa> не е ли в четвъртък?
+09:38 < KpeTeHoug> в чевъртък е
+09:38 < KpeTeHoug> ама са правили некфи тестове
+09:38 < KpeTeHoug> през ноща
+09:45 < KrasiGa> пропуснала съм това инфо
+09:45 < KpeTeHoug> ми в 3 през ноща :)
+09:46 < KpeTeHoug> ако не си си оставил чата включен
+09:46 < KpeTeHoug> да следиш на другия ден
+09:52 -!- dencho [~dencho@95.111.14.183] has joined #telerikacademy
+09:52 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+10:10 < dencho> dobro vi utro we
+10:10 < dencho> :D
+10:10 < KpeTeHoug> а добро да е
+10:11 < dencho> kakvo stava
+10:11 < dencho> :)
+10:11 < KacanuH> кое му е доброто, шефа не дава да се пие ракия от сутринта
+10:11 < KacanuH> няма нищо добро :)
+10:11 < KpeTeHoug> ами недей от сутринта, почни от вечерта
+10:11 < KpeTeHoug> на предния ден
+10:11 < KacanuH> ще трябва да се задоволя с бира
+10:11 < KacanuH> то предният ден си е за предният ден
+10:12 < dencho> haha
+10:12 < dencho> :D
+10:12 < yulimoto> KpeTeHoug: В гризлито в /tmp има файл #telerikacademy.log който ъпдейтва на един час, ако ти трябва нещо от лога в канала. :)
+10:13 < HackMan> abe koi e toq ibalistix
+10:13 < HackMan> kak me iznervi vuv foruma
+10:13 < HackMan> ide mi da go napsuvam :(
+10:14 < dencho> hahaha
+10:14 < dencho> e...
+10:14 < dencho> slu4va se :)
+10:14 < yulimoto> с коя тема ? за 3*1 или 1*3 терабайтови хардове ли ?
+10:15 < yulimoto> HackMan: пробвам видеото. с делфините ама не подкарва 
+10:16 < KpeTeHoug> и при мен само зарежда
+10:16 < KpeTeHoug> и тва е
+10:16 < KpeTeHoug> yulimoto днес ще си пусна bnc-to
+10:16 < KpeTeHoug> като си изпия кафето
+10:16 < KpeTeHoug> и ще си логя сам :)
+10:16 < dencho> aide i bnc-ta se po4naha :D
+10:16 < HackMan> yulimoto: с темата за счупеното аудио.... веднъж не е идвал на лекции... дори не е записан за курса online, обаче нарежда мъжката
+10:16 < HackMan> дава предложения, без хич да е прочел какво се е случило
+10:16 < HackMan> и най-много ме изнерви изкаването 'вече сума лекции се счупиха'
+10:17 < HackMan> заради микрофона...
+10:17 < dencho> btw po avatara sudq 4e tova e momi4e sqka6 :D
+10:17 < yulimoto> вече сума лекции И ОСОБЕНО МАРИЯН !!!!
+10:17 < yulimoto> хаха 
+10:17 < HackMan> yulimoto: относно stream-а спрял съм го, има драма с codecs... ще трябва да измисля нещо днес
+10:18 < dencho> HackMan kolko doma6ni se uploadnaha ?
+10:18 < KpeTeHoug> dencho едно време човек убивах за свестен шел да си пусна бнц
+10:18 < KpeTeHoug> сеа моа и сам :)
+10:18 < yulimoto> HackMan: oks, за мен стрийма не е фатален, но усещам че ще ти се превърне в краста да го решиш
+10:19 < dencho> hahaha
+10:23 < dencho> HackMan POSPRI SE WE! te syvetva ibalistix :P
+10:23 < dencho> daje vsi4ki ni syvetva :P
+10:24 < dencho> vypreki che ne pomnq HackMan da e izpolzval vgradeniq mikrofon (kakvoto i da ozna4ava tova) :D
+10:24 < yulimoto> да влезем във форума и да му дадем -1 
+10:25 < yulimoto> да събере двуцифрен мминус
+10:25 < dencho> sqka6 na tam otivat ne6tata
+10:25 < dencho> :D
+10:27 < KrasiGa> и аз дадох -
+10:28 < dencho> :P
+10:28 < KpeTeHoug> мумент да видя квъ е таз драма :)
+10:28 < dencho> nqma nqma ii nqkoi up-ne temata za doma6nite :P
+10:31 < dencho> aulll toz si subra 4 broiki na burzo
+10:31 < dencho> :P
+10:33 < KrasiGa> е какво като е събрал? то и аз имах някъде минуси
+10:33 < KrasiGa> намалява ти точките ли?
+10:34 < dencho> nqmam predstava
+10:34 < dencho> :P
+10:34 < KrasiGa> хахаха
+10:34 < KrasiGa> значи правим нещо за което нямаме представа
+10:36 < yulimoto> и да не ги намаля всеки човек се кефи на + и съответно минусите не му влияят като стимул, така че се предполага да не раздава обвинения в бъдеще
+10:38 < dencho> az mislq, che e vreme da si napisha domashnoto :D
+10:38 < dencho> no sled kato obqdvam :P
+10:42 < KrasiGa> кое по ред?
+10:42 < KrasiGa> 4-тото?
+10:42 < dencho> e kak koe
+10:42 < dencho> 1-voto
+10:42 < dencho> :D
+10:42 < dencho> haha
+10:42 < KrasiGa> е не коментираше ли точно ти за 3-то 4
+10:42 < dencho> e... tova 4e sam gi pro4el i imam idei ne ozna4ava 4e sam gi napisal :D
+10:43 < KrasiGa> ахаааа
+10:43 < KrasiGa> е имаш време и утре е ден
+10:43 < KrasiGa> да не откраднеш мойто дето го постнах вчера
+10:43 < KrasiGa> ;)
+10:43 < dencho> mne, dneska e deadline-a za mene :P
+10:43 < dencho> am to nqma kak da go vidq
+10:43 < dencho> ina4e 6te go otkradna
+10:43 < KrasiGa> нали пратих линк
+10:44 < KrasiGa> копи пейст
+10:44 < dencho> ne pomnq bre :P
+10:44 < dencho> haha
+10:44 < dencho> onova za crypt ne6toto li
+10:44 < dencho> ?
+10:48 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Ping timeout: 250 seconds]
+11:22 -!- HackMan [~HackMan@wolf.yuhu.biz] has quit [Ping timeout: 246 seconds]
+11:39 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+11:39 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+11:57 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+11:58 -!- hackman [~HackMan@management.1h.com] has joined #telerikacademy
+12:49 -!- Bliok [~GT@212.36.13.10] has joined #telerikacademy
+12:52 -!- Fairytale [Fairytale@police.executie.org] has joined #telerikacademy
+12:59 -!- Netsplit *.net <-> *.split quits: KpeTeHoug
+13:00 -!- nveselinov_ is now known as nveselinov
+13:00 -!- Plamer_ [~Plamer@84.40.92.7] has joined #telerikacademy
+13:01 < dencho> op
+13:01 < dencho> ora ima li tuka :D
+13:04 -!- plamer [~Plamer@84.40.92.7] has quit [Ping timeout: 276 seconds]
+13:07 < samy> aaaaaaaaaaaaaaa
+13:23 < yulimoto> има аз гледам на час, час и нещо 
+13:25 -!- Bliok is now known as KpeTeHoug
+13:31 < dencho> Aide bate niki! http://youtu.be/pABF_Y1YjZs ABYAHAHAHAHHAHAHAHAH
+13:35 < KpeTeHoug> нема да коментирам  линка
+13:35 < dencho> :D
+13:36 < dencho> siguren sam, che taino sistemnite administratori si padat po chlgata :P
+13:37 < KpeTeHoug> ма 100 %
+13:37 < KpeTeHoug> как ги разконспирира само
+13:37 < phalaaxx> заболяха ме ушите от това :D
+13:37 < dencho> hahahhaa
+13:37 < dencho> :D
+13:37 < phalaaxx> а съм изслушал само първите 30 секунди :D
+13:37 < KpeTeHoug> само на имаш ги по 50
+13:37 < KpeTeHoug> вече ми прилошаваше
+13:38 < dencho> hahaha
+13:38 < dencho> :D
+13:42 < samy> samo kato widqh za kakwo ide na rech
+13:42 < samy> i direktno ctrl+w
+13:44 < KpeTeHoug> бе то не е лошо човек да разширява кръгозора
+13:44 < KpeTeHoug> ма не и с п0рно
+13:44 < dencho> hahahaha
+13:44 < dencho> :D
+13:53 < dencho> Îò óòðå è òþòþíîïðîèçâîäèòåëèòå ïðîòåñòèðàò http://business.actualno.com/Ot-utre-i-tutunoproizvoditelite-protestirat-news_430913.html
+13:53 < dencho> nekva zabava zapo4va
+13:54 < dencho> are sq... kat ne haresvate ciganska muzika slu6aite pa bulgarska http://youtu.be/zM_Mq43gVjw :D
+13:55 < KpeTeHoug> нещо ти е омазан енкодинга
+13:56 < dencho> :D
+13:56 < dencho> normalno za men :D
+14:11 < dencho> nqkoi slu4aino da e rabotil v sibank ? i da e 4ul kak sa zaplatite tam?!
+14:26 < KpeTeHoug> що, да няма да причакваш камиона с заплатите ;)
+14:30 -!- PLDAGROUP\humaru [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has joined #telerikacademy
+14:30 < PLDAGROUP\humaru> zdraveite
+14:31 < dencho> haha da :P
+14:31 < dencho> zdr PLDAGROUP\humaru
+14:31 < KpeTeHoug> здрасти
+14:42  * dencho ne e resval po-malko shlqkavia Windows Seven ot ima/nqma 2wks 2days 20hrs 2mins 55secs
+14:42 < dencho> oho
+14:42 < dencho> uptime :D
+14:45 < dencho> http://dnes.bg/stranata/2013/07/10/tir-se-obyrna-razpilia-pampersi-po-pytia-za-varna.193259
+14:45 < dencho> HAHAHAHAHA
+14:45 < dencho> evalata... na BOAZA mangalite 6te se zapasqt s pampersi
+14:45 < dencho> :D
+14:47 < KpeTeHoug> dencho че то на мен това ми е нормалният uptime на виндоуса
+14:47 < dencho> mi pri men vse se slu4va da go reskam vse za ne6to :)
+15:09 < PLDAGROUP\humaru> e
+15:09 < PLDAGROUP\humaru> ebasi plqshtinata
+15:10 < PLDAGROUP\humaru>  i mi se stroshi
+15:10 < PLDAGROUP\humaru> irrsito
+15:10 < PLDAGROUP\humaru> brb
+15:10 -!- PLDAGROUP\humaru [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has quit [Quit: leaving]
+15:10 -!- asdasd1 [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has joined #telerikacademy
+15:10 < asdasd1> iii ne mi e dopilo nickut oshte
+15:11 < asdasd1> so sad
+15:11 < KpeTeHoug> sad but true :)
+15:11 < KpeTeHoug> и се дропна вече
+15:12 < asdasd1> ne e ;(
+15:12 < KpeTeHoug> [15:09:23] * Quits: PLDAGROUP\humaru (~PLDAGROUP@78-83-100-20.spectrumnet.bg) (Quit: leaving)
+15:13 < asdasd1> ;>
+15:13 < asdasd1> asdasd e in use
+15:13 < KpeTeHoug> :)
+15:13 < asdasd1> ne toq ot domaina na rabota
+15:13 < KpeTeHoug> a
+15:16 < phalaaxx> някой да има идея munin как проверява Disk IOs per device?
+15:18 < phalaaxx> днес ме гони мързел и не ми се ровеше, ама явно ще се наложи :D
+15:19 < KpeTeHoug> много е слънчево и хубаво времето навън да
+15:19 < KpeTeHoug> ако това питаш :)
+15:20 < phalaaxx> :D
+15:21 < dencho> asdasd1 nqma kak da se dropne poneje kvirc-to vse o6te raboti :D
+15:22 < dencho> pf
+15:22 < dencho> !
+15:22 < dencho> KiwiIRC-to
+15:22 < dencho> :P
+15:24 < KpeTeHoug> убии мръсника с камъни
+15:24 < KpeTeHoug> :)
+15:24 < KpeTeHoug> киви-то имам пердвид
+15:24 < KpeTeHoug> *предвид
+15:25 < asdasd1> D:
+15:25 -!- user99 [~McNamee@213.226.63.139] has joined #telerikacademy
+15:25 < asdasd1> basi dneska cql den
+15:25 < asdasd1> drama s arch
+15:25 < asdasd1> i nvidia
+15:25 < asdasd1>  i bumblebee
+15:25 < asdasd1> i vchera -,-
+15:25 < asdasd1> pone veche imam X
+15:26 < samy> xixixix
+15:26 < KpeTeHoug> днес Х, а утре Y
+15:26 < KpeTeHoug> :)
+15:27 < dencho> za hromozomi li si govorim
+15:29 < KpeTeHoug> само за оплождане си мислиш
+15:32 < phalaaxx> хаха :D
+15:33 < dencho> :]
+15:40 -!- asdasd1 [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has quit [Quit: Lost terminal]
+15:47 -!- speedmaister [59becf0d@gateway/web/freenode/ip.89.190.207.13] has joined #telerikacademy
+15:47 -!- speedmaister [59becf0d@gateway/web/freenode/ip.89.190.207.13] has quit [Client Quit]
+15:52 -!- KpeTeHoug is now known as KpeTeHoug|afk
+16:09 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+16:35 -!- Plamer_ [~Plamer@84.40.92.7] has quit [Ping timeout: 262 seconds]
+16:35 -!- Fairytale [Fairytale@police.executie.org] has quit [Ping timeout: 262 seconds]
+16:35 -!- Plamer__ [~Plamer@84.40.92.7] has joined #telerikacademy
+16:36 -!- Fairytale [Fairytale@police.executie.org] has joined #telerikacademy
+16:43 -!- Plamer_ [~Plamer@84.40.92.7] has joined #telerikacademy
+16:45 -!- milev [~martin@client-33-170.speedy-net.bg] has joined #telerikacademy
+16:59 -!- Netsplit *.net <-> *.split quits: Plamer__
+17:00 -!- Netsplit *.net <-> *.split quits: @ChanServ
+17:11 < phalaaxx> хора нали знаете че има и стая в jabber :)
+17:11 < phalaaxx> не се стеснявайте, заповядайте и там :)
+17:16 -!- Netsplit over, joins: @ChanServ
+17:16 < dencho> ima li hora tam
+17:25 -!- Plamer_ [~Plamer@84.40.92.7] has quit [Ping timeout: 256 seconds]
+17:27 -!- Netsplit *.net <-> *.split quits: @ChanServ
+17:32 -!- nrusev [4d46720b@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.114.11] has joined #telerikacademy
+17:34 -!- milev [~martin@client-33-170.speedy-net.bg] has quit [Remote host closed the connection]
+17:37 -!- nrusev [4d46720b@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.114.11] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:05 -!- Netsplit over, joins: @ChanServ
+18:12 < KacanuH> exit
+18:12 < KacanuH> exit
+18:12 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has quit [Quit: leaving]
+18:33 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: bbl]
+18:34 -!- Netsplit *.net <-> *.split quits: @ChanServ
+19:03 -!- Netsplit over, joins: @ChanServ
+19:14 -!- Netsplit *.net <-> *.split quits: @ChanServ
+19:39 -!- Netsplit over, joins: @ChanServ
+19:50 -!- Netsplit *.net <-> *.split quits: @ChanServ
+20:03 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+20:19 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+20:45 -!- Netsplit over, joins: ChanServ
+20:45 -!- ServerMode/#telerikacademy [+o ChanServ] by hubbard.freenode.net
+20:53 -!- Netsplit *.net <-> *.split quits: @ChanServ
+20:56 -!- Netsplit over, joins: @ChanServ
+20:58 -!- samy_ [~samy@84.238.184.98] has joined #telerikacademy
+21:01 -!- Netsplit *.net <-> *.split quits: @ChanServ
+21:19 < samy_> abe
+21:19 < samy_> kfo se pisheshe....
+21:19 < samy_> msg nickserv help?
+21:19 < samy_> da mi pokaje komandite
+21:26 -!- Fairytale [Fairytale@police.executie.org] has quit [Ping timeout: 240 seconds]
+22:08 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+22:22 < dencho> samy_ da
+22:22 < dencho> no freenode imat problemi sus services sega
+22:22 < dencho> i v momenta nqma nickserv
+22:22 < dencho> -mist- [Global Notice] Sorry for the continued lack of services, we're currently moving it to an alternate location. Thanks for your patience.
+22:22 < dencho> qvno imat qdove
+22:22 < dencho> :P
+22:22  * dencho slaps ViLKaTa around a bit with a large trout
+22:23 < dencho> ViLKaTa jiv li si we, onezi host1 sq kazvat 4e na 15-ti 6te vuztanovqt vps-ite
+22:23 < dencho> mnogo lamerqsaha
+22:25 < dencho> drugoto koeto e.
+22:25 < dencho> -christel- [Global Notice] As you may have noticed we appear to have trotted over the grumpy troll's bridge -- the network is currently being attacked and as a result we're temporarily without services as we work to get a working copy of the db fired up elsewhere. Apologies for the inconvenience.
+22:25 < dencho> samy_ taka 4e se zamisli dali da si regva6 nick-a :D
+22:25 < samy_> to
+22:25 < samy_> "samy"
+22:25 < samy_> e regnat ot drug ;s
+22:26 < dencho> za horata sus smart telefoni
+22:26 < dencho> http://inews.bg/%D0%A2%D0%B5%D1%85%D0%BD%D0%BE%D0%BB%D0%BE%D0%B3%D0%B8%D0%B8/%D0%9A%D0%B0%D0%BA%D0%B2%D0%BE-%D1%81%D0%B5-%D1%81%D0%BB%D1%83%D1%87%D0%B2%D0%B0-%D0%BA%D0%BE%D0%B3%D0%B0%D1%82%D0%BE-%D1%82%D0%B8-%D0%B3%D1%80%D1%8A%D0%BC%D0%BD%D0%B5-%D1%81%D0%BC%D0%B0%D1%80%D1%82%D1%84%D0%BE%D0%BD%D1%8A%D1%82-%D0%B2-%D0%B3%D0%B0%D1%89%D0%B8%D1%82%D0%B5-16-_l.a_c.389_i.304196.html
+22:26 < ViLKaTa> Em, ne mi e zor..
+22:26 < dencho> Samsung Galaxy S III
+22:26 < ViLKaTa> :)
+22:26 < ViLKaTa> Da go puskat i sled 1 godina, ako iskat.
+22:27 < samy_> a tfa go gledah
+22:27 < samy_> dnes
+22:27 < samy_> tfa she mi podpali
+22:27 < samy_> masurite daje..
+22:28 < dencho> :}
+22:28 < ViLKaTa> hahaha
+22:28 < ViLKaTa> Zaradi tova Nokia
+22:28 < ViLKaTa> S extra - fenerche
+22:29 < ViLKaTa> Ima i kalkulator
+22:29 < ViLKaTa> Naj-dobria telefon.. Ne znam kav model e, no vse 5
+22:29 < dencho> :]
+22:29 < samy_> ooo
+22:30 < samy_> gusto
+22:30 < ViLKaTa> Edin aver e obezumial s tezi gluposti
+22:30 < ViLKaTa> Niama kakvo da iade, pari za kafe iska na zaem
+22:30 < ViLKaTa> Inache vzel nekaf telefon za nad 100lv
+22:30 < dencho> hahaha
+22:30 < dencho> 100 lv
+22:30 < dencho> :D
+22:30 < ViLKaTa> Inache vzel nekaf telefon za nad 100l0v
+22:30 < dencho> da da
+22:31 < dencho> razbraame ta
+22:31 < ViLKaTa> Hiliada
+22:31 < dencho> :D
+22:31 < dencho> ViLKaTa utre si otiam na grada we
+22:31 < ViLKaTa> Mani, mi kat ogladnia zdravo i go prodade za 600
+22:31 < ViLKaTa> Em, stiskam palci :)
+22:31 < ViLKaTa> Uspeh
+22:32 < dencho> hahaha
+22:32 < dencho> 6to uspeh we
+22:32 < dencho> :D
+22:32 < ViLKaTa> Em, da se mahnesh ot Botevgrad
+22:32 < dencho> :D
+22:34 < hackman> guys
+22:34 < hackman> http://www.justin.tv/azilian#/w/6112984160
+22:34 < hackman> nqkoi ot vas vijda li neshto tuk ?
+22:34 < hackman> ili i na vas vi pokazva cheren ekran ?
+22:35 < hackman> pochnah da se pritesnqvam che problema e vuv moq flash
+22:35 -!- ChanServ [ChanServ@services.] has joined #telerikacademy
+22:35 -!- ServerMode/#telerikacademy [+o ChanServ] by hubbard.freenode.net
+22:35 < ViLKaTa> Em, moje i v moia da e
+22:35 < ViLKaTa> Cheren ekran
+22:36 < hackman> ebasi tupoto
+22:36 < ViLKaTa> Az taka i ne uspiah da si kacha nekvi plugins za .wmv
+22:36 < hackman> to tova e flash be :)
+22:36 < hackman> ne wmv :)
+22:36 -!- samy__ [~samy@91.196.227.180] has joined #telerikacademy
+22:36 < samy__> shto pa da ne mi spre neta...
+22:36 -!- samy_ [~samy@84.238.184.98] has quit [Ping timeout: 268 seconds]
+22:36 < ViLKaTa> Na Win neam iadove s tezi online.. Kato tv7.bg
+22:36 < ViLKaTa> Ama na linux greda
+22:37 < ViLKaTa> Kopnah linka ot source, zaredih go vav VLC, varvia malko i flood s greshki
+22:38 < ViLKaTa> Mizeria palna
+22:38 < ViLKaTa> Ama da ne choplish
+22:38 < ViLKaTa> Aa
+22:38 < dencho> az vijdam svetkavica
+22:38 < dencho> :D
+22:38 < ViLKaTa> Izlezna sega nekva svetkavica
+22:38 -!- Netsplit *.net <-> *.split quits: @ChanServ
+22:38 < ViLKaTa> I zvuk maj dochuh
+22:38 < ViLKaTa> Prashtene sas shtrakane na klavietura
+22:38 < dencho> haha
+22:39 < dencho> hackman web cam  show li 6te ni prai6
+22:39 < hackman> dencho: peep show :) kolko davash ?
+22:40 < dencho> hahaha
+22:40 < dencho> 6a pita6 oneq mometa ot lekciata
+22:40 < dencho> :D
+22:40  * dencho wc
+22:51 < dencho> samo svetkavica li 6te gledame
+22:51 < dencho> :D
+22:51 < phalaaxx> може би чакаме и AC и/или DC
+22:51 -!- KacanuH [~Deyan@46.249.92.240] has joined #telerikacademy
+22:52 < dencho> :]
+22:53 -!- Netsplit over, joins: @ChanServ
+22:53 < ViLKaTa> Utre niama da vali :(
+22:53 < ViLKaTa> Shte rabotia cial den
+22:54 < dencho> mi 6a raboti6 we,
+22:54 < dencho> lesno li ti e da gleda6 banski po cql den
+22:55 < ViLKaTa> Ne
+22:55 < ViLKaTa> Iskam i da pipam
+22:55 < dencho> hahaha
+22:56 < dencho> ViLKaTa tva ti li si we http://youtu.be/IuYrRebvFHc
+22:56 < ViLKaTa> hahaha
+22:56 < ViLKaTa> Da
+22:57 < dencho> pi4aga si
+22:57 < dencho> :D
+22:58 < KacanuH> hackman, днес ще има ли тестове с стрииминга
+22:58 < KacanuH> dencho, сваляш ли го
+22:59 < dencho> KacanuH
+22:59 < dencho> [22:33:19] <hackman> guys
+22:59 < dencho> [22:33:20] <hackman> http://www.justin.tv/azilian#/w/6112984160
+22:59 < dencho> [22:33:27] <hackman> nqkoi ot vas vijda li neshto tuk ?
+22:59 < dencho> [22:33:33] <hackman> ili i na vas vi pokazva cheren ekran ?
+22:59 < dencho> [22:33:41] <hackman> pochnah da se pritesnqvam che problema e vuv moq flash
+22:59 < hackman> KacanuH: опитвам... но мамка му не мога да разбера защо не желае да тръгне
+22:59 < dencho> KacanuH az odavna sam go svalil :P
+22:59 < KacanuH> е значи и ти си пич :)
+22:59 < ViLKaTa> Men li, bre?
+22:59 < dencho> byhahaha
+23:00 < hackman> http://www.twitch.tv/aziliann
+23:00 < hackman> това ми беше последната надежда
+23:00 < hackman> но и там същия хуй
+23:00 < KacanuH> после ако не ме мързи ще ви драсна един виц, че ако продължавам да се размотавам ще остана без домашно
+23:00 < dencho> 4erno...
+23:00 < hackman> da
+23:00 < dencho> KacanuH e ima vreme we... ne e li do utre?
+23:00 < dencho> 11.07.
+23:01 < ViLKaTa> Trugvo zvuk
+23:01 < ViLKaTa> Ili pone se machi
+23:01 < phalaaxx> баси хората изгледаха сериалите по света а ние не мое си настроим телевизорите още :D
+23:01 < dencho> KacanuH Êðàåí ñðîê: 11/07/2013, 23:59
+23:01 < dencho> :D
+23:01 < KacanuH> hackman, чува ти се клавиатурата
+23:03 < hackman> KacanuH: знам :)
+23:03 < hackman> ама виде йок...
+23:03 < hackman> :(
+23:03 < dencho> :D
+23:03 < KacanuH> но за сметка на това се чуват гадни звуци
+23:03 < samy__> wtf
+23:03 < KacanuH> :)
+23:03 < phalaaxx> и с прекъсвания
+23:03 < phalaaxx> звука заеква :D
+23:03 < dencho> tez freenode kvo napraiha s tiq services we brat4e
+23:03 < dencho> :D
+23:03 < KacanuH> имаме и звуци някакви, hackman гости ли имаше
+23:04 < hackman> момци аз съм още в офиса
+23:04 < dencho> da nqma qdene i piene u hackman
+23:04 < hackman> хората от втора смяна си тръгват
+23:04 < dencho> :D
+23:04 < ViLKaTa> Az ne znam za kvo ne si napraihme nekva druga online vrazka...
+23:04 < dencho> ViLKaTa q dai predlojenie sq
+23:04 < ViLKaTa> I TeamSpeak ima opcia za web butoni
+23:04 < dencho> siguren bqh!
+23:04 < dencho> :D
+23:04 < KacanuH> ViLKaTa, викаш да взимаме пица и бира и да отиваме при hackman
+23:05 < dencho> prosto bqh na 100% 4e ViLKaTa 6te kaje teamspeak
+23:05 < hackman> аз накрая ще пусна един stream от windows-а
+23:05 < dencho> hahaha
+23:05 < hackman> и ще се вържа на linux-a
+23:05 < hackman> ебати драмата
+23:05 < dencho> 6te stanem za ka6mer, ako znaete kakvo e ka6mer :P
+23:05 < phalaaxx> да помагаме нещо някак?
+23:05 < phalaaxx> да се учим да ползваме гугъл освен
+23:06 < dencho> osven da idem da se napiem v h1 :D
+23:06 < dencho> 1h
+23:06 < dencho> :D
+23:06 < KacanuH> hackman, това ще си го запазя,
+23:06 < dencho> logged
+23:09 < ViLKaTa> V golemite kanali stana veselo kat se vyrnaha servizite..
+23:09 < ViLKaTa> Extra flood
+23:10 < dencho> m dam
+23:10 < dencho> freenode sux :D
+23:12 < ViLKaTa> IRC sux
+23:12 < ViLKaTa> Vse edno sam v 98 godina
+23:12 < dencho> na mene pa mi e extra
+23:12 < dencho> 98-ma godina za pruv put vidqh windows 98 :D
+23:12 < dencho> hahaha
+23:13 < dencho> ga interneta be6e s modem :D
+23:13 < dencho> svalqh edna mp3-ka 4 mb, 50 minuti :D
+23:13 < dencho> ViLKaTa ti pomni6 li ga interneta na grada be6e na 4as :P
+23:16 < ViLKaTa> Ne
+23:16 < ViLKaTa> Ama pomnia free-to
+23:16 < dencho> hahaha
+23:16 < dencho> po vremeto s modemite mai nqma6e free
+23:16 < ViLKaTa> Ot tam se svaliaha barzo - 5-10 min.
+23:16 < dencho> az posle minah na pe6o byte-a
+23:18 < ViLKaTa> byte 55 ?
+23:18 < dencho> ya ya
+23:18 < dencho> 2003-ta za pruv put vidqh wifi :P
+23:18 < dencho> haha
+23:18 < dencho> byte-a be6e lud
+23:19 < hackman> dencho, ViLKaTa от къде сте ?
+23:19 < dencho> ot grada HAHAHAHAH
+23:19 < dencho> botevgrad
+23:19 < dencho> :D
+23:20 < hackman> охооо от люлката на С.Кънев ;)
+23:20 -!- Netsplit *.net <-> *.split quits: @ChanServ
+23:20 < dencho> a sq koi e s. kynev
+23:20 < hackman> Stefan Kynev ?
+23:21 < ViLKaTa> hahahahaaa
+23:21 < hackman> http://skanev.com/
+23:21 -!- user99 [~McNamee@213.226.63.139] has quit [Quit: Bye]
+23:21 < yulimoto> тоя с логотата ли е ?
+23:21 < dencho> mi ne go poznavam az, ViLKaTa ako go znae
+23:21 < KacanuH> Двама приятели си говорят:
+23:21 < KacanuH> - Ей, чудесна работа. В новата служба няма гейове. Ама никакви!
+23:21 < KacanuH> - Да бе, не е възможно!
+23:21 < KacanuH> - Честна дума!
+23:21 < KacanuH> - Е, добре, ти за хилядарка няма ли да дадеш дупе на някого?
+23:21 < dencho> :D
+23:21 < yulimoto> или бъркам
+23:21 < KacanuH> - Ти луд ли си?!
+23:21 < KacanuH> - Е, добре... За 10 000 няма ли да дадеш някой да те тресне?
+23:21 < KacanuH> - Абе, стига глупости!
+23:21 < KacanuH> - Добре... За 1 000 000 няма да откажеш някой да те пообича малко, а?
+23:21 < KacanuH> - Е, ся... За един милион ще си помисля...
+23:21 < KacanuH> - Виждаш ли, не че няма гейове, инвеститори няма!
+23:21 -!- user99 [~McNamee@213.226.63.139] has joined #telerikacademy
+23:21 < dencho> ViLKaTa poznava6 li go?
+23:22 < dencho> hackman moje bi sam mnogo mlad :D
+23:22 < ViLKaTa> Ne
+23:22 < dencho> KacanuH AHHAHA :D
+23:22 < dencho> dam...
+23:22 < dencho> i ne sam i 4uval daje gradski legendi za stefan kynev
+23:23 < dencho> no za pe6o baita sam  4uval
+23:23 < dencho> haha
+23:23 < dencho> i za Veso Profesori nali :D
+23:24 < ViLKaTa> I za tzarbd
+23:24 < ViLKaTa> Oshte e jiv
+23:24 < ViLKaTa> I pak si puka nonstop
+23:24 < ViLKaTa> Admin e v Microelectronika
+23:24 < ViLKaTa> Ili tam kakto se kazvashe
+23:24 < plamer> уф.. с тва наваксване с ОС курса... нещо не мога да стигна до линукс лекциите :)
+23:25 < plamer> та не го бях видял навреме :p
+23:25 < dencho> :]
+23:25 < dencho> ViLKaTa mikroelektronika ne sa6testvuva ot 20 godini we
+23:25 < dencho> :D
+23:26 < dencho> 4akai 4e mi stana interesno za stefan kynev we
+23:26 < ViLKaTa> De da znam.. Nekvi bormashini praat tam
+23:26 < ViLKaTa> Sparky li, kvi beha.
+23:26 < dencho> to pa mnogo populqrno ime tva, ne moga da namerq nqkakvo snosno info
+23:26 < dencho> si4ko praat tam
+23:26 < dencho> i hap4eta praat
+23:26 < ViLKaTa> Ne
+23:26 < hackman> аааааа
+23:26 < ViLKaTa> Tva e ciala zona
+23:26 < hackman> STREAAAAAM :)
+23:26 < hackman> YEEEEEES
+23:26 < hackman> KOPLETAAAA
+23:26 < dencho> kade we?
+23:27 < dencho> na koi link D:
+23:27 < dencho> :D
+23:27 < hackman> da jiveeee manual build-a
+23:27 < ViLKaTa> Da
+23:27 < hackman> http://www.twitch.tv/aziliann
+23:27 < ViLKaTa> Bachka
+23:27 < hackman> da im go turq na ffmpeg
+23:27 < hackman> otivam da si vzema sladoled
+23:27 < dencho> q vida 4erno samo we
+23:27 < dencho> aa ne
+23:27 < dencho> svetna
+23:27 < hackman> kak se vijda?
+23:27 < dencho> s koi si pi6e6 we hahaha
+23:27 < hackman> dobre li e ?
+23:27 < dencho> :D
+23:27 < dencho> idealno e
+23:27 < dencho> !
+23:27 < hackman> s edin kolega ot uni :)
+23:28 < plamer> ekstra se vijda
+23:28 < dencho> lagnat si s 1-2 sekundi
+23:28 < dencho> :D
+23:28 < dencho> e 6to ugasi
+23:28 < dencho> :P
+23:28 < ViLKaTa> Em, az ne sam dogledal lekciite...
+23:28 < plamer> malko lagva ot vreme na vreme...ama
+23:28 < ViLKaTa> Ama imam edin malko lame vapros
+23:28 < ViLKaTa> hahahahaaaaaa
+23:28 < ViLKaTa> hackman:
+23:28 < dencho> :D
+23:28 < ViLKaTa> Sta si pashkal, bre
+23:28 < ViLKaTa> haha
+23:28 < dencho> hahahahhaha
+23:28 < KacanuH> ViLKaTa, тъкмо и аз това щях да пиша
+23:28 < dencho> az sam sprql zvyka
+23:29 < plamer> chakai oshte 33 min i togava pochvai s pushkaneto ;)
+23:29 < dencho> hackman dai malko info za stefan kynev
+23:29 < KacanuH> е изпускаш, пусни си планета ТВ без звук и слушай мариан,
+23:29 < dencho> ne moga, svetlana spi, ina4e 6tqh da pusna da go slu6am kak pu6ka hackman
+23:29 < KacanuH> обаче има доста лаг
+23:29 < dencho> :D
+23:30 < ViLKaTa> Niakoj ima li s OpenSuSe ?
+23:30 < dencho> e 4ak pa dosta
+23:30 < dencho> ViLKaTa ne
+23:30 < plamer> е нали знаете - планета без звук + женски тенис без картина = голяма забава :п
+23:30 < dencho> hahaha
+23:30 < hackman> ok, sega shte go spra i shte testvam drugite dva site-a
+23:30 < dencho> hackman kaji za stefan kynev :D
+23:33 -!- Netsplit over, joins: @ChanServ
+23:33 < hackman> dencho: прави курсове по Python, Ruby & Clojure във ФМИ и е от Ботевград
+23:33 < hackman> супер готин човек
+23:33 < yulimoto> hackman: и не обича php !
+23:33 < dencho> godini ?
+23:33 < hackman> http://www.justin.tv/azilian#/w/6113525968
+23:34 < yulimoto> ;)
+23:34 < hackman> dencho: не ми е гадже... не знам :)
+23:34 < hackman> я кажете как е justin.tv
+23:34 < dencho> raboti
+23:34 < hackman> по-добре ли е ?
+23:34 < dencho> 3 sek lag
+23:34 < dencho> :D
+23:34 < yulimoto> да работи 
+23:34 < dencho> hackman ne bre, prosto da se orientiram ot koe pokolenie e
+23:34 < dencho> :D
+23:34 < ViLKaTa> 2-ro
+23:34 < ViLKaTa> Ili 1-vo
+23:35 < yulimoto> доста добра резолюция 
+23:35 < ViLKaTa> Ot 1-voto sa Stefan Tsenov i Semko
+23:35 < hackman> plamer: при теб как е ?
+23:35 < hackman> по-добре ли е ?
+23:35 < ViLKaTa> I pri men e super
+23:35 < hackman> или пак ти лаги ?
+23:35 < ViLKaTa> Samo qat-pat nasicha zvukat
+23:35 < dencho> e to ne e bolka za umirane
+23:35 < plamer> бомба е
+23:35 < dencho> za zvuka ne moga da kaja ni6to
+23:35 < dencho> :D
+23:36 < hackman> ами аз не говоря :)
+23:36 < dencho> hahaha
+23:36 < hackman> сега ще пусна някаква музика и ще видим :)
+23:36 < ViLKaTa> E, ti se chuvash
+23:36 < dencho> 4alga li
+23:36 < dencho> :D
+23:36 < plamer> от време на време лагва за секунда
+23:36 < KacanuH> Пускам аз линка на МАриан и Миленита ме пита как го предпочитам по-мек или по-твърд
+23:36 < dencho> hackman o6te li pu6ka6 we
+23:36 < yulimoto> понякога прекъсва звука за около 1/2 секунда и пак се пуска, може да е от филтъра 
+23:36 < ViLKaTa> Kak dishash i kak shtrakash po kopchetata
+23:36 < dencho> :D
+23:36 < plamer> но според мен не е болка за умиране
+23:36 < hackman> dencho: ?
+23:36 < dencho> moje da pravi nqkav buffer
+23:36 < dencho> D:
+23:36 < KacanuH> пишете на кирилица бе хора, писна ми да се мъча
+23:37 < dencho> õàõàõà
+23:37 < dencho> îîê
+23:37 < dencho> àèäå çàðàäè KacanuH :Ä
+23:37 < KacanuH> денчо ти недей
+23:37 < ViLKaTa> хаха
+23:37 < yulimoto> не е било от филтъра защото и музиката прекъсва, но не е нещо което е фатално, ако е за 1 сек
+23:37 < hackman> KacanuH: баш па ти ли го казваш... твоя ник най-трудно се изписва
+23:37 < hackman> все тръгвам на BG да го пиша :0
+23:37 < dencho> hackman îùå ëè ïúøêàø ïî ìèêðîôîíÿ :Ä
+23:37 < KacanuH> k+tab
+23:37 < ViLKaTa> dencho, UTF 8
+23:37 < hackman> dencho: нали виждаш какво виждам аз :)
+23:37 < dencho> äà
+23:37 < dencho> :Ä
+23:37 < dencho> hahaha
+23:37 < hackman> предполагам и другите :)
+23:37 < dencho> vijdam vi
+23:37 < dencho> :D
+23:38 < ViLKaTa> Денчо, аз не ти виждам кирилицата
+23:38 < hackman> добре
+23:38 < ViLKaTa> Оправи енкодинга
+23:38 < dencho> ooollll
+23:38 < dencho> :D
+23:38 < hackman> спирам този stream И пускам третия :)
+23:38 < plamer> жалко, че дори и да има стрийм няма да мога да го гледам утре :p
+23:38 < dencho> 4akai 4e gledam na streama ????
+23:38 < dencho> :D
+23:38 < dencho> dencho ?????
+23:38 < dencho> :D
+23:38 < dencho> hahaha
+23:38 < ViLKaTa> Има лаг тука..
+23:38 < yulimoto> hackman: dane naстинеш затвори прозреца ;)
+23:38 < ViLKaTa> Аз те гледах онлине какво пишеш
+23:38 < plamer> нещо почна повече да лагва..
+23:38 < ViLKaTa> Пак парво излизаше тука
+23:38 < yulimoto> кашляш нещо 
+23:38 -!- sagruob [~sagruob@wolf.yuhu.biz] has joined #telerikacademy
+23:38 < dencho> e dali e tuka ili na videoto nqma kak da znaete
+23:38 < dencho> :P
+23:38 < plamer> а.. падна :p
+23:39 < KacanuH> айде пак миленита
+23:39 < dencho> 4alga li :P
+23:39 < KacanuH> Твърд го предпочитам
+23:39 < dencho> hahahahahaha
+23:39 < ViLKaTa> Има.. Тук видях какво е написал. И след 4-5 секунди гледам как го пише.
+23:39 -!- KacanuH is now known as Deyan
+23:39 < dencho> e tva e normalno spored mene
+23:39 < dencho> :D
+23:39 < Deyan> hackman, така по-лесно ли е
+23:39 < yulimoto> хм аз бях тругнал да разучавам ffmpeg и той подкарал, язък
+23:39 < hackman> Deyan: кое да е по-лесно ?
+23:40 -!- sagruob [~sagruob@wolf.yuhu.biz] has quit [Client Quit]
+23:40 < Deyan> нали се оплакваше че KacanuH се изписва трудно
+23:41 < dencho> hackman ne si ti kogato si gladen :P btw aide kato se pribera 6te sloja normalen irc klient :P
+23:41 < dencho> leka no6t
+23:41 < dencho> :D
+23:41 < Deyan> лека dencho
+23:41 < dencho> btw dneska sme 10-ti nali?
+23:41 < dencho> btw hackman kolko hora sa uploadnali doma6no ?
+23:41 < dencho> btw ViLKaTa utre si na rabota
+23:42 < ViLKaTa> Да
+23:42 < dencho> koe da...
+23:42 < dencho> 4e e 10ti ili 4e si na rabota
+23:42 < ViLKaTa> На работа съм и без домашно
+23:42 < ViLKaTa> И че е 10-ти
+23:42 < ViLKaTa> И за трите - да
+23:42 < ViLKaTa> хахаха
+23:42 < dencho> hahahaha
+23:42 < hackman> dencho: 308 домашни има :)
+23:42 < dencho> koga 6a go dava6 tva doma6no?
+23:42 < hackman> Deyan: определено така е по-лесно :)
+23:42 < dencho> hackman nice
+23:43 < ViLKaTa> Отивам за още кафе.
+23:43 < dencho> ViLKaTa koga 6a si uploadne6 doma6noto we spasiteio
+23:43 < dencho> spasitelio
+23:43 < dencho> kak moe da go piete tva kafe pa via
+23:43 < hackman> dencho: аз съм проверил към 140-160
+23:43 < ViLKaTa> Денчо, не знам.
+23:44 < phalaaxx> 308 са изпратени?
+23:44 < dencho> hackman, dobre :) ne burzai :D
+23:44 < dencho> phalaaxx ti kolko o4akva6e?
+23:44 < phalaaxx> не знам :)
+23:44 < dencho> are utre 6te uploadna i moeto... i 6te stanat 309
+23:44 < dencho> :D
+23:44 < hackman> phalaaxx: да 308 са изпратени :)
+23:45 < dencho> i ViLKaTa i toi 6te uploadne i 6te stanat 310
+23:45 < dencho> :D
+23:45 < dencho> normalno!
+23:45 < Deyan> аз ще съм 311
+23:46 < dencho> :D
+23:46 < hackman> http://www.geenstijl.nl/mt/archieven/2013/07/internet_af_tiroler_polka_tfm.html
+23:46 -!- ChanServ [ChanServ@services.] has quit [shutting down]
+23:47 < phalaaxx> ChanServ се отегчи от нас
+23:47 < dencho> a!
+23:47 < dencho> kvo gledame?
+23:47 < dencho> 8 minuti cici li we?
+23:48 < hackman> яката работа :)
+23:48 < hackman> ей сега ми ги прати кума
+23:48 < hackman> съвсем на време ;)
+23:48 < ViLKaTa> Май съм бебе
+23:49 < dencho> tez freenode nqq da imat services taq ve4er :D qvno hackman gi hack-va pomejdudrugoto
+23:49 < dencho> :D
+23:49 < ViLKaTa> Днес имаше една на басейна..
+23:49 < ViLKaTa> ОМГ
+23:49 < ViLKaTa> Ок 1,70 висока, слаба, стройна
+23:49 < ViLKaTa> Ама с едни боски.. Леле майко
+23:50 < ViLKaTa> И ги провисила.. Свалила си беше презрамките, че да не останат бели черти кат се пече..
+23:50 < ViLKaTa> Направо я теглеха напред.. Шамандури
+23:50 < dencho> i ti zqpa6 kato petoklasnik
+23:50 < ViLKaTa> Мани, ми беше с некав гейтак
+23:50 < ViLKaTa> Да
+23:50 < dencho> 6to ne q izvadi ot baseina we
+23:50 < dencho> hahaha
+23:50 < hackman> ViLKaTa: ти защо не и предложи да си и личен бански ? :)
+23:50 < ViLKaTa> А този му се ядеше пердах
+23:50 < ViLKaTa> Ама много
+23:50 < dencho> hahaha
+23:51 < ViLKaTa> Щото съм на работа
+23:51 < dencho> nali sam ti kazval da ne se bie6 po 4ujdi mesta
+23:51 < dencho> :D
+23:51 < ViLKaTa> Иначе там курветини колкото иксаш
+23:51 < ViLKaTa> Ама един колега го уволниди еднаха зара
+23:51 < ViLKaTa> *заради една
+23:51 < dencho> normalno
+23:51 < dencho> :D
+23:52 < ViLKaTa> Научи я да обикаля по постовете и да се чекне
+23:52 < dencho> male stana 12
+23:52 < ViLKaTa> Само по прашки
+23:52 < ViLKaTa> Неква танциорка в дискотека
+23:52 < dencho> hahaha
+23:52 < ViLKaTa> Парцал от класа
+23:52 < dencho> tam u plovdiv ste si ebali kapacite
+23:52 < ViLKaTa> Хич да не е
+23:53 < ViLKaTa> Пък да не ти казвам в общежитието какво беше
+23:53 < ViLKaTa> хахаха
+23:54 < dencho> eee
+23:54 < dencho> mai si mi kazval
+23:54 < dencho> :D
+23:54 < dencho> onaq deto se lee kat pompa li?
+23:55 < ViLKaTa> коиа от всичките?
+23:56 < dencho> aghahah
+23:56 < dencho> si4ki li se leqt we?
+23:56 < ViLKaTa> коиа от всичките?ина си е купила вила в Трудовец
+23:56 < dencho> koq ina we?
+23:56 < ViLKaTa> Оффф
+23:56 < ViLKaTa> Най-голямата курветина си е купила вила в Трудовец.
+23:56 < dencho> HAHAHAHAH
+23:56 -!- ChanServ [ChanServ@services.] has joined #telerikacademy
+23:56 -!- ServerMode/#telerikacademy [+o ChanServ] by hubbard.freenode.net
+23:56 < dencho> miii evalata
+23:56 < dencho> :D
+23:56 < ViLKaTa> Нимфоманка от класа. Викат и трудната, защото трудно отказва.
+23:56 < phalaaxx> да пробвам и аз с пускането на screencast, някой вижда ли нещо тук: http://94.26.20.166:8080/stream :)
+23:57 < dencho> tva kade da go gledam?
+23:57 < dencho> vuv videop leyar li?
+23:57 < phalaaxx> да
+23:57 < yulimoto> тва с циците ми циците ми събори стимула за учене 
+23:57 < dencho> ne
+23:57 < ViLKaTa> И при мен
+23:58 < dencho> leka no6t naistina
+23:58 < dencho> :D
+23:58 < ViLKaTa> Седи, бре
+23:58 < ViLKaTa> От сън спомени няма
+23:58 < yulimoto> трябваше да ги номерират да ви кажа кои са най-яките цици, че вие не разбирате ;)

@@ -1,0 +1,227 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:03:31] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:28:01] <_rewind> hackman, понеже онзи ден бях тотално блокирал какво всъщност беше предимството на ZFS при snapshot-ите сега се сетих...
+[00:28:31] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:29:02] <_rewind> Предимството им е в скоростта на създаване, изисква многократно по-малко време в сравнение с LVM и XFS
+[00:44:34] _rewind (~teo@46.238.29.142) left irc: Ping timeout: 245 seconds
+[00:45:22] bgpepi (~bgpepi@ip-80-236-254-159.dsl.scarlet.be) joined #telerikacademy.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:40:55] bgpepi (~bgpepi@ip-80-236-254-159.dsl.scarlet.be) left irc: Remote host closed the connection
+[01:55:13] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[01:55:52] Nikiman (~dfdfdfd@91.191.219.153) left irc: Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:07:47] <hackman> .tell _rewind 0.3-0.7 sec за създаване на snapshot на 1TB partition, не разбирам какво разбираш ти под бавно  :)
+[02:07:47] <wilindex> hackman: I'll pass that on when _rewind is around.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:10:29] Fairytale (Fairytale@77.70.117.169) left irc: Quit: Leaving
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:05:18] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:09:34] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
+[09:10:00] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[09:13:03] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[09:32:53] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[09:33:57] <anton_dutsov> Добро утро!
+[09:37:29] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[09:55:42] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:08:28] <hackman> _rewind 0.3-0.7 sec за създаване на snapshot на 1TB partition, не разбирам какво разбираш ти под бавно  :)
+[10:13:09] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[10:13:44] <KacanuH> Добро утро
+[10:14:06] <KacanuH> Цяла сутрин ме гложди нещо, че съм забравил, а то какво било да си пусна chatzillata
+[10:14:23] Nick change: KacanuH -> Deyan
+[10:17:08] <hackman> добро утрин :)
+[10:20:19] <anton_dutsov> KacanuH: hackman: Добро утро!
+[10:42:25] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[10:46:56] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[10:54:22] Fairytale (Fairytale@77.70.117.169) left irc: Ping timeout: 248 seconds
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:25:29] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[11:34:45] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[11:42:36] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:47:31] <hackman> https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/q71/1424541_10151826175576840_731432294_n.jpg
+[11:48:49] #telerikacademy: mode change '+o hackman' by ChanServ!ChanServ@services.
+[11:50:13] Topic changed on #telerikacademy by hackman!~hackman@management.1h.com: LSA forums: http://goo.gl/XQWlW Win forums: http://goo.gl/ugcQI1 for more info type !help in the channel
+[11:50:32] <hackman> baaa zashto ne raboti !help-a
+[11:50:45] <hackman> terlika neshto ne e v kondiciq mai
+[11:50:54] <hackman> koi go adminvashe tova neshto ? :)
+[11:51:50] <fityla> май phalaxx
+[11:51:54] <phalaaxx> не съм аз
+[11:51:58] <fityla> :Д
+[11:52:06] <phalaaxx> аз си цъкам по wilindex
+[11:52:37] <fityla> аз мислех че и двете са под твой контрол
+[11:55:38] <yulimoto> не Kpetenoid обаче той човека още в събота изрева, че гризлито нещо си и телерик нещо си ...
+[11:56:05] <phalaaxx> амиии хелп-а на wilindex се вика с .help :)
+[11:56:16] <phalaaxx> а списъка с команди - .commands
+[11:56:37] <phalaaxx> ако има нещо с което той може да е полезен...
+[11:57:07] <phalaaxx> btw grizzly-то си работи така като гледам
+[11:57:20] <phalaaxx> от вчера насам поне
+[11:58:26] <Fairytale> .help
+[11:58:26] <wilindex> Fairytale: Say .help <command> (for example .help c) to get help for a command, or .commands for a list of commands.
+[11:59:29] <Fairytale> .commands
+[11:59:29] <wilindex> Fairytale: I am sending you a private message of all my commands!
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:18] <fityla> .commands
+[12:00:18] <wilindex> fityla: I am sending you a private message of all my commands!
+[12:00:41] <Fairytale> :-P
+[12:00:52] <fityla> работи
+[12:00:55] <fityla> .help
+[12:00:55] <wilindex> fityla: Say .help <command> (for example .help c) to get help for a command, or .commands for a list of commands.
+[12:02:02] <fityla> .help
+[12:02:02] <wilindex> fityla: Say .help <command> (for example .help c) to get help for a command, or .commands for a list of commands.
+[12:02:37] <fityla> help-a
+[12:02:41] <fityla> Не сработва май
+[12:03:51] <Fairytale> .help help
+[12:03:51] <wilindex> Fairytale: Shows a command's documentation, and possibly an example.
+[12:03:52] <wilindex> e.g. .help tell
+[12:04:03] <Fairytale> .help info
+[12:04:03] <wilindex> Fairytale:     Log an informational item in the meeting log    https://github.com/embolalia/willie/wiki/Using-the-meetbot-module
+[12:04:04] <wilindex> e.g. .info all board members present
+[12:05:23] <fityla> другият като дадеш help направо вадеше
+[12:05:25] <fityla> всичко
+[12:09:25] <phalaaxx> викаш всичко си пееше и без бой
+[12:11:31] <fityla> баш ... ;)
+[12:12:12] <yulimoto> ко прайте ве спамъри ;P
+[12:15:47] <Fairytale> спамиме
+[12:19:19] <yulimoto> що не пуснете телерика бота голема
+[12:19:34] <yulimoto> aaa tojh работи
+[12:19:39] <yulimoto> кой реве че не работи
+[12:20:34] <yulimoto> аз се разправям с една платка на олимекс, много интересна гадост :)
+[12:28:12] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) left irc: Ping timeout: 250 seconds
+[12:29:56] <hackman> на beast-а ми е умрял /dev/sda и трябва да го подменям
+[12:30:02] <hackman> но ме домързя weekend-a ;)
+[12:30:10] <hackman> довечера към 1-2 ще го подменя :)
+[12:39:58] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:01:02] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[13:54:05] <Deyan> дайте идея от къде да си намеря САС кабел  SFF-8470 to SFF-8470
+[13:54:26] <Deyan> hackman: нямаш ли от някой сървър останал
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:32:20] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 246 seconds
+[14:40:31] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[14:45:24] <hackman> Deyan, ако ти кажа, че разлика не виждам между SATA & SAS ще ми повярваш ли :) за кабелите... питай мост
+[14:45:26] <hackman> 100% ще имат
+[14:46:35] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:57:39] <Deyan> 90% от кабелите мост ги взимат от нас
+[14:58:12] <Deyan> това е някакъв античен кабел за делл сторидж
+[14:59:07] <anton_sh> hackman: кога се очаква да се разбере кой е взел изпита и кой не?
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:12:19] <hackman> anton_sh, ба ли... сега ще пиша mail на телерик
+[16:15:22] <anton_sh> hackman: ок ще чакаме отговор :)
+[16:16:32] <hackman> I am on a vacation until November 28th and will have only limited internet access. :)
+[16:16:38] <hackman> tova e otgovora :)
+[16:17:09] <hackman> да видим дали някой от другите ще ми отговори :)
+[16:17:44] <anton_sh> Да, опитай другаде...тук даде заето :П
+[16:20:36] <Deyan> както казвам днес за 20-път системата казва не
+[16:23:31] <phalaaxx> ако няма резултати - ще окупираме някоя зала
+[16:23:57] <phalaaxx> ще се заключим с много бира и virtualbox image-а на hackman и ще съчетаем полезното с приятното :)
+[16:46:49] <yulimoto> само да има някой да ни захранва с имиджи и бира
+[16:50:13] <anton_dutsov> yulimoto: тогава ще окупираме барчето :D
+[16:51:32] <yulimoto> нали знаете че ако имаме дипломи на повечето дипломите ще са само от телерик
+[16:52:17] <yulimoto> hackman каза че не би се подписал на тест взет под 60% :)
+[16:52:41] <yulimoto> така че ако получа някаква хартишка тя ще е само от телерик
+[16:58:59] <anton_dutsov> yulimoto: и при това едва след като издържиш LSA и WSA с отличен, както казаха в началото на OS курса. Сертификатът по LSA (до колкото аз разбрах) се спомена към края на курса.
+[16:59:37] <hackman> ще има сертификати по LSA
+[16:59:39] <hackman> :)
+[16:59:47] <hackman> малко занижих критериите :)
+[16:59:55] <hackman> сложих макс точки 80 за изпита
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:03:02] <yulimoto> :)
+[17:04:07] <Fairytale> Нов изпит ли ще има?
+[17:04:21] <anton_dutsov> честито на заслужилите и да се похвалят ;)
+[17:04:56] <anton_dutsov> Fairytale: да не се чувстваш по-знаещ от петък :)
+[17:05:31] <anton_dutsov> Fairytale: ако има нов изпит, няма да е нищо познато :)
+[17:05:37] <Fairytale> Не ама ако има нов ще отида да се забавлявам :-)
+[17:05:48] <yulimoto> anton_dutsov: определено всеки знае повече от петък насам
+[17:06:11] <anton_dutsov> yulimoto: за нов и по-сложен изпит?
+[17:06:35] <Fairytale> А и малко да отворим повече работа на Мариян, няма само на нас да ни е гадно.
+[17:06:48] <anton_dutsov> Fairytale: малко ли ти беше :D
+[17:06:53] <Fairytale> хаха
+[17:06:57] <Fairytale> Да
+[17:09:33] <hackman> Fairytale, искаш да кажеш, че на мен ми е било по-малко гадно ? :)
+[17:09:45] <hackman> Don't fuck with me boy :)
+[17:10:02] <hackman> + това както казах, вече имам готов image :)
+[17:10:12] <Fairytale> hackman: :-)
+[17:11:24] <Fairytale> hackman: Еми да действаме.
+[17:15:07] <Fairytale> hackman: Шегувам се, предполагам че знаеш, но да си кажа :-)
+[17:16:35] <phalaaxx> аууу нов image? кога е поправката?
+[17:16:41] <phalaaxx> да идвам ли? :)
+[17:17:04] <Fairytale> Недей че няма да остане за нас
+[17:49:21] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) left irc: Quit: Page closed
+[17:51:21] bgpepi (~bgpepi@ip-80-236-254-159.dsl.scarlet.be) joined #telerikacademy.
+[17:57:34] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:04:33] <anton_dutsov> http://freedom-blog.net/2009/03/ten-reasons-why-you-should-boycott-skype/
+[19:04:34] <wilindex> [ Freedom Blog » Blog Archive » Ten Reasons Why You Should Boycott Skype ] - freedom-blog.net
+[19:05:35] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:08:12] hackman (~hackman@management.1h.com) left irc: Ping timeout: 245 seconds
+[19:08:45] Agripina (~AndChat50@host86-162-207-63.range86-162.btcentralplus.com) joined #telerikacademy.
+[19:09:19] <Agripina> Kak mina izpita kolegi
+[19:10:14] <Agripina> Marian haresa li podaraka
+[19:34:22] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:40:00] <_rewind> .tell hackman, възможно е и аз да съм се подвел, но впечатленията ми бяха доста противоречиви, когато пробвах за пръв път LVM преди няколко години. Възможно е причината да е била в това, че беше виртуалка.
+[19:40:00] <wilindex> _rewind: 2013-11-18 00:17:31 UTC <hackman> tell _rewind 0.3-0.7 sec за създаване на snapshot на 1TB partition, не разбирам какво разбираш ти под бавно  :)
+[19:40:00] <wilindex> _rewind: I'll pass that on when hackman is around.
+[19:47:30] bgpepi (~bgpepi@ip-80-236-254-159.dsl.scarlet.be) left irc: Remote host closed the connection
+[19:52:22] <phalaaxx1> LVM snapshots могат да бъдат доста бавни за създаване (ако за това говорите) в определени случаи
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:13:24] <_rewind> phalaaxx, да, именно за това говорех
+[20:16:26] <Fairytale> .tell fairytale hi
+[20:16:26] <wilindex> You can tell yourself that.
+[20:18:51] ndyakov (~ndyakov@client-38-76.speedy-net.bg) left irc: Read error: Connection reset by peer
+[20:30:21] Fairytale (Fairytale@77.70.117.169) left irc: Quit: Leaving
+[20:51:45] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:23:13] <anton_dutsov> http://vitaminl.tv/video/831
+[21:23:14] <wilindex> [ Beautiful and Fast ] - vitaminl.tv
+[21:23:30] <anton_dutsov> ROFL
+[21:26:12] bgpepi (~bgpepi@ip-80-236-254-159.dsl.scarlet.be) joined #telerikacademy.
+[21:46:00] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[21:49:32] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:13:29] <_rewind> обаче аудиото на нетсек е страхотно, имам чувството, че ехото в залата на Телерик влошаваше ужасно звука от микрофона на Мариян
+[22:28:25] <_rewind> това когато не засича, разбира се
+[22:28:45] Agripina (~AndChat50@host86-162-207-63.range86-162.btcentralplus.com) left irc: Ping timeout: 245 seconds
+[22:29:45] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Quit: anton_dutsov
+[22:59:25] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:01:26] <bgpepi> дай линк
+[23:01:33] <bgpepi> ако е удобно за видеото
+[23:36:44] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[23:44:53] _rewind (~teo@46.238.29.142) left irc: Remote host closed the connection
+[23:47:52] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[23:54:14] <_rewind> bgpepi, гледах 5-та от http://grizzly.yuhu.biz/lectures/NetSec-I/
+[23:54:14] <wilindex> [ Index of /lectures/NetSec-I ] - grizzly.yuhu.biz
+[00:00:00] --- Tue Nov 19 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

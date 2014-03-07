@@ -1,0 +1,540 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:47:27] deyan (~deyan@46.249.92.240) left irc: Remote host closed the connection
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:14:48] hackman (~hackman@management.1h.com) left irc: Ping timeout: 264 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:06:33] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[02:11:12] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 276 seconds
+[02:48:15] phalaaxx (~bozhin@chello084114170229.15.15.vie.surfer.at) left irc: Quit: Leaving.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:02] Writing user file...
+[06:00:02] Writing channel file...
+[06:49:55] kolio_ (~kolio@46.10.124.215) left irc: Ping timeout: 245 seconds
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:18:10] kolio_ (~kolio@92.247.8.98) joined #telerikacademy.
+[09:25:20] deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[09:25:36] <deyan> Добро утро
+[09:34:19] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[09:45:45] <kolio_> Добро утро
+[09:46:12] <kolio_> Имам един въпрос за policy based routing-a
+[09:46:35] <kolio_> какво се случва с таблиците, които сме създали след ребуут
+[09:46:35] <KpeTeHoug> то малко рано ма питай
+[09:46:42] <KpeTeHoug> те хората гледат :)
+[09:46:47] <kolio_> нали
+[09:47:25] <deyan> Гледам и не вярвам на очите си :) абе ходете да пиете по една бира не се занимавайте се с политика :)
+[09:47:49] <KpeTeHoug> е в 10 бира ли ве баси  :)
+[09:47:50] <KpeTeHoug> кафе
+[09:47:56] <KpeTeHoug> иначе след като си създал таблица
+[09:47:58] <KpeTeHoug> дрои и да е празна
+[09:48:01] <KpeTeHoug> трябва да си я пази
+[09:48:16] <KpeTeHoug> като entry
+[09:48:44] <deyan> KpeTeHoug, какво кафе бе, аз цяла седмица си мечтая от 9 да започна да пия бира, той ще ме кара и в събота да пия кафе
+[09:48:52] <deyan> луд човек
+[09:49:18] <KpeTeHoug> :)
+[09:50:12] <kolio_> да, пази си я, но след като ребуутна машината си ме връща на основните 3 таблици
+[09:51:03] <KpeTeHoug> ами виж им ifcfg файловете
+[09:51:18] <KpeTeHoug> има си флагове за onboot, priority и тн
+[09:51:22] <KpeTeHoug> и четеш
+[09:51:34] <kolio_> ок, 10х
+[09:51:54] <KpeTeHoug> за нищо
+[09:52:00] <KpeTeHoug> deyan аз отивам си прая кафе :)
+[09:52:08] <KpeTeHoug> ти си джарай там с течната баничка
+[09:56:06] kolio_ (~kolio@92.247.8.98) left irc: Remote host closed the connection
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:12] <yulimoto> как е маймуни
+[10:05:44] <deyan> yulimoto, как са яйцата :)
+[10:07:02] <yulimoto> хаха отказах се, домързя ме :P
+[10:23:22] <yulimoto> deyan: ами беше 1 и щеше да стане 4 докато се прибера и за това викам аре бачо лягай пък утре ще замажем положението
+[10:24:24] <deyan> Е ти нямаше ли да останеш да спиш при "айцата"
+[10:28:59] <yulimoto> ам още по-сложно става
+[10:29:56] <yulimoto> ей за тва на вълка му е дебела гушата щото сам си прави омплетче
+[10:30:46] <yulimoto> опитвам се да подкарам една виртуалка в конзолата
+[10:31:01] <yulimoto> и разбирам колко е лошо сутрин човек да мисли
+[10:31:47] <deyan> аз пък се опитвам да си подкарам звука от компютъра през hdmi-я към телевизора
+[10:31:56] <deyan> ама не ми се получава и не мога да разбера защо
+[10:33:26] <yulimoto> ам давай, че като дойдат клиентите да им обясняваш защо аджеба преход от vga към vdi трябва да ти го подържа монитора ;)
+[10:34:13] <deyan> да си ядеш ушите, то не работи от няколко дни
+[10:34:26] <deyan> скапаната алса ме ебава
+[10:34:33] <deyan> ама не мога да разбера как
+[10:35:40] <yulimoto> щом знаеш от де е проблема ще се оправиш
+[10:37:06] <yulimoto> аз пък пуснах виртуалката ама съм забравил да сложа сървиси, сега през vnc съм си пуснал там една конзола та инсталирам sshd
+[10:39:45] <dencho> dobro utro ora
+[10:49:29] <yulimoto> dobrytri deyan
+[10:49:33] <yulimoto> dencho*
+[10:51:05] <deyan> Не изговаряй напразно името на deyan , твоя Бог, защото deyan няма да остави ненаказан оногова, който изговаря името Му напразно.
+[10:51:12] <deyan> *Господ
+[10:51:33] <yulimoto> просто О велики
+[10:52:12] <yulimoto> че обърках името на едногова бога с име друго божие
+[10:52:21] <deyan> ;)
+[10:54:18] <yulimoto> като беден раб божии предлагам да прекръстим канала на #"Св.Св. Деян и Денчо" :)
+[10:54:54] <deyan> ще се сетиш че трябва да почиташ своя бог ":)
+[10:55:53] <yulimoto> всяка сутрин ще пренасям в жертва една виртуалка, дано сте по милостиви
+[10:59:23] <deyan> заради скапаната алса ще трябва да рестартирам
+[10:59:36] deyan (~deyan@46.249.92.240) left irc: Quit: Leaving
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:02:00] <yulimoto> ем само алсата не може ли ?
+[11:29:21] <dencho> http://youtu.be/5O6wr_Gr0zM
+[11:32:40] <yulimoto> хммм инсталирам вируталка, готова федора, пускам ѝ openssh, има си там dhcp ; виртуалката е на 192.168.1.107 и като ssh 192.168.1.107 от виртуалката бачка, обаче от други места в мрежата йок
+[11:32:45] <yulimoto> пинг има
+[11:33:20] <yulimoto> сега ако са инсталирали един файрлол или Ip tables са барали, ще го изям
+[11:34:19] <yulimoto> не си ли го инсталирам аз сега мисля за 1000 вероятности....
+[11:44:12] <dencho> fedora ima mnogo strog iptables
+[11:44:23] <dencho> no mislq, 4e sshd tam e default install
+[11:44:43] <dencho> i 100% sum siguren, 4e trqbva da go barne6 iptables-a
+[11:45:38] <dencho> ima6 li ping ot drugi mesta do 192.168.1.107
+[11:45:47] <dencho> ako ima6, zna4i si opravi firewall-a
+[11:45:48] <dencho> :)
+[11:46:38] <yulimoto> пинг има от всекъде
+[11:46:47] <yulimoto> sshd samo localno
+[11:46:55] <dencho> iptables
+[11:47:08] <dencho> sudo vim /etc/sysconfig/iptables
+[11:47:12] <yulimoto> а иначе си нетстата върви ви си 0:0:0:0 22 порт
+[11:47:17] <yulimoto> ясно
+[11:47:35] <dencho> :)
+[11:48:16] <dencho> ob6to vzeto, ako iska6 moje da go spre6 celiq firewall, i da sloji6 tozi koito e na centos defalt firewall
+[11:48:22] <dencho> toi e 12 reda
+[11:48:36] <dencho> ob6to vzeto toi pozvolqva samo 22 port za ssh i vsi4ko drugo dropi
+[11:48:52] <dencho> no na fedorata e dulag firewall-a sus vsqkakvi rulove
+[11:49:02] <yulimoto> а аз най-накрая трябва да науча ip tables maj
+[11:49:06] <dencho> da :P
+[11:49:38] <dencho> idi iztrii celiq firewall na fedorata i sloji defalt firewall-a na centos :D
+[11:49:42] <dencho> i nqma da ima6 problemi
+[11:50:33] deyan (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) joined #telerikacademy.
+[11:50:44] <dencho> deyaneeeeeei
+[11:50:58] <deyan> къде си бе Денчоууу
+[11:51:25] <dencho> deyaneeeeeei ma4ka patkata da ti qde ! :D
+[11:51:49] <yulimoto> dencho: slagam tova man -A INPUT -m state --state NEW -m tcp -p tcp --dport 22 -j ACCEPT
+[11:52:27] <dencho> yulimoto ama na pravilnoto mqsto li go slaga6 :D
+[11:52:51] <dencho> sled posleniq accept rule i predi posledniq drop/reject rule na verigata INPUT
+[11:53:24] <dencho> v tablicata filter
+[11:53:28] <yulimoto> mdaa
+[11:53:35] <yulimoto> сега ще го видя
+[11:53:35] <dencho> ook :D resetka6 i si gotov
+[11:55:36] <yulimoto> кое ресеткам
+[11:55:38] <yulimoto> :)
+[11:55:53] <yulimoto> нетуорка ли
+[11:56:14] <yulimoto> как се умотах
+[11:57:40] <yulimoto> разбрах иптаблес-а
+[11:57:59] <yulimoto> имам успех !!!!
+[11:58:07] <yulimoto> мерси dencho !!!!
+[11:58:25] <yulimoto> слава на теб и редхат боговете, които сте измисли всичко това
+[11:59:05] <yulimoto> слава и на deyan който седи като върховен бог отстрани и гледа цялата тая исторя
+[11:59:08] <yulimoto> аре
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:29] <dencho> haha
+[12:00:30] <dencho> :D
+[12:00:52] <dencho> yulimoto linux-a go resetka6 samo kogato zabie :P
+[12:01:00] <dencho> vsi4ko ostanalo po vsqko vreme :D
+[12:01:01] <dencho> :D
+[12:01:58] <dencho> are... obiad, :D 4e posle debian-a me 4aka, a be koq e last stable versia na debian ?
+[12:16:53] <deyan> ей стига сте споменавали името божие, че не мога да си гледам порното от вас :)
+[12:18:55] tuxar (~tuxar@ppp-94-69-244-229.home.otenet.gr) joined #telerikacademy.
+[12:19:23] <tuxar> Привет!
+[12:20:59] <tuxar> Опитвам се да прочета логовете на IRC, но безуспешно...
+[12:21:21] <tuxar> И при вас ли е така?
+[12:34:05] <dencho> da
+[12:34:08] Action: dencho slaps hackman around a bit with a large trout
+[12:34:49] Last message repeated 1 time(s).
+[12:34:49] <tuxar> Иначе през lynx на grizzly
+[12:35:04] <tuxar> се чете ..
+[12:46:17] <deyan> Аз пък реших да поигря, свалям си  Splinter Cell Blacklist RELOADED и какво да видя, 21Гб това вече не е човешко
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:23:29] <dencho> deyaneeei mi da ti dam moq 30 gb hard disk :D
+[13:49:18] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:28:21] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[14:42:46] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:46:10] _NEKTAR_ (~nektar@176.12.19.179) left irc: Client Quit
+[14:46:25] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:57:45] <yulimoto> dencho: аз имах предвид мрежата или иптаблеса
+[14:59:44] <dencho> iptables-a :D
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:03:52] <yulimoto> ясно ясно аз го разучих малко от малко ама трябва да уча iptables че иначе ще страдам
+[15:06:31] <dencho> :]
+[15:08:53] <dencho> specialno za yulimoto we http://youtu.be/ZTDkDRgWnpI
+[15:08:53] <dencho> :D
+[15:09:56] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 245 seconds
+[15:15:22] <yulimoto> dencho: избери си да се поздравиш http://chalgatropolis.tumblr.com/
+[15:17:56] <dencho> HAHAHAHAH
+[15:18:01] <dencho> tva pa kakvo e
+[15:18:02] <dencho> :D
+[15:18:05] <dencho> kolekcia
+[15:18:06] <dencho> :D
+[15:18:08] <dencho> na yulimoto :D
+[15:18:53] <dencho> Valdes is a hell of a gigolo. He is sick of fucking bulgarian rural MILFs so he is moving to Berlin to dig some hipsterish artsy cunts for proper cash
+[15:18:55] <dencho> HAHAHAHAHHAHAHA
+[15:20:17] <dencho> aghahaha
+[15:23:27] <dencho> btw toq link e logged ! :D sq svalqm klipoete :D
+[15:26:06] <yulimoto> хаха
+[15:27:42] <dencho> yulimoto da ti kaja li koq si izbrah ?
+[15:28:15] <dencho> eto taq http://youtu.be/k-yz5pW-_3k :D
+[15:29:16] <dencho> Joro The Joker has one simple principle in life: never ask a girl if she wants to fuck or not - just stick it up her ass. Yes, he loves to play cards too.
+[15:29:18] <dencho> HAHAHAHHAHAHAH
+[15:29:24] <dencho> KOI GI E PISAL TIQ RABOTI WE HAHAHHAHAHAHHAHA
+[15:30:35] <yulimoto> нали се сещаш че са написани нарочно буквално
+[15:32:17] <dencho> HAHAHA
+[15:32:18] <dencho> :D
+[15:33:03] <dencho> evalata na toq koito gi e ka4il :D
+[15:36:46] <dencho> Luna’s vagina is wider than her mouth, says a scientific research executed by the National Institute of Chalga.
+[15:36:49] <dencho> hahahahha
+[15:37:40] <dencho> da! sega razbrah kakvo 6te pravq utre cql den :D
+[15:37:47] <dencho> download :D
+[15:38:01] <yulimoto> а ве ти луд ли си за какво ти са
+[15:38:29] <dencho> a be tva e klasikata we, az gi imam tezi, no sa samo na mp3, nikoga ne sam gledal klipovete :D
+[15:38:44] <yulimoto> изтегли си "От мънички до големи" и "каравана чайка" на кака Тони Дачева от Ямбол и се потопи deeper chalga
+[15:38:57] <dencho> klipovete iskam
+[15:38:57] <dencho> :d
+[15:39:00] <yulimoto> aha
+[15:39:02] <dencho> da gi projektiram na stenata na boka
+[15:39:04] <dencho> bloka
+[15:39:06] <dencho> hahaha
+[15:39:27] <dencho> q pa ti... tuka mai 6a vali
+[15:39:27] <dencho> !
+[15:43:34] <yulimoto> super
+[15:56:18] <dencho> of
+[15:56:19] <dencho> i vqtar
+[15:56:29] <dencho> sq 6a trqq zatvarqm si4ko
+[15:56:51] tuxar (~tuxar@ppp-94-69-244-229.home.otenet.gr) left irc: Read error: Operation timed out
+[15:58:57] <yulimoto> a we тва systemd голямо дърво ве
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:16:18] <yulimoto> прати вятър и дъжд на тука, че ни едното ни другото
+[16:31:14] <dencho> :]
+[16:34:23] <deyan> At the end of her unforgettable holiday she had her vagina smashed, money spent and BMW stolen. “Fuck it” she sings
+[16:34:34] <deyan> Вие сте изроди бе
+[16:41:07] <yulimoto> за коя песен на Тони дачева ли беше
+[16:41:43] <yulimoto> ей човек да не ви покаже някой сайт сега ще лющите носталгични деведесетарски кючеци и ще плачете за отминалото време
+[16:44:11] <dencho> deyaneeeeeeeeeei kiu4eci li liuu6ti6 we
+[16:46:46] <yulimoto> да и си пее "апа-шина-на шина-най шина-най луда беше таз глава"
+[16:47:30] <yulimoto> dencho: a за теб майка индия брато - http://www.youtube.com/watch?v=W3BfItAzvLs
+[16:47:42] <yulimoto> големи фейсове брато
+[16:48:30] <yulimoto> а сега ще ти намеря нещо между арабска чалга-блус-рок- и златни пясъци '82
+[16:52:44] <yulimoto>  
+[16:53:18] <yulimoto> ю ноу май бейби ..... специално за dencho  направо от абудаби - https://www.youtube.com/watch?v=AAVn4-17Bjs
+[16:55:34] <yulimoto> dencho: това последното също да го прожектираш на стената на блока, ама веке на края на купона кога сте се размазали
+[16:57:44] <dencho> hahah tva go projektirah ve4e :D
+[16:58:25] <yulimoto> аа добре да посветиш една специална вечер тогава на Кристали и на Амет
+[16:58:28] <yulimoto> хахах
+[16:59:14] <dencho> :D
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:42] <dencho> spre da vali
+[17:00:44] <dencho> ide kum vas
+[17:00:45] <dencho> :D
+[17:03:08] <dencho> yulimoto ei taq da te zatisne http://youtu.be/1_muiuzC-tk
+[17:03:17] <yulimoto> хахах
+[17:04:09] <yulimoto> аре поздрав пак с Kristali "France" http://vbox7.com/play:0f91c40f  -- явно са ходили на гурбет по алжир мароко щото са прихванали от техните неща
+[17:05:38] <dencho> are mersaj
+[17:05:42] <dencho> 4algar
+[17:07:28] <yulimoto> а ве брато аз по едно време правих ретро чалга купони ве
+[17:07:59] <dencho> kade we, u vas li :P
+[17:08:13] <yulimoto> в едно заведение тука
+[17:08:26] <yulimoto> собственика полудяваше, ама на кой му пука
+[17:08:33] <yulimoto> ама то си е клуб
+[17:08:38] <dencho> hahaha
+[17:08:45] <yulimoto> и не се пуска чалга
+[17:09:00] <yulimoto> ама аз като поканя 20-30 човека няма връщане
+[17:09:12] <yulimoto> а то събира тамън толкоз
+[17:09:57] <dencho> hahaha
+[17:10:01] <yulimoto> аре последно специално за DEYAN да върти гюбеци http://www.youtube.com/watch?v=_6yjRo8QLEw
+[17:10:24] <yulimoto> и спирам щото наистина много ме изморява тая чалга после се чувствам exausted
+[17:11:51] <deyan> https://www.youtube.com/watch?v=y5V6sxZ8-eg&bpctr=1377355278
+[17:12:35] <deyan> Трябвало е да продължат още няколко години и сега нямаше да имаме проблема с тия гюбеци :)
+[17:32:29] <dencho> are malko rumansko we http://youtu.be/6J6J8DWHk_E
+[17:32:46] <dencho> mi6ka mi6ka
+[17:32:47] <dencho> hahaha
+[17:35:41] <dencho> [17:32:25] <puh`mecho> http://youtu.be/6J6J8DWHk_E
+[17:35:41] <dencho> [17:33:11] <vilinkaaa> едва ли се промени нещо
+[17:35:41] <dencho> [17:33:11] <vilinkaaa> :D
+[17:35:41] <dencho> [17:33:18] <vilinkaaa> тоя клип само мъж може да го оцени
+[17:35:45] <dencho> :D
+[17:38:19] <dencho> byhahahah tiq rumancite praaat ebati pornoto http://youtu.be/Ql-TU7wCH48
+[17:38:23] <dencho> poe4e ot planetata we
+[17:39:11] <dencho> http://youtu.be/iTQGNxK7FUE
+[17:39:50] <dencho> hahahaha
+[17:39:52] <dencho> !!!!!!!!!!!!!!!!!!!!!
+[17:43:55] <yulimoto> ритъм порно брато
+[17:46:01] <dencho> rumanqsko porno
+[17:46:12] <dencho> 2:10 ot posledniq klip
+[17:46:13] <dencho> !
+[17:46:26] <yulimoto> направо почвам да не мога да осмисля тялото като цяло; изключвам че задник цици и т.н. са част от едно тяло; пълна анатомична деструкция
+[17:46:59] <dencho> taka... i edna oligofreniq... http://youtu.be/3mGmq9MDsO4
+[17:46:59] <dencho> :D
+[17:47:20] <yulimoto> е то това да не би да беше нещо друго
+[17:47:47] <dencho> na toq kade mu otide pi6kata we ?
+[17:48:55] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[17:55:35] Action: dencho slaps s0ny123 around a bit with a large trout
+[17:55:39] <dencho> megalanec
+[17:55:40] <dencho> :D
+[17:57:14] <yulimoto> ей ти тез дето са от мегалан ги имаш като комшии
+[17:57:50] <dencho> haha
+[17:58:16] <dencho> 95.111.18.140 , dencho@95.111.14.183
+[17:58:18] <dencho> mi da
+[17:58:25] <dencho> 4 vroiki ni delqt :D
+[17:58:27] <dencho> :D
+[17:59:24] <yulimoto> да изчисли ги обаче в битове
+[17:59:36] <dencho> az da ne sam onq s edenicite i nulite
+[17:59:37] <dencho> :D
+[17:59:41] <yulimoto> хахаха
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:04:11] <dencho> yulimoto http://youtu.be/SC-kMrHBqpw :D
+[18:08:09] <yulimoto> уф
+[18:09:13] <yulimoto> даже не знам за какво говори, защо се опитва да говори и най-накрая се опитва и да се смее
+[18:09:52] <yulimoto> отдавна не бях влизал в този свят
+[18:10:19] <dencho> BYAHAHAHHAHAHAHAHHAHAHAHHAHAHAHAHAHHAHAHAHA
+[18:10:21] <dencho> http://youtu.be/epyziIpR5do
+[18:10:29] <dencho> na toq ni6to ne mu razbiram
+[18:10:29] <dencho> !
+[18:10:33] <dencho> qvno ne sam ot negovia krai
+[18:11:04] <dencho> olll
+[18:11:12] <dencho> toz ot varna li e we ?
+[18:11:13] <dencho> ili burgas
+[18:11:14] <dencho> :D
+[18:11:55] <yulimoto> какво е фостата ?
+[18:12:07] <yulimoto> някаква група ли ?
+[18:13:01] <yulimoto> хахаха къде ги намираш ?
+[18:13:38] <dencho> http://youtu.be/81YsKyGxQk4
+[18:13:41] <dencho> HAHAHAHHAHAHAHAHHAHA
+[18:13:46] <dencho> fostata e = v ostata
+[18:13:49] <dencho> в устата
+[18:13:49] <dencho> :Д
+[18:13:56] <dencho> сафроня мафроня
+[18:13:58] <dencho> хахахахахха
+[18:14:11] <dencho> deeeba tiq lapeta s kvo sa zanimaat
+[18:14:16] <dencho> hranqt sa po klipovete
+[18:14:17] <dencho> :D
+[18:14:26] <yulimoto> хаха някакви лапета дето пият панадол
+[18:14:28] <dencho> edno vreme nie sa psuahme v irc :D
+[18:14:29] <yulimoto> така вика тоя
+[18:14:32] <dencho> hahahaha
+[18:14:47] <dencho> onq safronq e ot varna, a toq deto sq prikazva ot posledniq link e ot pleen
+[18:14:48] <dencho> haha
+[18:14:52] <dencho> nego po go razbiram
+[18:14:53] <dencho> :D
+[18:15:05] <yulimoto> иначе си цъка някаква игра докато записва
+[18:15:26] <yulimoto> чуек аре че ще ме убият ве, аа те ме убиха вече
+[18:15:30] <yulimoto> хахахах
+[18:15:45] <yulimoto> тая ще му намеря още от глупостите
+[18:15:48] <yulimoto> сафрона
+[18:15:49] <dencho> HAHAAHHAHAHAHA
+[18:15:59] <dencho> etogo pak safronq http://youtu.be/9Y7T7PvI0WE
+[18:16:08] <dencho> 3 litra sperma
+[18:16:09] <dencho> AHHAHA
+[18:16:16] <yulimoto> ахахаха
+[18:16:20] <yulimoto> взех един за кифлите
+[18:16:33] <yulimoto> ама той си има каст
+[18:17:06] <yulimoto> хахаха тоя разби всички
+[18:17:12] <yulimoto> главата ти става като бунгало
+[18:17:24] <dencho> hahaha
+[18:17:36] <dencho> eto po povod fostata, 4e ne znae6 kvo e i spinderman http://photo-forum.net/sitepics/forum/2013-02/gdtd2335.JPG
+[18:17:48] <dencho> spinderman govori na razvalen bulgarski kato obru6ta bukvite
+[18:17:57] <dencho> i e qko lame... mene me zabolqva glavata kato go 4eta
+[18:18:03] <dencho> ama qvno na lapetata im haresva
+[18:18:04] <dencho> :D
+[18:18:42] <yulimoto> ооо 12 годишни дето са е*али целия си клас
+[18:18:58] <yulimoto> в корема им има 3 литра спе*ма
+[18:18:59] <yulimoto> хахаа
+[18:18:59] <dencho> ama safrona kurti ! :D
+[18:19:09] <yulimoto> тоя съм го изтървал
+[18:19:31] <yulimoto> обаче чувствам че ще се потисна скоро щото това е нож с две остриета
+[18:19:46] <yulimoto> едното е смешно другото е тъжно ;)
+[18:20:20] <dencho> zna4i sqka6 istoriata e slednata... safronq, mafronq i mikrofonq i vsqkakvite tam pi6lemeta, praaat video i si plqmpat... nekvi drugi gi diss-vat...
+[18:20:27] <dencho> i taka stava youtube voina
+[18:20:27] <dencho> :D
+[18:21:07] <yulimoto> ама има ли мафрона
+[18:21:18] <dencho> ne
+[18:21:18] <dencho> :D
+[18:21:19] <dencho> http://youtu.be/81-eeCVa-qs
+[18:21:40] <dencho> tiq me podse6tat za kalin relefa...
+[18:21:51] <dencho> predi godini ga irc-to be6e na moda ima6e edin kalin relefa
+[18:21:54] <dencho> znae6 li go ?
+[18:22:13] <dencho> http://youtu.be/UOTXy_uY-Ck
+[18:22:14] <dencho> HAHAHHA
+[18:22:20] <dencho> BYAHAHAHA
+[18:22:28] <dencho> tva e staro btw...
+[18:22:32] <dencho> pone na 5-6-7 godini
+[18:22:41] <yulimoto> не не ги знам човек от 1999 нищо не знам нататък аре от 2000г
+[18:22:57] <dencho> http://www.youtube.com/watch?v=x-k6KXdaNKA
+[18:23:01] <dencho> http://www.youtube.com/watch?v=cTU-CCXKpf4
+[18:23:08] <dencho> http://www.youtube.com/watch?v=m7wGcDkJLz0
+[18:23:13] <dencho> pi6i za kalin relefa i gledai
+[18:23:15] <dencho> sme6ki
+[18:23:15] <dencho> :D
+[18:23:37] <dencho> http://www.youtube.com/watch?v=OQ3OqxDf9pI
+[18:23:39] <dencho> HAHAHAHHAHAH
+[18:23:53] <dencho> po edno vreme ima edno klip4e kudeto vzema edin me4 i se prai na konan
+[18:23:53] <dencho> :D
+[18:23:58] <dencho> HAHAHAHAHHAHA
+[18:24:12] <dencho> dali ne mu hlopa ?
+[18:24:14] <yulimoto> хахаха
+[18:24:31] <dencho> hahahaha
+[18:24:35] <yulimoto> аз съм релефа и ще  те счупя копеле, с тези детски ръчички отивай в детската градина там да се дуеш
+[18:24:38] <dencho> kalin relefa weeeeeeeeeeee toq mai e ot pleensko
+[18:24:39] <yulimoto> хгахахаахахаха а
+[18:24:42] <yulimoto> супер яко
+[18:24:51] net: connect! sock 3
+[18:24:51] net: eof!(read) socket 6
+[18:24:51] Lost connection while resolving hostname [127.0.0.1/54631]
+[18:24:51] DNS resolved 127.0.0.1 to localhost
+[18:25:08] <dencho> da... 2006-ta, 2007-ma... purvia bulgarski vlogar :D
+[18:25:48] <yulimoto> КОНАН
+[18:25:49] <yulimoto> ааааа
+[18:26:18] <dencho> hahahha
+[18:27:04] <dencho> http://youtu.be/MgL7m9WZ_e8
+[18:27:16] <dencho> tuka pozdravqva sveta
+[18:27:42] <dencho> kluba drakonov tigar
+[18:27:42] <dencho> !
+[18:27:44] <dencho> hahahahahha
+[18:28:24] <dencho> otzat sedi mIRC otvoreno
+[18:28:25] <dencho> :P
+[18:29:05] <yulimoto> яко
+[18:29:46] <yulimoto> сафрона ми е фаворит вече, ама мисля да почина че от толкова чалга (словестна и мюзик) веке ми идва да скоча от балкона
+[18:30:06] <dencho> http://youtu.be/KORG70w1nnk
+[18:30:10] <dencho> hahahahah
+[18:30:13] <dencho> glei we
+[18:30:14] <dencho> :D
+[18:30:40] <dencho> HAHAHAHA
+[18:30:44] <dencho> - praq praq klip
+[18:30:44] <dencho> :D
+[18:30:45] <dencho> hahaha
+[18:32:40] <yulimoto> haha някой влезе в стаята
+[18:32:52] <dencho> haha
+[18:32:57] <dencho> are edno posledno ot tetevensko
+[18:32:59] <dencho> http://youtu.be/z6JomPszAws
+[18:33:19] <dencho> vuzmojno e da ne go razbira6, poneje prikazvat na dialekt
+[18:33:32] <dencho> az mnogo dobre gi razbiram, za razlika ot safronq
+[18:33:38] <dencho> na nego hi6to ne mu otbiram
+[18:34:01] <yulimoto> аз не го разбирам
+[18:36:39] <yulimoto> а ве той човека взел телевизор, ама оня идва да го взема, апа тоя си платил за кабелна
+[18:36:46] <yulimoto> неразбирам
+[18:36:52] <yulimoto> много много
+[18:37:40] <yulimoto> аааа ама той се развалили ли бе dencho преведи ве човек
+[18:38:46] <dencho> hahahah
+[18:38:47] <dencho> :D
+[18:39:35] <dencho> zna4i, tiq sa rodnini nqkakvi "svatove" i edniq mu dal televizor, i onq burzal da zaka4i kabelna, ama televizora se s4upil,
+[18:39:49] <dencho> i toq sa si go vru6ta s ideqta 4e sa go izlugali, 4e sa mu go napravili
+[18:39:56] <dencho> i si iska parite obratno
+[18:40:06] <dencho> i onq e do6al da si go vzeme
+[18:40:27] <dencho> i da si mu vurne parite i mu dava tam nekvi pari, ama to dialekta e sme6en, no ti ne go razbira6 :D
+[18:40:36] <dencho> toq vika "6a ma prai6 na putka 6a ma prai6"
+[18:41:11] <dencho> ama trqbva da go gleda6 sus subtitri mai :D
+[18:41:34] <yulimoto> хахах
+[18:41:46] <yulimoto> да на третия път по се разбира
+[18:42:02] <yulimoto> ама оня вика "е ти нали гледа 1 седмица"
+[18:42:41] <yulimoto> тва го знаеш http://www.youtube.com/watch?v=D6euGRsvh8o
+[18:43:46] <yulimoto> това е по-времето когато интернет доставчиците правеха  MAN мрежи + интернет
+[18:45:29] <dencho> aaa da
+[18:45:31] <dencho> hahahahaha
+[18:45:31] <dencho> :D
+[18:45:50] <dencho> i toq e ot tvoq kkrai
+[18:45:50] <dencho> :D
+[18:46:49] <dencho> HAHAHHAAH
+[18:46:55] <dencho> 6a doa 6a va ubia
+[18:46:56] <dencho> :D
+[18:47:00] <dencho> hahaha
+[18:47:11] <dencho> tva s koi dostav4ik
+[18:47:39] <yulimoto> или ямбол или бургас или сливен или елхово
+[18:47:51] <dencho> :D
+[18:49:17] <dencho> http://youtu.be/DeR-Hws8Suw
+[18:49:19] <dencho> pffffffffffffffff
+[18:49:28] <dencho> i tiq sa ot tvoq krai
+[18:50:48] <yulimoto> къде
+[18:50:55] <yulimoto> къде ве денчо
+[18:50:59] <yulimoto> кажи къде
+[18:52:44] deyan (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) left irc: Quit: Page closed
+[18:52:51] <dencho> haha
+[18:52:55] <dencho> avtobusa
+[18:53:41] <yulimoto> той човека просто човека не е добре, ама и тия пичове не са в час
+[18:54:47] <dencho> n da
+[18:54:51] deyan (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) joined #telerikacademy.
+[18:58:09] <dencho> deyaneeeeeeeeeeeeeeeeeeeeeeeeeeeeeei
+[18:59:13] <deyan> мани че скапаният webchat почти ми утрепа машината
+[18:59:29] <deyan> 2Гб рам гълташе скапаната лисица
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:05:39] <dencho> ebaaa go
+[19:07:13] <dencho> http://youtu.be/oY-DASO-VHg
+[19:16:09] deyan (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) left irc: Quit: Page closed
+[19:16:35] Deyan (~root@46.249.92.240) joined #telerikacademy.
+[19:17:14] <Deyan> quit
+[19:17:21] Deyan (~root@46.249.92.240) left irc: Client Quit
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:08:13] rewind (~yaaic@85.118.193.176) joined #telerikacademy.
+[20:08:47] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: leaving
+[20:09:01] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[20:17:45] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[20:27:23] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 260 seconds
+[20:43:52] Fairytale (1000@police.executie.org) left irc: Remote host closed the connection
+[20:53:27] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:04:02] anton_d (~anton_d@178.75.235.198) joined #telerikacademy.
+[21:07:36] anton_d (~anton_d@178.75.235.198) left irc: Client Quit
+[21:17:00] Action: dencho slaps hackman around a bit with a large trout
+[21:40:15] <yulimoto> може да е решил че трафика идва в повеч и да го е ограничил
+[21:45:00] net: eof!(read) socket 7
+[21:45:01] DNS resolved irc.freenode.net to 128.237.157.136
+[21:45:02] net: connect! sock 6
+[21:45:15] Telerik joined #telerikacademy.
+[21:52:39] rewind2 (~yaaic@85.118.193.182) joined #telerikacademy.
+[21:54:13] rewind (~yaaic@85.118.193.176) left irc: Ping timeout: 245 seconds
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:01:36] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[22:03:14] <Deyan> Мутрии, гледате ли кобрата?
+[22:05:32] <yulimoto> кво ?
+[22:11:38] <dencho> kvi kobri we
+[22:13:39] <dencho> Deyaneeeeeeeeeeeeeei
+[22:18:58] rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[22:22:24] <rewind> някой друг случайно да има проблем с отварянето на логовете от мечо
+[22:23:07] <rewind> че тъкмо ми дойде музата да почета малко докато се преинсталира openmeetings сървъра
+[22:27:45] <yulimoto> ами чети от гитхъба щото мечо не може да се отвори; вероятно рутера на мечо му е сърдит :)
+[22:29:15] <yulimoto> https://github.com/lac-repository/telerikacademy-channel-log/blob/master/telerik.log.24Aug2013
+[22:30:05] rewind2 (~yaaic@85.118.193.182) left irc: Ping timeout: 245 seconds
+[22:32:46] Action: dencho slaps yulimoto around a bit with a large trout
+[22:45:48] <rewind> Благодаря ти yulimoto :)
+[22:46:08] <dencho> ne go zaka4ai 4e gleda v to4ka sq :D
+[22:51:12] <rewind> тъкмо k.ilarionov ме подсети, че мога от ssh с lynx localhost да чета :)
+[22:51:36] <rewind> ама в гитхъб е по-добре
+[22:51:41] <dencho> ne si go pri4inqvai :P
+[22:51:44] <rewind> бая спам има :)
+[22:52:03] <rewind> хаха, почнах вече, няма спиране, голяма краста е...
+[22:52:11] <rewind> почти като да чоплиш слънчоглед
+[22:52:21] <yulimoto> да локално може но и там не е пърфект
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:07:55] <dencho> leka no6t ora
+[23:07:56] <dencho> :D
+[23:08:50] <rewind> лека ти Денчо :)
+[23:09:05] <yulimoto> аре лека
+[23:19:39] <yulimoto> това systemv е най-голямото дърво! защо им е на федора това нещо не мога да разбера
+[23:23:44] <yulimoto> systemd*
+[23:40:43] <rewind> аз лично направо се изплаших, когато го обясняваше hackman на лекции, за пръв път се сблъсках с него в arch някога и бях доста фрустриран и аз
+[23:49:27] <yulimoto> мен ме плаши опита за съвместимост със sysV
+[23:51:10] <yulimoto> има някакви dbus истории ама ако намеря някои които го харесват ще обява още един клуб от странни хора
+[23:53:16] <yulimoto> сигурно идеята да е по-близо да десктоп концепцията им :|
+[23:57:09] <yulimoto> hajde и аз лягам
+[00:00:00] --- Sun Aug 25 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

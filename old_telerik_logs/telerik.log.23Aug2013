@@ -1,0 +1,406 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:59] <rewind_> лека вечер на всички
+[00:01:12] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Quit: Page closed
+[00:05:41] user99 (~McNamee@213.226.63.148) left irc: Quit: Bye
+[00:06:11] user99 (~McNamee@213.226.63.148) joined #telerikacademy.
+[00:08:16] AndChat|2004 (~McNamee@78.130.186.99) joined #telerikacademy.
+[00:10:30] user99 (~McNamee@213.226.63.148) left irc: Ping timeout: 240 seconds
+[00:17:31] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: leaving
+[00:21:09] user99 (~McNamee@213.226.63.138) joined #telerikacademy.
+[00:24:06] AndChat|2004 (~McNamee@78.130.186.99) left irc: Ping timeout: 240 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:27:17] AndChat|2004 (~McNamee@78.130.186.99) joined #telerikacademy.
+[01:30:58] user99 (~McNamee@213.226.63.138) left irc: Ping timeout: 264 seconds
+[01:48:01] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[01:49:10] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:45:10] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[02:46:33] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[02:46:38] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[02:46:44] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:40:29] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:50:52] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[06:51:01] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:26:55] fityla (~AndChat20@85.118.193.175) left irc: Ping timeout: 264 seconds
+[07:31:09] fityla (~AndChat20@85.118.193.175) joined #telerikacademy.
+[07:50:10] AndChat|2004 (~McNamee@78.130.186.99) left irc: Ping timeout: 264 seconds
+[07:55:45] user99 (~McNamee@78.130.186.99) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:02:24] fityla_ (~AndChat20@84.40.116.146) joined #telerikacademy.
+[08:05:10] fityla (~AndChat20@85.118.193.175) left irc: Ping timeout: 264 seconds
+[08:07:43] user99 (~McNamee@78.130.186.99) left irc: Ping timeout: 264 seconds
+[08:16:54] user99 (~McNamee@78.130.186.99) joined #telerikacademy.
+[08:41:01] AndChat-205625 (~AndChat20@84.40.116.146) joined #telerikacademy.
+[08:41:02] fityla_ (~AndChat20@84.40.116.146) left irc: Read error: Connection reset by peer
+[08:41:40] fityla_ (~AndChat20@84.40.116.146) joined #telerikacademy.
+[08:41:40] AndChat-205625 (~AndChat20@84.40.116.146) left irc: Read error: Connection reset by peer
+[08:47:56] user99 (~McNamee@78.130.186.99) left irc: Remote host closed the connection
+[08:52:06] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:57:29] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[08:58:39] Vankata (4d4669bf@gateway/web/freenode/ip.77.70.105.191) left irc: Quit: Page closed
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:02:46] <yulimoto> хаха ама ти сериозно искаш да следиш логовете
+[09:04:28] <yulimoto> ако искаш кажи на hackman да погледне рутера на гризлито мисля че той е забранил  порт 80 и не можем го стигна
+[09:04:40] <yulimoto> рутера
+[09:07:12] <yulimoto> офф сутрин искам да кажа едно после като го чета съм казвал съвсем друго
+[09:21:54] <KrasiGa> Добро утро!
+[09:22:10] <KrasiGa> Вече ги разгледах в github-a na phalaaxx
+[09:22:26] <KrasiGa> ами все пак сте имали лекция вчера
+[09:22:30] <yulimoto> какво има там ?
+[09:22:39] <KrasiGa> пазо логовете там
+[09:22:44] <KrasiGa> пази*
+[09:23:04] <yulimoto> мх и той ли
+[09:23:08] <yulimoto> ами
+[09:23:08] <KrasiGa> аха
+[09:23:10] <yulimoto> имало е нещо
+[09:23:22] <yulimoto> аз не съм много в час
+[09:23:32] <KrasiGa> е има и твои коментари
+[09:23:35] <yulimoto> дойдох към 9 тогава нещата затихваха
+[09:23:50] <yulimoto> и си тръгнах малко след това
+[09:24:11] <KrasiGa> е разбрах, че ще пиеш втора била, че KreTeNoug е приспал децата в 9.30
+[09:24:11] <yulimoto> общо взето добре, но трябва малко повече организация
+[09:24:58] <yulimoto> добре е че се дойдоха хора които преди това не съм виждал тук
+[09:25:20] <KrasiGa> идват само като има лекция явно
+[09:25:36] <KrasiGa> а фалакс къде изчезна
+[09:25:39] <yulimoto> но като някакво съдържание не знам дали се е получило :)
+[09:25:42] <KrasiGa> и той по-рано стоеше онлайн
+[09:25:46] <yulimoto> сигурно е отпуска
+[09:26:09] <yulimoto> сега той е в Италия а някои други работят ;)
+[09:26:57] <KrasiGa> :) сигурно
+[09:27:12] <KpeTeHoug> е 9 и 30 е тамън за приспиване какво :)
+[09:27:43] <KrasiGa> разбира се
+[09:28:53] <KpeTeHoug> Асан и той човек, и той иска пие бира :)
+[09:29:41] <KrasiGa> айде почвам лекцията за text editor
+[09:30:24] <yulimoto> аз взера като излязох се срещах с един френд дето не го бях срещал от кога бях ученик. Та той карал телерик c# и се смяхме на разни истории доста
+[09:40:37] <KrasiGa> някой тази година да е ходил до рилските езера?
+[09:45:25] <yulimoto> KrasiGa: хвали се ти хвали се :)
+[09:45:37] <KrasiGa> :) не бе
+[09:45:45] <KrasiGa> исках да питам нещо
+[09:45:52] <KrasiGa> ама си намерих източник
+[09:46:24] <paparazzo> Системния администратор не спи, той търси, къде е проблема...
+[09:47:26] <KrasiGa> иначе за утре сформирам група така, че yulimoto: ако искаш се включи
+[09:49:33] <KpeTeHoug> paparazzo ne e taka
+[09:49:39] <KpeTeHoug> системният администратор не спи
+[09:49:42] <KpeTeHoug> той търкаля
+[09:49:43] <KpeTeHoug> !
+[09:55:08] <yulimoto> KrasiGa: малко далеч сте ми иначе с удоволствие
+[09:56:50] <KpeTeHoug> yulimoto подкрепи ме, кажи че е важно се търкаляме
+[09:57:14] <fityla_> ;)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:37] <yulimoto> да, да най-важното за сис админа е да търкаля нещо
+[10:01:29] <yulimoto> я лекция я файлове система и т.н. като дойде vhristev ще го обясни
+[10:11:50] <KpeTeHoug> мхм
+[10:11:57] <KpeTeHoug> аз да търкалям домашното че си ебало
+[10:11:58] <KpeTeHoug> :)
+[10:12:23] <KpeTeHoug> вече само brctrl ми се привижда
+[10:12:24] <KpeTeHoug> :)
+[10:16:20] <KpuCko> Мариански.. ски... ски
+[10:17:10] fityla_ (~AndChat20@84.40.116.146) left irc: Ping timeout: 264 seconds
+[10:21:17] <KrasiGa> КриСко рапираш ли?
+[10:31:17] <KpuCko> Яко :-)
+[10:31:47] <KpuCko> Не бе, викам.. това е ехото.
+[10:31:51] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[10:33:24] <KrasiGa> :)
+[10:41:04] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:04:56] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[11:15:29] <KpeTeHoug> тъй, качих домашното
+[11:15:32] <KpeTeHoug> големи акита :)
+[11:15:38] <KpeTeHoug> ама по добре така, отколкото без хич
+[11:21:12] <KrasiGa> да взема и аз да кача един празен файл
+[11:21:18] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[11:30:16] <KpeTeHoug> KrasiGa аз не съм казал че е празен :)
+[11:30:28] <KpeTeHoug> той hackman за празни файлове, дава оценка зеро
+[11:30:28] <KpeTeHoug> :)
+[11:31:19] <KpeTeHoug> аз няма да ти кажа каква стъкмистика правих :) като ен ми работи виртуалакта да троша, и писах уж, ма не мога да го тествам
+[11:33:14] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[11:45:53] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:13:20] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 276 seconds
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:28:16] alabala (~alabala@unaffiliated/alabala) left irc: Remote host closed the connection
+[13:52:22] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[13:56:57] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:05:11] <KrasiGa> с коя команда се rename-ва файла?
+[14:09:49] <phalaaxx> mv
+[14:11:17] <KrasiGa> оуу сега видях, че също е rename
+[14:11:27] <KrasiGa> :) 10x phalaaxx
+[14:11:33] <KrasiGa> i dobre do6al
+[14:11:40] <KrasiGa> otsastav6e ne6to
+[14:15:04] _NEKTAR_ (~nektar@176.12.19.179) left irc: Read error: Operation timed out
+[14:16:53] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:17:32] _NEKTAR_ (~nektar@176.12.19.179) left irc: Client Quit
+[14:17:48] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:18:03] _NEKTAR_ (~nektar@176.12.19.179) left irc: Client Quit
+[14:18:17] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:19:49] <KpeTeHoug> ходи той из колизеума
+[14:19:52] <KpeTeHoug> и нищо не обажда
+[14:20:02] _NEKTAR_ (~nektar@176.12.19.179) left irc: Client Quit
+[14:20:16] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:20:24] _NEKTAR_ (~nektar@176.12.19.179) left irc: Client Quit
+[14:20:36] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:24:54] _NEKTAR_ (~nektar@176.12.19.179) left irc: Client Quit
+[14:25:07] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:32:18] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 240 seconds
+[14:34:09] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:34:55] _NEKTAR_ (~nektar@176.12.19.179) left irc: Client Quit
+[14:35:09] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:39:33] _NEKTAR_ (~nektar@176.12.19.179) left irc: Read error: Operation timed out
+[14:49:56] dyrgel (~kolio@77-85-3-57.btc-net.bg) joined #telerikacademy.
+[14:54:38] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:14:28] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[15:14:32] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[15:14:39] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[15:15:00] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[15:16:31] <phalaaxx> KrasiGa: не съм си вкъщи, и пак започвам да отсъствам :D
+[15:18:17] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[15:54:23] yulimoto (~yulimoto@78.108.248.204) left irc: Ping timeout: 268 seconds
+[15:58:42] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[15:59:36] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:43] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Client Quit
+[16:02:09] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[16:39:42] <dencho> u darvenica spre netq na megalag
+[16:39:45] <dencho> nqkoi ot tam?
+[16:39:50] <yulimoto> хахах
+[16:39:52] <yulimoto> а ве денчо
+[16:39:58] <yulimoto> къде ги мислиш
+[16:40:09] <dencho> 6to we
+[16:40:36] Action: dencho slaps yulimoto around a bit with a large trout
+[16:40:45] <dencho> yulimoto fulimoto
+[16:40:47] <yulimoto> не просто отварям ирс-то и гледам твоите приключенията
+[16:40:56] <dencho> hahaha
+[16:41:34] <dencho> lesno li mi e
+[16:41:34] <dencho> :D
+[16:41:44] <yulimoto> хич
+[16:42:13] <yulimoto> тва мрежите е голям баница обаче, аз имам мн пропуски
+[16:42:43] <dencho> az 4akam da svur6i rabotniq den i po4vam da maja po doma6noto
+[16:42:46] <yulimoto> днес цял ден ги ровя и главата ми е кашон
+[16:43:14] <yulimoto> аз направих няколко ама си пратих най-лесното
+[16:43:57] <dencho> az 6e praq 3
+[16:43:59] <dencho> to su6toto
+[16:44:00] <dencho> :D
+[16:44:01] <yulimoto> повече от 2 реда не пиша ей, то ако се задълбае човек сценарии и т.н. ама какъвто въпроса такъв и отговора
+[16:44:50] <yulimoto> а така 3 направи
+[16:45:40] <dencho> ti si instaliral bridge utils nali?
+[16:45:42] <yulimoto> аз общо взето дебианските ги направих май, но ще трябва да видя редхат, че ...
+[16:45:45] <yulimoto> да
+[16:46:02] <yulimoto> етх0 етх1 да ги бриджнеш
+[16:46:04] <dencho> da
+[16:46:15] <dencho> a predi tva si napral fail s ime bridge
+[16:46:16] <dencho> :D
+[16:46:30] <dencho> i na eth0 i 1 si im kazal da sa bridge=bridge
+[16:46:31] <dencho> :D
+[16:46:36] <dencho> ya?!
+[16:46:36] <yulimoto> мммм ние от дебиан сме още по-мързеливи
+[16:47:05] <dencho> ne kazva6 li v configuraciata na eth0 i 1 ?
+[16:47:08] <yulimoto> там направо в /etc/network/interfaces описваш без да ти пука файлове да правиш
+[16:47:38] <yulimoto> на редхат може
+[16:47:50] <dencho> DEVICE=br0
+[16:47:50] <dencho> TYPE=Bridge
+[16:47:53] <dencho> e tuj ?
+[16:47:55] <dencho> :D
+[16:48:13] <dencho> aa ne tva e za bridge-a
+[16:48:14] <dencho> samiq
+[16:48:26] <dencho> posle samo da slaga6 BRIDGE=br0 v eth0
+[16:48:29] <dencho> i BRIDGE=br0 v eth1
+[16:48:32] <dencho> ?!
+[16:48:45] <dencho> a kato napi6e6 brctl show kvo vijda6 ?
+[16:50:16] <yulimoto> кое кое
+[16:50:26] <dencho> na debiana
+[16:50:26] <dencho> :D
+[16:50:57] <yulimoto> ама за какво да ползвм bridge-utils
+[16:51:11] <yulimoto> то си е направо от интерфейсис
+[16:51:37] <dencho> em nali za bridge ?
+[16:52:20] <yulimoto> Write a Debian based configuration file that will create a bridge device from eth0 and eth1.
+[16:52:32] <yulimoto> debian based configuration file
+[16:52:56] <dencho> a, ami zna4i az da sam v gre6ka :D
+[16:53:55] <Brahman> dencho e boga na debiana
+[16:54:49] <dencho> be gluposti
+[16:55:10] <Brahman> :D
+[16:55:16] <Brahman> dencho e skromniqt bog na debiana
+[16:55:19] <Brahman> :P~
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:34] <dencho> sal debian nqmam pred mene
+[17:00:34] <dencho> :D
+[17:02:12] <yulimoto> аре пичове излизам да играя ;P
+[17:03:00] <dencho> hodi si grai
+[17:03:01] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:03:03] <dencho> i ne presu4ai 6oseto
+[17:03:04] <dencho> :D
+[17:23:22] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[17:29:04] bentoslack (~Adium@194.50.76.105) left #telerikacademy.
+[17:33:20] dyrgel (~kolio@77-85-3-57.btc-net.bg) left irc: Ping timeout: 245 seconds
+[17:51:15] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:10:14] Brahman (~Brahman@109.121.248.105) left irc: 
+[18:14:47] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[18:29:15] lyubenblagoev_ (~lyubenbla@ip-163-36.powernet.bg) joined #telerikacademy.
+[18:29:57] lyubenblagoev_ (~lyubenbla@ip-163-36.powernet.bg) left irc: Client Quit
+[18:31:10] dyrgel (~kolio@77-85-3-57.btc-net.bg) joined #telerikacademy.
+[18:32:57] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 276 seconds
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:16:47] deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[19:36:02] <dencho> deyaneeeei
+[19:38:33] <yulimoto> няма гуууууу
+[19:39:02] <yulimoto> да знаеш от де да си изтегля готови имиджи за виртуал бокс
+[19:40:19] <dencho> ne
+[19:40:21] <yulimoto> гледам тука http://virtualboxes.org/images/ ама....
+[19:40:29] <dencho> te mai ve4e nqmat :D
+[19:40:39] <dencho> are...
+[19:40:47] <dencho> ve4erq,
+[19:44:26] fityla_ (~AndChat20@84.40.116.146) joined #telerikacademy.
+[19:44:45] <fityla_> Вчера питах..
+[19:44:51] <fityla_> За тоолове
+[19:45:36] <fityla_> в последният брой.. халер са пуснали 100  инсримента
+[19:47:23] <fityla_> Да напълним мечката с толове
+[19:48:43] <fityla_> Ужас аз домашното не съм пратил..
+[19:52:08] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[19:53:37] <fityla> @hackman за вторият въпрос ..
+[19:53:41] <fityla> 2. Write a RedHat based configuration file(s) that will add the following two networks as static routes on eth1: 	10.18.1.0/24 	192.168.0.0/23
+[19:54:00] <fityla> трябва да напишем eth1: 10.18.1.0
+[19:54:16] <fityla> и още един конфиг друг за другата мрежа нали?
+[19:57:30] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:00:41] <anton_sh> Здравейте, имам малко помощ ми трябва относно домашните
+[20:03:59] <fityla> добре
+[20:04:01] <fityla> дошъл
+[20:04:07] <fityla> и аз се интетесувам
+[20:04:13] <fityla> питай ако може някой да помогне
+[20:04:39] <anton_sh> ами всъщност въпросите са няколко
+[20:05:16] <anton_sh> първият е от къде(освен от интернет) мога да разбера каква трябва да бъде конфигурацията на даден конфигурационен файл
+[20:06:27] <anton_sh> В смисъл сега за да настроя ип-та в рутинг таблицата в определен конфигурационен файл проверих в интернет пример, но на изпита ако трябва да се направи такова нещо
+[20:06:41] <anton_sh> няма ли някакъв ман
+[20:06:54] <fityla> може
+[20:07:08] <fityla> да си дигнеш един debian или redhat
+[20:09:51] <anton_sh> въпросът ми е някакъв хелп в който мога евентуално да видя каква трябва да бъде структурата на даден конфигурационен файл?
+[20:17:59] <fityla> ако не се лъжа centOS е от RedHat клона
+[20:18:03] rewind (~yaaic@85.118.193.169) joined #telerikacademy.
+[20:18:11] <fityla> можеш да го видиш или на гризлито или ..
+[20:18:17] <fityla> ако имаш на виртуална
+[20:19:06] <anton_sh> не ме разбираш
+[20:19:51] <anton_sh> представи си че инсталираш линукс на компютър и искаш да му настроиш мрежата
+[20:20:08] <yulimoto> примерно man interfaces
+[20:20:10] <anton_sh> като задаваш настройките в конфигурационния файл
+[20:20:21] <yulimoto> tam си пише всичкото
+[20:20:23] <yulimoto> за дебиан
+[20:20:32] <anton_sh> от къде ще разберех каква му е структурата
+[20:21:04] <fityla> yulimoto ако е с CentOS
+[20:21:15] <fityla> не му ли е за RedHat
+[20:21:24] <yulimoto> с центОС не съм запознат
+[20:21:27] <yulimoto> rpm li e
+[20:21:53] <anton_sh> ами аз преди час инсталирах цент ос
+[20:22:01] <fityla> аз гледам клона
+[20:22:07] <fityla> http://www.linuxlinks.com/portal/content/png/gldt76.png
+[20:22:12] <anton_sh> но не мога да го пробвам защото не мога да си сменя езика :Д
+[20:22:19] <anton_sh> само на български мога да пиша
+[20:22:20] <anton_sh> :Д
+[20:22:50] <fityla> е ти не си ли инсталира
+[20:22:53] <fityla> десктоп
+[20:22:54] <fityla> варианта
+[20:23:10] <anton_sh> да обаче ми се струва мн зле не знам
+[20:23:21] <anton_sh> имам усб мишка ...не работи
+[20:23:34] <anton_sh> пише само на български каквото и да му задам
+[20:23:44] <anton_sh> странна работа
+[20:26:23] <fityla> System -> Preference -> Keyboard -> Layouts
+[20:26:31] <anton_sh> да
+[20:26:39] <fityla> и си ги правиш
+[20:26:51] <anton_sh> от там изтрих въобще български език
+[20:27:11] <anton_sh> но продължавам да пиша на български
+[20:27:35] <yulimoto> значи ако не знаеш структурата на конфигурационните файлове винаги може да си ползваш разни тулчета
+[20:27:57] <yulimoto> те си бяха разгледани на лекция ; не е задължително да го правиш от конфиг файловете
+[20:28:25] <yulimoto> а и тулчетата са си еднакви в почти всички дистрибуции
+[20:29:24] <yulimoto> т.е. hackman беше подчертал кои тулове са за всички дистрота и кои за редкат и дебианските
+[20:29:45] rewind (~yaaic@85.118.193.169) left irc: Read error: Connection timed out
+[20:30:03] anton_sh_ (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[20:30:37] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[20:32:35] <anton_sh_> да наистина на ubuntu с man interfaces
+[20:32:59] <anton_sh_> намирая всичко, което ти трябва
+[20:33:38] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Ping timeout: 250 seconds
+[20:36:47] <yulimoto> да но не за редхат май няма толкова добре написано :(
+[20:37:59] <anton_sh_> аз много съм разочарован от цент ос..преди час е инсталиран и вече бъгва
+[20:41:04] <fityla> аз до колкото си спомням
+[20:41:10] <fityla> hackman
+[20:41:20] <fityla> Казваше че RedHat добре описват
+[20:41:23] <fityla> неащата
+[20:43:14] <yulimoto> аз пък си спомням че хвалеше дебиан в това отношение са много напред; сигурно всеки си спомня това което му е харесва повече :)
+[20:43:34] <anton_sh_> а друго което исках да питам е защо след като кофигурирам конфигурационният файл за рутинг таблицата...рестартирам сървиса  проверявам таблицата и е празна
+[20:44:19] <anton_sh_> след като се вържа пак към wlan0(на което конфигурирам routing tablicata) то си попълва неговите си
+[20:48:14] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[20:48:38] <dencho> anton_sh_ kakvo ti bugva v CentOS-a?
+[20:49:12] <yulimoto> хм не знам я виж нещо network-manager-а да не ти "услужва"
+[20:51:02] <yulimoto> аз пък си сложих федора ; утре ще е слак-а
+[20:51:27] <anton_sh_> dencho: мн неща сега го рестартирах и ми изкара съобщение за някакви грешки в някакви library
+[20:52:44] <anton_sh_> dencho:  мисля направо пак да го преинсталирам, но може би да го сваля от другаде. Интересно свалих и записах уж два диска пък се инсталира само с един. Не ми иска втори. Може от тук някъде да идват проблемите
+[20:55:56] <yulimoto> какво значи от някъде другаде, нали сваляш от официалния сайт
+[20:55:59] <yulimoto> ?
+[20:58:48] <anton_sh_> еми да
+[20:58:55] <yulimoto> как да реконфигурирам пакет с fedora ве менове ?
+[20:58:56] <anton_sh_> от тук
+[20:58:57] <anton_sh_> http://mirrors.neterra.net/centos/6.4/isos/x86_64/
+[20:59:21] <anton_sh_> но уж да два диска пък не те пита никъде за втори диск
+[20:59:27] <yulimoto> dpkg-reconfigure каквото е в дебиан искам да направя
+[20:59:34] <yulimoto> само че на федора
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:04:46] <yulimoto> [solved] :)
+[21:04:54] <dencho> az s minimal install ne sam imal problemi
+[21:06:53] <yulimoto> are пичове биррра ; а утре с нови сили редхат и слак
+[21:07:04] <yulimoto> аааа чакайте да ви дам лекции по нет сигурност
+[21:07:33] <yulimoto> http://vasil.ludost.net/netsec/
+[21:07:48] <yulimoto> тоя курс сега ще го води хакман май
+[21:07:53] anton_sh_ (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Ping timeout: 250 seconds
+[21:07:55] <yulimoto> това е преди години
+[21:08:02] <yulimoto> то си пише
+[21:08:12] <yulimoto> аре пак чал
+[21:11:20] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[21:21:55] dyrgel (~kolio@77-85-3-57.btc-net.bg) left irc: Read error: Connection reset by peer
+[21:59:13] dyrgel (~kolio@77-85-7-19.btc-net.bg) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:05:58] kolio_ (~kolio@46.10.124.215) joined #telerikacademy.
+[22:06:17] <fityla> гледам
+[22:06:18] <fityla> Configuration files: RedHad based distros: /etc/sysconfig/network-scripts 	ifcfg-eth0 DEVICE=eth0 IPADDR=10.2.0.254 NETMASK=255.255.255.0 NETWORK=10.2.0.0 BROADCAST=10.2.255.255 ONBOOT=yes
+[22:06:28] <fityla> в лекциите
+[22:06:33] <fityla> на вторият въпрос
+[22:06:35] dyrgel (~kolio@77-85-7-19.btc-net.bg) left irc: Read error: Connection reset by peer
+[22:06:37] <fityla> дали това ще помгоне
+[22:29:27] deyan (~deyan@46.249.92.240) left irc: Ping timeout: 248 seconds
+[22:48:02] fityla (54287492@gateway/web/freenode/ip.84.40.116.146) left irc: Quit: Page closed
+[22:50:58] fityla_ (~AndChat20@84.40.116.146) left irc: Quit: Bye
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:14:29] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: Page closed
+[23:40:40] phalaaxx (~bozhin@chello084114170229.15.15.vie.surfer.at) joined #telerikacademy.
+[23:41:47] deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[00:00:00] --- Sat Aug 24 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

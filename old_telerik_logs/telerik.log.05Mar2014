@@ -1,0 +1,212 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:26:33] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 265 seconds
+[00:30:01] Guest33967 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:18:13] azilian (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[01:18:36] Nick change: azilian -> Guest38122
+[01:33:21] Guest38122 (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 264 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:03:43] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:09:11] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:17:42] Guest38122 (~hackman@87.118.135.136) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:36:36] wilindex (~willie@91.230.230.251) left irc: Read error: Connection reset by peer
+[11:37:10] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[11:37:10] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:45:35] Guest38122 (~hackman@87.118.135.136) left irc: Ping timeout: 265 seconds
+[13:46:57] Guest38122 (~hackman@management.1h.com) joined #telerikacademy.
+[13:51:48] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[13:52:01] <KpeTeHoug> опла
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:37:09] <Guest38122> опа опи
+[15:37:20] Nick change: Guest38122 -> hackman
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:14:40] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[16:22:09] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 265 seconds
+[16:23:31] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[16:39:43] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 252 seconds
+[16:40:15] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[16:44:52] <yulimoto_> OOO KpeTeHoug
+[16:45:02] <yulimoto_> ремонта как мина
+[16:48:18] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:50:56] nofearinc (~nofearinc@94.72.149.253) joined #telerikacademy.
+[16:51:33] <hackman> guys nofearinc e Mario Peshev
+[16:51:38] <hackman> da ne se chudite :)
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:16:59] <yulimoto_> :)
+[17:23:16] <hackman> yulimoto_, гледам и разни нови хора се разхождат в канала :)
+[17:25:44] <yulimoto_> hackman: да, предполагам покрай курса ще се появават нови хора :)
+[17:26:23] <yulimoto_> .... имам един проблем от миналата седмица който реших не много добре
+[17:26:48] <hackman> yulimoto_, аз хората от новите курсове ги пренасочвам в #iseca
+[17:27:01] <hackman> не съм очарован от Telerik :(
+[17:27:12] <yulimoto_> da to i азз мислех да отвърдим исека за всичко
+[17:27:21] <yulimoto_> щото телерик .....
+[17:27:31] <yulimoto_> няма смисъл
+[17:28:00] <yulimoto_> като имам време ще преместя ботя или ще кажа на кретеноид без това той се грижеше
+[17:29:15] <hackman> :)
+[17:29:22] <hackman> аз смятах да пускам собствен :)
+[17:29:41] <hackman> wilindex, е wellcome и в #softuni
+[17:30:07] <hackman> обаче Telerik не е welcome в #iseca & #osftuni
+[17:30:22] <yulimoto_> ще кажа на пхалакс
+[17:30:36] <yulimoto_> ок, значи ми пестиш време :)
+[17:32:03] <yulimoto_> имам два интерфейса единия е в мрежа 10.0.0.0/24 примерно другия е 192.168.0.0/24 обаче на тоя 10.0.0.0/24 си пускам пакети от да кажем 10.50.0.0/24 мрежа с чиито пакети не знае какво да прави
+[17:33:20] <yulimoto_> и трябва да ги транслейтна от тоя интерфейс на другия с адресс 10.50.0.100 <-> 192.168.0.100, 10.50.0.101 -> 192.168.0.101 и т.н
+[17:34:05] <yulimoto_> и за целта правя един цикъл с DNAT да сменя дестинейшъна на пакетите
+[17:34:16] <yulimoto_> на цялата 0/24 мрежа
+[17:34:30] <yulimoto_> и после правя и MASQUERADE
+[17:35:17] <yulimoto_> ne znam дали ме разбра обаче това да го провя с цикъл за да сменям дестинейпъна на пакетите ми се струва много изкуствено има ли по -лесен начин ?
+[17:38:03] Guest33967 (~deyan@46.249.92.240) joined #telerikacademy.
+[17:39:12] <yulimoto_> ето това ме дразни, и питам дали няма да има проблем ако по подобен начин примерно взема да правя /16 мрежа (~65000 addressa)
+[17:39:16] <yulimoto_> for i in $(seq 1 255)
+[17:39:18] <yulimoto_> do iptables -t nat -A PREROUTING -d $fromNet$i -i tun1 -j DNAT --to $toNet$i
+[17:39:21] <yulimoto_> done
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:29:53] <hackman> yulimoto_, WTF :)
+[18:30:22] <hackman> ако 10.0.0.0/24 е на dev eth0
+[18:30:31] <hackman> а 192.168.0.0/24 на dev eth1
+[18:31:44] <hackman> защо е нужно да правиш тоя целия NAT ?
+[18:31:58] <hackman> не може ли просто да ги route-неш ?
+[18:56:50] hackman (~hackman@management.1h.com) left irc: Read error: Operation timed out
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:37:26] nofearinc (~nofearinc@94.72.149.253) left irc: Ping timeout: 265 seconds
+[19:38:37] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[19:47:16] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:26:09] nofearinc (~nofearinc@94.72.149.253) joined #telerikacademy.
+[20:36:49] <yulimoto_> phalaaxx: ?
+[20:59:59] nofearinc (~nofearinc@94.72.149.253) left irc: Ping timeout: 240 seconds
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:01:39] <fityla> yolimoto_ чул ли си нещо
+[21:01:44] <fityla> за курса във ФМИ
+[21:01:50] <fityla> LSA2
+[21:12:25] <yulimoto_> почнал ве
+[21:12:41] <phalaaxx> yulimoto_: ?
+[21:12:45] <yulimoto_> той hackman извика в четвъртък
+[21:13:17] <yulimoto_> направо преди лекцията, обаче го е записал гледай виртуализацията kvm
+[21:14:40] <yulimoto_> phalaaxx: "hackman wilindex, е wellcome и в #softuni"
+[21:14:51] <phalaaxx> някой да знае евтин вариант за 8 портов FXS gateway?
+[21:16:41] <yulimoto_> phalaaxx: ставаше въпрос, че мислим че iseca e по-добър избор за канал, отделно сега има и нов softuni за унито на наков, но телерик се изчерва
+[21:16:50] <yulimoto_> Вие какво мислите ?
+[21:19:31] <phalaaxx> аз съм навит на jabber room ама май не са много хората дето са навити на такова :)
+[21:20:51] <yulimoto_> аз съм също  но има сякаш хората го смятат за прекалено обвързващо
+[21:22:09] <phalaaxx> на мен irc ми е прекалено обвързващо
+[21:26:54] <phalaaxx> амии и логове пази вече, даже не се налагаше да правя нещо по въпроса
+[21:31:11] <fityla> да сега
+[21:31:17] <fityla> разбрах, че е почнал
+[21:31:23] <fityla> нещо съм изпуснал
+[21:31:25] <fityla> :D
+[21:31:35] <fityla> аз си мислех че е около 15
+[21:35:06] <yulimoto_> phalaaxx: da :|
+[21:35:10] yulimoto_ (~yulimoto@ec2-54-72-23-132.eu-west-1.compute.amazonaws.com) left #telerikacademy.
+[21:35:17] yulimoto_ (~yulimoto@ec2-54-72-23-132.eu-west-1.compute.amazonaws.com) joined #telerikacademy.
+[21:39:19] Writing user file...
+[21:39:19] Writing channel file...
+[21:39:19] * TERMINATE SIGNAL -- SIGNING OFF
+[21:39:32] Seend data restored.
+[21:39:32] main: entering loop
+[21:40:36] net: connect! sock 7
+[21:40:36] net: eof!(read) socket 7
+[21:40:36] Writing user file...
+[21:40:36] Writing channel file...
+[21:40:36] * TERMINATE SIGNAL -- SIGNING OFF
+[21:41:02] Seend data restored.
+[21:41:02] main: entering loop
+[21:42:06] net: connect! sock 7
+[21:42:06] net: eof!(read) socket 7
+[21:42:07] net: connect! sock 7
+[21:42:23] Telerik joined #telerikacademy.
+[21:42:23] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[21:42:42] net: connect! sock 3
+[21:42:42] DNS resolve failed for 127.0.0.1
+[21:42:42] Telnet connection: 127.0.0.1/37310
+[21:42:42] net: connect! sock 9
+[21:42:42] net: eof!(read) socket 9
+[21:42:42] Timeout/EOF ident connection
+[21:42:53] Bad Password: [yulimoto]telnet@127.0.0.1/37310
+[21:42:59] net: connect! sock 3
+[21:42:59] DNS resolve failed for 127.0.0.1
+[21:42:59] Telnet connection: 127.0.0.1/37312
+[21:42:59] net: connect! sock 9
+[21:42:59] net: eof!(read) socket 9
+[21:42:59] Timeout/EOF ident connection
+[21:43:04] Bad Password: [yulimoto]telnet@127.0.0.1/37312
+[21:43:06] net: connect! sock 3
+[21:43:06] DNS resolve failed for 127.0.0.1
+[21:43:06] Telnet connection: 127.0.0.1/37314
+[21:43:06] net: connect! sock 9
+[21:43:06] net: eof!(read) socket 9
+[21:43:06] Timeout/EOF ident connection
+[21:43:13] Bad Password: [yulimoto]telnet@127.0.0.1/37314
+[21:43:32] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[21:43:39] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[21:47:17] Writing user file...
+[21:47:17] Writing channel file...
+[21:47:17] * TERMINATE SIGNAL -- SIGNING OFF
+[21:47:24] Seend data restored.
+[21:47:24] main: entering loop
+[21:48:28] net: connect! sock 7
+[21:48:28] net: eof!(read) socket 7
+[21:48:29] net: connect! sock 7
+[21:48:40] Telerik joined #telerikacademy.
+[21:48:40] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[21:48:44] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[21:48:47] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[21:50:12] yulimoto_ (~yulimoto@ec2-54-72-23-132.eu-west-1.compute.amazonaws.com) left #telerikacademy.
+[21:50:24] Writing user file...
+[21:50:24] Writing channel file...
+[21:50:24] * TERMINATE SIGNAL -- SIGNING OFF
+[21:52:00] Seend data restored.
+[21:52:00] main: entering loop
+[21:53:04] net: connect! sock 7
+[21:53:04] net: eof!(read) socket 7
+[21:53:05] net: connect! sock 7
+[21:53:20] Telerik joined #telerikacademy.
+[21:53:20] #telerikacademy: mode change '+v Telerik' by ChanServ!ChanServ@services.
+[21:53:47] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[21:53:50] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[21:54:27] yulimoto (~yulimoto@wolf.yuhu.biz) left #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:34:22] yulimoto_ (~yulimoto@ec2-54-72-23-132.eu-west-1.compute.amazonaws.com) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:29:31] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[23:47:16] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[23:47:41] Nick change: hackman -> Guest92833
+[23:49:11] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 240 seconds
+[00:00:00] --- Thu Mar  6 2014
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

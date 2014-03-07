@@ -1,0 +1,232 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:05:43] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[00:06:15] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[00:21:01] hackman (~hackman@wolf.yuhu.biz) left irc: Read error: Connection reset by peer
+[00:29:47] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:19:18] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[01:20:01] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:09:27] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:13:09] azilian (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[03:13:46] Nick change: azilian -> hackman
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:22:13] looser99 (John@78.130.186.99) joined #telerikacademy.
+[04:23:34] user99 (John@78.130.186.99) left irc: Ping timeout: 245 seconds
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:07:41] Nick change: ndyakov|away -> ndyakov
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:28:01] Nick change: ndyakov -> ndyakov|away
+[08:43:44] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:56:28] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 264 seconds
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:03:47] <KacanuH> Добро Утроо пияници
+[09:23:24] <yulimoto> pak li se napi ?
+[09:23:48] <yulimoto> може би е време да отидеш на консултант :)
+[09:25:19] <KrasiGa> :) Хихих
+[09:54:29] <yulimoto> той пък се обиди :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:29] <KacanuH> не съм бе, в тоя студ дори не ми се пие
+[10:05:32] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:06:41] hackman_ (~hackman@management.1h.com) joined #telerikacademy.
+[10:07:13] <yulimoto> KacanuH: ааа ти просто от уважение, че някой може да се е напил :)
+[10:08:26] <yulimoto> впрс: хора IpSec и l2pt едно и също ли са ?
+[10:10:52] hackman (~hackman@management.1h.com) left irc: Ping timeout: 264 seconds
+[10:15:27] <yulimoto> не не са (rfc3193)
+[10:32:00] hackman_ (~hackman@management.1h.com) left irc: Ping timeout: 246 seconds
+[10:37:44] <KacanuH> Дойдоха ни демо версии от новите рутери, ха познайте кой събота и неделя ще си прави тунели и влан-и в къщи
+[10:38:22] <yulimoto> еейй браво тамън и аз съм на тая тема
+[10:39:04] <yulimoto> KacanuH: да знаиш някакви SixNet рутери ?
+[10:58:23] <KacanuH> сега ги чувам за сефте
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:04:12] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:05:54] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[11:06:34] hackman_ (~hackman@management.1h.com) joined #telerikacademy.
+[11:12:42] <KacanuH> yulimoto: тия които ги вкарват са ми клиенти, ако искаш мога да ги питам за по-добра цена
+[11:13:14] <KacanuH> hackman_: прави секс с канала, влиза излиза
+[11:17:19] <yulimoto> KacanuH: не ми трябват, имат vpn ipsec искам да разбера дали това е l2tp vpn някакъв, и ако не е трябва да разбера с клиент на мак какво става. и аджеба като пишат cisco IpSec какво е тва ?
+[11:18:32] <yulimoto> общо взето ми се струва прекалено много маркетинг за 2 протокола и един rfc (rfc3193)
+[11:48:44] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:14:07] dench0 (~dencho@95.111.14.183) joined #telerikacademy.
+[12:14:12] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[12:31:55] <KpeTeH0ug> Deyan eeeee
+[12:31:56] <KpeTeH0ug> :)
+[12:32:08] <KpeTeH0ug> и всички останали :)
+[12:32:11] <KpeTeH0ug> добър ден
+[12:32:23] <KpeTeH0ug> KacanuH имам процедурен въпрос
+[12:32:45] <KpeTeH0ug> ако искам 10 ATI-та, някаква последна серия, за миньорстване
+[12:32:53] <KpeTeH0ug> кога мога ги имам най-рано :)
+[12:38:16] <yulimoto> KpeTeH0ug: най-добре се консултирай с rewind. графични карти не се ползват от около година за миньорстване, защото сложността се е качила доста :)
+[12:38:48] <yulimoto> виждам че си изкушен от 1000$+ курса :)
+[12:39:48] <KpeTeH0ug> yulimoto забрайхме се ей
+[12:39:51] <KpeTeH0ug> ма ме спукват тука :)
+[12:40:05] <KpeTeH0ug> добре че мина изпита, иначе нямаше да мога да отида въобще
+[12:40:12] <KpeTeH0ug> и аз знам че не е изгодно
+[12:40:17] <KpeTeH0ug> ма един мой човек иска тука
+[12:40:17] <yulimoto> как ще те забрвим ние бре, ти си незабравим
+[12:40:24] <KpeTeH0ug> като иска да се набутва да се оправя
+[12:40:28] <KpeTeH0ug> абе незабравим :)
+[12:40:42] <KpeTeH0ug> то не мой ме запомни човек, как да ме забрави
+[12:40:43] <KpeTeH0ug> ::)
+[12:42:31] <yulimoto> ааа ясно не за тебе значи, по-добре му препоръчай стария миньор rewind за консултация, взема към 70$-80$ на час, аз съм му импресарио (10%)
+[12:42:47] <yulimoto> ;П
+[12:43:02] <yulimoto> KpeTeH0ug: какво правите ве, сливания разни ?
+[12:43:35] <KpeTeH0ug> да бе, и сега едно масово преинслиране, местене на архиви и тн
+[12:43:39] <KpeTeH0ug> windowos бози
+[12:44:03] <KpeTeH0ug> правих си спец за тях тука автоматизирани инсталации с ъпдейти, и програми
+[12:44:07] <KpeTeH0ug> да спестявам време
+[12:44:14] <KpeTeH0ug> но пак си е обикаляне на място :)
+[12:45:15] <yulimoto> ясно, ти си win спец ве ще се оправиш :)
+[12:45:29] <yulimoto> специално за всички отсъстващи като dench0 http://vbox7.com/play:7c14904f10
+[12:45:30] <wilindex> [ Видео споделяне / VBOX7 ] - vbox7.com
+[12:46:54] <KpeTeH0ug> мноо добри тея :)
+[12:47:17] <KpeTeH0ug> няма те питам ти как го намери :)
+[12:47:35] <yulimoto> недей :)
+[12:48:39] <KpeTeH0ug> сигурно от скука докато ръчкаше из openvpn и cpanel
+[12:48:46] <KpeTeH0ug> следя аз тука ко става из канала :)
+[12:49:48] <yulimoto> не бе наядох се като прасе и викам я 20 мин. за хранисмилане някаква мюзик
+[12:50:32] <yulimoto> ей за тва не трява да се яде докато търсиш някакви проблеми да опраиш
+[12:51:08] <KpeTeH0ug> аз докато ям и храносмилам
+[12:51:22] <KpeTeH0ug> оценявах домашни по WSA
+[12:51:23] <KpeTeH0ug> :)
+[12:51:30] Nick change: KpeTeH0ug -> KpeTeHoug
+[12:52:01] <KpeTeHoug> и се забавлявам :)
+[12:57:06] Nick change: ndyakov|away -> ndyakov
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:27:44] <KacanuH> KpeTeHoug: кажи модел, не се занимавам  копене на монети
+[13:29:58] <yulimoto> биткоина - 953 може ли да се сбъдне моята прогноза да стигне 200 ?
+[13:32:19] <yulimoto> стигне=падне*
+[13:38:54] <yulimoto> KacanuH: отвори един порт събота и неделя да пробвам vpn-ите на рутерите че ги навържем кат черва. хем да имам опит някакъв с различни рутери
+[13:54:21] <KpeTeHoug> KacanuH, аз също не се занимавам
+[13:55:03] <KpeTeHoug> HD 8000 seriq
+[13:55:29] <KpeTeHoug> и R9 seriq
+[13:56:13] <KpeTeHoug> 9 290X	R9 290	R9 280X	R9 270X	R9 270
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:04:27] hackman_ (~hackman@management.1h.com) left irc: Ping timeout: 246 seconds
+[14:25:52] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 264 seconds
+[14:26:32] <KacanuH> yulimoto: драсни да ме подсетиш
+[14:27:09] <KacanuH> дори най-добре ми драсни утре да се сетя да си взема домашно
+[14:29:25] Action: KpeTeHoug slaps KacanuH around with a cream filled donut...... smack ... smack ... smack .. :)
+[14:29:40] <KpeTeHoug> за тези модели :) нищо н еми каза
+[14:33:43] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:43:20] <KacanuH> До сега беше един клиент при мен, и точно ми казваше че се е отказал да копа с видео карти
+[14:43:54] Nick change: ndyakov -> ndyakov|away
+[14:45:59] <KacanuH> KpeTeHoug: GIGABYTE GV-R928XOC-3GD има налични
+[14:54:40] <KpeTeHoug> супер, значи утре може да са в търново :)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:21:26] Action: KpeTeHoug rolls a wagon wheel over to KacanuH here ya go eat up & enjoy :)
+[15:40:44] Nick change: ndyakov|away -> ndyakov
+[15:42:53] bgpepi (~bgpepi@ip-80-236-210-65.dsl.scarlet.be) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:04:14] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[16:30:33] hackman_ (~hackman@management.1h.com) joined #telerikacademy.
+[16:38:32] <hackman_> brava.... vzeh si C/C++ единия изпит :) Утре ще бъде и другия :)
+[16:48:05] Nick change: hackman_ -> hackman
+[16:49:51] <yulimoto> hackman_: предполагам не си се зорил много специално на C :) верно сега трябва и 8-ми да празнуваш нали студент :ь
+[16:50:50] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:52:29] <hackman> C++ беше
+[16:52:32] <hackman> бая се зорих
+[16:52:38] <hackman> даже оценка не пожела да ми пише
+[16:52:56] <hackman> бил съм между 4 и 5 и не можело да ми пише 4 ;)
+[16:53:05] <hackman> другата седмица пак :0
+[16:54:22] <yulimoto> hackman: взет!
+[16:54:47] <yulimoto> hackman: все пак ако не можеш да вземеш другия се обади да черпя !!! ;ь
+[16:55:15] <yulimoto> това ще е нашето  възмездие :)
+[16:56:21] Deyan_ (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[16:56:59] Nick change: Deyan_ -> KacanuH
+[16:59:06] Nick change: ndyakov -> ndyakov|away
+[16:59:22] <yulimoto> шегувам те спокойно :)
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:20] Nick change: ndyakov|away -> ndyakov
+[17:14:39] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[17:15:16] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[17:16:52] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[17:19:59] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[17:45:40] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[17:51:39] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:25:34] bgpepi (~bgpepi@ip-80-236-210-65.dsl.scarlet.be) left irc: Remote host closed the connection
+[18:57:20] Nick change: ndyakov -> ndyakov|away
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:03:26] hackman (~hackman@management.1h.com) left irc: Ping timeout: 250 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:06] dench0 (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[20:05:09] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[20:05:31] Nick change: hackman -> Guest83465
+[20:26:48] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[20:40:04] <yulimoto> O, чудо оправих си гном-а! лош наутилус :)
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:07:24] <yulimoto> анкетка: какво казва апачито ? mod_fcgid: can't apply process slot for
+[21:43:22] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[21:45:56] _rewind (~teo@46.238.29.142) left irc: Client Quit
+[21:47:14] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[21:48:41] <rew1nd> Здравейте :)
+[21:50:26] <rew1nd> KpeTeHoug,  веднага ти казвам, че phalaaxx съвсем скоро ме пита за 7990 и я сравнихме с R9 серията и се оказа, че откъм $/MHash/Watt 7990 побеждава, тъй като също е 28нм производствен процес на чипа и въпреки по-силния performance на R9, 7990 си заслужава повече
+[21:51:00] <rew1nd> yulimoto, гледам че цената се е върнала - http://bitcoinprices.org/
+[21:51:01] <wilindex> [ BitcoinPrices.org - fast lookup of Bitcoin (BTC) to US Dollar prices ] - bitcoinprices.org
+[21:51:29] <rew1nd> имало е една доста голяма продажба на биткойни, заради които е била на 900$ за известно време
+[21:52:38] <rew1nd> KpeTeHoug, като цяло с видеокарти само litecoin може да се копае в наши дни, ето сравнение - https://litecoin.info/Mining_hardware_comparison
+[21:52:39] <wilindex> [ Mining hardware comparison - Litecoin Wiki ] - litecoin.info
+[21:54:01] <yulimoto> rew1nd: lightcoin-a отделна валута ли е от биткоина ?
+[21:54:02] <rew1nd> 7990, Sapphire   1310 KH/s / R9 290X, Sapphire   990 KH/s
+[21:54:56] <rew1nd> yulimoto, практически ltc е нещо като модифицирана версия на bitcoin, която се "копае" много по-трудно от ASIC miner-и, тъй като ползва по-сложен алгоритъм scrypt (вместо sha256)
+[21:55:57] <yulimoto> но тъй като е по- в началото се копа все още по-лесно ?
+[21:56:24] <rew1nd> ами май все още не са измислили ASIC за ltc, да
+[21:57:49] rew1nd (~teo@46.238.29.142) left #telerikacademy.
+[21:57:53] <yulimoto> бре бре https://www.itbit.com/ вече сириъз инвеститърс
+[21:57:54] <wilindex> [ itBit | Bitcoin Trading for Serious Investors. The virtual currency exchange of professionals worldwide ] - www.itbit.com
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:12:43] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[22:14:41] Nick change: ndyakov|away -> ndyakov
+[22:14:51] <rew1nd> хората са сЮриозни :) недей сега и ти
+[22:18:29] bgpepi (~bgpepi@ip-80-236-210-65.dsl.scarlet.be) joined #telerikacademy.
+[22:23:04] <yulimoto> ти остави ква съм патка - някаква сокет директория и  shm  файла на fcgid са в /вар/лог оправил съм някакви пермишъни, обаче вероятно въртенето на логовете вероятно го презаписва
+[22:23:38] <yulimoto> и така си играем с едно апачи на що не пали, а запали, що не пали, а запали :)
+[22:23:51] <yulimoto> ама сега просто ги преместих в /var/run/httpd
+[22:24:29] <yulimoto> kakto И да е и да не е това причината след като ги преместих се оправиха нещата
+[22:25:19] <rew1nd> http://www.youtube.com/watch?feature=player_embedded&v=Pv-Do30-P8A
+[22:25:19] <wilindex> [YouTube] Title: SOFLES — LIMITLESS. | Uploader: ironlakfilms | Uploaded: 22/11/2013, 23:34 | Duration: 5mins 11secs | Views: 6,227,880 | Comments: 3,326 | Likes: 66,376 | Dislikes: 1,675
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:13] <rew1nd> http://goo.gl/FDrgTr ето този ми стана любимец :)
+[23:00:14] <wilindex> [ Гражданин надхитри банка със същия трик, който банките използват срещу нас - сп. Обекти ] - goo.gl
+[23:00:32] <dencho> spite li we
+[23:00:36] Action: dencho slaps yulimoto around a bit with a large trout
+[23:00:39] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[23:00:43] Action: dencho slaps Deyan around a bit with a large trout
+[23:00:48] Action: dencho slaps rew1nd around a bit with a large trout
+[23:09:49] <yulimoto> не на работа сме нощна смяна .... много ясно че спим
+[23:12:02] <yulimoto> аре верно лягам
+[23:19:18] dnk (~chatzilla@212.5.158.76) joined #telerikacademy.
+[23:23:22] <rew1nd> dencho,  не още :) гледаме http://24hoursofhappy.com/
+[23:23:23] <wilindex> [ Pharrell Williams - Happy ] - 24hoursofhappy.com
+[00:00:00] --- Fri Dec  6 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

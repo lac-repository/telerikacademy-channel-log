@@ -1,0 +1,269 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:02:28] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:16:39] <hackman> KpeTeH|weekend, па вземи го оправи като не е наред
+[00:30:55] nveselinov_ (nveselinov@151.237.4.4) joined #telerikacademy.
+[00:32:31] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 268 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:01:12] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:12:20] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:58:26] Nick change: nveselinov_ -> nveselinov
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:57:28] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:40:50] sig_ (~sig@87.97.211.51) left irc: Ping timeout: 240 seconds
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:27:55] Nick change: stratoss -> stratoss|away
+[08:55:29] <yulimoto_> тъй, сложих гъгул в ресолв.конф и оправих иптаблиците за ъксепването на 80 порт, станно как съм го пропуснал преди
+[08:55:46] <yulimoto_> аре
+[08:58:11] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 248 seconds
+[08:59:46] <KpeTeH|weekend> hackman, аз само метнах едно око докато приспивах децата
+[08:59:56] <KpeTeH|weekend> няма време да седна да гледам какво му е проблема :)
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:00:17] Nick change: KpeTeH|weekend -> KpeTeHoug
+[09:03:40] <KpeTeHoug> искаш да кажеш че само това е било омазано
+[09:03:54] <KpeTeHoug> ма сме баси и жепата админи, няма кой да види защо не ни работи
+[09:03:58] <KpeTeHoug> няма да коментирам
+[09:07:01] <KpeTeHoug> дето се вика - Много баби, хилаво бебе
+[09:16:11] <hackman> :)
+[09:30:31] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[09:40:05] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[09:57:22] <hackman> ееее
+[09:57:31] <hackman> най-накрая няко се сетил да дигне apache-а на grizzly :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:42:17] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[10:42:44] <Deyan> Добро утро
+[10:55:03] <KpeTeHoug> добро утро да е
+[10:55:20] <KpeTeHoug> hackman то беше дигнато :) само че беше орязано от iptables
+[10:55:28] <KpeTeHoug> добре че е нашият герой yulimoto_
+[10:55:29] <KpeTeHoug> :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:30:05] <Deyan> какво пак сте мазали
+[11:38:11] <KpeTeHoug> ние нищо, ма някой фруг явно  е мазал :)
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:22:23] wilindex (~willie@91.230.230.224) joined #telerikacademy.
+[12:25:17] alabala (~alabala@unaffiliated/alabala) joined #telerikacademy.
+[12:29:47] wilindex (~willie@91.230.230.224) left irc: Quit: Closing
+[12:30:31] wilindex (~willie@91.230.230.224) joined #telerikacademy.
+[12:35:44] <phalaaxx> yulimoto_ защо напоследък имаш _ в името? :)
+[12:52:43] <phalaaxx> http://www.spiegel.de/international/world/how-the-nsa-spies-on-smartphones-including-the-blackberry-a-921161.html
+[12:52:43] <wilindex> [ How the NSA Spies on Smartphones Including the BlackBerry - SPIEGEL ONLINE ] - www.spiegel.de
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:30:50] alabala (~alabala@unaffiliated/alabala) left irc: 
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:29:57] s0ny123 (~s0ny123@95.111.79.72) left irc: Quit: Lost terminal
+[14:36:22] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[14:51:36] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[14:52:26] Nick change: stratoss|away -> stratoss
+[14:53:09] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:56:45] <yulimoto_> phalaaxx: по стечение на обстоятелствата бях с два клиента от гризли и от една моя машинка. останата втората, а клиента на гризли го спрях. _ я добави втория клиент, защото yulimoto беше зает.
+[14:57:36] <phalaaxx> ясно :)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:08:45] <yulimoto_> ако нямате други въпроси, мисля да приключвам за днес :)
+[15:08:58] <phalaaxx> въпрос за тези които ползват Linux за desktop - какъв window manager предпочитате? :)
+[15:10:14] <phalaaxx> за hackman знаем че ползва xfce :)
+[15:14:51] <phalaaxx> май зададох много сложен въпрос.... или освен него (и мен де) друг никой не ползва Linux за desktop?
+[15:15:19] <phalaaxx> това ми е трудно да го повярвам
+[15:15:19] <phalaaxx> хайде хора, кажете си - може пък да ви олекне като си признаете :)
+[15:19:02] <yulimoto_> аз съм си с гноме-шел, но имам проблем с видео картата и ползвам юнити, колкото и да не ми се иска
+[15:19:37] <yulimoto_> имам малко малко лаптопче на което ползвам debian + xfce
+[15:19:53] <phalaaxx> :)
+[15:19:56] <yulimoto_> kde ne съм ползвал от много ама много отдавна, винаги ми е било тежко
+[15:20:25] <phalaaxx> и аз напоследък ползвам xfce но в момента съм запалил гнома да пробвам пак какви extensions има за него
+[15:21:54] <hackman> phalaaxx, ти gnome extensions можеш да си използваш и на xfce-то :)
+[15:21:55] <yulimoto_> ами аз гном обикновено го правя ала мак да изглежда, слагам docky + мак икони и тем подобни. по-  ми е удобно така :)
+[15:22:12] <phalaaxx> аз за gnome shell говоря
+[15:22:21] <hackman> yulimoto_, и не ти ли губят от desktop-а ?
+[15:22:22] <phalaaxx> и extensions за него за да го префасонирам малко
+[15:23:04] <phalaaxx> нещо не успях да преборя един гаден проблем с xfce
+[15:24:06] <phalaaxx> video tearing със пуснат compositing
+[15:28:50] <yulimoto_> hackman: не знам какво имаш предвид, но ми е по-ясно визуално, особено nautilus, все пак преди бях мак чадо :)
+[15:29:33] <hackman> phalaaxx, добре де... тея глупости не ти ли губят само времето ?
+[15:29:56] <phalaaxx> кои глупости?
+[15:30:05] <hackman> yulimoto_, когато имаш лента отгоре и една отдолу, и двете ядат пространство
+[15:30:19] <hackman> phalaaxx, compositing и тн.
+[15:30:43] <phalaaxx> нее нямам предвид да слагам нещо отделно, само това дето вече си го има в xfce
+[15:31:21] <hackman> аз такива "благинки" ги изключвам
+[15:31:27] <hackman> само излишни глезотии
+[15:31:57] <phalaaxx> амии сянката под прозорците ги прави някак по-лесни за различаване според мен
+[15:32:00] <phalaaxx> въпрос на навик де
+[15:33:25] <yulimoto_> hackman: xfce-a ми е натурал, там нямам възможност поради за "шукарии" малкия дисплей, но в гноме лентата ми е отгоре, а дока ми е динамичен (когато има активен прозорец, дока се скрива, мога да го извикам когато мишката е в активната му зона)
+[15:33:50] <yulimoto_> т.е. все едно имам 1 лента
+[15:35:44] <hackman> yulimoto_, аз на xfce-то за това използвам launcher panel plugin-a
+[15:35:50] <hackman> върши ми същата работа :)
+[15:37:07] Action: hackman ще говори на http://wiki.centos.org/Events/Dojo/NewOrleans2013
+[15:37:09] <wilindex> [ Events/Dojo/NewOrleans2013 - CentOS Wiki ] - wiki.centos.org
+[15:38:25] <yulimoto_> ей от конференции не се спираш :) браво
+[15:38:46] <yulimoto_> ще го погледна тоя плъгин :) дано е читав
+[15:39:47] <phalaaxx> това за пускане на приложения някакви ли?
+[15:40:23] <phalaaxx> аз често използваните неща си ги закачам на клавишна комбинация а за другото си ползвам alt+f2 :)
+[15:40:53] <phalaaxx> ctrl-b (browser), ctrl-m (mail client), ctrl-c (calculator), ... :)
+[15:41:08] <phalaaxx> оф излъгах
+[15:41:17] <phalaaxx> ctrl да се чете ctrl-alt :)
+[15:42:18] <phalaaxx> това в общи линии спестява доста разходка на дясната ми ръка до мишката и обратно на клавиатурата
+[15:42:49] <phalaaxx> touchpad-а също но това не е оферта при работа на настолна машина
+[15:43:19] <yulimoto_> да и аз имам доста key shortcut къстъмизации, за най-често използваните неща :)
+[15:44:01] <yulimoto_> лошото е че като почна да настройвам един десктоп, не ми мърдат 5-6 часа
+[15:44:36] <yulimoto_> ако искам всичко да ми е както на другия или както преди
+[15:45:12] <yulimoto_> аре пичове вдигам гълъбите
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:17:52] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[16:18:01] <dencho-at-work> ora! nqkoi s fedora i wifi !?
+[16:18:54] <rewind_> Хм... phalaaxx какъв ти е ускорителя,  не се ли оправяше този tearing от настройките на proprietary driver-a или си с OSS
+[16:20:40] <phalaaxx> nvidia, не успях да го наглася по никакъв начин иначе бая си играх и с драйверите и с някакви променливи в /etc/environment да слагам :)
+[16:21:50] <hackman> dencho, какъв ти е проблема ? :)
+[16:23:12] <rewind_> Иначе ползвам gnome-shell под формата на cinnamon на един лаптоп и Gnome 2 (Rocks! :) ) на SL-a
+[16:23:35] <rewind_> Cinnamon го намразих с proprietary драйвърите на AMD, но като че ли го оправиха последните няколко месеца
+[16:24:05] <dencho-at-work> hackman: wlan0     No scan results
+[16:24:35] <hackman> ifconfig wlan0 down
+[16:24:49] <hackman> ifconfig wlan0 up
+[16:24:52] <hackman> iwlist wlan0 scan
+[16:24:55] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) joined #telerikacademy.
+[16:25:00] <dencho-at-work> hackman: wlan0     No scan results
+[16:25:04] <hackman> KrasiGa, здрасти :)
+[16:25:14] <dencho-at-work> testvah go tova
+[16:25:26] <hackman> dencho-at-work, имаш ли бутонче за wifi-а ?
+[16:25:45] <rewind_> phalaaxx: с nouveau или с proprietary ?
+[16:25:49] <KrasiGa> hackman:  zdravei :)
+[16:26:21] <dencho-at-work> na laptopq li? Ne,
+[16:27:12] <phalaaxx> rewind_: proprietary
+[16:28:09] <dencho-at-work> tova se slu4i sled kato startirah headless virtualna ma6ina OpenBSD na virtualbox, laptopa zabi... i se naloji studen restart :D
+[16:28:15] <dencho-at-work> sled tova yok wlan0
+[16:28:31] <dencho-at-work> No wifi networks :D
+[16:30:02] <rewind_> phalaaxx: за съжаление нямам голям опит с nvidia по принцип, но си спомням, че беше всемирен проблем с compiz конкретно, поне когато аз си имах вземане-даване с nvidia адаптери
+[16:30:35] <hackman> dencho, reboot и след това си извади батерията
+[16:30:45] <hackman> остави го така за 10-15 сек
+[16:30:48] <hackman> и го пусни пак
+[16:33:00] <dencho-at-work> da go izkliu4a da mu izvada bateriata
+[16:33:04] <dencho-at-work> i sled 15 minuti da mu q sloja?
+[16:33:33] <rewind_> dencho-at-work: rfkill list all
+[16:33:38] <rewind_> dencho-at-work: какво връща ?
+[16:33:58] <rewind_> по-скоро имаше предвид 15 секунди hackman
+[16:34:35] <dencho-at-work> aghh ne sam pro4el
+[16:35:01] <hackman> rewind_, openbsd-то му е сипало друг firmware във WiFi-а
+[16:35:07] <rewind_> предполагам е визирал един бъг на федора - https://bugzilla.redhat.com/show_bug.cgi?id=713006
+[16:35:07] <wilindex> AttributeError: 'Config' object has no attribute 'bugzilla' (file "/usr/local/lib/python2.7/dist-packages/willie/config.py", line 177, in __getattr__)
+[16:35:12] <dencho-at-work> zna4i shutdown -h now, vadq bateriata, burkam si v nosa... i pak puskam
+[16:35:16] <wilindex> [ Bug 713006 – Airplane mode doesn't goes off ] - bugzilla.redhat.com
+[16:35:42] <rewind_> hackman: значи греша
+[16:36:07] <dencho-at-work> e kak 6a mi sipva we !
+[16:36:09] <dencho-at-work> ebahhh go
+[16:36:48] KrasiGa (9e3adfe7@gateway/web/freenode/ip.158.58.223.231) left irc: Ping timeout: 250 seconds
+[16:37:17] <dencho-at-work> btw... az go resetnah 2 puti i bez da mu vadq bateriata
+[16:37:28] <dencho-at-work> sq ako se okaje, 4e tva e re6enieto....
+[16:38:33] <phalaaxx> rewind_: засега си решавам проблема с gnome shell :)
+[16:39:08] <phalaaxx> wilindex: lol @ AttributeError :D
+[16:39:10] <dencho-at-work> btw v4era si rabote6e normalno :D
+[16:39:46] <rewind_> phalaaxx: да, с Nvidia работи нормално gnome-shell :D за разлика от Ати
+[16:39:51] <KpeTeHoug> dencho-at-work
+[16:39:53] <rewind_> изключая последните 2-3 месеца
+[16:40:04] <KpeTeHoug> dsa ne ti trqbva kombinaciq da enable wuobshte wlana
+[16:40:09] <KpeTeHoug> na laptopa : :)
+[16:40:17] <KpeTeHoug> kato Fn klawish
+[16:40:19] <KpeTeHoug> i neshto is
+[16:40:21] <KpeTeHoug> *si
+[16:40:43] <dencho-at-work> ne, sveti si lampata za wifi, az moga da go enable i disable i s mi6kata i s cmd
+[16:40:59] <dencho-at-work> fn + *kop4e s wifi = ne raboti na taq klaviatura :D
+[16:41:27] <dencho-at-work> za momenta ostava da testvam vadeneto na bateriata
+[16:44:19] <rewind_> със rfkill list all какво връща ?
+[16:46:58] <dencho-at-work> nqmam takava komanda az
+[16:46:59] <dencho-at-work> :D
+[16:50:15] <rewind_> :)
+[16:50:50] <rewind_> е ако имаше, можеше да пробваш и rfkill unblock all :D
+[16:55:12] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[16:58:04] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:03:34] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[17:16:17] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[17:18:09] angie_bg (~angie@77.236.189.210) left irc: Quit: Leaving.
+[17:23:21] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[17:23:44] <dencho-at-work> hackman: pe4eli
+[17:24:35] <hackman> принципно има софтуерно решение но отнема повече време :)
+[17:24:52] <dencho-at-work> mi az cql den s tfva sa zanimavam ot 11:00
+[17:24:53] <dencho-at-work> na sam
+[17:24:54] <dencho-at-work> :D
+[17:25:09] <dencho-at-work> 6a go eba!
+[17:25:09] <dencho-at-work> :D
+[17:36:12] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[17:45:25] <hackman> dencho-at-work, па да беше питал по-рано, да го ева :)
+[17:45:52] <dencho-at-work> pa nali iskam sam da si re6avam problemite :D haha to kat mi pisna i zeh da pitam :D
+[17:47:12] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[17:47:29] angie_bg (~angie@77.236.189.210) left #telerikacademy.
+[17:47:48] <dencho-at-work> angie_bg checker li e :P
+[17:48:08] <dencho-at-work> aide ora... otivam da sa gotvq za utre...
+[17:48:19] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:54:47] angie__ (~angie@77.236.189.210) joined #telerikacademy.
+[17:54:51] s0ny123 (~s0ny123@95.111.79.72) left irc: Quit: leaving
+[17:56:11] angie__ (~angie@77.236.189.210) left irc: Client Quit
+[17:56:33] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[17:57:04] angie__ (~angie@77.236.189.210) joined #telerikacademy.
+[17:57:16] angie__ (~angie@77.236.189.210) left irc: Client Quit
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:51] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[18:02:35] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:32:32] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[18:34:56] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[18:36:48] phalaaxx (~bozhin@94.26.20.166) left irc: Client Quit
+[18:39:21] Nick change: stratoss -> stratoss|away
+[18:40:17] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[18:41:23] <phalaaxx> xfce4 & xset -b - това има ли начин да се постигне в конфигурацията на xfce или трябва да си бодна командата да се стартира при логване?
+[18:43:14] <hackman> по-лесно ще ти е да си го сложиш да се изпълнява при login :)
+[18:43:39] <phalaaxx> да, че нещо не намирам никъде конфигурация за това в xfce-то
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:21:04] <Deyan2> http://arenabg.com/torrents/linux_professional_institute_lpi_training/361407/
+[19:21:07] <wilindex> [ Българският торент тракер | ArenaBG ] - arenabg.com
+[19:27:32] Nick change: stratoss|away -> stratoss
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:11:23] <yulimoto_> някой решавал ли е LPI 101 тестове ?
+[20:11:40] <yulimoto_> примерни тестове :)
+[20:32:22] sto|lxc (~ubuntu@94.26.85.140) joined #telerikacademy.
+[20:36:58] sto|lxc (~ubuntu@94.26.85.140) left #telerikacademy.
+[20:43:01] angie_bg (~angie@77.236.189.210) left irc: Remote host closed the connection
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:09:15] informer (~informer@78.90.229.234) joined #telerikacademy.
+[21:13:38] fityla (~AndChat20@85.118.193.191) joined #telerikacademy.
+[21:18:56] fityla (~AndChat20@85.118.193.191) left irc: Quit: Bye
+[21:52:08] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:25:58] sig_ (~sig@87.97.211.51) left irc: Ping timeout: 264 seconds
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:17:13] fityla (~AndChat20@85.118.193.164) joined #telerikacademy.
+[23:18:52] fityla_ (~AndChat20@85.118.193.185) joined #telerikacademy.
+[23:22:06] fityla (~AndChat20@85.118.193.164) left irc: Ping timeout: 245 seconds
+[23:30:27] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[23:37:49] fityla (~AndChat20@84.40.116.146) joined #telerikacademy.
+[23:40:53] fityla_ (~AndChat20@85.118.193.185) left irc: Ping timeout: 248 seconds
+[23:44:02] fityla (~AndChat20@84.40.116.146) left irc: Quit: Bye
+[23:44:33] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[23:48:52] <phalaaxx1> http://www.youtube.com/watch?v=ceX18O9pvLs   :)
+[23:48:52] <wilindex> [YouTube] Title: Video Tearing test | Uploader: Sharp Bang | Uploaded: 15/05/2012, 12:58 | Duration: 31secs | Views: 10,186 | Comments: 13 | Likes: 23 | Dislikes: 1
+[00:00:00] --- Thu Sep 12 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

@@ -1,0 +1,542 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:08:52] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[00:47:34] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:18:11] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:49:46] Guest59978 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:17:31] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:49:58] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[06:51:05] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:26:29] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[07:48:55] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:56:38] <Deyan> Добро утрооо
+[08:56:45] <Deyan> наспахте ли се
+[08:57:52] <KrasiGa> Добро утро!
+[08:58:03] <dencho> naspaaame sa...
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:04:51] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[09:09:30] <KrasiGa> yulimoto: да не те хваща параноята, че влизаш през tor :)
+[09:10:40] Action: dencho slaps yulimoto around a bit with a large trout
+[09:10:43] <dencho> eiii paranoia
+[09:11:32] <yulimoto> мне просто ми е интересно как се прави
+[09:12:29] <yulimoto> сега даже съм се навил да си направя openvpn->tor  ако мога де
+[09:13:02] <dencho> [09:18:18] <mila123> imali  nakoi maj ot jambol da izka da my dxam
+[09:13:03] <dencho> :D
+[09:13:06] <yulimoto> като съм навън до компютъра ми ще е опенvpn, а от там нататък тор
+[09:13:07] <dencho> yulimoto ti ot qmbol li be6e
+[09:13:07] <dencho> :D
+[09:13:16] <yulimoto> хахаах
+[09:13:17] <yulimoto> да
+[09:13:20] <yulimoto> давай я
+[09:13:24] <yulimoto> на стека
+[09:13:33] <dencho> e... :P predi da napravi6 tor-a i vpn-a, moje da se oblek4i6
+[09:13:40] <yulimoto> хахаха
+[09:13:45] <yulimoto> келеш
+[09:13:57] <yulimoto> аз не се облекчавам
+[09:14:07] <yulimoto> аз раздавам happyness :P
+[09:14:11] <dencho> ghahaha
+[09:14:16] <dencho> kade si we happyness :D
+[09:14:44] <yulimoto> някъде в интернет :)
+[09:15:14] <KrasiGa> аз си качих tor за телефона ама още не съм го рзцъквала
+[09:15:20] <yulimoto> тая от чат.инфо ли я набара
+[09:15:30] <KrasiGa> иначе за надроид версията се казва Orbot
+[09:15:31] <dencho> e ti ot kade si misli6, ama tva e muj we yulimoto we
+[09:15:47] <dencho> a be tva za pravec-a v4eta se okazalo istina we!?!??!?!?
+[09:16:02] <dencho> 6a go zglobqvat v kitai mai4e :D
+[09:16:14] <yulimoto> dencho: PR e ве, кампания
+[09:16:15] <KrasiGa> v Tajvan
+[09:16:30] <dencho> aa taivan
+[09:16:36] <dencho> qsna e rabotata
+[09:16:56] <KrasiGa> http://smartnews.bg/%D0%BF%D1%80%D0%B0%D0%B2%D0%B5%D1%86-%D1%81%D0%B5-%D0%B7%D0%B0%D0%B2%D1%80%D1%8A%D1%89%D0%B0-%D1%81-%D0%BD%D0%BE%D0%B2-%D1%83%D0%BB%D1%82%D1%80%D0%B0%D0%B1%D1%83%D0%BA/
+[09:16:57] <wilindex> [ Правец се завръща с нов ултрабук - Smart News ] - smartnews.bg
+[09:17:12] <KrasiGa> ne e na 100% потвърдена инфо
+[09:17:20] <dencho> vmesto da otvorat ZPP-to v botevgrad
+[09:17:25] <dencho> 6a go praat v taivan
+[09:17:39] <yulimoto> като кампания си е добре, от тук нататък само като видя ОС-ите които ще поддържа и ми става ясно
+[09:17:44] <dencho> KrasiGa v actualno.com 4etoh, 4e e 100% mai
+[09:18:24] <KrasiGa> ами може,
+[09:18:28] <yulimoto> иначе то ако е само табелата българска, става така че е само една кампания, а другото е шит
+[09:18:50] <dencho> da
+[09:18:52] <KrasiGa> интересно е каква е тази Правец ОС
+[09:18:59] <yulimoto> dencho: тва верно ли си чатиш с мъже за таквис ралти
+[09:19:20] <dencho> http://sciencelogy.actualno.com/Pravec-se-zavryshta-na-pazara-ot-Nova-godina-news_2798.html
+[09:19:21] <wilindex> [ "Правец" се завръща на пазара от Нова година - Actualno.com ] - sciencelogy.actualno.com
+[09:19:21] <yulimoto> KrasiGa: то и аз мога да ребрандирам линукс и да си изкарам собствена дистрибуция
+[09:19:26] <yulimoto> KrasiGa: всеки може
+[09:19:39] <dencho> nova godina nov kusmet
+[09:19:51] <dencho> yulimoto ne e verno :D
+[09:20:04] <KrasiGa> не си я видял и вече почна със заклюенията
+[09:20:27] <dencho> praec os :D se edno yulimoto os :D
+[09:20:31] <yulimoto> вземаш един линукс разцъкваш малко декстопа и казваш това е моя дистрибуция, ако хората чак толкова я харесат си ок
+[09:20:33] <KrasiGa> може да е нещо ново, човека да е посветил живота си на тази ОС
+[09:20:34] <dencho> unix like os :D
+[09:21:57] <yulimoto> шшшш вчера се измъчих с това центос направо ме върна в детската градина
+[09:23:25] <dencho> 6to?
+[09:25:20] <yulimoto> щото пускам един имейдж и пиша на инджикитайски, не знам къде е slash-a /, то май нямаше да отида до /etc/sysconfig да го оправя
+[09:25:43] <yulimoto> имейдж = имидж
+[09:26:55] <yulimoto> да не говорим че не можах да го оправя да вляза през vnc все ми иска парола, какво ли не сменях по насртрйките на vrde , иска ли иска парола
+[09:27:19] <dencho> e 6to pi6e6 na indjikitaiski ?
+[09:27:41] <yulimoto> щото тоя дето е правил имейджа си е избрал негова си подредба
+[09:28:04] <yulimoto> и при мен излиза "м" е "т" примерно
+[09:28:33] <yulimoto> ама се сетих за loadkeys
+[09:29:23] <yulimoto> имейджа*=имиджа
+[09:30:00] <yulimoto> някой знае ли как да си сменям изходните точки (exit nodes) в тор ?
+[09:30:48] <yulimoto> не от всяка изходна точка ме пуска в freenode ирс-то да се къннектвам
+[09:31:37] <yulimoto> -------------------------------------------------------------
+[09:32:01] <KrasiGa> да не заспа в/у клавиатурата?
+[09:33:10] <yulimoto> Ако има Правец ОС ,  най-вероятно тайванците са казали имаме и наша операционна система, ако искаш я вземи и си я ребрандирай т.е. ние ще го направим за теб
+[09:33:16] <yulimoto> KrasiGa: не
+[09:33:41] <yulimoto> .weather sofia
+[09:33:42] <wilindex> Yahoo! Weather - Sofia, BG: Fog, 14°C (57°F), 29in (982mb), Light air 2kt (↑)
+[09:33:47] <yulimoto> .weather yambol
+[09:33:48] <wilindex> Yahoo! Weather - Yambol, BG: Partly Cloudy, 13°C (55°F), 29in (1011mb), Calm 0kt (↑)
+[09:34:09] <yulimoto> мн мъгла тука, при вас как е ?
+[09:35:40] <KrasiGa> кой питаш?
+[09:36:24] <yulimoto> който отговори
+[09:36:42] <yulimoto> теб и dencho харсъзина
+[09:37:20] <KrasiGa> в Благоевград е мрачно но няма мъгла
+[09:37:57] <yulimoto> жалко, мъгла значи че отгоре няма мн облаци, което пък значи слънчево време :)
+[09:38:39] <yulimoto> аре бегам
+[09:38:43] <KrasiGa> аз въобще не мога да стартирам тор
+[09:38:56] <yulimoto> що
+[09:38:59] <KrasiGa> дали защото не вкарвам юзер и пас за проксито
+[09:39:17] <KrasiGa> ако знаех ..
+[09:39:18] <yulimoto> това някакъв gui клиент ли е ?
+[09:40:02] <KrasiGa> ами стартирам си Start tor browser.exe
+[09:40:25] <KrasiGa> Vidalia control panel izliza
+[09:40:28] <yulimoto> mmmmm това е някакъв bundle направо изтеглен
+[09:40:33] <yulimoto> да да
+[09:40:35] <yulimoto> сетих се
+[09:40:44] <yulimoto> и аз имам такъв на убунтуту
+[09:40:54] <KrasiGa> az sym na win7
+[09:40:55] <yulimoto> и ко вика
+[09:41:06] <yulimoto> като го пуснеш
+[09:41:32] <KrasiGa> ni]o ne kazva, spira na establishing an encrypted directory
+[09:42:44] <yulimoto> ами би трябвало в това vidalia или каквото е там да има log за да виждаш какво се случва
+[09:42:53] <yulimoto> няма начин да няма
+[09:42:59] <KrasiGa> ima
+[09:44:45] <KrasiGa> pipnah nqkoi nastroiki, ама ми казва, the proxy refused to allow connection
+[09:45:44] <KrasiGa> mmm da Proxy auth required :(
+[09:46:00] <KrasiGa> sigurno, понеже нямам юзер
+[09:46:15] <yulimoto> не ти трябва никакъв юзер
+[09:46:24] <KrasiGa> за проксито
+[09:46:34] <KrasiGa> нали минавам през прокси
+[09:46:43] <yulimoto> проксито е на локалхоста ти на порт 9050
+[09:47:03] <KrasiGa> тук в работат ми
+[09:47:05] <KrasiGa> и съм на 8080
+[09:47:11] <yulimoto> аааа
+[09:47:41] <yulimoto> това че те ограничават е друга ралта
+[09:48:01] <yulimoto> но може да се избегне де, малко играчка трябва
+[09:48:11] <KrasiGa> според мен е до автентикация
+[09:48:36] <KrasiGa> как?
+[09:48:37] <yulimoto> ами не ви знам мрежата, вие си знаете
+[09:49:31] <yulimoto> вероятно са ви задънени доста портове и са ви пуснали 80,443 и още някои според нуждите
+[09:50:53] <yulimoto> във хелпа на тази видалия има варианти показани :) setting up Tor Relay . това помага когато някои ISP забраняват тор
+[09:51:00] <dencho> KrasiGa sigurno 6te te karam da hodi6 do universitetskata knijarnica tiq sedmici :D
+[09:51:44] <KrasiGa> dencho: какво имаш предвид?
+[09:52:13] <KrasiGa> yulimoto:  не мисля, че е забранен Tor
+[09:52:15] <dencho> da mi kupuva6 u4ebnik, poneje "vuina ti" koqto mi prepodava, kaza, 4e samo tam se prodava neiniq u4ebnik
+[09:52:42] <KrasiGa> dencho: нещо ме бъркаш
+[09:53:06] <dencho> KrasiGa ot blagoevgrad?
+[09:53:10] <KrasiGa> да
+[09:53:16] <dencho> zna4i ne te burkam hi4 :D
+[09:53:26] <KrasiGa> каква вуйна бре човек?
+[09:53:51] <KrasiGa> иначе ще ти купя
+[09:53:54] <KrasiGa> няма проблем
+[09:54:06] <KrasiGa> от ЮЗУ-то ли?
+[09:55:03] <dencho> ya
+[09:55:32] <dencho> vuina ti - ozna4ava, 4e jenata se e u4ila na vremeto na purvia kompiutar :D
+[09:55:38] <yulimoto> KrasiGa: сега отворих това видалия, има цък-цък настройка да направя тор-прокси демек да се конектваш
+[09:56:10] <yulimoto> кой порт искаш ?
+[09:56:18] <yulimoto> т.е. какво е отворено при теб
+[09:56:24] <dencho> 443 100% :D
+[09:57:32] <dencho> btw znaete li 4e, na localna mreja ako se bocne6 v switch-a! s wireshark moje6 da slu6a6 voip razgovorite?
+[09:57:33] <dencho> :D
+[09:58:51] <yulimoto> можеш да слушаш всичко дето е некриптирано, и не е нужно да си точно в swicha, просто трябва да насроиш компа си да обръща внимание на всички пакети които достигат до него
+[09:59:13] <yulimoto> т.е. ти и криптираното ще слушаш ама трябва да го декрпитираш
+[09:59:30] <yulimoto> и да трябва да си в локалната мрежа
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:33] <dencho> ya ya
+[10:00:34] <dencho> :D
+[10:00:37] <dencho> az sam slu6atel
+[10:00:38] <dencho> :D
+[10:01:12] <yulimoto>  85.155.88.162:443
+[10:01:12] <yulimoto>   54.217.117.235:443
+[10:01:12] <yulimoto>   89.182.135.3:443
+[10:01:12] <yulimoto>   85.155.88.162:443
+[10:01:12] <yulimoto>   bridge obfs2 54.217.117.235:52176
+[10:01:15] <yulimoto>   89.182.135.3:443
+[10:01:17] <yulimoto>   85.155.88.162:443
+[10:01:19] <yulimoto>   bridge obfs3 54.217.117.235:40872
+[10:01:22] <yulimoto>   89.182.135.3:443
+[10:01:32] <yulimoto> https://bridges.torproject.org
+[10:01:33] <wilindex> [ web.Server Traceback (most recent call last) ] - bridges.torproject.org
+[10:03:38] <yulimoto> KrasiGa: 8080 върши ли ти работа. не го направих на 443 защото за портове под 1024 иска руут и трбява да си оправям пермишъните на акаунта
+[10:08:00] <KrasiGa> момент, не бях тук
+[10:08:11] <KrasiGa> закусвам
+[10:10:09] <yulimoto> значи има възможност аз да стана прокси за теб и от там да прекарам връзката към тор
+[10:10:42] <KrasiGa> аз да имам нет задължително трябвца да изляза през нашето прокси
+[10:11:12] Nick change: phalaaxx_ -> phalaaxx
+[10:13:13] <KrasiGa> dencho:  kakvo stana s rabotata
+[10:13:15] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 245 seconds
+[10:13:19] <KrasiGa> 6te po4va6 li nqkade
+[10:13:33] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[10:14:41] <Deyan> http://www.jobs.bg/f1972134
+[10:14:42] <wilindex> [ jobs.bg - Предложения за работа от водещи компании в България - Продавач консултант ] - www.jobs.bg
+[10:15:14] <dencho> extra
+[10:15:15] <dencho> :D
+[10:15:21] <dencho> tva za kade?
+[10:15:21] <dencho> :D
+[10:15:46] <dencho> Кърджали
+[10:15:53] <yulimoto> KrasiGa: https://www.torproject.org/docs/bridges
+[10:15:54] <wilindex> [ Tor Project: Bridges ] - www.torproject.org
+[10:16:47] <yulimoto> dencho: ей тва е описание
+[10:16:57] <yulimoto> компютърна грамотност
+[10:17:41] <yulimoto> аре ходя че пак се олях в спам-приказки :)
+[10:17:52] <Deyan> yulimoto: компютарна  искаш да кажеш
+[10:18:19] <Deyan> това е по-скоро "компютарна" неграмотност
+[10:19:13] <KrasiGa>  If your Internet connection requires the use of a proxy, you'll probably need to configure Vidalia to do so first. If
+[10:19:49] <KrasiGa> при мен е точно този случай, но ме спира при автентикацията за проксито така, че ще "духам супата"
+[10:25:23] <KpeTeHoug> KrasiGa аз май те бях питал, но не можеш ли да си иснталираш hamachi ?
+[10:25:28] <KpeTeHoug> и да ползваш през него интернет ?
+[10:25:32] <KpeTeHoug> и добро ви утро
+[10:25:35] <KpeTeHoug> или май ден вече
+[10:26:03] <KrasiGa> Dobro i na teb KpeTeHoug
+[10:26:06] <KrasiGa> ne sme govorili za hamachi
+[10:27:00] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[10:28:24] <KpeTeHoug> ми говорих с някого тук
+[10:28:27] <KpeTeHoug> може и да се бъркам
+[10:28:28] <KpeTeHoug> :)
+[10:29:21] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[10:30:06] <dencho> f
+[10:30:16] <dencho> za6to me dropqsa sq
+[10:30:27] <KpeTeHoug> ми губиш пакети сигурно :0
+[10:30:33] <KpeTeHoug> (Ping timeout: 265 seconds)
+[10:31:14] <dencho> mi su6ih si kosata na su6tiq razklonitel kudeto e switcha
+[10:31:15] <dencho> :D
+[10:31:24] <dencho> ebaaa go :D
+[10:31:37] <KpeTeHoug> ми, смущение и леко прескачане в напрежението
+[10:31:43] <KpeTeHoug> и хоп - няма пакети ;)
+[10:34:19] <dencho> qsno,
+[10:34:29] <dencho> 6te trqbva da go otdelqm na otdelno
+[10:34:30] <dencho> :D
+[10:34:52] <dencho> e sq kat kupuam na tu6tata razklonitel ot Deyan, 6a si zema i za mene
+[10:34:52] <dencho> D:
+[10:36:47] <KpeTeHoug> хахах
+[10:36:51] <KpeTeHoug> вземи си хубав
+[10:37:04] <KpeTeHoug> да има застраховка за 500 евро, за ел. уредите закачени на него
+[10:37:14] <KpeTeHoug> и после изпуши някой стара бракма, да ти купят нов комп ;)
+[10:54:31] <dencho> e to ima li takiva :D
+[10:55:22] <KpeTeHoug> ем незнам, нали сте гъсти с Deyan, може напрайте една далавера :)
+[10:56:24] <dencho> Deyaneeeeeeeei dai da praim dalavera we
+[10:56:24] <dencho> :D
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:07:58] <yulimoto> dencho: ти voip-то с какво ще го слушаш, след като вземеш пакетите ве ?
+[11:08:59] <dencho> wireshark we
+[11:09:16] <dencho> direktno slusham we
+[11:09:26] <dencho> davam mu pley i slu6am
+[11:09:36] <yulimoto> аве wireshark ще ти снифи пакетите, да няма да четеш кода от матрицата директно ве НЕО ?
+[11:09:47] <KpeTeHoug> той dencho чете директно 0 и 1
+[11:09:51] <KpeTeHoug> няма се закачаш с него
+[11:09:52] <KpeTeHoug> ей
+[11:09:57] <dencho> i 4eta i pi6a daje 0 i 1
+[11:09:57] <dencho> :D
+[11:09:59] <yulimoto> ясно
+[11:10:39] <dencho> v4era stana na vupros za wireshark i voip i kazaha 4e moje da se 4uva :D 6te go testvam sus skype, ama to nali kazvat 4e imat kriptirovki nekvi
+[11:10:53] <yulimoto> KrasiGa: В броузера ли имаш настройки на прокси ? Това прокси от софийския ви офис ли е ? Това прокси с парола ли е ? Значи имаш парола някъде на твоя компютър така ли ?
+[11:11:18] <yulimoto> скайпа нема, ако става въпрос за чат
+[11:11:25] <yulimoto> за глас мисля че има
+[11:11:32] <yulimoto> кой ти каза тия неща ве ?
+[11:11:44] <yulimoto> къде ходиш да ги слушаш
+[11:12:03] <KrasiGa> yulimoto: в браузара е, но нямам никъде /или поне не знам да имам/ парола. Аз съм си го инсталирала и конфналал компа
+[11:12:05] <dencho> cisco uprajneniq vuv fmi
+[11:12:18] <KrasiGa> знам само ип-то и на кой порт е
+[11:12:30] <yulimoto> и на кой порт е ?
+[11:12:38] <KrasiGa> 8080, нали ти казах
+[11:12:44] <yulimoto> не че ще ми помогне
+[11:12:44] <yulimoto> а да
+[11:15:29] <yulimoto> KrasiGa: щом няма парола проксито, мисля можеш да пробваш нещо. Отиди във Vidalia->Настройки на предаването->Мрежа там трябва да има нещо по твоя въпрос
+[11:15:44] <yulimoto> т.е. нещо от рода "Ползвам прокси за интернет"
+[11:17:02] <yulimoto> може би хттп/хттпс като тип на проксито с порт 8080
+[11:17:42] <yulimoto> dencho: биват ли тия упражнения ?
+[11:19:43] <dencho> yulimoto mi za mene bivat :) az ne sam vijdal cisco prez jivota si
+[11:28:12] <KrasiGa> е много ясно, че избирам типа на проксито
+[11:28:23] <KrasiGa> абе зарежи го
+[11:30:46] <KrasiGa> Някой има ли представа как Office 2013 мога да го направя от БГ на En? Лицензиран е,и в пакета дето е инсталиран няма английски. Дали мога да си дръпна от някъде
+[11:31:13] <KrasiGa> Колегите от Сф казаха, че не може ама аз не им вярвам много
+[11:32:05] <KpeTeHoug> а не искаш ли англисйки пакет ? да си напишеш само оригиналният код
+[11:34:22] <KrasiGa> нямам код :( Този път не ни дадоха а с отдалечен достъп го инсталираха на 2 компютъра /от 100/
+[11:34:57] <KrasiGa> а държат да се работи с офис-а. А сме качили Libra на всички, но някои софтуери не рабптят с нея
+[11:35:00] <KrasiGa> абе немам думи
+[11:35:30] <KrasiGa> да не ви казвам, че повечете са с офис 2000 на PC-ta със win7
+[11:36:04] <KpeTeHoug> е и при нас е така :)
+[11:36:14] <KpeTeHoug> ако искаш имам много готин " излекуван" пакет на 2003
+[11:36:23] <KpeTeHoug> :)
+[11:36:39] <KrasiGa> aaa ne, ina4e imam 2007
+[11:37:17] <KrasiGa> но свиквам с 2013, но за съжаление половината от hot keys не работят заради този БГ
+[11:38:12] <KpeTeHoug> http://www.microsoft.com/en-us/download/details.aspx?id=1281
+[11:38:16] <KpeTeHoug> wild guess
+[11:38:18] <wilindex> [ Download Office 2003 Add-in: Desktop Language Settings from Official Microsoft Download Center ] - www.microsoft.com
+[11:39:41] <dencho> kvo kvo.. piratski soft li se razdava tuka
+[11:39:41] <dencho> :D
+[11:40:06] <KpeTeHoug> хахах
+[11:41:06] anton_dutsov (~Thunderbi@178.75.229.40) joined #telerikacademy.
+[11:41:10] <KpeTeHoug> аз само казах излекуван
+[11:41:13] <KpeTeHoug> не пиратски
+[11:41:13] <KpeTeHoug> :)
+[11:42:13] <anton_dutsov> Добър ден на всички.
+[11:42:16] <KpeTeHoug> добър да е
+[11:43:43] <anton_dutsov> KpeTeHoug: има ли инфо около изпита освен казаното на миналата лекция?
+[11:44:38] <KpeTeHoug> не доколкото ми е известно
+[11:44:59] <KrasiGa> за какво толкова се тормозите с този изпит
+[11:45:02] <KrasiGa> за сертификати ли се борите?
+[11:45:07] <anton_dutsov> на 24-ти ли остава последната лекция т.е. "Подготовка за изпита"?
+[11:46:03] <anton_dutsov> KrasiGa: Аз лично се боря за сертификат.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:10:06] <yulimoto> anton_dutsov: не мисля, че последната лекция "остава" на 24-ти защото доколкото знам не е била договаряна дата за последна лекция :)
+[12:11:01] <dencho> anton_dutsov ot opita koito pridobih posledniq mesec po interviuta se okaza, 4e sertifikat ne ti trqbva, poneje kudeto i da otide6 da tursi6 rabota i horata kato vidqt Telerik Academy Linux System Administration im stava qsno, o6te pove4e 4e kato kaje6 Hackman i vsi4ki go poznavat :D
+[12:11:37] <dencho> t.e ... dali 6te s listo ili bez v slu4aq e bez zna4enie
+[12:14:41] <yulimoto> хахах стига Ва dencho стига ще се застрелям Ва
+[12:18:29] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[12:22:01] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[12:35:21] anton_dutsov (~Thunderbi@178.75.229.40) left irc: Ping timeout: 248 seconds
+[12:38:32] <dencho> yulimoto hahahaha
+[12:38:33] <dencho> :D
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:29:04] <KrasiGa> dencho: по твоите думи значи има значение сертификата
+[13:29:14] <KrasiGa> а така с казване всеки може
+[13:29:24] <KrasiGa> даже и да не посещава курса
+[13:29:44] <KrasiGa> а като покажеш документ .... еее това е друга работа :)
+[13:31:01] <phalaaxx> сертификатите са мноооого полезно нещо в някои случаи
+[13:31:04] <KrasiGa> ама ти в CV-to ли си писал тоя курс? ooo значи да си ъпдейтвам моето
+[13:31:50] <KrasiGa> phalaaxx: зависи кои?  винаги съм си милела, че сертификат за език е безмислен
+[13:32:57] <phalaaxx> ааа винаги е полезно да имаш документ, който показва че си учил(а) това, което не го знаеш/разбираш :D
+[13:33:01] <phalaaxx> мен дипломата ми е такава :D
+[13:33:42] <KrasiGa> да бе, и аз имам сертификат за ниво по испански ама една дума не мога да обеля
+[13:33:50] <KrasiGa> и за какво ми е?
+[13:34:02] <KrasiGa> даже ще ме е срам да го упомена някъде
+[13:34:51] <phalaaxx> мен в дипломата ми пише че съм машинен инженер (бакалавър)
+[13:34:57] <KrasiGa> аааа да, сетих се за още един. За телефонна централа на алкател
+[13:35:08] <phalaaxx> а в МЕИ-то имахме един такъв лаф - като знам какъв съм инженер ме е страх да отида на лекар :D
+[13:35:12] <KrasiGa> е нали разбираш от машини :)
+[13:35:25] <KrasiGa> :) знам знам и аз съм от тази школа
+[13:37:29] <KrasiGa> иначе си мислех дали този сертификат от този курс /при условие, че е само този курс в телерик а не цял семестър/ ще е ценен. dencho сериозно те питам
+[13:37:45] <KrasiGa> като ходиш по интервюта взимат ли на внимание този курс?
+[13:38:36] <phalaaxx> та относно сертификатите, имам приятел, който работи известно време в HP и се сдоби с няколко сертификата там
+[13:38:36] <phalaaxx> и благодарение на тях сега има завидно хубава работа човека :)
+[13:39:36] <KrasiGa> ее да, за такива съм съгласна
+[13:39:54] <KrasiGa> специлано за този от телерик се чудех как го оценяват фирмите, които търсят кадри
+[13:40:22] <phalaaxx> колкото повече - толкова повече
+[13:40:23] <phalaaxx> със сигурност с него ще ти е по-висока оценката отколкото без него
+[13:40:52] <dencho> KrasiGa vzimat go
+[13:40:56] <dencho> pod vnimanie
+[13:41:08] <dencho> no ne me pitat vzel li sam sertifikata
+[13:41:08] <dencho> :D
+[13:41:45] <KrasiGa> значи за следващото интервю си харесай още 2-3 курса и ги впиши и тях ;)
+[13:42:01] <dencho> ne me pitat za sertifikata prosto za6toto ima test predi interviuto :D
+[13:42:03] <dencho> hahaha
+[13:42:09] <phalaaxx> това като абв преди няколко години...
+[13:42:47] <dencho> kakvo za abv ?
+[13:42:49] <KrasiGa> какво е това абв?
+[13:43:05] <phalaaxx> преди нова година бяха написали след логване "екипът на АБВ.БГ ви поздравява с коледните и новогодишни празници с 4GB"
+[13:43:15] <phalaaxx> а пощата си ми седеше на 3GB
+[13:43:25] <dencho> haha
+[13:43:25] <dencho> :D
+[13:43:26] <KrasiGa> :)
+[13:43:29] <phalaaxx> та си мислех че сигурно е някаква мода да се поздравяват случайни хора с несвързани неща
+[13:43:30] <dencho> razbrahme :D
+[13:43:31] <KrasiGa> рекламен трик
+[13:43:50] <phalaaxx> и си мислех като вървя по улиците дали да не поздравявам хората с куфарчета с пари и ферарита и яхти примерно
+[13:43:54] <phalaaxx> ма такива хора дето не ги познавам
+[13:43:55] <phalaaxx> :)
+[13:44:23] <dencho> mene moje da me pozdravi6 s edin pravec
+[13:44:27] <KrasiGa> за яхтите трудно ще разбереш кой има и кой няма
+[13:44:46] <phalaaxx> не не... просто да ги поздравя
+[13:44:53] <phalaaxx> както АБВ направиха тогава
+[13:45:00] <dencho> btw az ne sam hodil i na mnogo interviuta de... no tam kudeto otidoh... Telerik im se be6e nabilo v o4i4kite
+[13:45:10] <phalaaxx> не че ще им дам нещо, или че те го имат нещото с което ги поздравявам
+[13:45:56] <KrasiGa> да разбрахте, имах друг предвид ама нз
+[13:47:16] <KrasiGa> еми ще им се набие, поне предлагат качествено обучение
+[13:47:46] <KrasiGa> аз лично от ТУ нищо не съм научила
+[13:48:07] <KpeTeHoug> KrasiGa пробва ли тая джаджа за офис 2003 ?
+[13:48:24] <KrasiGa> аз търся за 2013 - само 10 години по-късно
+[13:48:29] <KpeTeHoug> ааа
+[13:48:32] <KpeTeHoug> аз що видях 2003 :)
+[13:48:38] <KrasiGa> е не знам
+[13:48:59] <dencho> i te taka, :D
+[13:49:20] <KrasiGa> но имаш елинк нещо от рода: pay for langugae package 2013
+[13:49:23] <KrasiGa> не ми се зареди
+[13:49:35] <KrasiGa> но предполагам, че са го направили итова платено
+[13:52:27] <KrasiGa> *един линк
+[13:53:04] <KpeTeHoug> ами доколкото видях тука из форумите
+[13:53:15] <KpeTeHoug> трябва да си свалиш ново копие от твоят акаунт в майкрософт
+[13:53:20] <KpeTeHoug> а ти такъв нямаш :)
+[13:53:21] <KpeTeHoug> така че
+[13:53:35] <KrasiGa> ще се мъча на БГ
+[13:54:03] <KrasiGa> и ще ползам по-често мишката :(
+[13:54:12] <KrasiGa> *ползвам
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:27:42] anton_dutsov (~Thunderbi@178.75.226.27) joined #telerikacademy.
+[14:32:57] <KpeTeHoug> http://www.youtube.com/watch?v=x_CzD0GBD-4
+[14:32:57] <wilindex> [YouTube] Title: Yoshida Brothers - Rising from Best Of Yoshida Brothers　吉田兄弟 | Uploader: yoshidabrotherstv | Uploaded: 17/05/2010, 18:34 | Duration: 3mins 35secs | Views: 1,926,829 | Comments: 1,361 | Likes: 15,106 | Dislikes: 145
+[14:33:30] <KpeTeHoug> това от на денчо любимите
+[14:41:12] <dencho> q da vida i da oda da se brusna
+[14:41:37] <dencho> male naprao
+[14:41:38] <dencho> :D
+[14:43:00] <dencho> tva po4ti kato tva we http://youtu.be/TzL-M39Y3j8
+[14:43:00] <wilindex> [YouTube] Title: Balkandji - Krali Marko | Uploader: vladoi | Uploaded: 17/02/2007, 15:35 | Duration: 3mins 37secs | Views: 37,432 | Comments: 62 | Likes: 151 | Dislikes: 7
+[14:43:00] <dencho> :D
+[14:43:02] <dencho> haha
+[14:44:41] <KpeTeHoug> направо си е същото :)
+[14:47:53] <KpeTeHoug> само се чудя кой от кога е заемствал
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:43:11] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[15:46:34] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:09:38] Fairytale (~svetlyo@police.executie.org) joined #telerikacademy.
+[16:09:58] Nick change: Fairytale -> Guest57668
+[16:11:45] Guest57668 (~svetlyo@police.executie.org) left irc: Client Quit
+[16:12:49] svetlyo_ (~svetlyo@police.executie.org) joined #telerikacademy.
+[16:13:34] svetlyo_ (~svetlyo@police.executie.org) left irc: Client Quit
+[16:19:07] Svetlyo (~Fairytale@police.executie.org) joined #telerikacademy.
+[16:21:53] <Svetlyo> Хмм,не мога да се погна с ника ми.
+[16:29:27] anton_dutsov (~Thunderbi@178.75.226.27) left irc: Quit: anton_dutsov
+[16:29:34] <KrasiGa> що така бе Светльо?
+[16:29:38] <KrasiGa> Ти полицай ли си?
+[16:30:28] <Svetlyo> ГДБОП
+[16:31:04] <Svetlyo> Документи за проверка
+[16:32:09] <Svetlyo> Включих защитата за ника да дисконектва,ако не се напише парола.
+[16:33:41] <Svetlyo> Сега се логнах и забравих да напиша паролата, дисконектна ме и няма логване повече.
+[16:44:45] <KrasiGa> може би има time out
+[16:44:50] <KrasiGa> пробвай пак утре
+[16:54:36] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:02:45] vhristev (~vhristev@212.36.1.26) joined #telerikacademy.
+[17:03:25] Nick change: Svetlyo -> Fairytale
+[17:04:03] <Fairytale> Ееей успях.
+[17:04:46] <Fairytale> Явно ника се блокира за някакво време.
+[17:24:54] <yulimoto> има ли някакви демони, които да следят дали ти е крашнал определен сървър ? Примерно при node.js мога да си сложа един пакет forever който следи да не ми крашне сървъра и ако това се случи рестартита.
+[17:25:44] <yulimoto> Това върши ли работа http://supervisord.org/ .  Мога ли да му имам доверие ? Някой ползва ли такива работи :)
+[17:25:45] <wilindex> [ Supervisor: A Process Control System — supervisor 3.1a1-dev documentation ] - supervisord.org
+[17:26:28] <yulimoto> Едно кратичко ревю на опита Ви и съвети по темата са ми достатъчни :)
+[17:36:01] <vhristev> Може да разгледаш "watchdog"
+[17:58:10] <phalaaxx> yulimoto: daemontools
+[17:58:37] <phalaaxx> впрочем... upstart също върши работа
+[17:59:05] <phalaaxx> както и shell script
+[17:59:18] <phalaaxx> runit
+[17:59:22] <phalaaxx> абе варианти много :D
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:06:20] Guest59978 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:08:07] vhristev (~vhristev@212.36.1.26) left irc: Ping timeout: 265 seconds
+[18:20:16] Nick change: phalaaxx -> phalaaxx_
+[18:23:55] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[18:26:58] fityla (~AndChat20@85.118.193.176) joined #telerikacademy.
+[18:27:27] <fityla> Jivi ima li...
+[18:31:00] <fityla> А умрели...
+[18:31:22] <fityla> Ясно гробна тишина
+[18:31:53] <dencho> ima zombi procesi
+[18:32:35] <fityla> Тия са най гадни
+[18:32:52] <fityla> За трепане
+[18:36:28] <fityla> Нещо халман
+[18:37:24] <fityla> Казвал ли е за промяна на залата за днес
+[18:37:33] <fityla> Hackman
+[18:39:22] <dencho> ne sam 4ul
+[18:41:59] <Fairytale> Hackman още го няма.
+[18:42:35] <fityla> Видях го
+[18:42:44] <Fairytale> ти там ли си?
+[18:43:08] <fityla> Ще му напрая засада на входа
+[18:43:15] <Fairytale> :-)
+[18:43:15] <fityla> Да
+[18:43:41] <Fairytale> По принцип имаше ли места на миналата лекция?
+[18:43:57] <dencho> ima6e
+[18:43:58] <dencho> mnogo
+[18:44:01] <dencho> zalata e golqma
+[18:44:11] <Fairytale> Това нали е Лозенец ФМИ?
+[18:44:35] <fityla> Да
+[18:44:35] <fityla> Баш там
+[18:44:41] <Fairytale> Мерси
+[18:46:14] <Fairytale> Сега пак ме е яд, че не дойдох ама ме марзи да излезна от нас.
+[18:46:38] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:46:53] <Fairytale> ..мързи
+[18:50:18] <yulimoto> phalaaxx_: upstart каква работа върши, доколкото помня когато го гледах имаше някаква опция примерно ако се килне процеса да го рънне пак, това ли имаш предвид ?
+[18:50:52] <yulimoto> т.е. upstart каква работа върши в случая*
+[18:52:31] <yulimoto> phalaaxx_: т.е. интересуваме дали тези демони навлизат по-навътре в приложението, за да разберат дали нещо не е наред в него или просто следят статуса му като процес и вземат решение на базата на това
+[18:52:40] <yulimoto> трябва да пробвам
+[18:52:48] <yulimoto> така ще стане
+[18:55:49] <fityla> Причакваме мариян
+[18:55:56] <fityla> Още....
+[18:59:13] <sig_> да не е за 19.30?
+[18:59:44] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:04] <fityla> Не
+[19:00:05] <fityla> Вътре сме
+[19:01:18] <fityla> Вадиме антуража...
+[19:01:21] <fityla> И почваме
+[19:01:30] <Fairytale> супер
+[19:05:09] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) joined #telerikacademy.
+[19:09:02] Fairytale (~Fairytale@police.executie.org) left irc: Read error: Connection reset by peer
+[19:10:22] <fityla> Стана червено
+[19:13:16] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:27:25] vhristev (vhristev@77.70.112.88) joined #telerikacademy.
+[19:31:07] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[19:41:14] angie_bg (~angie@77.236.189.210) left #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:42] vhristev (vhristev@77.70.112.88) left irc: Ping timeout: 265 seconds
+[20:36:47] fityla_ (3e2c6546@gateway/web/freenode/ip.62.44.101.70) joined #telerikacademy.
+[20:40:54] lyubenblagoev__ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[20:44:25] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[20:47:38] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[20:48:24] AndChat-205625 (~AndChat20@85.118.193.175) joined #telerikacademy.
+[20:50:10] fityla (~AndChat20@85.118.193.176) left irc: Ping timeout: 260 seconds
+[20:55:19] vhristev (vhristev@77.70.112.88) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:02:24] fityla (~AndChat20@2001:67c:20d0:3a:3592:772c:75b2:6102) joined #telerikacademy.
+[21:05:21] fityla (~AndChat20@2001:67c:20d0:3a:3592:772c:75b2:6102) left irc: Client Quit
+[21:06:20] AndChat-205625 (~AndChat20@85.118.193.175) left irc: Ping timeout: 240 seconds
+[21:08:25] <fityla_> hydra
+[21:08:29] <fityla_> е много актуална
+[21:13:31] fityla_ (3e2c6546@gateway/web/freenode/ip.62.44.101.70) left irc: Quit: Page closed
+[21:19:04] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[21:19:04] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[21:22:12] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) left irc: Ping timeout: 245 seconds
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:07:37] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: killed by ChanServ
+[22:30:05] lyubenblagoev__ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 268 seconds
+[22:40:44] vhristev (vhristev@77.70.112.88) left irc: Ping timeout: 265 seconds
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:35:32] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[23:42:07] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[00:00:00] --- Thu Oct 17 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

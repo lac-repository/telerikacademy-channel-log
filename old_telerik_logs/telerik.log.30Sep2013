@@ -1,0 +1,389 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:12:44] Guest59978 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:54:40] <Rod> някой да може да ми каже в slackware при липсата на файла /etc/security/limits.conf  как мога да задам лимит за процеси на даден потребител ?
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:02:14] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:04:12] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[01:04:39] <hackman_> Rod, направи си shell script в /etc/profile.d
+[01:04:41] <hackman_> :)
+[01:11:23] <Rod> tnx man :P
+[01:51:12] alabala (~immortal@unaffiliated/alabala) left irc: 
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:02:47] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 256 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:42:40] Nick change: hackman_ -> hackman
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:03:20] Nick change: ndyakov -> ndyakov|away
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:21:34] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[07:38:30] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[07:39:07] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[07:39:25] <dencho> dneska mi e posledniq den :D da ida da si sabera ne6tata ot biuroto :D
+[07:43:10] Rod (~Rod@143.Red-88-15-53.dynamicIP.rima-tde.net) got netsplit.
+[07:43:11] phalaway (~bozhin@94.26.20.166) got netsplit.
+[07:43:55] Rod (1000@143.Red-88-15-53.dynamicIP.rima-tde.net) joined #telerikacademy.
+[07:54:00] phalaway (~bozhin@94.26.20.166) got lost in the net-split.
+[07:58:02] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:48:27] Nick change: ndyakov|away -> ndyakov
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:04:17] hackman (~hackman@87.118.135.253) left irc: Ping timeout: 260 seconds
+[09:06:22] Nick change: ndyakov -> ndyakov|away
+[09:09:29] <KpeTeHoug> събери и някой повече, ако не те хванат dencho
+[09:09:31] <KpeTeHoug> и добро ви утро
+[09:36:13] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 252 seconds
+[09:44:22] anton_dutsov (~Thunderbi@89.106.116.206) joined #telerikacademy.
+[09:44:45] anton_dutsov (~Thunderbi@89.106.116.206) left irc: Client Quit
+[09:45:34] anton_dutsov (~Thunderbi@89.106.116.206) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:12:11] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[10:21:28] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 256 seconds
+[10:25:09] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[10:50:30] Action: KpeTeHoug  Sticks this@}>--'--,--'---  up  dencho 's butt and I hope the Thorn sticks you in the  (_(_)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:38:33] phalaaxx (~bozhin@94.26.20.166) got netsplit.
+[11:49:00] phalaaxx (~bozhin@94.26.20.166) got lost in the net-split.
+[11:53:10] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:56:52] nlkl (~nlkl@nat102.cnsys.bg) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:07:02] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 245 seconds
+[13:11:53] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[13:16:44] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[13:16:54] <dencho> drasti
+[13:23:43] <KpeTeHoug> драсти
+[13:23:51] <KpeTeHoug> чопна ли някой телбот :)
+[13:24:04] <dencho> to be6e paperless ofise
+[13:24:04] <dencho> :D
+[13:24:13] <dencho> ofis :D
+[13:24:54] <KrasiGa> някоя мишка или клавиатура да си беше взел тогава :)
+[13:25:09] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[13:26:21] <KpeTeHoug> :)
+[13:26:33] widwool (~Toshiba@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[13:31:48] <dencho> hahaha
+[13:32:15] <dencho> mi za 6 meseca uspqh da s4upa edna mi6ka, i po4ti da s4upa OS-a za vtori put :D
+[13:32:31] <dencho> na tretiq mesec se naloji da preinstaliram :D ghaha
+[13:32:33] <KpeTeHoug> е, да им беше занесал тогава една мишка :)
+[13:33:15] <dencho> sq sam svoboden agent... :D trqq da oda da skeniram preporukata i sertifikatq, i da se zapoznaq s moqta nova socialna mreja jobs.bg :D
+[13:34:21] <KrasiGa> успех dencho
+[13:34:33] <KrasiGa> Не е приятно занимание ама няма начин
+[13:36:24] widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[13:36:37] <dencho> :]
+[13:39:15] <KpeTeHoug> тъкмо ще имаш време да учиш
+[13:39:22] <KpeTeHoug> и да трошиш виртуалки
+[13:39:34] <dencho> vuprosa ne e vuv vremeto za u4ene... a vuv vremeto za qdene :P
+[13:41:38] widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[13:43:48] <KrasiGa> я да Ви питам, само от курса за линукс ли се интересувате или ще слушате и другият за Уиндоус?
+[13:44:55] widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[13:45:01] <KpeTeHoug> аз и от 2та
+[13:45:31] <dencho> i az
+[13:45:45] <KrasiGa> има ли инфо кога ще почне? помня, че имаше предложения да са паралелно, но явно не са
+[13:45:59] <KpeTeHoug> а моля те, паралелно
+[13:46:00] <KpeTeHoug> :)
+[13:46:02] <KpeTeHoug> не мерси
+[13:46:06] <KpeTeHoug> след нова година, прдполагам ?
+[13:46:11] <dencho> az mislq, ako imam vreme i tozi po mreji koito hackman 6te go vodi ot SU
+[13:46:13] <KrasiGa> е то вече няма за кога
+[13:46:41] <KrasiGa> а ще има ли онлайн на този по мрежи?
+[13:46:44] <KrasiGa> сигурно не
+[13:47:27] <KpeTeHoug> ще има
+[13:47:33] <KrasiGa> , че защо след нова година? може веднага след линукса да почне
+[13:47:46] <KpeTeHoug> той каза че му е харесало онлайн лекциите и ИРЦ
+[13:47:56] <KrasiGa> еее ми супер тогава
+[13:49:19] <KrasiGa> а кога ще го почва онзи курс, знаете ли?
+[13:51:48] <widwool> здравейте :)  някой да знае лога ще има нови материали към последната лекция или наистина е без домашно. Също така не успях да намеряа клипчетата към нея :(
+[13:52:41] <KpeTeHoug> е то имаше май тема в форума
+[13:52:57] <KpeTeHoug> иначе виж на http://grizzly.yuhu.biz/lectures/
+[13:53:00] <wilindex> [ Index of /lectures ] - grizzly.yuhu.biz
+[13:53:23] <widwool> ооо ще чекна и там.  мерси :)
+[13:54:43] <KrasiGa> ама то има опция да качваш домашно, защо да е без?
+[13:55:18] <KrasiGa> единствено видеото не е качено
+[13:58:18] <widwool> да сега видях, че вече има опция за предаване на домашно.
+[13:58:20] <dencho> za windows-a ne sam siguren 4e 6te ima online stream az
+[13:58:28] <dencho> poneje si mislq, 4e lektora 6te e drug :D
+[13:58:33] <dencho> a za mrejite 6te ima :D
+[13:58:47] <KpeTeHoug> на всичките лекции има видео запис
+[13:59:16] <KpeTeHoug> и да не е стрийм, пак може да ги гледаш
+[13:59:24] <dencho> KpeTeHoug moje be
+[13:59:27] <dencho> si4ko moje
+[13:59:27] <dencho> :D
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:11:28] widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left irc: Quit: qicr for android: faster and better
+[14:11:45] widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[14:13:12] anton_dutsov (~Thunderbi@89.106.116.206) left irc: Quit: anton_dutsov
+[14:25:49] widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left irc: Remote host closed the connection
+[14:26:10] widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[14:26:29] widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left #telerikacademy.
+[14:38:42] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[14:39:44] <dencho> Deyaneeeeeeeeeeeeeeeeei
+[14:40:35] <dencho> Deyaneeeeeeeeeeeeeeeeei kvi sa tiq robotizirani mi6ki deto prodavate we
+[14:41:10] <dencho> s tva Saitek R.A.T. 7 raketi li moe da puska6 v okolozemna orbita?
+[14:47:05] <phalaaxx> http://tn.new.fishki.net/26/upload/post/201309/26/1208075/gallery/fun-006.jpg
+[14:47:18] <dencho> haha
+[14:47:19] <dencho> :D
+[14:47:22] <dencho> buta 4oeka
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:10:20] <phalaaxx> вероятно е project manager (и ги разбира нещата)
+[15:10:24] <Deyan> dencho: не знам ама са готини на външен вид
+[15:10:42] <KpeTeHoug> не ми изглеждат много удобни :)
+[15:10:47] <KpeTeHoug> на мен поне, вас не ви знам
+[15:11:05] <Deyan> никак не са удобни, аз тествах една за няколко дни
+[15:11:23] <Deyan> много са куци, ама "геймърите" им се радват
+[15:11:49] <KpeTeHoug> то геймърите се развар и на климче за мишка за 120 лева
+[15:11:56] <KpeTeHoug> което си е баси и тъпнята  :)
+[15:12:21] <KpeTeHoug> т.е и аз играя и съм играл много, ма няма да дам такива пари ни за мишка, ни за подложка
+[15:12:21] <phalaaxx> KpeTeHoug: важното е да има картинка и да е на някоя скъпа игра
+[15:12:34] <KpeTeHoug> да, или да пише Razor
+[15:12:40] <KpeTeHoug> май е Razzor де
+[15:12:42] <KpeTeHoug> ма се тая :)
+[15:13:05] <phalaaxx> е, според играта има значение каква мишка си имаш
+[15:13:17] <phalaaxx> но подложката не е кой знае колко важен елемент
+[15:14:24] <phalaaxx> иначе съм виждал по клубове разни хора да се мъкнат с подложки с такива размери, заради които спокойно могат да им взимат наем на квадратен метър заета площ
+[15:14:39] <phalaaxx> при това без да са особено скъпи
+[15:14:40] <KpeTeHoug> да, щото на Г15, имаш време да разгледаш прозорчето какво пише в него ли :)
+[15:15:06] <KpeTeHoug> е те тея не са Оригиналки
+[15:15:09] <KpeTeHoug> моля ти се :)
+[15:15:18] <phalaaxx> да де, нямат картинки :)
+[15:16:33] <KpeTeHoug> как да е, който има пари да си ги харчи за глупости
+[15:16:42] <KpeTeHoug> аз залкова пари ще си зема още 8г рам :0
+[15:18:13] Rod (1000@143.Red-88-15-53.dynamicIP.rima-tde.net) left irc: Ping timeout: 240 seconds
+[15:18:28] <phalaaxx> нищо не разбираш от геймърство
+[15:18:32] <phalaaxx> аматьор!
+[15:18:33] <phalaaxx> :D
+[15:18:38] <KpeTeHoug> :) ахъмз
+[15:19:21] <KpeTeHoug> тук е момента да почна да обяснявам къФ съм бил велик на разни игри, ма ще пропусна
+[15:19:27] <KpeTeHoug> имам да си гледам последната лекция :)
+[15:19:57] <phalaaxx> ее щом имаш друго занимание няма да те подканям да не пропускаш възможността да се похвалиш :)
+[15:20:21] <KrasiGa> хахаха
+[15:20:26] <KpeTeHoug> :) няма, защото не обичам да brag-вам :)
+[15:20:41] <KpeTeHoug> пък и денчу, ще му стана духовен гуро :)
+[15:20:43] <KpeTeHoug> и няма отърване
+[15:20:57] <phalaaxx> не бъди стеснителен
+[15:21:28] <phalaaxx> и аз мога да се похваля
+[15:21:34] <phalaaxx> много съм добър на супер марио :)
+[15:21:40] <KpeTeHoug> аз не съм
+[15:21:46] <KpeTeHoug> микрото ми не струва
+[15:21:46] <KpeTeHoug> :)
+[15:22:05] <KpeTeHoug> само 200 cp/m имам
+[15:22:07] <KpeTeHoug> ne struwam
+[15:22:40] <phalaaxx> кое, какво? нещо изпуснах разговора май :|
+[15:22:52] <KpeTeHoug> click per minute
+[15:23:27] <KpeTeHoug> тва на Starcraft-q
+[15:23:28] <KpeTeHoug> :)
+[15:24:08] <phalaaxx> то там не се ли мери в нещо друго?
+[15:24:26] <phalaaxx> APM (actions per minute)?
+[15:25:00] <KpeTeHoug> е тей де, апм/цпм
+[15:25:05] <KpeTeHoug> се там :)
+[15:25:36] <phalaaxx> че това малко ли е, мен ми е 20 - 22 :)
+[15:26:01] <KpeTeHoug> не си много gosu тогаз :)
+[15:26:20] <phalaaxx> по принцип ям бой на тая игра ама ми се случи веднъж при 17 да бия човек със 70+
+[15:26:33] <phalaaxx> така че това не е много показателно :P
+[15:26:42] <KpeTeHoug> аз не я играя даже :)
+[15:26:44] <KpeTeHoug> толкова съм зле
+[15:27:16] <phalaaxx> е и аз де, само като съвсем нямам какво да правя и не ми се захваща нищо друго
+[15:27:51] <KpeTeHoug> тогава играя пасианс !
+[15:27:52] <KpeTeHoug> :)
+[15:28:03] <KrasiGa> hahahha
+[15:28:10] <KrasiGa> stiga ste me razsmivali
+[15:28:39] <phalaaxx> мен ми е скучно това
+[15:28:41] <phalaaxx> пасианса
+[15:28:50] <phalaaxx> не обичам карти
+[15:30:05] <KpeTeHoug> KrasiGaми ние сме тука видни геймъри :)
+[15:30:10] <phalaaxx> иначе една от любимите ми игри е UT2004
+[15:30:21] <phalaaxx> играем си едни 10 човека от време на време
+[15:30:34] <KpeTeHoug> щом има къде :)
+[15:30:43] <phalaaxx> защо да няма къде?
+[15:30:52] Rod (1000@99.Red-83-58-210.dynamicIP.rima-tde.net) joined #telerikacademy.
+[15:31:21] <KpeTeHoug> е в Търново няма къде :) не останаха зали, само една и то вече има 10-15 машини останали сигурно
+[15:31:40] <phalaaxx> аа ние онлайн си го играем
+[15:31:47] <phalaaxx> http://ut.deck17.com/
+[15:31:48] <wilindex> [ UT2004 Servers Status ] - ut.deck17.com
+[15:32:52] <KpeTeHoug> аз съм много добър на унриъл
+[15:32:53] <KpeTeHoug> и на ЦС
+[15:33:08] <KpeTeHoug> никът ми е Me3e7o
+[15:33:15] <KpeTeHoug> познай защо :)
+[15:33:49] <phalaaxx> щото другите първо с теб започват?
+[15:34:38] <Deyan> ;)
+[15:34:38] <KpeTeHoug> започват, завършват
+[15:34:40] <KpeTeHoug> :)
+[15:34:46] <KpeTeHoug> бой където сварят :)
+[15:34:54] <KpeTeHoug> аз само малко като талибан
+[15:35:04] <KpeTeHoug> аллах-акбра - бягам и пуцам :)
+[15:35:13] <Deyan> ей заради вас и на мен ми се доигра ut
+[15:35:28] <KpeTeHoug> ^_^
+[15:35:38] <phalaaxx> ми заповядайте някоя вечер :)
+[15:35:49] <phalaaxx> само не се отказвайте бързо (моля) :))
+[15:36:03] <Deyan> да не е лошо да се разберем да направим едно мулти
+[15:36:15] <Deyan> още довечера ще си го дръпна да потренирам
+[15:36:39] <KpeTeHoug> ам мен вечер ми е малко зор :) ма ще видим
+[15:36:49] <KpeTeHoug> и то с тренировки не е интересно :)
+[15:37:06] <phalaaxx> че на тоя сървър влизат няколко човека дето... ами да кажем че имам съмнения че не им е чиста работата ама тъй като играта е стара - няма как да го докажа за да ги запозная с iptables :D
+[15:37:11] <Deyan> е аз не съм го играл от 10 години
+[15:37:25] <Deyan> поне картите да си препомня
+[15:40:50] <phalaaxx> та като вземат да ни пуцат тия съмнителните и ламерите почваме с оправданията - "аз играх без звук", "аз вечерях докато играя", "аз играх без картина", "аз играх минички"... :)
+[15:44:48] <KpeTeHoug> нали
+[15:44:54] <KpeTeHoug> или жената тука ме разсея
+[15:44:56] <KpeTeHoug> детето ме извика
+[15:45:07] <KpeTeHoug> комшийката дойде за захар
+[15:48:23] <KpeTeHoug> ма там с комшийката може се закучат нещата
+[15:48:26] <KpeTeHoug> и да отнеме повечко време
+[15:48:37] <phalaaxx> да де, оправдания всякакви
+[15:49:12] <phalaaxx> много сме изобретателни и отдавна сме над ония работи като "lag", "stupid map" и т.н.
+[15:49:31] <KpeTeHoug> ма разбира се, с 5 мсекунди
+[15:49:36] <KpeTeHoug> едва ли може се говори за лаг
+[15:49:47] <phalaaxx> http://i266.photobucket.com/albums/ii259/dealhuntr1/0wned.jpg
+[15:50:40] <KpeTeHoug> хахаха
+[15:51:17] Rod (1000@99.Red-83-58-210.dynamicIP.rima-tde.net) left irc: Read error: Connection reset by peer
+[15:53:21] hackman (~hackman@87.118.135.253) joined #telerikacademy.
+[15:55:15] Action: KpeTeHoug slaps hackman around a bit with a large trout
+[15:55:28] <KpeTeHoug> днес сме ан обикновенни плесници с риба :)
+[15:55:55] <hackman> KpeTeHoug, е вземи я сготви тая риба най-накрая... ще се вмирише вече
+[15:56:03] <KpeTeHoug> аа правих аз оня ден
+[15:56:07] <KpeTeHoug> с мед и лимон
+[15:56:08] <KpeTeHoug> ммм
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:03:01] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[16:03:28] Action: KpeTeHoug thinks that yulimoto REALLY needs a BATH..... :)
+[16:03:34] <KpeTeHoug> ^_^
+[16:03:37] <KpeTeHoug> о_0
+[16:03:59] <KpeTeHoug> 0_о
+[16:04:21] <KrasiGa> че как няма да има нужда, сигурно сега се връща от крос :)
+[16:04:26] <KpeTeHoug> нали :)
+[16:04:28] <KpeTeHoug> и аз тей мисля
+[16:04:50] <KpeTeHoug> http://www.youtube.com/watch?v=49XBmLTwWsQ
+[16:04:52] <wilindex> [YouTube] Title: DEEP PURPLE Sometimes I Feel Like Screaming HD | Uploader: 09AngelHeart | Uploaded: 15/08/2010, 08:02 | Duration: 8mins | Views: 1,146,637 | Comments: 656 | Likes: 6,049 | Dislikes: 37
+[16:05:30] <KpeTeHoug> поздрав
+[16:05:31] <KpeTeHoug> и брб
+[16:06:03] Rod (1000@236.Red-88-15-54.dynamicIP.rima-tde.net) joined #telerikacademy.
+[16:12:49] <yulimoto> KrasiGa: не днес е мн сиво, ще си седя вкъщи, а в петък като отидох и ме упука дъжда, та се наложи да търся укритие :)
+[16:13:27] <yulimoto> KpeTeHoug: през кабела ли мириша вече бре :)
+[16:14:47] <yulimoto> по dns-а имам малко въпроси :)
+[16:16:56] <yulimoto> MINIMUM в soa записа в bind9 използва за TTL на отговорите които са NXDOMAIN (т.е не съществуват)  ??? Правилно ли съм разбрал ??
+[16:18:13] <yulimoto> щото четох поне два документа в rfc които леко си противеречат, може би преди се ползвало за едно, сега за друго
+[16:19:57] hackman (~hackman@87.118.135.253) left irc: Ping timeout: 245 seconds
+[16:20:16] <yulimoto> ясно !
+[16:22:03] <yulimoto> а ве някой като си купува мрежа, примерно 40.50.60.0/24 дават ли му домейна 60.50.40.in-addr.arpa да си го оправя там на поддомайни ?
+[16:22:06] <KrasiGa> и разбра всичко от това, че hackman излезе?
+[16:22:38] <yulimoto> той избегА не излезе !!! :D
+[16:22:56] <KrasiGa> уплаши се от въпроса ти
+[16:23:18] <yulimoto> hahah едва ли, ама не му се занимва нали ще ходи у щатско или е вече там ?
+[16:23:49] <KrasiGa> аз знам, че ще ходи в В.Търново
+[16:23:58] <KrasiGa> *във
+[16:24:17] <yulimoto> Ip-to Му е от неговата си мрежа
+[16:24:27] <yulimoto> не е гаранция че е във София де
+[16:24:55] <KrasiGa> защо реши, че ще ходи в щатите?
+[16:25:45] <yulimoto> предполагам защото ще ходи да говори в някакъв град щатите
+[16:25:58] <yulimoto> т.е. ще е лектор някъде
+[16:26:20] <yulimoto> с лекция по "Cent OS евангелизъм"
+[16:27:16] <yulimoto> беше казал преди време, аз видях темата на лекцията ама не помня къде що
+[16:27:50] <yulimoto> на 5-ти е при KpeTeHoug
+[16:28:45] <yulimoto> тъй явно няма да ми отговорите поне на втория въпрос ?
+[16:29:04] <yulimoto> да се ориентирам към гугъл тогава :)
+[16:30:02] <phalaaxx> yulimoto: ако си купуваш мрежа - доставчика от който си я купуваш трябва да ти даде да си управляваш reverse записите
+[16:31:20] <yulimoto> мерси ман, както аз ще ги дам, ако си разделям мрежата по нататък ?
+[16:31:30] <phalaaxx> да
+[16:31:46] <yulimoto> изглежда логично ама все пак да питам
+[16:32:27] <yulimoto> добре къде е описан шибания руут на in-addr.arpa ?
+[16:32:37] <phalaaxx> нормално за по-малките автономни системи... забравих как се водеха... та за тях обикновено си купуваш мрежи от някой по-голям доставчик и съответно ти трябва BGP сесия с този доставчик, независимо дали купуваш и трафик от него или не
+[16:32:39] <yulimoto> т.е. не рута ами доймейна
+[16:33:15] <yulimoto> BPG session ? Sega ще гуглна
+[16:33:23] hackman (~hackman@12.166.214.2) joined #telerikacademy.
+[16:36:17] <yulimoto> phalaaxx: сега видях, просто dig ми е малко труден за разчитане
+[16:40:49] <yulimoto> аре пичове и пички ,)
+[16:40:53] yulimoto (~yulimoto@78.108.248.204) left irc: Quit: leaving
+[16:44:14] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[16:44:25] <yulimoto> забравих !!!
+[16:44:47] <phalaaxx> yulimoto: май ASPI се водеха
+[16:45:03] <phalaaxx> доколкото ми е известно можеш да позлзваш не повече от 2 броя C мрежи в ASPI
+[16:45:36] <phalaaxx> но не съм се интересувал много, засега си нямам AS и в момента нямам нужда от такова
+[16:45:50] <yulimoto> ми ще проверя за какво иде реч поне да знам картинката каква е :)
+[16:45:54] <yulimoto> слушай сега
+[16:46:10] <phalaaxx> PI = Provider Independent
+[16:47:56] <yulimoto> на мейл сървъра имам виртуални пощи, искам част от тях да пристигат и във homedir. Това лесно мога да го уредя със fetchmail примерно, но се чудя не може ли postfixa да го прави ?
+[16:48:29] <yulimoto> нали той ми е MTA за какво да слагам и друг софт
+[16:51:49] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:05:05] hackman (~hackman@12.166.214.2) left irc: Read error: Operation timed out
+[17:05:32] hackman (~hackman@87.118.135.253) joined #telerikacademy.
+[17:21:01] yulimoto (~yulimoto@78.108.248.204) left irc: Quit: leaving
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:01:55] Rod (1000@236.Red-88-15-54.dynamicIP.rima-tde.net) left irc: Remote host closed the connection
+[18:32:59] Guest59978 (~deyan@46.249.92.240) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:11:02] KacanuH (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[19:12:00] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[19:22:50] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 248 seconds
+[19:23:46] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:37:33] Tiako (1000@236.Red-88-15-54.dynamicIP.rima-tde.net) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:09] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[20:16:49] Vankata (~Ivan@87.120.123.63) left irc: Quit: Leaving
+[20:36:21] Vankata (~Ivan@87.120.123.63) joined #telerikacademy.
+[20:41:20] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[20:44:25] krasin (~krasin@82.137.112.201) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:12:50] Nick change: ndyakov|away -> ndyakov
+[22:28:31] <ndyakov> Добър вечер
+[22:57:52] <dencho> drasti
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:06:33] <KacanuH> a dobra da e
+[23:07:31] Vankata (~Ivan@87.120.123.63) left irc: Quit: Leaving
+[23:15:33] <ndyakov> :)
+[23:15:36] <ndyakov> как сме ?
+[23:16:30] <KacanuH> http://troll.bg/view/12771/motor-se-opitva-da-drapne-burgaska-astra
+[23:16:31] <wilindex> [ Мотор се опитва да дръпне бургаска Астра? - Troll.bg - Убий скуката! ] - troll.bg
+[23:16:37] <KacanuH> гледаме клипчета
+[23:16:45] <KacanuH> бах я в астрата
+[23:38:19] krasin (~krasin@82.137.112.201) left irc: Quit: Leaving
+[23:46:15] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[23:46:37] <yulimoto> denchoooooouuuu
+[23:46:49] <yulimoto> http://www.youtube.com/watch?v=iLV89iBbqXI#t=21
+[23:46:50] <wilindex> [YouTube] Title: Dziwna  reakcja człowieka po przejściu Strasznej gry | Uploader: Peci1950 | Uploaded: 15/01/2011, 19:45 | Duration: 32secs | Views: 875,793 | Comments: 751 | Likes: 1,654 | Dislikes: 79
+[23:47:54] <yulimoto> ако ми каже някой как да пращам с mutt подписани имейли :)
+[23:49:33] <KacanuH> yulimoto, това денчо ли е на клипчето
+[23:50:19] <yulimoto> да ве
+[23:50:40] <KacanuH> а ти по muttирал мейл клиент не можа ли да измислиш
+[23:50:40] <yulimoto> изплаши се човека и си проби монитора, малко монтаж ми се види
+[23:50:56] <KacanuH> ама дайте да съберем пари за памперси
+[23:50:59] <yulimoto> преди това бях с fetchmail
+[23:51:53] <yulimoto> в чест на Ерик Реймънд ;D
+[23:53:59] <KacanuH> какво ползваш за подписването на мейлите
+[23:56:41] yulimoto (~yulimoto@78.108.248.204) left irc: Ping timeout: 245 seconds
+[23:57:04] yulimoto (~yulimoto@78.108.248.204) joined #telerikacademy.
+[23:57:26] <yulimoto> pgp
+[23:58:31] <KacanuH> а аз да питам, колко време след като изтече регистрацията на .цом домейн той може да се регистрира наново
+[23:59:00] <yulimoto> правиш си една двойка ключове, после качаш публичния на keyserver
+[23:59:11] <yulimoto> ами зависи от кой ще го регистрира
+[23:59:15] <yulimoto> до колкото знам
+[23:59:38] <yulimoto> ако е пак старото лице мисле му го пазят 1 месец
+[23:59:48] <yulimoto> след като изтече, а може и повече да беше
+[00:00:00] --- Tue Oct  1 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

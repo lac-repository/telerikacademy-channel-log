@@ -1,0 +1,260 @@
+
+Session Start: Sat Sep 14 00:00:00 2013
+Session Ident: #telerikacademy
+12[00:13:11] * Quits: alabala (~immortal@unaffiliated/alabala)
+03[02:56:20] * Joins: urban_filth (~urban_fil@95.111.6.98)
+12[04:31:28] * Quits: urban_filth (~urban_fil@95.111.6.98) (Ping timeout: 240 seconds)
+13[08:03:01] * ndyakov is now known as ndyakov|away
+03[09:38:12] * Joins: websemiotic (~websemiot@78.108.248.204)
+13[09:38:48] * websemiotic is now known as yulimoto
+12[09:41:30] * Quits: phalaaxx (~bozhin@94.26.20.166) (Ping timeout: 256 seconds)
+[10:43:45] <dencho> dobro utro hora
+03[10:47:25] * Joins: alabala (~immortal@unaffiliated/alabala)
+13[12:01:40] * ndyakov|away is now known as ndyakov
+13[12:43:01] * ndyakov is now known as ndyakov|away
+13[13:23:44] * ndyakov|away is now known as ndyakov
+03[13:34:41] * Joins: widwool (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com)
+13[13:34:48] * widwool is now known as Guest28785
+12[13:35:02] * Quits: Guest28785 (~widwool@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) (Client Quit)
+13[13:35:37] * ndyakov is now known as ndyakov|away
+12[13:59:13] * Quits: alabala (~immortal@unaffiliated/alabala)
+03[14:19:34] * Joins: Nako (~Nako@c-76-99-190-68.hsd1.de.comcast.net)
+12[15:37:44] * Quits: Nako (~Nako@c-76-99-190-68.hsd1.de.comcast.net) (Ping timeout: 240 seconds)
+[15:44:13] <dencho> dobar den hora :D
+[16:35:23] <yulimoto> dencho: да не забравиш и за лека нощ да кажеш някоя приказка!!
+[16:35:46] <yulimoto> а ве пичове някакви отзиви за http://www.fairphone.com
+[16:35:47] <wilindex> [ Fairphone | A seriously cool smartphone. Putting social values first. ] - www.fairphone.com
+13[17:01:34] * Guest28532 is now known as stratoss
+12[17:01:44] * Quits: stratoss (~stratoss@members.datacentrix.org) (Changing host)
+03[17:01:44] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+[17:04:41] <dencho> yulimoto nqma da zabrava
+[17:04:42] <dencho> :D
+[17:05:05] <dencho> mnooo pari tva
+[17:20:46] <yulimoto> да питам само дали има отзиви :) не съм се запалил да го купувам
+03[17:41:08] * Joins: morena (~chatzilla@37-143-251-253.plvd.ddns.bulsat.com)
+[17:42:45] <yulimoto> denchoooooуууу
+03[17:49:36] * Joins: dnk (258ffbfd@gateway/web/freenode/ip.37.143.251.253)
+03[18:00:45] * Joins: Nako (~Nako@24.154.14.49)
+12[18:06:29] * Quits: Nako (~Nako@24.154.14.49) (Ping timeout: 260 seconds)
+03[18:07:01] * Joins: Nako (~Nako@dynamic-acs-24-154-14-49.zoominternet.net)
+12[18:15:08] * Quits: Nako (~Nako@dynamic-acs-24-154-14-49.zoominternet.net) (Ping timeout: 264 seconds)
+[18:15:51] <yulimoto> мммм тъкмоо четох че са сложили freedombox на wireless router
+03[18:15:53] * Joins: Nako (~Nako@dynamic-acs-24-154-14-49.zoominternet.net)
+12[18:22:48] * Quits: Nako (~Nako@dynamic-acs-24-154-14-49.zoominternet.net) (Ping timeout: 264 seconds)
+13[18:26:15] * ndyakov|away is now known as ndyakov
+03[18:26:40] * Joins: roxrite (~n_a@130-204-86-120.2073150800.ddns.cablebg.net)
+03[18:27:18] * Parts: dnk (258ffbfd@gateway/web/freenode/ip.37.143.251.253)
+[18:27:18] <roxrite> hi guys ; )
+[18:28:58] <roxrite> maj nqma jiwi ; )
+[18:43:15] <dencho> mne
+[18:43:35] <dencho> yulimotoooooooooooooool
+[18:44:01] <dencho> kvo e freedombox
+03[18:47:29] * Joins: pinkiePie (~pinkiePie@217.174.55.149)
+[18:49:02] <pinkiePie> тече ли купона в чата :D
+[18:52:21] <yulimoto> dencho oouuuuu: freedombox беше линукс дето го почнаха специално за ембедед платки да става и да бъде защитен добре т.е. да дава възможност за сигурна комуникация
+[18:52:41] <yulimoto> стигнаха до версия 0.1
+[18:54:15] <yulimoto> ама нещо ги изгубих та сега ги видях пак в рийдъра и ми стана драго, викам да споделя
+[18:59:23] <yulimoto> http://freedomboxfoundation.org/
+[18:59:24] <wilindex> [ FreedomBox Foundation ] - freedomboxfoundation.org
+[19:04:53] <dencho> aaa dobre
+[19:04:54] <dencho> :D
+[19:05:01] <dencho> wilindex tva nqma li koi da mu drupne 6altera
+[19:30:42] <roxrite> àáå íÿêîé èìà ëè ïðåäñòàâà êàê ñå âèæäàò ñâîáîäíèòå leases íà dhcp server íà BSD?
+[19:31:25] <dencho> roxrite ne te 4eta
+[19:31:30] <roxrite> ; ((
+[19:31:34] <roxrite> ujas
+[19:32:03] <roxrite> ok na latinica: nqkoj ima li predstawa kak se wijdat swobodnite leases na dhcp server na BSD?
+[19:33:32] <roxrite> kato kazwam BSD => imam predwid FreeBSD de ; )
+12[19:39:21] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 241 seconds)
+03[19:43:09] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+03[19:46:34] * Joins: urban_filth (~urban_fil@84-252-13-118.2074032680.ddns-lan.hisar.ekk.bg)
+[20:09:13] <dencho> kakvo e leases ?
+12[20:28:31] * Quits: pinkiePie (~pinkiePie@217.174.55.149) (Ping timeout: 256 seconds)
+12[21:21:31] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 246 seconds)
+03[21:26:16] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+03[21:35:16] * Joins: KacanuH (~Deyan@95.158.153.85)
+12[21:41:32] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 264 seconds)
+03[21:45:49] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+03[22:10:25] * Joins: anton_sh (5ebec173@gateway/web/freenode/ip.94.190.193.115)
+[22:10:54] <anton_sh> Zdraveite
+[22:11:39] <anton_sh> imam malak problem s linux-a no ne moga da go resha
+[22:12:24] <anton_sh> nqkoi koito da ne e navan sabota vecher?
+[22:20:01] <yulimoto> mm тъкмо сега се прибирам, ама аз не съм много по решаването на проблеми, по-скоро съм по създаването им :)
+[22:21:54] <anton_sh> xaxa
+[22:22:08] <anton_sh> izvinqvam se za latinicata no ne sam si slojil kirilica oshte
+[22:22:24] <anton_sh> ta otnostno problema
+[22:22:39] <anton_sh> ne znam kakvo se sluchi sas sarvara mi az li pipnah nqkade ili ne
+[22:23:43] <yulimoto> виртуалка някаква, може би ?
+[22:24:15] <anton_sh> imam home server zad router, imam realno ip, prenasochil sam portove(80, 22.....) kam statichnoto ip na server-a
+[22:24:23] <anton_sh> taka e situaciata i predi si raboteshe
+[22:24:42] <anton_sh> pisha realnoto ip v browser-a i mi otvarqshe saita
+[22:24:52] <anton_sh> podrazbira se che imam apache :)
+[22:24:58] <anton_sh> sega situaciata e slednata
+[22:25:15] <anton_sh> pak se otvarq saita no samo kogato go zarejdam ot mrejata vkashti
+[22:25:34] <anton_sh> kogato probvam ot druga mreja(prez gsm , rabota ili drugade nqkade) ne stava
+[22:25:48] <anton_sh> kakvo moje da sam precakal ili da se e precakalo
+[22:26:07] <yulimoto> да, а ти си имаш реално статично ип
+[22:26:45] <yulimoto> на рутера пренасочваш към твоята машина сървър примерно 192.168.1.хх
+[22:26:59] <yulimoto> дадените портове 22 и 80
+[22:28:01] <anton_sh> kakvo za tqh
+[22:28:05] <yulimoto> и когато пробваш от външна мрежа не ще, а когато си в локалната мрежа работи така ли ?
+[22:28:18] <anton_sh> da
+[22:28:20] <anton_sh> tochno
+[22:28:45] <anton_sh> spqh firewall-a za vseki sluchai
+[22:28:54] <yulimoto> вероятно си проверил пренасочването на рутера няколко пъти и си го ребутнал за всеки случай :)
+[22:29:13] <anton_sh> ot vatreshtana mreja pisha realnoto ip i imam dostap do server-a
+[22:29:56] <yulimoto> това не е показател, защото рутера си вижда ip-to и го пренасочва към вътрешната мрежа
+[22:30:27] <yulimoto> т.е. рутера като си види ip-то  не излиза извън мрежата
+[22:30:42] <yulimoto> пакета направо го праща към вътрешната
+03[22:31:53] * Joins: anton_sh_ (5ebec173@gateway/web/freenode/ip.94.190.193.115)
+[22:31:57] <anton_sh_> nastroikite sam gi proveril( a i ne sam gi pipal ot 3 meseca) sega go restartirah da vidq kak shte e
+[22:32:45] <anton_sh_> toku-shto restartirah router-a i nqma efekt
+12[22:33:24] * Quits: anton_sh (5ebec173@gateway/web/freenode/ip.94.190.193.115) (Ping timeout: 250 seconds)
+[22:35:55] <yulimoto> добре, според мен трябва да разбиеш проблема на части. Първо изобщо идват ли пакети от вън до рутера, и после дали тези пакети стигат до сървъра
+[22:36:34] <anton_sh_> ot van do router-a...shte pusnesh li ping zashtoto testvam prez telefona
+[22:36:47] <anton_sh_> ip 94.190.179.185
+[22:39:06] <yulimoto> --- 94.190.179.185 ping statistics ---
+[22:39:08] <yulimoto> 102 packets transmitted, 0 received, 100% packet loss, time 101791ms
+[22:39:34] <anton_sh_> aaa
+[22:39:39] <anton_sh_> stranna rabota
+[22:39:58] <anton_sh_> sledovatelno kade e problema
+[22:40:19] <anton_sh_> trqbva da zvanna na internet kompaniata da vidqt za kakvo stava na vapros mai a?
+12[22:40:47] * Quits: KacanuH (~Deyan@95.158.153.85) (Ping timeout: 264 seconds)
+[22:41:52] <yulimoto> май май
+[22:42:16] <yulimoto> само да те питам нещо
+[22:42:29] <yulimoto> ти сега от сървъра ли пишеш ?
+[22:42:43] <yulimoto> т.е. някъде от вътрешната мрежа за която говорим ? :)
+[22:43:39] <anton_sh_> da
+[22:46:37] <yulimoto> ами ти излизаш от друго ип в момента май, може доставчика да те е прехвърлил през някакъв NAT
+[22:46:56] <anton_sh_> da nai-veroqtno taka e stanalo
+[22:47:09] <anton_sh_> az zatova se chudeh zashtoto nishto ne sam pipal pak nqmam server
+[22:47:16] <anton_sh_> no ne dopusnah problema da ne e v men :P
+[22:47:53] <yulimoto> Примерно моя доставчик прави така, че всички ип-та излизат през 10-15 ип адреса, но ако му се обадиш и изявиш желание за статичен Ip-address ти правят махат от ната и ти дават отделно ип
+03[22:48:18] * Joins: phalaaxx (~bozhin@94.26.20.166)
+[22:49:01] <dencho> kvo kvo?
+[22:49:02] <yulimoto> все пак phalaaxx може да каже нещо ново, той има опит :)
+[22:49:07] <dencho> anton_sh_ e s dinami4no IP ?
+[22:49:14] <yulimoto> dencho: чети ве
+[22:49:20] <phalaaxx> yulimoto: ?
+[22:49:21] <dencho> murzi me we
+[22:49:21] <dencho> D
+[22:49:22] <dencho> :D
+[22:50:26] <anton_sh_> da sigurno toq pat e propusnal da mi sloji statichno ip
+[22:50:34] <anton_sh_> a az se chudq zashto nqmam server
+[22:50:35] <anton_sh_> tctctc
+[22:50:42] <anton_sh_> utre shte im se obadq
+[22:50:58] <anton_sh_> sega proverih raboteli do 10.30 ... za malko sam gi izpusnal
+[22:50:59] <anton_sh_> :P
+13[22:51:15] * ndyakov is now known as ndyakov|away
+[22:51:18] <dencho> kuv e toq dostav4ik?
+[22:51:23] <yulimoto> сега сканирах с nmap и PN като опции
+[22:51:24] <yulimoto> Nmap scan report for ip-185-179.interbild.net (94.190.179.185)
+[22:51:25] <yulimoto> Host is up.
+[22:51:25] <yulimoto> All 1000 scanned ports on ip-185-179.interbild.net (94.190.179.185) are filtered
+[22:52:11] <yulimoto> dencho: лягат си хората
+[22:52:13] <anton_sh_> toest?
+03[22:53:03] * Joins: KacanuH (~Deyan@212.5.158.171)
+[22:53:07] <yulimoto> има хост, ама дали е твоята машина или доставчика не знам
+[22:53:13] <yulimoto> пинговете са спени
+[22:53:17] <yulimoto> спрени явно
+[22:53:22] <dencho> n dam
+[22:53:26] <dencho> rejected sa
+[22:53:42] <dencho> ama 4akaite we...
+[22:53:49] <dencho> ti internet na rutera si ima6 li?
+[22:54:01] <yulimoto> ами нали пише от там ве ман
+[22:54:11] <yulimoto> той от тая мрежа пише
+[22:54:21] <yulimoto> в чата, не сме му на гости все още
+[22:54:50] <anton_sh_> :D
+[22:54:54] <anton_sh_> elate we
+[22:54:54] <anton_sh_> ima bira
+[22:54:55] <anton_sh_> ;)
+[22:54:56] <dencho> mi kazvaite gi tiq ne6ta we :D
+[22:55:03] <dencho> btw az i kum 94.190.193.115 nqmam ping :]
+[22:55:39] <yulimoto> ми това ме навежда на мисълта, че доставчика е изрязал каквото е изрязал
+[22:56:10] <dencho> anton_sh_ kakuv e rutera?
+[22:56:16] <dencho> kakuv firewall ima?
+[22:57:03] <yulimoto> + това самия начин по който е възникал проблема ме навежда на мисълта за evil доставчика, 3 месеца работи и изведнъж .... никой
+[22:57:24] <dencho> vie mi kajete kuv e rutera
+[22:57:42] <dencho> ili pak ne sam pro4el...
+[22:57:43] <yulimoto> той да каже аз нъ съм екстрасенс все още :)
+[22:57:58] <dencho> furli bob we
+[22:58:06] <anton_sh_> NETHEAR
+[22:58:45] <yulimoto> phalaaxx помогни само гледаш от високо ти
+[22:58:54] <dencho> miii
+[22:59:22] <dencho> pogledni si pak nastroikite na netgear-a i vij dali nqkoi ne ti gi e razbazikal, ako ot dostav4ika ti kajat 4e ni6to ne sa pipali te
+[22:59:22] <dencho> :D
+[22:59:33] <yulimoto> grizzlito има пинг и май някой си е играл Iptables
+[22:59:53] <yulimoto> dencho не е лошо да изплющиш даскала да знае
+[22:59:53] <anton_sh_> momcheta ne se machete az sam pochti sig che v tqh e problema veche
+[22:59:56] <anton_sh_> utre shte im se obadq
+[23:00:07] <anton_sh_> da vidim kakvo shte kajat
+[23:00:54] <dencho> tva grizli stana dosta nestabilno ve4e
+[23:01:10] <dencho> anton_sh_ mnogo gotin dostav4ik ima6... support-a mu raboti 12 4asa na den
+[23:01:12] <yulimoto> ами с 250+ админи как да е стабилно ве
+12[23:01:20] * Quits: KacanuH (~Deyan@212.5.158.171) (Ping timeout: 264 seconds)
+[23:01:35] <yulimoto> INTERBILD сега ги гледам
+[23:01:53] <yulimoto> че и голяма мрежа си взели 4.190.128.0 - 94.190.191.255
+[23:02:05] <yulimoto> упс една 9 пропуснах горе
+[23:02:17] <dencho> :D
+[23:02:31] <dencho> are
+[23:02:34] <dencho> X men po bekeve
+[23:02:42] <yulimoto> чакай ве
+[23:02:45] <dencho> 4akam
+[23:02:52] <yulimoto> ще го изтеглиш после
+[23:03:00] <dencho> q sam go gledal
+[23:03:06] <dencho> ama kakvo da 4akam
+[23:03:11] <yulimoto> не знам
+[23:03:15] <yulimoto> да дойде влака
+[23:03:19] <dencho> tiq nema li da go napraat bg audio ve4e toq film na 12 godini
+[23:03:28] <dencho> na 19-ti 6a oda na varna...
+[23:03:30] <yulimoto> аре и аз ставам тогава щом ти ставаш ;P
+[23:03:30] <dencho> nekoi ot varna?
+[23:03:48] <yulimoto> ко ше праиш варна ве
+[23:04:02] <dencho> na svatba na bratov4ed mi
+[23:04:11] <dencho> onq tam 6a sa jeni da go eba
+[23:04:12] <yulimoto> имаше тука един джавар дето спореше с bin ama de отиде не знам
+[23:04:27] <yulimoto> ей пръснахти са кат битълсите
+12[23:04:36] * Quits: anton_sh_ (5ebec173@gateway/web/freenode/ip.94.190.193.115) (Ping timeout: 250 seconds)
+[23:04:40] <yulimoto> из целия свят сте денчовци
+[23:04:53] <yulimoto> :)
+[23:05:11] <dencho> 6to we
+[23:05:36] <dencho> yulimotoool
+[23:05:41] <yulimoto> hackman e там някъде, добрич, ама ходи у варна, питай го дали няма си ходи да те закара
+[23:06:06] <yulimoto> как що ?
+[23:06:16] <dencho> haha 6go pitam, :D
+[23:06:35] <yulimoto> булката варненска ли е ?
+[23:06:39] <dencho> mne
+[23:06:46] <yulimoto> ай сиктир
+[23:06:49] <dencho> a moje i da haha
+[23:07:05] <dencho> rodata i idva ot pleensko selo, no roditelite i navremeto se premestili u varna
+[23:07:12] <dencho> tam imat ka6ta u vinica
+[23:07:19] <dencho> 3 etaja (fffffffff)
+[23:07:34] <yulimoto> знаиш ко, братчет ти там е учил и така ще си остане там
+[23:07:54] <dencho> ne e we
+[23:08:04] <yulimoto> аи сиктир
+[23:08:17] <dencho> v sofia sa se zapoznale tiq
+[23:08:25] <yulimoto> еми убу
+[23:08:35] <dencho> a i nema ka da ostane tam 6toto sq e tam samo komandirovka, a be toi e grajdanin na sveta
+[23:08:40] <dencho> hahaha
+[23:08:45] <yulimoto> ясно
+[23:08:47] <dencho> idiot po skoro
+[23:08:47] <dencho> :D
+[23:09:04] <dencho> stori nekvo bungalo v edno troansko selo ve4e 7-ma godina
+[23:09:14] <yulimoto> твойта ще ходи ли у Втърново
+[23:09:16] <dencho> deto nema tok,
+[23:09:30] <yulimoto> значи природа му дай и дивотия
+[23:09:37] <dencho> hahaha za sq nema, kandidatstvala e za fibank i sq 4aka da q viknat na interviu i tq
+[23:09:39] <phalaaxx> ъъъ какво гледам от високо?
+[23:09:45] <phalaaxx> пропуснах разговора нещо
+[23:09:45] <dencho> yulimoto da... idiotia mu dai
+[23:10:02] <dencho> phalaaxx da,
+[23:10:08] <dencho> yulimoto leka no6t we :D
+[23:10:09] <yulimoto> phalaaxx: да, имаше проблем
+[23:10:13] <dencho> phalaaxx leka no6t :D
+[23:10:24] <yulimoto> phalaaxx: но сега няма човек,  няма проблем :)
+[23:10:24] <dencho> leka no6t hora!
+[23:10:50] <yulimoto> аре и аз ще се ориентирам към по-смислени занятия от това да си говоря с негодници кат вас :P
+[23:11:15] <dencho> burkai si v пъпа
+[23:11:38] <phalaaxx> като да говориш със сгодни хора :)
+13[23:43:56] * ndyakov|away is now known as ndyakov
+Session Close: Sun Sep 15 00:00:00 2013

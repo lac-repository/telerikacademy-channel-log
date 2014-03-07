@@ -1,0 +1,201 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:20:33] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:06:58] Fairytale (~Svetlyo@46.249.85.38) left irc: Ping timeout: 260 seconds
+[03:11:12] Fairytale (~Svetlyo@46.249.85.46) joined #telerikacademy.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:03:44] fityla1234 (~fityla@84.40.116.146) left irc: Quit: Leaving
+[05:53:13] Fairytale (~Svetlyo@46.249.85.46) left irc: Quit: Leaving
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:49:38] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:18:53] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[11:32:39] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[11:50:10] fityla_ (~fityla@84.40.116.146) joined #telerikacademy.
+[11:50:10] fityla (~fityla@84.40.116.146) left irc: Read error: Connection reset by peer
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:19:59] fityla1234 (~fityla@84.40.116.146) joined #telerikacademy.
+[12:19:59] fityla_ (~fityla@84.40.116.146) left irc: Read error: Connection reset by peer
+[12:20:40] fityla1234 (~fityla@84.40.116.146) left irc: Client Quit
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:04:08] <yulimoto> q
+[14:31:30] Fairytale (~Svetlyo@46.249.85.52) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:44:21] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:02:36] <phalaaxx> как е, админи - отпускари :)
+[16:09:11] <Fairytale> Аз съм във вечна отпуска :-)
+[16:11:59] Fairytale (~Svetlyo@46.249.85.52) left irc: Quit: Leaving
+[16:19:55] Fairytale (~Svetlyo@46.249.85.53) joined #telerikacademy.
+[16:22:57] <phalaaxx> а плетеш ли си коледна шапка от червени пач кабели? :)
+[16:23:11] <phalaaxx> червени и бели :)
+[16:33:20] <Fairytale> Коледни гирлянди от i7ци си направих
+[16:46:42] <phalaaxx> ехее искам и аз :D
+[16:49:51] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:19:23] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[17:36:22] <rew1nd> аз пък искам гирлянди от нещо, което още не е произведено :D
+[17:36:22] <wilindex> rew1nd: 2013-12-20 22:54:42 UTC <Fairytale> tell rew1nd Да, видях вече. С отключен множител са само i5-7  К. Успях само на 3.6GHz да го докарам. 200 отгоре.
+[17:36:25] <wilindex> rew1nd: 2013-12-20 23:08:24 UTC <Fairytale> tell rew1nd Най-евтиния е I5-3570K /3.4G/6MB/BOX/LGA1155	426.13 лв. Мерси, ще пропусна. Чудя се защо минах на Intel ама поне веднъж искам да му се накефя
+[17:37:00] <phalaaxx> не може ли нещо готино дето е произведено?
+[17:37:06] <phalaaxx> като ASIC чипове?
+[17:37:15] <fityla> това да инсталираш 3g на linux
+[17:37:19] <fityla> е ебати клизмата
+[17:37:46] <phalaaxx> какво 3g?
+[17:38:11] <fityla> 3g модем
+[17:38:11] <rew1nd> аз се отказах от Интел още като почнаха да сменят сокетите всяка година, а като разбрах за шмекериите с компилатора им хептен
+[17:38:14] <fityla> на рутера слагам
+[17:38:21] <fityla> искам да направя бекъп
+[17:39:09] <rew1nd> phalaaxx, аз имам малко ASIC чипове с отстъпка от BFL :) ама не мисля да си правя толкова скъп гирлянд
+[17:39:26] <rew1nd> а и тоя дето го искам е по-скъп по принцип :D
+[17:39:53] <phalaaxx> rew1nd: що бе, тамън ще ти топли :)
+[17:40:00] <rew1nd> хахах :)
+[17:40:11] <phalaaxx> fityla: какво му е сложното да го подкараш?
+[17:40:32] <phalaaxx> и какво им е на интелските процесори освен смяната на сокетите?
+[17:40:45] <fityla> :D
+[17:40:51] <fityla> чесно казано и аз това се питам
+[17:41:05] <fityla> като сложа модела в рутера
+[17:41:27] <phalaaxx> не, за какви шмекерии с компилатора става въпрос?
+[17:41:30] <phalaaxx> и кой компилатор?
+[17:41:55] <fityla> в /dev няма ttyUSB*
+[17:43:05] <rew1nd> phalaaxx, ще драсна по-късно, че тъкмо излязох от една реанимация (коледно парти снощи) и отивам на второ парти днес (рожден ден) :)
+[17:43:22] <fityla> :D
+[17:43:29] <fityla> е това се казва маратон
+[17:43:30] <fityla> ;)
+[17:43:50] <phalaaxx> ауу да нямаш РД?
+[17:45:23] <fityla> а й да нямаш нищо не пречи да празнуваш .. ;)
+[17:47:35] rew1nd (~teo@46.238.29.142) left irc: Ping timeout: 250 seconds
+[17:48:42] <phalaaxx> ската се, не си признава :)
+[17:48:52] <phalaaxx> ако има РД - значи не иска да ни черпи ;(
+[17:48:56] <phalaaxx> :D
+[17:49:10] <fityla> лесна работа..
+[17:49:11] <fityla> ;)
+[17:49:14] <fityla> ще го намерим
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:16:46] <yulimoto> по IP
+[18:23:00] <fityla> ?
+[18:32:44] fityla (~fityla@84.40.116.146) left irc: Quit: Leaving
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:05:25] Nick change: Guest1851 -> hackman
+[19:38:39] <Fairytale> Counter-Strike: Global Offensive за 5лв,ако се интересува някой. Остават 24 часа до края на офертата http://store.steampowered.com/app/730/
+[19:38:41] <wilindex> [ Save 75% on Counter-Strike: Global Offensive on Steam ] - store.steampowered.com
+[19:39:00] <Fairytale> Аз го платих. 5.36 излиза
+[19:43:27] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:18:34] <yulimoto> Fairytale: играта ли си купуваш ?
+[20:19:07] <Fairytale> yulimoto, da, samo  Counter-Strike: Global Offensive
+[20:19:19] <yulimoto> луда работа е геймърството
+[20:19:42] <yulimoto> за жалост аз стигнах само да игрите със жетони, после ми бяха скучни :)
+[20:23:38] <Fairytale> :-)
+[20:24:35] <Fairytale> Аз в World of Warcraft имам 400 дена playtime
+[20:46:59] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[20:50:52] <yulimoto> hmm 1 година верно ли си киснал там, то кат бях лапе на бубълите не че съм прекарал по-малко, знаех и как да я блокирам за 256 кредита ;)
+[20:51:45] <yulimoto> но гейминга има много развива много неща и най-важното не забравяш да играеш :)
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:04:59] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[21:37:34] <Fairytale> emi poveche ot godina e,  1 den playtime e 24chasa
+[21:38:39] <Fairytale> Loshoto e che e gubene na vreme
+[21:39:16] <Fairytale> MMO igrite sa malko opasni
+[21:40:09] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[21:42:50] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[21:55:37] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[21:59:42] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:17:18] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[22:19:51] <fityla> като имаме нещо в директорията /proc/bus/usb/devices
+[22:19:51] <fityla> става въпрос за 3g usb T:  Bus=01 Lev=02 Prnt=02 Port=00 Cnt=01 Dev#=  3 Spd=480  MxCh= 0
+[22:19:51] <fityla> D:  Ver= 2.00 Cls=00(>ifc ) Sub=00 Prot=00 MxPS=64 #Cfgs=  1
+[22:19:51] <fityla> P:  Vendor=1bbb ProdID=f017 Rev= 0.00
+[22:19:51] <fityla> S:  Manufacturer=USBModem
+[22:19:53] <fityla> S:  Product=HSPA Data Card
+[22:19:55] <fityla> S:  SerialNumber=1234567890ABCDEF
+[22:19:57] <fityla> C:* #Ifs= 1 Cfg#= 1 Atr=a0 MxPwr=500mA
+[22:19:59] <fityla> I:* If#= 0 Alt= 0 #EPs= 2 Cls=08(stor.) Sub=06 Prot=50 Driver=usb-storage
+[22:20:01] <fityla> E:  Ad=01(O) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+[22:20:03] <fityla> E:  Ad=81(I) Atr=02(Bulk) MxPS= 512 Ivl=0ms
+[22:20:10] <fityla> а в директорията /dev го няма къде може да е проблема
+[22:25:34] <yulimoto> ttyUSBx ? няма ли нещо такова ?
+[22:25:40] <fityla> ne
+[22:25:56] <yulimoto> вероятно не :)
+[22:26:24] <fityla> Има едно
+[22:26:34] <fityla> bus/usb
+[22:27:12] <fityla> някаква идея
+[22:27:17] <fityla> какво може да е
+[22:30:54] <dencho> leka no6t pi4ue
+[22:30:55] <dencho> :D
+[22:32:58] <fityla> leka
+[22:33:19] <yulimoto> лека денчи
+[22:34:19] <yulimoto> fityla: нз нямам опит с 3г модем ; помня че едни модеми от вивател които имаха бая зор, но никога не съм се сблъсквал
+[22:35:46] <fityla> аз се опитвам да излъжа рутера си
+[22:35:55] <fityla> да приеме тая флашка на глобул
+[22:36:00] <fityla> ама нещо не я харесва
+[22:36:28] <fityla> само да ребоотна
+[22:36:32] <fityla> да видя дали стана
+[22:37:46] fityla (~fityla@84.40.116.146) left irc: Read error: Connection reset by peer
+[22:37:46] fityla_ (~fityla@84.40.116.146) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:04:22] fityla_ (~fityla@84.40.116.146) left irc: Read error: Connection reset by peer
+[23:04:45] fityla_ (~fityla@84.40.116.146) joined #telerikacademy.
+[23:08:05] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[23:13:57] <rew1nd> fityla_, нямам рожден ден ама другото коляно от рода (брат ми) празнува тая вечер :)
+[23:14:37] <rew1nd> ако беше моя рожден ден със сигурност щяхте да бъдете поканени :)
+[23:15:17] <fityla_> само не разбирам
+[23:15:17] <fityla_> тогава какво правиш irc..
+[23:15:17] <fityla_> ;)
+[23:15:59] <rew1nd> е.. пуснах да ви пиша и се оказа, че ще трябва да отида да помогна на друг роднина с неговия компютър по-рано :)
+[23:16:29] <fityla_> лоша работа..
+[23:16:30] <fityla_> ;)
+[23:17:16] <rew1nd> чак пък лоша :) счупен драйвър на някаква шантава wi-fi карта
+[23:17:24] <rew1nd> естествено уйндоус
+[23:17:36] <fityla_> :D
+[23:17:57] <fityla_> айде пак проблема е в windows-a..
+[23:18:00] <fityla_> ;)
+[23:18:21] <fityla_> все едно да кажа че проблема е linux-a, че не мога да подкара 3g модема..
+[23:18:33] <fityla_> ако не друго разгледах подробно ..
+[23:18:34] <rew1nd> ами в него е - няма друг драйвър за ХР
+[23:19:55] <fityla_> важното е че си го оправил
+[23:19:55] <fityla_> ;)
+[23:22:09] <rew1nd> не съм, обясних му как да си рестартира драйвъра като загуби връзка :D
+[23:22:43] <rew1nd> Buy Counter-Strike: Global Offensive - това още го няма под Linux, интересно
+[23:23:40] <fityla_> :D
+[23:30:44] <rew1nd> .tell phalaaxx phalaaxx1 За Интелския компилатор ставаше дума, преди няколко години Интел платиха на АМД около $1.25 млрд. в съдебно споразумение. Едно от обвиненията беше именно за техния компилатор, който умишлено изключва някой инструкции, в случай, че засече к�
+[23:30:45] <wilindex> rew1nd: I'll pass that on when phalaaxx is around.
+[23:35:00] <rew1nd> http://www.extremetech.com/extreme/173108-researchers-crack-the-worlds-toughest-encryption-by-listening-to-the-tiny-sounds-made-by-your-computers-cpu
+[23:35:01] <wilindex> [ Researchers crack the world’s toughest encryption by listening to the tiny sounds made by your computer’s CPU | ExtremeTech ] - www.extremetech.com
+[23:49:06] fityla (~fityla@84.40.116.146) joined #telerikacademy.
+[23:49:07] fityla_ (~fityla@84.40.116.146) left irc: Read error: Connection reset by peer
+[00:00:00] --- Mon Dec 23 2013
+[00:00:00] Backing up channel file...
+[00:00:05] Backing up user file...

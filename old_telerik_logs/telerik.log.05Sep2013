@@ -1,0 +1,972 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:07:45] rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[00:09:20] ivanl (~ivanl@pld.1h.com) joined #telerikacademy.
+[00:09:34] ivanl (~ivanl@pld.1h.com) left irc: Client Quit
+[00:11:16] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[00:20:23] Shoshi (~androirc@95.111.18.140) joined #telerikacademy.
+[00:24:35] Shoshi (~androirc@95.111.18.140) left #telerikacademy ("AndroIRC").
+[00:24:52] Shoshi (~androirc@95.111.18.140) joined #telerikacademy.
+[00:31:37] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: leaving
+[00:32:25] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[00:32:43] Shoshi (~androirc@95.111.18.140) left irc: Ping timeout: 246 seconds
+[00:33:40] Shoshi (~androirc@95.111.18.140) joined #telerikacademy.
+[00:34:49] s0ny123 (~s0ny123@95.111.18.140) left irc: Client Quit
+[00:35:30] Shoshi (~androirc@95.111.18.140) left irc: Client Quit
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:26:09] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:26:34] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:41:22] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:30:31] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[07:52:35] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 240 seconds
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:07:49] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:12:29] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[08:12:53] Nick change: hackman -> Guest55099
+[08:17:11] Guest55099 (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 264 seconds
+[08:56:03] hackman_ (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:06:17] <KpeTeHoug> yulimoto_ ъпдейтвай ти си
+[09:08:14] <KpeTeHoug> аз днес ще си поиграя още малко с контактите
+[09:13:41] hackman_ (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 256 seconds
+[09:23:37] <yulimoto_> KpeTeHoug: лошото че прецаках базата данни ; датата остана но lightsql-a го забравих;
+[09:23:53] <yulimoto_> т.е. точно контактите ти са отишли най-вероятно
+[09:26:11] <KpeTeHoug> е нп
+[09:26:18] <KpeTeHoug> те са фейк за тест само
+[09:26:35] <KpeTeHoug> днес щях да екрпортвам от телифона
+[09:26:37] <KpeTeHoug> ако остане време
+[09:26:38] <KpeTeHoug> :)
+[09:26:39] <yulimoto_> въпроса е принципен
+[09:27:00] <KpeTeHoug> да, и принципно не ми е проблем :)
+[09:27:03] <yulimoto_> ами аз така съм си направил един бекъп
+[09:27:17] <yulimoto_> ама поне са оправили музиката
+[09:27:25] <yulimoto_> плеъра работи и търси песни
+[09:27:50] <yulimoto_> и ги пуща и през фф и през хром
+[09:28:18] <yulimoto_> преди това имаше проблем и нямаше кой да развива този фючър
+[09:28:25] <yulimoto_> явно са намерили човек
+[09:28:42] <KpeTeHoug> найс
+[09:29:09] <KpeTeHoug> ако ми  остане време ще кача и малко порно
+[09:29:11] <KpeTeHoug> да си гледкаме
+[09:29:11] <KpeTeHoug> :)
+[09:29:45] <yulimoto_> хахах с филмите нз как е не съм пробвал
+[09:30:51] <KpeTeHoug> :) и аз не съм, ще видим
+[09:30:52] <yulimoto_> имам една тед лекция сега ще видя
+[09:31:07] <KpeTeHoug> добре, качи, аз ще си рпавя кафе
+[09:31:10] <KpeTeHoug> *правя кафе
+[09:32:16] <KpeTeHoug> омг
+[09:32:24] <KpeTeHoug> my eyes
+[09:32:27] <KpeTeHoug> http://www.youtube.com/watch?v=OBRL9yhHWz4
+[09:32:39] <KpeTeHoug> you can not unsee it
+[09:36:31] <yulimoto_> мм кво да правят чадата
+[09:40:21] <KpeTeHoug> em
+[09:40:28] <KpeTeHoug> днес съм решил да се отдам на това
+[09:40:29] <KpeTeHoug> http://www.youtube.com/watch?v=P9GkF1CLzJU
+[09:40:36] <KpeTeHoug> може и да свърши работа
+[09:42:02] dencho (dencho@87.118.158.130) joined #telerikacademy.
+[09:42:27] <KrasiGa> Вие двамата за какво говорите бре?
+[09:43:25] <KpeTeHoug> за денчу админа
+[09:43:38] <KpeTeHoug> за една програмка, нещо като собствен cloud
+[09:43:42] <KpeTeHoug> с екстри
+[09:44:01] <dencho> yo
+[09:44:22] <dencho> mnogo e qko da se pribere6 u doma :D
+[09:45:49] <dencho> btw kakvo se razbira pod cloud ?
+[09:45:57] <yulimoto_> къде де ве в ботево ли ?
+[09:46:29] <yulimoto_> ей голям .... го ям с това убунту
+[09:46:41] <yulimoto_> panic occurred, switching back to text console
+[09:46:42] <KpeTeHoug> ми отдалечена кочинка, която си е само твяо, да си я трошиш
+[09:46:48] <KpeTeHoug> и да си държиш помийката
+[09:46:50] <KpeTeHoug> :)
+[09:47:03] <yulimoto_> нещо ме пържи графичната карта от 2-3 дена
+[09:47:10] <dencho> yulimoto_ da, na "града" съм както казват тук :Д
+[09:47:27] <KpeTeHoug> ми ако имаш по новичка карта, така е
+[09:47:39] <KpeTeHoug> карай си с вградената
+[09:47:49] <yulimoto_> на града, е ботевград , а като си одиш на селото до града е друго ?
+[09:48:18] <yulimoto_> тука казват отиваме на вилата !!
+[09:48:37] <yulimoto_> ама колко е вила и колко почиват е друг въпрс
+[09:48:41] <dencho> haha
+[09:48:54] <dencho> kato hodi6 do seloto kazva6 4e otiva6 do името на селото
+[09:48:55] <dencho> :Д
+[09:49:18] <dencho> tuk vilni zoni ima samo 2, ostanloto sa si sela, no horata se gordeqt 4e otivat na grada
+[09:49:19] <dencho> :D
+[09:49:20] <dencho> ghahahha
+[09:49:32] <dencho> i udarenie na vtoroto A
+[09:49:35] <dencho> градА
+[09:49:35] <dencho> :Д
+[09:50:07] <yulimoto_> иначе фейсбука ако им гледаш, АХ, само ако им гледаш фейсбучито да видиш как си живеят като холивудски звезди; бедност какво да правиш !!
+[09:50:23] <dencho> диалекта е потчи врачански, с примерси от етрополе :Д
+[09:50:31] <yulimoto_> ясно
+[09:50:33] <dencho> :д
+[09:50:36] <dencho> :D
+[09:50:51] <dencho> i s primesi ot onova klip4e koeto ti davah
+[09:50:52] <dencho> :D
+[09:51:01] <yulimoto_> сватбата ли ?
+[09:51:04] <dencho> ne
+[09:51:06] <dencho> televizora
+[09:51:12] <yulimoto_> аааааа
+[09:51:16] <dencho> :D
+[09:51:20] <yulimoto_> г-н млад меринджей
+[09:51:28] <dencho> ina4e svatbata mai sa kum 30-40% ve4e...
+[09:51:34] <dencho> ne be,
+[09:51:40] <dencho> onzi deto si vbzema televizora
+[09:51:44] <dencho> deto e platil i kabelna
+[09:51:44] <yulimoto_> ааа да
+[09:51:45] <dencho> :D
+[09:51:46] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[09:52:20] <dencho> btw ne stavam za prodava4 :D
+[09:54:48] <yulimoto_> що ?
+[09:54:52] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 268 seconds
+[09:54:59] <yulimoto_> къде ве в суперхостинг
+[09:55:20] <KpeTeHoug> ми няма сигурно добър търговски вид
+[09:55:21] <KpeTeHoug> :)
+[09:55:49] <yulimoto_> ми като е отишъл като направен като изгряваща рап звезда
+[09:56:12] <dencho> ne be s riza bqh, vurzana kosica, izbrusnat, dunki, gotini 4epici
+[09:56:34] <yulimoto_> като рапър, какво ти казах
+[09:56:37] <dencho> e!
+[09:56:43] <yulimoto_> шегувам
+[09:56:44] <yulimoto_> се
+[09:56:48] <yulimoto_> не ти трябва супер хостинг
+[09:56:53] <dencho> ama cqlata istoria be6e malko sme6na :D sq 6vi razkaja,
+[09:57:02] <yulimoto_> трябва ти твоя шеф да те учи и да ти увеличи заплатата
+[09:57:12] <yulimoto_> я разкажи
+[09:57:14] <yulimoto_> денчо
+[09:57:17] <yulimoto_> да ти мен
+[09:57:21] <yulimoto_> да ти мине
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:53] <yulimoto_> аре ве кажи
+[10:00:54] <dencho> otivam az purvo na test-a za tech supp kato si praq smetka sled tva da ida (poneje te sa v razli4ni zgradi dvata otdela support i prodajbi) na interviuto za prodava4, vikam OK, otivam az, vlizam... nqkva kaka mi dava test, 10 stranici vuprosi, I NE SA A, B, V, G, ami otvoreni... vikam OK, qvno 6te trqq da pi6a :D sqdam az... pi6a malko oligofreni4ni bqha... ima6e okolo 4-5 razdela,
+[10:00:54] <dencho> linux, sql, cpanel (podqvolite i cpanela lainqn) php?! html?!?! vikam OK, i posle nqkakvi situacii ot tipa na, nqkoi ti se obajda 4e saita ne mu raboti a pri tebe raboti, kakvo 6te mu kaje6?! wtf?! ili maila ne mu raboti, a pri tebe raboti, kakvo 6te mu kaje6? vuprosi ot tipa na kakvo predstavlqva IP?! podqvolite kakvo e IP ?!
+[10:00:56] <dencho> pi6a we
+[10:00:57] <dencho> :P
+[10:01:15] <dencho> ima6e kak da promenq kolaciata na bazada s komanda? TVA NE GO ZNAM
+[10:01:32] <dencho> ima6e kakvo ozna4avat tablicite v bazite danni
+[10:01:36] <dencho> i tva ne go znam :D
+[10:01:42] <dencho> no vsi4ko ostanalo go napisah
+[10:01:53] <dencho> i si trugvam... i vikam na kakata aide 4ao
+[10:02:22] <dencho> otivam v turgovskia otdel, nqkva slaba kaka s beli zybki mi vika iz4akai malko... vikam dooobre
+[10:03:23] <dencho> 4akam az... i sled 15 minti 4akane vliza taq purvata kaka i mi vika - Zdrasti! vikam Zdravei! kakata: kakvo pravi6 tuka? az: 4akam za interviu... tq: aaa ti si kandidastval i za drugata pozicia li? az: kandidatstval sam za vsi4ki svobodni pozicii na kompaniata... smqh...
+[10:03:24] <dencho> :D
+[10:03:30] <dencho> vikam OK, sme6no li vi e:D
+[10:04:29] <dencho> gledam kakata preti4va i im nosi nqkvi lista, mislq si... taq da ne bi da mi zanese testa da mi go proverqt :D
+[10:05:11] <dencho> sled malko idva 4i4oto deto vodi otdela i me kani... vlizam az... gledam o6te dvama (mai sa ba6 6efovete) :D zapoznavame se... u a... i onezi mi vikat: Taka kato gledame mai si se orientiral kum tehni4eskata 4ast
+[10:05:28] <dencho> vikam... DA :D ama... znae li se :D
+[10:06:06] <dencho> praa se na tup... i kazvam: tehni4eskia test ne6to ne go napravih mnogo dobre... i te: za6to? vikam: 6toto sam BOLEN WE! :D
+[10:06:19] <yulimoto_> хахаха
+[10:06:20] <yulimoto_> дорбе
+[10:06:22] <dencho> i te: aaa ne ne dobre e... nad srednoto nivo si sprqmo ostanalite :D
+[10:06:29] <dencho> vikam e pa... zna4i ostanalite sa prosti
+[10:07:11] <dencho> i onez mi vikat... ako iska6 napravo da nasro4im interviu drugata sedmica za tech supp, vikam im OK! ama daide da vidim dali stavam i za prodava4 vse pak tva mi e purvoto interviu tuka :D
+[10:07:17] <dencho> i onezi vikat emi dobre! :D
+[10:07:37] <dencho> otvoriha mi edin apple (pomislih si az nikoga ne sam pipal apple !)
+[10:07:41] <dencho> nqma i da go pipna i sega :D
+[10:07:44] <yulimoto_> а ве те направо са те взели за суппорт за какво ти е продавач ве
+[10:08:07] <yulimoto_> давай нататък
+[10:08:21] <dencho> zarediha mi saita si i mi vikat... zada4ata ti e da ni prodada6 sredniq paket ili nai golemiq... no ne i nai malkia (evtin) vikam dobre! aide :D
+[10:08:58] <yulimoto_> бахти мошениците, ей няма да продават на хората от тва дето имат нужда, няма да се научат
+[10:09:14] <yulimoto_> така "слушам те"
+[10:09:40] <dencho> prikazvahme si... NE MOJAH DA IM GO PRODAM :D be6e super sme6no... vsi4ki se hilat... az se hila... :D oligofreniq leka... posle 6efa prodajbi mi vika, ako sam v situacia 4e klienta ima vuzmojnot da si kupi nai skupia plan, no az vijdam 4e i nai evtinia bi mu svir6il rabota koi 6te mu prodam... i az im kazah nai evtiniq! :D
+[10:09:44] <dencho> 6tom mu vur6i rabota
+[10:09:45] <dencho> :D
+[10:09:54] <dencho> AMA MAI TVA NE E PRAVILNIQ OTGOVOR
+[10:09:54] <dencho> :d
+[10:10:20] Last message repeated 1 time(s).
+[10:10:20] hackman_ (~hackman@management.1h.com) joined #telerikacademy.
+[10:10:48] <dencho> iiii taka, :D zapo4naha da me podpitvat za sledva6toto interviu, pitaha me koi mi vodi lekciiite v telerik, vikam Marian :) i te aa da znaem go
+[10:10:50] <dencho> vikam dobre :D
+[10:11:03] <yulimoto_> хахах
+[10:11:09] <dencho> pitaha me i za staja... kakvi gi vur6a tam... i taka
+[10:11:09] <yulimoto_> видя че влезе маймуно
+[10:11:19] <yulimoto_> и тогава почна
+[10:11:19] <dencho> ne be serizono btw!
+[10:11:23] <dencho> hahaha
+[10:11:24] <yulimoto_> хаха добре
+[10:11:46] <dencho> kazvam Marian Marinov... a k a hackman... i te da da znaem go! vikam az pa ne vi znam vas :D
+[10:11:55] <yulimoto_> хахаха
+[10:11:55] <dencho> kvi ste 6to ste i ot kade ste :D
+[10:12:03] <yulimoto_> ей това вече нарочно го направи
+[10:12:09] <dencho> ghahhaha
+[10:12:10] <yulimoto_> хаха
+[10:12:40] <dencho> posle me pitaha tam za nqkoi predmeti koi sa mi v magistraturata... koi mi gi e vodil... kazah im imenata i te pak kazaha 4e gi znaqt :D
+[10:12:47] <dencho> qvno sa nekvi vseznaikovci
+[10:12:50] <dencho> iiii taka :D
+[10:13:04] <dencho> i za prodava4 ne staam
+[10:13:04] <dencho> :D
+[10:13:46] <dencho> no ima6e nqkolko vuprosa ot testa koito me zamisliha mnoooo naprimer, koi sa osnovnite mail protokoli i kakva e razlikata mejdu tqh... predimstva i nedostatuci
+[10:13:47] <dencho> ?!
+[10:13:50] <dencho> smtp ?! i ?
+[10:14:24] <yulimoto_> сигурно за поп3, imap са те питали ?
+[10:14:36] <dencho> eba li go :D az samo smtp znam :D
+[10:14:59] <dencho> za predimstva i nedostatuci hepten ne znam
+[10:15:14] <dencho> i drugoto oligofreni4no be6e .. kakvo predstavlqva IP ?!
+[10:15:33] <dencho> internet protocol... ot semeistvoto na tcp... leyar 3 ?!
+[10:16:24] <dencho> drug vupros... kakva e opciata v php, koqto pozvolqva da se uploadvat po golemi po razmer failove 4rez html formi... ?!
+[10:16:39] <dencho> az napisah ... upload_size ?! hahaha s ?! nakraq :D
+[10:16:50] <dencho> ba li go drugarko :D
+[10:16:56] <yulimoto_> хахаа
+[10:17:26] <KpeTeHoug> хахах
+[10:17:29] <KpeTeHoug> интерсно
+[10:17:34] <KpeTeHoug> какво точно ще съпортваш
+[10:17:40] <dencho> idioti qvno
+[10:17:40] <KpeTeHoug> начинаещи писачи на пхп ?
+[10:17:41] <dencho> :D
+[10:17:48] <yulimoto_> а ве тия тестове са за неща които се учат за 2 дена, но основа дали имаш едва ли ще измерят с такива въпроси
+[10:18:03] <KpeTeHoug> именно
+[10:18:05] <dencho> yulimoto_ da...
+[10:18:14] <KpeTeHoug> хем ситуации за call center support
+[10:18:19] <KpeTeHoug> хем да настройваш php
+[10:18:22] <KpeTeHoug> нещо не ми се връзва
+[10:18:31] <dencho> za cpanel samo trqbva da go razgleda6 i 6te znae6 kakvo pravi,
+[10:18:45] <dencho> aaaa
+[10:18:49] <dencho> ima6e kakvi CMS poznavam
+[10:18:56] <yulimoto_> ами сpanel-а какво да му раазказвам интерфейса ли ?
+[10:18:56] <dencho> s kakvo moga da si napravq blog
+[10:18:56] <dencho> :D
+[10:19:02] <dencho> yulimoto_ predpolagam da
+[10:19:21] <dencho> poneje ima6e file managera na cpanel-a kakvo moje da prai, upload/donwload, laina,
+[10:19:39] <dencho> kakvi ftp programi znam, kakvi brausari znam.. az napisah Mosaic
+[10:20:14] <yulimoto_> тъпото на такива тестове е че разбираш колко елементарни неща не знаеш, примерно едно определение за ип ще ме измъчи
+[10:20:16] <dencho> i ostanalite de :D
+[10:20:31] <dencho> ami da.. vuprosa be6e oligofreni4en,
+[10:20:51] <dencho> az napisah ipv4, i ipv6 i gi obesnih kato se edno sam v 4 klas
+[10:20:51] <dencho> :D
+[10:21:12] <dencho> 4etiri poleta razdeleni s to4ka HAHAHHAHAHAHAHHA
+[10:21:13] <dencho> :D
+[10:21:21] <KpeTeHoug> това с Mosaic си ги утепал
+[10:21:25] <KpeTeHoug> edwa li go znaqt
+[10:21:38] <dencho> mislih i lynks da napi6a no ne bqh siguren kak se pi6e
+[10:21:39] <dencho> :D
+[10:22:16] <yulimoto_> аз съм чел из форумите че имало някъде какво е RFC  и всичко отговорили routing forward едикакаво си :)
+[10:22:34] <dencho> :)
+[10:23:03] <dencho> to moje da e mnoo raboti
+[10:23:03] <dencho> :D
+[10:23:14] <yulimoto_> ами щото Request for comments Им се сторило уловката
+[10:23:21] <dencho> haha
+[10:23:25] <KpeTeHoug> ами и links i lynx
+[10:23:47] <dencho> ta takiva miti raboti
+[10:23:48] <dencho> :D
+[10:24:02] <dencho> ob6to vzeto ne razbrah ako si turgovec trqq li da luje6 ili ne trqq :D
+[10:24:05] <dencho> qvno trqq :D
+[10:24:44] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[10:25:21] <KpeTeHoug> 100 % trqbva
+[10:25:24] <KpeTeHoug> ма след тоя отговор
+[10:25:29] <KpeTeHoug> няма да те вземат търговец
+[10:25:32] <KpeTeHoug> 110 %
+[10:25:36] <dencho> hahahaha
+[10:25:37] <dencho> :D
+[10:25:43] <dencho> mi ne moga da luja orata sq :D
+[10:26:00] <KpeTeHoug> аз съм съгласен, иа з акто давам препоръки за софтуер/хардуер /услуги
+[10:26:12] <KpeTeHoug> давам по ефтиният вариант, ако им върши работа
+[10:26:17] <dencho> da mu kaja da si kupi nai skupiq plan samo 6toto ne si znae parite, posle da doide i da me uvika, 4e naro4no sa mu prodal skupoto
+[10:26:30] <KpeTeHoug> един ми вика къде да ми почистят лаптопа
+[10:26:44] <KpeTeHoug> викам еди къди си, 7-8 лв беш май цената
+[10:26:58] <KpeTeHoug> и той веднага - е аз искам хубаво да го направят, и 30 ще дам
+[10:27:00] <yulimoto_> ако ти кажат нещо че не си можал да вземеш интервюто, им кажи "ами всъщност вие не можахте да вземете моето интервю. Просто не сте дорасли да продавате неща които са нужни на хората"
+[10:27:20] <KpeTeHoug> ми като ще даващ 30, дай ги на мен да те таковат ... а аз ще им го дам за 8 :)
+[10:28:04] <dencho> hahahaha KpeTeHoug :D emmm yulimoto_ zabravih da gi pitam... za6to sa me viknali na interviu, t.e kakvo gi e vpe4atlilo v moqta kratka avtobiografiika
+[10:28:09] <dencho> no 6te gi pitam na sledva6toto
+[10:28:10] <dencho> :D
+[10:28:25] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[10:28:53] <yulimoto_> KpeTeHoug: има разлика щото аз ще отида до някоя бензиностанция ще взема йонизирана вода, ще го разглобя, ще махна батериите, и ще го измия, ще съхне 2 дена но ще бъде нов
+[10:29:04] <yulimoto_> KpeTeHoug: обаче и 30 кинта не те оправят брато
+[10:29:08] <dencho> aaa, ima6e ot predniq test, za prodava4a, toz mi vika... tuka iskam da te pitam za nqkoi otgovori koito si dal... vikam aide :D i toz vika. tuka si poso4il 4e iska6 da ima6 mnogo po4ivni dni... vikam emi... nikoi ne iska da ima mnogo rabotni dni ?!?!
+[10:29:10] <KpeTeHoug> :)
+[10:29:43] <yulimoto_> хахах
+[10:29:52] <yulimoto_> ами той е чакал някакви причини
+[10:30:24] <dencho> posle vika... tuk si pisal, 4e ne iska6 da ima6 mnogo izvanredni 4asove... vikam, e... ako zapla6taneto e normalno nqma da mi pre4i, no ne mislq i da ostavam vseki den po 2 4asa dopulnitelno :D
+[10:30:26] <yulimoto_> примерно "имам малко дете и майка му избяга с един режисьор "
+[10:30:34] <dencho> haha
+[10:30:46] <KpeTeHoug> ^_^
+[10:31:19] <dencho> pita me i nqkakvi drugi ne6ta, i po edno vreme vika... 4udno kak s tezi otgovori sme te pokanil na interviu HAHAHAHHAHAH
+[10:31:31] <dencho> vikam miiiiii :D nqkoi ne mi e 4el testa do predi 15 minuti
+[10:31:31] <dencho> :D
+[10:31:43] <yulimoto_> хахах
+[10:31:48] <KpeTeHoug> :)
+[10:31:49] <KpeTeHoug> http://www.facebook.com/photo.php?v=10151810808656168&set=vb.811436167&type=2&theater
+[10:31:57] <KpeTeHoug> ето го на данчу инетрвюто
+[10:32:16] <yulimoto_> те искат млади надъхани, прости кучета, денчо не си за там брат - нито си прост нито си надъхан
+[10:32:47] <dencho> hahaha
+[10:32:48] <dencho> :D
+[10:32:54] <dencho> da, NE STAAM ZA PRODAAA4
+[10:32:55] <dencho> :D
+[10:35:55] <KpeTeHoug> да, ти си overqualified
+[10:36:00] <KpeTeHoug> или както там се пише
+[10:36:01] <KpeTeHoug> :)
+[10:36:16] <dencho> aaa
+[10:36:21] <dencho> pitaha me i liubimiq vupros!
+[10:36:31] <dencho> kolko pari o4akvam :D
+[10:36:34] <yulimoto_> виж сега за интервю за продавач се иска да се лъже, щото те си викат тоя като си търси работа ако не излъже като циганин, после ли ще излъже като ми продава ла*ната
+[10:37:01] <KrasiGa> и какво има каза?
+[10:37:08] <yulimoto_> 1800 ?
+[10:37:10] <KpeTeHoug> 1800 лв бруто
+[10:37:14] <KpeTeHoug> ахахахахаха
+[10:37:15] <KrasiGa> а клипчето е много яко :) ама да не си ти на тяхно място
+[10:37:20] <yulimoto_> да
+[10:37:29] <dencho> kazah im (poneje go o4akvah)... Az nqmam opit, i zatova iskam minimalnoto za dlujnosta... i onq mi vika, emi to moje da e 200 leva, vikam mu 200 leva nqma kak da e minimalnoto za dlujnosta :P~
+[10:37:30] <KpeTeHoug> yulimoto_ ходи сега кажи че не сме се наговорили
+[10:37:34] <yulimoto_> кола поне поиска ли ?
+[10:37:37] <yulimoto_> KpeTeHoug: da
+[10:38:16] <dencho> hahaha
+[10:38:27] <KpeTeHoug> не кола
+[10:38:35] <KpeTeHoug> поне шофьорка за кколата поиска ли
+[10:38:46] <yulimoto_> ох аз нямам голям опит с интервютата, ама ти си им казал - не мога да лъжа, искам да работя малко, и не ща да ми плащате
+[10:39:02] <dencho> hahahaha
+[10:39:09] <yulimoto_> и те са ти казали - ами брато ти си за tech supp значи
+[10:39:17] <dencho> ob6to vzeto da :D
+[10:39:35] <dencho> e kvo da im kaja, kato nqmam opit we :D
+[10:39:43] <yulimoto_> заплатата колко е на tech supp и колко на продавача
+[10:39:48] <dencho> ne znam
+[10:39:49] <dencho> :D
+[10:39:53] <yulimoto_> е как не знаеш
+[10:39:56] <yulimoto_> долу -горе
+[10:39:58] <dencho> e ot kade da znam we
+[10:40:06] <yulimoto_> ми нямаш ли очаквания ве
+[10:40:12] <dencho> mi nqmam predstava we
+[10:40:13] <KrasiGa> още е зелен, оставето го човека
+[10:40:24] <dencho> predpolagam 600 kinta im daaat na prodava4ite
+[10:40:29] <dencho> na tech-a 800
+[10:40:30] <dencho> :P
+[10:40:35] <yulimoto_> добре
+[10:40:35] <KrasiGa> нека натрупа малко стаж и ще си търси каквото му се поалага
+[10:41:03] <KpeTeHoug> е зелен зелен
+[10:41:05] <KpeTeHoug> ама все пак
+[10:41:16] <KpeTeHoug> лвл 1 теч съпорт може 800
+[10:41:23] <KpeTeHoug> ма са low end спорд мен :)
+[10:41:42] <dencho> nema kak da iskam hilqdi levove za sega, 6te iskam tolkova kolkoto da moga da se izdurjam, puk posle.... kat stana PRO 6a sa pazara
+[10:41:42] <dencho> :D
+[10:42:00] <yulimoto_> значи им кажи следващия път "сега вижте пичове парите са си пари, но аз искам някакъв direction да ми предложите, nqkakwa посока в която да се развивам. Сега ясно е че трябва да ми давате поне 800-900 лв щото аз сега като стажант вземам 600-650лв"
+[10:42:53] <yulimoto_> "та ако си остана там ще вземам поне 700-800лв, но мен това не ме интересува, аз искам развитие, та кажете ми какво предлагате като развитие "
+[10:43:38] <KrasiGa> 600лв те оправят в София? стига бе?
+[10:43:56] <KrasiGa> а квартирата вашите ли я плащат dencho ?
+[10:44:03] <yulimoto_> вие луди ли сте ве ?
+[10:44:08] <yulimoto_> оф вие си знаете
+[10:44:49] <yulimoto_> KpeTeHoug: има и WebDav ако сакаш може да си го маунтваш направо в конзолата
+[10:45:18] <yulimoto_> ама mount за да ти подържа davfs иска fuse да си инсталираш
+[10:45:22] <KrasiGa> кажете за тоя cloud
+[10:46:10] <dencho> az jiveq skromno
+[10:46:10] <dencho> :)
+[10:46:10] <KpeTeHoug> видях го това за webdav, ма не съм барал такова
+[10:46:10] <dencho> vsi4ko az si pla6ttam
+[10:46:35] <KrasiGa> bravo na teb, triabva da me nau4i6 kak stava
+[10:46:40] <yulimoto_> dencho: ама ти ще бягаш ли сега от шефа си или той не те вика ?
+[10:46:52] <dencho> yulimoto_ v ponedelnik 6te razbera we
+[10:46:52] <dencho> :D
+[10:46:59] <dencho> na men ne mi se bqga
+[10:47:09] <yulimoto_> ако те покани да останеш ще останеш ли ?
+[10:47:12] <dencho> da
+[10:47:13] <yulimoto_> браво
+[10:47:18] <yulimoto_> ей така те искам
+[10:47:29] <KrasiGa> a kyde kara6 staj?
+[10:47:41] <yulimoto_> за 4-5 години ще станеш тигър после бегай дето си искаш
+[10:47:57] <dencho> KrasiGa malka firma, http://goodspring.eu/
+[10:48:01] <dencho> yulimoto_ da :D
+[10:50:56] <KrasiGa> как се казва software дето внедрявате за ERP?
+[10:51:15] <dencho> olll :P nikva ideq :D
+[10:51:39] <dencho> az ne vnedrqvam
+[10:51:40] <dencho> :)
+[10:51:47] <dencho> az samo gledam dali raboti
+[10:51:49] <yulimoto_> от цялата работа разбрах че шефа ти пише на питон, но не и кой е
+[10:51:58] <dencho> hahahaha
+[10:52:19] <dencho> malko mu e oburkan web-a
+[10:52:19] <KrasiGa> gleda6 ne6to dali raboti a ne znae6 kak se kazva?
+[10:53:30] <yulimoto_> contenta му нещо не е подреден и не става ясно
+[10:53:42] <yulimoto_> колко персонал е цялата фирма
+[10:53:44] <dencho> ne gledam erp-ta az KrasiGa :D
+[10:54:17] <dencho> yulimoto_ eto ti info http://goodspring.eu/bg/blog/authors/55-goodspring-authors/78-tttodorov :D
+[10:54:37] <dencho> yulimoto_ malko :D
+[10:54:39] nlkl (~nlkl@nat117.cnsys.bg) left irc: Quit: Leaving
+[10:55:26] <yulimoto_> а) 3-4 б) 7-9 в)10-25 г) 25+
+[10:57:13] <dencho> v
+[10:58:04] <yulimoto_> много сте ве
+[10:58:20] <yulimoto_> за мен 7-8 тигъра са напълно достатъчни
+[10:58:27] <yulimoto_> ама то зависи
+[10:58:38] <yulimoto_> за кво щото ако е за маса .... :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:45] <dencho> mi az sam o6te kotence
+[11:00:45] <dencho> :P
+[11:00:46] <dencho> hahaha
+[11:00:50] <yulimoto_> are pichove i pichki
+[11:01:49] <dencho> :]
+[11:07:23] <yulimoto_> баххх обажда ми се един и вика решими задачата на C++ ще ти платя, аз съм кенефите вика
+[11:07:26] <yulimoto_> хахах
+[11:07:29] <yulimoto_> сега ще решавам задача
+[11:07:30] <yulimoto_> :)
+[11:12:33] <dencho> e pa
+[11:12:34] <dencho> :P
+[11:12:45] <dencho> davai po burzo, 4e 4oveka vreme goni
+[11:19:07] <KpeTeHoug> да, нужда има човека
+[11:19:46] <dencho> :]
+[11:20:42] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[11:21:09] <Deyan> Добро утро
+[11:22:56] <KpeTeHoug> добър ден :)
+[11:27:19] <dencho> Deyaneeeeeeeeeeeeeeeeeeeeeeeeeeeeeeei
+[11:28:03] net: connect! sock 3
+[11:28:03] DNS resolved 127.0.0.1 to localhost
+[11:28:03] Telnet connection: localhost/33432
+[11:28:03] net: connect! sock 9
+[11:28:03] net: eof!(read) socket 9
+[11:28:03] Timeout/EOF ident connection
+[11:28:11] Logged in: KpeTeHoug (telnet@localhost/33432)
+[11:30:39] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[11:32:05] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[11:34:27] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[11:34:28] lyubenblagoev_ (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 260 seconds
+[11:35:27] s0ny123 (~s0ny123@95.111.18.140) left irc: Client Quit
+[11:35:45] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[11:36:03] <yulimoto_> gotou уж ама оня не може сега да я подкра на уин
+[11:36:37] <dencho> 4e to ima li zna4enie ?
+[11:36:44] <yulimoto_> има
+[11:37:00] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[11:37:28] <yulimoto_> редактора е различен и би трябвало да тръгне толкова проста задачка, ама какво да ти кажа, той не може да компилира
+[11:37:33] <yulimoto_> горкия
+[11:38:04] <yulimoto_> аз дори се съмнявам, че може да ми говори за c# което си все едно джава но ми казва c++
+[11:38:20] <yulimoto_> 6 грешки му изписало при мен нито една
+[11:39:19] Nick change: hackman_ -> hackman
+[11:39:39] Action: hackman update-нете си git repo-то за курса
+[11:39:50] <hackman> тази седмица съм качал доста нови неща :)
+[11:42:05] <dencho> updeitvame
+[11:56:46] <yulimoto_> бах маааму докато подкарам на VS библиотеките голем зооооор, am doбре че е stackoverflow че нямям win
+[11:57:26] <yulimoto_> гледам чак на C ще компилираме и ще си правим RPM i dpkg -а ; добре добре
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:23:38] <yulimoto_> ISN в tcp/ip за да се подреждат пакетите ли е ?
+[13:27:10] <KpeTeHoug> аз гледах тая сутрин малко
+[13:27:32] <KpeTeHoug> yulimoto_ аз като къца жаба, ако опра, ще помагаш с С програмирането
+[13:27:54] <KpeTeHoug> пък аз там ще почерпя, я бъклица с вино, я кокошка
+[13:27:58] <KpeTeHoug> по стар обичай
+[13:27:58] <KpeTeHoug> :)
+[13:29:40] <yulimoto_> ам аз не знам нито c++ нито с ,но в този курс няма и да се наложи, най-много да компилираме готов код, това видях като пулнах git-a :)
+[13:30:51] <KpeTeHoug> ако е така, аз обича да маже на другите готиният код, няма проблем
+[13:30:51] <KpeTeHoug> :)
+[13:32:17] <KpeTeHoug> забърсал си наистина контактите в клауда
+[13:32:27] <KpeTeHoug> ма сега качвам малко риъл шит
+[13:32:30] <KpeTeHoug> 260 контакта
+[13:32:30] <yulimoto_> мм кво разправяш
+[13:32:40] <yulimoto_> ама мога да ти ги възстановя довечера
+[13:32:44] <KpeTeHoug> а не
+[13:32:49] <KpeTeHoug> те бяха от рода на
+[13:32:57] <KpeTeHoug> Ivan Cho Me
+[13:33:02] <KpeTeHoug> a@b.com
+[13:33:02] <yulimoto_> ще вляза в lightsql-а ще дъмпна твоята база и ще ти я кача в новата
+[13:33:04] <KpeTeHoug> i tn :)
+[13:33:09] <yulimoto_> ама сега нямам време
+[13:33:24] <yulimoto_> ако ти трябва де
+[13:33:26] <yulimoto_> ааа ясно
+[13:33:29] <KpeTeHoug> :)
+[13:33:35] <yulimoto_> супер, няма да се напъвам
+[13:33:37] <KpeTeHoug> сега обаче му преседнаха нещо тея :)
+[13:33:46] <KpeTeHoug> дъвче на малки хапки
+[13:33:48] <yulimoto_> гледам мига
+[13:33:58] <yulimoto_> ай си чатим
+[13:34:00] <yulimoto_> аз съм на него
+[13:34:44] <yulimoto_> всичко в норма
+[13:34:49] <KpeTeHoug> :)
+[13:34:54] <yulimoto_> процесора я стигне 10% я не
+[13:35:23] <KrasiGa> ne iskate da me svetnete za toia cloud zna4i
+[13:35:23] <yulimoto_> ама ти от къде от телефона ли ги синхронизираш
+[13:35:30] <yulimoto_> хаха
+[13:35:34] <yulimoto_> owncloud.com
+[13:35:46] <yulimoto_> аз съм голям пропагандатор на тоя соф
+[13:35:48] <yulimoto_> аз съм голям пропагандатор на тоя софт
+[13:35:50] <KpeTeHoug> не, от гугъл контактс
+[13:36:01] <KpeTeHoug> ма са ми малко повечко
+[13:36:01] <KpeTeHoug> :)
+[13:36:02] <yulimoto_> ясно ама на файл ли ?
+[13:36:06] <KpeTeHoug> да вцф
+[13:36:10] <yulimoto_> ясно
+[13:36:18] <yulimoto_> ако имаш някакъв тест телефон е най ок
+[13:36:26] <yulimoto_> KrasiGa: разбра ли ?
+[13:36:47] <KpeTeHoug> сега не, ма после ще тествам с един
+[13:36:48] <yulimoto_> добре искам отзиви
+[13:36:53] <KpeTeHoug> yulimoto_ може си пропагндьор
+[13:36:53] <yulimoto_> важно ми е ?
+[13:36:57] <KpeTeHoug> ама аз сам го анмерих
+[13:36:58] <KpeTeHoug> :R
+[13:37:06] <yulimoto_> да ве цру
+[13:37:19] <KpeTeHoug> :)
+[13:37:24] <yulimoto_> вчера имаше webinar
+[13:37:25] <KpeTeHoug> да, ма в 7
+[13:37:34] <yulimoto_> емм това е
+[13:37:35] <KpeTeHoug> аз съм на площадката
+[13:37:36] <KpeTeHoug> при младите майки
+[13:37:44] <KpeTeHoug> на клюкинар
+[13:37:45] <KpeTeHoug> :)
+[13:39:24] <yulimoto_> ох баце недей че ще направя и аз някоя челяд само заради тез майки
+[13:39:26] <dencho> hahahaha
+[13:39:27] <KpeTeHoug> не ти трябва
+[13:39:27] <KrasiGa> знам го owncloud, един ден deyn се мъчеше да  ми качи видеото
+[13:39:27] <KpeTeHoug> :)
+[13:39:30] <KrasiGa> ама вие в един общ ли влизате
+[13:39:31] <yulimoto_> KrasiGa: да и той ползва т.е. май от фирмата му ползват
+[13:39:36] <KpeTeHoug> не, никой не ползва
+[13:39:37] <KpeTeHoug> аз искам да ползвам
+[13:39:37] <KpeTeHoug> :)
+[13:39:37] <KrasiGa> yulimoto_:  Ти си го свалил приложението на твоя машина и си дал достъп на KpeTeHoug  до нея ли?
+[13:39:43] <yulimoto_> да
+[13:39:43] <KrasiGa> окс
+[13:39:43] <yulimoto_> аз го полвам от версия 3
+[13:39:43] <KpeTeHoug> да, той го хоства
+[13:39:49] <KpeTeHoug> а аз съм бета тестер
+[13:40:49] <KrasiGa> и аз мога да стана тестер - да ви позатрия малко нещата
+[13:40:49] <yulimoto_> KrasiGa: що ? предлагаме добри цени ? dencho ще е продавач-а :)
+[13:41:07] <KpeTeHoug> ахаха
+[13:41:09] <KpeTeHoug> нищо нема да продадеш тогава :)
+[13:41:11] <yulimoto_> хаха да
+[13:41:11] <KpeTeHoug> той и предложи само peer review
+[13:41:16] <KpeTeHoug> само демо :)
+[13:45:22] <dencho> opensource li 6te prodavame
+[13:45:22] <dencho> :D
+[13:45:22] <yulimoto_> KrasiGa: тестваме го само. KpeTeHoug си качва някакви неща от време на време, аз записвам трафика и цпу-та
+[13:45:22] <yulimoto_> и т.н.
+[13:45:22] <yulimoto_> ако ти трябва за тест н.п.
+[13:45:22] <dencho> are hora, sledobedna drqmka... :P
+[13:45:22] <yulimoto_> ей сега ще ти направя един акаунт да го тормозиш и т.н. ама е 1.2 ГХ 512 мб
+[13:45:22] <KrasiGa> той yulimoto_  от всичко бизнес иска да прави
+[13:45:22] <yulimoto_> хаха
+[13:45:22] <KrasiGa> какво му падне и го продава
+[13:45:22] <KpeTeHoug> аз съм развълнувам от синхроницазията на контактите
+[13:45:22] <dencho> biznesmen e :D
+[13:45:22] <KpeTeHoug> принципно
+[13:45:22] <yulimoto_> KrasiGa: не бе твоя сърф не съм го продавал, нитто купувал ти сама поиска да ми го подариш
+[13:45:22] <KrasiGa> dencho:  завидях ти за дрямката, така ми се приспа и на мен
+[13:45:23] <yulimoto_> оф днес няма уорк за мен
+[13:45:23] <KrasiGa> не става въпрос за SUP
+[13:45:23] <yulimoto_> трябва да уча значи
+[13:45:23] <yulimoto_> ами какво съм искал да ти продавам
+[13:45:23] <yulimoto_> нали ти казах ако ти трбява аccount сега ще ти пратя един :)
+[13:45:23] <yulimoto_> KrasiGa: ама ти не ме оставяш да го направя
+[13:45:23] <yulimoto_> haha
+[13:45:23] <KrasiGa> ne pomnia za kakvo be6e ama edin pat pak iska6e da pravi6 biznes za moq smetka
+[13:45:33] <KrasiGa> ne iskam account
+[13:45:46] <yulimoto_> a dobre
+[13:47:41] <yulimoto_> щом не щеш да ставаш тестер на малкото чудовище http://www.google.com/imgres?imgurl=http://www.cyrius.com/images/sheevaplug_hand.jpg&imgrefurl=http://www.cyrius.com/journal/debian/kirkwood/sheevaplug&h=207&w=250&sz=10&tbnid=3ur4bPSNzpUdnM:&tbnh=90&tbnw=109&zoom=1&usg=__xeTHIG86rJieigAv0FLhP1q1gHM=&docid=mkqR_W3kFERzFM&sa=X&ei=C2EoUrzQIoPVtAbc94GoCQ&ved=0CEcQ9QEwBQ&dur=443
+[13:48:03] <yulimoto_> трябваше да го оправя ттова урл
+[13:49:37] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[13:50:00] <KpeTeHoug> все щях да те питам
+[13:50:01] <KpeTeHoug> откъде аджеба го намера тоя дзвер
+[13:51:04] <yulimoto_> hahah от щатите, но веке ги има в европа и идват китай наистина дзверове
+[13:51:26] <yulimoto_> майтапа на страна може да се спретне много хубава услуга и специално да подскажа на KrasiGa, че от хубава услуга може да се вадят пари
+[13:51:50] <yulimoto_> за малки офиси и т.н.
+[13:51:50] <yulimoto_> примерно
+[13:52:10] <yulimoto_> да се продават ембедет ус-ва, като apple мини например
+[13:53:58] <dencho> kakvo e tova ot link-a?
+[13:53:59] <KrasiGa> clouda  ti e na у-во като това на снимката ли?
+[13:54:04] <KpeTeHoug> да, а не да им тръснеш един рак
+[13:54:10] <KpeTeHoug> шкафове мафове
+[13:54:17] <KpeTeHoug> и тн
+[13:54:57] <yulimoto_> dencho: компютърчето дето KpeTeHoug go тества в момента
+[13:55:11] <yulimoto_> KrasiGa: да
+[13:55:28] <KrasiGa> супер
+[13:55:34] <dencho> ka4 para?
+[13:55:39] <KrasiGa> не знаех, че има такова чудо
+[13:55:44] <KrasiGa> пише, че е под 100 долара
+[13:55:50] <yulimoto_> KrasiGa: само че е мн слабо за момента, трбява да стане 4кор, вече има такива утройства
+[13:56:04] <yulimoto_> да едно такова вече може и да е към 50$
+[13:56:24] <yulimoto_> те остаряха, не е ли двуядрено няма смисъл да му обръщаш внимание
+[13:56:26] <KrasiGa> може линукс да не науча много ама покрай вас други неща ще науча
+[13:56:59] <dencho> kvo 6e kajete za tiq pi6ki http://www.tinygreenpc.com/fit-pc/intense-pc.aspx
+[13:57:04] <dencho> nqkoi ima li takova
+[13:57:04] <yulimoto_> ами аз ви питам ISN в tcp ip за какво служи вие мълчите
+[13:57:20] <KpeTeHoug> ми кът не знам
+[13:57:23] <KpeTeHoug> по тоя случай
+[13:57:35] <KrasiGa> хахаха тъкмо и аз това пишех
+[13:58:11] <yulimoto_> dencho: вече са много устройствата
+[13:58:27] <KpeTeHoug> http://shvargalo.com/konkretno/9/12/99
+[13:58:37] <KpeTeHoug> по случай твоя въпрос yulimoto_
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:22] <yulimoto_> аз ви казвам трябва ни от китай или кореа да си намерим платки; вчера киснах на webinara на owncloud пичовете се чудят как да набутат облака дават ти акъл как да го ребрандираш. и така си правим един стартъп
+[14:00:41] <yulimoto_> имаш хардуер и софтуер
+[14:01:02] <KpeTeHoug> а с къв сторидж е това
+[14:01:17] <yulimoto_> сноудън и той помага с това подслушване ; хората веке искат свобода
+[14:01:22] <yulimoto_> това е за хоум
+[14:01:47] <yulimoto_> като имаш фирма 5-6-7 човека  минаваш на офертата на dencho
+[14:01:50] <yulimoto_> той ще продава
+[14:02:18] <yulimoto_> вече на повече узери имаш mysql
+[14:03:01] <dencho> HAHAHAH
+[14:03:05] <yulimoto_> а ако си ербап направо един freeNAS ще ти вържем към clouda
+[14:03:36] <yulimoto_> иначе си има usb-ta за сторидж
+[14:03:44] <yulimoto_> да си слагаш
+[14:04:27] <yulimoto_> с udev може да се направят определени usb-ta само за сторидж да се ползват и директно да ти разширяват space-а na owncloud
+[14:04:35] <KpeTeHoug> усб3
+[14:04:58] <yulimoto_> само слгаш усб-diska и ти се разширява сториджа
+[14:05:26] <KpeTeHoug> мхм
+[14:05:45] <KpeTeHoug> аз мисля че омазах работата
+[14:05:47] <KpeTeHoug> с контактите
+[14:05:50] <KpeTeHoug> умря кат кучи
+[14:05:51] <KpeTeHoug> :)
+[14:06:14] <yulimoto_> ама не ни трябва да ви кажа, ще вземе да направим пари от това, KrasiGa ще се разведе, KpeTeHoug ще се пропие, a dencho горкия ще пуши трева и ще слуша реге
+[14:06:29] <KpeTeHoug> аз съм се пропил бре
+[14:06:31] <KpeTeHoug> пия вода
+[14:07:22] <yulimoto_> KpeTeHoug: 1 момент
+[14:07:25] <KpeTeHoug> и това не е водКа с правописна грешка
+[14:07:26] <KpeTeHoug> :)
+[14:07:57] <dencho> zna4i ideqta na yulimoto_ e s takiva "pi6ki" da napravi cloud?
+[14:08:09] <yulimoto_> не ве
+[14:08:20] <yulimoto_> персонъл клауд
+[14:09:07] <dencho> q mi obesnete za kvo vi e toq klaud we
+[14:09:10] <dencho> az li sam tup :D
+[14:09:57] <KpeTeHoug> ами някаой от нас са мобилни
+[14:10:04] <yulimoto_> като се снимаш на плажа, да ти се качат снимките автоматично в клауда и после да си ги гледаш директно на тв-то
+[14:10:08] <KpeTeHoug> и искат да имт достъп до един и същ кънтент
+[14:10:11] <KrasiGa> maleee kva 6efka imam ne e istina
+[14:10:21] <KpeTeHoug> без да синхронизират постоянно
+[14:10:21] <KrasiGa> skuba si kosite
+[14:10:29] <KpeTeHoug> но yulimoto_ го обясни по готино :)
+[14:10:32] <yulimoto_> KrasiGa:  я кажи за шефката
+[14:10:37] <KpeTeHoug> KrasiGa я раздуй
+[14:10:55] <yulimoto_> оф днес наистина трябваше да поуча малко, тъй тъй няма уорк
+[14:11:05] <dencho> zna4i toq klaud e za nekvi kifladjiiki
+[14:11:06] <dencho> :D
+[14:11:36] <dencho> qsno :D
+[14:11:52] <KrasiGa> сега идва да ни съобщи, че директора ни пуска по-рано но трябва един да остане дижурен и с най-голяма наглост казва разберете се / аз и моя колега/
+[14:11:53] <KpeTeHoug> dencho точно така да :)
+[14:12:06] <dencho> hahhaha
+[14:12:07] <KrasiGa> ами тя според мен трябва да остане
+[14:12:09] <dencho> 4estito KrasiGa
+[14:12:29] <KrasiGa> да не говорим, че от всички закъснява най-много и разбира най-малко
+[14:12:39] <yulimoto_> не бе; dencho майка ми преди година ме пита какво е клауд брат. ама за теб е много късно брат, ще трябва да ти обяснявам едно нещо как го взема маркетинга и го превръща в нищо
+[14:12:45] <KrasiGa> и най-тъпото е, че се прави на всезнаеща
+[14:12:46] <KrasiGa> ужаас
+[14:12:50] <KrasiGa> ядосах се
+[14:13:10] <KpeTeHoug> ми те повечето шефове са так
+[14:13:21] <dencho> mi zna4i stavam za 6ef
+[14:13:22] <dencho> :D
+[14:14:05] <KrasiGa> какъв урок няма yulimoto_  100 пъти го каза
+[14:14:14] <yulimoto_> KrasiGa: ами ако беше казала днес ще Ви пусна по-рано обаче двама трябва да останат ?
+[14:14:38] <KrasiGa> е ние сме двама без нея /днес де
+[14:14:41] <KrasiGa> иначе 3ма
+[14:14:51] <yulimoto_> хаха
+[14:15:22] <yulimoto_> KrasiGa: вместо да ви каже, че единия може да си тръгне по-рано. тя ви казва дълга и широка, ама единия трябва да остане
+[14:15:53] <KrasiGa> абе тя се води, че е наравно с нас
+[14:16:03] <yulimoto_> баси шефската позиция, пускам ви 100 човека , ама 99 трбява да останат
+[14:16:16] <KrasiGa> до преди половин година бяхме на една длъжност ама шефката отиде в софия  и спазиха йерархията
+[14:16:28] <KrasiGa> назначиха нея
+[14:16:31] <yulimoto_> ами ти лакти нямаш ли ?
+[14:16:34] <KrasiGa> и вършим едно и също
+[14:16:39] <yulimoto_> шефа нали е мъж
+[14:16:49] <yulimoto_> я да се нагиздиш
+[14:17:04] <yulimoto_> както и да е
+[14:17:05] <dencho> hahaha
+[14:17:06] <KrasiGa> еййй той колегата само да му насмигна и ми е отстъпил
+[14:17:23] <KrasiGa> аз знам, че ще си тръгна. Яд ме е за нейната наглост
+[14:17:31] <yulimoto_> хахаха смятай
+[14:17:35] <dencho> jenite vinagi sa s predimstvo da go ea..
+[14:17:51] <KpeTeHoug> dencho не са, само така си мислиш
+[14:17:55] <yulimoto_> да колега някой добряк там и двете женки го мачкат
+[14:18:11] <KpeTeHoug> женки :)
+[14:18:12] <phalaaxx> http://phalaaxx.deck17.com/picture.php?/2522/category/22
+[14:18:13] <dencho> KpeTeHoug obratnoto li e :)
+[14:18:13] <KpeTeHoug> стига де
+[14:18:15] <yulimoto_> едната се прави на шефка другата го насмига
+[14:18:20] <KrasiGa> ммм да има нещо вярно
+[14:18:38] <KrasiGa> кажи какви уроци няма
+[14:18:39] <KpeTeHoug> phalaaxx това някой тигрица дето сте се запознали
+[14:18:46] <KrasiGa> нали ще има днес лекция
+[14:18:47] <phalaaxx> нема TCP/UDP/OSI/BSD/HDD/... природата това го е направила с много търпение и е свършила невероятна работа :)
+[14:19:02] <dencho> haha
+[14:19:18] <dencho> a be sporno e dali e prirodata :D
+[14:19:20] <phalaaxx> ами запознали не знам... така както ме гледаше ако имаше възможност да се запознаем нямаше да мога да направя снимката :D
+[14:20:04] <KpeTeHoug> :)
+[14:20:15] <KpeTeHoug> а какъв е тоя софт за галерията
+[14:20:18] <KpeTeHoug> т.е как се казва
+[14:20:28] <KpeTeHoug> че съм виждал и друг път, харесва ми как е направено
+[14:20:31] <dencho> http://piwigo.org/
+[14:20:44] <KpeTeHoug> а да, съкивах
+[14:20:48] <dencho> a da :]
+[14:20:51] <KpeTeHoug> на другото сайт беше скрито това
+[14:21:07] <dencho> e :D
+[14:21:17] <dencho> nqkoi e re6il da se skrie
+[14:21:18] <dencho> :D
+[14:22:04] <KpeTeHoug> да бе, което е тъпо
+[14:22:09] <yulimoto_> phalaaxx: правиш ли астро фотография?
+[14:22:17] <yulimoto_> KrasiGa: какви лекции нямало ?
+[14:22:22] <KpeTeHoug> да снимаш една звезда - dencho
+[14:22:23] <KpeTeHoug> :)
+[14:22:42] <KrasiGa> ти пишеш на няколко пъти, че няма урок
+[14:22:56] <KrasiGa> и те питам за 3-ти път за какво говориш
+[14:22:57] <phalaaxx> yulimoto_: само като има нещо което мога да снимам с моя фотоапарат, нямам специална техника за нещо повече
+[14:23:14] <yulimoto_> KrasiGa: какъв урок ? пейст, нищо не съм писал
+[14:23:19] <yulimoto_> phalaaxx: ясно
+[14:23:54] <phalaaxx> примерно затъмненията си ги снимам с обикновен фотоапарат и за филтър ползвам остатъци от 3.5" дискети пред обектива :D
+[14:24:19] <yulimoto_> оооо йеее, това го правих 1999 имаше слънчево затъмнение
+[14:24:33] <dencho> 2001-va
+[14:24:34] <yulimoto_> добре е че има някъде още от тези дискети
+[14:24:34] <dencho> :P
+[14:24:56] <dencho> yulimoto____________________________________ 2001-va
+[14:25:29] <yulimoto_> няма да е било 2001 dencho  преключих с компютрите 1999-2000 година и до към 2007-8 не съм барал изобщо комп
+[14:25:58] <dencho> q pa ti
+[14:25:59] <dencho> :D
+[14:25:59] <yulimoto_> пък помня че бяхме една банда келеши с дискети тогава
+[14:26:09] <KrasiGa> ааааа сега като тръгнах да го копирам видях, че е уорк а не урок
+[14:26:24] <dencho> kak 8 godini ne si pipal pc we?!
+[14:26:29] <yulimoto_> днес няма уорк и за това лафя в канал
+[14:26:42] <yulimoto_> и трябваше да поуча
+[14:27:03] <KrasiGa> да де, видях. Не чета добре
+[14:27:08] <yulimoto_> пичове трябва да обучим на KrasiGa колега да не го манипулират така жените
+[14:27:19] <yulimoto_> той е в беда
+[14:27:23] <KrasiGa> той си е добряк
+[14:27:33] <yulimoto_> и ние трябва да му помогнем
+[14:27:46] <yulimoto_> иначе KrasiGa цял живот ще се възполва от момчето
+[14:27:57] <KrasiGa> иначе и той записа този курс ама не слуша лекциите
+[14:28:00] <yulimoto_> ето примерно днес пак той ще остане да работи
+[14:28:16] <KrasiGa> чак ме е жал а е дошъл от 7.30
+[14:28:21] <dencho> hahahaha
+[14:28:27] <dencho> preeebahte mom4eto
+[14:28:29] <KrasiGa> ама сам си предложи услугите
+[14:28:43] <yulimoto_> ето виждате жал и е, обаче няма да се сети да остане
+[14:28:52] <dencho> ahahaha
+[14:28:59] <KrasiGa> времето ми е ценно
+[14:29:07] <KrasiGa> не мога да се жертвам
+[14:29:21] <yulimoto_> ето така се с едно намигване и хоп, KrasiGa си ходи пича остава, и така цял живот
+[14:29:25] <dencho> kaji mu da vliza tuka, yulimoto_ da go obu4i
+[14:29:39] <KrasiGa> да бе, да ме следи какво правя
+[14:29:46] <dencho> ghaha
+[14:29:59] <KrasiGa> и това дето писах за шефката да го изпорти
+[14:30:03] <KrasiGa> :)
+[14:30:03] <yulimoto_> един път , два пъти, три пъти, обаче цял живот - това не е живот !!!
+[14:30:44] <dencho> az se 4uda dali da ne dramna malko :D
+[14:30:44] <yulimoto_> има си логове , да осведомим пича за мнението на KrasiGa относно шефката, така ще може да спечели поне някоя точка момчето
+[14:31:05] <KrasiGa> абе аз си изказах възмущението и пред него
+[14:31:07] <KrasiGa> той знае
+[14:31:14] <yulimoto_> ааа добре
+[14:31:57] <yulimoto_> все пак добре че не са те направили шефка.
+[14:31:58] <KpeTeHoug> yulimoto_ ти няма да учиш
+[14:32:03] <yulimoto_> да
+[14:32:04] <KpeTeHoug> а аз цял ден гледам как да учим ефективно
+[14:32:08] <KpeTeHoug> познай дали и се получава
+[14:32:09] <yulimoto_> хаха
+[14:32:10] <KpeTeHoug> :)
+[14:32:16] <yulimoto_> ок
+[14:32:21] <KrasiGa> защо yulimoto_ ?
+[14:34:04] <yulimoto_> ами щото същите работи щеше да ги правиш и ти (така си мисля)
+[14:34:39] <KrasiGa> ами не ме познаваш затова така си мислиш
+[14:34:39] <yulimoto_> но, аз наистина поне ще прочета хандшейка на tcp щото иначе ще се потисна цял ден нищо не съм свършил
+[14:35:21] <yulimoto_> KrasiGa: да да тия съм ги слушал, и фейсбук  статуси за предатества, вярност и интриги съм чел, оле-майко
+[14:35:48] <KrasiGa> ти пък къде отиде?
+[14:39:59] <yulimoto_> KrasiGa: то е същото
+[14:40:14] <yulimoto_> KpeTeHoug: преди малко рестартирах сървърва
+[14:41:04] <yulimoto_> KpeTeHoug:забравих да ти кажа иначе виж може да е парснало там контактите щото то се бави докато ги оправи в базата
+[14:52:42] <KpeTeHoug> всичко е сложило
+[14:52:44] <KpeTeHoug> даже 2 пъти
+[14:52:47] <KpeTeHoug> ма ми намериха рабта
+[14:52:48] <KpeTeHoug> :)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:35] <KrasiGa> приятна почивка от мен!
+[15:00:45] <KpeTeHoug> мерси, подобно
+[15:00:47] <KrasiGa> Have fun!
+[15:00:57] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[15:26:15] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[15:29:23] hackman (~hackman@management.1h.com) left irc: Ping timeout: 256 seconds
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:38:14] bentoslack (~Adium@194.50.76.105) left irc: Read error: Connection reset by peer
+[16:38:21] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[16:55:08] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:07:10] Brahman` (~Brahman@109.121.248.105) joined #telerikacademy.
+[17:24:25] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Ping timeout: 268 seconds
+[17:39:01] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[17:49:53] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[17:57:55] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:02:52] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[18:02:54] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[18:20:02] Nick change: phalaaxx -> phalaaxx_w
+[18:29:04] Nick change: Brahman` -> Brahman
+[18:33:46] tuxar (~tuxar@athedsl-288931.home.otenet.gr) joined #telerikacademy.
+[18:47:41] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 260 seconds
+[18:54:03] anton_dutsov (596a6f50@gateway/web/cgi-irc/kiwiirc.com/ip.89.106.111.80) joined #telerikacademy.
+[18:54:23] <anton_dutsov> добър вечер
+[18:55:18] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[18:55:19] pe6o (~ps7v@95.87.207.245) joined #telerikacademy.
+[18:55:31] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[18:55:51] <xezes> добра да е
+[18:56:41] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) joined #telerikacademy.
+[18:58:28] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[18:59:07] Brahman (~Brahman@109.121.248.105) left irc: Ping timeout: 245 seconds
+[18:59:48] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:47] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[19:03:14] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:03:36] hackman (~hackman@89.190.207.11) joined #telerikacademy.
+[19:04:01] <hackman> има ли хора ?
+[19:04:06] <yulimoto_> ами аз съм туук
+[19:04:13] <xezes> намират се :)
+[19:04:22] <yulimoto_> phalaaxx и той е тук
+[19:04:36] <hackman> stream има ли ?
+[19:04:39] <hackman> вижда ли се /
+[19:04:41] <hackman> ?
+[19:04:47] <lyubenblagoev> da
+[19:04:47] <phalaaxx> да
+[19:04:56] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:05:02] <lyubenblagoev> dobre e i zsuka
+[19:05:03] <fityla> в залата
+[19:05:03] <phalaaxx> ок е и звука
+[19:05:05] <fityla> не се чува
+[19:05:14] <tuxar> нормално
+[19:05:19] <xezes> при мен се чува
+[19:05:31] <fityla> да гася
+[19:05:40] <fityla> ли лампите
+[19:07:00] komadrin (54f2a78c@gateway/web/freenode/ip.84.242.167.140) joined #telerikacademy.
+[19:07:12] <komadrin> hi
+[19:10:21] anton_dutsov (596a6f50@gateway/web/cgi-irc/kiwiirc.com/ip.89.106.111.80) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[19:15:02] anton_dutsov (~anton_dut@89.106.122.211) joined #telerikacademy.
+[19:16:02] <fityla> да
+[19:17:14] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[19:20:29] anton_dutsov (~anton_dut@89.106.122.211) left irc: Ping timeout: 256 seconds
+[19:20:32] anton_dutsov_ (~anton_dut@89.106.122.211) joined #telerikacademy.
+[19:21:31] <anton_dutsov_> само на мене ли ми накъсва Live Stream-а?
+[19:22:24] <Brahman> dosega samo 1 put pri men
+[19:22:38] <lyubenblagoev> и при мен веднъж
+[19:22:43] <lyubenblagoev> добре си е
+[19:22:46] <tuxar> anton_dutsov: и при мен накъсва, но става
+[19:24:05] <anton_dutsov_> tuxar: при мене не става да се гледа
+[19:24:16] anton_dutsov_ (~anton_dut@89.106.122.211) left irc: Client Quit
+[19:25:07] GreenGo (~Xristo@77-85-17-162.btc-net.bg) joined #telerikacademy.
+[19:26:12] thatsmeufo (~thatsmeuf@213.226.13.92) joined #telerikacademy.
+[19:27:14] anton_dutsov (~anton_dut@89.106.122.211) joined #telerikacademy.
+[19:31:49] Nick change: thatsmeufo -> Chakaroff
+[19:32:06] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[19:34:11] agit0 (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:36:22] anton_du1 (~Thunderbi@212.5.158.197) joined #telerikacademy.
+[19:36:58] anton_dutsov (~anton_dut@89.106.122.211) left irc: Quit: Leaving
+[19:37:32] Nick change: anton_du1 -> anton_dutsov
+[19:37:36] dewily (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[19:52:31] dewily (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[19:57:05] asdasa (~d.georgie@93-152-129-253.ddns.onlinedirect.bg) joined #telerikacademy.
+[19:57:54] Nick change: asdasa -> d_georgiev_91
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:00:12] komadrin (54f2a78c@gateway/web/freenode/ip.84.242.167.140) left irc: Quit: Page closed
+[20:00:50] <d_georgiev_91> kolegi tova li beshe url-a za stream-a
+[20:00:51] <d_georgiev_91> http://www.twitch.tv/aziliann/
+[20:01:15] <tuxar> d_georgiev_91:да
+[20:02:31] d_georgiev_91 (~d.georgie@93-152-129-253.ddns.onlinedirect.bg) left irc: Remote host closed the connection
+[20:06:57] d_georgiev_91 (5d9881fd@gateway/web/freenode/ip.93.152.129.253) joined #telerikacademy.
+[20:13:19] d_georgiev_91 (5d9881fd@gateway/web/freenode/ip.93.152.129.253) left irc: Ping timeout: 250 seconds
+[20:14:37] <anton_dutsov> да чува се
+[20:14:53] <GreenGo> чува се
+[20:14:59] <tuxar> da, ok
+[20:17:07] valchoivanov (5d9be661@gateway/web/cgi-irc/kiwiirc.com/ip.93.155.230.97) joined #telerikacademy.
+[20:20:08] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[20:21:32] <fityla> другите
+[20:21:34] <fityla> се срамуват да си кажат
+[20:21:36] <fityla> :D
+[20:24:24] telerikacademy (~tt@77.70.125.246) joined #telerikacademy.
+[20:29:14] <yulimoto_> hackman: добре, ако пачна някакви файлове и реша по-късно, че това не ми върши работа, мога ли да ън-пачна като имам пача ?
+[20:31:24] <komador> кога се налага да ползваме пач
+[20:37:08] pe6o (~ps7v@95.87.207.245) left irc: 
+[20:41:15] <komador> да
+[20:46:31] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[20:46:59] <hackman> кафенце :)
+[20:47:42] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[20:48:19] <tuxar> hackman: Беше споменал, че Ubuntu не си оптимизират пакетите за скорост.
+[20:48:55] <tuxar> hackman:Ако не е голяма сага ожеш ли да дадеш пример как да оптимизираме deb пакет за скорост, например php-то?
+[20:49:54] <Brahman> ако не е голяма драма * :P
+[20:50:39] <tuxar> Brahman: ;-)
+[20:52:24] <yulimoto_> hackman: има ли някаква литература за тези неща, примерно в tldp.org както беше за bash ?
+[20:53:04] <yulimoto_> литература която да препоръчаш :)
+[20:53:09] <tuxar> yulimoto_: виж линковете в гита
+[20:54:16] <tuxar> там става ? и за скороста, така ли?
+[20:54:16] anton_dutsov (~Thunderbi@212.5.158.197) left irc: Ping timeout: 264 seconds
+[20:54:34] <tuxar> ок, мерси
+[20:55:15] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) joined #telerikacademy.
+[20:55:47] anton_dutsov (~anton_dut@212.5.158.188) joined #telerikacademy.
+[20:57:33] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[20:58:38] <yulimoto_> това черното скрийн сейвъра на мариян ли е ; (щото ме нямаше)
+[20:58:46] <phalaaxx> май да
+[20:58:51] <hackman> da
+[20:59:21] <yulimoto_> аз да
+[20:59:24] <GreenGo> да
+[20:59:30] <anton_dutsov> да чува се
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:00:11] <tuxar> малко прекъсва пак ...
+[21:01:20] <valchoivanov> stream-a накъсва малко
+[21:01:21] <GreenGo> и при мене накъсва
+[21:05:42] morena (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #telerikacademy.
+[21:08:17] bldrchd (4d460a38@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.10.56) joined #telerikacademy.
+[21:15:32] <TPB_> прекъсва :/
+[21:20:11] <sig_> определено
+[21:23:32] <bldrchd> може да е от самия twitch ..
+[21:25:05] mihail_m (~mike@132-29-132-95.pool.ukrtel.net) joined #telerikacademy.
+[21:25:09] <TPB_> нз от какво е ама доста кофти :(
+[21:26:09] <bldrchd> пробвайте се да намалите резолюцията
+[21:26:21] <bldrchd> много хора се оплакват от стриймовете в туича
+[21:27:25] <fityla> ок
+[21:27:30] <fityla> ли е вече?
+[21:28:05] <tuxar> какво се случва?
+[21:28:14] <fityla> казвайте
+[21:28:16] <tuxar> сега се появи
+[21:28:16] <TPB_> даже по-зле бих казал
+[21:28:17] <fityla> ако не продължаваме
+[21:28:17] <hackman> я refresh-нете
+[21:28:22] <hackman> моля
+[21:28:25] <sig_> може би е ок
+[21:28:27] <phalaaxx> не помага :)
+[21:28:34] <anton_dutsov> мисля, че е по-добре
+[21:28:53] <yulimoto_> то стрийма накъсва въпроса е после лекцията на записа да е ок :)
+[21:32:45] tuxar (~tuxar@athedsl-288931.home.otenet.gr) left irc: Ping timeout: 260 seconds
+[21:34:39] tuxar (~tuxar@athedsl-290432.home.otenet.gr) joined #telerikacademy.
+[21:41:28] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:42:05] valchoivanov (5d9be661@gateway/web/cgi-irc/kiwiirc.com/ip.93.155.230.97) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[21:58:46] komador (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[21:59:58] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:01:27] <phalaaxx> и аз се оплаквам :)
+[22:01:34] <TPB_> me 2 me 2
+[22:01:40] <yulimoto_> are лека
+[22:01:42] agit0 (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:01:42] <GreenGo> :)
+[22:01:43] <TPB_> този път определено лагваше
+[22:01:46] <yulimoto_> мерси за лекцията
+[22:01:50] morena (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Quit: Page closed
+[22:02:05] <anton_dutsov> Благодаря за лекцията
+[22:02:05] <tuxar> hackman: мерси и лека
+[22:02:05] <anton_dutsov> лека вечер
+[22:02:05] <mihail_m> leka
+[22:02:17] <GreenGo> лека
+[22:02:17] mihail_m (~mike@132-29-132-95.pool.ukrtel.net) left irc: Quit: Leaving
+[22:02:17] tuxar (~tuxar@athedsl-290432.home.otenet.gr) left irc: Quit: leaving
+[22:02:17] <hackman> лека guys :)
+[22:02:29] hackman (~hackman@89.190.207.11) left irc: Quit: Leaving
+[22:02:41] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[22:03:39] <telerikacademy> благодаря  весели празници
+[22:03:59] telerikacademy (~tt@77.70.125.246) left #telerikacademy.
+[22:04:56] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: pwned by telerik
+[22:06:12] anton_dutsov (~anton_dut@212.5.158.188) left irc: Ping timeout: 245 seconds
+[22:08:09] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Ping timeout: 250 seconds
+[22:16:10] dencho (dencho@87.118.158.130) left irc: Ping timeout: 256 seconds
+[22:20:55] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 276 seconds
+[22:36:39] Chakaroff (~thatsmeuf@213.226.13.92) left irc: 
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:01:27] bldrchd (4d460a38@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.10.56) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[23:26:24] GreenGo (~Xristo@77-85-17-162.btc-net.bg) left irc: Quit: Leaving.
+[23:48:42] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 260 seconds
+[00:00:00] --- Fri Sep  6 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

@@ -1,0 +1,1473 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:02:20] <tuxar> ето http://pastebin.com/H5XeCm7F отговора на lspci -v
+[00:03:54] <episparh> 00:1f.2 RAID bus controller: Intel Corporation 82801ER (ICH5R) SATA Controller (rev 02) (prog-if 8f)
+[00:04:01] <episparh> това на какво ти прилича
+[00:07:19] <tuxar> разкажи къде е индикацията за типа RAID
+[00:13:28] <tuxar> за софтуерните намерих това https://help.ubuntu.com/community/Installation/SoftwareRAID#Checking_the_status_of_your_RAID
+[00:14:40] <tuxar> и отговор като md5 : active raid1 sda7[0] sdb7[1]
+[00:15:02] <tuxar> би ми харесал
+[00:17:09] <vhristev> що пък да не искаш да ставаш админ
+[00:17:59] <vhristev> Райда може да го видиш най лесно от dmesg
+[00:19:21] <vhristev> lspci | grep -i raid
+[00:19:30] <tuxar> dmesg|grep -i raid
+[00:19:36] <tuxar> [    1.072455] device-mapper: dm-raid45: initialized v0.2594b
+[00:19:46] <vhristev> software RAID
+[00:20:03] <vhristev> q daj eto tova
+[00:20:04] <vhristev>  cat /proc/mdstat
+[00:20:26] <vhristev> df -h
+[00:20:32] <tuxar> Personalities :
+[00:20:33] <tuxar> unused devices: <none>
+[00:20:37] <vhristev> ще ти върне /dev/mdXX
+[00:21:02] <tuxar> това го пишеше за софтуерните ...
+[00:21:10] <vhristev> аз май нещо изпускам
+[00:21:24] <vhristev> ти какво искаш да разбереш дали имаш СОФТ или ХАРД райд ?
+[00:21:28] <vhristev> или да го конфигнеш
+[00:21:42] <tuxar> типа райд
+[00:21:55] <episparh> "<tuxar> какъв е RAID-a"
+[00:22:32] <tuxar> vhristev: това с dmesg
+[00:22:36] <vhristev> ок де ама ти знаеш ли Софтуерн или хардуерен е
+[00:22:52] <vhristev> ако е хардуерен ще имаш ТУУЛЧЕ което е специално от производелите
+[00:23:08] <vhristev> примерно 3ware si imat CLI ili WEB
+[00:23:22] <tuxar> а ти как разбираш само от конзолата
+[00:23:47] <vhristev> чакай сега дай да се върнем отначало
+[00:23:52] <vhristev> какъв ти е РАЙД-а хардуерен или софтуерен
+[00:24:24] <tuxar> значи представи си, че не знаеш какъв е
+[00:24:31] <vhristev> ОК ако незнаем какъв е
+[00:24:48] <vhristev> 1во ще напиша df -h
+[00:24:56] <vhristev> ako imash tam /dev/md znachi e Soft
+[00:25:10] <vhristev> hardware райда се вижда като /dev/sdX
+[00:25:34] <vhristev> така ти от кой тип си сега
+[00:26:58] <tuxar> Filesystem                  Size  Used Avail Use% Mounted on
+[00:26:58] <tuxar> /dev/mapper/pdc_dhbcgdcfa6  228G  2.1G  214G   1% /
+[00:26:58] <tuxar> udev                        494M  4.0K  494M   1% /dev
+[00:26:58] <tuxar> tmpfs                       201M  360K  200M   1% /run
+[00:26:58] <tuxar> none                        5.0M     0  5.0M   0% /run/lock
+[00:27:01] <tuxar> none                        501M  4.0K  501M   1% /run/shm
+[00:27:03] <tuxar> /dev/sda1                    74G  812M   69G   2% /backups
+[00:27:06] <tuxar> /dev/mapper/pdc_dhbcgdcfa1  184M   50M  125M  29% /boot
+[00:27:33] <vhristev> интересува те / и /буут-а
+[00:28:12] <vhristev> pvdisplay
+[00:28:16] <vhristev> я да видим ЛВМ имаш
+[00:28:39] <tuxar> bash: pvdisplay: command not found
+[00:28:51] <vhristev> я дай
+[00:28:59] <vhristev> cat /proc/partitions
+[00:29:23] <tuxar> major minor  #blocks  name
+[00:29:24] <tuxar>   11        0    1048575 sr0
+[00:29:24] <tuxar>    8        0   78149687 sda
+[00:29:24] <tuxar>    8        1   78147584 sda1
+[00:29:24] <tuxar>    8       16  244198584 sdb
+[00:29:26] <tuxar>    8       32  244198584 sdc
+[00:29:28] <tuxar>  252        0  244140625 dm-0
+[00:29:31] <tuxar>  252        1     194560 dm-1
+[00:29:33] <tuxar>  252        2  243943425 dm-2
+[00:29:36] <tuxar>  252        3    1951744 dm-3
+[00:29:38] <tuxar>  252        4  241990656 dm-4
+[00:29:59] <vhristev> супер имаш sdb * sdc
+[00:30:34] <vhristev> lvdisplay
+[00:30:36] <tuxar> по какво разбираш?
+[00:30:49] <vhristev> <tuxar>    8       16  244198584 sdb
+[00:30:49] <vhristev> <tuxar>    8       32  244198584 sdc
+[00:30:53] <vhristev> имаш 3 риска
+[00:31:00] <vhristev> sda , sdb , sdc
+[00:31:35] <vhristev> dm-X са  LVM devices
+[00:31:45] <vhristev> сега я инсталирай един ЛМВ apt-get install lvm2
+[00:31:54] <vhristev> или само ЛВМ виж кое е
+[00:32:28] <vhristev> машината ти има LVM
+[00:32:47] <vhristev> сега трябва да видим дали имаш конфигнат МИРОР в ЛВМ-а
+[00:33:06] <tuxar> не, не би трябвало
+[00:33:33] <vhristev> еми имаш
+[00:33:36] <vhristev> инстлаирай го
+[00:34:05] <vhristev> apt-get install lvm2
+[00:34:29] <vhristev> веднага може да ти кажа дали е ВЛМ
+[00:34:35] <vhristev> fdisk -l /dev/sdb
+[00:35:12] <vhristev> виж партишъна файловата дали е  "Linux LVM"
+[00:35:34] <tuxar> връщам го в pastebin
+[00:35:47] <vhristev> к
+[00:35:49] <vhristev> прати линк
+[00:35:56] <vhristev> само пусни ФДИСКА
+[00:36:01] <vhristev> и ще знаеш
+[00:36:04] <tuxar> http://pastebin.com/5tCiJpd9
+[00:37:17] <vhristev> я дай cat /etc/fstab
+[00:38:21] <vhristev> тия дискове като ги гледам са Буутабъл дискове има и swap и всичко
+[00:38:24] <vhristev> все едно са ти линукси
+[00:38:35] <tuxar> http://pastebin.com/2bfA8C96
+[00:40:51] <vhristev> dmraid -l
+[00:42:03] <tuxar> http://pastebin.com/JywcECMP
+[00:43:18] <tuxar> какво гледаш в  последната команда?
+[00:43:41] <vhristev> dmraid -s
+[00:43:48] <vhristev> Imash FAKERAID
+[00:43:58] <vhristev> това са тия РАЙД-ове на декстоп машините
+[00:44:12] <vhristev> просто те зареждат софутерен РАЙД на БИОС ниво
+[00:45:22] <tuxar> и ако искаш да разбереш кой тип е райда?
+[00:45:47] <tuxar> можеш ли да го запиташ тоя FAKERAID?
+[00:46:10] <vhristev> lscpi < за да си видиш чипсета
+[00:46:13] <vhristev> той го управлява
+[00:46:33] <vhristev> Примерно ICH6,7,8R
+[00:46:36] <vhristev> na Intel
+[00:46:48] <vhristev> както ти върна dmraid -s
+[00:47:40] <vhristev> аз ще лягам ,че утре рано трябва да ставам
+[00:48:11] <tuxar> 00:1f.2 RAID bus controller: Intel Corporation 82801ER (ICH5R) SATA Controller (rev 02) (prog-if 8f)
+[00:48:11] <vhristev> Пусни го тва с "-s" да видим конфигурацията
+[00:48:14] <tuxar> 03:04.0 RAID bus controller: Promise Technology, Inc. PDC20378 (FastTrak 378/SATA 378) (rev 02)
+[00:48:30] <vhristev> Еми имаш райд от ICH5R
+[00:48:30] <tuxar> ок, мерси много!
+[00:48:45] <vhristev> това е интелски РАЙД на дъното ама е ФЕЙК демек просто софтуер не е истински хардуер
+[00:48:58] <vhristev> напиши в гугле linux fakeraid
+[00:49:00] <vhristev> и ще го видиш
+[00:49:10] <vhristev> Intel Matrix storage също е фейк
+[00:49:41] <tuxar> е, много фалшива история се получи ;-)
+[00:50:15] <vhristev> ахахах
+[00:50:38] <vhristev> какво ти върна dmraid -s
+[00:50:44] <vhristev> видя ли си райд конфигурацията
+[00:52:13] <tuxar> ето това ми върна
+[00:52:16] <tuxar> http://pastebin.com/JywcECMP
+[00:52:57] <tuxar> почнах да се образовам с https://help.ubuntu.com/community/FakeRaidHowto
+[00:53:57] <vhristev> isw     : Intel Software RAID (0,1,5,01)
+[00:53:59] <vhristev> ти си ей тука
+[00:54:14] <vhristev> ОК
+[00:54:22] <vhristev> виж не съм на системата и малко по сложно
+[00:54:31] <vhristev> но все пак може и да се окаже ,че нямаш РАЙД
+[00:54:47] <vhristev> имаш контролера ( софтуерен ) ама трябва да е пуснат от БИОСА
+[00:55:00] <tuxar> да, пуснат е
+[00:55:01] <vhristev> от БИОСА диковете трябва да са ти в RAID mode
+[00:55:09] <tuxar> но настройката
+[00:55:12] <vhristev> imash RAID , IDE , ..
+[00:55:15] <vhristev> Eeeeeeeeeeeee
+[00:55:21] <vhristev> що не каза по рано да ти кажа
+[00:55:22] <vhristev> хахаха
+[00:55:25] <tuxar> изглеждаше малко детски
+[00:55:30] <vhristev> да детски е
+[00:55:32] <vhristev> ама това е
+[00:55:42] <vhristev> ти го правиш от биоса и после вече в линукса не се занимаваш
+[00:55:50] <tuxar> ами аз исках да се науча
+[00:55:52] <vhristev> виждаш си го като 1 диск
+[00:56:00] <vhristev> да правиш софтуерен РАЙД
+[00:56:01] <vhristev> ?
+[00:56:06] <tuxar> как да разбера само през конзолата
+[00:56:16] <vhristev> Еми ето това дето го четеш е супер
+[00:56:19] <vhristev> айде ман
+[00:56:21] <vhristev> аз ще лягам лека
+[00:56:22] <tuxar> ако нямам до мен желязото
+[00:56:30] <vhristev> да да ония линк ще ти свърши работа
+[00:56:37] <vhristev> поне за твоя случай
+[00:56:45] <tuxar> много ти благодаря за анализа
+[00:56:46] <vhristev> иначе разбра как е да разбереш дали е софт или хард
+[00:56:55] <tuxar> ще си прегледам и командите
+[00:56:58] <vhristev> за нищо важното е нещо да се търкаля
+[00:57:04] <vhristev> Супер
+[00:57:05] <tuxar> да
+[00:57:08] <vhristev> Кееп ит гойнг
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:04:50] <episparh> оправихте ли го рейда  ?
+[01:08:24] <tuxar> ами разузнах ме го ;-)
+[01:09:26] <tuxar> оказа се, че бил фалшив
+[01:09:49] <tuxar> та сега чета какво е това животно
+[01:42:11] <tuxar> Аз заривам огнището ...
+[01:42:22] <tuxar> Лека на всички.
+[01:43:26] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:52:08] tuxar (~tuxar@athedsl-115559.home.otenet.gr) left #telerikacademy.
+[01:52:13] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 246 seconds
+[01:52:58] nveselinov_ (nveselinov@151.237.4.4) joined #telerikacademy.
+[01:59:34] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 240 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:02:18] nveselinov (nveselinov@151.237.4.4) got netsplit.
+[02:13:00] nveselinov (nveselinov@151.237.4.4) got lost in the net-split.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:15:42] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[03:16:03] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:19:49] <dencho> :)
+[07:59:21] samy (~samy@84.238.184.98) left irc: Ping timeout: 264 seconds
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:07:39] lyubenblagoev (~lyubenbla@92.247.170.208) joined #telerikacademy.
+[08:08:12] lyubenblagoev (~lyubenbla@92.247.170.208) left irc: Client Quit
+[08:14:32] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:18:03] <KrasiGa> Добро утро! :) слънчев ден
+[08:18:47] <episparh> няма такова нещо - добро утро
+[08:19:54] <episparh> http://img.pandawhale.com/post-8793-Good-morning-No-such-thing-amkC.jpeg
+[08:19:54] <KrasiGa> напротив, всяко утро е прекрасно
+[08:20:43] <episparh> whatever , I must go
+[08:28:16] samy (~samy@79.100.236.213) joined #telerikacademy.
+[08:46:47] lyubenblagoev (~lyubenbla@92.247.170.208) joined #telerikacademy.
+[08:51:20] lyubenblagoev (~lyubenbla@92.247.170.208) left irc: Client Quit
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:05:37] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:06:00] Nick change: KacanuH -> Guest72695
+[09:06:01] <Guest72695> Добро утро
+[09:06:24] Nick change: Guest72695 -> Deyan
+[09:09:23] <KpeTeHoug> Добро да е
+[09:13:04] <yulimoto> чета нощните разследвания на vhristev
+[09:13:16] <yulimoto> добрутро
+[09:14:11] <yulimoto> KpeTeHoug: пунса ли крона ?
+[09:14:20] <yulimoto> пусна ли ?
+[09:14:24] <yulimoto> т.е
+[09:15:35] <KpeTeHoug> нищо незнам и съм за малко
+[09:15:43] <KpeTeHoug> не съм гледал още нищо
+[09:15:52] <KpeTeHoug> крон за гит тъба ли ?
+[09:17:06] <yulimoto> да
+[09:17:27] <yulimoto> той е в папката на бота
+[09:17:56] <yulimoto> само трябва да го опишеш в crontaba
+[09:18:02] <KpeTeHoug> git-chron ?
+[09:18:06] <yulimoto> да
+[09:18:35] <KpeTeHoug> на какъв интервал да го сложа ?
+[09:18:48] <yulimoto> пиши нещо в crontab -e от рода 5 * * * * /path/to/cron-tab
+[09:18:53] <yulimoto> mmm
+[09:18:57] <yulimoto> и аз това се чудех
+[09:19:29] <KpeTeHoug> 12часа ?
+[09:19:37] <yulimoto> добре
+[09:20:18] <yulimoto> първо да видим дали ще бачка изобщо
+[09:20:24] <KpeTeHoug> :)
+[09:21:03] <KpeTeHoug> как да му кажа всяка минута ?:0
+[09:21:03] <yulimoto> сложил съм и в .ssh там едни id_rsa дето са ти ключовете за гит-а да се идентифицира
+[09:21:07] <KpeTeHoug>  1 * * * * /home/gt/eggdrop/git-cron  >/dev/null 2>&1
+[09:21:19] <yulimoto> така ще е всяка първа минута
+[09:21:19] <KpeTeHoug> че малко ми е зле синтаксиса :)
+[09:21:30] <yulimoto> само звезди
+[09:21:34] <yulimoto> за всяка минута
+[09:21:37] <KpeTeHoug>  * * * * /home/gt/eggdrop/git-cron  >/dev/null 2>&1
+[09:21:43] <KpeTeHoug> ей сега ще видим
+[09:21:50] <yulimoto> не бяха ли * * * * *
+[09:21:56] <yulimoto> пет звезди
+[09:21:57] <KpeTeHoug> да 5 са
+[09:22:10] <yulimoto> пиши 5 звезди
+[09:22:17] <KpeTeHoug> гутоо
+[09:22:22] <yulimoto> аз ще вляза в гита
+[09:22:23] <yulimoto> да видя
+[09:22:50] <yulimoto> не трееше да отвеждаш в нулл изхода за теста
+[09:23:09] <KpeTeHoug> да, сетих се
+[09:23:15] <KpeTeHoug> :) сега ще го едитна
+[09:24:04] <yulimoto> commit: 2013-07-23_09:23:01
+[09:24:11] <yulimoto> добре недей го едитва
+[09:24:14] <yulimoto> бачка
+[09:24:16] <KpeTeHoug> свърши :)
+[09:24:21] <KpeTeHoug> сега ще го оправя
+[09:24:27] <yulimoto> добре оправи и часа
+[09:24:36] <yulimoto> да е на по-голям интервал
+[09:24:37] <KpeTeHoug> * */12 * *  *
+[09:24:42] <yulimoto> окс
+[09:24:52] <yulimoto> това е на 12 часа
+[09:24:58] <KpeTeHoug> ем толкоз
+[09:25:02] <KpeTeHoug> или на час ?
+[09:25:14] <yulimoto> ами все тая
+[09:25:21] <KpeTeHoug> час
+[09:25:29] <KpeTeHoug> да не изпуснем бисер :)
+[09:25:37] <yulimoto> ако е на час сложи го примерно 5 * * * *
+[09:25:52] <yulimoto> това е на 5-тата минута
+[09:26:11] <yulimoto> защото другото се синква на 10, 20 и т.н
+[09:26:12] <KpeTeHoug> К
+[09:26:24] <KpeTeHoug> да не се засичат :)
+[09:26:29] <yulimoto> анджък
+[09:26:35] <yulimoto> въпреки че уж не може
+[09:26:56] <yulimoto> ама нека да не опитваме
+[09:27:09] <KpeTeHoug> :) няма да пробваме
+[09:27:25] <yulimoto> после като го опраим кат хората може да направим и лог в /var/log на крона
+[09:28:01] <yulimoto> за да се знае кво е ставало уж ;)
+[09:28:18] <yulimoto> аре да те оставям да бачкаш
+[09:28:51] <KpeTeHoug> а аз още кафе не съм прайл :)
+[09:28:52] <KpeTeHoug> ей сега
+[09:28:57] <KpeTeHoug> даже ми върна и мейл
+[09:29:08] <KpeTeHoug> да си сетна глобал user name
+[09:29:14] <KpeTeHoug> от гит хъб
+[09:29:53] <yulimoto> а къв майл
+[09:30:46] <yulimoto> ако ти требе паролата за гитхъба
+[09:30:55] <yulimoto> на лично
+[09:31:01] <KpeTeHoug> а не не
+[09:31:06] <KpeTeHoug> че съм се комитнал
+[09:31:07] <KpeTeHoug> и тн
+[09:33:09] <yulimoto> mm да не е щото пращаш с моя ключ и за това да праща имейли, голям праз па и тая система
+[09:33:30] <yulimoto> ей да си проверя имейла добре че ме сети най-важното
+[09:33:59] <KpeTeHoug> да, че юзър абил мой, пък не той е сетнат за глобал
+[09:37:59] <yulimoto> със ssh-keygen -t rsa  можеш да си направиш една двойка ключове; не му слагай пассфрейз; и pub ключа го слагаш в гитхуба там ssh keys и готоу; ама тва ако ти се занимава
+[09:38:38] plamen (~plamen@84.40.92.7) joined #telerikacademy.
+[09:39:26] <plamen> хора.. въпрос.. оцениха ми домашно и част от коментарът е за това, че не съм го форматирал добре... а обърнах адски много внимание на фомратирането
+[09:39:41] <plamen> но на пичът му е излязло на 1 ред
+[09:39:56] <yulimoto> ти какъв редактор ползва ?
+[09:39:58] Nick change: plamen -> plamer
+[09:40:50] <plamer> ъ.. geany
+[09:40:52] <KpeTeHoug> да, това щах да кажа и аз
+[09:41:03] <KpeTeHoug> аз също видях на предните домашни
+[09:41:09] <KpeTeHoug> едни дето нищо не се чете
+[09:41:46] <plamer> дайте идея тогава какво да ползвам - и за уиндоус, и за линукс
+[09:41:53] <KpeTeHoug> ми
+[09:42:08] <KpeTeHoug> под windows аз ползвам най тъпо тхт
+[09:42:18] wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) joined #telerikacademy.
+[09:42:19] <KpeTeHoug> т.е нотпад
+[09:42:28] <KpeTeHoug> имам и нотпад ++ , ма не ми се рискува
+[09:42:29] <KpeTeHoug> :)
+[09:42:33] <wiseman_> здрасти people
+[09:42:48] <KpeTeHoug> здр
+[09:42:57] <wiseman_> както вече сигурно сте разбрали имаме rooot  на гризли
+[09:43:13] <KpeTeHoug> мхм
+[09:43:23] <plamer> о, аз не съм.. ама още не съм и гледал видеата
+[09:43:36] <plamer> ама май за сега ще си чупя моята машина :)
+[09:43:49] <wiseman_> чудя се обаче дали да стартирам yum updade, yum upgrade щото като гледам има доста за упване ама може да омаже нещо
+[09:44:16] <yulimoto> wiseman_: недей
+[09:44:28] <wiseman_> хах аз успях да омажа три дистрота вече, като едното се оказа направо невъзможно за спасяване
+[09:45:08] <KpeTeHoug> :) поне имаш ли снапшот
+[09:45:13] <KpeTeHoug> да си ги въстановяваш после
+[09:46:03] <yulimoto> KpeTeHoug: ти тар аархиви правиш ли ?
+[09:46:30] <wiseman_> не е до снап шота
+[09:47:45] <yulimoto> KpeTeHoug: ако не си вземи направи, че като гледам с тоя рут на гризлито някой може да види още една възможност да оправи нещата .....
+[09:48:08] <yulimoto> KpeTeHoug: после ще имаме логове само ;)
+[09:49:05] <KpeTeHoug> тарнал съм вчера
+[09:49:11] <yulimoto> oks :)
+[09:50:57] <yulimoto> wiseman_: ако супер наложително ти трябва някакъв пакет окс, ама цял упграде при условие, че е на 300 човека тая машина мисля не си заслужава риска + това хакман май се развява из европата и ще останем дълго без сървър
+[09:51:23] <KpeTeHoug> не беше ли другата седмица
+[09:51:26] <KpeTeHoug> из европата
+[09:51:34] <KpeTeHoug> затова е преместил едната лекция в понеделник ?
+[09:51:40] <yulimoto> аха
+[09:51:48] <yulimoto> нз
+[09:52:05] <KpeTeHoug> вчера гледах аз
+[09:52:12] <KpeTeHoug> сега четвъртък има лекция
+[09:52:16] <KpeTeHoug> и после понеделник
+[09:52:21] <KpeTeHoug> и после пак четвъртък
+[09:52:27] <KpeTeHoug> така че предполагам тогава няма да го има
+[09:52:32] <yulimoto> къде ги гледаш
+[09:52:33] <yulimoto> ?
+[09:52:49] <yulimoto> че да знам и аз за лекции кога ще има
+[09:54:17] <KpeTeHoug> :)
+[09:54:39] <KpeTeHoug> http://academy.telerik.com/student-courses/software-technologies/linux-system-administration/about
+[09:54:47] <KpeTeHoug> ляво, има програма
+[09:58:03] <yulimoto> видех, видех
+[09:58:38] <yulimoto> хайде че стана 10 часа мамка му
+[09:59:13] <KpeTeHoug> айде
+[09:59:19] <KpeTeHoug> и аз отивам да бачкам :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:35] <vhristev> ми ние вече бачкаме
+[10:01:36] <vhristev> (;
+[10:04:25] <KpeTeHoug> е и аз съм почнал по отрано :) ма правя само дреболии, трябва малко концентрация :)
+[10:20:24] <KpeTeHoug> yulimoto как е, има ли ъпдейт
+[10:24:46] <vhristev> КОй малки кой големи
+[10:24:46] <vhristev> (;
+[10:24:51] <vhristev> важното е нещо да се търкаля
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:01:30] <yulimoto> KpeTeHoug: има, има последния комит е от gt 10:05:01 :)
+[11:05:47] <KpeTeHoug> найс
+[11:05:53] <KpeTeHoug> то сега трябва да направи нов
+[11:05:57] <KpeTeHoug> начи всичко е 6
+[11:06:02] <KpeTeHoug> аз направих и нов тар гз
+[11:06:08] <KpeTeHoug> след последните настройки
+[11:06:09] <KpeTeHoug> да има
+[11:26:40] <vhristev> Някой цъкал ли е Клауд
+[11:26:42] <vhristev> там има
+[11:26:54] <vhristev> IaaS - Infrastructure As A Service
+[11:27:01] <vhristev> PaaS - Platform As A Sercice
+[11:27:02] <vhristev> i t.n.
+[11:27:04] <vhristev> https://foaas.herokuapp.com/
+[11:27:12] <vhristev> foaas е най-новото
+[11:33:16] <yulimoto> сървиса на какво е писан ?
+[11:33:57] <vhristev> виж го там си има рийди ми
+[11:35:51] <KrasiGa> e dobre be, natisnah si na virtualkata ctrl+alt+f1, минах в конзола
+[11:36:16] <KrasiGa> и понеже не знаех как да изляза /исках да се върна на графична среда/ рестартирах  машината
+[11:36:36] <KrasiGa> и сега ми дава attemting to kill init
+[11:37:27] <yulimoto> Що не пробва ctrl+alt+f7
+[11:37:35] <yulimoto> mi restart
+[11:38:09] <yulimoto> vhristev: видях - кофи скрипт
+[11:38:18] <vhristev> https://foaas.herokuapp.com/pink/:Val
+[11:38:39] <KrasiGa> ami 4 pati restartiram
+[11:38:57] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[11:39:10] <KrasiGa> tragva da zarejda i spira do tozi msg
+[11:40:20] <KrasiGa> Kernel panic - not syncing : Attempting to kill init!
+[11:41:02] <yulimoto> според мен лошо,http://askubuntu.com/questions/92946/cannot-boot-because-kernel-panic-not-syncing-attempted-to-kill-init
+[11:41:20] <yulimoto> не съм се сблъсквал с това преди
+[11:42:33] <yulimoto> дано имаш снапшот
+[11:46:39] <KrasiGa> :( ami ne
+[11:47:27] <phalaaxx> какво пише преди attempting to kill init?
+[11:49:13] <KrasiGa> Memory for crash kernel (0x0 to 0x0) notwithin permissible range
+[11:49:43] <KrasiGa> warning: calibrate_APIC_clock: the APIC timer calibration may be wrong
+[11:50:22] <KrasiGa> na edno miasto pi6e No volume groups found
+[11:51:04] <KrasiGa> Unable to access  resume device (/dev/VolGroup///LogVol01)
+[11:51:04] plamer (~plamen@84.40.92.7) left irc: Quit: Leaving
+[11:57:47] <phalaaxx> амии заради групите е значи
+[11:57:53] <phalaaxx> LV-тата
+[11:58:10] <phalaaxx> не си вижда root device вероятно
+[11:58:26] <phalaaxx> предполагам де
+[11:58:26] <phalaaxx> ако можеш направи някой screenshot :)
+[11:59:49] <KrasiGa> kade da go pratia
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:01:13] <KrasiGa> napravih ama ne znam kade da ia ka4a
+[12:01:38] <phalaaxx> примерно тук: http://picpaste.com/
+[12:02:23] <KrasiGa> http://picpaste.com/CentOS-bYW8dYo5.png
+[12:06:52] <vhristev> Ммм да LVM-a ти с е потрошил нещо
+[12:08:08] <phalaaxx> или има нещо грешно в grub-а и се опитва да отвори root filesystem от неправилното място
+[12:10:51] <vhristev> bootni
+[12:10:59] <vhristev> на груба дай "e" за едит
+[12:11:10] <vhristev> find /grub/stage1
+[12:11:17] <vhristev> виж дали ти е в /boot/grub или само /grub
+[12:11:25] <vhristev> ще ти покаже примерно (hd0,0)
+[12:11:30] <vhristev> после даваш
+[12:11:36] <vhristev> root (hd0,0)
+[12:11:47] <vhristev> kernel /vmlinuz
+[12:11:51] <vhristev> initrd /initrd
+[12:12:00] <vhristev> и виж дали ще буутнеш
+[12:12:12] <vhristev> руут файловата можеш да е специфираш след kernel параметъра
+[12:29:43] <yulimoto> lvm-а излезе значи
+[12:30:16] <yulimoto> гледам скрииншота
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:06:18] <phalaaxx> кажете нещо лошо (или хубаво) за djbdns... имаше някакви exploits преди няколко години, някой дали ги е оправял? :)
+[13:06:34] <vhristev> THe best DNS
+[13:06:38] <vhristev> доста доста по бърз от BIND
+[13:07:25] <vhristev> това беше 2008-9 някъде
+[13:07:42] <vhristev> дори този който го беше написал даваше награда на човека който упсее да го експлойтне
+[13:07:49] <vhristev> та .... слагай djbdns ( tinyDNS
+[13:08:00] <vhristev> аз съм таркалял цял хостинг с него и е супер по бърз от BIND
+[13:09:45] <KrasiGa> vhristev как да дам find?
+[13:09:53] <KrasiGa> az niamam konzola
+[13:10:11] <KrasiGa> tozi screen mi izliza direktno pri zarejdane
+[13:10:16] <vhristev> като тръгне машината и стигне до ГРУБ натисни "e"
+[13:10:18] <vhristev> за ЕДИТ
+[13:10:33] <vhristev> по дефалт имаш 3 до 5 секунди да прекъснеш ГРЪБ-а
+[13:10:42] <vhristev> може да го прекъснеш със стрелките или примерно "е" за ЕДИТ
+[13:10:48] <vhristev> чукни едит и ще ти се появи grub>
+[13:10:52] <vhristev> това е шелчето на гръб-а
+[13:10:55] <KrasiGa> sega 6te testavm
+[13:10:55] <vhristev> и от там действаш
+[13:11:20] <KrasiGa> ahaaa
+[13:11:22] <KrasiGa> da
+[13:12:10] <vhristev> абе като гледам доста се е поомазоло тъйче не таи мн надежди
+[13:12:36] <KrasiGa> ama kak 6et se omaje"? та аз почти нищо не съм правила
+[13:12:54] <KrasiGa> или ако съм правила е било преди 2-3 седмица?
+[13:13:11] <vhristev> Еми ми замина един 750Г диск преди 1 г. просто ребуутнах тва беше
+[13:13:19] <vhristev> Така ... от това което виждам
+[13:13:19] <KrasiGa> днес си си сменпх и юзерите за работа
+[13:13:21] <vhristev> от снимката
+[13:13:26] <vhristev> root (hd0,0)
+[13:13:29] <vhristev> само ,че !!!
+[13:13:36] <vhristev> Volum Group-a ти се е омазала
+[13:13:48] <vhristev> Най добре буутни едно рескю СД примерно УБУТУ
+[13:13:53] <vhristev> и пусни системата
+[13:13:58] <vhristev>  от там вече ще ти помогна да си оправиш дяла
+[13:14:15] <KrasiGa> възможно ли е да се е омазало преди 2- 3 седмици и сега след рестарта да  даде проблем?
+[13:14:36] <KrasiGa> а при logvane s друг user da si e OK /predi restarta/?
+[13:15:33] <phalaaxx> vhristev, nsd също е по-бърз от bind но въпроса беше дали някой е оправил онзи remote exploit който се появи преди няколко години :)
+[13:15:55] <phalaaxx> това доколкото помня беше причината да излезе от stable и testing repository-тата на Debian
+[13:16:12] <vhristev> KrasiGa, ами и да и не ... зависи може групата да ти се е строшила ама трябва да е мн малко ,защото иначе линукса нямаше да работи
+[13:16:38] <vhristev> phalaaxx, едва ли експлойта още седи отворен ако това ме питаш никой няма да го допусне това
+[13:16:52] <vhristev> да има експлоит година наред даваща ти РУУТ
+[13:16:56] <vhristev> всичко се пачва
+[13:16:58] <phalaaxx> то там проблема е заради лицензите
+[13:18:01] <yulimoto> KrasiGa: бутвай resque cd-to, че ми е интересно vhristev как ще оправи случая
+[13:18:43] <vhristev> може да поровиш в http://www.securityfocus.com/
+[13:19:00] <vhristev> не съм казал ,че ще го оправя ,а че ще помогна
+[13:19:08] <vhristev> ще видим какво е станало с VLM групата
+[13:19:11] <vhristev> защото явно не е намира
+[13:19:32] <vhristev> демек буутваме после с LVM ще вдигнем групите след това ще маунтнем РУУТ и БУУТ-а
+[13:19:42] <vhristev> ще ги оправим ( дай бог добро ) и после ще ребуутнем пак
+[13:19:44] <yulimoto> vhristev: вчера гледах нощните разследвания за фейкрайда.. добре, добре
+[13:19:57] <vhristev> видя ли ква е простотия
+[13:20:04] <vhristev> аз като разбрах навремето ,че е просто софтуер
+[13:20:13] <vhristev> виках си ехххх хардуерен РАЙД
+[13:20:27] <yulimoto> е нали е pci
+[13:20:33] <vhristev> софутер е
+[13:20:46] <vhristev> зарежда драйвер все еднода си заредиш RAID1 драйвера в линукса
+[13:20:49] <vhristev> ай МОдула
+[13:20:58] <yulimoto> аха
+[13:21:04] <yulimoto> ми ква е връзката с биоса
+[13:21:32] <vhristev> modprobe md
+[13:21:40] <vhristev> modprobe raidX ( X e raid nivoto )
+[13:22:15] <vhristev> еми като сложиш сторидж контролера да ти е на РАЙД то отива и си зарежда драйвера за примерно Intel Matrix RAid storage
+[13:22:25] <vhristev> Не е хардуер със собствен процесор мемори кеш
+[13:22:49] <yulimoto> аха
+[13:22:52] <vhristev> батерийка за лукс
+[13:22:52] <vhristev> (;
+[13:23:46] <yulimoto> чакай сега
+[13:24:17] <yulimoto> има ли някакво pci (колкото и фейк да е) да си го слагаш там на дъното
+[13:24:22] <yulimoto> гледам в нета
+[13:24:43] <phalaaxx> fake raid не ти трябва
+[13:24:45] <vhristev> за мен щом е вече ПЦИ и е отделна платка си е външен хардуере
+[13:24:48] <phalaaxx> на никой не му трябва fake raid
+[13:24:53] <vhristev> ами аз го слагах на приятели за СПИИЙД
+[13:24:54] <phalaaxx> ама много хора не го знаят това
+[13:25:06] <vhristev> само ,че на линукс недей по-добре си направи райд от конзолата с mdadmin
+[13:25:12] <vhristev> защото така ще може да го управляваш
+[13:25:23] <vhristev> И аз не съм го знаел навремето
+[13:25:33] <vhristev>  ама е на както при теб наложи ми се и изгря
+[13:26:25] <yulimoto> vhristev: ти с какъв раид 0 ли си го правил ?
+[13:26:30] <vhristev> да
+[13:26:32] <vhristev> за приятели
+[13:26:38] <yulimoto> за скорост демек
+[13:26:41] <yulimoto> ясно
+[13:26:44] <vhristev> които съм и обяснил ,че може от 2та диска да загубят всичко
+[13:26:48] <vhristev> ама им трябваше спийд не място
+[13:26:54] <vhristev> да 0-та е СТрайп което е СПИЙД
+[13:27:02] <yulimoto> да така е
+[13:27:04] <vhristev> почни да цъкаш малко ZFS
+[13:27:26] <yulimoto> зфс ква е соларис нещо си
+[13:27:28] <vhristev> аз преди на FreeBSD-то го цъках и сега си има RAID 1 na MAc-a
+[13:27:32] <phalaaxx> аз сега цъкам малко btrfs :)
+[13:27:33] <vhristev> да соларис са го измислили
+[13:27:35] <vhristev> ама вече го има
+[13:27:37] <vhristev> и за Линукс
+[13:27:49] <vhristev> за Мас щяха да го слагат на Mac OS X server 10.6 ама не се разбраха за лиценза
+[13:28:31] <yulimoto> зфс някакви снапшоти ми обяснаваха че прави и т.н. както лвм
+[13:28:33] <vhristev> [13:26]vhristev@g1r5:~$zpool status
+[13:28:33] <vhristev>   pool: zfsmir
+[13:28:34] <vhristev>  state: ONLINE
+[13:28:34] <vhristev>  scrub: none requested
+[13:28:34] <vhristev> config:
+[13:28:35] <vhristev>         NAME         STATE     READ WRITE CKSUM
+[13:28:37] <vhristev>         zfsmir       ONLINE       0     0     0
+[13:28:39] <vhristev>           mirror     ONLINE       0     0     0
+[13:28:41] <vhristev>             disk4s2  ONLINE       0     0     0
+[13:28:43] <vhristev>             disk3s2  ONLINE       0     0     0
+[13:28:45] <vhristev> Да култово е
+[13:28:49] <vhristev> има и архивиране
+[13:29:05] <vhristev> може примерно /var/log да си го пуснеш с архивиране директно от файловата система
+[13:29:07] <yulimoto> по-добре от софт райд ?
+[13:29:10] <vhristev> и мястото се смачква безубразно
+[13:29:15] <vhristev> за мен лично да
+[13:29:21] <phalaaxx> да
+[13:29:29] <yulimoto> добре
+[13:29:29] <phalaaxx> то е software raid
+[13:29:40] <phalaaxx> но е комбиниран с файловата система
+[13:29:43] <yulimoto> аха
+[13:29:48] <KrasiGa> vhristev: като дам kernel /vmlinuz дава Error15: file not found
+[13:29:49] <vhristev> [13:27]vhristev@g1r5:~$diskutil list | grep -i zfs
+[13:29:49] <vhristev>    2:                        ZFS zfsmir                  499.8 GB   disk3s2
+[13:29:49] <vhristev>    2:                        ZFS zfsmir                  499.8 GB   disk4s2
+[13:29:55] <phalaaxx> и това дава някои предимства пред lvm+md+fs
+[13:29:57] <vhristev> Краси ... буутни убунто
+[13:30:04] <vhristev> LVM-a ти се е скапал
+[13:30:07] <yulimoto> ми тия apple имат нещо подобно на time machine -то си ?
+[13:30:21] <vhristev> time machine е бекъп програма
+[13:30:28] <vhristev> яко работи ама РАЙД-а си е друго
+[13:30:46] <KrasiGa> имам копие на vdi файла
+[13:30:55] <KrasiGa> направо ще си направя нова машина
+[13:31:20] <yulimoto> KrasiGa: ейй това е
+[13:31:33] <vhristev> Красиии .... я си буутни убунтуту
+[13:31:38] <vhristev> дай малко да подебъгнваме
+[13:31:46] <vhristev> утре ще имаш сървър неможе така да го затриеш
+[13:31:46] <yulimoto> vhristev: значи съм в грешка мислех че са направили направо мини сървър
+[13:31:47] <KrasiGa> не е убунто а CentOs
+[13:32:14] <vhristev> да ... просто буутни УБУНТУ или ЦЕнтос няма значение просто да имаме ШЕЛ
+[13:32:26] <vhristev> с всели линукс може да го опрваим
+[13:32:46] <vhristev> има едно важно правило Линукса е Пакетна система + Кърнал всичко друго е еднакво
+[13:32:49] <KrasiGa> ami ok
+[13:32:52] <KrasiGa> aide 6te testvame
+[13:32:58] <vhristev> айде гууд
+[13:33:16] <vhristev> yulimoto, аз имам една команда SCRUB която прави чексъма на всеки файл
+[13:33:24] <yulimoto> vhristev: на теб рута ти на зфс ли е
+[13:33:31] <vhristev> Не е на HFS+
+[13:33:36] <vhristev> аз съм с МАС в нас
+[13:33:43] <vhristev> перфекната конзола с добър изглед
+[13:33:49] <yulimoto> да и аз бях
+[13:34:04] <yulimoto> прекрасен UX
+[13:34:44] <yulimoto> ма избягах от зат`ора  на чичо бил
+[13:34:52] <yulimoto> т.е. стийв
+[13:34:55] <yulimoto> сори
+[13:35:25] <yulimoto> KrasiGa: кво става бутваме ли
+[13:36:20] <KrasiGa> ами правя си настройките
+[13:36:32] <KrasiGa> на виртуалката, че ги бях махнала
+[13:37:35] <KrasiGa> ееее защо нямам опция да бутвам от флашка?
+[13:37:36] <yulimoto> KrasiGa: vhristev e като Стоичков само, че за линукс. Викат му камата.
+[13:37:45] <KrasiGa> хахаха
+[13:37:51] <KrasiGa> ами браво на него
+[13:37:51] <vhristev> чай че принтера е на 100м. дейба
+[13:38:33] <yulimoto> за флашка май трябвало да си сложиш някакви допълнителни усб пакети
+[13:38:57] <KrasiGa> ей тва ми дава
+[13:38:59] <KrasiGa> http://picpaste.com/CentOSboot-YhLnlIht.png
+[13:39:00] <yulimoto> ти нали пазиш исото от което инсталира CentOS-a
+[13:39:06] <KrasiGa> абе аз отварях флашката
+[13:39:09] <KrasiGa> нали аз ти писах
+[13:39:16] <KrasiGa> ама за бут не вождам
+[13:39:48] <yulimoto> ти как инсталира цент-оса
+[13:40:21] <yulimoto> намери истото и го укажи на сд-рома
+[13:41:11] <yulimoto> чекай си пусна моя виртуал бокс
+[13:41:24] <KrasiGa> не съм го инсталиарала. изтеглих си директно vdi готов
+[13:41:29] silverboy (~silverboy@91.134.33.92) joined #telerikacademy.
+[13:41:30] <KrasiGa> абе аз ще си го възстановя
+[13:41:33] <KrasiGa> не е проблем
+[13:41:36] <KrasiGa> там нямам нищо
+[13:41:41] <KrasiGa> ама така за тренировка
+[13:41:45] <yulimoto> да
+[13:41:47] <KrasiGa> хем да понауча нещо
+[13:42:02] <vhristev> аз футбол не гледам
+[13:42:13] <yulimoto> ами според мен трябва да го бутнеш от СД-то
+[13:42:24] <yulimoto> виртуалното СД :)
+[13:42:34] <vhristev> KrasiGa, какво буутване от флаш нали това е виртуалка
+[13:42:43] <vhristev> за да буутнеш от флаш трябва БИОС-а да го поддържа
+[13:42:47] <KrasiGa> na flash imam live cd na ubunto
+[13:42:49] <vhristev> псоле трябва да си направиш БУутваща влашка
+[13:43:01] <KrasiGa> abe flashkata mi e bootva6ta
+[13:43:04] <vhristev> свали си едно MINIMAL install
+[13:43:11] <vhristev> на ИСО
+[13:43:16] <KrasiGa> ok
+[13:43:21] <vhristev> виртуалката няма как да е буутнеш от флаш
+[13:43:44] <yulimoto> абе нали има ИСО от центос инсталацията да ползва нея, защот да тегли
+[13:43:45] <KrasiGa> ami vijdam, 4e nqma
+[13:43:50] <vhristev> има софтуер от USB > ISO да го превърнеш ама докато го направиш ще си свалила убунтуту 10 пъти
+[13:43:55] <KrasiGa> niamam iso ot centos
+[13:44:04] <yulimoto> ааа
+[13:44:06] <yulimoto> ок
+[13:44:07] <vhristev> изтрила ли си го ГОД... защоооооо така ли се отнасяш с Линукса
+[13:44:10] <vhristev> то затва ти е спрял
+[13:44:11] <vhristev> неуважение
+[13:44:17] <yulimoto> хаха
+[13:44:21] <KrasiGa> ne be, pisah ama ne 4ete6
+[13:44:29] <vhristev> Колата и линукса са като жените ако не им обръщаш внимание и им говориш грубо спират да работят
+[13:44:37] <KrasiGa> ne съм сваляла исо а директно вди
+[13:44:46] <yulimoto> ааааа
+[13:44:49] <vhristev> да пропуснах малко моя грешка
+[13:44:54] <KrasiGa> :)
+[13:44:55] <yulimoto> ей за тва е спрял
+[13:44:58] <KrasiGa> няма проблем
+[13:44:59] <yulimoto> хаха
+[13:45:02] <vhristev> yulimoto, ще си разпределим срама
+[13:45:14] <yulimoto> ок но 51% за теб
+[13:45:29] <vhristev> еее аз ли ще държа мажоритарният дял
+[13:45:30] <vhristev> щом искаш
+[13:45:53] <yulimoto> така сега направо да тегли някакво исо
+[13:45:59] <KrasiGa> тегля
+[13:46:04] <yulimoto> и да го буха във виртуалното цд
+[13:46:05] <KrasiGa> ама тук е доста бавно
+[13:47:43] <yulimoto> ей тва НАП са големи мизерници и от нет пестят
+[13:48:20] <vhristev> ми пестят я плащай го ти да видим няма ли да пестиш
+[13:48:21] <yulimoto> а то не е нап ами НОИ все таря
+[13:48:22] <KrasiGa> е не знам
+[13:48:25] <KrasiGa> не съм в НАП
+[13:48:34] <KrasiGa> не е все тая
+[13:48:39] <vhristev> и ти ли и АЗ ето вече имаме нещо общо
+[13:48:59] <vhristev> Ейййй.... ако не жената компютрите ще ми вземат живота да знайте
+[13:48:59] <vhristev> (;
+[13:49:03] silverboy (~silverboy@91.134.33.92) left irc: Quit: Bye
+[13:49:18] <KrasiGa> :) жената по-лесно ще ти го вземе
+[13:49:19] silverboy (~silverboy@91.134.33.92) joined #telerikacademy.
+[13:50:19] <vhristev> абе и комповете добре се справят
+[13:50:42] <phalaaxx> ее там с търпение всичко се постига, ама в другия случай...
+[13:50:53] <vhristev> ай докато чакаш може да побиемш бившият
+[13:50:53] <vhristev> http://www.y8.com/games/whack_your_ex
+[13:50:56] <KrasiGa> абе и в другия Ви трябва търпение
+[13:51:17] <phalaaxx> търпение не ми липсва :D
+[13:51:23] <phalaaxx> но не е достатъчно
+[13:51:29] <vhristev> ама може и още
+[13:51:29] <yulimoto> vhristev: от вчера препоръчва тая игра; аз пробвах ЮМРУКА на жената от подаръците и се отказах
+[13:51:29] <vhristev> (;
+[13:51:30] silverboy (~silverboy@91.134.33.92) left irc: Client Quit
+[13:51:34] <vhristev> ахахаххаха
+[13:51:39] <vhristev> ДААА мн е ХАРД
+[13:51:43] <vhristev> пусни си КОЛАТА и ОБУВКАТА
+[13:51:45] <vhristev> те са ми любими
+[13:51:50] silverboy (~silverboy@91.134.33.92) joined #telerikacademy.
+[13:51:55] <vhristev> еее не сте ли цъкали whack my boss
+[13:51:57] <vhristev> тия са същите
+[13:52:13] <vhristev> доста са грубички
+[13:52:14] <vhristev> (;
+[13:52:33] <yulimoto> не не съм играл преди това и ти ме пусна направо брутално
+[13:52:36] silverboy (~silverboy@91.134.33.92) left irc: Client Quit
+[13:52:38] <vhristev> ама поне в БГ трудно ще те осъдят за sexual harassment
+[13:53:31] <vhristev> http://www.whackyourboss.com/
+[13:53:34] <vhristev> ама го изчакай да зареади
+[13:53:35] <vhristev> (;
+[13:53:51] <vhristev> Ай дадах ви матРИал цъкайте докато не се свали ИСО-тпо
+[13:54:08] <KrasiGa> свали се, ама след малко ще го почна
+[13:54:11] <KrasiGa> излезе нещо
+[13:54:33] silverboy (~silverboy@91.134.33.92) joined #telerikacademy.
+[13:55:02] <vhristev> Нещо необосновато леко космато в приличен вид и фънки прическа
+[13:55:10] <vhristev> ОК ай драсни като буутнеш рескюто
+[13:55:11] <vhristev> (;
+[13:55:35] silverboy (~silverboy@91.134.33.92) left irc: Client Quit
+[13:55:52] silverboy (~silverboy@91.134.33.92) joined #telerikacademy.
+[13:56:17] silverboy (~silverboy@91.134.33.92) left irc: Client Quit
+[13:56:17] <yulimoto> no went, no want, no worry
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:57] looser99 (John@78.130.186.99) got netsplit.
+[14:00:57] KpeTeHoug (~GT@212.36.13.10) got netsplit.
+[14:01:11] looser99 (John@78.130.186.99) returned to #telerikacademy.
+[14:01:18] KpeTeHoug (~GT@212.36.13.10) returned to #telerikacademy.
+[14:03:20] <KrasiGa> ei ot tuk drapnah ama sega se zagledah, 4e trqbva da installvam https://help.ubuntu.com/community/Installation/MinimalCD
+[14:04:26] <KrasiGa> da mu dam ot install menuto command line install
+[14:04:35] <KrasiGa> a?
+[14:04:39] <vhristev> да ще свърши работа
+[14:04:44] <vhristev> дамо само да има LVM
+[14:04:49] <vhristev> че сега като се сетих може и да липсва
+[14:05:43] <vhristev> като пуснеш шела
+[14:05:46] <vhristev> виж дали имаш мрежа и дай
+[14:05:47] <vhristev> sudo apt-get -y install lvm2
+[14:09:10] <KrasiGa> ами точно за мрежата запецнах
+[14:09:22] <KrasiGa> няма как да пусна нет на виртуалката
+[14:09:25] <KrasiGa> мрежа да ама нет не
+[14:10:09] <KrasiGa> стигнах до тук http://picpaste.com/ubunto-xZXjvk0n.png
+[14:10:31] <KrasiGa> и не знам дали има смислъл да продължа понеже нямам и-нет за машината
+[14:12:03] <vhristev> виртуалката с каква мрежа е настроена
+[14:12:04] <yulimoto> NAT ли си, направила на виртуалката
+[14:12:09] <vhristev> Bidged , NAT , Host only
+[14:12:10] <yulimoto> или някаква друга
+[14:12:18] <vhristev> ako si s Host only няма да имаш нет
+[14:12:26] <yulimoto> дай NAT
+[14:14:25] <yulimoto> пичове и принцеси, почвам да чета за линукс кернела иначе няма да стане - understanding linux kernel , може да съм прост, ама неща да умпра прост
+[14:14:37] <yulimoto> т.е неща да умра толкова прост
+[14:19:16] <vhristev> там няма четене
+[14:19:29] <vhristev> просто трябва да знаеш къде да погледнеш нещо като ти потрябва
+[14:20:11] <yulimoto> принципи искам да знам
+[14:20:28] <yulimoto> неща на които да слагам
+[14:21:14] <yulimoto> не ми се виси във въздуха, боже мой, не ми се виси (ридалчески падам на колене и закривам лицето си с ръце)
+[14:23:13] <vhristev> вече машините са толкова мощни и кърнал с модули
+[14:23:18] <vhristev> вече те боли фара кое е пуснато и кое не
+[14:23:40] <vhristev> 1-2% да искараш производителност ако го компилираш поради тази причина
+[14:26:51] <KrasiGa>  за да имам нет трябва да вкарам машината в active directory /koeto niama kak da stane/  и да добавя user-a в squid group
+[14:27:09] <KrasiGa> тук така е организирана системата
+[14:27:11] <KrasiGa> не всеки има интерент
+[14:27:22] <yulimoto> а ти имаш или нямаш ?
+[14:27:30] <KrasiGa> е как ти пиша
+[14:27:57] <KrasiGa> ако беше ш=ундоус знам и мога да го направя
+[14:28:06] <yulimoto> аха
+[14:28:07] <KrasiGa> ама с тоя линукс
+[14:28:18] <KrasiGa> нямам идея дали е възможно ина теория
+[14:29:54] <yulimoto> нема начин да нема начин
+[14:30:23] <KrasiGa> е може ли линукс машина да се вкара в активна директория?
+[14:30:34] <KrasiGa> не е ли само за уиндоуси
+[14:32:14] <yulimoto> не за нетя говоря за другтоо не знам
+[14:33:36] <yulimoto> но от проблем с лвм-тите стигнахме до проблем с нета ; а аз не разбрах сега на това минимал има ли LVM
+[14:33:45] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[14:33:48] <vhristev> Греда
+[14:33:49] user1 (~chatzilla@89.106.112.81) joined #telerikacademy.
+[14:33:54] <vhristev> виж ... ти винаги може да имаш нет през НАТ-а
+[14:34:22] <vhristev> може ама той ще взима интернет през твойта ЛАН-ка нали е виртуалка
+[14:34:40] <KrasiGa> да
+[14:35:15] <KrasiGa> yulimoto  за да си в squid трябва да си в домейна
+[14:35:29] <yulimoto> аха
+[14:35:47] <KrasiGa> тук всички са в домейна ама в скуида само много малко
+[14:36:14] <KrasiGa> имат мрежа до софия, но само до там
+[14:36:19] <vhristev> НАТ-а ще излиза от твойта ЛАНка
+[14:36:40] <KrasiGa> в смисъл до софийски сървъри на НОИ
+[14:37:23] <vhristev> ОК виж може да пуснеш някой TeamViewer
+[14:37:23] <vhristev> само ,че просто сега няма да мога да ти помогна
+[14:37:24] <yulimoto> ти нали имаш нет какво ти пука, пускай си на виртуалката НАТ в мрежовите настройки
+[14:37:40] <vhristev> Ако на теб ти трябва прокси ,за да браузваш и на виртуалката ще и трябва
+[14:37:49] <KrasiGa> ами ще го пробвам
+[14:39:07] Nick change: user1 -> anton_D
+[14:40:05] <KrasiGa> ама добре бе, аз сега бутнах през CentOS, и стартирах инсталация на Ubuntu /която не мина понеже нямам нет/ ама ако беше минало това не означава ли, че ще затрия центоса?
+[14:40:27] <vhristev> попринцип да
+[14:40:35] <vhristev> ОК я свали едно цяло CD на убунту
+[14:40:42] anton_D (~chatzilla@89.106.112.81) left irc: Remote host closed the connection
+[14:40:43] <vhristev> там вече си имаш едно меню "Rescue
+[14:40:56] <vhristev> и като го избереш то ще ти помогне да си маутнеш и РУУТ дяла автоматично
+[14:41:05] <vhristev> тоест ще ти помогне
+[14:41:25] <KrasiGa> е браво на нас
+[14:41:34] <vhristev> На вас всичките
+[14:41:39] <yulimoto> хахаха
+[14:41:41] <vhristev> просто с Минимала пак става ама е по сложно
+[14:41:50] <KrasiGa> ако имах нет щяхме много добре да оправим центоса
+[14:42:05] <yulimoto> vhristev: аз за това ти дадох 51%
+[14:42:07] <KrasiGa> е как като щяхме да го затрием съвсем
+[14:42:10] <vhristev> ти имаш ли на твоя комп и на виртуалката ще имаш защото няма какво да е спре
+[14:42:23] <vhristev> Еми ти нямаше да дадеш ИНСТАЛ
+[14:42:29] <yulimoto> не бе нямаше да го затрием
+[14:42:35] <vhristev> ми щеше да стигнеш до там където зарежда модулите след това отиваш на КОНЗОЛА 1
+[14:42:53] <KrasiGa> е още на първия екран ми даде да избирам за install
+[14:43:02] <KrasiGa> nali vi napisah
+[14:43:05] <yulimoto> и от конзола почваш вече да мажеш
+[14:43:17] <vhristev> даааа ти стартираш инсталацията
+[14:43:22] <vhristev> ама това не значеи ,че ще ти затрире диска
+[14:43:36] <vhristev> пуснай да се сваля СД-то на Убунту
+[14:43:37] <KrasiGa> aide izbrala sam NAT
+[14:43:43] <KrasiGa> sega 6te probvam pak
+[14:43:45] <yulimoto> имаше ли resque на  тоя екран ?
+[14:43:49] <vhristev> няма на минимала
+[14:43:56] <vhristev> рескю е в цялото СД или ДВД
+[14:43:57] <yulimoto> ами и аз така мисля
+[14:44:01] <vhristev> или УБУТУ ЛАЙВ
+[14:44:06] <vhristev> еми да ама имаш шел
+[14:44:15] <vhristev> аз дали през рескю или през шела все ще го оправя
+[14:44:17] <vhristev> ама да стигне до там
+[14:44:18] <yulimoto> на по-големите дистрота имат
+[14:44:33] <yulimoto> в минимала не
+[14:44:35] anton_dutsov (~prof@89.106.112.81) joined #telerikacademy.
+[14:44:56] <yulimoto> сега е дала NAT
+[14:45:08] <yulimoto> треперим раишли
+[14:45:11] <phalaaxx> баси случая, опитвам се да настроя nsd да тегли зони през axfr ама ми тегли зоните през една и половината ми липсват :D
+[14:45:43] <anton_dutsov> Здравейте колеги какво обсъждате?
+[14:46:16] <phalaaxx> аз си обсъждам някакви мои си работи и само преча на другите :)
+[14:47:17] <yulimoto> трудно е да се каже, какво точно обсъждаме, дали може да се подкара интернет в НОИ или как се оправят LVM-и, a phalaaxx има собствена тема, която ми е трудно изобщо да зацепя :)
+[14:48:48] <yulimoto> KrasiGa: кво става с НАТ-а ?
+[14:49:09] <KrasiGa> ами не става с тоя NAT. Сега ще си пусна центос от вда-то, ще го настроя на нат и ще видя дали ще имам нет през него
+[14:49:16] <anton_dutsov> :D звучи интересно, но LVM-ът ми е още мъглив. Нещо за четене относно него имате ли под ръка?
+[14:50:01] <phalaaxx> anton_dutsov, питай и ще се пробваме да отговаряме на въпроси
+[14:50:51] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[14:50:54] <dencho-at-work> r
+[14:51:03] <dencho-at-work> KrasiGa: s kakuv softuer virtualizira6 ?
+[14:51:15] <yulimoto> ей влиза и почва
+[14:51:32] <KrasiGa> Виртуалбокс
+[14:51:45] <dencho-at-work> KrasiGa: i ne moje6 da pusne6 net na virtualnata si ma6ina?
+[14:52:06] <dencho-at-work> pravilno li sam razbral?
+[14:52:10] <dencho-at-work> yulimoto: :D
+[14:52:23] <KrasiGa> абе друго сикутирахме ама накрая стигнахме до тук
+[14:52:26] <vhristev> Krasi
+[14:52:29] <vhristev> имаш ли ..... прокси на компа ?
+[14:52:32] <KrasiGa> *дискутирахме
+[14:52:37] <KrasiGa> имам прокси
+[14:52:47] <vhristev> ОК значи трябва и на виртуалката да го сложиш за да имаш нет
+[14:52:51] <dencho-at-work> KrasiGa: guest os kakva e?
+[14:53:02] <yulimoto> линукс май
+[14:53:02] <vhristev> export http_proxy=http://PROXY:port
+[14:53:08] <vhristev> CentoOS
+[14:53:34] <dencho-at-work> kogato sloji6 v nastroikata na Netwrok-a da e NAT virtual box-a si pravi dhcp i razdava vutre6ni adresi
+[14:53:38] <dencho-at-work> 10.10.x.x
+[14:53:57] <vhristev> Точно така раздава каквито адреси си му задал да раздава
+[14:54:04] <vhristev> ама НЕТ ще има ако сложи проксито на лИнукса
+[14:54:09] <vhristev> ама на нея сега това не и е проблема
+[14:54:09] <dencho-at-work> mne
+[14:54:10] <dencho-at-work> :D
+[14:54:13] <dencho-at-work> ne mislq
+[14:54:13] <vhristev> Мда ...
+[14:54:13] <dencho-at-work> :d
+[14:54:19] <vhristev>  защо така си мислиш ?
+[14:54:29] <dencho-at-work> ako pc-to ti ima net ot nqkade to zna4i i virtualnata ti ma6ina 6te ima
+[14:54:30] <dencho-at-work> :)
+[14:54:32] <vhristev> НАТ-а е вътрешн руутинг между VNET-a
+[14:54:41] <vhristev> да ама тя има ПРОКСИ
+[14:54:48] <vhristev> което си е ОС базирано
+[14:54:58] <vhristev> за да има НЕТ на виртуалката и там трябва да сетне прокси
+[14:55:03] <vhristev> защото ОС-а незнае как да излезе
+[14:55:07] <dencho-at-work> da
+[14:55:07] <dencho-at-work> :D
+[14:55:10] <dencho-at-work> tova sa go propusnal
+[14:55:11] <dencho-at-work> :D
+[14:55:18] <vhristev> ОК ...
+[14:55:23] <vhristev> KrasiGa, свали ли убунтуту
+[14:55:32] <vhristev> заиби тоя нет дай да буутнем рескюто
+[14:55:58] <dencho-at-work> trqbva da se setne proxy i na virtualnata :D no da znaete 4e CentOS-a ne si vdiga eth-to po default i trqbva da go sloji onboot=yes
+[14:55:58] <dencho-at-work> :D
+[14:56:02] <yulimoto> anton_dutsov: вж http://www.freeklijten.nl/home/2011/05/05/Logical-Volume-Manager-LVM-explained имаше добри обяснения и на сайта на redhad
+[14:56:04] <dencho-at-work> peoxy sux
+[14:56:11] Action: dencho-at-work slaps yulimoto 
+[14:56:35] <KrasiGa> добре де, аз имам бутващо убунту на флашката
+[14:56:39] <dencho-at-work> KrasiGa: kakvo e proxy-to !?
+[14:56:43] <KrasiGa> не може ли с него нещо да измислим
+[14:57:02] <yulimoto> dencho-at-work: ко ма бииш ве
+[14:57:04] <yulimoto> ;)
+[14:57:10] <vhristev> виж има в нета има софтуер да направиш FLASH to ISO
+[14:57:15] <dencho-at-work> are awey :F
+[14:57:28] <yulimoto> профилактично
+[14:57:30] <KrasiGa> dencho-at-work проблема е, че след като натиснах ctrl+alt+f1 i После се рестартирах , центоса умря
+[14:57:42] <KrasiGa> сега се опитва vhristev да го съживи
+[14:58:24] <KrasiGa> а това за нета дойде в последствие
+[14:58:27] <vhristev> още нищо не сме направили
+[14:58:33] <vhristev> Да имам предвид
+[14:58:39] <vhristev> дай да се фокусираме в/у едното
+[14:58:48] <KrasiGa> ами най-добре
+[14:59:00] <KrasiGa> като за начало дай линк какво да изтегля
+[14:59:18] <yulimoto> според vhristev трябва да се изтегли нов диск с resque мод
+[14:59:32] <KrasiGa> и той е ....
+[14:59:42] <vhristev> Не бе просто ще и е по лесно
+[14:59:43] <yulimoto> според мен може да се подкара нетя, но е 15 часа
+[14:59:50] <vhristev> ако ми писне TEam Viewer няма да се налага
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:04] <vhristev> ама на minimal-a може да няма LVM и тогава ще трябва НЕТ и затова се стигна до нета
+[15:00:17] <yulimoto> да
+[15:00:19] <yulimoto> така е
+[15:00:20] <vhristev> ето имаме обяснение за всичко
+[15:00:23] <samy> ebasi
+[15:00:24] <KrasiGa> :)
+[15:00:25] <vhristev>  не е като да сме стрялали в тъмното
+[15:00:26] <samy> shte zaspq ot skuka
+[15:00:28] <samy> ;xxxx
+[15:00:37] <vhristev> ако това ти е скучно нз
+[15:00:45] <yulimoto> ще се тегли нов диск
+[15:02:30] <KrasiGa> явно няма да е днес
+[15:02:41] <KrasiGa> ще се тегли доста  дълго
+[15:04:22] <yulimoto> сега само за протокола ти сложи NAT и после оправи proxy-то за нета ?
+[15:04:40] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 256 seconds
+[15:06:10] <KrasiGa> гледам, че имам някакъв Red hat na virtualkata
+[15:06:16] <KrasiGa> 6te probvam nat s nego
+[15:06:51] <yulimoto> кво чудо е тая виртуалка, колко са наблъскани вътре
+[15:07:16] <KrasiGa> ima o6te edno bsd i edin oracle solaris :)
+[15:07:47] <yulimoto> ей яко всичко на готово, и това колко ГБ ?
+[15:08:34] <KrasiGa> okolo 20gb
+[15:08:44] <yulimoto> супер
+[15:09:19] <yulimoto> vhristev: а аз що  не виждам как да ползвам прокси от настройките на виртуал бокс ?
+[15:11:01] <vhristev> ами там имаш прокси за КВМ-а
+[15:11:06] <vhristev> дори нз дали го има ама мисля ,че имаше
+[15:11:14] <vhristev> но за самата ОС ти сам трябва да се погрижиш
+[15:11:56] <yulimoto> KrasiGa: видя ли сега, не си инсталира като бял човек една центос и .....
+[15:14:22] <yulimoto> a phalaaxx горкия мъчи днс-ите и като дойде с някой проблем никой не е срещал нищо подобно ;)
+[15:14:48] <phalaaxx> свикнал съм с това :D
+[15:14:57] <phalaaxx> не знам защо ама все с някакви такива проблеми се боря
+[15:15:02] <KrasiGa> :) ami eto, 4e mu doide vremeto i centos da instaliram
+[15:15:18] <KrasiGa> poneje s kopieto sa6to imam problem
+[15:15:29] <KrasiGa> abe dnes mai ne e denia
+[15:15:34] <vhristev> ОК та свали някой Линукс да дейставме
+[15:15:49] <vhristev> че с минимала както казах може д аняма ЛВМ
+[15:15:53] <vhristev> ама тъй ли иначе може да го буутнем
+[15:15:54] <KrasiGa> pokazva sled 2chasa
+[15:16:09] <KrasiGa> taka, 4e kakto kazah niama da e dnes
+[15:16:09] <yulimoto> чудесно, инсталирай и после на изпита ще си сложиш една черна лента на очите и ще им кажеш "Аз съм масторка и мога със затворени очи"
+[15:16:34] <KrasiGa> e to instalaciata ne e koi znae kakvo
+[15:16:47] <KrasiGa> ili pone taka izglejda6e na Marian na lekciata
+[15:17:32] <KrasiGa> a pak za tozi red hat niamam user i pass
+[15:17:37] <KrasiGa> aaaa aide stiga za dnes
+[15:17:40] <yulimoto> инсталацията със затворени очи си е все пак нещо + това ти ще правиш advanced, ще си делиш партишъните  и т.н.
+[15:17:58] <yulimoto> редхата тръгва ли ?
+[15:18:06] <yulimoto> поне до логин
+[15:18:22] <KrasiGa> е да бе ама той е друга машина
+[15:18:25] <KrasiGa> не на тази счупената
+[15:18:36] <KrasiGa> аз исках ната да тествам
+[15:18:53] <yulimoto> в груба му дай да ти зарежда  направо бин/баша и му смени паролата
+[15:19:00] <yulimoto> аха
+[15:19:08] <yulimoto> ми видя как го тествахме
+[15:19:42] <yulimoto> мнго баби хилаво бебе, ама vhristev е като Стоичков казвам ти
+[15:21:13] <KrasiGa> изгледах лекцията ама ... не съм тествала
+[15:21:18] <KrasiGa> я дай  step by step
+[15:21:29] <yulimoto> кое за бин/баша ли ?
+[15:21:33] <KrasiGa> da
+[15:21:38] <phalaaxx> KrasiGa, тази счупената ако няма някаква важна информация на нея - качи я някъде, който му е мерак да пробва да си я подкара
+[15:22:11] <KrasiGa> ni6to  niama na neq
+[15:22:21] <KrasiGa> samo malko goli snimki
+[15:22:30] <yulimoto> значи както каза vhristev като ти бутва помиш "е" за да влезеш в редактор
+[15:23:43] <yulimoto> после търсиш там където ти е кернела
+[15:23:43] <KrasiGa> do tuk znam ve4e
+[15:23:54] <yulimoto> linux пише
+[15:23:58] <yulimoto> примерно
+[15:24:33] <yulimoto> linux /vmlinuz и т.н.
+[15:24:40] <yulimoto> отиваш най-накрая на този ред
+[15:24:48] <KrasiGa> a kato dam e, после c za command prompta, nali?
+[15:24:58] <KrasiGa> poneje mi dava menu-ta
+[15:25:11] <yulimoto> не
+[15:25:41] <yulimoto> трябва да ти изкара напараметрите на това ентри за груба
+[15:25:53] <yulimoto> къде снапшотиш да ти пратя
+[15:26:37] <yulimoto> като дадеш "е" те вкарва в едитор на настройките (терминал не ти трябва)
+[15:27:13] <KrasiGa> kato dam e tova mi dava http://picpaste.com/RedHat_Linux-IQEOx9F4.png
+[15:27:45] <yulimoto> чудесно
+[15:27:47] <yulimoto> това е
+[15:27:57] <yulimoto> отиди на втория ред най-накрая
+[15:28:05] <yulimoto> кернел където пише
+[15:28:06] <KrasiGa> i?
+[15:28:09] <KrasiGa> da da
+[15:28:14] <yulimoto> трябваше да се сетя че си с по-стар груб
+[15:28:27] <KrasiGa> enter ni6to ne pravi
+[15:28:27] <yulimoto> и пиши най-накря на реда
+[15:28:47] <yulimoto> init=/bin/bash
+[15:29:21] <KrasiGa> ama davam e i togava, nali?
+[15:29:54] <yulimoto> тая снимка дето ми я прати, е вече натиснато "е",
+[15:30:16] <yulimoto> отиваш на края на втория ред - пишеш каквото пишеш и изчезваш
+[15:30:17] <KrasiGa> e da ama kato ida na tozi red ni6to ne moga da pravq
+[15:30:19] <yulimoto> после си бутваш
+[15:30:23] <KrasiGa> ne mi dava da pi6a
+[15:30:55] <yulimoto> като натиснеш "е"
+[15:31:09] <KrasiGa> aaaa nali tova kazvam
+[15:31:29] <vhristev> чай ,че работа ми излезна
+[15:31:53] <yulimoto> и сега какво става душа ?
+[15:32:04] <vhristev> хора тя нама РУУТ ,за да влезе в БАШ
+[15:32:10] <vhristev> РУУТ ЛВМ-а и е скапан
+[15:32:18] <vhristev> трябва да буутне СД с друга ОС и от там да го оправим
+[15:32:19] <yulimoto> ма това е др. машина
+[15:32:24] <vhristev> аааааа
+[15:32:31] <KrasiGa> айде зарежете, че вече се чувствам неудобно
+[15:32:38] <vhristev> чай че ми делигираха ебари работата
+[15:32:38] <vhristev> (;
+[15:32:59] <KrasiGa> утре ще го мъча нещо
+[15:33:13] <yulimoto> vhristev: пак ще дойдеш в 12 вечерта и ще кажеш "ебаси к*ра ядох"
+[15:33:21] <vhristev> ааа няма
+[15:33:43] <yulimoto> чакай ще ти пратя пик
+[15:33:50] <yulimoto> да го видиш
+[15:35:53] <vhristev> ех сега бутнах един минимал
+[15:35:54] <vhristev> трябва ти нет
+[15:35:58] <vhristev> лоадвам модулите
+[15:36:05] <vhristev> само ,че избрах cammand line install
+[15:36:20] <KrasiGa> е да де, и аз това бях избрала
+[15:37:36] <yulimoto> то пък се пренесе през реда пууу - http://picpaste.com/__________________2013-07-23_15_34_22-jRaEttSh.png
+[15:38:14] <phalaaxx> yulimoto, виж кькво е писал vhristev :P
+[15:38:34] <phalaaxx> относно LVM имам предвид
+[15:38:52] <yulimoto> това е другa машина
+[15:39:07] <phalaaxx> аа сменихме темата ли? ок, сори :)
+[15:39:22] <yulimoto> т.е. темата е същата, но сменихме машината ;)
+[15:39:29] <vhristev> За минимала ти трябва нет
+[15:39:31] <vhristev> сваля си всичко
+[15:39:31] <vhristev> (;
+[15:39:35] <vhristev> тъуйче си ГГ
+[15:39:35] <yulimoto> да
+[15:40:19] <yulimoto> това да ама KrasiGa каза, че имала редхад пък паролата не знаел
+[15:40:22] <yulimoto> това да ама KrasiGa каза, че имала редхад пък паролата не знаела
+[15:40:28] <yulimoto> на нова машина !!!!!
+[15:40:32] <yulimoto> не старата
+[15:40:53] <yulimoto> а за лвм-а е ясно
+[15:40:59] <KrasiGa> е да, ама за минимала като го настроих на НАТ пак не намира мрежа
+[15:41:24] <vhristev> Доста е относително щом имаш домейн проси и т.н.
+[15:41:27] <yulimoto> и аз гледах в настройките на VirtualBox и не можах да намеря прокси мамка му
+[15:41:34] <vhristev> не става просто така с насоки по чата
+[15:41:42] <phalaaxx> мен ми се е налагало да паля LVM от initrd-то през HP iLO... много неприятна история :D
+[15:41:43] <vhristev> Настройките на Виртуал бокса ням ПРОСИ
+[15:41:48] <vhristev> проксито се слага от ОС-а
+[15:41:49] <KrasiGa> иначе при инсталацията на минимала пита за прокси
+[15:41:57] <KrasiGa> вкарах го ама пак не стана
+[15:42:06] <vhristev> в линукса през БАШ  export http_proxy=http://PROXY:PORT
+[15:42:18] <vhristev> ОК ама тогава на НАТ ли беше ?
+[15:42:19] <yulimoto> аха
+[15:42:26] <KrasiGa> е да
+[15:42:27] <yulimoto> ами и така става
+[15:42:34] <KrasiGa> е не стана
+[15:42:59] <KrasiGa> стига до сваляне на нещо си през мирър
+[15:43:11] <KrasiGa> избирах няколко ама всеки път ме връщаше
+[15:43:13] <yulimoto> vhristev е митичен герой нещо като хитър петър само че за линукс, той ще се оправи
+[15:43:21] <KrasiGa> мисля си, че не става заради домейна
+[15:43:53] <vhristev> трябва да го видя ,за да ти помогна
+[15:43:58] <vhristev> team viewer примерно
+[15:44:00] <vhristev>  ама няма да стане сега
+[15:44:10] <vhristev> а и може би не е удачно да го пуснаш до НОИ ( нали там беше )
+[15:44:13] <vhristev> тъйче просто отпада
+[15:44:50] <KrasiGa> не става
+[15:44:54] <KrasiGa> ще се справя
+[15:44:55] <yulimoto> значи при всички положения трябва нов диск; въпроса е тоя диск дали ще е за нова инсталация или за resque на старото
+[15:45:04] <KrasiGa> 10х за помоща
+[15:45:23] <vhristev> рескюто е автоматично помагане
+[15:45:24] <vhristev> тва е
+[15:45:33] <vhristev> иначе през ШЕЛ-а може всичко да напраивш и не ти е нужно РЕСКЮ
+[15:46:40] <yulimoto> това имах предвид, дали ще се прави стария или ще се прави нова инсталация щото KrasiGa вметна нещо за нов инсталл
+[15:47:08] <yulimoto> както и да е
+[15:47:19] <yulimoto> ще чета
+[15:47:23] <yulimoto> после ще бягам
+[15:47:34] <yulimoto> после ще видя матриалите на phalaaxx за днс-а
+[15:49:13] <vhristev> http://picpaste.com/Image_104-hoytkfiM.jpg
+[15:49:15] <vhristev> има ЛВМ
+[15:49:24] <vhristev> има все пак трябва да си го свали и нет и трябва
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:02:46] <KrasiGa> така. Направих си нова машина, сложих в браузъра проксито но сега ми търси юзер и пас за проксито
+[16:02:49] <KrasiGa> а такова вече нямам
+[16:05:01] <vhristev> Smart
+[16:05:23] <vhristev> аз бях правил нещо подобно набивам системно прокси през DHCP-to и задавам кое как да се auth пред него
+[16:05:33] <vhristev>  тоест имаш без пасс имаш и със пасс и така получаваш различни права
+[16:05:37] <vhristev> вече тук немога да ти помогна
+[16:05:49] <vhristev> защото нз нямам допир до системите ви
+[16:07:55] <vhristev> това вече се управлява от Group Policy-то и нямаш мн избор там
+[16:08:22] <KrasiGa> а на уиндоуса с firefox, IE i chrome portable не ми търси. но на chrome i opera ми иска authenticaion
+[16:08:27] _KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[16:08:30] <KrasiGa> na proxito
+[16:08:51] KpeTeHoug (~GT@212.36.13.10) left irc: Quit: The difference between friendship and love is how much you can hurt each other
+[16:08:52] <vhristev> защоо явно е селскнато да ползва системното което е набито през Домейн КОнтролера
+[16:09:04] Nick change: _KpeTeHoug -> KpeTeHoug
+[16:09:09] <vhristev> защото е Сетнато да ползва ...
+[16:09:13] <vhristev> бати изречението написах
+[16:09:23] <KrasiGa> razbrah te
+[16:09:55] <vhristev> съжалявам
+[16:09:55] <vhristev> );
+[16:10:13] Action: KpeTeHoug is away (laterz)
+[16:10:25] <vhristev> линукса може да го добавиш към домейн контролера
+[16:10:34] <vhristev> ама ще ти трябват креденшъли
+[16:12:13] <KrasiGa> kak?
+[16:12:17] Action: KpeTeHoug is away (laterz)
+[16:12:40] <KrasiGa> az sam domain admin taka, 4e
+[16:14:00] KpeTeHoug (~GT@13498.telnet.bg) left irc: Quit: changing servers
+[16:14:21] KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[16:14:37] <KpeTeHoug> сори за спама, опитвам тука едни рабти :
+[16:16:38] KpeTeHoug (~GT@13498.telnet.bg) left #telerikacademy.
+[16:16:38] KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[16:16:38] <vhristev> http://www.youtube.com/watch?v=Y3TFPDT9uic
+[16:17:46] <vhristev> Еми ако си АД админ виж дали набивате прокси през домейна
+[16:18:06] KpeTeHoug (~GT@13498.telnet.bg) left irc: Client Quit
+[16:18:17] <KrasiGa> proxito e configure ot sf
+[16:18:37] <KrasiGa> ina4e 10x za videoto
+[16:19:26] KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[16:19:45] Action: KpeTeHoug is away (laterz)
+[16:21:13] <vhristev> аз съм в софия къде да намина
+[16:21:14] <vhristev> хахаха
+[16:21:20] <vhristev> да им направя забеляжка
+[16:21:25] <vhristev> "Ама може ли такива неща бе колеги"
+[16:21:41] <vhristev> "GOd WHO THE F*CK ARE U"
+[16:21:41] <vhristev> gid
+[16:22:11] <KrasiGa>  бул. "Александър Стамболийски" № 62-64
+[16:22:33] <KrasiGa> намини до 17ч
+[16:22:35] <KrasiGa> :)
+[16:23:48] <vhristev> И после в мола за по кафе
+[16:23:49] <vhristev> хахаха
+[16:28:28] <KrasiGa> не е ли късно за кафе?
+[16:30:58] <vhristev> така е думата аз пия 1 кафе на ден
+[16:31:05] <vhristev> че ставам нервен и юзерите страдат
+[16:31:36] <KrasiGa> къде работиш? разбрахме, че си бил в HP
+[16:31:58] <vhristev> да напуснах ,че мн бюрокрация
+[16:31:59] <vhristev> не е важно
+[16:32:03] <vhristev> тайнствена фирма
+[16:32:04] <vhristev> (;
+[16:32:04] <KrasiGa> ok
+[16:32:07] <KrasiGa> :)
+[16:32:26] <vhristev> МОже да си е кръстиш фирма "Живко" и да си е отглеждаш
+[16:32:26] <vhristev> (
+[16:32:27] <vhristev> ;хаха
+[16:32:32] <vhristev> понякога имам странен хумор
+[16:35:28] <vhristev> дето се вика "Или ще свикнете или няма" хахаха
+[16:36:39] <Deyan> умчо Вълчо причакал Червената Шапчица и я завлякъл в храстите....
+[16:36:41] <Deyan> - Давай!
+[16:36:43] <Deyan> - Ама Кумчо Вълчо, ти си дърт и грозен....!
+[16:36:45] <Deyan> - Айде давай, ма...!
+[16:36:47] <Deyan> - Ама Кумчо Вълчо, много си голем бе, а я такава мъненка!
+[16:36:48] <Deyan> ... - Давай, ще се ядосам, ма...!
+[16:36:50] <Deyan> Червената Шапчица запретнала поличка, смъкнала
+[16:36:52] <Deyan> гащетата и се надупила.....
+[16:36:54] <Deyan> - Ама оооу..... я да не съм те довел тука да сереш ма, давай питката, че умрех от глад...
+[16:37:45] <vhristev> чай и знам един такъв
+[16:38:08] <vhristev> Вълка изкача от храста пред Червената поличка и вика .... Знаеш ли какво ще ти се случи
+[16:38:08] <Deyan> давай го
+[16:38:20] <vhristev> -Шапчицата се усмихнала до уши и казала аааааа какво какво
+[16:38:28] <vhristev> - Въкла: ИСкаш ли да видиш какв ще ти се случи
+[16:38:37] <vhristev> - И тя още по ухилена ми айде де докога ще те чакам
+[16:38:49] <vhristev> - Вълка ама ще е грубо
+[16:38:54] <vhristev> - червената Още по добре давай
+[16:39:15] <vhristev>  И вълка и счупил крака и двете ръце да не може да си носи патериците
+[16:39:28] <Deyan> хахаха
+[16:44:12] <vhristev> егати развързката
+[16:48:38] samy (~samy@79.100.236.213) left irc: Ping timeout: 264 seconds
+[16:49:31] <vhristev> кафето ми привършва скоро трябва да си ходя
+[16:49:31] <vhristev> (;
+[16:50:04] <KrasiGa> do 5 li si?
+[16:50:42] firstman (5e9b7c22@gateway/web/cgi-irc/kiwiirc.com/ip.94.155.124.34) joined #telerikacademy.
+[16:52:40] <KrasiGa> phalaaxx какво ми requestvash?
+[16:52:43] <phalaaxx> bind ftw
+[16:52:50] anton_dutsov (~prof@89.106.112.81) left irc: Ping timeout: 264 seconds
+[16:52:54] <phalaaxx> KrasiGa, хм?
+[16:53:01] <phalaaxx> какво правя?
+[16:53:36] <KrasiGa> eto tova vijdam: [16:49] phalaaxx [~phalaaxx@eris.htu.tuwien.ac.at] requested CTCP VERSION from KrasiGa: [16:49] phalaaxx [~phalaaxx@eris.htu.tuwien.ac.at] requested CTCP TIME from KrasiGa:
+[16:53:49] <vhristev> KrasiGa, попринцип до 6 ама не спазваме супер точно време
+[16:54:00] esrdt (57feb524@gateway/web/freenode/ip.87.254.181.36) joined #telerikacademy.
+[16:54:04] <vhristev> мож еи по рано да си тръгваме никой нищо няма да ти кажа важното е работата да е свършена
+[16:54:04] <vhristev> (;
+[16:54:11] <phalaaxx> бали му мамата, ползвам някакъв jabber-irc транспорт дето прави някакви странни неща
+[16:54:21] <vhristev> Ай сия джабера виновен
+[16:54:24] <vhristev> стига сръчква жената
+[16:54:29] <phalaaxx> понякога седя в чата (според логовете) а не виждам никой вътре :D
+[16:54:33] <vhristev> Бъди мъж признай си
+[16:54:34] <vhristev> хахаха
+[16:55:00] <KrasiGa> :)
+[16:55:04] <phalaaxx> това прилича на request за версията на клиента доколкото мога да предположа
+[16:55:05] <KrasiGa> айде лека вечер от мен
+[16:55:10] <phalaaxx> и локално време
+[16:55:21] <vhristev> Пийз
+[16:55:31] <vhristev> и мойто време се чупи
+[16:55:36] <KrasiGa> мойто  време приключи
+[16:55:37] <vhristev> че БНЦ-то е на майка си в дивия
+[16:55:44] <vhristev> Не е приключило ами сега започва
+[16:55:51] <vhristev> ама зависи как гледаш на нещата
+[16:55:52] <vhristev> (;
+[16:56:01] <KrasiGa> ммм да, точно казано
+[16:56:07] <phalaaxx> БНЦ?
+[16:57:04] firstman (5e9b7c22@gateway/web/cgi-irc/kiwiirc.com/ip.94.155.124.34) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[16:57:07] <vhristev> psyBNC
+[16:57:16] <vhristev> ама ползвам ZNC
+[16:57:22] <phalaaxx> аааа
+[16:57:26] <phalaaxx> стоплих за какво говориш
+[16:57:35] <vhristev> да си седи вътре
+[16:57:38] <vhristev> да си ларжи
+[16:57:38] <vhristev> (;
+[16:58:01] <phalaaxx> е аз не го карам да седи вътре
+[16:58:15] <phalaaxx> ама като се опитам да се логна и ми седи празен прозореца
+[16:58:28] rosenn (~it@94.155.124.34) joined #telerikacademy.
+[16:58:33] <phalaaxx> а в локовете на гризлито гледам че съм влязъл в irc-то :D
+[16:58:39] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:58:48] <phalaaxx> лоГовете
+[16:58:51] <vhristev> настроил ли си го да реджойнва
+[16:58:57] <vhristev> и да има auto chan
+[16:59:14] <phalaaxx> да ама това е настройка за gajim
+[16:59:25] <phalaaxx> а какво прави irc транспорта нямам представа
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:01] <phalaaxx> преди години един човек искаше да ме бие щото правех същото с ICQ, и аз си се разкарвам навън а транспорта си седял логнат и той ми пише и се сърди що не му отговарям :D
+[17:00:48] <rosenn> it is a probe, no need to answer
+[17:01:09] <phalaaxx> в смисъл... аз си излязох най-прилежно от jabber-а обаче транспорта това не го разбрал и си седял логнат с моя ICQ номер
+[17:01:22] <phalaaxx> малко недъгава история е това с транспортите за jabber ама пък е удобно понякога
+[17:02:42] rosenn (~it@94.155.124.34) left #telerikacademy.
+[17:04:33] <vhristev> код все нещо може да се случи
+[17:04:33] <vhristev> (;
+[17:05:00] samy (~samy@91.196.227.180) joined #telerikacademy.
+[17:05:10] <phalaaxx> някак не се наложи идеята да ползваме стаята в jabber и се налага или да се връзвам директно или да ползвам транспорт някакъв :)
+[17:06:02] rosenn_ (5e9b7c22@gateway/web/freenode/ip.94.155.124.34) joined #telerikacademy.
+[17:06:34] <rosenn_> just another probe from web irc
+[17:06:40] <rosenn_> nice
+[17:06:50] <phalaaxx> та, отказах се от идеята да се боря с nsd3 и axfr
+[17:07:04] <phalaaxx> и се върнах на добрия стар bind9 :)
+[17:08:15] rosenn_ (5e9b7c22@gateway/web/freenode/ip.94.155.124.34) left #telerikacademy.
+[17:08:17] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[17:08:27] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[17:08:50] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[17:11:43] phalaaxx (~bozhin@94.26.20.166) left irc: Client Quit
+[17:12:09] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[17:12:24] samy (~samy@91.196.227.180) left irc: Ping timeout: 246 seconds
+[17:18:25] anton_dutsov (~prof@89.106.112.81) joined #telerikacademy.
+[17:20:32] anton_dutsov (~prof@89.106.112.81) left irc: Client Quit
+[17:32:42] <phalaaxx> и нека бъде тишина... :D
+[17:33:52] <vhristev> да аз ще паля за домашната ложа
+[17:33:53] <vhristev> пийз
+[17:41:09] Nick change: nveselinov_ -> nveselinov
+[17:56:11] <dencho-at-work> are hora :) leka ve4er
+[17:56:12] <dencho-at-work> :D
+[17:56:23] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:11:20] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[18:23:15] <episparh> добър вечер
+[18:31:14] <yulimoto> добра да е
+[18:45:20] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:57] ViLKaTa (~villy@87.97.192.85) joined #telerikacademy.
+[19:11:32] Papaki (~papaki@71-13-248-195.dhcp.ftbg.wi.charter.com) joined #telerikacademy.
+[19:13:34] Papaki (~papaki@71-13-248-195.dhcp.ftbg.wi.charter.com) left #telerikacademy.
+[19:19:17] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[19:32:57] Action: dencho slaps ViLKaTa around a bit with a large trout
+[19:55:20] esrdt (57feb524@gateway/web/freenode/ip.87.254.181.36) left irc: Ping timeout: 250 seconds
+[19:55:21] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 270 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:09:27] ViLKaTa (~villy@87.97.192.85) left irc: Quit: Konversation terminated!
+[20:32:39] looser99 (John@78.130.186.99) left irc: Quit: Leaving
+[20:55:41] plamen (~plamen@84.40.92.7) joined #telerikacademy.
+[20:55:57] Nick change: plamen -> plamer
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:04:47] <yulimoto> кой умник е сложил iptraf ?
+[21:05:09] <yulimoto> т.е. това как може да се разследва
+[21:05:12] <yulimoto> мамка му ?
+[21:06:49] <yulimoto> aha разбрах :)
+[21:10:58] <yulimoto> ае има ли някой тук или кудкудякате само през работно време
+[21:11:01] <yulimoto> ае има ли някой тук или кудкудякате само през работно време ?
+[21:13:50] <yulimoto> ясно
+[21:15:53] <episparh> аз имам иптраф , понеже последната версия на ntop  не ми е много приятна
+[21:16:32] <episparh> yulimoto,  но това не значи че разбирам от iptraf :)
+[21:18:02] <episparh> и какво искаш да му разследваш
+[21:18:52] <yulimoto> за ипtrafa разбрах
+[21:19:05] <yulimoto> ама по-скоро
+[21:19:11] <yulimoto> има по-друг проблем
+[21:19:14] <episparh> гледам има куул фиичърс :)
+[21:19:22] <episparh> сподели
+[21:19:43] <yulimoto> ако всички сме sudoers как да разбирам, кой пакет от кой е инсталиран
+[21:20:34] <yulimoto> примерно едно момче днес влезе и сподели, че иска да прави упгрейд на гризлито, ама можело да се омаже, и го помолих да не го прави, защото не си заслужава риска
+[21:21:44] <episparh> хм
+[21:21:47] <yulimoto> та ако някой реши да използва примерно, че е удобно да си качи wireshark и да ми снифи трафика, ще ми интесно да разбера
+[21:22:02] <episparh> нямам идея честно , да dig-вам ли
+[21:22:28] <yulimoto> или примерно да си подкара скриптовете за фишинг, примерно говорим теоретично
+[21:22:42] <yulimoto> които ще препраща към сървърва
+[21:22:45] <episparh> по принцип - w вади последно изпълнените команди от всеки iser
+[21:22:49] <episparh> *user
+[21:22:56] <yulimoto> да това ясно
+[21:23:03] <yulimoto> но не е никак достатъчно
+[21:23:37] <yulimoto> то ако става въпрос last ще изкара повече, ако го сравня с /var/log/yum.log
+[21:23:59] <yulimoto> t.e. кога е инсталиран даден пакет и кой по-това време е бил на сървъра
+[21:24:42] <yulimoto> та интерсно ми е дали може да се разбира, кой се е судоернал и през кой акаунт
+[21:26:16] <yulimoto> а иптрафа е инсталиран на 1 юли с инсталирането на машината и е ясно кой го е инсталирал ;P~
+[21:28:28] <episparh> hm hm
+[21:37:31] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:38:12] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[21:38:49] <episparh> rpm -qi iptraf-ng  дава доста подробно инфо но и не от кого е инсталиран пакета
+[21:40:06] <phalaaxx> инсталиран е от root :)
+[21:42:51] <episparh> как разбра ?
+[21:44:28] <episparh> че сега се ровя в rpm help
+[21:44:56] <phalaaxx> ами просто - само root може да инсталира пакет :D
+[21:45:26] <phalaaxx> дали е инсталиран със sudo rpm ... или някой е станал root - това е друг въпрос
+[21:46:07] <phalaaxx> в първия случай има шанс да разбереш кой е като разгледаш кой е ползвал rpm - в history-тата
+[21:47:24] <episparh> така ли мислиш ?
+[21:48:03] <phalaaxx> sudo grep rpm /home/*/.bash_history
+[21:48:03] <phalaaxx> но да не забравяме какво пише в motd: 1. With great power, comes great responsibility.
+[21:48:03] <phalaaxx> също така: 3. Respect the privacy of others.
+[21:48:14] <episparh> yulimoto,  rpm -qi | grep iptraf-ng  и сравни с  yum history
+[21:50:16] <episparh> phalaaxx, аз примерно нямам нищо инсталирано от root  на моята машина
+[21:50:51] <phalaaxx> всъщност като се търси нещо по-конкретно може малко по-сложен grep:
+[21:51:11] <phalaaxx> sudo grep "rpm.*iptraf" /home/*/.bash_history
+[21:51:18] <episparh> да може но ме мързи :)
+[21:52:07] <episparh> :о
+[21:52:22] <episparh> и това какво ще ти върне ?
+[21:52:35] <episparh> че твърде много ми е прегряла елката за да мисля
+[21:53:30] <phalaaxx> ще прерови .bash_history-тата на всички и ще ти върне редове в които се срещат едновременно rpm и iptraf в тази последователност
+[21:54:38] <phalaaxx> ако не върне нищо - значи който го е инсталирал първо е станал root - или със "sudo su ..." или със "sudo -i"
+[21:54:52] <phalaaxx> или просто си е бил root от самото начало :D
+[21:57:10] <episparh> това не е решение на проблема тъй като всеки sudoer  може да ползва  sudo su
+[21:57:23] <phalaaxx> аз не виждам проблем
+[21:57:40] <phalaaxx> нормално не всички са администратори
+[21:57:46] <phalaaxx> така че наистина няма проблем
+[21:57:52] <episparh> ами ако имаш Н на брой судоера кой е инсталирал пакет N ?
+[21:58:10] <episparh> това беше въпроса
+[21:58:16] <phalaaxx> sudo не се ползва само за su или -i
+[21:58:28] <phalaaxx> можеш да позволиш точно определени команди само
+[21:58:34] <episparh> ок
+[21:58:56] <phalaaxx> и ако нямаш доверие на хората, на които им даваш да ползват sudo - логично е да не им позволяваш да ползват rpm
+[21:59:13] <phalaaxx> леле ама и аз какво казах...
+[21:59:18] <episparh> отговори ми ако всички судоери могат да изпълнят sudo yum ,  кой е инсталирал пакет iptraf-ng \
+[21:59:23] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds
+[21:59:32] <phalaaxx> ако не знаех какво имам предвид щеше да ми е трудно :D
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:21] <phalaaxx> отговорих ти на въпроса:
+[22:00:22] <phalaaxx> sudo grep "rpm.*iptraf" /home/*/.bash_history
+[22:00:28] <phalaaxx> това при няколко условия
+[22:00:52] <episparh> *facepalm*
+[22:01:14] <phalaaxx> инсталирано е със sudo, командата е започнала от първия символ на командния ред и .bash_history не е редактиран/изтрит след това
+[22:01:42] <phalaaxx> това второто условие не съм сигурен дали е от значение за CentOS
+[22:02:12] <episparh> изпълнявам всички изброени условия - твоя инпут не ми връща нищо
+[22:02:28] <phalaaxx> значи който го е инсталирал първо е станал root
+[22:02:38] <phalaaxx> в този случай няма как да разбереш кой го е инсталирал
+[22:02:59] <phalaaxx> както казах - нормално ако нямаш доверие на даден потребител, той няма права да стане root :)
+[22:03:11] <episparh> а yum history казва чисто че сесиите за update, remove и  install са изпълнени само от episparh
+[22:04:00] <episparh>  е ти като дадеш права на N потребители и някой ти наака машината , всички ли ще ги демоутнеш ?
+[22:04:22] <phalaaxx> първо аз не бих дал права на N потребителя
+[22:04:35] <phalaaxx> освен ако не са администратори на машината, демек мои колеги
+[22:04:55] <phalaaxx> това се опитвам да ти кажа :)
+[22:05:19] <phalaaxx> не само че не бих дал права но и така бих не орязал че да не можеш да разбереш колко други потребители има на същия сървър и какви са им имената
+[22:05:20] <episparh> и ако някой от колегите ти е "вълк в овча кожа" ?
+[22:05:58] <phalaaxx> аа чакай сега, колегите ми не са 10 годишни хлапета дето си нямат друга работа
+[22:06:02] <episparh> прекалено много вярваш на хората ;)
+[22:06:03] <yulimoto> phalaaxx: това с баш-хисторито не е много убедително.
+[22:06:24] <yulimoto> 1-во нарушава правата на много хора за да намериш един козел.
+[22:06:35] <yulimoto> 2-ро всеки може да си редактира хисторито
+[22:06:36] <episparh> yulimoto, пробвай моя солщшън на гризли
+[22:07:06] <phalaaxx> yulimoto: разследване на проблеми често няма как да мине без нарушаване на privacy на някого
+[22:07:36] <episparh> +1 на последния ред на phalaaxx
+[22:08:05] <phalaaxx> примерно, като ти нахакат cpanel сървър с 300 акаунта на него и ти горят телефоните заради проблеми - ще се разходиш из данните на хората за да разбереш от кой е дошъл проблема
+[22:08:14] <phalaaxx> това е нещо което реално ми се е случвало
+[22:09:13] <episparh> убу, само дето вярваш на всички sudoers :)
+[22:09:39] <phalaaxx> ако не им вярваш - не са sudoers
+[22:09:55] <episparh> всички са хора
+[22:10:00] <episparh> там е проблема
+[22:10:54] <phalaaxx> така е, затова достъп имат само хората, които не могат да си вършат работата ако нямат достъп :P
+[22:11:28] <episparh> имам чувството че говорим на два различни езика
+[22:11:56] <phalaaxx> добре де, дай конкретен пример
+[22:11:59] <phalaaxx> какво те притеснява?
+[22:12:34] <yulimoto> phalaaxx: разбирам те, но все пак искам да защитя и хората, които теоретично са клиенти
+[22:12:36] <episparh> притеснява ме , че някой sudoer може да омаже нещата по грешка , или да си компроментира акаунта
+[22:13:32] <phalaaxx> yulimoto: ако клиентите ти нямат доверие - намират си друг администратор или друг доставчик, това обикновено става ако не знаят какво се налага да прави админа им понякога :)
+[22:13:34] <yulimoto> episparh: те така хакнаха апаche, които са митични. просто атаката скалира от бъгрепорта
+[22:13:35] <episparh> ако нямаш ефективен начин да разбереш кой ... е лошо и води до рекавъри полиси тип "Хирошима"
+[22:14:25] <phalaaxx> episparh:  имаш предвид не проблем с доверие в хората с които работиш а в допускане на грешка за нещо?
+[22:14:57] <episparh> phalaaxx, аз не претендирам да съм голем админ , просто ти казвам че имаш грешка в разсъжденията , ако не ме разбираш , проблема не е мой
+[22:15:03] <phalaaxx> по въпроса с доверието... ако нямаш доверие на някого за нещо... то е като да отидеш на зъболекар, ако нямаш доверие на зъболекаря си - ще му дадеш ли да ти бърка в устата?
+[22:15:36] <episparh> казвам , че доверието се гради с проверки при нужда
+[22:16:07] <episparh> да на зъболекаря си ще дам , но при първи фейл ще отида при друг
+[22:16:11] <yulimoto> добре phalaaxx кои файлове на една машина би преглеждал редовно, за имаш бегла представа дали не е компрометирана ? ;P
+[22:16:46] <episparh> а ти по скоро ще отидеш с пълна упойка в реномирана зъболекарска клиника , без да знаеш като колабираш кой ще ти рови в устата
+[22:17:19] <yulimoto> да при 300 судоера е безмислено някак и много трудно
+[22:17:20] <phalaaxx> амиии... не е така
+[22:17:20] <phalaaxx> дай ми конкретен пример в който нямаш доверие на колегите си?
+[22:17:20] <episparh> усшех
+[22:17:28] <phalaaxx> знаеш ли как работят в HP например?
+[22:17:34] <phalaaxx> и колко хора работят там?
+[22:17:43] <episparh> yulimoto , даде пример с гризли
+[22:17:44] <yulimoto> ми ти нали там работиш ?
+[22:17:55] <yulimoto> или бъркам
+[22:17:56] <phalaaxx> мислиш ли че там няма злонамерени хора  които да работят?
+[22:18:04] <phalaaxx> как е решен въпроса?
+[22:18:10] <phalaaxx> не, не работя там
+[22:18:16] <yulimoto> ок бъркам
+[22:18:21] <phalaaxx> но знам каква им е организацията
+[22:18:27] <yulimoto> как е решен въпроса ?
+[22:18:38] <phalaaxx> като те вземат 1st level - нямаш пароли за машините
+[22:18:48] <episparh> phalaaxx,  ako HP  разсъждават като теб - жална им майчица
+[22:19:03] <phalaaxx> имаш си някакви процедури по които кликаш на различни неща когато някой клиент се обади с проблем
+[22:19:10] <phalaaxx> за всеки проблем си има процедура
+[22:19:27] <yulimoto> някаква  темплейт история
+[22:19:28] <phalaaxx> ако това което ти е казано да направиш не помага - проблема се дава на 2nd level
+[22:19:45] <yulimoto> ясно; все едно гледам БРазилия
+[22:19:53] <yulimoto> а аз съм болче в машина
+[22:19:54] Action: episparh is out of here 
+[22:20:10] <phalaaxx> episparh: работиш ли някъде?
+[22:20:25] <episparh> не като администратор
+[22:20:46] <phalaaxx> амиии сори че ще ти го кажа ама - личи си :D
+[22:20:59] <phalaaxx> отиди на някое интервю в HP да ти разкажат каква е организацията там
+[22:21:05] <phalaaxx> пък после се заяждай
+[22:21:15] <episparh> не ме интересува организация
+[22:21:39] <episparh> ако при 300 sudoera не знаят кой точно е направил нещо
+[22:21:39] <phalaaxx> както казах - личи си
+[22:21:54] <yulimoto> Е HP не е върха на цивилизацията все пак
+[22:22:03] <phalaaxx> ако имаш 300 sudoer-а значи не ставаш за админ :D
+[22:22:16] <phalaaxx> yulimoto: не е разбира се
+[22:22:27] <episparh> ок , кажи го на Hackman като се появи
+[22:22:29] <phalaaxx> но при толкова персонал това е начина да се знае кой какво прави
+[22:22:58] <yulimoto> 300 судоерс наистина са много много много, това е учебна машина не я давайте за пример за сървър
+[22:23:01] Action: episparh is out of here yet again. Don't summon me!
+[22:23:02] <phalaaxx> episparh: кога hackman е казвал че е давал root права на 300 човека, че не помня?
+[22:23:30] <episparh> когато почна курса
+[22:23:33] <phalaaxx> и да, нека не говорим за гризли
+[22:24:25] <episparh> ами и 10 да са ,  the problem still persist ...
+[22:24:50] <phalaaxx> 10 да са - ако им нямаш доверие - не са sudoers - problem still solved
+[22:25:02] <phalaaxx> ако си купиш хостинг - дават ли ти sudo?
+[22:25:02] <yulimoto> phalaaxx: аз започнах тази дискусия не толкова заради този спор, а за да разбера има ли някаква практика при разследването на проблеми на сървър
+[22:25:34] <phalaaxx> yulimoto: има си разни истории като intrusion detection системи
+[22:25:37] <yulimoto> свързани с такива неща  когато някой е правил някакви нещо си
+[22:25:43] <yulimoto> аха
+[22:26:40] <episparh> ами аз нямам доверие на себе си , та какво остана на още 10 човека :)
+[22:26:57] <vhristev> v HP съпорта е на 3  линии
+[22:27:06] <vhristev> всяка линия има различни права за достъп до машините
+[22:27:08] <phalaaxx> episparh: това е тема за съвсем различен курс :D
+[22:27:12] <vhristev> като влизат в различни групи
+[22:27:25] <vhristev> това нещо цялто се управлява от така нареченият ERM
+[22:27:41] <vhristev> който последно бяха над 25 000 юзера
+[22:27:42] <yulimoto> примерно преди време имах приятел, който усилено се занимваше с компрометиране на машини, та той пишеше там разни бекдори които подменят файлове, големини, таймстампове и т.н. от там си мисля, че е възможно пък админите да проверяват някакви файлов
+[22:28:03] <vhristev> тъйче 300 юзера е мижава работа
+[22:28:08] <phalaaxx> yulimoto: yum search aide
+[22:28:26] <vhristev> и та там хисторито беше на всеки юзер с юзернамейма + дата и час
+[22:28:47] <phalaaxx> vhristev: това все за root ли говорим?
+[22:28:58] <vhristev> ако нещо се случи на някоя машина и те хванат ,че си си изтрил хисторито може да се стигне до уволнение и до търсене на права
+[22:29:00] <vhristev> да за руут
+[22:29:08] <vhristev> там е "nsu" kato SUDO
+[22:29:13] <vhristev> и пак имаш руут права
+[22:29:29] <vhristev> говорим за продукшън
+[22:29:51] <phalaaxx> говорим за sudo su или sudo -i ?
+[22:29:53] <vhristev> човека тук е прав това е машина за обучение не я сравнявайте
+[22:30:00] <vhristev> за РУУТ пълен РУУТ ДОСТЪП
+[22:30:04] <phalaaxx> случая в който някой с нещо в sudoers става root?
+[22:30:22] <vhristev> да кажем ,че така работеше
+[22:30:41] <vhristev> могат да те проследят ако искат
+[22:30:46] <yulimoto> vhristev: nsu Пълен рут ли е ?
+[22:31:27] <yulimoto> vhristev: т.е. някаква орязана версия или си си рут
+[22:33:58] <yulimoto> да де прочетох го ама ...
+[22:34:39] <yulimoto> добре те си имат някаква с-ма за проследяване ?
+[22:35:47] <phalaaxx> сериозно, разкажи ни какво са направили за да сме по-наясно
+[22:35:59] <phalaaxx> и по-конкретно аз, щото явно съм говорил глупости досега :)
+[22:37:32] <yulimoto> vhristev: аре ве мен ?
+[22:38:42] <yulimoto> vhristev: да не си подписал договор, да не издаваш структурата им 10години след като си напуснал ?
+[22:40:39] <episparh> аз само знам че се ползват различни видове host/network  базирани IDS/IPS  no do tam , kakto kazah ne sym admin ;)
+[22:43:24] <episparh> даже днес попаднах на тоя майтап  http://securityreactions.tumblr.com/post/56155416494/trying-to-scan-the-network-with-nmap-when-ids-is
+[22:49:48] <yulimoto> phalaaxx: в C функцията  open(path, mode) file descriptor ли връща ?
+[22:50:20] <samy__> sususuususussusu
+[22:50:39] <samy__> wijdam 3-no
+[22:50:40] <samy__> :x
+[22:51:11] <phalaaxx> yulimoto: да, или -1 при грешка
+[22:53:39] <yulimoto> 10кс
+[22:56:28] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[22:56:49] <KacanuH> Добра вечер
+[22:59:16] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:06:55] <dencho> pred parlamenta e voinaaaa
+[23:07:34] <episparh> мда , умрях да се смея преди малко какъв скайп спам удариха на бTV  в ефир :)
+[23:07:40] <dencho> hahaha da
+[23:08:04] <dencho> da zemat da doidat na lekciata i da vidqt kak hackman prai stream :D
+[23:08:11] <KacanuH> да и аз се смях много колко ги спамваха
+[23:08:14] <episparh> много про - прайм хот линк със скайп
+[23:09:52] <dencho> :D
+[23:10:00] <dencho> bekeve vse pak
+[23:10:15] <episparh> само те да да ...
+[23:10:25] <episparh> само те да са ... *
+[23:15:08] <yulimoto> само за протокола, по принцип има един админ, който е щял да води курса, който стриймва от парламента вечерните протести, има и прожектор с който обикновено пише ОСТАВКА
+[23:15:35] <yulimoto> ъъ следя му блога ама му забравих името точно в момента
+[23:16:36] <yulimoto> та ако са давали някакъв стрийм от протеста ?
+[23:29:51] <dencho> mne, bekeve predava po skype
+[23:29:51] <dencho> :D
+[23:32:00] <yulimoto> бекеве === btv така ли ? не разбирам от тв-та :)
+[23:42:18] hackman (~HackMan@wolf.yuhu.biz) joined #telerikacademy.
+[23:42:42] Nick change: hackman -> Guest66847
+[23:42:44] Guest66847 (~HackMan@wolf.yuhu.biz) left irc: Remote host closed the connection
+[23:44:53] <dencho> da
+[23:44:54] <dencho> :D
+[23:45:41] <dencho> aide leka vi no6t
+[23:45:45] <yulimoto> аре
+[23:45:52] <yulimoto> лека
+[23:50:43] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 240 seconds
+[23:56:39] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 246 seconds
+[00:00:00] --- Wed Jul 24 2013
+[00:00:00] Backing up user file...
+[00:00:01] Backing up channel file...

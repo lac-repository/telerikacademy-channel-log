@@ -1,0 +1,251 @@
+[16:44:16] Seend data restored.
+[16:44:16] main: entering loop
+[16:44:17] net: connect! sock 7
+[16:44:33] Telerik joined #telerikacademy.
+[16:44:43] <hackman> его на и Telerik :)
+[16:45:14] <yulimoto> верно е той
+[16:45:30] <yulimoto> сега оставя и KpeTeHoug да се обади
+[16:45:33] <Vankata> mechkata raboti :)
+[16:49:01] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[16:52:54] staafl_ (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 250 seconds
+[16:53:17] <phalaaxx> debootstrap.noarch : Debian GNU/Linux bootstrapper
+[16:53:33] <phalaaxx> има го на пакет
+[16:54:24] <phalaaxx> така че задачата с chroot-а ще е доста лесена
+[16:56:43] <hackman> phalaaxx, еми действай :) и после направи тема във форума :)
+[16:57:05] <phalaaxx> оо не мога, имам работа в момента :D
+[16:57:08] <phalaaxx> само се разсейвам
+[16:58:36] <phalaaxx> абе къде от работа, къде от мързел... :D по-късно може да си поиграя
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:03:11] stratoss (~stratoss@unaffiliated/stratoss) left irc: Read error: Operation timed out
+[17:03:22] <yulimoto> еее то с debootstrap-а така джът-джът и аре
+[17:03:58] <dencho-at-work> nqkoi ot varna ?
+[17:04:10] <dencho-at-work> moreto? sinite valni?
+[17:04:17] <yulimoto> dencho-at-work: ще спиш на гарата ве мен, не разбра ли
+[17:04:25] <dencho-at-work> nqkoi da hodi na varna v chetvurtak?
+[17:04:38] <dencho-at-work> nqkoi da e na varna v petuk?
+[17:04:38] <yulimoto> и ще си платиш билета
+[17:04:46] <yulimoto> и ще си сам
+[17:04:52] <dencho-at-work> hahaha
+[17:04:53] <dencho-at-work> :D
+[17:05:21] <dencho-at-work> dobre, nqkoi da patuva ot varna kum sofia v subota?
+[17:05:22] <dencho-at-work> :D
+[17:05:50] <yulimoto> на връщане ще си платиш билета също и ще си сам
+[17:07:16] <hackman> dencho имам колега който може би ще се връща в събота или неделя :)
+[17:08:06] <yulimoto> dencho-at-work: изкара късмет пак :)
+[17:08:37] <phalaaxx> yulimoto: ми слагай го с debootstrap и после на теб ще се падне неприятната задача да пишеш тема във форума ;)
+[17:08:46] <dencho-at-work> hackman: ako e v subota 6te e 4udesno, poneje priqtelkata v nedelq e na rabota
+[17:10:10] stratoss (~stratoss@unaffiliated/stratoss) joined #telerikacademy.
+[17:10:54] <yulimoto> phalaaxx: сигурно вече си забелязал, че словото не ми е проблем т.е. не словото, а количествата слово :)
+[17:11:19] <yulimoto> phalaaxx: сега го слагам на една федора тестово
+[17:12:00] <yulimoto> довечерка ще е на grizzly
+[17:12:24] <phalaaxx> тестово?
+[17:12:45] <phalaaxx> че то с това няма какво толкова да оплескаш
+[17:12:51] <phalaaxx> ако се постараеш - може ама...
+[17:13:19] <phalaaxx> в най-лошия случай grizzly ще стане на Debian :D
+[17:13:44] <phalaaxx> шегувам се
+[17:13:45] <phalaaxx> има и по-лош вариант разбира се :)
+[17:15:13] <yulimoto> най-добре помня нещата не като ги уча а като се замесвам в някакви истории. 1 ще го сложа на федората 2. на гризлито. 3 на федората ще пробвам ръчно както си го представям, че трябва да изглежда :)
+[17:15:42] <yulimoto> но си прав
+[17:16:15] <phalaaxx> после може да си сложим schroot/dchroot и да си пускаме разни неща вътре
+[17:16:21] <phalaaxx> примерно bzflag сървър :)
+[17:17:05] <yulimoto> може ама аз преди да се извратя като теб, трябва това да направя :)
+[17:19:00] <phalaaxx> като стана въпрос някой играл ли е bzflag?
+[17:22:35] s0ny123 (~s0ny123@95.111.79.72) left irc: Read error: Operation timed out
+[17:23:34] s0ny123 (~s0ny123@95.111.79.72) joined #telerikacademy.
+[17:31:57] <yulimoto> phalaaxx: какво е това ?
+[17:32:39] <yulimoto> гледам някаква игра има
+[17:32:44] <yulimoto> ама не схващам идеята ти
+[17:38:15] <phalaaxx> да де, игра е :)
+[17:38:20] <phalaaxx> http://sourceforge.net/projects/bzflag/
+[17:38:23] <wilindex> [ BZFlag - Multiplayer 3D Tank Game | Free Graphics software downloads at SourceForge.net ] - sourceforge.net
+[17:40:22] <dencho-at-work> vzeh primer ot yulimoto i dnes sam malko nahalen
+[17:40:22] <dencho-at-work> :D
+[17:40:32] <dencho-at-work> toi mi kaja, 4e trqq da sam nahalen :D
+[17:40:37] <dencho-at-work> kaza*
+[17:42:52] angie_bg1 (~angie@77.236.189.210) joined #telerikacademy.
+[17:42:54] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 260 seconds
+[17:43:35] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[17:43:44] angie_bg (~angie@77.236.189.210) left irc: Ping timeout: 245 seconds
+[17:45:12] <dencho-at-work> are ora! :D be6e mi priqtno da vi 4eta kirilicata :D
+[17:47:00] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:49:51] angie_bg1 (~angie@77.236.189.210) left #telerikacademy.
+[17:52:31] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:20:50] s0ny123 (~s0ny123@95.111.79.72) left irc: Quit: leaving
+[18:28:20] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:13:39] stratoss (~stratoss@unaffiliated/stratoss) left irc: Ping timeout: 260 seconds
+[20:18:11] stratoss (~stratoss@unaffiliated/stratoss) joined #telerikacademy.
+[20:49:23] stratoss (~stratoss@unaffiliated/stratoss) left irc: Ping timeout: 248 seconds
+[20:54:16] stratoss (~stratoss@members.datacentrix.org) joined #telerikacademy.
+[20:54:16] stratoss (~stratoss@members.datacentrix.org) left irc: Changing host
+[20:54:16] stratoss (~stratoss@unaffiliated/stratoss) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:17:45] <yulimoto> тъй у grizzly /chroot/debian
+[21:17:57] <yulimoto> сложил съм само vim
+[21:17:59] <yulimoto> :)
+[21:30:15] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:49:45] <yulimoto> phalaaxx: какво да му слагам на тоя дебиан
+[21:50:07] <yulimoto> пък и то стана за 2 секунди, поне на федората имаше драми
+[21:50:52] <dencho> yulimoto are sq pi6i u foruma
+[21:50:52] <dencho> :D
+[21:51:06] <dencho> po malko ot 600 dumi da ne sam pro4el :D
+[21:52:32] <yulimoto> а бе Мунчоооо що да не пиша, ще се заям и ще сложа един слак, ама там наистина ще го ям, ама поне да се науча, после ще имам матриал за курсова ралта
+[21:53:00] <yulimoto> сега оправям /etc/skel/
+[21:53:34] <yulimoto> понеже промта е един и същ и отпред слагам (debian) ще да не се бъркат хората
+[21:55:44] <yulimoto> светна и dircolors сложих там да има
+[21:59:32] <yulimoto> сега обаче проблема е че с тез 2 команди как се пише пост
+[21:59:47] <yulimoto> dencho: прави си ти :)
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:06:39] <yulimoto> да не се обиди ве :)
+[22:09:41] <yulimoto> ей обиди се, въх ю
+[22:12:57] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[22:13:03] <dencho> ne sam se obidil we :P
+[22:13:08] <dencho> gledam edelvais
+[22:13:28] <yulimoto> ehh тая еделвайс ти взе акъла чакай да я видя
+[22:13:56] <dencho> hahah
+[22:13:58] <dencho> vij q
+[22:14:00] rewind_work (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[22:15:16] <yulimoto> http://chitanka.info/person/georgi-nedelchev
+[22:15:17] <wilindex> [ Георги Неделчев — автор — Моята библиотека ] - chitanka.info
+[22:15:28] <yulimoto> да си четеш
+[22:16:37] <dencho> aghahaha
+[22:16:38] <dencho> :)
+[22:16:56] <dencho> koga 6a pi6e6 tema :D
+[22:18:26] <dencho> are legam, 4e utre 6a staam v 6:00 da pi6a doma6noto
+[22:18:27] <dencho> :D
+[22:18:34] <yulimoto> ся заяшда ли се с мен
+[22:18:40] <yulimoto> кое домашно ?
+[22:18:48] <dencho> mi za kursa we
+[22:19:00] <dencho> kak koe?
+[22:19:03] <yulimoto> ми то нали тая седмица няма
+[22:19:15] <dencho> e az ne sam go predal o6te we
+[22:19:15] <dencho> :D
+[22:19:19] <yulimoto> ааа
+[22:19:22] <dencho> do 20 e srokq
+[22:19:25] <yulimoto> аз ако ти кажа какво предаох
+[22:19:35] <dencho> kakvo predade?
+[22:19:46] <dencho> how to make repo?
+[22:20:16] <yulimoto> едно C файлче дето се казва hackman-please-dont-cut-stream или нещо от сорта и това го сложих в един deb пакет и това е
+[22:20:40] <dencho> haha
+[22:20:40] <dencho> :D
+[22:20:49] <dencho> q ot C ne razbiram :D
+[22:20:50] <yulimoto> ама питах KpeTeHoug  той ми вика че стигало
+[22:21:08] <yulimoto> а ве какво, азз да не разбирам
+[22:21:15] <yulimoto> hello word и тва е
+[22:21:18] <dencho> ti si super user :D
+[22:21:32] <yulimoto> ща изплющя :)
+[22:21:37] <dencho> haha
+[22:21:43] <dencho> ot odavna ne sam te slapval ne misli6 li?
+[22:21:50] <yulimoto> аре че много сме прости
+[22:22:07] <dencho> ari leka no6! :D
+[22:22:15] <dencho> glei za edelvais
+[22:22:16] <dencho> :D
+[22:22:30] <dencho> 4al do nedelq :D
+[22:22:34] <yulimoto> тоя канал колко простотия казах в него, ама ми олекна тия три месеца са ми като все едно да съм дал 6 цифрена сума на психолог
+[22:22:39] <dencho> daje utre nqma da moga da se vesna v telerik :(
+[22:22:44] <yulimoto> еее
+[22:22:50] <yulimoto> на сватба ли брат
+[22:22:52] <yulimoto> кючеци
+[22:22:54] <dencho> na svatba
+[22:22:57] <yulimoto> ще вземате булката
+[22:23:03] <yulimoto> ще бутате врати
+[22:23:05] <dencho> makq... tq 6a e dosta mirna taa svatba we
+[22:23:20] <dencho> mladojeneka 6a e po japanki i teniska adidas
+[22:23:21] <yulimoto> еййй браво
+[22:23:34] <yulimoto> винкел сватба значи
+[22:23:46] <dencho> bulkata predpolagam 6a e s peniuar
+[22:23:46] <yulimoto> ами пожелавам ти да се върнеш здрав и виж
+[22:23:49] <yulimoto> жив
+[22:23:52] <dencho> haha
+[22:23:55] <dencho> e pa.. :D
+[22:24:11] <dencho> q sam KUM :D
+[22:24:15] <dencho> ghahaha
+[22:24:23] <dencho> vijdal li si bel rapar kum?
+[22:24:36] <yulimoto> олеее значи да се бие кума е първо задължение
+[22:24:42] <yulimoto> мани мани
+[22:24:51] <yulimoto> по бел анзуг ли брато
+[22:24:56] <yulimoto> ей сега те разбрах от кои си
+[22:25:14] <dencho> nema we, q 6a sam so riza (nali sam raper) :D
+[22:25:29] <yulimoto> а бе вземи си бел анцуг това е класика
+[22:25:31] <dencho> moe me zburkat s mladojeneka
+[22:25:45] <yulimoto> ше каеш искам анцуг за сватба
+[22:25:47] <dencho> mi kumata s kuv ancuk da e ?
+[22:25:47] <yulimoto> те знаят
+[22:26:03] <yulimoto> аре изчезвам
+[22:26:15] <dencho> e kato stana vupros za kumata i izbega
+[22:26:19] <dencho> are :D
+[22:26:20] <yulimoto> ако някой иска нещо на тоя дебиан да казва
+[22:26:25] <dencho> iskam
+[22:26:34] <yulimoto> ща иплющя
+[22:26:55] <dencho> iskam na debiana da ima ... nginx
+[22:27:39] Action: dencho slaps yulimoto around a bit with a large trout
+[22:46:04] <phalaaxx1> оо има chroot вече :)
+[22:55:06] <phalaaxx1> някой правил ли е нещо подобно на това: https://github.com/terminator14/RAM_booster  ?
+[22:55:08] <wilindex> [ terminator14/RAM_booster · GitHub ] - github.com
+[22:59:18] <hackman> моя рутер работи така с от 2002 или 2004 не помня :)
+[22:59:27] <hackman> само, че не е със squashfs
+[22:59:30] <hackman> не я харесвам :)
+[22:59:45] <hackman> с tmpfs е :) копирам си всичко от USB-то
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:09] <hackman> преди беше с RAM disk :)
+[23:00:56] <phalaaxx1> за рутери ясно ама това твърди че карало убунту да върви по-бързо
+[23:01:07] <phalaaxx1> но нямам желание да го инсталирам за да разбера дали е така наистина
+[23:02:01] <phalaaxx1> последния път като се опитах да го инсталирам (е... върху gpt partition table) изобщо не запали след края на инсталацията и съм му обиден :D
+[23:02:02] <hackman> ако си копираш всичли libs в tmpfs и после bind mount-неш tmpfs-а в /lib също ще получиш speedup
+[23:02:43] <phalaaxx1> да, звучи лесно за пробване :)
+[23:11:13] <phalaaxx1> това ако вземе да ми хареса какъв ефект има виждам как ще си блъскам главата някой ден след ъпдейт или инсталация на нещо
+[23:33:43] <yulimoto> hackman: реално ще си държа /lib библиотеките в рама, така ли ?
+[23:34:07] <hackman> да
+[23:35:38] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[23:35:44] Nick change: ndyakov|away -> ndyakov
+[23:42:41] <yulimoto> tmpfs          tmpfs      100M   75M    26M  75% /tmpfs
+[23:42:41] <yulimoto> tmpfs          tmpfs      100M   75M    26M  75% /lib
+[23:42:48] <yulimoto> :)
+[23:42:50] <ndyakov> ?
+[23:43:14] <yulimoto> за горното ли ?
+[23:43:25] <ndyakov> да , защо lib като tmpfs ?
+[23:43:28] <yulimoto> < hackman> ако си копираш всичли libs в tmpfs и после bind mount-неш tmpfs-а в /lib също ще получиш  speedup
+[23:43:59] <yulimoto> просто играчки
+[23:44:13] <ndyakov> а по време на буут какво правим ?
+[23:45:26] <yulimoto> ами по-време на буут чакаме, вероятно има вариант за който аз не знам де
+[23:45:41] <ndyakov> става въпрос, че нали трябва да заредиш всичко в този tmpfs
+[23:45:45] <ndyakov> не виждам смисъл. лично аз
+[23:45:55] <phalaaxx1> сега ще пробвам да си счупя машината със скрипт дето писах да пробвам :D
+[23:45:59] <yulimoto> < phalaaxx1> някой правил ли е нещо подобно на това: https://github.com/terminator14/RAM_booster  ?
+[23:46:00] <wilindex> [ terminator14/RAM_booster · GitHub ] - github.com
+[23:46:08] <phalaaxx1> ако не се върна до 15 минути - закъсал съм яко :D
+[23:46:21] <yulimoto> phalaaxx1: успех :)
+[23:46:34] <ndyakov> ааа ... guake не ми дава да отворя линка
+[23:46:39] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[23:47:10] <yulimoto> ndyakov: след като бутне е лесно, ще направим един скрипт и ще го бутнем в на runlevela
+[23:47:59] <yulimoto> guake ??
+[23:48:59] <yulimoto> ndyakov: според мен по-големия проблем е ако решим да инсталираме нови библиотеки :)
+[23:49:13] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[23:49:30] <yulimoto> ако не се усетим и забравим ще ги инсталираме у въздуха
+[23:49:31] <phalaaxx1> засега е добре :)
+[23:49:35] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[23:49:37] <yulimoto> ееее много си бърз phalaaxx1
+[23:49:51] <yulimoto> това гитхуба ли пробва
+[23:49:52] <ndyakov> yulimoto: ти така или иначе изсипваш нещата в този tmpfs, просто като инсталираш, после синхронизираш tmpfs-а с хард диска
+[23:50:26] <ndyakov> а това да ти работи от рам... не виждам голям смисъл, тъй като основното е да ти се зареди приложението X или Y , самия OS веднъж като е бутнал е вече в рам :)
+[23:50:54] <ndyakov> yulimoto: терминал емулатор е guake
+[23:51:05] <yulimoto> аха не знаех
+[23:51:17] <ndyakov> но с един /exec xdg-open .... се оправих
+[23:51:24] <yulimoto> как синхронизираш tmpfs с хард диска ?
+[23:52:27] <phalaaxx1> http://pastebin.com/eizbYG6W
+[23:52:29] <wilindex> [ [Bash] /usr/local/bin/tmpfslibs - Pastebin.com ] - pastebin.com
+[23:52:31] <ndyakov> е ще намериш просто някакво приложение за синхронизиране на две директории , ще си пазиш библиотеките в някаква /hddlib , при буут ги зареждаш в tmpfs-а , инсталирането всъщност ще става в tmpfs-а , но след това ще пуснеш да ги sync–не
+[23:52:56] <ndyakov> трябва да си направя alias за отварянето на линкове
+[23:52:59] <ndyakov> ;D
+[00:00:00] --- Thu Sep 19 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

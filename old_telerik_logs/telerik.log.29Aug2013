@@ -1,0 +1,438 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:06:08] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[00:11:48] ViLKaTa (5761c055@gateway/web/freenode/ip.87.97.192.85) left irc: Quit: Page closed
+[00:19:35] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:00:55] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[01:56:30] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:14:10] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[07:47:23] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:28:59] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[08:36:25] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds
+[08:55:46] <KpeTeHoug> добро утро
+[08:56:48] <KpeTeHoug> оф, брб рестарт
+[08:56:52] KpeTeHoug (~GT@212.36.13.10) left irc: Quit: The difference between friendship and love is how much you can hurt each other
+[08:58:12] <KrasiGa> а така, някой днес има рожден ден! Deyan да си жив и здрав! Много късмет и щастие!
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:05:15] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[09:05:21] <KpeTeHoug> хантъй
+[09:06:45] <KrasiGa> Добро утро KpeTeHoug
+[09:10:00] <KpeTeHoug> днес нещо си подаранила, 8 без 15 на работа
+[09:10:06] <KpeTeHoug> от хладното време ще да е
+[09:10:07] <KpeTeHoug> :)
+[09:12:56] <KrasiGa> еее аз съм от 7.30
+[09:13:03] <KrasiGa> но тук влизам по-късно
+[09:14:07] <KrasiGa> та да се похваля :) точно този модел ми доставиха вчера http://shop.bicsport.com/p/114-dura-tec?pp=12
+[09:15:15] <KpeTeHoug> тоя не беше ли най скъпичкия
+[09:15:18] <KpeTeHoug> дето показвах
+[09:15:45] <KpeTeHoug> http://www.bg-kayak.com/542/100/product.html
+[09:15:47] <KrasiGa> не знам, но това е от сайта производител
+[09:16:05] <KrasiGa> аааа да, същия
+[09:16:20] <KpeTeHoug> 1140 лв
+[09:16:34] <KpeTeHoug> тамън за лаптоп
+[09:17:33] <KrasiGa> само и пазар да му намеря
+[09:17:54] <KrasiGa> ама ще се изкефя повече ако го карам
+[09:18:03] <KrasiGa> но е огрооооомен
+[09:18:10] <KrasiGa> и тежък :(
+[09:18:22] <KpeTeHoug> и дарако устойчив
+[09:21:06] <KpeTeHoug> пише най якоите на пазара
+[09:21:08] <KpeTeHoug> ама 20 кг :)
+[09:21:16] <KpeTeHoug> то във водата лесно, там тежи на половина
+[09:21:18] <KpeTeHoug> :)
+[09:21:27] <KpeTeHoug> въпросът е да стигнеш до там
+[09:21:55] <KrasiGa> 18.5 е
+[09:21:59] <KrasiGa> ама същото
+[09:22:02] <KrasiGa> за мен си е доста
+[09:22:42] <KrasiGa> на клипчетата изглежда доста лесно за каране
+[09:30:13] <KpeTeHoug> за каране незнам
+[09:30:19] <KpeTeHoug> аз както съм зле с равновесието  :)
+[09:53:15] informer (~informer@83.228.55.109) joined #telerikacademy.
+[09:59:55] anton_dutsov (~Thunderbi@178.75.237.87) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:44] informer (~informer@83.228.55.109) left irc: Remote host closed the connection
+[10:01:10] lari__ (5f2a1e9c@gateway/web/freenode/ip.95.42.30.156) joined #telerikacademy.
+[10:10:31] anton_dutsov (~Thunderbi@178.75.237.87) left irc: Ping timeout: 245 seconds
+[10:12:54] anton_dutsov (~Thunderbi@89.106.123.96) joined #telerikacademy.
+[10:27:46] <paparazzo> KrasiGa, ще го пробваш ли?
+[10:28:06] <KrasiGa> иска ли питане
+[10:28:20] <KrasiGa> даже реших на едно езеро в Благоевград
+[10:28:38] <KrasiGa> нямам търпение да чакам за море
+[10:30:55] <yulimoto> един съвет вземи си неопрен !
+[10:38:42] <KpeTeHoug> :)
+[10:38:49] <KpeTeHoug> загрижен за доброто на другите
+[10:38:52] <KpeTeHoug> както винаги
+[10:39:56] <paparazzo> особено, както взема да става хладно ...
+[10:43:36] <yulimoto> ех ех не може да не ме бъзикнете ве
+[10:44:14] <KpeTeHoug> кой ? ние ?
+[10:44:36] <KpeTeHoug> няма такова нещо
+[10:44:50] <KpeTeHoug> само подаваме провокативен елемент, с цел сладка радумка
+[10:44:54] <KpeTeHoug> *раздумка
+[10:53:10] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 268 seconds
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:01:01] <KrasiGa> yulimoto: кайтсърф ли караш?
+[11:05:37] <yulimoto> мдааа
+[11:07:36] <KrasiGa> и къде?
+[11:08:42] <yulimoto> на вромос, градина, сарафово
+[11:08:55] <yulimoto> ама на теб ще ти баш далечко
+[11:09:29] <KrasiGa> как върви като цена кайтсърфирането?
+[11:09:39] <yulimoto> уроците ли ?
+[11:09:53] <KrasiGa> оборудването
+[11:10:04] <KrasiGa> под наем
+[11:10:34] <yulimoto> под наем не знам и не си заслужава, по-добре да вземаш уроци и оборудването е без пари
+[11:11:13] <yulimoto> иначе мисля долу-горе 40-50 лв. кайта 20лв дъската; различно е
+[11:13:05] <yulimoto> ако ги купуваш на старо цената много варира от 300-1000  за кайт с бар  от 100-500 за дъската, един трапец е към 80-160лв неопрен нов е към 150-300 зимния, летния 50-200
+[11:14:06] <KrasiGa> а уроците как вървят?
+[11:14:12] <yulimoto> 40-80
+[11:14:22] <KrasiGa> за астрономически час ли?
+[11:14:30] <yulimoto> препоръчвам ти Къри Бс
+[11:14:32] <yulimoto> ще ти кажа
+[11:14:44] <yulimoto> значи има различни начини да те скубят
+[11:15:09] Ivaka (~opera@46.238.49.41) joined #telerikacademy.
+[11:15:16] Ivaka (~opera@46.238.49.41) left #telerikacademy.
+[11:15:57] <yulimoto> примерно на Градина ако отидеш вземат 40 лв, но те мотат ;днес няма вятър ; днес е много силен вятъра и т.н. даваш си парите напразно и те броят като турист ; няма да се научиш общо взето
+[11:16:10] <yulimoto> или ще се научиш до някъде
+[11:17:31] <yulimoto> аз бях там по миналата година и мъжа на сестра ми тогава се учеше ; с Калин Врачански вземаха уроци на едно само ги мотаха и двамата и ходеха да карат уейк та да мине времето
+[11:17:53] <yulimoto> 40лв ги даваш на час
+[11:18:19] <yulimoto> един път може да е за 40мин друг път за 90 минути или 120
+[11:18:28] <yulimoto> както му е кеф на даскала
+[11:18:51] <yulimoto> друг вариант, който ти препоръчвам
+[11:19:06] <yulimoto> Къри от Бургас - 80 лв
+[11:19:21] <yulimoto> при него даваш 80 кинта общо взето за цял ден
+[11:19:32] <yulimoto> или докато можеш да издържиш
+[11:20:08] <yulimoto> ако няма вятър ще правите теория на плажа, секюрити техники и т.н.
+[11:20:53] anton_dutsov (~Thunderbi@89.106.123.96) left irc: Quit: anton_dutsov
+[11:20:53] anton_dutsov1 (~Thunderbi@89.106.123.96) joined #telerikacademy.
+[11:20:54] <yulimoto> ако има вятър ще ти комбинира уроците защото няма възможност да си във водата цял ден
+[11:20:56] <KrasiGa> ти колко урока си минал?
+[11:21:06] <yulimoto> аз не съм вземал уроци
+[11:21:10] <yulimoto> учех се сам
+[11:21:15] <yulimoto> и от приятели
+[11:21:23] <yulimoto> това е третия вариант
+[11:21:51] <yulimoto> но в момента нямам оборудване, просто моето остаря и не съм купувал ново
+[11:21:58] <KrasiGa> оборудване от къде“?
+[11:22:04] <KrasiGa> ааа имал си
+[11:22:18] <yulimoto> ем да
+[11:22:19] <KrasiGa> е колко да остарее?
+[11:22:28] <KrasiGa> нали не се е счупило или скъсало
+[11:22:29] <yulimoto> в началото ползваш на приятели
+[11:22:48] <yulimoto> дъска не съм чупил, кайт обаче съм късал
+[11:23:11] <yulimoto> когато кайто го напече слънцето, плата се износва тогава може да се скъса
+[11:23:17] <yulimoto> ако го усетиш вземаш мерки
+[11:23:36] <yulimoto> презерватива в кайта, който се помпи с помпата също се пука
+[11:23:51] <yulimoto> ако вземаш на старо трябва много да внимаваш
+[11:24:11] <KrasiGa> и ти си купувал такова нещо?
+[11:25:05] <yulimoto> ако вземаш нов - сега септември-октомври всяка година има изложение в софия, там отиваш и се пазариш; не купувай на твърда цена, ако купуваш на куп
+[11:25:33] <KrasiGa> KpeTeHoug:  знаеш ли защо лекцията за мрежи е на 3 части?
+[11:25:36] <KrasiGa> мога вече да ти кажа
+[11:25:49] <yulimoto> хахах щото sitecom паднал
+[11:26:01] <yulimoto> и хакман имал работа човекът
+[11:26:29] <KrasiGa> ами да беше казал оня ден като питах
+[11:26:30] <yulimoto> ако си се насочила към водните спортове купи си неопрен и за всеки спорт ще ти върши работа
+[11:26:37] <yulimoto> ееее сега
+[11:26:47] <yulimoto> той чака да си видиш лекцията и ще разбереш
+[11:27:02] <yulimoto> работи дето са налекция няма да се повтарят
+[11:27:27] <KrasiGa> кой чака и какво повтаряне, нещо не те разбрах
+[11:27:59] <yulimoto> ами ти си видяла на лекцията какво е станало, ако не беше гледала видеото нямаше да разбереш
+[11:28:02] <KrasiGa> а за неупрена, доколкото разбирам твоя го пенсионираш. Може да ми услужиш
+[11:28:08] <KrasiGa> :)
+[11:28:26] <yulimoto> хаха не аз нямам неопрен а те са на размери
+[11:28:43] <yulimoto> виж за стар кайт може да ти дам ама бела ще ти направя
+[11:29:15] <KrasiGa> е как така нямаш неупрен? През цялото време съвети даваш а пък ...
+[11:29:15] <yulimoto> ти пък, аз само неопрен нямам и ти точно неопрен поиска
+[11:29:41] <yulimoto> да давам щото съм ял големия студ и като разбрах че ще ходиш на езеро настръхнах
+[11:30:44] <KrasiGa> еййй колко си загрижен
+[11:31:16] <yulimoto> амм аз честно ти казвам, че ако е езеро ще ядеш бахър, яко е някой язовир селски ще е по-добре
+[11:31:47] <KrasiGa> това е изкуствено езеро
+[11:32:01] <KrasiGa> като деца даже сме се къпали в него, сега е жабунясало
+[11:32:11] <yulimoto> аха
+[11:32:17] <yulimoto> значи по-добре
+[11:32:20] <KrasiGa> има и язовир наблизо, но ми се струва, че ще е по-студено там
+[11:32:41] <yulimoto> да внимавай щото стават случки
+[11:34:39] <KrasiGa> аз се надявам да остана суха
+[11:34:49] <yulimoto> но като се замисля кайт в благоевград малко ти е далечко, май гърция ще трябва да посещаваш
+[11:34:52] <yulimoto> хахаха
+[11:34:54] <yulimoto> не се надявай моля те
+[11:35:00] <yulimoto> блонди !!!
+[11:35:12] <yulimoto> няма такъв вариант
+[11:35:26] <yulimoto> т.е. има но ако си на брега
+[11:35:38] <yulimoto> аре за сега
+[11:35:49] <KrasiGa> аз съм спортист човек и голям оптимист
+[11:36:09] <KrasiGa> така, че вярвам, че има голяма вероятност да остана суха
+[11:36:16] <KrasiGa> даже го вярвам
+[11:36:45] <KrasiGa> тази дъска е огромна, повярвай ми
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:47:14] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[12:51:59] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Client Quit
+[12:57:17] <Deyan> KrasiGa: Много благодаря че си се сетила за мен
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:05:39] <KrasiGa> моля моля :) хубав ден и да почерпиш хората около теб
+[13:22:10] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[13:34:27] informer (~informer@83.228.55.109) joined #telerikacademy.
+[13:34:34] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds
+[13:39:24] rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[13:41:16] <rewind> добър дан (по црногорски)
+[13:42:53] <KpeTeHoug> добър да е :0
+[13:45:11] <KrasiGa> днес ще има ли виртуална лекция? до къде стигнахте с подготовката?
+[13:48:34] <KpeTeHoug> мисля има дигната даже
+[13:48:38] <KpeTeHoug> имаше нещо из форума
+[13:50:31] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[13:54:24] <dencho-at-work> 6to ne si 4urulikate we!
+[13:56:53] rewind__ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[13:58:27] rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:12:21] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[14:14:17] <lari__> http://lms.xkbit.info/
+[14:29:11] ba4o (4e6cf8cc@gateway/web/freenode/ip.78.108.248.204) joined #telerikacademy.
+[14:29:27] ba4o (4e6cf8cc@gateway/web/freenode/ip.78.108.248.204) left irc: Client Quit
+[14:46:42] <rewind__> KrasiGa: Извинявай, но се развърза няколко пъти домашния ми рутер и съответно чак сега видях в логовете въпроса ти
+[14:47:51] <rewind__> KrasiGa: вероятно ще съм вкъщи довечера и ще тестваме, но в двете теми във форума
+[14:48:03] <rewind__> KrasiGa: 1- за виртуалната лекция от миналата седмица и 2- за lms.xkbit.info няма никаква активност, което ме навежда на мисълта, че
+[14:48:25] <rewind__> KrasiGa: вероятно само ще си разцъкаме из openmeetings, без да има "виртуална лекция"
+[14:50:38] <rewind__> тъкмо проверих  - с мен и lari_ сме точно 6 регистрирани :D
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:01:41] <KpeTeHoug> аз имам желание, но извън работно време, ми е малко зор да съм в някакъв вид дискусия/конференция/лекция
+[15:01:42] <KpeTeHoug> :)
+[15:02:02] <yulimoto> rewind__: според мен тези уеб приложения са добри, но трябва да има конкретен проблем, притеснение и нужда хората да почнат да влизат. Предполагам след ваканцията а и с наближаване на изпита хората ще видят по-голяма нужда
+[15:02:24] <KpeTeHoug> да, ще ги натисне голямата нужда
+[15:02:27] <KpeTeHoug> както се казва
+[15:02:37] <KpeTeHoug> защото аз примерно имам проверени поне по 3 домашни по лекциите
+[15:02:45] <KpeTeHoug> само по  мрежи още не съм
+[15:02:50] <KpeTeHoug> а имам всичко на всичко 2 коментара
+[15:02:59] <KpeTeHoug> защото другите не отделят време да проверяват
+[15:03:08] <KpeTeHoug> гелдат вечер да пият 7 бити
+[15:03:11] <KpeTeHoug> *бири
+[15:03:17] Action: KpeTeHoug гледа yulimoto
+[15:03:20] <KpeTeHoug> и тн :)
+[15:03:33] <yulimoto> мда, аз дори си мислех, че може неделя вечер да се организира упражнение. Това което хакман е проподал в четвъртък да се упражнява в неделя вечерта в конкерентните стаи
+[15:04:08] <KpeTeHoug> о_0
+[15:04:09] <yulimoto> мда ве разпуснах малко, ама веке не мога се оправям главата ми мътилка
+[15:04:15] <KpeTeHoug> 0_о
+[15:04:18] <yulimoto> пък и съм диета сега с бягане
+[15:04:25] <yulimoto> и тия бири
+[15:04:26] <yulimoto> лошо
+[15:04:30] <KpeTeHoug> лошо да
+[15:04:48] <yulimoto> лошо брате се живее у жегите да ти е жиота крив
+[15:05:39] <yulimoto> даже сега у 16 ще ходя за риба. По-рано от KrasiGa ще си тръгна
+[15:06:12] <KpeTeHoug> абе да
+[15:06:46] <KpeTeHoug> ти пак имаш диета и бягаме
+[15:06:56] <KpeTeHoug> *бягане
+[15:07:24] <yulimoto> ам да щото става лошо инаке немоем си завържи обувките
+[15:07:59] <yulimoto> пък и нали немаше ралта зимата и се бях гипсирал и ме изби на ядене
+[15:08:39] <yulimoto> хаха сега знаеш ли за какво си мисля
+[15:09:16] <KrasiGa> rewind__:  и аз имам желание да се включа но извън работно време ми е почти невъзможно
+[15:09:22] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[15:09:26] <KrasiGa> а пък в работата не ми се отваря това чудо
+[15:09:39] <yulimoto> KpeTeHoug: знаеш ли как се пише скрипт по английска точност ?
+[15:11:20] <KpeTeHoug> ТЦ
+[15:11:25] <KpeTeHoug> *тц
+[15:12:14] <KpeTeHoug> даже незнам какво е английска точност
+[15:12:18] <KpeTeHoug> но явно в това е уловката
+[15:14:32] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[15:14:35] <yulimoto> mda
+[15:14:41] <rewind__> KpeTeHoug: аз имам точно един коментар и съм почти сигурен, че е от hackman
+[15:15:36] <yulimoto> т.е. това е баш от който да разбереш какво е английска точност
+[15:15:55] <yulimoto> ами качаш се на grizzly както си ти сега и пишеш следното:
+[15:16:50] <yulimoto>  grep  '.*KrasiGa .*Quit: Page closed' /home/gt/eggdrop/logs/telerik.log.*
+[15:17:18] <yulimoto> и така разбираш що е то английската точност
+[15:17:20] <rewind__> KrasiGa: скоро ще го мигрирам на съседната машина и ще си поиграя за да сработи в режим с reverse proxy и да си работи на стандртен порт 443
+[15:17:32] <rewind__> и ще можеш да го отваряш и там където си в момента предполагам
+[15:18:03] <KpeTeHoug> хахах yulimoto :)
+[15:18:18] <KpeTeHoug> аз съм правил на KrasiGa един коментар
+[15:18:23] <KpeTeHoug> веднага я излових че е тя
+[15:18:24] <KpeTeHoug> :)
+[15:18:47] <KrasiGa> rewind__:  чакам да го направиш :)
+[15:19:22] <KrasiGa> yulimoto: спри да ми завиждаш за работното време
+[15:19:28] <KpeTeHoug> а аз си мислех че германците са точни ?
+[15:19:32] <rewind__> KrasiGa: довечера със сигурност ще се занимая
+[15:19:45] <KpeTeHoug> нали си чувал думата пунктоалност
+[15:20:06] <KpeTeHoug> идва от немското puenktlich
+[15:20:11] <KpeTeHoug> демек точен :)
+[15:20:19] <yulimoto> точен та точен
+[15:20:48] <KrasiGa> такава съм си аз :) точна във всяко едно отножение
+[15:20:59] <KrasiGa> *отношение
+[15:21:17] <KpeTeHoug> това е лоша черта в България :)
+[15:21:28] <KpeTeHoug> щото си точно където не трябва :)
+[15:21:33] <KrasiGa> хахахаах
+[15:21:45] <KrasiGa> ааа не, аз не се оплаквам
+[15:22:06] <KrasiGa> мисля, че съм точно където трябва .... като изключим този чат
+[15:22:16] <KrasiGa> за него се съмнявам дали ми е мястото тук :)
+[15:22:46] <rewind__> yulimoto: демек при мен ще трябва да е grr 'grep  '.*KrasiGa .*Quit: Page closed' /home/gt/eggdrop/logs/telerik.log.*'
+[15:23:15] <KpeTeHoug> аа че къде да ходиш иначе
+[15:23:18] <KpeTeHoug> я си стой тука
+[15:23:44] <yulimoto> rewind__: то може още мн да се оправи ама и така ме разбераха :)
+[15:24:16] <yulimoto> KrasiGa: що бре да не се обиди нещо
+[15:24:45] <yulimoto> KrasiGa: еми нямам неопрен сега какво да направя !!
+[15:25:08] <KrasiGa> :) не съм
+[15:25:28] <KrasiGa> ама ми трябва още доста да уча за линукс
+[15:25:42] <yulimoto> ам ние не трябва ли ?
+[15:25:43] <KrasiGa> нали все пак този чат е за това
+[15:25:51] <KrasiGa> а вие сте доста напреднали спрямо мен
+[15:25:59] <yulimoto> ами питай каквото може ще ти помагаме
+[15:26:03] <yulimoto> ама ти не питаш
+[15:26:27] <KrasiGa> и ще получа отговор като !ogledalce например
+[15:26:28] hackman (~hackman@87-126-35-115.btc-net.bg) joined #telerikacademy.
+[15:26:38] <yulimoto> що ?
+[15:26:40] Action: KpeTeHoug slaps hackman around with a cream filled donut...... smack ... smack ... smack .. :)
+[15:26:49] <KrasiGa> добре, че KpeTeHoug  се отзовава винаги
+[15:26:56] <yulimoto> няма да получиш като огледалце
+[15:27:12] <yulimoto> спокойно само питай
+[15:27:38] <KrasiGa> :) добре
+[15:28:02] <yulimoto> :) това не значи че ще можем да ти отговорим,но можем да опитаме
+[15:29:07] <KrasiGa> ще можете, аз лесни въпроси задавам. Като например коя е комбинацията за copy /paste разбарх, че е shift+ins/
+[15:29:14] <KpeTeHoug> не сме напреднали, аз благодарение на лекциите мога да пипна линукс, без да го гелдам като голям камък
+[15:29:32] <KpeTeHoug> просто имам по голям практически опит, както и yulimoto
+[15:29:38] <KpeTeHoug> за другите не мога да говоря
+[15:29:48] <KpeTeHoug> ма не значи че акто сме правили нещо, сме го разбирали на 100 %
+[15:29:52] <KpeTeHoug> то затва е и курса
+[15:32:44] <KrasiGa> айде отговорете ми за копирането де
+[15:34:00] <KpeTeHoug> кпиране къде
+[15:34:21] <KrasiGa> [15:28] <KrasiGa> ще можете, аз лесни въпроси задавам. Като например коя е комбинацията за copy /paste разбарх, че е shift+ins/
+[15:34:45] <KpeTeHoug> да, във уиндовс, линукс- vim, nono, pico i тн други редактори
+[15:35:00] <KrasiGa> в командния ред
+[15:35:05] <KpeTeHoug> в линукс само маркирането с мишка, ти го вкарва в буфер
+[15:35:10] <KpeTeHoug> няма нужда от нищо повече
+[15:35:24] <KpeTeHoug> просто го маркираш
+[15:35:33] <KrasiGa> ееее супер
+[15:35:38] <KrasiGa> тествах го
+[15:36:41] <KrasiGa> KpeTeHoug:  винаги ти помагаш, yulimoto  пак се покри на въпросите ми ;)
+[15:36:56] <KpeTeHoug> той сега пише код
+[15:37:00] <KpeTeHoug> не е хубаво да се разсейва
+[15:44:29] <yulimoto> 1 moment
+[15:47:19] <yulimoto> значи в конзолата (cli) МАЙ не може да се копира освен с мишката, но има програмки с които можеш да вкарваш нещо в клипборда ; пастваш - shift+ins ;
+[15:48:12] <yulimoto> друг начин който ползвам аз е да маркирам с мишката и Ctrl+Shift+C за копи и Ctrl+Shift+V за пейст
+[15:48:41] <yulimoto> ето една лекция която слушаш сутринта за копи-пейст, но става въпрос изобщо за линукс, и касае общо темата
+[15:48:45] <yulimoto> https://va.ludost.net/files/burgasconf/2013/09.Lightning/09.Linux%20clipboard%20management%20-%20%d0%91%d0%be%d1%80%d0%b8%d1%81%20%d0%9f%d0%b5%d1%82%d1%80%d0%be%d0%b2.mp4
+[15:49:38] <KrasiGa> не се отваря, но KpeTeHoug  ми даде кратък, точен и полезен отговор - така, че благодаря
+[15:49:59] <KrasiGa> на лесен въпрос давай лесни отговори
+[15:50:55] <yulimoto> ам аз съм остоятелствен човек и обичам точните работи
+[15:50:59] <yulimoto> :)
+[15:51:14] <yulimoto> но ....
+[15:51:19] <yulimoto> дами и г-да
+[15:51:37] <yulimoto> риболовното дело ме зове!
+[15:51:50] <KpeTeHoug> сгъвай такъмите
+[15:51:52] <yulimoto> отивам да дам своя дълг към природата
+[15:51:53] <KpeTeHoug> и заминувай
+[15:53:14] <KrasiGa> айде приятно
+[15:53:41] <KrasiGa> а за точните неща вече говорихме
+[15:56:09] <KpeTeHoug> освен това, аз паствам само с десен бутон
+[15:56:14] <KpeTeHoug> :) в конзола
+[15:56:45] <KrasiGa> как с десен бутон
+[15:56:52] <KpeTeHoug> ми с десен бутон на мишката
+[15:56:53] <KpeTeHoug> :)
+[15:57:31] <KrasiGa> ама идеята е да не пипам мишка
+[15:57:41] <KrasiGa> всъщност то няма как да копирам без мишка
+[15:57:44] <KpeTeHoug> :)
+[15:57:50] <KrasiGa> еееее не ме устройва
+[15:58:56] <KpeTeHoug> ами то зависи и какво искаш да копираш
+[15:59:05] <KpeTeHoug> ако е в някой текстов едитор
+[15:59:13] <KpeTeHoug> си има команди за този едитор
+[15:59:50] <KpeTeHoug> пък и дори и конзолата си има съпорт за мишка
+[15:59:50] <KpeTeHoug> така че не виждам къде е проблема
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:12:40] <dencho-at-work> posle mi kajete 4e ne ste flooderi
+[16:12:55] <KpeTeHoug> не сме !
+[16:13:20] <dencho-at-work> vie kak si trackvate vremeto tam :D
+[16:13:30] <dencho-at-work> pi6ete 3:00 flood #telerikacademy
+[16:14:47] <KpeTeHoug> for clock=15:00 pm, do flood #telerikacademy
+[16:20:28] anton_dutsov1 (~Thunderbi@89.106.123.96) left irc: Quit: anton_dutsov1
+[16:29:48] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:53:24] plomba (577e4b28@gateway/web/freenode/ip.87.126.75.40) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:08:51] informer (~informer@83.228.55.109) left irc: Remote host closed the connection
+[17:10:05] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[17:18:01] _NEKTAR_ (~nektar@176.12.19.179) left irc: Read error: Operation timed out
+[17:50:50] <dencho-at-work> fiuuuuuuuu
+[17:50:51] <dencho-at-work> :D
+[17:50:56] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:06:47] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[18:12:06] rewind__ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Quit: Page closed
+[18:12:21] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[18:28:21] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:59:23] Action: dencho slaps hackman around a bit with a large trout
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:11:03] bldrchd (4d460a38@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.10.56) joined #telerikacademy.
+[19:27:23] <yulimoto> dencho: ти като влезеш, ако не пишем що не пишете, като пишем - флудъри. Аре утре няма да говоря да си спокоен ;)
+[19:27:45] Action: yulimoto slaps dencho 
+[19:27:45] Action: dencho slaps yulimoto around a bit with a large lame trout !!!
+[19:30:31] <dencho> utre petuk, den na maistora we, prikazvai za pili 4ukove i trioni
+[19:31:07] <dencho> 4ai da vidim kvo stava po jobs-a
+[19:33:21] <dencho> ebaaaaaaaaaaaaaaaaaaaaaasi
+[19:33:22] <dencho> Необходими документи - автобиография на български език, задължително придружена с актуална снимка в размер поне 300 x 300 пиксела,
+[19:33:27] <dencho> 300 x 300
+[19:33:35] <dencho> tiq zybite li iskat da mi vidat?
+[19:33:43] <dencho> Кандидатите ЗАДЪЛЖИТЕЛНО да НЕ са студенти, тъй като работата е целодневна (пълен работен ден).
+[19:33:50] <dencho> IMA I ZADO4NICI WE :d
+[19:33:51] <dencho> :D
+[19:34:25] <dencho> E TVA E!!!!!!!!!!!!!
+[19:34:26] <dencho> http://www.jobs.bg/f1935761
+[19:34:58] <dencho> tiq ako si namerat 4ovek, 6te gi pomolq da me zapoznaqt s nego
+[19:34:59] <dencho> :D
+[19:36:01] <dencho> programist+dizainer+marketing+sys admin+da si gotin = 2000 v bulgaria
+[19:36:02] <dencho> :D
+[19:53:32] <bldrchd> 3 specialnosti .. tolko pari : D
+[19:55:35] <dencho> sq 6e im pusna edin cv.txt i vutre 6te napi6a - ВИЕ ОЛИГОФРЕНИ ЛИ СТЕ БЕ?
+[19:57:37] <rewind_> мда, интересна компания - http://www.bgrabotodatel.com/company.php?id_firm=10101
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:04:59] <dencho> i na 5 momi4eta sam dovolen
+[20:04:59] <dencho> :p
+[20:12:59] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Quit: Page closed
+[20:13:25] rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[20:45:14] informer (~informer@95.111.9.121) joined #telerikacademy.
+[20:47:51] informer (~informer@95.111.9.121) left irc: Client Quit
+[20:48:09] informer (~informer@95.111.9.121) joined #telerikacademy.
+[20:48:24] plomba (577e4b28@gateway/web/freenode/ip.87.126.75.40) left irc: Ping timeout: 250 seconds
+[20:54:47] informer (~informer@95.111.9.121) left irc: Quit: Flying
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:21:01] <dencho> yulimoto
+[21:21:06] <dencho> tuka li si motoo
+[21:23:39] <yulimoto> да ве ко напираш
+[21:24:24] Action: yulimoto kick dencho's ass 
+[21:24:33] Action: yulimoto kicks dencho's ass 
+[21:24:56] <rewind> не с  лошо... :)
+[21:26:34] Action: yulimoto caress dencho's head 
+[21:41:08] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[21:46:01] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 276 seconds
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:29:07] bldrchd (4d460a38@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.10.56) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[22:43:08] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:15:04] fityla (~AndChat20@37.157.179.200) joined #telerikacademy.
+[23:17:00] informer (~informer@78.90.229.234) joined #telerikacademy.
+[23:32:40] fityla (~AndChat20@37.157.179.200) left irc: Quit: Bye
+[23:33:10] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[23:47:23] informer (~informer@78.90.229.234) left irc: Remote host closed the connection
+[00:00:00] --- Fri Aug 30 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

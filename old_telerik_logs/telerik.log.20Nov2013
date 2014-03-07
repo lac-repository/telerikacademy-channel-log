@@ -1,0 +1,314 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:04:51] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:12:23] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[00:34:06] ndyakov|away (~ndyakov@client-38-76.speedy-net.bg) joined #telerikacademy.
+[00:34:12] Nick change: ndyakov|away -> ndyakov
+[00:41:35] _rewind (~teo@46.238.29.142) left irc: Ping timeout: 245 seconds
+[00:50:37] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:20:21] bgpepi (~bgpepi@ip-80-236-203-189.dsl.scarlet.be) left irc: Remote host closed the connection
+[01:29:42] <hackman> .tell hanasd md5sum - 93447f0da891cc386e4e6fede30c5731
+[01:29:42] <wilindex> hackman: I'll pass that on when hanasd is around.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:16:34] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:47:43] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[08:56:08] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:17:49] <Deyan> Добро утро
+[09:18:38] <KpeTeHoug> Добро и от мен
+[09:19:19] <Deyan> баси, не ви ли е срам да изпишете толкова, аз сега как да го изчета всичкото
+[09:20:21] <KpeTeHoug> ем
+[09:20:24] <KpeTeHoug> аз снощи четах
+[09:21:12] <Deyan> ще си искам от шефката нов монитор да си сложа 2 на единият да чета какво пишете а на другия да си върша работата
+[09:32:40] KpeTeH0ug (~GT@212.36.13.10) joined #telerikacademy.
+[09:32:58] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 245 seconds
+[09:42:52] Ivaka (~opera@85.196.188.53) left irc: Quit: Ivaka
+[09:44:07] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) joined #telerikacademy.
+[09:48:36] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[09:48:36] <KpeTeH0ug> то това не е лоша идея
+[09:48:54] <KpeTeH0ug> аз сега ми паднаха едни монитори за брак евентиално
+[09:48:59] <KpeTeH0ug> ма гледам нищо им няма
+[09:49:03] <KpeTeH0ug> и мисля да си правя терминал
+[09:49:13] <KpeTeH0ug> един екстендет десктоп
+[09:49:18] <KpeTeH0ug> и един за тестовата машина
+[09:49:24] <KpeTeH0ug> плюс лаптопа
+[09:49:32] <KpeTeH0ug> и ще замязам на летище София :)
+[09:49:38] Nick change: KpeTeH0ug -> KpeTeHoug
+[09:50:29] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[09:50:46] <topalov> ми аз бях с два - 24" 1920х1080 + 17" 1280х1024 (уж само за терминал) и чат пат с лаптопа идвах (1920х1200) и станах разноглед
+[09:51:19] <topalov> разкарах ги двата и си взех един 20" 1600х1200 и съм ужастно доволен :)
+[09:53:28] <KpeTeHoug> ако следиш и трите е гадно
+[09:53:46] <KpeTeHoug> аз единия ще го ползвам само за тестовата среда, която така или иначе имам през ssh
+[09:53:52] <KpeTeHoug> т.е я ползвам я не :)
+[09:54:08] Action: KpeTeHoug rolls a wagon wheel over to phalaaxx here ya go eat up & enjoy :)
+[09:54:20] <topalov> е да, но пак ти свети отстрани
+[09:54:26] <topalov> което е натоварващо
+[09:54:49] <topalov> според мен е въпрос на добра организация
+[09:59:46] <phalaaxx> yummy :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:01:34] <topalov> phalaaxx: баница с боза ? :)
+[10:04:28] <KpeTeHoug> стига че ми се дояде :)
+[10:04:31] <KpeTeHoug> хем съм закусвал
+[10:22:05] KrasiGa (569284f6@gateway/web/freenode/ip.86.146.132.246) joined #telerikacademy.
+[10:27:30] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[10:29:47] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[10:35:09] hackman (~hackman@wolf.yuhu.biz) left irc: Read error: Operation timed out
+[10:39:58] Agripina (~AndChat50@host86-146-132-246.range86-146.btcentralplus.com) left irc: Ping timeout: 240 seconds
+[10:54:43] <KrasiGa> Deyan: kakvo stana s podaraka za Marian?
+[10:54:51] <KrasiGa> Haresa li go
+[10:55:06] <KrasiGa> kajete be horaaa
+[10:55:48] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:03:57] <Fairytale> Какъв подарък? Подкуп за изпита?
+[11:04:31] <KrasiGa> :) eee ne, no ne e udobno sega da se govori za tova
+[11:04:49] <Fairytale> Със сигурност го е харесал :-)
+[11:06:19] <KrasiGa> ti vidia li go?
+[11:08:04] <yulimoto> KrasiGa: от цялата работа излезе, че някой имат нужда да си отворят tldp.org и да поучат още малко bash ;)
+[11:09:52] <KrasiGa> ne razbira yulimoto
+[11:12:28] <KpeTeHoug> yulimoto иска да каже че hackman нещо спореше дали е верен bash скрипта който бяхме приложили
+[11:12:31] <KpeTeHoug> към подаръка
+[11:12:41] <KpeTeHoug> и понеже yulimoto го е писал :) те така
+[11:12:55] <KpeTeHoug> Иначе мисля му хареса, той да си каже
+[11:13:01] <KpeTeHoug> щала да е във сървърното
+[11:13:12] <KrasiGa> :)
+[11:13:41] <KrasiGa> kakav beshe scripta
+[11:14:15] <yulimoto> пишеше "echo KrasiGa голичка"
+[11:14:33] <yulimoto> и после имаше ascii art kartinka
+[11:14:36] <yulimoto> :P
+[11:15:51] <yulimoto> KpeTeHoug: оправи ли са точките на тестовете т.е. просто са сменили 100 на 80
+[11:15:52] <KrasiGa> ami da mi bqhte kazali da vi pratq naked pic
+[11:16:07] <KrasiGa> yulimoto:  ti kolko ia6
+[11:16:11] <KrasiGa> ima6
+[11:16:23] <yulimoto> KrasiGa: да беше казала
+[11:16:42] <yulimoto> 38 или 37 все не мога го запомня
+[11:16:44] <yulimoto> :)
+[11:17:00] <KrasiGa> maleeeee mnogo  ste se izlojili
+[11:17:35] <yulimoto> еми много да ...
+[11:17:50] <Fairytale> Emi nie nqmame snimchici goli
+[11:19:01] <KrasiGa> KpeTeHoug: ti kolko ima6?
+[11:19:14] <KrasiGa> by the way kade sa poblikuvani rezutatite?
+[11:19:26] <yulimoto> той имаше повече
+[11:19:43] <yulimoto> ама не знам дали беше .5 1.5 или 11.5 точки от мен
+[11:20:21] <Fairytale> Az imah 11 i ne razbrah zasto stanaha 10
+[11:20:48] <KrasiGa> e to vse taq
+[11:20:51] <KpeTeHoug> ам ме н ми пише 49 /80
+[11:21:08] <KpeTeHoug> yulimoto ти трябва повече да имаш бе
+[11:21:13] <Fairytale> E cqla tochka, iskam si q :-)
+[11:21:23] <KpeTeHoug> мен ми каза 38.5 първо
+[11:21:25] <yulimoto> толко бе нали ти казах :)
+[11:21:39] <KrasiGa> nad kolko trqbva da ima6 za sertificat
+[11:21:44] <KpeTeHoug> но се оказа че скрипта не е могъл да провери както трябва Boot
+[11:21:47] <KpeTeHoug> трябва да имаш повече
+[11:21:50] <KpeTeHoug> не се прей
+[11:21:50] <yulimoto> ми на мен колкото ми пишеше на листа толкова виждам и в системата :)
+[11:23:01] <KrasiGa> KpeTeHoug: kakvo 6te kaje6 za lekciite po OS? Az izslu6ah parvata ama mnogo sku4na ne6to
+[11:23:09] <KpeTeHoug> ми на средата съм
+[11:23:12] <KrasiGa> po WIn de
+[11:23:15] <KpeTeHoug> нищо интересно засега
+[11:23:30] <KrasiGa> mmmdaaa
+[11:23:32] <hackman> KpeTeHoug, ще ви я снимам утре и ще ви дам снимка
+[11:23:43] <hackman> сложил съм я на една от машините във сървърното в офиса
+[11:23:43] <Fairytale> Na men WIN ne mi e interesen
+[11:24:01] <KrasiGa> za sega i na men ne mi e :(
+[11:24:09] <KpeTeHoug> hackman супер, добре че вградих key-logger в нея :)
+[11:24:54] <KrasiGa> hackman: v koi hotel 6te ste vv Blgrd?
+[11:25:16] <hackman> KrasiGa, за конференцията или къде ще спа ?
+[11:25:21] <KpeTeHoug> :)
+[11:25:36] <KrasiGa> confa nali 6te e v AUBG?
+[11:25:42] <KrasiGa> za spaneto pita
+[11:25:44] <Fairytale> Interesen vapros
+[11:26:54] <topalov> кога и каква конференция ще има в aubg? Че можеби този weekend ще съм там ?
+[11:27:21] <KrasiGa> sledva6tia weekend 6te e
+[11:27:25] <KrasiGa> na 30ti
+[11:27:39] <topalov> а темата ?
+[11:28:28] <KrasiGa> razli4ni sa
+[11:28:35] <KrasiGa> 6te ima 5-6 lektori
+[11:28:51] <KrasiGa> ne6to kato mini openfest
+[11:29:20] <topalov> ясно мерси :)
+[11:29:44] <topalov> hackman: не разбрахме къде ще спиш :))
+[11:34:03] <hackman> KrasiGa, в Кардинал съм си запазил стая
+[11:34:13] <hackman> topalov, искаш да споделим леглото ли ?
+[11:36:23] <KpeTeHoug> атмосферата се нажежи :)
+[11:36:31] <KpeTeHoug> .weather Veliko Tarnovo
+[11:36:31] <wilindex> Yahoo! Weather - Veliko Turnovo, BG: Partly Cloudy, 7°C (44°F), 29in (982mb), Light air 3kt (↑)
+[11:36:41] <KpeTeHoug> тц, тука е само 7 градуса
+[11:36:42] <KpeTeHoug> ;)
+[11:37:04] <KpeTeHoug> KrasiGa ти кое домашно мислиш да правиш по WinOS ?
+[11:38:28] <KrasiGa> za4etoh se za razlikata mejdu GPT and MBR
+[11:39:19] <KrasiGa> ama koeto i da e - lesno e
+[11:40:19] <KrasiGa> vie ne se li organizirate kato grupa hackman
+[11:40:35] <KrasiGa> taka nqma li da pou4ite po-dobra cena
+[11:41:01] <hackman> KrasiGa, много сложно става като група :)
+[11:41:03] <KpeTeHoug> KrasiGa и аз това мислех, ма утре ще е :)
+[11:41:44] <Fairytale> http://www.youtube.com/watch?v=kNDA2EaoYHo
+[11:41:44] <wilindex> [YouTube] Title: Neverending Champagne Bottle Prank | Uploader: Just For Laughs Gags | Uploaded: 19/11/2013, 12:00 | Duration: 1mins 39secs | Views: 45,234 | Comments: 133 | Likes: 1,952 | Dislikes: 71
+[11:42:48] <KrasiGa> KpeTeHoug: az 4ak drugata sedmiza 6te go pravq
+[11:43:34] <KrasiGa> hackman: sled confa re6ihte li kade 6te pravite party?
+[11:43:51] <KrasiGa> a zapazia mesta v Piano bara ako iskate
+[11:45:28] <hackman> KrasiGa, пиши в листата... каквото има в листата, това е решено
+[11:45:31] <hackman> нищо не знам :)
+[11:46:24] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[11:53:34] lyubenblagoev (~lyubenbla@46.10.82.190) joined #telerikacademy.
+[11:57:09] <Fairytale> Hackman: В Slackware имам проблем с вентиталорите PCто бучи все едно ще излита. Мисля че е от вентилатора на видеото. Има ли смисъл да пробвам proprietary NVidia drivers, че като гледам как се инсталират, ще падне голяма борба?
+[11:59:50] <hackman> Fairytale, аз съм с Noveau драйверите и нямам грижи
+[11:59:53] <hackman> а съм на лаптоп
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:02] <hackman> сигурен ли си, че не е проблем с ACPI-то ти ?
+[12:05:08] <Fairytale> ами не съм, Пробвах да добавя някакви параметри в boot loader, но нямаше промяна, ако въобще не съм направил някаква глупост.
+[12:09:10] KrasiGa (569284f6@gateway/web/freenode/ip.86.146.132.246) left irc: Quit: Page closed
+[12:13:13] <hackman> да не си си спрял acpi-то :)
+[12:20:10] <yulimoto> hackman: тва blueproximity верно бачка, ама се чудя ако взема да имитирам mac адреса на телефона от друг телефон какво ще стане :)
+[12:20:56] <hackman> по-лесно ще ти е с laptop от колкото с телефон
+[12:21:08] <hackman> не съм виждал телефон който да позволява да се променя MAC адреса на BT
+[12:21:23] <hackman> но за сметка на това във софтуера на linux може
+[12:21:48] <yulimoto> :)
+[12:48:41] <Fairytale> hackman: acpi_osi=linux това писах в LILO
+[12:54:32] nikiman (d47aa522@gateway/web/freenode/ip.212.122.165.34) joined #telerikacademy.
+[12:55:37] nikiman (d47aa522@gateway/web/freenode/ip.212.122.165.34) left irc: Client Quit
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:39:43] <Fairytale> Някой фен на Pod prikritie"?
+[13:39:57] <Fairytale> https://www.youtube.com/watch?v=a9jCmEGsE_4#t=117
+[13:39:57] <wilindex> [YouTube] Title: Българ: Под прикритие | Uploader: Nedelcho Bogdanov | Uploaded: 18/11/2013, 22:04 | Duration: 2mins 42secs | Views: 11,373 | Comments: 31 | Likes: 399 | Dislikes: 6
+[13:49:58] dyrgel (~dyrgel@92.247.8.98) joined #telerikacademy.
+[13:50:24] <dyrgel> Еха, още има хора тук :)
+[13:53:19] Fairytale (Fairytale@77.70.117.169) left irc: Quit: Leaving
+[13:57:23] anton_sh (5277511e@gateway/web/freenode/ip.82.119.81.30) left irc: Quit: Page closed
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:23:06] <Deyan> dyrgel: ама тук си се върти разгорещена кореспонденция
+[14:30:48] <Deyan> http://www.dnes.bg/technology/2013/11/20/novoto-oryjie-na-microsoft-sreshtu-hakerite.206802
+[14:30:49] <wilindex> [ Новото оръжие на Microsoft срещу хакерите | Dnes.bg Новини ] - www.dnes.bg
+[14:31:06] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[14:32:07] <Deyan> Познайте довечера кой ще си форматира c:, малко ще е екшън миграцията ама ще го преживея
+[14:32:39] <yulimoto> чадо ще минаваш под дъгата ли ?
+[14:36:39] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Quit: anton_dutsov
+[14:36:59] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[14:42:05] <Deyan> аз съм минал отдавна, ама вече никоя кочина няма да има вин
+[14:43:40] <dyrgel> Аз зарибявам жената с убунту ама се дърпа още
+[14:44:08] <dyrgel> иначе и аз съм заел да прочиствам домашния environment
+[14:46:01] <anton_dutsov> http://onlyhdwallpapers.com/wallpaper/love_computers_text_geek_programming_desktop_1600x1200_hd-wallpaper-1250683.jpg
+[14:46:02] <wilindex> [ HD Wallpapers ] - onlyhdwallpapers.com
+[14:46:10] <topalov> при мен не остана време да я зарибявам.. казах и от днес компютъра изглежда по този начин. Това е firefox-a, това е ktorrent-a за торентите и така :) от 3 години сме M$ free :)
+[14:46:35] <anton_dutsov> topalov:  късметлия :)
+[14:48:28] <topalov> май май така ще дойде. След това последва същата процедура и при наще. Трудно им беше първата седмица само. От тогава само се логвам да пусна некой ъпдейт :)
+[14:52:18] <anton_dutsov> някакви идеи за настолния компютър, че е старичък и ми събира прах ?
+[14:53:23] <anton_dutsov> 2.8 до 3.6 се клоква без проблем, едно ядро
+[14:53:27] <anton_dutsov> 2гб рам
+[14:53:36] <anton_dutsov> 250гб диск
+[14:53:57] <anton_dutsov> една лан карта на дъното. Втора да си търся ли?
+[14:55:05] <anton_dutsov> 450вт захранване  с кутията т.е. нищо useful :)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:10:10] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Quit: anton_dutsov
+[15:18:41] lyubenblagoev (~lyubenbla@46.10.82.190) left irc: Read error: Connection reset by peer
+[15:22:06] lyubenblagoev (~lyubenbla@46.10.87.175) joined #telerikacademy.
+[15:24:37] lyubenblagoev__ (~lyubenbla@46.10.87.175) joined #telerikacademy.
+[15:28:06] lyubenblagoev (~lyubenbla@46.10.87.175) left irc: Ping timeout: 272 seconds
+[15:33:49] Nick change: lyubenblagoev__ -> lyubenblagoev
+[15:34:18] lyubenblagoev (~lyubenbla@46.10.87.175) left irc: Quit: Leaving
+[15:46:39] _rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[15:48:37] dyrgel1 (~dyrgel@92.247.8.98) joined #telerikacademy.
+[15:50:04] dyrgel (~dyrgel@92.247.8.98) left irc: Ping timeout: 245 seconds
+[15:53:28] dyrgel (~dyrgel@92.247.8.98) joined #telerikacademy.
+[15:55:51] dyrgel1 (~dyrgel@92.247.8.98) left irc: Ping timeout: 246 seconds
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:11] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[16:02:47] <hackman> днес е много тихо тук бе...
+[16:04:42] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Remote host closed the connection
+[16:13:55] <topalov> мии кАжи некой виц от сорта - 100% от хората дошли на изпита го взеха :)
+[16:14:11] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[16:26:00] <hackman> те едвам 60% от хората които можеха да дойдат на изпит дойдоха :)
+[16:26:05] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Quit: anton_dutsov
+[16:26:41] anton_dutsov (~Thunderbi@89.106.121.229) joined #telerikacademy.
+[16:33:28] <_rewind> http://www.dnes.bg/blogini/2013/09/30/bylgarskite-mi-kvartiranti-i-delata-im-v-angliia.201084
+[16:33:29] <wilindex> [ Българските ми квартиранти и делата им в Англия | БЛОГИНИ Dnes.bg ] - www.dnes.bg
+[16:34:23] <_rewind> anton_dutsov, от чисто любопитство, какъв е процесора (и модела на чипсета)?
+[16:41:49] <anton_dutsov> _rewind: Intel Celeron D 3x6 i915
+[16:41:49] <anton_dutsov> x=2/3
+[16:55:55] dyrgel (~dyrgel@92.247.8.98) left #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:06:38] <_rewind> това си е добре преминало период от 5 години предполагам :)
+[17:06:59] <_rewind> в смисъл от дата на закупуване
+[17:12:24] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[17:32:14] <_rewind> anton_dutsov, а какво мислиш да му ъпгрейднеш?
+[17:46:50] ddmitov (~knoppix@193.19.172.176) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:02:21] bgpepi (~bgpepi@ip-80-236-253-3.dsl.scarlet.be) joined #telerikacademy.
+[18:19:38] hackman (~hackman@management.1h.com) left irc: Ping timeout: 272 seconds
+[18:20:34] fityla (~fityla@62.44.101.70) joined #telerikacademy.
+[18:33:50] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[18:42:58] Nikiman (~Nikiman@91.191.219.153) joined #telerikacademy.
+[18:49:46] fityla (~fityla@62.44.101.70) left irc: Quit: Leaving
+[18:55:30] rewind_mobile (~yaaic@85.118.193.188) joined #telerikacademy.
+[18:55:47] Fairytale (Fairytale@77.70.117.169) joined #telerikacademy.
+[18:59:29] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:05:29] <ddmitov> hackman: И аз благодаря, че grizzly продължава да работи, както и за целия курс, ориентиран практически и към реални проблеми! Въпросите ми са три: 1. Докога ще работи grizzly? 2. Можем ли да споделяме законно свалена документация (наръчници, книги) чрез grizzly? (Apache 
+[19:19:20] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[19:36:23] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[19:38:28] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[19:38:44] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:43:48] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[19:43:56] rewind_mobile (~yaaic@85.118.193.188) left irc: Ping timeout: 246 seconds
+[19:52:13] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[19:54:41] rewind_mobile (~yaaic@85.118.193.169) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:22:48] ddmitov (~knoppix@193.19.172.176) left #telerikacademy.
+[20:35:49] rewind_mobile (~yaaic@85.118.193.169) left irc: Ping timeout: 272 seconds
+[20:48:31] rewind_mobile (~yaaic@85.118.193.164) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:01:06] <anton_dutsov> _rewind: общо взето не виждам какво има смисъл да се ъпгрейдва
+[21:01:06] <anton_dutsov> в смисъл, че всичко е за смяна, а да му закача захранване или нов диск за по стотина лева
+[21:01:06] <anton_dutsov> по-добре да купя нещо на старо, но и това дали си струва не съм сигурен?
+[21:01:06] <anton_dutsov> Иначе ме блазни да си закача в стаята нещо на Dell с размер 1/2U  :)
+[21:01:06] <anton_dutsov> най-малко изглежда добре
+[21:07:55] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[21:35:57] ddmitov (~knoppix@87.120.214.102) joined #telerikacademy.
+[21:38:27] <hackman> ddmitov, 1. до като има машина на която да run-ва
+[21:38:57] <hackman> ddmitov, 2. може :) то от вас си зависи... на мен ми е все едно... аз ще сложа disclamer във MOTD-то :)
+[21:40:10] <ddmitov> hackman: Благодаря! Мога да им посоча източниците на книгите.
+[21:43:27] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) left irc: Ping timeout: 245 seconds
+[21:51:07] Fairytale (Fairytale@77.70.117.169) left irc: Quit: Leaving
+[21:52:56] Nick change: ndyakov -> ndyakov|away
+[21:54:27] Nick change: ndyakov|away -> ndyakov
+[21:59:25] rewind_mobile (~yaaic@85.118.193.164) left irc: Ping timeout: 272 seconds
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:25:15] anton_dutsov (~Thunderbi@89.106.121.229) left irc: Quit: anton_dutsov
+[22:28:00] rewind_mobile (~yaaic@85.118.193.179) joined #telerikacademy.
+[22:32:59] rewind_mobile (~yaaic@85.118.193.179) left irc: Ping timeout: 272 seconds
+[22:35:52] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[22:51:45] rewind_mobile (~yaaic@85.118.193.182) joined #telerikacademy.
+[22:54:13] Nikiman (~Nikiman@91.191.219.153) left irc: 
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:57:13] rewind_mobile (~yaaic@85.118.193.182) left irc: Ping timeout: 272 seconds
+[00:00:00] --- Thu Nov 21 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

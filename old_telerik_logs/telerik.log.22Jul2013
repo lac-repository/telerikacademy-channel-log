@@ -1,0 +1,767 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:03:36] Deyan (~Deyan@46.249.92.240) left irc: Ping timeout: 264 seconds
+[00:59:29] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:12:30] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 240 seconds
+[01:14:01] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:15:34] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[01:57:58] Fairytale (1000@police.executie.org) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:03:43] Fairytale (1000@police.executie.org) left irc: Remote host closed the connection
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:05:21] milev (~martin@212.117.33.170) left irc: Remote host closed the connection
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:14:43] rootstar (0@78.90.53.106) got netsplit.
+[07:25:00] rootstar (0@78.90.53.106) got lost in the net-split.
+[07:42:51] samy (~samy@84.238.184.98) left irc: Ping timeout: 245 seconds
+[07:45:33] rootstar (0@78.90.53.106) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:37:22] samy (~samy@77-85-14-50.btc-net.bg) joined #telerikacademy.
+[08:52:13] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:11:46] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:34:47] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 248 seconds
+[09:39:05] <KpeTeH|week> гутен морген
+[09:48:36] <KacanuH> Now all of you have root access via sudo.
+[09:48:53] <KacanuH> Дръж се гризли идваме :)
+[09:58:30] <KpeTeH|week> нема а трошите ей
+[09:58:32] <KpeTeH|week> хаймани
+[09:58:33] <KpeTeH|week> :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:08:28] <vhristev> kuten akt
+[10:09:57] <KpeTeH|week> това нещо като полов акт ?:)
+[10:10:53] <KacanuH> важното е актове да има, ако ще и те да са от КАТ
+[10:11:02] <KpeTeH|week> а не мерси
+[10:11:15] <KpeTeH|week> оф, чеки аз съм още с отдихарският ник :0
+[10:11:28] Nick change: KpeTeH|week -> KpeTeHoug
+[10:30:25] <KacanuH> yulimoto: нещо е срамежлив днес, никакъв не се обажда
+[10:31:29] <KpeTeHoug> или работлив
+[10:31:55] <KpeTeHoug> аа, бил е на конзолата в гризли преди 6 сек :)
+[10:35:31] <KacanuH> знам и аз там го проверявах какви ги върши :)
+[10:42:37] sshh (~Svetlozar@89-215-55-40.2073686880.ddns-lan.pl.ekk.bg) joined #telerikacademy.
+[10:43:46] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[10:45:27] <yulimoto> хаха не просто тука върша някакви неща и по-рядко поглеждам
+[10:46:04] <yulimoto> KacanuH: твоята приятелка KrasiGa е тук, нали все нея търсиш ;)
+[10:46:40] <KrasiGa> еййй коко милп
+[10:46:47] <KrasiGa> колко мило
+[10:48:52] <yulimoto> KrasiGa: той много се притенява.. такъв си е мил, скромен, благороден и все на работа.
+[10:49:18] <KrasiGa> ами има и такива хора :)
+[10:49:55] <KrasiGa> с какво мога да помогна?
+[10:50:42] <yulimoto> KrasiGa: ами не знам, трябва да вземеш инизиативата !
+[10:50:55] <yulimoto> инициативата*
+[10:51:15] <yulimoto> покани го на вечеря :P~
+[10:51:17] <KpeTeHoug> KrasiGa той за мен говореше yulimoto
+[10:51:26] <KpeTeHoug> :p
+[10:51:46] <KrasiGa> така и предположих ама ...
+[10:52:00] <KpeTeHoug> хахахаха
+[10:53:37] <yulimoto> да те и двамата са срамежливи, скромни и много набожни !!!
+[10:54:04] <KpeTeHoug> а(д)мин
+[10:54:05] <KpeTeHoug> :)
+[10:54:19] <KpeTeHoug> аз малко съм атеист
+[10:55:28] sshh (~Svetlozar@89-215-55-40.2073686880.ddns-lan.pl.ekk.bg) left irc: Quit: Leaving
+[10:55:38] <KpeTeHoug> кой е палаувал събота и неделя
+[10:55:39] <KpeTeHoug> :)
+[10:55:55] <vhristev> Пак ме наспами тоя бот
+[10:55:55] <vhristev> хаха
+[10:57:22] <KpeTeHoug> а моля моля
+[10:57:31] <KpeTeHoug> телерикчко само стои записва
+[10:57:33] <KpeTeHoug> в тефтерите
+[10:57:58] <vhristev> записва той само да не му свърши тефтера и да даде фира
+[10:57:58] <vhristev> хахаха
+[10:57:59] <vhristev> (;
+[10:58:04] <KpeTeHoug> хахах
+[10:58:06] <KpeTeHoug> ми
+[10:58:08] <KpeTeHoug> sudo su
+[10:58:14] <vhristev> абе къде се качват тия домашни
+[10:58:25] <vhristev> че се внедрих в бизнеса миналата седмица
+[10:58:36] <KpeTeHoug> имаш ли регистрация за курса
+[10:58:37] <KpeTeHoug> ?
+[10:58:42] <vhristev> и защото изпуснах срока май не виждам " КАчи домашна"
+[10:58:52] <vhristev> Не имам обикновенна телерик регистрация
+[10:58:55] <vhristev> курса вече беше почнал
+[10:59:00] <yulimoto> vhristev: трябва да се запишеш поне онлайн
+[10:59:10] <yulimoto> за курса
+[10:59:12] <KpeTeHoug> да, ако не ти дава дори онлайн
+[10:59:13] <vhristev> Мариян ми каза в гит хъб-а и ,че те поселе ги качвали в системата
+[10:59:21] <vhristev> Мен точни не ме интересуват
+[10:59:30] <vhristev> правя го за занимаването и знанията
+[10:59:58] <yulimoto> vhristev: тогава не можеш да качваш домашни, но мошеш да си ги сваляш и правиш, за упражнение
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:37] <vhristev> Ми Мариян ми каза да ги качват в Гитхъба ама аз такова нещо немога да намеря
+[11:00:43] <vhristev> явно не го виждам като не съм записан на курса
+[11:00:46] <yulimoto> https://github.com/hackman/linux-sysadmin-course
+[11:01:16] <vhristev> да аз съм прегледал всичко ама така и не намерих къде да ги качвам
+[11:01:19] <vhristev> иначе това го имам
+[11:01:20] <yulimoto> това гитхъба сваляш си домашните или направо си правиш clone
+[11:01:41] <yulimoto> ами не той ги качва в гитхъба
+[11:02:00] <vhristev> ок чух ,че някой оценява и т.н. къде мога да видя аз на другите хора домашните
+[11:02:20] <yulimoto> ние ги виждаме избираме си домашна, после всеки си качва домашната в системата на курса, за която трябва да си се записал на курса поне онлайн
+[11:02:22] <KrasiGa> щом не си записан онлайн за курса не можеш
+[11:02:36] <KpeTeHoug> има обаче тема
+[11:02:37] <KrasiGa> и ако не си предавала домашни също не можеш
+[11:02:38] <KpeTeHoug> в форумите
+[11:02:43] <KpeTeHoug> с шернати домашни
+[11:02:47] <KpeTeHoug> ако искаш виж там
+[11:02:56] <vhristev> Еми явно във форума ще ги качвам
+[11:03:10] <vhristev> Да има нещо някъде иначе само да ги правя никой да не ги вижда
+[11:03:16] <vhristev> стимула е по малък
+[11:03:20] <vhristev> а и друго е някой де те нахрани
+[11:03:24] <yulimoto> да във форума има някакви споделени, отделно някои си ги шерват по github
+[11:03:26] <vhristev> трябва да грешим за да се учим
+[11:03:46] <vhristev> да да аз просто мислех ,че има сексция с всички домашни и просто там си слагаш и твойта
+[11:03:53] <yulimoto> ц
+[11:04:26] <vhristev> Курец еми ще се търкалям във форума
+[11:04:52] <vhristev> аз писах на телерик те казаха ,че ако някой се откаже ще обявят място ама ме съмнява ,че ги следят толкова изкъсо
+[11:04:56] <yulimoto> правиш си гит собствен, това е просто някакъв стимул от телерик за споделяне на знания, примерно направи си блог шервай в гитгъб
+[11:05:01] <KrasiGa> ta kato govorim za doma6ni da pitam i az
+[11:05:18] <vhristev> и все пак какво значи ОТкаже ако не дойде 3 пъти и т.н. ако няма такива неща как ще разберат кога някой се е отказал ако НИКОЙ не им го е написал лично
+[11:05:46] <KrasiGa> следващите 2 седмици ще отсъствам и няма да има нет, няма да мога да предавам донашни
+[11:06:02] <yulimoto> присъствената форма има някакви чек истории, правят си баркод и се чекват на място
+[11:06:06] <KrasiGa> означава, че няма да мога да проверявам и пратя по-късно, нали?
+[11:06:16] <vhristev> Този чек е за точки
+[11:06:26] <vhristev> аз изпуснах началото тъйче точките не ме касаят
+[11:06:30] <yulimoto> KrasiGa: Да
+[11:06:31] <vhristev> нито ще се боря за сертификата
+[11:06:39] <KrasiGa> гадно
+[11:06:54] <KrasiGa> желаещ да предаде 2 домашни за мен?
+[11:06:57] <KrasiGa> :)
+[11:06:57] <yulimoto> KrasiGa: но можеш примерно да направиш домашни предварително
+[11:07:06] <KrasiGa> е няма ги качени
+[11:07:15] <yulimoto> 4-тата я има
+[11:07:19] <vhristev> Ами не е оферта друг да предава домашни от теб
+[11:07:21] <vhristev> не ,че неможем
+[11:07:29] <vhristev> мисля ,че не е проблем да ги предадеш по късно
+[11:07:35] <KrasiGa> в системата не телерик още няма разрешение за качване
+[11:08:02] <vhristev> yulimoto, ти към телерик ли работиш
+[11:08:05] <KrasiGa> Vhristev: проблем е
+[11:08:20] <vhristev> Аха еми да ти кажа аз не съм ти най сигурният източник на информация
+[11:08:32] <vhristev> особено за неща които и за мен са проблем
+[11:09:06] <yulimoto> vhristev: просто чета упътването
+[11:09:22] <vhristev> Гот ит
+[11:09:22] <yulimoto> KrasiGa: за шел скриптин има ъплоуд
+[11:09:51] <yulimoto> хайде за сега :)
+[11:10:32] <yulimoto> KrasiGa: а дааа разбрах те. то нямало домашно
+[11:10:38] <yulimoto> KrasiGa: sorry
+[11:41:26] <KrasiGa> за шела да. ще пратя
+[11:41:37] <KrasiGa> мен ме притесняват следващите 2 седмици
+[11:42:39] <KrasiGa> аааа то е за processess and shell
+[11:50:55] <vhristev> аз дебна дали ще пуснат курс за BAsh , perl , python
+[11:50:58] <vhristev> ruby
+[11:51:00] <vhristev> и т.н.
+[11:53:10] <yulimoto> хм, ами нз на мен ми се струва, че телерик са под корпоративна шапка общо взето там се въртят интересите им
+[11:53:27] <vhristev> аз главно си гледам моя интерес
+[11:53:36] <yulimoto> те също :)
+[11:53:40] <vhristev> и пари да перат това не ме засяга общо взето
+[11:53:51] <yulimoto> мен ме засяга :)
+[11:54:11] <vhristev> еми като знаеш ,че 80% от  българия пере нз какво ти пука
+[11:57:05] <vhristev> масово заведения барове казина перат
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:04:43] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[12:22:20] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[12:22:44] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[12:35:04] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[12:41:17] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:13:11] <yulimoto> KacanuH: тоя man дето го четеш, до кой ред си стигнал. Няма само вие да ме гледате я ;)
+[13:32:55] <KacanuH> yulimoto: специално за теб го отворих тоя ман :)
+[13:33:25] <KacanuH> ама ме налазиха едни олигофрени и чак сега се измъкнах
+[13:33:47] <yulimoto> хаха добре видя ли сега как да си чатиш
+[13:34:19] <yulimoto> с wall
+[13:34:28] <yulimoto> :P
+[13:35:06] <KpeTeHoug> най яката команда на валл
+[13:35:09] <KpeTeHoug> e mesg n
+[13:35:10] <KpeTeHoug> :)
+[13:35:57] <yulimoto> имаше преди talk то беше най-якото можеше да се обаждаш на хора от други сървъри
+[13:36:32] <KpeTeHoug> нетсенд
+[13:36:37] <KpeTeHoug> и тва е
+[13:50:47] <KpeTeHoug> ебаси
+[13:50:57] <KpeTeHoug> yulimoto хакман ни е зел за мезе тая лекция
+[13:50:59] <KpeTeHoug> не го е срам :)
+[13:53:31] <yulimoto> ти остави ами сутринта се опитвам да изтегля css файловете на бота и забравих, че е сложил acl-и специално за да не ти влизам в папката
+[13:54:17] <yulimoto> не че не сетих да ги изтегля от сайта
+[13:54:37] <yulimoto> ама си и махнах acl-a, та това е дискриминация
+[13:55:06] <KpeTeHoug> ебаси дискриминацията :)
+[13:55:14] <vhristev> това е user дискриминация
+[13:55:15] <vhristev> ахах
+[13:55:15] <vhristev> (;
+[13:55:27] <KpeTeHoug> мен по юзър
+[13:55:30] <KpeTeHoug> него по група
+[13:55:31] <KpeTeHoug> :)
+[13:55:40] <KpeTeHoug> ти правиш ли бекъп на логовете
+[13:55:44] <KpeTeHoug> аз другото го имам уж
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:24] <yulimoto> може да направим едно частно репозитори, гледам че вече има git, иначе аз нали ползвам irssi на screen  през гризлито и съм сетнал irrsi да логва канала в моята папка да прави лог
+[14:00:58] <KpeTeHoug> да, знам че ги логваш, затова питам  :)
+[14:01:09] <vhristev> а защо логвате нали вече бота логва
+[14:01:30] <KpeTeHoug> аз неговите логове ги тарвам и ги прибирам
+[14:01:45] <KpeTeHoug> щото като стане омазано, и ресторне снапшота
+[14:01:54] <KpeTeHoug> познай къде са логовете
+[14:01:55] <KpeTeHoug> :)
+[14:02:55] <vhristev> на старият снапшот
+[14:03:11] <KpeTeHoug> е там няма логове почти никфи :)
+[14:03:16] <KpeTeHoug> ще ни отидат бисерите
+[14:03:16] <KpeTeHoug> :)
+[14:03:26] <vhristev> как ще няма нали бота върви на гризли ?
+[14:03:55] <vhristev> КАнала нито е голям нито се ползва супер мн тъйче общо взето не е важен
+[14:04:06] <yulimoto> да, за да е по-интересно може да се направи едно репоситори в github
+[14:04:08] <vhristev> ти докато намериш писаници за някой проблем вече ще си го решил
+[14:04:24] <vhristev> обръщате прекалено мн внимание на маловажни неща
+[14:04:27] <KpeTeHoug> въпросът е в идеята :) не че има нщо важно
+[14:04:31] <vhristev> използвай това време да ЛАБ-иш
+[14:04:44] <KpeTeHoug> yulimoto може може
+[14:05:14] <yulimoto> а бе да знаете как да изкарам инфо кога е инсталиран даден пакет ?
+[14:05:26] <yulimoto> дата час туй-онуй
+[14:05:42] <yulimoto> или трябва по файловете и стампа
+[14:07:34] <vhristev> в редхат има yum.log
+[14:07:38] <vhristev> ти за коя дистр. говориш
+[14:08:50] <yulimoto> да, трябваше да се сетя че e еквивалентно на apt
+[14:09:15] <vhristev> пак не разбрах дали това ти свърши работа
+[14:09:25] <vhristev> за deb / rpm based OS ?
+[14:09:45] <vhristev> в дебиан е  /var/log/dpkg.log
+[14:11:22] <yulimoto> да свърши чудесна работа
+[14:11:49] <vhristev> Гууд
+[14:11:49] <vhristev> (;
+[14:14:37] <vhristev> Yesss Master .... ( ама малко Игор стайл )
+[14:37:45] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[14:53:08] Iavoreo (~Iavoreo@85.14.24.30) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:05:44] Iavoreo (~Iavoreo@85.14.24.30) left irc: 
+[15:06:55] Iavoreo (~Iavoreo@85.14.24.30) joined #telerikacademy.
+[15:07:00] Iavoreo (~Iavoreo@85.14.24.30) left irc: Client Quit
+[15:07:24] Iavoreo (~Iavoreo@85.14.24.30) joined #telerikacademy.
+[15:08:22] Iavoreo (~Iavoreo@85.14.24.30) left irc: Client Quit
+[15:08:47] Iavoreo (~Iavoreo@85.14.24.30) joined #telerikacademy.
+[15:28:50] edrenchev (4e5a2453@gateway/web/freenode/ip.78.90.36.83) joined #telerikacademy.
+[15:39:17] <vhristev> стига сте учили
+[15:39:19] <vhristev> http://www.y8.com/games/whack_your_ex
+[15:39:21] <vhristev> малко релакс
+[15:39:22] <vhristev> (;
+[15:42:17] <edrenchev> :)
+[15:42:52] <edrenchev> вече има роот права в гризли
+[15:42:57] <edrenchev> :Д
+[15:43:44] <KpeTeHoug> аха
+[15:43:46] <vhristev> аз бих си пуснал една виртуалка
+[15:43:54] <vhristev> вече машините са доста мощни
+[15:44:02] <vhristev> все един линукс с 1 процесор и 256 рам ще издържи
+[15:44:40] <edrenchev> :)
+[15:44:58] <edrenchev> е да, но за вкъщи вече
+[15:45:08] <vhristev> еми това е трейнинг машина
+[15:45:15] <vhristev> аз щях да дам бая виртуалки
+[15:45:21] <vhristev> ама тока почна да спира в седмицата по 3-5 пъти
+[15:45:25] <vhristev> и УПС не издържа
+[15:45:36] <vhristev> тъйче се отказах да предоставям нещо което няма да работи и само ще изнервя хората
+[15:45:51] <edrenchev> аз да попитам гледам, че нямам място за нов партишън мога ли да намаля тоя където е 50 ГБ и да си направя 2 с по 500 МБ ?
+[15:46:52] <vhristev> аз никога не съм се логвал
+[15:46:57] <vhristev> ама все пак виж дали има информация на тоя партипън
+[15:47:02] <vhristev> може и някой друг да го ползва за нещо
+[15:47:19] <edrenchev> еми то не е ли само мой
+[15:47:20] <edrenchev> ?
+[15:47:23] <edrenchev> :)
+[15:47:37] <vhristev> 50ГБ за теб ..... ммм нз ще те излъжа
+[15:48:17] <edrenchev> добре, няма да бърникам по гризлито за такива неща
+[15:49:22] <yulimoto> да, общото мнение е че партишъни НЕ се правят на гризлито
+[15:49:51] <yulimoto> препоръчва се всеки да си направи виртуалка за целта
+[15:49:56] <yulimoto> и да си цепи
+[15:49:57] <yulimoto> на воля
+[15:50:33] <edrenchev> разбирам. благодаря за информацията
+[15:51:12] <yulimoto> това съм чул, това казвам :)
+[15:51:40] <yulimoto> бахти викам да направя един hub ; fatal: The remote end hung up unexpectedly ; баси грешката
+[15:51:44] <yulimoto> някакви идеи
+[15:52:06] <yulimoto> това като искам да pushvam
+[15:53:20] <KpeTeHoug> аз почнах и аз за гит хъбвам
+[15:53:25] <KpeTeHoug> ама утре ще е :) няма време
+[15:58:06] <yulimoto> KpeTeHoug: https://github.com/lac-repository/telerikacademy-channel-log
+[15:58:09] <yulimoto> :)
+[15:58:31] <yulimoto> lac == linux admistration course
+[15:58:53] <KpeTeHoug> бравус
+[15:59:02] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[15:59:05] <KpeTeHoug> начи утре ще си рпавя моя локална версия
+[15:59:12] Action: KpeTeHoug  Sticks this@}>--'--,--'---  up  dencho-at-work 's butt and I hope the Thorn sticks you in the  (_(_)
+[15:59:13] <yulimoto> уууу аре ве dencho-at-work
+[15:59:13] <dencho-at-work> drasti we
+[15:59:24] <dencho-at-work> are de, ama nema vreme
+[15:59:35] <yulimoto> така така
+[15:59:39] <KpeTeHoug> git ти ли го сетваш кога да се синква
+[15:59:42] <KpeTeHoug> или може ауто ?
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:00] <yulimoto> ще стане ауто
+[16:00:19] <yulimoto> само трябва да ти дам ssh - key da ne se pishat paroli
+[16:00:19] <dencho-at-work> za kakvo si prikazvate
+[16:00:29] <KpeTeHoug> недей
+[16:00:33] <yulimoto> що
+[16:00:49] <dencho-at-work> ZA KAKVO SI PRIKAZVATE
+[16:00:50] <dencho-at-work> :D
+[16:01:00] <KpeTeHoug> за бекъп на нашите си важни логове
+[16:01:01] <KpeTeHoug> :)
+[16:01:10] <KpeTeHoug> искам да кажа, кое е сприоритет при синк
+[16:01:20] <KpeTeHoug> оригинала, гит хъба
+[16:01:23] <KpeTeHoug> или равносилно
+[16:01:28] <dencho-at-work> mi ta beckup-vaite u nas :D
+[16:01:37] <KpeTeHoug> да не стане като зачезне оригинала
+[16:01:42] <KpeTeHoug> да махне и миръра
+[16:01:48] <yulimoto> ако искаш пиши парола, ако искаш ще ти сложа един файл в .ssh и ще се логваш автоматично, аз така правя на grizlito не пиша пароли, ами с ssh директно
+[16:02:08] <yulimoto> ами гит-a си е сложно
+[16:02:19] <dencho-at-work> da ne e imalo troshene ?
+[16:02:20] <yulimoto> когато правиш гит пуш
+[16:02:22] <yulimoto> пращаш
+[16:03:03] <KpeTeHoug> ясно
+[16:03:06] <yulimoto> ще направим едно малко скриптче да праща към хъба, хубавото е че могат да се връщат предните версии (commits)
+[16:03:12] <dencho-at-work> tva Въпрос за хардлинк. vinagi go cheta kato Въпрос за хладилник.
+[16:03:13] <dencho-at-work> :D
+[16:03:15] <KpeTeHoug> не е имало трошене, ма то бекъп се прави преди това
+[16:03:31] <KpeTeHoug> аа, това имах предвид yulimoto
+[16:03:34] <yulimoto> KpeTeHoug: да
+[16:03:38] <KpeTeHoug> тогава го прави да е ауто
+[16:03:44] <KpeTeHoug> щом може да се ролбеква
+[16:03:45] <KpeTeHoug> :)
+[16:03:51] <yulimoto> и утре е ден или довечера ще го правя
+[16:03:56] <KpeTeHoug> dencho-at-work щото ти се пие бира
+[16:04:02] <dencho-at-work> da vi kaja li kak nqma da ima problemi... kato si pusnete backup bot :P
+[16:04:03] <dencho-at-work> t.e
+[16:04:06] <dencho-at-work> o6te edin bot da logva
+[16:04:07] <dencho-at-work> :D
+[16:04:09] <dencho-at-work> ot drugo pc
+[16:04:09] <dencho-at-work> :d
+[16:04:11] <dencho-at-work> ya!
+[16:04:14] <KpeTeHoug> :)
+[16:04:35] <dencho-at-work> pc, back up pc :D
+[16:04:53] <dencho-at-work> ediniq bot buta logovete na drugia a drugia buta logovete na ediniq
+[16:04:57] <yulimoto> ха ами то ако става въпрос просто ще си пусна irssi на shevа–та и тя ще си дреме в канала и ще записва
+[16:04:58] <dencho-at-work> i dvata botove si butat logovete
+[16:05:13] <dencho-at-work> sheva-ta ?!
+[16:05:19] <yulimoto> sheeva plug
+[16:05:29] <dencho-at-work> ot kade?
+[16:05:38] <yulimoto> http://en.wikipedia.org/wiki/SheevaPlug
+[16:05:45] <dencho-at-work> ot kade 6te go pusne6 :D
+[16:06:08] <yulimoto> имам едно малко линуксче колкото телефон
+[16:06:14] <yulimoto> там си пускам разни работи
+[16:06:26] <yulimoto> и общо взето експериментирам
+[16:06:27] <dencho-at-work> :D
+[16:06:33] <dencho-at-work> kolkoto telefon ?
+[16:06:42] <yulimoto> вж. линка
+[16:06:44] <dencho-at-work> tova ne go razbrah :D
+[16:06:56] <yulimoto> т.е. компютърчето на което има линукс е колкото телефон
+[16:07:04] <dencho-at-work> ahaaaaaa
+[16:07:05] <dencho-at-work> :D
+[16:07:08] <yulimoto> еййй
+[16:07:08] Action: dencho-at-work slaps dencho-at-work 
+[16:07:20] <yulimoto> ще кажеш, че не ме разбра
+[16:07:20] <dencho-at-work> away :D pusni back up eggdrop :D
+[16:08:00] <yulimoto> нали ще пуснем repository
+[16:08:00] <KpeTeHoug> е сега
+[16:08:01] <dencho-at-work> tva sheeva za kakvo sluji ?
+[16:08:06] <KpeTeHoug> нали трябва да работим елегантно
+[16:08:17] <dencho-at-work> KpeTeHoug: tova e elegantno :D
+[16:08:18] <KpeTeHoug> не секирата д мажем масло на филия
+[16:08:33] <KpeTeHoug> ами с нож за маслко
+[16:08:36] <KpeTeHoug> *масло
+[16:08:41] <KpeTeHoug> с гравюри по него
+[16:09:19] <yulimoto> ако се наложи няма проблем, но нали го мъча и ще стане уж да пусна бот и после трбява постоянно да го мисля, щото примерно правя партишъни туй-онуй мъча буутлоудъра и т.н.
+[16:09:28] <vhristev> ще правите Инсепшън в Бота друг бот
+[16:09:29] <vhristev> хахаха
+[16:09:29] <vhristev> (;
+[16:09:49] <KpeTeHoug> :)
+[16:09:56] <KpeTeHoug> и в тях едно bnc
+[16:10:02] <yulimoto> цц
+[16:10:06] <KpeTeHoug> закавено на VPS
+[16:10:12] <yulimoto> цц
+[16:10:23] <KpeTeHoug> през VPN  в Камбоджа
+[16:10:30] <yulimoto> първо да оправим githuba
+[16:10:42] <yulimoto> после ще се мисли за още простотии
+[16:10:45] <KpeTeHoug> ^_^
+[16:10:49] <KpeTeHoug> ето
+[16:11:02] <KpeTeHoug> дойде dencho и развали работният дух :)
+[16:11:06] <yulimoto> ахахах
+[16:11:17] <yulimoto> той поне да беше хапнал нещо
+[16:11:33] <yulimoto> днес
+[16:12:26] <yulimoto> вчера сърър днс-а на grizzly спря да работи
+[16:12:39] <yulimoto> това го казвам за протокола
+[16:13:03] <KpeTeHoug> да, гелдах нещо по логовете
+[16:14:07] <yulimoto> пуснах гугълски
+[16:14:35] <yulimoto> сутринта пак го смених на оригиналния, но пак не бачкаше и оставих гугълския
+[16:15:06] <KpeTeHoug> 8,8,8,8 е дъ бест
+[16:15:16] <KpeTeHoug> и аз го ползвам като алтернтивен
+[16:15:21] <KpeTeHoug> по всичките машни дето правя
+[16:15:22] <dencho-at-work> hora
+[16:15:29] <dencho-at-work> nqkoi virtualiziral li e s kvm ?
+[16:15:41] <KpeTeHoug> nнайн
+[16:15:41] <dencho-at-work> HORA
+[16:15:42] <dencho-at-work> :D
+[16:16:28] <vhristev> вече има zNC
+[16:16:35] <vhristev> малко по яко е направено аз него си ползвам
+[16:16:48] <dencho-at-work> vhristev: private
+[16:17:24] <vhristev> Аз съм виртулизирал ама беше бая отдавна
+[16:18:02] <vhristev> и с KVM & OpenVZ
+[16:18:13] <phalaaxx> bind/powerdns/djbdns/maradns... това за recursive dns :)
+[16:18:16] <vhristev> разликата е ,че KVM-a ти е Guest OS правиш си виртуалка и си слагаш ОС-а вътре
+[16:18:44] <vhristev> а OPenVZ-то ти е темплейт готов свален който стартираш за 5мин. Така начерените контейнери
+[16:18:59] <phalaaxx> иначе на гугъл са 8.8.8.8 и 8.8.4.4 (ако някой знае и други техни - да споделя)
+[16:19:14] <phalaaxx> ама предпочитам локалния cache
+[16:19:43] <phalaaxx> не че някой ме пита де но аз да си кажа
+[16:22:08] <yulimoto> phalaaxx: какво за рекурсив днс
+[16:22:09] <yulimoto> ?
+[16:22:39] <yulimoto> това не са ли направо dns servers
+[16:22:53] <phalaaxx> онова дето се слага в /etc/relolv.conf - то се нарича recursive dns
+[16:22:53] <yulimoto> което си дал
+[16:22:55] <phalaaxx> или dns cache
+[16:23:03] <phalaaxx> не е задължително
+[16:23:26] <phalaaxx> можеш да си сложиш pdns-recursor и да си имаш локален cache без authoritative dns
+[16:23:55] <yulimoto> аха
+[16:24:14] <vhristev> винаги може да си ползваш който ДНС искаш директно от командния
+[16:24:27] <yulimoto> нали се сещаш, че гугъл не са дали тези днс servers просто ей така ?
+[16:24:28] <vhristev> dig @DNS_SERVER_NAME google.com
+[16:24:35] <vhristev> това са публични
+[16:25:07] <phalaaxx> да, има и други публични
+[16:25:16] <vhristev> да ти кажа 2ва да знаеш ти стигат
+[16:25:27] <phalaaxx> то и 1 стига :D
+[16:25:27] <yulimoto> ами тия на гугъл
+[16:25:30] <yulimoto> 8888 8844
+[16:25:49] <phalaaxx> аз го ползвам само колкото да си изтегля някой dns cache и спирам да го ползвам след това :D
+[16:25:57] <vhristev> phalaaxx, да и едно е достатъчно и аз +N за редъндънси сложих
+[16:26:24] <yulimoto> аз не съм мн. на ясно с днс-ите
+[16:31:05] <vhristev> в linux-bg
+[16:31:11] <vhristev> има мн яка тема на 3 части за това как работи ДНС-а
+[16:31:15] <vhristev> мн добре обяснена
+[16:31:25] <yulimoto> добре довечера май
+[16:31:29] <yulimoto> ще е тая тема
+[16:32:48] <yulimoto> dencho-at-work: ко ша шраиш ще мигрираш от ина виртуалка на друга ? ; да и аз го чета хладилник
+[16:32:51] edrenchev (4e5a2453@gateway/web/freenode/ip.78.90.36.83) left irc: Quit: Page closed
+[16:33:26] <vhristev> аз отивам да поиграя тенис на маса с един колега
+[16:33:28] <vhristev> да го напукам
+[16:33:28] <vhristev> хахаха
+[16:33:29] <vhristev> (;
+[16:33:35] <yulimoto> напукай го
+[16:33:51] <yulimoto> да падне разглобен и да се моли
+[16:37:40] <phalaaxx> довечера ще слушаме ли по новините как човек бил напукан от колегата си при игра на тенис на маса? :D
+[16:40:06] Iavoreo (~Iavoreo@85.14.24.30) left irc: 
+[16:40:07] <phalaaxx> yulimoto: http://cr.yp.to/djbdns/intro-dns.html
+[16:45:00] <yulimoto> благодаря момчета
+[16:56:35] <dencho-at-work> yulimoto: 4akai purvo da instaliram 2 virtualki po otdelno puk posle 6te migrirame :D
+[16:57:04] <dencho-at-work> virtualbox vs kvm
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:02:49] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:12:08] <vhristev> хаахах
+[17:12:13] <vhristev> 3:1 гейма РУЛЕС
+[17:12:13] <vhristev> (;
+[17:13:01] <vhristev> ама  е хубаво да играеш с по-добри да вдигаш ниво
+[17:14:15] samy (~samy@77-85-14-50.btc-net.bg) left irc: Ping timeout: 268 seconds
+[17:39:40] <dencho-at-work> pichove i princesi (koito mai sq gi nqma, no sigurno chetat logovete) :P ~ pozdravi!) nqkoi da e instaliral windows virtualna ma6ina s kvm ?!
+[17:43:59] <vhristev> да какъв е проблема
+[17:44:13] <vhristev> с КВМ създаваш виртуалната и вече вътре какво ще сложиш няма никъкво значение
+[17:45:39] <vhristev> важното е да си избереш коя ти е ОС-а ,за да може КВМ-а д ати нагоди виртуалката Драйвери опшъни и т.н.
+[17:48:55] <dencho-at-work> aham, 4ul sam 4e s windows ima nqkakvi specifiki no moje da sa me izlygali
+[17:48:55] <dencho-at-work> :D
+[17:50:00] <vhristev> спецификации за какво ?
+[17:51:01] <dencho-at-work> mi nqkakvi driveri u a
+[17:53:09] <vhristev> Еми за лан картата най мн това
+[17:53:17] <vhristev> и контролера за дисковете
+[17:53:36] <vhristev> е1000 ще ти работи на всичко
+[17:53:54] <vhristev> KVM не съм барал от 4-5г.
+[17:53:59] <vhristev> изцяло минах на Vmware
+[17:54:11] <vhristev> за виртулизация виж OpenStack
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:02:10] <dencho-at-work> gasa toka
+[18:02:11] <dencho-at-work> :D
+[18:02:17] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[18:02:48] <yulimoto> KpeTeHoug: Значи съм направил едно файлче git-cron то като се пусне в кронтаба примерно в 3:15 (15 3 * * * /path/to/git-cron) всяка сутрин и ще синхронизира уж (не е мн тествано). Сложил съм и ssh ключове. и съм chown-ал тая .git папка в log да си е твоя.
+[18:03:22] <yulimoto> в logs имам предвид гит папката
+[18:04:16] <yulimoto> може да му сложим и един файл лог в /var/log с outputa да видм
+[18:04:32] <yulimoto> и стдерр
+[18:10:26] <yulimoto> файлчето е папката на бота
+[18:18:19] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[18:36:25] widwool (~chatzilla@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) joined #telerikacademy.
+[18:36:49] Nick change: widwool -> Guest52086
+[18:37:59] <Guest52086> Здравейте :) Може ли някой да ми каже от колко часа и кой ден точно се провеждат лекциите, защото съм онлайн студен и не съм в България. Мерси предварително :)
+[18:47:01] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:01] <episparh> Guest52086,  четвъртък 19:00 до 22:00 българско време
+[19:00:30] episparh (~episparh@92-247-248-207.spectrumnet.bg) left #telerikacademy ("Leaving").
+[19:00:47] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[19:01:43] <episparh> Guest52086, иначе лекциите се записват и се ъплоадват на следващия ден
+[19:02:22] <episparh> но ако искаш да си онлайн и да задаваш въпроси ->  четвъртък 19:00-20:00 ГМТ+2
+[19:16:31] <dencho> хаха гмт+2
+[19:21:07] samy (~samy@91.196.227.180) joined #telerikacademy.
+[19:23:23] <dencho> пичове и принцеси, какво т TCR/IP ?
+[19:23:26] <dencho> Добри познания в поддържането на LAN мрежи и познания в областта на TCR/IP;
+[19:23:27] <episparh> ta koe e tolkowa sme[no ? :)
+[19:23:46] <episparh> уахаха €
+[19:23:49] <dencho> чета обява за работа с TCR/IP
+[19:23:50] <dencho> !
+[19:23:54] <dencho> http://www.jobs.bg/f1891162
+[19:24:08] <dencho> аз не знам за такъв протокол, ако някой знае нека да ми сподели
+[19:24:48] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[19:25:39] <episparh> живо TCP/IP е просто тоя дето е писал обявата е преписвал/а от листче ...
+[19:26:03] <dencho> :Д
+[19:26:15] <dencho> ти си ар :П
+[19:26:16] <episparh> така като гледам и заплатата че е към 350 лв.
+[19:26:36] <dencho> ти си пи, ай пи! = ти сипи, аз ще пия :Д
+[19:26:53] <dencho> за 350 лева мога да им поддържам ти си ар-а :Д
+[19:26:53] <episparh> Националният център по заразни и паразитни болести ...
+[19:27:14] <dencho> колкото има ти си ар, толкова ще работя и аз :Д
+[19:27:19] <episparh>  Отлично познаване и работа с ОС Windows (инсталиране, настройка, администриране);
+[19:27:19] <episparh> • Добри познания относно конфигуриране, настройка, и поддръжка на e-mail адреси– Mozilla Thunderbird и Outlook;
+[19:27:19] <dencho> толкова ще ми и плащат
+[19:27:19] <dencho> :Д
+[19:27:33] <episparh> ба ДУУММММ. Тссссс!
+[19:27:43] <dencho> хахаха
+[19:27:59] <dencho> Висше образование в сферата на информационните технологии;
+[19:28:05] <dencho> жалко... нямам
+[19:28:05] <dencho> :Д
+[19:28:16] samy (~samy@91.196.227.180) left irc: Ping timeout: 246 seconds
+[19:28:20] <episparh> аз имам ама  - но тенкю!
+[19:30:52] <dencho> аре по-здрав http://youtu.be/E-BLWUhSKL8 :Д
+[19:32:01] <episparh> :S
+[19:32:21] <episparh> но тенкю , слушай си ги тея шамани
+[19:34:05] <episparh> аз съм на Глобус - Прелиатор
+[19:36:22] <episparh> лол , много познато ... http://securityreactions.tumblr.com/post/56146221642/whenever-theres-guidelines
+[19:36:48] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[19:42:36] <episparh> някой случайно да е ползвал tonidoid  с  rpm  базирана дистрибуция ?
+[19:43:52] <dencho> ko! ne... :D
+[19:47:08] lyubenblagoev (~lyubenbla@92.247.170.208) joined #telerikacademy.
+[19:47:28] <episparh> уфф, харесваше ми това тонидо обаче alien ... :S
+[19:53:30] Guest52086 (~chatzilla@cpc8-cmbg14-2-0-cust301.5-4.cable.virginmedia.com) left irc: Quit: ChatZilla 0.9.90.1 [Firefox 22.0/20130618035212]
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:04:56] lyubenblagoev (~lyubenbla@92.247.170.208) left irc: Quit: Leaving
+[20:13:23] Deyan (~Deyan@46.249.92.240) joined #telerikacademy.
+[20:18:47] <Deyan> какво става банда
+[20:26:03] <episparh> кво да става
+[20:26:50] <episparh>  Националният център по заразни и паразитни болести  си  търси експерт по TCR\IP
+[20:31:58] <yulimoto> баси не съм си отварял рийдъра ~седмица и 999+
+[20:32:12] <yulimoto> щяли пак да погват читанката
+[20:32:53] <yulimoto> барабар с ФБР
+[20:34:12] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[20:34:19] <Deyan> yulimoto, дай да четем и ние
+[20:35:21] <yulimoto> е как бе Григор Гачев. Това е човекът !!!
+[20:35:43] <yulimoto> gatchev.info/blog
+[20:35:52] <yulimoto> http://gatchev.info/blog
+[20:36:45] <yulimoto> Препоръчвам с две ръце що се отнася до свобода, свободен софтуер, авторски права.
+[20:58:16] samy (~samy@84.238.184.98) joined #telerikacademy.
+[20:58:39] <samy> a
+[20:58:43] <samy__> b
+[20:58:58] samy (~samy@84.238.184.98) left irc: Client Quit
+[20:59:07] Nick change: samy__ -> samy
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:00:23] <dencho> v
+[21:00:31] <dencho> samy
+[21:00:41] <Deyan> г samy
+[21:00:57] <samy> arghhh
+[21:01:02] <samy> zabrai che tui chudo
+[21:01:04] <samy> bilo lognato
+[21:04:17] <dencho> :P
+[21:10:27] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 268 seconds
+[21:20:20] <vhristev> (;
+[21:46:08] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[21:48:10] Deyan (~Deyan@46.249.92.240) left irc: Quit: (reboot!)
+[21:51:55] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:02:38] <KacanuH> https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/q71/s720x720/970778_484382664980036_1485636249_n.jpg
+[22:05:43] <episparh> само за скайп .... то това е по лошо от порното ;)
+[22:06:16] <KacanuH> хахаха, зависи от порното
+[22:07:36] <episparh> дали ?
+[22:09:42] <KacanuH> а най-странното е че колкото и да е стар тоя рутер още се продава
+[22:10:15] <KacanuH> и то много, въпреки че цената му не е мръднала от 5 години наса
+[22:13:21] <dencho> HAHAHAHAHHA
+[22:13:53] <dencho> edin takuv ruter onq den po4na da gree kato pe4ka, daje i smqna na kondenzatorite ne pomaga
+[22:14:09] <dencho> reje cesekati po mac adres - ne
+[22:14:10] <dencho> hahahah
+[22:14:14] <dencho> cesekari*
+[22:16:06] <KacanuH> dencho, все пак и те са правени за да мога аз да взимам заплата
+[22:16:07] <KacanuH> :)
+[22:17:12] <dencho> :D
+[22:17:22] <dencho> moq d-link e s 5 godini garancia
+[22:17:23] <dencho> :D
+[22:18:20] <KacanuH> д-линк и тп-линк, не ми ги хвали
+[22:18:30] <dencho> kakvo da hvalq?
+[22:18:37] <dencho> q spodeli
+[22:18:37] <dencho> :D
+[22:18:46] <dencho> da znam kakvo da si kupuvam sledva6tiq put
+[22:19:06] <KacanuH> ако питаш мен за каквото ти се дават пари
+[22:19:07] <episparh> аз имам един wrt54g  mini
+[22:19:25] <episparh> железен е но b/g само
+[22:20:15] <episparh> иначе като препоръка - ако няма да е за нешо сериозно - тп-линкче
+[22:20:33] <KacanuH> много се дразня като някой ми иска рутер със всички екстри и накрая ми каже да не е по-скъп от 50 лева, за това колкото пари ти се дават за толкова си вземи рутер
+[22:21:41] <KacanuH> tp-link-а има само един недостатък, трябва да го инсталираш на лесно за достъп място
+[22:23:36] <episparh> аз бих си закупил есин ASUS RT-AC66U ако не ме бъркаха кинтите
+[22:24:01] <KacanuH> не рутера е Cisco RV180W
+[22:25:58] <episparh> http://www.smallnetbuilder.com/security/security-reviews/31746-cisco-rv180-vpn-router-reviewed
+[22:26:29] <episparh> "I had several low cost dlink & asus devices which had a _much_ better performance and user experience. I had never problems with them ( with stock firmware and dd-wrt ). I bought the rv180w because of the IPSec functionality which was missing on the other devices. Big mistake!"
+[22:27:14] <episparh> аз съм все още за асуса :)
+[22:27:45] <dencho> pove4e ot 200 leva za wifi ruter ne davam az
+[22:27:46] <dencho> :D
+[22:27:52] <dencho> slu6am predlojeniqta
+[22:27:53] <dencho> :D
+[22:28:53] <KacanuH> дай малко повече изисквания,
+[22:29:10] <KacanuH> dencho, кога имаш рожден ден
+[22:29:24] <dencho> 2.4 + 5 ghz, gigabit blq blq, 31 mai :)
+[22:29:33] <dencho> da moje da furlq mnogo nadale4e wifi signal
+[22:29:46] <dencho> tva mi trqq
+[22:29:49] <dencho> mai mi trqq AP :D
+[22:29:50] <dencho> hahaha
+[22:29:59] <episparh> dencho,  тп-линкче N за 28 лева как ти се струва
+[22:30:31] <dencho> hahaha
+[22:30:36] <KacanuH> е изтървали сме те, иначе можеше да ти подарим едно от чата, ако обещаеш да почерпиш по бира
+[22:30:44] <episparh> хвърлянето на далече няма нищо общо с рутера
+[22:30:46] <yulimoto> с антенка усилвателл
+[22:30:59] <dencho> podarete mi we, az pak 6a po4erpa we, vwe4e KpeTeHoug mi izprati edin switch :P
+[22:31:05] <dencho> qvno sam go podkaral na podaraci v toq kurs
+[22:31:08] Action: dencho просяк
+[22:31:14] <episparh> лол
+[22:31:41] <KacanuH> мда, антенката е добра идея, днес ни дойдоха едни, мисля да ги тествам тая седмица, и ще ви кажа има ли ефект
+[22:31:47] <episparh> суича 100мегабита ли е
+[22:32:10] <dencho> ne znam, ne e pristignal o6te
+[22:32:26] <KacanuH> хахаха той от къде ти го праща, от зимбабве ли
+[22:32:36] <dencho> KacanuH super, qvno ti si network 4oveka, 6te trqbva da te polzvam za konsultant
+[22:32:41] <dencho> KacanuH turnovo, ama po priqteli :P
+[22:32:46] <dencho> sega e v selo Dermanci
+[22:32:46] <dencho> :
+[22:32:47] <dencho> D
+[22:32:49] <yulimoto> и за какво туй сиско, вземи си един тп-линк примоция, моя ми го дадоха щото си платих нета за 3 месеца
+[22:32:51] <dencho> tiq dni 6te e pri mene
+[22:33:04] <KacanuH> имаме едни RMKT E1200
+[22:33:25] <dencho> iskam wifi ruter + anteni da napravq link (hubav) na 1-2 km, bez prqka vidimost
+[22:33:25] <dencho> :D
+[22:33:29] <dencho> mnogo li iskam?
+[22:33:30] <KacanuH> и когато не знам какво да подаря ги подарявам тях, че ги взимам на добри пари
+[22:33:46] <KacanuH> не, просто си малко нагъл :)
+[22:33:54] <dencho> KacanuH ami ti ot kade si da znam, dali imam agenti tam
+[22:34:24] <KacanuH> от къде съм какво, къде работя или къде живея
+[22:34:31] <dencho> v koi grad se namira6
+[22:34:31] <dencho> :D
+[22:34:35] <KacanuH> сф
+[22:34:42] <dencho> a, ami idealno we :P
+[22:34:44] <dencho> haha
+[22:34:48] <yulimoto> питай botlike какъв рутер има и си вземи същия !!
+[22:35:00] <episparh> 2  километра без пряка видимост - мечтател
+[22:35:05] <dencho> hahaha
+[22:35:06] <dencho> :D
+[22:35:11] <episparh> ахахаха
+[22:35:19] <episparh> това за бота е куул
+[22:35:30] <episparh> той къде се загуби тоя човек
+[22:35:32] <dencho> dobre... 50% vidimost kak e :P
+[22:35:56] <episparh> dencho,  за френелови зони чувал ли си
+[22:36:01] <yulimoto> защо ти е тая видимост, ако не живееш на село не ти трябва
+[22:36:02] <dencho> mne
+[22:36:02] <KacanuH> това през слънчеви очила ли орязваш останалите 50%
+[22:36:19] <episparh> дори и да имаш линия на поглед пшак може да нямаш линия на покритие
+[22:36:51] <dencho> ahaa, predi vreme imah interes s tezi wifi vruzki, no prosto nqmah pari i vreme za da se zaribq dostatu4no :D
+[22:37:00] <episparh> за голямо покритие ти трябват насочени антени
+[22:37:26] <episparh> за активни усилватели не си и мечтай - че някой ако те набара КРС такава глоба ще ти шибнат
+[22:37:37] <yulimoto> само ще си докараш навлеци дето искат да ти припомпят рутера
+[22:37:53] <episparh> 2.4ghz  е лимитиран на 100 миливата активна мошност в ЕС
+[22:38:25] <KacanuH> домата решава проблема със 100-те мв
+[22:38:38] <episparh> домат ?
+[22:38:48] <yulimoto> а пък ако си сложиш едни насочени антени до вилата, ако е на 20 км ще ти трябват 4-5 стълба с катинари и т.н. направо без пари ти излиза
+[22:38:56] <KacanuH> tomato firmware
+[22:38:58] <dencho> i krastavicata, leka no6t ot mene do utre po nqkoe vreme :D
+[22:39:10] <yulimoto> лека
+[22:39:37] <KacanuH> лека и от мен
+[22:40:17] <episparh> и как точно ти решава проблема с ограничението за мошност ?
+[22:40:56] <yulimoto> нз
+[22:41:28] <yulimoto> каква домашна да пиша и защо не я написах вчера
+[22:42:08] <vhristev> Ебаси кура го ядах
+[22:42:21] <episparh> хех
+[22:42:42] <episparh> щом се хвалиш , значи ти е харесало
+[22:44:20] <yulimoto> vhristev: да не те биха на тенис
+[22:53:14] <yulimoto> episparh: може жена му пак да се е размрънкала!
+[22:58:38] <episparh> ааа, не знам аз
+[22:58:46] <episparh> аз проблеми с моята нямам
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:25] lyubenblagoev (~lyubenbla@92.247.170.208) joined #telerikacademy.
+[23:03:06] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[23:05:02] <yulimoto> тъй като гледам най-доброто обяснение на selinux е man-a
+[23:08:36] <episparh> :)
+[23:10:07] <episparh> трай -> http://www.youtube.com/watch?v=MxjenQ31b70&feature=youtu.be
+[23:10:07] <phalaaxx> yulimoto: http://www.anchor.com.au/hosting/dedicated/SELinux_management
+[23:10:23] <phalaaxx> тия Anchor съм им голям фен :)
+[23:13:51] <yulimoto> хм +1 и за това, че са споделили линковете най-отдолу.
+[23:16:22] <episparh> bookmarked for further reading ;)
+[23:16:32] <episparh> че сега съм на питон вълна
+[23:18:46] <yulimoto> да и аз го букмаркнах заедно с този http://fedoraproject.org/wiki/SELinux/Understanding
+[23:18:59] lyubenblagoev (~lyubenbla@92.247.170.208) left irc: Quit: Leaving
+[23:19:52] <episparh> fedoraproject.org  линковете са ми навсякъде , още ме мързи да ги зачистя :)
+[23:24:12] <vhristev> Не бе
+[23:24:15] <vhristev> няква фирмича го закъсала
+[23:24:24] <vhristev> 1 ЕСХ после някакъв сторидж по САС
+[23:24:31] <vhristev> след това Raw Device maps към виртуалките
+[23:24:39] <vhristev> и аз съм 3тият който се опитва да го оправи
+[23:24:58] <vhristev> и някой е затрил РУУТ дяла на ЕСХ-а и като буутвам рескю СД виждам само БУУТ и VMFS ( VMware FS )
+[23:25:07] <vhristev> та инсталирах един ЕСХ на флашка та буутнах от там
+[23:25:13] <vhristev> после двайвери за РАЙД контролера 3ware
+[23:25:18] <episparh> @.@
+[23:25:21] <vhristev> и после закачих САС-овете да тръгне дейба
+[23:25:29] <vhristev> и после виртуалките опрваятх да може RMD-тата да са ОК
+[23:25:34] <vhristev> и никой нз какво става
+[23:25:59] <vhristev> и мениджмънт мрежата им има НЕТ е тва беше грандиозно
+[23:25:59] <vhristev> (;
+[23:26:46] <episparh> далаверка :)
+[23:26:51] <episparh> чиста
+[23:30:44] tuxar (~tuxar@athedsl-116091.home.otenet.gr) joined #telerikacademy.
+[23:31:05] <tuxar> Привет!
+[23:31:16] <episparh> vhristev,  благодяря че затвърди нежеланието ми да не ставам админ ;)
+[23:31:35] <episparh> опс, дабъл негатив - не е добре
+[23:31:42] <episparh> здравей tuxar
+[23:31:58] <tuxar> Разкажете можем ли
+[23:32:11] <tuxar> да разберем през конзолата
+[23:32:13] <KacanuH> можем !
+[23:32:24] <episparh> през конзолата всичко може
+[23:32:29] <tuxar> какъв е RAID-a
+[23:32:32] <tuxar> ;-)
+[23:32:41] <tuxar> машинката
+[23:32:55] <tuxar> е Ubuntu 12.04 server
+[23:33:06] <tuxar> s df- h
+[23:33:54] <tuxar> виждам /dev/mapper/pdc_dhbcgdcfa6
+[23:34:16] <tuxar> и /dev/mapper/pdc_dhbcgdcfa1
+[23:35:08] <tuxar> ако нямаме "желязото" до себе си откъде почваме
+[23:35:50] <tuxar> намерих в интернет, че ако знаеш производителя
+[23:36:19] <tuxar> му смъкваш програмката и се радваш
+[23:36:43] <tuxar> но да речем, че живота е мащеха
+[23:37:28] <tuxar> и ти дава само една консола, без желязо ;-)
+[23:39:59] <episparh> cat /proc/scsi/scsi
+[23:40:07] <episparh> lspci -v
+[23:43:15] <tuxar> на първата ми извади
+[23:43:34] <tuxar> Attached devices:
+[23:43:34] <tuxar> Host: scsi0 Channel: 00 Id: 00 Lun: 00 Vendor: HL-DT-ST Model: DVD-ROM GDR8164B Rev: 0L06 Type:   CD-ROM                           ANSI  SCSI revision: 05
+[23:43:37] <tuxar> Host: scsi2 Channel: 00 Id: 00 Lun: 00 Vendor: ATA      Model: SAMSUNG HD080HJ  Rev: ZH10 Type:   Direct-Access                    ANSI  SCSI revision: 05
+[23:43:40] <tuxar> Host: scsi4 Channel: 00 Id: 00 Lun: 00 Vendor: ATA      Model: WDC WD2500JS-60M Rev: 10.0 Type:   Direct-Access                    ANSI  SCSI revision: 05
+[23:43:43] <tuxar> Host: scsi5 Channel: 00 Id: 00 Lun: 00 Vendor: ATA      Model: WDC WD2500JS-60M Rev: 10.0 Type:   Direct-Access                    ANSI  SCSI revision: 05
+[23:44:13] <episparh> за бога не пействай целия lspci -v
+[23:44:21] <tuxar> втората има малко дълъг
+[23:44:24] <tuxar> отговор
+[23:44:32] <tuxar> няма
+[23:48:49] <KacanuH> tuxar, http://wiki.debian.org/HowToIdentifyADevice/PCI чети и тествай
+[23:49:15] <KacanuH> ако не ти е харесала информацията от lspci -v
+[23:50:33] tuxar (~tuxar@athedsl-116091.home.otenet.gr) left irc: Ping timeout: 246 seconds
+[23:52:29] tuxar (~tuxar@athedsl-115559.home.otenet.gr) joined #telerikacademy.
+[23:53:18] <tuxar> чета, че имало пакет raidtools
+[23:54:22] <tuxar> но с apt-cache search raidtools не го намирам
+[23:54:50] <tuxar> може да в някое по-засукано репозитори
+[00:00:00] --- Tue Jul 23 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

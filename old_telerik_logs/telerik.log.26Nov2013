@@ -1,0 +1,264 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:04:10] Nick change: ndyakov -> ndyakov|away
+[00:10:04] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:40:59] ddmitov (~knoppix@87.120.214.102) left #telerikacademy.
+[00:41:36] <_rewind> лека на всички
+[00:49:19] Nikiman (~dfdfdfd@91.191.219.153) joined #telerikacademy.
+[00:52:57] _rewind (~teo@46.238.29.142) left irc: Ping timeout: 272 seconds
+[00:54:30] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:14:53] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[01:30:59] Nick change: ndyakov|away -> ndyakov
+[01:51:07] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 272 seconds
+[01:51:31] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[01:51:42] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:35:58] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:05:11] Fairytale (~Fairytale@77.70.117.169) left irc: Quit: Leaving
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:12:14] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[07:29:55] Nick change: ndyakov -> ndyakov|away
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:27:40] dencho (~dencho@95.111.14.183) left irc: Remote host closed the connection
+[08:52:05] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[08:57:16] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:07:18] Nikiman (~dfdfdfd@91.191.219.153) left irc: Quit: KVIrc 4.0.4 Insomnia http://www.kvirc.net/
+[09:09:31] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:16:22] <KacanuH> Добро утро и Честит първи сняг
+[09:16:47] wilindex (~willie@91.230.230.251) left irc: Quit: Closing
+[09:26:07] wilindex (~willie@91.230.230.251) joined #telerikacademy.
+[09:26:07] #telerikacademy: mode change '+v wilindex' by ChanServ!ChanServ@services.
+[09:37:11] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:43:19] <yulimoto> къде е тоя сняг ве ?
+[09:43:29] <yulimoto> .weather
+[09:43:29] <wilindex> I don't know where you live. Give me a location, like .weather London, or tell me where you live by saying .setlocation London, for example.
+[09:43:40] <yulimoto> .weather sofia kyde
+[09:43:41] <wilindex> Yahoo! Weather - Sofia, BG: Light Snow, -1°C (30°F), 29in (982mb), Gentle breeze 8kt (←)
+[09:43:54] <yulimoto> .weather yambol
+[09:43:55] <wilindex> Yahoo! Weather - Yambol, BG: Light Rain, 6°C (42°F), 29in (1011mb), Light air 3kt (↑)
+[09:45:16] <yulimoto> KrasiGa: върна ли се чадо ?
+[09:46:01] <KrasiGa> yulimoto: още в събота ама като за добре дошла изгърмяха два контролера на 2 от 3 сървъра
+[09:46:09] <phalaaxx1> yulimoto: ти си като метеорологична станция :P
+[09:46:14] <KrasiGa> и вчера беше лудница
+[09:47:59] <phalaaxx1> KacanuH: добре дошъл :) скоро ще взема и да мисля с какви теми да го разчупим, само да му натаманя криво-ляво настройките...
+[09:50:12] <yulimoto> phalaaxx1: е как вземе да дойде на тука тоя сняг
+[09:51:21] <yulimoto> KrasiGa: браво, гордея че си оправила всички проблеми :)
+[09:51:41] <phalaaxx1> KrasiGa: wb :) ти беше някъде по чужбинско, нали? ... при робинзоновците :P
+[09:52:47] <KrasiGa> абе оправила съм ги .... срам ме е да разкажа какви ги свършиха колегите в софия
+[09:52:58] <KrasiGa> то бива простотия ......
+[09:53:33] <KrasiGa> phalaaxx1:  Бях малко на гости и да си отпочина от семейните задължения :)
+[09:54:28] <phalaaxx1> супер :)
+[09:57:10] <KacanuH> phalaaxx 3 пъти прочетох какво си написал преди да разбера :)
+[09:58:19] <phalaaxx1> :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:03:27] <phalaaxx1> KacanuH: надявам се не си имал проблеми с пощата... че още не съм си настроил MTA-то както трябва
+[10:12:08] <KacanuH> phalaaxx, още не съм проверявал
+[10:13:20] <KacanuH> не е имало проблем
+[10:22:34] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[10:22:41] anton_dutsov (~Thunderbi@178.75.230.1) left #telerikacademy.
+[10:23:25] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[10:27:22] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[10:44:31] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[10:54:19] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[10:56:02] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:13:05] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Remote host closed the connection
+[11:30:20] <KrasiGa> Миналият четвъртък имало ли е лекция за Win курса?
+[11:31:02] <KrasiGa> видях, че са качени
+[11:31:05] <KrasiGa> имало е явно
+[11:41:10] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:21:00] Nick change: ndyakov|away -> ndyakov
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:12:07] <KacanuH> Много сте тихи бе, да не ви е затрупал снега
+[13:13:11] <phalaaxx> сняг се сипе на парцали, значи вАли!
+[13:23:26] rewind_work (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[13:23:39] <rewind_work> Здравейте :)
+[13:24:28] <rewind_work> KrasiGa, бях ти писал нещо, ама или willindex се е успал нещо или чака да ми се появи никнейма, от който ти го пратих
+[13:24:44] <rewind_work> phalaaxx ми каза, че си искала да тестваш owncloud
+[13:25:07] <phalaaxx> какво съм казал?
+[13:25:10] <phalaaxx> че не помня
+[13:25:11] <phalaaxx> :D
+[13:26:07] <rewind_work> ок, възможно е и да греша :) някой ми каза, че е искала да тества owncloud
+[13:29:21] <rewind_work> м/у тийнейджъри: - Бате, искаш ли да ти кажем една гатанка - Какво е това? - бяло, сипе се на парцали през зимата и завършва на "...ате"
+[13:29:31] <rewind_work> другия му отговаря - "Е, не знам..."
+[13:29:41] <rewind_work> "Сня-а-аг, бе бате"
+[13:54:04] <phalaaxx> друга гатанка, същото ама да завършва на "...ах"?
+[13:58:15] <yulimoto> сняг, бе бате, ах, ах ,ах!!!
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:12] <phalaaxx> нали ти казАх! :P
+[14:00:16] <phalaaxx> иначе беше близо :)
+[14:16:42] <rewind_work> готиното беше, че тоя виц го чух в един автобус от две тинейджърчета, прозвуча доста готино, малко като самоирония
+[14:16:42] <MoHu> използвате ли календара на owncloud-a?
+[14:16:57] <rewind_work> аз, да, но докато не го спрях
+[14:17:06] <rewind_work> в 4.0.5 работеше
+[14:17:56] <MoHu> аз съм с 5.0 и си имам календар :?
+[14:18:58] <MoHu> дълго време търсих читав caldav клиент за android
+[14:19:17] <MoHu> ей това се връзва перфектно с owncloud-a https://f-droid.org/repository/browse/?fdfilter=caldav&fdid=org.gege.caldavsyncadapter
+[14:19:18] <wilindex> [ F-Droid · ] - f-droid.org
+[14:23:11] <rewind_work> аз си бях сетъпнал синхронизация с google calendar и outlook calendar, преди Google да го спрат. Благодаря за линка :)
+[14:32:23] <phalaaxx> http://www.astro.umd.edu/~msk/blog/articles/img/comet-ison-jan13/ikeyaseki-roger.lynds-noao-aura-nsf.jpg
+[14:32:23] <phalaaxx> красотата на природата - без потребител и парола, без протести... такава каквато трябва да бъде :))
+[14:35:06] <rewind_work> ...безценно (като другата снимка от снощи)
+[14:35:37] <phalaaxx> задачка-закачка в стил стани богат: на къде е обърната опашката на кометата?
+[14:35:37] <phalaaxx> a) срещу слънцето
+[14:35:37] <phalaaxx> б) по посока на движението
+[14:35:37] <phalaaxx> в) срещу посоката на движението
+[14:35:37] <phalaaxx> г) на изток
+[14:35:38] <phalaaxx> :D
+[14:37:35] <phalaaxx> хм технически погледнато май съм забравил да напиша верния отговор :D
+[14:37:45] <phalaaxx> или по-точно трябваше въпроса да е малко по-различен
+[14:44:13] <MoHu> защо да го няма, след справка с google аз го виждам :D
+[14:50:51] <yulimoto> да сега астрофотографията е насочена сигур изцяло на там
+[14:52:12] <yulimoto> някой ползвал ли е gnuplot има ли по-добри алтернативи
+[14:59:04] <phalaaxx> MoHu: кажи го де :)
+[14:59:15] <phalaaxx> yulimoto: зависи за какво ти трябва
+[14:59:53] <MoHu> срещу слънцето :P
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:24] <MoHu> ама се има предвид, не че гледа срещу Слънцето
+[15:00:44] <phalaaxx> да, точно това имах предвид... не е много коректен въпроса (или отговора)
+[15:01:36] <yulimoto> що с/у слънцето ?
+[15:01:56] <yulimoto> phalaaxx: за тестове с ab
+[15:02:18] <yulimoto> и изкарване на някакви графики "виж сега, виж после"
+[15:02:45] <phalaaxx> ако ще ги правиш на ръка тестовете когато ти хрумне - с gnuplot ми звучи ок
+[15:02:58] <phalaaxx> ако ще ги пускаш през cron примерно - може да си поиграеш и с rrdtool
+[15:07:33] <phalaaxx> yulimoto: на въпроса защо срещу Слънцето... какво имаш предвид с този въпрос? :D
+[15:08:10] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[15:12:30] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Read error: Connection reset by peer
+[15:14:39] <yulimoto> питам защото нормално човек  пръцка срещу посоката на движение, а вече това на къде духа вятъра е друг въпрос :)
+[15:15:59] <yulimoto> интересно - http://makeplaylive.com/#/home
+[15:16:00] <wilindex> [ Make · Play &middot Live ] - makeplaylive.com
+[15:39:44] <rewind_work> phalaaxx, не би ли трябвало да се съобрази в каква посока се движи коментата - към или по посока обратна на слънцето ?
+[15:41:14] <phalaaxx> rewind_work: не :P
+[15:42:50] <rewind_work> phalaaxx: добре :) тогава няма верен отговор по-горе
+[15:43:17] <phalaaxx> опашката е съставена предимно от вода - когато кометата се доближи до Слънцето, водата (във вид на лед някъде във вътрешността) започва да се топи от високите температури и като излезе през разни пукнатини/кратери - от там я поема слънчевия вятър и я "
+[15:43:30] <phalaaxx> така че посоката на движение няма никакво значение за ориентацията на опашката
+[15:44:02] <rewind_work> ок, практически опашката винаги е "издухвана" от посоката на слънчевия вятър, въпреки че кометата може би се движи в посока обратна на слънцето
+[15:44:26] <rewind_work> значи верния отговор е г) на изток :D
+[15:44:30] <phalaaxx> да, тогава опашката ще се движи пред кометата
+[15:44:53] <rewind_work> това ако не се пръсне преди или след преминаването покрай него
+[15:46:15] <phalaaxx> защо и е да се пръска?
+[15:47:52] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[15:48:31] <phalaaxx> хм, измислих възможна причина... от яд - че грее готино слънце и е ясно небето а тя по план трябва да пътува за далечния студен край на слънчевата система :P
+[15:48:32] <phalaaxx> :D
+[15:48:46] <phalaaxx> би могло принципно но е рядко срещано явление
+[15:49:10] <phalaaxx> май 94-та (или 95-та) имаше такова в близост до Юпитер
+[15:49:11] <rewind_work> http://www.rense.com/general69/comets.htm
+[15:49:13] <wilindex> [ When Comets Break Apart ] - www.rense.com
+[15:49:54] <rewind_work> phalaaxx, рядко явление по чии критерии ? :)
+[15:50:35] <phalaaxx> по наши
+[15:51:30] <phalaaxx> In 1976, Comet West never approached closer than 30 million     kilometers from the Sun.
+[15:51:30] <phalaaxx> това са го написали сякаш е кой знае колко голямо разстояние...
+[15:52:30] <rewind_work> според средната продължителност на един човешки живот, който е в порядъка на 70-80 ot ~14млрд. или на цялата позната човешка история - ~14 млн. от ~14млрд. години :)
+[15:53:54] <rewind_work> около 0.0000033 светлинни години :)
+[15:55:40] <rewind_work> или около 1.668 светлинни минути :D - http://www.wolframalpha.com/input/?i=1.668+light+minutes&lk=1
+[15:55:45] <wilindex> [ 1.668 light minutes - Wolfram|Alpha ] - www.wolframalpha.com
+[15:57:24] <rewind_work> a за Юпитер може би става дума за shoemaker-levy ?
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:05:14] <phalaaxx> може би да, не и помня името
+[16:05:48] <phalaaxx> ама се разпадна около Юпитер и 2 - 3 години след това гледахме парчета от нея как правят шоу върху Юпитер :)
+[16:06:11] <rewind_work> да, тя трябва да е била
+[16:07:30] <phalaaxx> при една от експлозиите при сбръсъка тогава върху Юпитер петното беше 3 пъти по-голямо от Земята доколкото си спомням :D
+[16:11:27] <rewind_work> https://en.wikipedia.org/wiki/Comet_Shoemaker-Levy_9 тук има хубави фотографии от сблъсъка
+[16:11:28] <wilindex> [ Comet Shoemaker–Levy 9 - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[16:19:18] <phalaaxx> та като си говорим за комети, ще снимаме ли ISON? :)
+[16:31:19] <yulimoto> а ве може да открием бекъп център на луната, ако ни удари нещо ще има от къде да възстановяваме после
+[16:34:49] <KrasiGa> hehehe :) как пък го измисли
+[16:34:53] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:36:37] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Quit: anton_dutsov
+[16:36:58] <yulimoto> ще пратим KrasiGa там админ като първа смяна. смяната ще е 1-2 години :)
+[16:37:57] <phalaaxx> еее yulimoto бива ли така за one way trip да пращаш хора дето не са изявили сами желание за това :D
+[16:40:47] <phalaaxx> rewind_work: https://www.youtube.com/watch?v=akM9KNEv_JE (не е съвсем по темата с кометите ама...)
+[16:40:48] <wilindex> [YouTube] Title: Nikola Tesla and The Electric Universe | Uploader: soupdragon42 | Uploaded: 25/11/2008, 16:11 | Duration: 10mins | Views: 103,991 | Comments: 337 | Likes: 510 | Dislikes: 45
+[16:42:35] <yulimoto> не е one way, след 1-2 години ще се върне със звание space admin, което си е голяма преднина :)
+[16:43:12] <yulimoto> за това и давам път на дамите, ама те си тръгнаха
+[16:56:46] <yulimoto> weather sofia
+[16:56:49] <yulimoto> .weather sofia
+[16:56:50] <wilindex> Yahoo! Weather - Sofia, BG: Rain and Snow, 2°C (35°F), 29in (982mb), Light air 3kt (↘)
+[16:56:59] <yulimoto> .weather yambol
+[16:57:00] <wilindex> Yahoo! Weather - Yambol, BG: Light Rain, 5°C (41°F), 29in (1012mb), Light breeze 6kt (→)
+[16:57:23] <yulimoto> .weather Stara Zagora
+[16:57:24] <wilindex> Yahoo! Weather - Stara Zagora, BG: Light Rain, 5°C (41°F), 29in (1012mb), Light breeze 6kt (→)
+[16:57:32] <yulimoto> .weather Burgas
+[16:57:33] <wilindex> Yahoo! Weather - Burgas, BG: Light Rain, 5°C (41°F), 29in (982mb), Fresh breeze 16kt (↑)
+[16:58:21] <hackman> .wheather Blagoevgrad
+[16:58:29] <hackman> .weather Blagoevgrad
+[16:58:30] <wilindex> Yahoo! Weather - Blagoevgrad, BG: Cloudy, 3°C (37°F), 29in (1011mb), Light breeze 6kt (↑)
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:03] <yulimoto> до събота може да се оправи :)
+[17:04:58] <hackman> все ми е едно
+[17:05:01] <hackman> в колата ще е топло
+[17:05:19] <hackman> в хотела ако не е топло, след като си поприказвам с тях, ще направят така, че да е топло
+[17:05:29] <hackman> на конференцията ще ми е топло по принцип :)
+[17:07:23] <yulimoto> ако не е топло, винаги можеш да си компилираш едно ядро по-специален, сгряващ начин, дано само и лаптопа ти да е на същото мнение :)
+[17:12:16] <phalaaxx> http://fs-bg.com/pics/Astro/06.06.2012/f/new_P1140027.bmp (Слънцето скрито от облаци и... Венера)
+[17:19:22] <hackman> yulimoto, дигам скандал и отивам на гости на KrassiGa ако не е топло :)
+[17:25:36] <yulimoto> hackman: то и топло да е нали ще огладнееш, тъй че КrasiGa да се стяга да те гости :)
+[17:27:05] <hackman> аз на жена не давам да ми готви :)
+[17:34:34] rewind_work (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) left irc: Ping timeout: 250 seconds
+[17:37:17] <phalaaxx> hackman: някаква полова дискриминация улавям в думите ти :P
+[17:38:40] <hackman> грешно се изразих... аз докато не видя храната... не мога да преценя дали ще я ям :)
+[17:38:45] <hackman> а на жена не искам да отказвам :)
+[17:45:25] dencho (~dencho@apollo.netissat.bg) left irc: Remote host closed the connection
+[17:47:45] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:13:36] Nick change: ndyakov -> ndyakov|away
+[18:28:39] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:06:49] Nick change: ndyakov|away -> ndyakov
+[19:20:45] Nick change: ndyakov -> ndyakov|away
+[19:50:43] hackman (~hackman@management.1h.com) left irc: Ping timeout: 272 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:18:26] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:37:16] user99 (John@78.130.186.99) left irc: Quit: Leaving
+[20:42:46] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:35:40] <_rewind> http://www.youtube.com/watch?feature=player_embedded&v=ARM42-eorzE
+[21:35:40] <wilindex> [YouTube] Title: INSANE Domino Tricks! (Hevesh5 & Millionendollarboy) | Uploader: Hevesh5 | Uploaded: 10/11/2013, 16:00 | Duration: 3mins 54secs | Views: 12,732,188 | Comments: 9,952 | Likes: 115,776 | Dislikes: 2,540
+[21:47:18] <_rewind> в случай, че някой като мен го е пропуснал - http://vimeo.com/43038579#
+[21:47:19] <wilindex> [ The Invisible Bicycle Helmet | Fredrik Gertten on Vimeo ] - vimeo.com
+[21:47:45] <_rewind> "...cars are so yesterday, bikes are tomorrow"
+[21:52:37] urban_filth (~urban_fil@95.111.6.98) left irc: Quit: Leaving
+[21:52:58] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:07:14] <phalaaxx1> nice :)
+[22:07:45] <_rewind> yep! :) me impressed also
+[22:28:39] <_rewind> http://d3u5xmnnxiuz0w.cloudfront.net/wp-content/uploads/2013/11/1276_lines_of_code5.png
+[22:52:20] Nick change: ndyakov|away -> ndyakov
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:14:28] <_rewind> http://www.liveleak.com/view?i=807_1383224319
+[23:14:29] <wilindex> [ LiveLeak.com - 100.000 euro Hackers ] - www.liveleak.com
+[23:28:11] <MoHu> WoWww
+[23:44:00] <_rewind> за украйна съм слушал достатъчно много и без този клип, този клип просто го потвърждава отчасти
+[00:00:00] --- Wed Nov 27 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

@@ -1,0 +1,708 @@
+
+--- Day changed вт юли 09 2013
+00:13 -!- AndChat|2004 [~McNamee@213.226.63.62] has quit [Ping timeout: 256 seconds]
+00:20 -!- georgidimov [3edd9aba@gateway/web/freenode/ip.62.221.154.186] has joined #telerikacademy
+00:36 -!- ViLKaTa [~villy@87.97.192.85] has quit [Quit: Konversation terminated!]
+01:15 -!- georgidimov [3edd9aba@gateway/web/freenode/ip.62.221.154.186] has quit [Ping timeout: 250 seconds]
+01:33 -!- You're now known as |o
+01:33 -!- You're now known as yulimoto
+05:02 -!- samy [~samy@84.238.184.98] has quit [Ping timeout: 256 seconds]
+05:16 -!- samy [~samy@91.196.227.180] has joined #telerikacademy
+09:02 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+09:02 < KrasiGa> Добро утро! Усмихнат ден :)
+09:25 < yulimoto> Добро утро! 
+09:27 < KpeTeHoug> добро да е KrasiGa
+09:27 < KpeTeHoug> сменила си нещо буквите
+09:27 < KpeTeHoug> пораснала ти е работата дет се вика :)
+09:33 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+09:33 < KrasiGa> хахаха :) ами порасна ми ДА
+09:39 < yulimoto> сега за втората домашна трябва да си изберем още един въпрос от листа с 20 въпроси от първия лист ли ?
+09:40 < KpeTeHoug> не
+09:40 < yulimoto> ами ? 
+09:40 < KpeTeHoug> има си списъци за 2ра и 3та лекция
+09:40 < KpeTeHoug> сега нищо
+09:40 < KpeTeHoug> 1 домашно за двете седмици
+09:40 < KpeTeHoug> това е
+09:40 < KpeTeHoug> намаление :)
+09:40 < yulimoto> аха 
+09:41 < KpeTeHoug> тоне така схванах аз, ей шефа да каже :)
+09:41 < yulimoto> аз се бях засилил значи за 0 точки 
+09:41 < yulimoto> добре че ме спря
+09:41 < KpeTeHoug> ^_^
+09:43 < KpeTeHoug> аз трябва да оправя моето малко, че съм забравил да сложа линкове
+09:44 < KpeTeHoug> до до четвъртък 11:58 има време
+09:44 < yulimoto> то и аз 
+09:45 < yulimoto> чудя се дали да го сменя с нещо по интересно, ама може да почовъркам и без да го сменям 
+09:53 < KrasiGa> ако има много желаещи да пишат повече от едно домашно може да ми помогнат :)
+09:55 < KpeTeHoug> поне тема избрала ли си  :)
+09:57 < KrasiGa> не
+09:58 < KpeTeHoug> напредваш бавно и сигурно, виждам :)
+09:59 -!- nveselinov [nveselinov@151.237.4.4] has joined #telerikacademy
+09:59 < KrasiGa> опитавм се
+10:00 -!- hackman [~HackMan@wolf.yuhu.biz] has quit [Ping timeout: 268 seconds]
+10:00 < KrasiGa> трябва да изслушам втората лекция ама все не намирам време
+10:00 < KpeTeHoug> то и аз не съм я доизслушал
+10:00 < KrasiGa> е да ама 11 идва
+10:02 < KpeTeHoug> е идва да :)
+10:04 -!- nveselinov_ [nveselinov@151.237.4.4] has joined #telerikacademy
+10:05 -!- nveselinov_ [nveselinov@151.237.4.4] has quit [Client Quit]
+10:05 -!- nveselinov [nveselinov@151.237.4.4] has quit [Quit: Leaving]
+10:06 -!- nveselinov [nveselinov@151.237.4.4] has joined #telerikacademy
+10:20 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+10:24 < Informer> ViLKaTa, dencho, за тоя VPS задължително ли е да се инсталира въпросния Spyhunter?
+10:26 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+10:26 < Informer> отговорих си вече..
+10:37 -!- samy_ [~samy@84.238.184.98] has joined #telerikacademy
+10:37 < samy_> uh oh
+10:37 < samy_> dobru utru
+10:38 < ViLKaTa> Ne
+10:38 < ViLKaTa> Maj, de
+10:38 < ViLKaTa> Ама.. Те не са ъп сега..
+10:38 < ViLKaTa> Имаха проблеми.
+10:38 < samy_> nqkoi da si e imal rabota
+10:38 < ViLKaTa> Не знам след 10-ти какви услуги ще предлагат
+10:38 < samy_> sys cisco vpn?
+10:39 < ViLKaTa> Това са старите. Най-вероятно новите ще са същите или подобни.
+10:40 < Informer> ViLKaTa, значи да не очаквам мейла за потвърждение на акаунта скоро?
+10:40 < ViLKaTa> Ми, проверявай.. Аз мисля след 10-ти да пусна заявка.
+10:40 < ViLKaTa> Сега не мога да се логна със старото ми юзер и пасс
+10:41 -!- hackman [~HackMan@management.1h.com] has joined #telerikacademy
+10:41 < ViLKaTa> Системата им частично работи.
+10:41 < ViLKaTa> На забравена парола ми изпратиха нова, но не мога да се логна.
+10:41 -!- samy [~samy@91.196.227.180] has quit [Ping timeout: 268 seconds]
+10:41 -!- hackman is now known as Guest72268
+10:41 -!- samy_ is now known as samy
+10:42 < ViLKaTa> То, да не очакваш много от тези.. Само за чоплене става. Аз се бях засилил да го ползвам за фтп. Да си накачвам 10-тина ГБ файлове..
+10:42 < ViLKaTa> Ама се сринаха
+10:43 < ViLKaTa> По-точно ги сринаха
+10:43 < ViLKaTa> Хакерска атака
+10:44 < KpeTeHoug> samy какво по точно за впн
+10:47 < ViLKaTa> Ем, ползвах един фрее впн
+10:47 < ViLKaTa> Дет го хакнаха.
+10:47 < samy> be az iam slujeben
+10:47 < samy> nqkfo importwam pcf-a
+10:47 < samy> pisha tam paroli a u kfo shto
+10:47 < samy> wryzwa se
+10:47 < samy> posle kat ida na stranicata
+10:47 < samy> ne zarejda nekfo...
+10:47 < ViLKaTa> Сега му правят упгрейди и ще го рестартират. На 10-ти трябва да е ъп.
+10:48 < KpeTeHoug> samy то това не е от самия впн :)
+10:49 < KpeTeHoug> а от рутирането на нета
+10:49 < KpeTeHoug> ако ви трябва фрий впн, с добра скорост
+10:49 < ViLKaTa> Оф, аз говоря за впс.. Объркахте ме тука..
+10:49 < KpeTeHoug> :)
+10:49 < KpeTeHoug> https://www.okayfreedom.com/
+10:50 < KpeTeHoug> само че е лимитиран, стига колкого за регистрации и такива други глупости дребни
+10:50 < samy> samy> be az iam slujeben
+10:50 < samy> vpn
+10:50 < KpeTeHoug> който те вкарва в вашата вътрешна мрежа
+10:51 < KpeTeHoug> но това не значи че ще ти пусант нет по него :)
+10:51 < KpeTeHoug> *пуснат
+10:51 < ViLKaTa> Това е за windows
+10:51 < KpeTeHoug> е аз предположих че cisco vpn  го ползва на уиндоус :)
+10:52 < samy> polzwam
+10:52 < samy> samo pcf-a
+10:52 < samy> w smisyl importnal sym go
+10:53 < samy> otdelno mi iska user pass i group pass
+10:53 < samy> predi se logwah s username i pass
+10:53 < KpeTeHoug> да
+10:54 < KpeTeHoug> и сега иmaш достъп до фирмената ви мрежа
+10:54 < KpeTeHoug> какво IP вземаш от там
+10:54 < samy> iam dryshki :D
+10:54 < KpeTeHoug> :) или чушки
+10:54 < samy> manja s grozde
+10:55 < KpeTeHoug> последно на Windows ли е тоя клиент :)
+10:55 < KpeTeHoug> че ViLKaTa ми се скара тука че го подвеждам
+10:55 < KpeTeHoug> :)
+10:55 < samy> linux
+10:55 < ViLKaTa> Да! Кажи "Срам ме е"
+10:55 < ViLKaTa> хаха
+10:55 < KpeTeHoug> ^_^
+10:56 < KpeTeHoug> нема се срамувам пък, ко да направя, фирмата полазва Win приложения и тн :)
+10:56 < KpeTeHoug> и аз ползвам
+10:57 < KpeTeHoug> сега последно
+10:57 < KpeTeHoug> успяваш ли да се вържеш с юзър и пас или не :)
+10:57 < samy> za login mi iska user pass i group pass
+10:57 < samy> kato gi napisha se wryzwa
+10:57 < samy> no w posledstwie nqam dostyp do stranicata
+10:58 < ViLKaTa> А IP, ала-бала, всичко наред ли е при теб?
+10:59 < samy> w smisyl?
+10:59 < ViLKaTa> Имаш ли пинг до въпросната страница?
+10:59 < KpeTeHoug> смислен :)
+10:59 < KpeTeHoug> на ифконфиг
+10:59 < KpeTeHoug> имаш ли нов интерфейс
+10:59 < KpeTeHoug> с ип
+11:04 < samy> iam
+11:04 < dencho> dobro utro we ora
+11:04 < KpeTeHoug> добре :) напредък
+11:04 < samy> e dobru
+11:04 < KpeTeHoug> добрутру dencho
+11:04 < ViLKaTa> Добър ден, Денчо :)
+11:04 < KpeTeHoug> това значи че все пак си във вашто мрежа :)
+11:05 < KpeTeHoug> сайтът който искаш да достъпиш кой е :)
+11:05 < ViLKaTa> Сега разбери защо нямаш достъп до съответната страница.
+11:05 < ViLKaTa> Пусни и един пинг
+11:05 < ViLKaTa> Към адреса.
+11:05 < samy> samy@samy:~$ ping animals.nvms.bg
+11:05 < samy> ping: unknown host animals.nvms.bg
+11:06 < dencho> normalno
+11:06 < dencho> :P
+11:06 < dencho> sbyrkal si adresa?
+11:06 < samy> http://animals.nvms.bg/animals/mainpage.jsf
+11:06 < KpeTeHoug> да, и аз не виждам такъв адрес :)
+11:06 < samy> i taka ne go iska
+11:07 < ViLKaTa> Ama ako e na VPN-a, nie nema kak da go vidim, che ne sme v tazi mreja.
+11:07 < samy> PING vpn.nvms.government.bg (213.226.44.84) 56(84) bytes of data.
+11:07 < samy> 64 bytes from 213.226.44.84: icmp_req=1 ttl=247 time=4.32 ms
+11:07 < ViLKaTa> samy, kak mu e lokalnia adres?
+11:08 < ViLKaTa> I?
+11:08 < samy> samo det trqa se logna
+11:08 < samy> prez po-gorniq link
+11:08 < ViLKaTa> Tova li iskash da otvorish?
+11:08 < samy> http://animals.nvms.bg/animals/mainpage.jsf
+11:09 < ViLKaTa> Aha
+11:09 < samy> pcf-a go gepih ot windowskiq wpn
+11:09 < samy> prez koito se logwah
+11:09 < samy> a sq...
+11:10 < samy> yok
+11:10 < KpeTeHoug> то бе трябвало да има проблем с pcf той си е прост конф файл
+11:10 < KpeTeHoug> а и щом те логва
+11:10 < samy> logwa me
+11:11 < samy> kato mu dam user passa i group passa
+11:11 < samy> a predi beh s username i pass samo
+11:11 < samy> group passa go namerih toi si beshe zalojen po default
+11:11 < KpeTeHoug> ако искаш едитни си самият файл
+11:11 < KpeTeHoug> аз понеже съм мързелив
+11:11 < KpeTeHoug> и съм си сложил вътре пас и тн
+11:12 < KpeTeHoug> да не ме чуе някой че е в plain text
+11:12 < samy> neshto ne e kakto trqbwa ;s
+11:12 < samy> hahahaha :D
+11:12 < ViLKaTa> Да
+11:12 < ViLKaTa> samy , под уин помниш ли какво ИП си взимаше?
+11:12 < ViLKaTa> Дали е същото?
+11:13 < samy> ne pomnq
+11:13 < ViLKaTa> .Че този юзър и пасс са ти за мрежата, но не и за самия сайт
+11:13 < ViLKaTa> Да не би в него да се влиза и по ИП?
+11:13 < samy> He
+11:14 < ViLKaTa> Е, ти от къде знаеш как е настроен?
+11:14 < KpeTeHoug> :)
+11:14 < KpeTeHoug> правилно, не знаеш
+11:14 < samy> be az sefte baram
+11:14 < samy> vpn na linux
+11:14 < ViLKaTa> Може да ти дава да се логнеш и да си пишеш юзер и пасс само ако си през ВПН-а с ип 192.168.50.100 примерно
+11:14 < samy> w pcf- wsichko si e zalojeno
+11:15 < KpeTeHoug> за достъп до мрежата да
+11:15 < ViLKaTa> Ако не си с тва ИП, пак си в мрейата, но сървърът изобсхто ниама да ти даде достап да се логнеш
+11:15 < dencho> specialno za ViLKaTa http://youtu.be/vFGGMYhzvIg 6tot ma kefi dneska :D
+11:15 < samy> chei da widq
+11:15 < samy> u windowsa kfo e
+11:15 < KpeTeHoug> да, точно ViLKaTa, и аз туй се опитвам да обясня :)
+11:15 < KpeTeHoug> макар че ако е с негов си юзър и пас
+11:15 < KpeTeHoug> сигурно те са вързани с едно ип
+11:15 < ViLKaTa> Да
+11:15 < samy> brb
+11:16 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+11:16 -!- Guest72268 is now known as azilian
+11:16 < ViLKaTa> dencho, Kamen vchera beshe v Plovdiv
+11:16 < ViLKaTa> Videhme se za 1 chas
+11:16 -!- azilian is now known as hackman
+11:16 < dencho> ViLKaTa q mislq da oda na grada v 4etvurtak i sqka6 6te mu se obada da sa vidim
+11:16 < dencho> 4e toi iska6e ne6to da hostne pri mene, ama posle izbqga
+11:16 < dencho> kvo vika... jiv li e?
+11:16 < dencho> :D
+11:17 < ViLKaTa> Da. Bachka kat magare. Iska da si hostne site na firmata
+11:18 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+11:18 < dencho> az iskam da mi hostne edna ciganka hahaha
+11:18 < dencho> pi4ove... poneje sam socialno slab, nqkoi da ima izli6en switch ?
+11:19 < dencho> ebasi ti6inata :D
+11:20 < samy> e dobre be
+11:20 < samy> sq ima ima ping
+11:20 < samy> w linuxa nqma
+11:20 < KpeTeHoug> dencho имам, ма ко ти го пратя до сф
+11:20 < KpeTeHoug> щи излезе почти като нов :)
+11:20 < dencho> KpeTeHoug 6to we... kade se namira6 ti?
+11:20 < KpeTeHoug> samy  а ИП-тата еднакви ли са дето вземаш :)
+11:20 < dencho> az imam agenti iz cqla bulgaria :D
+11:20 < KpeTeHoug> dencho в търново :)
+11:20 < samy> ne
+11:20 < samy> fashta mi router ip-to
+11:21 < dencho> KpeTeHoug IDEALNO WE!
+11:21 < samy> w wpn-a
+11:21 < dencho> KpeTeHoug daje 6te ti prata edno mome da go vzeme barem da oplakne6 okoto
+11:21 < KpeTeHoug> и после на гръб да ти го донесе нали :)
+11:21 < KpeTeHoug> робски труд
+11:22 < KpeTeHoug> samy това виртуалка ли ти е линукса
+11:22 < dencho> hahaha posle boja rabota :D
+11:22 < samy> http://paste.ubuntu.com/5857754/
+11:22 < dencho> v turnovo imam tamun dve to4ki za kontakt :D
+11:23 < KpeTeHoug> момент да видя къде съм го забутал
+11:23 < dencho> q vij ti, 4e da znam dali da budq momi4eto :P
+11:23 < dencho> moje da e imala tejka no6t :D
+11:25 < KpeTeHoug> може, може
+11:25 < KpeTeHoug> не е в офиса, сигурно е в колата
+11:26 < KpeTeHoug> като се върна от обяд ше видя, че съм паркирал на майна си райна
+11:27 < dencho> doobre :P
+11:27 < dencho> az ne burzam
+11:28 < dencho> taka... switch-a go uredihme... sledva6toto e... niskoprofilna lan karta?!
+11:28 < dencho> nqkoi da razpolaga s tova 4udo na jelqznite plastinki :D
+11:28 < dencho> hahah
+11:28 < samy> e ne e wirtualka
+11:29 < ViLKaTa> dencho, продава се сървър с не знам какав процесор, 1ГБ РАМ и 3 HDD с по 30-тина ГБ
+11:29 < ViLKaTa> 60лв
+11:29 < dencho> da si go dryjat
+11:29 < dencho> kuv procesor ? no s tozi 1 gb ram kakvo da go prava?
+11:30 < ViLKaTa> Ми, тури ми още, ако искаш.
+11:30 < ViLKaTa> Де да знам.. Един авер го продава.
+11:30 < ViLKaTa> Ама не става за вкъщи. Много е шумен.
+11:30 < dencho> mi edno e 4e nqmam pari, drugo e 4e da kupa ne6to i posle da mu kupuvam o6te raboti :D
+11:30 < dencho> mi 6a go sloja v telepoint we
+11:30 < dencho> :P
+11:31 < dencho> da im brum4i na tqh
+11:31 < dencho> haha
+11:33 < ViLKaTa> Em, ti ne znam kakvo tolkova hostvash..
+11:33 < ViLKaTa> Ama na men 1GB mi e predostatachno za kakvoto i da e.
+11:33 < ViLKaTa> Edin file server - idealka
+11:33 < ViLKaTa> brb
+11:33 < KrasiGa> за да се регистрирам в host1free задължително ли трябва да си кача spyhunter? има ли начин да се заобиколи?
+11:34 < dencho> KrasiGa ne znam za takova ne6to az
+11:34 < dencho> daje ne znam i kakvo e tova
+11:34 < KrasiGa> допусна ме до регистр форма без да го качвам ама това дето изчетох
+11:34 < KrasiGa> пише, че трябва
+11:34 < dencho> az ne bih :P
+11:34 < KrasiGa> е мн ясно
+11:34 < KrasiGa> аз си имам антивирусна
+11:35 < dencho> e tq ne 4e raboti za teb :P
+11:35 < KrasiGa> питам за да не пиша напразно
+11:35 < dencho> no ne bih instaliral ne6to koeto puk hepten ne znam kakvo pravi :D
+11:35 < KrasiGa> и накрая да не стане нищо
+11:35 < KpeTeHoug> dencho - нископрофилна демек някъф realteck 10/100
+11:35 < KpeTeHoug> ?
+11:35 < KpeTeHoug> *realtec
+11:35 < dencho> KpeTeHoug demek s po-malka prastinka za6toto kutiqta e tqsna :P
+11:36 < dencho> metalna plastinka
+11:36 < KpeTeHoug> a
+11:36 < KrasiGa> ами там пише, че е антивирус със цел да не им се заразяват машините и т.н
+11:36 < KpeTeHoug> ферштеен
+11:36 < dencho> KrasiGa, az predi bqh nameril nqkakuv aff link koito propuska6e tazi ne6ta... ako izka6 iz4akai da potursq
+11:36 < dencho> :)
+11:36 < KrasiGa> ок
+11:38 -!- samy [~samy@84.238.184.98] has quit [Quit: Leaving]
+11:39 < KpeTeHoug> dencho ти какво толквоа хостваш :) да питам иа з
+11:39 < dencho> no te o6te ne sa si opravili sistemata i sigurno ne priemat registracii, KrasiGa
+11:39 < dencho> e... tazi informacia e klasificirana, KpeTeHoug :P~
+11:39 < KpeTeHoug> т.е p0rn
+11:39 < KrasiGa> дава ми, че e-mail is banned
+11:40 -!- angie_bg [~angie@77.236.189.210] has joined #telerikacademy
+11:40 < dencho> KrasiGa probvai sled 10-ti
+11:40 < dencho> ili kogato go pusnat az 6te ti kaja
+11:40 < dencho> poneje, ne moga da se logna v akaunta i da vzema aff link ako ima takuv
+11:40 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+11:41 < KpeTeHoug> време за обяд, до към след 2 часа :)
+11:43 < samy> offf
+11:44 < samy> nerwa se
+11:44 < samy> qk0
+11:45 < dencho> v takuv slu4ai SPRI i izlez za 15 minuti :D
+11:45 < KpeTeHoug> или обядвай
+11:45 < samy> oshte ne sym si izpil kafeto
+11:45 < samy> na chas si prawq po 10min
+11:45 < samy> razhodka
+11:45 < KpeTeHoug> и азю
+11:46 < dencho> az puk moga po 8 4asa da sedq bez da stavam (ako mi e interesno) haha
+11:46 < dencho> :D
+11:46 < samy> az weche ne moga
+11:46 < samy> dyrt sym
+11:46 < dencho> :]
+11:47 < dencho> ose6tam kak email-a mi e preprodaden pone 20 puti :P
+11:49 -!- angie_bg [~angie@77.236.189.210] has left #telerikacademy []
+11:49  * dencho slaps ViLKaTa around a bit with a large trout
+11:51 -!- samy [~samy@84.238.184.98] has quit [Ping timeout: 264 seconds]
+11:57 -!- ViLKaTa [~villy@87.97.192.85] has quit [Quit: Konversation terminated!]
+11:58 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+12:02 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Ping timeout: 248 seconds]
+12:12 -!- Netsplit *.net <-> *.split quits: Informer
+12:12 -!- Netsplit *.net <-> *.split quits: alabala
+12:13 -!- Netsplit *.net <-> *.split quits: KpeTeHoug
+12:13 -!- Netsplit *.net <-> *.split quits: KrasiGa
+12:13 -!- Netsplit *.net <-> *.split quits: nveselinov
+12:14 -!- Netsplit *.net <-> *.split quits: lyubenblagoev_
+12:14 -!- Netsplit *.net <-> *.split quits: looser99
+12:14 -!- Netsplit *.net <-> *.split quits: phalaaxx, @ChanServ
+12:15 < dencho> taz mreja splitva vseki den bre :D
+12:17 -!- Netsplit over, joins: lyubenblagoev_, Informer, nveselinov, KrasiGa, phalaaxx, looser99, KpeTeHoug, alabala, @ChanServ
+12:19 < yulimoto> има ли вариант при виртуалките, при включване на пс-то да не зарежда някаква OS ами да ни пита коя виртуалка искаме да заредим ? Струва ми се че е логично да има такива някакви таквиа варианти 
+12:20 < yulimoto> един вид бут лоудър който да работи и с виртуалки 
+12:21 < yulimoto> може би въпроса е лейм, ама аз с тези витуализации съм на първа среща 
+12:22 < hackman> yulimoto: би следвало да виждаш Grub в момента в който boot-ваш
+12:22 < hackman> така както аз ви показах grub-а на предната лекция
+12:23 < hackman> докато отброява можеш да натиснеш ESC и да избереш друг kernel или изцяло друга ОС
+12:25 < yulimoto> hackman: да аз го виждам, но се чудех вместо да зарежда биос,груб,ос после аз да си зареждам VirtualBOx и да зареждам виртуалка. Дали няма някакво извращение, да се съкрати тоя път. Примерно от Oracle да измислят директно да се бутва някакъв VirtualBox като ос 
+12:25 < yulimoto> просто така ми дойде, че може да се съкрати 
+12:27 -!- Fairytale [Fairytale@police.executie.org] has joined #telerikacademy
+12:27 < yulimoto> както и да е като напредна в терминологията се надявам да го обяснявам така що поне аз да се разбирам 
+12:29 < hackman> yulimoto: логичното в такава ситуация е да направиш виртуалката да е на физически дял, да добавиш конфигурацията за boot от този дял в първият Grub и от там да си избереш ОС-а от другият дял вместо основният ти
+12:31 < yulimoto> ха разбра ме при условие, че аз едвам се разбирах :) 
+12:39 < hackman> sysadmin майна... :)
+12:48 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has left #telerikacademy ["Leaving"]
+12:48 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+12:49 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+12:49 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+12:52 -!- gyankov [2e2f7223@gateway/web/freenode/ip.46.47.114.35] has joined #telerikacademy
+12:53 < gyankov> Някой от тук просъстващите успя ли да си направи безплатен VPS в http://www.host1free.com/free-vps/ ?
+12:54 < gyankov> Който е успял може ли да даде някакви по-прости стъпки как точно се случва? :)
+12:56 -!- samy [~samy@91.196.227.180] has joined #telerikacademy
+12:56 < dencho> zna4i
+12:57 < dencho> host1free imaha problem
+12:57 < dencho> i sprqha registraciite poneje bqha hacknati
+12:57 < gyankov> Аха
+12:57 < dencho> oficialno kazaha 4e sled 10.07 6te vuztanovqt registraciite
+12:57 < dencho> opitai utre... ili vdrugi den
+12:58 < gyankov> Ясно, бладодаря, а иначе чрез sign up ли става първоначално?
+12:58 < dencho> predpolagam ot tuk http://members.host1free.com/vps?ac=h1f_register_vps
+12:59 < gyankov> Това пък откъде го изкара :D.
+12:59 < gyankov> Аз не успях да го открия :).
+12:59 < dencho> taen link :P
+12:59 < dencho> koito vilkata go e spestil :P
+12:59 < dencho> 6te mu kaja da si editne post-a :)
+13:00 < dencho> ako uspeete da se regnete ot nego
+13:00 < dencho> :P
+13:00 < gyankov> Мерси, Денчо ;).
+13:00 < dencho> molq :)
+13:01 -!- samy [~samy@91.196.227.180] has quit [Ping timeout: 268 seconds]
+13:03 < dencho> dedo kiril se e udavil bre!
+13:41 < KrasiGa> koi e dedo Kiril?
+13:47 < dencho> http://society.actualno.com/Varnenskijat-mitropolit-Kiril-e-nameren-udaven-news_430748.html
+13:48 < dencho> Ìèòðîïîëèò Êèðèë ñòàíà ñêàíäàëíî èçâåñòåí ñëåä êàòî ñå ñäîáè ñ àâòîìîáèë "Ëèíêúëí MKZ Õèáðèä
+13:48 < dencho> Read more: http://society.actualno.com/Varnenskijat-mitropolit-Kiril-e-nameren-udaven-news_430748.html#ixzz2YXnXfN71
+13:48 < dencho> haha
+13:48 < dencho> qko :D
+13:49 < KrasiGa> яко?
+13:51 < dencho> linkuln
+13:51 < dencho> :P
+13:52 < dencho> mkz hybrid
+13:52 < dencho> :D
+13:52 < KpeTeHoug> може да е атеист и сатанист dencho
+13:52 < KpeTeHoug> и затва да се кефи
+13:52 < dencho> ne be, kefq se na hybrida :P
+13:52 < dencho> no sam ateist - da :P
+13:52 < dencho> nqmam linkuln :P
+13:54 < KpeTeHoug> чувал съм го тоя с хибрида да
+13:54 < KpeTeHoug> за някакви луди пари
+13:56 < dencho> pi4aga e, nqma da se o4udq, ako ne sa go ubili :P
+13:56 < dencho> samoudavili
+13:56 < dencho> :P
+13:57 < KpeTeHoug> да, самонамушкал се е в гръб
+13:57 < KpeTeHoug> .... 17пъти
+13:58 < hackman> http://9gag.com/gag/aVOQ6L2
+13:59 < KpeTeHoug> хахахаха
+14:00 < KpeTeHoug> зависи дали не е планирано все пак
+14:01 -!- KacanuH [~KacanuH@wolf.yuhu.biz] has joined #telerikacademy
+14:04 < dencho> :)
+14:04 < dencho> v sofiiskoto pole pak 6te vali da mu se ne vidi
+14:26 < KacanuH> защо бе денчо, какво те притеснява, на открито ли си
+14:29 < dencho> ne obi4am da vali
+14:29 < dencho> :D
+14:30 < yulimoto> dencho: Тия Host1Free.com какво по-точно предлагат ? На единия линк гледам че има някакви centOS templates
+14:32 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+14:33 < KpeTeHoug> vps
+14:34 < yulimoto> това е интересно ; с какви параметри долу горе ? 
+14:34 < yulimoto> нещо не виждам информация на страницата
+14:38 < KpeTeHoug> 10гб /128 рам и тн
+14:38 < KpeTeHoug> ма сайта бил down до 10ти
+14:38 < yulimoto> аха 
+14:38 < yulimoto> а да
+14:38 < yulimoto> те ми пратиха емайл 
+14:39 < yulimoto> след седмица щяли да ми активират акаунта
+14:39 < yulimoto> или нещо от сорта
+14:39 < KpeTeHoug> да, нещо подобно
+14:39 < yulimoto> нали е аванта ще трябва да се пробва; едно време бяха шелове - сега направо vps-и 
+14:42 < dencho> vsi4ko predlagat sqka6
+14:42 < dencho> :D
+14:42 < dencho> host1plus im e plateniq sait
+14:42 < dencho> NO
+14:42 < dencho> imai edno na um, poneje ne pravqt backups
+14:42 < dencho> a predi okolo mesec gi hacknaha mnogo zdravo
+14:43 < dencho> ina4e...
+14:43 < dencho> vps-ite ne sa lo6i
+14:43 < dencho> :)
+14:43 < dencho> qsno e 4e ve4e pove4eto telefoni sa po silni po parametri ot tqh :P
+14:44 < dencho> 128 ram :P~
+14:44 < KpeTeHoug> е за конзола
+14:45 < KpeTeHoug> колко ти трябва
+14:47 < dencho> da
+14:47 < dencho> :)
+14:47 < dencho> taka e :D
+14:47 < dencho> vilkata be6e pravil testove i kaza 4e sa mu dostatu4ni :D
+14:49 < KpeTeHoug> ми зависи от процесите
+14:49 < KpeTeHoug> моята виртуалка рядко минава над 100-120
+14:53 < yulimoto> ами то за проби ще са 
+14:53 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+15:09 < hackman> http://www.youtube.com/watch?v=GvNnv7nh2Es&feature=youtu.be
+15:09 < KrasiGa> Да Ви питам за тази тема  3. Write down the commands needed to create, mount and unmount an encrypted partition. Why have you selected the technology you have used? ето това върши ли работа?
+15:09 < KrasiGa> това http://manpages.ubuntu.com/manpages/lucid/man8/cryptmount.8.html
+15:10 < dencho> sqka6 da
+15:10 < dencho> :)
+15:10 < dencho> cryptmount   allows  an  encrypted  filing  system  to  be  mounted  or
+15:10 < dencho>        unmounted, without requiring  superuser  privileges,  and  assists  the
+15:10 < dencho>        superuser   in  creating  new  encrypted  filesystems.
+15:10 < dencho> :)
+15:10 < KrasiGa> значи наистина е лесно домашнот ;)
+15:12 < KpeTeHoug> мацката върви ли в комплект
+15:12 < KpeTeHoug> с MB
+15:16 < KrasiGa> ??
+15:16 < hackman> някой е видял MB на клипа ?
+15:16 < hackman> аз сякаш само мацка видях :)
+15:17 < KrasiGa> при мен не върви Youtube :(
+15:20 < KpeTeHoug> ами
+15:20 < KpeTeHoug> зависи кой лош админ ви е филтрирал :)
+15:20 < dencho> tva samo ot msi moe da izmislqt takava prostotiq
+15:20 < KrasiGa> nssi
+15:21 < KpeTeHoug> KrasiGa сайта ли не зарежда, или видеа въобще
+15:21 < dencho> KrasiGa probvai s https://youtube.com :D
+15:21 < KrasiGa> ami to i az sam admin ama ne sam v ЦУ
+15:21 < dencho> ne vqrvam da e filtriral 443
+15:21 < KrasiGa> забранили са ни някои неща
+15:21 < KpeTeHoug> а инсталация може ли да правиш :)
+15:22 < dencho> samo az li ne sam admin tuka?
+15:22 < KpeTeHoug> ако е сайта, пробвай по ИП
+15:22 < KpeTeHoug> 173.194.39.232
+15:22 < KpeTeHoug> едва ли ще стане, ама знае ли се
+15:22 < dencho> az zalagam na https :P
+15:22 < KpeTeHoug> а ако може да инсталира да си сложи впн :)
+15:23 < KpeTeHoug> админ е много обща дума :)
+15:23 < KpeTeHoug> твърде обща
+15:25 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Ping timeout: 250 seconds]
+15:25 < KpeTeHoug> направо и заби нета:)
+15:26 < dencho> :D
+15:30 < KacanuH> споде денчо и аз не съм :)
+15:39 < yulimoto> това с msi е като тунинга на колите и мацките; аз напоследък обаче взех нещо да се зарибявам по cyberpunk истории и направи си сам истории 
+15:41 < KpeTeHoug> е направи си сам азиатка
+15:41 < yulimoto> hahah 
+15:41 < yulimoto> гад
+15:41 < KpeTeHoug> :)
+15:41 < KpeTeHoug> бтв, това да имаш много време да си пишеш домашните е гадно
+15:41 < KpeTeHoug> правя втора ревизия вече
+15:41 < yulimoto> а да 
+15:42 < yulimoto> и аз ще правя ревизия 
+15:42 < yulimoto> ама реших първо да уклецам тука 2-3 райда 
+15:42 < hackman> пишете по следващите теми
+15:43 -!- user99 [~McNamee@213.226.63.155] has joined #telerikacademy
+15:43 < yulimoto> hackman: да, ама искам да хвана райда и lvm, че като ги забравя да се сетя от първия път ;) 
+15:44 < KpeTeHoug> освен това, предпочитам да гледам първо лекциите
+15:45 < KpeTeHoug> hackman аз имам процедурен въпрос
+15:45 < yulimoto> hackman: лесно ли би станало ramfs с мирър райд ? 
+15:45 < yulimoto> KpeTeHoug: аз съм пръв
+15:45 < yulimoto> ;P
+15:45 < KpeTeHoug> :)
+15:46 < KpeTeHoug> аз само да питам, като съм само онлайн, и си направя всичките домашни и тн
+15:46 < KpeTeHoug> само присъствен ли ще е изпита
+15:46 < KpeTeHoug> че не ми се пътува особенно :)
+15:49 -!- sshh [~sshh@89-215-55-40.2073686880.ddns-lan.pl.ekk.bg] has joined #telerikacademy
+15:50 -!- sshh [~sshh@89-215-55-40.2073686880.ddns-lan.pl.ekk.bg] has quit [Client Quit]
+15:53 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+15:53 < yulimoto> hackman: въпроса ми отпада засега . Намерих материали, като зачекна тогаз ще те тормозя.
+15:54 < hackman> KpeTeHoug: само, присъствен изпит
+15:56 < KpeTeHoug> в смисъл, всички вкупом, на някакви машини ще правим разни работи
+15:56 < hackman> да, това е идеята :)
+15:56 < hackman> ще видим наков как ще го организира, защото това си е ебало мамата от работа по време на ипзита
+15:57 < hackman> 200-300 машини постоянно потрошени от студенти на изпит
+15:57 < hackman> не ми се мисли
+15:57 < dencho> m da :D
+15:57 < yulimoto> ее не ти се мисли, ти за 10000 се грижиш, та 200-300 какво са
+15:57 < KpeTeHoug> не, щото честно, да се дигна от търново, да дойда, само пътя ми е 40-50 лв и тн :)
+15:57 < KpeTeHoug> ма ще го мислим
+15:58 < KpeTeHoug> ей dencho ще ме приюти
+15:59 < hackman> yulimoto: да, но моите не се чупят от колегите ми на всеки 10-20 мин:)
+16:00 < hackman> KpeTeHoug: online обучението е безплатно, сертификата ти е безплатен.... сега очакваш и билета да ти платим ли ? :)
+16:01 < KpeTeHoug> е да бе :)
+16:01 < KpeTeHoug> просто питам
+16:01 < yulimoto> hackman: ами така е. Повече чупени машини при наков, по-малко при теб ;)
+16:04 < ViLKaTa> При dencho съм аз на приют.
+16:04 < ViLKaTa> Заплюл съм се още преди да почне курсът.
+16:05 < KpeTeHoug> знаех си, ще спя под откритото небе
+16:06 < hackman> KpeTeHoug: при толкова много жени в студентски град има свободно място :)
+16:06 < hackman> все някоя ще те приюти ;)
+16:06 < hackman> ако си достатъчно начетен :)
+16:07 < KpeTeHoug> да, а жена ми ще пърха от радост че някоя колежка ме е прибрала :)
+16:07 < hackman> жена ти, те е пратила на изпит :)
+16:08 < KpeTeHoug> тей тей :) ще модофицирам инфото викаш :)
+16:10 < hackman> finish the task at all costs
+16:10 < yulimoto> KpeTeHoug: не просто ще пропуснеш да ѝ предадеш някои пакети :)
+16:12 < KpeTeHoug> хахахахах
+16:12 < KpeTeHoug> ще го измислим
+16:13 < KpeTeHoug> само една дата ли ще е изпита ?
+16:21 < hackman> идея си нямам :)
+16:30 < ViLKaTa> Тоз пък... Ти всичко ли казваш на жена ти? По-добре не го прави.
+16:43 < dencho> :]
+17:08 -!- Informer [~Informer@83.228.55.109] has quit [Quit: C ya!]
+17:22 -!- ViLKaTa [~villy@87.97.192.85] has quit [Ping timeout: 240 seconds]
+17:22 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+17:25 < gyankov> Ако някой има нужда от преспиване по време на изпита да се обажда :).
+17:27 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+17:27 < samy> ;[[[[
+17:28 -!- ViLKaTa [~villy@87.97.192.85] has quit [Remote host closed the connection]
+17:29 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+17:31 < samy> eee
+17:35 < ViLKaTa> ko, bre?
+17:35 < ViLKaTa> opravi li vpn-a?
+17:37 -!- ViLKaTa [~villy@87.97.192.85] has quit [Remote host closed the connection]
+17:38 -!- nrusev [5e9bc356@gateway/web/cgi-irc/kiwiirc.com/ip.94.155.195.86] has joined #telerikacademy
+17:46 -!- hackman [~HackMan@management.1h.com] has quit [Ping timeout: 246 seconds]
+17:53 -!- nrusev [5e9bc356@gateway/web/cgi-irc/kiwiirc.com/ip.94.155.195.86] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+17:59 -!- nrusev [5e9bc356@gateway/web/cgi-irc/kiwiirc.com/ip.94.155.195.86] has joined #telerikacademy
+18:20 -!- Fairytale [Fairytale@police.executie.org] has quit [Ping timeout: 248 seconds]
+18:26 < yulimoto> samy: Днес се сетих за мишката за 300лв. и се посмях :) 
+18:28 < samy> 2x=300
+18:28 < samy> ^_~
+18:28 < yulimoto> как 2 мишки ли си взе 
+18:28 < yulimoto> ?
+18:28 < yulimoto> за двете ръце 
+18:28 < yulimoto> а не ще падна 
+18:28 < samy> emi edna schupih i si wzeh druga
+18:28 < samy> :D
+18:29 < yulimoto> побърках се 
+18:29 < yulimoto> викам да не си взел за двете ръце
+18:29 < samy> xD
+18:30 < samy> treashe
+18:30 < samy> da si go izkaram na touch pada
+18:31 < yulimoto> да супер случка между другото сигурно някой път ще я разказвам (е разбира се ще я украся), но най-якото беше връзката с линукс
+18:31 < yulimoto> чудесна случка за бира
+18:32 < samy> ehaheahah
+18:33 < samy> ami ako go widish w deistwie? :D
+18:33 < yulimoto> хахах да
+18:36 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+18:36 < ViLKaTa> dencho
+18:36 < ViLKaTa> Tuk li si?
+18:38 < ViLKaTa> Niakoi s teamspeak?
+18:39 -!- nrusev [5e9bc356@gateway/web/cgi-irc/kiwiirc.com/ip.94.155.195.86] has quit [Quit: http://www.kiwiirc.com/ - A hand crafted IRC client]
+18:43 -!- user99 [~McNamee@213.226.63.155] has quit [Ping timeout: 246 seconds]
+18:45 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Read error: Connection reset by peer]
+18:45 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+18:47 -!- ViLKaTa [~villy@87.97.192.85] has quit [Read error: Operation timed out]
+18:59 < dencho> kaji we vilkata
+18:59 < dencho> of toz pa si otide
+18:59 < dencho> :D
+19:05 -!- samy [~samy@84.238.184.98] has quit [Ping timeout: 268 seconds]
+19:07 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+19:08 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+19:17 -!- user99 [~McNamee@213.226.63.62] has joined #telerikacademy
+19:19 -!- pgachev [~androirc@85.187.153.2] has joined #telerikacademy
+19:23  * dencho slaps ViLKaTa around a bit with a large trout
+19:23 < dencho> kaji we ViLKaTa
+19:43 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+19:44 -!- gyankov [2e2f7223@gateway/web/freenode/ip.46.47.114.35] has quit [Quit: Page closed]
+19:46 < ViLKaTa> Shiman MS
+19:48 < ViLKaTa> Umria mi audioto na skype
+19:58 < phalaaxx> skype става все по-нахална програма
+19:58 < phalaaxx> нищо чудно де, нали вече е осиновеното дете на Microsoft
+19:59 < dencho> az skype ne sum update-val ot versia 3.0.8
+19:59 < dencho> :P
+20:00 < phalaaxx> амии и аз не  бих пипал ноооо... натроших (демек преинсталирах) си линукса за да пробвам разни работи и ми се наложи да тегля отново от сайта им
+20:00 < phalaaxx> последната версия за линукс не може да отвори audio device ако няма достъп за четене до /etc/group файла
+20:01 < phalaaxx> само за справка, иначе се опитва да чете /etc/passwd, /home/$USER/.mozilla и още няколко по-малко интересни неща
+20:02 < phalaaxx> за windows ме е страх дори да си помисля къде се опитва да пипа, но какво пък - аз windows не ползвам така или иначе :D
+20:03 < phalaaxx> да му мислят тези които ползват windows, а за другите - препоръчвам да се потрудят да си напишат някое policy за скайп за apparmor/tomoyo/targeted policy за selinux или нещо друго MAC :)
+20:04 < phalaaxx> в процеса на писане на policy се вижда колко са му криви пръстенцата на гадния скайп
+20:04 < phalaaxx> ако можех да си убедя приятелите да зарежат скайп и да минат на нещо по-jabber... :))
+20:22 -!- Fairytale [Fairytale@police.executie.org] has joined #telerikacademy
+20:22 < dencho> da, i az ako mojeh da ubedq priqtelite si da minat na irc :P
+20:38 -!- user99 [~McNamee@213.226.63.62] has quit [Ping timeout: 264 seconds]
+20:55 -!- rox`away [~n_a@130-204-86-120.2073150800.ddns.cablebg.net] has joined #telerikacademy
+20:58 -!- roxrite [~n_a@130-204-86-120.2073150800.ddns.cablebg.net] has quit [Ping timeout: 276 seconds]
+21:02 -!- user99 [~McNamee@213.226.63.138] has joined #telerikacademy
+21:07 -!- Fairytale [Fairytale@police.executie.org] has quit [Ping timeout: 248 seconds]
+21:46 -!- milev [~martin@client-33-170.speedy-net.bg] has joined #telerikacademy
+22:24 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+22:33 -!- Deyan_ [~Deyan@46.249.92.240] has joined #telerikacademy
+22:34 < Deyan_> питане, някой зависва ли му VirtualBox след като го стартира
+22:34 < Deyan_> давам му старт и забива и не мога да разбера защо
+22:54 < ViLKaTa> С каква ОС?
+22:54 < ViLKaTa> Аз всеки път кат го инстална на Линукс и имам ядове.
+22:54 < ViLKaTa> После изнсталирам библиотеки и един куп лайна с говна.
+22:55 < ViLKaTa> Ама се оправя.
+22:57 -!- Deyan__ [~Deyan@46.249.92.240] has joined #telerikacademy
+22:58 < ViLKaTa> Deyan__  прочете ли горното?
+22:58 < ViLKaTa> Дет ти го написах.
+23:01 < Deyan__> не дай пак
+23:01 < Deyan__> дропнал съм се преди да го изпише
+23:02 -!- roxrite [~n_a@130-204-86-120.2073150800.ddns.cablebg.net] has joined #telerikacademy
+23:02 -!- Netsplit *.net <-> *.split quits: Deyan_
+23:04 -!- Netsplit *.net <-> *.split quits: rox`away, pgachev
+23:05 < ViLKaTa> На каква ОС искаш да качиш ВиртуалБокс?
+23:05 < ViLKaTa> И как го пускаш?
+23:05 < ViLKaTa> Като руут или?
+23:05 < Deyan__> на центос
+23:05 < Deyan__> мисля че го написах
+23:06 < Deyan__> пускам го като усер, може и там да е проблема, но ако ми искаше да съм роот, то да е изревало
+23:06 < ViLKaTa> Не
+23:06 < ViLKaTa> На мен така ми правеше кат го пускам кат руут
+23:06 < ViLKaTa> А с нормал усер ми даваше грешка
+23:07 -!- Netsplit over, joins: pgachev
+23:07 < ViLKaTa> Чек да вида histo съм писалry какво
+23:07 < Deyan__> я да видим дали ще помогне  :)
+23:08 < ViLKaTa> sudo /etc/init.d/vboxdrv setup
+23:08 < ViLKaTa> Vij dali i 4-te shte sa done
+23:09 < ViLKaTa> Posle tva sam pisal
+23:09 < ViLKaTa> zypper install glibc-headers glibc-devel kernel-headers kernel-devel dkms
+23:09 < ViLKaTa> И gcc некво съм инсталирал
+23:10 < ViLKaTa> После пак /etc/init.d/vboxdrv setup
+23:10 < ViLKaTa> I sega bachka
+23:11 < Deyan__> мерси, сега ще пробвам и ще пиша какви ги сътворих
+23:11 < ViLKaTa> Za CentOS mi iska ot options na Virtualbox-a da vkliucha PAE от опциите за процесора
+23:11 < ViLKaTa> Отделно и по дисплея чоплих нещо, че ми даваше черен екран.
+23:12 -!- pgachev [~androirc@85.187.153.2] has quit [Ping timeout: 260 seconds]
+23:21 < ViLKaTa> Какво стана, бре?
+23:23 -!- Deyan__ [~Deyan@46.249.92.240] has quit [Remote host closed the connection]
+23:24 -!- user99 [~McNamee@213.226.63.138] has quit [Ping timeout: 240 seconds]
+23:26 -!- Deyan_ [~Deyan@46.249.92.240] has joined #telerikacademy
+23:28 < ViLKaTa> Стана ли?
+23:28 < Deyan_> заби скапаният лаптоп
+23:29 < ViLKaTa> ;)
+23:29 < ViLKaTa> Няма да го зориш много.
+23:29 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+23:30 < Deyan_> а майната му, ще ми се наложи да стана и да седна на декстопа
+23:30 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+23:34 < phalaaxx> netboot инсталация за centos - някой борил ли се е с такова?
+23:35 < Deyan_> е само тоя таралеж не съм си вкарвал в гащите
+23:35 < Deyan_> но мисля че гледах някъде как се прави, не ми изглеждаше много проблематично
+23:36 < ViLKaTa> На мен не ми тръгна на виртуалката
+23:38 < dencho> 6to ne spite we
+23:39 < Deyan_> чакаме те да се появиш
+23:39 < dencho> i da vi prata po leglata li :P
+23:39 < dencho> haha
+23:39 < phalaaxx> оф разбрах къде бъркам (май) :D
+23:40 < Deyan_> phalaaxx, сподели и със нас
+23:40 < phalaaxx> дълго е
+23:40 < phalaaxx> при мен е странен сетъп-а :D
+23:41 < phalaaxx> linux и initrd са ми в паметта на един микротик
+23:41 < phalaaxx> както и dhcp-то де
+23:41 < phalaaxx> и се опитвам да го подкарам през pxeboot
+23:41 < phalaaxx> pxelinux boot
+23:42 < Deyan_> да започва да звучи все по объркващо
+23:42 < dencho> are pa i mikrotik sq
+23:42 < phalaaxx> миии... там си имам images за ubuntu raring ringtail и debian wheezy
+23:43 < dencho> qsno
+23:43 < phalaaxx> и реших и centos да добавя
+23:43 < phalaaxx> ама текстовия редактор на routeros-а нещо е много странен и се допускат грешки при редактиране на pxelinux.cfg :D
+23:48 < dencho> kakuv e?
+23:48 < dencho> nali e linux based?
+23:49 < phalaaxx> добре, инсталатора boot-на :)
+23:49 < phalaaxx> ама ми трябва репо
+23:50 < ViLKaTa> Тази Никол Станкулова не знам кой е мъж...
+23:51 < ViLKaTa> Ама ако бях аз, 100% нямаше да може да ходи
+23:51 -!- Deyan_ [~Deyan@46.249.92.240] has quit [Remote host closed the connection]
+23:51 < dencho> Nikol jivee malko ponagore ot nas
+23:51 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+23:51 < dencho> ba6ta i raboti v miliciata
+23:51 < dencho> :D
+23:52 < ViLKaTa> sextra
+23:53 < dencho> ViLKaTa dai nekva low profil lan karta we
+23:53 < dencho> kvo se prai6 na lili ivanova
+23:54 -!- Deyan_ [~Deyan@46.249.92.240] has joined #telerikacademy
+23:55 < dencho> yo
+23:56 < dencho> 240 userq regnati na grizlito
+23:56 < dencho> :D
+23:56 < dencho> tva kolkot edin parlament we
+23:56 < dencho> :D
+23:56 < dencho> sq neka da se razdelim po parlamentarni grupi :P
+23:57 < Deyan_> hahhaa
+--- Day changed ср юли 10 2013

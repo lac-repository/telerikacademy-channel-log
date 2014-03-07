@@ -1,0 +1,391 @@
+
+00:07 -!- angel [~angel@84.238.192.103] has quit []
+00:27 -!- rozanna [~rosi@92-247-239-186.spectrumnet.bg] has joined #telerikacademy
+00:29 -!- rozanna [~rosi@92-247-239-186.spectrumnet.bg] has quit [Client Quit]
+00:29 -!- rosi__ [~rosi@92-247-239-186.spectrumnet.bg] has joined #telerikacademy
+00:30 -!- rosi__ [~rosi@92-247-239-186.spectrumnet.bg] has quit [Client Quit]
+00:34 -!- rozanna [~rozanna@92-247-239-186.spectrumnet.bg] has joined #telerikacademy
+00:36 -!- rozanna [~rozanna@92-247-239-186.spectrumnet.bg] has quit [Client Quit]
+00:45 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+00:46 < hackman> как беше stream-а ? :) хареса ли ви така ? :)
+01:09 < phalaaxx> то от тук някой гледал ли го е? :)
+01:14 < hackman> yulimoto: го гледа... даже въпроси задава
+01:14 < hackman> добре се получ
+01:14 < hackman> даже много добре ;)
+01:14 < phalaaxx> впрочем имам LVM-ски въпрос, какво правим ако ни трябва някакъв RAID и не искаме да ползваме LVM отгоре?
+01:14 < hackman> аз преди малко качих видеата и в YouTube
+01:14 < phalaaxx> но искаме да си разделим диска на повечко парченца?
+01:15 < hackman> ползваш RAID-а да ти Export-не виртуални дискове
+01:15 < hackman> ако говориш за sw raid
+01:15 < phalaaxx> аз по навик си го цепя за boot, root, usr, var, tmp, swap, home и разни други работи ако ми трябват :)
+01:15 < hackman> амии при него няма решение :)
+01:16 < phalaaxx> т.е. правя си съответно 6+ RAID-а?
+01:16 < phalaaxx> аз обикновено за sw raid говоря
+01:16 < phalaaxx> за другото съм на мнение че трябва да им се забрани "i"-то в името :D
+01:18 < hackman> те за дисковете говорят... не за контролерите :)
+01:18 < phalaaxx> е, от мен да мине - дисковете не са виновни ама тия контролери с тяхната цена... по-евтино би излязло някакъв импровизиран SAN/NAS със Solaris и ZFS :D
+01:18 < hackman> ехееее има 463 домашни
+01:18 < hackman> ебаси мамата
+01:19 < phalaaxx> аз оцених едно да видя какво е... скучна работа, пък и 463 :(
+01:22 < hackman> на мен само от системата за лекторите ми дава да оценявам
+01:22 < hackman> от студентската ми казва, че нямало за оценяване :)
+01:23 < phalaaxx> каква е разликата (че има такава разлика)?
+01:25 < hackman> в лекторската система мога да променям всичко по курса
+01:25 < phalaaxx> лелеее ама wireless-а в telerik направо ми скъса нервите, другия път си връзвам телефона щото не се трае :D
+01:25 < phalaaxx> и в този ред мисли - $6$ е sha512, $5$ - sha256 :)
+01:27 < hackman> и аз като я видях нещо се опулих... след това се усетих, че е sha
+01:27 < hackman> ще си ги припомням есента като водя мрежовата
+01:29 < hackman> мисля и нея да я stream-на :)
+01:29 < hackman> със записи :)
+01:29 < phalaaxx> и такова ли  ще има?
+01:30 < phalaaxx> кога и къде?
+01:35 < phalaaxx> apt-get install upstart -> reboot :)
+01:35 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+01:51 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+01:51 < phalaaxx> epic fail
+01:52 < phalaaxx> отдавна не бях виждал такова в Debian
+01:55 < phalaaxx> тъп но упорит - втори опит
+01:55 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Client Quit]
+02:02 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+02:02 < phalaaxx> mountall: error while loading shared libraries: libply-boot-client.so.2: cannot open shared object file: No such file or directory
+02:02 < phalaaxx> страшно :D
+02:03 < hackman> защо изобщо искаш тоя upstart не знам :)
+02:03 < hackman> аз ще лягам
+02:03 < hackman> лека
+02:06 < phalaaxx> лека
+02:13 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+02:25 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+03:04 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+03:25 -!- Fairytale [1000@police.executie.org] has joined #telerikacademy
+03:46 -!- KpeTeHoug [~GT@212.36.13.10] has quit [Quit: The difference between friendship and love is how much you can hurt each other]
+05:37 -!- NEKTAR [~abv@nat/hp/x-bdmiaxdtwuwjvcup] has joined #telerikacademy
+05:41 -!- NEKTAR [~abv@nat/hp/x-bdmiaxdtwuwjvcup] has left #telerikacademy []
+05:44 -!- Fairytale [1000@police.executie.org] has quit [Remote host closed the connection]
+06:01 -!- NEKTAR [~abv@nat/hp/x-kbsbboayujbltyyk] has joined #telerikacademy
+06:13 -!- NEKTAR [~abv@nat/hp/x-kbsbboayujbltyyk] has left #telerikacademy []
+08:43 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+08:54 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+09:16 < lyubenblagoev> hackman: добро утро. вчера не можах да гледам лекциите и разбрах че нямаме отделен запис. видеата в тубата са по 30 мин и не са целите записи от курса (както се свалят от twitch.tv). Не знам дали си обърнал внимание като си ги кач
+09:16 < lyubenblagoev> вал.
+09:16 < lyubenblagoev> Видях че може да се гледат директно от twitch.tv, може би да сложите линковете към тях вместо тези в тубата в сайта на курса
+09:17 < hackman> аз ще се опитам да ги кача отново
+09:17 < hackman> видях, че са по 30мин но стана късно и си легнах :)
+09:19 < lyubenblagoev> :)
+09:19 < lyubenblagoev> малко е кофти... трябва да се свалят отделните части на всеки клип и да се сглобяват
+09:19 < hackman> то в twitch.tv и качеството на записите е много по-добре
+09:20 < lyubenblagoev> супер е, стрийма стана много добре, но нямах възможност да го гледам live, само малка част от него
+09:30 < KrasiGa> Добро утро и от мен! Да не сваляме за сега това, което е качено, така ли?
+09:30 < KrasiGa> не е пълно доколкото разбирам
+09:32 < lyubenblagoev> KrasiGa: http://www.twitch.tv/aziliann/b/428982268 тук можеш да изгледаш цялото
+09:32 < KrasiGa> 10х
+09:34 < KrasiGa> може ли да се сваля от там?
+09:36 < lyubenblagoev> Ами малко е куцо, защото клиповете са разделени на файлове по 30 минути
+09:37 < lyubenblagoev> можеш да свалиш отделните части, примерно използвайки Network таба на Chrome dev tools
+09:37 < lyubenblagoev> и търсейки flv файловете
+09:38 < lyubenblagoev> трябва да свалиш първия, след което да преместиш плъзгача под видеото напред докато минеш 30-те минути за да зареди втория клип - тогава ще се появи в network в chrome dev tools i t.n.
+09:38 < lyubenblagoev> ама си е играчка
+09:38 < KrasiGa> ще се пробвам от вкъщи. Слушам ги на телефона и ще е кофти ако мога само онлайн да гледам
+09:38 < lyubenblagoev> аз като пробвах втория файл ми се свали без видео
+09:39 < lyubenblagoev> вероятно съм объркал нещо, ама в 8 сутринта....
+09:39 < KrasiGa> :)
+09:40 < KrasiGa> ами дано Мариан ги качи както досега
+09:41 < hackman> KrasiGa: аз правя съшото като lyubenblagoev
+09:41 < KrasiGa> да ама нали ще ги качиш след това?
+09:41 < hackman> за съжаление не съм си играл да извадя всички линкове
+09:43 -!- KacanuH [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+09:44 < KacanuH> добро утро на всички
+09:44 < lyubenblagoev> добро
+09:48 < KacanuH> hackman: нали тая седмица щяхме да имаме su на гризлито, или се отказа :)
+09:49 < hackman> KacanuH: не стигнахме
+09:49 < hackman> ако говоря по-бързо съвсем ще ми се ядосате
+09:51 < KacanuH> Е ми тогава, предлагам да правим лекциите по-дълги ( до 22 в мола) след това в бижуто :)
+09:52 < KacanuH> вчера ми хареса, team билдинга след това
+09:52 -!- KacanuH is now known as Deyan
+09:55 -!- hackman [~HackMan@wolf.yuhu.biz] has quit [Ping timeout: 246 seconds]
+10:01 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+10:19 < lyubenblagoev> за видеата, вижте http://forums.academy.telerik.com/107531/%D0%BF%D0%BE%D0%BC%D0%BE%D1%89-%D1%81-video-download-%D0%B0?show=107535#a107535
+10:26 -!- Slavov [~slavov@78-83-68-163.spectrumnet.bg] has joined #telerikacademy
+10:27 < Slavov> как беше вчера лекцията че не можах да дойда
+10:27 < Slavov> та след малко ще я погледна видеото
+10:48 -!- hackman [~HackMan@management.1h.com] has joined #telerikacademy
+10:48 -!- hackman is now known as Guest13465
+10:52 -!- Guest13465 is now known as azilian
+10:52 -!- azilian is now known as HackMan
+11:00 < yulimoto> нещо ми е понеделнишко събуждането днес  http://thecodinglove.com/post/54914027024/when-i-sit-down-at-my-office-on-monday-morning
+11:07 < HackMan> http://whenyouliveinsofia.tumblr.com/post/54416141094/when-you-have-big-plans-for-the-day
+11:07 -!- angie_bg [~angie@77.236.189.210] has joined #telerikacademy
+11:16 < yulimoto> хха да
+11:23 -!- angie_bg [~angie@77.236.189.210] has left #telerikacademy []
+11:26 -!- angie_bg [~angie@77.236.189.210] has joined #telerikacademy
+11:41 < HackMan> Informer: влезе и ти в лекциите вчера :)
+11:48 -!- Deyan_ [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+11:51 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has quit [Ping timeout: 246 seconds]
+11:51 -!- Deyan_ is now known as Deyan
+11:52 -!- Deyan is now known as Guest37987
+11:54 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+11:57 -!- Guest37987 is now known as KacanuH
+12:00 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+12:01 < plamer> абе.. това за оценяването/коментирането на домашни и тия 200 символа в коментара... малко overkill ми се струва
+12:02 < plamer> особено някой като е copy/paste примерно от линукс.ком или уикипедия за raiserfs... какво толкова да коментира човек
+12:04 < HackMan> 1. Откговорът свързан ли е с темата на въпроса? Имаше доста които изобщо не са разбрали въпросите.
+12:04 < HackMan> 2. разбираемо ли е?
+12:04 < HackMan> 3. Изчерпателна ли е информацията?
+12:04 < HackMan> малко ли са ти тези въпроси
+12:07 < plamer> За дължината на коментарите ми беше мисълта, трябва да разтягам локуми..
+12:08 < HackMan> на горните 3 въпроса можеш съвсем спокойно да вкараш 200 знака
+12:13 < plamer> а има ли срок за оценяване на домашните?
+12:14 < lyubenblagoev> Оценяването на чужди домашни задължително ли е за оценката? Ако никой не оцени твоето домашно какво става / има ли такъв вариант? И ако ти не оцениш ничие домашно това как се отразява?
+12:14 < lyubenblagoev> извинявам се ако е коментирано
+12:25 < Informer> HackMan, аз бях там. Увековечен съм вече под uid 584 :D
+12:27 < Informer> Я да питам и аз за оценяването. След като има анкета за оценяване, задължително ли е да пиша коментари по всичко от точките, ако нямам нищо специално да кажа? И има ли срок за оценяване - примерно до крайната дата за предаване на следващото домашно?
+12:39 -!- alabala [~alabala@irc.webconnect.bg] has quit [Changing host]
+12:39 -!- alabala [~alabala@unaffiliated/alabala] has joined #telerikacademy
+12:40 < angie_bg> Ако не напишеш коментар, по-дълъг от 200 зн., системата не ти приема оценката.
+12:41 -!- alabala [~alabala@unaffiliated/alabala] has left #telerikacademy []
+12:41 -!- alabala [~alabala@unaffiliated/alabala] has joined #telerikacademy
+12:42 < yulimoto> аз това с оценяването сега го видях. Няма ли чалъм да си гледкам домашни без да оценявам ?
+12:43 < alabala> Çäðàâåéòå =)
+12:43 < yulimoto> примерно ако напиша кратък коментар ? Оценката както казва angie_bg няма да бъде приета и ще мога да си гледкам така ли ?
+12:43 < yulimoto> alabala: може би енкодинга ти не е подходящ :)
+12:44 < Informer> angie_bg, ами аз пратих една оценка, дето съм коментирал с 2 изречения и ми го прие.
+12:44 < yulimoto> не ти се чете
+12:44 < alabala> damn
+12:44 < Informer> или поне така изписа
+12:44 < alabala> Zdraveite* :)
+12:44 < yulimoto> здрастииии ;P
+12:44 < alabala> =))
+13:13 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+13:16 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Client Quit]
+13:17 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+13:18 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has left #telerikacademy []
+13:18 -!- lyubenblagoev_ [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+13:19 -!- angie_bg [~angie@77.236.189.210] has quit [Ping timeout: 276 seconds]
+13:19 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Ping timeout: 276 seconds]
+13:20 -!- lyubenblagoev_ is now known as lyubenblagoev
+13:20 -!- angie_bg [~angie@77.236.189.210] has joined #telerikacademy
+13:21 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has left #telerikacademy []
+13:21 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+13:42 < Slavov> като не ви достигат символи, натиснете 200 пъти шпацията накрая една точка сложете и готово
+13:42 < Slavov> бъдете креативни ;)
+13:47 < phalaaxx> dd if=/dev/urandom | tr -dc a-zA-Z0-9 | head -c 200 && echo
+13:48 -!- KacanuH is now known as Deyan
+13:50 < phalaaxx> всъщност защо пък с dd?
+13:50 < phalaaxx> cat /dev/urandom | tr -dc a-zA-Z0-9 | head -c 200 && echo
+14:02 < yulimoto> phalaaxx: гледам tr ... как би генерирал символи извън ascii ? 
+14:03 < phalaaxx> без tr :D
+14:03 < phalaaxx> cat /dev/urandom | head -c 200
+14:05 < yulimoto> haaaa 
+14:05 < phalaaxx> това ако правилно съм ти разбрал въпроса де
+14:06 < phalaaxx> щото те все ги има по някакъв начин в ascii
+14:06 < phalaaxx> предполагам имаше предвид non-printable нещо си?
+14:07 < yulimoto> да
+14:07 < yulimoto> но в конзолата няма как да излезе просто :) 
+14:07 < yulimoto> и се обърках мамка му 
+14:08 < yulimoto> :)
+14:15 -!- AndChat|2004 [~McNamee@213.226.63.62] has quit [Ping timeout: 256 seconds]
+14:15 -!- user99 [~McNamee@213.226.63.154] has joined #telerikacademy
+14:43 -!- stoyan_ [~stoyan@77.70.33.151] has joined #telerikacademy
+14:48 -!- Fairytale [1000@police.executie.org] has joined #telerikacademy
+14:53 -!- nveselinov [nveselinov@151.237.4.4] has joined #telerikacademy
+14:55 -!- stoyan_ is now known as sto|work
+15:06 -!- plamer [~Plamer@84.40.92.7] has quit [Ping timeout: 248 seconds]
+15:12 < sto|work> Petuk sledobed, a shefa oshte debne v ofisa ...
+15:14 < Slavov> аххахаха
+15:14 < Slavov> искам като у германия, стане ли максимум 14;30 петък, всичко изчезва
+15:14 < Slavov> чиста работа
+15:15 < KrasiGa> то всички искаме така ама .... нема
+15:15 < sto|work> oh - brb - kirilica - feeling stupid :D
+15:15 -!- sto|work [~stoyan@77.70.33.151] has quit [Quit: leaving]
+15:17 -!- sto|away [~chatzilla@195.34.115.66] has joined #telerikacademy
+15:17 -!- sto|away is now known as sto|ffw
+15:17 < sto|ffw> Тука вече имам :)
+15:21 < Slavov> трябва вземем чужденци да ни работят, ние си ходим на обяд, те ще доработват
+15:22 < phalaaxx> вие какво ползвате обикновено - клавиатура с мишка или клавиатура на лаптоп с touchpad?
+15:23 < Slavov> с тъчпада кликам че да се не чува, а с мишката върта...
+15:23 < sto|ffw> phalaaxx: тъчпада на лапатопата, че ме мързи
+15:23 < sto|ffw> а аз не кликам, а клякам :)
+15:24 -!- Slavov [~slavov@78-83-68-163.spectrumnet.bg] has quit [Quit: Leaving]
+15:48 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Quit: Leaving]
+15:48 < yulimoto> приоритетно: 1. само клавиатура (резана малка). 2. клавиатура с мишка. 3. клавиатура на лаптоп с тъчпад
+15:51 < HackMan> при нас в петък се работи до 15:00 :)
+15:51 < HackMan> вече няма никой в офиса :)
+15:57 < KrasiGa> HackMan: колко човека имаш?
+15:58 < HackMan> на етажа сме около 30 :)
+15:58 < HackMan> останаха само хората на смени :)
+16:00 < KrasiGa> любопитно ми беше на колко човека си работодател ;)
+16:00 < KrasiGa> принципно
+16:00 < KrasiGa> не в момента
+16:01 < sto|ffw> HackMan: това е добър мениджмънт :):)
+16:02 < Informer> Егати якото, при нас в петък идва шефът и гледа да ни държи коклото се може по-докъсно на оперативки
+16:02 < HackMan> KrasiGa: моята фирма е само 12-13 човека :)
+16:02 < HackMan> но имаме бая смесени ресурси със SiteGround :)
+16:03 < HackMan> та е сложно :)
+16:03 < KrasiGa> объркали сте се с други
+16:06 < sto|ffw> за моя шеф - http://youtu.be/-Gj65407jVE
+16:07 < HackMan> sto|ffw: ние това ако знаеш колко често си го пускаме :)
+16:07 < HackMan> но го има и в двете посоки :)
+16:07 < HackMan> гъз си голям коегаааа :)
+16:08 < sto|ffw> тру стори
+16:11 < sto|ffw> аз съм от колегите, дето се стараят да не сме гъзове, но май не става всеки път :)
+16:16 < HackMan> ааа всички сме гъзове :)
+16:16 < HackMan> зависи от деня :)
+16:16 < sto|ffw> HackMan: Гризлито КВМ ли е? ако да - ползваш ли КСМ и има ли файда?
+16:17 < HackMan> sto|ffw: ако имаш предвид KVM - да, ако имаш предвид KSM - не
+16:17 < sto|ffw> отдавна се чудя тоя "same space mapping", не иска ли гостите да са еднакви
+16:17 < sto|ffw> мерси
+16:17 < HackMan> на Beast-а, хост машината за Grizzly, имам достатъчно ресурси, че да не ми трябва
+16:17 < sto|ffw> беше ми любопитно
+16:17 < HackMan> в офиса на няколко машини използвам KSM
+16:17 < sto|ffw> супер
+16:17 < HackMan> и съм доволен
+16:18 < HackMan> но няма голям смисъл в повечето случай
+16:18 < sto|ffw> гостите трябва ли да са еднакви
+16:18 < HackMan> не, но всички трябва да го поддръжат
+16:18 < HackMan> в моя случай всички run-ват един и същ kernel
+16:18 < sto|ffw> ахааа - това повече makes sense от това, дето мислех
+16:18 < sto|ffw> като OpenVZ
+16:19 < sto|ffw> супер - мерси
+16:19 < HackMan> OpenVZ е най-големият shit който познавам
+16:19 < HackMan> и да ги трсне светкавица тея пияни руснаци
+16:19 < sto|ffw> ааа - недей така - има и по-големи
+16:19 < HackMan> няма по-тъпа виртуализация
+16:19 < HackMan> гарантирам ти
+16:20 < sto|ffw> има - Хипер-ВС
+16:21 < sto|ffw> а във лекциите ще има ли вирт? по-специално ме интересуват контейнерите и си-групите?
+16:23 < sto|ffw> ааа  - бтв - сори, че не писах във форума за лсоф - видях ти отговора - много е яка - да, ама е малко мъчна за свикване с тия двуеточия :)
+16:24 < sto|ffw> имам един колега, дето много кефи със grep/egrep, awk и sed - много ми е мерак и аз да се науча
+16:27 < sto|ffw> и докато съм се разчатил тук - HackMan - защо някои слагат | grep -v grep - така и не мога да видя разлика (може и вече да съм изтъпял де :) )
+16:29 < HackMan> споко, ще разбереш другата седмица :)
+16:30 < HackMan> вирт няма да има в този курс
+16:30 < HackMan> too advanced :)
+16:30 < sto|ffw> Благодаря
+17:00 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Quit: Page closed]
+17:05 -!- Fairytale [1000@police.executie.org] has quit [Read error: Connection reset by peer]
+17:05 < phalaaxx> като стана въпрос за grep да задам и аз един тъп въпрос
+17:06 < phalaaxx> на Оpenfest-а (2012) в lightning talks имаше нещо интересно от Петър Пенчев
+17:06 < phalaaxx> относно това колко грешно масово се ползват разни text tools
+17:06 < HackMan> факт :)
+17:07 < sto|ffw> nohup
+17:07 < phalaaxx> там доколкото си спомням той обясняваше някои работи като например, че grep + grep -v = grep
+17:07 < phalaaxx> но така и не успях да разбера как да направя това само с 1 grep :D
+17:07 -!- Fairytale [1000@police.executie.org] has joined #telerikacademy
+17:08 < HackMan> не е точно така grep + grep -v grep вади винаги само едно нещо
+17:08 < HackMan> проблема на цялата тази практика е, че хората ги мързи да мислят
+17:08 < phalaaxx> нее май за друго говоря аз
+17:08 < HackMan> и не правят правилните matches
+17:08 < phalaaxx> примерно: grep blabla somefile.txt | grep -v alabala
+17:09 < phalaaxx> alabala: sorry :D
+17:09 -!- Informer [~Informer@83.228.55.109] has quit [Quit: C ya!]
+17:09 < HackMan> phalaaxx: правилно... не се прави така... ако можеш да го направиш в една команда, ТРЯБВА да го направиш в една команда :)
+17:09 < sto|ffw> нееее  - аз питах за grep regex+search_string some_file | ... | ...| grep -v grep
+17:10 < HackMan> ще ви покажа другата седмица :)
+17:10 < HackMan> тази вечер сме на палатки пред НС :)
+17:10 < phalaaxx> а тази команда от моя въпрос grep ли е?
+17:10 < phalaaxx> или ще си говорим за други неща като awk :)
+17:11 < sto|ffw> sed -i 's/\\n/\n/g' somefile
+17:11 < sto|ffw> cool little tool
+17:11 < sto|ffw> а със аук знам само как да принтя колони
+17:13 < sto|ffw> HakMan: благодаря отново - бтв - лекциите са супер интересни - толкова неща намерих :)
+17:13 < phalaaxx> това със sed май е нещо съвсем различно, предполагам не беше за мен?
+17:14 < phalaaxx> http://rt.com/usa/microsoft-nsa-snowden-leak-971/ - как да не мразим после M$? :)
+17:14 < HackMan> http://hydra.azilian.net/lectures/Bash-scripting.odp
+17:14 < sto|ffw> аа - просто така - ако имаш файлове със /н за нови редове и искаш да ги прочетеш, като човек
+17:14 < HackMan> http://hydra.azilian.net/lectures/Sed_and_awk.odp
+17:14 < HackMan> http://hydra.azilian.net/lectures/expect-the_unexpected.odp
+17:14 < phalaaxx> айдеее имам си занимание за следващите дни :)
+17:15 < HackMan> тези 100% ще ги минем и ще ги упражним :)
+17:15 < sto|ffw> много благодаря
+17:17 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has quit [Ping timeout: 246 seconds]
+17:17 < phalaaxx> мен awk малко ми куца, защото като ми е трябвало да правя нещо по-сложно преди време съм си го писал на perl а впоследствие на python
+17:18 < phalaaxx> а напоследък толкова тъпи неща ми се налага да правя че се страхувам че съм минал границата на затъпяване от която няма връщане назад :D
+17:18 < sto|ffw> ехаааа - завиждам
+17:18 < sto|ffw> аз сега с питон се боря и ми е трудно
+17:19 < phalaaxx> питай, ако мога да помогна с нещо :)
+17:20 < sto|ffw> охче - недей - не съм те намразил достатъчно :)
+17:20 < sto|ffw> абе те са готови, ама от вр на вр търсим бъгове из тях
+17:21 < phalaaxx> не бе сериозно, ако имам време и мога да помогна - защо не? да не го забравя и тоя език че напоследък се захласнах по Go :)
+17:22 < sto|ffw> как най-лесно да разбера, какво да се importne
+17:23 < sto|ffw> т.е. имам много голям брой обекти в база, искам нещо конкретно - да стигна обаче до начина да го взема, трябва да импортна различни библиотеки, сертификати, етц
+17:24 < sto|ffw> кенефа е там - дивелопърите коментират по кода, ама трябва да си врачка, за да ги разбереш
+17:25 < sto|ffw> брб
+17:28 < phalaaxx> какво толкова трябва да се импортва?
+17:28 < phalaaxx> каква е базата?
+17:29 < phalaaxx> PEP 249?
+17:29 < sto|ffw> oracle. работи складирани из нея
+17:30 < sto|ffw> сори - нападнаха ме - после ще опиша
+17:31 < phalaaxx> ok
+17:31 -!- sto|ffw is now known as sto|oncall
+18:03 < yulimoto> Пичове хайде ставам, ще отида да напомня на властимащите, че желая да си ходят и че не преговарям с мафийоти. 
+18:16 < phalaaxx> тях нали им разбутаха сайта когато стана ясно че сме лумпени
+18:16 < phalaaxx> докато го гърчеха сайта коркия му беше толкова зор че изпя малко информация за това как е направен и още някои интересни неща
+18:17 -!- HackMan [~HackMan@management.1h.com] has left #telerikacademy []
+18:17 < phalaaxx> та се чудих тогава как досега никой още не му е видял сметката
+18:18 < phalaaxx> ама... така е, дали са го на програмисти да го хостват :D
+18:18 < phalaaxx> или на прекалено мързеливи админи (по-мързеливи от мен даже)
+18:20 -!- rozanna [~Rosi@92-247-239-186.spectrumnet.bg] has joined #telerikacademy
+18:21 -!- rozanna [~Rosi@92-247-239-186.spectrumnet.bg] has left #telerikacademy []
+18:33 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+18:36 -!- nveselinov [nveselinov@151.237.4.4] has left #telerikacademy ["Leaving"]
+18:42 -!- silverboy [5b86215c@gateway/web/freenode/ip.91.134.33.92] has joined #telerikacademy
+18:43 -!- silverboy [5b86215c@gateway/web/freenode/ip.91.134.33.92] has quit [Client Quit]
+18:47 -!- rozanna [~Rosi@92-247-239-186.spectrumnet.bg] has joined #telerikacademy
+18:48 -!- rozanna [~Rosi@92-247-239-186.spectrumnet.bg] has left #telerikacademy []
+18:54 -!- rozanna [~Rosi@92-247-239-186.spectrumnet.bg] has joined #telerikacademy
+18:55 -!- rozanna [~Rosi@92-247-239-186.spectrumnet.bg] has left #telerikacademy []
+18:57 -!- angie_bg1 [~angie@77.236.189.210] has joined #telerikacademy
+18:58 -!- angie_bg [~angie@77.236.189.210] has quit [Ping timeout: 260 seconds]
+19:00 -!- sto|oncall [~chatzilla@195.34.115.66] has left #telerikacademy []
+19:05 -!- rozanna [~Rosi@92-247-239-186.spectrumnet.bg] has joined #telerikacademy
+19:05 -!- rozanna [~Rosi@92-247-239-186.spectrumnet.bg] has left #telerikacademy []
+20:36 -!- angie_bg1 [~angie@77.236.189.210] has left #telerikacademy []
+21:31 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+21:33 < ViLKaTa> Драсте!
+21:33 < alabala> Hi =)
+21:33 < ViLKaTa> Niakoi po-navatre s linux?
+21:34 < ViLKaTa> Da mi help za edna procedura?
+21:34 < alabala> ne sme mnogo kato gledam,drasni ako iskash ako ima nqkoi znaesh,shte kaje
+21:35 < ViLKaTa> Em, shte drasna i v oficialnia channel
+21:35 < ViLKaTa> S OpenSuSe 12.3 sam. S KDE
+21:35 < ViLKaTa> Sec da check version
+21:36 < alabala> napravo ako pitash men,vlez v opensuse i gi pitai tam napravo
+21:36 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+21:36 < ViLKaTa> Da
+21:36 < ViLKaTa> Stranno, smeshno,,,
+21:37 < ViLKaTa> Ama ako shtesh viarvaj, neam shutdown na kompa
+21:37 < ViLKaTa> Samo s komanda go gasia
+21:37 < alabala> malko neudobno :D
+21:39 < ViLKaTa> Em, v grafichnite tulove sad butona skutdown ima dce opcii
+21:39 < ViLKaTa> Zad Turn off computer, de
+21:39 < ViLKaTa> Hibernate on RAM i hibernate on HDD
+21:39 < ViLKaTa> Shutdown nema
+21:40 < alabala> pisa li im na tezi v kanala
+21:40 < ViLKaTa> I kat si zatvoria displeia na laptopa (zadal sym mu da se gasi) - OK
+21:40 < ViLKaTa> Posle kat go otvora, power kopcheto miga
+21:40 < ViLKaTa> I kat go natisna, se gasi
+21:40 < ViLKaTa> I kat go vkiucha, si zarejda pak procesite.
+21:40 < ViLKaTa> Mozila, ala-bala
+21:40 < ViLKaTa> Chek da vidia kak da si check version na KDE
+21:41 < yulimoto> и аз бях така в гноме 3 ama namerih там настройки и тулове та си сложих гасачка, иначе или от конзола се гасече или излизах от акаунта и в гдм има shutdown
+21:41 < ViLKaTa> E, v konzola..
+21:42 < ViLKaTa> Ama smeshno..
+21:42 < ViLKaTa> Da ne moga da si izgasia kompa..
+21:42 < ViLKaTa> OMG
+21:45 < yulimoto> da :) на мен не ми прчеше, но много ме дразнеше че после всичко беше бг само shutdown на англисийски, ей това наистина ме дразни, та и него човърках та да си бъде бг всичко. Но те разбирам, щот кат се заяде някъв проблем, те сърби да го оправиш. 
+21:49 < yulimoto> някой пробвал ли е freetalk  или някакъв друг jabber клиент за конзола ?
+21:49 < ViLKaTa> Ne
+21:49 < ViLKaTa> Ama sam meraklia
+21:50 < yulimoto> еми сега ще сложа на един дебиан да видя как е :)
+21:53 -!- ViLKaTa [~villy@87.97.192.85] has quit [Quit: Konversation terminated!]
+22:26 -!- hackman [~HackMan@77.70.33.151] has joined #telerikacademy
+22:28 -!- gyankov [2e2f7223@gateway/web/freenode/ip.46.47.114.35] has joined #telerikacademy
+22:41 -!- plamer [~Plamer@84.40.92.7] has quit [Read error: Connection reset by peer]
+22:41 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+22:42 -!- You're now known as yulimoto_away
+22:46 -!- plamer [~Plamer@84.40.92.7] has quit [Client Quit]
+22:58 -!- gyankov [2e2f7223@gateway/web/freenode/ip.46.47.114.35] has quit [Quit: Page closed]
+23:03 -!- ChanServ [ChanServ@services.] has quit [shutting down]
+23:05 -!- hackman [~HackMan@77.70.33.151] has quit [Remote host closed the connection]
+23:07 -!- ChanServ [ChanServ@services.] has joined #telerikacademy
+23:07 -!- ServerMode/#telerikacademy [+o ChanServ] by hobana.freenode.net
+23:17 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+--- Day changed сб юли 13 2013

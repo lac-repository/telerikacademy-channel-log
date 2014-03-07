@@ -1,0 +1,326 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:34:01] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 264 seconds
+[00:45:32] ncurses (~bin@unaffiliated/phreaky) left irc: Quit: to the infinity and beyond
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:23:13] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 264 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:41:05] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:42:33] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[08:47:54] <KacanuH> Дубрутру
+[08:52:55] <hackman> аз тъкмо мисля да си лягам :)
+[08:52:57] <hackman> лека :)
+[08:56:04] <KacanuH> Сомнамбул :)
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:07:22] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[09:50:48] <yulimoto> оф чистих до сега, мисля да почета
+[09:55:05] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 246 seconds
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:02:02] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[10:05:23] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[10:42:56] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 240 seconds
+[10:59:51] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:05:39] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 248 seconds
+[11:14:44] bin (~bin@unaffiliated/phreaky) joined #telerikacademy.
+[11:15:11] <bin> типичните заподозрени :)
+[11:15:21] <bin> без phalaxxx -a
+[11:15:59] <bin> някой буден  , едва ли :)
+[11:32:13] <episparh> да , тъкмо си  смених кърнела
+[11:36:48] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:46:34] <bin> ииии ей го phalaaxx
+[11:46:47] <bin> вече целия арсенал е наличен :)
+[11:46:56] <bin> аз тамн торих цветята
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:03:03] <yulimoto> тука си разучавам IPC
+[12:03:16] <yulimoto> взех да мисля различни комбинации от сигнали
+[12:04:24] <yulimoto> пускам процес после го стопирам, пускам го на bg, но не знам как да го изкарам на fg
+[12:07:13] dreikata (~dreikata@94.26.85.140) joined #telerikacademy.
+[12:07:46] <yulimoto> ако един процес е бил спрян -19, -22 или -21 с -18 отново го рънвам но го пускам bg, a аз искам да го изкарам fg ?
+[12:08:13] dreikata (~dreikata@94.26.85.140) left irc: Read error: Connection reset by peer
+[12:15:20] <bin> fg пробва ли ?
+[12:15:38] <bin> fg id-to
+[12:16:53] s0ny123 (~s0ny123@213.145.97.3) joined #telerikacademy.
+[12:18:38] <yulimoto> да ама аз искам да става чрез сигнал
+[12:18:42] <yulimoto> но няма начин
+[12:18:53] <yulimoto> http://stackoverflow.com/questions/1844232/sending-a-signal-to-a-background-process
+[12:19:21] <yulimoto> т.е. тук накрая става въпрос че май единствения начин е fg
+[12:20:39] <yulimoto> и това е логично някакси. предполага се, че fg ще зависи от този който седи на терминала
+[12:24:36] <yulimoto> вероятно fg праща някакъв сигнал примерно -18 + това че прави някаква магия с дескрипторите
+[12:26:08] <bin> а ти искаш със сигнал ли?
+[12:26:45] <bin> ми виж какъв сигнал изпраща fg
+[12:26:49] <bin> и той изпраща сигнал
+[12:28:19] <bin> fg send CONT signal :)
+[12:28:44] <bin> http://www.cs.princeton.edu/courses/archive/spr06/cos217/lectures/23signals.pdf
+[12:29:59] <bin> разчовъркай там )  не съм такъв мастър честно казано :)
+[12:30:36] <yulimoto> да човъркам :) ами долу горе предположението ми е право
+[12:31:42] <yulimoto> гледам и пдф-а на Princeton
+[12:33:30] <yulimoto> да става по-ясно; праща си -18 сигнал, но върши работа и с дескрипторите ; за това не мога да върна процес на fg само със сигнал, ако искам да го направя трябва да пренасоча дескрипторите
+[12:34:42] <yulimoto> то като гледам презентацията която прати, ще бъде най-интересно човек да пише код и така да се упражнява
+[12:36:01] <yulimoto> следобед ще пробвам :)
+[12:45:28] <bin> всичко става с писане на код :)
+[12:49:43] <bin> то това като цяло е курса на принстън
+[12:49:56] <bin> Introduction to Programming Systems
+[12:50:27] <bin> дърпаш всичкото http://www.cs.princeton.edu/courses/archive/spr06/cos217/lectures/
+[12:50:35] <bin> сядаш пишеш и си пушка ;)
+[12:57:08] <bin> даже по добре този е от летен семестър 2006 :)
+[12:57:21] <bin> http://www.cs.princeton.edu/courses/archive/fall12/cos217/lectures/
+[12:57:24] <bin> зимен 2012 :)
+[13:00:01] Writing user file...
+[13:00:01] Writing channel file...
+[13:02:46] <yulimoto> сега ще ги оправя
+[13:03:21] <bin> по някаква странна случайност  тръгнах да обхождам
+[13:03:23] <bin> http://www.cs.princeton.edu/prism
+[13:04:19] <yulimoto> lynx --dump http://www.cs.princeton.edu/courses/archive/spr06/cos217/lectures/ | awk '/http/ {print $2}' | xargs -I file wget file
+[13:04:35] <yulimoto> това ще върши работа докато си чаткам ;)
+[13:05:12] <yulimoto> xargs накрая мисля че е излишно, може и направо wget
+[13:05:15] <yulimoto> maj
+[13:06:15] <bin> направо wget :)
+[13:07:26] <yulimoto> значи летен семестър 2006 направо ще е с wget
+[13:08:13] dencho-at-Derman (6d6b4065@gateway/web/freenode/ip.109.107.64.101) joined #telerikacademy.
+[13:08:22] <yulimoto> basii
+[13:08:28] <bin> i 2012
+[13:08:31] <bin> s wget
+[13:08:33] <bin> направо
+[13:08:35] <bin> дава
+[13:08:40] Nick change: dencho-at-Derman -> denchollllllllll
+[13:08:44] <denchollllllllll> opalqnkal
+[13:08:47] <denchollllllllll> kvo staa ora
+[13:08:49] <yulimoto> включих 4ата и сжалянето на едно нищо не се разбира
+[13:08:52] <yulimoto> ;)
+[13:08:59] <bin> www.cs.princeton.edu/courses/archive/fall12/cos217/precepthandouts/
+[13:09:03] <bin> check this out :)
+[13:09:12] <yulimoto> т.е. едното на бг другото а чата на фг
+[13:11:08] <yulimoto> ok sega ще го видя
+[13:12:42] <yulimoto> архива е готов
+[13:16:39] <yulimoto> тъй качено е всичко на машината и готово за следобед
+[13:16:42] <yulimoto> мерси
+[13:16:57] <yulimoto> не че ще мина и един pdf следобеда ама все пак да го има
+[13:17:10] <yulimoto> хайде за сега
+[13:17:13] <yulimoto> и пак мерси
+[13:20:20] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[13:20:30] <bin> моля моля ;)
+[13:35:47] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 276 seconds
+[13:38:25] <bin> хмм другите им лекции тоест http://www.cs.princeton.edu/courses/archive/fall12/cos318/lectures/
+[13:38:57] <bin> ще те препрати към някаква страница
+[13:39:18] <bin> с wget ти е забранено обаче мисля че намерих начин , но програмно трябва да стане
+[13:48:16] <bin> може да кодна п-късно нещо )
+[13:51:34] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[13:55:35] <KacanuH> да ви се оплача колко съм тъп, някак си ми изчезна wirelessa
+[13:56:09] <KacanuH> убих се да се чудя какво е станало, а то се оказа че съм натиснал бутона за изключване
+[13:56:59] Deyan_ (~Deyan@212.5.158.12) joined #telerikacademy.
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:27] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 246 seconds
+[14:01:44] Nick change: Deyan_ -> Deyan
+[14:36:14] s0ny123 (~s0ny123@213.145.97.3) left irc: Ping timeout: 276 seconds
+[14:37:45] denchollllllllll (6d6b4065@gateway/web/freenode/ip.109.107.64.101) left irc: Ping timeout: 250 seconds
+[14:42:05] Deyan (~Deyan@212.5.158.12) left irc: Ping timeout: 276 seconds
+[14:42:19] s0ny123 (~s0ny123@213.145.97.3) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:01:55] Deyan (~Deyan@46.249.92.240) joined #telerikacademy.
+[15:13:10] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[15:23:37] KacanuH (~Deyan@46.249.92.240) left irc: Quit: Leaving
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:10:06] <bin> sup ;
+[16:10:07] <bin> pus
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:49:11] <KpeTeHoug> Ко прайти ва
+[17:49:25] <KpeTeHoug> аз само минавам, нямам ме, отпуска съм другата седмица и съм го запразнил :)
+[17:49:40] <KpeTeHoug> влязох си кача домашното, като има време ще ви досаждам пак тая седмица
+[17:49:48] <yulimoto> ахааааа аз помислих, че си сърдит нещо
+[17:50:01] <KpeTeHoug> абе, да
+[17:50:05] <KpeTeHoug> занимавам се тука с децата
+[17:50:12] <KpeTeHoug> гледах си напрая домашното
+[17:50:23] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[17:50:30] <yulimoto> a taka
+[17:50:36] <KpeTeHoug> и няма време, затва писах по мноо трудният 1ви въпрос
+[17:50:37] <KpeTeHoug> :)
+[17:50:47] <yulimoto> гледай си отпуската не се занимвай с глупости
+[17:51:30] <KpeTeHoug> ем, то аз през нея само с глупости ще се занимавам :)
+[17:51:36] <yulimoto> именно
+[17:51:36] <KpeTeHoug> ма кат се върна ще ви разправям
+[17:51:41] <yulimoto> окс :)
+[17:51:44] <KpeTeHoug> знам че ще ви е мъчно цяла седмица :)
+[17:51:45] <KpeTeHoug> аре
+[17:51:48] <yulimoto> аре
+[17:51:48] <KpeTeHoug> само не плачете мноо
+[17:51:49] <KpeTeHoug> :)
+[17:51:55] <yulimoto> ще плачем ама тайно
+[17:52:04] <yulimoto> ;)
+[17:52:16] <KpeTeHoug> на bg пуснете процеса
+[17:52:42] <yulimoto> да да и ще му пренасочим дескрипторите към /dev/null
+[17:53:09] <KpeTeHoug> антуй :)
+[17:53:10] <KpeTeHoug> аре
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:07:06] <bin> yulimoto:  щастлив ли си вече :)
+[18:07:09] <bin> спокоен ли ис :)
+[18:10:52] urban_filth (~urban_fil@95.111.6.98) left #telerikacademy ("Leaving").
+[18:11:05] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[18:17:20] <yulimoto> hah
+[18:59:43] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:15:18] <bin> айде бе не се ли зарибяваш да напишеш за  търсачакта да се екстрактват нещата ;)
+[19:39:47] <yulimoto> коя търсачка ? какъв екстракт ? какви 5 лв ?
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:04:40] <hackman> Аз пък си подкарах Arduino-то с Display :) сутринта вързах най-накрая две arduino-та с Xbee wireless модули
+[20:04:41] <hackman> :)
+[20:04:48] Action: hackman много happy :)
+[20:08:08] <hackman> https://www.youtube.com/watch?v=Stt6QU9k86A
+[20:10:22] <bin> yulimoto: е н ти ли казах че можем да  дъмпнем  повечето лекции на различните модули , трябва просто да се направи заявка към гугъл да се евземе списъка с резултати и да се вгет-нат линковете :)
+[20:10:25] <bin> hackman:  gj :)
+[20:11:47] <bin> някой от вас младежи запознат с писането на user stories ?
+[20:24:19] <bin> https://www.facebook.com/groups/nulldev/
+[20:25:38] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Read error: Operation timed out
+[20:28:20] s0ny123 (~s0ny123@213.145.97.3) left irc: Quit: leaving
+[20:37:00] <bin> KpeTeHoug:  на теб разчитам тука :)
+[20:38:04] <yulimoto> ффуууууу тоз фаце бук
+[20:38:41] <yulimoto> hackman: това 100% ще е изненада за приятелката ти
+[20:39:35] <yulimoto> bin: т.е. бота да прерови страницата за да видим к'во има вътре и после да направим скриптче за претърсване да помпи pdf-ите ?
+[20:40:41] <bin> yulimoto:  все пак е стъпка ;)
+[20:41:00] <bin> yulimoto:  страницата с резултатите да ;)
+[20:41:10] <bin> ама ти задаваш готов линк къде да търси :)
+[20:41:14] <bin> гледай
+[20:41:22] <bin> inurl:"http://www.cs.princeton.edu/courses/archive/fall12/cos318/lectures/"
+[20:41:44] <bin> давай цялото в search-а  всичките резултати са само pdf-та
+[20:41:50] <bin> даже нямаш нужда да отсяваш )
+[20:42:08] <bin> днес си поиграх и намерих няколко модула по същия начин или в папка leactures  или в папка docs ;)
+[20:42:32] <bin> с wget не става :) , тоест да дръпнеш цялата папка директно , има рестрикции
+[20:42:45] <bin> а да си играеш един по един файловете да ги дърпаш смотано :)
+[20:42:54] <bin> така че пишеш програмата подаваш линк и си готов ;)
+[20:54:37] milev (~milev@client-33-170.speedy-net.bg) joined #telerikacademy.
+[20:56:57] <bin> чатна ли
+[20:58:58] <hackman> yulimoto, да изненада беше ;) но за жена ми :)
+[20:59:39] milev (~milev@client-33-170.speedy-net.bg) left irc: Read error: Connection reset by peer
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:02:15] milev (~milev@client-33-170.speedy-net.bg) joined #telerikacademy.
+[21:22:29] <yulimoto> hackman: щастливец си ти щом с надпис на дисплей постигаш изненади :)
+[21:22:41] <yulimoto> bin: чатнах
+[21:23:31] <bin> просто към момента се занимавам със Scrum :)  и а гоня малко деадлайнс :)
+[21:23:41] <yulimoto> ахъъъ
+[21:23:42] <bin> иначе като визия го имам :)
+[21:24:08] <bin> звучи яко като идея ;)
+[21:24:19] <yulimoto> може да изровя имаше един php броузер команд лайн
+[21:24:31] <bin> винаги после могат да се добавят функционалности
+[21:24:44] <bin> и да wrapнеш google search
+[21:24:49] <bin> като добавиш функционалност
+[21:25:04] <bin> примерно да ти дърпа всички пдф-и до определена страница
+[21:25:16] <bin> да ти запамети всички линкове на първите 3 имейла
+[21:25:22] <bin> варианти бол :)
+[21:25:22] <yulimoto> да нещо такова то всъщност можеш ли да парснеш google inurl страницата от там е лесно долугоре
+[21:26:20] <bin> ми като java програмист мега лесно мога да го направя имам един downloader на файлове където им задаваш url-a ;0   и тегли файла
+[21:26:36] <bin> трябва да му сменя имплементацията и готово :)
+[21:26:56] <bin> трябва да му добавя просто парсър на HTML  който ще ми дойде като респонд :)
+[21:27:12] <yulimoto> интересно е да се направи в баша
+[21:27:31] <yulimoto> lynx нема начин да нема начин
+[21:27:33] <bin> и в баша ще го направим )
+[21:27:41] <bin> аз говоря за ниско ниво :)
+[21:28:10] <yulimoto> щото то може линкс да save файловете и ти да си ги грепваш даже примерно
+[21:28:11] <bin> socket programming :)
+[21:28:22] <yulimoto> а ве къде сложнотии
+[21:28:28] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[21:28:34] <bin> сори с това съм известен и ми е голям минус :(
+[21:28:39] <bin> твоята идея ми харесва де ;)
+[21:28:45] <yulimoto> хаха
+[21:28:48] <yulimoto> ми то лошо нема
+[21:28:55] <bin> има има
+[21:29:04] <bin> нещо което може да се напрви за 1 час го правя за 1 ден защото не ме кефи
+[21:29:15] <yulimoto> еее това е добре
+[21:29:20] <bin> не е добре
+[21:29:28] <bin> ако има нещо което може да ти свърши работа
+[21:29:36] <bin> и не го ползваш защото искаш предизвикателство
+[21:29:38] <bin> не е добре
+[21:29:53] <bin> джава има File choose  само правиш обекта извикваш му 2 метода и си готов :)
+[21:29:59] <bin> работа за 2 мин
+[21:30:17] <yulimoto> aha
+[21:30:20] <bin> да ама не реших да правя собствена имплементация която да прави дървовидна структура на цялата ОС  ти си избираш къде да сейваш
+[21:30:45] <bin> само и само защото ме кефише визията на дърво :)
+[21:31:00] <bin> то даже не е дърво а как се викаше с 1 ,2 нива надолу от селектнатото
+[21:31:38] <bin> и други такива съм имал.. при мен е принципа
+[21:31:40] <bin> NIH
+[21:31:45] <bin> голям проблем , много голям
+[21:31:55] <yulimoto> ми то ако не може да се смени интерфейса и требе да се пише от скреч верно е за пренаписване
+[21:32:33] <bin> ми ако иска разучи линкса
+[21:32:41] <bin> как баца и пробвай е ;)
+[21:32:55] <bin> не съм баш гуру :)
+[21:33:22] <bin> а и можеш да приложиш SED & AWK :)
+[21:33:31] <bin> по скоро AWK
+[21:35:18] <bin> тука хакоман може да каже ;)
+[21:48:37] <yulimoto>  
+[21:48:45] <yulimoto> аха
+[21:50:14] <yulimoto> еее то по-интересно е да се намериш решението, той хакман човека ще ни остави да се помъчим малко;
+[21:50:27] <yulimoto> не ми изглежда сложно но трябва да се порови
+[21:50:41] <bin> не бе да го питаш sed или awk
+[21:50:45] <bin> кое ще ти свърши работа ;)
+[21:50:53] <yulimoto> awk :)
+[21:50:59] <bin> за 1 проблем няма 1 решение така че ;)
+[21:51:06] <bin> винаги можеш да си намериш собствено :)
+[21:51:13] <yulimoto> да
+[21:51:30] <bin> айде ще видя какво ще направя тая седмица и ако искаш в петък или уикенда
+[21:51:32] <bin> да пробваме :)
+[21:52:21] <yulimoto> да може, аз ще огледам утре вечер за това с гоогле, там е воденичния камък другото ми се вижда песен
+[21:53:14] <yulimoto> просто в момента искам да се тръшна
+[21:54:07] <yulimoto> след като зачекнах MMU vm, logical memory physical meemory главата ми е кашон
+[21:54:17] milev (~milev@client-33-170.speedy-net.bg) left irc: Remote host closed the connection
+[21:54:34] <bin> лягай почивай
+[21:54:37] <bin> s google е лесно
+[21:55:00] <bin> отваря страницата и вземаш стойностите на всички li тагове ;)  и си готов нищо работа ;)
+[21:56:26] <yulimoto> ем то аз мога пусна и ajax заявка и да си направя хендлера направо да ми парсва, ама то нали за баш говорим, няма да бацаме 50 езика за едно толкова просто нещо
+[21:56:49] <bin> hahaha :)
+[21:57:29] <bin> еми помисли  и аз ще помисля и така :)
+[21:57:39] <yulimoto> ок :)
+[21:57:52] <yulimoto> are leka
+[21:57:57] <bin> лека кашон :)
+[21:57:59] <bin> xoxoxo
+[21:57:59] <yulimoto> miq zybite
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:15:30] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[22:16:42] <hackman> yulimoto, много рано бе :)
+[22:21:51] <episparh> bin, да не са те хванали във СКРЪМ простотия  някаква - кви са тия юзър сторита
+[22:22:18] <bin> изучавам изкуството на скротума :)
+[22:24:50] <episparh> пълна загуба на време - КАНБАН е 20 пъти по ефективен за  software development
+[22:26:12] <bin> не съ мси шеф още ;)
+[22:27:25] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 240 seconds
+[22:27:25] <episparh> азми аз по 1 проект работих по скръм ... не ми оставаше време да свърша някаква работа от писане на юзър сторита и срещи ...
+[22:27:46] <episparh> пълна загуба на време
+[22:28:42] <bin> изучавайки "изкуството" осъзнавам в каква заблуда е шефа ми , при положение  че тийма трябва да е сбирщина от много хора с различни скилове ;)
+[22:28:52] <bin> докато той се опитва да направи сбирщина от хора с еднакви скилове
+[22:29:50] <episparh> щом е прибягнал до скръм значи е в голяма заблуда :)
+[22:30:01] <episparh> аре аз ви оставям
+[22:30:20] <bin> лека
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:39:18] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:39:47] KacanuH (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[23:43:50] Deyan (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[23:51:21] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:51:21] Nick change: KacanuH -> Deyan
+[00:00:00] --- Mon Aug 12 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

@@ -1,0 +1,355 @@
+
+Session Start: Mon Sep 16 00:00:00 2013
+Session Ident: #telerikacademy
+03[00:17:42] * Joins: phalaaxx (~bozhin@94.26.20.166)
+12[00:33:02] * Quits: Deyan (~deyan@46.249.92.240) (Quit: Nettalk6 - www.ntalk.de)
+12[01:17:22] * Quits: phalaaxx (~bozhin@94.26.20.166) (Quit: Leaving.)
+12[02:13:33] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 264 seconds)
+03[02:18:05] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[02:18:22] * stratoss|away is now known as stratoss
+12[02:22:45] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 245 seconds)
+03[02:27:38] * Joins: stratoss|away (~stratoss@members.datacentrix.org)
+12[02:27:38] * Quits: stratoss|away (~stratoss@members.datacentrix.org) (Changing host)
+03[02:27:38] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[02:28:02] * stratoss|away is now known as stratoss
+12[03:28:10] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 241 seconds)
+03[03:33:06] * Joins: stratoss|away (~stratoss@members.datacentrix.org)
+12[03:33:06] * Quits: stratoss|away (~stratoss@members.datacentrix.org) (Changing host)
+03[03:33:06] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[03:33:31] * stratoss|away is now known as stratoss
+12[07:16:30] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 264 seconds)
+03[07:21:06] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[07:21:21] * stratoss|away is now known as stratoss
+03[07:42:28] * Joins: hackman (~hackman@wolf.yuhu.biz)
+03[08:13:47] * Joins: KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8)
+12[08:32:28] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 245 seconds)
+03[08:37:47] * Joins: stratoss|away (~stratoss@unaffiliated/stratoss)
+13[08:37:59] * stratoss|away is now known as stratoss
+12[08:42:21] * Quits: hackman (~hackman@wolf.yuhu.biz) (Ping timeout: 245 seconds)
+03[09:51:46] * Joins: hackman (~hackman@management.1h.com)
+03[10:02:36] * Joins: bin (~bin@unaffiliated/phreaky)
+04[10:02:40] <bin> KpeTeHoug: чоки тука ли си е
+[10:02:49] <bin> добор утро
+[10:03:01] <bin> hackman:  така като гледам, ще идваш на 5.10 :) до търново а?
+[10:03:25] <hackman> май така стават нещата :)
+[10:03:33] <hackman> само не разбрах за какво ще говоря :)
+[10:03:35] <bin> чудесно :)
+[10:03:41] <bin> каквото душа ти сака
+[10:03:43] <hackman> на 12.10 съм в Пловдив :) на PlovDev
+[10:04:11] <bin> и аз от там получих покана ама няма да ходя ;)
+[10:04:58] <bin> а знаеш ли дали Стефан ще идва :) към Търново
+12[10:19:23] * Quits: yulimoto (~yulimoto@78.108.248.204) (Quit: leaving)
+03[10:20:38] * Joins: yulimoto (~yulimoto@78.108.248.204)
+12[10:29:53] * Quits: yulimoto (~yulimoto@78.108.248.204) (Quit: leaving)
+03[10:35:09] * Joins: yulimoto (~yulimoto@78.108.248.204)
+03[10:45:22] * Joins: rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142)
+[10:45:32] <rewind> Здравейте
+[10:51:53] <KrasiGa> здравей
+12[10:57:46] * Quits: yulimoto (~yulimoto@78.108.248.204) (Quit: leaving)
+03[10:58:07] * Joins: yulimoto (~yulimoto@78.108.248.204)
+12[10:58:48] * Quits: yulimoto (~yulimoto@78.108.248.204) (Client Quit)
+03[11:03:06] * Joins: yulimoto (~yulimoto@78.108.248.204)
+12[11:04:05] * Quits: yulimoto (~yulimoto@78.108.248.204) (Client Quit)
+03[11:07:16] * Joins: yulimoto (~yulimoto@78.108.248.204)
+12[11:10:35] * Quits: rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) (Disconnected by services)
+13[11:28:16] * stratoss is now known as stratoss|away
+12[11:29:28] * Quits: dencho (~dencho@95.111.14.183) (Ping timeout: 256 seconds)
+03[11:33:00] * Joins: phalaaxx (~bozhin@94.26.20.166)
+03[11:36:57] * Joins: fusmu (~fusmu@gate.dpc.bg)
+[11:38:40] <fusmu> добър ден джентълмени и лейдита, лимит-а за домашните беше 2 нали :)
+[11:39:05] <KrasiGa> аз знам за 1
+[11:39:27] <KrasiGa> добър ден и на теб
+12[11:39:30] * Quits: bin (~bin@unaffiliated/phreaky) (Quit: to the infinity and beyond)
+[11:41:19] <fusmu> еее греда, труден избор се налага да прави човек, море-бора-цаца и домашни :)
+[11:41:21] <fusmu> 10х
+12[11:56:06] * Quits: phalaaxx (~bozhin@94.26.20.166) (Quit: Leaving.)
+03[11:56:36] * Joins: phalaaxx (~bozhin@94.26.20.166)
+[11:58:04] <fusmu> някой ползвал ли е gzip или lzjb компресия на mysql db ?
+[11:59:37] <yulimoto> ползвал съм само при бекъп да ми ги gzip-не mysql-dump-а
+[12:03:13] <fusmu> май не си зададох въпроса правилно :)
+[12:04:02] <fusmu> в смисал дали някой е ползвал една от двете компресии за zfs файлова система в/у маунт поинт където са въпросните дб-та :)
+[12:05:51] <yulimoto> интересно, но нямам опит :)
+[12:06:22] <phalaaxx> каква е идеята да компресираш storage-а на базата?
+[12:07:02] <fusmu> да спестя малко пространство
+[12:08:34] <phalaaxx> амии предполагам че ако ще пазиш телефонните номера на приятели в MySQL-а - няма да има проблем, но ако ти трябва за нещо по-сериозно няма да е особено добра идея
+[12:09:15] <phalaaxx> само предполагам де, не съм пробвал така че не ми вярвай какво говоря :)
+[12:09:41] <yulimoto> аз пак не вдявам, идеята е данните вместо в обикновен формат да са gzip и mysql да ги обработва в реално време. Един вид даваш CPU за да вземеш малко storage ?
+[12:09:52] <yulimoto> това ли е ?
+[12:09:53] <phalaaxx> но ако искаш да правиш нещо такова - добре е да оставиш поне индексите на MySQL в нормален вид (некомпресирани)
+[12:11:17] <phalaaxx> за това ще трябва да си поиграеш с настройките на MySQL - как да отделиш индексите така че да можеш да компресираш всичко останало без тях
+[12:12:34] <phalaaxx> това също не съм го правил но знам че е възможно, някои хора правят нещо подобно с цел да сложат индексите върху SSD за да им ряботят по-бързо натоварените бази
+[12:15:16] <fusmu> мда, то като цяло достъпването на данните става чрез индексите, иначе идеята ми е, че в момента големината на ДБ-то е около 10-на ГБ като гледам с темповете което се пълни и това което очаквам ще стигне до към 60-70 маакс 100ГБ, а пък самата система не се изпо
+[12:15:16] <fusmu> лзва интензивно
+[12:15:47] <fusmu> ама така като гледам по-добре да си ги оставя така :)
+[12:15:54] <phalaaxx> ALTER TABLE my-table INDEX DIRECTORY= '/ssd/mysql-indexes/my-big-db-name';
+[12:15:54] <phalaaxx> така се правело май :)
+[12:16:36] <phalaaxx> същото би било и със компресиране и zfs, слагаш си компресия и после вадиш индексите от там
+[12:16:38] <fusmu> иначе да идеята е сторидж за cpu, за кво ми е желязо седящо на 10% :)
+[12:17:02] <phalaaxx> ти ZFS под Linux ли ползваш или нещо друго?
+[12:17:07] <fusmu> не БСД
+[12:17:24] <fusmu> не смея в продуктова среда да сложа zfs-a на линукс
+[12:17:28] <fusmu> поне не още :)
+[12:18:14] <phalaaxx> аз скоро може би ще посмея... ама се чудя дали има смисъл или да си сложа BSD все пак
+[12:20:54] <fusmu> абе то за момента всичко е ок на линукс, ама има голяма олелия с бъдещите ъпдейти
+[12:21:22] <yulimoto> сякаш 100G не е чак такъв сторидж, не може ли да имаш системата за в случаи ако ти трябват нови сървиси да ги слагаш там
+[12:21:51] <yulimoto> т.е. евентуално да използваш CPU-то за нови сървиси
+[12:22:30] <fusmu> не то не е няакъв проблем
+[12:22:49] <fusmu> просто се заиграх да оптимизирам малко сториджа
+[12:23:29] <fusmu> защото в момента текущата машина е web базирана система ползваща данни от samba share и външен лдап
+[12:23:48] <yulimoto> аха :) както казваш скара-бира-плаж-море  и домашни
+[12:23:53] <fusmu> :)
+[12:23:54] <fusmu> да
+[12:23:55] <fusmu> :)
+[13:02:52] <yulimoto> някой ползвал ли е buddycloud т.е. инсталиране, ползване, някакви отзиви ?
+03[13:04:44] * Joins: rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142)
+12[13:06:13] * Quits: rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) (Client Quit)
+[13:10:49] <fusmu> хмм не, но тамън си търсех алтернатива на бъгавия owncloud
+[13:11:19] <fusmu> много добре са го направили, доста готини функции, но доста бъгав
+[13:12:54] <yulimoto> коя версия ползваш на owncloud
+[13:13:14] <fusmu> 5.0.8
+[13:13:25] <fusmu> ама нещо не мога да го дигна до 10
+[13:13:36] <fusmu> не ми остава време да видя и защо
+[13:13:44] <yulimoto> кое е най-бъгавото което те ядосва ?
+[13:14:44] <yulimoto> в смисъл нещо по интерфейса или кор функционалността ?
+[13:14:50] <fusmu> имената на файловете където има / се чупи
+[13:14:55] <fusmu> когато се синква
+[13:15:09] <fusmu> отделно много много не обича и ~! :)
+[13:15:14] <fusmu> да има в името
+[13:15:50] <yulimoto> аха ти го позлваш  sync на папки да ти прави
+[13:15:53] <fusmu> а на mac os един път ми се случи да гърми с някакви ерори за permissions и трябваше да връщам бекъп за да се оправи
+[13:15:55] <fusmu> да
+[13:16:05] <yulimoto> позлваш ли го на тлелефона
+[13:16:09] <yulimoto> за телефони
+[13:16:13] <yulimoto> номера
+[13:16:22] <fusmu> ами да ти кажа честно не
+[13:16:27] <fusmu> но ми даде добра идея :)
+[13:16:41] <yulimoto> направи си предварително бекъп
+[13:17:19] <fusmu> ама то като се замисля за момента хората дето го ползват се синкват през exchange така, че няма да ми е от полза
+[13:17:28] <fusmu> ама за каузата ще го пробвам при мене :)
+[13:18:34] <yulimoto> exchange ?
+[13:20:49] <fusmu> outlook -> exchange -> телефони sync на контактите
+[13:21:16] <fusmu> и всеки път като се сменя телефона само добавям exchange акаунта и си слага номерата
+[13:23:14] <yulimoto> мм то е като google контакти ли ?
+[13:23:35] <fusmu> ами нещо такова
+[13:23:51] <fusmu> правят се едни csv файлове
+[13:23:56] <fusmu> които наподобяват визитки
+[13:24:38] <yulimoto> да ясно, въпроса е какво се ползва, чужд сървър или мога да ползвам мой такъв ?
+[13:25:01] <fusmu> твой
+[13:25:16] <fusmu> всеки потребител на exchange-a си има собствен дата файл
+[13:25:24] <fusmu> в който се съхранява тази информация за контактите
+[13:25:58] <fusmu> а като добавиш exchange акаунт на ios или android има опция да ти sync-не и контактите
+[13:26:03] <fusmu> гъзария до шия
+[13:26:30] <yulimoto> този сървър windows-ски ли е ?
+[13:26:36] <yulimoto> аз не съм запознат изобщо
+[13:26:37] <fusmu> да
+[13:27:02] <fusmu> има и същото за linux/unix
+[13:27:05] <fusmu> зимбра
+[13:27:34] <fusmu> те са много де ама тоя знам, че е има task share с outlook клиента
+[13:28:38] <yulimoto> според теб кога има полза от него т.е. кога практиката показва, че използването му е рацинално. За фирми с 10,20,30 50 100 човека персонал ? Долу горе според теб
+[13:29:29] <yulimoto> примерно за малки фирми има ли практика да се ползва такова нещо ? до 10 души персонал ?
+[13:33:54] <yulimoto> гледам зибра в момента но лицензите нещо не ме вдъхновяват :|
+[13:42:31] <fusmu> лиценза е за съпорт
+[13:42:39] <fusmu> иначе е безплатна платформа
+[13:42:55] <fusmu> иначе зависи какви са ти изискванията
+[13:43:09] <fusmu> аз имах задание за exchange за 5 човека
+[13:43:18] <fusmu> защото искат task share функцията
+-
+[14:02:45] [ Whois for yulimoto ]------------------------------------------------------
+[14:02:45] | Real Name: [ Julio Dimitrov ]
+[14:02:45] | IP Address: [ ~yulimoto@78.108.248.204 ] [ unknown ]
+[14:02:45] | Channels: [ #telerikacademy ]
+[14:02:45] | Server: [ barjavel.freenode.net ]
+[14:02:45] | Server info: [ Paris, FR ]
+[14:02:45] [ End of whois for yulimoto ]-----------------------------------------------
+-
+03[14:09:14] * Joins: dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218)
+[14:09:38] <dencho-at-work> seen dencho
+[14:09:43] <dencho-at-work> nqma seen
+[14:10:43] <dencho-at-work> nqma seen, nqma dencho :D
+[14:15:20] <yulimoto> .seen dencho
+[14:15:20] <wilindex> yulimoto: I last saw dencho at 2013-09-15 18:01:10 UTC on #telerikacademy, saying anton_sh oprai li ip-tata
+[15:32:00] <yulimoto> а ве някакъв vps хостинг да ми препоръчате ? цената е от значение :)
+[15:32:55] <yulimoto> да се ориентирам
+[15:41:37] <dencho-at-work> sq kolko e v bg time 18:00 UTC da go eba :D
+[15:41:45] <dencho-at-work> yulimoto we :D
+[15:42:47] <yulimoto> еми GMT все едно
+[15:44:27] <phalaaxx> yulimoto: например https://www.transip.eu/ ?
+[15:44:28] <wilindex> [ BladeVPS - Order Now, delivered within minutes! ] - www.transip.eu
+[15:45:39] <yulimoto> phalaaxx: 10х
+[15:46:17] <yulimoto> dencho-at-work: ние сме UTC +2 или GMT +2  все тая
+[15:48:05] <yulimoto> с други думи ако имаш приятел в лондон и безплатни международни в плана си, можеш да го му се обаждаш и да го питаш колко е часа всеки път когато ти трябва синхронизация :)
+[15:48:46] <dencho-at-work> zna4i 18:01:10 UTC kolko e ?
+[15:49:54] <yulimoto> +2
+[15:50:50] <dencho-at-work> 18+2 ?!
+[15:51:01] <yulimoto> йееее
+[15:51:06] <dencho-at-work> e toq bot ne e veren we
+[15:51:31] <dencho-at-work> yulimotooooooooooooooooooooool
+[15:51:59] <yulimoto> аве ние сме + 3 ве
+[15:52:12] <yulimoto> от кога сме +3
+[15:52:38] <yulimoto> Standard time zone:	UTC/GMT +2 hours
+[15:52:38] <yulimoto> Daylight saving time:	+1 hour
+[15:52:38] <yulimoto> Current time zone offset:	UTC/GMT +3 hours
+[15:53:04] <yulimoto> .time
+[15:53:04] <wilindex> 2013-09-16 - 12:53:15UTC
+[15:53:17] <yulimoto> +3
+[15:53:28] <yulimoto> 15:53:15
+[15:54:11] <yulimoto> solved ---> Официалното часово време в България е източноевропейското време, което се равнява на UTC + 2 часа, а лятното часово време в България се равнява на UTC + 3 часа.
+[16:06:12] <dencho-at-work> super qko dobre, 4e sam az da se zamislite :D
+12[16:28:27] * Quits: KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) (Quit: Page closed)
+[16:28:39] <yulimoto> phalaaxx:  туй чудо checkinstall знаеш ли го ? т.е. ти го знаеш, обаче аз сега го откривам
+[16:29:09] <phalaaxx> м?
+[16:29:14] <phalaaxx> кое?
+[16:29:49] <phalaaxx> за какво става въпрос?
+[16:29:54] <yulimoto> мм то не е голямата работа де като се замисля
+[16:29:58] <yulimoto> checkinstall
+[16:30:09] <yulimoto> като имам пакети от сорс
+[16:30:26] <yulimoto> направо ми ги прави на деб
+[16:31:15] <yulimoto> нещо от сорта ---> tar zxvf target.tar.gz; cd target; ./configure; checkinstall ;
+[16:31:25] <yulimoto> накрая имам deb пакета готов
+[16:31:40] <yulimoto> не е кой знае какво всъщност
+[17:32:58] <dencho-at-work> ora
+12[17:42:08] * Quits: fusmu (~fusmu@gate.dpc.bg) (Quit: Leaving)
+[17:50:27] <dencho-at-work> kvo?
+[17:50:28] <dencho-at-work> dpc :D
+13[17:50:34] * stratoss|away is now known as stratoss
+[17:51:08] <dencho-at-work> are do skoro :D
+12[17:51:13] * Quits: dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) (Quit: Page closed)
+03[17:57:57] * Joins: Deyan (~deyan@46.249.92.240)
+12[18:12:18] * Quits: hackman (~hackman@management.1h.com) (Ping timeout: 245 seconds)
+03[18:50:27] * Joins: dencho (~dencho@95.111.14.183)
+03[18:59:11] * Joins: phalaaxx1 (~bozhin@94.26.20.166)
+03[19:53:13] * Joins: hackman (~hackman@2001:67c:20d0:3a:200f:ae5:f6f7:c56f)
+[20:12:05] <yulimoto> hackman: коя версия ти е ип-то :) ??
+[20:12:59] <hackman> а ?
+[20:13:18] <hackman> във ФМИ съм
+[20:13:21] <hackman> изпитвам студенти
+[20:13:27] <yulimoto> ааа ок :)
+[20:13:31] <hackman> тук съм с IPv6
+[20:13:46] <hackman> във вкъщи тъпаците от MTel не дават IPv6 :(
+[20:14:06] <yulimoto> и на мен така ми се вижда :) хайде мъчи ги
+[20:15:27] <yulimoto> hackman: а ве само да те сетя, когато имаш време да бутнеш гризли, че някой умен явно е упражнявал iptables :|
+[20:16:13] <hackman> по-скоро жена ми и би шалтера преди 3 дни
+[20:16:17] <hackman> :)
+[20:16:34] <hackman> батериите на единия UPS бяха сдали багажа
+[20:16:34] <yulimoto> :) ам как тъй има пинг :О
+[20:16:57] <yulimoto> аха
+[20:17:05] <hackman> grizzly.yuhu.biz е машина вкъщи :) но IP-то което съм и дал е на машината ми в EvoLink :)
+[20:17:12] <hackman> DNAT от там към вкъщи
+[20:17:15] <yulimoto> аха
+[20:17:22] <hackman> и във вкъщи DNAT към Grizzly :)
+[20:17:54] <yulimoto> ясно :)
+[20:23:43] <phalaaxx1> дайте малко акъл за Linux + ZFS: 4x3TB дискове, примерно по 40GB от всеки в RAID1 за Linux и останалите 4 дяла за RAIDZ1...
+[20:23:50] <phalaaxx1> това звучи ли смислено или си търся белята? :)
+[20:25:48] <yulimoto> phalaaxx1: престраши се значи или машината не е работна :)
+[20:26:55] <yulimoto> и аз да питам ако правите мейл сървър за 5-10 човека каква база данни ще сложите, mysql ми се вижда голяма в случая :) или .. ?
+[20:26:57] <phalaaxx1> амии за production става въпрос но това в не особено близко бъдеще, но си мисля как да подходя и вероятно ще го пробвам първо някъде другаде
+[20:27:45] <yulimoto> т.е има ли някакъв poor вариант ?
+[20:27:59] <phalaaxx1> аз за 5 - 10 човека не бих сложил база, ще си редактирам конфигурационни файлове (ако не се променят твърде често)
+[20:28:51] <phalaaxx1> а ако много искам да си поиграя с конфигурация с база - MySQL или PostgreSQL
+[20:29:31] <phalaaxx1> бих сложил и SQLite но тъй като съм мързелив а доскоро postfix/dovecot в Debian нямаха поддръжка за SQLite - затова MySQL или PostgreSQL :)
+[20:29:38] <yulimoto> аз съм слагал mysql, но в случая искам да си преместя личния мейл сървър на arm и мисля poor вариант
+[20:30:38] <yulimoto> мисля, че трябва да разгледам sqlite какво може да направи :)
+[20:30:49] <yulimoto> но ще се изкривя
+03[20:35:52] * Joins: rewind (2eee1d8e@gateway/web/freenode/ip.46.238.29.142)
+[20:35:57] <hackman> phalaaxx, 3TB дискове изобщо не звучи смислено
+[20:36:18] <hackman> капацитетът е голям... но скоростта с която четеш/пишеш е колкото максималната на 1TB диск
+[20:36:36] <hackman> т.е. ако нещо се прецака, ще чакаш 3 пъти повече за възстановяване на данните
+[20:37:01] <hackman> не зависимо дали това е от backup или просто копирането на един от дисковете от масива
+[20:37:08] <hackman> на никого не го препоръчвам
+[20:37:18] <hackman> аз лично по-големи дискове от 1TB гледам да не използвам
+[20:37:47] <hackman> освен на големият storage във вкъщи където си store-вам снимките и скоростта не ми е от никакво значение
+[20:37:50] <rewind> и аз гледам да се ограничавам до 2ТБ дискове :) (просто са най-изгодни) но определено ще ми се доплаче като на малко дете ако излезе някой от масива
+[20:38:16] <rewind> най-големия е 4ТБ но е само за бекъп
+06[20:38:58] * hackman is away: I'm busy
+[20:39:20] <hackman> yulimoto, за под 100 user-а files e къде къде по-добре от каквото и да е друго решение
+[20:39:45] <hackman> rewind, на мен редовно ми отпадат 2TB дискове
+[20:39:57] <rewind> някой да има идея какво се е случило с логовете на https://github.com/lac-repository/telerikacademy-channel-log
+[20:39:58] <hackman> отнема около 5 дни на средно натоварен сървър
+[20:39:59] <wilindex> [ lac-repository/telerikacademy-channel-log · GitHub ] - github.com
+[20:40:05] <hackman> и до 2 седмици на по-натоварените
+[20:40:12] <rewind> hackman: ужасТ
+[20:40:33] <phalaaxx1> hackman: машината ми трябва за backup така че това ми се вижда прилично решение, а нямам възможност да сложа повече от 4 диска в нея така или иначе
+[20:40:36] <rewind> мислех да си правя микросървър с 6 бр. по 1.5тб 2.5"
+[20:41:04] <rewind> моя е много слабо натоварен така или иначе, в смисъл има само един сайт на него и домашния ми сторидж
+[20:41:31] <hackman> phalaaxx1, емиии аз лично бих направил RAID 5 в твоя случай и ще се моля да не се чупят дискове :)
+[20:42:07] <phalaaxx1> че какво му е на ZFS? :)
+[20:42:23] <rewind> и при 6 бр. ще мога да ги пусна в raidz2, с идеята, че би трябвало (поне на теория) да е по-сигурно
+[20:42:41] <rewind> phalaaxx1: хаха :)
+[20:43:28] <rewind> да, моите също са в raidz, но знаейки, че преминават един тъп scrub за главозамайващите 16-18 часа, не ми се мисли при един resilver какво ще е, под товар при това
+[20:44:31] <phalaaxx1> 3TB са си 3TB, ясно е че за по-малко от денонощие няма да стане
+[20:45:12] <phalaaxx1> ама май идва малко по-безопасно от софтуерен RAID-5 (поне доколкото съм чел за write hole и други подробности)
+[20:45:24] <hackman> phalaaxx, ако ще използвам ZFS бих си сложил http://zfsguru.com/
+[20:45:26] <wilindex> [ ZFSguru.com ] - zfsguru.com
+[20:45:46] <hackman> Или http://www.freenas.org/
+[20:45:47] <wilindex> [ FreeNAS Project - Open Source Storage - FreeNAS Project ] - www.freenas.org
+[20:46:02] <hackman> и не бих се занимавал все още с Linux ZFS-а
+[20:46:18] <hackman> моите приятели са доста доволни от FreeNAS-а
+[20:46:35] <hackman> на практика е все едно слагаш DD-WRT
+[20:46:38] <phalaaxx1> ок, вариант е и на BSD
+[20:46:43] <phalaaxx1> засега го обмислям само
+[20:47:00] <hackman> не се занимаваш изобщо с cmdline след setup-а
+[20:47:15] <hackman> имаш си web interface и всичко е лесно и просто
+[20:47:26] <phalaaxx1> да, пускал съм FreeNAS за да го пробвам :)
+[20:47:30] <rewind> openindiana+napp-it е нещо подобно
+[20:47:45] <phalaaxx1> нооо идеята е всичко да е на същата машина
+[20:47:52] <phalaaxx1> че е 1U в NET1
+[20:48:05] <phalaaxx1> и не ми се дават пари за повече (засега)
+[20:48:08] <rewind> но има малко драми с smbshare, м/у другото доста съм обмислял centos или sl със zfsonlinux
+[20:49:01] <rewind> именно hackman ме отказа след една консултация в почивката м/у две лекции :D
+[20:49:54] <phalaaxx1> rewind: за zfsonlinux ли?
+[20:50:01] <rewind> да
+[20:50:23] <hackman> вижте... пробвайте!
+[20:50:27] <rewind> практически няма толкова advanced интерфейс в стил freenas или napp-it за линукс все още
+[20:50:34] <hackman> обаче не очаквайте това да е по-стабилно от нещо изпитано
+[20:51:13] <hackman> rewind, какви interface-и... то ZFS-а още е на такова нестабилно ниво
+[20:51:13] <hackman> :)
+[20:51:15] <rewind> но пък и в моя случай няма как да ползвам kvm-а на опъниндианата, тъй като е само за Интел, а машинката е с lowpower amd
+[20:51:41] <phalaaxx1> hackman: на мен достатъчно ми харесва и варианта с RAID-5, но този теоретичен проблем с write hole ме кара да мисля и за други варианти :)
+[20:51:49] <rewind> hackman: извинявай, говорех за уеб интерфейс
+[20:52:19] <phalaaxx1> въпреки че досега май не знам някой да е казал "заради write hole ми се счупиха данните"
+[20:52:25] <rewind> phalaaxx1: на мен точно това ми се случи веднъж с един софтуерен райд от дъното и именно за това се насочих към зфс
+[20:52:47] <phalaaxx1> ок, брояч += 1 :D
+[20:53:27] <phalaaxx1> ама е бил псевдо райд, аз не бих ползвал такъв а софтуерен в Linux
+[20:54:15] <hackman> phalaaxx, на мен RAID6 на контролер за около 2000$ ми изплю 4 от 8 диска на веднъж
+[20:54:15] <rewind> тогава все още нямах необходимите познания за софтуерен линукс раид, което разбира се, беше добър катализатор да ги придобия :)
+[20:54:36] <hackman> има и други horror stories които мога да изнамеря от приятели
+[20:54:43] <rewind> hackman: и спираме да говорим за каквато и да била стабилност в този случай, май всичко е имагинерно :D
+[20:54:46] <hackman> не се оставяй на $RANDOM фактора :)
+[20:55:58] <phalaaxx1> ок де, практически възможно ли е да се повредят данни при софтуерен RAID-5 под Linux в случай че падне захранването на машината?
+[20:56:20] <hackman> phalaaxx1, на практика да...
+[20:56:26] <hackman> но е много рядък случай
+[20:56:38] <phalaaxx1> този въпрос ме вълнува защото в data center-а на NET1 понякога стават странни неща, преди няколко месеца им бяха спряли климатиците една нощ и сървърите се "подпалиха" :D
+[20:56:45] <hackman> но и на HW RAID има почти същата вероятност
+[20:57:11] <hackman> phalaaxx, колко им пла
+[20:57:17] <hackman> плащаш за 1U
+[20:57:45] <phalaaxx1> плащам на приятел с няколко сървъра при тях и му помагам с администрацията на неговите машини, не знам той колко им плаща на 1U
+[20:57:55] <phalaaxx1> на него - 50 лева месечно :)
+[20:58:11] <phalaaxx1> .ip 91.230.230.224
+[20:58:11] <wilindex> [IP/Host Lookup] Hostname: 91-230-230-224.softhouse.bg | Location: Bulgaria | ISP: Softhouse Ltd.
+[20:58:13] <hackman> добре си ти :) аз плащам 200лв месечно на Evolink
+[20:58:34] <hackman> но си имам и цяла /24 мрежа :)
+[20:58:50] <hackman> .ip 85.14.7.2
+[20:58:50] <wilindex> [IP/Host Lookup] Hostname: mail.yuhu.biz | Location: Bulgaria | ISP: Lirex net EOOD
+[20:58:54] <hackman> .ip 85.14.7.0
+[20:58:54] <wilindex> [IP/Host Lookup] Hostname: 85.14.7.0 | Location: Bulgaria | ISP: Lirex net EOOD
+[20:59:18] <phalaaxx1> аз му заприщих едно /27 :D
+[20:59:44] <phalaaxx1> ама реално ползвам 4 - 5 IP-та от тях
+[21:02:58] <hackman> аз си използвам половината мрежа :)
+[21:03:00] <hackman> айдееее
+[21:03:03] <hackman> приключиха
+[21:03:06] <hackman> ще се прибирам
+[21:03:08] <hackman> лека guys
+[21:03:14] <hackman> като се прибера ще пусна grizzly :)
+[21:03:17] <phalaaxx1> лека
+12[21:03:37] * Quits: hackman (~hackman@2001:67c:20d0:3a:200f:ae5:f6f7:c56f) (Quit: Leaving)
+12[21:14:29] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Read error: Operation timed out)
+03[21:21:55] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+[21:26:22] <rewind> лека и от мен
+12[21:46:04] * Quits: stratoss (~stratoss@unaffiliated/stratoss) (Ping timeout: 245 seconds)
+03[21:50:30] * Joins: stratoss (~stratoss@members.datacentrix.org)
+12[21:50:30] * Quits: stratoss (~stratoss@members.datacentrix.org) (Changing host)
+03[21:50:30] * Joins: stratoss (~stratoss@unaffiliated/stratoss)
+03[21:56:59] * Joins: Vankata (~Ivan@77.70.105.191)
+03[23:37:27] * Joins: rootstar (0@77.70.103.9)
+13[23:51:30] * stratoss is now known as stratoss|away
+Session Close: Tue Sep 17 00:00:00 2013

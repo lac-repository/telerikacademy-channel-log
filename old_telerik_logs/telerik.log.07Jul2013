@@ -1,0 +1,244 @@
+
+--- Day changed пн юли 08 2013
+00:21 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+00:22  * dencho slaps phalaaxx around a bit with a large trout
+00:24 < phalaaxx> :)
+00:31 < Deyan_at_home> Плющите ли се
+00:33 < hackman> и ушите ни маат даже :)
+00:33 < Deyan_at_home> ;)
+00:34 < Deyan_at_home> Това ми напомня за Анадолска тройка!
+00:39 -!- user99 [~IceChat77@78.130.186.99] has quit [Quit: There's nothing dirtier then a giant ball of oil]
+00:42 < dencho> leka nosht, hora
+00:42 < dencho> :D
+00:42 < dencho> i priatna rabota utre, na tezi koito sa na rabota :P
+00:44 < dencho> maikata mu deeba, Mon 8 Jul 2013 12:00 AM PDT (UTC -0700) v bulgarsko vreme 18:00 li e ?
+00:44 < dencho> kato sa naizmislili hulqdi zoni :P
+00:49 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Remote host closed the connection]
+00:52 -!- user99 [John@78.130.186.99] has joined #telerikacademy
+00:57 < Deyan_at_home> хайде лека ви нощ, ще се видим утре сутрин пак!
+00:57 -!- Deyan_at_home [~Deyan@46.249.92.240] has quit [Quit: Leaving]
+07:52 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+07:54 -!- martotko1 [~martotko1@212.5.158.23] has joined #telerikacademy
+07:54 < martotko1> добро утро
+07:54 < martotko1> има ли ранобудни
+07:54 < martotko1> :Д
+08:18 < hackman> aha
+08:21 < martotko1> имам един много неуместен въпрос :Д
+08:22 < martotko1> като си пусна конзолата на центоса и ръчках по прозореця по менютата и ги скрих и сега незнам как да ги върна :)
+08:22 < martotko1> като си пусна конзолата на центоса и ръчках по прозорец на менютата и ги скрих и сега незнам как да ги върна :)
+08:26 < hackman> probvai Ctrl+Shift+M
+08:27 < martotko1> :С
+08:27 < martotko1> пише в конзолата
+08:28 < hackman> zaedno gi natiskash
+08:28 < hackman> btw ti konsole ili terminal startira?
+08:29 < martotko1> конзола
+08:30 < hackman> nqma takuv softuer
+08:30 < hackman> ima terminal, konsole ili gterm
+08:30 < martotko1> ем терминал е значи
+08:31 < martotko1> в смисъл каква е разликата
+08:34 < hackman> десен бутон някъде на черното и сложи отметка на Show Menubar
+08:35 < martotko1> ем с десен бутон няма менюта
+08:36 < martotko1> в смисъл кат цъкна си изчезва и мишката
+08:36 < martotko1> и нищо неможе се прави
+08:37 < martotko1> то това е конзолната среда предполагам
+08:40 < martotko1> ще поровя из нета за това
+08:40 < martotko1> ;)
+08:40 < martotko1> имам още един въпрос
+08:40 < martotko1> как да давам нагоре по хелпа
+08:42 < hackman> shift+pgup
+08:43 < martotko1> :D
+08:43 < martotko1> съквартиранта ми приказва че трябвало клавиатура си взимам :Д
+08:44 < martotko1> а с това се занимава
+08:51 -!- hackman [~HackMan@wolf.yuhu.biz] has quit [Ping timeout: 246 seconds]
+08:57 -!- plamer [~Plamer@84.40.92.7] has quit [Ping timeout: 260 seconds]
+08:57 -!- Deyan [~chatzilla@supersonic.comelsoft.com] has quit [Remote host closed the connection]
+09:01 -!- KacanuH [~chatzilla@supersonic.comelsoft.com] has joined #telerikacademy
+09:13 -!- Slavov [~slavov@78-83-68-163.spectrumnet.bg] has joined #telerikacademy
+09:27 -!- KpeTeHoug|afk is now known as KpeTehoug
+09:27 -!- KpeTehoug is now known as KpeTeHoug
+09:27 < KpeTeHoug> briutru
+09:27 < KpeTeHoug> дет са вика
+09:30 < martotko1> :D
+09:34 -!- hackman [~HackMan@management.1h.com] has joined #telerikacademy
+09:35 -!- hackman is now known as Guest3513
+09:35 -!- Guest3513 is now known as azilian
+09:35 -!- azilian is now known as hackman
+09:52 < martotko1> то от виртуал бокса
+09:52 < martotko1> били менютата
+09:57 < martotko1> ко да правиш чудиш се нещо доста време
+09:57 < martotko1> после е ясно
+10:08 < dencho> :]
+10:12 -!- martotko1 [~martotko1@212.5.158.23] has quit [Ping timeout: 246 seconds]
+10:38 -!- KpeTeHoug [~GT@212.36.13.10] has quit [Quit: The difference between friendship and love is how much you can hurt each other]
+10:40 -!- Informer [~Informer@83.228.55.109] has joined #telerikacademy
+10:48 -!- KpeTeHoug [~GT@212.36.13.10] has joined #telerikacademy
+10:54 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+10:56 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Client Quit]
+11:03 < yulimoto> hackman: Микрофона от последните видеа много бражди, на моменти не се разбира. Не знам дали е пренадут нещо дето се опитвахме да стриймваме нещо. Следващия път, ако имаш възможност чекни преди записа. 
+11:10 -!- DamnTheLuck [4d46720a@gateway/web/freenode/ip.77.70.114.10] has joined #telerikacademy
+11:10 < Slavov> ей в 12;00 да не забравите да гледате дебюта на къцката по тв7
+11:11 < Slavov> да видим с какъв музикален инструмент ще започне шоуто, аз се двоумя междо чинели или хармоника
+11:12 < asdasd> zdraveite
+11:12 < KpeTeHoug> здрасти
+11:14 < asdasd> kosta?
+11:15 < KpeTeHoug> нищо, висим си :)
+11:20 < hackman> yulimoto: както писах и във форума.... тествах преди записа... просто във залата беше много шумно и не съм усетил шума във записа
+11:21 < yulimoto> ок. викам да дам фийдбек просто :)
+11:21 < KpeTeHoug> шит хепънс
+11:22 < samy> dobro utro
+11:22 < KpeTeHoug> добро
+11:33 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has joined #telerikacademy
+12:03 < Slavov> 8 годишна пауза вика хеехххе тоя къцката е голем
+12:23 < dencho> :D
+12:23 < dencho> ima li publika?
+12:25 < hackman> a babi ima li ?
+12:25 < hackman> babi, babi... ludi, ludi babi ... :)
+12:26 < Slavov> той някаква публика си е поканил от миналите години който са работили за него.... предполагам по нататък ще почне с народната публика, ама къцамун е  много шашав хах
+12:27 < dencho> :]
+12:45 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+12:56 -!- DamnTheLuck [4d46720a@gateway/web/freenode/ip.77.70.114.10] has quit [Ping timeout: 250 seconds]
+13:17 < yulimoto> 
+13:18 < yulimoto> 
+13:26 < KpeTeHoug> верно ли пак дават Къцамун ?
+13:26 < KpeTeHoug> еби му меча
+13:31 < hackman> той е като шотлантски боец :)
+13:31 < hackman> не умира... :)
+13:31 < hackman> babi, babi... ludi, ludi babi ... :)
+13:33 < KpeTeHoug> ужасТ
+13:33 < KpeTeHoug> ще се прострелям в коляното
+13:33 < KpeTeHoug> по коя тилвизия това ? нека позная , СКАТ :)
+13:33 < KpeTeHoug> при другите откачалки
+13:53 -!- ncuxoTo [54eee159@gateway/web/freenode/ip.84.238.225.89] has joined #telerikacademy
+13:59 < Slavov> по тв7 , всеки делник от 12:00 на обяд :D
+13:59 < Slavov> хаахахха ааа умирам направо, къцката стана за смях само и само да възкръсне неговото шоу, и в краина сметка успя евалата
+14:02 -!- Plamer_ [~Plamer@84.40.92.7] has joined #telerikacademy
+14:02 < KrasiGa> ама същия формат ли е?
+14:03 < KrasiGa> или нещо ново е измислил?
+14:05 -!- plamer [~Plamer@84.40.92.7] has quit [Ping timeout: 240 seconds]
+14:35 -!- georgidimov [3edd9aba@gateway/web/freenode/ip.62.221.154.186] has joined #telerikacademy
+14:45 < Slavov> нищо не е измислил ново, само таблото на която е кръстословицата е  електронен вариант, KrasiGa
+14:56 < dencho> eeee az nqma da moga da go gledam v 12:00 trqbva6e v prime time da go slojat 19:00
+14:56 < dencho> Slavov spestili sa edno momi4e na kusmeta :P
+14:57 < Slavov> измъчена работа ми се струва, ама да видим...
+15:05 < dencho> :]
+15:18 < KrasiGa> ама явно ви е интересен щом знаете толкова подробности :) а само си плювате по човека
+15:19 < Slavov> мене ми е интересно колко ниско може падне човек на всяка цена за да постигне нещо, и заради това ще го гледам когато се сетя, ако не предполагам в господарите на ефира ще го повтарят
+15:20 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has joined #telerikacademy
+15:22 -!- lyubenblagoev [~lyubenbla@78-83-105-98.spectrumnet.bg] has quit [Client Quit]
+15:30 -!- asdasd [~PLDAGROUP@78-83-100-20.spectrumnet.bg] has quit [Ping timeout: 256 seconds]
+15:55 -!- georgidimov [3edd9aba@gateway/web/freenode/ip.62.221.154.186] has quit [Ping timeout: 250 seconds]
+16:00 -!- nveselinov [nveselinov@151.237.4.4] has quit [Read error: Connection reset by peer]
+16:07 < dencho> ïè÷îâå è ïðèíöåñè! Íÿêàêúâ îò åêèïà íà ôðååáñä òâúðäè, ÷å âèðòóàëèçàöèÿòà íà ìíîãî ìàøèíè âúðõó åäíî æåëÿçî íå å íàé-ãîòèíîòî ðåøåíèå, ïîíåæå àêî æåëÿçîòî òè ãðúìíå (äúíîòî íàïðèìåð) òè çàìèíàâàò âñè÷êè âèðòóàëíè ìàøèíè è òàêà áèçíåñà ñïèðà :Ï (îñâåí àêî íÿìàø áåêúï æåëÿçî äå) :Ä
+16:07 < dencho> òàêà ÷å... äàëè îòäåëíî æåëÿçî çà âñÿêà óñëóãà, èëè åäíî æåëÿçî ñ âèðòóàëèçèðàíè ìàøèíè ñÿêàø 100% îïòèìàëíî ðåøåíèå íÿìà :Ä
+16:12 < Slavov> само разбрах че нещо е 100%,  и че се засмя :)
+16:13 < dencho> :)
+16:13 < dencho> ïàê å íåùî
+16:13 < dencho> :Ä
+16:15 < dencho> http://gallery.actualno.com/DANSwithme-24-den-gallery_27222.html#ad-image6
+16:15 < dencho> òîç êàêâî ëè ãëåäà è ñè ìèñëè?
+16:16 < dencho> à òàç ñà ÷åêíå ïî æåëåçàòà http://gallery.actualno.com/DANSwithme-24-den-gallery_27222.html#ad-image9
+16:19 < samy> ne se chete
+16:19 < samy> dencho :s
+16:20 < Slavov> балерината ще я сцепа
+16:21 < Slavov> оправи си кирилицата dencho
+16:25 < samy> uhhh
+16:25 < samy> neshto mi qde cpu-to
+16:25 < samy> ne moga da razbera
+16:26 < samy> iam 5 taba i skype :s
+16:30 -!- KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Quit: Page closed]
+16:37 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+16:44 -!- Plamer_ [~Plamer@84.40.92.7] has quit [Quit: Leaving]
+16:46 < dencho> aide prikliuchih s kirilitsata :P
+16:52 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+16:57 < dencho> http://youtu.be/NeTKJysJQOU
+17:08 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+17:09 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+17:11 -!- Informer [~Informer@83.228.55.109] has quit [Quit: C ya!]
+17:15 < samy> ebasi
+17:15 < samy> proletnoto pochistwane naprawih na laptopa
+17:15 < samy> :D
+17:25 -!- KacanuH [~chatzilla@supersonic.comelsoft.com] has quit [Ping timeout: 246 seconds]
+17:29 -!- samy [~samy@84.238.184.98] has quit [Remote host closed the connection]
+17:43 -!- samy [~samy@84.238.184.98] has joined #telerikacademy
+17:53 -!- nveselinov [nveselinov@151.237.4.4] has joined #telerikacademy
+17:57 -!- Slavov [~slavov@78-83-68-163.spectrumnet.bg] has quit [Read error: Operation timed out]
+18:11 -!- samy [~samy@84.238.184.98] has quit [Quit: Leaving]
+18:33 -!- samy [~samy@91.196.227.180] has joined #telerikacademy
+18:35 -!- nveselinov [nveselinov@151.237.4.4] has quit [Read error: Connection reset by peer]
+18:37 < samy> male kfi gi ima hahahahah
+18:38 < dencho> kvi
+18:38 < samy> <piolin> hi how are you
+18:38 < samy> <samy> hi
+18:38 < samy> <piolin> whare are you from?
+18:38 < samy> <samy> bulgaria
+18:38 < samy> <piolin> ha ok
+18:38 < samy>  
+18:38 < samy> * Loaded log from Mon Jul  8 18:34:31 2013
+18:38 < samy>  
+18:38 < samy> <piolin> you are man woman
+18:38 < samy> <piolin> or
+18:38 < samy> <samy> does it matter
+18:38 < samy> <samy> ?
+18:39 < samy> <piolin> i am single
+18:39 < samy> <samy> ok hahahaha
+18:39 < samy> <piolin> how olda re you
+18:39 < hackman> samy: тоя е от перу :)
+18:39 < hackman> нема да те огрее :)
+18:40 < samy> e tfa wish ne se bqh zaitneresuwal :D
+18:40 < samy> te wishckite sa nqkwi trolowe
+18:41 < samy> pitam kak da clockna cpu-to, toq mi razteglq lokumi na pm
+18:41 < hackman> може да ти продаде хапчета :)
+18:41 < samy> aaaaaa He
+18:41 < samy> nikBa sintetika
+18:45 < samy> само не знам
+18:45 < samy> дали има някакъв смисъл да си клокна процесора
+18:45 < dencho> hahaha
+18:45 < dencho> spored men nqma
+18:45 < dencho> :D
+18:45 < samy> http://paste.ubuntu.com/5855680/
+18:45 < samy> има има
+18:46 < samy> това е служебно :)))))
+18:46 < dencho> haha
+18:48 < samy> chowek trqa da swichna w windowsa  za da si nachesham krastata na starcraft
+18:48 -!- wiseman [~wiseman@mariay.pppoe.fiber-lan.eu] has joined #telerikacademy
+18:48 -!- wiseman is now known as Guest48053
+18:48 -!- Guest48053 [~wiseman@mariay.pppoe.fiber-lan.eu] has left #telerikacademy []
+18:49 -!- Slavov [~slavov@77.70.91.102] has joined #telerikacademy
+18:49 -!- hackman [~HackMan@management.1h.com] has quit [Quit: Leaving.]
+18:50 < dencho> :)
+18:50 -!- wiseman_ [~wiseman@mariay.pppoe.fiber-lan.eu] has joined #telerikacademy
+18:51 < dencho> http://youtu.be/-0XOxxwGX7w
+18:55 -!- AndChat|2004 [~McNamee@213.226.63.62] has joined #telerikacademy
+18:59 -!- wiseman_ [~wiseman@mariay.pppoe.fiber-lan.eu] has left #telerikacademy []
+18:59 < samy> http://www.youtube.com/watch?v=KrVC5dm5fFc&list=RD02-0XOxxwGX7w
+19:02 -!- samy_ [~samy@84.238.184.98] has joined #telerikacademy
+19:06 -!- samy [~samy@91.196.227.180] has quit [Ping timeout: 264 seconds]
+19:09 -!- looser99 [John@78.130.186.99] has joined #telerikacademy
+19:13 -!- user99 [John@78.130.186.99] has quit [Ping timeout: 276 seconds]
+19:13 -!- samy_ is now known as samy
+19:13 < dencho> nice
+19:13 < dencho> :)
+19:13 < dencho> az tozi go znaq,
+19:14 < dencho> vodil sam korespondencia s nego ako ne se luja... ili pone sam mu gledal videoto
+19:14 < samy> male
+19:14 < samy> kak namalih cigarite
+19:15 < dencho> kak
+19:16 < samy> kato ne hodq na rabota :D
+19:16 < dencho> :]
+19:16 < samy> praweh po kutiq na 12 chasa
+19:17 < dencho> lo6o :D
+21:56 -!- Slavov [~slavov@77.70.91.102] has quit [Quit: Leaving]
+22:51 -!- ncuxoTo [54eee159@gateway/web/freenode/ip.84.238.225.89] has quit [Ping timeout: 250 seconds]
+22:59 -!- villy [~villy@87.97.192.85] has joined #telerikacademy
+22:59 < villy> k\
+22:59 -!- villy is now known as ViLKaTa
+23:06 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+23:07 -!- hackman is now known as Guest28259
+23:18 -!- ViLKaTa [~villy@87.97.192.85] has quit [Ping timeout: 248 seconds]
+23:43 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+23:48 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+23:53 < phalaaxx> тук някакво затишие е настанало :)
+23:53 < Guest28259> много сме уморени след протестите
+23:53 < Guest28259> бая път си беше
+23:53 -!- Guest28259 is now known as azilian
+23:54 -!- azilian is now known as hackman

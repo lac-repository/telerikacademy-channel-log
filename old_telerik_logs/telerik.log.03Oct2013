@@ -1,0 +1,641 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:08:26] Guest59978 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:33:05] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[00:58:27] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 252 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:27:03] phalaaxx1 (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:49:19] Nick change: ndyakov|away -> ndyakov
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:03:27] Nick change: ndyakov -> ndyakov|away
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:27:42] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[08:32:15] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 248 seconds
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:00:08] Tiako (1000@80.30.185.82) left irc: Read error: Connection reset by peer
+[09:04:49] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 256 seconds
+[09:15:43] Tiako (1000@5.Red-79-153-249.dynamicIP.rima-tde.net) joined #telerikacademy.
+[09:16:16] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[09:17:55] <KpeTeHoug> .tell yulimoto Да пием бира викам :)
+[09:17:56] <wilindex> KpeTeHoug: I'll pass that on when yulimoto is around.
+[09:18:03] <KpeTeHoug> добро ви утро
+[09:19:07] <KpeTeHoug> и то май време стана за винце
+[09:19:09] <KpeTeHoug> в тоя студ
+[09:31:17] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:31:43] <KpeTeHoug> добро утро KrasiGa
+[09:32:14] <KrasiGa> добро утро KpeTeHoug !
+[09:32:27] <KpeTeHoug> напреварих те начи :)
+[09:32:31] <KrasiGa> и на останалите Добро утро!
+[09:32:34] <KpeTeHoug> брб да рестартирам машината
+[09:32:42] KpeTeHoug (~GT@212.36.13.10) left irc: Quit: The difference between friendship and love is how much you can hurt each other
+[09:44:45] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[09:50:15] <yulimoto> бръм
+[09:50:16] <wilindex> yulimoto: 2013-10-03 06:24:16 UTC <KpeTeHoug> tell yulimoto Да пием бира викам :)
+[09:50:40] <yulimoto> да ве ше пием бира нп
+[09:56:59] <KpeTeHoug> samo obe]awa[
+[09:57:05] <KpeTeHoug> само обещаваш
+[09:57:05] <KpeTeHoug> :)
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:05:18] <yulimoto> ха
+[10:06:15] <yulimoto> аз не съм мн по пийнито ама имам периоди :)
+[10:06:19] <yulimoto> аре бегам
+[10:09:44] <KpeTeHoug> бягай
+[10:09:48] <KpeTeHoug> за здраве
+[10:24:58] <hackman> KpeTeHoug, кво утро... аз тъкмо се прибрах от баровете
+[10:25:05] <hackman> умекнаха ми краката тук
+[10:25:33] <hackman> от networking не мога да изляза от бара :)
+[10:29:17] <KpeTeHoug> хахаха
+[10:29:22] <KpeTeHoug> запази сили и за уикенда
+[10:29:44] <KpeTeHoug> аз ще мога да мина май самоз а твоята лекция, и едно бързо питие
+[10:29:52] <KpeTeHoug> че не се знае дали ще има кой да гледа децата
+[10:30:00] <KpeTeHoug> пък жената сама с трите .... :)
+[10:30:02] <KpeTeHoug> ще видим
+[10:32:12] <hackman> аз трябва да седна да помисля за какво ще говоря :)
+[10:32:23] <hackman> и да си направя презентацията днес-утре :)
+[10:39:08] <KpeTeHoug> :)
+[10:39:27] <KpeTeHoug> как може аурдино, или както там се казва
+[10:39:33] <KpeTeHoug> да се автоматизира да ми пере чорапите
+[10:39:35] <KpeTeHoug> примерно :)
+[10:41:59] <hackman> това е интересно...
+[10:42:06] <hackman> може да разкажа как го виждам :)
+[10:42:12] <hackman> не е много трудно
+[10:42:21] <hackman> само трябва да видя smell detector :)
+[10:42:54] <KrasiGa> KpeTeHoug:  пералнята не може ли да направи същото?
+[10:43:19] <hackman> KrasiGa, въпроса е кой ще намери чорапите и кой ще ги вкара в нея
+[10:43:25] <hackman> кой ще сложи прах
+[10:43:30] <hackman> омекотител
+[10:43:38] <hackman> и ще сложи правилната програма
+[10:43:57] <KrasiGa> и искаш да ми кажеш, че това може да се автоматизира? да бе
+[10:44:22] <hackman> искам да ти кажа, че имам познати които вече са го направили
+[10:44:29] <hackman> не е чак такава философия
+[10:44:46] <hackman> праха за пране и омекотителя се слагат с помпички
+[10:45:03] <hackman> програмата се предава на новите програматори с цифров код
+[10:45:12] <KrasiGa> подготви тази лекция за Благоевград
+[10:45:19] <KrasiGa> с удовослтвие ще я чуя
+[10:45:28] <hackman> а чорапите се разделят на бели и черни по цвят с проста видео обработка
+[10:45:32] <hackman> а се намират по миризма
+[10:45:38] <KrasiGa> хахаха
+[10:45:42] <hackman> но виж за миризмата не знам ...
+[10:45:46] <hackman> не съм запознат там
+[10:45:54] <KrasiGa> еее не, даже не мога да си го представя
+[10:46:18] <hackman> за това съм ви аз :)
+[10:46:22] <hackman> да ви го нарисувам :)
+[10:47:17] <KrasiGa> дано да сте на 30 тук
+[10:48:53] <KpeTeHoug> може да не е по миризма
+[10:48:58] <KpeTeHoug> а по твърдовст на чорапа
+[10:49:04] <KpeTeHoug> по лесно ще е предполагам
+[10:49:07] <KpeTeHoug> ако е мек - не се пере
+[10:49:15] <KpeTeHoug> ако е твърд като дъска - в пералянята
+[10:51:04] <KrasiGa> може да е мек и да мирише
+[10:54:24] <KpeTeHoug> е сега
+[10:54:33] <KpeTeHoug> възможно е
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:51:09] <phalaaxx> http://pcworld.bg/21624_telerik_stapi_v_silicievata_dolina?utm_source=feedburner&utm_medium=feed&utm_campaign=Feed%3A+pcworldbg+%28PC+World+%D0%91%D1%8A%D0%BB%D0%B3%D0%B0%D1%80%D0%B8%D1%8F%29
+[11:51:10] <wilindex> [ Телерик стъпи в Силициевата долина | Бизнес | PC World България ] - pcworld.bg
+[11:52:07] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[11:59:42] <yulimoto> някой може ли да ми каже тук за лесно конфигуриране и получаване на пакети, който да работи с днс, но все пак да има и  повечко протоколи за по нататък ?
+[11:59:54] <yulimoto> тук=tool*
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:02:31] <yulimoto> взех един питонаджийски ама да видим ще го пробва следобед
+[12:04:20] <yulimoto> .weather yambol
+[12:04:22] <wilindex> Yahoo! Weather - Yambol, BG: Mostly Cloudy, 5°C (41°F), 30in (1024mb), Light breeze 6kt (↖)
+[12:04:30] <yulimoto> .weather sofia
+[12:04:32] <wilindex> Yahoo! Weather - Sofia, BG: Cloudy, 6°C (42°F), 30in (1015mb), Light air 3kt (↑)
+[12:04:45] <yulimoto> .weather burgas
+[12:04:47] <wilindex> Yahoo! Weather - Burgas, BG: Partly Cloudy, 9°C (48°F), 30in (1015mb), Moderate breeze 14kt (↑)
+[12:08:40] <wilindex> yulimoto: anton_dutsov: да мисля, че юлимото стигна до някакво решение :) при което на master сървъра използва allow-transfer, а на slave masters
+[12:19:06] <dencho> yo
+[12:28:44] <phalaaxx> tool за какво?
+[12:39:34] <yulimoto> ми аз съм писал, не е ли ясно, тул с който конфигурирам и получавам пакети по мрежата, да може да конфигва и парсва пакети за повече протоколи и да има днс
+[12:40:40] <yulimoto> сложих един scrapy писан на питон ама не съм го човъркал направих един днс пакет  само да видя за какво иде реч и до там
+[12:42:24] <dencho> ei coderi
+[12:44:04] <yulimoto> аз съм код консуматор, не creator :)
+[12:53:48] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 245 seconds
+[12:55:24] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:58:16] Action: dencho slaps yulimoto around a bit with a large trout
+[12:58:19] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[12:58:20] Action: dencho slaps KrasiGa around a bit with a large trout
+[12:58:22] Action: dencho slaps phalaaxx around a bit with a large trout
+[12:58:29] Action: dencho slaps Telerik around a bit with a large trout
+[12:58:31] Action: dencho slaps wilindex around a bit with a large trout
+[12:58:58] <phalaaxx> тоз пак почна със шамарите :)
+[12:59:34] <dencho> ... защото така каза ледения стив остин!
+[12:59:36] <dencho> :д
+[12:59:38] <dencho> :D
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:00:29] <yulimoto> .weather Berlin
+[13:00:31] <wilindex> Yahoo! Weather - Berlin, DE: Fair, 10°C (50°F), 30in (1015mb), Moderate breeze 13kt (↘)
+[13:00:37] <dencho> .weather Botevgrad
+[13:00:37] <yulimoto> .weather Yambol
+[13:00:38] <wilindex> Yahoo! Weather - Botevgrad, BG: Mostly Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[13:00:41] <wilindex> Yahoo! Weather - Yambol, BG: Mostly Cloudy, 7°C (44°F), 30in (1024mb), Moderate breeze 14kt (↑)
+[13:00:48] <dencho> .weather Lukovit
+[13:00:50] <wilindex> Yahoo! Weather - Lukovit, BG: Light Rain, 6°C (42°F), 30in (1024mb), Light air 3kt (↙)
+[13:00:52] <yulimoto> .weather Sofia
+[13:00:56] <wilindex> Yahoo! Weather - Sofia, BG: Mostly Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[13:00:59] <dencho> .weather Haskovo(zatvora)
+[13:01:01] <wilindex> Yahoo! Weather - Khaskovo, BG: Mostly Cloudy, 5°C (41°F), 30in (1023mb), Light air 3kt (↗)
+[13:01:04] <dencho> qsno
+[13:01:32] <dencho> .weather Dermantsi
+[13:01:32] <yulimoto> само в хасково (в затвора) и Луковит е по-студено от ямбол ебаси
+[13:01:34] <wilindex> Yahoo! Weather - Durmantsi, BG: Mostly Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[13:01:47] <yulimoto> аа сигурно сливен
+[13:01:48] <dencho> haha :D
+[13:01:58] <dencho> .weather Sliven(zatvora)
+[13:02:00] <wilindex> Yahoo! Weather - Sliven, BG: Mostly Cloudy, 7°C (44°F), 30in (1024mb), Moderate breeze 14kt (↑)
+[13:02:02] <yulimoto> то там баси вятъра чуек
+[13:02:12] <yulimoto> равни !!!
+[13:02:17] <dencho> .weather Liulin
+[13:02:18] <wilindex> Yahoo! Weather - Liulin, CN: Sunny, 22°C (71°F), 30in (1016mb), Light air 3kt (↓)
+[13:02:22] <dencho> ooo
+[13:02:26] <dencho> v liulin 22 gradusa we
+[13:02:33] <yulimoto> ко стаа е брато къде е тва
+[13:02:41] <dencho> ebasi temperaturnite kolebaniq :D tva e kvartal na sofia
+[13:02:49] <yulimoto> да ве
+[13:03:12] <dencho> .weather vrachesh
+[13:03:15] <wilindex> Yahoo! Weather - Vrachesh, BG: Mostly Cloudy, 8°C (46°F), 30in (1015mb), Light breeze 6kt (↖)
+[13:03:25] <yulimoto> ама аз имах предвид това дето го разбира бота за люлин а не ти
+[13:03:31] <dencho> .weather Bratsigovo(hijite)
+[13:03:33] <wilindex> Yahoo! Weather - Bratsigovo, BG: Light Rain, 6°C (42°F), 30in (1024mb), Calm 0kt (↑)
+[13:03:41] <dencho> na hijite e dobre
+[13:03:51] <yulimoto> ха
+[13:03:59] <yulimoto> .weather shipka
+[13:04:01] <wilindex> Yahoo! Weather - Shipka, BG: Mostly Cloudy, 5°C (41°F), 30in (1023mb), Light air 3kt (↗)
+[13:04:10] <dencho> .weather pametnika Levski
+[13:04:14] <wilindex> Yahoo! Weather - Levski, BG: Light Rain, 6°C (42°F), 30in (1024mb), Light air 3kt (↙)
+[13:04:17] <dencho> qsno :D
+[13:04:37] <phalaaxx> .weather #telerikacademy
+[13:04:39] <phalaaxx> :D
+[13:04:40] <wilindex> TypeError: object of type 'NoneType' has no len() (file "/usr/local/lib/python2.7/dist-packages/willie/modules/weather.py", line 33, in woeid_search)
+[13:04:41] <yulimoto> .weather Hawai
+[13:04:42] <dencho> .weather Arbanasi
+[13:04:44] <wilindex> Yahoo! Weather - Arunachal Pradesh, IN: Mostly Cloudy, 32°C (89°F), 29in (1006mb), Light breeze 6kt (→)
+[13:04:45] <wilindex> Yahoo! Weather - Beceni, RO: Mostly Cloudy, 8°C (46°F), 30in (1025mb), Gentle breeze 8kt (↑)
+[13:04:48] <dencho> kvo?
+[13:04:53] <dencho> .weather Arbanasi
+[13:04:56] <wilindex> Yahoo! Weather - Beceni, RO: Mostly Cloudy, 8°C (46°F), 30in (1025mb), Gentle breeze 8kt (↑)
+[13:04:59] <dencho> RO
+[13:05:01] <dencho> kade RO we
+[13:05:01] <dencho> :D
+[13:05:06] <yulimoto> .weather Copa Cabana
+[13:05:08] <wilindex> Yahoo! Weather - San Nicolas De Los Garzas, MX: Clear, 25°C (77°F), 29in (982mb), Light breeze 5kt (→)
+[13:05:17] <dencho> .weather Sibir
+[13:05:19] <wilindex> Yahoo! Weather - Sibirskiy, RU: Mostly Cloudy, 9°C (48°F), 29in (982mb), Moderate breeze 11kt (↖)
+[13:05:34] <dencho> .weather Sochi
+[13:05:36] <wilindex> Yahoo! Weather - Sochi, RU: Light Rain Shower, 14°C (57°F), 29in (982mb), Light air 3kt (↑)
+[13:05:38] <yulimoto> .weather siberia
+[13:05:40] <wilindex> Yahoo! Weather - Siberia, RU: Sunny, -2°C (28°F), 30in (1018mb), Calm 0kt (↑)
+[13:05:52] <phalaaxx> вие двамата правите нагледен пример за DoS :D
+[13:05:55] <yulimoto> .weather vladivostok
+[13:05:57] <wilindex> Yahoo! Weather - Vladivostok, RU: Clear, 8°C (46°F), 29in (982mb), Light air 3kt (↑)
+[13:05:59] <dencho> haha
+[13:06:05] <dencho> .weather Kursk
+[13:06:07] <wilindex> Yahoo! Weather - Kursk, RU: Mostly Cloudy, 4°C (39°F), 30in (1015mb), Gentle breeze 10kt (↑)
+[13:06:08] <yulimoto> da
+[13:06:11] <dencho> dobre e :D
+[13:06:23] <dencho> hahaha phalaaxx :D
+[13:06:25] <yulimoto> DoS от изток на запад и обратно
+[13:06:32] <yulimoto> имаме си мап
+[13:06:40] <yulimoto> по който движим атаката
+[13:06:40] <dencho> .weather Aliaska
+[13:06:42] <wilindex> Yahoo! Weather - Alaska, AK: Partly Cloudy, 1°C (33°F), 29in (982mb), Calm 0kt (↑)
+[13:06:51] <dencho> .weather Tampa
+[13:06:52] <wilindex> Yahoo! Weather - Tampa, FL: Partly Cloudy, 23°C (73°F), 30in (1015mb), Light air 3kt (→)
+[13:06:53] <phalaaxx> roadmap
+[13:07:09] <dencho> .weather Sahara
+[13:07:12] <wilindex> Yahoo! Weather - Sahara, IN: Haze, 30°C (86°F), 29in (982mb), Gentle breeze 10kt (→)
+[13:07:15] <dencho> aa tam e dobre
+[13:07:16] <dencho> :D
+[13:07:20] <yulimoto> da be
+[13:07:22] <phalaaxx> да искам и аз там :D
+[13:07:37] <yulimoto> .weather Borabora
+[13:07:40] <wilindex> Yahoo! Weather - Bora-Bora, PF: Unknown, 26°C (78°F), 30in (1015mb), Gentle breeze 10kt (→)
+[13:07:43] <dencho> .weather torabora
+[13:07:46] <wilindex> Yahoo! Weather - Tarboro, NC: Fog, 13°C (55°F), 30in (1015mb), Calm 0kt (↑)
+[13:07:49] <dencho> haha
+[13:07:53] <yulimoto> eto tam e dobre na borabora
+[13:08:03] <dencho> .weather Damask
+[13:08:12] <dencho> damask nqma li?
+[13:08:14] <yulimoto> .weather izmir
+[13:08:16] <wilindex> Yahoo! Weather - Dimashq, SY: Partly Cloudy, 27°C (80°F), 29in (982mb), Fresh breeze 21kt (←)
+[13:08:19] <wilindex> Yahoo! Weather - Izmir, TR: Partly Cloudy, 17°C (62°F), 30in (1015mb), Moderate breeze 15kt (↑)
+[13:08:26] <dencho> .weather diarbekir
+[13:08:30] <wilindex> Yahoo! Weather - Diyaribakir, TR: Mostly Cloudy, 29°C (84°F), 29in (982mb), Moderate breeze 15kt (↙)
+[13:08:34] <yulimoto> .weather Ямбол
+[13:08:36] <wilindex> UnicodeEncodeError: 'ascii' codec can't encode characters in position 42-46: ordinal not in range(128) (file "/usr/lib/python2.7/urllib.py", line 1312, in urlencode)
+[13:08:39] <dencho> uuu
+[13:08:41] <dencho> ascii
+[13:08:41] <dencho> :D
+[13:08:49] <dencho> .weather anadola
+[13:08:51] <wilindex> Yahoo! Weather - Antalya, TR: Partly Cloudy, 25°C (77°F), 29in (982mb), Fresh breeze 16kt (↖)
+[13:08:53] <phalaaxx> .weather Taumatawhakatangihangakoauauotamateaturipukakapikimaungahoronukupokaiwhenuakitanatahu
+[13:08:56] <wilindex> TypeError: object of type 'NoneType' has no len() (file "/usr/local/lib/python2.7/dist-packages/willie/modules/weather.py", line 33, in woeid_search)
+[13:08:57] <dencho> mnoo jega tam we
+[13:08:58] <yulimoto> ааа еи тука ше има играчка
+[13:09:21] <phalaaxx> .weather Llanfairpwllgwyngyllgogerychwyrndrobwllllantysiliogogogoch
+[13:09:23] <wilindex> Yahoo! Weather - Llanfairpwllgwyngyll, GB: Cloudy, 20°C (68°F), 29in (982mb), Gentle breeze 10kt (↘)
+[13:09:27] <yulimoto> .weather print()
+[13:09:30] <wilindex> Yahoo! Weather - Presnensky, RU: Mostly Cloudy, 4°C (39°F), 30in (1015mb), Gentle breeze 10kt (↑)
+[13:09:34] <yulimoto> heee
+[13:09:54] <yulimoto> .weather cpu in my comp
+[13:09:58] <wilindex> Yahoo! Weather - Cururupu Airport, BR: Partly Cloudy, 27°C (80°F), 29in (982mb), Fresh breeze 18kt (↗)
+[13:09:58] <dencho> .weather rm -fr
+[13:10:00] <wilindex> Yahoo! Weather - Frosinone, IT: Fair, 18°C (64°F), 30in (1015mb), Light breeze 5kt (→)
+[13:10:06] <yulimoto> biwa
+[13:10:16] <phalaaxx> .weather Chargoggagoggmanchauggagoggchaubunagungamaugg
+[13:10:18] <wilindex> TypeError: object of type 'NoneType' has no len() (file "/usr/local/lib/python2.7/dist-packages/willie/modules/weather.py", line 33, in woeid_search)
+[13:10:26] <phalaaxx> :D
+[13:10:29] <dencho> are ora, az 4inii trqq da miq
+[13:10:30] <dencho> :D
+[13:10:37] <yulimoto> tell dencho .weather dencho
+[13:10:40] <yulimoto> .tell dencho .weather dencho
+[13:10:41] <wilindex> yulimoto: I'll pass that on when dencho is around.
+[13:10:51] <dencho> az sam around we
+[13:10:52] <dencho> :D
+[13:10:52] <wilindex> dencho: 2013-10-03 10:17:01 UTC <yulimoto> tell dencho .weather dencho
+[13:10:59] <dencho> :]
+[13:11:17] <yulimoto> .weather in dencho headbox
+[13:11:19] <wilindex> Yahoo! Weather - Indiana, IN: Light Rain, 19°C (66°F), 30in (1016mb), Light breeze 6kt (↙)
+[13:11:32] <yulimoto> .weather florida
+[13:11:35] <wilindex> Yahoo! Weather - Florida, FL: Fair, 22°C (71°F), 30in (1016mb), Light breeze 6kt (↗)
+[13:11:57] <yulimoto> няма ли прогнозата за 5 дена напред ве
+[13:12:58] <yulimoto> .mangle dencho is R'n'B icon !!!
+[13:13:02] <dencho> hahaha
+[13:13:04] <wilindex> yulimoto: Battery Hop code !
+[13:13:04] <dencho> mangal
+[13:13:18] <dencho> .mangal wilindex
+[13:15:54] <dencho> .weather f
+[13:15:56] <wilindex> Yahoo! Weather - Hesse, DE: Mostly Cloudy, 9°C (48°F), 30in (1023mb), Gentle breeze 10kt (→)
+[13:16:02] <dencho> .weather a
+[13:16:04] <wilindex> Yahoo! Weather - Trondelag, NO: Partly Cloudy, 3°C (37°F), 30in (1023mb), Light breeze 6kt (↘)
+[13:16:06] <dencho> .weather b
+[13:16:08] <wilindex> Yahoo! Weather - B., IN: Cloudy, 30°C (86°F), 29in (1005mb), Light air 3kt (←)
+[13:16:15] <dencho> .weather c
+[13:16:18] <wilindex> Yahoo! Weather - Saxony, DE: Sunny, 8°C (46°F), 30in (1027mb), Gentle breeze 8kt (↘)
+[13:16:20] <yulimoto> e тва е вече дикшънъри
+[13:16:33] <dencho> :D
+[13:16:36] <dencho> .weather :D
+[13:16:38] <wilindex> Yahoo! Weather - North Rhine-Westphalia, DE: Fair, 15°C (59°F), 30in (1015mb), Gentle breeze 10kt (↘)
+[13:16:50] <dencho> .weather :
+[13:16:52] <wilindex> TypeError: object of type 'NoneType' has no len() (file "/usr/local/lib/python2.7/dist-packages/willie/modules/weather.py", line 33, in woeid_search)
+[13:17:11] <phalaaxx> .blocks add nick dencho
+[13:17:12] <phalaaxx> :P
+[13:17:13] <wilindex> phalaaxx: Successfully added block: dencho
+[13:17:23] <dencho> 4estito :D
+[13:17:31] <dencho> .weather dfg
+[13:17:41] <dencho> nema weather za dencho ve4e
+[13:17:41] <dencho> :D
+[13:17:44] Action: dencho slaps wilindex around a bit with a large trout
+[13:17:51] <phalaaxx> .blocks del nick dencho
+[13:17:52] <wilindex> phalaaxx: Successfully deleted block: dencho
+[13:17:59] <dencho> .blocks add nick phalaaxx
+[13:18:02] <phalaaxx> :D
+[13:18:08] <phalaaxx> ne staa
+[13:18:08] <dencho> :D
+[13:18:11] <phalaaxx> samo men me slusha
+[13:18:37] <dencho> lo6o sledlarov :D lo6o
+[13:19:15] <phalaaxx> не е лошо, много е хубаво даже
+[13:19:43] <dencho> baaago mnogo vetar weee
+[13:19:57] <dencho> onaz lelq v metroto kak me izluga 4e metroto raboti i 4akah 15 minuti dole
+[13:20:16] <dencho> spre li metroto nekav jestok haus stava v sofia
+[13:21:07] <phalaaxx> не не, не си разбрал правилно ситуацията със София
+[13:21:19] <phalaaxx> необходимо и достатъчно условие за жесток хаос е да изгрее Слънцето
+[13:21:31] <dencho> za6to?
+[13:21:35] <phalaaxx> тоя град е някаква грешка на цивилизацията :D
+[13:21:42] <dencho> za6to slunceto?
+[13:21:51] <phalaaxx> защото всеки ден е хаос
+[13:21:57] <dencho> haha :D
+[13:27:55] <yulimoto> някой да знае от де да дръпна dhcpd за федора, щото от версия еди-коя си ползват dnsmasq нещо си комбинирано
+[13:46:55] <phalaaxx> rpmforge?
+[13:52:14] <yulimoto> мм лъжа в репоситорито има dhcp някакво ама дали е само клиент или клиент и сървър е мн друдно да се каже, когато се опитвам да го пусна реве, че няма конфиг файлове. трудно начало с загадка :)
+[13:53:11] <yulimoto> а иначе ползвах rpmpbone или нещо подобно
+[13:56:10] <dencho> nqkoi da e vijdal eto tova - reboot and select proper boot device or insert boot media in selected boot device and press a key - na 4eren ekran kato instalirana OS e windows?
+[13:56:34] <dencho> problema e, 4e dokato 4oveka si rovel facebook-a (windows) mu izlizalo tova ne6to na 4er ekran?
+[13:56:40] <dencho> nqkoi s podobni probleim?
+[13:56:43] <dencho> problemi?
+[13:58:12] <KpuCko> =]]]
+[13:58:15] <KpuCko> #WindowsHelp?
+[13:58:26] <dencho> hahaha
+[13:58:37] <dencho> 4akai KpeTeHoug e windows master
+[13:58:38] <dencho> :D
+[13:58:40] <KpeTeHoug> аз съм го виждал
+[13:58:41] <KpeTeHoug> :)
+[13:58:43] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[13:58:45] <dencho> znaeh si
+[13:58:45] <dencho> :D
+[13:58:51] <dencho> i kak go re6i?
+[13:58:54] <KpeTeHoug> ама това е при рестарт на машината
+[13:58:58] <KpeTeHoug> причини бол
+[13:59:20] <dencho> e toz mi kazva, 4e kato si cuka.. i mu izliza tva, (qvno trqbva da mi obesni po-podrobno)
+[13:59:20] <dencho> :D
+[13:59:21] <KpeTeHoug> от липса на proper МБР
+[13:59:28] <KpeTeHoug> MBR
+[13:59:29] <dencho> po edno vreme kazva6e 4e mu izliza sin ekran
+[13:59:45] <KpeTeHoug> до неправилно направени конфигурации по дъното
+[13:59:48] <KrasiGa> да си смени харддиска според мен
+[13:59:50] <dencho> a hard diska moje li da e zdal bagaja?
+[13:59:55] <KpeTeHoug> на това кое устройство да търси при буут
+[13:59:56] <dencho> KrasiGa ya...
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:01] <KpeTeHoug> да, може и харда
+[14:00:15] <KpeTeHoug> 2 чалъма - вади захранващият от кутията на КОМПА
+[14:00:18] <KpeTeHoug> не от контакта
+[14:00:21] <dencho> 6toto to onq den ne e imal problemi, a windows-a az sam go instaliral (osven da sam lame windows installer) :D
+[14:00:26] <KpeTeHoug> пуши една цигара, закача и пробва пак
+[14:00:38] <KpeTeHoug> 2рия е ако може да си отвори кутията, да разкачи харда, и да го закачи пак
+[14:00:48] <KpeTeHoug> ако не - да ти плаща пътните да вариш да го опраяш
+[14:00:58] <dencho> KpeTeHoug tiq proceduri nai veroqtno az 6a gi prava :D
+[14:00:59] <dencho> qsno
+[14:01:10] <KpeTeHoug> е с кабела
+[14:01:12] <KpeTeHoug> може и сам баси
+[14:01:27] <KpeTeHoug> само му обясни че е черният кабел най-отгоре, отзад на кутията баси
+[14:01:27] <KpeTeHoug> :)
+[14:01:32] <dencho> basi dobre :D
+[14:01:52] <KpeTeHoug> айде бе, аз даже на лелките успявам да обясня по телефона
+[14:01:55] <KpeTeHoug> не ми се прей :)
+[14:01:59] <dencho> tuka mi se podmqtat nqkvi hardove ot po 4 gb... moe mu sloja edin win95 toi nali e free ve4e
+[14:02:00] <dencho> :D
+[14:02:30] <dencho> 4ai da vidim kvo kazvat orata v netq :D
+[14:02:46] <dencho> 4e 6a pra6tame KrasiGa da nosi hard
+[14:03:16] <KrasiGa> ше носа бе, само кажете къде
+[14:03:24] <yulimoto> dencho: слушай какво на човек дето цъка фацето вяра му нямай, аз на един му давам тоя линк http://bit.ly/19WJ13p , като ме ядосва с въпросите си и той после ме пита що му влизам в компютъра
+[14:03:28] <wilindex> [ Let me google that for you ] - bit.ly
+[14:03:31] <dencho> toq indiec li e ? http://youtu.be/3WBjF4Ijvj4 ili rusnak?
+[14:03:33] <wilindex> [YouTube] Title: (HOW TO FIX) reboot and select proper boot device | Uploader: Nik Bel | Uploaded: 11/09/2012, 15:09 | Duration: 4mins 56secs | Views: 160,646 | Comments: 333 | Likes: 548 | Dislikes: 104
+[14:03:55] <dencho> yulimoto qsnooo :D
+[14:04:06] <dencho> samo mi kajete toq rusnak li e ili indiec D:
+[14:05:06] <dencho> ghaha
+[14:05:27] <KpeTeHoug> руснак
+[14:05:36] <KpeTeHoug> и това е само една възможност
+[14:05:59] <dencho> :D
+[14:07:01] <yulimoto> е кво прай ве
+[14:07:10] <yulimoto> неам нерви да гледам
+[14:07:23] <dencho> HAHAHAHHAHAHAHA
+[14:07:29] <dencho> be toq e nekav idiot we
+[14:07:31] <dencho> izvadi go
+[14:07:37] <dencho> i po4na da go 4uka s nekvi kle6ti
+[14:07:42] <dencho> ABYAHAHHAHA
+[14:07:48] <dencho> sq go udrq s umrici
+[14:07:54] <dencho> AHHAHAHAHAH
+[14:08:07] <dencho> offff
+[14:08:24] <dencho> kaza, 4e ako ne pomogne tva, da go izvadim i da go stro6im i da si kupim nov
+[14:08:24] <dencho> :D
+[14:09:05] <KpeTeHoug> това ти казах - това е частен случай :)
+[14:09:07] <KpeTeHoug> с решение по руски
+[14:09:20] <yulimoto> щом има трошене ще го видя на бързи обороти с прескачане
+[14:10:12] <KrasiGa> значи бях права - да си купи нов
+[14:11:02] <dencho> are, novo dvaise... windows error! :D
+[14:11:06] <dencho> slizam da go vidq
+[14:11:06] <dencho> :D
+[14:11:07] <dencho> haha
+[14:11:32] <yulimoto> а ве ко ме лъжеш ве конектора му праи белята
+[14:11:54] <KrasiGa> е как пък разбра?
+[14:12:06] <yulimoto> и човека ти показва как да го опраиш
+[14:13:20] <yulimoto> кое как съм разбрал
+[14:14:51] <KrasiGa> че проблема е в конектора
+[14:15:38] <KpeTeHoug> dencho, dencho, омазал си инсталацията сигурно :)
+[14:16:11] <KrasiGa> че какво има да се омазва на една уиндоус инсталация?
+[14:16:39] <yulimoto> KpeTeHoug: питаха те нещо !!!
+[14:17:19] <yulimoto> KrasiGa: ами аз не бях гледал лудия финал и мислех, че оня си го подкара докато намисташе жиците там
+[14:18:01] <yulimoto> ама нейсе финала беше велик, най-интересното беше че си го самозаснема, все едно е знаел лудото решение
+[14:20:03] <KrasiGa> на 7 и на 10 ли ще има лекции?
+[14:20:32] <yulimoto> понеделник и четвъртък до колкото знам
+[14:20:54] <yulimoto> вторник или сряда който иска мрежова сигурност
+[14:21:01] <yulimoto> това е седмицата на hackman
+[14:21:06] <KrasiGa> къде това?
+[14:21:17] <yulimoto> във фми, но май ще има стрийм
+[14:21:36] <KrasiGa> почва от другата седмица, така ли?
+[14:21:42] <yulimoto> да
+[14:21:50] <yulimoto> но и той не знае кой ден ще е
+[14:21:53] <KrasiGa> пуснете линк като разберете
+[14:22:04] <KrasiGa> или поне къде ще качва записите
+[14:22:13] <yulimoto> ами ти нали си тук
+[14:22:15] <yulimoto> ще разбереш
+[14:22:32] <yulimoto> или ще ти пусна един tell на wilindex
+[14:22:39] <KrasiGa> може да го обсъждате вечер когато не съм онлайн
+[14:22:53] <KrasiGa> пусни ми Tell za по-сигурно
+[14:23:18] <yulimoto> ok
+[14:23:43] <KpeTeHoug> yulimoto какво са ме питали ?:)
+[14:24:06] <yulimoto>  < KpeTeHoug> dencho, dencho, омазал си инсталацията сигурно :)
+[14:24:09] <yulimoto> 14:22 < KrasiGa> че какво има да се омазва на една уиндоус инсталация?
+[14:24:28] <KpeTeHoug> аа
+[14:24:32] <KpeTeHoug> мнооого неща ;)
+[14:24:55] <KpeTeHoug> като започнем от сваленото от Х сайт исо, с "подобрен" уиндоус
+[14:24:56] <KpeTeHoug> :)
+[14:26:09] <yulimoto> ми то това е май само
+[14:31:31] <KrasiGa> в къщи имам една стара машина дето съм решила да и качвам линукс, помогнете какво дистро да си сложа
+[14:31:54] <KrasiGa> ще я ползвам за гледане на филми и качване на снимки
+[14:31:57] <KrasiGa> и интернет
+[14:32:03] <KrasiGa> за нищо по-сериозно
+[14:32:20] <KrasiGa> ааа и да се уча на нея
+[14:33:22] <KpeTeHoug> ми то гледането на филми не е много леко вече
+[14:33:26] <KpeTeHoug> то с тея кодежи
+[14:33:28] <KpeTeHoug> *кодеци
+[14:33:48] <KpeTeHoug> някакво бунто
+[14:33:58] <KpeTeHoug> lubuntu, xubuntu
+[14:34:09] <KpeTeHoug> trqbwa da ti wyr[i rabota
+[14:34:16] <KpeTeHoug> трябва да ти върши работа
+[14:34:55] <KrasiGa> преди време имах убунту ама го затрих. Така и не го ползвах
+[14:35:09] <KrasiGa> ама сега ще затрия уиндоуса, че да нямам избор
+[14:35:12] <KrasiGa> тогава бяха и двете
+[14:38:53] <KrasiGa> KpeTeHoug: а защо не убунту ами l ili xubuntu
+[14:56:01] <phalaaxx> аз бая време ползвах Ubuntu и даже се пробвах и сървърната му версия да ползвам (за сървъри), но накрая се върнах на добрия стар Debian
+[14:56:52] <yulimoto> KpeTeHoug: питаха те нещо !!!
+[14:57:55] <yulimoto> KrasiGa: убунту 12.04 LTS
+[14:57:57] <phalaaxx> хубаво нещо е Ubuntu като цяло, но от доста време чета RSS-ите на USN i DSA (Ubuntu Security Notices и Debian Security Advisory) и нещата които чета там обясняват защо толкова често има security updates за Ubuntu :)
+[14:58:58] <KpeTeHoug> затова и yulimoto ти дава LTS версия
+[14:59:09] <KpeTeHoug> а и ти каза стар комп, *бутутата са по леки
+[14:59:20] <KpeTeHoug> не е нъжно да е shiny  за да работи
+[14:59:21] <KpeTeHoug> :)
+[15:00:01] Writing user file...
+[15:00:01] Writing channel file...
+[15:05:04] <KrasiGa> ок, благодаря
+[15:05:39] <KrasiGa> ама не разбрах пак разликата м/у xubuntu и ubunto
+[15:07:36] <KpeTeHoug> ми в графичната среда
+[15:07:45] <KpeTeHoug> и премахнати някой джаджи
+[15:07:49] <KpeTeHoug> не помним на изусъ
+[15:08:29] <yulimoto> xubuntu e с кде ubuntu e с гноме това е главната разлика
+[15:08:52] <yulimoto> ако харесваш повече кде - xubuntu
+[15:12:43] <KrasiGa> проблема е, че не знам кое харесвам
+[15:12:47] <KrasiGa> ехееее ако знаех
+[15:12:58] <KrasiGa> нямаше да ви питам сигурно
+[15:13:43] <KpeTeHoug> :)
+[15:13:45] <KpeTeHoug> mi
+[15:13:49] <KpeTeHoug> аз харесвам lxde
+[15:13:50] <KpeTeHoug> :)
+[15:14:01] <KpeTeHoug> пусни си из нтубата няколко клипчета
+[15:14:04] <KpeTeHoug> и ще видиш
+[15:15:13] <yulimoto> KrasiGa: всичко минава през опита, и да ти кажа някаква дистрибуция сигурно няма да ти хареса, колкото ако стигнеш сама до някакво заключение. Така че почни от убунту 12.04 TLS и се ориентирай
+[15:15:39] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[15:16:59] <yulimoto> сложина на масата (dpkg vs rpm) desktop дистротата  Ubuntu vs Fedora първо и избери една двете дистрибуции после вече се ориентирай за релийз
+[15:21:15] <yulimoto> поне ти да си избираш и да си знаеш, че ти си си виновна
+[15:28:35] <phalaaxx> yulimoto: kubuntu е ubuntu с kde
+[15:28:39] <phalaaxx> xubuntu е със xfce
+[15:29:25] <yulimoto> a da сори
+[15:29:48] <yulimoto> хаха
+[15:30:01] <yulimoto> верно
+[15:30:39] <yulimoto> добре как да разбера какви пакети ще се инсталират при upgrade преди самия upgrade
+[15:30:48] <phalaaxx> къде това?
+[15:30:57] <yulimoto> аз използвам --simulate --dry-run
+[15:31:00] <yulimoto> апт-гет
+[15:31:11] <yulimoto> примерно като опции
+[15:31:18] <yulimoto> при upgrade за да видя предварително
+[15:31:24] <phalaaxx> амии какво лошо има в -s?
+[15:31:31] <yulimoto> да именно
+[15:31:40] <yulimoto> няма лошо аз така гледам
+[15:31:50] <phalaaxx> това съм го виждал направено горе долу така
+[15:32:03] <phalaaxx> в cron имаш apt-get със -s
+[15:32:06] <yulimoto> ама викам може да има по-добро решение
+[15:32:10] <yulimoto> аха
+[15:32:12] <yulimoto> и ?
+[15:32:14] <phalaaxx> и ако получиш поща - значи има неща за upgrade :)
+[15:32:23] <yulimoto> супер ве
+[15:32:31] <yulimoto> ей веуик си
+[15:33:06] <yulimoto> няма да го правя за сега ама си е добро
+[15:33:51] <yulimoto> в смисъл ще го направя, ама на сървърче едно, а не на десктопа
+[15:33:55] <phalaaxx> имаше още нещо което трябваше да се направи, само да видя...
+[15:34:19] <yulimoto> я виж, че хубави рецепти
+[15:36:01] <yulimoto> така някакъв ъпдейт на видео картата от който тръпна
+[15:36:13] <KrasiGa> еййй не е лесно да работиш с хора, които не искат да се учат а си мислят, че знаят всичко. Ще експлоадирам
+[15:36:43] <yulimoto> нещо в работата те нажижиха ?
+[15:36:52] <phalaaxx> apt-get -s -q=2 upgrade
+[15:37:25] <KrasiGa> бива тъпотиии, сега ще инсталираме софтуер на 100 станции ръчно понеже шефката не знае е какво е group policy и се притеснява да не омажем нещо понеже от София не са казали
+[15:37:46] <KrasiGa> ааа и се мъчи от половин час да пусне бекъп на базата
+[15:37:53] <phalaaxx> това в cron и ако има нещо за upgrade - apt-get ще изпринти нещо и крон ще ти го прати на пощата
+[15:37:54] <KrasiGa> иначе го правила редовно
+[15:38:04] <KrasiGa> а като гледам как пипа ми иде да се гръмна
+[15:39:33] <yulimoto> phalaaxx: чакай ще разледам quite опцията
+[15:39:47] <phalaaxx> quiet
+[15:40:11] <yulimoto> -q
+[15:40:49] <yulimoto> KrasiGa: не е ли по-вероятно да се омажете като инсталирате една по една всички машини
+[15:42:37] <yulimoto> phalaaxx: супер си
+[15:43:08] <yulimoto> t.e. quiet в случая обира плявата
+[15:43:10] <KrasiGa> те така го правят от както се помят
+[15:43:26] <KrasiGa> кво толкова ще се омажат само 3-4 компютъра и после ще ги мъчим защо
+[15:43:27] <yulimoto> за тях така работи, и не им се рискува
+[15:53:58] <phalaaxx> за някои хора пък Земята е плоска, защото ако беше кръгла - водата в моретата щеше да изтича отстрани
+[15:55:45] <KrasiGa> phalaaxx: добре казано
+[15:55:51] <KrasiGa> :)
+[15:57:19] <phalaaxx> сериозно, има хора които го вярват
+[15:57:48] <KrasiGa> и ти ги познаваш?
+[15:58:30] <phalaaxx> не
+[15:58:45] hackman (~hackman@12.166.214.2) left irc: Ping timeout: 246 seconds
+[15:58:48] <phalaaxx> бях силно изненадан че е възможно да има хора в наши дни които живеят с такива убеждения
+[15:59:06] <KrasiGa> http://www.vesti.bg/bulgaria/politika/upravliavashtite-zabranata-za-pushene-na-zakrito-shte-padne-5995163
+[15:59:08] <wilindex> [ Управляващите: Забраната за пушене на закрито ще падне - България - Политика - Vesti.bg ] - www.vesti.bg
+[15:59:18] <KrasiGa> това ако е истина сериозно ще се замисля за еиграция
+[15:59:26] <KrasiGa> *емиграция
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:04:19] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 252 seconds
+[16:04:58] <phalaaxx> ужас :@
+[16:05:19] <phalaaxx> това пък ако го направят....
+[16:06:28] <phalaaxx> не че ще е нещо неочаквано от сегашното ни правителство де, тамън ще има още нещо заради което да ги подканим по-настоятелно да си ходят
+[16:07:22] <KrasiGa> усещам гняв в себе си - трябва да избие някъде :(
+[16:08:03] <KrasiGa> някой може ли да ми каже защо на уиндоус 7 мрежата ми зарежда след няколко секунди  след като зареси ОС-то?
+[16:08:12] <KrasiGa> *зареди
+[16:09:56] <KrasiGa> и доста често съм виждала да дава на мрежата No internet access / стои с жълт удивителен/ а реално има
+[16:10:50] <KrasiGa> възможно ли е проблема да бъде в някой скапан суитч?
+[16:18:46] <KpeTeHoug> ако в 7мица
+[16:18:50] <KpeTeHoug> прокси
+[16:19:00] <KpeTeHoug> или само рестарт
+[16:20:40] <KrasiGa> нещо не те разбрах какво ме питаш
+[16:20:42] <KrasiGa> имаш прокси
+[16:20:49] <KrasiGa> *имам
+[16:23:08] <KpeTeHoug> ми ако имаш. ако не е сложено, дава че има връзка но няма интернет
+[16:23:18] <KpeTeHoug> а ако е 7мица, редовно излиза тая грешка
+[16:23:32] <KpeTeHoug> че хем има мрежа, хем няма нет, не зацепва проксито
+[16:23:36] <KpeTeHoug> рестарт ис е оправя
+[16:23:39] <KrasiGa> нали с това почнах, че е 7ца
+[16:23:39] <KpeTeHoug> типично за 7мица
+[16:23:58] <KpeTeHoug> не съм видял :) аз си чистя скрийна, да знам какво съм прочел :)
+[16:24:05] <KrasiGa> обратно е при мен, визулано покзава че няма а реално има
+[16:24:44] <KrasiGa> и мрежата ми зарежда по късно. КОгато прилагам GPolicy не се инсталира аpp понеже няма мрежа
+[16:24:51] <KrasiGa> идва след като зареди ОС
+[16:24:54] <KrasiGa> та се чудя защо
+[16:24:59] <KrasiGa> това на моя комп де
+[16:25:03] <KrasiGa> другите са ОК
+[16:28:26] <dencho> gotov sam
+[16:28:27] <dencho> :D
+[16:28:53] <phalaaxx> KrasiGa: http://www.youtube.com/watch?v=3t0kCyHeO70&feature=youtu.be&t=9m30s
+[16:28:55] <wilindex> [YouTube] Title: Jacque Fresco - New Zealand FULL TV Interview (multilingual subtitles) - Part 1 of 2 | Uploader: subanomic | Uploaded: 16/02/2011, 13:53 | Duration: 12mins 33secs | Views: 103,092 | Comments: 265 | Likes: 1,658 | Dislikes: 68
+[16:28:57] <KrasiGa> dencho:  какъв беше проблема
+[16:29:00] <phalaaxx> това за плоската Земя
+[16:31:27] <dencho> mi mai se okaza ne6to po kabelqka... otka4ih, zaka4ih... i poe4e nqma6e problemi
+[16:31:58] <dencho> no mnogo tupoto be6e, 4e usb klaviaturata ne rabote6e predi da se e zaredil windows-a !
+[16:32:10] <dencho> i ne mojeh da vlezna v bios-a da razgledam
+[16:33:07] <KrasiGa> ее да при по-стари дъна го има тоя ефект
+[16:33:13] <phalaaxx> dencho: предполагам биоса е бил със син фон :)
+[16:34:47] <dencho> phalaaxx vuzmojno e :D
+[16:35:57] <yulimoto> O, Да !!!
+[16:36:17] <yulimoto> Добрия стар гноме-шел и избягах от юнити !
+[16:37:24] <yulimoto> добре, че имаше update за ати
+[16:37:32] hackman (~hackman@12.166.214.2) joined #telerikacademy.
+[16:50:26] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:54:10] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[16:54:33] Nick change: Deyan -> Guest94736
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:15:16] Guest94736 (~Deyan@supersonic.comelsoft.com) left irc: Ping timeout: 252 seconds
+[17:40:42] Nick change: ndyakov|away -> ndyakov
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:08:18] hackman (~hackman@12.166.214.2) left irc: Quit: Leaving
+[18:29:00] Guest59978 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:33:26] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:03:57] Nick change: ndyakov -> ndyakov|away
+[19:05:05] Brahman (~Brahman@109.121.248.105) left irc: 
+[19:08:37] anton_sh (5ebeb3b9@gateway/web/freenode/ip.94.190.179.185) joined #telerikacademy.
+[19:11:16] <anton_sh> Здравейте, къде мога да намеря видеата от последния урок?
+[19:11:50] Nick change: ndyakov|away -> ndyakov
+[19:15:49] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[19:17:37] Nick change: ndyakov -> ndyakov|away
+[19:20:30] Nick change: ndyakov|away -> ndyakov
+[19:22:34] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 264 seconds
+[19:23:06] anton_dutsov (~Thunderbi@178.75.230.84) joined #telerikacademy.
+[19:23:09] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[19:25:58] Tiako (1000@5.Red-79-153-249.dynamicIP.rima-tde.net) left irc: Quit: Leaving
+[19:28:46] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:03:28] anton_dutsov (~Thunderbi@178.75.230.84) left irc: Ping timeout: 248 seconds
+[20:03:56] Nick change: ndyakov -> ndyakov|away
+[20:25:29] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:30:24] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[21:40:56] anton_dutsov (~Thunderbi@178.75.230.84) joined #telerikacademy.
+[21:41:13] <wilindex> anton_dutsov: 2013-10-02 17:17:06 UTC <yulimoto> tell anton_dutsov да мисля, че юлимото стигна до някакво решение :) при което на master  сървъра използва allow-transfer, а на slave masters
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:50:50] anton_sh (5ebeb3b9@gateway/web/freenode/ip.94.190.179.185) left irc: Quit: Page closed
+[22:58:06] staafl (~staafl@95-42-27-15.btc-net.bg) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:19:46] anton_dutsov (~Thunderbi@178.75.230.84) left irc: Quit: anton_dutsov
+[23:20:40] Vankata (~Ivan@77.70.105.191) left irc: Ping timeout: 260 seconds
+[23:28:02] Vankata (~Ivan@77.70.105.191) joined #telerikacademy.
+[00:00:00] --- Fri Oct  4 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

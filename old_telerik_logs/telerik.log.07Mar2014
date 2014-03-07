@@ -1,0 +1,95 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:32:27] nikiman (~kvirc@91.191.219.91) left irc: Quit: KVIrc 4.2.0 Equilibrium http://www.kvirc.net/
+[00:53:44] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:14:44] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[01:15:07] Nick change: hackman -> Guest95629
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:04:55] Nick change: Guest95629 -> azilian
+[02:49:28] sakhwm (~sakhwm@195.88.190.135) joined #telerikacademy.
+[02:49:44] <azilian> sakhwm, mnogo rano :)
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:05:25] sakhwm (~sakhwm@195.88.190.135) left irc: Remote host closed the connection
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:13:52] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 265 seconds
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:11:12] nofearinc_ (~nofearinc@93-152-154-237.ddns.onlinedirect.bg) joined #telerikacademy.
+[05:13:33] nofearinc (~nofearinc@93-152-154-237.ddns.onlinedirect.bg) got netsplit.
+[05:24:00] nofearinc (~nofearinc@93-152-154-237.ddns.onlinedirect.bg) got lost in the net-split.
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:37:58] <yulimoto_> Въпрос: Хова какво използвате за статистика на уеб сайтовете които подържате ?
+[07:40:29] <yulimoto_> хова = хора* :)
+[07:58:52] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:48:00] azilian (~hackman@wolf.yuhu.biz) left irc: Read error: Operation timed out
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:12:08] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[09:12:53] <KpeTeHoug> yulimoto_ yulimoto_, сайде сано ние с теб висим по тея канали :)
+[09:23:17] <yulimoto_> хаха da и хакман вечер
+[09:25:41] <yulimoto_> hackman> phalaaxx, искаш ли да пуснеш един клонинг на Telerik в #iseca & #softuni ?
+[09:25:51] <yulimoto_> hackman> но с друг nick
+[09:27:27] <KpeTeHoug> ай сии, кайсии
+[09:27:32] <KpeTeHoug> ми че то за 10 мин рабта
+[09:27:40] <KpeTeHoug> чек да изтегля конфиг и тн
+[09:33:55] <KpeTeHoug> първа точка - бакуп - Доне !
+[09:39:49] <KpeTeHoug> http://open.spotify.com/track/2ZeapXZRPPu6ofAT1XKWVI
+[09:39:50] <wilindex> [ Freak On A Leash (Unplugged Version) [In the Style of Korn & Amy Lee] {Performance Track with Demonstration Vocals} by Done Again on Spotify ] - open.spotify.com
+[09:39:52] <KpeTeHoug> за добро уттро
+[09:39:53] <KpeTeHoug> :)
+[09:47:58] <KrasiGa> мен не ме ли отчитате?
+[09:48:27] <KpeTeHoug> имаме предвид по другите канали KrasiGa
+[09:48:29] <KpeTeHoug> :)
+[09:48:45] <KpeTeHoug> че там сме само аз и yulimoto_
+[09:48:47] <KpeTeHoug> :)
+[09:48:57] <KrasiGa> кои други канали?
+[09:51:44] azilian (~hackman@management.1h.com) joined #telerikacademy.
+[09:52:07] Nick change: azilian -> Guest57991
+[09:52:50] <yulimoto_> ааа towa софтуни е на наков унито
+[09:52:58] <yulimoto_> исеката заради курсовете на хакман
+[09:53:26] <yulimoto_> KrasiGa: #softuni и #iseca
+[09:55:00] <yulimoto_> gnusho като гошо ама гну
+[09:55:02] <yulimoto_> хаха
+[09:55:36] <KpeTeHoug> :)
+[09:56:40] <KpeTeHoug> http://open.spotify.com/track/2lBpN5CZ3zLyVIPejUhN6Y
+[09:56:41] <wilindex> [ Smack My Bitch Up by The Prodigy on Spotify ] - open.spotify.com
+[09:56:48] <KpeTeHoug> С мен в москвича
+[09:56:49] <KpeTeHoug> !
+[09:59:38] net: connect! sock 3
+[09:59:38] DNS resolve failed for 127.0.0.1
+[09:59:38] Telnet connection: 127.0.0.1/37353
+[09:59:38] net: connect! sock 9
+[09:59:38] net: eof!(read) socket 9
+[09:59:38] Timeout/EOF ident connection
+[09:59:46] Logged in: KpeTeHoug (telnet@127.0.0.1/37353)
+[09:59:49] tcl: builtin dcc call: *dcc:help KpeTeHoug 6 whois
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:00:36] tcl: builtin dcc call: *dcc:help KpeTeHoug 6 chattr
+[10:02:17] Nick change: Guest57991 -> hackman
+[10:21:41] <yulimoto_> ееййй тия не бях ги слушал от времената кога ходих на една открита дискотека
+[10:24:51] <yulimoto_> да помня някакви acid партита  панелки и мацки с лилаво-червени коси
+[10:28:44] <KpeTeHoug> :)
+[10:31:10] Nick change: KpeTeHoug -> Iseca
+[10:33:44] Nick change: Iseca -> KpeTeHoug
+[10:35:46] <KrasiGa> KpeTeHoug: има ли начин да резбера на даден файл на файлов сървър при кои клиенти има шорткъти?
+[10:36:22] <KpeTeHoug> не мога да кажа
+[10:36:29] <KpeTeHoug> не съм гледал последните 2-3 лекции :)
+[10:38:07] <KrasiGa> не не, това няма нищо общо с лекциите
+[10:38:13] <KrasiGa> тук за работата ми трябва
+[10:38:41] <KrasiGa> на win 7 ако преместя файло и го преименовам на сървъра
+[10:39:01] <KrasiGa> при клиента автоматично отразява промените
+[10:39:16] tcl: builtin dcc call: *dcc:die KpeTeHoug 6 bu
+[10:39:19] Writing user file...
+[10:39:19] Writing channel file...
+[10:39:19] * DIE BY KpeTeHoug!telnet@127.0.0.1 (bu)

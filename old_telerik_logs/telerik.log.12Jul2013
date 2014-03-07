@@ -1,0 +1,465 @@
+
+00:06 < alabala> Exception has been thrown by the target of an invocation
+00:07 < alabala> nqkoi imal li e podoben problem pri VS
+00:07 < alabala> malko stranichen vypros ot LSA .. sorry za koeto
+00:40 -!- Fairytale [1000@police.executie.org] has quit [Remote host closed the connection]
+01:02 -!- phalaaxx [~bozhin@94.26.20.166] has quit [Quit: Leaving.]
+01:39 -!- hackman [~HackMan@wolf.yuhu.biz] has joined #telerikacademy
+01:39 -!- hackman is now known as Guest36365
+01:40 -!- Guest36365 is now known as azilian
+01:40 -!- azilian is now known as HackMan
+09:14 -!- angie_bg [~angie@77.236.189.210] has joined #telerikacademy
+09:41 -!- stoyan_ [~stoyan@94.26.85.140] has joined #telerikacademy
+09:42 < stoyan_> ???? ????? :) ????????
+09:43 < stoyan_> ???-?????? ? ?? ?? ?? ?????? ?????-??
+10:22 -!- phalaaxx [~bozhin@94.26.20.166] has joined #telerikacademy
+10:31 < stoyan_> phalaaxx sorry ?? ????? ?? ????????, ??? ??? ??-???
+10:31 < stoyan_> ? ???? ?? ????, ?? ?? ??????? ?????-?? :)
+10:31 < phalaaxx> хъм? не се чете :(
+10:31 < stoyan_> oooh pak li
+10:32 < stoyan_> sorry
+10:32 < stoyan_> brb
+10:32 -!- stoyan_ [~stoyan@94.26.85.140] has quit [Quit: leaving]
+10:33 -!- sto|yan [~chatzilla@94.26.85.140] has joined #telerikacademy
+10:33 < sto|yan> така вече трябва да се чете
+10:33 < sto|yan> тъкмо мислех, че си нагласи ирсси-то
+10:34 < sto|yan> sega chete li se
+10:35 < phalaaxx> да
+10:35 < phalaaxx> :)
+10:35 < phalaaxx> така е ок
+10:35 < sto|yan> ох че гнус :)
+10:35 < sto|yan> мислех, че съм го нагласил
+10:36 < sto|yan> интересното е, че аз виждах и моята и твоята кирилицас
+10:36 < phalaaxx> аз виждам само въпросителни
+10:36 < phalaaxx> иначе моята си я чета де
+10:37 < sto|yan> обратно на чертожната дъска
+10:37 < sto|yan> :)
+10:38 < sto|yan> ще го направя - нещо така, като закучи - е много яко, като го нагласиш
+10:38 < phalaaxx> кое това?
+10:39 < sto|yan> ирсси-то да пише кирилица, която и другите да четат - преди малко бях през него
+10:39 < sto|yan> сега - чатзила
+10:40 < sto|yan> изтървал съм някой /сет
+10:40 -!- KacanuH [~Deyan@46.249.92.240] has joined #telerikacademy
+10:40 < KacanuH> добро утро мутри :)
+10:40 < sto|yan> доматки :)
+10:40 < KacanuH> Системен администратор отива в казармата. Граничар. Стои на пост и чува стъпки.
+10:40 < KacanuH> - Кажи паролата?
+10:40 < KacanuH> Тишина.
+10:40 < KacanuH> - Кажи паролата?
+10:40 < KacanuH> Тишина.
+10:40 < KacanuH> - Кажи паролата?
+10:41 < KacanuH> Тишина. Автоматен откос.
+10:41 < KacanuH> - User Anonymous Access Denied.
+10:41 < sto|yan> проактивни филтри
+10:42 < angie_bg> с pidgin не става ли?
+10:42 < sto|yan> то и със Хчат ще стане - мерака ми е да го направя със ирсси
+10:43 < sto|yan> кефи ме
+10:43 < sto|yan> дадох screen -U
+10:43 < sto|yan> преди да почна
+10:43 < sto|yan> утф8 не би трябвало да е проблем
+10:43 < phalaaxx> аз съм с pidgin и нищо не съм настройвал
+10:44 < phalaaxx> а нещо дори не намирам настройки за encoding :D
+10:44 < phalaaxx> това щото съм двойкар, иначе щях да ги намеря :)
+10:44 < sto|yan> ееее - 2.55 за желанието
+10:44 < sto|yan> хехехе
+10:47 -!- adutev [~adutev@gw.3dc.net] has joined #telerikacademy
+10:47 < sto|yan> на пид|джин-а ме кефи Сипе-то - понеже имаме служ|ебен М$ комуникатор
+10:56 < phalaaxx> има си и някакъв plugin за encryption ама не е нещото което очаквах да видя за SIP :-/
+10:56 < phalaaxx> оф
+10:56 < phalaaxx> още спя
+10:56 < phalaaxx> :D
+10:56 < phalaaxx> за Jabber да кажа
+10:57 < phalaaxx> но този плъгин май работи и в IRC
+10:57 < phalaaxx> aoeui
+10:57 < phalaaxx> това предишното чете ли се? :)
+10:58 < sto|yan> phalaaxx	aoeui
+10:58 < sto|yan> поки и пейст
+10:58 < phalaaxx> пфу значи и за другите протоколи не е нещото което очаквам :D
+10:59 < phalaaxx> може би трябваше да го ресетна след като му сложих плъгина
+11:02 < sto|yan> ти си ми контрол групата - :) ако ти успееш да го прочетеш - значи е ок - мнооооого фриндж гледам :) :)
+11:03 -!- stoyan_ [~stoyan@94.26.85.140] has joined #telerikacademy
+11:03 < phalaaxx> кой какво да прочете?
+11:03 < stoyan_> emi, kato za nachalo - ??? ???? - ?????? ???????????
+11:04 < sto|yan> ох  - ии аз виждам ????
+11:04 -!- stoyan_ [~stoyan@94.26.85.140] has quit [Client Quit]
+11:04 < phalaaxx> мдаа
+11:05 < sto|yan> 'начи не правя нещо като 'ората
+11:09 -!- KacanuH [~Deyan@46.249.92.240] has quit [Ping timeout: 246 seconds]
+11:25 < yulimoto_away> ще препоръчате ли jabber клиент за cli ? 
+11:25 < yulimoto_away> вчера сложих freetalk и не е никак лошо, ама ако има нещо по-добро според вас бих опитал ? 
+11:30 < phalaaxx> аз преди време бях фен на centericq (вече се казва centerim), друго почти не съм ползвал така че не мога да посоча предимства или недостатъци спрямо други конзолни
+11:30 < phalaaxx> защо е тази мания да са непременно конзолни?
+11:32 < yulimoto_away> щото ще го слагам на една арм платка дето няма графична среда :) 
+11:32 < phalaaxx> ок тогава друг въпрос - защо ти е да го правиш? :)
+11:34 < yulimoto_away> ха ами то тогава защо ми е изобщо тази платка ? Но все пак искам да видя какви удобства предлага като примерно скриптове
+11:36 < yulimoto_away> гледам, че някои си правят ботове за бележки, ремайндери, аларми и т.н. и ми стана интересно 
+11:40 < yulimoto_away> phalaaxx: ползвам cfdisk за да видя дали имам свободно място на диска за нов партишън и никога не съм се замислял да позлвам нещо друго, обаче сега не се сещам къде другаде в /proc или някъде може да се види това пространство ? 
+11:43 < phalaaxx> оо нямам представа, аз си ползвам fdisk за това
+11:43 < phalaaxx> -l
+11:43 -!- lyubenblagoev [~lyubenbla@87-126-129-199.btc-net.bg] has joined #telerikacademy
+11:43 < phalaaxx> нее с -l не става, значи ровиш си вътре :)
+11:44 < yulimoto_away> да и аз се зачудих :) 
+11:45 < phalaaxx> с LVM е по-лесно :)
+11:45 -!- angie_bg1 [~angie@77.236.189.210] has joined #telerikacademy
+11:46 -!- angie_bg [~angie@77.236.189.210] has quit [Ping timeout: 260 seconds]
+11:47 -!- sto|y|an [~stoyan@94.26.85.140] has joined #telerikacademy
+11:47 < phalaaxx> аа пак се вижда горе долу по същия начин, ама трябва да си го смяташ
+11:47 -!- sto|y|an [~stoyan@94.26.85.140] has quit [Client Quit]
+11:48 < yulimoto_away> aha 
+11:48 < sto|yan> може
+11:48 < sto|yan> в /прок имаше партишън
+11:48 < sto|yan> или нещо от сорта
+11:49 -!- lyubenblagoev [~lyubenbla@87-126-129-199.btc-net.bg] has quit [Quit: Leaving]
+11:49 < yulimoto_away> да но там ще видя партишъните | ако става въпрос за /proc/partitions
+11:49 < sto|yan> less /proc/partitions
+11:49 < sto|yan> аааа
+11:49 < sto|yan> зацепих - сори
+11:49 < sto|yan> още се мъча със ирсси-то и чета на 2-3 места :)
+11:50 < yulimoto_away> :) 
+11:50 < sto|yan> фдиск -л - в соларис за едни тестове на зфс си правих файлове с мкфайл във /дев/диск
+11:51 < phalaaxx> в partitions не става веднага ясно колко е свободното пространство
+11:51 < phalaaxx> трябва да се смята
+11:51 < sto|yan> ох - а ние сме мързели - и аз искам всичко да е -h  :) :)
+11:52 < phalaaxx> амии... най-лесно си е с LVM :)
+11:52 < phalaaxx> vgs lvs pvs... :D
+11:52 < sto|yan> lvs - za logical volumes, pvs - za physical, vgs - za vol groups
+11:53 < sto|yan> хахаха - по-бръз си от мен
+11:53 < sto|yan> фуууу - програмисти :p
+11:55 < sto|yan> lsscsi  е удобен, както и цялата ls-гама - lspci lsusb
+11:55 < sto|yan> lshw
+11:55 < sto|yan> ама пак е четене
+11:58 < yulimoto_away> sto|yan: между другото и аз имах проблем с колацията и сетнтах term_charset utf-8 в irssi-то за да го оправя. Предполагам, че си го направил но все пак да кажа. 
+11:58 < sto|yan> най-вероятно си прав - аз съм заплес
+11:58 < sto|yan> благодаря
+11:59 < yulimoto_away> ./set term_charset utf-8  нещо подобно беше в зависимост от версията вж. все пак документацията
+12:07 -!- sto|test [~stoyan@94.26.85.140] has joined #telerikacademy
+12:07 < sto|test> aaaaa
+12:07 < sto|test> iii
+12:07 -!- sto|test [~stoyan@94.26.85.140] has quit [Quit: leaving]
+12:07 < sto|yan> гугугу-гагага
+12:07 < sto|yan> :D
+12:11 -!- stoyo [~stoyan@94.26.85.140] has joined #telerikacademy
+12:11 < stoyo> ÜÐàãÛï
+12:12 -!- stoyo [~stoyan@94.26.85.140] has quit [Client Quit]
+12:12 < yulimoto_away> ц 
+12:12 < sto|yan> оф - писна ми
+12:12 < yulimoto_away> :) 
+12:12 < sto|yan> кажи си болката за партишъните - там поне имам малко акъл :) :)
+12:13 < yulimoto_away> ами не просто ми беше интересно дали може да се намери това пространство без да вадя калкулатора или някакъв туул като cfdisk i т.н. 
+12:16 < sto|yan> наскоро ъп-нах на Дебиан 7 и трябваше да свиквам на УУИД, бъдещето вече е в НАС-ковци с РАЙД-ове - вече не е важно колко много кънтент имаш, а колко бръзо можеш да стигнеш до необходимия
+12:17 -!- adutev_ [~adutev@gw.3dc.net] has joined #telerikacademy
+12:17 -!- adutev_ [~adutev@gw.3dc.net] has quit [Client Quit]
+12:17 < sto|yan> phalaaxx:  е мноооого прав за LVM-a - ако не ме домързи, ще напиша как се прави ЗФС на линукс
+12:18 < yulimoto_away> zfs имали добра подръжка за линукс ? 
+12:18 < sto|yan> защото зфс-а обединява волюм мениджмънт и фай сис хендлинг в едно
+12:18 < sto|yan> ами стараят се
+12:19 < sto|yan> http://zfsonlinux.org/
+12:20 < sto|yan> признавам си - това е по-удобно в соларис, но линукс е толкова по-приятен за употреба.
+12:21 < yulimoto_away> аха
+12:21 < sto|yan> например - искаш да експортнеш НФС - със ЗФС трябва само да направиш нов дейтасет (логически волюм) и да му парснеш че е нфс - 1 линия команда - няма /етц/експортс, гадния аутофс,
+12:21 < yulimoto_away> а ти на какъв сторидж я ползваш ако я позлваш и ако не е тайна 
+12:22 < sto|yan> все още на соларис - нямам много време
+12:22 < sto|yan> иначе опитах и със ФрийБСД
+12:22 < yulimoto_away> е то трябва да е залепнало :) 
+12:22 < yulimoto_away> или ?
+12:23 < sto|yan> да - имам си бекъп там, един хилав апач
+12:23 < sto|yan> и снапщотя
+12:23 < sto|yan> ... като се сетя де
+12:23 < yulimoto_away> да то това е хубаво че снапшоти
+12:23 < sto|yan> и то - има предимства - знаеш ли какво е инкремент
+12:24 < sto|yan> делта - разлика м/у едно и второ състояние
+12:24 < yulimoto_away> ооо не съм запознат 
+12:24 < yulimoto_away> гледал съм го само като характеристики
+12:25 < sto|yan> така - ако например имам волюм във rpool (това е руут пуул-а - не е хубаво там ама за пример)
+12:25 < yulimoto_away> така
+12:25 < sto|yan> ето така rpool/stoyan
+12:25 < sto|yan> правя няколко снапшота rpool/stoyan@snap{1..5}
+12:26 < sto|yan> да знаеш - това не са команди - само да си кажа
+12:26 < yulimoto_away> делта е разликата между снапшота 1 снапшота 2 на стоян 
+12:26 < sto|yan> и от 5-те - 5 тия, най последния
+12:26 < sto|yan> ха така
+12:26 < sto|yan> то1но
+12:26 < sto|yan> s/то1но/точно
+12:26 < yulimoto_away> :)
+12:27 < sto|yan> най-последния държи в себе си разликата м/у оригиналния и себе си - демек - натрупва другите
+12:27 < sto|yan> можеш да махнеш от 1 до 4
+12:27 < yulimoto_away> аха 
+12:28 < yulimoto_away> да то има доста софт на тоя принцип май, онези mac oS нали имаха time machine или нещо от сорта 
+12:28 < yulimoto_away> може и да бъркам де
+12:29 < sto|yan> о - не знам - Мак - само на картинка
+12:29 < sto|yan> :)
+12:29 < sto|yan> но мак-а е фрийбсд под капака, така че, ако прилича малко на фрисбито - то има журналинг
+12:30 < sto|yan> демек - сигурно е възможно
+12:30 < yulimoto_away> та така значи ако имам само  снапшот 5 и никой друг мога да върна на снапшот 1, но мога ли да върна на 3 примерно
+12:30 < sto|yan> ееее - за това ти трябват и 1 и 3
+12:30 < sto|yan> но те заемат колкото е само разликата
+12:30 < sto|yan> не цял бекъп а само промяната
+12:31 < yulimoto_away> да само делтите 
+12:31 < yulimoto_away> един вид
+12:31 < sto|yan> да
+12:31 < yulimoto_away> всъщност делтата е разликата в битовите, вероятно ги сравнява и тази разлика е делтата
+12:31 < sto|yan> викат му инкремент - в оракъл му викат делта
+12:31 < yulimoto_away> аха
+12:31 < sto|yan> зфс има една работа
+12:31 < sto|yan> казва се АРК
+12:31 < sto|yan> представи си го като РАМ на файловата с/ма
+12:32 < yulimoto_away> така 
+12:32 < sto|yan> затова, а и защото е 64 битова й трябват и 4 гиги истинска РАМ
+12:32 < yulimoto_away> такаааа
+12:32 < sto|yan> та АРК-а съдържа и разпределя метадата
+12:33 < sto|yan> например - един РАЙД контролер има памет - викат й батерия
+12:33 < yulimoto_away> тъй 
+12:33 < sto|yan> малка РАМ плочка,, която носи тая метадата
+12:33 < sto|yan> кой диск кой е, къде как са сетнати
+12:33 < sto|yan> и т.н.
+12:34 < yulimoto_away> ами аз си го представям като рам за контролера на райда ;)
+12:34 < sto|yan> в зфс скипват мидъл-мен-а
+12:34 < sto|yan> абе тя е според производителя
+12:34 < yulimoto_away> аха 
+12:34 < sto|yan> ХП го слагат допълнително, ДЕЛЛ имаха и те някаква джаджа - интерфейс
+12:34 < yulimoto_away> ясно 
+12:35 < sto|yan> това е повече работа за железарите
+12:35 < sto|yan> :)
+12:35 < yulimoto_away> а зфс какво имаш предвид правят като го скипват ?
+12:35 < sto|yan> та в зфс-а, имаме нещо като шмем или темпфс, на което му викат АРК
+12:35 < yulimoto_away> аааа
+12:35 < sto|yan> защото не е физическа РАМ
+12:35 < yulimoto_away> ясно
+12:35 < sto|yan> ами е виртуална
+12:36 < yulimoto_away> приближават двете неща 
+12:36 < yulimoto_away> да не са отделно 
+12:36 < sto|yan> редхат имаха един много хубав документ по тоя повод - много стар но много як
+12:36 < sto|yan> направо си ги фюзват в едно
+12:36 < sto|yan> FUSE = filesystem in userspace
+12:37 < yulimoto_away> s fuse Ли има предвид ?
+12:37 < yulimoto_away> аха ясно
+12:37 < sto|yan> това, е кернелен модул в линукс
+12:37 < sto|yan> в соларис е част от ядрото
+12:37 < yulimoto_away> да но е в усерспаса да вкарваш фс
+12:37 < sto|yan> затова е и пропрайътъри
+12:37 < sto|yan> :( гаден лари елисън
+12:37 < yulimoto_away> аха
+12:37 < yulimoto_away> ти със системна ли се занимваш ?
+12:38 < sto|yan> системна/.
+12:38 < sto|yan> ?
+12:38 < yulimoto_away> смисъл това ли работиш ?
+12:38 < sto|yan> не - съпорт съм
+12:38 < sto|yan> аз съм Гупта
+12:38 < sto|yan> LD
+12:38 < sto|yan> :D
+12:38 < sto|yan> гледал ли си сериала Outsourced
+12:38 < yulimoto_away> не съм наясно с терминологията :)
+12:39 < yulimoto_away> не 
+12:39 < yulimoto_away> гледал съм само 1 сериал - wire 
+12:39 -!- samy_ [~samy@84.238.184.98] has joined #telerikacademy
+12:39 < yulimoto_away> никой друг 
+12:39 < sto|yan> комедия, за индийския аутсорсинг
+12:39 < yulimoto_away> и ето влезе човека с мишка за 300лв...... 
+12:39 < yulimoto_away> аха 
+12:39 < yulimoto_away> ще го гледам 
+12:39 < yulimoto_away> сигурно има майтапи
+12:39 < sto|yan> мишка за 300 лв - лелееее
+12:39 < samy_> shh
+12:39 < yulimoto_away> хахах 
+12:40 < sto|yan> има ли котка за 320
+12:40 < sto|yan> :)
+12:40 < yulimoto_away> ха :)
+12:40 < samy_> iam
+12:40 < samy_> persiika
+12:40 < samy_> ama mi e podaryk
+12:40 < samy_> ;s
+12:40 < sto|yan> да не е от ония, дето можеш да им програмираш функции на доп. бутони
+12:40 < sto|yan> това е яко
+12:41 < yulimoto_away> samy_: пази мишката да не я изде котту 
+12:41 < samy_> xixixixixi
+12:41 < samy_> https://www.google.bg/search?q=razer+spectre&client=ubuntu&channel=cs&um=1&ie=UTF-8&hl=bg&tbm=isch&source=og&sa=N&tab=wi&ei=ZiDhUeHnHYPpswbt2YDYAg&biw=1366&bih=681&sei=aSDhUdHRD4X5sgbZvICACw#um=1&client=ubuntu&channel=cs&hl=bg&tbm=isch&sa=1&q=razer+spectre+%D1%86%D0%B5%D0%BD%D0%B0&oq=razer+spectre+%D1%86%D0%B5%D0%BD%D0%B0&gs_l=img.3...13080.14024.0.14134.5.5.0.0.0.0.100.314.3j1.4.0...0.0.0..1c.1.17.img.Bv1OhlZHeKE&fp=1&biw=1366&bih=681&bav=on.2,or.r_cp
+12:41 < samy_> .r_qf.&cad=b
+12:41 < samy_> oshte e cqla
+12:42 < sto|yan> ахаааа - имам колеги, дето са луди по старкрафт
+12:43 < sto|yan> бтв - опитай goo.gl ще ти направи живота по-лесен
+12:43 < sto|yan> или тайниурл, ама малко хора клякат по него - гаден е
+12:43 < samy_> and hf
+12:55 < sto|yan> yulimoto_away: http://people.redhat.com/nhorman/papers/rhel3_vm.pdf
+12:55 < sto|yan> и ето този - http://people.redhat.com/nhorman/papers/rhel4_vm.pdf
+12:58 < yulimoto_away> изтеглих ги ще ги погледна довечера, че сега съм се разчоплил по друго :)
+13:29 < phalaaxx> ZFS на линукс - това е интересно, но какво правим ако се счупи? :)
+13:30 < HackMan> sto|yan: кой игра starcraft тук ?
+13:31 < phalaaxx> аз от време на време
+13:32 < phalaaxx> не че въпроса беше за мен но аз да си кажа
+13:32 < HackMan> ние вчера направихме 5-6 игри с приятели
+13:32 < HackMan> много добре се получи :)
+13:35 < sto|yan> сори - ходих за кафе - за с-крафт - сами_ постна линк за мишката и тя май е за много религиозни старкрафт фенове
+13:35 < sto|yan> а за ЗФС-а - кое ако се счупи
+13:35 < phalaaxx> нещо по ZFS
+13:35 < sto|yan> сториджа/дисковете или ако модла се пре***
+13:36 < sto|yan> не те разбрах
+13:36 < phalaaxx> софтуера
+13:36 < phalaaxx> имам предвид - хубаво нещо е като идея
+13:36 < HackMan> sto|yan: аз използвам това - http://www.expansys-usa.com/zoompic.aspx?i=206568
+13:36 < phalaaxx> ама не е много за linux при настоящата ситуация
+13:36 < sto|yan> оооооо - и аз съм фен на Силикон Графикс, ама ти си нива над мен :)
+13:37 < HackMan> sto|yan: а кумът ми играе с това - http://gadgetsteria.com/2010/08/02/mad-catz-cyborg-r-a-t-7-gaming-mouse-for-those-who-just-cant-decide/
+13:38 < sto|yan> еееее - ХакМан - и двете изглеждат жестоко
+13:39 < sto|yan> phalaaxx:  ако модулът на машината на която хостваш зфс-а се прецака - пууловете нали вече са готови - ако е соларис или фрийбсд - рибуут или някоя малка магийка - там си в кернела
+13:39 < sto|yan> не съм пробвал още на линукс, но не изглежда трудно
+13:42 < sto|yan> но бидейки Копи_он_Райт значи, че нямаш нужда от фсчк - ерго - най-много да преинсталираш ОС имиджа, което, специално в соларис - с техните boot environments (beadm) -  е раз-два.
+13:42 < sto|yan> тук сме обаче за Линукс
+13:45 < sto|yan> бтв - HackMan защо се спря на РайзерФС - любопитно ми е ?
+13:46 < HackMan> sto|yan: кога съм се спрял на reiserfs  ?
+13:46 < HackMan> аз много малко съм използвал reiser
+13:47 < sto|yan> във въпросите за домашно - не успях да догледам видео-то
+13:49 < sto|yan> или ти си друг хакман :)
+13:51 < phalaaxx> sto|yan: а защо не btrfs след като си говорим за Linux?
+13:51 < sto|yan> следях я по едно време, но честно - нямам нито опит, нито идея
+13:52 < sto|yan> не съм инсталирал - знам, че убунту, сусе и май федора имат
+13:52 < sto|yan> знам, че има бързи снапшоти
+13:52 < sto|yan> ии че има компресия
+13:52 < sto|yan> ... и май дедупликация, но тук налучквам
+13:55 -!- user99 [~McNamee@213.226.63.154] has quit [Quit: Bye]
+13:55 -!- user99 [~McNamee@213.226.63.154] has joined #telerikacademy
+13:57 < sto|yan> макар че по това, което чета тук http://www.howtoforge.com/a-beginners-guide-to-btrfs
+13:59 < sto|yan> и тук https://btrfs.wiki.kernel.org/index.php/SysadminGuide
+14:03 < phalaaxx> не съм ползвал сериозно никое от двете но по някаква причина имам повече доверие на ZFS
+14:03 < phalaaxx> нямам идея защо, някакво такова вътрешно усещане :)
+14:04 < sto|yan> еее - там е кмършъл - биг бъкс :)
+14:04 < sto|yan> когато бачкаш за такива имаш по-малък марж за грешки
+14:09 < sto|yan> ето нещо, което мн искам да намеря време и желязо да изпробвам - http://smartos.org/
+14:25 < samy_> <sto|yan>
+14:26 < samy_> <HackMan
+14:26 < samy_> da ne bi tuk da ima starcraft fenowe
+14:26 < samy_> ?
+14:28 < phalaaxx> SC1 или SC2, за кое говорим?
+14:47 < samy_> brood war
+14:49 < phalaaxx> Jul 13 14:47:19 sirius kernel: [16124.384135] type=1400 audit(1373716039.898:116): apparmor="DENIED" operation="open" parent=1 profile="/usr/bin/skype" name="/etc/ssl/certs/ca-certificates.crt" pid=3469 comm="skype" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+14:49 < phalaaxx> Jul 13 14:47:19 sirius kernel: [16124.389417] type=1400 audit(1373716039.902:117): apparmor="DENIED" operation="open" parent=1 profile="/usr/bin/skype" name="/home/bozhin/.mozilla/" pid=6218 comm="skype" requested_mask="r" denied_mask="r" fsuid=1000 ouid=1000
+14:49 < phalaaxx> нахален и упорит :D
+14:51 < yulimoto_away> $М
+14:52 < phalaaxx> то май е така от преди да стане тяхна собственост
+14:52 < yulimoto_away> а може 
+14:53 < phalaaxx> лошото е че последната версия започна да не работи изобщо ако няма достъп до /etc/group, предполагам че и с други файлове ще стане същото за в бъдеще
+14:53 < yulimoto_away> ц
+14:53 < yulimoto_away> стига 
+14:53 < yulimoto_away> за какво и е аджеба 
+14:54 < yulimoto_away> какво ли иска под windows тогава ;D
+14:54 < phalaaxx> аа извинявам се, излъгах - работи но не може да се правят calls ако няма достъп до /etc/group
+14:54 < phalaaxx> преди можеше
+14:55 < yulimoto_away> ами иди обяснявай на хората. като им обяснявам съм местния луд, който им говори за конспирации и т.н. 
+14:55 < phalaaxx> а от какъв зор иска да ми чете ca-certificetes.crt?
+14:56 < phalaaxx> или .mozilla?
+14:56 < yulimoto_away> хахаха
+14:56 < phalaaxx> не давам :D
+14:56 < yulimoto_away> хаха 
+14:58 < yulimoto_away> аз с контактите в скайп отдавна съм криза, така че имам 1-2 да изтегля, другото е по пощата вече.
+14:58 < yulimoto_away> ще го прежаля 
+--- Log closed сб юли 13 15:01:23 2013
+--- Log opened сб юли 13 15:01:46 2013
+15:01 -!- yulimoto [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+15:01 -!- Irssi: #telerikacademy: Total of 11 nicks [1 ops, 0 halfops, 0 voices, 10 normal]
+15:01 -!- Irssi: Join to #telerikacademy was synced in 7 secs
+15:08 < phalaaxx> аз го позлвам като официално средство за комуникация
+15:08 < phalaaxx> служебно
+15:09 < yulimoto> значи трябва ти. и при мен се е случвало, но рядко. 
+15:14 -!- Fairytale [1000@police.executie.org] has joined #telerikacademy
+15:17 -!- dencho [~dencho@95.111.14.183] has joined #telerikacademy
+15:17 < dencho> HAHAHAHAHHAHAHAHHAHA
+15:17 < dencho> sasipvam se ot hileji ve :D
+15:17 < dencho> citat ßâíî àäìèíà ñåãà ñå ó÷è îò êóðñà íà Ìàðèÿí.
+15:17 < dencho> :D
+15:18 < yulimoto> то хубу ама колациита не се чете :)
+15:18 < yulimoto> иначе точката накрая е готина :)
+15:18 < dencho> eeee
+15:18 < dencho> :D
+15:19 < dencho> http://forums.academy.telerik.com/107495/%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC-%D1%81-wi-fi-%D1%80%D1%83%D1%82%D0%B5%D1%80%D0%B0-%D0%B2-%D0%B7%D0%B0%D0%BB%D0%B0-enterprise?show=107767#a107767
+15:19 < dencho> ibalistix
+15:19 < dencho> :D
+15:19 < yulimoto> ей съсипахти настроението, да те бях излъгал тогава
+15:19 < dencho> 4eki 4e tamun vlizam i s neturpenie hodq da 4eta kakvo e pisano :D
+15:19 < dencho> hahaha
+15:20 < dencho> vidkid ne me razbra kakvo iskam da mu kaja :P
+15:20 < dencho> ibalistix mu e stranno :D
+15:20 < dencho> i qvno admina na telerik pose6tava kursa na HackMan v telerik (QKO) :D
+15:21 < yulimoto> да да
+15:23 < yulimoto> той е в голяма война с HackMan, но HackMan следва правилото dont feed the trolls
+15:23 < yulimoto> и не го маркира 
+15:23 < dencho> dano nikoga da ne go sre6tna tozi ibalistix v profesionalniq mi jivot
+15:24 < dencho> :D
+15:24 < yulimoto> общо взето е забавно 
+15:25 < yulimoto> щото оня храни здраво и има весели случки как си изтеглил лекциите и си седнал пред тв-то да ги гледа (с пуканки) и т.н. 
+15:25 < yulimoto> последното предположение беше че има някаква конспирация
+15:26 < dencho> sre6to nego li?
+15:26 < dencho> :D
+15:27 < yulimoto> срещу тези които са онлайн, ama dali той го каза не се щам вече
+15:28 -!- _NEKTAR_ [~nektar@176.12.19.179] has joined #telerikacademy
+15:28 < dencho> :)
+15:28 < dencho> q pa ti :D
+15:29 < yulimoto> най-долу http://forums.academy.telerik.com/106783/%D0%BE%D1%82%D0%BD%D0%BE%D1%81%D0%BD%D0%BE-%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%84%D0%BE%D0%BD%D0%B0-%D0%BD%D0%B0-%D0%BB%D0%B5%D0%BA%D1%86%D0%B8%D0%B8%D1%82%D0%B5
+15:31 < dencho> hahaha
+15:31 < dencho> :D
+15:35 -!- _NEKTAR_ [~nektar@176.12.19.179] has quit [Quit: Leaving.]
+15:36 -!- _NEKTAR_ [~nektar@176.12.19.179] has joined #telerikacademy
+15:52 -!- _NEKTAR_ [~nektar@176.12.19.179] has quit [Quit: Leaving.]
+15:55 -!- _NEKTAR_ [~nektar@176.12.19.179] has joined #telerikacademy
+15:59 -!- _NEKTAR_ [~nektar@176.12.19.179] has quit [Ping timeout: 240 seconds]
+16:10 < sto|yan> това за микрофона и хората онлайн не го разбрах, но за редиректите - ssh -L 8888 127.0.0.1:8888 host.you_re.connecting.to
+16:11 < sto|yan> или ако сте мързели, като мен - -D 1234
+16:12 < sto|yan> сокс5
+16:12 < sto|yan> брб, че ме мъчи един УебСфер
+16:15 < dencho> aa tuneli li pravim?
+16:20 < phalaaxx> xfce4 - nvidia - video tearing: някой да се е борил с това?
+16:25 -!- _NEKTAR_ [~nektar@176.12.19.179] has joined #telerikacademy
+16:31 -!- _NEKTAR_ [~nektar@176.12.19.179] has quit [Quit: Leaving.]
+16:31 -!- _NEKTAR_ [~nektar@176.12.19.179] has joined #telerikacademy
+16:32 < dencho> az ne
+16:38 < phalaaxx> май композитора е виновен
+16:51 < phalaaxx> мда, от него е в моя случай
+17:13 -!- looser99 [John@78.130.186.99] has quit [Quit: Leaving]
+17:37 -!- adutev [~adutev@gw.3dc.net] has quit [Quit: Leaving]
+17:46 -!- looser99 [John@78.130.186.99] has joined #telerikacademy
+18:56 -!- Fairytale [1000@police.executie.org] has quit [Remote host closed the connection]
+19:14 < sto|yan> явно съм бил непослушен тази година и дядо мраз не ще да ми даде конзолен достъп до уебсфиър-а
+19:16 -!- lyubenblagoev [~lyubenbla@90-154-166-9.btc-net.bg] has joined #telerikacademy
+19:16 -!- AndChat|2004 [~McNamee@78.130.186.99] has joined #telerikacademy
+19:19 -!- user99 [~McNamee@213.226.63.154] has quit [Ping timeout: 245 seconds]
+19:24 -!- sto|yan [~chatzilla@94.26.85.140] has quit [Ping timeout: 264 seconds]
+19:35 -!- AndChat|2004 [~McNamee@78.130.186.99] has quit [Ping timeout: 246 seconds]
+19:35 -!- lyubenblagoev [~lyubenbla@90-154-166-9.btc-net.bg] has quit [Ping timeout: 276 seconds]
+19:36 -!- angie_bg1 [~angie@77.236.189.210] has left #telerikacademy []
+20:51 < samy_> brei
+20:51 < samy_> az sym gotow za blizzard
+20:51 < samy_> shtom moga da digna 25 kg
+20:51 < samy_> makar che malko mi se poizkriwiha klechkite
+20:51 < samy_> :}}}}
+21:17 -!- plamer [~Plamer@84.40.92.7] has joined #telerikacademy
+21:19 < plamer> видеото от последната лекция ще се качва ли в youtube или само на twitch ще остане?
+21:33 -!- ViLKaTa [~villy@87.97.192.85] has joined #telerikacademy
+21:41 -!- m17n1ck [591976d0@gateway/web/freenode/ip.89.25.118.208] has joined #telerikacademy
+21:41 < m17n1ck> dencho:
+21:41 < m17n1ck> tuk li si
+21:41 < ViLKaTa> Razgele... Mnoo barzo si zabrail IRC, bre..
+21:42 < m17n1ck> to tva da sum zabravil
+21:42 < m17n1ck> :D
+21:42 < m17n1ck> ne e problem
+21:43 < m17n1ck> toz go nqma ... :S
+21:44 < samy_> http://www.psistorm.eu/news-1619
+21:44 < samy_> Technics - BG
+21:44 < samy_> 22:00
+21:51 -!- m17n1ck [591976d0@gateway/web/freenode/ip.89.25.118.208] has left #telerikacademy []
+21:55 -!- ViLKaTa [~villy@87.97.192.85] has quit [Quit: Konversation terminated!]
+--- Log closed сб юли 13 22:19:46 2013
+--- Log opened сб юли 13 22:20:04 2013
+22:20 -!- yulimoto [~yulimoto@wolf.yuhu.biz] has joined #telerikacademy
+22:20 -!- Irssi: #telerikacademy: Total of 10 nicks [1 ops, 0 halfops, 0 voices, 9 normal]
+22:20 -!- Irssi: Join to #telerikacademy was synced in 6 secs
+22:50 -!- plamer [~Plamer@84.40.92.7] has quit [Ping timeout: 240 seconds]
+22:51 -!- vlado [vlado@94.72.180.255] has joined #telerikacademy
+22:51 < vlado> здравейте и от мен
+22:51 < vlado> най-после
+22:51 < vlado> :)
+22:55 -!- KacanuH [~Deyan@46.249.92.240] has joined #telerikacademy
+22:55 -!- KacanuH is now known as Guest89889
+23:11 -!- Guest89889 [~Deyan@46.249.92.240] has quit [Quit: Leaving]
+23:36 -!- vlado [vlado@94.72.180.255] has quit []
+23:38 < dencho> samy_ kakva e tazi igra?
+23:49 < samy_> broodwar
+23:49 < samy_> technich igrae ;]
+23:57 < phalaaxx> http://sc.nibbits.com/maps/view/127879/twilight-strugglescx

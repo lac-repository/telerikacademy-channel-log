@@ -1,0 +1,703 @@
+[00:00:01] Writing user file...
+[00:00:01] Writing channel file...
+[00:50:38] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[00:53:05] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[00:55:06] <phalaaxx> как обичам да горят дискове в Hetzner - тия хора уверено захвърлят всеобщото мнение за немска прецизност в кофата, страх ме е да ги търся като изгори диск...
+[01:00:02] Writing user file...
+[01:00:02] Writing channel file...
+[01:04:12] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[01:04:31] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[01:12:58] plamer (~plamen@84.40.92.7) left irc: Quit: Leaving
+[01:26:58] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[01:29:50] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[01:31:11] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[01:33:07] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:19:14] hackman (~HackMan@wolf.yuhu.biz) joined #telerikacademy.
+[02:19:39] Nick change: hackman -> Guest98072
+[02:19:54] Nick change: Guest98072 -> azilian
+[02:20:05] Nick change: azilian -> hackman
+[02:37:10] <phalaaxx> това regex за mail address ли е?
+[02:39:08] <hackman> да
+[02:39:18] <hackman> чета си пощата и отивам пред парламента
+[02:40:03] <phalaaxx> аз чакам Hetzner да ми сменят един диск и почвам да го обработвам... :|
+[02:41:13] <phalaaxx> баси трябва ми някакво силно успокоително, тия хора ще ме очистят някой ден :D
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:06:43] <phalaaxx> ей мноо съм добър (и скромен) :D
+[03:16:49] hackman (~HackMan@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[03:20:35] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[03:53:13] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:53:00] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:32:45] hackman (~HackMan@wolf.yuhu.biz) joined #telerikacademy.
+[05:33:09] Nick change: hackman -> Guest74482
+[05:35:06] Nick change: Guest74482 -> azilian
+[05:35:24] Nick change: azilian -> hackman
+[05:38:40] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[05:44:43] <hackman> _NEKTAR_: и ти ли сега се прибираш от протестите ?
+[05:46:15] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 264 seconds
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:58:51] samy__ (~samy@84.238.184.98) left irc: Ping timeout: 264 seconds
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:20:43] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:21:48] <episparh> кафето свърши - трябва да се работи :S
+[08:21:57] Action: episparh out
+[08:45:04] samy (~samy@87-126-213-223.btc-net.bg) joined #telerikacademy.
+[08:46:49] samy_ (~samy@46.10.61.39) joined #telerikacademy.
+[08:49:43] samy (~samy@87-126-213-223.btc-net.bg) left irc: Ping timeout: 268 seconds
+[08:56:07] <yulimoto> Цветелин Йовчев: "Ако се пуснат обективни кадри, България няма от какво да се срамува, а има от какво да се гордее" - баси тъпака.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:04:32] <KrasiGa> eee hackman появи се :) Добро утро на всички
+[09:05:28] <KrasiGa> имам питане hackman. Следващите 2 седмици няма да съм в страната и няма да имам интернет /пък и време/. Може ли нещо да се направи с домашните?
+[09:05:54] <KrasiGa> отсрочка?
+[09:08:47] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:09:10] <hackman> KrasiGa: pishi mi mail
+[09:09:16] <Deyan> Добро утро
+[09:09:16] <hackman> za teb shte napravim neshto :)
+[09:09:27] hackman (~HackMan@wolf.yuhu.biz) left irc: Quit: Leaving.
+[09:09:28] <KrasiGa> eeee mnogo blagodaria
+[09:09:35] <KrasiGa> :)
+[09:09:41] <KrasiGa> още един хубав ден
+[09:09:46] <Deyan> hackman: ей и тук се толерира нежният пол
+[09:09:47] <Deyan> :)
+[09:10:33] <KrasiGa> ами нали все ни подценявате, поне в нещо да имаме приемущества
+[09:12:15] <KrasiGa> mm@1h.com
+[09:12:26] <KrasiGa> taka li e maila?
+[09:12:43] <Deyan> да
+[09:29:12] <vhristev> Морнинг
+[09:30:18] <KrasiGa> good morning
+[09:31:59] <vhristev> Алохааа
+[09:32:01] <vhristev> Краси .... рано пиле майката си трака а ...
+[09:32:08] <vhristev> Нали Краси мога да ти викам Краси
+[09:34:40] <KrasiGa> да да можеш
+[09:34:49] <KrasiGa> абе то е 9 часа
+[09:34:51] <KrasiGa> какво рано?
+[09:35:09] <vhristev> права си дори е 9:30 хората от 7 часа са на крак вече и бацат
+[09:35:14] <vhristev> вече ще си ходят ние тепърва идваме
+[09:35:32] <yulimoto> бахти тия са мн нагли, гледам вигеннин и ще си счупя монитор
+[09:35:37] <yulimoto> монитора*
+[09:36:41] <vhristev> какво гледаш
+[09:36:57] <yulimoto> бекеве както му казват
+[09:37:58] <yulimoto> сутрешния блок
+[09:38:49] <yulimoto> http://btvnews.bg/bulgaria/politika/zzad-garba-na-protestirashtite-nadnichali-oligarhichni-kragove.html
+[09:40:00] <KrasiGa> отказах да гледам новини почти от една година. СТанах много щастлив човек
+[09:40:05] <KrasiGa> и по-добър :)
+[09:40:13] <KpeTeHoug> и по чист
+[09:40:14] <yulimoto> "зад гърба на протестиращите надничат едни ДРУГИ олигархични кръгове" - т.е. интересна е употребата на думата "други"
+[09:40:15] <KpeTeHoug> добро утро
+[09:40:23] <yulimoto> да и аз не бях гледал тв дълго
+[09:40:41] <yulimoto> ама си го причинявам заради протестите
+[09:41:33] <KpeTeHoug> KrasiGa пита ли го хакман ?
+[09:41:55] <KrasiGa> да
+[09:42:10] <KrasiGa> каза, че ще направи нещо по въпроса и да му пиша мейл
+[09:42:18] <KrasiGa> направих го пък ще видим
+[09:42:24] <KpeTeHoug> найс
+[09:42:28] <KrasiGa> :)
+[09:42:45] <KpeTeHoug> знаех си че не можа да няма начин при предварително заявено отсъствие, да  ти откажат
+[09:42:54] <KrasiGa> ще видим
+[09:42:59] <KpeTeHoug> ако не, ще ги замеряме и тях с павета
+[09:43:00] <KpeTeHoug> :)
+[09:43:26] <KrasiGa> make love, no war
+[09:43:40] <KpeTeHoug> да, имаше една готина картинка с костенурка
+[09:43:42] <KpeTeHoug> по тая тема
+[09:44:23] <KpeTeHoug> https://www.google.bg/url?sa=i&rct=j&q=&esrc=s&source=images&cd=&cad=rja&docid=hjMpgkn15m8BKM&tbnid=fMdJTzbAxHjGMM:&ved=0CAUQjRw&url=http%3A%2F%2Fpentathloncircuit.blogspot.com%2F2009_12_01_archive.html&ei=W3fvUdPbCsbXOaPcgcAO&bvm=bv.49641647,d.Yms&psig=AFQjCNFt5mCzgKLPae3ZB575MFeAF7GU2Q&ust=1374734536852121
+[09:47:30] <KpeTeHoug> някой да се е борил с бнц-та :)
+[09:47:54] <KpeTeHoug> пуснах го, сложих му vhost , съществува тоя vhost,ресолва се и тн
+[09:48:02] <KpeTeHoug> обаче не ми излиза тук ;)
+[09:58:28] hackman (~HackMan@management.1h.com) joined #telerikacademy.
+[09:58:52] Nick change: hackman -> Guest57153
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:02:27] <KpeTeHoug> сега сигурно и превод ще ми трябва
+[10:02:47] Action: KpeTeHoug sets mode: -brain Guest57153
+[10:06:04] Nick change: Guest57153 -> azilian
+[10:06:16] Nick change: azilian -> hackman
+[10:06:51] <vhristev> KpeTeHoug, пробвай znc
+[10:07:02] <vhristev> новото psyBNC
+[10:07:30] <yulimoto> да аз кат бях тинейджър psyBNC ползвах
+[10:07:45] <vhristev> да и станахме големи и ползваме ZNC
+[10:07:46] <vhristev> (;
+[10:08:03] <yulimoto> ;)
+[10:08:07] <KpeTeHoug> ем аз туй си знам :)
+[10:08:11] <KpeTeHoug> и затва него
+[10:08:28] <KpeTeHoug> ма лошо нема, ще го турии и туй да го видим
+[10:08:34] <vhristev> виж го
+[10:08:41] <vhristev> ако не ти се занимава има дори web interface
+[10:08:56] <vhristev> иначе и конфа е доста елементарен чете се без проблеми
+[10:09:00] <vhristev> добре са го направили
+[10:09:00] <vhristev> (;
+[10:09:58] <KpeTeHoug> аз обича уеб интерфейс :)
+[10:10:23] <KpeTeHoug> аз маус кликър :П
+[10:10:38] <yulimoto> кво значи уеб interface в случая ?
+[10:11:07] <KpeTeHoug> ми сигурно ремоут контрол
+[10:11:10] <KpeTeHoug> ай гес
+[10:11:43] <yulimoto> някакъв уеб сокет?
+[10:12:05] <yulimoto> сега ще го видя
+[10:12:10] <yulimoto> че ми стана интересно
+[10:14:29] <yulimoto> каква галимация за да си смениш ип-то
+[10:14:51] <yulimoto> т.е. грешно го казах, ама ме разбрахте
+[10:15:33] <KpeTeHoug> :) айде айде, то ако става въпрос, можеш да линкваш бнц-та
+[10:15:39] <KpeTeHoug> и да си паравиш вътре галимациите
+[10:15:41] <KpeTeHoug> :)
+[10:17:16] <yulimoto> луда irc история
+[10:18:13] <KpeTeHoug> мани беги
+[10:18:17] <yulimoto> тва ирс-то си е кат матрицата - канали, опове ,админи , парти лайн, бнцта
+[10:18:34] Iavoreo (~Iavoreo@85.14.24.30) joined #telerikacademy.
+[10:18:55] <KpeTeHoug> е как
+[10:18:59] <KpeTeHoug> то си е виртуален свят
+[10:19:08] <KpeTeHoug> закво имаше толкоз драми из УниБГ
+[10:19:10] <yulimoto> има свят и зад паравана
+[10:19:16] <yulimoto> да да
+[10:19:27] <yulimoto> аз го бях забравил тоя свят
+[10:19:49] <yulimoto> сега се сещам като каза УниБГ
+[10:20:34] <KpeTeHoug> и аз
+[10:20:45] <KpeTeHoug> преди няколко месеца си чистех тука из архивите
+[10:20:49] <KpeTeHoug> и гледам старата мирка
+[10:20:53] <KpeTeHoug> викам да я махам
+[10:20:56] <KpeTeHoug> ама ми стана жал
+[10:20:59] <KpeTeHoug> и ей на ;)
+[10:21:01] <yulimoto> фаце-то не може да направи такъв свят, там е 2-3 нива и 5-6 символа
+[10:21:50] <yulimoto> юзери групи, секс, подаръци, секс, игри, секс и т.н.
+[10:22:14] <KpeTeHoug> забрави сръчкването
+[10:22:15] <KpeTeHoug> :)
+[10:22:29] <yulimoto> ха да
+[10:23:19] <yulimoto> обаждат ми се по телефона и ме питат "как да си скрия приятелите" и аз казвам че няма изобщо фаце и те "що нямаш" - баси наглите ора ;)
+[10:27:30] Iavoreo (~Iavoreo@85.14.24.30) left irc: 
+[10:28:00] <KpeTeHoug> ем
+[10:28:11] <KpeTeHoug> това е като да нямаш телевизор
+[10:28:13] <KpeTeHoug> странно е ;)
+[10:39:57] <KpeTeHoug> brb
+[10:40:26] Bliok (~GT@212.36.13.10) joined #telerikacademy.
+[10:40:35] KpeTeHoug (~GT@13498.telnet.bg) left irc: Remote host closed the connection
+[10:42:01] KpeTeHoug (~GT@13498.telnet.bg) joined #telerikacademy.
+[10:42:06] <Bliok> of
+[10:42:11] <Bliok> да си бях спрял крона
+[10:42:12] <Bliok> :)
+[10:42:56] KpeTeHoug (~GT@13498.telnet.bg) left irc: Remote host closed the connection
+[10:45:16] <KrasiGa> KreTeHoug имаш ли представа защо на твоя срв през този сайт http://webssh.uni.me/ се връзвам а на гризлите не мога?
+[10:46:11] <Bliok> задаваш ли порт допълнително за гризли
+[10:47:00] <Bliok> мхм
+[10:47:04] <Bliok> не става и при мен
+[10:47:25] <Bliok> защо не пробваш да влезеш в моята машина
+[10:47:27] <Bliok> и от там
+[10:47:37] <Bliok> ssh -p 14567 grizzly.yuhu.biz
+[10:47:44] <Bliok> :)
+[10:48:49] <KrasiGa> а коя е твоята машина?
+[10:49:03] <yulimoto> KrasiGa: може да ти режат портове твоите админи
+[10:49:32] Nick change: Bliok -> KpeTeHoug
+[10:49:38] <KpeTeHoug> moqta si e moqta :)
+[10:57:43] <KrasiGa> аха, така вече знам
+[10:58:09] <KrasiGa> yulimoto, те със сигурност режат ама през този сайт може
+[11:00:01] Writing user file...
+[11:00:01] Writing channel file...
+[11:00:32] <hackman> grizzly още ли е жив ?
+[11:00:40] <hackman> след root-а който дадох на всички :)
+[11:03:19] <KpeTeHoug> е как
+[11:03:28] <yulimoto> KrasiGa: сайта е на порт 80, то остава и него да ти изрежат, по-добре да ти спрат нета
+[11:03:40] <KpeTeHoug> само дето един искаше да прави yum update upgrade
+[11:03:45] <yulimoto> hackman: жив е той жив е
+[11:03:50] <KpeTeHoug> щото бил потрошил вече 3 дистрота
+[11:03:51] <KpeTeHoug> :)
+[11:04:02] <KrasiGa> със командата ssh -p 14567 grizzly.yuhu.biz през машината на KretenHoug stana
+[11:04:45] <KpeTeHoug> е става разбира се
+[11:04:48] <KpeTeHoug> даже има и алиас
+[11:04:51] <yulimoto> а до KpeTeHoug как се връзваш ?
+[11:04:52] <KrasiGa> :)
+[11:04:59] <KpeTeHoug> за по мързеливите като мен
+[11:05:01] <KrasiGa> ами през този сайт на 22 порт
+[11:05:03] <KpeTeHoug> yulimoto при мен е на 22
+[11:05:07] <yulimoto> аха
+[11:05:10] <KpeTeHoug> :)
+[11:05:58] <yulimoto> аз 22 не ползвам, че много навлеци в нета си тренират речниците на него
+[11:06:13] <KpeTeHoug> епа нека
+[11:06:24] <KpeTeHoug> аз не съм с такава дума
+[11:06:32] <KpeTeHoug> мръсна :
+[11:06:33] <KpeTeHoug> :)
+[11:07:19] <yulimoto> или най-добре да си неграмотен за техните думи речници нема
+[11:09:24] <yulimoto> KrasiGa: да, KpeTeHoug е 100 пъти по-добре от тоя уебсайт - де не знайш при кой ти оди паролата
+[11:12:15] <KrasiGa> e to s tezi paroli nqmam koi znae kakvo da kriq
+[11:14:51] <yulimoto> С KpeTeHoug си държим на гризлито порното и голите снимки ;)
+[11:15:09] <yulimoto> бъди милостива към нас
+[11:16:37] <KrasiGa> само да не са гейове, иначе и аз мога да погледам
+[11:16:40] <KrasiGa> :)
+[11:18:51] <yulimoto> хаха не не са, ако имаш мерак може да се включиш в обмяната на опит ;p~
+[11:28:25] <KpeTeHoug> тц тц
+[11:28:29] <KpeTeHoug> човек да иде да работи малко
+[11:28:39] <KpeTeHoug> и вий на голотия го обърнахте
+[11:31:31] KpuBaHuBa (~GT@13498.telnet.bg) joined #telerikacademy.
+[11:32:09] <KpuBaHuBa> малко бавно ми се вижда обаче това znc
+[11:33:12] <KpuBaHuBa> ще го видим после, че е време за обяд
+[11:34:49] <yulimoto> KpeTeHoug: аз аз, тя KrasiGa се държи на положение.
+[11:37:14] <KpeTeHoug> :) да бе, затова иска само да наднича и да гледа :)
+[11:37:18] test1234 (596a7051@gateway/web/cgi-irc/kiwiirc.com/ip.89.106.112.81) joined #telerikacademy.
+[11:37:39] <KrasiGa> хахаххаха
+[11:38:11] <test1234> test1234
+[11:38:13] <KrasiGa> ама сложете си ваши снимки, иначе не е интересно
+[11:38:21] <vhristev> yulimoto, слагаш един fail2ban и забравяш за проблемите с бруут форса на 22 порт
+[11:38:28] <KrasiGa> то в интернет колкото искаш порно
+[11:38:51] <KpeTeHoug> :)
+[11:38:59] <KpeTeHoug> аз отивам си чета за SELinux
+[11:39:02] <vhristev> а така кой каза "пишка"
+[11:39:09] <KpeTeHoug> и да обядвам
+[11:39:10] <KpeTeHoug> :)
+[11:40:01] <yulimoto> KpeTeHoug: на сайта на федора чети
+[11:40:30] <KpeTeHoug> yulimoto точно там съм набарал
+[11:40:45] <KpeTeHoug> http://fedoraproject.org/wiki/SELinux/Understanding
+[11:40:58] <KpeTeHoug> че дръгите неща които намерих, само ме объркаха :)
+[11:41:02] <yulimoto> анджък това е без да го отварям помня урл-то
+[11:41:09] <hackman> vhristev: 1H Hawk
+[11:41:31] <KpeTeHoug> айде, отивам да топна чушката
+[11:41:33] <KpeTeHoug> .....
+[11:41:40] <KpeTeHoug> в доматения сос :) за обад
+[11:41:43] <KpeTeHoug> *обяд
+[11:43:15] <vhristev> стига сте развращавали тука
+[11:44:24] <vhristev> hackman, мерси ще го погледна fail2ban-а мн мн време го ползвам леко и бъзо
+[11:44:47] <vhristev> а и то е повече брут форст това на пръв поглед ми изглежда нещо като SNORT / Tripwire
+[11:46:17] <vhristev> Мммм графичици перфекното за Guys with the ties а.к.а. Баш Шефа
+[11:47:26] <hackman> то за такива е правено :)
+[11:49:00] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:49:31] <vhristev> Аз Зеносче ползвам
+[11:50:14] <yulimoto> vhristev: дай по реално име, че аз си ги проверявам, кое какво е.
+[11:50:47] <yulimoto> vhristev: къде да търся какво е зеносче :P
+[11:51:00] <hackman> Zenoss-a e толкова бавен и тромав... че е невъзможно да се работи с него на large scale :)
+[11:51:33] <vhristev> Ами не съм го ползвал за голям скейп
+[11:51:43] <vhristev> Hyperic / STrata ползвам за големи енв.
+[11:53:53] <vhristev> hackman, Ти от мн време се занимаваш изцяло си free решения и имаш голям опит там и си като single source of truth
+[11:54:15] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[11:56:58] <hackman> not true :)
+[11:57:08] <hackman> но, основно с free :)
+[11:59:58] <vhristev> Е аз от бая време вече основно Enter. и с тая бюрокрация хич не Фън
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:22] <vhristev> Затова мн се кефя на курса ,че е яко технически
+[12:08:56] rstfgh (~androirc@85.118.193.190) joined #telerikacademy.
+[12:10:32] rstfgh (~androirc@85.118.193.190) left #telerikacademy.
+[12:10:47] plamer (~Plamer@84.40.92.7) joined #telerikacademy.
+[12:11:08] <plamer> хилоу
+[12:23:23] test1234 (596a7051@gateway/web/cgi-irc/kiwiirc.com/ip.89.106.112.81) left #telerikacademy.
+[12:49:28] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[12:49:37] <dencho-at-work> опалянкаа
+[12:49:54] <hackman> на полянка :)
+[12:50:03] <hackman> хоп, хоп, хоп :)
+[12:53:42] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:01:41] <dencho-at-work> кажете дистрибуция подходяща за чаве което за първи път ще пипне linux, а компютъра е 512 мб рам, 700 мхз процесор 40 гб хард диск (може и 80) :Д
+[13:02:06] <dencho-at-work> ааа и да има бг превод на менютата нали :Д
+[13:02:22] <dencho-at-work> което е тъпо, но като за начало ще му е по лесно
+[13:02:34] <hackman> slax :)
+[13:11:46] <phalaaxx> хора кажете нещо лошо за btrfs да спра да се занимавам с глупости, щото само се мъча :D
+[13:12:42] <hackman> phalaaxx: EXPERIMENTAL-e :) често се чупи
+[13:12:53] <hackman> т.е. вероятността да си загубиш данните е голяма
+[13:15:16] <phalaaxx> това хубаво ама не винаги ми е достатъчно да ме спре :D
+[13:15:25] <phalaaxx> трябва ми нещо друго да си блъскам главата
+[13:15:28] <phalaaxx> спешно :D
+[13:16:20] <Deyan> копи от #ubuntu jrib	Lazuroth78: why did you run the command twice? Once you delete the file, if you try to delete it again, it won't be there anymore to be deleted
+[13:16:43] <Deyan> phalaaxx: стена!
+[13:16:51] <Deyan> поне не се чупи
+[13:17:57] <KpeTeHoug> dencho-at-work  http://learnfree.eu/
+[13:18:21] <KpeTeHoug> ма незнам системата ти дали става, виж по докумнтациите
+[13:24:01] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 276 seconds
+[13:26:21] <yulimoto> dencho-at-work: според мен "детските" дистрота са възрастни хора, слагай му дебиан или още повече слак и след година ще ти дава акъл
+[13:27:45] <hackman> ебаси педерастите
+[13:27:46] <hackman> http://www.dnevnik.bg/intervju/2013/07/24/2109438_cvetlin_iovchev_protestirashtite_se_durjaha_kraino/?ref=substory
+[13:27:51] <hackman> довечера ОСТАВКАААА
+[13:30:27] <dencho-at-work> learnfree nqma da vurvi na 700 mhz procesor si mislq
+[13:30:38] Action: dencho-at-work slaps KpeTeHoug 
+[13:33:58] <KpeTeHoug> има някаква нотбуук версия
+[13:34:16] <KpeTeHoug> slax  е найс
+[13:34:17] <yulimoto> hackman: това ми харесва в бсп, как естествено настройват хората с/у себе си. вигенин също не отсъпва в сутрешния блок, а Мая още не се е развилняла..
+[13:35:12] <hackman> OffNews:  Абсолютен прецедент в новата ни история е заседание на парламента да не се проведе заради страх на депутатите от гражданите. 
+[13:35:20] <hackman> страх ли
+[13:35:30] <hackman> от какво ги беше страх 40 дни, та не дадоха оставка
+[13:35:33] <hackman> идиоти
+[13:36:15] <KpeTeHoug> тея са бати дрисльовците в парламент
+[13:36:24] <KpeTeHoug> едните няма да ми ходят на работа, щото не им изнася
+[13:36:42] <KpeTeHoug> другите ще правят "спонтанни" контрапротести, извозени с автобуси
+[13:37:10] <KpeTeHoug> и сега вече им се припотиха топките, не смеят се вяснат хептен в парламента
+[13:37:42] <KpeTeHoug> трябва като 1393 - като е падало Търново, всичките аристократи и управници - под ножа
+[13:37:46] <KpeTeHoug> и с начале
+[13:48:05] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[13:58:45] <TPB_> Някой online?
+[13:58:58] <KpeTeHoug> намират се да
+[13:59:02] <TPB_> :)
+[13:59:17] <TPB_> Имам едно въпросче тука по домашните и се чуда кого да питам ;д
+[13:59:27] <TPB_>  9. Create a job definition file for serial console with UpStart.
+[13:59:46] <KpeTeHoug> ами питай, ако не аз, hackman  ще каже ;)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:35] <TPB_> Каква е идеята на задачата? да съсдадем config който да подадем на Upstart и той да направи връзка през серийна конзола :?
+[14:00:37] <yulimoto> нали знаеш, че срока за тая домашна мина ? :)
+[14:00:46] <TPB_> правилно ли съм разбрал :/
+[14:00:58] <TPB_> Ами правя peer reviews ;д
+[14:01:14] <TPB_> Ама то едни ревюта като самия аз не ги разбирам ха-ха
+[14:01:24] <TPB_> вие по колко домашни сте оценили btw?
+[14:01:27] <yulimoto> да, както имаше подобна задача за апачи, има и за сериал козола
+[14:01:38] <yulimoto> аз 1-2
+[14:01:46] <phalaaxx> TPB_: трябва ти серийна конзола през която да можеш да се логваш на машината и тя трябва да се стартира от upstart
+[14:01:57] <phalaaxx> за това пишеш job definition
+[14:02:18] <phalaaxx> ако си спомняш от лекцията имаше едни работи за inittab
+[14:02:41] <phalaaxx> трябва ти нещо подобно но да се стартира от upstart job definition, не както беше в inittab :)
+[14:03:27] <TPB_> Мерси за инфото :) Ами не си ги спомянм тия неща, явно ще трябва да си ги припомня сега :D
+[14:03:30] <yulimoto> за тая домашна има добри работи в нета, в убунту
+[14:04:32] <yulimoto> http://upstart.ubuntu.com/cookbook - https://help.ubuntu.com/community/SerialConsoleHowto
+[14:06:45] <KpeTeHoug> добре, сега гледам тея всичките секюрити модели
+[14:06:50] <KpeTeHoug> и ми пищи главата
+[14:07:06] <KpeTeHoug> а сме още на 3та лекция:)
+[14:07:42] <KpeTeHoug> в смисъл, хубаво теория, ма нещо ми е бедно въображението ;)
+[14:08:02] <phalaaxx> в този ред мисли, има ли реално полза от комбинирането на разни security-та или е чиста загуба на време? някой коментар за това? :)
+[14:08:16] <phalaaxx> примерно grsecurity kernel patches със selinux
+[14:11:10] <KpeTeHoug> незнам, но комбиниране на различни модели, ми звучи като караница кой кое да поеме
+[14:11:18] <KpeTeHoug> или като много  баби - хилаво бебе
+[14:12:03] <phalaaxx> не мисля че това е възможно
+[14:12:23] <phalaaxx> нормално трябва да си избереш какво ползваш в cmdline
+[14:12:30] <phalaaxx> security=selinux
+[14:13:21] <phalaaxx> не знам дали е възможно да пуснеш повече от един, но имам някакво вътрешно усещане че няма да стане :)
+[14:13:59] <phalaaxx> (като казвам cmdline имам предвид kernel cmdline - cat /proc/cmdline)
+[14:14:08] <KpeTeHoug> си си, там гелдам и аз :)
+[14:16:38] <KpeTeHoug> някой по напреднал с математиката
+[14:16:41] <KpeTeHoug> https://upload.wikimedia.org/math/b/5/4/b54f27096c2f5754c6a2ab85865d4621.png
+[14:16:50] <KpeTeHoug> какво трябва да означават тея символи :)
+[14:17:20] <phalaaxx> нещо за някакви множества беше май
+[14:17:50] <KpeTeHoug> аха
+[14:17:56] <KpeTeHoug> демек тея са подмножество на тея
+[14:18:26] <phalaaxx> не помня, само тая камбанка ми дрънчи в главата - че става въпрос за множества :D
+[14:18:28] <yulimoto> да множества са
+[14:20:28] <KpeTeHoug> това за RBAC секюрити модела
+[14:20:55] <yulimoto> тоя знам посредата значи че всички елементи на А са елементи и на Б
+[14:21:02] <yulimoto> тоя знак*
+[14:21:14] <phalaaxx> друг въпрос който ме вълнува, дали реално има разлика между SELinux Targeted policy и Apparmor в настоящия му вид, т.е. ако приемем че имаме еднакви policy-та за едно и също нещо (например Apache) за двете - има ли предимство в използването на едното пред другото?
+[14:22:01] <KpeTeHoug> доколкто четох SELinux e доста по адвансед от Apparmor
+[14:22:09] <phalaaxx> мисля че дълго ще се вълнувам :D
+[14:22:21] <phalaaxx> зависи как го използваш
+[14:22:26] <KpeTeHoug> при апп армор имаш само 5или 6 действия които можеш д ползваш
+[14:22:33] <KpeTeHoug> а при selinux са повече
+[14:22:46] <KpeTeHoug> а аз никак не ги позлвам :)
+[14:23:07] <phalaaxx> така е но това не прави света по-добър от самосебе си :)
+[14:23:21] <phalaaxx> ако policy-то ти не ги използва например...
+[14:23:24] <yulimoto> аве reentrant & reemption kenel нещо ми се мешат, като сме почнали с въпросите някой желаещ ?
+[14:24:32] <KpeTeHoug> кърнела накрая на кура
+[14:24:35] <KpeTeHoug> *курса
+[14:24:54] <phalaaxx> ще си останем с вълненията май :)
+[14:24:59] <KpeTeHoug> :) аз съм прохождащ, имам 4 съсипани дистрота, тая ми 5тата
+[14:25:02] <KpeTeHoug> и работи вече 3 дена :
+[14:25:03] <KpeTeHoug> :Р
+[14:25:36] <yulimoto> м/у другото аз ще сложа един selinux през уикенда видело се е, ткаа на теория не става
+[14:26:01] <yulimoto> т.е. на виртуалката
+[14:26:06] <yulimoto> за учебни цели
+[14:26:20] <KpeTeHoug> и аз май тей
+[14:27:20] <KpeTeHoug> то хубаво ми влизат разни работи в главата, ма тя къде празна горката
+[14:27:20] <yulimoto> дето се вика вече сме подковани теоретично, но требе да се блъснем у челото
+[14:27:27] <KpeTeHoug> огледат се, огледата се, па излязат
+[14:27:38] <yulimoto> не бе трябва си да си базикаш
+[14:27:57] <KpeTeHoug> да бе, ама аз не се бия в челото
+[14:28:06] <KpeTeHoug> аз им говоря пасивно агресивно на машините
+[14:28:09] <KpeTeHoug> и сработна
+[14:28:38] <yulimoto> еми кой как си знае.
+[14:29:03] <KpeTeHoug> става проблемно
+[14:29:16] <KpeTeHoug> ако те почнат да ми се отговарят
+[14:29:17] <KpeTeHoug> :)
+[14:30:23] <yulimoto> аз всехме да четем за кернело, ама те сега и на Ц ще ме карат да пишем, кое фсиийк и други фукции и веке край няма да го разнищя
+[14:31:24] <KpeTeHoug> ей туй ни трябва
+[14:31:25] <KpeTeHoug> поне на мен
+[14:31:26] <KpeTeHoug> http://www.c-for-dummies.com/
+[14:33:29] <yulimoto> синтаксисо че го упрайм; за седмица сме вътре , ма ко требе да учим дълго библиотеки, апита истории, аууу чи отврат
+[14:33:53] <KpeTeHoug> пу пу, да не ни е уроки
+[14:35:02] <phalaaxx> hello world - молитва към боговете на програмирането :)
+[14:35:22] <KpeTeHoug> хахахаха
+[14:35:45] <phalaaxx> винаги се започва от там
+[14:35:53] <phalaaxx> за да се омилостивят
+[14:36:13] <KpeTeHoug> жертвен агнец
+[14:40:38] <KpeTeHoug> както и да е, малко почивка, време е за малко лекции по Операционни системи :)
+[14:41:16] <yulimoto> е аз продължавам с кернела
+[14:41:23] pavkata (5cf7db47@gateway/web/cgi-irc/kiwiirc.com/ip.92.247.219.71) joined #telerikacademy.
+[14:41:58] <pavkata> Привет
+[14:42:07] <pavkata> кога точно са лекциите
+[14:42:23] <pavkata> за да мога да присъствам online
+[14:43:04] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[14:44:00] <KpeTeHoug> http://academy.telerik.com/student-courses/software-technologies/linux-system-administration/schedule
+[14:44:05] <KpeTeHoug> това е програмата по дати
+[14:44:08] <KpeTeHoug> почват в 7
+[14:44:13] <KpeTeHoug> т.е 19:00
+[14:44:21] <KpeTeHoug> докъм 23
+[14:44:30] <KpeTeHoug> според зависи почивките, и тн
+[14:45:32] <pavkata> супер, много ти благодаря
+[14:46:02] <KpeTeHoug> моля, за нищо
+[14:48:08] samy_ (~samy@46.10.61.39) left irc: Ping timeout: 246 seconds
+[14:52:25] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:10] <dencho-at-work> ora
+[15:00:14] <dencho-at-work> |:d
+[15:01:01] <KpeTeHoug> кажете ора
+[15:01:17] <dencho-at-work> :]
+[15:01:20] <dencho-at-work> kako ste
+[15:02:12] <KpeTeHoug> мърдаме
+[15:03:01] <phalaaxx> като живи
+[15:04:09] samy_ (~samy@91.196.227.180) joined #telerikacademy.
+[15:04:47] <dencho-at-work> nice a!
+[15:04:53] <dencho-at-work> голяма жега днеска
+[15:06:10] <KpeTeHoug> мани беги
+[15:06:10] <yulimoto> dencho-at-work: какво реши за младежа
+[15:06:32] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[15:09:57] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 246 seconds
+[15:11:29] <dencho-at-work> mi znam li... nemrih tuka nqkakvi puppy linux, nqkakvo LXLE koeto bilo lubuntu s LXDE, nqkvo bodhi linux (debian based) i nqkakvo ZorinOS ne znam na kakvo based :D
+[15:11:41] <dencho-at-work> no trqbva da pusna da gi vidq
+[15:11:41] <dencho-at-work> :D
+[15:14:19] <dencho-at-work> slax kaza hackman shte go vidq i tova
+[15:14:25] <phalaaxx> Linux rigel 3.2.48-grsec #2 SMP Wed Jul 24 14:27:39 EEST 2013 x86_64 GNU/Linux
+[15:14:25] <phalaaxx> това за надъхване на желаещите да си играят с ядрото :)
+[15:14:26] <yulimoto> да най-добре да се види :) ама гледай и requirements че 700Mhz трябва да му остане нещо на чиляка
+[15:14:50] <dencho-at-work> da da :)
+[15:15:01] <dencho-at-work> az ram moga da mu sloja i 1 gb :P no procesora e kut
+[15:15:02] <dencho-at-work> :D
+[15:15:03] pavkata (5cf7db47@gateway/web/cgi-irc/kiwiirc.com/ip.92.247.219.71) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[15:15:23] <dencho-at-work> slax-a vika 4e mu trqbvat 300 mhz za KDE :D
+[15:15:41] <yulimoto> slux до колкото помня искаше 30мб да бутне и около 140 да подкара всичко, ама виж го преди това
+[15:16:24] <dencho-at-work> gluposti prikazvam az :D
+[15:16:33] <dencho-at-work> 256 mb za kde
+[15:16:40] <dencho-at-work> i procesor kuvto mu sloji6
+[15:16:40] <dencho-at-work> :D
+[15:16:53] <dencho-at-work> i486 or newer CPU, all Intel processors and AMD processors will work
+[15:17:35] <dencho-at-work> az nikoga ne sam pipal slackware taka 4e 6te mi e interesno :D
+[15:20:14] <yulimoto> phalaaxx: kakwo е този кърнъл ?
+[15:21:28] <phalaaxx> 3.2.48 със grsecurity
+[15:23:39] <phalaaxx> grsecurity си има RBAC (освен ако не се компилира без RBAC)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:09:01] <dencho-at-work> a be windows userite, q kajete kak da shutdown-na windows ot command line :D
+[16:09:13] <KpeTeHoug> shutdown
+[16:09:33] <s0ny123> shutdown -s -t <seconds> ако добре помня
+[16:09:46] <KpeTeHoug> да, ако искаш някакви опции
+[16:09:54] <KpeTeHoug> какво искаш да направиш
+[16:10:26] <KpeTeHoug> shutdown -s
+[16:10:36] <KpeTeHoug> е само шътдаун
+[16:10:40] <dencho-at-work> da go ugasq vednaga iskam
+[16:10:41] <dencho-at-work> :D
+[16:10:45] <dencho-at-work> shutdown -h now iskam
+[16:10:45] <dencho-at-work> :d
+[16:10:57] <KpeTeHoug> ми
+[16:10:58] <KpeTeHoug> shutdown -s
+[16:11:03] <KpeTeHoug> е твоят човек
+[16:11:09] <KpeTeHoug> даже
+[16:11:10] <yulimoto> и за какво ти е пък от козолата ? там конзолата е ГУИ
+[16:11:11] <KpeTeHoug> с форсе
+[16:11:17] <KpeTeHoug> -sf
+[16:11:23] <KpeTeHoug> -s -f de
+[16:11:33] <KpeTeHoug> тоя линукс ме разглезва тука с комбиниране
+[16:11:45] <dencho-at-work> yulimoto: s drp sam se connectnal kat admin i v start butona nqma shutdown :D
+[16:11:58] <yulimoto> ей луда ралта
+[16:12:49] <dencho-at-work> rdp
+[16:12:50] <dencho-at-work> pf
+[16:13:10] <KpeTeHoug> да, и аз затуй го ползвам :Р
+[16:13:14] <KpeTeHoug> ма не искаш ли рестарт
+[16:14:08] <KrasiGa> сега слушам последната лекцията /за soft & hard links/ на ОС курса също слушах и в крайна сметка за мен soft linka си е чист shortcut, нали?
+[16:14:15] <KrasiGa> или изпускам нещо?
+[16:14:51] <KpeTeHoug> общо взето
+[16:15:09] <KpeTeHoug> но има предимство че ходи и по други дивайси и тн
+[16:15:30] <KrasiGa> ами то и шорткъта ходи в уиндоус
+[16:15:51] <KpeTeHoug> е сега нали за лимнукс говорим :)
+[16:16:26] <KrasiGa> да де ама аз правя съпоставка с уиндоуса
+[16:16:35] <KrasiGa> иначе за хард линк разбрах
+[16:17:57] <KpeTeHoug> важното е да facl-неш на yulimoto пермишъните
+[16:18:02] <KpeTeHoug> да не бара по мойте логове :)
+[16:18:12] <KpeTeHoug> и да се чуди той на другия ден ко става
+[16:20:07] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[16:20:19] <KpeTeHoug> http://sphotos-a.ak.fbcdn.net/hphotos-ak-ash3/16571_559914154063840_307785039_n.jpg
+[16:20:50] <KpeTeHoug> хай левъл мулти таскинг
+[16:20:55] <KpeTeHoug> с фадър процес
+[16:21:04] <yulimoto> KrasiGa: много много подобно ама все пак е линукс среда ; шорткъта в уиндоус зависи се отваря с експлорер, докато софт линка си го разбира кърнела, има и др разлики но като функция са еднакви
+[16:21:07] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[16:21:11] <yulimoto> това е мое мнение
+[16:22:21] <dencho-at-work> mne, iskam shutdown, i iskam da zaka4a na kvm virtualnata ma6ina winxp virtualen disk no ne6to ne mi se polu4ava :D
+[16:24:16] <KpeTeHoug> ем
+[16:24:21] <yulimoto> KrasiGa: ama ако ти е по-лесно да го мислиш като шорткът, нищо не ти пречи да го мислиш като шорткът
+[16:25:08] <KpeTeHoug> така е
+[16:25:09] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 250 seconds
+[16:25:13] <KpeTeHoug> това не е лъжица
+[16:25:18] <KpeTeHoug> там няма лъжица въобще
+[16:25:39] <yulimoto> Въпроса е в един момент да мислиш шорткъта нещо като софтлинк, ама не съвсем ;)
+[16:25:47] <KpeTeHoug> :)
+[16:25:52] <KpeTeHoug> някой ден
+[16:25:57] <yulimoto> :)
+[16:26:02] <KpeTeHoug> айде, скатавам аз, утре пак
+[16:26:11] <yulimoto> сгъваш обстановката ли ?
+[16:26:13] <yulimoto> аре
+[16:26:16] <yulimoto> тогава
+[16:27:20] <KpeTeHoug> не, аз таковато малко работа извън  офиса
+[16:27:21] <KpeTeHoug> за 2 мин
+[16:27:26] <KpeTeHoug> и охоо, е то кое време станало :)
+[16:27:27] <KpeTeHoug> и тей
+[16:29:20] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[16:32:16] <KrasiGa> еййй трябваше да чета лога за да видя, че сте ми писали. Пак ми заби freenode
+[16:32:38] <KrasiGa> shortcut v windows ne e samo browser
+[16:32:42] <KrasiGa> може на всичко
+[16:32:59] <KrasiGa> просто питах от любопитсво понеже не виждам разликата между двете
+[16:33:09] <KrasiGa> и се чудех дали не бъркам някъде
+[16:33:16] <KrasiGa> Благодаря Ви за разясненията
+[16:36:27] <yulimoto> ами не е само на броузер IE , ама мисля че е само на експлорер т.е. онова вътре дето търсиш файловете в C:-то и D:-to не се ли казва пак експлорер ? Нещо като Nautilus в Gnome ? Може и да бъркам може шорткъта да е за цялта с-ма, ще го проверя.
+[16:37:37] <KrasiGa> да да, explorer имах предвид
+[16:37:48] <KrasiGa> аз се обърках
+[16:38:20] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[16:38:21] <yulimoto> :)
+[16:38:44] <yulimoto> то и аз май се бъркам тъй че ... може да си приказваме ей така
+[16:38:54] <KrasiGa> :)
+[16:39:03] <KrasiGa> ne]o takova se poluchi
+[16:41:46] <KrasiGa> а каква е тази mc програма?
+[16:41:57] <KrasiGa> и защо я няма на моята дистро :(
+[16:45:23] <yulimoto> midnight commander
+[16:45:43] <yulimoto> може да си я сложиш
+[16:46:07] <KrasiGa> мога ама не мога
+[16:46:16] <KrasiGa> нали нямам интерент на виртуалката
+[16:46:25] <yulimoto> аааа да
+[16:46:53] <dencho-at-work> KrasiGa: s cel da se povtorq, kak idva interneta do host ma6inata ti ?
+[16:47:03] <dencho-at-work> s proxy li be6e
+[16:47:18] <KrasiGa> да, но също съм член на squid group v домаина
+[16:47:22] <yulimoto> да с прокси; не те слуша ; ти пак ѝ кажи ?
+[16:47:24] <KrasiGa> *domaina
+[16:47:46] <KrasiGa> По скоро ключово е групата а не проксито
+[16:48:03] <yulimoto> не знам, но не вярвам
+[16:48:10] <KrasiGa> кое не вярваш?
+[16:48:11] <dencho-at-work> squid mi svu4i kato squirt :D
+[16:49:19] <yulimoto> ами ако подкараш НАТ и сложиш проксито в линукса, не вярвам изобщо да има значение тази група
+[16:49:31] <yulimoto> слушай денчо
+[16:49:38] <yulimoto> то ще ти каже как да го експортнеш
+[16:49:51] <yulimoto> то* = той
+[16:49:57] <KrasiGa> ami kato направя това, браузъра ми търси user и pass на проксито а тук вече нямам материал
+[16:50:38] <yulimoto> ами то така ти е сложено и ти не знаеш паса ли ?
+[16:51:10] <KrasiGa> абе странно е понеже съм  domain admin в нашия домейн
+[16:51:19] <KrasiGa> но връзката минава през сф
+[16:51:42] <yulimoto> ми ква жена си ако не ги разбереш ? Я да се подкъсиш утре, така, да се намаааш едно хубаво, да видиш ще валят усер и пасове
+[16:51:46] <KrasiGa> уж имам всички права ама не
+[16:52:16] <KrasiGa> е то тва няма да помогне по телефона :)
+[16:52:26] <KrasiGa> ще трябва да оъскоча до сф
+[16:52:30] <yulimoto> ааа
+[16:52:37] <yulimoto> ти във ВТ ли беше
+[16:52:43] <KrasiGa> в Благоевград
+[16:52:51] <yulimoto> ООО
+[16:52:53] <KrasiGa> тъкмо пуснаха магистралата
+[16:52:53] <yulimoto> йе
+[16:53:56] <yulimoto> Ще се обадиш и ще каже. Аз съм македонско девойче, за наденица тепам, па си представете за юзера и пасса на проксито.
+[16:54:09] <KrasiGa> хахахаха
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:46] <KrasiGa> лека вечер от мен
+[17:01:52] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:02:53] _NEKTAR_ (~nektar@176.12.19.179) left irc: Ping timeout: 246 seconds
+[17:05:07] <yulimoto> Ей това е желязно работно време : 17:00 < KrasiGa> лека вечер от мен
+[17:06:59] <dencho-at-work> чиновник
+[17:07:00] <dencho-at-work> :Д
+[17:07:28] <yulimoto> :)
+[17:07:39] <dencho-at-work> tva xp bootva polovin 4as we
+[17:07:39] <dencho-at-work> :D
+[17:09:41] <vhristev> АЙ сия Уиндолса виновен
+[17:09:41] <vhristev> (;
+[17:12:31] samy_ (~samy@91.196.227.180) joined #telerikacademy.
+[17:13:07] samy__ (~samy@84.238.184.98) left irc: Read error: Connection reset by peer
+[17:14:03] samy (~samy@84.238.184.98) joined #telerikacademy.
+[17:17:30] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 260 seconds
+[17:19:32] <dencho-at-work> okaza se 4e ne e :P
+[17:19:38] <dencho-at-work> omazal sam ne6tata
+[17:19:38] <dencho-at-work> :d
+[17:20:49] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[17:22:50] georgidimov_ (3edd9aba@gateway/web/freenode/ip.62.221.154.186) joined #telerikacademy.
+[17:23:33] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[17:36:52] <TPB_> FML
+[17:37:19] <TPB_> тотално зацикляне с тези домашни, евала на тоя дето го е писал това домашно ...
+[17:37:37] <hackman> някой да се е появявал, да моли да му сменяте паролата на user-a ? :)
+[17:37:57] <TPB_> :D?
+[17:38:25] <hackman> TPB_: кое домашно бря ?
+[17:45:32] plamer (~Plamer@84.40.92.7) left irc: Ping timeout: 256 seconds
+[17:51:47] <yulimoto> ейй кой смени пермишъните на /tmp
+[17:52:03] <yulimoto> баси
+[17:52:22] <hackman> yulimoto: па оправи си ги БЕ :)
+[17:57:58] <yulimoto> a, чи иска ли питане :)
+[17:59:37] <yulimoto> hihi разбрах кога са сменени в 14 часа
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:14] <yulimoto> а не 14+ часа
+[18:00:30] <dencho-at-work> lekar ve4er
+[18:01:02] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[18:01:20] <yulimoto> аре мен
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:10:19] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[19:13:31] <dencho> opalqnkaaa banq! :D
+[19:21:26] <dencho> http://youtu.be/-g-srcXmt5A
+[19:21:32] <dencho> сръбски рап ве!
+[19:21:33] <dencho> :D
+[19:22:46] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: Jesus saves.
+[19:24:01] s0ny123 (~agit0@95.111.18.140) left irc: Remote host closed the connection
+[19:35:25] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[19:38:05] lyubenblagoev (~lyubenbla@92.247.170.208) joined #telerikacademy.
+[19:41:28] hackman (~HackMan@management.1h.com) left irc: Ping timeout: 264 seconds
+[19:50:18] user99 (John@78.130.186.99) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:05:42] lyubenblagoev (~lyubenbla@92.247.170.208) left irc: Quit: Leaving
+[20:20:55] s0ny123 (~agit0@95.111.18.140) left irc: Read error: Connection reset by peer
+[20:33:51] tuxar (~tuxar@ppp-94-69-251-193.home.otenet.gr) joined #telerikacademy.
+[20:34:14] <tuxar> Привет!
+[20:37:01] <tuxar> Разкажете моля ви какво се явява opend в темата 7. List all opend files using only the /proc fs.
+[20:37:42] <tuxar> някакъв демон?
+[20:40:21] <yulimoto> ами може да го погледеш и от друг ъгъл не точно като демон, а като opened ;P
+[20:40:50] <tuxar> демек правописна грешка?
+[20:41:43] <tuxar> изчетах цялата демонология по Тери Пратчет и нищо не намерих ;-)
+[20:42:44] <tuxar> 10х
+[20:43:18] <yulimoto> ами тогава не знам, аз не се замислих като го четох този въпрос дали е демон, просто помислих че е грешка и го свързах с lsof
+[20:44:19] <yulimoto> то и сега си мисля, че ако намеря командата lsof ще намеря отговора, но не знам дали е така
+[20:44:28] <yulimoto> т.е. какво точно чете тя
+[20:44:46] <yulimoto> ама това са си мои предположения. не искам да те подвеждам
+[20:46:44] <tuxar> да, това е командата
+[20:47:25] <tuxar> просто се чудех дали не е някакъв познат демон например slapd
+[20:57:34] <yulimoto> то между другото аз друго се чудя, какво се има предвид под файл, щото то всичко е файл
+[20:57:48] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:05:55] <tuxar> ами /proc/НомерНаПроцеса/fd май е разковничето
+[21:10:18] georgidimov_ (3edd9aba@gateway/web/freenode/ip.62.221.154.186) left irc: Ping timeout: 250 seconds
+[21:22:57] <phalaaxx> може би нещо като ls -l /proc/*/fd 2>/dev/null :D
+[21:23:02] <phalaaxx> едва ли е толкова просто де
+[21:25:40] <yulimoto> phalaaxx: ами аз се замислих,че то всичко е файл. аз като видя само на lsof какво става
+[21:26:42] <yulimoto> хааа днес имаше едно момче дето питаше за  upstart  conf file за serial connection и си е пуснал  файлчето на гризлито --- манияк
+[21:26:46] <yulimoto> :)
+[21:26:57] <yulimoto> браво
+[21:28:45] <phalaaxx> кое файлче?
+[21:29:34] <phalaaxx> и аз си го оставих там btw :D
+[21:30:21] <yulimoto> кога го остави
+[21:30:24] <yulimoto> ?
+[21:30:52] <phalaaxx> отдавна беше
+[21:30:57] <tuxar> а пробвахте ли дали работи този upstart?
+[21:30:59] <phalaaxx> ама аз за индианеца
+[21:31:33] <phalaaxx> аз си го пробвах и работи
+[21:31:40] <phalaaxx> който иска - да пробва :)
+[21:31:50] <phalaaxx> /etc/init.d/httpd stop && start apache2
+[21:31:53] <tuxar> я разкажи, че аз нямах
+[21:32:15] <yulimoto> mm не за апачи ами за сериал конзоле
+[21:32:16] <tuxar> адаптор на лаптопа и писах теоретично
+[21:32:23] <yulimoto> днес от 17:54
+[21:32:50] <tuxar> и аз за rs232 питам
+[21:33:18] <yulimoto> phalaaxx: твойто видях и двата варианта в гит
+[21:35:51] <phalaaxx> добре, не гледай повече там - ще ме е срам и ще се излагам :D
+[21:53:55] tuxar (~tuxar@ppp-94-69-251-193.home.otenet.gr) left #telerikacademy.
+[21:54:22] tuxar (~tuxar@ppp-94-69-251-193.home.otenet.gr) joined #telerikacademy.
+[21:57:55] <yulimoto> haha няма спокойно
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:04:13] <yulimoto> т.е. няма да се излагаш;
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:30:08] hackman (~HackMan@wolf.yuhu.biz) joined #telerikacademy.
+[00:00:00] --- Thu Jul 25 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

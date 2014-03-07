@@ -1,0 +1,1188 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:11:22] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[00:11:29] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[00:11:47] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[00:29:09] krasin (~krasin@46.10.51.78) joined #telerikacademy.
+[00:33:34] krasin (~krasin@46.10.51.78) left irc: Quit: Ex-Chat
+[00:43:46] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Quit: Page closed
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:22:38] alabala (~alabala@unaffiliated/alabala) left #telerikacademy.
+[03:22:39] alabala (~alabala@unaffiliated/alabala) joined #telerikacademy.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:39:26] fityla (~AndChat20@84.40.116.146) left irc: Ping timeout: 276 seconds
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:50:14] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:08:54] <Deyan> Dobro utro
+[09:10:56] <KrasiGa> Dobro da e
+[09:10:58] <yulimoto> пиянката си оправил правописа ;P
+[09:11:01] <KpuCko> Добро утро.
+[09:11:29] <KpuCko> Някой има ли идея за лесен начин/инструмент за калкулиране на използвано дисково пространство в случаите LVM?
+[09:12:20] <Deyan> yulimoto: да си ядеш ушите
+[09:13:05] <Deyan> сутринта като се събудих в 4:30 и не можах да заспя повече, отвратителна работа
+[09:14:00] <yulimoto> мда, алкохола не прощава
+[09:14:23] <KpuCko> Т.е. имаш 12332435 дяла, на всяки от тях има 123234 използвано порстранство и .... реално трябва да смяташ за всеки един по отделно колко е използвано, съответно това колко заема от хард диска и т.н. и т.н.
+[09:16:52] <yulimoto> KpuCko: какво искаш да сметнеш групата, волюма не разбирам
+[09:17:14] <yulimoto> май ми е рано изобщо за мислене
+[09:18:42] <Deyan> KpuCko: #lf не ти ли дава необходимата информация
+[09:18:48] <Deyan> KpuCko: # lf не ти ли дава необходимата информация
+[09:19:13] <Deyan> абе df казах бе, ей пак не ме слуша клавиатурата
+[09:19:46] <yulimoto> Deyan: значи си добре, вчера толкова правилно писане не бях виждал
+[09:19:47] <KpuCko> абе df ясно, ама df ще ми даде на всеки mount-нат logical volume
+[09:20:28] <KpuCko> Колко е, колко е ползвано и т.н. и т.н. и за всеки по отделно.
+[09:21:01] <KpuCko> Можеби нещо с инодовете трябва да се заиграя на самия хард диск.
+[09:21:07] <yulimoto> KpuCko: lvm има тези инструменти за вюлюм за групата колко е голяма и тн.
+[09:22:09] <KpuCko> Е това е ясно.
+[09:22:23] <KpuCko> Ама тук става въпрос за N наброй volume groups..
+[09:23:02] <yulimoto> аха ами май, че беше със скрипт се правеше не съм сигурен
+[09:23:31] <KpuCko> Ама и това с volume group върши някаква работа
+[09:23:36] <KpuCko> Мерси yulimoto
+[09:25:01] <yulimoto> пак не разбрах точно какво искаш да направиш, но щом си се оправил :)
+[09:27:10] <KpuCko> :-)
+[09:27:43] <KpuCko> Има един скапан туул на Gnome дето си гледаш колко свободно имаш на диска.
+[09:27:50] <KpuCko> Графичен тул.
+[09:28:06] <KpuCko> И там няма никакво значение колко lvm-a, софтуерни райда и прочее имаш.
+[09:28:21] <KpuCko> Просто по някакъв начин се смята заетото пространство.
+[09:28:33] <KpuCko> Търсех нещо подобно без графичен GUI.
+[09:29:24] <KpuCko> Примерно аз съм некфо lame и не разбирам нито от LVM, нито от групи, нито от волюми и само изпълнявам някава команда върху /dev/sda и виждам, че диска ми е 100ГБ и от 100ГБ имам свободни 50.
+[09:29:29] <KpuCko> Супер ;-)
+[09:31:13] <yulimoto> ами lvm нали ти прави примерно в /dev/neshto-si въпросното устройство просто ще го видиш колко е голямо и ще видиш колко място му остава
+[09:31:29] <yulimoto> не ти трябва изобщо да знаеш какво е lvm
+[09:31:36] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[09:32:10] <KpuCko> Даде, същото инфо можеш да си извадиш и с df -h
+[09:32:15] <yulimoto> df -Th и то се вижда
+[09:32:16] <yulimoto> да
+[09:32:33] <KpuCko> Ама трябва да смяташ за всеки волюм отделно и после да смяташ за целия хард.
+[09:32:48] <KpuCko> Макар, че vgdisplay смята вместо теб.
+[09:33:00] <yulimoto> нали се сещаш че волюма е различно от хард
+[09:33:05] <yulimoto> може да 50 харда
+[09:33:07] <KpuCko> Да :-)
+[09:33:38] <KpuCko> А като имаш vgmirror там нещата стават още по умотани.
+[09:33:42] <yulimoto> primerno то има pvolume
+[09:33:55] <yulimoto> pvdisplay това е за физическия волюм мисля
+[09:34:03] <KpuCko> Да/
+[09:34:44] <yulimoto> примерно събереш 20 харда в една група, кое точно искаш да сметнеш
+[09:34:55] <yulimoto> примерно ако събереш 20 харда в една група, кое точно искаш да сметнеш
+[09:35:19] <KpuCko> Ми то там няка кво да смяташ толко.
+[09:35:35] <yulimoto> и от там направиш 2 волюма по 20ТБ
+[09:35:43] <KpuCko> А иначе и лвм може да прави mirror на групата
+[09:35:49] <KpuCko> На различни хардове.
+[09:36:05] <yulimoto> мдааа има такава фукнционалност
+[09:36:17] <KpuCko> Ама мене това нещо не ме накефи как работи :-)
+[09:36:29] <KpuCko> В смисъл нещо с boot-ването имаше драми.
+[09:36:40] <yulimoto> lvm -а ли ?
+[09:36:48] <KpuCko> Мхм.
+[09:37:08] <KpuCko> Спираш единия хард и това почва да пищи, че единия хард ти го няма и няма да ти активира групата.
+[09:37:19] <KpuCko> И ако искаш да ти я активира му дай force
+[09:37:21] <yulimoto> ами там груб-е според мен малко объркан с 2000 версии 1, legacy груб2
+[09:37:56] <KpuCko> И после като закачиш харда (същия хард) не се осъзнава, че всичко е окей и да ти ги пали както преди - автоматично.
+[09:38:14] <yulimoto> а не знам
+[09:38:19] <yulimoto> няма опит много
+[09:38:35] <KpuCko> Щото в AIX единствения начин да си напраиш софтуерен RAID е така.
+[09:38:40] <KpuCko> С LVM.
+[09:39:02] <KpuCko> Правиш mirror на rootvg
+[09:39:42] <yulimoto> ами това някакви ibm unix ли е ?
+[09:39:49] <KpuCko> Мхм.
+[09:40:09] <KpuCko> Само за pSeries обаче.
+[09:40:21] <KpuCko> Не може да инсталираш AIX на x86.
+[09:40:41] <yulimoto> не съм закачал даже
+[09:41:13] <KpuCko> Силни са много IBM в това отношение.
+[09:41:18] <KpuCko> (Не работя в IBM)
+[09:43:06] <KpuCko> Аре отивам да ям баници ;-))
+[09:43:10] <KpuCko> Мерси за хелпа.
+[09:48:42] hackman (~hackman@wolf.yuhu.biz) left irc: Read error: Operation timed out
+[09:56:54] <KpeTeHoug> баси, човек да няма малко работа извън офиса
+[09:57:02] <KpeTeHoug> и веднага изпуска конструктивен разговор
+[09:57:04] <KpeTeHoug> ужасТ
+[09:57:06] <KpeTeHoug> :)
+[09:58:15] informer (~informer@83.228.55.109) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:10:41] dyrgel (~kolio@77-85-12-246.btc-net.bg) left irc: Ping timeout: 264 seconds
+[10:10:56] <yulimoto> KpeTeHoug: какво стана с bin да не е в отпуска ?
+[10:11:39] <KpeTeHoug> немам идея, сега ще видя някой от мойте хора там дали е на работа :)
+[10:11:42] <KpeTeHoug> да разпитам :)
+[10:14:07] <yulimoto> а така
+[10:14:15] <yulimoto> може да е отишъл у Полша
+[10:16:49] <KpeTeHoug> може, да види тъщата
+[10:17:04] <KpeTeHoug> ма мойте източници не отговарят
+[10:17:46] <yulimoto> ее все някога ще отговорят :) все ще се видиш с твоите хора
+[10:19:14] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[10:19:26] <yulimoto> аз нещо обаче съм забравил мрежовите слоеве доста, кои на кои отговаря от OSI , питай ме за презентационен слой ще гледам кат теле
+[10:21:04] <KpeTeHoug> ми
+[10:21:10] <KpeTeHoug> аз едно време ги бях понаучил
+[10:21:13] <KpeTeHoug> ма като ен го ползваш
+[10:21:15] <KpeTeHoug> и се забравя
+[10:21:22] <yulimoto> да и аз така
+[10:21:57] <yulimoto> за това редовно човек трябва да слухти в мрежата поне своята
+[10:22:09] <yulimoto> така дето се вика да не го забравя
+[10:22:15] <KpeTeHoug> хм
+[10:22:28] <KpeTeHoug> отваря ли ти гит хъба с материалите и домашните
+[10:22:31] <KpeTeHoug> ма Мариян ?
+[10:24:50] <yulimoto> то изобщо гит хъба е аут
+[10:24:51] <yulimoto> Looks like something went wrong!
+[10:24:52] <yulimoto> We track these errors automatically, but if the problem persists feel free to contact us. In the meantime, try refreshing.
+[10:25:12] <KpeTeHoug> aaa
+[10:25:17] <KpeTeHoug> Може
+[10:25:38] <KpeTeHoug> щото аз исках да си видя едната тема за домашното точно кви интерфейси трябваше да бриджна
+[10:25:50] <KpeTeHoug> честно, като прочетох малко и като гледах тоя примерния bridge
+[10:25:57] <KpeTeHoug> изглежда ми вече елементарно :)
+[10:26:55] <KpeTeHoug> т.е достатъчно лесно, айде да не се изфърляме
+[10:27:25] <yulimoto> ам аз му имам гита на мариян на компа
+[10:27:30] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[10:28:03] <KpeTeHoug> ем, ако не ти е проблем да ми пуснеш домашните за RHEL цонф файл за бридж
+[10:28:09] <KpeTeHoug> 5-6-7 ли бяха
+[10:28:22] <s0ny123> github пак е паднал...а тъкмо мислех да седна да пиша домашните...
+[10:29:27] <KpeTeHoug> тъкмо това си говорим s0ny123
+[10:29:38] <KpeTeHoug> yulimoto каза че имал мирър при себе си
+[10:29:48] <KpeTeHoug> може да ни качи homeworks някъде
+[10:29:51] <yulimoto> ок
+[10:30:07] <s0ny123> а супер
+[10:30:11] <yulimoto> слагам направо файла с homework-06.txt на гризлито
+[10:30:15] <KpeTeHoug> к
+[10:31:34] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[10:34:52] <KpeTeHoug> ти пък баш в моята папка ли :)
+[10:35:00] <KpeTeHoug> s0ny123 я си виж в хоме дира :)
+[10:35:12] <s0ny123> еее супер :)
+[10:35:57] <KpeTeHoug> yulimoto готян той :) яко търкаля
+[10:35:58] <KpeTeHoug> :)
+[10:36:27] <s0ny123> хаха, добре че поне той се е сетил да ги mirror-не... тоя github много пада напоследък
+[10:36:29] <yulimoto> хаха a vhristev къде отиде иначе ника му е тука или е супер зает или е супер отпуска
+[10:36:47] <KpeTeHoug> супер айляк е някъде
+[10:36:48] <KpeTeHoug> според мен
+[10:36:52] <yulimoto> аха
+[10:37:12] <KpeTeHoug> те иначе го оправиха гитхъба :)
+[10:37:15] <KpeTeHoug> тръгна даже
+[10:37:28] <KpeTeHoug> ма нищо, ако има нещо, ще тормозим пак yulimoto
+[10:37:35] <yulimoto> хаха
+[10:37:42] <yulimoto> елате повече
+[10:37:46] <yulimoto> ;P
+[10:40:26] <KpeTeHoug> сега идва тъп въпрос
+[10:40:46] <KpeTeHoug> правя bridge с IP-то на eth0
+[10:41:03] <KpeTeHoug> posle linkvam eth1 kym bridge interfeisa
+[10:41:22] <KpeTeHoug> това автоматично значи че съм линкнал eth0 i eth1 nali ?
+[10:42:21] <yulimoto> чувствам, че това домашно като цяло ще е мазало :)
+[10:42:41] <yulimoto> KpeTeHoug: не знам никога не съм правил бридж
+[10:42:45] <KpeTeHoug> ofcorPse
+[10:42:48] <KpeTeHoug> :)
+[10:42:55] <KpeTeHoug> The bridge interface configuration file now has the IP address and the physical interface has only a MAC address
+[10:43:10] <KpeTeHoug> мисля това отговори доста ясно на въпроса ми
+[10:43:15] <KpeTeHoug> добре че хората са го написали
+[10:43:33] <yulimoto> :)
+[10:43:53] <KpeTeHoug> ем така е, с напипване в тъмното ще е :)
+[10:43:59] <KpeTeHoug> само да не фанем каквото не трябва :)
+[10:45:10] <yulimoto> ммм филтрирай с ключовите думи в google за да провериш
+[10:48:38] <nlkl> привет : )
+[10:48:45] <KrasiGa> screen програмка ли е или команда?
+[10:48:47] <nlkl> днес ще има ли лекции ? : ))
+[10:48:55] <KrasiGa> аз на моя CentOS го нямам
+[10:49:06] <KrasiGa> явно трябва да си го инсталирам допълнително, нали?
+[10:49:46] <KpeTeHoug> нямаш скрийн ?
+[10:50:06] <KrasiGa> нямама
+[10:50:24] <KrasiGa> screen --help bash: screen: command not found
+[10:51:05] <KpeTeHoug> sudo yum install screen
+[10:51:22] <yulimoto> KrasiGa: ammmm тебе са те филтрирали как ще го сложиш душа
+[10:51:25] <yulimoto> ?
+[10:51:30] <yulimoto> ейй язък
+[10:51:34] <KrasiGa> е няма как
+[10:51:38] <KrasiGa> от вкъщи
+[10:51:41] <KrasiGa> :(
+[10:52:19] <yulimoto> ami KpeTeHoug да ти прати на пощата rpm пакета и ти да си го изтеглиш
+[10:52:27] <yulimoto> от уеб можеш ли да теглиш
+[10:52:42] <KrasiGa> мога ама през домакина комп
+[10:52:46] <KrasiGa> а не виртуалката
+[10:53:01] <KpeTeHoug> аз пак забравих
+[10:53:10] <yulimoto> сложно става
+[10:53:10] <KpeTeHoug> че си резната
+[10:53:12] <KpeTeHoug> баси :)
+[10:53:42] <yulimoto> нищо на гризлито ако можеш се върза или на KpeTeHoug
+[10:57:01] <KrasiGa> зарежете, не е важно
+[10:57:05] <KrasiGa> мога ама през телефона
+[10:57:09] <KrasiGa> от тук не мога
+[10:57:45] <KrasiGa> исках да повторя хакването на десктопа на yulimoto
+[10:57:48] <KpeTeHoug> ще можеш споко :)
+[10:57:49] <KrasiGa> :)
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:01:04] <KrasiGa> i bez da izvikva6 man, ima6 linka na course gore v diasno
+[11:01:09] <yulimoto> къде е шибаната програма на курса ?
+[11:01:41] <yulimoto> все се  лутам в тая навигация имат 50 сайта за едно и също нещо
+[11:01:55] <s0ny123> hm имаше я някъде във форума...
+[11:01:56] <KrasiGa> http://academy.telerik.com/student-courses/software-technologies/linux-system-administration/schedule
+[11:03:54] <KpeTeHoug> KrasiGa я виж сега можеш ли да влезеш на моята машина
+[11:03:56] <yulimoto> едва я намерих във софтуерни технологии
+[11:04:09] <KrasiGa> nali ti dadoh link
+[11:05:45] <KrasiGa> KreTeHoug не става
+[11:07:13] <KpeTeHoug> бата мата
+[11:07:14] <KpeTeHoug> :)
+[11:07:53] <KpeTeHoug> чек да видя малко портове да си погирая :)
+[11:08:04] <KpeTeHoug> макар че то баси ужаст-а
+[11:08:07] <yulimoto> KrasiGa: ти даде ама кой да види
+[11:08:30] <KpeTeHoug> KrasiGa вие 100 % ползвате Outlook  за майли нали ?:)
+[11:09:22] <KpeTeHoug> и ако е така, сега ще видим само кой протокол ползвате и ще ти отворя тея портове :0
+[11:12:56] <yulimoto> KpeTeHoug: анджък .... даже може да си отвориш 443 ако не го ползваш
+[11:14:17] <KrasiGa> не е 100%
+[11:14:30] <KrasiGa> тези дето са на Win 7 са с live mail
+[11:14:37] <KrasiGa> защо?
+[11:15:10] <KrasiGa> аааа за портовете
+[11:15:12] <KrasiGa> разбрах те
+[11:15:19] <KpeTeHoug> yulimoto probwahme 443
+[11:15:23] <yulimoto> защото джанъм KpeTeHoug иска да лъже твоите администратори че си ползваш пощата докато ти си на неговия сървър :)
+[11:15:30] <KpeTeHoug> неще там
+[11:15:34] <KrasiGa> да да
+[11:15:37] <KrasiGa> сетих се
+[11:15:38] <yulimoto> ммм жалко
+[11:15:44] <KpeTeHoug> live mail, na Pop3 ili IMAP протокол
+[11:15:50] <KrasiGa> и двата
+[11:15:51] <KpeTeHoug> и дали са SSL ?:)
+[11:16:13] <KpeTeHoug> дай ще пробваме с 25 тогава
+[11:17:11] <yulimoto> хммм не виждам ако едното не е станало защо другото да става, ама пробвайте. трябва да се разбере как мислят ония администратори и от там е по-лесно
+[11:17:40] <KrasiGa> da probvam li?
+[11:18:06] <KpeTeHoug> сек
+[11:19:39] <yulimoto> някой има ли TCP/IP illustrated 1,2,3
+[11:20:04] <KpeTeHoug> да та таковам :)
+[11:20:12] <KpeTeHoug> вчера не пуснах ли тука линк
+[11:20:13] <KpeTeHoug> yulimoto
+[11:20:42] <KrasiGa> nali dadoha link v4era
+[11:20:50] <KrasiGa> pusna pusna
+[11:21:07] <yulimoto> ejjj значи сттана
+[11:21:09] <yulimoto> браво
+[11:21:14] <KrasiGa> ne be
+[11:21:16] <KpeTeHoug> http://evilzone.org/downloads/TCP-IP%201-3.rar
+[11:21:19] <KrasiGa> za linka govoria
+[11:21:34] <KpeTeHoug> няма да стане, моят гениалиен доставчик реже 25ти :)
+[11:21:53] <KrasiGa> ne se tormozi
+[11:21:54] <yulimoto> това съм го пропуснал с линка
+[11:21:55] <yulimoto> кой ги даде
+[11:22:20] <KrasiGa> KreTenHoug i sega go pusna
+[11:22:23] <KrasiGa> linka
+[11:22:31] <KpeTeHoug> язе кой :)
+[11:23:07] <yulimoto> добре
+[11:23:11] <yulimoto> поздрави
+[11:23:20] <KrasiGa> ama e skanirano
+[11:23:28] <KrasiGa> ne e mnogo dobre napraveno
+[11:24:03] Action: yulimoto slaps KpeTeHoug with 3 volumes of tcp/ip illustrated and all printed rfc's 
+[11:24:14] <KpeTeHoug> KrasiGa я виж на 465 порт
+[11:24:44] <KpeTeHoug> да видим дали са отрявали SSL
+[11:25:59] <KrasiGa> не ми се зарежда http://webssh.uni.me/
+[11:26:06] <KrasiGa> може проблема да е в сайта
+[11:26:09] <KrasiGa> а не в порта
+[11:26:22] <KpeTeHoug> а директно при теб
+[11:26:26] <KpeTeHoug> през пути
+[11:26:54] <KrasiGa> ами ще пробвам ама от там не ставаше въобще
+[11:27:07] <KpeTeHoug> не ставаШе :)
+[11:27:49] <KrasiGa> ами предния път когато пртобвахме
+[11:27:52] <KrasiGa> не помниш ли?
+[11:28:03] <KrasiGa> но през този сайт стана
+[11:28:07] <KrasiGa> ти ми го прати
+[11:28:19] <KpeTeHoug> да, само че не сме пробвали портове които са отворени
+[11:28:22] <KpeTeHoug> или поне трябва да са :)
+[11:28:26] <KrasiGa> през Putty дава Network error
+[11:28:37] <KrasiGa> пробвахме ги
+[11:28:44] <KpeTeHoug> не, 465 не сме :)
+[11:28:49] <KpeTeHoug> други пробеахме
+[11:28:54] <KrasiGa> е така де
+[11:29:12] <yulimoto> KpeTeHoug: ами направо ще се мисли web console
+[11:29:28] <yulimoto> трябва да се намери някоя по-читава
+[11:29:53] <KpeTeHoug> ем
+[11:30:58] <KpeTeHoug> ако и на 465 не става, пробваме 110
+[11:31:08] <KpeTeHoug> тействай само при теб, не през сайта
+[11:31:29] informer (~informer@83.228.55.109) left irc: Quit: Leaving
+[11:32:58] <KpeTeHoug> първо 465 де
+[11:32:59] <KpeTeHoug> :)
+[11:33:03] <KpeTeHoug> после кажи да сменя порта
+[11:33:17] <KrasiGa> 465 нали го пробвах
+[11:33:19] <KrasiGa> не стана
+[11:33:35] <KrasiGa> със 110 същото
+[11:33:55] <KpeTeHoug> сек
+[11:34:49] <KpeTeHoug> последно на 110
+[11:34:50] <KpeTeHoug> :)
+[11:35:04] <KrasiGa> pak da probvam li?
+[11:35:07] <KpeTeHoug> да
+[11:36:05] <KrasiGa> ne
+[11:36:10] <KrasiGa> abe ne se zanimavai
+[11:36:19] <KrasiGa> prez telefona 6te vlqza
+[11:36:22] <KpeTeHoug> странно
+[11:36:32] <KpeTeHoug> а през сайта ан 110 ? :)
+[11:36:47] <KrasiGa> сайта е аут в момента
+[11:37:18] <KpeTeHoug> :)
+[11:37:55] fityla (~AndChat20@84.40.116.146) joined #telerikacademy.
+[11:38:29] <KpeTeHoug> https://www.sshd.org/server/quick-connect.html
+[11:38:32] <KpeTeHoug> я виж това :)
+[11:38:59] <KpeTeHoug> последно, и тряба и да излизам :0
+[11:43:01] <KrasiGa> :) stana
+[11:43:25] <KrasiGa> 6te probvam direktno na grizzly dali 6te stane
+[11:45:34] <KrasiGa> na grizzly ne stana
+[11:49:04] <yulimoto> port-a opravi li 14567
+[11:49:23] <KrasiGa> :) разбира се
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:06:57] Vankata (4d4669bf@gateway/web/freenode/ip.77.70.105.191) joined #telerikacademy.
+[12:17:53] nlkl (~nlkl@nat125.cnsys.bg) left irc: Ping timeout: 245 seconds
+[12:33:27] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[12:37:15] <yulimoto> http://alpha.ludost.net/baginski_-_fallen_art.avi
+[12:43:26] elnahir (c258e457@gateway/web/freenode/ip.194.88.228.87) joined #telerikacademy.
+[12:50:30] fityla_ (54287492@gateway/web/freenode/ip.84.40.116.146) joined #telerikacademy.
+[12:51:31] fityla (~AndChat20@84.40.116.146) left irc: Quit: Bye
+[12:57:27] pgachev (d5e20576@gateway/web/freenode/ip.213.226.5.118) joined #telerikacademy.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:06:55] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 256 seconds
+[13:13:56] dyrgel (~kolio@87-126-23-168.btc-net.bg) joined #telerikacademy.
+[13:16:49] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[13:28:19] <KpeTeHoug> ам хубаво, ама аз моята машина я съборих
+[13:28:22] <KpeTeHoug> че трябва реинстал
+[13:32:59] <fityla_> как е събори
+[13:34:35] <KpeTeHoug> ми
+[13:34:44] <KpeTeHoug> разкачих я, сега ще я разхостя да я одухам малко
+[13:34:45] <KpeTeHoug> :)
+[13:34:51] <KpeTeHoug> физически я ъборих
+[13:38:45] dyrgel (~kolio@87-126-23-168.btc-net.bg) left irc: Ping timeout: 264 seconds
+[13:48:35] KpuCko (~kpucko@213.16.42.98) left irc: Ping timeout: 245 seconds
+[13:48:52] KpuCko (~kpucko@213.16.42.98) joined #telerikacademy.
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:02:21] elnahir (c258e457@gateway/web/freenode/ip.194.88.228.87) left irc: Quit: Page closed
+[14:17:53] nlkl (~nlkl@nat125.cnsys.bg) left irc: Ping timeout: 245 seconds
+[14:20:29] elnahir (c258e457@gateway/web/freenode/ip.194.88.228.87) joined #telerikacademy.
+[14:32:44] test1 (~rebelxt@178.75.235.198) joined #telerikacademy.
+[14:33:25] Nick change: test1 -> test_user
+[14:33:39] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[14:33:41] <KpeTeHoug> как е, върви ли теста :)
+[14:33:53] test_user (~rebelxt@178.75.235.198) left irc: Client Quit
+[14:34:06] sagruob (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[14:35:39] test1 (~rebelxt@178.75.235.198) joined #telerikacademy.
+[14:38:23] <KrasiGa> какъв тест?
+[14:39:00] test1 (~rebelxt@178.75.235.198) left #telerikacademy.
+[14:45:36] sagruob (~sagruob@wolf.yuhu.biz) left irc: Quit: leaving
+[14:46:54] <KpeTeHoug> ми тоя на тест юзъра
+[14:46:59] <KpeTeHoug> ма тий избега
+[14:52:21] sagruob (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[14:52:57] pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) joined #telerikacademy.
+[14:56:10] anton_d (~anton_d@178.75.235.198) joined #telerikacademy.
+[14:58:55] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:03:45] anton_d (~anton_d@178.75.235.198) left #telerikacademy.
+[15:05:00] anton_d (~anton_d@178.75.235.198) joined #telerikacademy.
+[15:07:07] <KrasiGa> тук съм вече
+[15:07:21] <KrasiGa> казвай за теста
+[15:08:46] <KpeTeHoug> аз тука за един дето влизаше с ник тест_юзър
+[15:08:51] <KpeTeHoug> иначе друг тест няма :)
+[15:17:58] _NEKTAR_ (~nektar@176.12.19.179) left irc: Quit: Leaving.
+[15:18:00] _NEKTAR_1 (~nektar@176.12.19.179) joined #telerikacademy.
+[15:22:17] anton_d (~anton_d@178.75.235.198) left irc: Quit: Leaving.
+[15:22:42] _NEKTAR_1 (~nektar@176.12.19.179) left irc: Ping timeout: 276 seconds
+[15:33:31] lyubenblagoev (~lyubenbla@ip-163-36.powernet.bg) joined #telerikacademy.
+[15:33:49] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[15:34:06] <dencho-at-work> h
+[15:34:19] rewind (~yaaic@85.118.193.167) joined #telerikacademy.
+[15:34:48] rewind (~yaaic@85.118.193.167) left irc: Client Quit
+[15:36:09] rewind (~yaaic@85.118.193.167) joined #telerikacademy.
+[15:47:16] <dencho-at-work> ima li ora tuka :D
+[15:47:42] <elnahir> woohoo
+[15:53:08] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[15:53:45] <KrasiGa> тук сме dencho
+[15:53:48] <KrasiGa> теб те няма
+[15:54:52] elnahir_ (c258e457@gateway/web/freenode/ip.194.88.228.87) joined #telerikacademy.
+[15:58:28] elnahir (c258e457@gateway/web/freenode/ip.194.88.228.87) left irc: Ping timeout: 250 seconds
+[15:59:22] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: leaving
+[15:59:35] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:48] Nick change: elnahir_ -> elnahir
+[16:03:59] <dencho-at-work> KrasiGa: tuka sam
+[16:04:09] <dencho-at-work> vas vi nqma
+[16:04:24] <dencho-at-work> neska tva e taa navalica ako ne e taina ?
+[16:04:51] <KrasiGa> чакат лекция сигурно
+[16:05:25] <dencho-at-work> aaa qsno
+[16:05:43] <dencho-at-work> virtualnata lekcia 6te se zapisva li?!
+[16:05:47] Action: dencho-at-work slaps fityla_ 
+[16:05:59] Action: dencho-at-work slaps hackman 
+[16:06:16] Action: dencho-at-work slaps KrasiGa 
+[16:06:20] Action: dencho-at-work slaps KpeTeHoug 
+[16:06:56] <KrasiGa> ами ... даже се съмнявам, че ще има
+[16:07:59] <dencho-at-work> e za6to?
+[16:08:07] <dencho-at-work> az bqh ostanal s vpe4atlenieto 4e 6te ima
+[16:08:31] <dencho-at-work> daje 6te burzam sled rabota da si pravq salatata i da sqdam da gledam
+[16:10:24] <KrasiGa> като гледам във форума никой не е писал
+[16:10:32] <KrasiGa> тук не се коментира
+[16:10:43] <KrasiGa> моите впечетления са по-скоро обратно на твоите
+[16:10:43] <dencho-at-work> e kak we, sno6ti fityla_ kaza
+[16:10:57] <KrasiGa> може може
+[16:10:57] <dencho-at-work> ti 4ete li logovete
+[16:10:58] <dencho-at-work> :d
+[16:11:00] <KrasiGa> не съм
+[16:11:10] <KrasiGa> аз съм онлайн от 8 до 17
+[16:11:14] <KrasiGa> после ме нема
+[16:11:17] <KrasiGa> :)
+[16:11:27] <dencho-at-work> mi 4eti kakvo se e slu4ilo ot 8 do 9
+[16:11:37] <dencho-at-work> i ot 9 do 17 badi online
+[16:11:37] <dencho-at-work> :D
+[16:11:48] <dencho-at-work> nali zatova sa tezi logove
+[16:11:51] Action: dencho-at-work slaps KrasiGa 
+[16:12:09] <KrasiGa> :) намирам си по-интересни четива
+[16:12:19] <dencho-at-work> zatova ne si zapoznata
+[16:12:24] <dencho-at-work> NE SI ZAPOZNATA  :D
+[16:12:48] <KrasiGa> значи утре ще ми разкажете как е минала виртуалната лекция
+[16:13:02] <dencho-at-work> zna4i utre, 6te 4ete6 logove
+[16:13:08] <dencho-at-work> tq 6te e tuk v irc lekciata :D
+[16:13:13] <KrasiGa> да ... и това
+[16:17:41] alabala (~alabala@unaffiliated/alabala) left #telerikacademy.
+[16:17:41] alabala (~alabala@unaffiliated/alabala) joined #telerikacademy.
+[16:19:27] <KrasiGa> !логс
+[16:20:11] <KrasiGa> все още не са достъпни :(
+[16:20:17] <KrasiGa> направете нещо
+[16:22:01] Action: dencho-at-work slaps KpeTeHoug 
+[16:22:29] Action: dencho-at-work slaps KpeTeHoug KpeTeHoug  KpeTeHoug KpeTeHoug  KpeTeHoug  :D :D :D :D
+[16:22:50] <sagruob> hora, q kajete kak da si oprawq kirilicata na putty/irssi, uj wsi4ko na utf-8 pyt mi izlizat 6liokawici....
+[16:23:49] dyrgel (~dyrgel@92.247.8.98) joined #telerikacademy.
+[16:24:16] <alabala> /set term_charset UTF-8
+[16:24:19] <alabala> ? =)
+[16:24:28] <sagruob> yep
+[16:24:46] <sagruob> twa go probwah we4e.. : )
+[16:26:19] <dencho-at-work> vij codirovkata na samoto putty
+[16:26:20] <dencho-at-work> :D
+[16:26:26] <dencho-at-work> ima opcia za nastroika
+[16:27:29] <sagruob> dencho-at-work: i twa sym go probwal
+[16:27:38] <sagruob> t.e. twa be6e pyrwoto koeto razcykah
+[16:27:53] <dencho-at-work> togava uednakvi i dvete nastroiki
+[16:27:54] <dencho-at-work> :)
+[16:28:04] <dencho-at-work> i na putty-to i na /set ...
+[16:28:24] <sagruob> w momenta wsi4ko e na utf-8
+[16:28:31] <sagruob> ne6to se ebawa...
+[16:28:46] <dencho-at-work> uspeh :)
+[16:32:11] <dencho-at-work> za men nqma logika pri vsi4ko 6tom e utf-8 da ne 4ete6 :) tuka sledva vuprosa kakuv encoding 4ete6? :D
+[16:32:17] <dencho-at-work> 6tom ne e utf8 :D
+[16:36:09] <yulimoto> и енкодинга на конзолата си погледнал навярно ?
+[16:36:48] <yulimoto> dencho-at-work: подготви ли си материалите за лекцията
+[16:39:42] <dencho-at-work> yulimoto: podgotvil sam si, 3 domata, 5 qica, 2 filii hlqb, i edna krastavica, 300 grama sirene
+[16:43:18] <yulimoto> dencho-at-work: значи си готов, браво за хляба, значи само вземи малко лучец и отдели от сиренето 100гр за салатата
+[16:43:47] <dencho-at-work> :D
+[16:43:59] <dencho-at-work> noooo nqma da imam vreme.
+[16:44:12] <dencho-at-work> kum 18:45 sam si u nas... dokato se podgotva...
+[16:44:15] <dencho-at-work> vie 6te se zapo4nali
+[16:44:21] <dencho-at-work> btw... 6te se zapisva li lekciata ?
+[16:44:28] <dencho-at-work> za da moga da q gledam pak
+[16:44:42] <dencho-at-work> http://www.kaldata.com/IT-%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8/%D0%90%D0%B3%D0%B5%D0%BD%D1%82-%D0%BD%D0%B0-%D0%A4%D0%91%D0%A0-%D0%BE%D0%B1%D1%8F%D0%B2%D0%B8-%D1%80%D0%B0%D0%B7%D0%B3%D1%80%D0%BE%D0%BC%D0%B0-%D0%BD%D0%B0-Anonymous-81866.html
+[16:44:46] <dencho-at-work> haha
+[16:45:20] sagruob (~sagruob@wolf.yuhu.biz) left irc: Quit: leaving
+[16:45:20] <dencho-at-work> I did it for the lulz
+[16:45:20] <dencho-at-work> :d
+[16:45:27] <elnahir> oh jeez
+[16:45:40] <elnahir> oshte edin geroi..
+[16:46:28] sagruob (~sagruob@wolf.yuhu.biz) joined #telerikacademy.
+[16:47:57] <yulimoto> dencho-at-work: според мен на лекция трябва да има какво да се каже, аз не знам кой какво ще пита и кой ще му отговаря, но щом ще го намислили :) ще гледаме от време на време
+[16:49:13] <dencho-at-work> az 6to razbrah, 4e hackman i fityla_ 6te prikazvat
+[16:50:26] <yulimoto> ам добре :)
+[16:51:22] <yulimoto> dencho-at-work: ' През тази година шестима от тях получиха наказание лишаване от свобода за срок от една до три години.
+[16:51:26] <yulimoto> Вижте повече: http://www.kaldata.com/IT-%D0%9D%D0%BE%D0%B2%D0%B8%D0%BD%D0%B8/%D0%90%D0%B3%D0%B5%D0%BD%D1%82-%D0%BD%D0%B0-%D0%A4%D0%91%D0%A0-%D0%BE%D0%B1%D1%8F%D0%B2%D0%B8-%D1%80%D0%B0%D0%B7%D0%B3%D1%80%D0%BE%D0%BC%D0%B0-%D0%BD%D0%B0-Anonymous-81866.html#ixzz2chp0hCPW
+[16:51:31] <yulimoto> брррррр
+[16:52:10] <dencho-at-work> super qko
+[16:52:13] <yulimoto> баси javascripta аз копирам едно то било друго, баси така може да ми рутнат компютъра
+[16:52:17] <dencho-at-work> da
+[16:52:59] <dencho-at-work> ako bqha slojili da kopoira6 v command line i se be6e izpulnilo sendmail shadow file-a
+[16:53:01] <dencho-at-work> ahahahaha
+[16:53:02] <yulimoto> бааах му .....
+[16:55:00] <yulimoto> ей препотих се
+[16:55:33] <yulimoto> това верно трябва на едно листче тхт и от там
+[16:56:01] <yulimoto> и цялата работа защото на тия им дали от 1 до 3 години затвор
+[16:56:08] <yulimoto> че то нищо не е бе
+[16:56:15] <yulimoto> аз три години ги лежа кат пич
+[16:57:32] <dencho-at-work> kolko mu e da si izto4i6 5 miliona i da si gi izleji6 za 3 godini
+[16:57:32] <dencho-at-work> :D
+[16:59:56] <dencho-at-work> a be
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:16] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:00:22] <yulimoto> ааа
+[17:00:30] <yulimoto> 16:59:59
+[17:00:31] <dencho-at-work> javascript moje li da pravi dynamic language change ( primer 2 kop4eta s US i BG flag) i ezika da se change-va s javascript ?!
+[17:00:50] <yulimoto> може може
+[17:00:54] <dencho-at-work> [17:00] == KrasiGa [c119a208@gateway/web/freenode/ip.193.25.162.8] has quit [Quit: Page closed]
+[17:01:07] <yulimoto> желязна
+[17:01:13] <dencho-at-work> yulimoto: no tova 6te tormozi li browsera ?
+[17:01:48] <yulimoto> javascripta не ти е проблем
+[17:02:21] <yulimoto> последните години стана толкова бърз, че лети към скоростта на Ц (е чак толкова не ама е много бърз)
+[17:02:33] <yulimoto> гугъл имат интерес от тая работа
+[17:03:57] <yulimoto> ако ти е само интерфейс javascripta и имаш някакъв сървис php примерно, ти може само да пренасочиш към bg или en
+[17:04:24] <yulimoto> варианти много
+[17:04:32] <dencho-at-work> s php znam kak se slu4vat ne6tata
+[17:04:39] <dencho-at-work> no mi be6e interesno s javascript
+[17:04:58] <yulimoto> добре има 2 неща
+[17:05:03] <yulimoto> кое ще превеждаш
+[17:05:16] <yulimoto> съдържанието или клиента, т.е. софтуера
+[17:05:38] <dencho-at-work> soft-a
+[17:05:45] <yulimoto> примерно съдъжанието е статията, а интерфейса са бутоните и т.н.
+[17:05:55] <dencho-at-work> butonete :D
+[17:06:47] <yulimoto> ами чакай тогаз аз съм си правил експерименти с изцяло написани на javascript sait
+[17:07:51] <dencho-at-work> are weekend-a 6te me svetne6
+[17:07:52] <dencho-at-work> :D
+[17:09:50] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 245 seconds
+[17:10:12] <yulimoto> ам виж това като упражнение има MVC и дата и localisation  https://github.com/yulimoto/manitza
+[17:10:27] <yulimoto> това което на теб ти трябва е localisation да знаеш как се прави
+[17:11:26] <yulimoto> подобието на GUI-е не е мое
+[17:11:36] Brahman (~gosho@109.121.248.105) joined #telerikacademy.
+[17:16:43] <dencho-at-work> go6oo
+[17:16:50] Action: dencho-at-work slaps Brahman 
+[17:16:54] <dencho-at-work> yulimoto: 10x
+[17:17:05] rewind (~yaaic@85.118.193.167) left irc: Ping timeout: 246 seconds
+[17:17:07] <dencho-at-work> Brahman: 6te gleda6 li lekciata doe4era we
+[17:23:42] <dencho-at-work> are mina se i dneska
+[17:24:43] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
+[17:35:28] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[17:37:11] lyubenblagoev (~lyubenbla@ip-163-36.powernet.bg) left irc: Quit: Leaving
+[17:37:39] <dencho-at-work> http://youtu.be/dIq0qmqj8pU
+[17:37:40] <dencho-at-work> ghaha
+[17:39:13] <dencho-at-work> http://it.dir.bg/news.php?id=14792785
+[17:39:25] <yulimoto> и още веднъж за днес https://www.youtube.com/watch?v=4_7ojVm806c
+[17:45:57] <dencho-at-work> haha
+[17:46:01] <dencho-at-work> kva e taq oligofreniq we
+[17:46:01] <dencho-at-work> :d
+[17:46:28] <elnahir> Багински е класика!
+[17:47:02] <elnahir> http://www.youtube.com/watch?v=lrCN2dLFf5Y
+[17:47:52] <yulimoto> да аз катедралата съм я гледал много отдавна беше обаче
+[17:48:55] <elnahir> Аз я гледах заедно с Кивито ( http://www.youtube.com/watch?v=sdUUx5FdySs ) и първоначално мислех, че са от един режисьор (не знам що си го мислех), ама нейсе
+[17:49:04] <elnahir> *sigh*
+[17:54:36] <dencho-at-work> are hora...
+[17:54:38] <dencho-at-work> 4al
+[17:54:39] <dencho-at-work> :D
+[17:54:56] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:57:04] rewind (~yaaic@85.118.193.172) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:05:06] <yulimoto> оф трябва да ходя да бягам
+[18:05:11] <yulimoto> аре
+[18:09:38] nlkl (~nlkl@nat125.cnsys.bg) left irc: Remote host closed the connection
+[18:29:00] deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[18:29:59] <deyan> Какво ще правим ще се виждаме ли някъде на по бира?
+[18:30:48] <deyan> http://i.imgur.com/YFuhZme.png
+[18:37:15] dyrgel (~dyrgel@92.247.8.98) left irc: Read error: Connection reset by peer
+[18:50:41] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) joined #telerikacademy.
+[18:51:16] <anton_sh> Здравейте, последно днес ще има ли лекция?
+[18:51:49] <deyan> Лекция няма да има, а и никой  не иска да се съберем в някоя кръчма да изпием по бира
+[18:52:49] <anton_sh> хаха, малко далеч ми идва София иначе съм навит
+[18:54:20] <deyan> dencho, айде бее
+[18:54:39] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) joined #telerikacademy.
+[18:55:52] istefanov (541602ea@gateway/web/freenode/ip.84.22.2.234) joined #telerikacademy.
+[18:56:13] <t_nenkov> дhi guys, днес ще има ли курс?
+[18:56:38] <deyan> t_nenkov,  ще има само че ще е без с-то
+[18:57:16] <anton_sh> Е нали във форума се споменаваше нещо за виртуална лекция
+[18:58:11] <t_nenkov> май няма да има и такава
+[18:59:11] <istefanov> mislq, che veche sme v 2 sed. pochivka?
+[18:59:54] <t_nenkov> хайде лека и доходна от мен
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:00:36] t_nenkov (59becf0d@gateway/web/cgi-irc/kiwiirc.com/ip.89.190.207.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[19:10:41] krasin (~krasin@46.10.51.78) joined #telerikacademy.
+[19:11:46] lupo (542bbce7@gateway/web/freenode/ip.84.43.188.231) joined #telerikacademy.
+[19:13:27] <fityla_> ех ..
+[19:13:29] <fityla_> тук съм
+[19:13:31] <fityla_> някой жив..
+[19:13:33] <fityla_> има ли ..
+[19:13:36] <Brahman> az
+[19:13:38] <rewind> да
+[19:13:44] <fityla_> други
+[19:13:49] <fityla_> 2-3ма...
+[19:13:51] <Brahman> nie qvno ne vurshim rabota :D
+[19:13:52] <Brahman> :P
+[19:14:05] <krasin> има
+[19:14:11] <fityla_> аз забравих
+[19:14:16] bldrchd (4d460a38@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.10.56) joined #telerikacademy.
+[19:14:23] <fityla_> така
+[19:14:24] <fityla_> добре..
+[19:14:32] <fityla_> нещо интересно..
+[19:14:48] <fityla_> всички ползваме телефони
+[19:14:50] <lupo> koj e linka na lekciata ?
+[19:14:55] <fityla_> някакви интересни  толове..
+[19:15:08] <fityla_> дайте да разгледаме
+[19:15:27] <fityla_> и после да се прехврляме на мрежи
+[19:15:30] <fityla_> към Linux-a
+[19:15:34] <fityla_> ако искате
+[19:15:47] lari_ (5f2a1e9c@gateway/web/freenode/ip.95.42.30.156) joined #telerikacademy.
+[19:16:05] <fityla_>  Айде като най срамежлив ще се престраша първи...
+[19:16:10] <fityla_> който ползва андройд...
+[19:16:16] <fityla_> хубава програмка за мрежи ..
+[19:16:24] solarwind (82ccd80d@gateway/web/cgi-irc/kiwiirc.com/ip.130.204.216.13) joined #telerikacademy.
+[19:16:37] <fityla_> Fing
+[19:16:43] Brahman (~gosho@109.121.248.105) left irc: 
+[19:16:46] <krasin> Какво правим сега?
+[19:17:08] <fityla_> Fing - не му трябва Root може да се качи на всеки един телефон
+[19:17:10] <lupo> ne e iasno
+[19:17:17] <fityla_> ще говорим общи неща
+[19:17:21] <lupo> ще има ли вирт лекция ?
+[19:17:21] <fityla_> който какво го интересува
+[19:17:26] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[19:17:31] <fityla_> малко сме ...
+[19:17:39] <fityla_> hackmann...
+[19:17:44] <fityla_> го няма все още
+[19:17:46] <fityla_> ама може да се появи
+[19:18:07] <fityla_> каза че ще е тук ако не съм го изпусли
+[19:18:12] <bldrchd> амм извинявам се за въпроса, но какво е положението днес с лекцията?
+[19:18:41] <krasin> няма лекция, така е по програма
+[19:18:59] <fityla_> Добре и аз ще кажа...
+[19:19:10] <fityla_> Лекция по програма няма,
+[19:19:20] <fityla_> идеята беше да направим виртуална лекция ...
+[19:19:33] <fityla_> който каквото го интересува да пита
+[19:19:51] <fityla_> hackman каза че и той ще се включи по някое време
+[19:20:11] <fityla_> като гледам и няма и интерес
+[19:20:25] rewind_ (2eee1d8e@gateway/web/freenode/ip.46.238.29.142) joined #telerikacademy.
+[19:20:40] rewind (~yaaic@85.118.193.172) left #telerikacademy.
+[19:20:56] <bldrchd> т.е. може да си зададем въпросите към всички тук , без hackman да е тук
+[19:21:07] <fityla_> и той ще се появи
+[19:21:19] <fityla_> ако има ..
+[19:21:23] pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) left irc: 
+[19:21:25] <fityla_> кой да ти отговори
+[19:21:25] iren_y (c2f66e02@gateway/web/freenode/ip.194.246.110.2) joined #telerikacademy.
+[19:21:33] <solarwind> Интерес има, но не е ясно какво всъщност се предлага
+[19:21:36] <rewind_> аз щях да питам...
+[19:21:51] <solarwind> Лекция? - кой ще я изнася... и как се изнася лекция в чат...
+[19:21:52] <rewind_> не е ли удачно някой да направи тема с домашните по bash
+[19:22:14] <solarwind> Да, това с темата би било по-полезно.
+[19:22:21] <fityla_> Тогава дискусия
+[19:22:22] <fityla_> го наричи
+[19:22:29] <fityla_> иначе идеята
+[19:22:30] <fityla_> беше ..
+[19:22:32] <rewind_> аз мисля да си плясна моето домашно, тъй като ми е доста интересно кой какво решение има
+[19:22:33] <fityla_> за лекция
+[19:22:55] <fityla_> но поради големият интерес във форума
+[19:22:56] <solarwind> Който се бори за точки във форума, да отвори темата...
+[19:22:56] <fityla_> :D
+[19:23:03] <bldrchd> ок в такъв случай :D .. Има ли някой, който да знае как може да се напише скриптче за тестване на машина. Идеята е да се пратят мн заявки на куп и да може машината да отговори на тях. Някой идея?
+[19:23:06] <fityla_> Просто нямаше голям смисъл .. от цялата работа
+[19:23:11] <rewind_> чак пък да се бори за точки :)
+[19:23:56] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 256 seconds
+[19:23:59] pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) joined #telerikacademy.
+[19:24:21] <fityla_> Имаше колега беше отворил виртуална стая в убунтото
+[19:24:27] <fityla_> никой не писа темата
+[19:24:32] <fityla_> и какъв беше смисъл ..
+[19:24:36] <fityla_> нямаше ..
+[19:24:39] <fityla_> за 5 човека..
+[19:24:43] <fityla_> по добре да си пишем тук
+[19:24:52] <fityla_> иначе аз отворих темата и не се боря за точки....
+[19:24:57] <fityla_> не че няма да дойдат добре...
+[19:25:17] <krasin> Какво е виртуална стая?
+[19:25:36] anton_sh (542b9349@gateway/web/freenode/ip.84.43.147.73) left irc: Ping timeout: 250 seconds
+[19:26:49] <fityla_> ;)
+[19:27:00] <fityla_> добре..
+[19:27:07] <lupo> какви заявки ? към портове или ?
+[19:27:12] <fityla_> искате ли да си говорим за мрежи ..
+[19:27:20] istefanov (541602ea@gateway/web/freenode/ip.84.22.2.234) left irc: Ping timeout: 250 seconds
+[19:27:49] <bldrchd> да към портове
+[19:28:06] <solarwind> Предлагам една интересна теме за мрежи - netcat
+[19:28:29] <fityla_> и не само ..
+[19:28:33] <bldrchd> използва tcp и iso8583
+[19:29:03] <fityla_> wireshark
+[19:29:05] <fityla_> ползвате ли
+[19:29:09] <bldrchd> ne
+[19:29:14] <rewind_> http://goo.gl/z2fW0M
+[19:29:26] <rewind_> темата за shell scripting домашните
+[19:29:41] <bldrchd> тук стана много объркано
+[19:30:05] <fityla_> ебаси...
+[19:30:07] <fityla_> скрипта. .
+[19:30:09] <fityla_> ти си робот
+[19:30:13] <rewind_> ?!
+[19:30:15] <rewind_> why ?
+[19:30:52] <rewind_> до bldrchd - извинявам се, просто по-нагоре стана дума и директно пейстнах линка
+[19:31:03] <fityla_> добър..
+[19:31:04] <rewind_> малко в нищото, но... както казах извинявам се :)
+[19:31:05] <solarwind> Ехоооо.... никой не каза за  netcat-a; nc
+[19:31:40] <fityla_> yulimoto
+[19:31:41] <fityla_> Къде си
+[19:31:51] iren_y_ (~chatzilla@smtpout.ccbank.bg) joined #telerikacademy.
+[19:32:03] iren_y (c2f66e02@gateway/web/freenode/ip.194.246.110.2) left irc: Quit: Page closed
+[19:32:11] Nick change: iren_y_ -> iren_y
+[19:33:01] <fityla_> netcat-a
+[19:33:05] <bldrchd> до rewind_ - нп :) защо всеки като пише за нещо не слага в [ ] топика за който говори примерно [script] [network] и тн :)
+[19:33:06] <fityla_> не съм го ползвал аз лично
+[19:33:35] <fityla_> дайте
+[19:33:40] <fityla_> първо за скрипт да говорим
+[19:33:46] <fityla_> едно по едно да ги чистим нещата
+[19:34:24] <fityla_> @rewind
+[19:34:33] <fityla_> ти от къде ползва..
+[19:34:37] <rewind_> ок, [script] аз така и не разбрах, защо за толкова време не се появи тема относно bash scripting домашните, но така и не намерих време да седна и да се опитам да намеря сам решения и за останалите домашни.
+[19:34:40] <fityla_> напъствия за този скрипт..
+[19:34:59] samy (54eeb862@gateway/web/freenode/ip.84.238.184.98) joined #telerikacademy.
+[19:35:00] <rewind_> [script] всички източници са описани в края на домашното
+[19:35:59] <fityla_> не си ползвал
+[19:36:01] <fityla_> готов скрипт
+[19:36:05] <fityla_> а си ги преработвал
+[19:36:47] <fityla_> ако не разбираш от програмиране и си начинаещ е кофти да пишеш скриптове
+[19:37:05] <rewind_> [script] ползвах главно примери от двете упътвания, както и няколко идеи от скриптове, отново посочени в единия от линковете
+[19:37:55] <rewind_> [script] всъщност не е точно така, понякога малко усет и желание са достатъчни за да се справиш със сравнително по-лесен проблем, като тези в домашното за скриптинг
+[19:39:01] <fityla_> ти би ли си писал собсвени скриптове..
+[19:39:04] <fityla_>  и други неща
+[19:39:22] <fityla_> и имаш ли такива нужди
+[19:39:23] <solarwind> имаме ли забрана да инсталираме "сериозни" туулсове на Гризлито?
+[19:39:53] <rewind_> не би трябвало, нали имаме sudo
+[19:39:54] <iren_y> да междудругото какво може да се инсталира на Гризлито
+[19:39:55] <fityla_> имаме забрана да не го чупим ..
+[19:40:06] <rewind_> това е пожелателно :)
+[19:40:21] <fityla_> мариян няма да го има 2 седмици
+[19:40:24] <rewind_> уви както видяхме по време на последната лекция, случва се :)
+[19:40:27] <fityla_> няма да го има .. и гризлито
+[19:40:30] <solarwind> нямам намерение за "чупене"... исках да инсталирам nmap
+[19:40:43] <fityla_> аз ползвам
+[19:40:46] <fityla_> zen map
+[19:40:48] <fityla_> за windows
+[19:40:53] <fityla_> много добър инстурмент
+[19:40:59] <rewind_> мисля, че проста инсталация на пакет, който не чупи някакви зависимости не би довело до счупване на гризли
+[19:41:12] <fityla_> не няма шанс..
+[19:41:23] <rewind_> това имах предвид
+[19:41:28] <fityla_> може и да го има
+[19:41:40] <fityla_> работил ли си с Nmap
+[19:42:08] <fityla_> Има ли някой който да знае за какво служи
+[19:42:32] <solarwind> като повечето команди/туулсове в линукс, и този има огромен брой опции -
+[19:42:46] <solarwind> говоря на nmap - да, използвал съм го
+[19:43:08] <solarwind> най-простото му приложение - показва отворените портове
+[19:43:15] <solarwind> на чужда или на своята машина...
+[19:43:33] <fityla_> пробвай да видиш
+[19:43:39] <fityla_> на гризлито какво покаже
+[19:43:46] <fityla_> 3 часа скриптове
+[19:43:56] <fityla_> му бях пуснал преди 1 седмица
+[19:43:57] <fityla_> :D
+[19:44:13] <lari_> nmap е мрежови скенер за указан хост. Счита се за хакерски инструмент, но е полезен за отдалечено проследяване на работоспособност на машини с които работиш
+[19:44:20] <solarwind> ето последната грешка - sqlite3.OperationalError: unable to open database file
+[19:45:07] <solarwind> нали сме тук да се учим... аз не обичам RadHat like системите и дори не знам как да ъпдейтна пакетите на YUM
+[19:45:28] <rewind_> yum install -y nmap
+[19:45:35] <rewind_> със sudo, само че
+[19:45:44] <rewind_> на кой порт беше гризли?
+[19:45:47] <rewind_> ssh
+[19:46:47] <solarwind> след като завама въпрос, означава, че има нещо "необичайно"
+[19:47:59] <fityla_> други тоолове
+[19:48:01] <fityla_> ще инсталираш ли
+[19:48:17] <iren_y> Някой може ли д акаже защо lspci  не може да се изпълни на гризлито
+[19:48:48] <fityla_> дава ли ги грешка
+[19:48:49] <fityla_> ?
+[19:48:50] <fityla_> някаква
+[19:49:01] <rewind_> според това, което виждам nmap е качен на гризли
+[19:49:03] <rewind_> yum list | grep nmap nmap.i686                                  2:5.51-2.el6                base      nmap-frontend.noarch                       2:5.51-2.el6                base
+[19:50:14] <fityla_> знаете ли как можете
+[19:50:16] <fityla_> да проследите
+[19:50:20] <fityla_>  някой в Skype?
+[19:50:30] <pinkiePie> т.е. IP?
+[19:50:35] <fityla_> da
+[19:50:46] <fityla_> без да го имате в контактите
+[19:50:47] <pinkiePie> линукс или win?
+[19:51:05] <lari_> rpm -qa | grep nmap
+[19:51:11] <fityla_> ти си изжери
+[19:51:26] <lari_> nmap нее на Мечо
+[19:51:26] <fityla_> избери*
+[19:52:07] <rewind_> @lari - да, извинявам се, моя грешка
+[19:53:08] <solarwind> nmap-a не се харесва със sqlite - това е на пръв поглед
+[19:53:35] <fityla_> някаква грешка вади ли
+[19:53:37] user99 (~McNamee@213.226.63.148) joined #telerikacademy.
+[19:53:45] <rewind_> да - sqlite3.OperationalError: unable to open database file
+[19:54:52] <solarwind> Няма да се занимавам с порт-скенера  - беше за демо цели... Но с проследяването в СКайпе ме заинтригувахте...
+[19:55:03] <pinkiePie> ем в wina беше дървшако ама пишеш netstat -n преди да пишеш с някой, след това му пишеш на човека по скайп, пак пишеш netstat -n и различното ip е неговото(не помня дали той трябваше да ти отг)
+[19:55:38] <fityla_> за Netstat-a
+[19:55:41] <fityla_> ще ти излезнат
+[19:55:50] <fityla_> 100 връзки .. иди го хвани
+[19:55:53] <fityla_> кой е твоят човек
+[19:56:00] <rewind_> с diff ще е лесно
+[19:56:04] <pinkiePie> -n не -a
+[19:56:09] <solarwind> е, да... аз си помислих някакви тайни записи в уина, дори човека да не е онлайн
+[19:56:24] <fityla_> не е това..
+[19:56:32] <fityla_> явно не ви е ..
+[19:56:45] <fityla_> било интересно в тази област.. най чиста работата
+[19:56:52] <fityla_> е с resolver skype
+[19:57:05] <fityla_> дори и да го нямате човека..
+[19:57:12] <fityla_> във вашият списък ..
+[19:57:23] <fityla_> можете да стигнете до него ако му е включен skype
+[19:57:29] <pinkiePie> ем то Ip-то освен ако няма да го DDos-ваш човека :D
+[19:57:47] <pinkiePie> нз мн др работа да ти свърши
+[19:58:21] <fityla_> може да ти донесе
+[19:58:26] <fityla_> и допълнителна информаця
+[19:58:27] <fityla_> skype2ip.org
+[19:58:38] <fityla_> този е много добър... амам много
+[19:58:40] <fityla_> в момента не работи
+[19:58:47] <fityla_> влиза до локалното Ip
+[19:58:58] <fityla_> това е добър скрипт..
+[19:59:03] krasin (~krasin@46.10.51.78) left irc: Ping timeout: 260 seconds
+[19:59:05] <fityla_> циганчето вижда...
+[19:59:08] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[19:59:16] <hackman> ups
+[19:59:18] <hackman> успах се :)
+[19:59:25] <fityla_> :D
+[19:59:30] <fityla_> ето го човека
+[19:59:32] <fityla_> hackman ..
+[19:59:43] <fityla_> подхванахме една тема...
+[19:59:49] <fityla_> resolve на skype
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:00:01] <fityla_> интереси имаш там
+[20:00:01] <pinkiePie> и смисъла му като цяло :D
+[20:00:24] <fityla_> не ти ли се е налагало да видиш Ip адрес на човек
+[20:00:30] <fityla_> по една или друга причина?
+[20:00:41] krasin (~krasin@46.10.51.78) joined #telerikacademy.
+[20:00:43] <fityla_> стигаш до доставчик ..
+[20:00:54] <fityla_> в повечето случай и до градове..
+[20:00:58] <hackman> fityla_, skype съм го reverse-вал... за съжаление не мога да обсъждам намереното с вас
+[20:01:26] <fityla_> :D
+[20:01:30] <hackman> единственото което мога да ви кажа е, че докато сте online, skype route-ва трафик през вашето PC
+[20:01:38] <pinkiePie> вече не
+[20:01:41] <hackman> базирано на едни latency checks
+[20:01:49] <fityla_> skype2ip.org
+[20:01:57] <fityla_> това работи добре...
+[20:02:02] <fityla_> в момента не точно
+[20:02:03] <fityla_> :D
+[20:02:03] <pinkiePie> до колкото знам оркакто го взеха MS вече не минава трафика през нас
+[20:02:19] <fityla_> кажи си скайпа
+[20:02:21] <hackman> pinkiePie, ако искаш ми вярвай :)
+[20:02:24] <fityla_> и дали ти е включен
+[20:02:40] <fityla_> там P2P
+[20:02:41] <pinkiePie> аз ти вярвам, просто наскоро четох друго :D
+[20:02:45] <fityla_> няма как да не става
+[20:03:10] <rewind_> като стана дума за ревърсване се сетих за този проект, зачудих се какво се случи с него - http://skype-open-source.blogspot.com/ има някакъв ъпдейт от скоро
+[20:03:14] <fityla_> да вече има отметка за .. да те виждат само хората от твоят списък..
+[20:03:22] <fityla_> 99%
+[20:03:29] <fityla_> от хората не го знаят...
+[20:03:34] <fityla_> и по дефолт е без него
+[20:04:13] <fityla_> hackman един колега се пробва да качи Nmap на мечката
+[20:04:19] <fityla_> ама нещо дава грешки
+[20:04:40] <fityla_>  sqlite3.OperationalError: unable to open database file
+[20:04:59] <solarwind> Имало... "отметка" - юзерски радости...
+[20:07:01] <pinkiePie> и аз имам едно въпросче, как мога да видя в линукс коя routing table съм избрал в момента
+[20:07:52] <hackman> fityla_, nmap се качва с една команда
+[20:07:58] <hackman> кой знае какво е направил колегата :)
+[20:08:03] <hackman> да го сложа ли аз ?
+[20:08:13] <solarwind> да
+[20:09:14] <fityla_> благодаря..
+[20:09:15] <fityla_> ;)
+[20:09:16] <fityla_> http://mostwantedhf.info/
+[20:09:32] <hackman> solarwind, done :)
+[20:09:37] <fityla_> това също става за resolve-ne на скайпа
+[20:09:54] <fityla_> hackman има ли други такива интересни инструменти
+[20:10:08] <fityla_> като .. nmap, wireshark, ethercap
+[20:10:30] <solarwind> Благодаря, но нали целта ни е да се учим... малко наготово :) -
+[20:10:39] <hackman> fityla_, http://sniffit.sourceforge.net/
+[20:10:51] <solarwind> имаше грешка - sqlite3.OperationalError: unable to open database file
+[20:10:52] <hackman> hping2
+[20:11:24] <hackman> solarwind, е аз направих само: yum install nmap
+[20:11:29] <hackman> и натиснах Y :)
+[20:11:35] <hackman> не съм свършил кой знае колко :)
+[20:11:36] <solarwind> и аз така
+[20:11:47] <rewind_> станно, аз също :)
+[20:11:50] <solarwind> два пъти  :)
+[20:12:00] <solarwind> но не ме хареса
+[20:12:09] <rewind_> аз само веднъж, но и мен не хареса
+[20:12:43] <hackman> а кой от вас го направи под root ? :)
+[20:13:02] <fityla_> hackman
+[20:13:02] <solarwind> без sudo накъде?
+[20:13:03] <fityla_> :Д
+[20:13:05] <rewind_> признавам си - пробвах със sudo
+[20:13:42] <fityla_> декриптирането на парола на windows
+[20:13:56] <solarwind> чак ми стана любопитно... ще се поровя из логовете и пак ще ви досаждам..
+[20:14:01] <fityla_> има ли такъв тоол за linux
+[20:14:05] lupo (542bbce7@gateway/web/freenode/ip.84.43.188.231) left #telerikacademy.
+[20:15:30] <fityla_> интересни приложения за android...
+[20:15:45] <fityla_> Който спомат работата на линукс човек..
+[20:16:58] <hackman> fityla_, pass crack или pass change ?
+[20:17:00] <rewind_> има един много готин маркет само за опън сорс неща
+[20:17:28] <rewind_> постнах линк в темата за виртуалната лекция тази вечер
+[20:18:01] net: connect! sock 3
+[20:18:01] net: eof!(read) socket 6
+[20:18:01] Lost connection while resolving hostname [127.0.0.1/40879]
+[20:18:01] DNS resolved 127.0.0.1 to localhost
+[20:18:24] net: connect! sock 3
+[20:18:24] DNS resolved 127.0.0.1 to localhost
+[20:18:24] Telnet connection: localhost/50694
+[20:18:24] net: connect! sock 9
+[20:18:24] net: eof!(read) socket 9
+[20:18:24] Timeout/EOF ident connection
+[20:18:24] net: eof!(read) socket 6
+[20:18:24] Lost telnet connection to telnet@localhost/50694
+[20:18:47] net: connect! sock 3
+[20:18:47] DNS resolved 127.0.0.1 to localhost
+[20:18:47] Telnet connection: localhost/51959
+[20:18:47] net: connect! sock 9
+[20:18:47] net: eof!(read) socket 9
+[20:18:47] Timeout/EOF ident connection
+[20:18:47] net: eof!(read) socket 6
+[20:18:47] Lost telnet connection to telnet@localhost/51959
+[20:19:06] <rewind_> аз лично ползвам connectbot, доста ми помага
+[20:19:17] <bldrchd> такам, дали ще мога да си задам пак въпросчето :) трябябва ми някакво скриптче, което да праща много заявки на куп (като пинг, но с други пакети).  целта е да се направи стрес тест на машина. имаме 2 хоста които си говорят, от единия се и�
+[20:19:17] <bldrchd> елта е като се прати request от единия, втория да чекне база данни и да отговори, но чекването го пропускаме за сега. идеята е просто да могат да се пратят над 10к съобщения, колкото се може по-едновременно и да има някакъв response от другат�
+[20:19:27] <fityla_> pass crack
+[20:19:40] <hackman> utf8 или cp1251 ще пишем :) клиента ми разбира само едното :)
+[20:19:45] <hackman> fityla_, http://ophcrack.sourceforge.net/
+[20:20:04] <hackman> за другото chntpw
+[20:20:09] <fityla_> благодаря..
+[20:20:22] <fityla_> за другото с 5 команди
+[20:20:25] <fityla_> на линукса ставаше
+[20:20:33] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[20:20:52] <fityla_> Fing
+[20:20:58] <fityla_> е много добро за андроида..
+[20:21:08] <fityla_> за всеки .. мрежов..
+[20:21:11] <fityla_> тип ..
+[20:21:37] <fityla_> dSploit
+[20:22:03] <fityla_> изисква роот....
+[20:22:10] <fityla_> ама предполагам че всички имате
+[20:23:39] <fityla_> Ще опитам да съборя една парола после..
+[20:23:57] <fityla_> да го видим как се справя със 7цата
+[20:24:49] <fityla_> за WPA2 "тестване"
+[20:24:51] <fityla_> reaver
+[20:26:36] <fityla_> имам и друг въпрос как стой въпроса с вирусите при линукс...
+[20:26:57] <solarwind> извода - като си root, трябва да си в пълния си блясък, никакви sudo-ta
+[20:30:44] lari_ (5f2a1e9c@gateway/web/freenode/ip.95.42.30.156) left irc: Quit: Page closed
+[20:32:39] <hackman> някой нещо от мен ?:)
+[20:34:46] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[20:35:27] <fityla_> ще имаме ли лекция
+[20:35:37] <fityla_> за мрежови инструменти
+[20:37:28] <hackman> ще има лекция за това как да използваме tcpdump и разликата му с tshark
+[20:37:45] <fityla_> добре...
+[20:37:45] <hackman> но не съм сигурен дали да правя допълнителна лекция за друг тип инструменти
+[20:37:57] <fityla_> дано ...
+[20:38:04] <fityla_> има ..
+[20:38:04] <fityla_> .
+[20:38:06] <fityla_> :)
+[20:38:40] <hackman> ок guys
+[20:38:45] <hackman> аз мисля да се прибирам...
+[20:38:51] <hackman> оправих си replication-а :)
+[20:39:12] <hackman> ще се видим след 10-15мин :)
+[20:39:19] <fityla_> ;)
+[20:39:22] <Brahman> ;) do posle
+[20:40:21] hackman (~hackman@management.1h.com) left irc: Quit: Leaving
+[20:41:50] <solarwind> Help - не разбрах КОГА ще има лекция за tcpdump
+[20:42:11] <solarwind> другия път в академията или?
+[20:43:02] <fityla_> следващият
+[20:43:03] <fityla_> път
+[20:43:06] <fityla_> в академията
+[20:43:07] <fityla_> точно така
+[20:43:25] <fityla_> и аз минавам на телефона
+[20:43:57] <solarwind> :)
+[20:44:28] fityla_ (54287492@gateway/web/freenode/ip.84.40.116.146) left irc: Quit: Page closed
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:03:09] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[21:07:16] <deyan> Ха въпреки скептичното ми мнение отностно дискусията, за сега изглежда обещаващо, отивам да си взема нещо за ядене, и съм на линия.
+[21:09:46] <yulimoto> как е пичове гледам с гризлито не сте излязли на глава
+[21:10:15] <yulimoto> мда този проблем с инсталирането го имаше и във форума, но е решен до някъде
+[21:11:55] <yulimoto> някакъв интересен софт, който сте коментирали ?
+[21:12:33] <yulimoto> аз пих бира и ядох цаца, чудя се дали пак да не изляза, ама ако ще бъбрите може и монитора да гледам ;P
+[21:12:33] <hackman> sudo su -
+[21:12:38] <hackman> yum install whatever :)
+[21:12:42] <yulimoto> mmmmm
+[21:12:44] solarwind (82ccd80d@gateway/web/cgi-irc/kiwiirc.com/ip.130.204.216.13) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[21:12:47] <yulimoto> не съвсем
+[21:13:24] <yulimoto> имаше проблем аз така искам sudo su ; yum install whatever обаче греда
+[21:13:31] <yulimoto> после отидох в
+[21:13:38] <yulimoto> limits.conf
+[21:13:45] <yulimoto> махнах лимитите
+[21:13:48] <yulimoto> и тогава стана
+[21:13:52] <yulimoto> после си върнах лимитите
+[21:14:26] <yulimoto> phalaaxx после намери някакви причини , но той може да ги обясни най-добре
+[21:14:59] <yulimoto> общо взето ако се сложи софт лимит , там сме сложили коментиран софт лимит и става
+[21:15:01] fityla (~AndChat20@85.118.193.175) joined #telerikacademy.
+[21:15:48] <hackman> abeee
+[21:15:56] <fityla> Hackman как стой въпроса а троянците и вирусите
+[21:16:00] <hackman> аз колко пъти ще ви казвам да не го забравяте това -
+[21:16:03] <hackman> su -
+[21:16:07] <hackman> не само su
+[21:16:07] <yulimoto> ааааа
+[21:16:15] <hackman> yulimoto, за бои си
+[21:16:22] <yulimoto> :)
+[21:16:26] <hackman> в офиса за такива неща ги карам да черпят
+[21:16:31] <yulimoto> аха
+[21:16:38] <hackman> fityla, супер много rootkits има за linux
+[21:16:43] <hackman> virus-и няма
+[21:16:54] Action: deyan бие yulimoto с каса бира по главата
+[21:16:55] <hackman> има и много malware който инсталират по web servers
+[21:16:58] <yulimoto> ти остави ами днес изпитах това за което говореше да копи-пействаш от страница и javascripta да те накаже
+[21:17:18] samy (54eeb862@gateway/web/freenode/ip.84.238.184.98) left irc: Quit: Page closed
+[21:17:47] <yulimoto> значи това "-" аз мислех че е само да ме пуска в папката на рута и за красота
+[21:17:58] <fityla> Е за по неясните неща sandbox
+[21:19:07] <yulimoto> hackman: значи ти вися един бои и едно черпане :)
+[21:19:35] <fityla> Има ли начини да разберем дали се е загнездил някой троянец
+[21:20:02] <yulimoto> fityla: какво значи троянец в линукс
+[21:20:06] <yulimoto> нещо дето снифи ли ?
+[21:20:47] <fityla> Аз питам и за linux/windows
+[21:21:11] <fityla> Снифа едва ли може да се пребори
+[21:21:21] <yulimoto> принципно и според мен ....
+[21:22:00] <hackman> fityla, в линукс имаш 3 типа програми
+[21:22:06] <hackman> kernel, root & user
+[21:22:31] <hackman> ако си защитиш така машината, че никои да не може да вземе root
+[21:22:35] <hackman> няма да имаш проблем :)
+[21:22:39] <hackman> обаче
+[21:22:46] <hackman> ако някой успеее да вземе root
+[21:22:59] <hackman> може да зареди такъв модул в kernel-а
+[21:23:13] <hackman> че всеки път когато правиш ls в /proc или ps ax
+[21:23:28] <hackman> да не виждаш процесите които са пуснати от въпросният потребител :)
+[21:23:35] <hackman> на това му викаме rootkit
+[21:24:01] <hackman> ако има user процеси които правят мизерии - примерно spam mail, tcp/udp floods и тн.
+[21:24:05] <fityla> Ясно
+[21:24:13] <hackman> тези лесно можем да открием и да ликвидираме
+[21:24:38] <yulimoto> аз съм чувал че с rootkit-овете се стига до там да следят темперратурата на CPU-то и от там да се съмняват дали кернела не е хакнат
+[21:24:44] <yulimoto> ама не знам дали е вярно
+[21:24:48] <fityla> Някой тоолкит ще разгледаме
+[21:25:42] <yulimoto> fityla: по-добре е да разгледаме принципи и начин на работа на нещата ; туловете сами ще изкочат, иначе има риск да правим да натискаме копчета
+[21:26:00] <fityla> Да ..
+[21:26:48] <fityla> Принципа е много е важен
+[21:26:50] <hackman> rootkits няма да разглеждаме в този курс
+[21:27:02] <yulimoto> ами то и няма смисъл на такова ниво
+[21:27:03] <hackman> във мрежова сигурност им обръщам малко повече внимание
+[21:27:21] <hackman> иначе лесно се намират
+[21:27:24] <yulimoto> ще има стрийм задължително, убивам те ако няма
+[21:27:28] <fityla> Записвам се
+[21:27:34] <hackman> все някъде трябва да го има файлът
+[21:27:40] <hackman> и ако имаш с какво да го сравниш
+[21:27:52] <yulimoto> да за намирането ясно, върроса е да разгледаме как работят нещата
+[21:27:53] <hackman> което и Debian и RedHat базираните дистрибуции имат
+[21:27:55] <hackman> няма проблеми
+[21:28:46] <fityla> ;)
+[21:29:09] <yulimoto> добре последно питане, ако някой се опита да набие руткит в кернела, задължително ли е да се рестартира машината за да тръгне кернела с руткита
+[21:29:27] <yulimoto> или може само като модул
+[21:30:03] <dencho> kado modul :D
+[21:30:19] <dencho> kato*
+[21:30:20] <dencho> :D
+[21:30:39] <yulimoto> и ако може с модул, вероятността да се хване модула по-голяма ли е
+[21:31:00] <yulimoto> dencho: изядели яйцата man
+[21:31:41] <dencho> da... si4ko izqdoh,
+[21:31:49] <dencho> sireneto be6e kofti
+[21:31:57] <dencho> ne6to se e ebalo
+[21:32:28] <yulimoto> вземай овче козе и т.н. за салатата може и обикновено
+[21:32:38] <yulimoto> и зехтин брато
+[21:33:23] <dencho> to e doma6no
+[21:33:29] <dencho> ama se be6e ebnalo v burkanq
+[21:33:37] <dencho> ne mi aresa ne6to
+[21:33:43] <yulimoto> ооо брато велик си
+[21:33:49] <yulimoto> ей това е
+[21:34:02] <yulimoto> направо го надушвам как мирише
+[21:34:41] <yulimoto> аз бях втори на бурканиадата кога бях студент ; втори по буркани бях
+[21:35:52] <KpeTeHoug> az pyk bqh pyrwenec
+[21:35:57] <KpeTeHoug> ма не се фаля
+[21:36:06] <pinkiePie> аз пък си готвя :D
+[21:36:29] <KpeTeHoug> това за студентските ни години си говорим
+[21:36:36] <pinkiePie> е и аз
+[21:36:39] <KpeTeHoug> и а сега готвя
+[21:36:44] <KpeTeHoug> аа ти младеж
+[21:36:48] <KpeTeHoug> свежа плът
+[21:36:58] <pinkiePie> аз и сега съм студент и да ми пращат буркани на 400км не върви :D
+[21:37:12] <KpeTeHoug> е що
+[21:37:15] <hackman> yulimoto, зареждаш модула и си готов
+[21:37:21] <hackman> вероятността да се хване е много малка
+[21:37:41] <hackman> затова от около 1г в kernel-а има едно нещо което се нарича module signing
+[21:37:53] <hackman> с това можеш да си гарантираш, че ако модула не ти е подписан
+[21:37:58] <hackman> няма да може да се зареди
+[21:38:10] <KpeTeHoug> освен ако не си сумулирал подпис ?
+[21:38:11] <hackman> това не прави kernel-а невъзможен за hack-ване
+[21:38:22] <hackman> просто го прави по-сложен
+[21:38:34] <hackman> KpeTeHoug, не си прав. Подписите са криптографски сигурни
+[21:38:37] <dencho> leka no6t ora... posle 6te 4eta kakvo ste pisali :D
+[21:38:40] <hackman> и освен ако не си дадеш подписа
+[21:38:41] <KpeTeHoug> аха
+[21:38:50] <hackman> няма да можеш да заредиш модула
+[21:38:54] <hackman> leka dencho
+[21:38:58] <dencho> btw hackman kolko doma6ni ima uploadnati posledniq put... namalqvat li horata?
+[21:39:03] <dencho> prosto za statistikata pitam :)
+[21:39:04] <KpeTeHoug> лека dencho и внимавай с яйцата
+[21:39:12] <dencho> dano da ne se otrova :P
+[21:39:18] <dencho> te i te sa doma6ni we KpeTeHoug :P
+[21:39:19] <hackman> dencho, много е не интуитивен портала на telerik
+[21:39:44] <dencho> :)
+[21:40:01] <pinkiePie> т.е. не пише и колко са проверените домашни?
+[21:40:32] <KpeTeHoug> най вероятно
+[21:40:41] <KpeTeHoug> но мога да ти гарантирам че са спаднали поне на 1/2
+[21:40:44] <KpeTeHoug> сезона е куц
+[21:40:52] <dencho> ne ne, mene me interesuva dali predadenite doma6ni namalqvat s vsqka izminala tema
+[21:41:04] <pinkiePie> е на OS бяхме накрая 20 човека на лекции :D
+[21:41:45] <yulimoto> пичове излизам аз пих бира, ама ще пия още една в парка на ветрец и разговори с познати и непознати хора. Не пишете много, защото после ме затруднявате да ви чета спама :P
+[21:42:33] <yulimoto> нали тука има един момент /top words ама това е друга тема
+[21:44:23] <KpeTeHoug> то и аз
+[21:44:26] <KpeTeHoug> приспах децата
+[21:44:29] <KpeTeHoug> сега време за малко бира
+[21:44:41] <KpeTeHoug> че утре трябва да намеря сили да си напиша най накрая домашното :)
+[21:48:27] <deyan> Хайде отивайте да спите и да пиете бира, аз продължавам да се мъча да си подкарам VPN към офиса
+[21:48:50] <deyan> Не ви е срам ГАДОВЕ!!!
+[21:51:47] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[21:52:28] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 245 seconds
+[21:52:37] <iren_y> защо след Ip адресите се пише /24
+[21:53:42] <iren_y> в Ip командата когато се добавят
+[21:55:17] <rewind_> има го в лекциите по мрежи от ОС - това е мрежовата маска
+[21:55:51] <iren_y> аха тези лекции по ОС към linux ли са били пак ориентирани
+[21:56:10] <rewind_> http://www.ripe.net/images/cidr_working42.jpg
+[21:56:35] <iren_y> аха мерси
+[21:58:01] <rewind_> Също в едната от презентациите на hackman тук - http://www.slideshare.net/azilian/networking-19109090
+[21:58:10] <rewind_> на 49-та и 50-та страница
+[21:58:35] <iren_y> явно е в съкратен вариант
+[21:59:00] <rewind_> именно
+[21:59:35] <hackman> IPv4 адресите са 32битови
+[21:59:53] <rewind_> практически означава 255.255.255.0 или мрежа от 256 адреса
+[22:00:01] Writing user file...
+[22:00:01] Writing channel file...
+[22:00:10] <hackman> т.е. имат 32 бита  11111111.11111111.11111111.11111111
+[22:00:26] <hackman> това /24 оказва каква част от тези битове се използват за маска
+[22:00:37] <hackman> т.е. остатъка от битовете се използват за адресиране
+[22:00:55] <hackman> 255 е десетичната репрезентация на 11111111
+[22:01:00] <hackman> 256 :)
+[22:01:17] <hackman> но тъй като числата са от 0 до 255 255 e най-голямото
+[22:01:24] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[22:01:41] <iren_y> това винаги ли е било така или се ползва в последните 2,3 години
+[22:01:59] <hackman> винаги е било така :)
+[22:02:09] <iren_y> като се е появил IPv6
+[22:02:13] <iren_y> аха мерси
+[22:02:24] <hackman> просто предишни години се използваше най-вече десетичното представяне на маските
+[22:02:29] <hackman> вместо краткият му вариянт
+[22:02:54] <hackman> но тъй като хората които пишат tools израстнаха... се усетиха, че е крайно време да възприемат краткият вариянт :)
+[22:03:14] <iren_y> да да всичко се променя
+[22:04:00] <rewind_> аз мога ли да полюбопитствам за какъв replication ставаше дума по-горе ? :)
+[22:08:50] <hackman> rewind_, mysql sliding replication правех
+[22:09:05] <hackman> с heartbeat и едни мои магии :)
+[22:10:22] <rewind_> съвсем наскоро се зарадвах, че ще ми се наложи да се позанимавам с mysql, тъй като нямам и бъкел опит с него и компанията, която произвежда апликейшъна взела, че го сменила в следващата версия на софтуера...
+[22:11:24] <rewind_> А иначе се заинтригувах, тъй като ми напомни да пусна ZFS репликейшъна, който трябва да пускам от време на време на един бекъп диск
+[22:11:39] <rewind_> веднъж те бях питал по тази тема, ако си спомняш случайно
+[22:11:47] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 246 seconds
+[22:12:06] <hackman> rewind_, ако искаш да се занимаваш с читава база данни виж PostgreSQL
+[22:12:06] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[22:12:16] <hackman> MySQL-а е голямо бреме
+[22:12:39] <rewind_> чух, че ще става все по-голямо в ръцете на една голяма компания
+[22:14:25] <s0ny123> exit
+[22:14:36] <s0ny123> e тва не беше предвидено... :D
+[22:17:42] <hackman> rewind_, MySQL-а на където е тръгнал в момента, ще става само ПО-ЗЛЕ :(
+[22:17:56] <hackman> отдавна отминаха годините му на просперитет
+[22:18:06] <hackman> и в момента седи на стари лаври
+[22:18:17] <hackman> последните години само проблеми съм имал с тази база
+[22:18:22] <hackman> с много малко решения :(
+[22:19:18] <rewind_> интересно, че в OSS света по принцип нещата винаги са взаимозаменяеми, доста е странно, че с mysql не стоят така
+[22:19:26] <rewind_> нещата
+[22:19:53] <rewind_> малко кофти дума за случая, но предполагам ме схвана
+[22:26:04] <rewind_> dhclient има ли функционалност като dhcpcd -T (или --test)
+[22:31:33] Nako (~Nako@75.151.167.113) left irc: Ping timeout: 248 seconds
+[22:32:23] <rewind_> По темата с mysql, последното което ми направи впечатление в последния месец беше това - http://goo.gl/rEkKJ (въпреки, че се оказа бъг)
+[22:42:30] pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) left irc: Read error: Connection reset by peer
+[22:42:38] pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) joined #telerikacademy.
+[22:47:30] iren_y (~chatzilla@smtpout.ccbank.bg) left irc: Quit: ChatZilla 0.9.90.1 [Firefox 22.0/20130618035212]
+[22:47:57] <pinkiePie> на лекциите беше казвано за копиране на дискове с dd, че не трябва да се прави, но съм го правил и след това си е работило всичко, ако да речем двата диска са пълни на 50% или се копират само имейджи, предполагам че не е
+[22:47:57] <pinkiePie> проблем или греша
+[22:49:23] <rewind_> Аз лично не съм имал проблеми с копиране на диск с dd, но винаги съм копирал по-малък към по-голям диск
+[22:49:52] <rewind_> ако ще спасяваш данни ползвай директно dd_rescue, доста по-добре се справя с лоши сектори
+[22:54:24] <pinkiePie> ясно, мариян го беше казвал на лекция и сега се сетих :D
+[22:57:30] bldrchd (4d460a38@gateway/web/cgi-irc/kiwiirc.com/ip.77.70.10.56) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[22:58:11] deyan (~deyan@46.249.92.240) left irc: Remote host closed the connection
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:03:09] elnahir (c258e457@gateway/web/freenode/ip.194.88.228.87) left irc: Ping timeout: 250 seconds
+[23:08:13] krasin (~krasin@46.10.51.78) left irc: Quit: Ex-Chat
+[23:39:58] pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) left irc: Read error: Connection reset by peer
+[23:40:14] pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) joined #telerikacademy.
+[23:41:09] pinkiePie (~pinkiePie@vlan-132-7-72.comnet.bg) left irc: Client Quit
+[23:43:38] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[23:53:09] Nako (~Nako@75.151.167.113) left irc: Quit: Leaving
+[00:00:00] --- Fri Aug 23 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

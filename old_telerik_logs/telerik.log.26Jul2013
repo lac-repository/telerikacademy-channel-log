@@ -1,0 +1,910 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:04:06] poly (2eed5544@gateway/web/freenode/ip.46.237.85.68) left irc: Quit: Page closed
+[00:19:17] _NEKTAR_ (~nektar@176.12.19.179) joined #telerikacademy.
+[00:30:36] _NEKTAR_ (~nektar@176.12.19.179) left irc: Quit: Leaving.
+[00:37:54] hackman (~HackMan@wolf.yuhu.biz) joined #telerikacademy.
+[00:38:18] Nick change: hackman -> Guest4581
+[00:44:29] <phalaaxx> нещо интересно относно bash - CTRL+x+e :)
+[00:44:42] <phalaaxx> това за multiline, вместо да пишем разни неща с \
+[00:45:13] <phalaaxx> но на гризлито с emacs... никога не съм го ползвал това
+[00:45:19] <Guest4581> phalaaxx: те интересните неща останаха за понеделник
+[00:45:30] <Guest4581> аз имам да ви разказвам и за bash configuration
+[00:45:37] <phalaaxx> това има ли го в интересните неща? :)
+[00:46:41] <Guest4581> imame .bashrc и отделно ще отделя 5мин да обясня клавишните комбинации от bash help sheet-a в additional :)
+[00:47:48] <phalaaxx> аз вчера май съм решил в IRC-то едно от домашните за 3-та лекция, онова с отворените файлове
+[00:48:03] <phalaaxx> без да искам, мислех че има някаква уловка :)
+[00:48:47] <phalaaxx> всъщност още ме гони такова съмнение
+[00:49:06] <phalaaxx> това е странно
+[00:49:28] <phalaaxx> обикновено имам повече доверие на линукса ми че ме е разбрал какво искам от него отколкото че аз съм разбрал какво искам да направя :D
+[00:51:00] <phalaaxx> впрочем като стана въпрос за web сървър на bash, виждал съм реално приложение на това преди време
+[00:51:25] <phalaaxx> във LEAF - за тест на скорост при липса на инструменти
+[00:52:17] <Guest4581> то има начин да отвориш TCP connection от
+[00:52:25] <phalaaxx> беше доста отдавна и идеята му беше като се пробва скорост на някакво трасе от клиент с машина с win98/2000/xp да се провери дали може да се свали random файл с размер 100MB
+[00:52:52] <phalaaxx> и тъй като LEAF (Bering) си нямаше (поне тогава) уеб сървър - решението беше на няколко реда на bash :)
+[00:52:59] <Guest4581> нещо грешно е мислил колегата ти :)
+[00:53:25] <phalaaxx> нее съвсем правилна си беше логиката
+[00:53:44] <phalaaxx> трябваше да могат крайните клиенти да видят в лесно смилаем за тях начин че нямат проблеми с кабелите
+[00:54:11] <phalaaxx> или ние да видим колко сме тъпи и прости и как нищо не правим като хората :D
+[00:55:20] <Guest4581> ние това и до сега го правим
+[00:55:25] <Guest4581> но с java applet
+[00:55:35] <Guest4581> писах го преди 3-4 години
+[00:55:50] <Guest4581> и java applet-а сам си submit-ва резултатите
+[00:55:56] <phalaaxx> е там нямаше как да стане с аплет, топологията беше много странна
+[00:55:59] <Guest4581> клиента само се съгласява
+[00:56:07] <phalaaxx> доколкото знам само две фирми в БГ са правили такова нещо
+[00:56:22] <Guest4581> за какво говориш ?
+[00:56:28] <phalaaxx> мрежа за Интернет за крайни потребители с HPNA адаптери
+[00:56:59] <phalaaxx> и тъй като нямаше (евтини) суичове - правеха се от стари компютри с LEAF на тях
+[00:57:21] <phalaaxx> а тия HPNA адаптери изобщо не бяха толкова надеждни колкото се опитвахме да ги представим
+[00:57:35] <phalaaxx> всъщност си бяха издънка от всяка една гледна точка
+[00:57:56] <phalaaxx> освен от финансова за доставчика :D
+[00:58:57] <Guest4581> и каква е драмата? ако вие имате ping до device-а, защо клиента да неможе да си заради ваша страница с applet-а ?
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:00:08] <phalaaxx> ами както казах изобщо не бяха надеждни и трябваше някакъв лесен начин да се гледа къде по трасетата има проблем
+[01:01:16] <phalaaxx> и за целта понякога се пращаше някой кабелджия на гости на даден клиент и за да не им е много сложно и на тях - това беше начин да видят дали да търсят проблем в HPNA/кабели между клиента и първия bridge
+[01:01:42] <phalaaxx> то за търсене на L2 проблеми предимно
+[01:03:03] <phalaaxx> а там мрежата изглеждаше горе долу така: BGP - Access Concentrator (AC) - Distribution Point (DP, bridge) - DP - ... - клиент
+[01:04:13] <phalaaxx> DP-тата бяха стари бракувани компютри с LEAF и по няколко HPNA карти на PCI и висящи във въздуха кабели
+[01:04:48] <phalaaxx> и тъй като HPNA е правен да работи при по-кофти условия от Ethernet - често се случваше да се прецака нещо ама не както си трябва - да изпука и да спре да работи
+[01:05:08] <phalaaxx> и всякакви странни проблеми се срещаха в L2 :)
+[01:06:30] <phalaaxx> както и да е, започнах от там че реално имаше смисъл от много елементарен web сървър написан на bash и по смътни спомени ползваше inetd (или xinetd... не помня вече)
+[01:07:17] <phalaaxx> echo Content-Type... dd if=/dev/urandom ... горе долу толкова :)
+[01:11:27] <Guest4581> е аз говоря за писане към tcp socket директно от bash
+[01:12:33] <phalaaxx> socket - bind - accept?
+[01:24:34] <Guest4581> da
+[01:29:07] <Guest4581> качих видеата :)
+[01:35:16] <phalaaxx> въпрос относно управлението на многото сървъри... това с въртенето на ssh в цикъл не е ли по-лесно да се направи с parallel-ssh?
+[01:36:48] <Guest4581> не се получава същият резултат
+[01:37:13] <Guest4581> https://github.com/hackman/multy-command
+[01:37:25] <Guest4581> когато имаш доста различни групи
+[01:37:26] s0ny123 (~agit0@95.111.18.140) left irc: Quit: Leaving
+[01:37:38] <Guest4581> parallel ssh e super досаден
+[01:48:37] <phalaaxx> мен ме дразни че изпълнява само една команда, аз искам да си наредя командите във файл примерно и да си ги изпълнявам така (без да правя shell scripts по сървърите)
+[01:48:58] <phalaaxx> поради липсата на това сега служебно се трудя по нещо на golang
+[01:49:17] <phalaaxx> не в момента ами в последно време имам предвид
+[01:50:13] <Guest4581> отвори multy-command-а
+[01:50:28] <Guest4581> имаме и една друга версия която има lsexec i lmexec
+[01:50:40] <Guest4581> които правят ssh host < script
+[01:50:48] <Guest4581> parallel ili sequential :)
+[01:51:03] <Guest4581> koeto e tochno tova koeto iskash
+[01:53:03] <phalaaxx> ами не знам дали ще свърши работа, те изискванията са много странни
+[01:53:20] <phalaaxx> не трябва да се ползват keys, с пароли...
+[01:53:29] <phalaaxx> и машините може да са с различни пароли
+[01:54:23] <Guest4581> и това не е драма
+[01:54:24] <phalaaxx> и не е оферта да се слагат keys защото това е за някакви еднократни случаи (одит на един чувал сървъри и суичове)
+[01:54:28] <Guest4581> expext ти трябва :0
+[01:54:43] <phalaaxx> знам, правил съм го с expect
+[01:54:53] <Guest4581> пак при един чувал сървъри е по-лесно с keys
+[01:55:03] <phalaaxx> ама ми е мерак да разцъкам golang :)
+[01:55:31] <phalaaxx> то е по-лесно ама е добре да не се пипат keys там, че може да започнат да се сърдят разни клиенти :)
+[01:55:57] <phalaaxx> пък тя е една дебела историята там... колкото по-незабележим съм - толкова по-добре :)
+[01:55:57] <Guest4581> leka
+[01:56:00] <Guest4581> az lqgam da spq
+[01:56:03] <phalaaxx> лека
+[01:56:04] <Guest4581> che neshto sum baq umoren
+[01:56:23] <Guest4581> razgledai novite neshta v github-a
+[01:56:29] <Guest4581> sega kachih oshte malko materiali :)
+[01:56:31] Guest4581 (~HackMan@wolf.yuhu.biz) left #telerikacademy.
+[01:58:58] looser99 (John@78.130.186.99) joined #telerikacademy.
+[01:59:16] nveselinov_ (nveselinov@151.237.4.4) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:03:03] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 264 seconds
+[02:03:04] user99 (John@78.130.186.99) left irc: Ping timeout: 264 seconds
+[02:08:22] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[02:35:07] Nick change: nveselinov_ -> nveselinov
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:04:58] gloom (John@78.130.186.99) joined #telerikacademy.
+[03:08:24] looser99 (John@78.130.186.99) left irc: Ping timeout: 240 seconds
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:18:55] Nick change: Brahman -> Brahman``
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:54:39] <dencho> Честит ви празник ве администратори
+[07:54:40] <dencho> :Д
+[07:57:34] <episparh> честит да ви е :)
+[07:57:43] <episparh> и да почерпите
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:05:51] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Read error: Connection reset by peer
+[08:07:41] Brahman`` (~Brahman@109.121.248.105) left irc: Ping timeout: 268 seconds
+[08:09:19] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:19:38] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[08:24:02] <episparh> хайде , аз излитам
+[08:33:13] kulenski (~kulenski@79-100-82-209.btc-net.bg) joined #telerikacademy.
+[08:49:49] <KrasiGa> Добро утро! Защо е само 1 част качена? Може би не е имал време да качи 2ра?
+[08:50:02] <KrasiGa> за лекцията от вчера става въпрос
+[08:51:38] <KrasiGa> ааааа сетих се
+[08:51:52] <KrasiGa> тя е към лекция 3
+[08:52:19] <KrasiGa> :) а уж бях онлайн
+[08:52:28] fusmu (~alex@77.70.80.16) left irc: Quit: Lost terminal
+[08:56:07] <wiseman_> Честит празник колеги :) отивам за бонбони ..
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:03:27] <KrasiGa> Благодаря! Честит и на теб!
+[09:03:28] <KrasiGa> :)
+[09:27:50] Deyan (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:28:19] <Deyan> Добро утро мутри, как беше бирата след bash-а
+[09:30:25] hackman (~HackMan@management.1h.com) joined #telerikacademy.
+[09:30:49] Nick change: hackman -> Guest44479
+[09:32:30] bentoslack (~Adium@ibekyarov.mw-medianetworks.eu) joined #telerikacademy.
+[09:34:00] Nick change: Guest44479 -> azilian
+[09:34:07] FireSword (d47aa401@gateway/web/freenode/ip.212.122.164.1) joined #telerikacademy.
+[09:34:32] Nick change: azilian -> hackman
+[09:36:37] <FireSword> я, тук има хора, дори и да няма лекция :)
+[09:37:31] <hackman> да :)
+[09:37:35] <hackman> постоянно има хора :)
+[09:38:29] <hackman> http://www.hahastop.com/pictures/Sysadmin_Cake.jpg
+[09:38:31] <Deyan> hackman: http://www.cgisecurity.com/owasp/html/ch08s03.html
+[09:38:38] Action: hackman Happy Sysadmin Day to everyone :)
+[09:38:47] <Deyan> hackman: как беше бирата след bash-а
+[09:38:55] <Deyan> това исках да пейстна
+[09:38:56] <hackman> аз бях на рожден ден
+[09:39:02] <Deyan> а да бе ти нали каза
+[09:39:26] <FireSword> еее верно бе ! Честит празник на всички админи :)
+[09:47:04] <FireSword> hackman: Още веднъж много благодаря за лекциите. Не съм записал курса, обаче са ми много интересни и полезни online. http://j3qx.wordpress.com/2009/01/02/%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B0-freebsd-win-admin/
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:04:20] dencho-at-sysadm (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[10:04:44] <hackman> FireSword: мерси
+[10:06:10] <vhristev> morning
+[10:16:36] Action: FireSword quits
+[10:16:39] FireSword (d47aa401@gateway/web/freenode/ip.212.122.164.1) left irc: 
+[10:19:13] <vhristev> И кво сега в кой ще празнуваме ...
+[10:20:13] <hackman> довечера след 7 в кривото на будапеща и дондуков ще има бая админи :)
+[10:21:00] kulenski (~kulenski@79-100-82-209.btc-net.bg) left irc: Quit: Lost terminal
+[10:26:44] <vhristev> Мерси за инфото
+[10:26:58] <vhristev> баш днес ще правя едни машини ама ако свърша по навреме ще гледам да мина
+[10:28:13] <hackman> аз няма да ходя
+[10:28:16] <hackman> пътувам :(
+[10:28:57] <vhristev> Така си е вече не сме млади и безгрижни ония години никога няма да се върнат
+[10:29:18] <vhristev> на всеки му липсват ама е на живот
+[10:29:39] <hackman> е аз ще си вея дупето на плажа :)
+[10:33:24] <KrasiGa> пак ли до Гърция?
+[10:33:35] <vhristev> Аз миналата година с жената до Тасос бяхме
+[10:33:36] <KrasiGa> това място дето вчера каза на колко км е от границата?
+[10:33:48] <vhristev> на 10 метра от плажа на една вила страшна работа е
+[10:33:58] <vhristev> взехме си АТВ-та обикаляхме планините
+[10:36:05] <hackman> KrasiGa: идея си нямам... на 6 часа от софия е :)
+[10:36:21] <hackman> vhristev: аз отивам на кранево за weekend-а да се видя с родителско тяло :)
+[10:36:55] <vhristev> аз имам мн близък приятел грък и майка му там си живее в гърция
+[10:37:10] <vhristev> тая година ни намери вила за 6 човека за 40евро на вечер на братовчеди някви
+[10:37:36] <vhristev> и мислим да идем това е на Халкидики крачола откъм Италия
+[10:40:52] <vhristev> Вече на БГ море хич не ми се ходи последно като видях за какво качесто за тия цени направо се отвратих
+[10:42:37] dterziev (~dterziev@dterziev.mw-medianetworks.eu) joined #telerikacademy.
+[10:42:47] <dterziev> ia vhristev :D
+[10:43:47] <KrasiGa> като цени и хотели  гърците има много да ни гонят
+[10:43:48] <Deyan> BSD, Lunix, Debian and Mandrake are all versions of an illegal hacker operation system, invented by a Soviet computer hacker named Linyos Torovoltos, before the Russians lost the Cold War. It is based on a program called "xenix", which was written by Microsoft for the US government. These programs are used by hackers to break into other people's computer systems to steal credit card numbers....
+[10:43:49] <Deyan> ...They may also be used to break into people's stereos to steal their music, using the "mp3" program. Torovoltos is a notorious hacker, responsible for writing many hacker programs, such as "telnet", which is used by hackers to connect to machines on the internet without using a telephone.
+[10:43:51] <Deyan> Your son may try to install "lunix" on your hard drive. If he is careful, you may not notice its presence, however, lunix is a capricious beast, and if handled incorrectly, your son may damage your computer, and even break it completely by deleting Windows, at which point you will have to have your computer repaired by a professional.
+[10:43:54] <Deyan> If you see the word "LILO" during your windows startup (just after you turn the machine on), your son has installed lunix. In order to get rid of it, you will have to send your computer back to the manufacturer, and have them fit a new hard drive. Lunix is extremely dangerous software, and cannot be removed without destroying part of your hard disk surface.
+[10:43:54] <KrasiGa> явно си попаднал на кофти място
+[10:45:31] <KrasiGa> може ли някой да ми каже с freenode как се започва личен разговор?
+[10:45:46] <KrasiGa> ако пише в общия чат, кликам върху името и е ОК
+[10:45:55] <KrasiGa> ама ако не е, не мога да разбера
+[10:49:19] <vhristev> хахахаха
+[10:49:22] <vhristev> Оооо митаче
+[10:49:24] <vhristev> нахлу ли
+[10:49:29] <dterziev> ??? :)
+[10:49:32] <dterziev> ????? ????? ??? ???
+[10:49:37] <dterziev> ???? ??? ?? ?? ?????
+[10:49:40] <vhristev> питънки
+[10:49:44] <vhristev> енкодинга
+[10:49:51] <dterziev> hm
+[10:49:55] <dterziev> az cheta sichko be
+[10:50:00] <dterziev> kuf encoding e tuka
+[10:50:02] <dterziev> utf8 li
+[10:50:14] <vhristev> аз съм с 8чка
+[10:50:44] <dterziev> moment :)
+[10:50:47] dterziev (~dterziev@dterziev.mw-medianetworks.eu) left irc: Quit: Leaving
+[10:50:50] <vhristev> на клинта съм сетнал Latin/Unicode Hybrid
+[10:51:14] <hackman> KrasiGa: /query nick
+[10:51:17] dterziev (~dterziev@dterziev.mw-medianetworks.eu) joined #telerikacademy.
+[10:51:26] <dterziev> тест
+[10:51:33] <vhristev> ГУУД
+[10:51:42] <dterziev> ха така :)
+[10:53:07] <KrasiGa> aaaa stana 10x
+[10:53:07] <vhristev> как се чустваш в старите води а
+[10:53:11] <vhristev> още не са жабясали
+[10:53:15] <dterziev> някакви идеи от къде в БГ са взема Citrix лицензи?
+[10:53:29] <dterziev> не съм влизал в IRC откак писахме UNIBG Services :
+[10:53:32] <dterziev> :)
+[10:53:44] <vhristev> Имало е тук там
+[10:53:45] <vhristev> (;
+[10:54:00] <vhristev> Ще питам един колега от телерик те бая лицензи взеха
+[10:54:23] <dterziev> 20 хелиоса и 20 цитрикса
+[10:54:38] <dterziev> като им дам сметката и сигурно ще ме пребият :)
+[10:54:42] <vhristev> Гепи тоя смотан Хелиос ама избор нямаш
+[10:54:54] <dterziev> абе много си е добре даже
+[10:55:01] <vhristev> тя ще бъде намалена с 50 000 тъйче не се претенявай
+[10:55:02] <vhristev> хахаха
+[10:55:12] <dterziev> и се дразня на немците че всички темплийти дето ми пращат
+[10:55:18] <dterziev> са с някакви графични интерфейси
+[10:55:20] <vhristev> Пачнаха ли си най накрая AFP over TCP
+[10:55:24] <dterziev> да :)
+[10:55:28] <dterziev> тва поне го фикснаха
+[10:55:28] <vhristev> netatalk-a
+[10:55:36] <Deyan> dterziev: какви citrix лицензи ти трябват
+[10:55:38] <vhristev> Еййййй да не повярва човек
+[10:56:04] <dterziev> нямам никаква идея… това е тикета:
+[10:56:05] <dterziev> Митак,
+[10:56:05] <dterziev> Моля да провериш дали можем от тук да купим:
+[10:56:05] <dterziev> 20 hellios лиценза
+[10:56:05] <dterziev> 15 cytrix лиценза
+[10:56:05] <dterziev> и ако да то колко пари ще ни струва!
+[10:56:06] <dterziev> Мерси
+[10:56:22] <dterziev> нищо не ми говори, не знаят как се пише детайлна информация :)
+[10:56:34] <vhristev> затваря ми като го намеря ще ти дам инфо откъде да провериш
+[10:57:21] <dterziev> ама те не знаят какво точно им трябва бе :)
+[10:57:33] <dterziev> при нас е развален телефон
+[10:57:36] <vhristev> БРБ ,че има обучение за евакуация
+[10:57:48] <vhristev> като го намеря митак ще ти се обадя
+[10:57:48] <vhristev> (;
+[10:59:18] <dterziev> ок
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:07:56] nveselinov (nveselinov@151.237.4.4) left irc: Ping timeout: 264 seconds
+[11:23:03] nveselinov (nveselinov@151.237.4.4) joined #telerikacademy.
+[11:27:00] <dterziev> vhristev евакуирахте ли се :)
+[11:34:27] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:17:33] <dencho-at-sysadm> http://cite.actualno.com/Gotov-sym-da-umra-za-Oresharski-news_432613.html
+[12:25:03] <yulimoto> Една жена се прибира вечер вкъщи и мъжа ѝ я пита: -Ти къде ходи. | Тя: -На курс.| Той:-Ти това "с" накрая за красота ли го слагаш | Тя: -Не скъпи, за множествено число!!!
+[12:28:10] nveselinov (nveselinov@151.237.4.4) left irc: Read error: Connection reset by peer
+[12:50:13] wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) left irc: Ping timeout: 250 seconds
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:06:14] <KrasiGa> :) hahaha, готин виц
+[13:15:17] <vhristev> (;
+[13:15:38] <vhristev> чевече тука има едно Сръбско "Котилото"
+[13:15:50] <vhristev> тва бивш пушач и диети и котилото няма
+[13:16:20] <vhristev> dterziev,
+[13:34:19] wiseman (5e1a1553@gateway/web/freenode/ip.94.26.21.83) joined #telerikacademy.
+[13:34:42] Nick change: wiseman -> Guest24502
+[13:35:15] Guest24502 (5e1a1553@gateway/web/freenode/ip.94.26.21.83) left irc: Client Quit
+[13:36:59] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) joined #telerikacademy.
+[13:37:02] georgidimov (3edd9aba@gateway/web/freenode/ip.62.221.154.186) joined #telerikacademy.
+[13:37:09] <_wiseman_> !
+[13:51:53] <vhristev> SysAdmin day movie trailer > http://www.sysaid.com/blog/entry/watch-the-sysadmin-day-movie-trailer-revenge-of-the-sysadmin?utm_source=broadcast&utm_medium=email&utm_campaign=sysadmin-day-2013
+[13:54:21] samy_ (~samy@77-85-7-4.btc-net.bg) joined #telerikacademy.
+[13:54:29] <samy_> booo
+[14:00:01] Writing user file...
+[14:00:01] Writing channel file...
+[14:01:56] <vhristev> Виц от днешният ден
+[14:01:58] <vhristev> [1:32:41 PM] Петър : брат
+[14:01:58] <vhristev> [1:32:47 PM] Петър : честит сисадмин дей
+[14:01:58] <vhristev> [1:33:06 PM] Петър : ден на уебдизайнера няма ли, дагоеба
+[14:01:58] <vhristev> [1:34:40 PM] Hristev: Мерси
+[14:01:58] <vhristev> [1:34:53 PM] Hristev: Ми вие не сте толкова важни
+[14:04:07] <phalaaxx> http://www.youtube.com/watch?v=udhd9fmOdCs
+[14:04:07] <phalaaxx> старо ноооо... :))
+[14:04:46] Bliok (~GT@212.36.13.10) joined #telerikacademy.
+[14:06:07] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 256 seconds
+[14:17:31] <vhristev> златно преди малко е слушах
+[14:17:38] <vhristev> викам да е пусна ама и без тва достатъчно спама
+[14:21:53] <phalaaxx> днес ни се полага :)
+[14:24:29] Nick change: Bliok -> KpeTeH|weekend
+[14:26:02] <dterziev> opa
+[14:29:44] <dterziev> vhristev кво става
+[14:39:35] <vhristev> Търкаляме се
+[14:39:36] <vhristev> (;
+[14:39:36] <vhristev> хахаха
+[14:41:23] <dterziev> аз тъкмо от почивка идвам :)
+[14:41:58] <dterziev> малко се пооляхме - от 12:30 до 14:30 :)
+[14:42:15] <vhristev> Не е като да ти е за пръв път
+[14:42:30] <dterziev> е нали знаеш че сме айляк :)
+[14:42:38] <dterziev> с тия клъстери се родихме
+[14:43:15] <dterziev> мани цялята стая мирише на дюнери дееба
+[14:48:42] <vhristev> vmware-a си ебало мамата
+[14:48:52] <vhristev> аз сега отивам да направя един клъстер за едни хорица тука
+[14:49:03] <vhristev> ще им пуснам FT за една вритуалка с 22Т диско сторидж
+[14:49:17] <dterziev> аз в ИТД натрясках 24Т
+[14:49:29] <vhristev> един приятел ме извика неможел да буутне линукса отивам викам ей сега 5 команди буутва
+[14:49:30] <dterziev> иначе преди да дадат пари за дискове - иди обяснявай що нямаш бекъп :)
+[14:49:33] <vhristev> гледам човек РУУТ дяла го няма
+[14:49:37] <vhristev> 4 партишъна
+[14:49:48] <vhristev> boot , vmware Core , swap , VMFS
+[14:49:51] <vhristev> и РУУТ-а го няма
+[14:50:01] <vhristev> гледам му UUID-to то го няма никъде
+[14:50:10] <vhristev> и после разбирам ,че на старият админ 6 заплати не били платен и
+[14:50:10] <dterziev> ние го ядохме заради немците една вечер
+[14:50:18] <dterziev> сложили руут парола на една виртуалка
+[14:50:20] <dterziev> 123qwe
+[14:50:23] <vhristev> ама то беше ESX server аз сега ще им сложа vSphere
+[14:50:24] <dterziev> и познай какво стана :)
+[14:50:35] <vhristev> РУУТ пасс ?
+[14:50:38] <dterziev> да
+[14:50:42] <dterziev> с разрешен руут логин
+[14:50:48] <dterziev> и без фаируол :)
+[14:50:53] <vhristev> аз ти казах направи им един отделен ВЛАН за тях и никакъв достъп на машини до които нямаш достъп
+[14:50:58] <dterziev> няма как
+[14:51:06] <dterziev> трябва да има достъп
+[14:51:11] Xekc (54f2bf02@gateway/web/cgi-irc/kiwiirc.com/ip.84.242.191.2) joined #telerikacademy.
+[14:51:11] <vhristev> Еми да е бутнат ебал съм е във фирмата
+[14:51:34] <vhristev> то ако те самите не се пазят и ти казват кво да правиш какво да сториш
+[14:51:59] <vhristev> И ония пич им казал еми вече неможете да си извадите информацията
+[14:52:06] <vhristev> и ония се бяха спекли
+[14:52:10] <dterziev> поне си признаха че те са виновни :)
+[14:52:10] <vhristev> 20ТБ с лицензирани филми
+[14:52:21] <vhristev> Тва шефа да признае нещо си е направо за похвала
+[14:52:38] <vhristev> Явно ония се изнервил
+[14:52:42] <vhristev> и затрил руут дяла
+[14:52:52] <vhristev> или тия преди мен дето са се опитвали да го оправят
+[14:53:03] <dterziev> може :)
+[14:53:07] <dterziev> добре че е само руута
+[14:53:09] <dterziev> а не всичко
+[14:53:14] <vhristev> без да се занимавам буутнах един ЕСХ от флашка и им дигнах всичко
+[14:53:21] <vhristev> и днес ще ходя да им оправя бакитие
+[14:53:32] <vhristev> Да.... явно е решил ,че с руут-а ще им е достатъчно
+[14:53:41] <vhristev> иначе можеше един secure erase въри го спасявам после
+[14:53:42] <hackman> https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/1074636_10151611849797946_850191007_o.jpg нашата торта :)
+[14:53:55] <vhristev> Оооооооооооооо
+[14:54:03] <dterziev> аз след малко слизам в графита
+[14:54:09] <dterziev> да видите вие един сисадмин дей
+[14:54:09] <dterziev> :Д
+[14:54:12] <vhristev> Жената ми взе такова за банята с линукс пингвина
+[14:54:22] <vhristev> поздрави на колегит е
+[14:54:30] <dterziev> ти помниш ли като бях дошъл с пистолет на работа :Д
+[14:54:33] <vhristev> тоя графит трябва вече членска карта да имаш
+[14:54:34] <dterziev> Жоро как се спече
+[14:54:46] <vhristev> ми като те знаем какъв си си е филм малко
+[14:54:54] <vhristev> леко избухлив с оръжие как да не се спечеш
+[14:55:03] <dterziev> е аз бях стрелял по снимка на Мариян :Д
+[14:55:11] <dterziev> ама и той присъстваше
+[14:55:21] <vhristev> грубичко
+[14:55:22] <vhristev> хахаха
+[14:55:22] <dterziev> иначе него не съм го чувал от бая време
+[14:55:34] <vhristev> помня само ме крънкаше да ходим до стрелбището
+[14:55:40] <dterziev> Тобиас ме гледа много странно тогава
+[14:55:50] <dterziev> тва в Германия се водило закана за убийство
+[14:55:51] <Xekc> Честит Сисадмински ден!
+[14:55:52] <dterziev> дрън дрън
+[14:56:14] <dterziev> иначе в Графита има Гленморан
+[14:56:21] <dterziev> мен много ме кефи тва уиски
+[14:56:25] <dterziev> миналата неделя
+[14:56:34] <dterziev> като бяхме бутнали захранването на метан станцията
+[14:56:37] <dterziev> пих такова :)
+[14:56:58] <dterziev> някой идиот включил климатика в сървърнот на UPS-а
+[14:57:04] <dterziev> спира тока на сградата
+[14:57:13] <dterziev> AVR-а прещраква към метан станцията
+[14:57:14] <dterziev> и....
+[14:57:19] <dterziev> всички бушони долу :)
+[14:57:45] <dterziev> идвам ония запалили генератор и се чудят кво став
+[14:59:11] <vhristev> (;
+[14:59:30] <dterziev> не знам кой е бил тоя капацитет
+[14:59:32] <vhristev> аз си взимам сега Jack - Signle Barel
+[14:59:40] <dterziev> дето ще пусне климатика в малкия UPS
+[14:59:51] <dterziev> яко беше ударил нещата
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:00:02] <hackman> dterziev: защо ме стреляш бе ?
+[15:00:27] <dterziev> хахаахх :Д
+[15:00:36] <dterziev> за друг Мариян става въпрос :)
+[15:00:38] <vhristev> Друг мариян
+[15:00:47] <dterziev> хамериканец
+[15:00:58] <vhristev> Българин зелен имигрант
+[15:01:27] <dterziev> той като си беше тука мина само за 10 минути
+[15:01:29] <dterziev> и изчезна
+[15:02:23] <dterziev> vhristev ти кога ще идваш пак към Пловдив
+[15:02:28] <dterziev> да пием по 2-3
+[15:02:29] <hackman> https://www.youtube.com/watch?v=7r8VXuZrl7s
+[15:02:54] <dterziev> хахаха
+[15:02:55] <vhristev> Уффф човек нз
+[15:03:00] <vhristev>  следщите 3 седмици знам какво ще правя
+[15:03:03] <dterziev> на мен ми пускат тикет - "не мога да се логна"
+[15:03:04] <vhristev> направо ти казвам ужасно е
+[15:03:06] <dterziev> и това е...
+[15:03:11] <dterziev> ама къде, как..
+[15:03:16] <dterziev> що пък трябва да знам?
+[15:03:31] <dterziev> или другото е "проблем с логин на нашия сървър"
+[15:03:54] <vhristev> ТИ си админ бе всичко трябва да знаеш
+[15:03:57] <vhristev> хахаххаах
+[15:03:58] <dterziev> мда :)
+[15:04:05] <dterziev> какъв ти е юзернейма?
+[15:04:09] <dterziev> ами като ония другите
+[15:04:12] <dterziev> а иди се сети
+[15:04:12] <dterziev> :)
+[15:04:16] <vhristev> Дори трябва да му кажеш " Г-не да не забравите да си вземете нещата от химическото" хахахха
+[15:04:20] <vhristev> гепи тоя мониторинг
+[15:04:20] <vhristev> (;
+[15:04:25] <dterziev> на Кунчев му изтрих целия мейл акаунт
+[15:04:30] <vhristev> хахахахаха
+[15:04:34] <vhristev> ще страдат
+[15:04:35] <dterziev> щото ми каза, че не било негова работа да си знае паролата
+[15:04:37] <dterziev> и мейл адреса
+[15:04:41] <vhristev> 15Г мейли тва нормално ли е
+[15:04:45] <vhristev> тая поща е като файл сървър
+[15:04:46] <dterziev> това било работа на администратора
+[15:04:56] <vhristev> аз като си бях една ми обясняваше за мейлите нещо викам ... ти с тая поща 15Г
+[15:04:58] <phalaaxx> 15G е малко :D
+[15:04:58] <dterziev> ами човек - пускам един скрипт да затрие кошчетата
+[15:05:03] <dterziev> и на другия ден драма
+[15:05:05] <dterziev> няма ми мейлите
+[15:05:08] <vhristev> ти луд ли си в ХП бяхме на 200MB
+[15:05:09] <dterziev> половината фирма
+[15:05:13] <vhristev> 200 мБ лимит и тва е
+[15:05:15] <vhristev> оправяш се
+[15:05:19] <dterziev> а те… си държали ВАЖНИ мейли в КОШЧЕТО
+[15:05:27] <vhristev> над 3МБ мейл като пратиш и хората почват да ти връщат гневни мейли
+[15:05:32] <dterziev> там им било по-удобно да ги търсят
+[15:05:41] <vhristev> Ми щото коша се вижда като папчица фецко
+[15:05:46] <phalaaxx> аз търкалям няколко акаунта дето са по 50G и нагоре... от там нищо не се трие :)
+[15:05:55] <dterziev> да се ебат, ся зимбрата на 30 дни чисти сама
+[15:05:56] <dterziev> :)
+[15:06:22] <phalaaxx> оо важните в кошчето, на сигурно място :D
+[15:06:31] <vhristev> https://www.youtube.com/watch?v=5BZcL09b9V4
+[15:06:46] <vhristev> митак вече има зимбра
+[15:06:58] <vhristev> пусни и briefcase и вече спираш с простотиите
+[15:07:02] <KrasiGa> hackman: на последното домашно за въпрос: 2. Configure your command prompt in such a way, that you will see the exact hour, minute and second of the execution of the previous command.
+[15:07:04] <vhristev> или както ти казах БЕКЪП
+[15:07:12] <dterziev> иди ги накарай да ползват такива екстри :)
+[15:07:18] <dterziev> много добре знаеш
+[15:07:22] <dterziev> че са технически неграмотни
+[15:07:23] <KrasiGa> това ли е решението? ако съм разбрала правил;но въпроса: http://www.cyberciti.biz/faq/unix-linux-bash-history-display-date-time/
+[15:07:37] <dterziev> мен ми казват… "аз на мейла парола не искам да имам щото много се бавя като я пиша"
+[15:07:41] <dterziev> губели време...
+[15:07:51] <dterziev> някой ден ще затрия всичко дето е с някви лесни пароли
+[15:08:38] <hackman> KrasiGa: не :)
+[15:08:55] <hackman> идеята е всеки път като натиснеш enter да ти показва времето когато си го натиснала
+[15:10:04] <hackman> нещо ей такова да ти се получава: hackman@terion 03:07:59 PM~$
+[15:10:28] <vhristev> hackman,  разликата между /w i /W че едното е current dir drugoto FULL
+[15:10:35] <vhristev> сега се сетих ,че тогава се говореше
+[15:10:36] <vhristev> (;
+[15:11:38] <dterziev> vhristev, обясни ги тия неща на малкия жорко
+[15:11:44] <dterziev> дето иска паролата за сървъра
+[15:11:49] <dterziev> за да го рестартира като прецени :)
+[15:11:49] <vhristev> хахаха
+[15:11:54] <vhristev> той нали все хакнаха ни хакнаха
+[15:11:58] <vhristev> 3 пъти си забравя паролата
+[15:12:07] <dterziev> аз такива ги лекувам вече лесно
+[15:12:07] <vhristev> тоя е перко там само бисери трябва дасе записват
+[15:12:18] <dterziev> сега пие слънчева вода
+[15:12:22] <dterziev> едно шише
+[15:12:25] <dterziev> седи на прозореца
+[15:12:40] <dterziev> и оставил бележка - приберете ми шишето, че довечера е пълнолуние
+[15:12:49] <dterziev> и ще се зареди с отрицатена енергия :)
+[15:12:58] <dterziev> пф, дано да няма логове на тоя чат
+[15:13:04] <dterziev> да вземе да ги види от някъде :Д
+[15:13:19] <Xekc> има
+[15:13:27] <hackman> dterziev: http://grizzly.yuhu.biz
+[15:13:48] <Xekc> колеги, да питам, някой има ли проблем с sudo на grizlly?
+[15:14:15] <dterziev> баси ирц-то не съм влизал от 2006-та :Д
+[15:14:29] <dterziev> а преди си джитках по сорсовете на сървисите и ирцд-тата :Д
+[15:14:53] <dterziev> https://code.google.com/p/bg-ircd/
+[15:15:45] <Xekc> Xekc is not in the sudoers file.  This incident will be reported.
+[15:15:59] <dterziev> добави се в /etc/sudoers
+[15:16:22] <Xekc> "/etc/sudoers" [Permission Denied]
+[15:16:32] <dterziev> е като root де :)
+[15:16:33] <Xekc> пробвах
+[15:16:41] <dterziev> su -
+[15:16:45] <dterziev> root паролата
+[15:16:47] <dterziev> и тогава
+[15:17:11] <dterziev> echo " username-a ALL=(ALL)       ALL" >> /etc/sudoers
+[15:17:21] <Xekc> явно съм пропуснал, когато са я дали
+[15:17:30] <dterziev> само внимавай да не пишеш само едно > :)
+[15:17:46] <Xekc> хехехе
+[15:19:19] <vhristev> а това няма да пита за парола при изпълняване на командите > USER      ALL=(ALL)       NOPASSWD: ALL
+[15:19:28] <dterziev> mda :)
+[15:19:44] <dterziev> при нас немците ебаси ташака всичко що е cnetos или redhat
+[15:19:47] <dterziev> с инсталиран гним
+[15:19:49] <dterziev> гном
+[15:19:55] <dterziev> и с някви графични тулове
+[15:19:58] <dterziev> за censhare :)
+[15:20:11] <vhristev> Гнома е нищо пред ония соларис на Немски
+[15:20:15] <dterziev> хахаахахахах
+[15:20:16] <vhristev> NFS ми връща няква грешна на немски
+[15:20:23] <dterziev> добре че беше мориц :)
+[15:20:24] <vhristev> пускам в транслейта
+[15:20:31] <vhristev> га разбирам клиента и сървъра различни версии
+[15:20:33] <Xekc> добре де, споделете къде е тая root парола
+[15:20:36] <Xekc> моля
+[15:20:43] <dterziev> ако машината не е твоя...
+[15:20:44] <vhristev> как така къде е руут паролата
+[15:20:47] <dterziev> няма руут парола :)
+[15:20:55] <Xekc> за grizzly
+[15:21:08] <dterziev> плюс тва судо може да е конфигурирано да ти дава само достъп до определени ресуср
+[15:21:10] <dterziev> ресурси
+[15:21:15] <dterziev> без руут шел
+[15:21:17] <dterziev> :)
+[15:21:45] <dterziev> на мен ми се караха преди, че съм инсталирал един соларис без графичен интерфейс :)
+[15:21:57] <Xekc> не ми дава да се сложа в sudoers
+[15:21:57] <dterziev> ама аз така или иначе утрепах виртуалката
+[15:22:51] <dterziev> няма да ти даде
+[15:23:06] <dterziev> и ако не знаеш защо - по-добре и да не ти даде :)
+[15:23:17] <dterziev> смисъл ако не знаеш какво правиш
+[15:23:33] <dterziev> по-добре мажи като юзър :)
+[15:23:55] <Xekc> като юзър не мога да мажа, още не съм научил толкова
+[15:24:08] <vhristev> KrasiGa,
+[15:24:09] <vhristev>  PS1="\[\033[0;35m\]\[\033[01;33m\][\A]\u@\[\033[0;31m\]\[\033[01;32m\]\h:\[\033[01;34m\]\w\[\033[00m\]\[\033[0;1;39m\]\\$ "
+[15:24:10] <Xekc> опитвах се да разбера как е направен скрипта за course
+[15:24:13] <vhristev> ей тва я моя
+[15:24:36] <Xekc> защото презаписва акаунти
+[15:24:54] <dterziev> vhristev, утрепаха ми 2 години ъптайм на мене
+[15:25:02] <dterziev> с тая авария :)
+[15:25:03] <vhristev> боли те фара
+[15:25:10] <dterziev> е исках да видя колко ще изкара
+[15:25:12] <dterziev> една G4-ka
+[15:25:13] <dterziev> :)
+[15:25:34] <dencho-at-sysadm> hackman: cvetnichko
+[15:25:50] <dterziev> само не знам кой точно е ръгнал климатика там където не трябва
+[15:26:02] <dterziev> май ще слагам камера и в сървърното :)
+[15:26:26] <vhristev> като почнеш да работиш с мн машини цвета някой ден ще ти спази живота
+[15:27:10] <dterziev> ние едната машина си я кръстихме Огняна
+[15:27:15] <dterziev> на един Огнян на името :)
+[15:27:23] <dterziev> т.е. той се казва Иван
+[15:27:26] <dterziev> ама му викат Огнян
+[15:27:58] <Xekc> хах, аз съм Огнян
+[15:28:04] <Xekc> ама по лична
+[15:28:20] <dterziev> е не, оня е Иван
+[15:28:26] <dterziev> ама щото били много Ивановци
+[15:28:35] <dterziev> и всички му викат Огнян :)
+[15:28:36] <vhristev> друго си е кърнал да ти се казва kariq
+[15:28:43] <vhristev> навремето като го видях и щях се нарежа
+[15:29:24] <dterziev> ам аз виж кво съобщение за грешка имам :Д аз съм го писал: Invalid request: barai mekiq
+[15:29:31] <Xekc> аз имам един познат, който се казва Димитър, но му викат Венци, по същата причина
+[15:30:12] <dterziev> тва от едно пхп, през което ми минават заявките на iphone приложнието, с което следя синковете :)
+[15:30:48] <dterziev> twa e drugoto: http://irsync.mw-medianetworks.eu/request.php
+[15:31:30] <vhristev> НАйс
+[15:31:33] <yulimoto> KrasiGa: виж за промта  и му сложи каквото ти требе http://www.cyberciti.biz/tips/howto-linux-unix-bash-shell-setup-prompt.html
+[15:31:35] <vhristev> аз нз за графита
+[15:31:41] <vhristev> ама аз паля за ония хора да направя клъстер
+[15:31:45] <dterziev> ок
+[15:31:47] <dterziev> и аз след малко
+[15:31:51] <dterziev> че днес е петък
+[15:31:55] <dterziev> и много се задържах
+[15:31:56] <vhristev> че жената може да не мога да си отключа в нас жената вече може да ме изрита
+[15:31:59] <dterziev> няма кой да ме напсува
+[15:32:00] <vhristev> Петък днес
+[15:32:06] <vhristev> и то специален петък
+[15:32:09] <dterziev> мани бе
+[15:32:15] <dterziev> тука като няма дертове
+[15:32:21] <dterziev> и може цял ден да не стъпиш в офиса
+[15:32:24] <yulimoto> Xekc: знаеш ли си паролата за акаунта изобщо ?
+[15:32:26] <dterziev> няма кой да види жив ли си
+[15:32:28] <dterziev> умрал ли си
+[15:32:28] <KrasiGa> благодаря на vhrisetv, yulimoto i phalaaxx
+[15:32:29] <dterziev> :)
+[15:33:32] <dterziev> vhristev, трява да мръдна към София
+[15:33:33] <dterziev> някой ден
+[15:33:40] <dterziev> да пийнем по софийски :)
+[15:33:53] <vhristev> Ми ти все като дойдеп по работа неможе да наминеш
+[15:33:59] <vhristev> все едно някой те гони
+[15:34:03] <dterziev> ам последно с на веси баща и
+[15:34:06] <dterziev> не му се обикаля
+[15:34:10] <dterziev> а и не му плащат да обикаля :)
+[15:34:12] <vhristev> нали му се плаща
+[15:34:22] <dterziev> ами плащат му да ни закара до ITD и да се върнем :)
+[15:34:31] <vhristev> Кво пари взима
+[15:34:37] <vhristev> ДЕЙММММММММ
+[15:34:51] <vhristev> билета софия плд 24 лв. + такситата 25  = 50 лв.
+[15:34:51] <vhristev> (;
+[15:34:52] <dterziev> тя колокацията ни е по-малко на месец :D
+[15:34:59] <vhristev> ако радиана разбере вече с рейс ще пътуваш
+[15:34:59] <vhristev> хахаха
+[15:35:05] <dterziev> да бе ама да не мукнеш 20 кила желязо :)
+[15:35:24] <dterziev> не ме питай как се оправих с една ментелска флашка
+[15:35:26] <dterziev> през впн-а
+[15:35:32] <dterziev> да инсталирам ценшер клиенти
+[15:35:35] <dterziev> през ARD :)
+[15:35:42] <dterziev> онва показва на кадри
+[15:35:53] <dterziev> ъплоудва ми клиента 1 час сигурно
+[15:36:02] <dterziev> на ОМВ-то до ИТД бяхме :)
+[15:36:40] <vhristev> ееееее
+[15:36:43] <vhristev> ти пък кво очакваш
+[15:36:47] <vhristev> нет стрела
+[15:36:53] <dterziev> 2 мегабита ебсаи скоростта
+[15:37:34] <Deyan> какво сте направили, ина ли нещо интересно да чета
+[15:38:24] <KrasiGa> помогнете със споделянето на папки във Vbox
+[15:38:30] <dterziev> не знам, аз ще чета довечера :Д
+[15:38:31] <vhristev> KrasiGa,
+[15:38:39] <vhristev> 1во трябва да имаш TOOLS инсталирани
+[15:38:39] <KrasiGa> sled kato v опциите указах коя е
+[15:38:41] <vhristev> после е мн лесно
+[15:38:48] <vhristev> имаш ли ТУУЛС инсталнати
+[15:38:52] <vhristev>  без тях не работи
+[15:39:03] <KrasiGa> ами не знам?
+[15:39:22] <dterziev> абе с тия виртуалки се родих аз :)
+[15:39:29] <dterziev> вчера трябваше да пускам 4 инсталации
+[15:39:34] <vhristev> http://www.youtube.com/watch?v=vi53zKcvgXU
+[15:39:34] <dterziev> клон от едно ПЦ 1:1
+[15:39:36] <dterziev> и айде...
+[15:39:37] <dterziev> :)
+[15:39:39] <KrasiGa> пише за да я достъпя да ползвам mount -t vboxsf share mount_point
+[15:40:00] <vhristev> да ама за да е достъпиш трябва да имаш ТУУЛС
+[15:40:04] <vhristev> виж видеото
+[15:40:06] <dterziev> vhristev, ся до всеки МАК в единия отде
+[15:40:08] <dterziev> отдел
+[15:40:13] <dterziev> май ще има ПЦ-та
+[15:40:14] <dterziev> :)
+[15:40:17] <vhristev> ДЕЙМ<
+[15:40:17] <dterziev> има няква система
+[15:40:19] <vhristev> пари нямат а
+[15:40:20] <vhristev> (;
+[15:40:21] <dterziev> която бачка САМО на ПЦ
+[15:40:27] <dterziev> аз взимам само HP-ta
+[15:40:30] <dterziev> вече
+[15:40:39] <dterziev> немците им се кефят
+[15:40:41] <vhristev> МИ за Workstations са супер
+[15:40:44] <vhristev> да знам
+[15:40:49] <dterziev> казаха ми да не съм купувал 3rd party техника
+[15:40:53] <vhristev> немците си се кефят на HP
+[15:40:58] <dterziev> шнайдер ме навика веднъж да не купувам Перси
+[15:41:06] <dterziev> и от тогава всичко е IBM/HP :)
+[15:41:08] <vhristev> щото са ЛОЛ кост
+[15:41:08] <vhristev> (;
+[15:41:12] <vhristev> ОК аз паля
+[15:41:13] <vhristev> пийз
+[15:41:16] <vhristev> поздрави
+[15:41:17] <dterziev> мда, той тая фирма не я бил чувал
+[15:41:20] <dterziev> айде
+[15:41:23] <vhristev> БНЦ-то си седи тъйче гг
+[15:41:23] <vhristev> (;
+[15:41:52] <dterziev> ай
+[15:41:54] <yulimoto> как беше за думите !топ vhristev e решил да се връща в мача
+[15:42:02] <dterziev> пф, жалко че няма зарибени по ирц вече
+[15:42:04] <dterziev> да продавам шелове
+[15:42:10] <dterziev> с "хубави" хостове :Д
+[15:42:30] <yulimoto> dterziev: vps са новите шелове веке
+[15:42:35] <dterziev> мхм :)
+[15:42:39] <dterziev> знам аз
+[15:42:56] <dterziev> към 40 ги търкалям
+[15:43:10] <phalaaxx>  не може ли chroots? по-лекичко вървят :)
+[15:43:24] <yulimoto> тва търкалям а на бас че си го взелх от vhristev
+[15:43:31] <yulimoto> взел*
+[15:44:01] <yulimoto> неговото мото е "важното нещо да се търкаля" !!!!
+[15:44:05] <yulimoto> щото
+[15:44:08] <yulimoto> :)
+[15:44:28] <dterziev> ми все пак… 4 години сме бачкали заедно :)
+[15:44:34] <dterziev> може и повече да бяха
+[15:44:39] <yulimoto> да нормално
+[15:45:57] <yulimoto> той тук е митичен герой ; различва фейк от h райд в 1:30 вечерта и служи за пример на подрастващите
+[15:46:13] <dterziev> хахахах
+[15:46:34] <dterziev> ако имаш възможност - качи св с него в някоя по-бърза кола
+[15:46:42] <dterziev> и го остави да кара
+[15:46:48] <dterziev> т.е. не ако имаш възможносе
+[15:46:54] <dterziev> ако ти държи по-точно :)
+[15:48:28] <yulimoto> да не кара като монахинята от "Полицая от Сент Тропе" ?
+[15:48:41] <dterziev> не може да се опише
+[15:48:45] <dterziev> трябва са се преживее :)
+[15:48:54] <dterziev> обратен завой - на ръчна :)
+[15:49:29] <yulimoto> хаха
+[15:52:03] samy_ (~samy@77-85-7-4.btc-net.bg) left irc: Ping timeout: 268 seconds
+[15:58:18] hackman (~HackMan@management.1h.com) left irc: Ping timeout: 276 seconds
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:00:02] bentoslack (~Adium@ibekyarov.mw-medianetworks.eu) left irc: Excess Flood
+[16:00:14] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[16:01:20] <bentoslack> dterziev не можах да те флуудна
+[16:02:53] <dterziev> пробвай пак
+[16:02:57] <dterziev> и аз ще натисна Enter
+[16:02:59] <dterziev> mw-gateway#conf t
+[16:02:59] <dterziev> mw-gateway(config)#ip access-list extended 114
+[16:02:59] <dterziev> mw-gateway(config-ext-nacl)#1250 deny ip host 192.168.1.105 any
+[16:03:02] <dterziev> :)
+[16:04:45] <bentoslack> имам физически достъп така че
+[16:04:48] <bentoslack> все тая :)
+[16:04:58] <yulimoto> ако ще седите един до друг е по-лесно да си говорите
+[16:05:01] <yulimoto> ;)
+[16:05:20] <dterziev> мхм, ама чука е до мен :)
+[16:08:25] <phalaaxx> http://pastebin.com/FEmSykGf
+[16:08:26] <phalaaxx> fun /w bash & PS1
+[16:11:25] <yulimoto> phalaaxx: много актуално между впрочем.
+[16:11:45] <dencho-at-sysadm> btw da... :D
+[16:11:51] <phalaaxx> защо?
+[16:11:56] <yulimoto> ще го обмисля като възможност според прогнозата за врмето
+[16:12:06] <dencho-at-sysadm> zashtoto sega shte si go sloja :D
+[16:13:02] <yulimoto> phalaaxx: щото имам нужда от вентилатор и паста :)  но и това може да свърши ралта ;)
+[16:20:00] <phalaaxx> по-добре пастата и вентилатора, да не го мислиш много много :)
+[16:24:50] <phalaaxx> иначе това е интересно като възможност, може да си изкараш нещо полезно така... примерно reallocated sectors count от SMART-а на диска :)
+[16:24:50] <phalaaxx> или uptime на шпиндела - да се знае кога му идва времето за кофата...
+[16:25:03] <KrasiGa> Ctrl+V видях, че не е paste v linux. Някой щеми  каже ли кое е?
+[16:25:57] <phalaaxx> shift+insert?
+[16:26:05] <yulimoto> пробвай Ctrl+Shft+V
+[16:26:14] <yulimoto> aaa
+[16:27:07] dterziev (~dterziev@dterziev.mw-medianetworks.eu) left #telerikacademy ("Leaving").
+[16:27:19] <KrasiGa> shift+insert works
+[16:29:09] samy_ (~samy@91.196.227.180) joined #telerikacademy.
+[16:29:43] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[16:30:10] <KrasiGa> ейййй направо да си призная, че ще ми липсвате 2 седмици :)
+[16:30:50] <dencho-at-sysadm> da we da
+[16:30:50] <dencho-at-sysadm> :D
+[16:30:57] <dencho-at-sysadm> що приказваш глупости
+[16:31:35] <KrasiGa> сериозно бе
+[16:31:42] <dencho-at-sysadm> да ве :Д
+[16:31:45] <KrasiGa> аз не обичам много да се пържа на слънце
+[16:32:32] <dencho-at-sysadm> :щ
+[16:33:38] <yulimoto> http://www.youtube.com/watch?v=AAVn4-17Bjs
+[16:33:58] <yulimoto> за по-лесно трябва да се превърта на бързо гледане
+[16:34:01] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 256 seconds
+[16:34:01] <yulimoto> ;)
+[16:35:18] <KrasiGa> как пък го изрови това
+[16:35:45] <KrasiGa> хахахахах
+[16:35:56] <KrasiGa> колкото повече го гледам по-смешно ми става
+[16:36:22] <yulimoto> ду ю нийд ми; ду ю ду ю;
+[16:36:27] <yulimoto> голям хит
+[16:36:55] <KrasiGa> някъде в Lebanon?
+[16:37:14] <KrasiGa> a kakvo e tova Lebanon?
+[16:37:57] <yulimoto> а не знам
+[16:38:18] <phalaaxx> държава
+[16:38:31] <KrasiGa> koia?
+[16:38:34] <phalaaxx> гледам и в screen разни готини работи могат да се правят :)
+[16:38:58] <phalaaxx> Ливан
+[16:40:11] <KrasiGa> yulimoto: Мислех, че е в топ 10 на любимите ти песни
+[16:40:19] <KrasiGa> как няма да знаеш къде е това?
+[16:41:05] <yulimoto> KrasiGa: да в топ  5 е даже, ама си го пазя в тайна
+[16:41:30] <KrasiGa> Благодарим ти, че го сподели с нас
+[16:42:07] <yulimoto> phalaaxx: да, и може да пази сессии, което ме кефи, тоя irssi не съм го спирал доста време на гризлито
+[16:42:42] <phalaaxx> това със сесиите го знам от доста време ама досега не го бях цъкал по конфигурацията
+[16:42:45] <yulimoto> KrasiGa: ами нали ще ти липсваме, та да си я пееш "ду ю нийд ми, ду ю ду ю " в Италия
+[16:43:09] <yulimoto> phalaaxx: аа там не знам
+[16:43:39] <phalaaxx> готино е, сега пробвам някакви работи :)
+[16:43:58] <phalaaxx> hardstatus alwayslastline
+[16:43:58] <phalaaxx> hardstatus string '%{= kR}[ %H ]%{g}[%= %{=kw}%?%-Lw%?%{r}(%{W}%n*%f %t%?(%u)%?%{r})%{w}%?%+Lw%?%?%= %{g}][%{B} %Y-%m-%d %{W}%c %{g}]'
+[16:44:01] <phalaaxx> това в .screenrc
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:11] <yulimoto> KrasiGa: 1 минута до отпуската; на стартова позиция ли си ?
+[17:00:15] <KrasiGa> айдеееее :)
+[17:00:20] <KrasiGa> тъкмо почнах да ви пиша
+[17:00:23] <yulimoto> мания
+[17:00:28] <yulimoto> побърках се
+[17:00:31] <yulimoto> като часовник
+[17:00:43] <KrasiGa> приятна почивка от мен
+[17:00:53] <KrasiGa> все пак идва уикенда
+[17:01:08] <yulimoto> хах хайде тръгвай , че това няма кой да ти го плаща ;D
+[17:01:13] <KrasiGa> и не напредвайте много следващите две седмици
+[17:01:20] <KrasiGa> , че не знам как ще ви стигам
+[17:01:36] <dencho-at-sysadm> стана ли 17:00
+[17:01:36] <dencho-at-sysadm> :Д
+[17:01:58] <KrasiGa> дзъън
+[17:02:02] <dencho-at-sysadm> хахахаха
+[17:02:27] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[17:02:47] <dencho-at-sysadm> м да... може да си сверите часовниците
+[17:02:47] <dencho-at-sysadm> :Д
+[17:03:19] <dencho-at-sysadm> Орешарски заложи рестарт на „Белене” в програмата си
+[17:03:26] <dencho-at-sysadm> тези тъпи ли са веее
+[17:03:26] <dencho-at-sysadm> :Д
+[17:03:28] <dencho-at-sysadm> хахаха
+[17:03:43] <dencho-at-sysadm> сигурен съм, че и атомна бомба ако имаха щяха да пуснат
+[17:03:44] <dencho-at-sysadm> :Д
+[17:03:56] <dencho-at-sysadm> независимо, че народа не иска :Д
+[17:04:17] <phalaaxx> съмнявал ли си се че ще върнат Белене?
+[17:04:27] <phalaaxx> те тия са глухи
+[17:07:09] <dencho-at-sysadm> комисионерска работа
+[17:07:10] <dencho-at-sysadm> :Д
+[17:07:12] <phalaaxx> предполагам че сега така ще си изиграят картите че после има/няма Белене - ние ще плащаме за Белене :D а сметките за ток няма да паднат, напротив...
+[17:08:00] <dencho-at-sysadm> тъпаци
+[17:08:01] <phalaaxx> БГ трябва да влезе в учебниците за пример как правителство може да работи срещу интересите на народа си
+[17:13:52] <Deyan> Ахйде много ви здраве, аз излизам в отпуска, и все по-рядко ще се засичаме в следващите няколко дни!
+[17:14:36] <phalaaxx> амиии приятна почивка :)
+[17:14:36] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[17:15:07] <dencho-at-sysadm> аз пък излизам в почивка 2 дни :Д
+[17:15:08] <dencho-at-sysadm> хахаха
+[17:15:09] <dencho-at-sysadm> :d
+[17:15:28] <yulimoto> dencho-at-sysadm: и три нощи
+[17:15:36] <dencho-at-sysadm> :D
+[17:16:12] <dencho-at-sysadm> което доказва, че ако спя през деня, а щракам през ноща, то времето ще ми е повече :Д
+[17:26:50] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[17:31:18] <_wiseman_> айде и днеска свърши, отивам си за бира, че утре четене, четене, bash четене....
+[17:33:42] <dencho-at-sysadm> как па не
+[17:33:43] <dencho-at-sysadm> :)
+[17:33:45] <dencho-at-sysadm> утре спане
+[17:33:46] <dencho-at-sysadm> :Д
+[17:52:55] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
+[17:54:56] <dencho-at-sysadm> are pichove i az gasa toka
+[17:55:08] <dencho-at-sysadm> do skoro... :D
+[17:55:20] dencho-at-sysadm (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:03:32] georgidimov (3edd9aba@gateway/web/freenode/ip.62.221.154.186) left irc: Ping timeout: 250 seconds
+[18:19:09] dterziev (~dimitar@46.47.83.79) joined #telerikacademy.
+[18:49:53] <phalaaxx> https://www.facebook.com/photo.php?fbid=564984866893617&set=a.261928447199262.60849.261920330533407&type=1
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:18:38] s0ny123 (~agit0@95.111.18.140) left irc: Ping timeout: 268 seconds
+[19:28:50] Xekc (54f2bf02@gateway/web/cgi-irc/kiwiirc.com/ip.84.242.191.2) left irc: Quit: http://www.kiwiirc.com/ - A hand crafted IRC client
+[19:47:31] <yulimoto> Естония си е пуснала с-мата за гласуване онлайн - https://github.com/vvk-ehk/evalimine
+[19:47:41] <yulimoto> т.е. кода
+[19:54:09] <dencho> за гласуване на какво
+[19:55:12] <dencho> сега знаеш ли как се прави, министерството обявява конкурс, тяхна фирма го печели, някой взема кода слага си неговото име и лого и взема някакви милиони :)
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:09:00] <episparh> стига да нямаше лиценз
+[20:12:52] <dterziev> eba mama mu
+[20:12:55] <dterziev> kak sa napih :D
+[20:41:30] <dencho> http://youtu.be/alCgrHzNfKc
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:50:06] <samy__> male tfa kak spami
+[21:50:07] <samy__> ;d
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:06:50] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[22:09:16] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[22:22:07] phalaaxx1 (~bozhin@94.26.20.166) joined #telerikacademy.
+[22:52:55] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[22:54:52] <KacanuH> какво правите мутрии, празнувате ли празника
+[22:59:24] <KacanuH> !спят ли админите?
+[22:59:43] <KacanuH> дори Telerik няма идея дали спите
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:03:06] KacanuH (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[23:04:49] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[23:37:23] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[23:42:24] net: connect! sock 3
+[23:42:24] DNS resolve failed for 127.0.0.1
+[23:42:24] Telnet connection: 127.0.0.1/45101
+[23:42:24] net: connect! sock 11
+[23:42:24] net: eof!(read) socket 11
+[23:42:24] Timeout/EOF ident connection
+[23:42:30] Logged in: yulimoto (telnet@127.0.0.1/45101)
+[23:43:31] tcl: builtin dcc call: *dcc:say yulimoto 6 Д�а, ад КаКа�сапче, админите спят по масите!
+[23:43:44] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[23:45:22] <KacanuH> Telerik, нищо не ти се чете
+[23:45:41] net: connect! sock 3
+[23:45:41] DNS resolve failed for 127.0.0.1
+[23:45:41] Telnet connection: 127.0.0.1/45103
+[23:45:41] net: connect! sock 11
+[23:45:41] net: eof!(read) socket 11
+[23:45:41] Timeout/EOF ident connection
+[23:45:48] Logged in: yulimoto (telnet@127.0.0.1/45103)
+[23:46:05] tcl: builtin dcc call: *dcc:say yulimoto 6 Да, админите спят по масите!!!
+[23:46:13] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[23:47:19] <KacanuH> Я ти да видиш, тенекето се разговори
+[23:47:53] <s0ny123> :D
+[23:49:06] net: connect! sock 3
+[23:49:06] DNS resolve failed for 127.0.0.1
+[23:49:06] Telnet connection: 127.0.0.1/45105
+[23:49:06] net: connect! sock 11
+[23:49:06] net: eof!(read) socket 11
+[23:49:06] Timeout/EOF ident connection
+[23:49:13] Logged in: yulimoto (telnet@127.0.0.1/45105)
+[23:50:02] tcl: builtin dcc call: *dcc:say yulimoto 6 Шегата на страна вие ми вдъхнахте чживе�живец, бе. Бях некомпилиран код, а сега жи�вея втори живот.
+[23:50:52] tcl: builtin dcc call: *dcc:say yulimoto 6 живец*
+[23:51:04] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[23:51:15] <KacanuH> ей желязо хахаво, пиши поне с 1 и 0, така абсолютно нищо не мога да ти схвана
+[23:51:48] net: connect! sock 3
+[23:51:48] DNS resolve failed for 127.0.0.1
+[23:51:48] Telnet connection: 127.0.0.1/45107
+[23:51:48] net: connect! sock 11
+[23:51:48] net: eof!(read) socket 11
+[23:51:48] Timeout/EOF ident connection
+[23:51:58] Logged in: yulimoto (telnet@127.0.0.1/45107)
+[23:52:21] <phalaaxx1> :D
+[23:52:39] tcl: builtin dcc call: *dcc:say yulimoto 6 4�е�4estno li ne shvashtash genialniq mi encoding
+[23:53:02] <KacanuH> <Telerik> Ð”ÐÐ°, Ð°Ð´ ÐšÐ°ÐšÐ°ÐÑÐ°Ð¿Ñ‡Ðµ, Ð°Ð´Ð¼Ð¸Ð½Ð¸Ñ‚Ðµ ÑÐ¿ÑÑ‚ Ð¿Ð¾ Ð¼Ð°ÑÐ¸Ñ‚Ðµ!
+[23:53:07] <KacanuH> схвани си го ти :)
+[23:53:24] <KacanuH> чакай да пробвам през уеба
+[23:53:43] tcl: builtin dcc call: *dcc:say yulimoto 6 ei da si opravish encodinga mom4ence
+[23:54:03] deyan (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) joined #telerikacademy.
+[23:54:25] <deyan> кажи нещо
+[23:54:27] Nick change: deyan -> Guest54158
+[23:55:13] <s0ny123> я предложете какъв рутер да си взема... че моя linksys сдаде багажа
+[23:55:17] tcl: builtin dcc call: *dcc:say yulimoto 6 на български in english
+[23:55:38] <KacanuH> е ти вече си оправи енкодинга
+[23:56:01] <KacanuH> s0ny123, не мога да ти помогна, ние внасяме linksys
+[23:56:11] <KacanuH> какво му стана
+[23:56:29] <s0ny123> о аз от моя си бях доволен просто не съм гледал новите как се държат
+[23:56:32] tcl: builtin dcc call: *dcc:say yulimoto 6 hmmmm, skoro imashe tuka edna diskusiq. imashe predlovenie za edno legendarno cisko, deto pie bira i psuva mesi
+[23:56:59] <KacanuH> да аз я бях подел :)
+[23:57:11] <s0ny123> започна да дропи редовно, upgrade-нах му firmware-а, ресетнах го и пак се ебава...
+[23:57:17] <s0ny123> редовно си се реска
+[23:57:25] <KacanuH> аз да ти кажа сега съм с е1200 и съм доволен
+[23:57:25] <s0ny123> не пуска компютри да се свържат и тн
+[23:57:39] tcl: builtin dcc call: *dcc:say yulimoto 6 aaaaaaa zna4i znaesh 4e ne reje cska-ri po mac address ....
+[23:57:40] <KacanuH> новите са уникални, но още имат бъгове
+[23:59:10] <s0ny123> хм и аз гледах е1200/е1500, може и това да си взема :)
+[23:59:47] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[23:59:53] <phalaaxx1> s0ny123: с друго захранване?
+[00:00:00] --- Sat Jul 27 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

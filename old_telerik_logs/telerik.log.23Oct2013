@@ -1,0 +1,399 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:18:56] Vankata (Vankata@77.70.105.191) left irc: 
+[00:20:15] Guest59979 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:24:41] looser99 (John@78.130.186.99) joined #telerikacademy.
+[00:27:34] user99 (John@78.130.186.99) left irc: Ping timeout: 268 seconds
+[00:37:22] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[00:57:46] rewind (~teo@46.238.29.142) joined #telerikacademy.
+[00:59:44] <rewind> Преборих го (домашното от вчера)
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:04:26] <rewind> за да работят и двата пътя трябва конфигурация на интерфейса с 2 IP-та (едното алиас) с адреси и от двете мрежи
+[01:05:20] <rewind> и чак тогава може да се добави просто така пътя в /etc/network/interfaces и то на правилното място под съответните настройки на мрежата и на alias-а
+[01:07:00] <rewind> http://pastebin.com/HqZHxbh0
+[01:15:36] <rewind> лека на всички :)
+[01:26:24] Tiako (~Tiako@246.Red-88-15-54.dynamicIP.rima-tde.net) left irc: Read error: Connection reset by peer
+[01:30:17] staafl (~staafl@95-42-27-15.btc-net.bg) left irc: Ping timeout: 272 seconds
+[01:52:51] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:46:48] Fairytale (~Fairytale@police.executie.org) joined #telerikacademy.
+[03:56:44] <Fairytale> NetSecurity nali ste e dnes ( srqda) ? Gledam na iseca pishe Всеки вторник в зала 200 на ФМИ от 19.00 до 21.00 часа
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:12:10] <hackman> да, да... днес зала 325 от 19 до 22 :)
+[04:16:23] <Fairytale> hackman: mersi. Ti nqkoga spish li? :-)
+[04:20:23] <hackman> вчера спах :)
+[04:20:36] <hackman> сега подготвям два HA cluster-a :)
+[04:20:40] <Fairytale> E prestaral si se :-)
+[04:25:57] <Fairytale> Heartbeat i HA cluster edno i sasto li trqbva da oznachava?
+[04:31:15] <hackman> не точно :)
+[04:31:51] <hackman> просто защото на мястото на Heartbeat-а може да имаш corosync openais или cman
+[04:32:02] <hackman> общото е че всичките използват pacemaker отгоре
+[04:32:17] <hackman> в общи линии много лесно се пуска едно такова нещо :)
+[04:32:27] <hackman> 20 реда конфигурация и си готов
+[04:32:47] <Fairytale> Kato go znaesh e lesno, inache ne e :)
+[04:33:56] <hackman> с документацията която има
+[04:34:02] <hackman> за 3-4h пак ще си готов
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:51:50] Fairytale (~Fairytale@police.executie.org) left irc: Ping timeout: 245 seconds
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:27:54] staafl (~staafl@95.42.27.15) joined #telerikacademy.
+[08:37:35] topalov (~topalov@gw.prosyst.bg) joined #telerikacademy.
+[08:47:09] <KpeTeHoug> бриутру
+[08:52:52] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:55:28] Action: KpeTeHoug slaps KrasiGa around with a cream filled donut...... smack ... smack ... smack .. :)
+[08:56:41] <KrasiGa> Добро утро и благодаря за закуската KpeTeHoug  :)
+[08:56:47] <KpeTeHoug> :) моля
+[08:56:59] <KpeTeHoug> едно сутрешно за събуждане за сички фенУве и фенКи
+[08:58:14] <KpeTeHoug> http://www.youtube.com/watch?v=75vlKoYfLDU
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:00:10] <yulimoto> оф сега трябва да пускам молба че искам да ползвам електронните услуги на нап, щото ел. подписа им е шит бургер
+[09:00:28] <yulimoto> дано да е добро утрото де
+[09:00:58] <KpeTeHoug> оф, нашето ел, правителство цялото е шит, ама нейсе
+[09:01:04] <KpeTeHoug> 2 милярда и кусур са дали
+[09:01:09] <KpeTeHoug> за "системата"
+[09:01:14] <KpeTeHoug> да не мислиш даже че работи :)
+[09:01:44] <yulimoto> едни чичковци дават едни пари и поръчките тръгват към тяхни фирми
+[09:01:56] <yulimoto> а можеше да стане нещо много добро
+[09:02:12] <KpeTeHoug> можеше :)
+[09:02:31] <KpeTeHoug> гледал ли си за E-стония репортажчето ?
+[09:02:41] <KpeTeHoug> за 500 мил. каква система имат :)
+[09:02:42] <yulimoto> скоро бях видял кода на електронното правителство мисля на украйна или литва пуснат в гитхъб !!! какво да говорим
+[09:02:51] <KpeTeHoug> естония :)
+[09:02:55] <yulimoto> естония да
+[09:03:02] <KpeTeHoug> мдам :)
+[09:03:03] <yulimoto> аз даже го бях пуснал и тук мисля :)
+[09:03:32] <KpeTeHoug> то има репортаж на някоя от телевизиите по въпроса, как само с лична карта, или телефон !
+[09:03:39] <KpeTeHoug> смартфон  брато
+[09:03:44] <KpeTeHoug> и си в джаза
+[09:03:49] <yulimoto> да ами те преди 10-тина години хубаво са ги пробили и тогава държавата решила че няма да се прави на пералня а ще действа
+[09:03:50] <KpeTeHoug> ееееениуей
+[09:04:22] <yulimoto> прати линк аз не съм ги гледал
+[09:04:26] <yulimoto> само съм чел
+[09:07:11] <KpeTeHoug> мументус
+[09:07:29] <KpeTeHoug> http://www.btv.bg/shows/btv-reporterite/videos/video/857871299-bTV_Reporterite_Estoniya.html
+[09:13:53] agit0o (~agit0o@95.111.79.72) joined #telerikacademy.
+[09:16:14] <yulimoto> хайде отивам да се боря с държавните служители
+[09:25:46] lyubenblagoev (~lyubenbla@78.83.105.98) joined #telerikacademy.
+[09:33:02] <Deyan> Добро ви утро
+[09:33:11] <Deyan> какво сте се разписали толкова от рано
+[09:39:27] <KpeTeHoug> ем
+[09:39:35] <KpeTeHoug> Безсъници в #telerikacademy
+[09:39:38] <KpeTeHoug> :)
+[09:40:31] <KpeTeHoug> как се пишеше
+[09:41:09] <KpeTeHoug> epa i az, ma ne pomnq kak se kazwashe :)
+[09:43:10] <KpeTeHoug> ahaaa
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:11:00] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 245 seconds
+[10:22:35] <yulimoto> някой да ползва ПИК за НАП
+[10:24:05] <rewind> какво е пик
+[10:24:16] <rewind> последно се борих с един КЕП
+[10:25:54] <yulimoto> КЕП  не го преборих, за това имам windows защото с-тама беше така направена, че през броузерите на линукс мн трудно
+[10:26:22] <yulimoto> та си изкарах ПИК вместо да ползвам КЕП
+[10:27:04] <yulimoto> пик = персонален идентификационен номер
+[10:27:15] <yulimoto> т.е. влизаш с парола вместо с подпис
+[10:30:08] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:31:22] <KrasiGa> за НОИ ако питаш мога да помагам ама за НАП ...
+[10:31:28] <KrasiGa> мисля, че  е аналогично
+[10:31:58] <KrasiGa> какво те притеснява?
+[10:32:14] <KrasiGa> а КЕП какво е?
+[10:32:50] <KrasiGa> vid[h kakvo e
+[10:32:55] <KrasiGa> видях какво е
+[10:36:55] <yulimoto> интересува ме след като ми изкарат номера, след колко време ще се активира
+[10:37:54] <KpeTeHoug> това ПИК беше единнен номер за сички задължения и тн нали ?
+[10:37:57] <KrasiGa> при нас е веднага, но сме имали случаи, когато това въобще не става
+[10:38:32] <KrasiGa> но са малко тези случаи /2-3/ и не знам дали проблема не е бил в потребителя
+[10:38:42] <KrasiGa> ти вече все ли си ПИК yulimoto ?
+[10:38:57] <KrasiGa> *vze
+[10:40:27] rewind (~teo@46.238.29.142) left irc: Disconnected by services
+[10:41:10] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[10:48:03] <_rewind> yulimoto, понеже имам директна връзка с шеф на дирекция, реших направо да се обадя и да питам и ми отговориха, че се случвало веднага
+[10:48:07] <_rewind> активирането
+[10:48:45] <_rewind> на ЕГН ли е регистриран или на ЕИК ?
+[10:52:37] <dencho> _rewind vednaga zavurtq telefonite :D
+[10:52:44] <dencho> ei tva se kazva support :D
+[10:53:18] <_rewind> :P отсреща се чу "Това не може да бъде - за пръв път ми се обаждаш за нещо, с кеото мога директно да ти помогна"
+[10:58:12] <KpeTeHoug> хахахах
+[10:58:58] <Deyan> Жена се обажда на мъжа си. Той слуша известно време и казва:
+[10:59:00] <Deyan> - Мило, айде после ще ти звънна, че сега не мога да псувам...
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:00:47] <_rewind> писмо до сисадмин: "доадминистратора,преебамисешпацията,какводаправя?"
+[11:01:46] <_rewind> отговор: "на_напредналия_потребител_шпация_не_му_трябва"
+[11:03:22] <KrasiGa> хахах
+[11:07:42] <_rewind> лека ви, аз ще попътувам малко
+[11:07:52] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[11:15:47] <KpeTeHoug> много ме кефи звучната бг думичка - щпация
+[11:15:55] <KpeTeHoug> що за словоблудство е това
+[11:15:57] <KpeTeHoug> питам аз
+[11:17:31] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[11:18:32] Action: KpeTeHoug thinks the only way phalaaxx can look better is with a bucket of Bondo and a coat of Paint.
+[11:18:49] <KpeTeHoug> дека е wilindex
+[11:18:53] <KpeTeHoug> чак мъчн о ми стана :)
+[11:20:29] <phalaaxx> ъъъ...
+[11:21:34] <phalaaxx> нещо е изгърмял явно
+[11:21:37] wilindex (~willie@91.230.230.224) joined #telerikacademy.
+[11:22:14] <phalaaxx> ето в този случай би било полезно нещо като upstart/daemontools/monit/whatever :)
+[11:22:40] <phalaaxx> ама като не съм си написал домашното с тоя бот... :D
+[11:23:08] <KpeTeHoug> хехех
+[11:23:19] <KpeTeHoug> не, щото сутринта пействах тука разни работи
+[11:23:25] <KpeTeHoug> и о чудо - няма 2ри ред :)
+[11:25:29] <phalaaxx> амии сървъра си е наред (още не съм му видял сметката) ама бота нещо явно си е казал "стига"
+[11:25:50] <phalaaxx> демек гледал е реклама на Данон :D
+[11:40:26] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 250 seconds
+[11:45:24] <KpeTeHoug> ДЗП или Данон 4 Men
+[11:45:27] <KpeTeHoug> :)
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:23:51] agit0o (~agit0o@95.111.79.72) left irc: Quit: This computer has gone to sleep
+[12:33:04] <hackman> phalaaxx, а може и да си драснеш едно просто script-че за restart и да го сложиш на cron :)
+[12:34:13] <phalaaxx> може ама ме мързи... а и тази седмица ще правя подарък на машината (нови дискове)
+[12:34:20] <phalaaxx> 4x3TB :)
+[12:35:30] <phalaaxx> иначе може и в скрипт във loop да се стартира (foreground) и пак ще върши работа, без да седи в cron
+[12:35:35] <hackman> 3TB... ти си луд :)
+[12:35:45] <hackman> аз повече от 2 няма да сложа
+[12:35:54] <hackman> 3TB нямат recovery
+[12:36:30] <phalaaxx> що да нямат :D
+[12:37:13] <phalaaxx> аз все още обмислям вариант със ZFS а там rebuild се прави само върху данните, не върху целите дискове
+[12:37:43] <phalaaxx> пък и мен това ми трябва да пази backups
+[12:37:53] <phalaaxx> едни има/няма 8TB
+[12:39:25] <phalaaxx> доколкото разбрах в момента единствения голям проблем със ZFS под Linux е това, че липсва някаква функционалност която при счупване на диск да го извади автоматично и да добави spare диск
+[12:39:33] <phalaaxx> но така или иначе там няма място за spare диск :D
+[12:39:40] <phalaaxx> ако се счупи ще трябва да тичам да сменям
+[12:47:11] <hackman> и ти в момента ми твърдиш, че си копуваш 3TB дискове за да НЕ ГИ пълниш?
+[12:47:29] <hackman> няма значение дали  recovery-то е на цял partition или само на data
+[12:47:37] <hackman> 3TB са си 3TB
+[12:47:46] <hackman> ако се наложи recovery дори и на един диск
+[12:47:53] <hackman> ще чакаш 3-5 дни
+[12:48:03] <hackman> освен ако не е много празен този масив
+[12:48:25] <hackman> 5 дни при дискове които най-вероятно са сложени по едно и също време... :)
+[12:48:32] <hackman> сам си прецени...
+[12:48:41] <hackman> аз ти казвам само, че статистиката други неща говори :)
+[12:48:47] <hackman> пък и опита ми :)
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:01:56] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[13:10:07] <phalaaxx> да бе знам че е така ама нямам голям избор в случая
+[13:10:28] agit0o (~agit0o@95.111.79.72) joined #telerikacademy.
+[13:10:34] <phalaaxx> единственото смислено което мога да направя е да сменям по 1 диск с нов примерно на всеки 2 месеца
+[13:10:58] <phalaaxx> така докато сменя 3 диска - така ще са 4 диска с разлика от по 2 месеца
+[13:11:35] <phalaaxx> за съжаление като кажа че искам дискове от различни партиди и ме гледат тъпо :D
+[13:11:49] lyubenblagoev (~lyubenbla@78.83.105.98) left irc: Read error: Connection reset by peer
+[13:44:55] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[13:57:43] <hackman> phalaaxx, да, това до някъде е добро решение
+[13:58:03] <hackman> също си направи и script който да ти проверява SMART-а на дисковете всеки ден
+[13:58:17] <hackman> за да хванеш проблемен диск преди да е станало много късно
+[13:58:18] <phalaaxx> Nagios не върши ли работа за това?
+[13:58:21] <phalaaxx> :)
+[13:58:22] <hackman> аз на една грешка ги хвълям
+[13:58:44] <hackman> phalaaxx, не... направи си ти script. пусни си го на cron и си чети пощата :)
+[13:59:29] <phalaaxx> ааа не знаеш на какво са способни тия машинки, знаеш ли Hetzner до какви висини стигат с пълноценната употреба на стари дискове :D
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:00:30] <phalaaxx> това да извадят счупен диск от един клиент, да го забършат от прах и да го пъхнат в сървър на друг клиент защото и неговия се е скапал... че то това си е ежедневие при тях :D
+[14:04:28] <hackman> знам
+[14:04:45] <hackman> затова имам база със всички дискове които са влизали в моя машина за 4 години назад
+[14:05:01] <hackman> освен това проверявам на колко часа е един диск веднага щом го сложат
+[14:05:14] <hackman> както казах... драсни си cron script за тея неща :)
+[14:05:19] <hackman> ще спечелиш доста
+[14:06:50] <phalaaxx> мда, ще го направя
+[14:06:52] <phalaaxx> 10x
+[14:45:04] <dencho> KpeTeHoug ne znah 4e se snima6 v takiva klipove http://youtu.be/VEkhyqiEwF8 !!! :D
+[14:45:05] <wilindex> [YouTube] Title: Show 2013 Ork Mladi Talenti Pistoli Cocek Sajo It.HD | Uploader: SuperMrsajo | Uploaded: 30/04/2013, 13:25 | Duration: 5mins 23secs | Views: 36,141 | Comments: 13 | Likes: 26 | Dislikes: 6
+[14:45:08] Action: dencho slaps KpeTeHoug around a bit with a large trout
+[14:50:04] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) joined #telerikacademy.
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:40:25] Fairytale (~Fairytale@police.executie.org) joined #telerikacademy.
+[15:43:07] Tiako (~Tiako@4.Red-79-151-218.dynamicIP.rima-tde.net) joined #telerikacademy.
+[15:43:52] <yulimoto> бауууу
+[15:44:01] <yulimoto> едвам вземам въздух
+[15:44:20] <yulimoto> ехеееее моя въпрос е отнесен чак до най-висока инстанция !!!
+[15:44:23] <yulimoto> браво браво
+[15:44:49] <yulimoto> като дойде rewind ще му благодаря лично
+[15:46:06] <yulimoto> dencho: кой от всичките е KpeTeHoug
+[15:55:21] Fairytale (~Fairytale@police.executie.org) left irc: Ping timeout: 272 seconds
+[15:55:45] Fairytale (~Fairytale@police.executie.org) joined #telerikacademy.
+[15:56:39] Nick change: Fairytale -> Fairytale1
+[15:56:44] Nick change: Fairytale1 -> Fairytale
+[15:57:39] <dencho> yulimoto, KpeTeHoug e barabanista we :D
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:45:04] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 250 seconds
+[16:58:47] topalov (~topalov@gw.prosyst.bg) left irc: Remote host closed the connection
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:09:51] Fairytale (~Fairytale@police.executie.org) left irc: Remote host closed the connection
+[17:19:47] <Deyan> phalaaxx: просто не е толкова сложно, просто трябва да имаш правилните контакти
+[17:20:18] <Deyan> казваш ми какви дискове ти трябват и за няколко дни ще ти ги намеря от различни сериии
+[17:20:47] <Deyan> проблема е че говориш предимно с търговци, а те нямат достъп до склада
+[17:21:36] <phalaaxx> Deyan: ще имам предвид :)
+[17:21:36] <phalaaxx> засега съм с 3 от една партида и един от различна, ще сменям периодично както вече казах
+[17:25:25] Fairytale (~Fairytale@police.executie.org) joined #telerikacademy.
+[17:27:10] <yulimoto> някой знае ли за начин wireless от лаптоп да бъде някакви свързан с усб или нещо от сорта :P
+[17:28:50] <yulimoto> че си разколачих стария лаптоп тука за за 10 минути и си мисля кои чаркове може да имат приложение в някакво хоум мейд експериментално поле
+[17:29:25] <yulimoto> т.е. ще го вхърлям ама първо го разпарчатосвам
+[17:29:58] <Fairytale> iskash da kajesh wifi kartata da q izpolzvash na nastolen?
+[17:31:35] <yulimoto> ми коту дойде може и на арм да я използвам :)
+[17:31:59] <yulimoto> най-добре ако има някакво usb преходно нещо си
+[17:32:02] <yulimoto> :)
+[17:32:03] <yulimoto> ама едва ли
+[17:33:10] anton_dutsov (~Thunderbi@178.75.233.220) joined #telerikacademy.
+[17:33:11] <Deyan> по-скоро едва ли
+[17:33:37] <yulimoto> ейй точно ти не трябваше да ме разочароваш. в теб ми беше надеждата
+[17:33:43] <Deyan> yulimoto: дай модела на лаптопа да помислим
+[17:34:07] <anton_dutsov> с какво се занимавате?
+[17:34:58] <Deyan> идеята ми е че картата би трябвало да е на някакъв стандартен интерфейс, тоест би следвало да може да се обърне към усб с някакво чудо
+[17:35:18] <Deyan> а като знам колко такива глупости имаме може и да ти излезе късмета
+[17:35:42] <anton_dutsov> Deyan: каква карта?
+[17:36:01] <Deyan> yulimoto	някой знае ли за начин wireless от лаптоп да бъде някакви свързан с усб или нещо от сорта
+[17:36:03] <Deyan> [17:34]	yulimoto	че си разколачих стария лаптоп тука за за 10 минути и си мисля кои чаркове може да имат приложение в някакво хоум мейд експериментално поле
+[17:36:17] <Deyan> това е питането по което мислим в момента
+[17:36:19] <yulimoto> фуджи сименс амило 1505 !!!!
+[17:36:28] <yulimoto> ама това няма значение
+[17:36:35] <yulimoto> щото е важен модела на картата
+[17:36:38] <Deyan> да
+[17:36:39] <yulimoto> което е :
+[17:36:48] <Deyan> но аз мислех от лаптопа да стигна до там
+[17:36:49] <yulimoto> който* е :
+[17:37:25] <yulimoto> https://www.google.bg/search?q=wm3945abg+mow2&source=lnms&tbm=isch&sa=X&ei=n91nUvT_HcbZswac14GQAg&ved=0CAcQ_AUoAQ&biw=1152&bih=732#q=wm3945abg+mow2+&tbm=isch
+[17:37:26] <wilindex> [ wm3945abg mow2 - Google Търсене ] - www.google.bg
+[17:38:00] <Deyan> Atheros AR5006X нещо от рода
+[17:38:17] <yulimoto> интел пише
+[17:38:38] <yulimoto> ааа чакай
+[17:39:18] <yulimoto> https://www.google.bg/search?q=wm3945abg+mow2&source=lnms&tbm=isch&sa=X&ei=n91nUvT_HcbZswac14GQAg&ved=0CAcQ_AUoAQ&biw=1152&bih=732#q=intel+pro+wireless+3945abg+network+connection&tbm=isch
+[17:39:19] <wilindex> [ wm3945abg mow2 - Google Търсене ] - www.google.bg
+[17:39:26] <yulimoto> intel pro wireless 3945abg network connection
+[17:39:48] <Deyan> http://www.ebay.com/bhp/mini-pci-e-usb-adapter
+[17:39:50] <wilindex> [ Mini Pci-e USB Adapter | eBay ] - www.ebay.com
+[17:39:52] <yulimoto> за такъв тип карти има ли някакви слотове, преходници и т.н.
+[17:40:26] <yulimoto> забранявам да ми даваш отговори преди да съм си задал въпроса !!! :)
+[17:40:26] <Deyan> почти съм сигурен че нямаме такива, но сега ще погледна при доставчиците ни,
+[17:40:34] <yulimoto> хаха
+[17:40:46] <Deyan> ако са на прилични пари ще си поръчам
+[17:40:58] <Deyan> ама това е защото съм телеПаток
+[17:41:07] <Deyan> така че не се учудвай
+[17:41:16] <yulimoto> за кое да ссе учудвам
+[17:41:52] <anton_dutsov> я какви интересни неща има в ebay :)
+[17:42:17] <yulimoto> така вече съм подарил харддиска и рамта, останаха само процесора и wirelessa
+[17:42:32] <yulimoto> батерията е мъртва отдавна :)
+[17:42:49] <yulimoto> екрана също не можах да спася
+[17:42:54] <Fairytale> Rama kakuv beshe?
+[17:43:43] <yulimoto> оо не помня, а и нямах удоволствието да го сваля аз, доставих това удовоствие на човека който искаше да го позлва
+[17:43:54] <yulimoto> заедно с харддиска
+[17:44:38] <Fairytale> Az si tartsq DDR2 za laptop 1GB ,no zaduljitelno 533MHz
+[17:44:46] <yulimoto> иначе процесора е 1.86 2М cache
+[17:46:04] <Fairytale> Deynan: ti v nqkakva firma li rabotish?
+[17:46:16] <yulimoto> виж му Ip
+[17:46:25] <yulimoto> ako e на работа де :)
+[17:47:59] <yulimoto> това което разбрах е кое се нарича micro pci
+[17:48:16] <Fairytale> Komelsoft, tazi firma ima li q oste?
+[17:49:13] <yulimoto> пинчетата на процесора са много красиви и напомнят въздишките по филма матрицата в края на миналия век :)
+[17:49:45] agit0o (~agit0o@95.111.79.72) left irc: Quit: This computer has gone to sleep
+[17:51:12] <Deyan> Fairytale: .|.
+[17:51:36] <Deyan> как ще я няма бе
+[17:52:01] <Deyan> ако ни няма нас, половината фирми в бранша трябва да затворят
+[17:52:14] <Fairytale> Ne sum q vijdal otdavna, nqkoga imashe magazin na Rakoska
+[17:52:34] <Fairytale> Rakovska
+[17:52:38] <Deyan> то още си го има
+[17:53:02] <Fairytale> E znachi ne sum oburnal vnimanie .
+[17:53:07] <yulimoto> Fairytale: явно са станали доставчик на доставчиците. Играят го големи :)
+[17:54:05] Nick change: ndyakov|away -> ndyakov
+[17:54:32] <yulimoto> а всъщност колко върви един усб wifi
+[17:54:37] <yulimoto> долу горе
+[17:56:02] <Deyan> 12-15
+[17:56:04] <Deyan> лева
+[17:56:29] <yulimoto> хаха
+[17:56:53] <yulimoto> значи спасението на моя wifi се отлага :)
+[17:57:13] <Fairytale> ot DX mojesh da si poruchash za nqkolko $
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:10] <yulimoto> отивам да хвърля каквото е останало :)
+[18:07:44] hackman (~hackman@management.1h.com) left irc: Read error: Operation timed out
+[18:21:03] Guest59979 (~deyan@46.249.92.240) joined #telerikacademy.
+[18:22:26] <Guest59979> какво стана, кога ще направим турнирче по unreal 2004
+[18:28:21] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Read error: Connection reset by peer
+[18:30:29] KpeTeHoug (~GT@212.36.13.10) left irc: Ping timeout: 240 seconds
+[18:30:30] KpeTeH0ug (~GT@212.36.13.10) joined #telerikacademy.
+[18:45:45] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) joined #telerikacademy.
+[18:50:28] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[18:52:25] anton_dutsov (~Thunderbi@178.75.233.220) left irc: Ping timeout: 272 seconds
+[18:54:47] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:55:43] mihail_m (~mike@77.70.49.155) joined #telerikacademy.
+[18:56:21] vhristev (vhristev@77.70.112.88) joined #telerikacademy.
+[18:58:26] <Guest59979> само при мен ли е оффлине
+[18:58:29] <dencho> не
+[18:58:30] <dencho> и при мене
+[18:58:32] <Guest59979> а добре
+[18:58:35] <Fairytale> off e
+[18:58:41] <Guest59979> отишам в леглото да го гледам
+[18:58:44] <Guest59979> :)
+[18:59:23] fityla (3e2c6546@gateway/web/freenode/ip.62.44.101.70) joined #telerikacademy.
+[18:59:25] <Fairytale> Az se izlqgam na shezlonga i se pecha na slunce.
+[18:59:28] <fityla> ей...
+[18:59:32] <fityla> дойде момента..
+[18:59:34] <fityla> да чупиме
+[18:59:35] <fityla> :D
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:03:13] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[19:03:16] AndChat-205625 (~AndChat20@85.118.193.161) joined #telerikacademy.
+[19:03:36] Nick change: KacanuH -> Guest45067
+[19:04:48] Nick change: Guest45067 -> KacanuH
+[19:05:13] <vhristev> още не е почнал
+[19:05:14] <vhristev> чакаме
+[19:06:37] AndChat-205625 (~AndChat20@85.118.193.161) left irc: Client Quit
+[19:09:50] KpeTeH0ug (~GT@212.36.13.10) left irc: Ping timeout: 241 seconds
+[19:10:47] Fairytale1 (~Fairytale@police.executie.org) joined #telerikacademy.
+[19:13:06] Fairytale (~Fairytale@police.executie.org) left irc: Ping timeout: 245 seconds
+[19:15:00] Vankata (Vankata@77.70.105.191) joined #telerikacademy.
+[19:15:51] Nick change: Fairytale1 -> Fairytale
+[19:31:38] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:40:33] Fairytale (~Fairytale@police.executie.org) left irc: Remote host closed the connection
+[20:52:40] Nick change: ndyakov -> ndyakov|away
+[20:58:32] fityla (3e2c6546@gateway/web/freenode/ip.62.44.101.70) left irc: Quit: Page closed
+[20:58:54] <vhristev> лека
+[20:59:19] Nick change: phalaaxx -> phalaaxx_
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:03:15] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) left irc: Ping timeout: 245 seconds
+[21:03:49] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[21:04:05] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[21:04:18] _rewind (~teo@46.238.29.142) left irc: Client Quit
+[21:06:04] <yulimoto> за вечерта има 3 варианта: 1 да слагам ръчно един линукс слакс от лайв на харда. 2 да компилирам nginx и да направя реверс прокси към едно nodejs приложение и 3 да си легна
+[21:06:10] <yulimoto> кое да избера
+[21:06:13] <yulimoto> дилема
+[21:12:05] TPB_ (4e5a59ab@gateway/web/freenode/ip.78.90.89.171) left irc: Quit: 1000Base-Kyp
+[21:23:17] mihail_m (~mike@77.70.49.155) left irc: Quit: Leaving
+[21:54:27] Guest59979 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:07:48] Ivaka (~opera@85.196.188.53) joined #telerikacademy.
+[22:07:51] Ivaka (~opera@85.196.188.53) left #telerikacademy.
+[22:18:34] Nick change: ndyakov|away -> ndyakov
+[22:43:13] KacanuH (~Deyan@46.249.92.240) left irc: Ping timeout: 272 seconds
+[22:51:15] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[22:51:39] Nick change: KacanuH -> Guest49865
+[22:53:55] Nick change: Guest49865 -> KacanuH
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:31:42] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[23:48:40] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[23:57:45] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:00:00] --- Thu Oct 24 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

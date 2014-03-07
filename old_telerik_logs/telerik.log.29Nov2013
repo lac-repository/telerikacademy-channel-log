@@ -1,0 +1,238 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:02:15] <Fairytale> Leka
+[00:02:28] <Fairytale> i chestito na Ludogorec :-)
+[00:27:14] Deyan2 (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:45:08] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:47:53] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[00:56:32] topalov (~topalov@gw.prosyst.bg) left irc: Ping timeout: 240 seconds
+[00:58:21] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Ping timeout: 272 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:04:00] Fairytale (~svetlyo@77.70.117.169) left irc: Remote host closed the connection
+[01:16:30] topalov (~topalov@gw.prosyst.bg) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:04:52] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:03:18] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[08:37:04] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[08:51:53] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:01:18] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[09:14:02] Nick change: ndyakov -> ndyakov|away
+[09:22:47] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: leaving
+[09:24:30] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[09:46:28] <Deyan> Добро утро и честит петък
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:19:43] hackman (~hackman@management.1h.com) joined #telerikacademy.
+[10:20:07] Nick change: hackman -> Guest83831
+[10:39:59] topalov_laptop (~topalov@gw.prosyst.bg) joined #telerikacademy.
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:11:56] Deyan2 (~deyan@46.249.92.240) joined #telerikacademy.
+[11:17:34] Guest83831 (~hackman@management.1h.com) got netsplit.
+[11:24:28] Guest83831 (~hackman@management.1h.com) returned to #telerikacademy.
+[11:32:16] <yulimoto> Deyan2: mi честит ти тогава, гледай съботата само да не се отпуснеш като предната :)
+[11:41:01] <dencho> nqkoi ot vidin tuka ima6e?
+[11:59:37] <yulimoto> anton_dutsov
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:14:01] <dencho> aha
+[12:58:07] rewind_mobile (~yaaic@85.118.193.176) joined #telerikacademy.
+[12:59:01] <rewind_mobile> Good day everybody :)
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:16:57] <Deyan> rewind_mobile: честит петък
+[13:22:38] Fairytale (~Fairytale@77.70.117.169) joined #telerikacademy.
+[13:28:05] <rewind_mobile> Хаха, честит да е, аз съм отпуск и без това
+[13:28:20] <rewind_mobile> за мен е особено честит :D
+[13:30:28] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[13:54:38] rewind_mobile (~yaaic@85.118.193.176) left irc: Ping timeout: 265 seconds
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:07:12] rewind_mobile (~yaaic@85.118.193.172) joined #telerikacademy.
+[14:07:45] <rewind_mobile> http://www.yotadevices.com/ - Сдьелано в СССР
+[14:07:46] <wilindex> [ YOTA DEVICES ] - www.yotadevices.com
+[14:08:13] Fairytale (~Fairytale@77.70.117.169) left irc: Quit: Leaving
+[14:17:56] rewind_mobile (~yaaic@85.118.193.172) left irc: Quit: Yaaic - Yet another Android IRC client - http://www.yaaic.org
+[14:18:58] <MoHu> а то това е с два екрана
+[14:23:05] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[14:25:10] Nick change: ndyakov|away -> ndyakov
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:02:50] Guest83831 (~hackman@management.1h.com) left irc: Ping timeout: 260 seconds
+[15:19:23] <phalaaxx> strace -p $(pidof skype)
+[15:19:33] <phalaaxx> грозна работа
+[15:19:39] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[15:29:33] <_rewind> от Hristo Topalov - Професионалният консултант трябва да има брада, шкембе и хемороиди. Брадата и шкембето ще му помогнат да изглежда впечатляващо, а хемороидите - разтревожено и загрижено.
+[15:30:43] <_rewind> а по темата за брадата според една статия в /. и коментарите истинския админ също трябва да има дълга брада  - http://slashdot.org/comments.pl?sid=3945823&cid=44218277
+[15:30:45] <wilindex> [ Meet the Stampede Supercomputing Cluster's Administrator (Video) - Slashdot ] - slashdot.org
+[15:30:49] <phalaaxx> хаха :D
+[15:31:27] <_rewind> както и един от най-ценните коментари по статията (пак от Х. Топалов) - Actually, that beard is an uptime indicator. It is little known that sysadmins have to shave when their server goes down. That is also why unix admins have them and windows admins don't.
+[15:38:07] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[15:44:18] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: leaving
+[15:44:20] yulimoto_ (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[15:44:42] Nick change: yulimoto_ -> yulimoto
+[15:49:54] gdanailov (~gdanailov@94.26.94.2) left irc: Ping timeout: 260 seconds
+[15:53:24] <yulimoto> phalaaxx: с коя версия на скайп си ?
+[15:53:51] <phalaaxx> 4.2.0.11-1
+[15:54:04] <phalaaxx> не че има голямо значение
+[15:56:32] <yulimoto> м аз съм версия 4.2 обаче като отварям с strace -e trace=open за да видя какви файлове отваря не виждам някакви необичайни истории
+[15:57:23] <yulimoto> kak да разбера кои файлове ползва ?
+[15:57:50] <phalaaxx> аа аз не му давам trace=open
+[15:58:02] <phalaaxx> възмущавам се от цикъла дето са извъртяли
+[15:59:37] <yulimoto> да видях го, но се сетих, че skypeto отваряше някакви файлс които не му беше работа :)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:08:32] <_rewind> да, единия от тях /etc/passwd
+[16:09:59] <_rewind> name="/etc/resolv.conf"
+[16:09:59] <_rewind> name="/etc/ssl/certs/ca-certificates.crt"
+[16:09:59] <_rewind> name="/home/username/.mozilla/"
+[16:10:03] <_rewind> също :)
+[16:10:14] <_rewind> това м/у другото ми го е пращал phalaaxx
+[16:11:28] <phalaaxx> да, пипкави пръстенца има гадния скайп
+[16:11:36] <phalaaxx> добре че си имаме apparmor :)
+[16:15:35] <phalaaxx> http://pastebin.com/KDdfASgN
+[16:15:36] <wilindex> [ /etc/apparmor.d/usr.bin.skype - Pastebin.com ] - pastebin.com
+[16:16:37] <phalaaxx> това работи в Debian, за Ubuntu трябва да се пипнат някои неща
+[16:18:46] <yulimoto> даде ама има ли някакъв начин да разбера кога ги отваря ?
+[16:19:00] <_rewind> yulimoto, тъкмо се загледах какво всъщност има отворено, но не видях нищо интересно с lsof
+[16:19:28] <_rewind> въпроса е, че той не ги държи отворени, а просто ги достъпва в даден момент от execution-а си
+[16:19:31] <phalaaxx> yulimoto: tail -f /var/log/syslog (като си качиш този профил)
+[16:20:10] <phalaaxx> или tail -f /var/log/audit/audit.log (ако имаш инсталиран auditd)
+[16:20:22] <yulimoto> _rewind: аз ползвам strace не би ли трябвало да го виждам на процеса да го е*а ? :)
+[16:20:45] <phalaaxx> би трябвало ноооо...
+[16:20:50] <phalaaxx> спри го и го пусни с strace
+[16:20:53] <_rewind> в даден момент от времето ли ?
+[16:21:02] <phalaaxx> щото като не си му изкълчил пръстенцата - вече ги е отворил и не му е интересно
+[16:21:08] <_rewind> да, тъкмо и аз това щях да кажа, че трябва по-скоро да си проследил целия му еxecution
+[16:21:19] <_rewind> хаха :)
+[16:21:36] <yulimoto> ама аз направо си пускам скайпа така strace -e trace=open skype
+[16:21:45] <yulimoto> той си тръгва от самото начало
+[16:21:55] <_rewind> добре, а ако му затриеш .Skype и всички конфигурации, дали няма да се опита да пипне пак там
+[16:22:12] <phalaaxx> амиии би трябвало да го видиш, честно казано не съм пробвал досега така
+[16:22:16] <_rewind> в смисъл дали това не се случва при първоначална инициализация или само при определени стартирания
+[16:22:16] <yulimoto> ей сега ще го пейстбин-а
+[16:22:32] <yulimoto> аз така го пускам и не виждам нищо нередно
+[16:22:49] <yulimoto> баси магиите само само да ми бъркат по файловете
+[16:22:50] <phalaaxx> амии чакай да пробвам и аз, че ме заинтригува с това :)
+[16:24:08] <yulimoto> http://pastebin.com/LGKck18j
+[16:24:09] <wilindex> [ strace -e trace=open skype open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3 o - Pastebin.com ] - pastebin.com
+[16:24:15] <phalaaxx> оо ама аз няма да мога да видя май, щото apparmor-а вече не му дава да пипа там
+[16:24:40] <phalaaxx> това за колко време ти го е записало?
+[16:25:14] <phalaaxx> аз току що си отворих syslog-а да видя там какво става и...
+[16:25:19] <phalaaxx> Nov 29 16:32:41 ankaa kernel: [364575.286785] type=1400 audit(1385735561.126:687): apparmor="DENIED" operation="open" parent=1 profile="/usr/bin/skype" name="/etc/ssl/certs/ca-certificates.crt" pid=5314 comm="skype" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[16:25:37] <yulimoto> хммм
+[16:25:46] <yulimoto> а аз стартирам така и го няма
+[16:26:43] <yulimoto> обаче ....
+[16:26:58] <yulimoto>  3991 pts/3    S      0:00 /bin/bash /usr/local/bin/skype
+[16:26:58] <yulimoto>  3992 pts/3    Sl     0:06 /usr/bin/skype
+[16:27:16] <yulimoto> strace-а e фактически първия процес
+[16:27:35] <yulimoto> хмм сега 1 момент
+[16:28:42] <topalov_laptop> а я пробвай да го пуснеш с друг account или в друга --dbpath
+[16:29:31] <phalaaxx> ааа да, ти със trace=path не виждаш кога прави fork (exec)
+[16:30:04] <phalaaxx> пробвай със -f -o trace=open
+[16:31:55] <yulimoto> добре
+[16:32:24] <yulimoto> phalaaxx: ползваш ли stellarium
+[16:32:36] <yulimoto> дали там ще има ISON ?
+[16:32:51] <yulimoto> или трябва някакви библиотеки сигур
+[16:33:15] <phalaaxx> не знам, а това отдавна не съм го пускал
+[16:35:23] <yulimoto> и аз, но според мен ъпдейт ще трябва задължително
+[16:37:26] <phalaaxx> вероятно да, те тая нали са я открили преди година и нещо
+[16:38:27] <yulimoto> ти засне ли я ?
+[16:38:39] <yulimoto> ако имаш снимки постни, че тука има засилен интерес
+[16:39:43] <phalaaxx> Nov 29 16:47:59 ankaa kernel: [365494.377721] type=1400 audit(1385736479.168:688): apparmor="DENIED" operation="open" parent=1 profile="/usr/bin/skype" name="/etc/ssl/certs/ca-certificates.crt" pid=5314 comm="skype" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[16:40:08] <phalaaxx> strace-а не го хвана, явно apparmor спира процеса някъде преди trace-а
+[16:41:02] <phalaaxx> така че ако искаш да го хванеш със strace - ще трябва да го пускаш unconfined
+[16:41:11] <_rewind> yulimoto, тъй като ме заинтригува, а не знам дали си попадал - http://www.wikihow.com/Add-Comet-ISON-to-Stellarium
+[16:41:13] <wilindex> [ How to Add Comet ISON to Stellarium: 12 Steps - wikiHow ] - www.wikihow.com
+[16:41:21] <phalaaxx> нямам мои снимки още
+[16:41:30] <_rewind> айде пожелайте ми успех, отивам на интервю
+[16:41:31] <phalaaxx> надявам се утре да е подходящо времето сутринта
+[16:41:36] <phalaaxx> _rewind: успех
+[16:41:37] <phalaaxx> :)
+[16:41:54] <_rewind> м/у другото има отворена позиция за телекомуникационен инженер в Теленова, имам малко вътрешна информация ако някой се интересува
+[16:43:05] <_rewind> така де специалис' телекомуникации - http://www.nbu.bg/PUBLIC/IMAGES/File/Alumni/jobs/2008/april/Obiawa%20Rabota.pdf :)
+[16:43:18] <_rewind> phalaaxx, благодаря :)
+[16:43:26] _rewind (~teo@46.238.29.142) left irc: Quit: Leaving
+[16:48:23] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:48:35] <yulimoto> той пък излезе :)
+[16:53:14] <phalaaxx> очаквам в следващите 1 - 2 минути пак да се появи съобщение от apparmor за ca-certificates.crt
+[16:53:29] <phalaaxx> ако съм прав - това се случва на около 15 минути
+[16:53:30] <phalaaxx> :)
+[16:54:30] <phalaaxx> ей ама съм добър бе :D
+[16:54:38] <phalaaxx> Nov 29 17:03:41 ankaa kernel: [366437.481076] type=1400 audit(1385737421.195:689): apparmor="DENIED" operation="open" parent=1 profile="/usr/bin/skype" name="/etc/ssl/certs/ca-certificates.crt" pid=5314 comm="skype" requested_mask="r" denied_mask="r" fsuid=1000 ouid=0
+[16:55:39] <yulimoto> :)
+[16:57:53] <phalaaxx> хрумна ми една идея... да излъжа skype за съдържанието на този файл
+[16:58:03] <phalaaxx> нещо с LD_PRELOAD
+[16:58:16] <phalaaxx> и ще вкарам някакъв текст дето яко да ги нахрани тия миндили
+[16:58:47] <phalaaxx> ще им обясня колко много ги обичам и как не мога без тях :)
+[16:59:13] <yulimoto> haha
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:00:04] Fairytale (~Fairytale@77.70.117.169) joined #telerikacademy.
+[17:24:35] <phalaaxx> http://www.boreme.com/posting.php?id=23220&page=2
+[17:24:36] <wilindex> [ New build apartment block falls over, China ] - www.boreme.com
+[17:37:38] <yulimoto> поне не ги строят много близо иначе ще падат като домино
+[17:43:31] <phalaaxx> :D
+[17:55:49] dencho (~dencho@apollo.netissat.bg) left irc: Ping timeout: 265 seconds
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:06:16] Deyan (~Deyan@supersonic.comelsoft.com) left irc: Ping timeout: 272 seconds
+[18:15:08] topalov_laptop (~topalov@gw.prosyst.bg) left irc: Ping timeout: 272 seconds
+[18:20:12] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[18:59:46] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:18:20] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Quit: anton_dutsov
+[19:34:19] Fairytale (~Fairytale@77.70.117.169) left irc: Quit: Leaving
+[19:54:08] hackman (~hackman@213.226.63.156) joined #telerikacademy.
+[19:54:32] Nick change: hackman -> Guest88896
+[19:55:58] anton_dutsov (~Thunderbi@178.75.230.1) joined #telerikacademy.
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:06:25] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[20:06:38] Guest88896 (~hackman@213.226.63.156) left irc: Ping timeout: 260 seconds
+[20:06:44] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:54:24] dyrgel (~dyrgel@92.247.8.98) left irc: Read error: Connection reset by peer
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:55:29] hanasd (~hanasd@188-254-186-191.sf.ddns.bulsat.com) joined #telerikacademy.
+[21:55:33] anton_dutsov (~Thunderbi@178.75.230.1) left irc: Ping timeout: 272 seconds
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:05:33] <yulimoto> .weather yambol
+[22:05:34] <wilindex> Yahoo! Weather - Yambol, BG: Clear, 3°C (37°F), 30in (1022mb), Gentle breeze 10kt (↖)
+[22:05:46] <yulimoto> .weather Sofia
+[22:05:47] <wilindex> Yahoo! Weather - Sofia, BG: Cloudy, 0°C (32°F), 30in (1015mb), Light air 3kt (↖)
+[22:05:56] <yulimoto> .weather Burgas
+[22:05:57] <wilindex> Yahoo! Weather - Burgas, BG: Fair, 1°C (33°F), 30in (1015mb), Gentle breeze 8kt (↙)
+[22:21:55] _rewind (~teo@46.238.29.142) joined #telerikacademy.
+[22:47:38] <yulimoto> как мина интервюто ?
+[22:48:51] <_rewind> според мен добре :) благодаря
+[22:48:58] <_rewind> ще разбера скоро
+[22:48:59] <yulimoto> :)
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:05:51] bgpepi (~bgpepi@ip-80-236-203-216.dsl.scarlet.be) joined #telerikacademy.
+[23:12:45] hanasd (~hanasd@188-254-186-191.sf.ddns.bulsat.com) left irc: Remote host closed the connection
+[23:17:18] <_rewind> един специален поздрав от phalaaxx - http://lms.xkbit.info/same.png
+[23:17:54] <_rewind> Даже за да съм по-коректен това трябва да е на неговия сървър - http://rewind.bgadmin.eu/same.png :D
+[23:19:14] <_rewind> yulimoto, знаеш ли, че  бях забравил - работи ли това с news в owncloud-a ? Аз мислех да тествам, но явно не съм стигнал още
+[00:00:00] --- Sat Nov 30 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

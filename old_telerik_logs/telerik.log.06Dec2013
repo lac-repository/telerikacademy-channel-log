@@ -1,0 +1,258 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:01:40] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[00:03:42] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[00:05:59] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[00:09:03] rew1nd (~teo@46.238.29.142) left irc: Ping timeout: 252 seconds
+[00:22:50] nlkl (~nikolacio@213.91.241.45) left irc: Ping timeout: 260 seconds
+[00:34:08] nlkl (~nikolacio@213.91.241.45) joined #telerikacademy.
+[00:49:37] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[00:55:20] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[00:56:20] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:01:51] <Guest83465> що спите ;)
+[01:02:01] <Guest83465> аз тъкмо почвам да уча за изпита утре :)
+[01:02:04] Nick change: Guest83465 -> hackman
+[01:05:32] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[01:22:45] Nick change: ndyakov -> ndyakov|away
+[01:47:19] bgpepi_ (~bgpepi@ip-80-236-203-55.dsl.scarlet.be) joined #telerikacademy.
+[01:47:38] bgpepi (~bgpepi@ip-80-236-210-65.dsl.scarlet.be) left irc: Read error: Operation timed out
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:55:53] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[02:57:26] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:24:10] bgpepi_ (~bgpepi@ip-80-236-203-55.dsl.scarlet.be) left irc: Remote host closed the connection
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:05:58] dnk (~chatzilla@212.5.158.76) left #telerikacademy.
+[06:20:34] <dencho> uspeh hackman :D
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:12:51] <KpeTeHoug> .tell rew1nd той май за litecoins ще копа, аз не му разбирам :) помоли ме да питам и затова. Мерси за инфото все пак
+[07:12:51] <wilindex> KpeTeHoug: I'll pass that on when rew1nd is around.
+[07:13:14] <KpeTeHoug> .tell _rewind той май за litecoins ще копа, аз не му разбирам :) помоли ме да питам и затова. Мерси за инфото все пак
+[07:13:15] <wilindex> KpeTeHoug: I'll pass that on when _rewind is around.
+[07:13:36] <KpeTeHoug> hackman, стискаме палци
+[07:17:54] <hackman> ebasi rannobudnite deto ste
+[07:18:04] <hackman> az otivam na izpit :)
+[07:23:59] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[07:33:37] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:00:18] dencho (~dencho@apollo.netissat.bg) left irc: Ping timeout: 265 seconds
+[08:37:01] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:05:47] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[09:08:47] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[09:24:00] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[09:52:39] <KacanuH> Ей Николаевци и Николовци, не се правете а почерпете
+[09:53:01] <KacanuH> Няма да се стакатавате
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:03:35] <yulimoto> анкетка: какъв софтуер бихте ползвали за load balancing на apache сървър ?
+[10:20:52] <KacanuH> nginx
+[10:21:26] hackman (~hackman@193.19.172.176) joined #telerikacademy.
+[10:21:52] Nick change: hackman -> Guest2600
+[10:24:35] <KacanuH> varnish
+[10:27:11] Guest2600 (~hackman@193.19.172.176) left irc: Ping timeout: 272 seconds
+[10:35:52] <yulimoto> KacanuH: nginx с какъв мод ? защо не proxy_balancer moda na апачи примерно ?
+[10:39:29] phalaaxx (~bozhin@212-186-181-228.dynamic.surfer.at) joined #telerikacademy.
+[10:40:11] phalaaxx (~bozhin@212-186-181-228.dynamic.surfer.at) left irc: Client Quit
+[10:41:19] phalaaxx (~bozhin@212-186-181-228.dynamic.surfer.at) joined #telerikacademy.
+[10:45:35] phalaaxx (~bozhin@212-186-181-228.dynamic.surfer.at) left irc: Ping timeout: 246 seconds
+[10:46:07] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[10:47:21] <KacanuH> yulimoto: upstream
+[10:49:22] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
+[10:53:42] Nick change: ndyakov|away -> ndyakov
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:08:40] Guest2600 (~hackman@management.1h.com) joined #telerikacademy.
+[11:14:59] <yulimoto> KacanuH: поваш да ме кефиш !
+[11:15:08] <yulimoto> почваш*
+[11:31:07] <KpeTeHoug> :)
+[11:31:23] <KpeTeHoug> пък мен и двамата ме кефите
+[11:31:30] <KpeTeHoug> Кольовци
+[11:37:18] <yulimoto> хахах, играч  :)
+[11:44:18] <KpeTeHoug> :) не играя аз
+[11:44:23] <KpeTeHoug> само търкалям
+[11:45:59] <KacanuH> KpeTeHoug: къде се търкаляш в тоя студ, ще вземеш да станеш на снежен човек
+[11:46:49] <KpeTeHoug> малката болна у дома
+[11:46:57] <KpeTeHoug> и се тъкаляме тука с нея
+[11:47:42] <KpeTeHoug> наложи се да си закача 2ти монитор
+[11:47:55] <KpeTeHoug> да може да гледаме една и съща песен 12 пъти
+[11:48:02] <KpeTeHoug> а аз да бачкам :)
+[11:48:12] <KpeTeHoug> и тя да е седнала до мен де, няма как иначе
+[11:50:22] <KacanuH> haha
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:00:19] Nick change: Guest2600 -> hackman
+[12:01:23] <yulimoto> KpeTeHoug: ей тва е. и после защо админите били най-добрите татковци, как що щото са админи :)
+[12:03:29] <KpeTeHoug> надявам се да не е само зарадии това :)
+[12:03:43] <KpeTeHoug> но да, готини сме >:)
+[12:25:50] <KacanuH> Абе, а тия дето не сме нито админи нито с деца,
+[12:29:11] <KpeTeHoug> ами време вие , закога ги чакте тея деца
+[12:29:12] <KpeTeHoug> :)
+[12:52:38] <yulimoto> ей KrasiGa нищо не е казала цял ден, сигурно е в обедна почивка от сутринта :)
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:05:56] <KrasiGa> тук съм ама се занимавам с едни глупости
+[13:16:34] <yulimoto> яснооо, хайде че ми липсваш, специално съм си направил със медени букви да пишеш в канала, че да го виждам от дето погледна :P
+[13:18:24] <KrasiGa> ех колко мило :)
+[13:18:55] <KrasiGa> днес те е хванал духа на Коледа
+[13:19:13] <KrasiGa> явно всички са ти мили и добри ;р
+[13:24:21] <yulimoto> все пак идват празници :) но си е друго като кажеш Добро утро в канала сутрин :)
+[13:25:10] <KrasiGa> взимам си бележка :)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:30:21] fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[14:32:41] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[14:33:06] KacanuH (~Deyan@supersonic.comelsoft.com) joined #telerikacademy.
+[14:36:31] <KacanuH> кой ще познае какво е това ? https://mega.co.nz/#!L4wgjbJZ!Jm4DcsJq4ww_YBD2XHYwZoRsUeQvBon8dvvzhJncxCQ
+[14:36:36] <wilindex> [ MEGA ] - mega.co.nz
+[14:52:39] <KpeTeHoug> ram nqkakwa :)
+[14:53:31] <KacanuH> До тук добре, само че това не отговаря на същността а въпроса
+[14:55:30] <KpeTeHoug> твоята нова рам  ?:)
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:13:49] <KacanuH> hackman: само в теб ми е надеждата
+[15:13:56] <KacanuH> другите са прекалено млади :)
+[15:16:09] <hackman> KacanuH, 72pin-а RAM 2
+[15:16:15] <hackman> мяза на 4MB :)
+[15:16:28] <hackman> мога да проверя колко точно е :)
+[15:16:40] <hackman> KacanuH, аз имам една снимка... еволюцията на паметите :)
+[15:16:48] <hackman> имам 30pin-ова RAM :)
+[15:16:58] <hackman> и една която е просто един чип :)
+[15:17:04] <KacanuH> ;)
+[15:17:06] <hackman> мисля, че беше 28 пина :)
+[15:17:17] <hackman> от 16-ката :)
+[15:17:47] <KacanuH> не те ли е срам бе, да изкормиш паметта на 16-ката
+[15:17:57] <hackman> тя е на socket
+[15:18:08] <hackman> като тези за Arduino чиповете :)
+[15:18:38] <KacanuH> да си призная не съм отварял 8 и 16-ки
+[15:21:18] <KacanuH> видяхте ли бе админчета, bash-майстора си е баш-майстор
+[15:23:00] <yulimoto> KacanuH: aве  тоя облак иска флаш за да  даунлоудиш
+[15:23:08] <fairytale> Добре че му казах какво е :-)
+[15:24:32] <yulimoto> KacanuH: то че си е башмайстор е ясно, въпроса е да го изпитваме от време на време да не му е скучно  :)
+[15:25:03] <yulimoto> hackman: да стягам ли масата или го взе ? :P
+[15:26:44] <hackman> KacanuH, едно време бащата ни задигаше захранванто за 8-мака... и ние с брат ми си правихме тайно трансформатори за да го подкараме :)
+[15:26:55] <hackman> yulimoto, мисля, че го взех... но още не са ми казали :)
+[15:27:07] <hackman> днес не ми е ден за STDIN :)
+[15:27:40] <fairytale> Tova znachi trqbva da e EDO RAM http://www.chipmunk.nl/dram/DRAM_LGS.htm#anchor212911 ?
+[15:27:41] <wilindex> [ Understanding DRAM chip numbers: LGS ] - www.chipmunk.nl
+[15:30:25] <yulimoto> hackman: нормално... като гледам лога май не си лягал :)
+[15:32:24] <KacanuH> fairytale: да това е, както каза и hackman
+[15:32:44] <fairytale> KacanuH, tnx
+[15:33:11] <KacanuH> hackman: е това е много креативна техника да си направиш хакери
+[15:33:29] <KacanuH> ще я имам в предвид за в бъдеще
+[15:43:45] <hackman> най-яко за мен беше когато мама или баба пуснат в касетофона някоя аудио касета на която сме записали някаква игра :)
+[15:44:10] <hackman> така и не можаха да разберат кой е тоя conan и защо все нищо не се чува :0
+[15:44:48] <hackman> даже не помня колко KB събираше една касетка :)
+[15:58:06] topalov (~topalov@gw.prosyst.bg) left irc: Remote host closed the connection
+[15:58:46] <phalaaxx> Честит имен ден на всички, които имат имен ден! :)
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:07:04] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 250 seconds
+[16:08:40] phalaaxx (~bozhin@212-186-181-228.dynamic.surfer.at) joined #telerikacademy.
+[16:16:09] phalaaxx (~bozhin@212-186-181-228.dynamic.surfer.at) left irc: Read error: Operation timed out
+[16:16:58] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[16:39:41] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 240 seconds
+[16:48:07] <KrasiGa> Лека вечер и приятна почивка на всички!
+[16:49:17] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Quit: Page closed
+[16:53:14] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:28:37] <KacanuH> http://www.dnes.bg/slideshow.php?mreporter&id=6672&pid=55341
+[17:28:38] <wilindex> [ Бай Василе, да се смее ли човек, да плаче ли? | мРепортер ] - www.dnes.bg
+[17:32:34] <hackman> пробвайте това: redshift -o -l 0:0 -m randr -t 6500:6500
+[17:32:39] <hackman> redshift -o -l 0:0 -m randr -t 5000:5000
+[17:32:41] <hackman> :)
+[17:49:06] <fairytale> Hah, na domasnoto mi po WSA v youtube se poqvi - Открито съответстващо съдържание на трета страна.
+[17:49:26] <fairytale> Видеоклипът ви може да включва музика, която се притежава от трета страна.
+[17:49:54] <fairytale> Sega da ne mi sprat domashnoto zaradi prava na muzikata :-)
+[17:50:04] <hackman> fairytale, ще влизаш в шоубизнеса ли ? :)
+[17:50:22] <fairytale> hackman,  :-)))))
+[17:50:29] <fairytale> EMi za sega raboti
+[17:50:31] <fairytale> https://www.youtube.com/watch?v=4SR0rJeJPtA
+[17:50:32] <wilindex> [YouTube] Title: Windows Server 2008 R2, VirtualBox | Uploader: Svetoslav Stamenov | Uploaded: 02/12/2013, 21:25 | Duration: 8mins 2secs | Views: 74 | Comments: 0 | Likes: N/A | Dislikes: N/A
+[17:50:52] <fairytale> Ne znam, ima li opasnost da go sprat zaradi prava na muzikata?
+[17:50:59] <hackman> да
+[17:51:03] <fairytale> eeeeeeeeeee
+[17:51:08] <hackman> ботя ще ти го махне
+[17:51:18] <hackman> на нас са ни махали на OpenFest видеа
+[17:51:25] <fairytale> Видеоклипът ви е налице и може да се възпроизведе.
+[17:51:25] <fairytale> Ето подробностите:
+[17:51:25] <fairytale>     "Jano-How Do I Know - Original Mix", Звукозапис администриране от:
+[17:51:25] <fairytale>     Armada Music
+[17:52:31] <fairytale> Ama sigurno li e che ste mahne?
+[17:52:55] KacanuH (~Deyan@supersonic.comelsoft.com) left irc: Remote host closed the connection
+[17:52:55] <hackman> не съм от google :) не знам :)
+[17:53:24] <fairytale> E az poveche nqma da kachvam na youtube
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:24:08] <fairytale> Mai ne e golqm problem, Ot tova koeto razbiram, moga da potvardq che sudarjanieto na klipa e na treta strana i v sluchai che imam prihodi ot tozi klip, tretata strana ima pravo na chast ot tqh.
+[18:24:48] <fairytale> a i mai ima pravo da go zabrani.
+[18:29:27] <fairytale> Потвърдих, че съдържанието е на трета страна, дано не ми го изтрият.
+[18:44:43] bgpepi (~bgpepi@ip-80-236-203-55.dsl.scarlet.be) joined #telerikacademy.
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:10:01] <KpeTeHoug> а ти си сложили музика за фон
+[19:10:05] <KpeTeHoug> докато обясняваш ?
+[19:10:10] <KpeTeHoug> аз мразим да праийм видеа
+[19:10:16] <KpeTeHoug> и само текс слагам :) да четат
+[19:11:58] <KpeTeHoug> ма иначе ако, показно за Инсталация на WIn2008 R2
+[19:12:05] <KpeTeHoug> под линулс
+[19:12:11] <KpeTeHoug> линукс
+[19:12:42] <KpeTeHoug> и един трик
+[19:12:53] <KpeTeHoug> Bulgariq е последната страна с B
+[19:12:58] <KpeTeHoug> затова цъкаш C
+[19:13:03] <KpeTeHoug> и връщаш едно нагоре
+[19:13:05] <KpeTeHoug> :)
+[19:13:10] <KpeTeHoug> laziness
+[19:15:24] <yulimoto> KpeTeHoug: обикновено не е последната, а пред пред последна, но и в такъв случай трика е по-добре да се използва :)
+[19:16:27] <KpeTeHoug> може и да е предполседната
+[19:16:31] <KpeTeHoug> няма д аспоря
+[19:16:36] <KpeTeHoug> но да ;)
+[19:52:37] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[19:59:01] dencho (~dencho@95.111.14.183) left irc: Ping timeout: 265 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:14:19] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 240 seconds
+[20:32:38] dencho (~dencho@apollo.netissat.bg) joined #telerikacademy.
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:08:14] hackman (~hackman@management.1h.com) left irc: Ping timeout: 250 seconds
+[21:53:00] <yulimoto> dencho: пак ли ве ?
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:16:51] <dencho> pak
+[22:16:51] <dencho> :D
+[22:17:49] <dencho> nqkoi zanimaval li se e s opencart i econt modula za nego?
+[22:34:11] <yulimoto> тва на codeigniter ли беше писано ?
+[22:50:33] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[22:59:23] <dencho> nali go
+[22:59:23] <dencho> :D
+[22:59:42] <dencho> tva codeigniter vinagi go 4eta kato codeinteger :D
+[22:59:44] <dencho> hahaha
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:00] <dencho> nali go = bali go
+[23:00:00] <dencho> :D
+[23:36:36] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
+[23:36:59] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
+[23:46:03] rew1nd (~teo@95.87.216.102) joined #telerikacademy.
+[23:53:11] <rew1nd> Здравейте момци :)
+[23:53:11] <wilindex> rew1nd: 2013-12-06 05:22:00 UTC <KpeTeHoug> tell rew1nd той май за litecoins ще копа, аз не му разбирам :) помоли ме да питам и затова. Мерси за инфото все пак
+[23:53:45] <rew1nd> KpeTeHoug, за нищо, ако иска и конкретна карта ще му препоръчам :)
+[23:55:58] <rew1nd> .tell KacanuH преди около десетилетие съм имал такава памет за ключодържател (72 пиновото едо). Тъй като ми скъса джобовете в един момент я замених с SDRAM за notebook :)
+[23:55:58] <wilindex> rew1nd: I'll pass that on when KacanuH is around.
+[00:00:00] --- Sat Dec  7 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

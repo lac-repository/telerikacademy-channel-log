@@ -1,0 +1,371 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:00:12] <s0ny123> ц пак дропва
+[00:00:28] <KacanuH> https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn2/q71/s720x720/970778_484382664980036_1485636249_n.jpg
+[00:00:43] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:00:44] Nick change: phalaaxx1 -> phalaaxx
+[00:01:22] <KacanuH> s0ny123, e1500 вече не се предлага, но добър вариант е е2500
+[00:01:28] <KacanuH> s0ny123, e1500 вече не се предлага, но добър вариант е е2700
+[00:02:09] <phalaaxx> s0ny123: mikrotik?
+[00:02:12] <KacanuH> но изчакай ако можеш още няколко дни, в началото на месеца излиза новата ценова листа
+[00:02:27] <KacanuH> да микротик биват
+[00:02:39] <s0ny123> а нп, аз от ... 3 месеца си се мъча с тоя рутер.. :D
+[00:03:11] <KacanuH> но нали се сещаш че се чупят по-малко защото са продадени по-малко!
+[00:04:42] Guest54158 (2ef95cf0@gateway/web/freenode/ip.46.249.92.240) left irc: Quit: Page closed
+[00:08:29] agit0 (~agit0@95.111.18.140) joined #telerikacademy.
+[00:11:31] s0ny123 (~agit0@95.111.18.140) left irc: Ping timeout: 246 seconds
+[00:11:57] <yulimoto> добре, приех термина kernel control path и колкото повече чета за него по нищо не го различавам от нишки
+[00:12:14] gloom (John@78.130.186.99) left irc: Read error: Connection reset by peer
+[00:12:31] gloom (John@78.130.186.99) joined #telerikacademy.
+[00:12:47] <vhristev> dterziev,
+[00:12:53] <vhristev> е такова нещо не бях виждал
+[00:13:13] <vhristev> 16 ЛЪН-а по САС
+[00:13:30] <vhristev> и БИОС-а после неможе да си буутне от РАЙД контроелра защото има супер мн ЛЪН-ове
+[00:13:38] <vhristev> тия дни ще тествам с БИОС ъпдейт ама иначе греда
+[00:13:51] <vhristev> кой господ ги правя тия неща батко
+[00:16:28] <yulimoto> vhristev: аве kernel control path == thread ?
+[00:16:38] <vhristev> лягам ман
+[00:16:42] <vhristev> ако искаш ти дам жената
+[00:16:44] <vhristev> разбери се с нея
+[00:16:45] <vhristev> ПИйз
+[00:16:45] <vhristev> (;
+[00:16:49] <KacanuH> хахахха
+[00:17:00] <KacanuH> ей много лесно я даваш тая жена
+[00:17:43] <yulimoto> ей пак ли мрънка ве
+[00:18:06] <yulimoto> кажи ѝ че ми писна вече с нейните претенции
+[00:18:26] <yulimoto> нужен си на обществото ти ;)
+[00:19:16] <phalaaxx> някой има ли идея дали има евтин начин за връзване на много HDD-та към една машина?
+[00:19:21] <KacanuH> я вместо да се сваляте кажете защо не мога да си браузвам шернатите папки на уиндоуската машина
+[00:19:34] <phalaaxx> нещо зачетох за някакви JBOD истории ама не ми е ясно за какъв хардуер се говори
+[00:19:42] <KacanuH> phalaaxx, свински опашки!
+[00:19:58] <phalaaxx> не става
+[00:20:14] <KacanuH> скоч?
+[00:21:21] <phalaaxx> що е то грозен JBOD и има ли той почва у пц-то или сървъра :)
+[00:21:43] <yulimoto> да, ако ти трябва цивилизован вариант скоча те оправя, другото е сезал
+[00:21:57] <yulimoto> восък
+[00:21:58] <KacanuH> http://www.youtube.com/watch?v=i1TvR3rDJIA
+[00:22:18] <yulimoto> но с восък ще те помислят на много набожен
+[00:22:39] <KacanuH> yulimoto, може и тел, по техничарско е
+[00:23:51] <yulimoto> а да това си е най-доброто и ще разберат, че не си случаен пич
+[00:24:18] <yulimoto> ама ако е медна ще надхвърли бюджета
+[00:24:51] <KacanuH> не не желязна, ама трябва да е ръждясала, иначе ще те помислят за нууб
+[00:25:17] <phalaaxx> българско инженерно влакно, познато още като ТЕЛ
+[00:25:28] <yulimoto> да с ръждясала е ок
+[00:25:42] <yulimoto> за колко харда иде реч
+[00:25:49] <KacanuH> ей стига се лигавихте, ами кажете защо не си виждам бозавия компютър
+[00:26:11] <KacanuH> и на какъв интерфейс
+[00:27:24] <yulimoto> и с кво си ги шернал
+[00:27:26] <phalaaxx> колкото повече - толкова повече
+[00:27:46] <phalaaxx> що е то JBOD и къде може да се ползва
+[00:27:50] <KacanuH> с уиндоуския шеринг
+[00:27:52] <yulimoto> еми сложи ги на пале
+[00:28:10] <phalaaxx> или това е просто наименование на купчина дискове вързани някъде без RAID
+[00:28:26] <phalaaxx> и изобщо май тримата си говорим за някакви различни неща :D
+[00:29:33] <yulimoto> сега видях just of bunch of disks (drives)
+[00:29:57] <yulimoto> сега видях just a bunch of disks (drives)
+[00:31:09] <yulimoto> KacanuH: и туй самба ли иде да рече ?
+[00:31:36] <yulimoto> т.е ала самбда
+[00:31:40] <yulimoto> т.е ала самба
+[00:31:41] <KacanuH> аха
+[00:31:46] <KacanuH> http://www.itshop.bg/product/3971/assmann-ds-33102-sata-150-raid-pci-karta-4-porta.html
+[00:31:55] <KacanuH> ето ти решение за още 4 диска
+[00:32:46] <KacanuH> ако ти харесва идеята се обади да ти го пуснат колежките с 10% дискаунт
+[00:34:02] <KacanuH> да със салса :) но като се опитам да си отворя Windows Network и изревава Failed to retrieve share list from server
+[00:34:12] <KacanuH> Unable to mount location
+[00:34:56] <phalaaxx> хм това изглежда интересно :)
+[00:35:02] <KacanuH> Ubuntu Forums is down for maintenance, абе тия още не могат да си дигнат машините
+[00:35:03] <yulimoto> те там не бяха ли няколко порта, да не си отворил само един ;P~
+[00:35:30] <KacanuH> yulimoto, я пак, не те разбрах
+[00:36:08] <yulimoto> KacanuH: поне казаха, че са хакнати. Не като епъл дето се направих, че си правят профилактиа
+[00:37:10] <yulimoto> KacanuH: да не би ако си firewall да ти прави беля
+[00:38:14] <KacanuH> махнах огнената стена
+[00:38:40] <yulimoto> forwarding ? нещо си други магарии
+[00:39:18] <KacanuH> тз
+[00:40:13] <yulimoto> еми ...
+[00:40:31] <KacanuH> четене ще му е майката
+[00:40:35] <yulimoto> аха
+[00:41:15] <yulimoto> и аз имах подобен проблем, ама бях отворил само не знам си кой порт, път то трябвало и още там някои портове, за тва помислих да не това
+[00:41:51] <yulimoto> да ги enable във файрлола имам предвид
+[00:43:00] <KacanuH> аз съм идиот!!!
+[00:43:04] <KacanuH> /sbin/service nmb restart
+[00:43:05] <KacanuH> Спиране на NMB услуги:                                     [Провал]
+[00:43:05] <KacanuH> Стартиране на NMB услуги:                                  [  Да  ]
+[00:43:57] <yulimoto> еми честито
+[00:44:29] <KacanuH> до тук добре, сега обаче не виждам нищо в уиндоус нетурка
+[00:44:46] <KacanuH> ама то е нормално след всичкото мазане което правих
+[00:44:53] <yulimoto> ами сега всичките проби дето си ги правил - отначало
+[00:46:18] <KacanuH> http://www.youtube.com/watch?v=CZ_VFJn2kJM
+[00:46:28] <KacanuH> поздрав!!!
+[00:47:05] <episparh> то верно че евъргрийн ама ...
+[00:47:40] <episparh> аз предпочитам http://www.youtube.com/watch?v=Ibc0ph6BR3g в момента
+[00:50:48] <phalaaxx> в този последния линк са взели музикалната визуализация от "Всяка неделя"
+[00:51:00] Deyan_ (~Deyan@46.249.92.240) joined #telerikacademy.
+[00:51:19] KacanuH (~Deyan@46.249.92.240) left irc: Read error: Connection reset by peer
+[00:51:32] Nick change: Deyan_ -> Deyan
+[00:52:09] <episparh> аз само злушам , не гледам :)
+[00:52:10] <phalaaxx> episparh: nice
+[00:52:18] <phalaaxx> яко е
+[00:52:46] <episparh> мда In flames  биват
+[00:54:20] <episparh> другото което препоръчвам е http://www.youtube.com/watch?v=TBJjREXXSyA
+[00:55:54] <episparh> но вече и това не може да ме държи буден - очите ми изтекоха
+[00:56:01] <episparh> лека ви , пичове
+[00:56:11] Action: episparh ZZZzzzZZZzzz...
+[00:56:36] <phalaaxx> episparh: пробвай с това: http://www.youtube.com/watch?v=nrFSupNT7rA
+[00:56:56] <phalaaxx> (и не се опитвай да слушаш текста)
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:05:26] <Deyan> аз като един вечно зелен http://www.youtube.com/watch?v=9-4Gm6VG4O0
+[01:11:09] <phalaaxx> http://cdn.9laughs.com/files/2012/04/Metal-Detector.jpg
+[01:15:58] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[01:55:56] <yulimoto> хмм http://utilite-computer.com/web/home 99$
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:14:18] Deyan (~Deyan@46.249.92.240) left irc: Ping timeout: 256 seconds
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:15:45] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:18:26] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:24:38] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:57:26] gloom (John@78.130.186.99) left irc: Quit: Leaving
+[06:58:19] user99 (John@78.130.186.99) joined #telerikacademy.
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:01:11] Nick change: user99 -> looser99
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:38:25] krasin (~krasin@95.43.97.44) joined #telerikacademy.
+[08:41:39] krasin (~krasin@95.43.97.44) left irc: Remote host closed the connection
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:09:15] <alex____> има ли някой жив
+[09:51:44] angie_bg (~angie@77.236.189.210) joined #telerikacademy.
+[09:52:45] <dencho> има
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:26:03] anton_dutsov (~pro@178.75.224.96) joined #telerikacademy.
+[10:38:12] Deyan (~Deyan@46.249.92.240) joined #telerikacademy.
+[10:40:41] Deyan (~Deyan@46.249.92.240) left irc: Remote host closed the connection
+[10:41:03] KacanuH (~Deyan@46.249.92.240) joined #telerikacademy.
+[10:41:23] Nick change: KacanuH -> Deyan
+[10:41:31] <Deyan> Добро утро
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:11:31] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[11:39:34] net: connect! sock 3
+[11:39:34] DNS resolve failed for 127.0.0.1
+[11:39:34] Telnet connection: 127.0.0.1/45121
+[11:39:34] net: connect! sock 11
+[11:39:34] net: eof!(read) socket 11
+[11:39:34] Timeout/EOF ident connection
+[11:39:40] Logged in: yulimoto (telnet@127.0.0.1/45121)
+[11:40:01] tcl: builtin dcc call: *dcc:say yulimoto 6 Как
+[11:40:18] <Deyan> какво пак не си разбрало бе тенеке
+[11:40:47] tcl: builtin dcc call: *dcc:say yulimoto 6 Как сте тигри? Касапче оправи ли си ен    енкодинга?
+[11:40:54] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[11:41:15] <Deyan> да бе, сега се чете, то и вчера се четеше, след като се размрънках
+[11:41:26] net: connect! sock 3
+[11:41:26] DNS resolve failed for 127.0.0.1
+[11:41:26] Telnet connection: 127.0.0.1/45123
+[11:41:26] net: connect! sock 11
+[11:41:26] net: eof!(read) socket 11
+[11:41:26] Timeout/EOF ident connection
+[11:41:34] Logged in: yulimoto (telnet@127.0.0.1/45123)
+[11:41:41] tcl: builtin dcc call: *dcc:say yulimoto 6 OK
+[11:42:34] tcl: builtin dcc call: *dcc:whom yulimoto 6 
+[11:44:48] Last message repeated 1 time(s).
+[11:44:48] net: connect! sock 3
+[11:44:48] DNS resolve failed for 127.0.0.1
+[11:44:48] Telnet connection: 127.0.0.1/45125
+[11:44:48] net: connect! sock 12
+[11:44:48] net: eof!(read) socket 12
+[11:44:48] Timeout/EOF ident connection
+[11:45:12] agit0 (~agit0@95.111.18.140) left irc: Ping timeout: 240 seconds
+[11:45:13] tcl: builtin dcc call: *dcc:help yulimoto 6 all
+[11:45:21] tcl: builtin dcc call: *dcc:module yulimoto 6 
+[11:55:46] net: eof!(read) socket 6
+[11:55:46] Lost dcc connection to yulimoto (telnet@127.0.0.1/45123)
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:01:24] anton_dutsov (~pro@178.75.224.96) left irc: Remote host closed the connection
+[12:02:32] samy__ (~samy@84.238.184.98) left irc: Ping timeout: 260 seconds
+[12:16:32] samy_ (~samy@91.196.227.180) joined #telerikacademy.
+[12:17:23] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[12:17:50] <samy__> ох този телеришки бот е много нагъл
+[12:20:56] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 246 seconds
+[12:22:54] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:58:49] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:01:53] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[13:08:20] <vhristev> ах този джаз
+[13:08:28] <vhristev> (;
+[13:26:41] <yulimoto> phalaaxx: ?
+[13:26:57] <phalaaxx> аз :)
+[13:27:25] <yulimoto> сега
+[13:27:33] <yulimoto> играя си с промта
+[13:27:44] <yulimoto> и баш не съм учил
+[13:27:51] <yulimoto> как аджеба ?
+[13:28:22] <yulimoto> да вкарам променлива която да се ъпдейтва
+[13:28:29] <yulimoto> примерно като часа
+[13:29:02] <yulimoto> или както си дал вчера sensors той няма да се ъпдейтва; ще вземе стойността в началото и от там само ще я копира в промта
+[13:29:23] <yulimoto> въпроса дали го задавам правилно не знам ?
+[13:30:03] <phalaaxx> амии вариант 1 - да ползваш това, което ти дава bash като възможности (например \t за час) или вариант 2 - да ползваш някакви команди които принтят нещо - тях ги слагаш във `` (над TAB)
+[13:30:22] <yulimoto> аааааа
+[13:30:37] <yulimoto> това с `` не го знаех
+[13:30:44] <phalaaxx> ако искаш да пробваш как работи това с командите - пробвай с date вместо с \t
+[13:30:49] <yulimoto> това mysql кавички ли са ?
+[13:31:21] <yulimoto> да то ясно с тия готовите \w \t и т.н. ама мен ме интересуваше как да вкарвам директно команди от баша
+[13:31:50] <yulimoto> сега ще пробвам
+[13:32:19] <phalaaxx> хм всъщност не съм сигурен дали работи така
+[13:32:41] <phalaaxx> в shell скриптове работи ама... ще пробвам :)
+[13:33:06] <phalaaxx> работи :)
+[13:33:13] <phalaaxx> export PS1="\u@\h: \`date +%H:%M:%S\` \w\$ "
+[13:33:27] <phalaaxx> (виж как се сменят секундите)
+[13:33:39] <phalaaxx> (и не само те)
+[13:36:13] <yulimoto> пууу
+[13:36:15] <yulimoto> най после
+[13:36:26] <phalaaxx> ако искаш пробвай го и със секунди от 1970-та :)
+[13:36:26] <phalaaxx> export PS1="\u@\h: \`date +%s\` \w\$ "
+[13:36:33] <yulimoto> \` <--- това било
+[13:36:57] <yulimoto> да аз пробвах със сенсорс
+[13:37:01] <yulimoto> сега
+[13:37:11] <yulimoto> обаче трябвало да сложа \`
+[13:37:35] <phalaaxx> да, че иначе вкарваш стойност в променливата а не самата команда
+[13:37:51] <yulimoto> щото иначе взема шибаната стойността  на шибаната променлива и я принти, а не взема команда
+[13:37:54] <yulimoto> ааа именно
+[13:38:09] <yulimoto> ама аз знам какво прави, ама не знам че трябвало \`
+[13:38:48] <yulimoto> ейй
+[13:38:52] <yulimoto> жив и здрав да си
+[13:39:24] <phalaaxx> предполагам би било интересно да си напише човек скрипт да вади заглавия на новини от RSS и да ти ги дава prompt :D
+[13:39:31] <yulimoto> сега ще мога да си направя промта чан-шукария; кат цигански москвич
+[13:40:00] <phalaaxx> да ги дава на prompt имам предвид
+[13:40:21] <phalaaxx> илиии... последното написано нещо в IRC :D
+[13:40:39] <yulimoto> хаха то ще бъде вече gipsy linux дисто някакво
+[13:40:43] <phalaaxx> примерно на гризлито да чете последния ред на лог файла за IRC
+[13:40:56] <phalaaxx> `tail -1 /path/to/log` :D
+[13:41:40] <yulimoto> не може да си направиш скрипт който grep-ва последния път когато са ти споменали името в канала и ако са го споменали да ти излиза на промта
+[13:42:06] <phalaaxx> може и без скрипт
+[13:42:26] <Deyan> нещо много се "заbashихте"
+[13:42:46] <phalaaxx> grep yulimoto /path/to/log | tail -1
+[13:42:59] <yulimoto> да обаче ако ще го правиш добре ще трябва скрипт ; трябват 1 променлива, която да сверява дали този запис вече е бил показван, и ако не е да го покаже
+[13:43:27] <phalaaxx> аа не ти разбирам идеята
+[13:43:28] <yulimoto> ще трябва вероятно и запис във файл
+[13:43:51] angie_bg1 (~angie@77.236.189.210) joined #telerikacademy.
+[13:43:54] <phalaaxx> какво точно искаш да извадиш?
+[13:44:15] <phalaaxx> последното съобщение с твоето име?
+[13:44:24] <yulimoto> ами представи си че имаш 1 път споменато името в лога ;
+[13:44:31] angie_bg (~angie@77.236.189.210) left irc: Ping timeout: 264 seconds
+[13:44:33] <yulimoto> името ти излиза в промта
+[13:44:58] <phalaaxx> дам?
+[13:45:06] <yulimoto> после излизаш разкарваш се, ходиш на пазар
+[13:45:27] <yulimoto> но в канала ти споменават името втори и трети път
+[13:45:31] <yulimoto> теб те няма
+[13:46:10] <yulimoto> когато се прибереш обаче и скрипта започва проверката от първия запис нататък без да го показва
+[13:46:28] <yulimoto> и ти показва второто и третото споменаване
+[13:46:31] <yulimoto> на името
+[13:46:35] <yulimoto> без първото
+[13:46:41] <yulimoto> след като ги покаже
+[13:47:06] <yulimoto> отмята третото и следващия път проверката започва от него
+[13:47:07] <phalaaxx> е поне ще знаеш че някой ти е казал името :)
+[13:47:35] <yulimoto> т.е показва само новите споменавания :)
+[13:47:53] <yulimoto> да може би е ненужно дълго
+[13:48:20] <yulimoto> иначе верно става за един ред работата
+[13:50:30] <phalaaxx> сега ще го пробвам :)
+[13:52:07] <yulimoto> phalaaxx: на промпта ли съм ?
+[13:52:28] <yulimoto> phalaaxx: ало !!!! Хюстън
+[13:52:37] <yulimoto> phalaaxx: ду ю рич ми ?
+[13:53:26] <phalaaxx> м?
+[13:54:05] <yulimoto> т.е. става ли ?
+[13:54:38] <phalaaxx> чакай още си пиша PS-а :)
+[13:56:59] <yulimoto> аз написах тука едно обаче има проблем ще трябва да оправя грепа щото хваща и моите реплики
+[13:58:40] <phalaaxx> пфу трудна работа, ама не е невъзможно де :)
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:03:13] <yulimoto> бах прецаках лога
+[14:03:28] <yulimoto> пхууу
+[14:04:21] <yulimoto> и мн тъпо не направих бакъп ; т.е. това е лога на irssi то не оригиналния лог на канала
+[14:08:27] <phalaaxx> добре, май проработи
+[14:08:53] <phalaaxx> частично :D
+[14:11:54] <yulimoto> чакай да се псомена че предния път реда е мн дълъг и ми заема мн
+[14:11:58] <yulimoto> yulimoto
+[14:18:35] <yulimoto>  
+[14:19:32] <yulimoto> hm значи изключвам редовете с -v "yulimoto>" и търся само с yulimoto
+[14:20:10] <yulimoto> обаче когато си спомена името сам тези редове са вече изключени защото започват с yulimoto>
+[14:21:04] <yulimoto> друг вариант е да cut-на от реда часа и ника и от там вече да си търся каквото ми трябва
+[14:22:36] <Deyan> yulimoto, ако ти сам си се споменал то би следвало да си бил на линия, тоест -v "yulimoto>" според мен е достатъчно добър вариант
+[14:23:57] <phalaaxx> export PS1="\u@\h: \`grep -h phalaaxx /home/gt/eggdrop/logs/telerik.log.* | tail -1\` \w\$ "
+[14:24:14] <phalaaxx> обаче има проблем по този начин, * разгъва имената на логовете
+[14:24:38] <Deyan> разгъва?
+[14:25:49] <phalaaxx> echo $PS1
+[14:29:11] net: connect! sock 3
+[14:29:11] DNS resolve failed for 127.0.0.1
+[14:29:11] Telnet connection: 127.0.0.1/45130
+[14:29:11] net: connect! sock 11
+[14:29:11] net: eof!(read) socket 11
+[14:29:11] Timeout/EOF ident connection
+[14:29:17] Logged in: yulimoto (telnet@127.0.0.1/45130)
+[14:29:32] tcl: builtin dcc call: *dcc:say yulimoto 6 yulimoto test message
+[14:30:05] <episparh> на това му се казва - хора без работа :)
+[14:30:19] <Deyan> хаххахахха
+[14:31:19] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: leaving
+[14:31:32] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[14:32:05] tcl: builtin dcc call: *dcc:say yulimoto 6 yulimoto test 2
+[14:33:03] tcl: builtin dcc call: *dcc:say yulimoto 6 test 3 brbrr yulimoto
+[14:33:36] <yulimoto> долу горе работи
+[14:33:42] <yulimoto> друг е въпроса, че не знам какво искам
+[14:34:22] <yulimoto> yulimoto@grizzly: ~/irclogs/IRCnet test 3 brbrr yulimoto$
+[14:38:42] tcl: builtin dcc call: *dcc:say yulimoto 6 last test for yulimoto
+[14:38:44] <phalaaxx> episparh: ти много работа ли имаш в момента? :)
+[14:39:10] <yulimoto> така отделих го поне да е на нов ред
+[14:39:31] <yulimoto> за сега няма да се лигавя да го слагам в bashrc
+[14:53:14] tcl: builtin dcc call: *dcc:whom yulimoto 6 
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:02:48] <yulimoto> episparh: не че сме без работа, просто си правим домашната малко по-интересна
+[15:07:35] <episparh> аз събота и неделя избягвам да си напрягам черепния вакуум :)
+[15:08:17] <episparh> иначе похвално за домашното , ама това с лога е леко казано безсмислено :)
+[15:09:47] <episparh> някак си предпочитам директно с логовете да боравя от колкото да ги гледам в команд промпта :)
+[15:13:26] <yulimoto> не е безмислено ще видиш че ще му намерим приложение ;P~
+[15:18:45] tcl: builtin dcc call: *dcc:whom yulimoto 6 
+[15:18:49] DCC connection closed (yulimoto!telnet@127.0.0.1)
+[15:29:15] Deyan (~Deyan@46.249.92.240) left irc: Ping timeout: 246 seconds
+[15:54:19] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[15:55:32] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:17:20] dterziev (~dimitar@46.47.83.79) left irc: Quit: Leaving
+[18:52:30] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:07:47] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[19:53:51] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 246 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:08:17] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:34:28] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 240 seconds
+[20:35:15] angie_bg1 (~angie@77.236.189.210) left #telerikacademy.
+[20:39:59] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[20:49:52] alex____ (~alex@77.70.80.16) left irc: Quit: Lost terminal
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:15:44] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 276 seconds
+[22:16:12] <yulimoto> някой трябва да направи относителна класификация на различните стрийм едитори - awk, sed, grep, и т.н. ще ми е интересно да разбера в различните ситуации кой какво ползва
+[22:50:41] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:41:59] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Remote host closed the connection
+[00:00:00] --- Sun Jul 28 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...

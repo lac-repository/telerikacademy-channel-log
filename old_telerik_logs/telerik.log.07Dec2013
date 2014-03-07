@@ -1,0 +1,209 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:06:24] Atan (~Nako@c-76-99-190-68.hsd1.de.comcast.net) joined #telerikacademy.
+[00:06:51] Nick change: Atan -> Guest83694
+[00:09:47] Nick change: Guest83694 -> Nako
+[00:09:51] rew1nd (~teo@95.87.216.102) left irc: Quit: Leaving.
+[00:10:36] gdanailov (~gdanailov@94.26.94.2) joined #telerikacademy.
+[00:18:24] gdanailov (~gdanailov@94.26.94.2) left irc: Quit: Leaving
+[00:25:51] Deyan (~deyan@46.249.92.240) left irc: Quit: Nettalk6 - www.ntalk.de
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[03:27:50] fairytale (~fairytale@77.70.117.169) left irc: Remote host closed the connection
+[03:44:31] Nick change: ndyakov -> ndyakov|away
+[03:46:04] Nick change: ndyakov|away -> ndyakov
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:06:24] bgpepi (~bgpepi@ip-80-236-203-55.dsl.scarlet.be) left irc: Remote host closed the connection
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:39:18] Nako (~Nako@c-76-99-190-68.hsd1.de.comcast.net) left irc: Read error: Connection reset by peer
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:56:14] Nick change: ndyakov -> ndyakov|away
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:51:39] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:19:54] dencho (~dencho@apollo.netissat.bg) left irc: Ping timeout: 265 seconds
+[09:42:03] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:06:32] <yulimoto> dencho: шшш ми то тва до вас бе, на 20 мин
+[10:28:49] <yulimoto> арееее сутрин да се събудите https://www.youtube.com/watch?v=7oVLYStL724
+[10:28:50] <wilindex> [YouTube] Title: Stevie Wonder Live - Do It (Talkbox) | Uploader: Wonderanime | Uploaded: 24/05/2013, 16:43 | Duration: 3mins 38secs | Views: 344 | Comments: 0 | Likes: 1 | Dislikes: 0
+[10:38:06] Deyan (~deyan@46.249.92.240) joined #telerikacademy.
+[10:48:20] <dencho> da
+[10:48:20] <dencho> :D
+[10:48:26] <dencho> ako ti4am moje i za 10
+[10:48:27] <dencho> :D
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:12:15] <Deyan> какво е станало тук, да не да е паднала бомба
+[12:29:00] rew1nd (5f57d866@gateway/web/freenode/ip.95.87.216.102) joined #telerikacademy.
+[12:29:35] <rew1nd> добър ден :)
+[12:51:16] Nick change: ndyakov|away -> ndyakov
+[13:00:00] Writing user file...
+[13:00:00] Writing channel file...
+[13:11:36] <KpeTeHoug> момци
+[13:11:39] <KpeTeHoug> въпрос
+[13:11:49] <KpeTeHoug> гледам тука един супер параноичен линукс :)
+[13:11:54] <KpeTeHoug> TAILS
+[13:11:58] <KpeTeHoug> дебиан басед
+[13:12:09] <KpeTeHoug> някой да има опит ?
+[13:13:04] <KpeTeHoug> ако не, нещо друго супер secure banking i browse
+[13:13:58] <rew1nd> за пръв път го чувам, какво му е не параноичното на стандартния Live Debian с току що дръпнат tor :)
+[13:15:23] <KpeTeHoug> ми горе долу същото е
+[13:15:41] hackman (~hackman@wolf.yuhu.biz) joined #telerikacademy.
+[13:15:47] <KpeTeHoug> Tails comes with a load of software to cater to every need you may have. This includes a customized Firefox browser (branded as Iceweasel because Tails is Debian-based) which uses the Tor network out-of-the-box. Firefox in Tails also includes other extensions to make browsing as secure as possible with HTTPS Everywhere and NoScript. Tails also comes with Claws Mail with OpenPGP support,
+[13:15:47] <KpeTeHoug> Pidgin with OTR encryption support, and editing tools like GIMP and OpenOffice.
+[13:15:54] <rew1nd> аз по принцип съм малко резервиран към проекти, чиито цели са изрично да бъдат private, тъй като някой такива проекти доказаха, че всъщност са разработени тъкмо с цел да бъдат honeypots
+[13:15:56] <KpeTeHoug> hackman може да го е чувал :)
+[13:16:05] Nick change: hackman -> Guest3083
+[13:16:22] <KpeTeHoug> абе и аз това си мисля, затова питам
+[13:16:37] <KpeTeHoug> аз не съм ползвал подобни работи, ма човека иска да си сложи на лаптопа
+[13:16:41] <KpeTeHoug> ма да е много много сигурно :)
+[13:17:00] <rew1nd> Open BSD ? :)
+[13:17:19] <KpeTeHoug> ам
+[13:17:21] <KpeTeHoug> и това го мислих
+[13:17:28] <KpeTeHoug> ма като не съм ръчкал достатъчно
+[13:17:37] <KpeTeHoug> знам ли дали мога да се оправя :)
+[13:17:41] Nick change: Guest3083 -> azilian
+[13:18:07] <rew1nd> аз имам мераци, само да мине LPI-я другата седмица и ще тествам както Open, така и free за да се заиграя със zfsguru, който беше препоръчал hackman преди врее
+[13:18:10] Nick change: azilian -> hackman
+[13:18:11] <rew1nd> *време
+[13:18:29] <rew1nd> hackman, проблеми със самоличността ? ;)
+[13:18:48] <hackman> не... просто бавно IRC :)
+[13:18:48] <KpeTeHoug> криза на пубертета
+[13:18:49] <KpeTeHoug> :)
+[13:18:57] <rew1nd> хаха :)
+[13:19:12] <KpeTeHoug> hackman препоръчай дистро за параноик
+[13:19:21] <KpeTeHoug> както каза той - " да е много много сигурно"
+[13:19:23] <KpeTeHoug> :)
+[13:19:33] <rew1nd> оп, тук и аз ще слушам hackman :)
+[13:20:06] <rew1nd> че и на мен ми е интересно, имам двама адвокатина, които изведнъж параноясаха последните няколко месеца
+[13:20:09] <hackman> за параноиците... лист и хартия + голяма запалка
+[13:20:27] <KpeTeHoug> :) това опмага, ма не може да се банкира по тоя начин
+[13:20:27] <KpeTeHoug> ;0
+[13:20:39] <rew1nd> е.. говорим и за usability освен всичко останало :D
+[13:21:22] <hackman> usability-то е една от трите страни на триъгълника securiyt, usability, performance :)
+[13:21:42] <hackman> обикновено като добавиш много security, другите две страдат максимално
+[13:22:01] <rew1nd> добре, тогава поправям по-горе на *някакво* usability, освен всичко останало :)
+[13:22:44] <rew1nd> hackman, може би не си видял началото - проекта се казва TAILS
+[13:23:33] <hackman> в общи линии какъв да е линукс, криптирани дискове, FF със Tor extension-a, Thunderbird s OpenPGP и всички документи които се предават по какъвто и да е начин да се криптират с OpenPGP или друг подобен механизъм
+[13:23:47] <hackman> rew1nd, не съм го чувал
+[13:24:01] <KpeTeHoug> ми има висчко посочено от теб :)
+[13:24:13] <KpeTeHoug> ей малко по нагоре го пейстнах
+[13:24:27] <KpeTeHoug> веднага след грейта на бота
+[13:24:44] <KpeTeHoug> *грийта
+[13:25:13] <hackman> KpeTeHoug, не бих си изгубил спокойствието със Slackware за която и да е друга distro
+[13:25:28] <rew1nd> hackman, аз също и тъкмо споделих мнение на KpeTeHoug, че нещо нямам вяра на такъв тип проекти, създадени специално с тази цел
+[13:25:33] <rew1nd> да бъдат secure
+[13:25:53] <hackman> хубавото на Linux е, че ако едно нещо го има на един... можеш да си го сложиш на които и да е друг Linux и пак да ти работи по същият начин
+[13:25:59] <hackman> торбичката няма значение :)
+[13:26:05] <rew1nd> :)
+[13:26:15] <KpeTeHoug> хахах
+[13:26:23] <KpeTeHoug> това с торбичката ми хареса :)
+[13:26:24] <KpeTeHoug> добре
+[13:26:30] <KpeTeHoug> като го донесе понеделник лаптопа
+[13:26:35] <KpeTeHoug> почвам да го троша ;)
+[13:27:02] <KpeTeHoug> благодаря за насоките
+[13:27:13] <hackman> аз отивам да си прекарам колата на преглед
+[13:27:24] <hackman> лек ден
+[13:28:04] <KpeTeHoug> лек да е
+[13:28:15] <KpeTeHoug> аз ще се възползвам че зверовете спят
+[13:28:23] <KpeTeHoug> да поцъкам малко  Диабло :)
+[13:28:25] <KpeTeHoug> после пак
+[13:28:43] <hackman> аз после мога да драсна малко StarCraft
+[13:28:49] <hackman> ще се обадя ако има навитаци :)
+[13:32:16] Fairytale (~fairytale@77.70.117.169) joined #telerikacademy.
+[13:34:36] <rew1nd> ей... едвам ме навихте, аз ще поцъкам малко Osmos, че от сутринта само съм забил поглед в тая книжка
+[13:35:08] <rew1nd> м/у другото ако някой иска инди игрички за Linux, да си избере нещо от тук и да ми пише да му го кача някъде
+[13:35:31] <rew1nd> http://en.wikipedia.org/wiki/Humble_Bundle
+[13:35:32] <wilindex> [ Humble Bundle - Wikipedia, the free encyclopedia ] - en.wikipedia.org
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:14:20] rew1nd (5f57d866@gateway/web/freenode/ip.95.87.216.102) left irc: Quit: Page closed
+[15:22:01] MoHu (~MO@77.70.108.185) left irc: Read error: Connection reset by peer
+[15:24:24] MoHu (~MO@77.70.108.185) joined #telerikacademy.
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:35:27] <yulimoto> .tell rewind гледах клипа на Osmos много добре изглежда и саунда е ок
+[16:35:27] <wilindex> yulimoto: I'll pass that on when rewind is around.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:19:26] <yulimoto> .tell rewind ако има чалъм за пълната версия пращай това е много яко
+[17:19:26] <wilindex> yulimoto: I'll pass that on when rewind is around.
+[17:19:49] <yulimoto> .tell rew1nd ако има чалъм за пълната версия пращай това е много яко
+[17:19:49] <wilindex> yulimoto: I'll pass that on when rew1nd is around.
+[17:33:11] KpeTeHoug (~GT@212.36.13.10) got netsplit.
+[17:43:10] rew1nd (~teo@46.238.29.142) joined #telerikacademy.
+[17:44:00] KpeTeHoug (~GT@212.36.13.10) got lost in the net-split.
+[17:48:45] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #telerikacademy.
+[17:49:04] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Client Quit
+[17:50:29] <rew1nd> yulimoto, никакъв проблем, разгледай и нещо друго, Осмос е просто една от многото зарибявки
+[17:50:29] <wilindex> rew1nd: 2013-12-07 15:28:55 UTC <yulimoto> tell rew1nd ако има чалъм за пълната версия пращай това е много яко
+[17:50:43] <rew1nd> deb или rpm ?
+[17:56:59] <yulimoto> деб :)
+[17:57:20] <yulimoto> ама ти деб ли си ?
+[17:58:09] <rew1nd> там където го качих днес беше деб и работеше, да
+[17:58:24] <rew1nd> на рпм базирани май работеше само на федора
+[17:58:55] KpeTeHoug (~GT@212.36.13.10) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:00:08] <rew1nd> http://lms.xkbit.info/HIB/Osmos/
+[18:00:08] <wilindex> [ Index of /HIB/Osmos ] - lms.xkbit.info
+[18:01:04] <rew1nd> мисля, че не съм имал случай да не е тръгнала някъде ( а съм я качил на бая деца ), моя Scientific Linux го изключвам от тая сметка
+[18:10:45] <yulimoto> physics engine-a, усщането за space  и не на последно място sound-a  правят играта супер променяща усета за  възприятие
+[18:30:55] <rew1nd> наистина е нещо невероятно, загубил съм десетки часове в нея и изобщо не съжалявам. Изиграх я веднъж и на телефона си
+[18:31:19] <rew1nd> има няколко наистина заслужаващи си заглавия, друго което ми излиза на пръв поглед е Machinarium
+[18:31:31] <rew1nd> уви не ми остава много време за игра през последните няколко месеца
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:07:56] <hackman> Osmos под Linux
+[19:08:00] <hackman> NICEEEE :)
+[19:08:13] <hackman> аз си я купих преди доста време... но работеше само под windows :(
+[19:08:49] <Fairytale> Machinarium ne e li stara?
+[19:10:01] <Fairytale> Abe vidqhte li novia Flashback? Tova sum go igral nqkoga na AMIGA500
+[19:17:17] <Fairytale> http://www.youtube.com/watch?v=KVni0T7cEOk tova e originala :-)
+[19:17:17] <wilindex> [YouTube] Title: Flashback - level 1 (Amiga) | Uploader: drg303 | Uploaded: 07/01/2011, 01:18 | Duration: 18mins 22secs | Views: 26,573 | Comments: 27 | Likes: 62 | Dislikes: 0
+[19:19:08] <Fairytale> a nova versiq izlezna ako ne se luja predi meseci http://www.youtube.com/watch?v=c6uFmZH4kp0
+[19:19:08] <wilindex> [YouTube] Title: Flashback (HD Remake) - Let's Play LIVE - Eurogamer | Uploader: Eurogamer | Uploaded: 01/08/2013, 17:34 | Duration: 54mins 56secs | Views: 86,552 | Comments: 238 | Likes: 64 | Dislikes: 15
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:08:11] <rew1nd> Fairytale, почти няма разлика :)
+[20:10:21] <rew1nd> А Маchinarium е простичка флаш игричка, но е уникална заради въображението, което е вложено в нея. Пъзелчета от тези, които обичахме да решаваме, когато бяхме деца
+[20:12:19] <Fairytale> rew1nd, едната е от 1992, другата 2013. Ако пуснеш едната и после другата ще видиш дали няма разлика :-)
+[20:16:58] <rew1nd> Fairytale, извинявай, забравих да сложа //sarcasm таговете
+[20:19:50] <Fairytale> :-)))
+[20:42:12] dyrgel (~quassel@46.10.53.236) joined #telerikacademy.
+[20:43:57] <hackman> starcraft II
+[20:43:59] <hackman> някой ?
+[20:44:50] Action: hackman God made the integer, all rest was the work of men. - http://kingjamesprogramming.tumblr.com/page/2
+[20:56:34] dyrgel (~quassel@46.10.53.236) left irc: Remote host closed the connection
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:04:37] <Fairytale> World of Warcraft na Neptulon ако играе някой да се обажда.
+[21:05:44] dyrgel (~quassel@46.10.53.236) joined #telerikacademy.
+[21:37:07] Fairytale (~fairytale@77.70.117.169) left irc: Remote host closed the connection
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:15:12] dyrgel (~quassel@46.10.53.236) left irc: Ping timeout: 246 seconds
+[22:17:24] Fairytale (~Fairytale@77.70.117.169) joined #telerikacademy.
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:40:07] MoHu (~MO@77.70.108.185) left irc: Quit: Leaving.
+[00:00:00] --- Sun Dec  8 2013
+[00:00:00] Backing up channel file...
+[00:00:00] Backing up user file...

@@ -1,0 +1,645 @@
+[00:00:00] Writing user file...
+[00:00:00] Writing channel file...
+[00:08:00] user99 (John@78.130.186.99) joined #telerikacademy.
+[00:13:28] samy__ (~samy@84.238.184.98) left irc: Ping timeout: 264 seconds
+[00:18:42] Nako_ (~Nako@75.151.167.113) left irc: Ping timeout: 245 seconds
+[00:25:48] KacanuH (~Deyan@212.5.158.232) joined #telerikacademy.
+[00:37:47] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[00:48:42] KacanuH (~Deyan@212.5.158.232) left irc: Ping timeout: 245 seconds
+[01:00:00] Writing user file...
+[01:00:00] Writing channel file...
+[01:53:04] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[02:00:00] Writing user file...
+[02:00:00] Writing channel file...
+[02:44:41] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[03:00:00] Writing user file...
+[03:00:00] Writing channel file...
+[04:00:00] Writing user file...
+[04:00:00] Writing channel file...
+[04:03:10] hackman (~HackMan@wolf.yuhu.biz) joined #telerikacademy.
+[04:03:34] Nick change: hackman -> Guest62324
+[04:27:34] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) left irc: Ping timeout: 250 seconds
+[05:00:00] Writing user file...
+[05:00:00] Writing channel file...
+[05:04:57] Guest62324 (~HackMan@wolf.yuhu.biz) left #telerikacademy.
+[05:31:18] Nako (~Nako@c-76-99-190-68.hsd1.de.comcast.net) joined #telerikacademy.
+[05:57:20] Nako (~Nako@c-76-99-190-68.hsd1.de.comcast.net) left irc: Ping timeout: 245 seconds
+[06:00:00] Writing user file...
+[06:00:00] Writing channel file...
+[06:58:33] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 240 seconds
+[07:00:00] Writing user file...
+[07:00:00] Writing channel file...
+[07:23:05] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[07:26:58] dterziev (~dimitar@46.47.83.79) left irc: Quit: Leaving
+[07:38:30] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[07:52:53] samy__ (~samy@84.238.184.98) left irc: Ping timeout: 245 seconds
+[08:00:00] Writing user file...
+[08:00:00] Writing channel file...
+[08:30:08] samy__ (~samy@77-85-19-155.btc-net.bg) joined #telerikacademy.
+[09:00:00] Writing user file...
+[09:00:00] Writing channel file...
+[09:06:24] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) joined #telerikacademy.
+[09:06:44] <_wiseman_> hi
+[09:10:58] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) left irc: Ping timeout: 250 seconds
+[09:20:40] <KpeTeHoug> хилоу
+[09:24:01] nlkl (~niki@nat125.cnsys.bg) joined #telerikacademy.
+[10:00:00] Writing user file...
+[10:00:00] Writing channel file...
+[10:17:53] nlkl (~niki@nat125.cnsys.bg) left irc: Ping timeout: 245 seconds
+[10:18:54] nlkl (~niki@78-83-251-233.spectrumnet.bg) joined #telerikacademy.
+[10:20:42] nlkl (~niki@78-83-251-233.spectrumnet.bg) left #telerikacademy.
+[10:36:32] <vhristev> (:
+[10:48:15] <yulimoto> здрв ;)
+[10:48:23] <yulimoto> тука ли сме всички
+[10:55:32] <KpeTeHoug> направо
+[10:55:45] <KpeTeHoug> денчо го няма, красигата я няма, хакман на конференция
+[10:55:52] <vhristev> тука сме едни и същи не всички
+[10:55:52] <KpeTeHoug> ти дремеш тука цяла сутрин :
+[10:56:01] <vhristev> дремеш е точната дума
+[10:56:02] <vhristev> хаха
+[10:56:02] <KpeTeHoug> само аз и vhristev
+[10:56:05] <KpeTeHoug> :)
+[10:56:30] <vhristev> аз наминах защото мн работа имам
+[10:56:31] <vhristev> хахахаха
+[11:00:00] Writing user file...
+[11:00:00] Writing channel file...
+[11:08:38] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[11:14:09] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) joined #telerikacademy.
+[11:16:20] <phalaaxx> имам чувството че след всяка лекция оставаме все по-малко хора в IRC
+[11:16:31] <phalaaxx> или просто хората си употребяват отпуските по предназначение :)
+[11:16:38] <KpeTeHoug> отпускари са
+[11:16:40] <KpeTeHoug> повечето
+[11:17:17] <vhristev> ми ,че кой в отпуската седи пред компа
+[11:17:18] <vhristev> (;
+[11:17:26] <vhristev> демек тука е пусто ,защото никой не работи
+[11:17:27] <vhristev> хахаха
+[11:18:45] <KpeTeHoug> да, добре че ходим на работа
+[11:18:47] <KpeTeHoug> да си початим малко
+[11:19:13] <phalaaxx> и да си починем че по време на отпуската - никаква почивка
+[11:20:27] <KpeTeHoug> :)
+[11:26:00] <vhristev> зависи как го интерпретираш
+[11:26:01] <vhristev> (
+[11:29:34] <vhristev> ASL PLS
+[11:30:12] <KpeTeHoug> @ плс
+[11:37:04] s0ny123 (~s0ny123@95.111.18.140) joined #telerikacademy.
+[11:38:09] phalaaxx (~phalaaxx@eris.htu.tuwien.ac.at) left #telerikacademy.
+[11:38:26] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[12:00:00] Writing user file...
+[12:00:00] Writing channel file...
+[12:35:55] bentoslack1 (~Adium@dhcp-guests-1.mw-medianetworks.eu) joined #telerikacademy.
+[12:36:13] bentoslack1 (~Adium@dhcp-guests-1.mw-medianetworks.eu) left #telerikacademy.
+[12:38:26] bentoslack (~Adium@194.50.76.105) left irc: Ping timeout: 264 seconds
+[12:45:44] <yulimoto> да ама аз под всички това имам предвид ; тука които сме
+[12:47:02] <yulimoto> щото аз ако ходя на война ще взема KpeTeHoug vhristev phalaaxx и dencho; други за кво са ми ? аре от мен да мине може да взема и онзи дезертьор хакман ...
+[12:47:38] <yulimoto> мен ми трябват хора дето могат да търкалят ; не такива дето гледат от страни как бай Иван работи
+[12:49:26] <yulimoto> аре че съм с tty консола дето ще се изкьоря тука от шрифтове; през 5 мин. консоле-сетуп реконфигурвам не мога да уцеля някой шрифт дето да го мяза
+[12:59:44] <phalaaxx> леле каква война какви 5 лева
+[12:59:52] <phalaaxx> да не дойдоха танковете? :)
+[13:00:01] Writing user file...
+[13:00:01] Writing channel file...
+[13:41:14] ViLKaTa (~villy@87.97.192.85) joined #telerikacademy.
+[13:51:15] ViLKaTa (~villy@87.97.192.85) left irc: Quit: Konversation terminated!
+[13:58:55] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) joined #telerikacademy.
+[13:59:03] <dencho-at-work> kvo ste sa razjalili we
+[13:59:04] <dencho-at-work> :D
+[13:59:56] <dencho-at-work> ne vidite li kva e jega, gasete pc-tata che shte pregreqt!
+[14:00:00] Writing user file...
+[14:00:00] Writing channel file...
+[14:01:44] <dencho-at-work> Core0 Temp:  +60.0°C                                     Core1 Temp:  +63.0°C
+[14:01:54] rootstar (0@78.90.53.106) joined #telerikacademy.
+[14:08:24] <vhristev> опааа
+[14:08:35] <vhristev> тука в офиса има една царевица мамка му трябва да спра да е ям
+[14:10:29] <vhristev> "I also put lies in my CV" ей това току що го чух хахахахаха
+[14:19:56] <phalaaxx> dencho-at-work: GPU 0:  83.0C (печеля)
+[14:24:37] <dencho-at-work> hhhh :D
+[14:24:47] <dencho-at-work> tva gornoto daje slunceto go pe4e...
+[14:24:51] <dencho-at-work> az si misleh 4e sa mnogo
+[14:24:58] <dencho-at-work> i 6tqh da go mestq na sqnka
+[14:24:58] <dencho-at-work> :D
+[14:25:47] <dencho-at-work> tiq iptables mi vzemat zdraveto...
+[14:25:56] <dencho-at-work> super mnogo pravila i pravilenca
+[14:25:56] <dencho-at-work> :d
+[14:26:31] <dencho-at-work> daite nqkakvi цък цък язък tulove :)
+[14:34:43] xaocbg (550e1752@gateway/web/freenode/ip.85.14.23.82) joined #telerikacademy.
+[14:42:21] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[14:44:55] nlkl (~nlkl@nat125.cnsys.bg) left irc: Client Quit
+[14:45:26] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[14:50:42] tuxar (~tuxar@wolf.yuhu.biz) joined #telerikacademy.
+[14:54:25] Informer (~Informer@83.228.55.109) joined #telerikacademy.
+[14:54:33] <tuxar> dencho-at-work:  https://help.ubuntu.com/community/UFW
+[14:59:01] <KpeTeHoug> някой е съборил yum на гризли ;0
+[14:59:06] Last message repeated 1 time(s).
+[14:59:06] <KpeTeHoug> ops
+[14:59:11] <KpeTeHoug> 2x post
+[15:00:00] Writing user file...
+[15:00:00] Writing channel file...
+[15:04:34] tuxar (~tuxar@wolf.yuhu.biz) left irc: Quit: leaving
+[15:09:26] _wiseman_ (5e1a1553@gateway/web/freenode/ip.94.26.21.83) joined #telerikacademy.
+[15:14:24] <dencho-at-work> az se 4uda kak taka nqkoi ne go e ugasil
+[15:14:24] <dencho-at-work> :D
+[15:14:28] <dencho-at-work> ili iaztril ve4e
+[15:14:28] <dencho-at-work> :D
+[15:14:32] <dencho-at-work> iztril*
+[15:14:57] <KpeTeHoug> e ti pa
+[15:14:59] nlkl (~nlkl@nat125.cnsys.bg) left irc: Ping timeout: 245 seconds
+[15:15:03] <dencho-at-work> e az pa... :D
+[15:15:21] nlkl (~nlkl@78-83-251-233.spectrumnet.bg) joined #telerikacademy.
+[15:15:25] <dencho-at-work> vseki put sqkash orata namalqvat v zalata
+[15:15:32] <dencho-at-work> ne znam ot kum predadeni domashni kak e
+[15:18:32] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[15:20:16] hackman (~HackMan@2001:67c:1b68:3064:a849:f331:7ee6:9986) joined #telerikacademy.
+[15:21:28] <yulimoto> dencho-at-work: в какъв смисъл за yum-a
+[15:24:14] <KpeTeHoug> gledam go tuka, reinstalnah yum i yum-utils s rpm
+[15:24:16] <KpeTeHoug> ma pak laina :)
+[15:24:17] <yulimoto> a това за по-малкото хора е напълно нормално и няма как до септември поне ще е така; после според мен ще
+[15:24:42] <KpeTeHoug> Warning: RPMDB altered outside of yum.
+[15:24:49] <KpeTeHoug> и след това още лайна :)
+[15:25:19] <yulimoto> да е жив и здрав онзи снапшот
+[15:25:35] <KpeTeHoug> май май
+[15:25:46] <phalaaxx> 2050 г.: - Къде си тръгнал с тази врата?
+[15:25:46] <phalaaxx> - Това не е врата, това е новият Самсунг С37
+[15:25:55] <KpeTeHoug> някой явно е решил да прави наистина упгрейд/упдейт
+[15:27:21] <yulimoto> haha
+[15:28:03] <yulimoto> phalaaxx: тогава ще се бръснем със самобърсначки със 20-25 ножчета
+[15:28:17] <yulimoto> KpeTeHoug: може да не е било от това
+[15:28:28] Nako (~Nako@75.151.167.113) left irc: Quit: Leaving
+[15:28:35] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[15:29:15] Nako_ (~Nako@75.151.167.113) joined #telerikacademy.
+[15:29:23] Nako_ (~Nako@75.151.167.113) left irc: Client Quit
+[15:29:26] Nako (~Nako@75.151.167.113) left irc: Client Quit
+[15:29:39] <yulimoto> гледам yum.log
+[15:29:50] <KpeTeHoug> ем гледай
+[15:29:51] <yulimoto> няма кой знае какво
+[15:29:56] Nako (~Nako@75.151.167.113) joined #telerikacademy.
+[15:29:57] <KpeTeHoug> има някакви 20 пендинг инсталациии
+[15:30:03] <KpeTeHoug> аз се опитах ад анправя наколко ръчно
+[15:30:07] <KpeTeHoug> и има леко подобрение
+[15:30:08] <KpeTeHoug> :)
+[15:30:10] <KpeTeHoug> ама пак
+[15:30:10] Nako (~Nako@75.151.167.113) left irc: Client Quit
+[15:30:40] hackman (~HackMan@2001:67c:1b68:3064:a849:f331:7ee6:9986) left irc: Ping timeout: 245 seconds
+[15:31:41] <yulimoto> ааа да
+[15:32:12] <yulimoto> тая загадка аз я открих а phalaaxx я разгада
+[15:32:31] <yulimoto> мисля на 25.07 в среднощните логове  логовете
+[15:32:36] <yulimoto> може да се види
+[15:33:03] <KpeTeHoug> имаме ли практическо решение на проблема
+[15:33:06] <phalaaxx> каква загадка? :^)
+[15:33:33] <yulimoto> значи phalaaxx сложи един ред който разрешава проблема, но го коментира за да си бъде системата както си беше
+[15:33:33] <KpeTeHoug> за yum
+[15:33:37] <yulimoto> отиди в
+[15:33:55] <yulimoto> /etc/секюрити/лимитс.конф
+[15:34:10] <yulimoto> tam ima edin коментиран ред за софт лимите на рута
+[15:34:16] <yulimoto> от коментирай го
+[15:34:29] <yulimoto> и си инсталирай квото си инсталираш
+[15:34:39] <yulimoto> после пак го коментирай за да си е както си беше
+[15:34:44] <KpeTeHoug> хм
+[15:34:53] <KpeTeHoug> аз ви гелдах ко сте правили тогава
+[15:35:05] <KpeTeHoug> искаш да кажеш че понеже не може да завърши всички ъпдейти
+[15:35:07] <KpeTeHoug> и забива ?
+[15:35:11] <yulimoto> не
+[15:35:31] <yulimoto> щото като юзер си лимитран на процеси и файлове
+[15:35:45] <yulimoto> и някой от лимитите остават даже като ползваш судо
+[15:36:05] <KpeTeHoug> #root            soft    nofile          500
+[15:36:07] <yulimoto> направи софт лимите
+[15:36:09] <KpeTeHoug> това ли е
+[15:36:17] <yulimoto> да откоментирай го
+[15:36:22] <KpeTeHoug> к
+[15:36:22] <yulimoto> и после пробвай
+[15:36:24] <yulimoto> да видим
+[15:37:51] <KpeTeHoug> ми
+[15:37:52] <dencho-at-work> pi4ove iskate li da vi sloja v /etc/passwd za shell /bin/true :P
+[15:37:58] <KpeTeHoug> най много съесем да го омажем :)
+[15:38:14] <yulimoto> ми поне докато хакман е в бг
+[15:38:18] <yulimoto> споко ве
+[15:38:52] <KpeTeHoug> а аз съм спокоен :)
+[15:38:58] <KpeTeHoug> пуснал съм да се източи
+[15:39:11] <KpeTeHoug> има висящ update пуснат
+[15:39:16] <KpeTeHoug> само 61 пакета :)
+[15:39:36] <yulimoto> ама какво ще правиш ?
+[15:39:54] <KpeTeHoug> аз нищо
+[15:40:02] <KpeTeHoug> дадаох му да си оправи пендинг нещата
+[15:40:14] <KpeTeHoug> всичко е комплийт
+[15:40:15] <yulimoto> после върни коментара ;)
+[15:40:20] <KpeTeHoug> чек да закоментирам
+[15:40:23] <yulimoto> като свършиш с товите неща
+[15:40:46] <KpeTeHoug> ми свърши уж
+[15:41:51] hackman (~HackMan@terion.visitor.camp.ohm2013.org) joined #telerikacademy.
+[15:41:52] <yulimoto> аз мислех че ще си слагаш нещо и за тва
+[15:41:58] <KpeTeHoug> и да и не
+[15:41:59] <KpeTeHoug> :)
+[15:42:07] <yulimoto> мм тоя не е в българия веке
+[15:42:14] <yulimoto> .ohm2013.org
+[15:42:23] <KpeTeHoug> единият колега се опитва тука да слага ImageMagick
+[15:42:25] <yulimoto> ползва там wi-fiто
+[15:42:31] <KpeTeHoug> и понеже иска 47 пакета
+[15:42:36] <KpeTeHoug> и затва го реже
+[15:42:52] <KpeTeHoug> ама го порайхме вече :)
+[15:43:12] <yulimoto> imagemagic не беше ли нещо win
+[15:43:23] <KpeTeHoug> hackman как е, има ли лотс от п0рн
+[15:43:27] <KpeTeHoug> magicK
+[15:43:28] <KpeTeHoug> :)
+[15:43:33] <KpeTeHoug> юникс
+[15:43:46] <yulimoto> aha
+[15:43:54] <hackman> https://www.facebook.com/hackman.cx/posts/10151619392237946?notif_t=like
+[15:44:44] <dencho-at-work> nqmam faceshit :D
+[15:44:51] <dencho-at-work> sorry
+[15:45:17] <yulimoto> да ве и аз
+[15:45:24] <yulimoto> тъкмо щях да питам какво има
+[15:45:29] <KpeTeHoug> ми
+[15:45:36] <KpeTeHoug> то и без, трябва да ви се отваря
+[15:45:37] <KpeTeHoug> :)
+[15:45:56] <yulimoto> като му гледам ип-то sigurno e седнал на маса с бира и им ползва wi-fi на кемпа
+[15:46:06] <KpeTeHoug> 100 %
+[15:46:14] <yulimoto> бахти аз съм гении
+[15:46:22] <vhristev> гепи тоя спам
+[15:46:24] <yulimoto> по ип-то разбирам човека ей
+[15:46:37] <KpeTeHoug> се едно на бобо му гледаш
+[15:46:41] <yulimoto> да
+[15:46:47] <yulimoto> само че още по
+[15:47:12] <hackman> https://fbcdn-sphotos-a-a.akamaihd.net/hphotos-ak-prn2/981461_10151619391597946_174461578_o.jpg
+[15:47:19] <hackman> https://fbcdn-sphotos-f-a.akamaihd.net/hphotos-ak-prn1/798174_10151619381607946_1966536942_o.jpg
+[15:47:26] <hackman> https://fbcdn-sphotos-h-a.akamaihd.net/hphotos-ak-prn2/980354_10151619381802946_310276375_o.jpg
+[15:47:45] <yulimoto> тва в началото го помилих за кайт и изтръпнах
+[15:48:12] <yulimoto> и там ли има комари ?
+[15:48:19] samy__ (~samy@77-85-19-155.btc-net.bg) left irc: Ping timeout: 245 seconds
+[15:48:20] <vhristev> Това ми прилича на National guard командния център
+[15:48:42] <hackman> yulimoto: точно на 30м от нас са каналите
+[15:48:43] <vhristev> Като има зомбита опъват такива палатки край някой град
+[15:48:47] <hackman> познай колко комари има :)
+[15:49:12] <KpeTeHoug> ами 3
+[15:49:17] <KpeTeHoug> те сичките комари пияни :)
+[15:49:33] <vhristev> само да не са от тия дето като кацнат на оградата и кучето ги лае
+[15:49:48] <dencho-at-work> 3k
+[15:49:48] <dencho-at-work> :D
+[15:49:52] <vhristev> щото на баба Снежка ония ден 4 комара и взеха най млекодайната козичка
+[15:50:23] <yulimoto> hackman: пий повече бира за децинфекция :)
+[15:51:08] <yulimoto> vhristev: глей брато като каза National Guard za тва се сетих http://cyberbunker.com/web/index.php
+[15:54:03] <vhristev> найс
+[15:54:15] <vhristev> забравих кой беше ама имаше един дейта център направен в пещера
+[15:54:56] <yulimoto> военните имат супер помещения; сега както са тръгнали да разпродават някой може да се обзаведе
+[15:56:03] <s0ny123> я кажете някой готин terminal irc client?
+[15:56:15] <vhristev> bitchX
+[15:56:23] <yulimoto> ама вече не го подържат
+[15:56:27] <yulimoto> казвал се порк
+[15:56:34] <yulimoto> или нещо подобно
+[15:56:57] <yulimoto> аз ползвам irssi ако вчера си гледал лекцията си го видял за 3-4 секунди как изглежда
+[15:57:02] <vhristev> http://www.datacenterknowledge.com/iron-mountains-energy-efficient-bunker/
+[15:58:22] <yulimoto> hackman: прави си снимки пред палатката, и после ще си направиш специален албум само с нея; пред Парламента, в холандия и т.н. и все на интересни места
+[16:00:00] Writing user file...
+[16:00:00] Writing channel file...
+[16:05:42] nlkl (~nlkl@78-83-251-233.spectrumnet.bg) left irc: Quit: Leaving
+[16:06:09] nlkl (~nlkl@78-83-251-233.spectrumnet.bg) joined #telerikacademy.
+[16:10:17] xaocbg (550e1752@gateway/web/freenode/ip.85.14.23.82) left irc: Quit: Page closed
+[16:21:57] samy__ (~samy@91.196.227.180) joined #telerikacademy.
+[16:23:05] phalaaxx (~bozhin@94.26.20.166) left irc: Ping timeout: 248 seconds
+[16:47:57] phalaaxx (~bozhin@212.5.158.25) joined #telerikacademy.
+[16:52:23] phalaaxx (~bozhin@212.5.158.25) left irc: Ping timeout: 260 seconds
+[16:53:01] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[16:53:37] bentoslack (~Adium@194.50.76.105) joined #telerikacademy.
+[17:00:00] Writing user file...
+[17:00:00] Writing channel file...
+[17:01:17] samy_ (~samy@84.238.184.98) joined #telerikacademy.
+[17:04:02] <phalaaxx> нещо ни спря интернета в бачкането, това съпоставено с часа ми прилича на сигнал от космоса да взема да си ходя :D
+[17:05:52] samy__ (~samy@91.196.227.180) left irc: Ping timeout: 268 seconds
+[17:08:40] Informer (~Informer@83.228.55.109) left irc: Quit: C ya!
+[17:13:42] nlkl (~nlkl@78-83-251-233.spectrumnet.bg) left irc: Ping timeout: 246 seconds
+[17:14:29] <phalaaxx> hackman: вчера стана нещо въпрос за мрежова сигурност във ФМИ, на това може ли да се присъства от неучещи във СУ? :)
+[17:18:31] <dencho-at-work> moje
+[17:18:32] <dencho-at-work> :)
+[17:18:39] <dencho-at-work> shte hodim li? :D
+[17:19:22] <phalaaxx> ако може бих ходил :)
+[17:20:10] samy__ (~samy@91.196.227.180) joined #telerikacademy.
+[17:22:34] <dencho-at-work> moje bre :D
+[17:22:41] <dencho-at-work> kato ti kazvam, vqrvai mi
+[17:23:55] samy_ (~samy@84.238.184.98) left irc: Ping timeout: 256 seconds
+[17:28:33] nlkl (~nlkl@nat125.cnsys.bg) joined #telerikacademy.
+[17:37:25] samy_ (~samy@91.196.227.180) joined #telerikacademy.
+[17:37:25] samy__ (~samy@91.196.227.180) left irc: Read error: Connection reset by peer
+[17:44:12] samy__ (~samy@84.238.184.98) joined #telerikacademy.
+[17:45:56] bentoslack (~Adium@194.50.76.105) left irc: Quit: Leaving.
+[17:48:00] samy_ (~samy@91.196.227.180) left irc: Ping timeout: 246 seconds
+[17:49:59] samy_ (~samy@84.238.184.98) joined #telerikacademy.
+[17:50:20] <samy_> eheeee
+[17:50:32] <samy_> kolko nqkolko mnogo kolko pyti aaersdfvcx
+[17:50:34] <samy_> she mi sore neta
+[17:52:39] <dencho-at-work> are hora, do skoro vijdane i veseli praznici :D
+[17:52:50] dencho-at-work (4d463cda@gateway/web/freenode/ip.77.70.60.218) left irc: Quit: Page closed
+[17:53:04] samy__ (~samy@84.238.184.98) left irc: Ping timeout: 260 seconds
+[17:59:25] sig_ (~sig@87.97.211.51) joined #telerikacademy.
+[18:00:00] Writing user file...
+[18:00:00] Writing channel file...
+[18:16:38] phalaaxx (~bozhin@94.26.20.166) left irc: Quit: Leaving.
+[18:26:27] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 264 seconds
+[18:27:17] episparh (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[18:52:01] dencho (~dencho@95.111.14.183) joined #telerikacademy.
+[18:53:07] s0ny123 (~s0ny123@95.111.18.140) left irc: Quit: Lost terminal
+[19:00:00] Writing user file...
+[19:00:00] Writing channel file...
+[19:02:05] phalaaxx (~bozhin@94.26.20.166) joined #telerikacademy.
+[19:05:30] <hackman> phalaaxx: free e курса
+[19:05:42] <phalaaxx> :)
+[19:05:43] <hackman> мисля и на него да му направя streaming и IRC :)
+[19:05:58] <phalaaxx> аа това би било страхотно :)
+[19:06:40] <hackman> записи и stream ще има ;)
+[19:13:52] <hackman> irc.atw-inter.net #ohm2013
+[19:13:53] <hackman> :)
+[19:14:28] <phalaaxx> що е то?
+[19:15:40] <hackman> IRC-то ни в camp-а :)
+[19:15:40] <hackman> има 360 човека :)
+[19:16:18] <dencho> posle nqkoi da mi kaje 4e irc-to bilo otjivelica
+[19:16:18] <dencho> :D
+[19:47:01] vhristev (~vhristev@216.144.241.24) left irc: Ping timeout: 246 seconds
+[20:00:00] Writing user file...
+[20:00:00] Writing channel file...
+[20:01:19] <yulimoto> шшшш downgrade на gnome-shell, направо се размазах до gtk  махах, че послед пакет по пакет и пак не може се оправи, поне подкарах нещо ама нямам десктоп -> черно петно ;
+[20:04:14] <episparh> hola
+[20:04:53] <episparh> hackman,  кой курс е фри
+[20:05:04] <episparh> yulimoto, съчувствам ти :S
+[20:07:46] <yulimoto> episparh: вече сложих повечето неща проблема е че не знам кое го няма :) ; викам си поне горния бар е по-добре от преди, ато нямало часовник сега часовник ще търся
+[20:08:34] <yulimoto> само няма как да ти сменя десктоп това ме дразни
+[20:08:58] <yulimoto> да ако тези лекции във ФМИ са стийм ще е оки
+[20:10:18] <yulimoto> episparh: като проследявам разговора между phalaaxx и хакман, явно наистина става въпрс за ФМИ, което си е супер
+[20:10:56] <yulimoto> т.е. за което се отнася за irc и стрийм
+[20:10:58] <episparh> мда , вече съм в посочения irc  сървър/канал ще чета инфото там
+[20:11:17] <yulimoto> аха
+[20:11:29] <yulimoto> я да видим
+[20:12:44] <episparh> yulimoto,  аз съсм с гном-шел също ако трябва да ровя
+[20:13:16] <episparh> пробвай , gnome-clocks
+[20:13:32] <yulimoto> ще имам на предвид да те питам за нещо дали е същото при теб, ако се наложи :)
+[20:13:40] <yulimoto> ок ще пробвам
+[20:13:51] <yulimoto> а така давай идеи : - )
+[20:14:03] yulimoto (~yulimoto@wolf.yuhu.biz) left irc: Quit: Changing server
+[20:16:03] yulimoto (~yulimoto@wolf.yuhu.biz) joined #telerikacademy.
+[20:16:12] <episparh> :)
+[20:16:24] <episparh> това е друго де
+[20:16:39] <episparh> няма нищо общо със курс във фми
+[20:20:58] bentoslack (~Adium@87.97.214.90) joined #telerikacademy.
+[20:27:35] <dencho> episparh kuio ?
+[20:27:35] <dencho> :D
+[20:27:54] <episparh> ohm2013
+[20:28:20] <samy_> hackman
+[20:28:27] <samy_> Какво общо имаш с технически?
+[20:28:31] <samy_> техническия*
+[20:28:32] <episparh> е някакъв международен 5 дневен фестивал
+[20:29:45] <episparh> http://hydra.azilian.net/blog/about/
+[20:29:53] <episparh> samy_, , ^
+[20:31:47] <episparh> FYI , се чете по добре с дизейбъл CSS  ;)
+[20:31:50] <samy_> малуе
+[20:31:57] <samy_> преинсталирам машина с 300 рам и 1.1 процесор
+[20:32:00] <samy_> ;ххх
+[20:32:05] <samy_> лессссссссссссссссссссссссссссссс
+[20:32:22] <episparh> толкова розово  ... почти ослепях
+[20:34:23] <samy_> ех ако имах пц, когато бях на 6 години
+[20:34:25] <samy_> :>>>>
+[20:34:37] <samy_> т'Ва днешната младеж...
+[20:35:10] <episparh> samy_, , кой набор си ?
+[20:35:31] <episparh> 23 годишен и ми говори за младеж :)
+[20:35:36] <samy_> еее
+[20:35:41] <samy_> със сравнение моето дество..
+[20:36:54] <samy_> а ти кой набор си
+[20:37:18] <episparh> извади 13 от твоя ;)
+[20:37:44] <samy_> охооо
+[20:37:48] <samy_> баща ми е 70-ти
+[20:38:08] <episparh> е яак 70-ти не съм ;)
+[20:38:28] <samy_> :>
+[20:38:54] <episparh> само помня че някъде около 90та учих foxbase/dbase
+[20:39:17] <samy_> то тогава правец не е било само град :Д
+[20:40:01] <samy_> като малък си играех на правец в държавната администрация
+[20:40:06] <samy_> сега си имам някъде в нас
+[20:40:08] <samy_> 3 бройки
+[20:40:11] <samy_> дет работят
+[20:40:44] <episparh> в тая връзка - да се оплакваш от 1.1GHZ процесор със фразата "тая днешна младеж "  ....
+[20:40:59] <episparh> аре afk  ;)
+[20:41:01] <samy_> Какво си има :Д
+[20:41:08] <samy_> трябваше да пиша нов буут.ини
+[20:41:10] Action: episparh out
+[20:41:11] <samy_> :(
+[20:45:19] <yulimoto> шшш забравил съм nautilus-а ве ; открих топлата вода
+[20:47:14] <episparh> а той за какво ти е ;)
+[20:47:53] <episparh> че аз нещо не мога му намеря приложение
+[20:47:54] <yulimoto> hahaha
+[20:48:06] <yulimoto> е как
+[20:48:13] <yulimoto> без него няма икони
+[20:48:17] <yulimoto> микони
+[20:48:22] <episparh> ами то и с него няма
+[20:48:26] <episparh> поне при мен
+[20:48:40] <yulimoto> е аз си ги изкравам
+[20:48:41] <yulimoto> някак
+[20:48:54] <yulimoto> но без него не може и фона дори не мога да си сменя
+[20:49:14] <yulimoto> а и как ще ровя по папките ; все едно експорер
+[20:49:55] <episparh> ам не знам аз не съм умрял и без наутилус :)
+[20:50:19] <yulimoto> :)
+[20:50:31] bentoslack (~Adium@87.97.214.90) left irc: Quit: Leaving.
+[20:50:43] <yulimoto> ей тва е линукс кой каквото му харесва
+[20:50:44] <episparh> опс ,
+[20:50:53] <episparh> все пак имам :)
+[20:51:01] <episparh> излъгах
+[20:51:11] <yulimoto> ами то без него не инсталира
+[20:51:17] <yulimoto> само ако си идиот като мен
+[20:51:42] <yulimoto> такаааа
+[20:51:57] <yulimoto> ти с dpkg дистрибуция ли си
+[20:51:58] <yulimoto> ?
+[20:52:20] <episparh> GNOME nautilus 3.8.2
+[20:52:22] <yulimoto> убунту дебиан нещо
+[20:52:34] <yulimoto> ухуу много нагоре си
+[20:52:34] <episparh> fc19
+[20:52:57] <episparh> пусни ми един /ctcp version ;)
+[20:54:52] <yulimoto> аха
+[20:56:02] <episparh> аха ама преди всеки ъпдейт - clonezilla
+[20:57:16] <yulimoto> какво занчи clonezilla ?
+[20:57:48] <episparh>  тулче за бакъп
+[20:58:13] <episparh> http://clonezilla.org/
+[20:58:38] <episparh> по принцип е стандартен пакет в рекавъри дистрота
+[20:59:20] <yulimoto> ne e ли по-добре да си направиш архив ?
+[20:59:55] <episparh> ам аз това правя - архив на партишъна :)
+[21:00:00] Writing user file...
+[21:00:00] Writing channel file...
+[21:01:04] <yulimoto> ми то същото; маунтвам линукса в някоя папка за да не копирам виртуалните fs и после го архивирам, като трябва да го върна влизам с рекавъри диска и го бухам в партишъна който искам да е
+[21:01:16] <yulimoto> е ще трябва да помисля и за буут партишъна нещо подобно
+[21:02:12] <episparh> офф сега се сетих
+[21:02:31] <episparh> трябваше да пробвам бакъп-менажер ...
+[21:02:45] <yulimoto> е тези програмки винаги са по-удобни
+[21:02:49] <episparh> ... старост - нерадост
+[21:03:57] <episparh> https://admin.fedoraproject.org/pkgdb/acls/name/backup-manager
+[21:21:02] sig_ (~sig@87.97.211.51) left irc: Quit: Konversation terminated!
+[21:22:25] <yulimoto> така и последния пакет слагам (gnome със всичките простотии) и предполагам че съм готов
+[21:22:47] Action: episparh cross fingers
+[21:23:06] <yulimoto> а така
+[21:23:17] <yulimoto> стискай :)
+[21:29:23] <hackman> link-а за backbone на нашия camp току що бе сложен в кондом :)
+[21:29:39] <hackman> Durex работи дори за да поддържа мрежата тук:)
+[21:30:01] <dencho> az ne razbrah :(
+[21:30:07] <dencho> koe ? s kondon
+[21:30:08] <dencho> m
+[21:30:08] <episparh> what da ...
+[21:30:09] <dencho> :D
+[21:31:05] <hackman> кабела за нашата част от лагера го вързахме с конектори и връзката цяата я пъхнахме в един durex :)
+[21:31:17] <episparh> xD
+[21:31:38] <episparh> да не вали ?
+[21:32:06] <hackman> от 4-5h не е спирало
+[21:32:17] <hackman> усещам как ще съм подмокрен сутринта в палатката :)
+[21:32:25] <episparh> hackman,  в коя тента сте
+[21:32:53] <episparh> гледам има някакви стриймове
+[21:33:10] <hackman> от нашата няма :)
+[21:33:12] <hackman> защото не правим нищо интересно :)
+[21:33:18] <episparh> ахаха
+[21:33:21] <hackman> аз съм Moose camp :)
+[21:41:39] <episparh> yulimoto, се загуби ...заболяха ме пръстите да стискам
+[21:53:55] <yulimoto> ок е всичко
+[21:54:03] <yulimoto> нямам само часовник
+[21:54:25] <episparh> хм
+[21:55:15] <episparh> имаш ли  gnome-tweak-tool ?
+[21:55:16] <yulimoto> сложих този последен пакет gnome вътре бяха всички програмки (бразеро, empathy, evolution и т.н) 300 mb всичко сложи, обаче и много нагъл излезе чак ми преконфигна груба
+[21:55:29] <yulimoto> току що и него сложих
+[21:55:32] <yulimoto> едно зелено
+[21:55:41] <episparh> зелено ?
+[21:55:49] <yulimoto> такава ли му е иконата
+[21:56:04] <yulimoto> ubuntu tweak
+[21:56:09] <episparh> свят голям - икони всякакви ;)
+[21:56:16] <episparh> аууу
+[21:56:25] <episparh> каноникал  -.-
+[21:56:28] <episparh> беги
+[21:57:30] <yulimoto> видеокарата не се разбира мн добре с гноме-шела слагам и юнити за всеки случай
+[21:58:14] <episparh> аз съм с чист гном-шел  и по принцип с gnome-tweak-tool  можеш да си показваш/скриваш разните екстеншъни
+[21:58:42] <episparh> ако ти е зле картата ползвай  xfce
+[21:59:19] <episparh> не си ли гледал "сталман за  убунту"
+[21:59:59] <yulimoto> гледах го
+[22:00:00] Writing user file...
+[22:00:00] Writing channel file...
+[22:00:01] <yulimoto> споко
+[22:00:06] <episparh> споко съм :)
+[22:00:13] <yulimoto> :)
+[22:00:15] <episparh> http://www.youtube.com/watch?v=i4oGAH1iYBg поздрав
+[22:00:28] <yulimoto> без да го отварям знам какво ми пращаш
+[22:00:30] <episparh> мюзик е
+[22:00:33] <yulimoto> аааа
+[22:01:20] <episparh> изненадка ;)
+[22:01:47] <dencho> hackman, to i bez tva nqma za kakvo drugo da go izpolzvate tozi Durex tam... jeni ima li v lagera?!
+[22:02:12] <episparh> не чу ли че е в Лосовете :)
+[22:02:35] <episparh> *чу - май не е подходящо за irc xD
+[22:05:43] <yulimoto> episparh: http://www.uniqlo.jp/uniqlock/season3/ ето ти пък един мюзик сайт
+[22:05:51] <yulimoto> с жени
+[22:06:10] <yulimoto> тоя сезон и втори са ми любими
+[22:07:25] <episparh> yulimoto, това е почти като nyan cat :o
+[22:08:10] <episparh>  и е с любимите ми цветове  бяло + светло зелено ,,,
+[22:09:16] <yulimoto> тогава гледай и другите сезони
+[22:09:17] <yulimoto> :)
+[22:09:31] <episparh> но , тенк ю
+[22:09:39] <yulimoto> но се успокояват нещата в следващите сезони
+[22:10:04] <episparh> по скоро ще си пусна www.nyan.cat
+[22:18:09] <yulimoto> така вече имаме и часовник indicator-datetime му е името на пакета
+[22:18:36] <yulimoto> остана само да си оправя keyshortcuts и съм готов
+[22:18:39] <yulimoto> :)
+[22:18:52] <phalaaxx> root@sirius:~# ls -lh /bin/true
+[22:18:52] <phalaaxx> -rwxr-xr-x 1 root root 23K Jan 26  2013 /bin/true
+[22:19:02] <phalaaxx> някой друг намира ли това за несправедливо?
+[22:19:36] <phalaaxx> man true:   true - do nothing, successfully
+[22:19:42] <phalaaxx> do nothing, 23K?
+[22:20:26] <yulimoto> $ /bin/true
+[22:20:31] <yulimoto> $ echo  $?
+[22:20:33] <yulimoto> 0
+[22:20:45] <yulimoto> а това е най-голямата лъжа !!!
+[22:20:49] <yulimoto> ;P~~~
+[22:22:13] <phalaaxx> в 23K могат да се направят ужасно много неща, различни от nothing
+[22:22:54] <yulimoto> хаха ами не знам, в джава не може !!!
+[22:23:31] <phalaaxx> coreutils не са писани на java :D
+[22:23:38] hackman (~HackMan@terion.visitor.camp.ohm2013.org) left irc: Ping timeout: 248 seconds
+[22:24:03] <yulimoto> да, верно е
+[22:29:02] <phalaaxx> root@fbsd:/root # ls -lh /usr/bin/true
+[22:29:02] <phalaaxx> -r-xr-xr-x  1 root  wheel   4.3k Dec  4  2012 /usr/bin/true
+[22:29:09] <phalaaxx> това във FreeBSD 9.1
+[22:29:46] <phalaaxx> значи разликата между успешното правене на нищо в Linux и FreeBSD е 18.7KB? :)
+[22:30:16] <nveselinov> Пичове, може ли да ударите едно рамо за инсталирането на компилирано PHP(имам проблем)?
+[22:30:44] <phalaaxx> т.е. "нищото" във Linux е със 18.7KB по-голямо отколкото във FreeBSD
+[22:32:20] <nveselinov> Ползвам Debian 7, свалям PHP-то, разархивирам го, влизам в папката му(cd php-5.5.1) и компилирам с следните опции(модули) - http://pastebin.com/v0YxcYpz
+[22:32:43] <phalaaxx> nveselinov: защо не ползваш пакетната система на Debian?
+[22:33:01] <episparh> phalaaxx,  FYI
+[22:33:02] <episparh> -rwxr-xr-x. 1 root root 31K May  8 10:45 /bin/true
+[22:33:21] <phalaaxx> episparh: моето успешно нищо не може да се сравнява с твоето :D
+[22:33:23] <episparh> това е от моята машина
+[22:33:25] <nveselinov> Защото последната версия на PHP-то е 5.4.14, а на мен ми трябва 5.5.1.
+[22:33:38] <phalaaxx> episparh: Ubuntu, нали?
+[22:33:43] <phalaaxx> те винаги са вървяли по-напред
+[22:33:43] <episparh> федора
+[22:34:03] <episparh> от федора по-напред няма
+[22:34:14] <yulimoto> hm, пхп 5.5 май вече подържаше namespace което си е съществено или май по-рано беше
+[22:34:49] <nveselinov> След успешно компилиране макар и че накрая виждам - configure: error: Cannot find OpenSSL's <evp.h>, пускам make командата и получавам - make: *** No targets specified and no makefile found.  Stop.
+[22:34:55] <nveselinov> Това ми е проблема.
+[22:35:18] <nveselinov> Едва ли от PHP къмюнитито са изпуснали Make файла....
+[22:35:34] <yulimoto> phalaaxx: ubuntu 12.04 24K/bin/true
+[22:35:38] <nveselinov> По-рано са неймспейсовете
+[22:35:42] <nveselinov> от 5.3
+[22:36:28] <yulimoto> nveselinov: да, сега проверих по-рано са
+[22:36:36] Brahman (~Brahman@109.121.248.105) joined #telerikacademy.
+[22:36:46] <phalaaxx> nveselinov: http://www.dotdeb.org/2013/06/20/php-5-5-0-is-out-and-available-for-debian-7-0-wheezy/
+[22:37:46] <nveselinov> Dotdeb ги знам, но искам 5.5.1, а не 5.5.0.
+[22:37:55] <phalaaxx> аха
+[22:38:06] <phalaaxx> амиии... ок, да се върнем на грешката тогава
+[22:38:26] <phalaaxx> защо мислиш че се компилира успешно ако ти дава configure error?
+[22:38:35] <phalaaxx> като още не си стигнал даже до началото на компилирането :)
+[22:39:03] <nveselinov> УУпсс :(
+[22:39:20] <nveselinov> Сега ще го видя и ще пиша какво е станало.
+[22:39:24] <yulimoto> аре пичове; графичната среда ми е готова; лека от мен
+[22:39:31] <phalaaxx> apt-get install libssl-dev
+[22:40:39] <phalaaxx> вероятно ще ти трябват и още една кофа -dev пакети според съответните ти опции в configure
+[22:42:01] <nveselinov> Другите неща съм ги инсталирал. Инсталирах libssl-dev и след повторно компилиране - configure: error: Cannot find OpenSSL's libraries. Явно не е тоя пакет.
+[22:42:11] <episparh> мда, с това което видях от гугъл съм склонен да се съглася с phalaaxx
+[22:43:14] <episparh> nveselinov, сложи и libcurl4-openssl-dev
+[22:45:04] <phalaaxx> nveselinov: дай последните няколко реда
+[22:45:08] <phalaaxx> tail -40 :D
+[22:45:27] <samy_> олеле
+[22:45:31] <samy_> този куфар ме измъчи
+[22:45:36] <samy_> 4 часа си затрих
+[22:46:11] <phalaaxx> добре, а защо е тази тенденция binaries в coreutils да им расте така безумно размера? при положение че функционалноста на true може да се побере в по-малко от 0.5KB, това не го разбирам
+[22:47:35] <nveselinov> С libcurl4-openssl-deb стана. Само да вида, че иска да реинстална един пакет.
+[22:50:48] <nveselinov> configure: error: Please reinstall the BZip2 distribution - решението е че трябват и libbz2-dev libxml2-dev. phalaaxx, прав си, наистина още един куп неща иска... :D
+[22:52:27] <phalaaxx> за по-лесно пробвай така: apt-get build-dep php5
+[22:52:35] <phalaaxx> може би ще ти спести малко време :P
+[22:53:52] <phalaaxx> root@sirius:~# ls -lh true ; cat true
+[22:53:52] <phalaaxx> -rwxr-xr-x 1 root root 17 Jul 30 22:51 true
+[22:53:52] <phalaaxx> #!/bin/sh
+[22:53:52] <phalaaxx> exit 0
+[22:54:04] <phalaaxx> voila! за какво са ми 23K за същото? :D
+[22:58:11] <phalaaxx> /bin/true --help
+[22:58:16] <phalaaxx> truly helpful lol
+[22:58:56] <phalaaxx> Report true bugs to bug-coreutils@gnu.org... не не не :D :D
+[22:59:16] <episparh>  я дай --version
+[22:59:27] <phalaaxx> 8.13 :)
+[22:59:43] <episparh> 8.21 e 31k ;P
+[22:59:43] <phalaaxx> представям си - бъг в true...
+[23:00:00] Writing user file...
+[23:00:00] Writing channel file...
+[23:00:14] <phalaaxx> ахаа дам, сигурно има security patch-ове и други благинки
+[23:00:17] <phalaaxx> спрямо 8.13
+[23:01:14] <episparh> cat изглежда грозно :)
+[23:01:20] <phalaaxx> тия програмисти няма ли кой да им дърпа ушите
+[23:01:54] <phalaaxx> някъде четох че в някой юникс даже направили графични версии на true и false
+[23:02:03] <phalaaxx> ако искаш да ти отвори прозорец и да кликнеш на бутонче
+[23:02:20] <phalaaxx> пълно безумие
+[23:02:36] dencho (~dencho@95.111.14.183) left irc: 
+[23:02:44] <phalaaxx> какво има в тия 31K? проверки за грешки? :D
+[23:02:56] <phalaaxx> не ми го побира главата това
+[23:03:19] <episparh> не знам , raw output не е четим
+[23:03:56] <phalaaxx> то бива POSIX стандарти, преносимост и други хубави мечти ама това нещо не ми се връзва хич
+[23:05:26] <episparh> phalaaxx, я да сменим темата за малко
+[23:05:55] <episparh> преди няколко часа сте говорили с hackman  за някакъв курс във фми
+[23:06:33] <episparh> дай инфо , че нещо ми е е била "умряла котката" по-това време и съм хванал само края
+[23:07:53] <phalaaxx> ми вчера в почивката на лекцията нещо стана въпрос за мрежова сигурност във ФМИ
+[23:08:11] <phalaaxx> и разпитах аз като неучещ там дали мога да ходя да се образовам :)
+[23:08:32] <phalaaxx> и той каза че ще има видео от лекциите и може би live stream и IRC
+[23:08:50] <phalaaxx> (дали някой ще му стиска да влезе в IRC?)
+[23:10:19] <episparh> мда, това и аз го чух в понеделник , но не разбрах като начална дата кога е
+[23:10:24] <episparh> и по кое време
+[23:12:41] <episparh> както и да е ще се услушвам
+[23:12:46] <episparh> лека пичове
+[23:16:31] episparh_ (~episparh@92-247-248-207.spectrumnet.bg) joined #telerikacademy.
+[23:18:40] episparh (~episparh@92-247-248-207.spectrumnet.bg) left irc: Ping timeout: 256 seconds
+[23:21:33] s0ny123 (~agit0@95.111.18.140) joined #telerikacademy.
+[23:26:42] Nick change: episparh_ -> episparh
+[23:27:58] <phalaaxx> то и аз така :)
+[23:28:31] <s0ny123> The Kerbal Space Program documentation for Linux is a little sparse...
+[23:28:31] <s0ny123> http://i.imgur.com/snrv4rF.png
+[23:28:38] <s0ny123> :D
+[00:00:00] --- Wed Jul 31 2013
+[00:00:00] Backing up user file...
+[00:00:00] Backing up channel file...
