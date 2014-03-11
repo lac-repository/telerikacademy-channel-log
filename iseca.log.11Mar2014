@@ -31,3 +31,15 @@
 [14:57:59] <denchooooooo> zna4i.... napravi go v 4erveno i mu sloji edna kartinka s !
 [14:58:10] <denchooooooo> ama pone 30x30 :D
 [14:59:53] <denchooooooo> yulimoto_: o6te me turpqt
+[15:09:24] <yulimoto_> само TSL библиотеката ли е била бъгата в Линукс ?
+[15:09:33] <yulimoto_> бътата=бъгава ?
+[15:09:44] <yulimoto_> или openSSL нищо ѝ няма нали ?
+[15:12:54] <yulimoto_> или=на*
+[15:39:45] <fityla> като ви ядосва няккво устройство по какъв хуманен начин го го убивате..
+[15:48:32] <KpeTeHoug> yulimoto_ логовете са в папка /logs/old_logs
+[15:48:37] <KpeTeHoug> Или нещо такова
+[15:48:46] <KpeTeHoug> сори, ма тука се опитват да ме побъркат тея дни :)
+[15:49:02] <KpeTeHoug> или новите не се генерират
+[15:49:02] <KpeTeHoug> ?
+[15:50:01] KrasiGa (c119a208@gateway/web/freenode/ip.193.25.162.8) left irc: Ping timeout: 245 seconds
+[16:01:49] <yulimoto_> ам на мен ми трябваха старите, ама аз ги дръпнах от гита
