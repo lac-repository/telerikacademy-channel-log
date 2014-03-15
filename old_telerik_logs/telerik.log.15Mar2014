@@ -1,4 +1,4 @@
-[00:00:00] --- Sat Mar 15 2014
+[01:51:28] Iseca (~Iseca@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
 [01:51:28] -ERROR from server- Closing Link: wolf.yuhu.biz (Ping timeout: 246 seconds)
 [01:51:28] Disconnecting from server.
 [01:51:29] Trying server 130.239.18.172:6667
@@ -7,4 +7,7 @@
 [01:51:29] -NOTICE- *** Checking Ident
 [01:51:32] -NOTICE- *** Found your hostname
 [01:51:35] -NOTICE- *** No Ident response
+[01:51:41] Is3ca joined #telerikacademy.
+[01:59:37] Iseca (~Iseca@wolf.yuhu.biz) left irc: Ping timeout: 246 seconds
+[01:59:40] Nick change: Is3ca -> Iseca
 [01:59:40] Regained nickname 'Iseca'.
