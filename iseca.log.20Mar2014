@@ -59,3 +59,18 @@
 [18:20:23] <Guest70020> ot 19 :)
 [18:24:45] Guest70020 (~hackman@management.1h.com) left irc: Ping timeout: 241 seconds
 [19:03:09] <yulimoto_> да ама твича е оффлайн
+[19:05:51] Guest70020 (~hackman@2001:67c:20d0:3a:a11:96ff:fe03:b228) joined #iseca.
+[19:06:02] <yulimoto_> Guest70020: пускай
+[19:06:48] Nick change: Guest70020 -> hackman
+[19:07:33] <hackman> video ?
+[19:07:53] <hackman> ima li ?
+[19:08:56] <hackman> yulimoto_,
+[19:09:13] <hackman> fusmu,
+[19:09:17] <yulimoto_> да
+[19:09:20] <hackman> ima li ?
+[19:09:25] <yulimoto_> има
+[19:09:27] Last message repeated 1 time(s).
+[19:09:27] <hackman> reset-vam go :) i pochvame :)
+[19:09:30] <yulimoto_> ок
+[19:29:55] <yulimoto_> hackman: а възможно ли е да се пусне примерно 1 sshd в един ns и още един sshd в друг, като единия sshd да обслужва усерите от единия ns, а другия ssh усерите от другия
+[19:32:04] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #iseca.
