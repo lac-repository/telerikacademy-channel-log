@@ -74,3 +74,9 @@
 [19:09:30] <yulimoto_> ок
 [19:29:55] <yulimoto_> hackman: а възможно ли е да се пусне примерно 1 sshd в един ns и още един sshd в друг, като единия sshd да обслужва усерите от единия ns, а другия ssh усерите от другия
 [19:32:04] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) joined #iseca.
+[20:07:47] lyubenblagoev (~lyubenbla@78-83-105-98.spectrumnet.bg) left irc: Quit: Leaving
+[20:15:00] <hackman> produljavame
+[20:16:29] <yulimoto_> ок
+[20:16:59] Nick change: yulimoto_ -> yulimoto
+[20:48:24] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) joined #iseca.
+[21:04:55] fityla (59becf0d@gateway/web/freenode/ip.89.190.207.13) left irc: Ping timeout: 245 seconds
