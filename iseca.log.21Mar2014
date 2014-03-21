@@ -15,3 +15,19 @@
 [11:30:59] Nick change: Deyan -> Guest34082
 [11:31:53] Nick change: Guest34082 -> Deyan
 [13:26:59] <fusmu> имам един малоумен въпрос, ако имам една cgroup-a дефинирана и в нея направя друга, то лимита на тази новата ще онаследи всичко от "бащата" нали? :)
+[14:15:27] Deyan_ (~chatzilla@supersonic.comelsoft.com) joined #iseca.
+[14:17:42] Deyan (~chatzilla@supersonic.comelsoft.com) left irc: Ping timeout: 240 seconds
+[14:17:51] Nick change: Deyan_ -> Deyan
+[14:18:20] Nick change: Deyan -> Guest89776
+[14:32:29] <yulimoto> А бе американците вече направили IANA международна органиция т.е. вече не е американска или нещо не съм разбрал
+[14:45:56] <fusmu> не беше ли неправителствена организация това?
+[14:51:34] <yulimoto> . Icann is a nonprofit with a complex, international governance structure of what it calls “stakeholders,” a group that includes governments, corporations, and civil society activists. But it has operated, ultimately, under a contract from the U.S. Department of Commerce.
+[14:52:00] fusmu_ (~fusmu@gate.dpc.bg) joined #iseca.
+[14:52:12] <yulimoto> http://www.businessweek.com/articles/2014-03-17/the-u-dot-s-dot-ends-control-of-icann-gives-up-backing-of-the-free-speech-internet
+[14:52:14] <wilindex> [ The U.S. Ends Control of Icann, Gives Up Backing of the Free-Speech Internet - Businessweek ] - www.businessweek.com
+[14:52:23] <yulimoto> http://www.newrepublic.com/article/117037/us-gives-iana-and-dns-control-icann
+[14:52:25] <wilindex> [ U.S. Gives Up IANA and DNS Control via ICANN | New Republic ] - www.newrepublic.com
+[14:52:26] fusmu (~fusmu@gate.dpc.bg) left irc: Ping timeout: 252 seconds
+[14:59:59] <fusmu_> живял съм в заблуда :)
+[15:00:21] <fusmu_> даже си и мислех, че представителството им е в европа
+[15:00:24] <fusmu_> ужасТ
