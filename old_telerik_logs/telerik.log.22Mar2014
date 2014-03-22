@@ -7,3 +7,14 @@
 [12:24:25] gdanailov (~gdanailov@94.26.94.2) left irc: Remote host closed the connection
 [12:42:34] urban_filth (~urban_fil@95.111.6.98) joined #telerikacademy.
 [12:54:52] -tomaw (tom@freenode/staff/tomaw) to $$orwell.*- [Server Notice] This server will be momentarily offline over the weekend. Please reconnect to chat.freenode.net to ensure continuity of service. Thanks!
+[15:50:34] -NOTICE- Server Terminating. tomaw
+[15:50:34] Disconnected from chat.freenode.net
+[15:50:35] Trying server 86.65.39.15:6667
+[15:51:36] Timeout: connect to 86.65.39.15
+[15:51:37] Trying server irc.freenode.net:6667
+[15:51:37] Connected to irc.freenode.net
+[15:51:37] -NOTICE- *** Looking up your hostname...
+[15:51:38] -NOTICE- *** Checking Ident
+[15:51:38] -NOTICE- *** Found your hostname
+[15:51:47] -NOTICE- *** No Ident response
+[15:51:53] Iseca joined #telerikacademy.
