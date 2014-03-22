@@ -130,3 +130,131 @@
 [17:03:47] Disconnected from 130.239.18.172
 [17:04:44] Trying server chat.freenode.net:6667
 [17:04:44] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:05:44] Trying server 86.65.39.15:6667
+[17:05:45] Connected to 86.65.39.15
+[17:05:45] Disconnected from 86.65.39.15
+[17:06:44] Trying server irc.freenode.net:6667
+[17:07:26] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:07:44] Trying server 130.239.18.172:6667
+[17:08:47] Connected to 130.239.18.172
+[17:08:47] Disconnected from 130.239.18.172
+[17:08:48] Trying server chat.freenode.net:6667
+[17:09:30] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:09:48] Trying server 86.65.39.15:6667
+[17:10:51] Connected to 86.65.39.15
+[17:10:51] Disconnected from 86.65.39.15
+[17:10:52] Trying server irc.freenode.net:6667
+[17:10:52] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:11:52] Trying server 130.239.18.172:6667
+[17:12:08] Connected to 130.239.18.172
+[17:12:08] Disconnected from 130.239.18.172
+[17:12:52] Trying server chat.freenode.net:6667
+[17:12:52] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:13:52] Trying server 86.65.39.15:6667
+[17:13:55] Connected to 86.65.39.15
+[17:13:55] Disconnected from 86.65.39.15
+[17:14:52] Trying server irc.freenode.net:6667
+[17:14:52] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:15:52] Trying server 130.239.18.172:6667
+[17:16:53] Timeout: connect to 130.239.18.172
+[17:16:54] Trying server chat.freenode.net:6667
+[17:16:54] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:17:55] Trying server 86.65.39.15:6667
+[17:17:55] Connected to 86.65.39.15
+[17:17:55] Disconnected from 86.65.39.15
+[17:18:55] Trying server irc.freenode.net:6667
+[17:19:37] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:19:55] Trying server 130.239.18.172:6667
+[17:19:58] Connected to 130.239.18.172
+[17:19:58] Disconnected from 130.239.18.172
+[17:20:55] Trying server chat.freenode.net:6667
+[17:21:37] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:21:55] Trying server 86.65.39.15:6667
+[17:22:58] Connected to 86.65.39.15
+[17:22:58] Disconnected from 86.65.39.15
+[17:22:59] Trying server irc.freenode.net:6667
+[17:22:59] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:23:59] Trying server 130.239.18.172:6667
+[17:24:00] Connected to 130.239.18.172
+[17:24:00] Disconnected from 130.239.18.172
+[17:24:59] Trying server chat.freenode.net:6667
+[17:24:59] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:25:59] Trying server 86.65.39.15:6667
+[17:27:02] Connected to 86.65.39.15
+[17:27:02] Disconnected from 86.65.39.15
+[17:27:03] Trying server irc.freenode.net:6667
+[17:27:03] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:28:03] Trying server 130.239.18.172:6667
+[17:28:11] Connected to 130.239.18.172
+[17:28:11] Disconnected from 130.239.18.172
+[17:29:03] Trying server chat.freenode.net:6667
+[17:29:03] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:30:03] Trying server 86.65.39.15:6667
+[17:30:04] Connected to 86.65.39.15
+[17:30:04] Disconnected from 86.65.39.15
+[17:31:03] Trying server irc.freenode.net:6667
+[17:31:45] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:32:03] Trying server 130.239.18.172:6667
+[17:33:04] Timeout: connect to 130.239.18.172
+[17:33:05] Trying server chat.freenode.net:6667
+[17:33:47] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:34:06] Trying server 86.65.39.15:6667
+[17:34:06] Connected to 86.65.39.15
+[17:34:06] Disconnected from 86.65.39.15
+[17:35:06] Trying server irc.freenode.net:6667
+[17:35:06] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:36:06] Trying server 130.239.18.172:6667
+[17:36:21] Connected to 130.239.18.172
+[17:36:21] Disconnected from 130.239.18.172
+[17:37:07] Trying server chat.freenode.net:6667
+[17:37:07] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:38:07] Trying server 86.65.39.15:6667
+[17:38:09] Connected to 86.65.39.15
+[17:38:09] Disconnected from 86.65.39.15
+[17:39:07] Trying server irc.freenode.net:6667
+[17:39:07] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:40:07] Trying server 130.239.18.172:6667
+[17:40:39] Connected to 130.239.18.172
+[17:40:39] Disconnected from 130.239.18.172
+[17:41:07] Trying server chat.freenode.net:6667
+[17:41:07] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:42:07] Trying server 86.65.39.15:6667
+[17:42:11] Connected to 86.65.39.15
+[17:42:11] Disconnected from 86.65.39.15
+[17:43:07] Trying server irc.freenode.net:6667
+[17:43:49] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:44:07] Trying server 130.239.18.172:6667
+[17:44:08] Connected to 130.239.18.172
+[17:44:08] Disconnected from 130.239.18.172
+[17:45:07] Trying server chat.freenode.net:6667
+[17:45:49] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:46:07] Trying server 86.65.39.15:6667
+[17:46:10] Connected to 86.65.39.15
+[17:46:10] Disconnected from 86.65.39.15
+[17:47:07] Trying server irc.freenode.net:6667
+[17:47:07] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:48:07] Trying server 130.239.18.172:6667
+[17:48:08] Connected to 130.239.18.172
+[17:48:08] Disconnected from 130.239.18.172
+[17:49:07] Trying server chat.freenode.net:6667
+[17:49:07] Failed connect to chat.freenode.net (DNS lookup failed)
+[17:50:07] Trying server 86.65.39.15:6667
+[17:51:10] Connected to 86.65.39.15
+[17:51:10] Disconnected from 86.65.39.15
+[17:51:11] Trying server irc.freenode.net:6667
+[17:51:11] Failed connect to irc.freenode.net (DNS lookup failed)
+[17:52:11] Trying server 130.239.18.172:6667
+[17:52:11] Connected to 130.239.18.172
+[17:52:11] -NOTICE- *** Looking up your hostname...
+[17:52:12] -NOTICE- *** Checking Ident
+[17:52:12] -NOTICE- *** Found your hostname
+[17:52:20] -NOTICE- *** No Ident response
+[17:52:26] Iseca joined #telerikacademy.
+[17:59:51] Disconnected from 130.239.18.172
+[17:59:52] Trying server chat.freenode.net:6667
+[17:59:53] Connected to chat.freenode.net
+[17:59:53] -NOTICE- *** Looking up your hostname...
+[17:59:53] -NOTICE- *** Checking Ident
+[17:59:53] -NOTICE- *** Found your hostname
+[18:00:03] -NOTICE- *** No Ident response
+[18:00:09] Iseca joined #telerikacademy.
