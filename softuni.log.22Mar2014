@@ -465,3 +465,69 @@
 [20:04:31] Disconnected from 130.239.18.172
 [20:04:59] Trying server chat.freenode.net:6667
 [20:04:59] Failed connect to chat.freenode.net (DNS lookup failed)
+[20:05:59] Trying server 86.65.39.15:6667
+[20:07:00] Timeout: connect to 86.65.39.15
+[20:07:01] Trying server irc.freenode.net:6667
+[20:07:43] Failed connect to irc.freenode.net (DNS lookup failed)
+[20:08:01] Trying server 130.239.18.172:6667
+[20:08:01] Connected to 130.239.18.172
+[20:08:01] Disconnected from 130.239.18.172
+[20:09:02] Trying server chat.freenode.net:6667
+[20:09:44] Failed connect to chat.freenode.net (DNS lookup failed)
+[20:10:02] Trying server 86.65.39.15:6667
+[20:11:05] Connected to 86.65.39.15
+[20:11:05] Disconnected from 86.65.39.15
+[20:11:06] Trying server irc.freenode.net:6667
+[20:11:06] Failed connect to irc.freenode.net (DNS lookup failed)
+[20:12:06] Trying server 130.239.18.172:6667
+[20:13:09] Connected to 130.239.18.172
+[20:13:09] Disconnected from 130.239.18.172
+[20:13:10] Trying server chat.freenode.net:6667
+[20:13:10] Failed connect to chat.freenode.net (DNS lookup failed)
+[20:14:10] Trying server 86.65.39.15:6667
+[20:14:17] Connected to 86.65.39.15
+[20:14:17] Disconnected from 86.65.39.15
+[20:15:11] Trying server irc.freenode.net:6667
+[20:15:11] Failed connect to irc.freenode.net (DNS lookup failed)
+[20:16:11] Trying server 130.239.18.172:6667
+[20:17:12] Timeout: connect to 130.239.18.172
+[20:17:13] Trying server chat.freenode.net:6667
+[20:17:13] Failed connect to chat.freenode.net (DNS lookup failed)
+[20:18:13] Trying server 86.65.39.15:6667
+[20:18:13] Connected to 86.65.39.15
+[20:18:13] Disconnected from 86.65.39.15
+[20:19:13] Trying server irc.freenode.net:6667
+[20:19:55] Failed connect to irc.freenode.net (DNS lookup failed)
+[20:20:13] Trying server 130.239.18.172:6667
+[20:20:14] Connected to 130.239.18.172
+[20:20:14] Disconnected from 130.239.18.172
+[20:21:13] Trying server chat.freenode.net:6667
+[20:21:55] Failed connect to chat.freenode.net (DNS lookup failed)
+[20:22:13] Trying server 86.65.39.15:6667
+[20:23:16] Connected to 86.65.39.15
+[20:23:16] Disconnected from 86.65.39.15
+[20:23:17] Trying server irc.freenode.net:6667
+[20:23:17] Failed connect to irc.freenode.net (DNS lookup failed)
+[20:24:17] Trying server 130.239.18.172:6667
+[20:24:18] Connected to 130.239.18.172
+[20:24:18] Disconnected from 130.239.18.172
+[20:25:17] Trying server chat.freenode.net:6667
+[20:25:17] Failed connect to chat.freenode.net (DNS lookup failed)
+[20:26:17] Trying server 86.65.39.15:6667
+[20:27:20] Connected to 86.65.39.15
+[20:27:20] Disconnected from 86.65.39.15
+[20:27:21] Trying server irc.freenode.net:6667
+[20:27:21] Failed connect to irc.freenode.net (DNS lookup failed)
+[20:28:21] Trying server 130.239.18.172:6667
+[20:29:22] Timeout: connect to 130.239.18.172
+[20:29:23] Trying server chat.freenode.net:6667
+[20:29:23] Failed connect to chat.freenode.net (DNS lookup failed)
+[20:30:23] Trying server 86.65.39.15:6667
+[20:31:26] Connected to 86.65.39.15
+[20:31:26] Disconnected from 86.65.39.15
+[20:31:27] Trying server irc.freenode.net:6667
+[20:31:27] Connected to irc.freenode.net
+[20:31:27] -NOTICE- *** Looking up your hostname...
+[20:31:28] -NOTICE- *** Checking Ident
+[20:31:28] -NOTICE- *** Found your hostname
+[20:31:38] -NOTICE- *** No Ident response
