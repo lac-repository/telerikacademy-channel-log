@@ -244,3 +244,83 @@
 [17:59:53] -NOTICE- *** Checking Ident
 [17:59:53] -NOTICE- *** Found your hostname
 [18:00:03] -NOTICE- *** No Ident response
+[18:39:34] -ERROR from server- Closing Link: wolf.yuhu.biz (Ping timeout: 265 seconds)
+[18:39:34] Disconnecting from server.
+[18:39:35] Trying server 86.65.39.15:6667
+[18:40:38] Connected to 86.65.39.15
+[18:40:38] Disconnected from 86.65.39.15
+[18:40:39] Trying server irc.freenode.net:6667
+[18:41:21] Failed connect to irc.freenode.net (DNS lookup failed)
+[18:41:39] Trying server 130.239.18.172:6667
+[18:41:40] Connected to 130.239.18.172
+[18:41:40] -NOTICE- *** Looking up your hostname...
+[18:42:26] -NOTICE- *** Checking Ident
+[18:42:26] -NOTICE- *** Found your hostname
+[18:42:26] -NOTICE- *** No Ident response
+[18:42:26] -ERROR from server- Closing Link: 127.0.0.1 (Connection timed out)
+[18:42:26] Disconnecting from server.
+[18:42:40] Trying server chat.freenode.net:6667
+[18:43:22] Failed connect to chat.freenode.net (DNS lookup failed)
+[18:43:40] Trying server 86.65.39.15:6667
+[18:44:42] Timeout: connect to 86.65.39.15
+[18:44:43] Trying server irc.freenode.net:6667
+[18:44:43] Failed connect to irc.freenode.net (DNS lookup failed)
+[18:45:43] Trying server 130.239.18.172:6667
+[18:45:44] Connected to 130.239.18.172
+[18:45:44] -NOTICE- *** Looking up your hostname...
+[18:45:45] -NOTICE- *** Checking Ident
+[18:45:45] -NOTICE- *** Found your hostname
+[18:45:50] -NOTICE- *** No Ident response
+[18:46:36] -ERROR from server- Closing Link: 127.0.0.1 (Connection timed out)
+[18:46:36] Disconnecting from server.
+[18:46:43] Trying server chat.freenode.net:6667
+[18:46:43] Failed connect to chat.freenode.net (DNS lookup failed)
+[18:47:43] Trying server 86.65.39.15:6667
+[18:48:46] Connected to 86.65.39.15
+[18:48:46] Disconnected from 86.65.39.15
+[18:48:47] Trying server irc.freenode.net:6667
+[18:48:47] Failed connect to irc.freenode.net (DNS lookup failed)
+[18:49:47] Trying server 130.239.18.172:6667
+[18:50:18] Connected to 130.239.18.172
+[18:50:18] -NOTICE- *** Looking up your hostname...
+[18:50:20] -NOTICE- *** Checking Ident
+[18:50:20] -NOTICE- *** Found your hostname
+[18:50:25] -NOTICE- *** No Ident response
+[18:51:11] -ERROR from server- Closing Link: 127.0.0.1 (Connection timed out)
+[18:51:11] Disconnecting from server.
+[18:51:11] Trying server chat.freenode.net:6667
+[18:51:11] Failed connect to chat.freenode.net (DNS lookup failed)
+[18:52:11] Trying server 86.65.39.15:6667
+[18:53:12] Timeout: connect to 86.65.39.15
+[18:53:13] Trying server irc.freenode.net:6667
+[18:53:55] Failed connect to irc.freenode.net (DNS lookup failed)
+[18:54:13] Trying server 130.239.18.172:6667
+[18:55:16] Connected to 130.239.18.172
+[18:55:16] Disconnected from 130.239.18.172
+[18:55:17] Trying server chat.freenode.net:6667
+[18:55:59] Failed connect to chat.freenode.net (DNS lookup failed)
+[18:56:17] Trying server 86.65.39.15:6667
+[18:57:20] Connected to 86.65.39.15
+[18:57:20] Disconnected from 86.65.39.15
+[18:57:21] Trying server irc.freenode.net:6667
+[18:57:21] Failed connect to irc.freenode.net (DNS lookup failed)
+[18:58:21] Trying server 130.239.18.172:6667
+[18:58:32] Connected to 130.239.18.172
+[18:58:32] -NOTICE- *** Looking up your hostname...
+[18:59:06] -NOTICE- *** Checking Ident
+[18:59:06] -NOTICE- *** Found your hostname
+[18:59:06] -NOTICE- *** No Ident response
+[18:59:06] -ERROR from server- Closing Link: 127.0.0.1 (Connection timed out)
+[18:59:06] Disconnecting from server.
+[18:59:21] Trying server chat.freenode.net:6667
+[18:59:21] Failed connect to chat.freenode.net (DNS lookup failed)
+[19:00:21] Trying server 86.65.39.15:6667
+[19:01:22] Timeout: connect to 86.65.39.15
+[19:01:23] Trying server irc.freenode.net:6667
+[19:01:23] Failed connect to irc.freenode.net (DNS lookup failed)
+[19:02:23] Trying server 130.239.18.172:6667
+[19:03:26] Connected to 130.239.18.172
+[19:03:26] Disconnected from 130.239.18.172
+[19:03:27] Trying server chat.freenode.net:6667
+[19:03:27] Failed connect to chat.freenode.net (DNS lookup failed)
+[19:04:27] Trying server 86.65.39.15:6667
