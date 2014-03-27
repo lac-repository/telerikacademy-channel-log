@@ -36,3 +36,16 @@
 [19:35:48] <vnantonov> priemam vsi4ki predlojeniq
 [19:38:55] <Deyan> само при мен ли се губи стреама
 [19:39:10] <rew1nd> при мен е ок
+[20:05:31] <vnantonov> (?!^[0-9]*$)(?!^[a-zA-Z]*$)^([a-zA-Z0-9]{6,15})$ oba4e mi e malko slojno kak da napravq ot 1 do 6 da sa bukvi i ot tam na tatuk da sa cifri i da ne zapo4va s bukva parolata
+[20:05:47] <vnantonov> s cigra da ne zapo4va
+[20:06:03] <vnantonov> 1 do 6 bukvi i ot tam natatukl da sa cifri i bukcvi
+[20:06:10] <vnantonov> ako nqkoi ima opit
+[20:06:13] <vnantonov> da spodeli
+[20:06:49] rew1nd (~tod@46.238.29.142) left #iseca.
+[20:11:01] <yulimoto> Нали в Сряда еййй, аз помислих, че няма да има тая седмица
+[20:12:38] rew1nd (~tod@46.238.29.142) joined #iseca.
+[20:20:48] <yulimoto> hackman: колко заема дефаултното php което е от  пакетната с-ма
+[20:22:25] <yulimoto> мерси
+[20:23:34] <yulimoto> hackman:  а колко заема един стандартен request към apache-то, дет се вика blank page ?
+[20:58:04] <yulimoto> hackman: примерно както ползваш 10000 vHost-а ako ползваш Match натоварва ли ?
+[20:59:52] <yulimoto> аха мерси :)
