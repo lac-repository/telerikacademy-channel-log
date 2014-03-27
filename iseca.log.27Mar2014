@@ -49,3 +49,12 @@
 [20:23:34] <yulimoto> hackman:  а колко заема един стандартен request към apache-то, дет се вика blank page ?
 [20:58:04] <yulimoto> hackman: примерно както ползваш 10000 vHost-а ako ползваш Match натоварва ли ?
 [20:59:52] <yulimoto> аха мерси :)
+[21:20:28] dyrgel (~kolio@79-100-2-93.btc-net.bg) joined #iseca.
+[21:48:10] <hackman> bye
+[21:48:11] <hackman> :)
+[21:48:43] <rew1nd> Благодаря :)
+[21:49:19] <rew1nd> не успях да открия лекцията за chroots, никъде
+[21:49:25] <rew1nd> някой да я пази
+[21:49:39] <rew1nd> трябва да върнем традицията всичко да се качва на гризли
+[21:52:36] hackman (~hackman@2001:67c:20d0:3a:f2de:f1ff:fe81:a2a) left irc: Ping timeout: 245 seconds
+[21:55:20] rew1nd (~tod@46.238.29.142) left #iseca.
