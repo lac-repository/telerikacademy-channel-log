@@ -24,3 +24,7 @@
 [14:21:19] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
 [14:32:22] nofearinc (~nofearinc@212.5.158.108) left irc: Ping timeout: 265 seconds
 [14:48:33] nofearinc (~nofearinc@87-126-205-255.btc-net.bg) joined #telerikacademy.
+[15:30:22] nofearinc (~nofearinc@87-126-205-255.btc-net.bg) left irc: Ping timeout: 265 seconds
+[15:45:52] nofearinc (~nofearinc@94.72.163.158) joined #telerikacademy.
+[15:51:03] nofearinc (~nofearinc@94.72.163.158) left irc: Read error: No route to host
+[15:52:29] nofearinc (~nofearinc@94.72.163.158) joined #telerikacademy.
