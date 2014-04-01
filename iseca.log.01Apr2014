@@ -5,3 +5,11 @@
 [02:51:42] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 265 seconds
 [02:52:16] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #iseca.
 [03:06:58] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 265 seconds
+[10:20:46] rew1nd (~tod@46.238.29.142) joined #iseca.
+[10:22:06] <rew1nd> Добро утро :)
+[10:22:06] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[10:22:34] <rew1nd> hackman, подобрявам се, уж :) дано продължат така нещата
+[10:22:34] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[10:22:44] <rew1nd> willie и тук е пощурял нещо...
+[10:22:44] <wilindex> ...
+[10:34:09] hackman (~hackman@wolf.yuhu.biz) left irc: Ping timeout: 252 seconds

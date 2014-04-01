@@ -4,3 +4,10 @@
 [02:51:42] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Ping timeout: 265 seconds
 [02:52:16] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #telerikacademy.
 [03:06:58] urban_filth (~urban_fil@95.111.6.98) left irc: Ping timeout: 265 seconds
+[10:20:45] rew1nd (~tod@46.238.29.142) joined #telerikacademy.
+[10:21:02] <rew1nd> good morning guys! :)
+[10:21:03] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[10:21:39] <rew1nd> ъ-ъ-ъм... някой се е опитал да прати нещо, но willie нещо се е сплашил :)
+[10:21:39] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[10:21:55] <rew1nd> може би и само второто
+[10:21:56] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
