@@ -12,3 +12,15 @@
 [10:21:55] <rew1nd> може би и само второто
 [10:21:56] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
 [13:56:26] -kloeri (~kloeri@freenode/staff/exherbo.kloeri) to $$*- [Global Notice] For purely non-profit reasons, all your nickserv accounts have been converted into freenode+ accounts; details at http://blog.freenode.net/2014/04/googleplusfreenode/. Thank you for using freenode.  
+[14:16:25] nofearinc (~nofearinc@212.5.158.108) joined #telerikacademy.
+[14:20:25] <yulimoto> брм
+[14:20:26] <wilindex> ...
+[14:20:39] <yulimoto> .weather yambol
+[14:20:40] <wilindex> ...
+[14:20:42] <wilindex> Yahoo! Weather - Yambol, BG: Mostly Cloudy, 17°C (62°F), 29in (1009mb), Gentle breeze 8kt (↘)
+[14:21:01] <yulimoto> eee чак пък мостли
+[14:21:01] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[14:21:18] <yulimoto> wilindex: zarad teb trqbwa da pisehm na shliokavica
+[14:21:19] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[14:32:22] nofearinc (~nofearinc@212.5.158.108) left irc: Ping timeout: 265 seconds
+[14:48:33] nofearinc (~nofearinc@87-126-205-255.btc-net.bg) joined #telerikacademy.
