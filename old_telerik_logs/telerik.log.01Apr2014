@@ -11,3 +11,4 @@
 [10:21:39] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
 [10:21:55] <rew1nd> може би и само второто
 [10:21:56] <wilindex> UnicodeDecodeError: 'ascii' codec can't decode byte 0xd0 in position 46: ordinal not in range(128) (file "/usr/local/lib/python2.7/dist-packages/willie/modules/tell.py", line 47, in dumpReminders)
+[13:56:26] -kloeri (~kloeri@freenode/staff/exherbo.kloeri) to $$*- [Global Notice] For purely non-profit reasons, all your nickserv accounts have been converted into freenode+ accounts; details at http://blog.freenode.net/2014/04/googleplusfreenode/. Thank you for using freenode.  
