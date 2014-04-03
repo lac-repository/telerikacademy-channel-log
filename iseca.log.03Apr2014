@@ -33,3 +33,9 @@
 [19:01:46] <yulimoto> да
 [19:02:03] <coolman_bg84> vijda se :)
 [19:03:32] <coolman_bg84> hackman,  samo edin vapros za pravene na vps koe e po podhodqshto lxc ili libvirt s qemu?
+[19:05:26] <yulimoto> hackman: лекцията ти от rogue беше супер бай дъ уей ? както и отговора на линус : фък но :)
+[19:05:28] <coolman_bg84> qsno mersiii mnogo!!!!!
+[19:17:24] <yulimoto> hackman: не разбрах забележката за OpenSSL ecdsa специално за openssl ли е или изобно за ecdsa, защото аз ползвам само ecdsa примерно за ssh ?
+[19:19:23] <yulimoto> мерси :)
+[19:23:00] <yulimoto> bind
+[19:23:03] <yulimoto> e na debian
