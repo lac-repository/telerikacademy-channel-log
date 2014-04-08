@@ -1,2 +1,11 @@
 [00:00:00] --- Tue Apr  8 2014
 [12:26:23] -kloeri_ (~kloeri@freenode/staff/exherbo.kloeri) to $$*- [Global Notice] Hi all. In the next few minutes we're going to restart a bunch of servers due to an openssl security vulnerability (CVE-2014-0160). This is unfortunately going to be very noisy but should be over with relatively quickly. Thanks for using freenode and have a good day.  
+[13:15:52] -kloeri (~kloeri@freenode/staff/exherbo.kloeri) to $$hobana.*- [Server Notice] Hi all. hobana.freenode.net is getting a quick restart due to the openssl security bug (CVE-2014-0160).
+[13:16:37] -NOTICE- Server Terminating. Received SIGTERM
+[13:16:38] Disconnected from irc.freenode.net
+[13:16:38] Trying server 130.239.18.172:6667
+[13:16:40] Connected to 130.239.18.172
+[13:16:40] -NOTICE- *** Looking up your hostname...
+[13:16:40] -NOTICE- *** Checking Ident
+[13:16:40] -NOTICE- *** Found your hostname
+[13:16:50] -NOTICE- *** No Ident response

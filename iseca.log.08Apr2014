@@ -50,3 +50,18 @@
 [12:29:15] KpeTeHoug (~GT@212.36.13.10) returned to #iseca.
 [12:29:38] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
 [12:33:34] hackman (~hackman@management.1h.com) returned to #iseca.
+[13:15:52] -kloeri (~kloeri@freenode/staff/exherbo.kloeri) to $$hobana.*- [Server Notice] Hi all. hobana.freenode.net is getting a quick restart due to the openssl security bug (CVE-2014-0160).
+[13:16:37] -NOTICE- Server Terminating. Received SIGTERM
+[13:16:38] Disconnected from irc.freenode.net
+[13:16:38] Trying server 130.239.18.172:6667
+[13:16:40] Connected to 130.239.18.172
+[13:16:40] -NOTICE- *** Looking up your hostname...
+[13:16:40] -NOTICE- *** Checking Ident
+[13:16:40] -NOTICE- *** Found your hostname
+[13:16:50] -NOTICE- *** No Ident response
+[13:16:56] Iseca joined #iseca.
+[13:16:56] #iseca: mode change '+v Iseca' by ChanServ!ChanServ@services.
+[13:17:17] Guest21360 (~dencho@95.111.14.183) joined #iseca.
+[13:18:10] <hackman> за малко да си помисля, че ми е паднал net-a ;)
+[13:29:36] demonoid_com (~user@fw.citylan.bg) got netsplit.
+[13:29:54] demonoid_com (~user@fw.citylan.bg) returned to #iseca.
