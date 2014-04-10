@@ -15,3 +15,5 @@
 [10:55:26] Nick change: dencho -> Guest6804
 [11:17:49] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) left irc: Remote host closed the connection
 [11:18:14] yulimoto (~yulimoto@gateway/tor-sasl/yulimoto) joined #iseca.
+[13:26:28] <yulimoto> имаше ли някаква опция в конфига на sshd да не ми фрийзва след определено време, когато не се ползва ?
+[13:27:00] <yulimoto> ттл ала бала нещо
