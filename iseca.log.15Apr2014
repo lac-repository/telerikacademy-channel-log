@@ -15,3 +15,8 @@
 [08:01:32] Guest95385 (~dencho@apollo.netissat.bg) left irc: Ping timeout: 276 seconds
 [08:03:02] qwertyuiop (~dencho@apollo.netissat.bg) left irc: Ping timeout: 240 seconds
 [08:04:53] <yulimoto> hackman: да не тестваш нов клиент ?
+[09:22:49] qwertyuiop (~dencho@95.111.14.183) joined #iseca.
+[09:36:51] <hackman> yulimoto, не тествах disconnect през dbus-а
+[09:37:02] <hackman> за да мога да disconnect-вам при suppend
+[09:37:12] <hackman> направих същото и за pidgin-а
+[09:44:34] <yulimoto> :)
